@@ -1,0 +1,818 @@
+{
+   "elements":[
+      {
+         "id":"hunger",
+         "label":"Inedia",
+         "aspects":{
+            "illhealth":1,
+            "grail":2,
+            "ingredient":1
+         },
+         "slots":[
+            {
+               "id":"nourishment",
+               "label":"Nutrimento",
+               "actionId":"dream",
+               "description":"Per riprendermi devo mangiare.",
+               "required":{
+                  "funds":1
+               }
+            }
+         ],
+         "description":"Ho bisogno di riposo e nutrimento, se voglio riprendermi. Ma quando mi viene l’acquolina, quando la mia vista nuota, vedo la coppa rossa; ed ogni tanto mi parla. [Dormire con l’Inedia prima che la carda svanisca ti permetterà di recuperare la Salute.]",
+         "xtriggers":{
+            "restorehealth":"health",
+            "scar_ability":"scar_heart"
+         },
+         "lifetime":60,
+         "decayTo":"decrepitude"
+      },
+      {
+         "id":"health",
+         "label":"Salute",
+         "aspects":{
+            "heart":2,
+            "ingredient":1,
+            "ability":1
+         },
+         "xtriggers":{
+            "damagehealth":"injury",
+            "fallsick":"affliction",
+            "destroyhealth":"decrepitude",
+            "fatiguing":"fatigue",
+            "employment":"fatigue",
+            "job":"fatigue",
+            "ritual":"fatigue",
+            "society":"fatigue",
+            "scar_ability":"scar_heart"
+         },
+         "description":"Questo è il mio corpo. Ci sono altri corpi, ma questo è il mio, e la mia mente ne ha bisogno come un fungo del terreno. [Con abbastanza Vitalità puoi guadagnare altra Salute.]"
+      },
+      {
+         "id":"vitality",
+         "label":"Vitalità",
+         "slots":[
+            {
+               "id":"morevitality",
+               "label":"Più Vitalità",
+               "actionId":"study",
+               "description":"Con abbastanza Vitalità - o qualcosa di più esotico -  posso incrementare la mia Salute.",
+               "required":{
+                  "vitality":1,
+                  "influenceheart":1
+               }
+            }
+         ],
+         "aspects":{
+            "advancement":1,
+            "heart":1,
+            "influence":1
+         },
+         "description":"L’esercizio, o qualcosa di più raro, mi ha rinvigorito. [Usa con un’altra Vitalità per migliorare le tue abilità. Dura solamente tre minuti, se inutilizzata.]",
+         "xtriggers":{
+            "upgradeinfluence":"influenceheartc"
+         },
+         "lifetime":180
+      },
+      {
+         "id":"vitalityplus",
+         "label":"Vitalità: una Lezione Appresa",
+         "aspects":{
+            "advancement":1,
+            "heart":2,
+            "influence":1
+         },
+         "description":"Sono pronto a migliorare. [Utilizza questo con la tua abilità Forza per migliorare l’abilità e guadagnare Salute. Dura fino a cinque minuti prima che decada in Vitalità.]",
+         "xtriggers":{
+            "upgradeinfluence":"influenceheartc"
+         },
+         "lifetime":300,
+         "decayTo":"vitality"
+      },
+      {
+         "id":"restlessness",
+         "label":"Irrequietezza",
+         "aspects":{
+            "influence":1,
+            "forge":2,
+            "heart":2,
+            "grail":2,
+            "lantern":2,
+            "moth":2,
+            "memory":1
+         },
+         "description":"Mi ha preso un desiderio irrequieto. Sento di voler fare... <i>qualcosa</i>. Cosa, di preciso?",
+         "lifetime":60,
+         "decayTo":"dread"
+      },
+      {
+         "id":"bloodshed",
+         "label":"Massacro",
+         "description":"Il sangue è stato versato.",
+         "lifetime":1
+      },
+      {
+         "id":"injury",
+         "label":"Una Lesione",
+         "aspects":{
+            "illhealth":1,
+            "knock":2,
+            "ingredient":1
+         },
+         "slots":[
+            {
+               "id":"medicines",
+               "label":"Medicine, o...",
+               "actionId":"dream",
+               "description":"Potrei pagare la visita di un dottore...",
+               "required":{
+                  "funds":1
+               }
+            },
+            {
+               "id":"vitality",
+               "label":"...Vitalità",
+               "description":"...ma forse ho bisogno solamente di un po’ di riposo.",
+               "required":{
+                  "vitality":1
+               },
+               "actionId":"dream"
+            }
+         ],
+         "description":"Ho bisogno di riposo e nutrimento, se voglio riprendermi. Ma la Madre delle Formiche guarda di buon occhio le ferite. [Dormire con una Ferita prima che la carta svanisca permette di recuperare la Salute.]",
+         "xtriggers":{
+            "restorehealth":"health",
+            "scar_ability":"scar_heart"
+         },
+         "lifetime":150,
+         "decayTo":"decrepitude"
+      },
+      {
+         "id":"disillusionment",
+         "label":"Passione (Disillusa)",
+         "description":"Le mie passioni sono esaurite. [Questa carta non può essere usata, ma si ripristinerà dopo sessanta secondi.]",
+         "lifetime":60,
+         "decayTo":"passion",
+         "icon":"passion",
+         "xtriggers":{
+            "scarability":"scar_moth",
+            "toreason":"concentration",
+            "damagepassion":"fascination"
+         },
+         "resaturate":true
+      },
+      {
+         "id":"passionexhausted",
+         "label":"Passione (Esausta)",
+         "description":"Le mie passioni sono esaurite. [Questa carta non può essere usata, ma si ripristinerà dopo sessanta secondi.]",
+         "lifetime":60,
+         "decayTo":"passion",
+         "icon":"passion",
+         "xtriggers":{
+            "scarability":"scar_moth",
+            "toreason":"concentration",
+            "damagepassion":"fascination"
+         },
+         "resaturate":true
+      },
+      {
+         "id":"fatigue",
+         "label":"Salute (Stanca)",
+         "aspects":{
+            "illhealth":1,
+            "heart":1
+         },
+         "description":"Questa carta non può essere usata, ma si ripristinerà dopo sessanta secondi. Puoi ripristinarla più velocemente con Sognare.",
+         "xtriggers":{
+            "restorehealth":"health",
+            "damagehealth":"injury",
+            "destroyhealth":"decrepitude",
+            "fallsick":"affliction",
+            "scarability":"scar_heart"
+         },
+         "lifetime":60,
+         "decayTo":"health",
+         "icon":"health",
+         "resaturate":true
+      },
+      {
+         "id":"affliction",
+         "label":"Un’Afflizione",
+         "aspects":{
+            "illhealth":1,
+            "winter":2,
+            "ingredient":1
+         },
+         "xtriggers":{
+            "restorehealth":"health",
+            "scarability":"scar_heart"
+         },
+         "slots":[
+            {
+               "id":"medicine",
+               "label":"Medicine, o...",
+               "actionId":"dream",
+               "description":"Potrei pagare la visita di un dottore...",
+               "required":{
+                  "funds":1
+               }
+            },
+            {
+               "id":"vitality",
+               "label":"...Vitalità",
+               "actionId":"dream",
+               "description":"...ma forse ho bisogno solamente di un po’ di riposo.",
+               "required":{
+                  "vitality":1
+               }
+            }
+         ],
+         "description":"La malattia mi ha indebolito. Ho bisogno di riposo e nutrimento, se voglio riprendermi. [Sogna con un’Afflizione per trasformarla di nuovo in Salute, prima che la carta svanisca.]",
+         "lifetime":180,
+         "decayTo":"decrepitude"
+      },
+      {
+         "id":"reason",
+         "label":"Ragione",
+         "aspects":{
+            "lantern":2,
+            "ingredient":1,
+            "ability":1
+         },
+         "description":"'Nessun organismo vivente può continuare ad esistere a lungo in condizioni di realtà assoluta.' - Shirley Jackson\n\n[Con Erudizione, puoi Studiare per guadagnare più Ragione.]",
+         "xtriggers":{
+            "damagereason":"dread",
+            "fatiguing":"concentration",
+            "employment":"concentration",
+            "job":"concentration",
+            "topassion":"passion",
+            "ritual":"concentration",
+            "society":"concentration",
+            "scarability":"scar_lantern"
+         }
+      },
+      {
+         "id":"concentration",
+         "label":"Ragione [Offuscata]",
+         "description":"La mia mente è stanca. [Questa carta non può essere usata, ma si ripristinerà dopo sessanta secondi.]",
+         "lifetime":60,
+         "decayTo":"reason",
+         "icon":"reason",
+         "xtriggers":{
+            "scarability":"scar_lantern",
+            "topassion":"passionexhausted",
+            "damagereason":"dread"
+         },
+         "resaturate":true
+      },
+      {
+         "id":"erudition",
+         "label":"Erudizione",
+         "slots":[
+            {
+               "id":"moreerudition",
+               "label":"Più Erudizione",
+               "actionId":"study",
+               "description":"Con abbastanza Erudizione - o talvolta qualcosa di più esotico -  posso incrementare la mia Ragione.",
+               "required":{
+                  "erudition":1,
+                  "influencelantern":1
+               }
+            }
+         ],
+         "aspects":{
+            "advancement":1,
+            "lantern":1,
+            "influence":1
+         },
+         "description":"Assorbo la conoscenza come un’ombra assorbe la luce. Potrei essere vicino al progresso. [L’Erudizione può essere usata con Studiare per guadagnare Ragione. Dura solo tre minuti, se non utilizzata.]",
+         "lifetime":180,
+         "xtriggers":{
+            "upgradeinfluence":"influencelanternc"
+         }
+      },
+      {
+         "id":"eruditionplus",
+         "label":"Erudizione: una Lezione Appresa",
+         "aspects":{
+            "advancement":1,
+            "lantern":2,
+            "influence":1
+         },
+         "description":"Sono pronto a migliorare. [Usa questo con la tua abilità Erudizione per migliorare l’abilità e guadagnare Ragione. Dura fino a cinque minuti prima che decada in Eruditione.]",
+         "lifetime":300,
+         "xtriggers":{
+            "upgradeinfluence":"influencelanternc"
+         },
+         "decayTo":"erudition"
+      },
+      {
+         "id":"dread",
+         "label":"Terrore",
+         "aspects":{
+            "edge":2,
+            "inducesdespair":1,
+            "influence":1,
+            "illhealth":1,
+            "memory":1
+         },
+         "slots":[
+            {
+               "id":"reminders",
+               "label":"Promemoria",
+               "actionId":"dream",
+               "required":{
+                  "contentment":1
+               },
+               "description":"Ho bisogno di un po’ di pace, o di un momento di felicità. [Troppo Terrore ti distruggerà. Appagamento può curarlo.]"
+            },
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Forse posso usare il mio Terrore per rinforzare un influsso pericoloso.",
+               "required":{
+                  "influenceedge":1,
+                  "influencewinter":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere gli influssi al lavoro, se voglio rinforzarle o sovvertirle. [Avrai bisogno di basi importanti nella tradizione pertinente.]",
+               "required":{
+                  "fragmentedgec":1,
+                  "fragmentedged":1,
+                  "fragmentedgee":1,
+                  "fragmentedgef":1,
+                  "fragmentedgeg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Ho visto troppo. Un attanagliante terrore senza nome ha i suoi denti nelle mie speranze; un orrore esistenziale.",
+         "lifetime":180,
+         "xtriggers":{
+            "upgradeinfluence":"influenceedgec",
+            "glorify":"fascination"
+         }
+      },
+      {
+         "id":"passion",
+         "label":"Passione",
+         "aspects":{
+            "moth":2,
+            "ingredient":1,
+            "ability":1
+         },
+         "description":"'Le menti noiose non sono mai né intuitive né matematiche.' - Blaise Pascal\n\n[Con abbastanza Barlume, puoi Studiare per guadagnare più Passione.]",
+         "xtriggers":{
+            "damagepassion":"fascination",
+            "plead":"disillusionment",
+            "fatiguing":"passionexhausted",
+            "employment":"passionexhausted",
+            "job":"passionexhausted",
+            "toreason":"reason",
+            "ritual":"passionexhausted",
+            "society":"passionexhausted"
+         }
+      },
+      {
+         "id":"decrepitude",
+         "label":"Decrepitezza",
+         "description":"Alcune ferite non si rimarginano mai veramente. [Le Lesioni non curate e l’Inedia divengono Decrepitezza, che non ritorna a Salute. La Decrepitezza rimane fino alla morte.]",
+         "aspects":{
+            "ability":1,
+            "winter":1,
+            "remnant":1
+         },
+         "xtriggers":{
+            "tohealth":"health",
+            "alzabo":"memory.honeyed"
+         },
+         "slots":[
+            {
+               "id":"consume",
+               "label":"Consume",
+               "required":{
+                  "ingredient":1
+               },
+               "forbidden":{
+                  "poison":1
+               },
+               "actionId":"dream"
+            }
+         ]
+      },
+      {
+         "id":"glimmering",
+         "label":"Barlume",
+         "slots":[
+            {
+               "id":"moreglimmering",
+               "label":"Più Barlumi",
+               "actionId":"study",
+               "description":"Con abbastanza Barlume - o talvolta qualcosa di più esotico - posso incrementare la mia Passione.",
+               "required":{
+                  "glimmering":1,
+                  "influencemoth":1
+               }
+            }
+         ],
+         "aspects":{
+            "advancement":1,
+            "moth":1,
+            "influence":1
+         },
+         "description":"Le mie emozioni sono più grandi del solito. Ci sono cose che non comprenderò mai, e queste cose saranno sempre preziose, ma proprio ora io sono più vicino ad esse. [Un Barlume può essere Studiato per guadagnare Passione. Dura solo tra minuti, se non utilizzato.]",
+         "lifetime":180,
+         "xtriggers":{
+            "upgradeinfluence":"influencemothc"
+         }
+      },
+      {
+         "id":"glimmeringplus",
+         "label":"Barlume: una Lezione Appresa",
+         "aspects":{
+            "advancement":1,
+            "moth":2,
+            "influence":1
+         },
+         "description":"Sono pronto a migliorare. [Usa questo con la tua abilità Immaginazione per migliorare l’abilità e guadagnare Passione. Dura fino a cinque minuti prima che decada in Barlume.]",
+         "lifetime":300,
+         "xtriggers":{
+            "upgradeinfluence":"influencemothc"
+         },
+         "decayTo":"glimmering"
+      },
+      {
+         "id":"fascination",
+         "label":"Seduzione",
+         "aspects":{
+            "moth":2,
+            "illhealth":1,
+            "influence":1,
+            "memory":1
+         },
+         "slots":[
+            {
+               "id":"reminders",
+               "label":"Promemoria",
+               "required":{
+                  "dread":1,
+                  "fleeting":1
+               },
+               "actionId":"dream",
+               "description":"La grigia realtà stabilizzerà la mia anima."
+            },
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Forse posso usare la mia Seduzione per rinforzare un influsso allettante.",
+               "required":{
+                  "influencemoth":1,
+                  "influencelantern":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere gli influssi al lavoro, se voglio rinforzarle o sovvertirle. [Avrai bisogno di basi importanti nella tradizione pertinente.]",
+               "required":{
+                  "fragmentmothc":1,
+                  "fragmentmothd":1,
+                  "fragmentmothe":1,
+                  "fragmentmothf":1,
+                  "fragmentmothg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"La luce FUORIESCE dalle FESSURE. La mia mente è PIÙ LUMINOSA di quanto non sia MAI stata. TANTO MI INNALZO QUANTO VEDO.",
+         "lifetime":180,
+         "xtriggers":{
+            "upgradeinfluence":"influencemothc"
+         }
+      },
+      {
+         "id":"scholarlatin",
+         "label":"Dotto: Latino",
+         "aspects":{
+            "language":1
+         },
+         "slots":[
+            {
+               "id":"Text",
+               "label":"Testo Non Tradotto",
+               "required":{
+                  "textlatin":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Una lingua morta: morta come i diamanti. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "unique":true
+      },
+      {
+         "id":"scholarfucine",
+         "label":"Dotto: Fucino",
+         "aspects":{
+            "language":1
+         },
+         "slots":[
+            {
+               "id":"Text",
+               "label":"Testo Non Tradotto",
+               "required":{
+                  "textfucine":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Delle persone vissero ad est del perduto lago Fucino. Orazio aveva avvertito che la loro era la terra delle streghe. Questa era la loro lingua, chiamata da alcuni 'la lingua asciutta' e da altri 'la lingua delle streghe'.[Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "unique":true
+      },
+      {
+         "id":"scholargreek",
+         "label":"Dotto: Greco",
+         "aspects":{
+            "language":1
+         },
+         "slots":[
+            {
+               "id":"Text",
+               "label":"Testo Non Tradotto",
+               "required":{
+                  "textgreek":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Non c’è alcun dubbio che tu sia pratico di ogni varietà del Greco, dagli inizi a Bisanzio. Ma è cosa buona che tu tenga queste opere di riferimento. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "unique":true
+      },
+      {
+         "id":"scholarphrygian",
+         "label":"Dotto: Frigio",
+         "slots":[
+            {
+               "id":"Text",
+               "label":"Testo Non Tradotto",
+               "required":{
+                  "textphrygian":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "aspects":{
+            "language":1
+         },
+         "description":"I Frigi adoravano la Grande Madre, che noi chiamiamo 'il Graal'. La loro era la terra nella quale la Sorellanza del Nodo è nata, e questa è la lingua nella quale il Pellefolgore supplicò alla sua ascensione. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "unique":true
+      },
+      {
+         "id":"scholararamaic",
+         "label":"Dotto: Aramaico",
+         "slots":[
+            {
+               "id":"Text",
+               "label":"Testo Non Tradotto",
+               "required":{
+                  "textaramaic":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "aspects":{
+            "language":1
+         },
+         "description":"La lingua di Aram, e di tutti i suoi innumerevoli figli in questi ultimi tremila anni e più. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "unique":true
+      },
+      {
+         "id":"scholarmandaic",
+         "label":"Dotto: Basso Mandaico",
+         "slots":[
+            {
+               "id":"Text",
+               "label":"Testo Non Tradotto",
+               "required":{
+                  "textmandaic":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "aspects":{
+            "language":1
+         },
+         "description":"I più segreti scritti sui riti più intimi delle più profonde sette del profondo deserto. La madrelingua, si dice, della stessa Madre delle Formiche. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "unique":true
+      },
+      {
+         "id":"scholarsanskrit",
+         "label":"Dotto: Sanscrito",
+         "slots":[
+            {
+               "id":"Text",
+               "label":"Testo Non Tradotto",
+               "required":{
+                  "textsanskrit":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "aspects":{
+            "language":1
+         },
+         "description":"La più santa lingua del Subcontinente. La porta a quattromila anni di poesia, cerimonie e misteri ora si apre davanti a te, se riesci ad affrontare la sinuosità a loto del suo vocabolario. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "unique":true
+      },
+      {
+         "id":"scholarvak",
+         "label":"Dotto: Vak",
+         "slots":[
+            {
+               "id":"Text",
+               "label":"Testo Non Tradotto",
+               "required":{
+                  "textvak":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "aspects":{
+            "language":1
+         },
+         "description":"Prima che gli dei si ergessero dal sangue, prima che qualsiasi scimmia si ergesse, questa era la lingua udita nella Casa del Sole. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "unique":true
+      },
+      {
+         "id":"fleeting",
+         "label":"Ricordo Fugace",
+         "description":"Un momento nel tempo. In un altro momento, sarà svanito.",
+         "aspects":{
+            "secrethistories":2,
+            "moth":2,
+            "influence":1,
+            "memory":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Forse posso trovare qualcosa nelle mie memorie per rinforzare un influsso transitorio.",
+               "required":{
+                  "influencemoth":1,
+                  "influencelantern":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere gli influssi al lavoro, se voglio rinforzarle o sovvertirle. [Avrai bisogno di basi importanti nella tradizione pertinente.]",
+               "required":{
+                  "fragmentmothc":1,
+                  "fragmentmothd":1,
+                  "fragmentmothe":1,
+                  "fragmentmothf":1,
+                  "fragmentmothg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "lifetime":120,
+         "xtriggers":{
+            "upgradeinfluence":"influencemothc"
+         }
+      },
+      {
+         "id":"contentment",
+         "label":"Soddisfazione",
+         "aspects":{
+            "lantern":2,
+            "heart":2,
+            "influence":1
+         },
+         "description":"Sono felice, penso. [Soddisfazione difende dal Terrore; ma la Soddisfazione non dura.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Forse posso usare la mia Soddisfazione per rinforzare un influsso positivo.",
+               "required":{
+                  "influencelantern":1,
+                  "influenceheart":1,
+                  "influencewinter":1,
+                  "influenceforge":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere gli influssi al lavoro, se voglio rinforzarle o sovvertirle. [Avrai bisogno di basi importanti nella tradizione pertinente.]",
+               "required":{
+                  "fragmentheartc":1,
+                  "fragmentheartd":1,
+                  "fragmenthearte":1,
+                  "fragmentheartf":1,
+                  "fragmentheartg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influenceheartc"
+         }
+      },
+      {
+         "id":"scar_edge",
+         "label":"Ferita: Esperienza Brutale",
+         "description":"FAUSTUS: Penso che l’Inferno sia una favola. MEPHISTOPHILIS: Sì, continua a pensare così, finché l’esperienza ti cambierà l’opinione. [Hai compiuto un sacrificio permanente per il potere.]",
+         "aspects":{
+            "tool":1,
+            "edge":4,
+            "scar":1
+         }
+      },
+      {
+         "id":"scar_knock",
+         "label":"Ferita: Fistola Mezza Curata",
+         "description":"Non tutte le porte sono ferite; ma tutte le ferite sono porte. [Hai compiuto un sacrificio permanente per il potere.]",
+         "aspects":{
+            "tool":1,
+            "knock":4,
+            "scar":1
+         }
+      },
+      {
+         "id":"scar_winter",
+         "label":"Ferita: Vecchia Cicatrice",
+         "description":"Fai un passo verso il tramonto, e vedrai le prime stelle della notte. [Hai compiuto un sacrificio permanente per il potere.]",
+         "aspects":{
+            "tool":1,
+            "winter":4,
+            "scar":1
+         }
+      },
+      {
+         "id":"scar_heart",
+         "label":"Ferita: Un Cuore Errante",
+         "description":"Ho così tanta vita in me. È difficile non muoversi. Quando mi siedo, le mie articolazioni bruciano. So che se mi fermassi, mi potrei fermare per sempre. [Hai compiuto un sacrificio permanente per il potere. Fai attenzione: a differenza della Salute, questa carta non soddisferà la Malattia o la Fame.]",
+         "aspects":{
+            "tool":1,
+            "heart":4,
+            "scar":1
+         },
+         "xtriggers":{
+            "job":"scar_heart_fatigued",
+            "employment":"scar_heart_fatigued",
+            "ritual":"scar_heart_fatigued"
+         }
+      },
+      {
+         "id":"scar_heart_fatigued",
+         "label":"Ferita: Un Cuore Errante (Sforzato)",
+         "description":"Le mie arterie cantano, le mie vene bruciano. Non posso spingermi oltre. [Attendi.]",
+         "decayTo":"scar_heart",
+         "lifetime":60,
+         "resaturate":true
+      },
+      {
+         "id":"scar_moth",
+         "label":"Ferita: Un Aspetto Flessibile",
+         "description":"Ho indossato così tante forme. Con ogni nuova forma è sempre più difficile ricordare il mio volto originale. Perfino la cartilagine si ammorbidisce quando l'animo si agita. [Hai compiuto un sacrificio permanente per il potere.]",
+         "aspects":{
+            "tool":1,
+            "moth":4,
+            "scar":1
+         },
+         "xtriggers":{
+            "job":"scar_moth_fatigued",
+            "employment":"scar_moth_fatigued",
+            "ritual":"scar_moth_fatigued"
+         }
+      },
+      {
+         "id":"scar_moth_fatigued",
+         "label":"Ferita: Un Aspetto Flessibile (Sforzato)",
+         "description":"Con ogni nuova espressione le mie caratteristiche si increspano come l’acqua. Se non sto attento potrei dissolvermi interamente. [Attendi.]",
+         "decayTo":"scar_moth",
+         "lifetime":60,
+         "resaturate":true
+      },
+      {
+         "id":"scar_lantern",
+         "label":"Ferita: Una Traslucidità",
+         "description":"Ora talvolta sono bellissimo sotto la pelle. Quando mi piego fino all’angolo giusto - quando i miei indumenti cascano a parte - quando l’occhio è ansioso - la mia forma è una perfetta rivelazione. [Hai compiuto un sacrificio permanente per il potere.]",
+         "aspects":{
+            "tool":1,
+            "lantern":4,
+            "scar":1
+         }
+      }
+   ]
+}

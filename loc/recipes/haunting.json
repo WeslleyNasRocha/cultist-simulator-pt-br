@@ -1,0 +1,551 @@
+{
+   "recipes":[
+      {
+         "id":"summoning_haunt_devourer",
+         "actionId":"haunting",
+         "requirements":{
+            "devourer":1
+         },
+         "startdescription":"L'evocazione si è liberata!",
+         "warmup":0,
+         "linked":[
+            {
+               "id":"summoning_haunt_devourer_eatsmortal",
+               "chance":50
+            },
+            {
+               "id":"summoning_haunt_devourer_damages_health",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"summoning_haunt_devourer_eatsmortal",
+         "label":"Un Divoratore Nascosto",
+         "actionId":"haunting",
+         "startdescription":"La tua evocazione sta vagando per il distretto alla ricerca di mortali da divorare. [Più è alto l'aspetto Divoratore, più è facile che faccia del male ad un mortale.]",
+         "description":"La tua evocazione è tornata alla sua dimora. Non farà male a nessuno, per ora.",
+         "slots":[
+            {
+               "id":"Consuming",
+               "label":"Consumazione",
+               "required":{
+                  "mortal":1
+               },
+               "greedy":true
+            }
+         ],
+         "comments":"This isn't currently in use. We only allow devourers to destroy evidence, not haunt investigators, so summoners might be understandably annoyed.",
+         "alt":[
+            {
+               "id":"devourer_haunting_mortal_highdevourer",
+               "chance":100
+            },
+            {
+               "id":"devourer_haunting_mortal_middevourer",
+               "chance":100
+            },
+            {
+               "id":"devourer_haunting_mortal_lowdevourer",
+               "chance":100
+            }
+         ],
+         "warmup":30
+      },
+      {
+         "id":"devourer_haunting_mortal_highdevourer",
+         "label":"Un'Evocazione Fuggita si Avvicina alla Sua Vittima",
+         "actionId":"haunting",
+         "startdescription":"Più vicina ogni volta che controlli l'orologio, come un venticello circolare, come la spirale del fiume.",
+         "description":"La morte arriva senza essere vista, ma si può sentire.",
+         "requirements":{
+            "mortal":1,
+            "devourer":10
+         },
+         "warmup":15,
+         "linked":[
+            {
+               "id":"devourer_haunting_mortal_success",
+               "chance":100
+            },
+            {
+               "id":"devourer_haunting_mortal_failure",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"devourer_haunting_mortal_middevourer",
+         "label":"Un'Evocazione Fuggita si Avvicina alla Sua Vittima",
+         "actionId":"haunting",
+         "startdescription":"La vittima sentirà che qualcosa non va. Ascolterà i rumori della notte, e proverà a prepararsi.",
+         "description":". devourer_haunting_mortal_middevourer",
+         "requirements":{
+            "mortal":1,
+            "devourer":5
+         },
+         "warmup":15,
+         "linked":[
+            {
+               "id":"devourer_haunting_mortal_success",
+               "chance":70
+            },
+            {
+               "id":"devourer_haunting_mortal_failure",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"devourer_haunting_mortal_lowdevourer",
+         "label":"Un'Evocazione Fuggita si Avvicina alla Sua Vittima",
+         "actionId":"haunting",
+         "startdescription":"È solo una minaccia moderata, ma anche una minaccia moderata può essere letale, talvolta.",
+         "description":". devourer_haunting_mortal_lowdevourer",
+         "requirements":{
+            "mortal":1
+         },
+         "comments":"Leaving 'Devourer' requirement out of here allows us to catch old-style hauntings where a spirit is not present in the verb. otherwise they loop forever!",
+         "warmup":15,
+         "linked":[
+            {
+               "id":"devourer_haunting_mortal_success",
+               "chance":30
+            },
+            {
+               "id":"devourer_haunting_mortal_failure",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"devourer_haunting_mortal_success",
+         "label":"L'Evocazione Fuggita ha Mietuto una Vittima",
+         "actionId":"haunting",
+         "startdescription":".",
+         "description":"I primi raggi del sole cadranno sugli occhi aperti di un cadavere. C'è spesso un prezzo da pagare quando si compie un'evocazione imprudente, ma non è sempre l'evocatore a pagarlo.",
+         "aspects":{
+            "killmortal":1,
+            "killsummoned":1
+         },
+         "effects":{
+            "notoriety":1
+         }
+      },
+      {
+         "id":"devourer_haunting_mortal_failure",
+         "label":"L'Evocazione Fuggita ha destato l'Orrore sulla sua Vittima",
+         "actionId":"haunting",
+         "startdescription":".",
+         "description":"La vittima è soppravvissuta, dopo tutto! Ma la storia di questa notte si spanderà come una macchia d'olio.",
+         "effects":{
+            "notoriety":1
+         },
+         "aspects":{
+            "killsummoned":1
+         }
+      },
+      {
+         "id":"summoning_haunt_devourer_damages_health",
+         "label":"Un Divoratore Nascosto",
+         "actionId":"haunting",
+         "startdescription":"La tua evocazione cercherà di prenderti qualcosa, prima di tornare nella sua dimora, sotto la pelle del mondo. [Più è alto l'aspetto Divoratore, più è facile che ti faccia del male.]",
+         "description":"La cosa che hai evocato è ritornata nel suo luogo d'origine. Non ti farà più male, per ora.",
+         "slots":[
+            {
+               "id":"consuming",
+               "label":"Consumazione",
+               "required":{
+                  "health":1
+               },
+               "greedy":true
+            }
+         ],
+         "warmup":30,
+         "alt":[
+            {
+               "id":"devourer_haunting_damageshealth_highdevourer",
+               "chance":100
+            },
+            {
+               "id":"devourer_haunting_damageshealth_middevourer",
+               "chance":100
+            },
+            {
+               "id":"devourer_haunting_damageshealth_lowdevourer",
+               "chance":100
+            }
+         ],
+         "linked":[
+            {
+               "id":"summoning_haunt_devourer_damages_health"
+            }
+         ]
+      },
+      {
+         "id":"devourer_haunting_damageshealth_highdevourer",
+         "label":"Un'Evocazione Fuggita Attende il Suo Momento",
+         "actionId":"haunting",
+         "startdescription":"Sta giocando con me?",
+         "description":".",
+         "requirements":{
+            "health":1,
+            "devourer":10
+         },
+         "warmup":15,
+         "linked":[
+            {
+               "id":"devourer_haunting_damageshealth_success",
+               "chance":100
+            },
+            {
+               "id":"devourer_haunting_damageshealth_failure",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"devourer_haunting_damageshealth_middevourer",
+         "label":"Un'Evocazione Fuggita Ti Attende",
+         "actionId":"haunting",
+         "startdescription":"Ci sono molte maniere per smontare un corpo umano. La mia pelle si sente vulnerabile, come una porta aperta.",
+         "description":". devourer_haunting_damageshealth_middevourer",
+         "requirements":{
+            "health":1,
+            "devourer":5
+         },
+         "warmup":15,
+         "linked":[
+            {
+               "id":"devourer_haunting_damageshealth_success",
+               "chance":70
+            },
+            {
+               "id":"devourer_haunting_damageshealth_failure",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"devourer_haunting_damageshealth_lowdevourer",
+         "label":"Un'Evocazione Fuggita Ti Attende",
+         "actionId":"haunting",
+         "startdescription":"Controllerò dalla finentra, sigillerò la porta e terrò quercia ed argento vicini al letto. Potrebbe bastare.",
+         "description":". devourer_haunting_damageshealth_lowdevourer",
+         "requirements":{
+            "health":1
+         },
+         "comments":"Leaving 'Devourer' requirement out of here allows us to catch old-style hauntings where a spirit is not present in the verb. otherwise they loop forever!",
+         "warmup":15,
+         "linked":[
+            {
+               "id":"devourer_haunting_damageshealth_success",
+               "chance":30
+            },
+            {
+               "id":"devourer_haunting_damageshealth_failure",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"devourer_haunting_damageshealth_success",
+         "label":"L'Evocazione Fuggita Ti Ha Sbranato",
+         "actionId":"haunting",
+         "startdescription":".",
+         "description":"Porterò una ferita talmente orrenda che potrei finire in una fotografia di un museo. E i vicini parleranno; oh, quanto parleranno.",
+         "aspects":{
+            "damagehealth":1,
+            "killsummoned":1
+         },
+         "effects":{
+            "notoriety":1
+         }
+      },
+      {
+         "id":"devourer_haunting_damageshealth_failure",
+         "label":"L'Evocazione Fuggita Non Ha Prevalso su di Te",
+         "actionId":"haunting",
+         "startdescription":".",
+         "description":"Sono troppo potente, non poteva prevalere! Ma non sono riuscito ad affrontarla silenziosamente. La gente ne parlerà.",
+         "effects":{
+            "notoriety":1
+         },
+         "aspects":{
+            "killsummoned":1
+         }
+      },
+      {
+         "id":"summoning_haunt_deceiver",
+         "actionId":"haunting",
+         "requirements":{
+            "deceiver":1
+         },
+         "startdescription":"È libera!",
+         "warmup":0,
+         "linked":[
+            {
+               "id":"summoning_haunt_deceiver_derangesreason",
+               "chance":100
+            }
+         ],
+         "comments":"Currently doesn't call summoning_haunt_deceiver_derangesmortal, because Deceivers don't attack directly."
+      },
+      {
+         "id":"summoning_haunt_deceiver_derangesreason",
+         "label":"Un Divoratore Nascosto",
+         "actionId":"haunting",
+         "startdescription":"La tua evocazione ti perseguita, cercando di terrorizzarti -",
+         "description":"La cosa che hai evocato è tornata al suo luogo d'origine. Non ti farà più male, per ora.",
+         "slots":[
+            {
+               "id":"Consuming",
+               "label":"Consumazione",
+               "required":{
+                  "reason":1
+               },
+               "greedy":true
+            }
+         ],
+         "warmup":30,
+         "alt":[
+            {
+               "id":"deceiver_haunting_reason_highdeceiver",
+               "chance":100
+            },
+            {
+               "id":"deceiver_haunting_reason_middeceiver",
+               "chance":100
+            },
+            {
+               "id":"deceiver_haunting_reason_lowdeceiver",
+               "chance":100
+            }
+         ],
+         "linked":[
+            {
+               "id":"summoning_haunt_deceiver_derangesreason"
+            }
+         ]
+      },
+      {
+         "id":"deceiver_haunting_reason_highdeceiver",
+         "label":"Un'Evocazione Fuggita Ti Attende",
+         "actionId":"haunting",
+         "startdescription":"La salute mentale è fragile, e questa cosa è assolutamente irresistibile.",
+         "description":".",
+         "requirements":{
+            "reason":1,
+            "deceiver":10
+         },
+         "linked":[
+            {
+               "id":"deceiver_haunting_reason_success",
+               "chance":100
+            },
+            {
+               "id":"deceiver_haunting_reason_failure",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"deceiver_haunting_reason_middeceiver",
+         "label":"Un'Evocazione Fuggita Ti Attende",
+         "actionId":"haunting",
+         "startdescription":"La salute mentale è fragile, e questa minaccia è potente.",
+         "description":". deceiver_haunting_reason_middeceiver",
+         "requirements":{
+            "reason":1,
+            "deceiver":5
+         },
+         "linked":[
+            {
+               "id":"deceiver_haunting_reason_success",
+               "chance":70
+            },
+            {
+               "id":"deceiver_haunting_reason_failure",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"deceiver_haunting_reason_lowdeceiver",
+         "label":"Un'Evocazione Fuggita Ti Attende",
+         "actionId":"haunting",
+         "startdescription":"La salute mentale è fragile, ma forse questa minaccia potrebbe causare più fastidi che danni.",
+         "description":". deceiver_haunting_reason_lowedge",
+         "requirements":{
+            "reason":1
+         },
+         "comments":"Leaving 'Deceiver' requirement out of here allows us to catch old-style hauntings where a spirit is not present in the verb. otherwise they loop forever!",
+         "linked":[
+            {
+               "id":"deceiver_haunting_reason_success",
+               "chance":30
+            },
+            {
+               "id":"deceiver_haunting_reason_failure",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"deceiver_haunting_reason_success",
+         "label":"L'Evocazione Fuggita ha Devastato i tuoi Sogni",
+         "actionId":"haunting",
+         "startdescription":".",
+         "description":"Gli eventi di quella notte vivranno a lungo nella tua memoria; e per giorni i giornali intervisteranno i residenti del distretto.",
+         "aspects":{
+            "damagereason":1,
+            "killsummoned":1
+         },
+         "effects":{
+            "notoriety":1
+         }
+      },
+      {
+         "id":"deceiver_haunting_reason_failure",
+         "label":"L'Evocazione Fuggita non è Riuscita a Rompere la tua Determinazione",
+         "actionId":"haunting",
+         "startdescription":".",
+         "description":"Gli eventi di quella notte vivranno a lungo nella tua memoria; ma la cosa che proveniva dal mondo oltre la Veglia non aveva scampo contro di te. Per giorni, tuttavia, i giornali hanno intervistato i residenti del distretto.",
+         "effects":{
+            "notoriety":1
+         },
+         "aspects":{
+            "killsummoned":1
+         }
+      },
+      {
+         "id":"summoning_haunt_deceiver_derangesmortal",
+         "label":"Un Divoratore Nascosto",
+         "actionId":"haunting",
+         "startdescription":"La tua evocazione fuggita sta vagando per il distretto, alla ricerca di mortali da far impazzire.",
+         "description":"La cosa che hai evocato è tornata al suo luogo d'origine. Non ti farà più male, per ora.",
+         "effects":{
+            "notoriety":1
+         },
+         "aspects":{
+            "derangemortal":1
+         },
+         "slots":[
+            {
+               "id":"Consuming",
+               "label":"Consumazione",
+               "required":{
+                  "mortal":1
+               },
+               "greedy":true
+            }
+         ],
+         "comments":"This isn't currently in use. We only allow Deceivers to destroy evidence, not haunt investigators, so summoners might be understandably annoyed.",
+         "alt":[
+            {
+               "id":"deceiver_haunting_mortal_highedge",
+               "chance":100
+            },
+            {
+               "id":"deceiver_haunting_mortal_midedge",
+               "chance":100
+            },
+            {
+               "id":"deceiver_haunting_mortal_lowedge",
+               "chance":100
+            }
+         ],
+         "warmup":30
+      },
+      {
+         "id":"deceiver_haunting_mortal_highedge",
+         "label":"Un'Evocazione Fuggita si Avvicina alla Sua Vittima",
+         "actionId":"haunting",
+         "startdescription":"La salute mentale è fragile, e questa cosa è assolutamente irresistibile.",
+         "description":".",
+         "requirements":{
+            "mortal":1,
+            "edge":10
+         },
+         "linked":[
+            {
+               "id":"deceiver_haunting_mortal_success",
+               "chance":100
+            },
+            {
+               "id":"deceiver_haunting_mortal_failure",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"deceiver_haunting_mortal_midedge",
+         "label":"Un'Evocazione Fuggita si Avvicina alla Sua Vittima",
+         "actionId":"haunting",
+         "startdescription":"La salute mentale è fragile, e questa creatura è potente.",
+         "description":". deceiver_haunting_mortal_midedge",
+         "requirements":{
+            "mortal":1,
+            "edge":5
+         },
+         "linked":[
+            {
+               "id":"deceiver_haunting_mortal_success",
+               "chance":70
+            },
+            {
+               "id":"deceiver_haunting_mortal_failure",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"deceiver_haunting_mortal_lowedge",
+         "label":"Un'Evocazione Fuggita si Avvicina alla Sua Vittima",
+         "actionId":"haunting",
+         "startdescription":"La salute mentale è fragile, ma forse questa creatura potrebbe causare più fastidi che danni.",
+         "description":". deceiver_haunting_mortal_lowedge",
+         "requirements":{
+            "mortal":1,
+            "edge":1
+         },
+         "linked":[
+            {
+               "id":"deceiver_haunting_mortal_success",
+               "chance":30
+            },
+            {
+               "id":"deceiver_haunting_mortal_failure",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"deceiver_haunting_mortal_success",
+         "label":"L'Evocazione Fuggita ha destato l'Orrore sulla sua Vittima",
+         "actionId":"haunting",
+         "startdescription":".",
+         "description":"Solo le menti più forti potrebbero sopravvivergli. I giornali avranno una storia peculiare da raccontare.",
+         "aspects":{
+            "derangemortal":1,
+            "killsummoned":1
+         },
+         "effects":{
+            "notoriety":1
+         }
+      },
+      {
+         "id":"deceiver_haunting_mortal_failure",
+         "label":"L'Evocazione Fuggita ha destato l'Orrore sulla sua Vittima",
+         "actionId":"haunting",
+         "startdescription":".",
+         "description":"La determinazione della vittima rimane intoccata. I giornali avranno una storia peculiare da raccontare.",
+         "effects":{
+            "notoriety":1
+         },
+         "aspects":{
+            "killsummoned":1
+         }
+      }
+   ]
+}

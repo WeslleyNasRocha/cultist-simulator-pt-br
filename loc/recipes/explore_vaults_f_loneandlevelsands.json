@@ -1,0 +1,269 @@
+{
+   "recipes":[
+      {
+         "id":"explore_vaultloneandlevelsands1_setup",
+         "label":"Comincia una Spedizione: Altare Meteorico",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultloneandlevelsands1":1
+         },
+         "effects":{
+            "peril_desert":1,
+            "seal_hiddendoor":1,
+            "curse_visions":1
+         },
+         "startdescription":"Una stella cadde nel profondo del deserto. Non distrusse totalmente il luogo che colpì. I tesori dell'antico altare potrebbero esser rimasti nascosti sotto la tomba della stella. Ma dobbiamo approciarci con cautela: la stella risuona ancora con energie fuori dal nostro mondo. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultloneandlevelsands2_setup",
+         "label":"Comincia una Spedizione: Tomba di Lagun",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultloneandlevelsands2":1
+         },
+         "effects":{
+            "peril_desert":1,
+            "seal_wardeddoor":1,
+            "curse_dread":1
+         },
+         "startdescription":"Sarà difficile da trovare la Tomba di Lagun nel deserto. Dovremo orientarci con le stelle e, inoltre, le sue porte hanno resistito a lungo agli assalti dei tombaroli. Dobbiamo portarci tutte le forze che troviamo. Ci sarà probabilmente una maledizione, dobbiamo farci trovare pronti. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultloneandlevelsands3_setup",
+         "label":"Comincia una Spedizione: Messana",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultloneandlevelsands3":1
+         },
+         "effects":{
+            "peril_desert":1,
+            "guardian_watchers":1,
+            "curse_affliction":1
+         },
+         "startdescription":"Messana, dove gli abitanti rimangono di norma sani e vigorosi anche oltre i cent'anni. Resistere ad ogni tentativo di curiosare nei loro segreti, e potrebbero avere delle maledizioni a loro disposizione - se riusciremo a penetrare il deserto e a raggiungerli. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultloneandlevelsands4_setup",
+         "label":"Comincia una Spedizione: Tempio delle Sette Spire",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultloneandlevelsands4":1
+         },
+         "effects":{
+            "peril_desert":1,
+            "seal_wardeddoor":1,
+            "curse_nowhere":1
+         },
+         "startdescription":"'Questo luogo non tollera alcuna vita', dice il diario di Zane Marc Gentis. Non troveremo alcun serpente là. Ma il luogo sembra maledetto, e Gentis riporta di una porta che la sua spedizione non riuscì ad aprire. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultloneandlevelsandsdefault_setup",
+         "label":"Comincia una Spedizione: Miah",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultloneandlevelsandsdefault":1
+         },
+         "effects":{
+            "peril_desert":1,
+            "seal_hiddendoor":1,
+            "guardian_dead":1,
+            "curse_affliction":1
+         },
+         "startdescription":"La città, Miah, è stata per lungo tempo sepolta nel deserto. Solo i fantasmi camminano per le sue strade. Qualsiasi cosa sia rimasta sarà ben nascosta. E la maledizione del Vagabondo vi giace ancora sopra: la sua vendetta contro il luogo che le fece il gran torto. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explorevaultloneandlevelsands1_success",
+         "label":"La Pietra Apribile",
+         "actionId":"explore",
+         "requirements":{
+            "vaultloneandlevelsands1":1
+         },
+         "effects":{
+            "vaultloneandlevelsands1":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "toollanternd",
+               "focusambermandaic",
+               "medusaslamentgreek",
+               "manneralchemistsparedvak"
+            ],
+            "draws":4,
+            "defaultcard":"compensationd",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Il meteorite giace nel tempio in rovina, increspato come una creatura marina, levigato dal suo passaggio nell'atmosfera. L'antico altare dev'essere andato distrutto secoli fa, ma il meteorite risponde al nostro tocco. Fischia come fili nel vento. La sua superficie si sposta, e si apre come un occhio...",
+         "description":"Cos'è successo? Il meteorite è freddo, chiuso e silenzioso. La sabbia di secoli giace intoccata su di lui. Ma nelle nostre mani c'è il tesoro che abbiamo trovato all'interno.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultloneandlevelsands2_success",
+         "label":"La Fine di Lagun",
+         "actionId":"explore",
+         "requirements":{
+            "vaultloneandlevelsands2":1
+         },
+         "effects":{
+            "vaultloneandlevelsands2":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "toolsecrethistoriesd",
+               "voyagesfofucine",
+               "toolmothf",
+               "ingredientmothf",
+               "ingredientknockf"
+            ],
+            "draws":5,
+            "defaultcard":"compensationd",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Nella camera centrale, giace pacificamente Lagun, il Lungo un tempo immortale, nudo in una bara in legno di sandalo. È perfettamente preservato - un uomo sottile e dalla pelle scura in perfetta salute - tuttavia, appena ci avviciniamo, si frantuma in mille fiocchi anneriti, come foglie cadute. Intravediamo, tra i resti, il luccichio di alcuni oggetti.",
+         "description":"Troviamo un orologio da taschino, un libro, una buona quantità di valuta Algerina - tutto della nostra epoca. Dev'essersi mosso spesso da questo posto prima di rassegnarsi al riposo eterno. Sul retro dell'orologio è inciso l'occhio chiuso della società degli Obliviati...",
+         "warmup":30,
+         "craftable":false,
+         "alt":[
+            {
+               "id":"expedition.corpse.find.vaultloneandlevelsands2",
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"explorevaultloneandlevelsands3_success",
+         "label":"Un Lungo Banchetto",
+         "actionId":"explore",
+         "requirements":{
+            "vaultloneandlevelsands3":1
+         },
+         "effects":{
+            "vaultloneandlevelsands3":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "toolheartf",
+               "songscarapacecrossmandaic",
+               "sevenfoldslayingsevencoiledfucine"
+            ],
+            "draws":3,
+            "defaultcard":"compensationd",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Al di sotto del granaio troviamo i segreti più profondi di Messana: un altare dove sono esposti segmenti di un corpo umano imbalsamato. Rimane poco o niente. I visitatori devono averci banchettato per anni. È carne di Lungo? Questo potrebbe spiegare la loro longevità.",
+         "description":"Degli oggetti degni di nota sono messi in mostra sulle pareti. Potrebbero essere trofei di visitatori poco saggi, o potrebbero essere stati del Lungo. Non ci sono indicazioni se questo fosse una vittima offertasi volontariamente, un antenato o un prigioniero, e ora non potremmo più scoprire nulla dagli abitanti del villaggio. Un'iscrizione, in Greco, sull'altare recita: PER LA MAREA.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultloneandlevelsands4_success",
+         "label":"Le Spire di Dio",
+         "actionId":"explore",
+         "requirements":{
+            "vaultloneandlevelsands4":1
+         },
+         "effects":{
+            "vaultloneandlevelsands4":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "ingredientwinterf",
+               "influencewintere",
+               "toolknockd",
+               "memoryofgodsfucine",
+               "toolwinterf"
+            ],
+            "draws":5,
+            "defaultcard":"compensationd",
+            "resetonexhaustion":false
+         },
+         "startdescription":"'Sette Spire', lo definisce nel suo diario Gentis, ma l'idolo all'interno è un impossibile groviglio, un serpente di pietra che si avvolge, spira dopo spira, su sé stesso, un nodo che stordisce l'anima. L'inesattezza si contorce negli angoli del tempio. Dovremmo razziare velocemente questo luogo, prima che la sua influenza ci travolga.",
+         "description":"Il tempio è pulito come se fosse stato spazzato di recente. Neanche un granello di sabbia ha varcato l'ingresso, non c'è polvere sulle orribili spire dell'idolo. Troviamo degli oggetti nascosti tra le spire, dispersi qua e là, come se fosse stata organizzata una caccia al tesoro, o come se l'idolo ci si fosse stretto intorno.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultloneandlevelsandsdefault_success",
+         "label":"La Città Abbandonata",
+         "actionId":"explore",
+         "requirements":{
+            "vaultloneandlevelsandsdefault":1
+         },
+         "effects":{
+            "vaultloneandlevelsandsdefault":-1
+         },
+         "deckeffects":{
+            "vaultrewardsf":3
+         },
+         "startdescription":"Il vento di Miah è un vento assassino. Si attacca ai nostri vestiti come un bambino bisognoso; ci getta sabbia nelle facce; geme tra le pietre soffocate dalla polvere. La desolazione in questa città non è assoluta. Ci sono colonne, archi, statue soffocate dalla sabbia, strade verso il nulla.",
+         "description":"Troviamo delle reliquie in una stanza abbandonata che potrebbe esser stata al contempo una cantina o un santuario. Le mura sono crepate e la sabbia cade dal soffitto. Quando ritorniamo in superficie, il vento sta salendo. Per poco non ci fa volare via. Forse gli mancavamo.",
+         "warmup":30,
+         "craftable":false,
+         "linked":[
+            {
+               "id":"expeditionascensionmothe",
+               "chance":100
+            },
+            {
+               "id":"expeditionascensionhearte",
+               "chance":100
+            }
+         ]
+      }
+   ]
+}

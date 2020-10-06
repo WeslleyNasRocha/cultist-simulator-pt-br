@@ -1,0 +1,262 @@
+{
+   "elements":[
+      {
+         "id":"legacydancerjob",
+         "label":"Un Contratto con il Gaiety",
+         "description":"Ho un posto nel corpo di ballo del Gaiety. Sarà mio finché la mia fortuna o il mio aspetto non se ne andrà... o finché non troverò un lavoro migliore.",
+         "aspects":{
+            "job":1,
+            "dance":1,
+            "potentialbenefactorm":1,
+            "potentialbenefactorf":1,
+            "potentialecdysiast":1
+         },
+         "lifetime":120,
+         "decayTo":"legacydancerjob_suspended",
+         "xtriggers":{
+            "job":"legacydancerjob"
+         },
+         "slots":[
+            {
+               "id":"health",
+               "label":"Salute",
+               "actionId":"work",
+               "required":{
+                  "health":1
+               }
+            }
+         ]
+      },
+      {
+         "id":"legacydancerjob_suspended",
+         "label":"Un Contratto con il Gaiety: Sospeso",
+         "description":"Ho perso troppi spettacoli. Se implorassi in maniera convincente potrei riavere il mio lavoro.",
+         "aspects":{
+            "job":1
+         },
+         "lifetime":300,
+         "xtriggers":{
+            "plead":"legacydancerjob"
+         },
+         "slots":[
+            {
+               "id":"passion",
+               "label":"Passione",
+               "actionId":"work",
+               "required":{
+                  "passion":1
+               }
+            }
+         ]
+      },
+      {
+         "id":"dancerlegacy_plotitem_a",
+         "label":"Una Poesia Stropicciata",
+         "description":"È indirizzata ad un’altra ballerina ed è firmata da qualcuno chiamato #LAST_FOLLOWER#. L’autore descrive come avesse conosciuto la danzatrice in un sogno in una foresta oscura. Il sogno comprendeva colpi di tamburo, battiti d’ala, la pelle delle ombre, il sangue della luna. Non sorprende che la poesia fosse stropicciata. Ma posso intravedere gli strati di significati che potrei spellare.",
+         "slots":[
+            {
+               "id":"Approach",
+               "label":"Approccio",
+               "actionId":"study",
+               "description":"Il battito del cuore, o il gemito del violino?",
+               "required":{
+                  "heart":1,
+                  "moth":1
+               }
+            }
+         ],
+         "aspects":{
+            "legacyplotitem":1
+         }
+      },
+      {
+         "id":"dancerjobecdysisa",
+         "label":"Un Contratto con l’Ecdysis Club",
+         "description":"Mi esibisco all’Ecdysis Club, nelle notti in cui è aperto.",
+         "slots":[
+            {
+               "id":"location",
+               "label":"L’Ecdysis Club",
+               "description":"L’Ecdysis Club, dove attuo rivelazioni davanti a testimoni.",
+               "actionId":"work",
+               "required":{
+                  "locationcabaret":1
+               }
+            },
+            {
+               "id":"purpose",
+               "label":"Finalità",
+               "actionId":"work",
+               "required":{
+                  "changemarks":1,
+                  "healthskill":1
+               },
+               "description":"Mostrare le mie abilità per avere accesso a danze più complesse; usare il mio Desiderio per inseguire un Cambiamento; o lasciare vuoto se voglio solo guadagnare soldi."
+            },
+            {
+               "id":"abilityfirst",
+               "label":"Abilità, o Ferita",
+               "description":"Cosa dovrei fare di me stesso?",
+               "actionId":"work",
+               "required":{
+                  "health":1,
+                  "passion":1,
+                  "scar":1
+               }
+            },
+            {
+               "id":"influence",
+               "label":"Influsso",
+               "description":"Cosa mi agita oggi?",
+               "actionId":"work",
+               "required":{
+                  "influence":1
+               },
+               "consumes":true
+            }
+         ],
+         "aspects":{
+            "job":1,
+            "dance":1,
+            "ecdysijob":1
+         }
+      },
+      {
+         "id":"dancerjobecdysisb",
+         "label":"Un Contratto Migliore con l’Ecdysis Club",
+         "description":"Svolgo le danze più impegnative all’Ecdysis Club.",
+         "slots":[
+            {
+               "id":"location",
+               "label":"L’Ecdysis Club",
+               "description":"L’Ecdysis Club, dove attuo rivelazioni davanti a testimoni.",
+               "actionId":"work",
+               "required":{
+                  "locationcabaret":1
+               }
+            },
+            {
+               "id":"purpose",
+               "label":"Finalità",
+               "actionId":"work",
+               "required":{
+                  "changemarks":1,
+                  "healthskill":1
+               },
+               "description":"Mostrare le mie abilità per avere accesso a danze più complesse; usare il mio Desiderio per inseguire un Cambiamento; o lasciare vuoto se voglio solo guadagnare soldi."
+            },
+            {
+               "id":"abilityfirst",
+               "label":"Abilità, o Ferita",
+               "description":"Cosa dovrei fare di me stesso?",
+               "actionId":"work",
+               "required":{
+                  "health":1,
+                  "passion":1,
+                  "scar":1
+               }
+            },
+            {
+               "id":"abilitysecond",
+               "label":"Abilità, o Ferita",
+               "description":"Cosa dovrei fare di me stesso?",
+               "actionId":"work",
+               "required":{
+                  "health":1,
+                  "passion":1,
+                  "scar":1
+               }
+            },
+            {
+               "id":"influence",
+               "label":"Influsso",
+               "description":"Cosa mi agita oggi?",
+               "actionId":"work",
+               "required":{
+                  "influence":1
+               },
+               "consumes":true
+            }
+         ],
+         "aspects":{
+            "job":1,
+            "dance":1,
+            "ecdysijob":1
+         }
+      },
+      {
+         "id":"dancerjobecdysisc",
+         "label":"Un Accordo Particolare con l’Ecdysis Club",
+         "description":"Di tanto in tanto ricevo una remunerazione generosa per eseguire danze molto specifiche di fronte ad intenditori molto particolari.",
+         "slots":[
+            {
+               "id":"location",
+               "label":"L’Ecdysis Club",
+               "description":"L’Ecdysis Club, dove attuo rivelazioni davanti a testimon.",
+               "actionId":"work",
+               "required":{
+                  "locationcabaret":1
+               }
+            },
+            {
+               "id":"purpose",
+               "label":"Finalità",
+               "actionId":"work",
+               "required":{
+                  "changemarks":1,
+                  "healthskill":1
+               },
+               "description":"Mostrare le mie abilità per avere accesso a danze più complesse; usare il mio Desiderio per inseguire un Cambiamento; o lasciare vuoto se voglio solo guadagnare soldi."
+            },
+            {
+               "id":"abilityfirst",
+               "label":"Abilità, o Ferita",
+               "description":"Cosa dovrei fare di me stesso?",
+               "actionId":"work",
+               "required":{
+                  "health":1,
+                  "passion":1,
+                  "scar":1
+               }
+            },
+            {
+               "id":"abilitysecond",
+               "label":"Abilità, o Ferita",
+               "description":"Cosa dovrei fare di me stesso?",
+               "actionId":"work",
+               "required":{
+                  "health":1,
+                  "passion":1,
+                  "scar":1
+               }
+            },
+            {
+               "id":"abilitythird",
+               "label":"Abilità, o Ferita",
+               "description":"Cosa dovrei fare di me stesso?",
+               "actionId":"work",
+               "required":{
+                  "health":1,
+                  "passion":1,
+                  "scar":1
+               }
+            },
+            {
+               "id":"influence",
+               "label":"Influsso",
+               "description":"Cosa mi agita oggi?",
+               "actionId":"work",
+               "required":{
+                  "influence":1
+               },
+               "consumes":true
+            }
+         ],
+         "aspects":{
+            "job":1,
+            "dance":1,
+            "ecdysijob":1
+         }
+      }
+   ]
+}

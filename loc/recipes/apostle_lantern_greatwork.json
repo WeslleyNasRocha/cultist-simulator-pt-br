@@ -1,0 +1,275 @@
+{
+   "recipes":[
+      {
+         "id":"ambition.apostlelantern.emitfuel",
+         "actionId":"work",
+         "label":"Una Visione dall'Illuminato",
+         "requirements":{
+            "apostlelantern.mentor":1
+         },
+         "startdescription":"Il sogno, di nuovo.",
+         "effects":{
+            "apostlelantern.pillarfuel":1
+         }
+      },
+      {
+         "id":"work.apostlelantern.majorvictory.postbetrayal",
+         "actionId":"work",
+         "label":"E Tuttavia, Il Cancello Si Apre Verso L'Esterno",
+         "extantreqs":{
+            "apostlelantern.mentor":-1
+         },
+         "startdescription":"L'Osservatore è qui in tutta la sua tagliente radiosità, ma perfino lui si ritrarrà davanti alla Chiave dei Giorni. Ho chiuso la porta nel mio occhio, ma non posso dimenticare. Il mio cammino è stato ordinato ancor prima che vedessi la vera luce. Io e i Testimoni siamo pronti - pronti per l'ingresso della Gloria nel Mansus dall'altro lato. I sogni degli innocenti non sono altrettanto pronti. Centinaia di anime non si risveglieranno più. C'è sempre un prezzo, ed è essenziale che il nostro Illuminato navighi; che illumini; che non sia compassionevole.",
+         "requirements":{
+            "apostlelantern.pillar3":1,
+            "apostlelantern.pillar4":1,
+            "ingredientlanternf":1,
+            "fragmentmothe":1,
+            "toollanternf":1,
+            "kleidouchos":1,
+            "promise":1
+         },
+         "warmup":60,
+         "craftable":true,
+         "ending":"majorlanternvictory"
+      },
+      {
+         "id":"work.apostlelantern.majorvictory",
+         "actionId":"work",
+         "label":"Il Cancello Si Apre Verso L'Esterno",
+         "extantreqs":{
+            "apostlelantern.mentor":1
+         },
+         "startdescription":"L'Osservatore è qui in tutta la sua tagliente radiosità, ma perfino lui si ritrarrà davanti alla Chiave dei Giorni. Io e i Testimoni siamo pronti - pronti per l'ingresso della Gloria nel Mansus dall'altro lato. I sogni degli innocenti non sono altrettanto pronti. Centinaia di anime non si risveglieranno più. C'è sempre un prezzo, ed è essenziale che il nostro Illuminato navighi; che illumini; che non sia compassionevole.",
+         "requirements":{
+            "apostlelantern.pillar3":1,
+            "apostlelantern.pillar4":1,
+            "ingredientlanternf":1,
+            "fragmentmothe":1,
+            "toollanternf":1,
+            "kleidouchos":1,
+            "promise":1
+         },
+         "warmup":60,
+         "craftable":true,
+         "ending":"majorlanternvictory"
+      },
+      {
+         "id":"apostlelantern.createpillar2",
+         "actionId":"dream",
+         "label":"Localizza il Crocevia",
+         "startdescription":"Dietro alla Porta del Pavone, la difesa contro i Vermi della Camera delle Vie, due strade si incrociano sotto l'ombra di una quercia.",
+         "description":"In questo luogo le luci blu del Mansus sprofondano nel blu del cielo notturno. Le strade si distendono nel muro di nebbia e vengono dimenticate, ma qui, dove si incrociano, l'ombra del corvo ricorda nell'ombra della quercia.",
+         "requirements":{
+            "waypeacock":1,
+            "apostlelantern.pillarfuel":1
+         },
+         "effects":{
+            "apostlelantern.pillar2":1,
+            "apostlelantern.pillarfuel":-1
+         },
+         "warmup":60
+      },
+      {
+         "id":"apostlelantern.createpillar3.hint2",
+         "actionId":"dream",
+         "label":"Seminare il Fascino?",
+         "startdescription":"Premi il sogno di una chiave nel soffice terreno del crocevia. Bagnalo con la radiosità più forte che riesci a trovare. Cosa crescerà?",
+         "requirements":{
+            "apostlelantern.pillar2":1,
+            "apostlelantern.pillarfuel":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"apostlelantern.createpillar3.hint1",
+         "actionId":"dream",
+         "label":"Seminare il Fascino?",
+         "startdescription":"Quando arriverà il prossimo sogno della chiave, lo porterò al Crocevia.",
+         "requirements":{
+            "apostlelantern.pillar2":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"apostlelantern.createpillar3",
+         "actionId":"dream",
+         "label":"Semina il Fascino",
+         "startdescription":"Premi il sogno di una chiave nel soffice terreno del crocevia. Bagnalo nella luce dell'Osservatore. Un albero luminoso si snoderà, con un radioso raccolto sui suoi rami.",
+         "description":"Questa è la grande Illuminazione della quale ha bisogno il nostro Illuminato per l'emanazione dell'Osservatore, tuttavia, questa ha anche un altro scopo. Come le falene alle candele, come un pesce all'esca, così le anime alla luce.",
+         "requirements":{
+            "apostlelantern.pillar2":1,
+            "apostlelantern.pillarfuel":1,
+            "influencelanterng":1
+         },
+         "effects":{
+            "apostlelantern.pillar3":1,
+            "apostlelantern.pillarfuel":-1,
+            "influencelanterng":-1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"apostlelantern.maintainpillar3.hint",
+         "actionId":"study",
+         "label":"Sostenere il Fascino?",
+         "startdescription":"Il Fascino appassirà... se non verrà bagnato con i colori giusti.",
+         "requirements":{
+            "apostlelantern.pillar3":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"apostlelantern.maintainpillar3",
+         "actionId":"study",
+         "label":"Nutri il Fascino",
+         "startdescription":"Talvolta, è possibile, nei sogni blu del Mansus, portare la luce nelle mani tenute a coppa.",
+         "description":"Apro le mani sopra le radici del Fascino, dove si attacca al terreno. Nuovi frutti spuntano sui rami, e il Crocevia è, di nuovo, più pallido.",
+         "requirements":{
+            "apostlelantern.pillar3":1,
+            "fascination":1
+         },
+         "effects":{
+            "fascination":-1
+         },
+         "aspects":{
+            "renew.apostlelantern.pillar3":1
+         },
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"apostlelantern.usepillar3",
+         "actionId":"talk",
+         "label":"Invia una Vergine-nello-Specchio ad attrarre un Testimone",
+         "startdescription":"La Vergine condurrà le anime dormienti attraverso la Porta Bianca e le sosterrà lungo l'Ascesa dei Coltelli, finché ciò che ne sarà rimasto vedrà il Fascino al Crocevia.",
+         "requirements":{
+            "spirit_winterd_edge":1,
+            "apostlelantern.pillar3":1
+         },
+         "linked":[
+            {
+               "id":"apostlelantern.trycreatepillar4"
+            }
+         ]
+      },
+      {
+         "id":"apostlelantern.trycreatepillar4",
+         "actionId":"talk",
+         "label":"Invia una Vergine-nello-Specchio ad attrarre un Testimone",
+         "startdescription":"La Vergine mormora qualche parola del Mantra dell’Ascesa. Pone i suoi pallidi piedi con cautela sulle pietre della strada: non lasciano orme. I piedi dei Testimoni sono macchiati di sangue.",
+         "description":"La Vergine parte; il Testimone rimane, ondeggiando come l'ombra di un albero, gli occhi fissi sul Fascino, la bocca lentamente guarisce. Uno di sette. Non si sveglierà mai; questo attirerà l'attenzione del Dipartimento Soppressione.",
+         "effects":{
+            "spirit_winterd_edge":-1,
+            "apostlelantern.pillar4.inprogress1":1,
+            "notoriety":1
+         },
+         "slots":[
+            {
+               "id":"pillar4",
+               "label":"Testimoni",
+               "required":{
+                  "uqthirdwaywitnesses":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "id":"apostlelantern.upgradepillar4"
+            }
+         ],
+         "warmup":10
+      },
+      {
+         "id":"apostlelantern.upgradepillar4",
+         "actionId":"talk",
+         "label":"Invia una Vergine-nello-Specchio ad attrarre un Testimone",
+         "startdescription":"La Vergine mormora qualche parola del Mantra dell’Ascesa. Pone i suoi pallidi piedi con cautela sulle pietre della strada: non lasciano orme. I piedi dei Testimoni sono macchiati di sangue.",
+         "description":"La Vergine parte; il Testimone rimane, ondeggiando come l'ombra di un albero, gli occhi fissi sul Fascino, la bocca lentamente guarisce. Un'altro. Non si sveglierà mai; questo attirerà l'attenzione del Dipartimento Soppressione.",
+         "requirements":{
+            "uqthirdwaywitnesses":1
+         },
+         "aspects":{
+            "cloudwitnessesupgrade":1
+         },
+         "effects":{
+            "spirit_winterd_edge":-1,
+            "notoriety":1
+         }
+      },
+      {
+         "id":"apostlelantern.pillar4.chat",
+         "actionId":"talk",
+         "label":"Parla con i Testimoni",
+         "startdescription":"Le loro bocche sono chiuse, ma le loro orecchie sono aperte.",
+         "description":"Ogni tanto guardano me. Il più del tempo guardano la luce. Li vedo sospirare; li vedo toccarsi gentilmente l'un l'altro. Sono ancora umani. La luce penetra in loro, e in me. Forse li ho aiutati a mantenere alta l'attenzione.",
+         "requirements":{
+            "uqthirdwaywitnesses":1
+         },
+         "effects":{
+            "fascination":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"apostlelantern.attemptrecruitkleidouchos.sulochana",
+         "actionId":"talk",
+         "label":"Chiedi a Sulochana della Chiave",
+         "startdescription":"'La Chiave dei Giorni.' Sulochana si rosicchia il labbro. I suoi denti brillano alla luce della lampada. 'Si, ho una sorella importante. Ma non ho assolutamente intenzione di presentartela. Chiedi a qualcuno dall'altra parte della Foresta - qualcuno a cui importi della Gloria.'",
+         "requirements":{
+            "sulochana":1,
+            "apostlelantern.pillarfuel":1
+         }
+      },
+      {
+         "id":"apostlelantern.recruitkleidouchos.teresa",
+         "actionId":"talk",
+         "label":"Chiedi a Teresa del Sogno della Chiave",
+         "startdescription":"'Quindi il mio collega di ascesa ha innalzato ancora le sue mire, hm? Potrebbe pentirsene.' Teresa gira la chiave immaginaria nelle sue mani. 'Un sogno della Chiave dei Giorni. Il giorno è falso; la Chiave è reale. Ma non è una cosa che io o te possiamo toccare.'",
+         "description":"'Conosco il portatore della Chiave - quella che cerchi. È da un po' che non le parlo - non parlo spesso ai Ligeici - ma devo una cortesia al tuo mentore, in quanto Lungo della Lanterna. Manderò a chiamare il portatore della Chiave.'",
+         "requirements":{
+            "spirit_lanterne_secret":1,
+            "apostlelantern.pillarfuel":1
+         },
+         "effects":{
+            "kleidouchos.enroute":1,
+            "apostlelantern.pillarfuel":-1,
+            "spirit_lanterne_secret":-1
+         }
+      },
+      {
+         "id":"apostlelantern.persuadekleidouchos",
+         "actionId":"talk",
+         "label":"Parla alla Donna in Bianco e Nero",
+         "startdescription":"'Hai bisogno del mio aiuto con il Cancello Tricuspide, si, è corretto? Nella sua modalità finale? Con la mia Chiave dei Giorni? Si, si, ne sono consapevole. Non mi piace viaggiare senza sapere il perché.'",
+         "description":"'Opportunità di questa natura sono rare - molto rare. Sarei deliziata di assistere all'ascensione del tuo Lungo, cucciolo. Dimmi dove. Dimmi quando. Nel mentre mi godrò la vostra città.'",
+         "requirements":{
+            "kleidouchos":1,
+            "promise":-1
+         },
+         "mutations":[
+            {
+               "filter":"kleidouchos",
+               "mutate":"promise",
+               "level":1
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"apostlelantern.kleidouchos.persuaded.hint",
+         "actionId":"talk",
+         "label":"Parla alla Donna in Bianco e Nero",
+         "startdescription":"'Quando sarai pronto. Prediti il tempo necessario. Ho ancora delle pelli da raccogliere.'",
+         "requirements":{
+            "kleidouchos":1,
+            "promise":1
+         },
+         "hintonly":true
+      }
+   ]
+}

@@ -1,0 +1,1801 @@
+{
+   "elements":[
+      {
+         "id":"fragmentedge",
+         "label":"Un Segreto del Coltello",
+         "aspects":{
+            "edge":2,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.practical":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Lama dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione dell’Inverno dello stesso livello per convertilo, ed ottenere una tradizione dell’Inverno.",
+               "required":{
+                  "fragmentedge":1,
+                  "fragmentwinter":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Quando i nostri antenati forgiarono le spade, insegnarono i movimenti delle arti marziali, pronunciarono maledizioni la vigilia della battaglia - tutte queste cose condivisero un determinato schema. [Usa questo in un Rito con un cadavere e il potere dell’Inverno, il cadavere si ergerà.]",
+         "xtriggers":{
+            "epiphany":"fragmentedgeb"
+         }
+      },
+      {
+         "id":"fragmentedgeb",
+         "label":"Lezione di Chiliarch",
+         "aspects":{
+            "edge":4,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.practical":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Lama dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione dell’Inverno dello stesso livello per convertilo, ed ottenere una tradizione dell’Inverno. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentedgeb":1,
+                  "fragmentwinterb":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Questa è la storia ridotta all’osso imparata nell'antichità dal millesimo uomo, del sangue e delle sue uscite. Dirla ad alta voce significa sentir sibilare la spada. [Usa questo in un Rito con un cadavere e il potere dell’Inverno, il cadavere si ergerà.]",
+         "xtriggers":{
+            "epiphany":"fragmentedgec"
+         }
+      },
+      {
+         "id":"fragmentedgec",
+         "label":"Un’Operazione del Labita",
+         "aspects":{
+            "edge":6,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.practical":1,
+            "challenge.grim":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Lama dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione dell’Inverno dello stesso livello per convertilo, ed ottenere una tradizione dell’Inverno. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentedgec":1,
+                  "fragmentwinterc":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Una serie di esercizi mistici che richiedono sia dedizione che terrore. [Usa questo in un Rito con un cadavere e il potere dell’Inverno, il cadavere si ergerà.]",
+         "xtriggers":{
+            "epiphany":"fragmentedged"
+         }
+      },
+      {
+         "id":"fragmentedged",
+         "label":"I Nomi del Colonnello",
+         "aspects":{
+            "edge":8,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.practical":1,
+            "challenge.grim":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Lama dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione dell’Inverno dello stesso livello per convertilo, ed ottenere una tradizione dell’Inverno. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentedged":1,
+                  "fragmentwinterd":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Il Colonnello è stato molte cose in molte epoche. Egli è cieco; egli è sordo; egli non può essere ferito; egli non può essere negato. I suoi nomi sono astuti come sanno essere solo i più anziani.",
+         "xtriggers":{
+            "epiphany":"fragmentedgee"
+         }
+      },
+      {
+         "id":"fragmentedgee",
+         "label":"I Nomi del Leonfabbro",
+         "aspects":{
+            "edge":10,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.practical":1,
+            "challenge.grim":1,
+            "challenge.knowledge":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Lama dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione dell’Inverno dello stesso livello per convertilo, ed ottenere una tradizione dell’Inverno. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentedgee":1,
+                  "fragmentwintere":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Il Leonfabbro è giovane per gli standard delle Ore, ma vecchio per gli standard della guerra. I suoi nomi sono reclute recenti, e recitarli conferisce un potere selvaggio.",
+         "xtriggers":{
+            "epiphany":"fragmentedgef"
+         }
+      },
+      {
+         "id":"fragmentedgef",
+         "label":"Gli Allineamenti dell’Assassinio",
+         "aspects":{
+            "edge":12,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.practical":1,
+            "challenge.grim":1,
+            "challenge.knowledge":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Lama dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione dell’Inverno dello stesso livello per convertilo, ed ottenere una tradizione dell’Inverno. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentedgef":1,
+                  "fragmentwinterf":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Vi sono arti che garantiscono una conclusione.",
+         "xtriggers":{
+            "epiphany":"fragmentedgeg"
+         }
+      },
+      {
+         "id":"fragmentedgeg",
+         "label":"I Misteri della Forza",
+         "aspects":{
+            "edge":14,
+            "lore":1,
+            "subvertable_lore":1
+         },
+         "description":"Il Colonnello e il Leonfabbro sono dei-che-erano-carne, ma il Lupo-Diviso è un dio-che-era-sangue. Astuzia, Forza ed Agonia sono le tre radici della vittoria, e questa è la loro dottrina segreta...",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "unique":true
+      },
+      {
+         "id":"fragmentforge",
+         "label":"Un Segreto del Fabbro",
+         "aspects":{
+            "forge":2,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1
+         },
+         "description":"I fabbri di cinque continenti hanno sussurrato le stesse parole al ferro. Anche gli assassini sono stati sentiti dire queste parole. E gli adepti, ovviamente. Queste parole sono pronunciate nei rituali per ispirare un Cambiamento spietato.",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Forgia dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Lama dello stesso livello per convertilo, ed ottenere una tradizione della Lama.",
+               "required":{
+                  "fragmentforge":1,
+                  "fragmentedge":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentforgeb"
+         }
+      },
+      {
+         "id":"fragmentforgeb",
+         "label":"Un Orizzonte Ardente",
+         "aspects":{
+            "forge":4,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1
+         },
+         "description":"Quando guardiamo un fuoco, a cosa stiamo guardando? Quando lo troviamo sono queste le parole che dice: una parola che santifica i cambiamenti arrivati con la squamatura della pelle bruciata.",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Forgia dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Lama dello stesso livello per convertilo, ed ottenere una tradizione della Lama. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentforgeb":1,
+                  "fragmentedgeb":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentforgec"
+         }
+      },
+      {
+         "id":"fragmentforgec",
+         "label":"Un Canto Forgiante",
+         "aspects":{
+            "forge":6,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1,
+            "challenge.practical":1
+         },
+         "description":"Devono essere utilizzate le giuste parole quando arriva il Cambiamento. [Usa questo in un Rito con un influsso del Colpo e un Flauto d’Osso - o un’altra risorsa dello stesso potere - per evocare una Caligine.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Forgia dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Lama dello stesso livello per convertilo, ed ottenere una tradizione della Lama. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentforgec":1,
+                  "fragmentedgec":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentforged"
+         }
+      },
+      {
+         "id":"fragmentforged",
+         "label":"Invocazione Callidate",
+         "aspects":{
+            "forge":8,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1,
+            "challenge.practical":1
+         },
+         "description":"Tutti i Nomi della Forgia hanno pronunciato queste parole. [Usa questo in un Rito con un influsso del Colpo e un Flauto d’Osso - o un’altra risorsa dello stesso potere - per evocare una Caligine.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Forgia dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Lama dello stesso livello per convertilo, ed ottenere una tradizione della Lama. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentforged":1,
+                  "fragmentedged":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentforgee"
+         }
+      },
+      {
+         "id":"fragmentforgee",
+         "label":"Formula Fissiva",
+         "aspects":{
+            "forge":10,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1,
+            "challenge.practical":1,
+            "challenge.illumination":1
+         },
+         "description":"Distruggi un oggetto, ed avrai frammenti. Distruggi quei frammenti, ed avrai polvere. Distruggi la polvere e, infine, distruggi ciò che resta. Ecco il fuoco. [Usa questo in un Rito con un’Architrave Consacrata ed un po' di Refulgina - o un’altra risorsa dello stesso potere -  per evocare Re Crogiolo.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Forgia dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Lama dello stesso livello per convertilo, ed ottenere una tradizione della Lama. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentforgee":1,
+                  "fragmentedgee":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentforgef"
+         }
+      },
+      {
+         "id":"fragmentforgef",
+         "label":"Inno alla Fornace",
+         "aspects":{
+            "forge":12,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1,
+            "challenge.practical":1,
+            "challenge.illumination":1
+         },
+         "description":"Questo è l’inno che il calore canta al ferro. Se lo imitiamo con sufficiente fedeltà ci bruceremo le labbra e arrostiremo la lingua, ma oh, le ricompense. [Usa questo in un Rito con un’Architrave Consacrata e un poco di Refulgina - o un’altra risorsa dello stesso potere -  per evocare Re Crogiolo.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Forgia dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Lama dello stesso livello per convertilo, ed ottenere una tradizione della Lama. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentforgef":1,
+                  "fragmentedgef":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentforgeg"
+         }
+      },
+      {
+         "id":"fragmentforgeg",
+         "label":"Misteri della Creazione",
+         "aspects":{
+            "forge":14,
+            "lore":1,
+            "subvertable_lore":1
+         },
+         "description":"La Forgia dei Giorni, il Meniscate e il Madrugad sono dei-dalla-Luce. Mercurio, argento ed oro sono i semi del Lavoro, e questa è la loro dottrina segreta... [Usa questo in un Rito con un’Architrave Consacrata e un poco di Refulgina - o un’altra risorsa dello stesso potere -  per evocare Re Crogiolo.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "unique":true
+      },
+      {
+         "id":"fragmentgrail",
+         "label":"Un Rosso Segreto",
+         "aspects":{
+            "grail":2,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1
+         },
+         "description":"Alcune parole possono essere pronunciate correttamente solamente quando viene usato l’inchiostro adeguato.",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione del Graal dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Falena dello stesso livello per convertilo, ed ottenere una tradizione della Falena.",
+               "required":{
+                  "fragmentgrail":1,
+                  "fragmentmoth":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentgrailb"
+         }
+      },
+      {
+         "id":"fragmentgrailb",
+         "label":"Un'Incarnazione Megalesiana",
+         "aspects":{
+            "grail":4,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1
+         },
+         "description":"La Grande Madre ricorda.",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione del Graal dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Falena dello stesso livello per convertilo, ed ottenere una tradizione della Falena. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentgrailb":1,
+                  "fragmentmothb":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentgrailc"
+         }
+      },
+      {
+         "id":"fragmentgrailc",
+         "label":"Un Sacramento Delizioso",
+         "aspects":{
+            "grail":6,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1,
+            "challenge.practical":1
+         },
+         "description":"Così piacevole da sentire all’orecchio. Si potrebbe ascoltare all’infinito. Queste sono le parole che rendono dolce il sacrificio. [Usa questo con una Tintura Bizantina e un influsso della Falena - o un’altra risorsa di egual potere -  per evocare un Profeta Naturale.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione del Graal dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Falena dello stesso livello per convertilo, ed ottenere una tradizione della Falena. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentgrailc":1,
+                  "fragmentmothc":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentgraild"
+         }
+      },
+      {
+         "id":"fragmentgraild",
+         "label":"Invocazione Tiatica",
+         "aspects":{
+            "grail":8,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1,
+            "challenge.practical":1
+         },
+         "description":"Strilla rumorose presenziano il passaggio dei Nomi del Graal. Le riproduciamo al meglio delle nostre possibilità per il potere pulsante che esse forniscono. [Usa questo con una Tintura Bizantina e un influsso della Falena - o un’altra risorsa di egual potere -  per evocare un Profeta Naturale.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione del Graal dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Falena dello stesso livello per convertilo, ed ottenere una tradizione della Falena. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentgraild":1,
+                  "fragmentmothd":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentgraile"
+         }
+      },
+      {
+         "id":"fragmentgraile",
+         "label":"Formule Voluttuose",
+         "aspects":{
+            "grail":10,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1,
+            "challenge.practical":1,
+            "challenge.paradox":1
+         },
+         "description":"Esistono alcuni piaceri talmente intensi da corrompere le leggi del mondo fisico. [Questa formula può essere usata in un Rito con dei Sali Neramari e una Rottura Subdola - o una fonte di potere simile -  per evocare Ezeem in persona.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione del Graal dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Falena dello stesso livello per convertilo, ed ottenere una tradizione della Falena. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentgraile":1,
+                  "fragmentmothe":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentgrailf"
+         }
+      },
+      {
+         "id":"fragmentgrailf",
+         "label":"Elaborazione Anthica",
+         "aspects":{
+            "grail":12,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1,
+            "challenge.practical":1,
+            "challenge.paradox":1
+         },
+         "description":"Il Creatore di Fiori non può toccarti; non può trovarti; egli ha sempre ciò che desideri. Anche solo l'elaborazione delle proprietà delle sue opere può attirare l’attenzione delle Ore. [Questa formula può essere usata in un Rito con dei Sali Neramari e una Rottura Subdola - o una fonte di potere simile -  per evocare Ezeem in persona.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione del Graal dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Falena dello stesso livello per convertilo, ed ottenere una tradizione della Falena. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentgrailf":1,
+                  "fragmentmothf":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentgrailg"
+         }
+      },
+      {
+         "id":"fragmentgrailg",
+         "label":"Misteri Divoratori",
+         "aspects":{
+            "grail":14,
+            "lore":1,
+            "subvertable_lore":1
+         },
+         "description":"Il Graal fu il primo dio-che-era-sangue. Il Creatore di Fiori venne dalla Luce. Il Corvo della Spiaggia era carne. Fame, Avidità e Desiderio sono la matrice dell’appetito, e questa è la loro dottrina segreta...  [Questa formula può essere usata in un Rito con dei Sali Neramari e una Rottura Subdola - o una fonte di potere simile -  per evocare Ezeem in persona.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "unique":true
+      },
+      {
+         "id":"fragmentheart",
+         "label":"Un Segreto Fragoroso",
+         "aspects":{
+            "heart":2,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1
+         },
+         "description":"Vi sono sentimenti comuni in ogni rombo di tuono. Riconosciamoli.",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione del Cuore dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione del Graal dello stesso livello per convertilo, ed ottenere una tradizione del Graal.",
+               "required":{
+                  "fragmentheart":1,
+                  "fragmentgrail":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentheartb"
+         }
+      },
+      {
+         "id":"fragmentheartb",
+         "label":"Parole che Camminano",
+         "aspects":{
+            "heart":4,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1
+         },
+         "description":"Le sillabe di questa formula sono avvincenti. Mi ritrovo a schioccare le dita al suo ritmo. È come se non volesse fermarsi.",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione del Cuore dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione del Graal dello stesso livello per convertilo, ed ottenere una tradizione del Graal. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentheartb":1,
+                  "fragmentgrailb":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentheartc"
+         }
+      },
+      {
+         "id":"fragmentheartc",
+         "label":"Un Canto della Veglia",
+         "aspects":{
+            "heart":6,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1,
+            "challenge.practical":1
+         },
+         "description":"Chi può ascoltarlo e rimanere indifferente? Il dormiente? Il morto? La terra e il cielo? [Usa questo in un Rito con una Tintura Bizantina ed un Proiettile Meteorico - o altre risorse di egual potere - per evocare un Percussigant.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione del Cuore dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione del Graal dello stesso livello per convertilo, ed ottenere una tradizione del Graal. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentheartc":1,
+                  "fragmentgrailc":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentheartd"
+         }
+      },
+      {
+         "id":"fragmentheartd",
+         "label":"Invocazione Geminata",
+         "aspects":{
+            "heart":8,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1,
+            "challenge.practical":1
+         },
+         "description":"La Sorella-e-Strega è sempre stata invocata per ottenere protezione, agli incroci e, al sorgere della luna, dove la terra nasconde il mare. [Usa questo in un Rito con una Tintura Bizantina ed un Proiettile Meteorico - o altre risorse di egual potere - per evocare un Percussigant.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione del Cuore dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione del Graal dello stesso livello per convertilo, ed ottenere una tradizione del Graal. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentheartd":1,
+                  "fragmentgraild":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmenthearte"
+         }
+      },
+      {
+         "id":"fragmenthearte",
+         "label":"Formule Vigili",
+         "aspects":{
+            "heart":10,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1,
+            "challenge.practical":1,
+            "challenge.obsessive":1
+         },
+         "description":"Colui che veglia non dorme, colui che dorme non veglia. <b>Colui che veglia non dorme, colui che dorme non veglia. </b>[Usa questo in un Rito con una Tintura Bizantina ed un Proiettile Meteorico - o altre risorse di egual potere - per evocare un Percussigant.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione del Cuore dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione del Graal dello stesso livello per convertilo, ed ottenere una tradizione del Graal. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmenthearte":1,
+                  "fragmentgraile":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentheartf"
+         }
+      },
+      {
+         "id":"fragmentheartf",
+         "label":"Fascino Vellutato",
+         "aspects":{
+            "heart":12,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1,
+            "challenge.practical":1,
+            "challenge.obsessive":1
+         },
+         "description":"Il Velluto risponde sempre 'No', ma possiamo ripararci in quel 'No' come le bestie nell’incavo di un albero. [Usa questo in un Rito con una Tintura Bizantina ed un Proiettile Meteorico - o altre risorse di egual potere - per evocare un Percussigant.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione del Cuore dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione del Graal dello stesso livello per convertilo, ed ottenere una tradizione del Graal. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentheartf":1,
+                  "fragmentgrailf":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentheartg"
+         }
+      },
+      {
+         "id":"fragmentheartg",
+         "label":"Misteri Incessanti",
+         "aspects":{
+            "heart":14,
+            "lore":1,
+            "subvertable_lore":1
+         },
+         "description":"Il Graal strappò il Pellefolgore dalla carne. La Sorella-e-Strega nacque da due ventri. Il Velluto si svegliò quando le radici del bosco assaggiarono il sangue. Il Cuore è il Tamburo del Sangue, e questa è la sua dottrina segreta... [Usa questo in un Rito con una Tintura Bizantina ed un Proiettile Meteorico - o altre risorse di egual potere - per evocare un Percussigant.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "unique":true
+      },
+      {
+         "id":"fragmentknock",
+         "label":"Un Segreto dello Scassinatore",
+         "aspects":{
+            "knock":2,
+            "lore":1,
+            "challenge.knowledge":1
+         },
+         "description":"Prima o poi, ogni fabbro compie il Sogno. Ora recitiamo le sue sette fasi... [Praticamente ogni Rito di evocazione necessita di un influsso del Colpo. Questa tradizione può provvedervi.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studialo con ogni altro frammento di tradizioni dello stesso livello (ad eccezione delle Storie Segrete) per portare il frammento al livello successivo delle tradizioni del Colpo.",
+               "required":{
+                  "fragmentedge":1,
+                  "fragmentforge":1,
+                  "fragmentgrail":1,
+                  "fragmentheart":1,
+                  "fragmentknock":1,
+                  "fragmentlantern":1,
+                  "fragmentmoth":1,
+                  "fragmentwinter":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentknockb"
+         }
+      },
+      {
+         "id":"fragmentknockb",
+         "label":"Un Rito Iguvino",
+         "aspects":{
+            "knock":4,
+            "lore":1,
+            "challenge.knowledge":1
+         },
+         "description":"Ogni porta nel Mansus necessita di un sacrificio per essere aperta. Il Rito Iguvino illustra le istruzioni per uno di questi. [Praticamente ogni Rito di evocazione necessita di un influsso del Colpo. Questa tradizione può provvedervi.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studialo con ogni altro frammento di tradizioni dello stesso livello (ad eccezione delle Storie Segrete) per portare il frammento al livello successivo delle tradizioni del Colpo. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentedgeb":1,
+                  "fragmentforgeb":1,
+                  "fragmentgrailb":1,
+                  "fragmentheartb":1,
+                  "fragmentknockb":1,
+                  "fragmentlanternb":1,
+                  "fragmentmothb":1,
+                  "fragmentwinterb":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentknockc"
+         }
+      },
+      {
+         "id":"fragmentknockc",
+         "label":"Un Consenso delle Ferite",
+         "aspects":{
+            "knock":6,
+            "lore":1,
+            "challenge.knowledge":1,
+            "challenge.grim":1
+         },
+         "description":"Per aprire certe Vie, uno deve prima aprire sé stesso. Questa pratica delinea quel varco, nel nome della Madre delle Formiche. [Praticamente ogni Rito di evocazione necessita di un influsso del Colpo. Questa tradizione può provvedervi.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studialo con ogni altro frammento di tradizioni dello stesso livello (ad eccezione delle Storie Segrete) per portare il frammento al livello successivo delle tradizioni del Colpo. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentedgec":1,
+                  "fragmentforgec":1,
+                  "fragmentgrailc":1,
+                  "fragmentheartc":1,
+                  "fragmentknockc":1,
+                  "fragmentlanternc":1,
+                  "fragmentmothc":1,
+                  "fragmentwinterc":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentknockd"
+         }
+      },
+      {
+         "id":"fragmentknockd",
+         "label":"Invocazione al Meniscate",
+         "aspects":{
+            "knock":8,
+            "lore":1,
+            "challenge.knowledge":1,
+            "challenge.grim":1
+         },
+         "description":"Quando la faccia della luna era ferita, queste parole sono apparse. [Praticamente ogni Rito di evocazione necessita di un influsso del Colpo. Questa tradizione può provvedervi.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studialo con ogni altro frammento di tradizioni dello stesso livello (ad eccezione delle Storie Segrete) per portare il frammento al livello successivo delle tradizioni del Colpo. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentedged":1,
+                  "fragmentforged":1,
+                  "fragmentgraild":1,
+                  "fragmentheartd":1,
+                  "fragmentknockd":1,
+                  "fragmentlanternd":1,
+                  "fragmentmothd":1,
+                  "fragmentwinterd":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentknocke"
+         }
+      },
+      {
+         "id":"fragmentknocke",
+         "label":"Formule degli Ofidi",
+         "aspects":{
+            "knock":10,
+            "lore":1,
+            "challenge.knowledge":1,
+            "challenge.grim":1,
+            "challenge.paradox":1
+         },
+         "description":"I serpenti sono i visitatori che non possono essere rifiutati. [Praticamente ogni Rito di evocazione necessita di un influsso del Colpo. Questa tradizione può provvedervi.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studialo con ogni altro frammento di tradizioni dello stesso livello (ad eccezione delle Storie Segrete) per portare il frammento al livello successivo delle tradizioni del Colpo. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentedgee":1,
+                  "fragmentforgee":1,
+                  "fragmentgraile":1,
+                  "fragmenthearte":1,
+                  "fragmentknocke":1,
+                  "fragmentlanterne":1,
+                  "fragmentmothe":1,
+                  "fragmentwintere":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentknockf"
+         }
+      },
+      {
+         "id":"fragmentknockf",
+         "label":"Evocazione Liminale",
+         "aspects":{
+            "knock":12,
+            "lore":1,
+            "challenge.knowledge":1,
+            "challenge.grim":1,
+            "challenge.paradox":1
+         },
+         "description":"Un dio-che-era-pietra è rimasto, ed osserva tutte le soglie. [Praticamente ogni Rito di evocazione necessita di un influsso del Colpo. Questa tradizione può provvedervi.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studialo con ogni altro frammento di tradizioni dello stesso livello (ad eccezione delle Storie Segrete) per portare il frammento al livello successivo delle tradizioni del Colpo. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentedgef":1,
+                  "fragmentforgef":1,
+                  "fragmentgrailf":1,
+                  "fragmentheartf":1,
+                  "fragmentknockf":1,
+                  "fragmentlanternf":1,
+                  "fragmentmothf":1,
+                  "fragmentwinterf":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentknockg"
+         }
+      },
+      {
+         "id":"fragmentknockg",
+         "label":"Misteri dell’Apertura",
+         "aspects":{
+            "knock":14,
+            "lore":1
+         },
+         "description":"La Madre delle Formiche è la figlia di due rive. L’Ascia Cornuta è l’ultimo dio-dalla-Pietra. Il Meniscate nacque sulla Luna dalla Luce. La Ferita, la Soglia e la Rivelazione sono tutti aspetti della Porta, e questa è la loro dottrina segreta... [Praticamente ogni Rito di evocazione necessita di un influsso del Colpo. Questa tradizione può provvedervi.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "unique":true
+      },
+      {
+         "id":"fragmentlantern",
+         "label":"Un Segreto dell'Osservatore",
+         "aspects":{
+            "lantern":2,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1
+         },
+         "description":"È stato espresso così: 'Ogni Ora ha il suo colore, ma il colore esiste solo dove vi è luce.'",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Lanterna dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Forgia dello stesso livello per convertilo, ed ottenere una tradizione della Forgia.",
+               "required":{
+                  "fragmentlantern":1,
+                  "fragmentforge":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentlanternb"
+         }
+      },
+      {
+         "id":"fragmentlanternb",
+         "label":"Un’Occhiata al Mansus",
+         "aspects":{
+            "lantern":4,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1
+         },
+         "description":"Un furto poetico; un singolo ricordo di una determinata casa che tutti visitiamo almeno un paio di volte nella vita. Questa tradizione è fondamentale per poter entrare la prima volta nel Mansus.",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Lanterna dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Forgia dello stesso livello per convertilo, ed ottenere una tradizione della Forgia. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentlanternb":1,
+                  "fragmentforgeb":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentlanternc"
+         }
+      },
+      {
+         "id":"fragmentlanternc",
+         "label":"Un Mantra Spietato",
+         "aspects":{
+            "lantern":6,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1,
+            "challenge.illumination":1
+         },
+         "description":"'La Pietà', disse l’Osservatore, 'si trova solo nelle ombre.'",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Lanterna dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Forgia dello stesso livello per convertilo, ed ottenere una tradizione della Forgia. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentlanternc":1,
+                  "fragmentforgec":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentlanternd"
+         }
+      },
+      {
+         "id":"fragmentlanternd",
+         "label":"Invocazione Faneica",
+         "aspects":{
+            "lantern":8,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1,
+            "challenge.illumination":1
+         },
+         "description":"La Porta-ne-l’Occhio naviga; non è misericordiosa; ma da sempre illumina. [Usa questo in un Rito con uno strumento del Colpo e un’Aria Elettrizzante - o o altre risorse di egual potere - per evocare un’Antifona da dietro lo specchio.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Lanterna dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Forgia dello stesso livello per convertilo, ed ottenere una tradizione della Forgia. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentlanternd":1,
+                  "fragmentforged":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentlanterne"
+         }
+      },
+      {
+         "id":"fragmentlanterne",
+         "label":"Formule Concursaiche",
+         "aspects":{
+            "lantern":10,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1,
+            "challenge.illumination":1,
+            "challenge.paradox":1
+         },
+         "description":"Il Concursum giace nella Lanterna del Mansus. È stato chiamato la Camera delle Vie ed anche la Camera dei Finali. Le sue complessità sono probabilmente oltre la comprensione umana, ma queste formule sono una prima approssimazione. [Usa questo in un Rito con uno strumento del Colpo e un’Aria Elettrizzante - o o altre risorse di egual potere - per evocare un’Antifona da dietro lo specchio.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Lanterna dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Forgia dello stesso livello per convertilo, ed ottenere una tradizione della Forgia. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentlanterne":1,
+                  "fragmentforgee":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentlanternf"
+         }
+      },
+      {
+         "id":"fragmentlanternf",
+         "label":"Mantra dell’Ascesa",
+         "aspects":{
+            "lantern":12,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1,
+            "challenge.illumination":1,
+            "challenge.paradox":1
+         },
+         "description":"L’Ascesa dei Coltelli è la più sanguinolenta delle prove dell’Osservatore. Coloro che la superano, e sono morti, entrano al servizio del Sole-negli-Stracci. I viventi che la oltrepassano si troveranno, invece, più vicini alla Gloria. [Usa questo in un Rito con uno strumento del Colpo e un’Aria Elettrizzante - o o altre risorse di egual potere - per evocare un’Antifona da dietro lo specchio.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Lanterna dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Forgia dello stesso livello per convertilo, ed ottenere una tradizione della Forgia. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentlanternf":1,
+                  "fragmentforgef":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentlanterng"
+         }
+      },
+      {
+         "id":"fragmentlanterng",
+         "label":"Misteri Illuminati",
+         "aspects":{
+            "lantern":14,
+            "lore":1,
+            "subvertable_lore":1
+         },
+         "description":"Il Meniscate, il Madrugad, il Creatore di Fiori e la Forgia dei Giorni sono dei-dalla-Luce. Vi è un quinto, che sappiamo non essere l’Osservatore. Tuttavia, l’Osservatore condivide una dottrina segreta con questi cinque, e questa è quella dottrina... [Usa questo in un Rito con una Rottura Subdola ed una Curiosità Paradossale, e qualcuno arriverà. Parlane con un Cacciatore, e potrebbe portarlo alla follia sul posto.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "unique":true
+      },
+      {
+         "id":"fragmentmoth",
+         "label":"Un Avvertimento del Barbiere",
+         "aspects":{
+            "moth":2,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1
+         },
+         "description":"Un potere nella Foresta gode della separazione della ciocca dallo scalpo. Per ottenere attenzione, bruciala. Per ottenere opportunità, seppelliscila. [Pronuncialo in un Rito con un cadavere e la presenza dell’influenza dell’Inverno, il cadavere si ergerà.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Falena dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Lanterna dello stesso livello per convertilo, ed ottenere una tradizione della Lanterna.",
+               "required":{
+                  "fragmentmoth":1,
+                  "fragmentlantern":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentmothb"
+         }
+      },
+      {
+         "id":"fragmentmothb",
+         "label":"Un Sussurro del Bosco",
+         "aspects":{
+            "moth":4,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1
+         },
+         "description":"Svegliati ed ascolta. Il vento parla tra i rami. La casa piange nel suo sonno. Vi sono strade che il caos percorre. [Pronuncialo in un Rito con un cadavere e la presenza dell’influenza dell’Inverno, il cadavere si ergerà.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Falena dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Lanterna dello stesso livello per convertilo, ed ottenere una tradizione della Lanterna. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentmothb":1,
+                  "fragmentlanternb":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentmothc"
+         }
+      },
+      {
+         "id":"fragmentmothc",
+         "label":"Una Parabola dell’Ecdiasta",
+         "aspects":{
+            "moth":6,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1,
+            "challenge.illumination":1
+         },
+         "description":"L’Enigma dell’Ecdiasta è 'Cosa può essere perso?' Ognuna delle Parabole dell’Ecdiasta è un tentativo di rispondere a questo Enigma. ",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Falena dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Lanterna dello stesso livello per convertilo, ed ottenere una tradizione della Lanterna. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentmothc":1,
+                  "fragmentlanternc":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentmothd"
+         }
+      },
+      {
+         "id":"fragmentmothd",
+         "label":"Ammonizioni di Moldywarp",
+         "aspects":{
+            "moth":8,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1,
+            "challenge.illumination":1
+         },
+         "description":"Moldywarp tiene la sua corona nel muschio, i suoi piedi nel fango e gli alberi stretti come denti. Moldywarp ha queste avvertimenti per te.",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Falena dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Lanterna dello stesso livello per convertilo, ed ottenere una tradizione della Lanterna. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentmothd":1,
+                  "fragmentlanternd":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentmothe"
+         }
+      },
+      {
+         "id":"fragmentmothe",
+         "label":"Testamento del Millepiedi",
+         "aspects":{
+            "moth":10,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1,
+            "challenge.illumination":1,
+            "challenge.obsessive":1
+         },
+         "description":"Il Millepiedi venne fuori dalle sabbie e si nascose tra le radici. Trovò una nuova casa, ma ora non può andarvi. Ora s'insinua in qualsiasi posto: i buchi delle serrature, le storie, i canali della nascita, della vista e dell'udito. Questo è quanto ha da dire.",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Falena dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Lanterna dello stesso livello per convertilo, ed ottenere una tradizione della Lanterna. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentmothe":1,
+                  "fragmentlanterne":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentmothf"
+         }
+      },
+      {
+         "id":"fragmentmothf",
+         "label":"Dolce Torace Nato dalla Coscia",
+         "aspects":{
+            "moth":12,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.intuition":1,
+            "challenge.illumination":1,
+            "challenge.obsessive":1
+         },
+         "description":"Il re delle falene, dalla corona di vite, nacque nella coscia del defunto dio-tuono. Bevi la linfa del suo ventre. Queste sono le visioni che avrai.",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione della Falena dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione della Lanterna dello stesso livello per convertilo, ed ottenere una tradizione della Lanterna. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentmothf":1,
+                  "fragmentlanternf":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentmothg"
+         }
+      },
+      {
+         "id":"fragmentmothg",
+         "label":"Giumenta-nel-Tasso",
+         "aspects":{
+            "moth":14,
+            "lore":1,
+            "subvertable_lore":1
+         },
+         "description":"Le vere Ore non incontrano gli dei-dal-Nulla, ma il Tasso-Accerchiato incontrò la Giumenta-ne-l’Albero nel luogo in cui la Foresta cresce lussureggiante. Il loro accoppiamento è proibito, e le cose proibite sono potenti, questa è la storia dei loro accoppiamenti.",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "unique":true
+      },
+      {
+         "id":"fragmentsecrethistories",
+         "label":"Un Frammento Occulto",
+         "aspects":{
+            "secrethistories":2,
+            "lore":1,
+            "challenge.knowledge":1
+         },
+         "description":"Le Storie Segrete sono stratificate sotto quella che conosciamo, come le note nei vini pregiati. Questo è un dettaglio da una di queste storie. [Esplorare con questo frammento di conoscenza può svelare luoghi segreti nella Capitale.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento della tradizione delle Storie Segrete dello stesso livello per portarlo a livello successivo.",
+               "required":{
+                  "fragmentsecrethistories":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentsecrethistoriesb"
+         }
+      },
+      {
+         "id":"fragmentsecrethistoriesb",
+         "label":"Una Verità Furtiva",
+         "aspects":{
+            "secrethistories":4,
+            "lore":1,
+            "challenge.knowledge":1
+         },
+         "description":"Un dettaglio è stato tramandato di nascosto attraverso una narrativa contigua. Non parlarne dove potresti essere sentito. [Esplorare con questo frammento di conoscenza può svelare luoghi segreti nella Contea.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento della tradizione delle Storie Segrete dello stesso livello per portarlo a livello successivo. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentsecrethistoriesb":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentsecrethistoriesc"
+         }
+      },
+      {
+         "id":"fragmentsecrethistoriesc",
+         "label":"Una Cronaca Dimenticata",
+         "aspects":{
+            "secrethistories":6,
+            "lore":1,
+            "challenge.knowledge":1,
+            "challenge.intuition":1
+         },
+         "description":"La storia di una città senza cancello, di una regina non nata, di una guerra non combattuta. [Esplorare con questo frammento di conoscenza può svelare luoghi segreti nel Continente.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento della tradizione delle Storie Segrete dello stesso livello per portarlo a livello successivo. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentsecrethistoriesc":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentsecrethistoriesd"
+         }
+      },
+      {
+         "id":"fragmentsecrethistoriesd",
+         "label":"Epopea Proibita",
+         "aspects":{
+            "secrethistories":8,
+            "lore":1,
+            "challenge.knowledge":1,
+            "challenge.intuition":1
+         },
+         "description":"L’attenzione delle Ore è attirata dalle guerre più sanguinarie. In seguito, le Storie vengono intrecciate come capelli. [Esplorare con questo frammento di conoscenza può svelare luoghi segreti nella Terra al di là della Foresta, oltre il Continente.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento della tradizione delle Storie Segrete dello stesso livello per portarlo a livello successivo. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentsecrethistoriesd":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentsecrethistoriese"
+         }
+      },
+      {
+         "id":"fragmentsecrethistoriese",
+         "label":"Ambiguità Irrisolta",
+         "aspects":{
+            "secrethistories":10,
+            "lore":1,
+            "challenge.knowledge":1,
+            "challenge.intuition":1,
+            "challenge.illumination":1
+         },
+         "description":"Nel Mansus, le Ore lottano una contro l’altra. Quando le lotte si risolvono, appianano l’impossibile, esaltano il possibile, legano le trecce sfilacciate di quello che sarebbe stato un nastro dorato di futuro. Tutto è risolto. La storia diviene il passato. Tuttavia, vi sono alcune eccezioni. [Esplorare con questo frammento di conoscenza può svelare luoghi segreti nelle Montagne Laceranti, lontane tremila miglia presso le rovine dei più antichi imperi.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento della tradizione delle Storie Segrete dello stesso livello per portarlo a livello successivo. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentsecrethistoriese":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentsecrethistoriesf"
+         }
+      },
+      {
+         "id":"fragmentsecrethistoriesf",
+         "label":"Mappa del Vagabondo",
+         "aspects":{
+            "secrethistories":12,
+            "lore":1,
+            "challenge.knowledge":1,
+            "challenge.intuition":1,
+            "challenge.illumination":1
+         },
+         "description":"Il Vagabondo è l’Ora che non può entrare nel Mansus, ma va <i>in qualunque altro</i> posto... e, se credi alle sue vanterie, è l’unica a conoscere tutte le Storie. Talvolta, lascia che qualcuno registri i suoi viaggi. [Esplorare con questo frammento di conoscenza può svelare luoghi segreti nelle Sabbie Deserte e Piatte, lontano da qui.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento della tradizione delle Storie Segrete dello stesso livello per portarlo a livello successivo. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentsecrethistoriesf":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentsecrethistoriesg"
+         }
+      },
+      {
+         "id":"fragmentsecrethistoriesg",
+         "label":"Aneddoto di Port Noon",
+         "aspects":{
+            "secrethistories":14,
+            "lore":1
+         },
+         "description":"Port Noon è il luogo nel quale i Lunghi vanno per godersi il mare e il sole, per bere dalla Fonte che li oblia al mondo e per stare lontani dai guai. Soprattutto lontani dai guai. Puoi sentire molte storie nell’Hotel Ciervo, veri e propri brindisi alla memoria, con rugiada dorata distillata cinque volte, servita liscia. [Esplorare con questo frammento di conoscenza può svelare luoghi segreti nelle Isole del Vespro, dov’è situata Port Noon, oltre il grande oceano.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "unique":true
+      },
+      {
+         "id":"fragmentwinter",
+         "label":"Un Segreto del Sagrestano",
+         "aspects":{
+            "winter":2,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1
+         },
+         "description":"Alcune conoscenze, si dice, possono essere espresse solamente attraverso la particolare qualità di un silenzio. È stato suggerito, ma solo da commentatori maligni, che si potesse leggere tali conoscenze solamente ad occhi chiusi. [Usa questo in un Rito con un cadavere e un aspetto della Lama, il cadavere si ergerà.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione dell’Inverno dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione del Cuore dello stesso livello per convertilo, ed ottenere una tradizione del Cuore.",
+               "required":{
+                  "fragmentwinter":1,
+                  "fragmentheart":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentwinterb"
+         }
+      },
+      {
+         "id":"fragmentwinterb",
+         "label":"Una Cerimonia Bianca",
+         "aspects":{
+            "winter":4,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1
+         },
+         "description":"Quando la pronuncio, le mie labbra non seccano per il gelo. Ogni volta questo mi sorprende. [Usa questo in un Rito con un influenza del Cuore e una Tintura Bizantina per evocare un Morto Afono.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione dell’Inverno dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione del Cuore dello stesso livello per convertilo, ed ottenere una tradizione del Cuore. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentwinterb":1,
+                  "fragmentheartb":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentwinterc"
+         }
+      },
+      {
+         "id":"fragmentwinterc",
+         "label":"Un'Operazione del Sole Declinante",
+         "aspects":{
+            "winter":6,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1,
+            "challenge.grim":1
+         },
+         "description":"L'operazione invoca, riconosce e plaude il passaggio al silenzio. [Usa questo in un Rito con un influenza del Cuore e una Tintura Bizantina per evocare un Morto Afono.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione dell’Inverno dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione del Cuore dello stesso livello per convertilo, ed ottenere una tradizione del Cuore. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentwinterc":1,
+                  "fragmentheartc":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentwinterd"
+         }
+      },
+      {
+         "id":"fragmentwinterd",
+         "label":"Invocazione della Colomba d'Avorio",
+         "aspects":{
+            "winter":8,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1,
+            "challenge.grim":1
+         },
+         "description":"Vi è un potere che commemora e compiange, dal quale nulla viene preso, ma che non può essere ingannato. Potresti credere di poterlo polverizzare nella mano e farlo divenire frammenti d’ossa d'uccello. [Usa questo in un Rito con la Pasta di Martensite ed un assistente devoto al Colpo - o altre risorse di egual potere - per evocare una Vergine-nello-Specchio.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione dell’Inverno dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione del Cuore dello stesso livello per convertilo, ed ottenere una tradizione del Cuore. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentwinterd":1,
+                  "fragmentheartd":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentwintere"
+         }
+      },
+      {
+         "id":"fragmentwintere",
+         "label":"Recitazione delle Ore Perdute",
+         "aspects":{
+            "winter":10,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1,
+            "challenge.grim":1,
+            "challenge.obsessive":1
+         },
+         "description":"Sei sono andate. Cinque vennero dalla Pietra ed una dalla Luce. Tutte andarono nel Nulla. Comunque, le loro memorie hanno ancora potere, ed ora noi le invitiamo. [Usa questo in un Rito con una Pasta di Martensite ed un assistente devoto al Colpo - o altre risorse di egual potere - per evocare una Vergine-nello-Specchio.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione dell’Inverno dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione del Cuore dello stesso livello per convertilo, ed ottenere una tradizione del Cuore. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentwintere":1,
+                  "fragmenthearte":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentwinterf"
+         }
+      },
+      {
+         "id":"fragmentwinterf",
+         "label":"Le Divisioni dei Nomi",
+         "aspects":{
+            "winter":12,
+            "lore":1,
+            "subvertable_lore":1,
+            "challenge.knowledge":1,
+            "challenge.grim":1,
+            "challenge.obsessive":1
+         },
+         "description":"Quando il Sole-nel-Lusso fu diviso, i suoi Nomi lo furono a loro volta. Qui vi sono le schegge dei nomi che un tempo furono completi. [Usa questo in un Rito con una Pasta di Martensite ed un assistente devoto al Colpo - o altre risorse di egual potere - per evocare una Vergine-nello-Specchio.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con un frammento di tradizione dell’Inverno dello stesso livello per portarlo a livello successivo. Studia con un frammento di tradizione del Cuore dello stesso livello per convertilo, ed ottenere una tradizione del Cuore. O studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "fragmentwinterf":1,
+                  "fragmentheartf":1,
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "epiphany":"fragmentwinterg"
+         }
+      },
+      {
+         "id":"fragmentwinterg",
+         "label":"Parola-Lupo",
+         "aspects":{
+            "winter":14,
+            "lore":1,
+            "subvertable_lore":1
+         },
+         "description":"Quando la Forgia sarà fredda, la Gloria oscurata e la Foresta polvere, forse il Lupo Diviso si riposerà, ma solo finché non divorerà sé stesso. Questa Parola esprime in parte l’odio dell’Uno Diviso. [Parla di questo con un Cacciatore, e potrebbe farlo impazzire sul posto.]",
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia con la Ragione per rompere la tradizione in frammenti di livello minore.",
+               "required":{
+                  "reason":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "unique":true
+      },
+      {
+         "id":"fragmentglory",
+         "label":"A Recollection of Glory",
+         "aspects":{
+            "lantern":6,
+            "forge":6,
+            "lore":1
+         },
+         "description":"--",
+         "comments":"Hello, Seeker. If you're here to decipher enigmas, familiarise yourself with the eidesis in which were presented the Lion, the Boar and the Bull. - AK.",
+         "xtriggers":{
+            "epiphany":"bequestintro"
+         },
+         "noartneeded":true
+      },
+      {
+         "id":"prealzabo",
+         "label":"Formula: Elixir Zeboim?",
+         "description":"Qui ho un segreto - un composto di miele, asfodelo, avorio polverizzato e un fungo chiazzato che cresce solo nei luoghi di sepoltura dei morti.",
+         "aspects":{
+            "lore":1
+         },
+         "slots":[
+            {
+               "id":"desire",
+               "label":"Tentazione",
+               "description":"Le vecchie memorie finiscono nella terra e qui non possono essere trovate - ma esse dimorano in un altro luogo, al principio, prima che finiscano troppo in fondo.",
+               "actionId":"study",
+               "required":{
+                  "remembrancemarks":1
+               }
+            },
+            {
+               "id":"taste",
+               "label":"Assaggia",
+               "description":"Non posso tornare indietro.",
+               "actionId":"study",
+               "required":{
+                  "remnant":1
+               }
+            },
+            {
+               "id":"materials",
+               "label":"Materiali",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"study"
+            }
+         ]
+      },
+      {
+         "id":"alzabo",
+         "label":"Formula: Elixir Zeboim",
+         "description":"La formula velocizza i ricordi della carne decadente negli stomaci dei viventi. Una cosa simile non potrebbe esistere senza il consenso del Creatore di Fiori e dell'Elegiasta... nonché con l'assistenza di un'altra Ora.",
+         "comments":"RIP Gene Wolfe, 1931-2019. 'Some are haunted by ghosts. I am haunted by stories.'",
+         "aspects":{
+            "lore":1
+         },
+         "slots":[
+            {
+               "id":"desire",
+               "label":"Tentazione",
+               "description":"Le vecchie memorie finiscono nella terra e qui non possono essere trovate - ma esse dimorano in un altro luogo, al principio, prima che finiscano troppo in fondo.",
+               "actionId":"study",
+               "required":{
+                  "remembrancemarks":1
+               }
+            },
+            {
+               "id":"feast",
+               "label":"Banchetto",
+               "description":"Quando l'Elixir viene consumato gli enzimi della digestione divengono i messaggeri della resurrezione. Il Morto vive ancora - sebbene solo nei miei ricordi.",
+               "actionId":"study",
+               "required":{
+                  "remnant":1
+               }
+            }
+         ]
+      }
+   ]
+}

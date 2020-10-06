@@ -1,0 +1,501 @@
+{
+   "elements":[
+      {
+         "id":"aladim",
+         "label":"Dr. Ibn al-Adim",
+         "aspects":{
+            "tutoraramaic":1,
+            "tutor":1,
+            "patron":1
+         },
+         "description":"Il Dr. Ibn al-Adim, chiamato l’Aleppino, è interessato alle storie dimenticate. Ti ha offerto una commissione.",
+         "unique":true,
+         "xtriggers":{
+            "commissionfulfilled":"aladimaway",
+            "killmortal":"rumour",
+            "derangemortal":"rumour"
+         },
+         "slots":[
+            {
+               "id":"Commission",
+               "label":"Commissione",
+               "actionId":"talk",
+               "required":{
+                  "commission":1
+               }
+            },
+            {
+               "id":"Manuscript",
+               "label":"Manoscritto",
+               "actionId":"talk",
+               "required":{
+                  "article":1
+               }
+            }
+         ]
+      },
+      {
+         "id":"aladimready",
+         "label":"Dr. Ibn al-Adim",
+         "aspects":{
+            "tutoraramaic":1,
+            "tutor":1,
+            "patron":1
+         },
+         "description":"Il Dr. Ibn al-Adim, chiamato l’Aleppino, è interessato alle storie dimenticate. Gli servirebbe il tuo aiuto.",
+         "unique":true,
+         "xtriggers":{
+            "commissiongiven":"aladim",
+            "killmortal":"rumour",
+            "derangemortal":"rumour"
+         }
+      },
+      {
+         "id":"bechet",
+         "label":"Mme Bechet",
+         "aspects":{
+            "mortal":1,
+            "patron":1,
+            "tutor":1,
+            "tutorgreek":1
+         },
+         "description":"Mme Olympe Bechet scrive sul Kerisham Review, che pubblica materiale troppo orribile od emozionante per altre riviste letterarie. Ti ha offerto una commissione.",
+         "unique":true,
+         "xtriggers":{
+            "commissionfulfilled":"bechetaway",
+            "killmortal":"corpse",
+            "derangemortal":"lunatic"
+         },
+         "slots":[
+            {
+               "id":"Commission",
+               "label":"Commissione",
+               "actionId":"talk",
+               "required":{
+                  "commission":1
+               }
+            },
+            {
+               "id":"Manuscript",
+               "label":"Manoscritto",
+               "actionId":"talk",
+               "required":{
+                  "article":1
+               }
+            }
+         ]
+      },
+      {
+         "id":"bechetready",
+         "label":"Mme Bechet",
+         "aspects":{
+            "mortal":1,
+            "patron":1,
+            "tutor":1,
+            "tutorgreek":1
+         },
+         "description":"Mme Olympe Bechet scrive sul Kerisham Review, che pubblica materiale troppo orribile od emozionante per altre riviste letterarie. Le servirebbe il tuo aiuto.",
+         "unique":true,
+         "xtriggers":{
+            "commissiongiven":"bechet",
+            "killmortal":"corpse",
+            "derangemortal":"lunatic"
+         }
+      },
+      {
+         "id":"jannings",
+         "label":"Conte Jannings",
+         "aspects":{
+            "mortal":1,
+            "patron":1,
+            "tutor":1,
+            "tutorlatin":1
+         },
+         "description":"Il Conte Gottlob Jannings rappresenta una confraternita Continentale di fisici e duellanti. Ti ha offerto una commissione.",
+         "unique":true,
+         "xtriggers":{
+            "commissionfulfilled":"janningsaway",
+            "killmortal":"corpse",
+            "derangemortal":"lunatic"
+         },
+         "slots":[
+            {
+               "id":"Commission",
+               "label":"Commissione",
+               "actionId":"talk",
+               "required":{
+                  "commission":1
+               }
+            },
+            {
+               "id":"Manuscript",
+               "label":"Manoscritto",
+               "actionId":"talk",
+               "required":{
+                  "article":1
+               }
+            }
+         ]
+      },
+      {
+         "id":"janningsready",
+         "label":"Conte Jannings",
+         "aspects":{
+            "mortal":1,
+            "patron":1,
+            "tutor":1,
+            "tutorlatin":1
+         },
+         "description":"Il Conte Gottlob Jannings rappresenta una confraternita Continentale di fisici e duellanti. Gli servirebbe il tuo aiuto.",
+         "unique":true,
+         "xtriggers":{
+            "commissiongiven":"jannings",
+            "killmortal":"corpse",
+            "derangemortal":"lunatic"
+         }
+      },
+      {
+         "id":"poppyready",
+         "label":"Poppy Lascelles",
+         "aspects":{
+            "mortal":1,
+            "patron":1
+         },
+         "description":"Un’amabile donna molto ricca. Vorrebbe parlarti.",
+         "unique":true,
+         "xtriggers":{
+            "killmortal":"corpse",
+            "derangemortal":"lunatic"
+         }
+      },
+      {
+         "id":"poppy",
+         "label":"Poppy Lascelles",
+         "aspects":{
+            "mortal":1,
+            "patron":1
+         },
+         "description":"Un’amabile donna molto ricca.",
+         "unique":true,
+         "xtriggers":{
+            "killmortal":"corpse",
+            "derangemortal":"lunatic"
+         }
+      },
+      {
+         "id":"poppycommissionready",
+         "label":"Poppy Lascelles",
+         "aspects":{
+            "mortal":1,
+            "patron":1
+         },
+         "description":"Un’amabile donna molto ricca. Le servirebbe il tuo aiuto per qualcosa.",
+         "unique":true,
+         "xtriggers":{
+            "killmortal":"corpse",
+            "derangemortal":"lunatic",
+            "commissiongiven":"poppycommission"
+         },
+         "icon":"poppyready"
+      },
+      {
+         "id":"poppycommission",
+         "label":"Poppy Lascelles",
+         "aspects":{
+            "mortal":1,
+            "patron":1
+         },
+         "description":"Un’amabile donna molto ricca. Ti ha offerto una commissione.",
+         "unique":true,
+         "xtriggers":{
+            "killmortal":"corpse",
+            "derangemortal":"lunatic",
+            "commissionfulfilled":"poppyaway"
+         },
+         "slots":[
+            {
+               "id":"Commission",
+               "label":"Commissione",
+               "actionId":"talk",
+               "required":{
+                  "commission":1
+               }
+            },
+            {
+               "id":"Manuscript",
+               "label":"Manoscritto",
+               "actionId":"talk",
+               "required":{
+                  "article":1
+               }
+            }
+         ],
+         "icon":"poppy"
+      },
+      {
+         "id":"aladimaway",
+         "label":"Dr. Ibn al-Adim",
+         "description":"Il Dr. Ibn al-Adim, chiamato l’Aleppino, è interessato alle storia dimenticata. È segregato proprio ora, ma sarà presto di nuovo disponibile.",
+         "lifetime":120,
+         "decayTo":"aladimready",
+         "icon":"aladim"
+      },
+      {
+         "id":"bechetaway",
+         "label":"Mme Bechet",
+         "description":"Mme Olympe Bechet scrive sul Kerisham Review, che pubblica materiale troppo orribile od emozionante per altre riviste letterarie. Proprio ora è occupata a preparare la pubblicazione, ma sarà presto di nuovo disponibile.",
+         "lifetime":120,
+         "decayTo":"bechetready",
+         "icon":"bechet"
+      },
+      {
+         "id":"janningsaway",
+         "label":"Conte Jannings",
+         "lifetime":120,
+         "description":"Il Conte Gottlob Jannings rappresenta una confraternita Continentale di fisici e duellanti. In questo momento egli è fuori dal paese, ma sarà presto disponibile.",
+         "decayTo":"janningsready",
+         "icon":"jannings"
+      },
+      {
+         "id":"poppyaway",
+         "label":"Poppy Lascelles",
+         "description":"Un’amabile donna molto ricca. Al momento non riceve visitatori.",
+         "lifetime":120,
+         "decayTo":"poppycommissionready",
+         "icon":"poppy"
+      },
+      {
+         "id":"benefactorm",
+         "label":"Lord Timothy Munday",
+         "description":"Un elegante gentiluomo dagli occhi tristi, i capelli sfuggenti e una tendenza ad attacchi di amichevoli, raglianti, risate nervose. Non toccherà più bevande forti.",
+         "uniquenessgroup":"uqbenefactorm",
+         "aspects":{
+            "benefactor":1,
+            "mortal":1
+         },
+         "slots":[
+            {
+               "id":"health",
+               "actionId":"work",
+               "label":"Salute",
+               "required":{
+                  "health":1
+               }
+            },
+            {
+               "id":"funds",
+               "actionId":"work",
+               "label":"Glamour",
+               "required":{
+                  "funds":1
+               }
+            }
+         ],
+         "xtriggers":{
+            "employment":"benefactorm",
+            "rejection":"benefactorm_rejectedplayer",
+            "killmortal":"corpse",
+            "avowal":"benefactorm_proposedtoplayer"
+         },
+         "lifetime":180,
+         "decayTo":"benefactorm_rejectedplayer"
+      },
+      {
+         "id":"benefactorf",
+         "label":"Nicole, Quarta Marchesa di Stanford",
+         "description":"Una donna cauta e intelligente dagli occhi ravvicinati e una pelle eccellente per la sua età. Ha per lungo tempo gestito i suoi stessi affari finanziari, e dona obbedientemente in beneficenza.",
+         "uniquenessgroup":"uqbenefactorf",
+         "aspects":{
+            "benefactor":1,
+            "mortal":1
+         },
+         "slots":[
+            {
+               "id":"health",
+               "actionId":"work",
+               "label":"Salute",
+               "required":{
+                  "health":1
+               }
+            },
+            {
+               "id":"funds",
+               "actionId":"work",
+               "label":"Glamour",
+               "required":{
+                  "funds":1
+               }
+            }
+         ],
+         "xtriggers":{
+            "employment":"benefactorf",
+            "rejection":"benefactorf_rejectedplayer",
+            "killmortal":"corpse",
+            "avowal":"benefactorf_proposedtoplayer"
+         },
+         "lifetime":180,
+         "decayTo":"benefactorf_rejectedplayer"
+      },
+      {
+         "id":"benefactorm_rejectedplayer",
+         "label":"Lord Timothy Munday",
+         "description":"Lord Timothy non mi manda più i suoi biglietti.",
+         "uniquenessgroup":"uqbenefactorm",
+         "aspects":{
+            "mortal":1
+         },
+         "xtriggers":{
+            "killmortal":"corpse"
+         },
+         "icon":"benefactorm"
+      },
+      {
+         "id":"benefactorf_rejectedplayer",
+         "label":"Nicole, Quarta Marchesa di Stanford",
+         "description":"Si dice che l'Onorevole Marchesa di Stanford dica in giro di non comprendere esattamente cosa avesse visto in me.",
+         "uniquenessgroup":"uqbenefactorf",
+         "aspects":{
+            "mortal":1
+         },
+         "xtriggers":{
+            "killmortal":"corpse"
+         },
+         "icon":"benefactorf"
+      },
+      {
+         "id":"benefactorm_proposedtoplayer",
+         "label":"Lord Timothy Munday",
+         "description":"In un momento di passione, Lord Timothy ha proposto di sposarci. Se cogliessi il momento ed accettassi, questo trasformerebbe la mia vita... e chiuderebbe per sempre altre porte. [Parla a sua Eccellenza prima che il suo entusiasmo svanisca, o si sentirà respinto.]",
+         "uniquenessgroup":"uqbenefactorm",
+         "aspects":{
+            "mortal":1,
+            "benefactor_proposal":1
+         },
+         "xtriggers":{
+            "killmortal":"benefactorwill"
+         },
+         "lifetime":180,
+         "decayTo":"benefactorm_rejectedplayer",
+         "icon":"benefactorm"
+      },
+      {
+         "id":"benefactorf_proposedtoplayer",
+         "label":"Nicole, Quarta Marchesa di Stanford",
+         "description":"In un momento di passione, l'Onorevole Nicole ha proposto di sposarci. Se cogliessi il momento ed accettassi, questo trasformerebbe la mia vita... e chiuderebbe per sempre altre porte. [Parla alla Marchesa prima che il suo entusiasmo svanisca, o si sentirà respinta.]",
+         "uniquenessgroup":"uqbenefactorf",
+         "aspects":{
+            "mortal":1,
+            "benefactor_proposal":1
+         },
+         "xtriggers":{
+            "killmortal":"benefactorwill"
+         },
+         "lifetime":180,
+         "decayTo":"benefactorf_rejectedplayer",
+         "icon":"benefactorf"
+      },
+      {
+         "id":"benefactorwill",
+         "label":"Documenti di un Caro Estinto",
+         "description":"Qualcuno che mi ha amato è morto. Forse hanno mi ha lasciato qualcosa nel suo testamento. Dovrei parlarne con un avvocato. [Entra in azione se desideri andare fino in fondo... ma c’è una piccola possibilità che il sospetto possa cadere su di te.]",
+         "slots":[
+            {
+               "id":"lawyerfees",
+               "actionId":"study",
+               "label":"Onorario dell'Avvocato",
+               "consumes":true,
+               "required":{
+                  "funds":1
+               }
+            }
+         ],
+         "aspects":{
+            "legacyplotitem":1
+         },
+         "icon":"documentgeneric"
+      },
+      {
+         "id":"sulochana",
+         "label":"Sulochana Amavasya",
+         "description":"La laconica, energetica, dagli occhi luminosi e impassibile proprietaria dell’Ecdysis Club.",
+         "unique":true,
+         "aspects":{
+            "tutorsanskrit":1,
+            "tutor":1,
+            "patron":1
+         }
+      },
+      {
+         "id":"echidna.enroute",
+         "label":"La Sig.a E. è In Viaggio",
+         "description":"La Signorina E., la 'sorella' di Sulochana, è anche conosciuta con l’improbabile titolo di 'Madre dei Mostri'. Non è chiaro dove si rintani di solito, ma non è in questo lato del mare. Ci metterà un po’ per arrivare.",
+         "unique":true,
+         "lifetime":180,
+         "decayTo":"echidna"
+      },
+      {
+         "id":"echidna",
+         "label":"Sig.a E.",
+         "description":"La sedicente Madre dei Mostri. Un'allegra donna corpulenta in un vestito verde-grigio, come una fatina sformata.",
+         "aspects":{
+            "patron":1
+         },
+         "unique":true
+      },
+      {
+         "id":"marinette.enroute",
+         "label":"Nostra Signora dei Fili è In Viaggio",
+         "description":"La 'sorella' di Sulochana, di solito non viene nominata, fatto salvo per 'Nostra Signora dei Fili'. Sarà qua, presto, di notte.",
+         "unique":true,
+         "lifetime":180,
+         "decayTo":"marinette"
+      },
+      {
+         "id":"marinette",
+         "label":"Marinette, 'Nostra Signora dei Fili'",
+         "description":"Puzza di sangue marcio e schiocca la mascella ogni volta che parla. Forse c’è una donna, rannicchiata sotto i vestiti e le ossa. Forse è il trucco di qualche burattinaio.",
+         "aspects":{
+            "patron":1
+         },
+         "unique":true
+      },
+      {
+         "id":"kleidouchos.enroute",
+         "label":"Frau Schlüssel è In Viaggio",
+         "description":"Corrispondente' di Teresa Galmier, 'sorella' di Sulochana, la detentrice della Chiave dei Giorni, sta venendo qui da Vienna. Forse dovrei andarla a prendere in stazione.",
+         "aspects":{
+            "patron":1
+         },
+         "lifetime":180,
+         "decayTo":"kleidouchos"
+      },
+      {
+         "id":"kleidouchos",
+         "label":"Frau Schlüssel",
+         "description":"Un'arzilla ed energetica donna vestita rigorosamente di bianco e nero, molto rugosa. Non l'ho mai vista battere le palpebre. Un piccolo cucciolo nero sbircia dalla sua sottana.",
+         "aspects":{
+            "patron":1
+         }
+      },
+      {
+         "id":"naenia",
+         "label":"'Miss Naenia'",
+         "description":"Il dipinto di una donna dalla pelle scura con gli occhi del colore della neve e rasi capelli color avorio. Lei posa davanti ad una piccola tomba in marmo sulla quale crescono gelsomini. Il dipinto è firmato 'Jonas B. Munch, 1811'.",
+         "slots":[
+            {
+               "id":"subject",
+               "label":"Memoria",
+               "description":"Miss Naenia non mi parla mai - è solamente un dipinto - ma quando vado via ricordo sempre cos'ha detto.",
+               "actionId":"talk",
+               "required":{
+                  "memory":1,
+                  "ascension.remembrance.offering":1
+               }
+            }
+         ],
+         "aspects":{
+            "patron":1
+         }
+      }
+   ]
+}

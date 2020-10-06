@@ -1,0 +1,151 @@
+{
+   "elements":[
+      {
+         "id":"legacydetectivejob",
+         "label":"Ispettore di Polizia",
+         "description":"Sono un ufficiale nella polizia della capitale.",
+         "aspects":{
+            "job":1
+         },
+         "xtriggers":{
+            "careeradvancement":"legacydetectivejob_matured"
+         }
+      },
+      {
+         "id":"legacydetectivejob_matured",
+         "label":"Ispettore di Polizia",
+         "description":"Sono un ufficiale nella polizia della capitale, sebbene sia stato distaccato al Dipartimento Soppressione.",
+         "aspects":{
+            "job":1
+         },
+         "slots":[
+            {
+               "id":"target",
+               "label":"Indagato",
+               "required":{
+                  "suspicious":1
+               },
+               "description":"Finché non avrò qualche prova, devo cominciare osservando direttamente la mia preda.",
+               "actionId":"work"
+            },
+            {
+               "id":"meticulous",
+               "label":"Meticoloso",
+               "description":"Più Ragione significa più probabilità di successo per la mia indagine.",
+               "required":{
+                  "reason":1
+               },
+               "actionId":"work"
+            },
+            {
+               "id":"vigilant",
+               "label":"Vigile",
+               "description":"Più Ragione significa più probabilità di successo per la mia indagine.",
+               "required":{
+                  "reason":1
+               },
+               "actionId":"work"
+            },
+            {
+               "id":"singleminded",
+               "label":"Tenace",
+               "description":"Più Ragione significa più probabilità di successo per la mia indagine.",
+               "required":{
+                  "reason":1
+               },
+               "actionId":"work"
+            }
+         ],
+         "xtriggers":{
+            "employment":"legacydetectivejob_matured"
+         },
+         "lifetime":90,
+         "decayTo":"legacydetectivejob_suspended",
+         "icon":"legacydetectivejob"
+      },
+      {
+         "id":"legacydetectivejob_suspended",
+         "label":"Ispettore di Polizia [Sospeso]",
+         "description":"La mia assenza è strata notata. Sono stato sospeso. [Perora la tua causa in fretta, o perdi il tuo posto per sempre.]",
+         "slots":[
+            {
+               "id":"passion",
+               "label":"Passione",
+               "required":{
+                  "passion":1
+               },
+               "actionId":"work"
+            }
+         ],
+         "aspects":{
+            "job":1
+         },
+         "xtriggers":{
+            "plead":"legacydetectivejob_matured"
+         },
+         "lifetime":90,
+         "decayTo":"legacydetectivejob_disgraced"
+      },
+      {
+         "id":"legacydetectivejob_disgraced",
+         "label":"Ispettore di Polizia [in Disgrazia]",
+         "description":"Ho perso il mio posto. È improbabile che lo possa riavere. Devo trovare la mia strada nel mondo civile.",
+         "lifetime":120,
+         "decayTo":"mystique"
+      },
+      {
+         "id":"legacydetective_plotitem",
+         "label":"Dossier Sigillato del Dipartimento",
+         "aspects":{
+            "desire":1,
+            "legacyplotitem":1,
+            "detectivetemptation":1
+         },
+         "description":"Un fascicolo sull’enigmatico #PREVIOUSCHARACTERNAME#. L’ho sigillato io stesso. Conosco fin troppo bene il suo contenuto. Se riesaminassi le carte i sogni potrebbero ricominciare."
+      },
+      {
+         "id":"myevidence",
+         "label":"Indicazioni Preliminari",
+         "description":"Ho prove convincenti sulle attività della mia preda.",
+         "lifetime":300,
+         "aspects":{
+            "suspicious":1
+         },
+         "xtriggers":{
+            "investigatingsuccess":"myevidenceb"
+         }
+      },
+      {
+         "id":"myevidenceb",
+         "label":"Prove Schiaccianti",
+         "description":"Ho prove convincenti sulle ttività della mia preda.",
+         "lifetime":300,
+         "aspects":{
+            "suspicious":1
+         }
+      },
+      {
+         "id":"legacydetective_plotitem_burning",
+         "label":"Dossier del Dipartimento in Fiamme",
+         "description":"Se n’è quasi andato! Potrei raccoglierlo dalle fiamme...",
+         "lifetime":10,
+         "icon":"legacydetective_plotitem",
+         "aspects":{
+            "desire":1,
+            "legacyplotitem":1,
+            "detectivetemptation":1
+         }
+      },
+      {
+         "id":"legacydetective_plotitem_backup",
+         "label":"Dossier Problematico del Dipartimento",
+         "aspects":{
+            "desire":1,
+            "legacyplotitem":1,
+            "detectivetemptation":1
+         },
+         "icon":"legacydetective_plotitem",
+         "description":"Le prove includono quel tipo di dettagli che farebbero leccar le labbra di qualcuno con determinati interessi. Non dovrei leggerlo. I sogni potrebbero ricominciare."
+      }
+   ]
+}

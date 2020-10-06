@@ -1,0 +1,422 @@
+{
+   "recipes":[
+      {
+         "id":"dreamascensionpowera",
+         "label":"Meditare sulla mia ricerca di un potere ultraterreno",
+         "actionId":"dream",
+         "requirements":{
+            "ascensionpowera":1
+         },
+         "slots":[
+            {
+               "id":"Calculation",
+               "label":"Computo",
+               "required":{
+                  "lore":1,
+                  "health":1,
+                  "reason":1,
+                  "priestjob":1
+               },
+               "description":"Dedicare me stesso con la Tradizione del principio che inseguo; o indirizzare i miei sforzi verso altre direzioni."
+            }
+         ],
+         "startdescription":"Dovrei dedicarmi al mio obbiettivo o concentrare i miei sforzi verso altre direzioni?",
+         "description":"Ho deciso di rimanere come sono... per ora.",
+         "alt":[
+            {
+               "id":"dreamascension_abandontemptation",
+               "chance":100
+            },
+            {
+               "id":"dreamascension_switchto_sensation",
+               "chance":100
+            },
+            {
+               "id":"dreamascension_switchto_enlightenment",
+               "chance":100
+            },
+            {
+               "id":"dreamascension_upgrade_power_1to2",
+               "chance":100
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"dreamascensionsensationa",
+         "label":"Meditare sulla mia ricerca di sensazioni",
+         "actionId":"dream",
+         "requirements":{
+            "ascensionsensationa":1
+         },
+         "slots":[
+            {
+               "id":"Musing",
+               "label":"Meditazione",
+               "required":{
+                  "lore":1,
+                  "passion":1,
+                  "reason":1,
+                  "priestjob":1
+               },
+               "description":"Dedicare me stesso con la Tradizione del principio che inseguo; o indirizzare i miei sforzi verso altre direzioni."
+            }
+         ],
+         "startdescription":"Dovrei dedicarmi al mio obbiettivo o concentrare i miei sforzi verso altre direzioni?",
+         "description":"Ho deciso di rimanere come sono... per ora.",
+         "alt":[
+            {
+               "id":"dreamascension_abandontemptation",
+               "chance":100
+            },
+            {
+               "id":"dreamascension_switchto_power",
+               "chance":100
+            },
+            {
+               "id":"dreamascension_switchto_enlightenment",
+               "chance":100
+            },
+            {
+               "id":"dreamascension_upgrade_sensation_1to2m",
+               "chance":50
+            },
+            {
+               "id":"dreamascension_upgrade_sensation_1to2f",
+               "chance":100
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"dreamascensionenlightenmenta",
+         "label":"Meditare sulla mia ricerca di conoscenze ultraterrene",
+         "actionId":"dream",
+         "requirements":{
+            "ascensionenlightenmenta":1
+         },
+         "slots":[
+            {
+               "id":"Reflection",
+               "label":"Riflessione",
+               "required":{
+                  "lore":1,
+                  "passion":1,
+                  "health":1,
+                  "priestjob":1
+               },
+               "description":"Dedicare me stesso con la Tradizione del principio che inseguo; o indirizzare i miei sforzi verso altre direzioni."
+            }
+         ],
+         "startdescription":"Dovrei dedicarmi al mio obbiettivo o concentrare i miei sforzi verso altre direzioni?",
+         "description":"Ho deciso di rimanere come sono... per ora.",
+         "alt":[
+            {
+               "id":"dreamascension_abandontemptation",
+               "chance":100
+            },
+            {
+               "id":"dreamascension_switchto_sensation",
+               "chance":100
+            },
+            {
+               "id":"dreamascension_switchto_power",
+               "chance":100
+            },
+            {
+               "id":"dreamascension_upgrade_enlightenment_1to2",
+               "chance":100
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"dreamascension_abandontemptation",
+         "actionId":"dream",
+         "label":"Purgarmi dalle Tentazioni",
+         "startdescription":"I miei desideri non valgono niente. Io sono la Soglia. Sono la strada che il mio popolo percorrerà. Io mi preparerò per l'irrevocabile obbiettivo. [Questo distruggerà la tua Tentazione permanentemente. Sii sicuro di ciò che fai.]",
+         "description":"Potrei dire di aver scelto, ma ciò non è totalmente vero. Io <i>sono stato</i> scelto.",
+         "requirements":{
+            "priestjob":1
+         },
+         "effects":{
+            "passion":1,
+            "desire":-1
+         }
+      },
+      {
+         "id":"dreamascension_switchfromchange",
+         "label":"Insegui le Sensazioni, non il Cambiamento",
+         "requirements":{
+            "ascensionchangea":1
+         },
+         "actionId":"dream",
+         "effects":{
+            "desire":-1,
+            "ascensionsensationa":1
+         },
+         "startdescription":"Tra tutte le cose, il desiderio di cambiamento è il più suscettibile di cambiamento. [Non è semplice riottenere il desiderio per il Cambiamento, una volta che è andato perso.]",
+         "description":"Ho riorientato le mie intenzioni. Vi sono esperienze infilate come vene sotto la pelle del mondo. Conoscerò le più profonde di queste, sebbene l'esperienza possa divorarmi.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"dreamascension_switchto_power",
+         "label":"Il mio obbiettivo è il Potere, ora.",
+         "actionId":"dream",
+         "requirements":{
+            "passion":1
+         },
+         "effects":{
+            "desire":-1,
+            "ascensionpowera":1
+         },
+         "startdescription":"Forse il Potere è l'obbiettivo più avvincente.",
+         "description":"Ho riorientato le mie intenzioni. I miei predecessori brandirono il potere della ricostruzione: un potere che imperatrici, generali e medici hanno solamnente sognato. Così farò anch'io, sebbene possa bruciarmi."
+      },
+      {
+         "id":"dreamascension_switchto_sensation",
+         "label":"Il mio obbiettivo è la Sensazione, ora.",
+         "actionId":"dream",
+         "requirements":{
+            "health":1
+         },
+         "effects":{
+            "desire":-1,
+            "ascensionsensationa":1
+         },
+         "startdescription":"Forse la Sensazione è l'obbiettivo più dolce.",
+         "description":"Ho riorientato le mie intenzioni. Vi sono esperienze infilate come vene sotto la pelle del mondo. Conoscerò le più profonde, sebbene l'esperienza possa divorarmi."
+      },
+      {
+         "id":"dreamascension_switchto_enlightenment",
+         "label":"Il mio obbiettivo è l'Illuminazione, ora.",
+         "actionId":"dream",
+         "requirements":{
+            "reason":1
+         },
+         "effects":{
+            "desire":-1,
+            "ascensionenlightenmenta":1
+         },
+         "startdescription":"Forse l'Illuminazione è il più bello degli obbiettivi.",
+         "description":"Ho riorientato le mie intenzioni. I miei predecessori compresero i segreti più alti, i segreti della ricerca, i segreti che brillano attraverso ossa di vetro e pelle di pergamena. Così farò anch'io, sebbene la conoscenza possa disfarmi."
+      },
+      {
+         "id":"dreamascension_upgrade_power_1to2",
+         "label":"Dedizione della Fiamma",
+         "actionId":"dream",
+         "requirements":{
+            "lore":1,
+            "forge":1
+         },
+         "startdescription":"Mi dedicherò alla ricerca del potere.",
+         "description":"Ho sussurrato le parole che i fabbri dicono al ferro, che gli assassini dicono alle loro vittime, che il fuoco dice al suo carburante. Solo io so cosa ho fatto, ma ha formato il mio cammino ora. [Sono avanzato di un passo verso una terribile ascensione.]",
+         "effects":{
+            "ascensionpowera":-1,
+            "ascensionpowerb":1
+         },
+         "burnimage":"forgededication"
+      },
+      {
+         "id":"dreamascension_upgrade_sensation_1to2m",
+         "label":"Dedizione del Sangue",
+         "actionId":"dream",
+         "requirements":{
+            "lore":1,
+            "grail":1
+         },
+         "startdescription":"Mi dedicherò alla ricerca della sensazione.",
+         "description":"Alcune parole è meglio ascoltarle. Altre parole è meglio degustarle. Quel sapore è sulla mia lingua ora, e non me lo dimenticherò mai. [Sono avanzato di un passo verso una terribile ascensione.]",
+         "effects":{
+            "ascensionsensationa":-1,
+            "ascensionsensationbm":1
+         },
+         "burnimage":"graildedication"
+      },
+      {
+         "id":"dreamascension_upgrade_sensation_1to2f",
+         "label":"Dedizione del Sangue",
+         "actionId":"dream",
+         "requirements":{
+            "lore":1,
+            "grail":1
+         },
+         "startdescription":"Mi dedicherò alla ricerca della sensazione.",
+         "description":"Alcune parole è meglio ascoltarle. Altre parole è meglio degustarle. Quel sapore è sulla mia lingua ora, e non me lo dimenticherò mai. [Sono avanzato di un passo verso una terribile ascensione.]",
+         "effects":{
+            "ascensionsensationa":-1,
+            "ascensionsensationbf":1
+         },
+         "burnimage":"graildedication"
+      },
+      {
+         "id":"dreamascension_upgrade_enlightenment_1to2",
+         "label":"Dedizione della Luce",
+         "actionId":"dream",
+         "requirements":{
+            "lore":1,
+            "lantern":1
+         },
+         "startdescription":"Mi dedicherò alla ricerca della conoscenza.",
+         "description":"Ho pronunciato le parole: 'Ogni Ora ha i suoi colori, ma il colore esiste solo dove vi è luce.' Andrò dove vi è la luce, sebbene mi scolorisca fino a diventare vetro. [Sono avanzato di un passo verso una terribile ascensione.]",
+         "effects":{
+            "ascensionenlightenmenta":-1,
+            "ascensionenlightenmentb":1
+         },
+         "burnimage":"lanterndedication"
+      },
+      {
+         "id":"dreamreason",
+         "label":"La Mente Errante",
+         "actionId":"dream",
+         "requirements":{
+            "reason":1
+         },
+         "effects":{},
+         "startdescription":"Un tempo un uomo disse che il sonno della ragione produce mostri. Spesso è salutare lasciar la mente vagare nel sonno. Ma se continuerò a dormire, prima o poi, qualche mosto potrebbe ergersi dalle mie paure.",
+         "description":".",
+         "warmup":60,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"dream_router",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"dream_router",
+         "label":"Le Folle nel Sonno",
+         "actionId":"dream",
+         "deckeffects":{
+            "dreamreasonresults":1
+         },
+         "linked":[
+            {
+               "id":"dreamcontentment",
+               "chance":100
+            },
+            {
+               "id":"dreamrestlessness",
+               "chance":100
+            },
+            {
+               "id":"dreamvitality",
+               "chance":100
+            },
+            {
+               "id":"dreamglimmering",
+               "chance":100
+            },
+            {
+               "id":"nightmarehersault",
+               "chance":100
+            },
+            {
+               "id":"nightmarecleansingdawn",
+               "chance":100
+            }
+         ],
+         "warmup":10
+      },
+      {
+         "id":"dreamcontentment",
+         "label":"Sogni sulla Pioggia",
+         "actionId":"dream",
+         "requirements":{
+            "contentment":1
+         },
+         "startdescription":"Arriva la pioggia; il giusto tipo di pioggia.",
+         "description":"Ho sognato la pioggia, sussurra nella grondaia, picchietta sul vetro come un vecchio amico, sibilando scherzosamente nel camino. È difficile essere infelici nella giusta pioggia.",
+         "warmup":10
+      },
+      {
+         "id":"dreamrestlessness",
+         "label":"Sogni sulle Porte",
+         "actionId":"dream",
+         "requirements":{
+            "restlessness":1
+         },
+         "startdescription":"Stanotte sognerò il labirinto di porte.",
+         "description":"Ho sognato porte che si aprivano. Porte rosse e dorate, porte di vetro e porte legate come libri, porte di vagoni e cancelli di castelli. Dietro ad una vi era ciò che cercavo. Mi sono svegliato con il suono delle porte che sbattevano ancora nelle mie orecchie.",
+         "warmup":10
+      },
+      {
+         "id":"dreamvitality",
+         "label":"Un Sonno Profondo e Riposante",
+         "actionId":"dream",
+         "requirements":{
+            "vitality":1
+         },
+         "startdescription":"Stanotte sognerò un...",
+         "description":"Non ho sognato nulla. Mi sono svegliato, stiracchiato ed alzato senza fretta. Queste ore di quiete mi hanno energizzato.",
+         "warmup":10
+      },
+      {
+         "id":"dreamglimmering",
+         "label":"Sogni su Curiosità dietro a Vetri",
+         "actionId":"dream",
+         "requirements":{
+            "glimmering":1
+         },
+         "startdescription":"Stanotte sognerò un museo.",
+         "description":"Nelle vetrine del museo impossibile vedo sempre una mela bianca come la neve e dura come il marmo. Uno scarabeo dorato in un'austera scatola. Un'evasiva geometria attende il mio tocco. Una busta nera traboccante di vita. Una borsa bronzea per strumenti di misurazione. Una tempesta in un barattolo. Mi sveglio sempre prima di vedere la fine del corridoio.",
+         "warmup":10
+      },
+      {
+         "id":"nightmarecleansingdawn",
+         "label":"Incubo: L'Alba Purificatrice",
+         "actionId":"dream",
+         "requirements":{
+            "fascination":1
+         },
+         "alt":[
+            {
+               "id":"nightmarecleansingdawnsuccess",
+               "chance":30
+            }
+         ],
+         "startdescription":"Il sole si erge. Non mi risparmierà.",
+         "description":"Ora posso spogliarmi della mia pelle, pezzo per pezzo, strattonando liberamente i miei tendini, come fibre tolte tra i denti. La mia pelle giace come un lenzuolo strappato. Il sole si innalza sopra l'orizzonte con un trionfante grido di battaglia. La luce cade come acido sulle mie ossa nude. Il dolore mi sveglia. Le mie ossa pulseranno per giorni.",
+         "warmup":10
+      },
+      {
+         "id":"nightmarecleansingdawnsuccess",
+         "actionId":"dream",
+         "effects":{
+            "influencelanternc":1
+         },
+         "description":"Ora posso spogliarmi della mia pelle, pezzo per pezzo, strattonando liberamente i miei tendini, come fibre tolte tra i denti. La mia pelle giace come un lenzuolo strappato. Il sole si innalza sopra l'orizzonte con un trionfante grido di battaglia. La luce cade come acido sulle mie ossa nude. Il dolore mi sveglierà e le mie ossa saranno doloranti per giorni, ma le parole del Sole vi sono state incise."
+      },
+      {
+         "id":"nightmarehersault",
+         "label":"Incubo di Hersault",
+         "actionId":"dream",
+         "requirements":{
+            "dread":1
+         },
+         "alt":[
+            {
+               "id":"nightmarehersaultsuccess",
+               "chance":30
+            }
+         ],
+         "startdescription":"Vado sotto.",
+         "description":"Ricordo che Hersault ne parlò. Ho alzato le assi del pavimento e mi sono comodamente rannicchiato sotto. Ora sono compresso sotto di esse, come un cadavere nascosto. L'aria è viziata dalla polvere calda. La mia bocca è piena di scheggie. Questa volta non ho imparato ciò che desideravo imparare - qualunque cosa fosse.",
+         "warmup":10
+      },
+      {
+         "id":"nightmarehersaultsuccess",
+         "label":"Incubo di Hersault",
+         "actionId":"dream",
+         "effects":{
+            "influenceknockc":1
+         },
+         "description":"Ho alzato le assi del pavimento e mi sono comodamente rannicchiato sotto. Ora sono compresso sotto di esse, come un cadavere nascosto. L'aria è viziata dalla polvere calda. La mia bocca è piena di scheggie. Ma questo è lo spazio sottostante."
+      }
+   ]
+}

@@ -1,0 +1,110 @@
+{
+   "verbs":[
+      {
+         "id":"work",
+         "label":"Lavorare",
+         "description":"Guadagnarsi da vivere, o praticare le arti invisibili.",
+         "slot": {
+               "id":"work",
+               "label":"Lavora",
+               "description":"Qualcosa che io possa fare; qualcosa che conosco; o qualcosa che sono.",
+               "required":{
+                  "ability":1,
+                  "job":1,
+                  "ritual":1,
+                  "desire":1,
+                  "benefactor":1
+               },
+               "forbidden":{
+                  "reasonskill":1
+               }
+            }
+      },
+      {
+         "id":"dream",
+         "label":"Sognare",
+         "description":"Riposare; riconsiderare le tue priorità; o rischiare te stesso esplorando i regni del sonno.",
+         "slot": {
+               "id":"dream",
+               "label":"Sogna",
+               "description":"Una direzione per i miei sogni; o un problema dal quale riprendersi.",
+               "required":{
+                  "ability":1,
+                  "desire":1,
+                  "illhealth":1,
+                  "way":1,
+                  "funds":1
+               }
+            }
+      },
+      {
+         "id":"study",
+         "label":"Studiare",
+         "description":"Svelare libri e altri tesori",
+         "slot": {
+               "id":"study",
+               "label":"Studia",
+               "description":"Le arti invisibili potrebbero occupare dieci vite, tutte spese nello studio.",
+               "required":{
+                  "text":1,
+                  "lore":1,
+                  "ability":1,
+                  "influence":1,
+                  "tutor":1,
+                  "language":1,
+                  "legacyplotitem":1
+               }
+            }
+      },
+      {
+         "id":"talk",
+         "label":"Parlare",
+         "description":"Interrogare, intimidire, ingannare, incaricare, reclutare.",
+         "slot": {
+               "id":"talk",
+               "label":"Parla",
+               "description":"Un alleato, un nemico, o una via di mezzo.",
+               "required":{
+                  "mortal":1,
+                  "summoned":1,
+                  "patron":1,
+                  "society":1,
+                  "hq":1,
+                  "lore":1
+               },
+               "forbidden":{
+                  "wary":1
+               }
+            }
+      },
+      {
+         "id":"explore",
+         "label":"Esplorare",
+         "description":"Esplorare la città con Salute o Seguaci; esplorare località; o investigare sulle possibilità offerte dalle tradizioni. L’esplorazione è spesso imprevedibile.",         
+         "slot": {
+               "id":"explore",
+               "label":"Esplora",
+               "description":"Un luogo; una persona; una località; un segreto.",
+               "required":{
+                  "health":1,
+                  "follower":1,
+                  "secrethistories":1,
+                  "location":1,
+                  "ghoul.hunger":1
+               },
+               "forbidden":{
+                  "hireling":1
+               }
+            }
+      },
+      {
+         "id":"time",
+         "label":"Tempo",
+         "description":"L’ombra della meridiana.",
+         "slot": {
+                "id": "time",
+                "label": "Tempo"
+            }
+      }
+   ]
+}

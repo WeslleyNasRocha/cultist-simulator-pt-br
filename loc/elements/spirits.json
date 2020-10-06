@@ -1,0 +1,427 @@
+{
+   "elements":[
+      {
+         "id":"spirit_wintera_edge",
+         "label":"Risorto Frammentato",
+         "aspects":{
+            "follower":1,
+            "summoned":1,
+            "winter":4,
+            "edge":4,
+            "remnant":1
+         },
+         "description":"Una forza vincolante ha riportato indietro questo cadavere a quasi-vita. Quando si muove scricchiola come vetro rotto. I suoi pugni sono nidi artigliati di frammenti d’osso. Non starà insieme a lungo.",
+         "xtriggers":{
+            "renewshattered":"spirit_wintera_edge",
+            "killsummoned":"influencewinter",
+            "alzabo":"influencewinterc"
+         },
+         "lifetime":120
+      },
+      {
+         "id":"spirit_wintera_moth",
+         "label":"Risorto Fiorito",
+         "aspects":{
+            "follower":1,
+            "summoned":1,
+            "winter":4,
+            "moth":4,
+            "spiritsicknessprotector":1,
+            "remnant":1
+         },
+         "description":"Le escrescenze della Foresta hanno abbracciato gli organi del corpo, gonfiato il teschio come una zucca e si sono avvinghiate intorno al cuore. I suoi occhi sono umidi per l’astuzia e si muove con la grazia di una marionetta di carne secca. Le sue ossa sono legno marcio e presto radicheranno, ma fino ad allora sarà un servitore rapido e discreto.",
+         "xtriggers":{
+            "renewburgeoning":"spirit_wintera_moth",
+            "killsummoned":"influencemoth",
+            "alzabo":"influencemothc"
+         },
+         "lifetime":120
+      },
+      {
+         "id":"spirit_winterb_heart",
+         "label":"Morto Afono",
+         "aspects":{
+            "follower":1,
+            "summoned":1,
+            "winter":6,
+            "moth":6,
+            "deceiver":6,
+            "spiriteatspassion":1
+         },
+         "description":"Talvolta i Morti entrano nel Mansus dalla Porta Bianca. Alla sua soglia depongono la loro voce per sempre. Chiamali indietro nel mondo, e non avranno voce, ma la loro pelle polverosa sarà al tuo comando.",
+         "lifetime":180,
+         "xtriggers":{
+            "killsummoned":"influencewinter"
+         },
+         "decayTo":"influencewinter"
+      },
+      {
+         "id":"pre.spirit_winterb_heart",
+         "label":"Morto Afono",
+         "aspects":{
+            "winter":6,
+            "moth":6,
+            "deceiver":6,
+            "manifesting":1
+         },
+         "description":"Talvolta i Morti entrano nel Mansus dalla Porta Bianca. Alla sua soglia depongono la loro voce per sempre. Chiamali indietro nel mondo, e non avranno voce, ma la loro pelle polverosa sarà al tuo comando.",
+         "lifetime":1,
+         "xtriggers":{
+            "killsummoned":"influencewinter",
+            "killmanifesting":"influencewinter"
+         },
+         "decayTo":"spirit_winterb_heart",
+         "resaturate":true,
+         "icon":"spirit_winterb_heart"
+      },
+      {
+         "id":"spirit_forgec_winter",
+         "label":"Caligine",
+         "aspects":{
+            "follower":1,
+            "summoned":1,
+            "forge":8,
+            "moth":8,
+            "deceiver":8
+         },
+         "description":"Negli angoli della Forgia, nei Limiti del Mansus, il fuoco della Gloria incontra gli elementi più vili. Qui c’è un vapore astuto che potrebbe infettare i sogni di un tuo nemico.",
+         "lifetime":180,
+         "xtriggers":{
+            "killsummoned":"influenceforge"
+         },
+         "decayTo":"influenceforge"
+      },
+      {
+         "id":"pre.spirit_forgec_winter",
+         "label":"Caligine",
+         "aspects":{
+            "forge":8,
+            "moth":8,
+            "deceiver":8,
+            "manifesting":1
+         },
+         "description":"Negli angoli della Forgia, nei Limiti del Mansus, il fuoco della Gloria incontra gli elementi più vili. Qui c’è un vapore astuto che potrebbe infettare i sogni di un tuo nemico.",
+         "lifetime":1,
+         "xtriggers":{
+            "killsummoned":"influenceforge",
+            "killmanifesting":"influenceforge"
+         },
+         "decayTo":"spirit_forgec_winter",
+         "resaturate":true,
+         "icon":"spirit_forgec_winter"
+      },
+      {
+         "id":"spirit_grailc_moth",
+         "label":"Profeta Naturale",
+         "aspects":{
+            "follower":1,
+            "summoned":1,
+            "grail":8,
+            "moth":8,
+            "deceiver":8,
+            "spiritsicknessprotector":1,
+            "spiriteatsreason":1
+         },
+         "description":"Talvolta divide, talvolta unisce, talvolta pronuncia parole d’avviso, talvolta dà consigli sugli appetiti. Le sue profezie sono confusione, il loro mormorio confonde.",
+         "lifetime":180,
+         "xtriggers":{
+            "killsummoned":"influencegrail"
+         },
+         "decayTo":"influencegrail"
+      },
+      {
+         "id":"pre.spirit_grailc_moth",
+         "label":"Profeta Naturale",
+         "aspects":{
+            "grail":8,
+            "moth":8,
+            "deceiver":8,
+            "manifesting":1
+         },
+         "description":"Talvolta divide, talvolta unisce, talvolta pronuncia parole d’avviso, talvolta dà consigli sugli appetiti. Le sue profezie sono confusione, il loro mormorio confonde.",
+         "lifetime":1,
+         "xtriggers":{
+            "killsummoned":"influencegrail",
+            "killmanifesting":"influencegrail"
+         },
+         "decayTo":"spirit_grailc_moth",
+         "resaturate":true,
+         "icon":"spirit_grailc_moth"
+      },
+      {
+         "id":"spirit_lanternc_edge",
+         "label":"Antifona",
+         "aspects":{
+            "follower":1,
+            "summoned":1,
+            "lantern":8,
+            "edge":8,
+            "devourer":8
+         },
+         "description":"Le Antifone sono a loro agio dietro: dietro le scene, dietro gli specchi, dietro di te. Strisciano sotto le porte ed uccidono con il vetro, ma non possono sopravvivere allo sguardo di un mortale vivo.",
+         "lifetime":180,
+         "xtriggers":{
+            "killsummoned":"influencelantern"
+         },
+         "decayTo":"influencelantern"
+      },
+      {
+         "id":"pre.spirit_lanternc_edge",
+         "label":"Antifona",
+         "aspects":{
+            "lantern":8,
+            "edge":8,
+            "devourer":8,
+            "manifesting":1
+         },
+         "description":"Le Antifone sono a loro agio dietro: dietro le scene, dietro gli specchi, dietro di te. Strisciano sotto le porte ed uccidono con il vetro, ma non possono sopravvivere allo sguardo di un mortale vivo.",
+         "lifetime":1,
+         "xtriggers":{
+            "killsummoned":"influencelantern",
+            "killmanifesting":"influencelantern"
+         },
+         "decayTo":"spirit_lanternc_edge",
+         "resaturate":true,
+         "icon":"spirit_lanternc_edge"
+      },
+      {
+         "id":"spirit_heartc_edge",
+         "label":"Percussigant",
+         "aspects":{
+            "follower":1,
+            "summoned":1,
+            "heart":8,
+            "edge":8,
+            "devourer":8,
+            "spiritsicknessprotector":1,
+            "spiriteatsreason":1
+         },
+         "description":"Il Percussigant! Ama il brivido del sistro, ama il fracasso del timpano, gli ricorda con passione lo scorticamento di Marsia, e così egli non\n egli non\n egli non smetterà di ballare.",
+         "lifetime":180,
+         "xtriggers":{
+            "killsummoned":"influenceheart"
+         },
+         "decayTo":"influenceheart"
+      },
+      {
+         "id":"pre.spirit_heartc_edge",
+         "label":"Percussigant",
+         "aspects":{
+            "heart":8,
+            "edge":8,
+            "devourer":8,
+            "manifesting":1
+         },
+         "description":"Il Percussigant! Ama il brivido del sistro, ama il fracasso del timpano, gli ricorda con passione lo scorticamento di Marsia, e così egli non\n egli non\n egli non smetterà di ballare.",
+         "lifetime":1,
+         "xtriggers":{
+            "killsummoned":"influenceheart",
+            "killmanifesting":"influenceheart"
+         },
+         "decayTo":"spirit_heartc_edge",
+         "resaturate":true,
+         "icon":"spirit_heartc_edge"
+      },
+      {
+         "id":"spirit_winterd_edge",
+         "label":"Vergine-nello-Specchio",
+         "aspects":{
+            "follower":1,
+            "summoned":1,
+            "winter":10,
+            "edge":10,
+            "devourer":10,
+            "spiriteatspassion":1
+         },
+         "description":"'L’ascesa è vetro. I muri sono coltelli. Ogni passo è sangue' Il Morto che riposa davanti ad uno specchio appena rotto, che passa attraverso la Porta del Pavone e che ha padroneggiato la Scala Affilata entra al servizio del Sole-negli-Stracci.",
+         "lifetime":180,
+         "xtriggers":{
+            "killsummoned":"influencewinter"
+         },
+         "decayTo":"influencewinter"
+      },
+      {
+         "id":"pre.spirit_winterd_edge",
+         "label":"Vergine-nello-Specchio",
+         "aspects":{
+            "winter":10,
+            "edge":10,
+            "devourer":10,
+            "manifesting":1
+         },
+         "description":"'L’ascesa è vetro. I muri sono coltelli. Ogni passo è sangue' Il Morto che riposa davanti ad uno specchio appena rotto, che passa attraverso la Porta del Pavone e che ha padroneggiato la Scala Affilata entra al servizio del Sole-negli-Stracci.",
+         "lifetime":1,
+         "xtriggers":{
+            "killsummoned":"influencewinter",
+            "killmanifesting":"influencewinter"
+         },
+         "decayTo":"spirit_winterd_edge",
+         "resaturate":true,
+         "icon":"spirit_winterd_edge"
+      },
+      {
+         "id":"spirit_forgee_edge",
+         "label":"Re Crogiolo",
+         "aspects":{
+            "follower":1,
+            "summoned":1,
+            "forge":12,
+            "edge":12,
+            "devourer":12,
+            "tutor":1,
+            "spirittutormandaic":1
+         },
+         "description":"'ATTENDO NEL DESERTO, NELLE ROVINE CHE ARDO - IL METALLO È ACQUA - LA PIETRA È CERA - LA CARNE È FUMO - ENTRA IN ME E NON ESISTERE OLTRE.'",
+         "xtriggers":{
+            "killsummoned":"spirit_forgee_edge.defunct"
+         },
+         "lifetime":180,
+         "decayTo":"spirit_forgee_edge.defunct",
+         "unique":true,
+         "uniquenessgroup":"uqspirit_forgee_edge"
+      },
+      {
+         "id":"pre.spirit_forgee_edge",
+         "label":"Re Crogiolo",
+         "aspects":{
+            "forge":12,
+            "edge":12,
+            "devourer":12,
+            "manifesting":1
+         },
+         "description":"'ATTENDO NEL DESERTO, NELLE ROVINE CHE ARDO - IL METALLO È ACQUA - LA PIETRA È CERA - LA CARNE È FUMO - ENTRA IN ME E NON ESISTERE OLTRE.'",
+         "xtriggers":{
+            "killsummoned":"spirit_forgee_edge.defunct",
+            "killmanifesting":"influenceforge"
+         },
+         "lifetime":1,
+         "decayTo":"spirit_forgee_edge",
+         "unique":true,
+         "uniquenessgroup":"uqspirit_forgee_edge",
+         "resaturate":true,
+         "icon":"spirit_forgee_edge"
+      },
+      {
+         "id":"spirit_graile_edge",
+         "label":"Ezeem, il Secondo Assetato",
+         "aspects":{
+            "follower":1,
+            "summoned":1,
+            "grail":12,
+            "edge":12,
+            "devourer":12,
+            "tutor":1,
+            "spirittutorphrygian":1,
+            "spiritsicknessprotector":1,
+            "spiriteatsreason":1
+         },
+         "description":"'Cambiami. Cambiami. Cambiami più forte. Ora è <i>il mio</i> turno.'",
+         "xtriggers":{
+            "killsummoned":"spirit_graile_edge.defunct"
+         },
+         "lifetime":180,
+         "decayTo":"spirit_graile_edge.defunct",
+         "unique":true,
+         "uniquenessgroup":"uqspirit_graile_edge"
+      },
+      {
+         "id":"pre.spirit_graile_edge",
+         "label":"Ezeem, il Secondo Assetato",
+         "aspects":{
+            "grail":12,
+            "edge":12,
+            "devourer":12,
+            "manifesting":1
+         },
+         "description":"'Cambiami. Cambiami. Cambiami più forte. Ora è <i>il mio</i> turno.'",
+         "xtriggers":{
+            "killsummoned":"spirit_graile_edge.defunct",
+            "killmanifesting":"influencegrail"
+         },
+         "lifetime":1,
+         "decayTo":"spirit_graile_edge",
+         "unique":true,
+         "uniquenessgroup":"uqspirit_graile_edge",
+         "resaturate":true,
+         "icon":"spirit_graile_edge"
+      },
+      {
+         "id":"spirit_lanterne_secret",
+         "label":"Teresa",
+         "aspects":{
+            "follower":1,
+            "summoned":1,
+            "lantern":12,
+            "secrethistories":12,
+            "tutor":1,
+            "spirittutorfucine":1,
+            "spiritsicknessprotector":1,
+            "spiriteatspassion":1
+         },
+         "description":"'Oh, il mondo è piatto; oh, ma è piatto! Non starò a lungo. Non dovrei stare a lungo. Dimmi un segreto.'",
+         "xtriggers":{
+            "killsummoned":"spirit_lanterne_secret.defunct"
+         },
+         "lifetime":180,
+         "decayTo":"spirit_lanterne_secret.defunct",
+         "unique":true,
+         "uniquenessgroup":"uqspirit_lanterne_secret"
+      },
+      {
+         "id":"pre.spirit_lanterne_secret",
+         "label":"Teresa",
+         "aspects":{
+            "lantern":12,
+            "secrethistories":12,
+            "tutor":1,
+            "manifesting":1
+         },
+         "description":"'Oh, il mondo è piatto; oh, ma è piatto! Non starò a lungo. Non dovrei stare a lungo. Dimmi un segreto.'",
+         "xtriggers":{
+            "killsummoned":"spirit_lanterne_secret.defunct",
+            "killmanifesting":"influencelantern"
+         },
+         "lifetime":1,
+         "decayTo":"spirit_lanterne_secret",
+         "unique":true,
+         "uniquenessgroup":"uqspirit_lanterne_secret",
+         "resaturate":true,
+         "icon":"spirit_lanterne_secret"
+      },
+      {
+         "id":"spirit_forgee_edge.defunct",
+         "label":"Re Crogiolo Esaurito",
+         "description":"Le fiamme di Re Crogiolo si sono affievolite, per ora. Rimangono delle tracce annerite, come delle ossa nel carbone.",
+         "lifetime":180,
+         "aspects":{
+            "remnant":1
+         },
+         "unique":true,
+         "xtriggers":{
+            "alzabo":"memory.golden"
+         }
+      },
+      {
+         "id":"spirit_forgee_edge.consumed",
+         "label":"Un Sapore Cinereo",
+         "description":"Ho mangiato i resti lasciati da Re Crogiolo in questo mondo. Come minimo si sarà offeso. Potrebbe essere arrabbiato. Non dovrei più evocarlo.",
+         "unique":true
+      },
+      {
+         "id":"spirit_graile_edge.defunct",
+         "label":"Ezeem è Imbronciato",
+         "description":"Ezeem starà bene, prima o poi.",
+         "lifetime":180,
+         "comments":"This shouldn't have any aspects. We don't want it to be removed or used - it's solely a blocker.",
+         "unique":true
+      },
+      {
+         "id":"spirit_lanterne_secret.defunct",
+         "label":"Teresa sta Riposando",
+         "description":"La Baldomeriana si è ritirata nel Rifugio del Savio Cavaliere.",
+         "lifetime":180,
+         "comments":"This shouldn't have any aspects. We don't want it to be removed or used - it's solely a blocker.",
+         "unique":true
+      }
+   ]
+}

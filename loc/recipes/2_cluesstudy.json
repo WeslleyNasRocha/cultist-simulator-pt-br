@@ -1,0 +1,382 @@
+{
+   "recipes":[
+      {
+         "id":"studyupgrade_downgrade_lore_hint",
+         "label":"Migliorare le mie Conoscenze delle arti invisibili?",
+         "actionId":"study",
+         "requirements":{
+            "lore":1,
+            "edge":-1,
+            "forge":-1,
+            "grail":-1,
+            "heart":-1,
+            "knock":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":-1,
+            "alzabo":-1,
+            "prealzabo":-1
+         },
+         "startdescription":"Se possiedo due frammenti di tradizione dello stesso livello ed aspetto, potrei studiarli insieme per migliorare le mie conoscenze. Se usassi la Ragione potrei analizzare la traduzione, dividendola in frammenti di livello minore, oppure potrei usare un altro tipo di tradizione per convertirlo...",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"studyupgradelore_hint",
+         "label":"Migliorare le mie Conoscenze delle arti invisibili?",
+         "actionId":"study",
+         "requirements":{
+            "lore":1,
+            "healthskill":-1,
+            "alzabo":-1,
+            "prealzabo":-1
+         },
+         "startdescription":"Se possiedo due frammenti di tradizione dello stesso livello ed aspetto, potrei studiarli insieme per migliorare le mie conoscenze, oppure potrei usare un altro tipo di tradizione per convertirlo...",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"studyprealzabo_hint",
+         "label":"Un Ardito Esperimento",
+         "actionId":"study",
+         "requirements":{
+            "prealzabo":1
+         },
+         "startdescription":"Dovrei comprare solamente un paio di ingredienti per poter finire la miscela... devo farmi coraggio... e trovare un pasto adeguato.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"studyalzabo_hint",
+         "label":"Il Banchetto della Colomba Mielata",
+         "actionId":"study",
+         "requirements":{
+            "alzabo":1
+         },
+         "startdescription":"Potrei consumare dei Resti per preservare dalla polvere una piccola parte della conoscenza contenutavi. Potrei anche doverlo fare.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"translatelatinhint",
+         "label":"Tradurre dal Latino?",
+         "actionId":"study",
+         "requirements":{
+            "textlatin":1
+         },
+         "startdescription":"Le mie competenze in Latino sono troppo limitate per leggerlo. Potrei cercare aiuto in un libro, o assumere un precettore.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"translategreekhint",
+         "label":"Tradurre dal Greco?",
+         "actionId":"study",
+         "requirements":{
+            "textgreek":1
+         },
+         "startdescription":"Le mie competenze in Greco sono troppo limitate per leggerlo. Potrei cercare aiuto in un libro, o assumere un precettore.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"translatearamaichint",
+         "label":"Tradurre dall'Aramaico?",
+         "actionId":"study",
+         "requirements":{
+            "textaramaic":1
+         },
+         "startdescription":"Le mie competenze in Aramaico sono troppo limitate per leggerlo. Potrei cercare aiuto in un libro, o assumere un precettore.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"translatesanskrithint",
+         "label":"Tradurre dal Sanscrito?",
+         "actionId":"study",
+         "requirements":{
+            "textsanskrit":1
+         },
+         "startdescription":"Le mie competenze in Sanscrito sono troppo limitate per leggerlo. Potrei cercare aiuto in un libro, o assumere un precettore.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"translatefucinehint",
+         "label":"Tradurre dal Fucino?",
+         "actionId":"study",
+         "requirements":{
+            "textfucine":1
+         },
+         "startdescription":"Non conosco il Fucino; forse nessun vivente lo conosce. Potrebbe esserci una Stele di Rosetta da qualche parte... o potrei trovare un precettore non-morto, o non esattamente morto.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"translatephrygianhint",
+         "label":"Tradurre dal Frigio?",
+         "actionId":"study",
+         "requirements":{
+            "textphrygian":1
+         },
+         "startdescription":"Non conosco il Frigio; forse nessun vivente lo conosce. Potrebbe esserci una Stele di Rosetta da qualche parte... o potrei trovare un precettore non-morto, o non esattamente morto.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"translatemandaichint",
+         "label":"Tradurre dal Basso Mandaico?",
+         "actionId":"study",
+         "requirements":{
+            "textmandaic":1
+         },
+         "startdescription":"Non conosco il Basso Mandaico; forse nessun vivente lo conosce. Potrebbe esserci una Stele di Rosetta da qualche parte... o potrei trovare un precettore non-morto, o non esattamente morto.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"translatevakhint",
+         "label":"Tradurre dal Vak?",
+         "actionId":"study",
+         "requirements":{
+            "textvak":1
+         },
+         "startdescription":"Non conosco il Vak; forse nessun vivente lo conosce. Potrebbe esserci una Stele di Rosetta da qualche parte... o potrei trovare un precettore non-morto, o non esattamente morto.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"studyincreasehealthskilld_wronglore",
+         "label":"Esercitare il Corpo: Tecniche Segrete?",
+         "actionId":"study",
+         "requirements":{
+            "skillhealthc":1,
+            "vitalityplus":4,
+            "lore":1
+         },
+         "startdescription":"Questa tradizione non ha alcuna utilità, in questo caso. Devo sceglierne un'altra.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasehealthfurtherhint",
+         "label":"Incrementare la mia Salute?",
+         "actionId":"study",
+         "requirements":{
+            "vitality":2
+         },
+         "startdescription":"Più Salute guadagno, più Vitalità è necessaria. [Usa Abilità: Fisico per incrementare ulteriormente la Salute.]",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasereasonfurtherhint",
+         "label":"Incrementare la mia Ragione?",
+         "actionId":"study",
+         "requirements":{
+            "erudition":2
+         },
+         "startdescription":"Più Ragione guadagno, più Erudizione è necessaria. [Usa Abilità: Erudizione per incrementare ulteriormente la Ragione.]",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasepassionfurtherhint",
+         "label":"Incrementare la mia Passione?",
+         "actionId":"study",
+         "requirements":{
+            "glimmering":2
+         },
+         "startdescription":"Più Passione guadagno, più Barlumi sono necessari. [Usa Abilità: Immaginazione per incrementare ulteriormente la Passione.]",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"studyupgradeinfluences.apostlelanternhint",
+         "label":"Mantenere un Prodigio",
+         "actionId":"study",
+         "requirements":{
+            "apostlelantern.pillar3":1
+         },
+         "startdescription":"Perfino il fascino più grande, nel tempo, svanirà e diverrà grigio. Devo alimentarlo con i colori dell'ossessione.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"studyupgradeinfluenceshint2",
+         "label":"Potenziare le Influenze?",
+         "actionId":"study",
+         "requirements":{
+            "influence":2,
+            "lore":-1,
+            "healthskill":-1,
+            "reasonskill":-1,
+            "passionskill":-1
+         },
+         "startdescription":"Potrebbe esser possibile, con la giusta combinazione di Influenze, richiamare un potere maggiore... ma solamente devo possedere le necessarie conoscenze nelle arti invisibili.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasehealthfurtherhintpluswithskillneedslore",
+         "label":"Trasformare la mia Abilità in qualcosa di straordinario?",
+         "actionId":"study",
+         "requirements":{
+            "vitalityplus":1,
+            "skillhealthc":1
+         },
+         "startdescription":"Ho bisogno di abbastanza Lezioni Apprese... e qualcos'altro.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasehealthfurtherhintpluswithskill",
+         "label":"Incrementare la mia Salute?",
+         "actionId":"study",
+         "requirements":{
+            "vitalityplus":1,
+            "healthskill":1
+         },
+         "startdescription":"Ho bisogno di più Lezioni Apprese.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasehealthfurtherhintplus",
+         "label":"Incrementare la mia Salute?",
+         "actionId":"study",
+         "requirements":{
+            "vitalityplus":1
+         },
+         "startdescription":"Dovrò usarlo con la mia Abilità: Fisico.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasehealthfurtherhint1",
+         "label":"Incrementare la mia Salute?",
+         "actionId":"study",
+         "requirements":{
+            "vitality":1
+         },
+         "startdescription":"Ne necessito di più.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasereasonfurtherhintpluswithskillneedslore",
+         "label":"Trasformare la mia Abilità in qualcosa di straordinario?",
+         "actionId":"study",
+         "requirements":{
+            "eruditionplus":1,
+            "skillreasonc":1
+         },
+         "startdescription":"Ho bisogno di abbastanza Lezioni Apprese... e qualcos'altro.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasereasonfurtherhintpluswithskill",
+         "label":"Incrementare la mia Ragione?",
+         "actionId":"study",
+         "requirements":{
+            "eruditionplus":1,
+            "reasonskill":1
+         },
+         "startdescription":"Ho bisogno di più Lezioni Apprese.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasereasonfurtherhintplus",
+         "label":"Incrementare la mia Ragione?",
+         "actionId":"study",
+         "requirements":{
+            "eruditionplus":1
+         },
+         "startdescription":"Dovrò usarlo con la mia Abilità: Erudizione.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasereasonfurtherhint1",
+         "label":"Incrementare la mia Ragione?",
+         "actionId":"study",
+         "requirements":{
+            "erudition":1
+         },
+         "startdescription":"Ne necessito di più.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasepassionfurtherhintpluswithskillneedslore",
+         "label":"Trasformare la mia Abilità in qualcosa di straordinario?",
+         "actionId":"study",
+         "requirements":{
+            "glimmeringplus":1,
+            "skillpassionc":1
+         },
+         "startdescription":"Ho bisogno di abbastanza Lezioni Apprese... e qualcos'altro.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasepassionfurtherhintpluswithskill",
+         "label":"Incrementare la mia Passione?",
+         "actionId":"study",
+         "requirements":{
+            "glimmeringplus":1,
+            "passionskill":1
+         },
+         "startdescription":"Ho bisogno di più Lezioni Apprese.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasepassionfurtherhintplus",
+         "label":"Incrementare la mia Passione?",
+         "actionId":"study",
+         "requirements":{
+            "glimmeringplus":1
+         },
+         "startdescription":"Dovrò usarlo con la mia Abilità: Immaginazione.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"increasepassionfurtherhint1",
+         "label":"Incrementare la mia Passione?",
+         "actionId":"study",
+         "requirements":{
+            "glimmering":1
+         },
+         "startdescription":"Ne necessito di più.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"studyrestlessnesshint",
+         "label":"Studiare Irrequieti?",
+         "actionId":"study",
+         "requirements":{
+            "restlessness":1
+         },
+         "startdescription":"Per studiare, in genere, si deve star seduti e fermi. L'Irrequietezza si allea raramente con l'erudizione.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"studyupgradeinfluenceshint1",
+         "label":"Incrementare le Influenze?",
+         "actionId":"study",
+         "requirements":{
+            "influence":1
+         },
+         "startdescription":"Potrebbe essere possibile, con la giusta combinazione di Influenze, richiamare un potere maggiore...",
+         "hintonly":true,
+         "craftable":false
+      }
+   ]
+}

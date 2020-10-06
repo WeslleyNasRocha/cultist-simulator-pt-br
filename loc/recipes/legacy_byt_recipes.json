@@ -1,0 +1,177 @@
+{
+   "recipes":[
+      {
+         "id":"workbytjobstart",
+         "label":"Una Bellissima Giornata di Lavoro Occasionale",
+         "actionId":"work",
+         "requirements":{
+            "legacybytjob":1
+         },
+         "effects":{
+            "funds":3,
+            "legacybytjob":-1,
+            "legacybytjobmatured":1
+         },
+         "alt":[
+            {
+               "id":"bytopenexplore",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "startdescription":"Forse oggi concluderò qualcosa.",
+         "description":"Sta andando tutto a meraviglia. Sebbene la salute di Papà non stia migliorando. [<b>Esplora</b> è sbloccato.]",
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"workbytjob",
+         "label":"Una Bellissima Giornata di Lavoro Occasionale",
+         "actionId":"work",
+         "requirements":{
+            "legacybytjobmatured":1
+         },
+         "effects":{
+            "funds":3
+         },
+         "alt":[
+            {
+               "id":"workbytjobend",
+               "chance":30
+            }
+         ],
+         "startdescription":"Forse oggi concluderò qualcosa.",
+         "description":"Sta andando tutto a meraviglia. Sebbene la salute di Papà non stia migliorando.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"workbytjobend",
+         "label":"Una Nuvola all’Orizzonte",
+         "actionId":"work",
+         "startdescription":"Papà mi ha convocato! Devo correre al suo capezzale. Tutti gli affari di famiglia sono sospesi, per ora...",
+         "craftable":false,
+         "effects":{
+            "legacybytjobmatured":-1,
+            "funds":2
+         },
+         "alt":[
+            {
+               "id":"workbytjobepilogue",
+               "chance":100,
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"workbytjobepilogue",
+         "label":"Notizie Orribili",
+         "actionId":"legacyeventbad",
+         "alt":[
+            {
+               "id":"bytopenstudy",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "effects":{
+            "health":2,
+            "funds":20
+         },
+         "startdescription":"Papà è morto! Nessuno mi dirà esattamente come. Il patrimonio è in pessimo stato. La mia rendita è legata alla successione, e così via. Posso solo sperare che si risolva prima che mi presentino i conti in sospeso.",
+         "description":"La faccenda del testamento è stata risolta... ma gli affari di Papà sono stati mangiati dai debiti come legno dai tarli. Nessuno sembra sapere esattamente in cosa spendesse i suoi soldi. Ma l’avvocato mi manderà dei documenti, a quanto pare.",
+         "warmup":60,
+         "craftable":false
+      },
+      {
+         "id":"bytopenexplore",
+         "label":"Un Mondo di Possibilità!",
+         "actionId":"explore",
+         "startdescription":"Dei tipi loschi mi stanno introducendo a luoghi loschi.",
+         "description":"Se mai avrò problemi a decidere come spendere i miei soldi, potrebbero aiutarmi le brave persone in questi luoghi!",
+         "warmup":10,
+         "effects":{
+            "locationauctionhouse":1,
+            "locationcabaret":1
+         },
+         "craftable":false
+      },
+      {
+         "id":"bytopenstudy",
+         "label":"Carte Enigmatiche",
+         "actionId":"study",
+         "startdescription":"Sto per ricevere le carte trovate tra gli effetti personali di mio Papà. Potrebbero, forse, gettare una sorta di luce su dove diavolo siano andati a finire tutti i soldi.",
+         "alt":[
+            {
+               "id":"bytopendream",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "description":"Ho ricevuto le carte. Povero Papà. Pagine su pagine di scarabocchi disperati su una casa invisibile, i colori del sonno e gli dei invisibili dietro al mondo... ma sai, più le leggo, più questo - ecco, non 'ha senso'. Non ha nessun senso. Ma è coerente. C’è anche il diario di Papà.",
+         "effects":{
+            "legacydiarylastcharacter":1,
+            "lever_LastBook":1
+         },
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"bytstudydiary",
+         "label":"Studiare un Diario Preoccupante",
+         "actionId":"study",
+         "requirements":{
+            "legacydiarylastcharacter":1
+         },
+         "alt":[
+            {
+               "id":"bytopentalk",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "effects":{
+            "legacydiarylastcharacter":-1,
+            "reason":1,
+            "fragmentgrail":1
+         },
+         "startdescription":"Il diario di Papà. È un catalogo di ossessioni. Tuttavia, potrebbe dare una sorta di senso ai recenti eventi?",
+         "description":"Il nome #PREVIOUSCHARACTERNAME# appare più e più volte in queste pagine. Egli era un 'un locus per l’impossibilità', una 'fonte del futuro'... 'uno che ha tagliato l’occhio'. E, nell’ultima pagina, c’è un indirizzo e un nome.",
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"bytopendream",
+         "label":"La Casa Senza Mura",
+         "actionId":"dream",
+         "alt":[
+            {
+               "id":"despairrisk",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "startdescription":"Il sogno comincia. Papà me ne parlò, disse che anche suo padre prima di lui ne era stato tormentato. Qualcosa nel nostro sangue; una malinconia pungente che uccide l’anima.",
+         "description":"Sogno una luce essiccante, un sole che secca la neve ma non la scioglie. Quando mi sveglio, nella mia stanza resta il freddo.",
+         "warmup":30,
+         "effects":{
+            "passion":1,
+            "influencewinter":1
+         },
+         "craftable":false
+      },
+      {
+         "id":"bytopentalk",
+         "label":"Convocare uno Sconosciuto",
+         "actionId":"talk",
+         "startdescription":"Ho contattato l’individuo nominato in questi preoccupanti documenti. Non credo che egli sia in grado di illuminarmi sulla natura di ciò che è successo, ma, forse, può aiutarmi con ciò che verrà.",
+         "description":"Parla con autorevolezza di Papà. Sapeva che stava morendo. Sperava di assaggiare piaceri sconosciuti prima della sua fine - piaceri negati alla società salubre. Suggerisce che potrei finire ciò che egli cominciò - che se lo facessi, potrei salvarmi dalla disperazione che perseguita la mia famiglia.",
+         "effects":{
+            "poppyready":1,
+            "ascensionsensationa":1
+         },
+         "warmup":60,
+         "craftable":false
+      }
+   ]
+}

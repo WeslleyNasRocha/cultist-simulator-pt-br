@@ -1,0 +1,21 @@
+{
+   "legacies":[
+      {
+         "id":"ghoul",
+         "label":"Il Medium?",
+         "description":"Tutti sanno che parlo con i morti. Sono stato chiamato profeta e ghoul. Non ho motivi per smentire le loro illusioni.",
+         "startdescription":"Stanotte il teatro è talmente pieno da mozzarmi il fiato. Li ho già fatti aspettare abbastanza.",
+         "effects": {
+                "ghouljob.first": 1,
+                "memory.shameful": 1,
+                "memory.profitable": 1,
+                "memory.joyful": 1
+            },
+            "image": "ghoul",
+            "fromending": "despairending",
+            "availableWithoutEndingMatch": true,
+            "startingverbid": "work",
+            "newstart": true
+      }
+   ]
+}

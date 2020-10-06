@@ -1,0 +1,1820 @@
+{
+   "recipes":[
+      {
+         "id":"studyknocklore",
+         "label":"Studia la Tradizione che Apre",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "knock":1
+         },
+         "effects":{
+            "project_upgrade_subvert_knock":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"Ci sono incantesimi che sbloccano, in questi lo spazio tra le parole è potente quanto le stesse sillabe. Quando qualcosa viene aperto, è possibile conoscerne la natura. [Qualsiasi Tradizione studiata con il Colpo diviene Colpo.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studyupgradelore_edge",
+         "label":"Studia la Tradizione del Coltello",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "edge":1,
+            "winter":-1,
+            "forge":-1,
+            "knock":-1
+         },
+         "effects":{
+            "project_upgrade_edge":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"Tutti i più grandi sforzi si concludono con la morte. La Tradizione del Coltello conosce le lezioni di quegli sforzi.",
+         "description":".",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studysubvertlore_edgetowinter",
+         "label":"Sovverti la Tradizione del Coltello",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "edge":1,
+            "winter":1
+         },
+         "effects":{
+            "project_subvert_edgetowinter":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"Tutto finisce. Mediterò sul trionfo della pazienza sulla forza. [Questo creerà una tradizione dell'Inverno al posto della Lama.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studyforgelore",
+         "label":"Studia la Tradizione che Brucia",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "forge":1,
+            "edge":-1,
+            "lantern":-1,
+            "knock":-1
+         },
+         "effects":{
+            "project_upgrade_forge":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"In pochi sanno che i fabbri e gli assassini pronunciano le stesse preghiere. Esaminerò queste preghiere.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studysubvertlore_forgetoedge",
+         "label":"Sovverti la Tradizione che Brucia",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "forge":1,
+            "edge":1
+         },
+         "effects":{
+            "project_subvert_forgetoedge":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"L'Ora chiamata Leonfabbro distrusse la sua stessa spada per sfuggire al dominio del suo padrone. Ogni cosa può essere superata, con abbastanza forza. [Questo creerà una tradizione della Lama al posto della Forgia.]",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studygraillore",
+         "label":"Studia la Tradizione Succulenta",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "grail":1,
+            "moth":-1,
+            "heart":-1,
+            "knock":-1
+         },
+         "effects":{
+            "project_upgrade_grail":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"Certe parole pregano di essere pronunciate. È allettante passare il tempo riflettendoci sopra - allettante e, forse, utile.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studysubvertlore_grailtomoth",
+         "label":"Sovverti la Tradizione Succulenta",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "grail":1,
+            "moth":1
+         },
+         "effects":{
+            "project_subvert_grailtomoth":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"Si dice che il Graal sia nato dal primo sacrificio. Ma la Falena lo sa per certo. [Questo creerà una tradizione della Falena al posto del Graal.]",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studyheartlore",
+         "label":"Studia la Tradizione Incessante",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "heart":1,
+            "grail":-1,
+            "winter":-1,
+            "knock":-1
+         },
+         "effects":{
+            "project_upgrade_heart":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"Ci sono lezioni che imparano l'anatomista, la danzatrice e lo sciamano.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studysubvertlore_hearttograil",
+         "label":"Sovverti la Tradizione Incessante",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "heart":1,
+            "grail":1
+         },
+         "effects":{
+            "project_subvert_hearttograil":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"Ciò che non cessa soccombe, alla fine, alla tentazione. [Questo creerà una tradizione del Graal al posto del Cuore.]",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studylanternlore",
+         "label":"Studia la Tradizione Gloriosa",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "lantern":1,
+            "forge":-1,
+            "moth":-1,
+            "knock":-1
+         },
+         "effects":{
+            "project_upgrade_lantern":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"Esiste un proverbio tra i praticanti delle arti invisibili: 'La Gloria visita la casa senza mura'. Mi piacerebbe saperne di più di questa gloria.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studysubvertlore_lanterntoforge",
+         "label":"Sovverti la Tradizione Gloriosa",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "lantern":1,
+            "forge":1
+         },
+         "effects":{
+            "project_subvert_lanterntoforge":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"Il magus Julian Coseley afferma che la Forgia dei Giorni divise il Sole. Forse aveva ragione. [Questo creerà una tradizione della Forgia al posto della Lanterna.]",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studymothlore",
+         "label":"Studia la Tradizione della Foresta",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "moth":1,
+            "lantern":-1,
+            "grail":-1,
+            "knock":-1
+         },
+         "effects":{
+            "project_upgrade_moth":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"Quando il fiato è nero sul vetro, quando la nebbia tende la pelle, quando le foreste camminano d'inverno, udiamo queste parole.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studysubvertlore_mothtolantern",
+         "label":"Sovverti la Tradizione della Foresta",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "moth":1,
+            "lantern":1
+         },
+         "effects":{
+            "project_subvert_mothtolantern":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"La Gloria è una domanda, e la Falena risponde sempre, 'Sì'. [Questo creerà una tradizione della Lanterna al posto della Falena.]",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studysecrethistorieslore",
+         "label":"Studia le Storie",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "secrethistories":1
+         },
+         "effects":{
+            "project_upgrade_secrethistories":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"La Storia è meno certa di quanto ci venga insegnato. Posso imparare studiando i suoi confini opachi.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studywinterlore",
+         "label":"Studia la Tradizione Lacera",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "winter":1,
+            "heart":-1,
+            "knock":-1
+         },
+         "effects":{
+            "project_upgrade_winter":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"Queste sono le parole che congelano l'aria e bevono il colore dalla mia pelle.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"subvertwinterlore",
+         "label":"Sovverti la Tradizione Lacera",
+         "actionId":"study",
+         "requirements":{
+            "lore":2,
+            "winter":1,
+            "heart":1
+         },
+         "effects":{
+            "project_subvert_wintertoheart":1
+         },
+         "linked":[
+            {
+               "id":"studyresearch.entrypoint",
+               "chance":100
+            }
+         ],
+         "startdescription":"Perfino nella neve, nel silenzio, nel bianco senza colori, la vita non cessa mai del tutto. [Questo creerà una tradizione del Cuore al posto dell'Inverno.]",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"studyproject_upgrade_edge",
+         "label":"La Tradizione del Coltello",
+         "actionId":"study",
+         "requirements":{
+            "project_upgrade_edge":1
+         },
+         "effects":{
+            "project":-1,
+            "edge":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Ho aumentato la mia padronanza della Tradizione del Coltello, che chiamiamo per il suo aspetto 'Lama'."
+      },
+      {
+         "id":"studyproject_upgrade_forge",
+         "label":"La Tradizione che Brucia",
+         "actionId":"study",
+         "requirements":{
+            "project_upgrade_forge":1
+         },
+         "effects":{
+            "project":-1,
+            "forge":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Ho aumentato la mia padronanza della Tradizione che Brucia, che chiamiamo per il suo aspetto, 'Forgia'."
+      },
+      {
+         "id":"studyproject_upgrade_grail",
+         "label":"La Tradizione Succulenta",
+         "actionId":"study",
+         "requirements":{
+            "project_upgrade_grail":1
+         },
+         "effects":{
+            "project":-1,
+            "grail":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Ho aumentato la mia padronanza della Tradizione Succulenta, che chiamiamo per il suo aspetto 'Graal'."
+      },
+      {
+         "id":"studyproject_upgrade_heart",
+         "label":"La Tradizione Incessante",
+         "actionId":"study",
+         "requirements":{
+            "project_upgrade_heart":1
+         },
+         "effects":{
+            "project":-1,
+            "heart":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Ho aumentato la mia padronanza della Tradizione Incessante, che chiamiamo per il suo aspetto 'Cuore'."
+      },
+      {
+         "id":"studyproject_upgrade_lantern",
+         "label":"La Tradizione Gloriosa",
+         "actionId":"study",
+         "requirements":{
+            "project_upgrade_lantern":1
+         },
+         "effects":{
+            "project":-1,
+            "lantern":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Ho aumentato la mia padronanza della Tradizione Gloriosa, che chiamiamo per il suo aspetto 'Lanterna'."
+      },
+      {
+         "id":"studyproject_upgrade_moth",
+         "label":"La Tradizione della Foresta",
+         "actionId":"study",
+         "requirements":{
+            "project_upgrade_moth":1
+         },
+         "effects":{
+            "project":-1,
+            "moth":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Ho aumentato la mia padronanza della Tradizione della Foresta, che chiamiamo per il suo aspetto 'Falena'."
+      },
+      {
+         "id":"studyproject_upgrade_secrethistories",
+         "label":"Le Storie Segrete",
+         "actionId":"study",
+         "requirements":{
+            "project_upgrade_secrethistories":1
+         },
+         "effects":{
+            "project":-1,
+            "secrethistories":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Ho aumentato la mia padronanza delle storie segrete oltre a quella che conosciamo."
+      },
+      {
+         "id":"studyproject_upgrade_winter",
+         "label":"La Tradizione Lacera",
+         "actionId":"study",
+         "requirements":{
+            "project_upgrade_winter":1
+         },
+         "effects":{
+            "project":-1,
+            "winter":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Ho aumentato la mia padronanza della Tradizione Lacera, che chiamiamo per il suo aspetto 'Inverno'."
+      },
+      {
+         "id":"studyproject_subvert_edgetowinter",
+         "label":"Ogni Cosa Finisce",
+         "actionId":"study",
+         "requirements":{
+            "project_subvert_edgetowinter":1
+         },
+         "effects":{
+            "project":-1,
+            "edge":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"La Pazienza sconfigge la forza. Ho sovvertito la tradizione della Lama nell'Inverno."
+      },
+      {
+         "id":"studyproject_subvert_forgetoedge",
+         "label":"La Forza Conquista Tutto",
+         "actionId":"study",
+         "requirements":{
+            "project_subvert_forgetoedge":1
+         },
+         "effects":{
+            "project":-1,
+            "forge":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Ho distrutto ciò in cui credevo prima. Pertanto ho sovvertito la tradizione della Forgia nella Lama."
+      },
+      {
+         "id":"studyproject_subvert_grailtomoth",
+         "label":"La Fame è Follia",
+         "actionId":"study",
+         "requirements":{
+            "project_subvert_grailtomoth":1
+         },
+         "effects":{
+            "project":-1,
+            "grail":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Perfino il Graal Rosso cade preda del ronzio nel cervello. Ho sovvertito la tradizione del Graal nella Falena."
+      },
+      {
+         "id":"studyproject_subvert_hearttograil",
+         "label":"Ciò Che Non Cessa Deve Eventualmente Fruttare",
+         "actionId":"study",
+         "requirements":{
+            "project_subvert_hearttograil":1
+         },
+         "effects":{
+            "project":-1,
+            "heart":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Tutto ciò che si muove deve soccombere alla fame. Ho sovvertito la tradizione del Cuore nel Graal."
+      },
+      {
+         "id":"studyproject_subvert_lanterntoforge",
+         "label":"Tramonto a Mezzogiorno",
+         "actionId":"study",
+         "requirements":{
+            "project_subvert_lanterntoforge":1
+         },
+         "effects":{
+            "project":-1,
+            "lantern":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Ci sono arti nella Forgia che posso dividere perfino il sole. Ho sovvertito la tradizione della Lanterna nella Forgia."
+      },
+      {
+         "id":"studyproject_subvert_mothtolantern",
+         "label":"La Luce Superiore",
+         "actionId":"study",
+         "requirements":{
+            "project_subvert_mothtolantern":1
+         },
+         "effects":{
+            "project":-1,
+            "moth":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"La Gloria è una domanda, e la Falena risponde sempre 'Sì'. Ho sovvertito la tradizione della Falena nella Lanterna."
+      },
+      {
+         "id":"studyproject_subvert_wintertoheart",
+         "label":"La Vita Sottostante",
+         "actionId":"study",
+         "requirements":{
+            "project_subvert_wintertoheart":1
+         },
+         "effects":{
+            "project":-1,
+            "winter":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"L'arrivo dell'Inverno deve portare, infine, alla primavera. Ho sovvertito la tradizione dell'Inverno nel Cuore."
+      },
+      {
+         "id":"studyproject_upgrade_subvert_knock",
+         "label":"Tutto Dev'Essere Aperto",
+         "actionId":"study",
+         "requirements":{
+            "project_upgrade_subvert_knock":1
+         },
+         "effects":{
+            "project":-1,
+            "subvertable_lore":-1
+         },
+         "aspects":{
+            "epiphany":1
+         },
+         "description":"Quando qualcosa viene aperto, è possibile conoscerne la natura. Ho approfondito la comprensione della Tradizione che Apre, che chiamiamo per il suo aspetto 'Colpo'.",
+         "linked":[
+            {
+               "id":"studyproject_upgrade_subvert_knock_remove_spare_knock",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"studyproject_upgrade_subvert_knock_remove_spare_knock",
+         "label":"Tutto Dev'Essere Aperto",
+         "comments":"This exists to remove a Knock lore, if we were combining Knock lores rather than Knock + another. Dangit Kennedy you wouldn't need hacks like this if you'd implemented OR conditions. Aspects don't *quite* always cut it.",
+         "actionId":"study",
+         "requirements":{
+            "lore":2
+         },
+         "effects":{
+            "knock":-1
+         },
+         "description":"."
+      },
+      {
+         "id":"studyresearchconsolation",
+         "label":"Le Lezioni dell'Esperienza",
+         "actionId":"study",
+         "requirements":{},
+         "effects":{
+            "insight":-100,
+            "erudition":1
+         },
+         "aspects":{
+            "restore":1
+         },
+         "startdescription":".",
+         "description":"Questa volta la ricerca è fallita. Ma ho compreso le lezioni dell'esperienza.",
+         "warmup":0,
+         "craftable":false
+      },
+      {
+         "id":"studydowngradefragmentedgeb",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentedgeb":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentedgeb":-1,
+            "fragmentedge":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentedgec",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentedgec":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentedgec":-1,
+            "fragmentedgeb":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentedged",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentedged":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentedged":-1,
+            "fragmentedgec":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentedgee",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentedgee":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentedgee":-1,
+            "fragmentedged":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentedgef",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentedgef":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentedgef":-1,
+            "fragmentedgee":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentedgeg",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentedgeg":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentedgeg":-1,
+            "fragmentedgef":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentforgeb",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentforgeb":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentforgeb":-1,
+            "fragmentforge":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentforgec",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentforgec":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentforgec":-1,
+            "fragmentforgeb":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentforged",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentforged":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentforged":-1,
+            "fragmentforgec":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentforgee",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentforgee":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentforgee":-1,
+            "fragmentforged":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentforgef",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentforgef":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentforgef":-1,
+            "fragmentforgee":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentforgeg",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentforgeg":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentforgeg":-1,
+            "fragmentforgef":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentgrailb",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentgrailb":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentgrailb":-1,
+            "fragmentgrail":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentgrailc",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentgrailc":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentgrailc":-1,
+            "fragmentgrailb":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentgraild",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentgraild":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentgraild":-1,
+            "fragmentgrailc":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentgraile",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentgraile":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentgraile":-1,
+            "fragmentgraild":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentgrailf",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentgrailf":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentgrailf":-1,
+            "fragmentgraile":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentgrailg",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentgrailg":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentgrailg":-1,
+            "fragmentgrailf":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentheartb",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentheartb":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentheartb":-1,
+            "fragmentheart":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentheartc",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentheartc":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentheartc":-1,
+            "fragmentheartb":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentheartd",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentheartd":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentheartd":-1,
+            "fragmentheartc":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmenthearte",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmenthearte":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmenthearte":-1,
+            "fragmentheartd":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentheartf",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentheartf":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentheartf":-1,
+            "fragmenthearte":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentheartg",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentheartg":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "project":-1,
+            "fragmentheartg":-1,
+            "fragmentheartf":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentknockb",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentknockb":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentknockb":-1,
+            "fragmentknock":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentknockc",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentknockc":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentknockc":-1,
+            "fragmentknockb":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentknockd",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentknockd":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentknockd":-1,
+            "fragmentknockc":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentknocke",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentknocke":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentknocke":-1,
+            "fragmentknockd":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentknockf",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentknockf":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentknockf":-1,
+            "fragmentknocke":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentknockg",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentknockg":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentknockg":-1,
+            "fragmentknockf":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentlanternb",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentlanternb":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentlanternb":-1,
+            "fragmentlantern":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentlanternc",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentlanternc":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentlanternc":-1,
+            "fragmentlanternb":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentlanternd",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentlanternd":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentlanternd":-1,
+            "fragmentlanternc":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentlanterne",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentlanterne":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentlanterne":-1,
+            "fragmentlanternd":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentlanternf",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentlanternf":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentlanternf":-1,
+            "fragmentlanterne":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentlanterng",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentlanterng":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentlanterng":-1,
+            "fragmentlanternf":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentmothb",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentmothb":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentmothb":-1,
+            "fragmentmoth":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentmothc",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentmothc":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentmothc":-1,
+            "fragmentmothb":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentmothd",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentmothd":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentmothd":-1,
+            "fragmentmothc":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentmothe",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentmothe":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentmothe":-1,
+            "fragmentmothd":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentmothf",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentmothf":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentmothf":-1,
+            "fragmentmothe":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentmothg",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentmothg":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentmothg":-1,
+            "fragmentmothf":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentsecrethistoriesb",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentsecrethistoriesb":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentsecrethistoriesb":-1,
+            "fragmentsecrethistories":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentsecrethistoriesc",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentsecrethistoriesc":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentsecrethistoriesc":-1,
+            "fragmentsecrethistoriesb":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentsecrethistoriesd",
+         "label":"Return to the Fundamentals",
+         "actionId":"study",
+         "requirements":{
+            "fragmentsecrethistoriesd":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentsecrethistoriesd":-1,
+            "fragmentsecrethistoriesc":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentsecrethistoriese",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentsecrethistoriese":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentsecrethistoriese":-1,
+            "fragmentsecrethistoriesd":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentsecrethistoriesf",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentsecrethistoriesf":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentsecrethistoriesf":-1,
+            "fragmentsecrethistoriese":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentsecrethistoriesg",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentsecrethistoriesg":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentsecrethistoriesg":-1,
+            "fragmentsecrethistoriesf":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentwinterb",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentwinterb":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentwinterb":-1,
+            "fragmentwinter":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentwinterc",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentwinterc":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentwinterc":-1,
+            "fragmentwinterb":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentwinterd",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentwinterd":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentwinterd":-1,
+            "fragmentwinterc":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentwintere",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentwintere":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentwintere":-1,
+            "fragmentwinterd":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentwinterf",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentwinterf":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentwinterf":-1,
+            "fragmentwintere":2
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydowngradefragmentwinterg",
+         "label":"Ritorna ai Fondamentali",
+         "actionId":"study",
+         "requirements":{
+            "fragmentwinterg":1,
+            "reason":1
+         },
+         "comments":"This doesn't participate in the research cycle - it's one-and-done.",
+         "aspects":{
+            "fatiguing":1
+         },
+         "startdescription":"Talvolta, potrei aver bisogno di tornare ai fondamenti di un particolare frammento di tradizione. [Questo dividerà la tradizione in due frammenti di livello minore. Potrai ricombinarli in seguito, ma non sarà semplice come separarli.]",
+         "description":"L'analisi è una sorta di vivisezione. La Ragione è il coltello.",
+         "effects":{
+            "fragmentwinterg":-1,
+            "fragmentwinterf":2
+         },
+         "warmup":60,
+         "craftable":true
+      }
+   ]
+}

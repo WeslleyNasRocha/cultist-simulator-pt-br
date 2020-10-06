@@ -1,0 +1,310 @@
+{
+   "elements":[
+      {
+         "id":"ascensionchangea",
+         "label":"Tentazione: Cambiamento",
+         "aspects":{
+            "desire":1,
+            "changemarks":1
+         },
+         "description":"Certe notti, davanti alla platea, vi è il colpo d’ala di qualcosa di più. Che cosa potrei diventare? [Questa carta ti permetterà di vincere una vittoria Cambiamento, se la farai crescere abbastanza. Dedicati sufficientemente alle danze, e troverai il tuo prossimo passo.]",
+         "xtriggers":{
+            "ascend":"ascensionchangeb"
+         },
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionchangeb",
+         "label":"Cambiamento: Foglia",
+         "aspects":{
+            "desire":1,
+            "changemarks":2
+         },
+         "description":"Fremo quando arriva il vento. Le vene sotto la mia superficie sono evidenti. Porto sempre una perla di malachite sulla mia pelle. [Questa carta ti permetterà di vincere una vittoria Cambiamento, se la farai crescere abbastanza. Dedicati sufficientemente alle danze, e troverai il tuo prossimo passo.]",
+         "xtriggers":{
+            "ascend":"ascensionchangec"
+         },
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionchangec",
+         "label":"Cambiamento: Perla",
+         "aspects":{
+            "desire":1,
+            "changemarks":3
+         },
+         "description":"La mia pelle si squama a macchie, e sotto sono più scuro, ma i miei occhi sono più luminosi. Porto una perla di mare in un luogo segreto. Talvolta, di notte sento il mare; talvolta al mattino le mie coperte sono marchiate con il sangue. [Questa carta ti permetterà di vincere una vittoria Cambiamento, se la farai crescere abbastanza. Dedicati sufficientemente alle danze, e troverai il tuo prossimo passo.]",
+         "xtriggers":{
+            "ascend":"ascensionchanged"
+         },
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionchanged",
+         "label":"Cambiamento: Antumbra",
+         "aspects":{
+            "desire":1,
+            "changemarks":4
+         },
+         "description":"Sono diventato oscuro al massimo delle mie possibilità. Le ombre sono la mia compagnia, e il mio passo è un sussurro. Indosso una serie di anelli in meteorite, ma tengo le pietre girate verso l'interno, nascoste nel mio palmo. [Questa carta ti permetterà di vincere una vittoria Cambiamento, se la farai crescere abbastanza. Dedicati sufficientemente alle danze, e troverai il tuo prossimo passo.]",
+         "xtriggers":{
+            "ascend":"ascensionchangee"
+         },
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionchangee",
+         "label":"Cambiamento: Stigma",
+         "aspects":{
+            "desire":1,
+            "changemarks":5
+         },
+         "description":"La mia oscurità è schiarita e tutti i miei colori sono candeggiati. Nuovi lobi sbocciano nei miei elementi più ricettivi. Sono ricoperto dai segreti quasi fossero rugiada. Porto un prisma di scolecite infilato sotto la mia pallida lingua. [Questa carta ti permetterà di vincere una vittoria Cambiamento, se la farai crescere abbastanza. Dedicati sufficientemente alle danze, e troverai il tuo prossimo passo.]",
+         "xtriggers":{
+            "ascend":"ascensionchangef"
+         },
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionchangef",
+         "label":"Cambiamento: Allievo",
+         "aspects":{
+            "desire":1,
+            "changemarks":6
+         },
+         "description":"Il bianco dei miei occhi è diventato giallo e un nuovo integumento si è sviluppato intorno ai miei arti, una guaina per il cambiamento finale. In privato indosso un anello da piede dorato ed orecchini d’oro e topazio, ma non devono essere visti. [Questa carta ti permetterà di vincere una vittoria Cambiamento, se la farai crescere abbastanza. Dedicati sufficientemente alle danze, e troverai il tuo prossimo passo.]",
+         "xtriggers":{
+            "ascend":"ascensionchangeg"
+         },
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionchangeg",
+         "label":"Cambiamento: Avorio",
+         "aspects":{
+            "desire":1,
+            "changemarks":6
+         },
+         "description":"Le mie ossa sono cambiate. Portano la storia di ciò che è perduto. Se non sopravviverò, esse racconteranno la mia storia, e qualcuno indosserà frammenti del mio avorio per riscaldare la sua pelle. [Questa carta ti permetterà di vincere una vittoria Cambiamento.]",
+         "xtriggers":{
+            "ascend":"ascensionchangeg"
+         },
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"sendingheartb",
+         "label":"Veste: Vipera",
+         "aspects":{
+            "sending":1,
+            "knock":1
+         },
+         "description":"La Vipera si avvolge dove il mare si piega sulla terra. Devo trovare un luogo di potere al confine con l’acqua. Forse Sulochana potrebbe aiutarmi, se le portassi dei segreti su altri luoghi. [Una parte di te può vagare in forma di serpente. Mandala con i tuoi seguaci in un luogo dove può eseguire le danze che devi eseguire. Se hai problemi a trovare il luogo, parla con Sulochana delle Storie Segrete.]",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"sendingheartc",
+         "label":"Veste: Gatto",
+         "aspects":{
+            "sending":1,
+            "moth":2
+         },
+         "description":"Il Gatto cammina nella notte lungo le rive nelle quali cresce il lino nero. [Una parte di te può vagare in forma di gatto. Mandala con i tuoi seguaci in un luogo dove può eseguire le danze che devi eseguire. Se hai problemi a trovare il luogo, parla con Sulochana delle Storie Segrete.]",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"sendingheartd",
+         "label":"Veste: Volpe",
+         "aspects":{
+            "sending":1,
+            "grail":3
+         },
+         "description":"La Volpe vaga per le radure montane, cercando il tocco del Creatore di Fiori. [Una parte di te può vagare in forma di volpe. Mandala con i tuoi seguaci in un luogo dove può eseguire le danze che devi eseguire. Se hai problemi a trovare il luogo, parla con Sulochana delle Storie Segrete.]",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"sendinghearte",
+         "label":"Veste: Aquila",
+         "aspects":{
+            "sending":1,
+            "lantern":4
+         },
+         "description":"L’aquila solca le vie del cielo, e questo è quanto ha visto: a Miah vi fu il primo Trespolo, dove i poteri dell’aria, per primi, scambiarono i loro segreti. [Una parte di te può vagare in forma di aquila. Mandala con i tuoi seguaci in un luogo dove può eseguire le danze che devi eseguire. Se hai problemi a trovare il luogo, parla con Sulochana delle Storie Segrete.]",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"sendingheartf",
+         "label":"Veste: Colomba",
+         "aspects":{
+            "sending":1,
+            "winter":5
+         },
+         "description":"La Colomba ricorda quando tutti gli altri dimenticano. [Una parte di te può vagare in forma di pallido uccello. Mandala con i tuoi seguaci in un luogo dove può eseguire le danze che devi eseguire. Se hai problemi a trovare il luogo, parla con Sulochana delle Storie Segrete.]",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"sendingheartg",
+         "label":"Veste: Cinghiale",
+         "aspects":{
+            "sending":1,
+            "way":1
+         },
+         "description":"In questa forma, io mi arrenderò a colui il quale possiede la chiave per la Porta Pelle di Re. [Una parte di te può vagare in forma di bestia nera selvaggia.]",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"sendingmothb",
+         "label":"Stadio: Silente",
+         "aspects":{
+            "sending":1,
+            "knock":1
+         },
+         "description":"In una casa silenziosa oltre il mare, in una pelle presa in prestito, cercheremo il secondo cambiamento. Devo trovare un luogo di potere al confine con l’acqua. Forse Sulochana potrebbe aiutarmi, se le portassi dei segreti su altri luoghi. [Una parte di te può vagare in forma di vipera. Mandala con i tuoi seguaci in un luogo dove può eseguire le danze che devi eseguire. Se hai problemi a trovare il luogo, parla con Sulochana delle Storie Segrete.]",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"sendingmothc",
+         "label":"Stadio: Strisciante",
+         "aspects":{
+            "sending":1,
+            "moth":2
+         },
+         "description":"Presso le pietre, dove le nere fiere hanno le tane, oltre la maschera degli occhi, cercheremo il terzo cambiamento. [Una parte di te può vagare in forma di gatto. Mandala con i tuoi seguaci in un luogo dove può eseguire le danze che devi eseguire. Se hai problemi a trovare il luogo, parla con Sulochana delle Storie Segrete.]",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"sendingmothd",
+         "label":"Stadio: Rossastro",
+         "aspects":{
+            "sending":1,
+            "grail":3
+         },
+         "description":"Negli alti luoghi dove l’aria è tentazione, cercheremo il quarto cambiamento. [Una parte di te può vagare in forma di volpe. Mandala con i tuoi seguaci in un luogo dove può eseguire le danze che devi eseguire. Se hai problemi a trovare il luogo, parla con Sulochana delle Storie Segrete.]",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"sendingmothe",
+         "label":"Stadio: Viaggiatore Estremo",
+         "aspects":{
+            "sending":1,
+            "lantern":4
+         },
+         "description":"A Miah, dove il Millepiedi vide tutto ciò che sarebbe potuto ancora accadere, cercheremo il quinto cambiamento. [Una parte di te può vagare in forma di aquila. Mandala con i tuoi seguaci in un luogo dove può eseguire le danze che devi eseguire. Se hai problemi a trovare il luogo, parla con Sulochana delle Storie Segrete.]",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"sendingmothf",
+         "label":"Stadio: Avido",
+         "aspects":{
+            "sending":1,
+            "winter":5
+         },
+         "description":"Nel luogo lontano, dove ricordarono il Sole, porterò il mio odio preso a prestito per il sesto cambiamento. [Una parte di te può vagare in forma di lupo. Mandala con i tuoi seguaci in un luogo dove può eseguire le danze che devi eseguire. Se hai problemi a trovare il luogo, parla con Sulochana delle Storie Segrete.]",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"sendingmothg",
+         "label":"Imago",
+         "aspects":{
+            "sending":1,
+            "way":1
+         },
+         "description":"Per il cambiamento finale oltrepasserò la Porta nella Foresta. Il sacrificio di Medusa è sempre un cervo nobile vergine, e pertanto oltrepasserò la porta in forma di cerva. [Voli nei cerchi della notte.]",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"sendingmothheartg",
+         "label":"Veste: Imago",
+         "aspects":{
+            "sending":1,
+            "way":1
+         },
+         "description":"Il mio spirito abbandonerà il corpo e assumerà la forma di una grande bestia cornuta. Per divenire un sacrificio? [Ciò che è dentro, vuoto; ciò che è vuoto, dentro.]",
+         "icon":"sendingmothg",
+         "uniquenessgroup":"uqsending"
+      },
+      {
+         "id":"ascensionlessonhearta",
+         "label":"Indumenti, Ceduti",
+         "aspects":{},
+         "description":"La Malachite mi ha insegnato che il sé nudo non è il vero sé, ma è solamente una menzogna. [Nella Stagione delle Ambizioni può migliorare il tuo desiderio Cambiamento.]",
+         "unique":true
+      },
+      {
+         "id":"ascensionlessonheartb",
+         "label":"Tegumenti, Ceduti",
+         "aspects":{},
+         "description":"La guerra dei Gemelli e del Serpente: da quella guerra ho compreso come il dolore possa essere un cancello.",
+         "unique":true
+      },
+      {
+         "id":"ascensionlessonheartc",
+         "label":"Passi, Ceduti",
+         "aspects":{},
+         "description":"Il Velluto mi ha insegnato che ciò che viene rivelato deve prima essere nascosto, affinché la sua rivelazione abbia qualche conseguenza. Ho rinunciato alle mie orme.",
+         "unique":true
+      },
+      {
+         "id":"ascensionlessonheartd",
+         "label":"Tinte, Cedute",
+         "aspects":{},
+         "description":"Il Creatore di Fiori mi ha dato tutto ciò che desidero, in cambio ha preso i miei colori.",
+         "unique":true
+      },
+      {
+         "id":"ascensionlessonhearte",
+         "label":"Vista, Ceduta",
+         "aspects":{},
+         "description":"Ho donato i miei occhi al Vagabondo, e attraverso di essi vedrò ciò che essa vede: le strade per il rosso cambiamento.",
+         "unique":true
+      },
+      {
+         "id":"ascensionlessonheartf",
+         "label":"Ossa, Cedute",
+         "aspects":{},
+         "description":"L’Elegiasta, nella mia ultima parte da cambiare, mi ha insegnato a ricordare. Porterò questa lezione oltre la Porta Pelle di Re.",
+         "unique":true
+      },
+      {
+         "id":"ascensionlessonmotha",
+         "label":"Indumenti, Ceduti",
+         "aspects":{},
+         "description":"Il Tasso-Accerchiato mi ha ordinato di spogliarmi della carne, ed io ho obbedito. Non obbedirò sempre al Tasso-Accerchiato. [Nella Stagione delle Ambizioni, questo può migliorare il tuo desiderio Cambiamento.]",
+         "unique":true
+      },
+      {
+         "id":"ascensionlessonmothb",
+         "label":"Tegumenti, Ceduti",
+         "aspects":{},
+         "description":"La Madre trafigge, la Strega richiede, la Sorella dissolve. E così\n la mia pelle\n è sottile\n come la pioggia",
+         "unique":true
+      },
+      {
+         "id":"ascensionlessonmothc",
+         "label":"Passi, Ceduti",
+         "aspects":{},
+         "description":"Ho camminato nel lino nero sul bordo del fiume, ho saggiato col piede le sue centinaia di lingue finché ho potuto sopportarne il tocco, dopo era rimasta solamente l'oscurità.",
+         "unique":true
+      },
+      {
+         "id":"ascensionlessonmothd",
+         "label":"Tinte, Cedute",
+         "aspects":{},
+         "description":"Sono venuto per i fiori del Creatore di Fiori e questo è quanto sono divenuto. Egli custodisce i miei colori ora.",
+         "unique":true
+      },
+      {
+         "id":"ascensionlessonmothe",
+         "label":"Vista, Ceduta",
+         "aspects":{},
+         "description":"Il Millepiedi mi raccontò i suoi scherzi e in cambio io le lasciai intagliare occhi dorati, finché questi non divennero ommatidi. ",
+         "unique":true
+      },
+      {
+         "id":"ascensionlessonmothf",
+         "label":"Ossa, Cedute",
+         "aspects":{},
+         "description":"Il Sole fu diviso, e il Lupo non mi lascerà dimenticare il sapore salino delle sue ossa - non finché il Mansus sarà infranto. Ora il Lupo mi chiede di portare quel sapore oltre alla Porta nella Foresta.",
+         "unique":true
+      }
+   ]
+}

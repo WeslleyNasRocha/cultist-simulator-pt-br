@@ -1,0 +1,301 @@
+{
+   "recipes":[
+      {
+         "id":"recruitindependentresentmenthint",
+         "label":"Reclutare un Piantagrane?",
+         "actionId":"talk",
+         "requirements":{
+            "independent":1,
+            "mortal":1,
+            "resentment":1
+         },
+         "startdescription":"No. Non ha dimenticato cos'è accaduto tra di noi. Forse un giorno, se non gli procuriamo ulteriori danni, i suoi sentimenti potrebbero cambiare.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"recruitindependenthint",
+         "label":"Reclutare un Piantagrane?",
+         "actionId":"talk",
+         "requirements":{
+            "independent":1,
+            "mortal":1,
+            "resentment":-1
+         },
+         "startdescription":"Potrebbe unirsi a me... se riuscissi ad accumulare l'Aspetto del nostro culto al ventunesimo grado. [Puoi reclutare un Piantagrane, anche uno di credo differente, se riesci a procurarti abbastanza potere - ma devi includere almeno uno Strumento come dono per l'Indipendente].",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"promoteto_d_edgehint",
+         "label":"Esaltare un Discepolo?",
+         "actionId":"talk",
+         "requirements":{
+            "cultedge_1":1,
+            "follower":1,
+            "disciple":1
+         },
+         "startdescription":"Per Esaltare un Discepolo ad Assassino, avrò bisogno della Lama almeno alla ventunesima intensità. In ogni caso, solamente i più feroci saranno adatti.",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"promoteto_d_forgehint",
+         "label":"Esaltare un Discepolo?",
+         "actionId":"talk",
+         "requirements":{
+            "cultforge_1":1,
+            "follower":1,
+            "disciple":1
+         },
+         "startdescription":"Per Esaltare un Discepolo a Mutaforma, avrò bisogno della Forgia almeno alla ventunesima intensità. In ogni caso, solamente i più ingegnosi ed efficaci saranno adatti.",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"promoteto_d_grailhint",
+         "label":"Esaltare un Discepolo?",
+         "actionId":"talk",
+         "requirements":{
+            "cultgrail_1":1,
+            "follower":1,
+            "disciple":1
+         },
+         "startdescription":"Per Esaltare un Discepolo a Cipriano, avrò bisogno del Graal almeno alla ventunesima intensità. In ogni caso, solamente coloro che posseggono i più inconsolabili appetiti saranno adatti.",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"promoteto_d_hearthint",
+         "label":"Esaltare un Discepolo?",
+         "actionId":"talk",
+         "requirements":{
+            "cultheart_1":1,
+            "follower":1,
+            "disciple":1
+         },
+         "startdescription":"Per Esaltare un Discepolo a Tarantellista, avrò bisogno del Cuore almeno alla ventunesima intensità. In ogni caso, solamente i più dotati saranno adatti.",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"promoteto_d_knockhint",
+         "label":"Esaltare un Discepolo?",
+         "actionId":"talk",
+         "requirements":{
+            "cultknock_1":1,
+            "follower":1,
+            "disciple":1
+         },
+         "startdescription":"Per Esaltare un Discepolo a Chiave, avrò bisogno del Colpo almeno alla ventunesima intensità. In ogni caso, solamente i più dotati saranno adatti.",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"promoteto_d_lanternhint",
+         "label":"Esaltare un Discepolo?",
+         "actionId":"talk",
+         "requirements":{
+            "cultlantern_1":1,
+            "follower":1,
+            "disciple":1
+         },
+         "startdescription":"Per Esaltare un Discepolo a Veggente, avrò bisogno della Lanterna almeno alla ventunesima intensità. In ogni caso, solamente coloro che posseggono la vista più limpida saranno adatti.",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"promoteto_d_mothhint",
+         "label":"Esaltare un Discepolo?",
+         "actionId":"talk",
+         "requirements":{
+            "cultmoth_1":1,
+            "follower":1,
+            "disciple":1
+         },
+         "startdescription":"Per Esaltare un Discepolo a Scioglipelle, avrò bisogno della Falena almeno alla ventunesima intensità. In ogni caso, solamente pochissimi individui saranno adatti.",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"promoteto_d_winterhint",
+         "label":"Esaltare un Discepolo?",
+         "actionId":"talk",
+         "requirements":{
+            "venerationwinter":1,
+            "venerationedge":-1,
+            "venerationforge":-1,
+            "venerationgrail":-1,
+            "venerationheart":-1,
+            "venerationlantern":-1,
+            "venerationknock":-1,
+            "venerationmoth":-1,
+            "follower":1,
+            "disciple":1
+         },
+         "startdescription":"Per Esaltare un Discepolo ad un livello che non ha nome, avrò bisogno dell'Inverno almeno alla ventunesima intensità. In ogni caso, solamente le anime più cupe saranno adatte.",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"promotetodisciplehint",
+         "label":"Promuovere un Credente?",
+         "actionId":"talk",
+         "requirements":{
+            "society":1,
+            "follower":1,
+            "disciple":-1,
+            "summoned":-11
+         },
+         "startdescription":"Per promuovere un Credente a Discepolo avrò bisogno dell'aspetto del culto, almeno della settima intensità.",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"talktobenefactorhint",
+         "label":"Il Mio Benefattore Insiste sulla Discrezione",
+         "actionId":"talk",
+         "requirements":{
+            "benefactor":1
+         },
+         "startdescription":"'Non possiamo parlare qui, mio caro. Dobbiamo essere discreti.'",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"recruitacquaintancenoculthint",
+         "label":"Reclutare un nuovo Seguace?",
+         "actionId":"talk",
+         "requirements":{
+            "society":-1,
+            "acquaintance":1
+         },
+         "startdescription":"[Una volta che hai fondato un culto, usa <b>PARLARE</b> con la carta Culto per reclutare una Conoscenza nei tuoi ranghi.]",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"recruitacquaintancehint",
+         "label":"Reclutare un nuovo Seguace?",
+         "actionId":"talk",
+         "requirements":{
+            "society":1,
+            "acquaintance":1
+         },
+         "startdescription":"Per reclutare un seguace, avrò bisogno del potere che veneriamo. Potrebbe venire da un'Influsso, uno Strumento, un Ingrediente o semplicemente dalla Tradizione corretta.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"talk_aladim_wantscommission",
+         "label":"Una Commissione?",
+         "actionId":"talk",
+         "requirements":{
+            "aladim":1
+         },
+         "startdescription":"'Come procede con la Commissione? Attendo ansiosamente le sue opinioni.'",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"talk_bechet_wantscommission",
+         "label":"Una Commissione?",
+         "actionId":"talk",
+         "requirements":{
+            "bechet":1
+         },
+         "startdescription":"'Buongiorno. Ha qualcosa per me? La Commissione?'",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"talk_jannings_wantscommission",
+         "label":"Una Commissione?",
+         "actionId":"talk",
+         "requirements":{
+            "jannings":1
+         },
+         "startdescription":"'Per cortesia, concluderebbe la Commissione? I miei colleghi hanno urgentemente bisogno di quelle informazioni.'",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"talk_poppy_wantscommission",
+         "label":"Una Commissione?",
+         "actionId":"talk",
+         "requirements":{
+            "poppycommission":1
+         },
+         "startdescription":"'Oh, si sbrighi con quella Commissione! Non posso aspettare.'",
+         "hintonly":true,
+         "craftable":true
+      },
+      {
+         "id":"fulfilcommission_aladimhint",
+         "label":"Svolgere una Commissione per il Dottore?",
+         "actionId":"talk",
+         "requirements":{
+            "commission":1,
+            "aladim":1,
+            "article":1
+         },
+         "startdescription":"'Mmh. Speravo in qualcosa di più.' [Controlla i dettagli della Commissione.]",
+         "warmup":10,
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"fulfilcommission_bechethint",
+         "label":"Svolgere una Commissione per Mme Bechet?",
+         "actionId":"talk",
+         "requirements":{
+            "commission":1,
+            "bechet":1,
+            "article":1
+         },
+         "startdescription":"'Mi dispiace, ma non va. Volevo qualcosa di diverso.' [Controlla i dettagli della Commissione.]",
+         "warmup":10,
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"fulfilcommission_janningshint",
+         "label":"Svolgere una Commissione per il Conte?",
+         "actionId":"talk",
+         "requirements":{
+            "commission":1,
+            "jannings":1,
+            "article":1
+         },
+         "startdescription":"'No no no. Così non funziona. Le mie istruzioni erano più specifiche.' [Controlla i dettagli della Commissione.]",
+         "warmup":10,
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"fulfilcommission_poppyhint",
+         "label":"Svolgere una Commissione per Poppy?",
+         "actionId":"talk",
+         "requirements":{
+            "commission":1,
+            "poppycommission":1,
+            "article":1
+         },
+         "startdescription":"'Oh, caro. Sono spiacente. Ho bisogno di più... informazioni.' [Controlla i dettagli della Commissione.]",
+         "warmup":10,
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"talk_nointeraction_mortal",
+         "label":"Niente da dire?",
+         "actionId":"talk",
+         "requirements":{
+            "mortal":1
+         },
+         "startdescription":"'Non credo ci sia molto da dire...'",
+         "craftable":false,
+         "hintonly":true
+      }
+   ]
+}

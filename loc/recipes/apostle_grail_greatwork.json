@@ -1,0 +1,431 @@
+{
+   "recipes":[
+      {
+         "id":"ambition.apostlegrail.emitfuel",
+         "actionId":"work",
+         "label":"Guida dalla nostra Delizia",
+         "requirements":{
+            "apostlegrail.mentor":1
+         },
+         "startdescription":"È arrivato un corriere, mandato dalla nostra Delizia, con una singola fiala del suo sacro sangue.",
+         "effects":{
+            "apostlegrail.pillarfuel":1
+         }
+      },
+      {
+         "id":"work.apostlegrail.majorvictory.postbetrayal",
+         "actionId":"work",
+         "label":"Tuttavia, la Vitulazione",
+         "extantreqs":{
+            "apostlegrail.mentor":-1
+         },
+         "startdescription":"Per unirsi al Graal, la nostra delizia deve dare la vita, prendere la vita, e non esserne sazio. Così è accaduto che io fossi il perno della Vitulazione. Un figlio del corpo della Delizia potrebbe avere tutti i requisiti, ma non si può entrare in trionfo nel Mansus quando si ha commesso il Crimine del Cielo. Pertanto sarà il mio compito: nonostante tutte le tentazioni di Tryphon mi sottometterò ai legacci e alle marinature di Marinette, le Sette Grazie e i Tre Sapori entreranno nella mia pelle, e quando sarà preso il primo boccone, praticamente non lo sentirò; non lo sentirò per nulla.",
+         "requirements":{
+            "fragmentheartg":1,
+            "influencegrailg":1,
+            "apostlegrail.pillar2":1,
+            "apostlegrail.pillar3":1,
+            "apostlegrail.pillar4":1,
+            "toolgrailf":1,
+            "grailflavour":1,
+            "heartflavour":1,
+            "mothflavour":1
+         },
+         "warmup":60,
+         "craftable":true,
+         "ending":"majorgrailvictory"
+      },
+      {
+         "id":"work.apostlegrail.majorvictory",
+         "actionId":"work",
+         "label":"Gli Ultimi Elementi della Vitulazione",
+         "extantreqs":{
+            "apostlegrail.mentor":1
+         },
+         "startdescription":"Per unirsi al Graal, la nostra delizia deve dare la vita, prendere la vita, e non esserne sazio. Così è accaduto che io fossi il perno della Vitulazione. Un figlio del corpo della Delizia potrebbe avere tutti i requisiti, ma non si può entrare in trionfo nel Mansus quando si ha commesso il Crimine del Cielo. Pertanto sarà il mio compito, mi sottometterò ai legacci e alle marinature di Marinette, le Sette Grazie e i Tre Sapori entreranno nella mia pelle, e quando sarà preso il primo boccone, praticamente non lo sentirò; non lo sentirò per nulla.",
+         "requirements":{
+            "fragmentheartg":1,
+            "influencegrailg":1,
+            "apostlegrail.pillar2":1,
+            "apostlegrail.pillar3":1,
+            "apostlegrail.pillar4":1,
+            "toolgrailf":1,
+            "grailflavour":1,
+            "heartflavour":1,
+            "mothflavour":1
+         },
+         "warmup":60,
+         "craftable":true,
+         "ending":"majorgrailvictory"
+      },
+      {
+         "id":"explore.apostlegrail.purchase.apostlegrail.pillar3",
+         "actionId":"explore",
+         "label":"Fai un'Offerta per Rare Spezie",
+         "startdescription":"Il sangue della nostra Delizia è una forma di pagamento per certi particolari buongustai. Tutto dev'essere perfetto per la Vitulazione.",
+         "requirements":{
+            "locationauctionhouse":1,
+            "apostlegrail.pillarfuel":1
+         },
+         "effects":{
+            "apostlegrail.pillar3":1,
+            "apostlegrail.pillarfuel":-1
+         },
+         "warmup":5,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"auctionbuy"
+            }
+         ]
+      },
+      {
+         "id":"work.apostlegrail.upgrade.apostlegrail.pillar3.finished",
+         "actionId":"work",
+         "label":"Le Sette Grazie sono Pronte",
+         "startdescription":"Le Sette Grazie e i Tre Sapori: il Salato, Il Dolce, il Dolcissimo. Così dovremo ungerci, noi che siamo i prescelti dalla Delizia.",
+         "requirements":{
+            "apostlegrail.pillar3":1,
+            "grailflavour":1,
+            "heartflavour":1,
+            "mothflavour":1,
+            "ritual":-1
+         },
+         "craftable":true,
+         "comments":"NB this is both craftable *and* linked, and precedes the main cooking recipe, in case the player tries to keep working on the Graces once it's done."
+      },
+      {
+         "id":"work.apostlegrail.upgrade.apostlegrail.pillar3",
+         "actionId":"work",
+         "label":"Prepara le Sette Grazie",
+         "startdescription":"I profumi e i sapori devono essere dosati esattamente come detta la Ricetta. Solamente in questa maniera io, e i miei colleghi, potremo essere sufficientemente appetibili - talmente appetibili da sollecitare appetiti mai visti nel mondo della veglia.",
+         "requirements":{
+            "apostlegrail.pillar3":1,
+            "ritual":-1
+         },
+         "description":"Non sono riuscito a trovare un profumo o un sapore che mi serviva.",
+         "slots":[
+            {
+               "id":"enhancement",
+               "label":"Miglioramento",
+               "description":"Addittivi molto speciali per assicurarsi che la Vitulazione vada per il verso giusto.",
+               "required":{
+                  "ingredientgraild":1,
+                  "ingredientmothd":1,
+                  "ingredientheartf":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
+            },
+            {
+               "id":"work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail"
+            },
+            {
+               "id":"work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart"
+            },
+            {
+               "id":"work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth"
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail",
+         "actionId":"work",
+         "label":"Il Dono del Creatore di Fiori",
+         "startdescription":"Anche morendo vivremo in coloro che ci hanno ucciso.",
+         "requirements":{
+            "ingredientgraild":1,
+            "grailflavour":-1
+         },
+         "effects":{
+            "ingredientgraild":-1
+         },
+         "mutations":[
+            {
+               "filter":"apostlegrail.pillar3",
+               "mutate":"grailflavour",
+               "level":1
+            }
+         ],
+         "linked":[
+            {
+               "id":"work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
+            }
+         ]
+      },
+      {
+         "id":"work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart",
+         "actionId":"work",
+         "label":"Il Sapore di Giano",
+         "startdescription":"Giano è il dio che non è salito, ma regna. Giano è il santo che non morì, ma è morto. Giano è la porta tra ciò che non può essere, e ciò che deve essere.",
+         "requirements":{
+            "ingredientheartf":1,
+            "heartflavour":-1
+         },
+         "effects":{
+            "ingredientheartf":-1
+         },
+         "mutations":[
+            {
+               "filter":"apostlegrail.pillar3",
+               "mutate":"heartflavour",
+               "level":1
+            }
+         ],
+         "linked":[
+            {
+               "id":"work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
+            }
+         ]
+      },
+      {
+         "id":"work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth",
+         "actionId":"work",
+         "label":"Il Sapore del Lino Nero",
+         "startdescription":"È necessario dimenticare ciò che eravamo.",
+         "requirements":{
+            "ingredientmothd":1,
+            "mothflavour":-1
+         },
+         "effects":{
+            "ingredientmothd":-1
+         },
+         "mutations":[
+            {
+               "filter":"apostlegrail.pillar3",
+               "mutate":"mothflavour",
+               "level":1
+            }
+         ],
+         "linked":[
+            {
+               "id":"work.apostlegrail.upgrade.apostlegrail.pillar3.finished"
+            }
+         ]
+      },
+      {
+         "id":"talk.apostlegrail.createpillar4",
+         "actionId":"talk",
+         "label":"Comincia le Preparazioni per la Vitulazione",
+         "startdescription":"Ci sarà una grande festa quando la nostra Delizia proverà i suoi appetiti.",
+         "description":"Non possiamo conoscere la data precisa, finché non conosceremo l'ora di maggiore influenza del Graal. Ma possiamo, dobbiamo, cominciare a selezionare coloro che faranno parte della Schiera.",
+         "requirements":{
+            "apostlegrail.pillar1":1
+         },
+         "craftable":true,
+         "effects":{
+            "apostlegrail.pillar4.inprogress1":1
+         },
+         "warmup":60
+      },
+      {
+         "id":"talk.apostlegrail.upgradepillar4.attempt",
+         "actionId":"talk",
+         "label":"Invita il nostro Ospite Finale",
+         "startdescription":"Senza il Possessore della Chiave, tutte queste preparazioni potrebbero essere vane.",
+         "description":"Non abbiamo ancora trovato il Possessore della Chiave",
+         "requirements":{
+            "apostlegrail.pillar4.inprogress7":1
+         },
+         "slots":[
+            {
+               "id":"finalguest",
+               "label":"Il Possessore della Chiave",
+               "required":{
+                  "marinette":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"talk.apostlegrail.upgradepillar4.marinetteready"
+            },
+            {
+               "id":"talk.apostlegrail.upgradepillar4.marinettenotready"
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"talk.apostlegrail.upgradepillar4.inprogress.attempt",
+         "actionId":"talk",
+         "label":"Accresci la Schiera",
+         "startdescription":"Cerchiamo più attendenti. I nostri alleati: avidità; curiosità; lubricità; sfrenata indolenza.",
+         "description":"Non siamo riusciti ad alimentare abbastanza il forno dell'eccitazione.",
+         "requirements":{
+            "uqvitulation":1
+         },
+         "slots":[
+            {
+               "id":"more",
+               "label":"Di Più",
+               "required":{
+                  "mystique":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"talk.apostlegrail.upgradepillar4.succeed"
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"talk.apostlegrail.upgradepillar4.marinetteready",
+         "actionId":"talk",
+         "label":"Il Possessore della Chiave",
+         "startdescription":"'<sprite name=winter>.'",
+         "requirements":{
+            "marinette":1,
+            "approval":7,
+            "apostlegrail.pillar4.inprogress7":1
+         },
+         "effects":{
+            "marinette":-1,
+            "apostlegrail.pillar4.inprogress7":-1,
+            "apostlegrail.pillar4":1
+         },
+         "craftable":false
+      },
+      {
+         "id":"talk.apostlegrail.upgradepillar4.marinettenotready",
+         "actionId":"talk",
+         "label":"Non Basta",
+         "startdescription":"'...<sprite name=grail>.' [Marinette non è ancora sazia.]",
+         "requirements":{
+            "marinette":1
+         },
+         "craftable":false
+      },
+      {
+         "id":"talk.apostlegrail.upgradepillar4.succeed",
+         "actionId":"talk",
+         "label":"La Schiera Cresce",
+         "startdescription":"Più nomi nella lista sacra e segreta; più facce per la grande notte.",
+         "requirements":{
+            "mystique":1,
+            "uqvitulation":1
+         },
+         "effects":{
+            "mystique":-1
+         },
+         "aspects":{
+            "vitulationupgrade":1
+         },
+         "craftable":false
+      },
+      {
+         "id":"talk.apostlegrail.sulochanamarinette",
+         "actionId":"talk",
+         "label":"Un'Introduzione a Nostra Signora dei Fili",
+         "startdescription":"'Vuoi veramente farlo?' Sulochana trascina meditativamente la suola di una delle scarpe sul mozzicone di una delle sue sigarette. 'Allora me ne vado, ora. Non preoccuparti. Inoltrerò il tuo messaggio alla sorella giusta. Sono sicuro che verrà... se ci sarà abbastanza sangue.'",
+         "description":"",
+         "requirements":{
+            "apostlegrail.pillar1":1
+         },
+         "effects":{
+            "marinette.enroute":1,
+            "sulochana":-1
+         },
+         "craftable":false
+      },
+      {
+         "id":"talk.apostlegrail.marinette.ready.hint",
+         "actionId":"talk",
+         "label":"Marinette è Sazia",
+         "startdescription":"'<sprite name=heart>'. [Ora puoi aggiungere Marinette ai tuoi Ospiti.]",
+         "requirements":{
+            "marinette":1,
+            "approval":7
+         },
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"talk.apostlegrail.marinette",
+         "actionId":"talk",
+         "label":"Un'Istanza a Marinette dei Fili",
+         "startdescription":"'<sprite name=grail>?'",
+         "description":"'<sprite name=grail>. <sprite name=grail>. <sprite name=grail>!'",
+         "requirements":{
+            "marinette":1,
+            "approval":-7
+         },
+         "slots":[
+            {
+               "id":"sacrifice",
+               "label":"Sangue",
+               "required":{
+                  "follower":1
+               },
+               "forbidden":{
+                  "summoned":-1
+               }
+            }
+         ],
+         "warmup":60,
+         "craftable":true,
+         "alt":[
+            {
+               "id":"talk.apostlegrail.marinettenext.hireling"
+            },
+            {
+               "id":"talk.apostlegrail.marinettenext.follower"
+            }
+         ]
+      },
+      {
+         "id":"talk.apostlegrail.marinettenext.hireling",
+         "actionId":"talk",
+         "label":"Sangue",
+         "startdescription":"Marinette abbandona sempre la pelle. Talvolta abbandona le ossa. Consumerà l'offerta con avidità, ma questa, in genere non è d'accordo, e di solito ne nasce un trambusto.",
+         "requirements":{
+            "marinette":1,
+            "hireling":1
+         },
+         "effects":{
+            "hireling":-1,
+            "notoriety":1
+         },
+         "mutations":[
+            {
+               "filter":"marinette",
+               "mutate":"approval",
+               "level":1,
+               "additive":true
+            }
+         ],
+         "craftable":false
+      },
+      {
+         "id":"talk.apostlegrail.marinettenext.follower",
+         "actionId":"talk",
+         "label":"Sangue",
+         "startdescription":"Marinette abbandona sempre la pelle. Talvolta abbandona le ossa. Se chiedessimo al seguace di chiudere Gli occhi, finirà in fretta.",
+         "mutations":[
+            {
+               "filter":"marinette",
+               "mutate":"approval",
+               "level":1,
+               "additive":true
+            }
+         ],
+         "requirements":{
+            "marinette":1,
+            "follower":1
+         },
+         "effects":{
+            "follower":-1
+         },
+         "craftable":false
+      }
+   ]
+}

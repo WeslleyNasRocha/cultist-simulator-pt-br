@@ -1,0 +1,459 @@
+{
+   "elements":[
+      {
+         "id":"dropzone",
+         "label":"DropZone",
+         "description":"",
+         "aspects":{},
+         "noartneeded":true
+      },
+      {
+         "id":"tooledgeb",
+         "label":"Proiettili Meteorici",
+         "description":"Proiettili di ferro-taenite vengono occasionalmente estratti dagli scheletri di bestie inusuali, in tutta Europa, il Medio Oriente e l’India. Qualcuno è stato a caccia di mostri.",
+         "aspects":{
+            "edge":4,
+            "auctionable":3,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"tooledged",
+         "label":"Lama di Biedde",
+         "description":"Un taglio di questa lama non cesserà di sanguinare finché la ferita non verrà curata. Una testimonianza afferma che Biedde era collezionista di coltelli, bandito e chirurgo nella Tolosa del diciottesimo secolo. Un’altra afferma che Biedde sia solamente la bastardizzazione della parola Araba per 'zanzara'.",
+         "aspects":{
+            "edge":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"tooledgef",
+         "label":"Argento Furioso",
+         "description":"Quando il Leonfabbro si è rivoltato contro il Colonnello ha distrutto la sua spada nel suo pugno. Anche il più piccolo frammento di quell’arma freme ancora di rabbia.",
+         "aspects":{
+            "edge":12,
+            "auctionable":6,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolforgeb",
+         "label":"Amuleto Cinabro",
+         "description":"Il colore del calore è lo Scarlatto. Il mercurio contiene una chiave per la dissoluzione ultima.",
+         "aspects":{
+            "forge":4,
+            "auctionable":3,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolforged",
+         "label":"Martello Imperativo",
+         "description":"Un piccolo osso dell’orecchio, annerito dall'intenso calore. Applicato correttamente può rompere la pietra.",
+         "aspects":{
+            "forge":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolforgef",
+         "label":"Scintilla di Carcassa",
+         "description":"Un residuo di una maggiore radiosità, brilla dolcemente mentre decade. Forse, un granello del Sole diviso.",
+         "aspects":{
+            "forge":12,
+            "auctionable":6,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolgrailmoth",
+         "label":"Amuleto Sussurrante",
+         "description":"Sa che cosa desidero; o immagino lo sappia.",
+         "aspects":{
+            "grail":2,
+            "moth":2,
+            "auctionable":2,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolgrailb",
+         "label":"Guanti Macchiati",
+         "description":"Che usi hanno conosciuto? Che lezioni potrebbero impartire alle mie mani?",
+         "aspects":{
+            "grail":4,
+            "auctionable":3,
+            "tool":1
+         },
+         "comments":"Not unique; we can get an extra one from the Dancer legacy."
+      },
+      {
+         "id":"toolgraild",
+         "label":"Polo Consacrato",
+         "description":"L’anello-corona di una madre selvaggia, macchiato con l’essenza, intrecciato con brandelli di capelli e benedetto con frammenti di pelle.",
+         "aspects":{
+            "grail":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolgrailf",
+         "label":"Calice Mormorante",
+         "description":"Non siamo certi di cosa facciamo nelle notti in cui beviamo dal calice. Ma, possiamo essere rassicurati, è ciò che è sempre successo, e se non lo ricorderemo, lo faranno i nostri figli nei loro sogni più rossi.",
+         "aspects":{
+            "grail":12,
+            "auctionable":6,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolheartb",
+         "label":"Idolo Marruvino",
+         "description":"I Marruvi creavano piccoli idoli di legno per placare le temute streghe gemelle del loro lago. Il lago è praticamente asciutto oramai, ma gli idoli e le streghe gemelle rimangono, sebbene siano sotto l’ombra dell’aspetto del Cuore.",
+         "aspects":{
+            "heart":4,
+            "auctionable":3,
+            "tool":1
+         },
+         "comments":"Not unique; we can get an extra one from the Dancer legacy."
+      },
+      {
+         "id":"toolheartd",
+         "label":"Timpano Irrequieto",
+         "description":"Nel boschetto nel quale scorticarono il tuono, questi scuotevano i loro strumenti per risvegliare la frenesia. Il potere è ancora avvinghiato, come un profumo.",
+         "aspects":{
+            "heart":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolheartf",
+         "label":"Bodhrán in Pelle di Re",
+         "description":"Nelle foreste profonde, il monarca offrì l’ultima cosa che aveva da dare, e così lo strumento fu creato per mantenere la sua terra al salvo per sempre. Pertanto, ovviamente, un impero lo rubò, come è consuetudine degli imperi.",
+         "aspects":{
+            "heart":12,
+            "auctionable":6,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolknockb",
+         "label":"Icona di Sant'Agnese",
+         "description":"Sant'Agnese di Boemia era rinomata per la pia dedizione alla mortificazione della carne. Quest'icona traduce l'orribile visione.",
+         "aspects":{
+            "knock":4,
+            "auctionable":3,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolknockd",
+         "label":"Architrave Consacrata",
+         "description":"Questo è il teschio di una porta attraverso la quale è passato il potere.",
+         "aspects":{
+            "knock":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolknockf",
+         "label":"Frangiclava",
+         "description":"Vi sono chiavi che aprono le porte; poi ci sono chiavi che le distruggono.",
+         "aspects":{
+            "knock":12,
+            "auctionable":6,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toollanternb",
+         "label":"Pietra di Luna",
+         "description":"Mezzogiorno, si suol dire, non è più ciò che era; ma questa pietra lucidata mantiene ancora un barlume di luce solare.",
+         "aspects":{
+            "lantern":4,
+            "auctionable":3,
+            "tool":1
+         },
+         "xtriggers":{
+            "crackmirror":"toollanternbcracked"
+         },
+         "comments":"Not unique; we can get multiples if cracked ones are supplied."
+      },
+      {
+         "id":"toollanternd",
+         "label":"Specchio Selvaggio",
+         "description":"Una molteplicità di viste! Uno sconcerto di visioni! Ammirami, e rallegrati nella dissoluzione dei tuoi sensi!",
+         "aspects":{
+            "lantern":8,
+            "auctionable":5,
+            "tool":1,
+            "mirror":1
+         },
+         "xtriggers":{
+            "crackmirror":"toollanterndcracked"
+         },
+         "comments":"Not unique; we can get multiples if cracked ones are supplied."
+      },
+      {
+         "id":"toollanternf",
+         "label":"Vetro dell’Osservatore",
+         "description":"Questo è uno specchio nel quale uno non guarda due volte.",
+         "aspects":{
+            "lantern":12,
+            "auctionable":6,
+            "tool":1,
+            "mirror":1
+         },
+         "xtriggers":{
+            "crackmirror":"toollanternfcracked"
+         },
+         "comments":"Not unique; we can get multiples if cracked ones are supplied.",
+      },
+      {
+         "id":"toolmothb",
+         "label":"Bambola Alata",
+         "description":"In un attico, sopra una casa scheletrica, c’era una finestra. Sotto alla finestra c’era una scatola. Nella scatola c’era una benda. Nella benda c’era un grumo di capelli coagulati. Nei capelli c’era una bambola ferita, perché la finestra non era mai stata aperta.",
+         "aspects":{
+            "moth":4,
+            "auctionable":3,
+            "tool":1
+         }
+      },
+      {
+         "id":"toolmothd",
+         "label":"Maschera Pezzata",
+         "description":"Nella foresta, dove la luna non arriva, i rami degli alberi erano tessuti tra loro come bende o amanti. La luna poteva trasformarsi in una formica, in un uccello o in sua sorella, ma la foresta non si piegava alle sue penetrazioni, tantomeno le importava delle sue carezze. Un giorno arrivammo con la nostra forbice e tagliammo i rami, finché la luna e il sangue macchiarono le foglie marcescenti sul pavimento della foresta.",
+         "aspects":{
+            "moth":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolmothf",
+         "label":"Forbici Alakapurine",
+         "description":"Nel Nord v’è una ricca città nella quale dimora un protettore del mondo. Un giorno divenne silente. Queste forbici furono usate per prendere da lui prima i capelli, poi le dita, infine quanto rimaneva.",
+         "aspects":{
+            "moth":12,
+            "auctionable":6,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolsecrethistoriesb",
+         "label":"Curiosità Paradossale",
+         "description":"Talvolta, è difficile essere sicuri se una freccia uccise l’Imperatrice Erodiate, o l’Imperatrice Eudokia. Talvolta, è possibile che un orologio in bronzo sia stato rubato nell'assedio di Vienna, sebbene fosse al sicuro nelle casseforti di Roma.",
+         "aspects":{
+            "secrethistories":4,
+            "auctionable":3,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolsecrethistoriesd",
+         "label":"Atlante dei Sogni",
+         "description":"La forma del mondo cambia in ogni passato, ma la forma del Mansus su riflette in tutti i passati. Non si può mappare il Mansus, ma si può provare a mappare i suoi riflessi.",
+         "aspects":{
+            "secrethistories":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolwinterb",
+         "label":"Flauto d’Osso",
+         "description":"Il suo suono cesserà.",
+         "aspects":{
+            "winter":4,
+            "auctionable":3,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolwinterd",
+         "label":"Manette Elagabaline",
+         "description":"La sua stretta non cede.",
+         "aspects":{
+            "winter":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toolwinterf",
+         "label":"Campana della Divisione",
+         "description":"Prima la sua voce, poi niente.",
+         "aspects":{
+            "winter":12,
+            "auctionable":6,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"toollanternbcracked",
+         "label":"Pietra di Luna Rotta",
+         "description":"si suol dire, non è più ciò che era; ma questa pietra conserva ancora un vago bagliore. È stata rotta. Un seguace della Forgia potrebbe ripararlo, con le giuste risorse - o potrei usare il potere che vi è rimasto.",
+         "aspects":{
+            "lantern":1,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"toollanterndcracked",
+         "label":"Specchio Selvaggio Rotto",
+         "description":"Una crepa profonda corre lungo lo scintillante metallo. Un seguace della Forgia potrebbe ripararlo, con le giuste risorse - o potrei usare il potere che vi è rimasto.",
+         "aspects":{
+            "lantern":2,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"toollanternfcracked",
+         "label":"Vetro dell’Osservatore Rotto",
+         "description":"Un seguace della Forgia potrebbe ripararlo, ma il costo sarebbe alto - o potrei usare il potere che vi è rimasto.",
+         "aspects":{
+            "lantern":3,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"paintingmasteredge",
+         "label":"'Colonello e Leonfabbro'",
+         "description":"Combattono così dalla battaglia di Isso.",
+         "aspects":{
+            "edge":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"paintingmasterforge",
+         "label":"'La Forgia dei Giorni'",
+         "description":"Se la Forgia potesse pentirsi, si pentirebbe dell’Intercalare, ma in tutte le sue altre opere conosce la gioia.",
+         "aspects":{
+            "forge":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"paintingmastergrail",
+         "label":"'Il Graal Rosso'",
+         "description":"Non ha diviso il Sole, ma qui possiamo immaginare come deve averlo desiderato.",
+         "aspects":{
+            "grail":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"paintingmasterheart",
+         "label":"'La Sorella-e-Strega'",
+         "description":"È stata una coppia di uccellini funebri, ma qui è come se volesse soffocare.",
+         "aspects":{
+            "heart":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"paintingmasterknock",
+         "label":"'La Madre delle Formiche'",
+         "description":"Perfino nei giorni di Elam, aveva cominciato ad apparire così.",
+         "aspects":{
+            "knock":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"paintingmasterlantern",
+         "label":"'La Porta nell’Occhio'",
+         "description":"Egli viene dalla Gloria. Non possiamo aiutare ma guardare.",
+         "aspects":{
+            "lantern":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"paintingmastermoth",
+         "label":"'La Falena'",
+         "description":"Nella foresta del primo continente, i nostri antenati si sono maledetti da soli con i loro stessi primi dei.",
+         "aspects":{
+            "moth":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"paintingmastersecrethistories",
+         "label":"'Teresa e Christopher'",
+         "description":"L’Amore, come il Mansus, sfida i confini.",
+         "aspects":{
+            "secrethistories":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"paintingmasterwinter",
+         "label":"'Il Lupo-Diviso'",
+         "description":"CAPUT GERAT LUPINUM. Il Sole fu diviso, e questa è la sua ferita.",
+         "aspects":{
+            "winter":8,
+            "auctionable":5,
+            "tool":1
+         },
+         "unique":true
+      },
+      {
+         "id":"canvas.pale",
+         "label":"Una Pallida Tela",
+         "description":"Devo stare molto attento. Le memorie che voglio convogliare potrebbero prendere il volo dalla tela se le dipingo troppo vividamente. Troverò queste memorie nella carne dei morti... e forse, se dovrò, anche nella mia stessa morente carne.",
+         "aspects":{}
+      },
+      {
+         "id":"painting.palest",
+         "label":"Il Più Pallido dei Dipinti",
+         "description":"'Sei furono persi, trenta rimangono.' La tela non è bianca. Osserva attentamente, e vi vedrai accennate le forme delle Ore perse da tempo, svegliando il sentiero tortuoso verso la porta per il Nulla. Guarda troppo da vicino, e ti perderai nei pianti.",
+         "aspects":{
+            "ascension.remembrance.offering":1
+         }
+      }
+   ]
+}

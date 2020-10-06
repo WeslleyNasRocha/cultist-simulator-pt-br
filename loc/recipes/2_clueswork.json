@@ -1,0 +1,1288 @@
+{
+   "recipes":[
+      {
+         "id":"work.apostleforge.majorvictory.hint5",
+         "actionId":"work",
+         "label":"Gli Ultimi Pezzi del Grande Lavoro?",
+         "startdescription":"Abbiamo il Nucleo, il suo combustibile, il Compasso, la Chiave, i Misteri dell'Apertura. Ora abbiamo solo bisogno della stagione nella quale l'incandescenza della Forgia è più furiosa.",
+         "requirements":{
+            "apostleforge.pillar2":1,
+            "apostleforge.pillar3":1,
+            "apostleforge.pillar4":1,
+            "apostleforge.pillar5":1,
+            "fragmentknockg":1
+         },
+         "effects":{},
+         "warmup":60,
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"work.apostleforge.majorvictory.hint4",
+         "actionId":"work",
+         "label":"Gli Ultimi Pezzi del Grande Lavoro?",
+         "startdescription":"Abbiamo il Nucleo, il suo combustibile, il Compasso e la Chiave. Ma non bastano. Dobbiamo preparare la via al nostro Forgiatore con i Misteri dell'Apertura. ",
+         "requirements":{
+            "apostleforge.pillar2":1,
+            "apostleforge.pillar3":1,
+            "apostleforge.pillar4":1,
+            "apostleforge.pillar5":1
+         },
+         "effects":{},
+         "warmup":60,
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"work.apostleforge.majorvictory.hint3",
+         "actionId":"work",
+         "label":"Gli Ultimi Pezzi del Grande Lavoro?",
+         "startdescription":"Abbiamo il Nucleo, il suo combustibile e il Compasso. Abbiamo ancora bisogno della Chiave Mordente.",
+         "requirements":{
+            "apostleforge.pillar2":1,
+            "apostleforge.pillar3":1,
+            "apostleforge.pillar4":1
+         },
+         "effects":{},
+         "warmup":60,
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"work.apostleforge.majorvictory.hint2",
+         "actionId":"work",
+         "label":"Gli Ultimi Pezzi del Grande Lavoro?",
+         "startdescription":"Abbiamo il Nucleo e il suo combustibile. Abbiamo bisogno del nostro cieco Compasso, per trovare la falla nel mondo.",
+         "requirements":{
+            "apostleforge.pillar2":1,
+            "apostleforge.pillar3":1
+         },
+         "effects":{},
+         "warmup":60,
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"work.apostleforge.majorvictory.hint1",
+         "actionId":"work",
+         "label":"Gli Ultimi Pezzi del Grande Lavoro?",
+         "startdescription":"Abbiamo il Nucleo: dobbiamo trovare l'oro blu per nutrirlo.",
+         "requirements":{
+            "apostleforge.pillar2":1
+         },
+         "effects":{},
+         "warmup":60,
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"work.apostlelantern.majorvictory.hint5",
+         "actionId":"work",
+         "label":"Il Cancello Si Apre Verso L'Esterno?",
+         "startdescription":"Abbiamo bisogno della cooperazione dei nostri nobili ospiti.",
+         "requirements":{
+            "apostlelantern.pillar3":1,
+            "apostlelantern.pillar4":1,
+            "ingredientlanternf":1,
+            "fragmentmothe":1,
+            "toollanternf":1,
+            "kleidouchos":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"work.apostlelantern.majorvictory.hint4",
+         "actionId":"work",
+         "label":"Il Cancello Si Apre Verso L'Esterno?",
+         "startdescription":"La Porta non si aprirà Verso L'Esterno senza la sua Chiave ungulata.",
+         "requirements":{
+            "apostlelantern.pillar3":1,
+            "apostlelantern.pillar4":1,
+            "ingredientlanternf":1,
+            "fragmentmothe":1,
+            "toollanternf":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"work.apostlelantern.majorvictory.hint3",
+         "actionId":"work",
+         "label":"Il Cancello Si Apre Verso L'Esterno?",
+         "startdescription":"Abbiamo bisogno di un Vetro dell’Osservatore affinché il nostro Illuminato possa attuare la massima illuminazione.",
+         "requirements":{
+            "apostlelantern.pillar3":1,
+            "apostlelantern.pillar4":1,
+            "ingredientlanternf":1,
+            "fragmentmothe":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"work.apostlelantern.majorvictory.hint2",
+         "actionId":"work",
+         "label":"Il Cancello Si Apre Verso L'Esterno?",
+         "startdescription":"Il Millepiedi conosce sempre la via. Abbiamo bisogno dei suoi segreti.",
+         "requirements":{
+            "apostlelantern.pillar3":1,
+            "apostlelantern.pillar4":1,
+            "ingredientlanternf":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"work.apostlelantern.majorvictory.hint1",
+         "actionId":"work",
+         "label":"Il Cancello Si Apre Verso L'Esterno?",
+         "startdescription":"L'Occhio dell'Osservatore è stato aperto, non nella solita maniera, ma con un coltello. Abbiamo bisogno di ciò che ha sanguinato.",
+         "requirements":{
+            "apostlelantern.pillar3":1,
+            "apostlelantern.pillar4":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"work.apostlelantern.majorvictory.hint0",
+         "actionId":"work",
+         "label":"Il Cancello Si Apre Verso L'Esterno?",
+         "startdescription":"Certo, la Porta potrebbe aprirsi senza Testimoni, ma senza Testimoni da illuminare, come potremmo attuare l'emanazione dell'Osservatore? L'Osservatore non è compassionevole.",
+         "requirements":{
+            "apostlelantern.pillar3":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"work.apostlegrail.majorvictory.hint5",
+         "actionId":"work",
+         "label":"Gli Ultimi Elementi della Vitulazione??",
+         "startdescription":"Le nostre spezie particolari devono essere preparate in modo particolare. Tutto il resto è pronto.",
+         "requirements":{
+            "fragmentheartg":1,
+            "influencegrailg":1,
+            "apostlegrail.pillar2":1,
+            "apostlegrail.pillar3":1,
+            "apostlegrail.pillar4":1,
+            "toolgrailf":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"work.apostlegrail.majorvictory.hint4",
+         "actionId":"work",
+         "label":"Gli Ultimi Elementi della Vitulazione?",
+         "startdescription":"Senza i Misteri Incessanti la Vitulazione non raggiugnerà l'intensità di cui abbiamo bisogno.",
+         "requirements":{
+            "influencegrailg":1,
+            "apostlegrail.pillar2":1,
+            "apostlegrail.pillar3":1,
+            "apostlegrail.pillar4":1,
+            "toolgrailf":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"work.apostlegrail.majorvictory.hint3",
+         "actionId":"work",
+         "label":"Gli Ultimi Elementi della Vitulazione?",
+         "startdescription":"Abbiamo bisogno dell'influenza del Graal più potente che riusciamo a raccogliere.",
+         "requirements":{
+            "apostlegrail.pillar2":1,
+            "apostlegrail.pillar3":1,
+            "apostlegrail.pillar4":1,
+            "toolgrailf":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"work.apostlegrail.majorvictory.hint2",
+         "actionId":"work",
+         "label":"Gli Ultimi Elementi della Vitulazione?",
+         "startdescription":"Nessuna Vitulazione sarebbe una Vitulazione senza il Calice Mormorante.",
+         "requirements":{
+            "apostlegrail.pillar2":1,
+            "apostlegrail.pillar3":1,
+            "apostlegrail.pillar4":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"work.apostlegrail.majorvictory.hint1",
+         "actionId":"work",
+         "label":"Gli Ultimi Elementi della Vitulazione?",
+         "startdescription":"Non possiamo cominciare la Vitulazione senza un numero sufficiente di ospiti. La nostra Delizia non può rimanere affamata.",
+         "requirements":{
+            "apostlegrail.pillar2":1,
+            "apostlegrail.pillar3":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"work.apostlegrail.majorvictory.hint0",
+         "actionId":"work",
+         "label":"Gli Ultimi Elementi della Vitulazione?",
+         "startdescription":"Non possiamo cominciare la Vitulazione senza i corretti aromi, per me stesso e per gli altri della Schiera.",
+         "requirements":{
+            "apostlegrail.pillar2":1
+         },
+         "hintonly":true
+      },
+      {
+         "id":"workbenefactorhint",
+         "label":"Spettacoli Privati?",
+         "actionId":"work",
+         "requirements":{
+            "benefactor":1
+         },
+         "startdescription":"Per soddisfare il mio benefattore dovrò mostrargli le mie abilità e assicurarmi di presentarmi al meglio. Questo ha sempre un costo.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"workfundshint",
+         "label":"Soldi",
+         "actionId":"work",
+         "requirements":{
+            "funds":1
+         },
+         "startdescription":"Non succede niente; ma forse potrei eventualmente trovare un'altra maniera per investire i miei fondi in futuro. Se avrò un futuro.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"skillhealthhintwork",
+         "label":"Salute",
+         "actionId":"work",
+         "requirements":{
+            "healthskill":1,
+            "job":-1
+         },
+         "startdescription":"Sono diventato più forte, ma devo ancora dedicare la mia Salute al lavoro.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"vitalityhintwork",
+         "label":"Vitalità",
+         "actionId":"work",
+         "requirements":{
+            "vitality":1
+         },
+         "startdescription":"Non è una questione di lavoro; ma potrei Studiarla per incrementare la mia Salute.",
+         "craftable":false,
+         "hintonly":true,
+         "comments":"Not currently possible with restrictions on work primary slot"
+      },
+      {
+         "id":"eruditionhintwork",
+         "label":"Erudizione",
+         "actionId":"work",
+         "requirements":{
+            "erudition":1
+         },
+         "startdescription":"Non è una questione di lavoro; ma potrei Studiarla per incrementare la mia Ragione.",
+         "craftable":false,
+         "hintonly":true,
+         "comments":"Not currently possible with restrictions on work primary slot"
+      },
+      {
+         "id":"glimmeringhintwork",
+         "label":"Barlume",
+         "actionId":"work",
+         "requirements":{
+            "glimmering":1
+         },
+         "startdescription":"Non è una questione di lavoro; ma potrei Studiarlo per incrementare la mia Passione.",
+         "craftable":false,
+         "hintonly":true,
+         "comments":"Not currently possible with restrictions on work primary slot"
+      },
+      {
+         "id":"contentmenthintwork",
+         "label":"Soddisfazione",
+         "actionId":"work",
+         "requirements":{
+            "contentment":1
+         },
+         "startdescription":"Non si guadagna da vivere dall'essere felici. Ma la felicità può essere qualcosa alla quale aggrapparsi, quando la notte ti si chiude intorno.",
+         "craftable":false,
+         "hintonly":true,
+         "comments":"Not currently possible with restrictions on work primary slot"
+      },
+      {
+         "id":"commissionhint_wronglore",
+         "label":"Adempiere ad una Commissione",
+         "actionId":"work",
+         "requirements":{
+            "commission":1,
+            "lore":1
+         },
+         "startdescription":"Avrò bisogno della Tradizione corretta e dovrò dedicare tutte le mie capacità a questo lavoro. [La descrizione della Commissione ti ricorderà di quale Tradizione hai bisogno.]",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"commissionhint",
+         "label":"Adempiere ad una Commissione?",
+         "actionId":"work",
+         "requirements":{
+            "commission":1
+         },
+         "startdescription":"Se usassi Lavorare con il giusto frammento di Tradizione, potrei creare un manoscritto ed adempiere alla Commissione. Dovrò parlarne al mio Mecenate, quando avrò finito.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"minorforgevictory_hint_sixth",
+         "label":"Il Settimo Marchio?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "powermarks":6
+         },
+         "effects":{},
+         "startdescription":"Il Settimo Marchio è la Conflagrazione del Cuore. Sono vicino: vicino come la fiamma alla sua candela. Avrò bisogno di tutto il potere possibile della Forgia, almeno al trentaseiesimo grado di intensità.",
+         "hintonly":true
+      },
+      {
+         "id":"minorforgevictory_hint",
+         "label":"Il Settimo Marchio?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "powermarks":1
+         },
+         "effects":{},
+         "startdescription":"Il Settimo Marchio è la Conflagrazione del Cuore. Avrò prima bisogno di ottenere il Sesto Marchio.",
+         "hintonly":true
+      },
+      {
+         "id":"minorgrailvictory_hint_sixth_with_romantic",
+         "label":"Una via più veloce per il Settimo Marchio?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "sensationmarks":6,
+            "romanticinterest":1
+         },
+         "effects":{},
+         "startdescription":"Il Settimo Marchio è il Banchetto della Vera Nascita. Sono vicino: vicino come il sangue al cuore. Avrò bisogno di più... ma il Graal un tempo sacrificò ciò che amava, e questi sacrifici sono a lei preziosi. Se ho intenzione di sacrificare l'amante, avrò bisogno del suo potere, almeno al ventisettesimo grado di intensità.",
+         "hintonly":true
+      },
+      {
+         "id":"minorgrailvictory_hint_sixth",
+         "label":"Il Settimo Marchio?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "sensationmarks":6
+         },
+         "effects":{},
+         "startdescription":"Il Settimo Marchio è il Banchetto della Vera Nascita. Sono vicino: vicino come il sangue al cuore. Avrò bisogno di tutto il potere del Graal possibile, almeno al trentaseiesimo grado di intensità.",
+         "hintonly":true
+      },
+      {
+         "id":"minorgrailvictory_hint",
+         "label":"Il Settimo Marchio?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "sensationmarks":1
+         },
+         "effects":{},
+         "startdescription":"Il Settimo Marchio è il Banchetto della Vera Nascita. Avrò prima bisogno di ottenere il Sesto Marchio.",
+         "hintonly":true
+      },
+      {
+         "id":"minorlanternvictory_hint_sixth",
+         "label":"Il Settimo Marchio?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "enlightenmentmarks":6
+         },
+         "effects":{},
+         "startdescription":"Il Settimo Marchio è l'Incursus. Sono vicino: vicino come la luce al bordo dell'ombra. Avrò bisogno di tutto il potere possibile della Lanterna, almeno al trentaseiesimo grado di intensità.",
+         "hintonly":true
+      },
+      {
+         "id":"minorlanternvictory_hint",
+         "label":"Il Settimo Marchio?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "enlightenmentmarks":1
+         },
+         "effects":{},
+         "startdescription":"Il Settimo Marchio è l'Incursus. Avrò prima bisogno di ottenere il Sesto Marchio.",
+         "hintonly":true
+      },
+      {
+         "id":"hint_summon_spirit_forgee_edge",
+         "label":"Invocare una potente creatura della Forgia dei Giorni?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "forge":1,
+            "lantern":1,
+            "desire":-1
+         },
+         "extantreqs":{
+            "spirit_forgee_edge":-1,
+            "spirit_forgee_edge.defunct":-1,
+            "spirit_forgee_edge.consumed":-1
+         },
+         "startdescription":"Ho trovato una buona congiunzione di aspetti, ma ho bisogno di più potere. Per evocare un essere di fuoco e Gloria avrò bisogno di un grande potere della Forgia, un potere significativo del Colpo e un po' di Lanterna.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_forgee_edge_exists",
+         "label":"Re Crogiolo, di nuovo?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "forge":1,
+            "lantern":1,
+            "desire":-1
+         },
+         "extantreqs":{
+            "spirit_forgee_edge":1
+         },
+         "startdescription":"Sto prendendo in considerazione di evocare Re Crogliolo? È già in questo mondo.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_forgee_edge_dayd",
+         "label":"Re Crogiolo, di già?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "forge":1,
+            "lantern":1,
+            "desire":-1
+         },
+         "extantreqs":{
+            "spirit_forgee_edge.defunct":1
+         },
+         "startdescription":"Sto prendendo in considerazione di evocare Re Crogliolo? Sta ancora alimentando le sue fiamme nel Mansus.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_forgee_edge_nom",
+         "label":"Re Crogiolo? Veramente?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "forge":1,
+            "lantern":1,
+            "desire":-1
+         },
+         "extantreqs":{
+            "spirit_forgee_edge.consumed":1
+         },
+         "startdescription":"Ho consumato i resti inceneriti di Re Crogiolo. Egli sarà adirato con me. Non è saggio evocare un Nome della Forgia adirato.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_graile_edge",
+         "label":"Invocare una potente creatura del Graal Rosso?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "grail":1,
+            "forge":1,
+            "desire":-1
+         },
+         "extantreqs":{
+            "spirit_graile_edge":-1,
+            "spirit_graile_edge.defunct":-1
+         },
+         "startdescription":"Ho trovato una buona congiunzione di aspetti, ma ho bisogno di più potere. Per evocare una creatura di sangue e cambiamento avrò bisogno di un grande potere del Graal, un potere significativo del Colpo ed un po' di Forgia.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_graile_edge_exists",
+         "label":"Ezeem, di nuovo?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "grail":1,
+            "forge":1,
+            "desire":-1
+         },
+         "extantreqs":{
+            "spirit_graile_edge":1
+         },
+         "startdescription":"Sto prendendo in considerazione di evocare Ezeem? È già in questo mondo.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_graile_edge_dayd",
+         "label":"Ezeem, di già?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "grail":1,
+            "forge":1,
+            "desire":-1
+         },
+         "extantreqs":{
+            "spirit_graile_edge.defunct":1
+         },
+         "startdescription":"Sto prendendo in considerazione di evocare Ezeem? È ancora imbronciato nel Mansus.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_lanterne_secret",
+         "label":"Invocare qualcosa di inusuale?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "lantern":1,
+            "secrethistories":1,
+            "desire":-1
+         },
+         "extantreqs":{
+            "spirit_lanterne_secret":-1,
+            "spirit_lanterne_secret.defunct":-1
+         },
+         "startdescription":"Ho trovato una buona congiunzione di aspetti, ma ho bisogno di più potere. Con abbastanza Lanterna, un livello significativo di Colpo e uno stuzzicante assaggio di segreti, forse riuscirò ad evocare qualcosa d'interessante.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_lanterne_secret_exists",
+         "label":"La Baldomeriana, ancora?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "lantern":1,
+            "secrethistories":1,
+            "desire":-1
+         },
+         "extantreqs":{
+            "spirit_lanterne_secret":1
+         },
+         "startdescription":"Sto prendendo in considerazione di evocare la Baldomeriana? È già in questo mondo.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_lanterne_secret_dayd",
+         "label":"La Baldomeriana, di già?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "lantern":1,
+            "secrethistories":1,
+            "desire":-1
+         },
+         "extantreqs":{
+            "spirit_lanterne_secret.defunct":1
+         },
+         "startdescription":"Sto prendendo in considerazione di evocare la Baldomeriana? Si sta ancora riposando nel Mansus.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_forgec_winter",
+         "label":"Invocare una creatura della Forgia dei Giorni?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "forge":1,
+            "winter":1,
+            "desire":-1
+         },
+         "startdescription":"Ho trovato una buona congiunzione di aspetti, ma ho bisogno di più potere. Per evocare quest'entità fumosa e furba, avrò bisogno di un potere significativo della Forgia, insieme ad un po' d'Inverno e Colpo.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_grailc_moth",
+         "label":"Invocare una creatura del Graal Rosso?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "grail":1,
+            "moth":1,
+            "desire":-1
+         },
+         "startdescription":"Ho trovato una buona congiunzione di aspetti, ma ho bisogno di più potere. Per evocare quest'entità mostruosa, quando non affettuosa, avrò bisogno di un potere significativo del Graal ed un po' di Falena e Colpo.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_lanternc_edge",
+         "label":"Invocare qualcosa da dietro agli specchi?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "lantern":1,
+            "edge":1,
+            "desire":-1
+         },
+         "startdescription":"Ho trovato una buona congiunzione di aspetti, ma ho bisogno di più potere. Per evocare questa cosa subdola, fragile ed assassina, avrò bisogno di un potere significativo della Lanterna ed un po' di Colpo e Lama.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_heartc_edge",
+         "label":"Invocare una creatura del Pellefolgore?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "heart":1,
+            "edge":1,
+            "desire":-1
+         },
+         "startdescription":"Ho trovato una buona congiunzione di aspetti, ma ho bisogno di più potere. Per evocare questa entità allegra, incessante e spietata, avrò bisogno di un potere significativo del Cuore ed un po' di Colpo e Lama.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_winterd_edge",
+         "label":"Invocare una creatura del Sole-negli-Stracci?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "winter":1,
+            "edge":1,
+            "desire":-1
+         },
+         "startdescription":"Ho trovato una buona congiunzione di aspetti, ma ho bisogno di più potere. Per evocare questa cosa gelida e splendente avrò bisogno di un potere significativo dell'Inverno ed un po' di Colpo e Lama.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_winterb_heart",
+         "label":"Invocare uno dalla schiera dei Morti?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "winter":1,
+            "heart":1,
+            "desire":-1
+         },
+         "startdescription":"Ho trovato una buona congiunzione di aspetti, ma ho bisogno di più potere. Per evocare questa cosa miserabile e senza voce avrò bisogno dell'Inverno alla quarta intensità ed un po' di Colpo e Cuore.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_renew_spirit_wintera_edge",
+         "label":"Rinnovare un Risorto Frammentato con il potere del Cartografo delle Cicatrici?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "spirit_wintera_edge":1,
+            "desire":-1
+         },
+         "startdescription":"È più difficile rinnovare un Risorto Frammentato che evocarne uno. Ma con abbastanza Inverno ed abbastanza Lama potrei mantenere in movimento il Risorto. O potrei utilizzarlo per evocare uno spirito maggiore.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_renew_spirit_wintera_moth",
+         "label":"Rinnovare un Risorto Fiorito con il potere del Tasso-Accerchiato?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "spirit_wintera_moth":1,
+            "desire":-1
+         },
+         "startdescription":"Un Risorto Fiorito non rimane sotto controllo a lungo. Ma con abbastanza Inverno ed abbastanza Falena potrei mantenere il mio lavoro stabile ancora per un po'. Oppure potrei utilizzarlo per evocare uno spirito maggiore.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_wintera_edge",
+         "label":"Infondere un cadavere con il potere del Cartografo delle Cicatrici?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "winter":1,
+            "edge":1,
+            "desire":-1
+         },
+         "startdescription":"Ho trovato una buona congiunzione di aspetti, ma ho bisogno di più potere. Con un po' d'Inverno, un po' di Lama ed un Cadavere, potrei creare un servo crudele.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"hint_summon_spirit_wintera_moth",
+         "label":"Infondere un cadavere con il potere del Tasso-Accerchiato?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "winter":1,
+            "moth":1,
+            "desire":-1
+         },
+         "startdescription":"Con un po' d'Inverno, un po' di Falena ed un Cadavere, potrei creare un servo astuto.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"work.openscar.hint",
+         "actionId":"work",
+         "label":"Un'ascesa della Soglia?",
+         "startdescription":"Un'ascesa della Soglia richiede sette Ferite-Serratura e l'elemento del Colpo almeno alla ventiquattresima intensità.",
+         "requirements":{
+            "ritual":1,
+            "lockscar":1,
+            "knock":1
+         },
+         "effects":{},
+         "warmup":60,
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasknockedge",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "edge":1,
+            "forge":-1,
+            "heart":-1,
+            "grail":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":-1
+         },
+         "startdescription":"C'è qualche possibilità qui, se aggiungessi della Lanterna, o del Cuore, o dell'Inverno.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasknockforge",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "forge":1,
+            "edge":-1,
+            "heart":-1,
+            "grail":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":-1
+         },
+         "startdescription":"C'è qualche possibilità qui: se aggiungessi dell'Inverno, potrei contattare qualcosa di fumoso; se aggiungessi della Lanterna, potrei contattare un potere incandescente.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasknockgrail",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "grail":1,
+            "edge":-1,
+            "forge":-1,
+            "heart":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":-1
+         },
+         "startdescription":"C'è qualche possibilità qui: se aggiungessi della Falena, potrei contattare qualcosa senza forma; se aggiungessi della Forgia, potrei contattare un potere seduttivo e barbaro.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasknockheart",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "heart":1,
+            "edge":-1,
+            "forge":-1,
+            "grail":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":-1
+         },
+         "startdescription":"C'è qualche possibilità qui. Se aggiungessi della Lama, potrei contattare qualcosa di indomabile; se aggiungessi dell'Inverno, potrei invocare uno dei Morti.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasknocklantern",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "lantern":1,
+            "edge":-1,
+            "forge":-1,
+            "heart":-1,
+            "grail":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":-1
+         },
+         "startdescription":"C'è qualche possibilità qui. Se aggiungessi della Lama, potrei tirar fuori qualcosa da dietro lo specchio; se aggiungessi della Forgia, potrei contattare qualcosa di incandescente.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasknockmoth",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "moth":1,
+            "edge":-1,
+            "forge":-1,
+            "heart":-1,
+            "grail":-1,
+            "lantern":-1,
+            "secrethistories":-1,
+            "winter":-1
+         },
+         "startdescription":"C'è qualche possibilità qui. Se aggiungessi del Graal, potrei contattare qualcosa senza forma.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasknocksecrethistories",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "secrethistories":1,
+            "edge":-1,
+            "forge":-1,
+            "heart":-1,
+            "grail":-1,
+            "lantern":-1,
+            "moth":-1,
+            "winter":-1
+         },
+         "startdescription":"C'è qualche possibilità qui. Se aggiungessi abbastanza Lanterna, chissà cosa potrei attrarre...",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasknockwinter",
+         "label":"Inverno",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "winter":1,
+            "edge":-1,
+            "forge":-1,
+            "heart":-1,
+            "grail":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1
+         },
+         "startdescription":"C'è qualche possibilità qui, se aggiungessi della Lama, o del Cuore, o della Forgia.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "label":"Gloria della Ragione?",
+         "id":"arcane_lantern_edge_hint",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "lantern":1,
+            "edge":1
+         },
+         "actionId":"work",
+         "startdescription":"Con almeno la quinta intensità della Lanterna e un pizzico di Lama potrei usare la disciplina mistica chiamata Gloria della Ragione per trasformare la mia Passione in Ragione.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "label":"Vortice della Passione?",
+         "id":"arcane_moth_edge_hint",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "moth":1,
+            "edge":1
+         },
+         "actionId":"work",
+         "startdescription":"Con almeno la quinta intensità della Falena e un pizzico di Lama potrei usare la pratica estatica chiamata Vortice della Passione per trasformare la mia Passione in Ragione.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "label":"Riscatto della Forgia?",
+         "id":"arcane_forge_grail_hint",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "forge":1,
+            "grail":1
+         },
+         "startdescription":"Con almeno la quinta intensità della Forgia e un pizzico di Graal potrei usare la disciplina mistica chiamata Riscatto della Forgia per ricondurre la Decrepitezza alla Salute.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "label":"La Fine è Magnifica?",
+         "id":"arcane_winter_lantern_hint",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "winter":1,
+            "lantern":1
+         },
+         "startdescription":"Con almeno la quinta intensità dell'Inverno e un pizzico di Lanterna potrei supplicare l'Ora delle conclusioni, il Sole-negli-Stracci, per distruggere qualcuno... ma non qualcuno in particolare. Sarà lo stesso Sole-negli-Stracci a decidere.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasedge",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "edge":1,
+            "forge":-1,
+            "heart":-1,
+            "grail":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":-1
+         },
+         "startdescription":"La Lama è l'aspetto della battaglia e della lotta. Se aggiungessi il Colpo potrei essere in grado di evocare qualcosa; se aggiungessi la Lanterna o la Falena, potrei decretare una battaglia nella mia stessa anima.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasforge",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "forge":1,
+            "edge":-1,
+            "heart":-1,
+            "grail":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":-1
+         },
+         "startdescription":"La Forgia è l'aspetto che trasforma e distrugge. Se aggiungessi il Colpo potrei essere in grado di evocare qualcosa; o, nel caso avessi sviluppato la Decrepitezza, potrei aggiungere il Graal per tentare di rinnovare il corpo.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasgrail",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "grail":1,
+            "edge":-1,
+            "forge":-1,
+            "heart":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":-1
+         },
+         "startdescription":"Il Graal è l'aspetto dell'appetito, del sangue e della nascita. Se aggiungessi il Colpo potrei essere in grado di evocare qualcosa; o, nel caso avessi sviluppato la Decrepitezza, potrei aggiungere la Forgia per tentare di rinnovare il corpo.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasheart",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "heart":1,
+            "edge":-1,
+            "forge":-1,
+            "grail":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":-1
+         },
+         "startdescription":"Il Cuore è l'aspetto della preservazione, ma anche del movimento incessante. Se aggiungessi il Colpo potrei essere in grado di evocare qualcosa.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasknock",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "edge":-1,
+            "forge":-1,
+            "heart":-1,
+            "grail":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":1
+         },
+         "startdescription":"Un'evocazione comincia con il Colpo, ma di norma richiede anche altri due aspetti. Se non usassi il colpo potrei trovare altre azioni occulte, oltre all'evocazione.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasmicroknock",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":1,
+            "edge":-1,
+            "forge":-1,
+            "heart":-1,
+            "grail":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":1
+         },
+         "startdescription":"Un'evocazione comincia con il Colpo; ma, di solito, è necessario più Colpo.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthaslantern",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "lantern":1,
+            "edge":-1,
+            "forge":-1,
+            "heart":-1,
+            "grail":-1,
+            "moth":-1,
+            "secrethistories":-1,
+            "winter":-1,
+            "apostlelantern.pillar4":-1
+         },
+         "comments":"extremely specific and probably unnecessary exclusion with the pillar, but it caught one person once",
+         "startdescription":"La Lanterna è il principio dei luoghi segreti, talvolta chiamato la Casa del Sole, e della luce su di essa. Se aggiungessi il Colpo, potrei essere in grado di evocare qualcosa. Se aggiungessi la Lama potrei provare a conquistare la mia Passione con la Ragione. Se aggiungessi l'Inverno potrei tentare una folle, meravigliosa magia.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthasmoth",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "moth":1,
+            "edge":-1,
+            "forge":-1,
+            "heart":-1,
+            "grail":-1,
+            "lantern":-1,
+            "secrethistories":-1,
+            "winter":-1
+         },
+         "startdescription":"La Falena è il selvaggio e pericoloso aspetto del caos e della bramosia. Se aggiungessi il Colpo, potrei essere in grado di evocare qualcosa. Se aggiungessi la Lama potrei essere in grado di affogare la mia Ragione nella Passione.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthassecrethistories",
+         "label":"Invocare Qualcosa?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "secrethistories":1,
+            "edge":-1,
+            "forge":-1,
+            "heart":-1,
+            "grail":-1,
+            "lantern":-1,
+            "moth":-1,
+            "winter":-1
+         },
+         "startdescription":"Le Storie Segrete descrivono le complessità sconosciute del mondo e i suoi numerosi passati. Non sono, di norma, utilizzate direttamente nelle arti invisibili, ma se aggiungessi il Colpo chissà cosa potrebbe succedere...",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehinthaswinter",
+         "label":"Inverno",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "winter":1,
+            "edge":-1,
+            "forge":-1,
+            "heart":-1,
+            "grail":-1,
+            "lantern":-1,
+            "moth":-1,
+            "secrethistories":-1
+         },
+         "startdescription":"L'Inverno è l'aspetto del silenzio, delle conclusioni e di ciò che non è completamente morto. Se aggiungessi il Colpo potrei essere in grado di evocare qualcosa. Se aggiungessi la Lanterna potrei tentare una folle, meravigliosa magia.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ritehint",
+         "label":"Riti",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "lore":-1,
+            "ingredient":-1,
+            "influence":-1,
+            "follower":-1,
+            "tool":-1,
+            "desire":-1
+         },
+         "startdescription":"Ogni rito può essere utilizzato per molti scopi. Per iniziare un'evocazione devo cominciare chiamando il potere del Colpo, che aprirà la via.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ascensionpower_upgradetoobsession_hint",
+         "label":"Non Abbastanza, Non Ancora",
+         "actionId":"work",
+         "requirements":{
+            "ascensionpowerb":1,
+            "waystag_after":1,
+            "forge":1
+         },
+         "startdescription":"Non è ancora sufficiente. La Forgia dei Giorni non si presenterà finché non meriterò la sua attenzione. Ho bisogno del potere della Forgia almeno della sesta intensità.",
+         "description":".",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"ascensionsensation_upgradetoobsession_hint_m",
+         "label":"Non Abbastanza, Non Ancora",
+         "actionId":"work",
+         "requirements":{
+            "ascensionsensationbm":1,
+            "waystag_after":1,
+            "grail":1
+         },
+         "startdescription":"Non è ancora sufficiente. Il Graal Rosso non si presenterà finché non meriterò la sua attenzione. Ho bisogno del potere del Graal almeno della sesta intensità.",
+         "description":".",
+         "hintonly":true
+      },
+      {
+         "id":"ascensionsensation_upgradetoobsession_hint_f",
+         "label":"Non Abbastanza, Non Ancora",
+         "actionId":"work",
+         "requirements":{
+            "ascensionsensationbf":1,
+            "waystag_after":1,
+            "grail":1
+         },
+         "startdescription":"Non è ancora sufficiente. Il Graal Rosso non si presenterà finché non meriterò la sua attenzione. Ho bisogno del potere del Graal almeno della sesta intensità.",
+         "description":".",
+         "hintonly":true
+      },
+      {
+         "id":"ascensionenlightenment_upgradetoobsession_hint",
+         "label":"Non Abbastanza, Non Ancora",
+         "actionId":"work",
+         "requirements":{
+            "ascensionenlightenmentb":1,
+            "waystag_after":1,
+            "lantern":1
+         },
+         "startdescription":"Non è ancora sufficiente. L'Osservatore non si presenterà finché non meriterò la sua attenzione. Ho bisogno del potere della Lanterna almeno della sesta intensità.",
+         "description":".",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"work.temptation.remembrance.hint",
+         "actionId":"work",
+         "label":"Colori Perduti?",
+         "startdescription":"Bramo ciò che è perduto. La via per ottenerlo giace oltre un'altra fame. C'è un segreto che devo studiare.",
+         "requirements":{
+            "temptation.remembrance":1
+         },
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"detectivework_plotitem_burning_hint",
+         "actionId":"work",
+         "label":"Ripensamento?",
+         "startdescription":"Era la decisione giusta. Tuttavia... [Sei ancora in tempo per Studiarlo, prima che sparisca per sempre.]",
+         "requirements":{
+            "legacydetective_plotitem_burning":1
+         },
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"work.generaldesire.hint",
+         "actionId":"work",
+         "label":"Un Grande Lavoro?",
+         "startdescription":"L'adempimento finale di un Desiderio è spesso una conclusione. Sperare non è sufficiente. Resto in piedi o fallisco a seconda delle mie azioni. [I Desideri sono gli strumenti per vincere una partita. Il Desiderio per la Sensazione, il Potere o l'Illuminazione richiederanno un grande rituale. Ma ci sono altri Desideri, più rari, nelle espansioni.]",
+         "requirements":{
+            "desire":1
+         },
+         "hintonly":true,
+         "craftable":false
+      }
+   ]
+}

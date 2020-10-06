@@ -1,0 +1,1356 @@
+{
+   "recipes":[
+      {
+         "id":"work.priest.first",
+         "actionId":"work",
+         "label":"Condurre La Mia Prima Funzione",
+         "startdescription":"Ho scelto come testo Mattia 7,7 - 'Chiedete e vi sarà dato; soffrite ed otterrete; bussate e vi sarà aperto.' Il Libro delle Scritture è caduto aprendosi su questa pagina. Giuro che non l'avrei scelto altrimenti.",
+         "description":"Il sermone è venuto bene, sebbene gli echi di questo luogo siano seduttivi, e io sia stato attratto dall'improvvisazione. Non ricordo tutto ciò che ho detto, ma è stato accolto positivamente. Scedendo dal pulpito mi sono strappato la manica impigliandola in un chiodo, ed una donna in prima fila ha cominciato ad ansimare.",
+         "requirements":{
+            "priestjob":1,
+            "passion":1
+         },
+         "effects":{
+            "funds":1,
+            "reason":1
+         },
+         "warmup":10,
+         "craftable":true,
+         "maxexecutions":1,
+         "alt":[
+            {
+               "id":"dream.priest.open",
+               "additional":true
+            },
+            {
+               "id":"study.priest.open",
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"work.priest.second",
+         "actionId":"work",
+         "label":"Conduci una Funzione, e parla del Sogno del Chiavaiolo",
+         "startdescription":"Parlerò ancora di ciò che Mattia disse sulle porte, ma parlerò anche di Sant'Agnese e di ciò che viene la notte quando si forgia una chiave.",
+         "description":"Anche alcuni di loro hanno avuto il sogno. Lo vedo dai loro volti. È questa chiesa... le porte di questo luogo non sono solo quelle che vediamo. Anche le valvole del cuore sono una porta, quando i fianchi sono allineati correttamente. Questo non l'ho detto nel mio sermone, ma i loro cuori rispondono comunque a questa verità.",
+         "requirements":{
+            "priestjob":1,
+            "reason":1,
+            "fragmentknock":1
+         },
+         "effects":{
+            "fervour":1
+         },
+         "warmup":60,
+         "craftable":true,
+         "maxexecutions":1,
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "additional":true
+            },
+            {
+               "id":"explore.priest.open",
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"work.priest.third",
+         "actionId":"work",
+         "label":"Conduci una Funzione",
+         "startdescription":"La congregazione sussurra mentre attende, e gli echi sono come ali in un luogo alto, come rami d'albero nel vento. Il diacono e il sacrestano mi guardano mentre prendo il mio posto. C'è qualcosa nei loro occhi che non mi sarei mai aspettato. È... orgoglio?",
+         "description":"Il mio cuore è il crocevia del mio sangue. La mia lingua è una fiamma appuntita. Vedo forme nel vetro colorato che non sono sempre lì. Una giumenta grigia; un albero spezzato; un serpente gemellato. Appena ho finito l'intera congregazione si è alzata in piedi, battendoli e fischiando, e i loro occhi, le loro bocche, tutto era divenuto una porta. Il sacrestano prende la mia mano nella sua, ormai appassita, davanti a tutta la chiesa. Lacrime sgorgano dai suoi occhi. 'Abbiamo aspettato così a lungo', sussurra.",
+         "requirements":{
+            "priestjob":1,
+            "ability":1,
+            "lore":1,
+            "fervour":1
+         },
+         "effects":{
+            "funds":1,
+            "fervour":-1
+         },
+         "warmup":60,
+         "craftable":true,
+         "maxexecutions":1,
+         "alt":[
+            {
+               "id":"talk.priest.open",
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"dream.priest.open",
+         "actionId":"dream",
+         "label":"Il Sonno dei Giusti",
+         "startdescription":"Ho eseguito tutti i precetti che mi hanno insegnato. Ho messo da parte le storie che non avrei dovuto leggere. Non parlo più né del Nodo né del Sole Invitto. Il segretario del Vescovo è stato molto chiaro su questo punto. Tuttavia, nei miei sogni, Sant'Agnese viene ancora da me, di tanto in tanto, come questa notte.",
+         "description":"Sant'Agnese cammina nel fumo, schiacciando le viole sotto i suoi stretti piedi pallidi. Sant'Agnese porta delle chiavi, un coltello luminoso, una candela affilata e, nell'ultima delle sue mani sottili, la sua stessa testa martirizzata. Sant'Agnese alza il viso sopra la mia spalla per baciarmi la fronte, e io la apro per lei, come una porta. Quando mi sveglio, il cuore mi batte forte, la pelle mi pizzica, gli arti tremano: ho cominciato a perdere.",
+         "effects":{
+            "health":1
+         },
+         "warmup":60
+      },
+      {
+         "id":"study.priest.open",
+         "actionId":"study",
+         "label":"La Cerniera nelle Parole",
+         "startdescription":"Ho cominciato a spacchettare i miei libri...",
+         "description":"Ecco uno dei miei vecchi diari. Un pacchetto di carte scivola da dietro la copertina, e svolazza verso il pavimento. È qualcosa che avevo copiato e, a lungo, cercato di dimenticare.",
+         "effects":{
+            "fragmentknock":1
+         },
+         "warmup":10
+      },
+      {
+         "id":"explore.priest.open",
+         "actionId":"explore",
+         "label":"Vecchie Pietre",
+         "startdescription":"C'è una cattedrale in questa città che fu dedicata a San Pietro delle Chiavi, molto tempo fa. Bruciò nel Fuoco due secoli fa. Ho letto che era anche stata dedicata, in segreto, a Santa Scintilla: forse è questa la causa. Quando la ricostruirono il Re acconsentì, con riluttanza, che San Pietro non avesse più le chiavi. In seguito la chiesa fu dedicata a San Pietro...",
+         "description":"La chiesa ha un altro santo patrono ora. Forse un altro vescovo ha tentato di cancellare ciò che le pietre avevano visto. Ma le pietre ricordano. Eccone una segnata con il sole raggiato. Sotto all'incisione, un nodo. Nella finestra dietro all'altare, visibili solo all'alba, le sette chiavi a ventaglio, come un mazzo di fiori...",
+         "effects":{
+            "hq.church":1
+         },
+         "warmup":30
+      },
+      {
+         "id":"talk.priest.open",
+         "actionId":"talk",
+         "label":"Un Benvenuto",
+         "startdescription":"Il diacono e il sacrestano sono venuti a parlarmi di una questione privata. Hanno portato un ospite - qualcuno che non ho mai incontrato e che ora si china su un ginocchio per onorarmi. Tutti e tre ora mi fanno gli onori...",
+         "effects":{
+            "LEVER_LastCult":1,
+            "LEVER_LastFollower":1
+         },
+         "warmup":30,
+         "linked":[
+            {
+               "id":"talk.priest.open.followup"
+            }
+         ]
+      },
+      {
+         "id":"talk.priest.open.followup",
+         "actionId":"talk",
+         "label":"Riconsacrazione",
+         "startdescription":"Il sacrestano sta piangendo di nuovo. 'Ti attendevamo. #PREVIOUSCHARACTERNAME# ci ha insegnato @#cultedge_1|del Bordo Luminoso#cultforge_1|del potere nella fiamma che plasma#cultgrail_1|delle delizie segrete dell'appetito#cultheart_1|della danza che non si conclude#cultknock_1|della natura delle chiavi#cultlantern_1|della Gloria#cultmoth_1|della Foresta#cultsecrethistories_1|delle molte Storie#cultwinter_1|del Silenzio#|dei colori al di sotto della pelle del mondo@, e abbiamo utilizzato questi insegnamenti per preparare la Via. Tu sei la nostra Luce; tu sei la nostra Soglia. Noi abbiamo bisogno di te. Conducici.'",
+         "mutations":[
+            {
+               "filter":"society",
+               "mutate":"rededicable",
+               "level":1
+            }
+         ]
+      },
+      {
+         "id":"talk.rededicatecult",
+         "actionId":"talk",
+         "label":"Una Nuova Via",
+         "startdescription":"#PREVIOUSCHARACTERNAME# ha preparato il sentiero, ma io <i>sono</i> il sentiero. Potrei modificare le forme che sono state stabilite. [Una volta, e solo per una volta, puoi impostare un'altra Tradizione al centro del tuo Culto. Inizia il processo solo se hai pronta una Tradizione dell'aspetto prescelto.]",
+         "description":"Seguiremo il percorso impostato da #PREVIOUSCHARACTERNAME#... per ora.",
+         "requirements":{
+            "society":1,
+            "rededicable":1,
+            "mortal":-1,
+            "summoned":-1,
+            "influence":-1,
+            "ability":-1,
+            "tool":-1,
+            "ingredient":-1,
+            "lore":-1
+         },
+         "slots":[
+            {
+               "id":"principle",
+               "label":"Nuovo Principio di Fondazione",
+               "required":{
+                  "lore":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"talk.rededicatecult.edge",
+               "label":"Riconsacrare il Culto: Lama",
+               "startdescription":"Disegnerò una linea di intensa divisione tra il culto che era e il culto che sarà. Lo piegherò per fargli seguire il mio volere. [Potresti perseguire un'ascesa diversa dal Colpo. Non è necessario completare il processo.]",
+               "requirements":{
+                  "society":1,
+                  "lore":1,
+                  "edge":1
+               },
+               "effects":{
+                  "society":-1,
+                  "cultedge_1":1,
+                  "ascensionpowera":1
+               },
+               "mutations":[
+                  {
+                     "filter":"society",
+                     "mutate":"rededicable",
+                     "level":-1
+                  }
+               ]
+            },
+            {
+               "id":"talk.rededicatecult.forge",
+               "label":"Riconsacra il Culto: Forgia",
+               "startdescription":"Riforgerò il culto per servire i miei scopi. Ho un potere inaspettato nelle mie mani. [Potresti perseguire un'ascesa diversa dal Colpo. Non è necessario completare il processo.]",
+               "requirements":{
+                  "society":1,
+                  "lore":1,
+                  "forge":1
+               },
+               "effects":{
+                  "society":-1,
+                  "cultforge_1":1,
+                  "ascensionpowera":1
+               },
+               "mutations":[
+                  {
+                     "filter":"society",
+                     "mutate":"rededicable",
+                     "level":-1
+                  }
+               ]
+            },
+            {
+               "id":"talk.rededicatecult.grail",
+               "label":"Riconsacra il Culto: Graal",
+               "startdescription":"Aggiusterò il culto per servire i miei desideri. Potrei considerare la natura di questi desideri con più attenzione. [Potresti perseguire un'ascesa diversa dal Colpo. Non è necessario completare il processo.]",
+               "requirements":{
+                  "society":1,
+                  "lore":1,
+                  "grail":1
+               },
+               "effects":{
+                  "society":-1,
+                  "cultgrail_1":1,
+                  "ascensionsensationa":1
+               },
+               "mutations":[
+                  {
+                     "filter":"society",
+                     "mutate":"rededicable",
+                     "level":-1
+                  }
+               ]
+            },
+            {
+               "id":"talk.rededicatecult.heart",
+               "label":"Riconsacra il Culto: Cuore",
+               "startdescription":"Il vecchio culto cessa; il nuovo non cesserà mai. Sento i tamburi nel sangue, ora. [Potresti perseguire un'ascesa diversa dal Colpo. Non è necessario completare il processo.]",
+               "requirements":{
+                  "society":1,
+                  "lore":1,
+                  "heart":1
+               },
+               "effects":{
+                  "society":-1,
+                  "cultheart_1":1,
+                  "ascensionsensationa":1
+               },
+               "mutations":[
+                  {
+                     "filter":"society",
+                     "mutate":"rededicable",
+                     "level":-1
+                  }
+               ]
+            },
+            {
+               "id":"talk.rededicatecult.knock",
+               "label":"Riconsacra il Culto: Colpo",
+               "startdescription":"Ora il Sigillo è aperto, e dietro ad esso si trova il vero Culto. È Sant'Agnese che apre il Sigillo, ma chi aspetta dietro? [Potresti perseguire un'ascesa diversa dal Colpo. Non è necessario completare il processo.] ",
+               "requirements":{
+                  "society":1,
+                  "lore":1,
+                  "knock":1
+               },
+               "effects":{
+                  "society":-1,
+                  "cultknock_1":1,
+                  "ascensionenlightenmenta":1
+               },
+               "mutations":[
+                  {
+                     "filter":"society",
+                     "mutate":"rededicable",
+                     "level":-1
+                  }
+               ]
+            },
+            {
+               "id":"talk.rededicatecult.lantern",
+               "label":"Riconsacra il Culto: Lanterna",
+               "startdescription":"Rivelerò una nuova verità. Potrei esaminare meglio che cosa dovrebbe essere questa verità. [Potresti perseguire un'ascesa diversa dal Colpo. Non è necessario completare il processo.]",
+               "requirements":{
+                  "society":1,
+                  "lore":1,
+                  "lantern":1
+               },
+               "effects":{
+                  "society":-1,
+                  "cultlantern_1":1,
+                  "ascensionenlightenmenta":1
+               },
+               "mutations":[
+                  {
+                     "filter":"society",
+                     "mutate":"rededicable",
+                     "level":-1
+                  }
+               ]
+            },
+            {
+               "id":"talk.rededicatecult.moth",
+               "label":"Riconsacra il Culto: Falena",
+               "startdescription":"Cambieranno; o io li cambierò. Potrei cambiare ancora di più, se mi venisse il capriccio. [Potresti perseguire un'ascesa diversa dal Colpo. Non è necessario completare il processo.]",
+               "requirements":{
+                  "society":1,
+                  "lore":1,
+                  "moth":1
+               },
+               "effects":{
+                  "society":-1,
+                  "cultmoth_1":1,
+                  "ascensionsensationa":1
+               },
+               "mutations":[
+                  {
+                     "filter":"society",
+                     "mutate":"rededicable",
+                     "level":-1
+                  }
+               ]
+            },
+            {
+               "id":"talk.rededicatecult.secrethistories",
+               "label":"Riconsacra il Culto: Storie Segrete",
+               "startdescription":"In un'altra Storia, il nostro culto è rimasto immutato. Non qui. Qui, ho cambiato il nostro cammino... e potrei alterarlo ancora di più. [Potresti perseguire un'ascesa diversa dal Colpo. Non è necessario completare il processo.]",
+               "requirements":{
+                  "society":1,
+                  "lore":1,
+                  "secrethistories":1
+               },
+               "effects":{
+                  "society":-1,
+                  "cultsecrethistories_1":1,
+                  "ascensionenlightenmenta":1
+               },
+               "mutations":[
+                  {
+                     "filter":"society",
+                     "mutate":"rededicable",
+                     "level":-1
+                  }
+               ]
+            },
+            {
+               "id":"talk.rededicatecult.winter",
+               "label":"Riconsacra il Culto: Inverno",
+               "startdescription":"Stasera, le vecchie maniere finiscono. Ma per la prima volta tengo le redini del nostro destino. Se dovessi scegliere... potrei prendere un cammino diverso. [Potresti perseguire un'ascesa diversa dal Colpo. Non è necessario completare il processo.]",
+               "requirements":{
+                  "society":1,
+                  "lore":1,
+                  "winter":1
+               },
+               "effects":{
+                  "society":-1,
+                  "cultwinter_1":1,
+                  "ascensionenlightenmenta":1
+               },
+               "mutations":[
+                  {
+                     "filter":"society",
+                     "mutate":"rededicable",
+                     "level":-1
+                  }
+               ]
+            }
+         ],
+         "craftable":true,
+         "warmup":60
+      },
+      {
+         "id":"work.priest.passion.fervour.lore",
+         "actionId":"work",
+         "label":"Improvvisa su una dottrina segreta, davanti ad una congregazione fervente",
+         "startdescription":"La congregazione è già eccitata. Qualsiasi conoscenza segreta, quasi certamente, li spingerà al giubilo.",
+         "description":"Alla fine il loro fervore è esaurito. Cos'hanno fatto di questa notte? [Fervore e Tradizione insieme causeranno quasi sempre Giubilo, ma consumeranno il Fervore.]",
+         "requirements":{
+            "priestjob":1,
+            "passion":1,
+            "lore":1,
+            "fervour":1
+         },
+         "effects":{
+            "funds":1,
+            "fervour":-1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "chance":90,
+               "additional":true
+            }
+         ],
+         "warmup":50,
+         "craftable":true
+      },
+      {
+         "id":"work.priest.reason.fervour.lore",
+         "actionId":"work",
+         "label":"Prepara un sermone su una dottrina segreta, per darlo ad una congregazione fervente",
+         "startdescription":"La congregazione è già eccitata. Qualsiasi conoscenza segreta, quasi certamente, li spingerà al giubilo.",
+         "description":"Alla fine il loro fervore è esaurito. Cos'hanno fatto di questa notte? [Fervore e Tradizione insieme causeranno quasi sempre Giubilo, ma consumeranno il Fervore.]",
+         "requirements":{
+            "priestjob":1,
+            "reason":1,
+            "lore":1,
+            "fervour":1
+         },
+         "effects":{
+            "funds":1,
+            "fervour":-1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "chance":90,
+               "additional":true
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"work.priest.passion.fervour",
+         "actionId":"work",
+         "label":"Improvvisa un sermone, davanti ad una congregazione fervente",
+         "startdescription":"La congregazione è già eccitata. Qualsiasi conoscenza segreta, quasi certamente, li spingerà al giubilo.",
+         "description":"Alla fine il loro fervore è esaurito. Cos'hanno fatto di questa notte? [Il Fervore causerà spesso Giubilo, ma verrà consumato.]",
+         "requirements":{
+            "priestjob":1,
+            "passion":1,
+            "fervour":1
+         },
+         "effects":{
+            "funds":1,
+            "fervour":-1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "chance":70,
+               "additional":true
+            }
+         ],
+         "warmup":50,
+         "craftable":true
+      },
+      {
+         "id":"work.priest.reason.fervour",
+         "actionId":"work",
+         "label":"Prepara con cura un sermone per una congregazione fervente",
+         "startdescription":"La congregazione è già eccitata. Qualsiasi conoscenza segreta, quasi certamente, li spingerà al Giubilo.",
+         "description":"Alla fine il loro fervore è esaurito. Cos'hanno fatto di questa notte? [Il Fervore causerà spesso Giubilo, ma verrà consumato.]",
+         "requirements":{
+            "priestjob":1,
+            "reason":1,
+            "fervour":1
+         },
+         "effects":{
+            "funds":1,
+            "fervour":-1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "chance":70,
+               "additional":true
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"work.priest.passion.lore",
+         "actionId":"work",
+         "label":"Improvvisa un sermone su una dottrina segreta",
+         "startdescription":"Parlerò alle loro anime, e, se gli parlerò con convizione, le loro anime potrebbero rispondermi. [Utilizzare una dottrina appropriata con la predicazione Passionale ha più probabilità di creare Fervore. Improvvisare la predica è più veloce.]",
+         "requirements":{
+            "priestjob":1,
+            "passion":1,
+            "lore":1
+         },
+         "linked":[
+            {
+               "id":"preach.edge",
+               "challenges":{
+                  "edge":"base"
+               }
+            },
+            {
+               "id":"preach.forge",
+               "challenges":{
+                  "forge":"base"
+               }
+            },
+            {
+               "id":"preach.grail",
+               "challenges":{
+                  "grail":"base"
+               }
+            },
+            {
+               "id":"preach.heart",
+               "challenges":{
+                  "heart":"base"
+               }
+            },
+            {
+               "id":"preach.moth",
+               "challenges":{
+                  "moth":"base"
+               }
+            },
+            {
+               "id":"work.priest.nolorematch"
+            }
+         ],
+         "warmup":50,
+         "craftable":true
+      },
+      {
+         "id":"work.priest.reason.lore",
+         "actionId":"work",
+         "label":"Prepara un sermone su una dottrina segreta",
+         "startdescription":"Parlerò alle loro anime, e, se gli parlerò con precisione, le loro anime potrebbero rispondermi. [Utilizzare una dottrina appropriata con la predicazione Ragionata ha più probabilità di creare Fervore.]",
+         "requirements":{
+            "priestjob":1,
+            "reason":1,
+            "lore":1
+         },
+         "linked":[
+            {
+               "id":"preach.knock",
+               "challenges":{
+                  "knock":"base"
+               }
+            },
+            {
+               "id":"preach.secrethistories",
+               "challenges":{
+                  "secrethistories":"base"
+               }
+            },
+            {
+               "id":"preach.winter",
+               "challenges":{
+                  "winter":"base"
+               }
+            },
+            {
+               "id":"preach.lantern",
+               "challenges":{
+                  "lantern":"base"
+               }
+            },
+            {
+               "id":"work.priest.nolorematch"
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"work.priest.nolorematch",
+         "actionId":"work",
+         "label":"Una Cerimonia Sommessa",
+         "startdescription":"Questa notte, sentiranno le mie parole... ma non le ascolteranno. [Se usi Ragione con dottrine più Ragionate, o Passione con le tradizioni più Passionali, avrai più probabilità di creare Fervore. Più è potente la tradizione, maggiori sono le possibilità di Giubilo.]",
+         "effects":{
+            "funds":1
+         }
+      },
+      {
+         "id":"preach.edge",
+         "actionId":"work",
+         "label":"'Rispondi alla forza con la forza.'",
+         "startdescription":"'La luce che sovrasta il mondo non guarda con simpatia alla resa. Sforzati fino all'ultimo respiro. Come gli alti angeli della Casa del Sole lottano uno contro l'altro, così noi combatteremo, fino a quando, alla fine, saremo conquistati.' [Più è potente la tradizione, maggiori sono le possibilità di Giubilo.]",
+         "effects":{
+            "funds":1,
+            "fervour":1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "challenges":{
+                  "edge":"base"
+               },
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"preach.forge",
+         "actionId":"work",
+         "label":"'Il pensiero del legno era vano, poiché quando venne il fuoco si trasformò in cenere.'",
+         "startdescription":"'Tutti cambiamo. Talvolta diveniamo qualcosa che non vive - talvolta qualcosa che non è mai esistito - talvolta diveniamo qualcosa di glorioso. Talvolta siamo noi a cambiare noi stessi. Questo è il crocevia dove attende l'ombra del Sole.' [Più è potente la tradizione, maggiori sono le possibilità di Giubilo.]",
+         "effects":{
+            "funds":1,
+            "fervour":1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "challenges":{
+                  "forge":"base"
+               },
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"preach.grail",
+         "actionId":"work",
+         "label":"'Tu camminasti sulla via di nostra Madre; pertanto ti sarà posta la sua coppa nelle mani.'",
+         "startdescription":"'Le nostre anime abitano nella casa che è la nostra carne. I nostri sensi sono le finestre, e ogni senso ha i suoi appetiti. Lasciare gli appetiti insoddisfatti è come lasciare le finestre sporche. Chi sceglierebbe mai di vivere in una casa con le finestre sporche?' [Più è potente la tradizione, maggiori sono le possibilità di Giubilo.]",
+         "effects":{
+            "funds":1,
+            "fervour":1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "challenges": {
+                     "grail": "base"
+               },
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"preach.heart",
+         "actionId":"work",
+         "label":"'I cuori dei falsi gli saranno sottratti al loro cessare; ma i cuori dei fedeli non cesseranno mai.'",
+         "startdescription":"'Nella Casa del Sole, la danza degli angeli della Gloria non cessa. Coloro che furono gettati giù, onda, ferita o neve, sono lontani dalla Casa, e fino a quando saranno occupate le loro parti nella danza, potrebbero non tornare mai. Perciò, uniamo le mani e aggiungiamo alla danza i nostri piccoli passi.' [Più è potente la tradizione, maggiori sono le possibilità di Giubilo.]",
+         "effects":{
+            "funds":1,
+            "fervour":1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "challenges": {
+                     "heart": "base"
+               },
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"preach.knock",
+         "actionId":"work",
+         "label":"'Ecco, ciò che egli distrugge non può essere ricostruito: quando egli apre un uomo, questo non dovrà essere chiuso.'",
+         "startdescription":"'Hai aperto la porta di questo luogo, e io vi sono passato per poterti stare davanti ora, ma questa è la mia promessa: verrà il giorno in cui mi aprirò, e tu mi passerai attraverso per raggiungere un luogo più alto di questo.' [Più è potente la tradizione, maggiori sono le possibilità di Giubilo.]",
+         "effects":{
+            "funds":1,
+            "fervour":1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "challenges": {
+                     "knock": "base"
+               },
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"preach.lantern",
+         "actionId":"work",
+         "label":"'Misericordia e verità preservano il re: ma la luce custodisce solo la verità.'",
+         "startdescription":"'La Gloria richiede verità. Se saremo rivestiti di verità, essa non ci brucerà.' [Più è potente la tradizione, maggiori sono le possibilità di Giubilo.]",
+         "effects":{
+            "funds":1,
+            "fervour":1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "challenges": {
+                     "lantern": "base"
+               },
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"preach.moth",
+         "actionId":"work",
+         "label":"'Mi hanno guidato e condotto prima nelle tenebre, poi nella luce.'",
+         "startdescription":"'La Gloria richiede verità. Se saremo rivestiti di menzogne, essa le brucerà per noi.' [Più è potente la tradizione, maggiori sono le possibilità di Giubilo.]",
+         "effects":{
+            "funds":1,
+            "fervour":1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "challenges": {
+                     "moth": "base"
+               },
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"preach.secrethistories",
+         "actionId":"work",
+         "label":"'Se si cuce una nuova toppa su un vecchio indumento, e l'indumento in seguito si strappa, si ha un indumento, due, o nessuno?'",
+         "startdescription":"'Vi ho detto queste parole. Non vi ho detto queste parole. Ieri entrambe queste affermazioni erano false. Domani, quante saranno vere?' [Più è potente la tradizione, maggiori sono le possibilità di Giubilo.]",
+         "effects":{
+            "funds":1,
+            "fervour":1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "challenges": {
+                     "secrethistories": "base"
+               },
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"preach.winter",
+         "actionId":"work",
+         "label":"'Siederà solitario tacendo, perché l'inverno non attende in eterno.'",
+         "startdescription":"'Chiudete le vostre bocche. Chiudete le vostre orecchie. Ascoltate.' [Più è potente la tradizione, maggiori sono le possibilità di Giubilo.]",
+         "effects":{
+            "funds":1,
+            "fervour":1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "challenges": {
+                     "winter": "base"
+               },
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"priest.repevent",
+         "actionId":"priest.repevent",
+         "label":"Giubilo",
+         "startdescription":"Talvolta, le mie parole - e quelle che prendo in prestito - muovono la congegrazione oltre la mera concentrazione; al giubilo.",
+         "description":"@#reputation|Il nostro culto ha attirato commenti malevoli...\n#funds|La congregazione ha donato generosamente, e non hanno limitato le donazioni al piatto di raccolta.@",
+         "slots":[
+            {
+               "id":"society",
+               "label":"Cerchia Ristretta",
+               "description":"Potrei invitare gli adoratori più entusiasti ad entrare nella mia cerchia ristretta...",
+               "required":{
+                  "society":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"priest.repevent.devotee.edge",
+               "requirements":{
+                  "venerationedge":1
+               },
+               "deckeffects":{
+                  "priest.repevent":1
+               },
+               "label":"Ispirazione",
+               "description":"Un adoratore ha sognato Sant'Agnese della Divisione! Nel frattempo, @#reputation|il nostro culto ha attirato commenti malevoli...\n#funds|il resto della congregazione ha donato generosamente, e non hanno limitato le donazioni al piatto di raccolta.@",
+               "effects":{
+                  "funds":2,
+                  "devotee_edge":1
+               }
+            },
+            {
+               "id":"priest.repevent.devotee.forge",
+               "requirements":{
+                  "venerationforge":1
+               },
+               "deckeffects":{
+                  "priest.repevent":1
+               },
+               "label":"Ispirazione",
+               "description":"Un adoratore ha sognato Sant'Agnese dei Fuochi! Nel frattempo, @#reputation|il nostro culto ha attirato commenti malevoli...\n#funds|il resto della congregazione ha donato generosamente, e non hanno limitato le donazioni al piatto di raccolta.@",
+               "effects":{
+                  "funds":2,
+                  "devotee_forge":1
+               }
+            },
+            {
+               "id":"priest.repevent.devotee.grail",
+               "requirements":{
+                  "venerationgrail":1
+               },
+               "deckeffects":{
+                  "priest.repevent":1
+               },
+               "label":"Ispirazione",
+               "description":"Un adoratore ha sognato Sant'Agnese la Rossa! Nel frattempo, @#reputation|il nostro culto ha attirato commenti malevoli...\n#funds|il resto della congregazione ha donato generosamente, e non hanno limitato le donazioni al piatto di raccoltail resto della congregazione ha donato generosamente, e non hanno limitato le donazioni al piatto di raccolta.@",
+               "effects":{
+                  "funds":2,
+                  "devotee_grail":1
+               }
+            },
+            {
+               "id":"priest.repevent.devotee.heart",
+               "requirements":{
+                  "venerationheart":1
+               },
+               "deckeffects":{
+                  "priest.repevent":1
+               },
+               "label":"Ispirazione",
+               "description":"Un adoratore ha sognato Sant'Agnese del Tamburo! Nel frattempo, @#reputation|il nostro culto ha attirato commenti malevoli...\n#funds|il resto della congregazione ha donato generosamente, e non hanno limitato le donazioni al piatto di raccolta.@",
+               "effects":{
+                  "funds":2,
+                  "devotee_heart":1
+               }
+            },
+            {
+               "id":"priest.repevent.devotee.knock",
+               "requirements":{
+                  "venerationknock":1
+               },
+               "deckeffects":{
+                  "priest.repevent":1
+               },
+               "label":"Ispirazione",
+               "description":"Un adoratore ha sognato Sant'Agnese della Soglia! Nel frattempo, @#reputation|il nostro culto ha attirato commenti malevoli...\n#funds|il resto della congregazione ha donato generosamente, e non hanno limitato le donazioni al piatto di raccolta.@",
+               "effects":{
+                  "funds":2,
+                  "devotee_knock":1
+               }
+            },
+            {
+               "id":"priest.repevent.devotee.lantern",
+               "requirements":{
+                  "venerationlantern":1
+               },
+               "deckeffects":{
+                  "priest.repevent":1
+               },
+               "label":"Ispirazione",
+               "description":"Un adoratore ha sognato Sant'Agnese della Candela! Nel frattempo, @#reputation|il nostro culto ha attirato commenti malevoli...\n#funds|il resto della congregazione ha donato generosamente, e non hanno limitato le donazioni al piatto di raccolta.@",
+               "effects":{
+                  "funds":2,
+                  "devotee_lantern":1
+               }
+            },
+            {
+               "id":"priest.repevent.devotee.moth",
+               "requirements":{
+                  "venerationmoth":1
+               },
+               "deckeffects":{
+                  "priest.repevent":1
+               },
+               "label":"Ispirazione",
+               "description":"Un adoratore ha sognato Sant'Agnese delle Cesoie! Nel frattempo, @#reputation|il nostro culto ha attirato commenti malevoli...\n#funds|il resto della congregazione ha donato generosamente, e non hanno limitato le donazioni al piatto di raccolta.@",
+               "effects":{
+                  "funds":2,
+                  "devotee_moth":1
+               }
+            },
+            {
+               "id":"priest.repevent.devotee.winter",
+               "requirements":{
+                  "venerationwinter":1
+               },
+               "deckeffects":{
+                  "priest.repevent":1
+               },
+               "label":"Ispirazione",
+               "description":"È arrivato un adoratore che non parlerà dei suoi sogni; ma non è necessario! Nel frattempo, @#reputation|il nostro culto ha attirato commenti malevoli...\n#funds|il resto della congregazione ha donato generosamente, e non hanno limitato le donazioni al piatto di raccolta.@",
+               "effects":{
+                  "funds":2,
+                  "devotee_winter":1
+               }
+            }
+         ],
+         "deckeffects":{
+            "priest.repevent":1
+         },
+         "effects":{
+            "funds":1
+         },
+         "warmup":30
+      },
+      {
+         "id":"work.priest.passion",
+         "actionId":"work",
+         "label":"Conduci una Funzione",
+         "startdescription":"Improvviserò il mio sermone.",
+         "description":"La congregazione ascolta attentamente. Oggi non ho condiviso alcuna dottrina segreta.",
+         "requirements":{
+            "priestjob":1,
+            "passion":1
+         },
+         "effects":{
+            "funds":1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "chance":90,
+               "additional":true
+            }
+         ],
+         "warmup":50,
+         "craftable":true
+      },
+      {
+         "id":"work.priest.reason",
+         "actionId":"work",
+         "label":"Conduci una Funzione",
+         "startdescription":"Preparerò il mio sermone con cura.",
+         "description":"La congregazione ascolta attentamente. Oggi non ho condiviso alcuna dottrina segreta.",
+         "requirements":{
+            "priestjob":1,
+            "reason":1
+         },
+         "effects":{
+            "funds":1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "chance":10,
+               "additional":true
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"work.openscar",
+         "actionId":"work",
+         "label":"Apri le Cicatrici",
+         "startdescription":"Quando sarò sette serrature, potrò essere aperto affinchè il mio popolo passi. Questo è quanto mi sta insegnando l'aspirazione, nelle lunghe notti passate. Le preghiere della mia congregazione esalteranno il mio dolore.",
+         "description":"Il dolore si ritira. Per un attimo tiro un sospiro di sollievo, poi irrompe la disperazione. Forse non sono ancora pronto. Forse non lo sarò mai.",
+         "requirements":{
+            "ritual":1,
+            "lockscar":1,
+            "knock":24
+         },
+         "effects":{
+            "dread":1
+         },
+         "aspects":{
+            "unlockscar":1
+         },
+         "linked":[
+            {
+               "id":"work.openscar.continue"
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"work.openscar.continue",
+         "actionId":"work",
+         "label":"Un'Altra Cicatrice",
+         "startdescription":"Un'altra. I miei fedeli, piangendo, maneggiano i loro strumenti; badate alla mie sete; asciugatemi il sangue dalla bocca. Forse scoppierò come un frutto maturo. Forse cadrò come pioggia.",
+         "description":"Il dolore si ritira. Forse non sono ancora pronto.",
+         "slots":[
+            {
+               "id":"scar",
+               "label":"La Mia Serratura",
+               "required":{
+                  "lockscar":1
+               }
+            }
+         ],
+         "effects":{
+            "dread":1
+         },
+         "alt":[
+            {
+               "id":"minorknockvictory"
+            },
+            {
+               "id":"work.openscar.failed"
+            }
+         ],
+         "linked":[
+            {
+               "id":"work.openscar.continue"
+            }
+         ],
+         "aspects":{
+            "unlockscar":1
+         },
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"work.openscar.failed",
+         "actionId":"work",
+         "label":"Un'Altra Cicatrice?",
+         "startdescription":"Il dolore si ritira. Per un attimo tiro un sospiro di sollievo, poi irrompe la disperazione. Forse non sono ancora pronto. Forse non lo sarò mai.",
+         "requirements":{
+            "lockscar":-1
+         },
+         "warmup":10,
+         "craftable":false
+      },
+      {
+         "id":"minorknockvictory",
+         "actionId":"work",
+         "label":"La Soglia",
+         "startdescription":"Il mio popolo fugge da me, piangendo, gridando, ridendo. Non posso essere accettabile ai loro occhi, non ora, dopo tutto quello che hanno fatto, sebbene ora mi guardino quasi fossi un nuovo cielo...",
+         "requirements":{
+            "openedlockscar":6,
+            "lockscar":1
+         },
+         "warmup":30,
+         "signalEndingFlavour":"Grand",
+         "ending":"minorknockvictory"
+      },
+      {
+         "id":"work.priest.scarhealth.hint",
+         "actionId":"work",
+         "label":"'Essere una Soglia?'",
+         "requirements":{
+            "priestjob":1,
+            "health":1
+         },
+         "startdescription":"Sant'Agnese mi ha condotto qui, dove potrei realizzare il mio potenziale - non solo per poter aprire le porte, ma per poter <i>divenire</i>, io stesso una porta. [Aggiungi una Tradizione almeno del decimo livello, e Fervore, per cominciare il processo di creazione di una Cicatrice-Serratura.]",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"work.priest.scarhealth",
+         "actionId":"work",
+         "label":"'Essere una Soglia'",
+         "requirements":{
+            "priestjob":1,
+            "health":1,
+            "lore":1,
+            "fervour":1
+         },
+         "startdescription":"Il mio popolo mi si para davanti, le voci si alzano in canto, i volti alzati sono in fiamme. Ci sono porte che in pochi potranno vedere - una piccola parte di queste non si aprirà mai. A patto di essere disposto a subirne le conseguenze, potrei un giorno diventare una di quelle porte, affinchè la mia congregazione passi. 'Bussate e Vi Sarà Aperto.'",
+         "description":"La congregazione è soddisfatta dalle mie mortificazioni, ma manca la scintilla divina. [Per creare una Cicatrice-Serratura hai bisogno di Irrequietezza, di una Tradizione almeno del decimo livello e di una particolare disciplina del corpo o dello spirito. Puoi avere solamente una Cicatrice per tipologia.]",
+         "aspects":{
+            "damagehealth":1
+         },
+         "effects":{
+            "fervour":-1,
+            "funds":1
+         },
+         "alt":[
+            {
+               "id":"priest.repevent",
+               "chance":90,
+               "additional":true
+            }
+         ],
+         "slots":[
+            {
+               "id":"restlessnessfuel",
+               "label":"Aspirazione",
+               "required":{
+                  "restlessness":1
+               },
+               "greedy":true
+            }
+         ],
+         "linked":[
+            {
+               "id":"work.priest.scarhealth.restlessnesspresent"
+            }
+         ],
+         "craftable":true,
+         "warmup":60
+      },
+      {
+         "id":"work.priest.scarhealth.restlessnesspresent",
+         "actionId":"work",
+         "label":"Il Lavoro della Soglia",
+         "startdescription":"Il diacono legge dal Libro di San Respicio: 'Il Bronzo forma, ma il cuore lavora. L'Appetito mostra la coppa rossa, e la malattia la neve. La Lanterna conosce, mentre la Falena capisce. E la spada, quando arriva, è la sua stessa risposta.'",
+         "description":"Ho sofferto. Forse non ho sofferto abbastanza. La mia Inquietudine è placata, la mia congregazione è soddisfatta, ma questo è quanto. [Per creare una Cicatrice-Serratura hai bisogno di Irrequietezza, di una Tradizione almeno del decimo livello e di una particolare disciplina del corpo o dello spirito, che combaci con la Tradizione. Puoi avere solamente una Cicatrice per tipologia.]",
+         "requirements":{
+            "restlessness":1
+         },
+         "effects":{
+            "restlessness":-1
+         },
+         "slots":[
+            {
+               "id":"discipline",
+               "label":"Disciplina",
+               "required":{
+                  "injury":1,
+                  "compensationb":1,
+                  "hunger":1,
+                  "vitality":1,
+                  "erudition":1,
+                  "glimmering":1,
+                  "affliction":1
+               }
+            }
+         ],
+         "alternativerecipes":[
+            {
+               "id":"a_scarhealth_edge",
+               "chance":100
+            },
+            {
+               "id":"a_scarhealth_forge",
+               "chance":100
+            },
+            {
+               "id":"a_scarhealth_grail",
+               "chance":100
+            },
+            {
+               "id":"a_scarhealth_heart",
+               "chance":100
+            },
+            {
+               "id":"a_scarhealth_lantern",
+               "chance":100
+            },
+            {
+               "id":"a_scarhealth_moth",
+               "chance":100
+            },
+            {
+               "id":"a_scarhealth_winter",
+               "chance":100
+            },
+            {
+               "id":"a_noscar_secrethistories",
+               "chance":100
+            },
+            {
+               "id":"a_noscar_knock",
+               "chance":100
+            }
+         ],
+         "warmup":60,
+         "craftable":false
+      },
+      {
+         "id":"a_scarhealth_edge",
+         "actionId":"work",
+         "label":"La Visione Sette Volte Attorcigliata",
+         "startdescription":"Nella visione la mia ferita ha sette rami, ogni ramo altri sette, e ciascuno di questi sette teste. Nella visione, ogni testa viene recisa, una per una, da uno che usa le sue cicatrici come armi. Egli porge ogni testa a Sant'Agnese mentre lei aspetta con la sua candela, e ad ogni mutilazione aumenta la mia agonia.",
+         "description":"La congregazione ha vegliato su di me per tutta la notte. Sono sveglio. La ferita è chiusa. La cicatrice rimarrà. [La Salute è stata convertita permanentemente in una Ferita. Ci sono sempre sette Marchi; avrai bisogno di sette Cicatrici-Serrature. C'è sempre una via, anche se può essere stretta.]",
+         "requirements":{
+            "edge":10,
+            "restlessness":1,
+            "injury":2
+         },
+         "extantreqs":{
+            "lockscaredge":-1,
+            "openedlockscaredge":-1
+         },
+         "effects":{
+            "injury":-1,
+            "lockscaredge":1,
+            "fervour":-1,
+            "restlessness":-1
+         },
+         "warmup":0,
+         "craftable":false
+      },
+      {
+         "id":"a_scarhealth_forge",
+         "actionId":"work",
+         "label":"La Visione della Selce",
+         "startdescription":"Nella visione cammino nei freddi tunnel al di sotto della Casa del Sole, illuminato da lampade di nefrite e giada nera. Angoli di selce che brillano con il calore della loro fine sporgono dalle pareti. Ci passo sopra con la mia mano. Ora non sono più taglienti, e così il mio gregge potrà entrare, illuminando la via con le candele.",
+         "description":"La congregazione ha vegliato su di me per tutta la notte. Sono sveglio. La mia ferita è quasi guarita. La cicatrice rimarrà. [La Salute è stata convertita permanentemente in una Ferita. Ci sono sempre sette Marchi; avrai bisogno di sette Cicatrici-Serrature. C'è sempre una via, anche se può essere stretta.]",
+         "requirements":{
+            "forge":16,
+            "restlessness":1,
+            "compensationb":1
+         },
+         "extantreqs":{
+            "lockscarforge":-1,
+            "openedlockscarforge":-1
+         },
+         "effects":{
+            "injury":-1,
+            "lockscarforge":1,
+            "restlessness":-1,
+            "fervour":-1,
+            "compensationb":-1
+         },
+         "warmup":0,
+         "craftable":false
+      },
+      {
+         "id":"a_scarhealth_grail",
+         "actionId":"work",
+         "label":"La Visione della Coppa Rossa",
+         "startdescription":"'Ecco', dice la donna d'avorio nella visione, 'lascia che ti dimostri che non tutte le cicatrici sono dolore'. Appoggia la sua bocca al pozzo del mio sangue, finché la sua pallidità non viene elettrizzata completamente da fili rosa.",
+         "description":"La congregazione ha vegliato su di me per tutta la notte. Sono sveglio. La mia ferita è praticamente invisibile. La cicatrice rimarrà. [La Salute è stata convertita permanentemente in una Ferita. Ci sono sempre sette Marchi; avrai bisogno di sette Cicatrici-Serrature. C'è sempre una via, anche se può essere stretta.]",
+         "requirements":{
+            "grail":14,
+            "restlessness":1,
+            "hunger":1
+         },
+         "extantreqs":{
+            "lockscargrail":-1,
+            "openedlockscargrail":-1
+         },
+         "effects":{
+            "injury":-1,
+            "lockscargrail":1,
+            "restlessness":-1,
+            "fervour":-1
+         },
+         "warmup":0,
+         "craftable":false
+      },
+      {
+         "id":"a_scarhealth_heart",
+         "actionId":"work",
+         "label":"La Visione dei Pini",
+         "startdescription":"Nella visione i tronchi dei pini sono illuminati dal fuoco, ma le ombre dei ballerini vanno e vengono come nello sfarfallio di uno zootropio. Ad ogni colpo di tamburo mi libero da un altro slittamento della pelle, ma non è Sant'Agnese a tenere il coltello; alla fine non posso più sopportarlo, e tutte le urla represse scoppiano...",
+         "description":"La congregazione ha vegliato su di me per tutta la notte. Sono sveglio. L'unica ferita che riesco a vedere è quella sopra il mio cuore, e questa guarirà nel tempo. La cicatrice rimarrà. [La Salute è stata convertita permanentemente in una Ferita. Ci sono sempre sette Marchi; avrai bisogno di sette Cicatrici-Serrature. C'è sempre una via, anche se può essere stretta.]",
+         "requirements":{
+            "heart":11,
+            "restlessness":1,
+            "vitality":1
+         },
+         "extantreqs":{
+            "lockscarheart":-1,
+            "openedlockscarheart":-1
+         },
+         "effects":{
+            "injury":-1,
+            "lockscarheart":1,
+            "restlessness":-1,
+            "fervour":-1,
+            "vitality":-1
+         },
+         "warmup":0,
+         "craftable":false
+      },
+      {
+         "id":"a_scarhealth_lantern",
+         "actionId":"work",
+         "label":"La Visione del Pavone",
+         "startdescription":"Nella visione entriamo nella seconda camera attraverso la lacerazione di un muro, mentre questo grida come un pavone e sanguina oro. Passiamo in processione, trionfante, dai pendii nuvolosi ai corridoi luminosi della Casa del Sole, e le nostre bocche si spalancano per parlare; anche se, come in tutte le nascite, il primo suono è un grido.",
+         "description":"La congregazione ha vegliato su di me per tutta la notte. Sono sveglio. La mia bocca ora prosegue nella mia guancia e, anche se sono quasi guarito, è un'agonia parlare. Guarirà. La mia voce sarà rinnovata. La cicatrice rimarrà. [La Salute è stata convertita permanentemente in una Ferita. Ci sono sempre sette Marchi; avrai bisogno di sette Cicatrici-Serrature. C'è sempre una via, anche se può essere stretta.]",
+         "requirements":{
+            "lantern":11,
+            "restlessness":1,
+            "erudition":1
+         },
+         "extantreqs":{
+            "lockscarlantern":-1,
+            "openedlockscarlantern":-1
+         },
+         "effects":{
+            "injury":-1,
+            "lockscarlantern":1,
+            "restlessness":-1,
+            "fervour":-1,
+            "erudition":-1
+         },
+         "warmup":0,
+         "craftable":false
+      },
+      {
+         "id":"a_scarhealth_moth",
+         "actionId":"work",
+         "label":"La Visione della Tosatura",
+         "startdescription":"Nella visione vedo le nostre ali e ne sento il fruscio, mentre le apriamo per le cesoie. I nostri addomi erano colorati di bianco e nero, quasi fossero bendati, e i nostri becchi erano taglienti come forbici. Ci siamo ripiegati nella crisalide e fermati nel buio. Abbiamo rotto le nostre uova, rubato i nostri capelli e guardato all'interno.",
+         "description":"La congregazione ha vegliato su di me per tutta la notte. Sono sveglio. La doppia ferita sulla schiena guarirà. La cicatrice rimarrà. [La Salute è stata convertita permanentemenente in una Ferita. Ci sono sempre sette Marchi; avrai bisogno di sette Cicatrici-Serrature. C'è sempre una via, anche se può essere stretta.]",
+         "requirements":{
+            "moth":12,
+            "restlessness":1,
+            "glimmering":1
+         },
+         "extantreqs":{
+            "lockscarmoth":-1,
+            "openedlockscarmoth":-1
+         },
+         "effects":{
+            "injury":-1,
+            "lockscarmoth":1,
+            "restlessness":-1,
+            "fervour":-1,
+            "glimmering":-1
+         },
+         "warmup":0,
+         "craftable":false
+      },
+      {
+         "id":"a_scarhealth_winter",
+         "actionId":"work",
+         "label":"La Visione dei Nove Anni",
+         "startdescription":"Aspettare nel bianco delle pareti. Guardare il sole lento. Chione cammina per le strade in silenzio. La sua gonna è il vento. Così bianca la sua superficie. Osserva cosa termina nella tempesta.",
+         "description":"La mia congregazione ha aspettato fino all'alba, quando mi sono svegliato dal bianco sonno. Il gelo mi ha seccato la mano. Non c'è nessuna ferita, non esattamente, ma ci sarà una cicatrice. [La Salute è stata convertita permanentemente in una Ferita. Ci sono sempre sette Marchi; avrai bisogno di sette Cicatrici-Serrature. C'è sempre una via, anche se può essere stretta.]",
+         "requirements":{
+            "winter":12,
+            "restlessness":1,
+            "affliction":1
+         },
+         "extantreqs":{
+            "lockscarwinter":-1,
+            "openedlockscarwinter":-1
+         },
+         "effects":{
+            "injury":-1,
+            "lockscarwinter":1,
+            "restlessness":-1,
+            "fervour":-1
+         },
+         "craftable":false
+      },
+      {
+         "id":"a_noscar_knock",
+         "actionId":"work",
+         "label":"Una Visione di Sant'Agnese",
+         "startdescription":"Inizio la mia veglia. La mia bocca è aperta. I miei occhi sono aperti. Attraverso di essi, mentre la congregazione eleva l'inno, entra Sant'Agnese, come una mano che chiede.",
+         "description":"Sant'Agnese mi apre la lingua e sento il sapore del sangue. Sant'Agnese mi circonda i vasi del cuore, e per un attimo sento una fitta. Sant'Agnese si allontana dalla prima ferita, la fossa del mio ventre nella quale è stato reciso il serpente della mia nascita, ma prima mi afferma e mi eleva. Questo è il mio cammino, finché io stesso non sarò il sentiero. Mi aprirò al mio popolo come una porta, affinché mi oltrepassino. [Le Cicatrici-Serrature non possono essere create con il Colpo o le Storie Segrete, ma solamente con gli altri sette Aspetti.]",
+         "requirements":{
+            "knock":3
+         },
+         "effects":{
+            "funds":1,
+            "restlessness":-1,
+            "fervour":-1,
+            "influenceknockc":1
+         },
+         "craftable":false
+      },
+      {
+         "id":"a_noscar_secrethistories",
+         "actionId":"work",
+         "label":"Una Visione dei Cento e Otto",
+         "startdescription":"Inizio la mia veglia. Le voci della congregazione si alzano. La luce delle finestre si mescola davanti all'altare. In questa luce, vedo eventi che non si sono mai verificati...",
+         "description":"Grandi principi incappucciati giacciono in campi d'ossa vestiti con indumenti a strisce nere e gialle, ricchi d'ornamenti d'oro. I loro occhi sono aperti al cielo. Le loro squame sono segnate e fredde. Ora, finalmente, sono visibili, e guardarli è proibito da sempre. Ciò non si è verificato. [Le Cicatrici-Serrature non possono essere create con il Colpo o le Storie Segrete, solamente con gli altri sette Aspetti.]",
+         "requirements":{
+            "secrethistories":2
+         },
+         "effects":{
+            "funds":1,
+            "restlessness":-1,
+            "fervour":-1,
+            "erudition":1
+         },
+         "craftable":false
+      }
+   ]
+}

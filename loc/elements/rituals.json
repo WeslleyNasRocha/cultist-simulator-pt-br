@@ -1,0 +1,517 @@
+{
+   "elements":[
+      {
+         "id":"ritetoolconsumeingredient",
+         "label":"Rito del Banchetto del Mare",
+         "aspects":{
+            "ritual":1
+         },
+         "slots":[
+            {
+               "id":"Invocation",
+               "label":"Invocazione",
+               "actionId":"work",
+               "required":{
+                  "lore":1
+               },
+               "description":"Quali sono le parole?"
+            },
+            {
+               "id":"Instrument",
+               "label":"Strumento",
+               "actionId":"work",
+               "required":{
+                  "tool":1
+               },
+               "description":"Qual è il nostro strumento?"
+            },
+            {
+               "id":"Offering",
+               "label":"Offerta",
+               "actionId":"work",
+               "required":{
+                  "ingredient":1
+               },
+               "consumes":true,
+               "description":"A cosa rinunceremo?"
+            },
+            {
+               "id":"Desire",
+               "label":"Desiderio",
+               "actionId":"work",
+               "required":{
+                  "desire":6
+               },
+               "description":"Cosa potrei divenire? [Questo slot accetta solamente il livello finale dell’Ascesa. Se hai ricevuto il Sesto Marchio, aggiungi la tua ascesa per completare un Grande Lavoro.]"
+            }
+         ],
+         "description":"Questo rito sollecita la Strega-e-Sorella a chiudere lo spazio tra ciò che è e ciò che potrebbe essere. L’adepto versa, o vomita, un’offerta nell’acqua: preferibilmente, ma non essenzialmente, in mare.",
+         "unique":true
+      },
+      {
+         "id":"ritetoolconsumeinfluence",
+         "label":"Rito del Bordo della Mappa",
+         "aspects":{
+            "ritual":1
+         },
+         "slots":[
+            {
+               "id":"Invocation",
+               "label":"Invocazione",
+               "actionId":"work",
+               "required":{
+                  "lore":1
+               },
+               "description":"Quali sono le parole?"
+            },
+            {
+               "id":"Offering",
+               "label":"Offerta",
+               "actionId":"work",
+               "required":{
+                  "influence":1
+               },
+               "description":"Che influsso sarà preso?",
+               "consumes":true
+            },
+            {
+               "id":"Instrument",
+               "label":"Strumento",
+               "actionId":"work",
+               "required":{
+                  "tool":1
+               },
+               "description":"Qual è il nostro strumento?"
+            },
+            {
+               "id":"Desire",
+               "label":"Desiderio",
+               "actionId":"work",
+               "required":{
+                  "desire":6
+               },
+               "description":"Cosa potrei divenire? [Questo slot accetta solamente il livello finale dell’Ascesa. Se hai ricevuto il Sesto Marchio, aggiungi la tua ascesa per completare un Grande Lavoro.]"
+            }
+         ],
+         "description":"Il Vagabondo è l’unica Ora che non entrerà mai nel Mansus. Questo Rito dev'essere compiuto nel luogo corretto nel momento corretto, e il Vagabondo prenderà questa correttezza per sé.",
+         "unique":true
+      },
+      {
+         "id":"ritetoolconsumefollower",
+         "label":"Rito dell’Anima Crucibile",
+         "comments":"endgame rite",
+         "aspects":{
+            "ritual":1
+         },
+         "slots":[
+            {
+               "id":"Invocation",
+               "label":"Invocazione",
+               "actionId":"work",
+               "required":{
+                  "lore":1
+               },
+               "description":"Quali sono le parole?"
+            },
+            {
+               "id":"Victim",
+               "label":"Vittima",
+               "actionId":"work",
+               "required":{
+                  "follower":1,
+                  "prisoner":1
+               },
+               "consumes":true,
+               "description":"Si deve sempre essere disposti a versare del sangue."
+            },
+            {
+               "id":"Instrument",
+               "label":"Strumento",
+               "actionId":"work",
+               "required":{
+                  "tool":1
+               },
+               "description":"Su cosa sarà versato il sangue?"
+            },
+            {
+               "id":"Desire",
+               "label":"Desiderio",
+               "actionId":"work",
+               "required":{
+                  "desire":6
+               },
+               "description":"Cosa potrei divenire? [Questo slot accetta solamente il livello finale dell’Ascesa. Se hai ricevuto il Sesto Marchio, aggiungi la tua ascesa per completare un Grande Lavoro.]"
+            }
+         ],
+         "description":"Questo rito usa uno strumento di potere per incendiare il sangue: il fuoco è la lesione nella pelle del mondo. L’assistente raramente ne esce illeso.",
+         "unique":true
+      },
+      {
+         "id":"ritetoolfollowerconsumelore",
+         "label":"Rito del Dolore dell’Osservatore",
+         "comments":"endgame rite",
+         "aspects":{
+            "ritual":1
+         },
+         "slots":[
+            {
+               "id":"Sacrifice",
+               "label":"Sacrificio",
+               "actionId":"work",
+               "required":{
+                  "lore":1
+               },
+               "consumes":true,
+               "description":"Cosa sarà dimenticato?"
+            },
+            {
+               "id":"Assistant",
+               "label":"Assistente",
+               "actionId":"work",
+               "required":{
+                  "follower":1,
+                  "prisoner":1
+               },
+               "description":"Chi pronuncerà le parole?"
+            },
+            {
+               "id":"Instrument",
+               "label":"Strumento",
+               "actionId":"work",
+               "required":{
+                  "tool":1
+               },
+               "description":"Qual è il nostro strumento?"
+            },
+            {
+               "id":"Desire",
+               "label":"Desiderio",
+               "actionId":"work",
+               "required":{
+                  "desire":6
+               },
+               "description":"Cosa potrei divenire? [Questo slot accetta solamente il livello finale dell’Ascesa. Se hai ricevuto il Sesto Marchio, aggiungi la tua ascesa per completare un Grande Lavoro.]"
+            }
+         ],
+         "description":"Questo rito richiama la perdita dell’Osservatore, il quale cammina per la casa che non ha mura. (La luce lo precede e l’ombra lo segue. Egli non deve vederti.) Lo strumento di potere è necessario per evocarlo affinché prenda il suo sacrificio: le preziose conoscenze dalle radici dei tuoi pensieri. L’assistente dovrà pronunciare le parole che ancorino la tua sanità mentale, scegli qualcuno di cui ti fidi.",
+         "unique":true
+      },
+      {
+         "id":"ritefollowerconsumetool",
+         "label":"Rito dello Sforzo del Ribelle",
+         "aspects":{
+            "ritual":1
+         },
+         "slots":[
+            {
+               "id":"Invocation",
+               "label":"Invocazione",
+               "actionId":"work",
+               "required":{
+                  "lore":1
+               },
+               "description":"Quali sono le parole?"
+            },
+            {
+               "id":"Assistant",
+               "label":"Assistente",
+               "actionId":"work",
+               "required":{
+                  "follower":1,
+                  "prisoner":1
+               },
+               "description":"Chi pronuncerà le parole?"
+            },
+            {
+               "id":"Offering",
+               "label":"Offerta",
+               "actionId":"work",
+               "required":{
+                  "tool":1
+               },
+               "consumes":true,
+               "description":"A cosa rinunceremo?"
+            },
+            {
+               "id":"Desire",
+               "label":"Desiderio",
+               "actionId":"work",
+               "required":{
+                  "desire":6
+               },
+               "description":"Cosa potrei divenire? [Questo slot accetta solamente il livello finale dell’Ascesa. Se hai ricevuto il Sesto Marchio, aggiungi la tua ascesa per completare un Grande Lavoro.]"
+            }
+         ],
+         "description":"Questo rito perpetra un insegnamento della Forgia dei Giorni: l’artigiano può ottenere il suo obiettivo più alto solamente distruggendo il più prezioso dei suoi strumenti. Per questo il Leonfabbro distrusse la sua spada davanti al Colonnello. Così il mio assistente dovrà distruggere lo strumento scelto.",
+         "unique":true
+      },
+      {
+         "id":"ritefollowerconsumeingredient",
+         "label":"Rito della Pietà della Madre",
+         "aspects":{
+            "ritual":1
+         },
+         "slots":[
+            {
+               "id":"Invocation",
+               "label":"Invocazione",
+               "actionId":"work",
+               "required":{
+                  "lore":1
+               },
+               "description":"Quali sono le parole?"
+            },
+            {
+               "id":"Assistant",
+               "label":"Assistente",
+               "actionId":"work",
+               "required":{
+                  "follower":1,
+                  "prisoner":1
+               },
+               "description":"Chi pronuncerà le parole?"
+            },
+            {
+               "id":"Offering",
+               "label":"Offerta",
+               "actionId":"work",
+               "required":{
+                  "ingredient":1
+               },
+               "description":"Cosa sarà offerto?",
+               "consumes":true
+            },
+            {
+               "id":"Desire",
+               "label":"Desiderio",
+               "actionId":"work",
+               "required":{
+                  "desire":6
+               },
+               "description":"Cosa potrei divenire? [Questo slot accetta solamente il livello finale dell’Ascesa. Se hai ricevuto il Sesto Marchio, aggiungi la tua ascesa per completare un Grande Lavoro.]"
+            }
+         ],
+         "description":"L’assistente viene offerto in sacrificio alla Madre delle Formiche. Ma la Madre conosce la guarigione quanto il veleno, e sarà pietosa, accettando la sostituzione con un’offerta minore. Di norma. L’esperienza non è rassicurante per l’assistente.",
+         "unique":true
+      },
+      {
+         "id":"riteinfluenceconsumeingredient",
+         "label":"Il Rito dell’Estinzione del Corvo",
+         "aspects":{
+            "ritual":1
+         },
+         "slots":[
+            {
+               "id":"Invocation",
+               "label":"Invocazione",
+               "actionId":"work",
+               "required":{
+                  "lore":1
+               },
+               "description":"Quali sono le parole?"
+            },
+            {
+               "id":"Influence",
+               "label":"Influsso",
+               "actionId":"work",
+               "required":{
+                  "influence":1
+               },
+               "description":"Che potere è presente?"
+            },
+            {
+               "id":"Offering",
+               "label":"Offerta",
+               "actionId":"work",
+               "required":{
+                  "ingredient":1
+               },
+               "description":"Cosa sarà offerto?",
+               "consumes":true
+            },
+            {
+               "id":"Desire",
+               "label":"Desiderio",
+               "actionId":"work",
+               "required":{
+                  "desire":6
+               },
+               "description":"Cosa potrei divenire? [Questo slot accetta solamente il livello finale dell’Ascesa. Se hai ricevuto il Sesto Marchio, aggiungi la tua ascesa per completare un Grande Lavoro.]"
+            }
+         ],
+         "description":"Questo rito invita il Corvo della Spiaggia al sorgere del sole o della luna. Il Corvo accetta il sacrificio, e restituisce i doni della terra.",
+         "unique":true
+      },
+      {
+         "id":"ritefollowerconsumeinfluence",
+         "label":"Rito del Tramonto",
+         "aspects":{
+            "ritual":1
+         },
+         "slots":[
+            {
+               "id":"Invocation",
+               "label":"Invocazione",
+               "actionId":"work",
+               "required":{
+                  "lore":1
+               },
+               "description":"Quali sono le parole?"
+            },
+            {
+               "id":"Assistant",
+               "label":"Assistente",
+               "actionId":"work",
+               "required":{
+                  "follower":1,
+                  "prisoner":1
+               },
+               "description":"Chi pronuncerà le parole?"
+            },
+            {
+               "id":"Offering",
+               "label":"Offerta",
+               "actionId":"work",
+               "required":{
+                  "influence":1
+               },
+               "consumes":true,
+               "description":"Che influsso sarà consumato?"
+            },
+            {
+               "id":"Desire",
+               "label":"Desiderio",
+               "actionId":"work",
+               "required":{
+                  "desire":6
+               },
+               "description":"Cosa potrei divenire? [Questo slot accetta solamente il livello finale dell’Ascesa. Se hai ricevuto il Sesto Marchio, aggiungi la tua ascesa per completare un Grande Lavoro.]"
+            }
+         ],
+         "description":"L’assistente dovrà piangere lacrime di emozione genuina, le quali saranno sparse nel luogo dove giace l’influsso. Se tutto questo viene compiuto adeguatamente, il Sole-negli-Stracci consumerà l’influsso, conoscerà un finale, ed offrirà la sua assistenza.",
+         "unique":true
+      },
+      {
+         "id":"riteinfluenceconsumefollower",
+         "label":"Rito della Divisione della Bestia",
+         "aspects":{
+            "ritual":1
+         },
+         "slots":[
+            {
+               "id":"Invocation",
+               "label":"Invocazione",
+               "actionId":"work",
+               "required":{
+                  "lore":1
+               },
+               "description":"Quali sono le parole?"
+            },
+            {
+               "id":"Victim",
+               "label":"Vittima",
+               "actionId":"work",
+               "required":{
+                  "follower":1,
+                  "prisoner":1
+               },
+               "description":"Chi verrà diviso?",
+               "consumes":true
+            },
+            {
+               "id":"Influence",
+               "label":"Influsso",
+               "actionId":"work",
+               "required":{
+                  "influence":1
+               },
+               "description":"Che potere è presente?"
+            },
+            {
+               "id":"Desire",
+               "label":"Desiderio",
+               "actionId":"work",
+               "required":{
+                  "desire":6
+               },
+               "description":"Cosa potrei divenire? [Questo slot accetta solamente il livello finale dell’Ascesa. Se hai ricevuto il Sesto Marchio, aggiungi la tua ascesa per completare un Grande Lavoro.]"
+            }
+         ],
+         "description":"Il nome dell’assistente sarà preso in un luogo o in un occasione di potere e suddiviso in nove parti. Un tempo si usava anche cacciarli come animali, ma i tempi sono cambiati.",
+         "unique":true
+      },
+      {
+         "id":"riteconsumetoolingredientfollowerinfluence",
+         "label":"Rito Intercalare",
+         "aspects":{
+            "ritual":1
+         },
+         "slots":[
+            {
+               "id":"Sacrifice",
+               "label":"Sacrificio",
+               "actionId":"work",
+               "required":{
+                  "lore":1
+               },
+               "description":"Qualcosa da perdere.",
+               "consumes":true
+            },
+            {
+               "id":"Offering",
+               "label":"Offerta",
+               "actionId":"work",
+               "required":{
+                  "follower":1,
+                  "prisoner":1,
+                  "summoned":1
+               },
+               "description":"Qualcosa da perdere.",
+               "consumes":true
+            },
+            {
+               "id":"Surrender",
+               "label":"Resa",
+               "actionId":"work",
+               "required":{
+                  "tool":1
+               },
+               "description":"Qualcosa da perdere.",
+               "consumes":true
+            },
+            {
+               "id":"Dissolution",
+               "label":"Dissoluzione",
+               "actionId":"work",
+               "required":{
+                  "influence":1
+               },
+               "description":"Qualcosa da perdere.",
+               "consumes":true
+            },
+            {
+               "id":"Grief",
+               "label":"Lutto",
+               "actionId":"work",
+               "required":{
+                  "ingredient":1
+               },
+               "description":"Qualcosa da perdere.",
+               "consumes":true
+            },
+            {
+               "id":"Desire",
+               "label":"Desiderio",
+               "actionId":"work",
+               "required":{
+                  "desire":6,
+                  "promise":1
+               },
+               "description":"Cosa potrei divenire? [Questo slot accetta solamente il livello finale dell’Ascesa. Se hai ricevuto il Sesto Marchio, aggiungi la tua ascesa per completare un Grande Lavoro.]"
+            }
+         ],
+         "description":"Questo rito ricapitola l’abominevole fato del Sole. È utilizzato nei momenti estremi dagli adepti ingenui.",
+         "unique":true
+      }
+   ]
+}

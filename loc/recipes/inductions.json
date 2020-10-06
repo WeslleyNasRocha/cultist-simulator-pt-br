@@ -1,0 +1,180 @@
+{
+   "recipes":[
+      {
+         "id":"heartinduction",
+         "label":"Il Corso del Cuore",
+         "actionId":"heartinduction",
+         "effects":{
+            "previtality":1
+         },
+         "startdescription":"Coinvolgendo il principio del Cuore, potrei ottenere Vitalità.",
+         "description":"Il mio cuore pompa più forte, oggi.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"lanterninduction",
+         "label":"Una Luce nel Teschio",
+         "actionId":"lanterninduction",
+         "effects":{
+            "preerudition":1
+         },
+         "startdescription":"Quando il principio della Lanterna getterà la sua luce, potrò ottenere ulteriori briciole di conoscenza.",
+         "description":"Fatti polverosi sono stati ripuliti, nel mio cervello. Per ora, almeno.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"mothinduction",
+         "label":"Cose Antiche, Infelici e Lontane",
+         "actionId":"mothinduction",
+         "effects":{
+            "prerestlessness":1
+         },
+         "startdescription":"La Falena trova la luce nell’oscurità, e così la trovo io.",
+         "description":"Sono stato toccato da una malinconia mezza intravista.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"mothglimmeringinduction",
+         "label":"L’Oscurità, la Luce",
+         "actionId":"mothinduction",
+         "effects":{
+            "preglimmering":1
+         },
+         "startdescription":"La Falena trova la luce nell’oscurità, e così la trovo io.",
+         "description":"Cosa potrei essere, se potessi non esser così?",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"grailinduction",
+         "label":"Il Luogo Dietro al Desiderio",
+         "actionId":"grailinduction",
+         "effects":{
+            "preglimmering":1
+         },
+         "startdescription":"Cosa si può imparare dal soddisfare i desideri?",
+         "description":"Questo è simile all'illuminazione.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"dreadinduction",
+         "label":"Terrori Notturni",
+         "actionId":"dreadinduction",
+         "effects":{
+            "predread":1
+         },
+         "startdescription":"Mi sveglio nella notte. I palmi, la faccia, sono imperlati di sudore.",
+         "description":"Lentamente, i pugni serrati si rilassano. Scivolerò di nuovo nel sonno. Ma qualcosa rimarrà, come ragnatele negli angoli della stanza.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"dreadinduction_ifdread",
+         "label":"Terrori Notturni",
+         "actionId":"dreadinduction",
+         "requirements":{
+            "dread":1
+         },
+         "effects":{
+            "predread":1
+         },
+         "comments":"Only triggers if there's already Dread in whatever called this.",
+         "startdescription":"Mi sveglio nella notte. I palmi, la faccia, sono imperlati di sudore.",
+         "description":"Lentamente, i pugni serrati si rilassano. Scivolerò di nuovo nel sonno. Ma qualcosa rimarrà, come ragnatele negli angoli della stanza.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"fascinationinduction",
+         "label":"Nuovi Colori",
+         "actionId":"fascinationinduction",
+         "effects":{
+            "prefascination":1
+         },
+         "startdescription":"Ho cominciato a notare, nel mondo, colori per i quali non ho nomi.",
+         "description":"Vedo cose che non dovrei vedere. So che è pericoloso. Ma è difficile evitare di desiderarlo.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"fascinationinduction_iffascination",
+         "label":"Nuovi Colori",
+         "actionId":"fascinationinduction",
+         "requirements":{
+            "fascination":1
+         },
+         "effects":{
+            "prefascination":1
+         },
+         "startdescription":"Ho cominciato a notare, nel mondo, colori per i quali non ho nomi.",
+         "description":"Vedo cose che non dovrei vedere. So che è pericoloso. Ma è difficile evitare di desiderarlo.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"poison.notoriety.induction",
+         "actionId":"poison.notoriety.induction",
+         "label":"Gli Occhi del Pubblico",
+         "startdescription":"Il seguace è troppo conosciuto. Il Dipartimento Soppressione potrebbe sentirne parlare.",
+         "effects":{
+            "notoriety":1
+         },
+         "warmup":30
+      },
+      {
+         "id":"poison.passion.dread.induction",
+         "actionId":"poison.passion.dread.induction",
+         "label":"Il Colore Strisciante",
+         "startdescription":"Le mie passioni sono avvelenate. Ogni fitta di emozioni porta una fitta di grigio feroce in risposta.",
+         "effects":{
+            "dread":1
+         },
+         "warmup":30
+      },
+      {
+         "id":"poison.reason.fascination.induction",
+         "actionId":"poison.reason.fascination.induction",
+         "label":"Luce Implacabile",
+         "startdescription":"Una candela, quando bruciata, porta la luce. Cosa succede quando i miei pensieri si accendono?",
+         "effects":{
+            "fascination":1
+         },
+         "warmup":30
+      },
+      {
+         "id":"poison.health.dread.induction",
+         "actionId":"poison.health.dread.induction",
+         "label":"L’Ospitalità dell’Agonia",
+         "startdescription":"Ho invitato un vecchio amico a rifugiarsi nei miei muscoli ancora per un giorno.",
+         "effects":{
+            "dread":1
+         },
+         "warmup":30
+      },
+      {
+         "id":"secret.induction",
+         "actionId":"unsuspicion",
+         "label":"I Vantaggi della Riservatezza",
+         "startdescription":"Ci siamo preoccupati che il nostro quartier generale sia lontano da occhi indiscreti...",
+         "description":"...forse per il Dipartimento Soppressione sarà più difficile seguire le tracce fino alla tua porta. Potrebbe anche essere più difficile mantenere una buona reputazione.",
+         "slots":[
+            {
+               "id":"reputation",
+               "label":"Reputazione",
+               "required":{
+                  "reputation":1
+               },
+               "greedy":true
+            }
+         ],
+         "warmup":180,
+         "effects":{
+            "reputation":-1
+         }
+      }
+   ]
+}

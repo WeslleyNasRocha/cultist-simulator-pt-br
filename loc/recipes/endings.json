@@ -1,0 +1,52 @@
+{
+   "recipes":[
+      {
+         "id":"deathofthebody",
+         "label":"Nessuna Salute rimasta",
+         "actionId":"healthend",
+         "requirements":{
+            "health":-1,
+            "fatigue":-1
+         },
+         "effects":{},
+         "startdescription":"La mia vita scivola via...",
+         "description":"Dove mi troveranno? Io non sono qua.",
+         "warmup":0,
+         "craftable":false,
+         "ending":"deathofthebody",
+         "signalEndingFlavour":"Melancholy"
+      },
+      {
+         "id":"forlornblooddeathofthebody",
+         "label":"Nessuna Salute rimasta",
+         "actionId":"healthend",
+         "requirements":{
+            "health":-1,
+            "fatigue":-1,
+            "apostlegrail.pillar2":-1
+         },
+         "effects":{},
+         "startdescription":"L’empietà ha preso il sopravvento nelle mie ossa. Se non riuscirò a radunare le mie forze o ad assaggiare il sangue della nostra Delizia, sarà finita.",
+         "description":"Dove mi troveranno? Io non sono qua.",
+         "warmup":0,
+         "craftable":false,
+         "ending":"deathofthebody",
+         "signalEndingFlavour":"Melancholy"
+      },
+      {
+         "id":"workvictory",
+         "label":"Mi accontenterò di un’esistenza confortevole",
+         "actionId":"workwin",
+         "requirements":{
+            "passion":1
+         },
+         "effects":{},
+         "startdescription":"Ho rinunciato ai miei sogni; vivrò abbastanza bene.",
+         "description":"È finita.",
+         "warmup":0,
+         "craftable":false,
+         "ending":"workvictory",
+         "burnimage":"retirement"
+      }
+   ]
+}

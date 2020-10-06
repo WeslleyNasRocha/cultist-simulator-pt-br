@@ -1,0 +1,1160 @@
+{
+   "recipes":[
+      {
+         "id":"use.first",
+         "actionId":"use",
+         "label":"Da Sotto il Loro Naso",
+         "startdescription":"I miei vecchi confederati mi stanno cercando. Sento i loro fischi e glii schiocchi delle loro dita ad ogni angolo. E non c'è da meravigliarsi, dato quello che ho appena rubato. Ma quando è troppo è troppo.",
+         "requirements":{
+            "ticket.train":1
+         },
+         "effects":{
+            "ticket.train":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "city.aachen",
+               "city.prague",
+               "city.munich",
+               "city.london",
+               "city.krakow",
+               "city.avignon",
+               "city.venice",
+               "city.budapest"
+            ],
+            "draws":1,
+            "defaultcard":"wilderness",
+            "resetonexhaustion":false
+         },
+         "alt":[
+            {
+               "id":"rkx.first",
+               "additional":true
+            },
+            {
+               "id":"turn.begin",
+               "additional":true
+            },
+            {
+               "id":"travel.first",
+               "additional":true
+            }
+         ],
+         "warmup":2,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"send.investigate.description"
+            }
+         ]
+      },
+      {
+         "id":"use.attack.weapon.underling",
+         "actionId":"use",
+         "label":"Attaccare il mio Inseguitore",
+         "startdescription":"Un attacco diretto al mio inseguitore. [Questo distruggerà ogni carta Oscurità.]",
+         "comments":"Priority>createdefiance, in case someone is actually under attack from a pursuer",
+         "requirements":{
+            "weapon":1,
+            "op":-1
+         },
+         "extantreqs":{
+            "rkx.foe":-1,
+            "rkx.rank":1
+         },
+         "slots":[
+            {
+               "id":"with.lore",
+               "label":"Tecnica",
+               "description":"Un attacco che utilizza sia una tecnica della Lama sia un'arma colpirà sempre.",
+               "actionId":"use",
+               "required":{
+                  "lore":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"use.attack.underling.combo"
+            }
+         ],
+         "purge":{
+            "obscurity":100
+         },
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"use.attack.underling.hit",
+               "chance":70
+            },
+            {
+               "id":"use.attack.underling.miss",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"use.attack.lore.underling",
+         "actionId":"use",
+         "label":"Attaccare il mio Inseguitore",
+         "comments":"Priority>createdefiance, in case someone is actually under attack from a pursuer",
+         "startdescription":"Utilizzerò una tecnica della Lama per attaccare il mio inseguitore. [Questo distruggerà ogni carta Oscurità.]",
+         "requirements":{
+            "lore":1,
+            "op":-1
+         },
+         "extantreqs":{
+            "rkx.foe":-1,
+            "rkx.rank":1
+         },
+         "slots":[
+            {
+               "id":"with.weapon",
+               "label":"Arma",
+               "description":"Un attacco che utilizza sia una tecnica della Lama sia un'arma colpirà sempre.",
+               "actionId":"use",
+               "required":{
+                  "weapon":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"use.attack.underling.combo"
+            }
+         ],
+         "purge":{
+            "obscurity":100
+         },
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"use.attack.underling.hit",
+               "chance":70
+            },
+            {
+               "id":"use.attack.underling.miss",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"use.attack.underling.combo",
+         "actionId":"use",
+         "requirements":{
+            "lore":1,
+            "weapon":1
+         },
+         "label":"Acciaio e Scienza",
+         "purge":{
+            "obscurity":100
+         },
+         "startdescription":"Li supero, ed è ora che lo sappiano. [Un attacco che utilizza sia una tecnica della Lama sia un'arma colpirà sempre.]",
+         "linked":[
+            {
+               "id":"use.attack.underling.hit.combo"
+            }
+         ]
+      },
+      {
+         "id":"use.attack.underling.hit",
+         "actionId":"use",
+         "label":"Un Colpo Tangibile",
+         "startdescription":"Ho colpito, e mi sono dissolto in città! [Due Ferite uccideranno la maggior parte dei Contabili. Quattro Ferite uccideranno un Sottocapo.]",
+         "aspects":{
+            "striking.underling":1,
+            "fatiguing":1,
+            "tracerisk":1
+         },
+         "purge":{
+            "obscurity":100
+         },
+         "warmup":10,
+         "linked":[
+            {
+               "id":"use.attack.underboss.slain"
+            },
+            {
+               "id":"use.attack.underling.slain"
+            }
+         ]
+      },
+      {
+         "id":"use.attack.underling.hit.combo",
+         "actionId":"use",
+         "label":"Un Colpo Tangibile",
+         "startdescription":"I've struck, and faded back into the city! [Due Ferite uccideranno la maggior parte dei Contabili. Quattro Ferite uccideranno un Sottocapo.]",
+         "comments":"We don't use the base striking aspect because we don't want to generate two wounds",
+         "aspects":{
+            "striking.underling.weapon":1,
+            "fatiguing":1,
+            "tracerisk":1
+         },
+         "purge":{
+            "obscurity":100
+         },
+         "warmup":10,
+         "linked":[
+            {
+               "id":"use.attack.underboss.slain"
+            },
+            {
+               "id":"use.attack.underling.slain"
+            }
+         ]
+      },
+      {
+         "id":"use.attack.underling.miss",
+         "actionId":"use",
+         "label":"Cattivo Incontro",
+         "startdescription":"Questo è migliore, o più fortunato, di quanto mi aspettassi. Non gli ho fatto alcun danno.",
+         "purge":{
+            "obscurity":100
+         },
+         "aspects":{
+            "fatiguing":1
+         },
+         "warmup":10
+      },
+      {
+         "id":"use.attack.underboss.slain",
+         "actionId":"use",
+         "label":"Ho Fatto Fuori il Sottocapo!",
+         "startdescription":"Anche un signore minore dei contabili è difficile da uccidere. Ma, probabilmente, conto ancora come un signore minore dei contabili.",
+         "description":"Anche un signore minore dei contabili è difficile da uccidere. Ma, probabilmente, conto ancora come un signore minore dei contabili. [Mi sono sbarazzato del mio inseguitore, ma ne arriveranno altri.]",
+         "extantreqs":{
+            "rkx.underboss":1,
+            "damage.underling":4
+         },
+         "haltverb":{
+            "rkx":1
+         },
+         "effects":{
+            "trace":1,
+            "damage.underling":-1
+         },
+         "purge":{
+            "damage.underling":100,
+            "obscurity":100
+         },
+         "burnimage":"reckoner.slain",
+         "warmup":1
+      },
+      {
+         "id":"use.attack.underling.slain",
+         "actionId":"use",
+         "label":"Ho Fatto Fuori il mio Inseguitore!",
+         "startdescription":"I contabili non sono immortali. Compriamo solo anni e li vendiamo. Se mai avessi avuto bisogno di una prova, l'ho avuta stasera.",
+         "description":"I contabili non sono immortali. Compriamo solo anni e li vendiamo. Se mai avessi avuto bisogno di una prova, l'ho avuta stasera. [Mi sono sbarazzato del mio inseguitore, ma ne arriveranno altri.]",
+         "extantreqs":{
+            "rkx.rank":1,
+            "damage.underling":2,
+            "rkx.underboss":-1
+         },
+         "haltverb":{
+            "rkx":1
+         },
+         "effects":{
+            "trace":1,
+            "damage.underling":-1
+         },
+         "purge":{
+            "damage.underling":100,
+            "obscurity":100
+         },
+         "burnimage":"reckoner.slain",
+         "warmup":1
+      },
+      {
+         "id":"use.attack.weapon.createdefiance",
+         "actionId":"use",
+         "label":"Un'Arma Sacra",
+         "startdescription":"Dicevano che ci sarebbe voluto un proiettile d'argento per uccidere il mio Avversario. Ero presente quando ci hanno provato, e ho visto il fallimento. Ma che dire di questo?",
+         "description":"Nessun contabile è così sciocco da passare ai livelli superiori del Mansus. Attirare l'attenzione di un vero Lungo - o dei suoi maestri - sarebbe un invito all'annientamento. Ma il mio Avversario ha qualche conoscenza delle arti invisibili. Forse dovrei conoscerle anch'io. [L'Audacia attira l'attenzione. Questo distruggerà ogni Oscurità e creerà una Traccia.]",
+         "requirements":{
+            "weapon":1,
+            "uq.weapon.profane":-1,
+            "op":-1
+         },
+         "extantreqs":{
+            "temptation.defiance":-1
+         },
+         "effects":{
+            "temptation.defiance":1,
+            "trace":1
+         },
+         "purge":{
+            "obscurity":100
+         },
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"foe.weaknesses.generate"
+            }
+         ]
+      },
+      {
+         "id":"use.attack.lore.createdefiance",
+         "actionId":"use",
+         "label":"La Più Mortale delle Armi",
+         "startdescription":"Nessun contabile è così sciocco da passare ai livelli superiori del Mansus. Attirare l'attenzione di un vero Lungo - o dei suoi maestri - sarebbe un invito all'annientamento. Ma il mio Avversario aveva qualche traffico con le Ore della lotta e della conquista. Godeva di alcune protezioni. [L'Audacia attira l'attenzione. Questo distruggerà ogni Oscurità e creerà una Traccia.]",
+         "description":"Il mio Avversario ha qualche conoscenza delle 'arti invisibili'. Forse è ora che mi ci applichi anch'io.",
+         "requirements":{
+            "lore":1
+         },
+         "extantreqs":{
+            "temptation.defiance":-1
+         },
+         "effects":{
+            "temptation.defiance":1,
+            "trace":1
+         },
+         "purge":{
+            "obscurity":100
+         },
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"foe.weaknesses.generate"
+            }
+         ]
+      },
+      {
+         "id":"foe.weaknesses.generate",
+         "actionId":"use",
+         "label":"Pericolose Possibilità",
+         "startdescription":"Anche il mio Avversario ha delle debolezze - ma le ha protette attentamente. [Scopri quali Distrazioni funzionano contro il tuo Avversario, e sarai in grado di scegliere il luogo più vantaggioso per combatterlo.]",
+         "deckeffects":{
+            "rkx.weaknesses.environment":1,
+            "rkx.weaknesses.quirk":1,
+            "rkx.weaknesses.disfavour":1
+         }
+      },
+      {
+         "id":"foe.weaknesses.generate.backup",
+         "actionId":"foe.weaknesses.generate.backup",
+         "label":"Pericolose Possibilità",
+         "startdescription":"Anche il mio Avversario ha delle debolezze - ma le ha protette attentamente. [Scopri quali Distrazioni funzionano contro il tuo Avversario, e sarai in grado di scegliere il luogo più vantaggioso per combatterlo.]",
+         "comments":"To be triggered from Defiance use - just in case weaknesses haven't been generated when meeting the Foe",
+         "extantreqs":{
+            "weakness.foe":-1,
+            "weakness.foe.unknown":-1
+         },
+         "deckeffects":{
+            "rkx.weaknesses.environment":1,
+            "rkx.weaknesses.quirk":1,
+            "rkx.weaknesses.disfavour":1
+         }
+      },
+      {
+         "id":"use.attack.weapon.foe",
+         "actionId":"use",
+         "label":"Usare un'arma sacra per attaccare il mio Avversario",
+         "startdescription":"Nell'affrontare me, anche lui è diventato un bersaglio... ma non uno facile. [Gli attacchi con le armi di solito, ma non sempre, colpiscono. Mentre l'Avversario è sul tavolo, non puoi attaccare i Contabili minori. Questo distruggerà tutta l'Oscurità.]",
+         "requirements":{
+            "weapon":1,
+            "uq.weapon.profane":-1,
+            "op":-1
+         },
+         "extantreqs":{
+            "rkx.foe":1
+         },
+         "slots":[
+            {
+               "id":"with.lore",
+               "label":"Tecnica",
+               "description":"Un attacco che utilizza sia una tecnica della Lama sia un'arma colpirà sempre.",
+               "actionId":"use",
+               "required":{
+                  "lore":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"use.attack.foe.combo"
+            }
+         ],
+         "purge":{
+            "obscurity":100
+         },
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"use.attack.foe.hit",
+               "chance":70
+            },
+            {
+               "id":"use.attack.foe.miss",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"use.attack.lore.foe",
+         "actionId":"use",
+         "label":"Usare una tecnica della Lama per attaccare il mio Avversario",
+         "startdescription":"Nell'affrontare me, anche lui è diventato un bersaglio... ma non uno facile. [Una Tradizione di solito, ma non sempre, va a segno. Mentre l'Avversario è sul tavolo, non puoi attaccare i Contabili minori. Questo distruggerà tutta l'Oscurità.]",
+         "requirements":{
+            "lore":1,
+            "op":-1
+         },
+         "extantreqs":{
+            "rkx.foe":1
+         },
+         "slots":[
+            {
+               "id":"with.weapon",
+               "label":"Arma",
+               "description":"Un attacco che utilizza sia una tecnica della Lama sia un'arma colpirà sempre.",
+               "actionId":"use",
+               "required":{
+                  "weapon":1
+               },
+               "forbidden":{
+                  "uq.weapon.profane":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"use.attack.foe.combo"
+            }
+         ],
+         "purge":{
+            "obscurity":100
+         },
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"use.attack.foe.hit",
+               "chance":70
+            },
+            {
+               "id":"use.attack.foe.miss",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"use.attack.foe.combo",
+         "actionId":"use",
+         "requirements":{
+            "lore":1,
+            "weapon":1
+         },
+         "label":"Acciaio e Scienza",
+         "startdescription":"Non me l'ha mai insegnato. [Un attacco che utilizza sia una tecnica della Lama sia un'arma colpirà sempre.]",
+         "purge":{
+            "obscurity":100
+         },
+         "linked":[
+            {
+               "id":"use.attack.foe.hit.combo"
+            }
+         ]
+      },
+      {
+         "id":"use.attack.foe.hit",
+         "actionId":"use",
+         "label":"L'ho ferito!",
+         "startdescription":"'Non pensare che questo mi fermerà -'",
+         "purge":{
+            "obscurity":100
+         },
+         "aspects":{
+            "striking.foe":1,
+            "fatiguing":1
+         },
+         "warmup":10,
+         "linked":[
+            {
+               "id":"use.attack.foe.slain"
+            }
+         ]
+      },
+      {
+         "id":"use.attack.foe.hit.combo",
+         "actionId":"use",
+         "label":"L'ho ferito!",
+         "startdescription":"'Non pensare che questo mi fermerà -'",
+         "comments":"We don't use the base striking aspect because we don't want to generate two wounds",
+         "purge":{
+            "obscurity":100
+         },
+         "aspects":{
+            "striking.foe.weapon":1,
+            "fatiguing":1
+         },
+         "warmup":10,
+         "linked":[
+            {
+               "id":"use.attack.foe.slain"
+            }
+         ]
+      },
+      {
+         "id":"use.attack.foe.miss",
+         "actionId":"use",
+         "label":"Ha evitato il mio attacco - ",
+         "startdescription":"'Pensavo di averti insegnato qualcosa di migliore.'",
+         "purge":{
+            "obscurity":100
+         },
+         "aspects":{
+            "fatiguing":1
+         },
+         "warmup":10
+      },
+      {
+         "id":"use.attack.foe.slain",
+         "actionId":"use",
+         "label":"Una Vittoria Sanguinosa",
+         "startdescription":"Il corpo del mio Avversario è trafitto da sette ferite, come le mura di una città sono forate da sette porte, e ogni ferita ha cessato di sanguinare. Il suo cuore giace tremante nella mia mano insanguinata. È morto. È quasi finita. Le mie ferite si rinforzeranno fino a divenire cicatrici. Con un po' di fortuna, gli altri miei inseguitori cadranno litigando sul territorio dell'Avversario, e mi lasceranno qui da solo.",
+         "extantreqs":{
+            "damage.foe":7
+         },
+         "haltverb":{
+            "rkx":1,
+            "rkx.foe":1
+         },
+         "burnimage":"foe.slain",
+         "effects":{
+            "trace":1,
+            "rkx.foe.defeated":1,
+            "wound.foe":-1
+         },
+         "purge":{
+            "damage.foe":100,
+            "damage.underling":100
+         }
+      },
+      {
+         "id":"use.attack.weapon.notarget.hint",
+         "actionId":"use",
+         "label":"Un'Arma Sacra?",
+         "startdescription":"Questo potrebbe essere efficace contro le protezioni del mio Avversario. Potrei anche essere in grado di duellare con lui. Se fosse solo. E se avessi qualche ragione di credere che potrei effettivamente sconfiggerlo in un duello. [Puoi attaccare l'Avversario quando arriva.]",
+         "requirements":{
+            "weapon":1,
+            "uq.weapon.profane":-1,
+            "op":-1,
+            "connection":-1
+         },
+         "extantreqs":{
+            "rkx.foe":-1
+         },
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"use.profaneweapon.notarget.hint",
+         "actionId":"use",
+         "label":"Un'Arma?",
+         "startdescription":"Sarebbe inutile contro le protezioni del mio nemico, ma potrei, purtroppo, trovarmi sparare a qualcun altro, prima o poi. [Puoi attaccare i contabili quando arrivano.]",
+         "requirements":{
+            "weapon":1,
+            "uq.weapon.profane":1,
+            "op":-1,
+            "connection":-1
+         },
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"use.attack.lore.notarget",
+         "actionId":"use",
+         "label":"Una Tecnica Sacra?",
+         "startdescription":"Ho imparato qualcosa sulle protezioni che il mio Avversario usa. Potrei anche essere in grado di duellare con lui. Se fosse solo. E se avessi qualche ragione di credere che potrei effettivamente sconfiggerlo in un duello.",
+         "requirements":{
+            "lore":1,
+            "edge":4,
+            "op":-1,
+            "connection":-1
+         },
+         "extantreqs":{
+            "rkx.foe":-1
+         },
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"use.attack.lore.notarget.notupgraded",
+         "actionId":"use",
+         "label":"Una Via d'Uscita?",
+         "startdescription":"Se riuscissi ad imparare qualcosa di più sulle protezioni che il mio nemico usa, potrei anche essere in grado di duellare con lui. Se fosse solo. E se avessi qualche ragione di credere che potrei effettivamente sconfiggerlo in un duello.",
+         "requirements":{
+            "lore":1,
+            "op":-1,
+            "connection":-1
+         },
+         "extantreqs":{
+            "rkx.foe":-1
+         },
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"use.dawn",
+         "actionId":"use",
+         "label":"Guarda l'Alba",
+         "startdescription":"C'è qualcosa nella mia mente?",
+         "requirements":{
+            "op.dawn":1
+         },
+         "slots":[
+            {
+               "id":"temptation",
+               "label":"Tentazione",
+               "required":{
+                  "desire":1
+               }
+            }
+         ],
+         "warmup":10,
+         "alt":[
+            {
+               "id":"tourism.tranquillity"
+            },
+            {
+               "id":"tourism.rage"
+            }
+         ],
+         "effects":{
+            "op.dawn":-1,
+            "fascination":1
+         },
+         "craftable":true
+      },
+      {
+         "id":"use.sunset",
+         "actionId":"use",
+         "label":"Guarda il Tramonto",
+         "startdescription":"C'è qualcosa nella mia mente?",
+         "requirements":{
+            "op.sunset":1
+         },
+         "slots":[
+            {
+               "id":"temptation",
+               "label":"Tentazione",
+               "required":{
+                  "desire":1
+               }
+            }
+         ],
+         "warmup":10,
+         "alt":[
+            {
+               "id":"tourism.tranquillity"
+            },
+            {
+               "id":"tourism.rage"
+            }
+         ],
+         "effects":{
+            "op.sunset":-1,
+            "restlessness":1
+         },
+         "craftable":true
+      },
+      {
+         "id":"use.night",
+         "actionId":"use",
+         "label":"Guarda le Strade di Notte",
+         "startdescription":"C'è qualcosa nella mia mente?",
+         "requirements":{
+            "op.night":1
+         },
+         "slots":[
+            {
+               "id":"temptation",
+               "label":"Tentazione",
+               "required":{
+                  "desire":1
+               }
+            }
+         ],
+         "warmup":10,
+         "alt":[
+            {
+               "id":"tourism.tranquillity"
+            },
+            {
+               "id":"tourism.rage"
+            }
+         ],
+         "effects":{
+            "op.night":-1,
+            "dread":1
+         },
+         "craftable":true
+      },
+      {
+         "id":"tourism.tranquillity",
+         "actionId":"use",
+         "label":"Pensieri di Pace",
+         "startdescription":"È passato molto tempo da quando ero in pace. Questo potrebbe essere un nuovo inizio.",
+         "requirements":{
+            "temptation.obscurity":1
+         },
+         "effects":{
+            "op":-1,
+            "tranquillity":1
+         }
+      },
+      {
+         "id":"tourism.rage",
+         "actionId":"use",
+         "label":"Pensieri di Furia",
+         "startdescription":"Stringo i pugni, sento la forza in loro. Arriva il momento in cui smetterò di correre. Prima di quanto pensano.",
+         "requirements":{
+            "temptation.defiance":1
+         },
+         "effects":{
+            "op":-1,
+            "rage":1
+         }
+      },
+      {
+         "id":"use.negotiate.hint",
+         "actionId":"use",
+         "label":"Negoziare?",
+         "startdescription":"[Aggiungi una Connessione appropriata.]",
+         "requirements":{
+            "op":1,
+            "price.connection":1
+         },
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"use.negotiate",
+         "actionId":"use",
+         "label":"Una Negoziazione",
+         "startdescription":"Non ho tempo per farlo nel modo giusto. Per fortuna che ho le connessioni per farlo nel modo veloce.",
+         "description":"@#licence.medical|'E buongiorno a <i>lei</i>, Dottore.'\n#licence.import|'Non dobbiamo preoccuparci di questi dettagli. Non tra amici.'\n#Ecco fatto.|@",
+         "comments":"The slots on the purchaseable item are what restrict to a relevant connection.",
+         "requirements":{
+            "op":1,
+            "connection":1
+         },
+         "aspects":{
+            "negotiation":1
+         },
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"use.purchase.lifespan.radicals.problem",
+         "actionId":"use",
+         "label":"Acquistare con Anni",
+         "startdescription":"Ecco qualcuno che accetterà il pagamento solo nella valuta del Conteggio Cinereo. Ma ho un amico ai piani alti al quale non piacerà questa cosa. [Questo saboterà la tua Connessione con un Regnante.]",
+         "description":"Ecco fatto.",
+         "requirements":{
+            "op.connection.radicals":1,
+            "price.lifespan.stolen":1,
+            "lifespan.stolen":"price.lifespan.stolen"
+         },
+         "aspects":{
+            "purchase":1
+         },
+         "extantreqs":{
+            "connection.ruler":1
+         },
+         "purge":{
+            "connection.ruler":1
+         },
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"use.purchase.lifespan.ruler.problem",
+         "actionId":"use",
+         "label":"Acquistare con Anni",
+         "startdescription":"Ecco qualcuno che accetterà il pagamento solo nella valuta del Conteggio Cinereo. Ma ho amici radicali ai quali non piacerà questa cosa. [Questo saboterà la tua Connessione con i Radicali.]",
+         "description":"Ecco fatto.",
+         "requirements":{
+            "op.connection.ruler":1,
+            "price.lifespan.stolen":1,
+            "lifespan.stolen":"price.lifespan.stolen"
+         },
+         "aspects":{
+            "purchase":1
+         },
+         "extantreqs":{
+            "connection.radicals":1
+         },
+         "purge":{
+            "connection.radicals":1
+         },
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"use.purchase.lifespan",
+         "actionId":"use",
+         "label":"Acquistare con Anni",
+         "startdescription":"Ecco qualcuno che accetterà il pagamento solo nella valuta del Conteggio Cinereo.",
+         "description":"Ecco fatto.",
+         "requirements":{
+            "op":1,
+            "price.lifespan.stolen":1,
+            "lifespan.stolen":"price.lifespan.stolen"
+         },
+         "aspects":{
+            "purchase":1
+         },
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"use.purchase.lifespan.hint",
+         "actionId":"use",
+         "label":"Acquistare con Anni?",
+         "startdescription":"[Aggiungi abbastanza anni per corrispondere al prezzo richiesto.]",
+         "requirements":{
+            "op":1,
+            "price.lifespan.stolen":1
+         },
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"use.purchase.property.tripoli",
+         "actionId":"use",
+         "label":"Acquistare",
+         "startdescription":"Acquistare qualcosa di utile.",
+         "description":"Il venditore è un vecchio in una calotta di perline, con le guance profondamente scavate, una barba rasata sbiancata e occhi scuri e dolorosi. Ci stringiamo la mano per solennizzare l'acquisto, e lui prende la mia mano nelle sue ed esamina il mio volto. 'Sì,' dice. 'Tu sei suo. Veniva qui, sai. Speravo che anche tu saresti venuto un giorno.'",
+         "requirements":{
+            "op":1,
+            "price":1,
+            "worth":"price",
+            "purchase.property":1
+         },
+         "effects":{
+            "contact.retainer":1
+         },
+         "extantreqs":{
+            "domicile.tripoli":1,
+            "contact.retainer":-1,
+            "contact.retainer.exhausted":-1
+         },
+         "aspects":{
+            "purchase":1
+         },
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"use.purchase",
+         "actionId":"use",
+         "label":"Acquistare",
+         "startdescription":"Acquistare qualcosa di utile.",
+         "description":"@#townhouse|Un buon posto per riposarmi, o per ospitare i contatti che voglio conquistare. Ho assunto un paio di persone discrete e installato qualche serratura in più sulle porte, ma questo non rallenterà molto i miei inseguitori.\n#villa|Abbastanza lontana dalla città da ottenere un po' di pace. Un buon posto per riposarmi, per lavorare su progetti lontani da occhi indiscreti, o per ospitare i contatti che voglio conquistare. Sarà un incubo da difendere se si arriverà a questo punto, però.\n#|Ecco fatto.@",
+         "requirements":{
+            "op":1,
+            "price":1,
+            "worth":"price"
+         },
+         "aspects":{
+            "purchase":1
+         },
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"use.purchase.hint",
+         "actionId":"use",
+         "label":"Acquistare?",
+         "startdescription":"[Aggiungi abbastanza oggetti di Valore per corrispondere al prezzo richiesto.]",
+         "requirements":{
+            "op":1,
+            "price":1
+         },
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"use.bookofsuns.restore",
+         "actionId":"use",
+         "label":"Restaurare il Libro dei Soli",
+         "startdescription":"Quale messaggio è stato qui scisso? Per quanto tempo queste pagine sono rimaste nell'oscurità?",
+         "description":"L'avidità costrinse, e l'insensibilità permise, la separazione delle pagine del Libro dei Soli. Così va la storia. Ma erano davvero questi i motivi? Il cielo esala il suo respiro mentre le immagini dorate si riuniscono di nuovo; il vento cessa. O almeno così sembra. Probabilmente ho solo bisogno di più sonno.",
+         "requirements":{
+            "curio.lantern":3,
+            "cash":1
+         },
+         "effects":{
+            "curio.lantern":-3,
+            "cash":-1,
+            "rarity.lantern":1,
+            "fascination":1
+         },
+         "warmup":60,
+         "craftable":true,
+         "burnimage":"pentiment",
+         "linked":[
+            {
+               "id":"use.fatiguing"
+            }
+         ]
+      },
+      {
+         "id":"use.comfort",
+         "actionId":"use",
+         "label":"Rilassarsi",
+         "startdescription":"@#domicile.tripoli|Qualcosa nell'aria di questa città, o nella luce, mi è familiare...\n#|Ho rischiato così tanto per questa fortuna intascata. Posso anche godere dei suoi benefici.@",
+         "description":"Niente dura. È qualcosa per cui essere grati.",
+         "requirements":{
+            "comfort":1,
+            "price":-1
+         },
+         "effects":{
+            "contentment":"comfort"
+         },
+         "warmup":60,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"use.fatiguing"
+            }
+         ]
+      },
+      {
+         "id":"use.renew.op.sea.curio.morgen.used.hint",
+         "actionId":"use",
+         "label":"'Solo Una Volta'",
+         "startdescription":"Un lungo cinguettante ed incerto starnazzare che muore nell'aria.",
+         "requirements":{
+            "op.sea":1,
+            "curio.morgen":1
+         },
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"use.renew.op.sea.curio.morgen",
+         "actionId":"use",
+         "label":"Chiamare Mme Matutine",
+         "startdescription":"Una lunga nota aspra come il grido di un gabbiano, che cresce più forte mentre stacco il flauto dalle mie labbra. Il flauto si rompe lungo tutta la sua lunghezza.",
+         "description":"E c'è il <i>Sapphire</i>, lo yacht di Mme Matutine, che scivola nel porto come un coltello bianco trascinato su vetro verde.",
+         "requirements":{
+            "op.sea":1,
+            "curio.morgen":1,
+            "uses.remaining":1
+         },
+         "effects":{
+            "op.morgen":1
+         },
+         "mutations":[
+            {
+               "filter":"curio.morgen",
+               "mutate":"uses.remaining",
+               "level":-1,
+               "additive":true
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"use.renew.op.cats",
+         "actionId":"use",
+         "label":"Seguire",
+         "startdescription":"Indagherò un po' più da vicino. [Questo rinnoverà la durata dell'Opportunità nel caso in cui tu ne abbia bisogno in seguito.]",
+         "description":"Ecco.",
+         "requirements":{
+            "op.cats":1
+         },
+         "slots":[
+            {
+               "id":"light",
+               "label":"Luce",
+               "description":"'Quando tutte le candele sono spente, tutti i gatti sono grigi.'",
+               "required":{
+                  "lantern":1
+               },
+               "consumes":true
+            }
+         ],
+         "alt":[
+            {
+               "id":"use.find.nameless"
+            }
+         ],
+         "aspects":{
+            "renewal.exile":1
+         },
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"use.renew.op.horned.candia",
+         "actionId":"use",
+         "label":"Visita il Tempio dei Gufi",
+         "startdescription":"Ai piedi del Monte Ida, nei recinti in rovina della Loggia Minoica delle Porte, c'è un albero di biancospino di grandi dimensioni. Quando arriverò sarà notte profonda. In campagna le cicale ronzeranno come seghe, ma nel Tempio sono sempre silenziose. Anch'io sarò riluttante a parlare ad alta voce. Conosco queste cose dall'ultima volta che sono stato lì - la notte in cui ho scoperto il nome di mio padre -",
+         "requirements":{
+            "op.horned":1
+         },
+         "extantreqs":{
+            "domicile.candia":1,
+            "memento.knock":-1,
+            "rarity.knock.poison":-1
+         },
+         "linked":[
+            {
+               "id":"use.renew.op.horned.candia.2"
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"use.renew.op.horned.candia.2",
+         "actionId":"use",
+         "label":"Nel Tempio dei Gufi",
+         "startdescription":"Nel biancospino, gli occhi dei gufi brillano d'oro pallido. C'è un bagliore, anche, sotto l'albero. Un uomo alto in una giacca di pelle di serpente ha appena acceso una sigaretta. Nella luce del fiammifero vedo il suo viso, magro, scuro, e familiare. 'Ciao di nuovo, 'dice. Questa è una sorpresa. Suppongo che la Doppia Lama ti abbia portato qui per chiarire qualcosa? Non vorrà che ci siano nuove diadi della Lama al mondo... hai qualcosa da mostrarmi?'",
+         "slots":[
+            {
+               "id":"reference",
+               "label":"Riferimento",
+               "description":"Un punto di riferimento.",
+               "required":{
+                  "pentiment":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"use.renew.op.horned.candia.pentiment"
+            }
+         ],
+         "linked":[
+            {
+               "id":"use.renew.op.horned.candia.3"
+            }
+         ],
+         "warmup":30
+      },
+      {
+         "id":"use.renew.op.horned.candia.3",
+         "actionId":"use",
+         "label":"Nel Tempio dei Gufi",
+         "startdescription":"Lo sconosciuto alza le spalle. 'Non importa. Potresti trovare questo più utile, comunque. 'Sputa ordinatamente in una fiala di vetro e la chiude pizzicando la parte superiore. 'Non dire a nessuno che l'ho fatto,' dice in modo cospiratorio. 'Mi metterei nei guai, di nuovo.' Mi passa la fiala. 'Ricorda sempre', aggiunge girandosi mentre si allontana, 'o è il leone di qualcuno, o il leone di nessuno.'",
+         "effects":{
+            "rarity.knock.poison":1,
+            "op.horned":-1
+         },
+         "warmup":30
+      },
+      {
+         "id":"use.renew.op.horned.candia.pentiment",
+         "actionId":"use",
+         "label":"Nel Tempio dei Gufi",
+         "requirements":{
+            "pentiment":1
+         },
+         "startdescription":"Lo straniero annuisce, e spegne la sua sigaretta sul tronco dell'albero. Inizia a sbucciare un'arancia. 'È sempre troppo tardi, alla fine,' osserva masticando un boccone di arancia, 'ma fino ad allora, non lo è. Alexandros pensava che fosse importante. Il Leonfabbro non lo fece mai. Mi passa il mozzicone della sua sigaretta. 'È meglio che alcune cose non vengano dette', aggiunge girandosi mentre si allontana. 'È stato bello rivederti.'",
+         "effects":{
+            "memento.knock":1,
+            "op.horned":-1
+         },
+         "burnimage":"pentiment",
+         "warmup":30
+      },
+      {
+         "id":"use.rkx.foe.defeated",
+         "actionId":"use",
+         "label":"Cominciare la mia Nuova Vita",
+         "startdescription":"È ora di andare avanti. Qualunque cosa avessi voluto fare... ora sono libero di farlo. [Maggiore è il tuo Comfort, maggiore il grado della Vittoria.]",
+         "requirements":{
+            "rkx.foe.defeated":1
+         },
+         "linked":[
+            {
+               "id":"send.victory.obscurity.c.foeslain"
+            },
+            {
+               "id":"send.victory.obscurity.b.foeslain"
+            },
+            {
+               "id":"send.victory.obscurity.a.foeslain"
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"use.renew",
+         "actionId":"use",
+         "label":"Riservare",
+         "startdescription":"Indagherò un po' più da vicino. [Questo rinnoverà la durata dell'Opportunità nel caso in cui tu ne abbia bisogno in seguito.]",
+         "description":"Ecco.",
+         "requirements":{
+            "op":1,
+            "asset":-1,
+            "price":-1,
+            "price.connection":-1,
+            "price.lifespan.stolen":-1
+         },
+         "aspects":{
+            "renewal.exile":1
+         },
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"use.find.nameless",
+         "actionId":"use",
+         "label":"Follow",
+         "startdescription":"Il Velluto, il quale nasconde i segreti, possiede un Nome Innominato. Nelle nebbie di quel Nome, gli sconfitti trovano conforto. Quel Nome non si vede mai, se non, di tanto in tanto, grazie al più grigio dei gatti. [Questo consumerà sia l'Opportunità che la luce.]",
+         "description":"Seguo la coda ondeggiante di un gatto grigio per le strade dopo il tramonto.",
+         "requirements":{
+            "lantern":1
+         },
+         "effects":{
+            "loc.shrine.nameless":1,
+            "op.cats":-1
+         }
+      },
+      {
+         "id":"use.fatiguing",
+         "label":".",
+         "actionId":"use",
+         "comments":"Ricetta a seguire per affaticare le risorse e riordinare i consumabili",
+         "aspects":{
+            "fatiguing":1
+         }
+      },
+      {
+         "id":"use.connection.official",
+         "actionId":"use",
+         "label":"Possibilità",
+         "startdescription":"Posso chiedere al mio contatto di cercare qualche opportunità. Dovrò coprire le sue spese, naturalmente. [Questo creerà l'opportunità di acquistare delle Credenziali Mediche o una Licenza d'Importazione.]",
+         "description":"Questo può essere utile.",
+         "requirements":{
+            "connection.official":1,
+            "worth":1
+         },
+         "internaldeck":{
+            "spec":[
+               "op.licence.medical",
+               "op.licence.import"
+            ],
+            "draws":1,
+            "resetonexhaustion":true
+         },
+         "aspects":{
+            "fatiguing":1
+         },
+         "warmup":60,
+         "craftable":true
+      }
+   ]
+}

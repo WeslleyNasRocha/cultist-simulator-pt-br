@@ -1,0 +1,20 @@
+{
+   "elements":[
+      {
+         "id":"paintingmansus",
+         "label":"Un Dipinto dell’Esterno del Mansus",
+         "description":"Scale salgono in grigi arcobaleni; le finestre attendono.",
+         "aspects":{
+            "knock":1,
+            "lantern":1
+         }
+      },
+      {
+         "id":"overexposure",
+         "label":"Sovraesposizione",
+         "description":"Il pubblico è sempre capriccioso.",
+         "lifetime":1,
+         "decayTo":"funds"
+      }
+   ]
+}

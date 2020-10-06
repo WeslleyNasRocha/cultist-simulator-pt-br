@@ -1,0 +1,2055 @@
+{
+   "elements":[
+      {
+         "id":"vaultcapital1",
+         "label":"Residenza di Strathcoyne",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcapital":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"La casa del Sig. Strathcoyne, un collezionista di oggetti rari. Strathcoyne non venderà i suoi tesori. Ma un complice sufficientemente astuto potrebbe guadagnarsi l’entrata.",
+         "unique":true
+      },
+      {
+         "id":"vaultcapital2",
+         "label":"Mitreo Dimenticato",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcapital":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"I cercatori di curiosità hanno già passato al setaccio questo antico tempio, ma potrebbe esserci una Porta Nascosta da qualche parte.",
+         "unique":true
+      },
+      {
+         "id":"vaultcapital3",
+         "label":"Cater & Hero Limited",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcapital":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"È stato abbandonato fin dall’esplosione, quando morì il proprietario. Le macchine restano silenti; l’edificio è un guscio in rovina. Il Sig. Cater era rinomato per mettere in mostra oggetti particolari nel suo ufficio. Forse è rimasto qualcosa. ",
+         "unique":true
+      },
+      {
+         "id":"vaultcapital4",
+         "label":"Ospedale Sant’Agnese",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcapital":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Facevano un buon lavoro qui, un tempo. Certamente venivano fatte un po’ troppe amputazioni, ma erano individui che si preferiva non vedere per le strade.",
+         "unique":true
+      },
+      {
+         "id":"vaultcapital5",
+         "label":"Congrega di San Felix di Schüren",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcapital":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"L’enclave di una setta eterodossa di un ramo Calvinista Nonconformista, nascosta in un angolo bizzarro della città. Cantavano a squarciagola inni di dubbio gusto, in una lingua dilania gole che non assomiglia per niente al Latino.",
+         "unique":true
+      },
+      {
+         "id":"vaultcapitaldefault",
+         "label":"La Distanza Abbandonata",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcapital":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Il magazzino attende tra i banchi grigi delle rive marcescenti. Forse ho scoperto dove viene tenuto un carico inusuale. [Hai trovato tutte le Spedizioni nella Capitale, sebbene tu possa trovare e visitare la Distanza molte volte.]"
+      },
+      {
+         "id":"vaultshires1",
+         "label":"Lago Gladwyn",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultshires":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Sotto le crude pendici delle colline, attende la superficie del lago avvolta dalla nebbia. Vi fu un altare gemello qui, prima che arrivassero i Romani; e una leggenda su di un serpente, che mandato a profanare l’altare.",
+         "unique":true
+      },
+      {
+         "id":"vaultshires2",
+         "label":"Palude di Lockwood",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultshires":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Le puzzolenti tenebre delle Fenlands brulicano di vita furtiva. I taciturni residenti sorvegliano ancora i luoghi sacri agli dei piccoli e segreti, quelli che <i>rispondono</i> alle preghiere.",
+         "unique":true
+      },
+      {
+         "id":"vaultshires3",
+         "label":"Collina Crowkiss",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultshires":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Le antiche tribù riservarono questo luogo di sepoltura a colui che, alla fine del servizio di un’Ora spietata, fosse più ferite che uomo. Sigillarono l’entrata con canti vincolanti e malta impregnata di sangue.",
+         "unique":true
+      },
+      {
+         "id":"vaultshires4",
+         "label":"Il Graffio di Keglin",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultshires":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Qui i Romani scavarono per l’argento, finché non raggiunsero gli spazi non autorizzati dove i Nomi nascosero le cose inadatte alla luce del sole. Molti altri sono venuti qui da allora, anche se i tunnel crollano. Alcuni non sono mai tornati.",
+         "unique":true
+      },
+      {
+         "id":"vaultshires5",
+         "label":"Gwaer Inn",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultshires":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"In una scogliera insicura sopra un mare grigio, si accovaccia il Gwaer Inn, fino al giorno in cui il mare verrà a portarselo via. Riceve pochi ospiti - sempre meno da quando il proprietario ha chiuso la sua famigerata libreria.",
+         "unique":true
+      },
+      {
+         "id":"vaultshiresdefault",
+         "label":"Kerisham",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultshires":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"sending",
+               "label":"Inviato",
+               "description":"Prima o poi, la spedizione potrebbe avere un altro scopo.",
+               "required":{
+                  "sendingheartb":1,
+                  "sendingmothb":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Attraversa i bassifondi fino alla costa dove la terra grigio-verde incontra il grigio dell'Atlantico. Cerca lungo la strada i cartelli per la città di Kerisham. La troverai raramente, anche se l'hai già visitata; i suoi abitanti fanno la guardia ai loro segreti con maledizioni, manganelli e porte sprangate. [Hai trovato tutte le Spedizioni nella Contea, sebbene tu possa trovare e visitare Kerisham molte volte.]"
+      },
+      {
+         "id":"vaultcontinent1",
+         "label":"Chateau Raveline",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcontinent":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Le leggende preferite dai Comtes des Raveline prevedono la loro discendenza dai <i>primi</i> Re-Sole. Altre storie li vedono aggirarsi nella foresta in guisa di lupo. Sono spariti da tempo. Il loro castello marcescente rimane. Non tutte le sue malvagità sono state scoperte.",
+         "unique":true
+      },
+      {
+         "id":"vaultcontinent2",
+         "label":"Abbazia Fermier",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcontinent":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Robert Fermier spese troppa della sua sgradevole fortuna nella fondazione di questa monumentale abbazia circondata dalla foresta. I monaci non apprezzano i visitatori. Le loro maniere non sono esattamente ortodosse. Celebrano una determinata festa del raccolto con disgustoso vigore.",
+         "unique":true
+      },
+      {
+         "id":"vaultcontinent3",
+         "label":"Foresta di Ortho",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcontinent":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"I pini crescono densi come i peli sulla schiena di un cane. L’aria nel cuore della foresta è soffocante e densa di resina e polvere. La fonte che ti ha condotto qui assicura che nell’era dell’alba l'albero più grande, nel cuore nero della foresta, servì da trespolo per un grande Corvo mascherato.",
+         "unique":true
+      },
+      {
+         "id":"vaultcontinent4",
+         "label":"La Collezione Vanderschaaf",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcontinent":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Un museo stretto e piccolo in una città di provincia, per lungo tempo chiuso al pubblico per un focolaio di bizzarre estasi avvenute nella stanza dei fiori pressati. Solamente i veri curiosi presterebbero attenzione al luogo, e i suoi magazzini pieni di tesori nefasti.",
+         "unique":true
+      },
+      {
+         "id":"vaultcontinent5",
+         "label":"Casa Forman",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcontinent":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Filip Forman, l’elmintologo ed antiquario, compì qui, nella sua casa di famiglia, i suoi migliori lavori fino al giorno in cui gli oggetti delle sue ricerche non fuggirono. L’infestazione venne distrutta, ma Forman, dicono, cammina le sale ancora oggi, facendo la guardia alla sua libreria e alla sua vergogna.",
+         "unique":true
+      },
+      {
+         "id":"vaultcontinent6",
+         "label":"Solaio dei Cacciatori di Chiavi",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcontinent":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Vienna è una di quelle poche città che possiede lo stesso nome in ogni Storia, sebbene gli adepti la conoscano come la Città Bianca, o la Città del Bianco. In una strada innevata, in una casa contorta, in un alto e rantolante attico, un eccentrico cacciatore di chiavi immaginarie ha radunato un tesoretto di libri rari.",
+         "unique":true
+      },
+      {
+         "id":"vaultcontinentdefault",
+         "label":"Le Innumerevoli Pietre",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultcontinent":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"sending",
+               "label":"Inviato",
+               "description":"Prima o poi, la spedizione potrebbe avere un altro scopo.",
+               "required":{
+                  "sendingheartc":1,
+                  "sendingmothc":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Megaliti posizionati in infallibili file ossessive da una casta di preti morta da tempo. Il tempo ha eliminato le macchie di sangue, ma nelle notti senza luna, i residenti integrano ciò che resta. Qui, stanze nascoste potrebbero custodire tesori nascosti. [Hai trovato tutte le Spedizioni nel Continente, sebbene tu possa trovare e visitare le Pietre molte volte.]"
+      },
+      {
+         "id":"vaultlandbeyondforest1",
+         "label":"Cava delle Candele",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultlandbeyondforest":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Ogni sette tramonti, l’uomo astuto viene dal vicino villaggio per cambiare le candele. Il pavimento della sala d’ingresso è ricoperto di cerca appiccicosa. Egli afferma che la luce intimidisca le creature creature al suo interno; ma è più probabile che siano i continui sacrifici a mantenerle troppo sazie per emergere.",
+         "unique":true
+      },
+      {
+         "id":"vaultlandbeyondforest2",
+         "label":"Cittadella del Voivoda",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultlandbeyondforest":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Nei giorni della grande minaccia Turca un potente uomo governava qui. In tanti anni egli nutrì molti appetiti, finché la sua stessa sete non lo sopraffece. Sono venuto a conoscenza del fatto che il suo tesoro e le sue vittime potrebbero giacere intoccati nella cripta al di sotto del castello.",
+         "unique":true
+      },
+      {
+         "id":"vaultlandbeyondforest3",
+         "label":"Circo Permanente di Grunewald",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultlandbeyondforest":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Una piccola città di tende rattoppate nelle vicinanze di una fattoria immacolata. Artisti ricurvi tremano nella pioggia cadente. Frau Grunewald ha dedicato la sua considerabile fortuna al mantenimento di questa istituzione: chissà perché? Gli artisti del circo non apprezzano gli intrusi dietro le quinte.",
+         "unique":true
+      },
+      {
+         "id":"vaultlandbeyondforest4",
+         "label":"Torre Revek",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultlandbeyondforest":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Il moncone maledetto di un edificio. L’aria imputridisce tutto. Qualsiasi potere abbia distrutto questo posto è rimasto appiccicato. Solo un piano si erge sulla terra, ma sospettiamo ci sia di più sotto.",
+         "unique":true
+      },
+      {
+         "id":"vaultlandbeyondforest5",
+         "label":"La Donazione Kusnetsov",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultlandbeyondforest":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Il Principe Kusnetsov donò un quarto della sua fortuna intrisa di sangue all’università provinciale per finanziare la fondazione del Dipartimento di Escatologia. Lo staff si è sviluppato in maniera peculiare, ora, e l’edificio marcisce in una palude congelata, ma una parte del lascito di Kusnetsov è stato speso in tesori.",
+         "unique":true
+      },
+      {
+         "id":"vaultlandbeyondforestdefault",
+         "label":"Prati di Gigli della Volpe",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultlandbeyondforest":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"sending",
+               "label":"Inviato",
+               "description":"Prima o poi, la spedizione potrebbe avere un altro scopo.",
+               "required":{
+                  "sendingheartd":1,
+                  "sendingmothd":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"I prati di gigli della volpe ispirano appetiti feroci. È probabilmente una fortuna che questi crescano solamente a quest'altitudine. I contadini si sono organizzati per tenere i cercatori di tesori lontani, ma alcuni cercatori cadono preda degli appetiti dei gigli. I loro beni giacciono presso le loro ossa; e così il ciclo prosegue. [Hai trovato tutte le Spedizioni nella Terra al di là della Foresta, sebbene tu possa trovare e visitare i Prati molte volte.]"
+      },
+      {
+         "id":"vaultrendingmountains1",
+         "label":"Fosse del Cacciatore",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultrendingmountains":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Le Tribù Laceranti allargarono il sistema di cave, scavando condotti, preparando trappole. Potrebbe esser stato un luogo per le esecuzioni, o un banco di prova. In entrambi i casi è sacro, e le tribù non ci vogliono là. Se sopravviveremo, ci sarà ancora un antico terrore da affrontare nei tunnel angusti.",
+         "unique":true
+      },
+      {
+         "id":"vaultrendingmountains2",
+         "label":"Snow's Keeper",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultrendingmountains":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Un tempio sul picco di una montagna dall’aspetto nefasto. Chiazze di funghi luminosi come gioielli brillano nella neve. Nessuno viene qui da una generazione, ma qualcosa ancora si muove all’interno.",
+         "unique":true
+      },
+      {
+         "id":"vaultrendingmountains3",
+         "label":"L’Occhio di Ikirmawi",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultrendingmountains":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Abbiamo letto di un sultano che, ottocento anni fa, poteva dormire solamente sotto le stelle. Ordinò la costruzione di questo osservatorio, così che le stelle potessero essere adeguatamente raffigurate sul soffitto della sua stanza. Purtroppo, queste stelle non erano sicure per una mente umana non protetta. Il successore del sultano pose i sigilli all’osservatorio.",
+         "unique":true
+      },
+      {
+         "id":"vaultrendingmountains4",
+         "label":"Mausoleo dei Lupi",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultrendingmountains":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Questo monumento gelido fu costruito molto prima che cadesse Roma. Lupi di roccia fanno la guardia alla porta. Una stanza all’interno, ricavata dalla roccia, attende i frammenti del Sole alla sua profetizzata processione funeraria. Quella processione non è mai avvenuta, ma i Morti sono ancora attratti da questo luogo.",
+         "unique":true
+      },
+      {
+         "id":"vaultrendingmountainsdefault",
+         "label":"Tombe dei Re Senza Ombra",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultrendingmountains":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"In un campo di pietre del colore del leone, affiorano le tombe dei primi re di queste terre. Questi re avevano sperato di essere immortali, e forse uno di loro lo è. Gli altri giacciono con i loro gingilli. Un ordine ereditario di guardiani le controlla ancora. [Hai trovato tutte le Spedizioni nelle Montagne Laceranti, sebbene tu possa trovare e visitare le Tombe molte volte.]"
+      },
+      {
+         "id":"vaultloneandlevelsands1",
+         "label":"Altare Meteorico",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultloneandlevelsands":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Qui vi era un luogo sacro agli dei della terra, finché un meteorite cadde una notte d’inverno. Nel tempo, gli adoratori strisciarono indietro alle rovine distrutte. In seguito, lo stesso meteorite divenne oggetto di culto in quanto portatore di sogni. Il vecchio altare potrebbe esserci ancora, da qualche parte sotto il meteorite.",
+         "unique":true
+      },
+      {
+         "id":"vaultloneandlevelsands2",
+         "label":"Tomba di Lagun",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultloneandlevelsands":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Un basso rettangolo in pendenza di mattoni di fango in una piega oscura del deserto. Non è nulla di memorabile a guardarlo, ma Lagun era considerata un immortale, un Lungo, e nessun ladro ha mai profanato la sua tomba.",
+         "unique":true
+      },
+      {
+         "id":"vaultloneandlevelsands3",
+         "label":"Messana",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultloneandlevelsands":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Un quieto e prospero villaggio giace nell’incavo di un fiume: una sorprendente goccia di verde sulla polverosa terra alle sue spalle. La longevità degli abitanti oltrepassa ogni limite naturale. Cosa stanno nascondendo?",
+         "unique":true
+      },
+      {
+         "id":"vaultloneandlevelsands4",
+         "label":"Tempio delle Sette Spire",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultloneandlevelsands":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Un tempio fatiscente in un’ombra contaminata. Fu costruito, sembra, nella Terza Storia, quella dove, in seguito, i Vermi invasero l’Europa, sebbene esista in tutte le Storie ora.",
+         "unique":true
+      },
+      {
+         "id":"vaultloneandlevelsandsdefault",
+         "label":"Miah",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaultloneandlevelsands":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"sending",
+               "label":"Inviato",
+               "description":"Prima o poi, la spedizione potrebbe avere un altro scopo.",
+               "required":{
+                  "sendinghearte":1,
+                  "sendingmothe":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Ci fu una città qui. Possiamo depredare i suoi resti come sciacalli su vecchie ossa: mura dei palazzi, strade sotterrate, fontane infrante. Talvolta potremmo trovare le conoscenze dei morti, talvolta i morti potrebbero trovare noi. [Hai trovato tutte le Spedizioni nelle Sabbie, sebbene tu possa trovare e visitare Miah molte volte.]"
+      },
+      {
+         "id":"vaulteveningisles1",
+         "label":"Isola del Corvo",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaulteveningisles":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Un vulcano estinto erge la sua testa da un fervido groviglio di giungla color smeraldo. Immortali caduti per i crimini più vili del loro genere vengono esiliati qui ad appollaiarsi, ingurgitando il sangue e rompendo le ossa dei viaggiatori incauti. Dovrebbero aver acquisito alcuni giocattoli interessanti in questi anni.",
+         "unique":true
+      },
+      {
+         "id":"vaulteveningisles2",
+         "label":"Forte Geryk",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaulteveningisles":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Trecento anni fa un rapace impero mostrò pretese su di un’isola ricoperta di tormaline. Né l’impero né l’isola sono menzionate in alcuna storia degna di tal nome. Ma il forte del governatore rimane. Forse rimangono i suoi tesori. Per lo stesso motivo, forse anche lui.",
+         "unique":true
+      },
+      {
+         "id":"vaulteveningisles3",
+         "label":"Il Naufragio della Christabel",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaulteveningisles":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Una bestia marina si innamorò questo vascello, ma quando questo non ritornò le attenzioni venne distrutto dalla bestia. La bestia, tuttavia, non ha ancora abbandonato il cadavere della nave, adornato com’è di tesori occulti. Dobbiamo immergerci con cautela.",
+         "unique":true
+      },
+      {
+         "id":"vaulteveningisles4",
+         "label":"San Tentreto della Porta Profonda",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaulteveningisles":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Un monastero pende torvamente sul bordo di un dirupo. Dovrebbe già esser cascato in mare, ma - abbiamo scoperto - i monaci affogano vittime in una profonda piscina sotterranea per ottenere la protezione dal mare della Sorella-e-Strega, anno per anno.",
+         "unique":true
+      },
+      {
+         "id":"vaulteveningislesdefault",
+         "label":"Port Noon",
+         "aspects":{
+            "vault":1,
+            "location":1,
+            "vaulteveningisles":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"sending",
+               "label":"Inviato",
+               "description":"Prima o poi, la spedizione potrebbe avere un altro scopo.",
+               "required":{
+                  "sendingheartf":1,
+                  "sendingmothf":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Vi è una scelta che ogni immortale deve fare: entrare al servizio delle Ore, ritornare ai ranghi mortali o affrontare l’estinzione. Il piccolo porto soleggiato sull'isola chiamata Noon è il regno degli immortali esiliati che hanno rifiutato tutte queste opzioni. [Hai trovato tutte le Spedizioni nelle Isole del Vespro, sebbene tu possa trovare e visitare Port Noon molte volte.]"
+      },
+      {
+         "id":"vaultfloating1",
+         "label":"'L’Hebe Stanton'",
+         "aspects":{
+            "vault":1,
+            "location":1
+         },
+         "slots":[
+            {
+               "id":"expeditionmember",
+               "label":"Leader",
+               "description":"Devo aggiungere almeno un Seguace per far partire la spedizione. Posso aggiungerne altri più tardi.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionmember2",
+               "label":"Assistente",
+               "description":"Eventualmente, posso aggiungere un Seguace ora, se penso che possa essere utile.",
+               "required":{
+                  "follower":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds",
+               "label":"Fondi",
+               "description":"Devo aggiungere almeno una carta Fondi per poter cominciare la spedizione.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            },
+            {
+               "id":"expeditionfunds2",
+               "label":"Ulteriori Fondi",
+               "description":"Eventualmente, posso aggiungere ulteriori Fondi ora, se temo di finirli.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "description":"Una nave a vapore malconcia ma sorprendentemente lussuosa, spesso utilizzata dagli attori che intendono sfuggire agli scandali, dai milionari timidi, dagli occultisti che si sentono più al sicuro con l’acqua sotto i piedi; e, solo una volta, dal Ligeia Club, che noleggiò l’intera nave per usare solo sette cabine.",
+         "unique":true
+      }
+   ]
+}

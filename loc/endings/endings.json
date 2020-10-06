@@ -1,0 +1,437 @@
+{
+   "endings":[
+      {
+         "id":"majorforgevictory",
+         "label":"L'ALBA",
+         "description":"La Porta Selvaggia è una vecchia ferita e non si apre facilmente, ma si apre ancora una volta. Perfino gli Dei-dalla-pietra la utilizzarono, e chi prima di loro? Il nostro Forgiatore oltrepassa sia la Porta che il Cancello, diviene un Nome della Forgia ed un singolo posto si libera tra i ranghi dei Lunghi. Non è per me. Io sono nel Nulla. Il Nulla è illuminato da lampade di nefrite nera. Il Nulla è molto freddo. Ma è sempre possibile essere più morti. \n[Congratulazioni per la vittoria maggiore. Forse un giocatore su venti ottiene anche una vittoria minore: ancora meno si ergono fino a questo punto. Noi, e Giano, ti rendiamo omaggio.]",
+         "image":"madrugad",
+         "flavour":"Grand",
+         "anim":"DramaticLightCool",
+         "achievement":"A_ENDING_MAJORFORGEVICTORY"
+      },
+      {
+         "id":"majorgrailvictory",
+         "label":"IL BANCHETTO COMPIUTO",
+         "description":"Ero la chiave di volta di un evento suntuoso, e anche se sono disperso conosco la gioia. La mia Delizia dimorerà in eterno nelle camere del Graal, come merita, e io vivrò nel nulla, dove la mia Mela Luccicante mi ha trovato. Ha raccolto i miei pochi ultimi frammenti per accarezzarmi, confortarmi e ripristinarmi nelle sue ceste ricche di nutrimenti, e mi promette che talvolta, quando sarà Strega e io sarò dentro di lei, mi mostrerà ancora il mondo. \n[Congratulazioni per la vittoria maggiore. Forse un giocatore su venti ottiene anche una vittoria minore: ancora meno si ergono fino a questo punto. Noi, e Giano, ti rendiamo omaggio.]",
+         "image":"flowermaker",
+         "flavour":"Grand",
+         "anim":"DramaticLightCool",
+         "achievement":"A_ENDING_MAJORGRAILVICTORY"
+      },
+      {
+         "id":"majorlanternvictory",
+         "label":"NELLA TERZA MODALITÀ",
+         "description":"La Gloria è una domanda, e tutti noi, i Testimoni ed io, abbiamo risposto 'Si', mentre alimentiamo il nostro Illuminato. Ora è la luce nella mano dell'Osservatore, più Glorioso di quanto non fosse, e noi siamo cera e gusci d'uovo. Ma il pellegrinaggio segreto del Candelaio ci radunerà, uno ad uno, e ci riunirà nell'immagine di colui che guarda e non agisce. Il nostro tempo è passato, e il suo non è ancora arrivato, ma penso che, molto presto, lei suggerirà un accordo. \n[Congratulazioni per la vittoria maggiore. Forse un giocatore su venti ottiene anche una vittoria minore: ancora meno si ergono fino a questo punto. Noi, e Giano, ti rendiamo omaggio.]",
+         "image":"vagabond",
+         "flavour":"Grand",
+         "anim":"DramaticLightCool",
+         "achievement":"A_ENDING_MAJORLANTERNVICTORY"
+      },
+      {
+         "id":"minorforgevictory",
+         "label":"La conflagrazione del cuore",
+         "description":"Per un po' dimoro nelle alte stanze del Mansus, in seguito ritorno attraversando il Cancello Tricuspide, e il mio corpo si agita nelle ceneri. Sono glabro, imperituro come il marmo, e il fuoco della Forgia mi brucia ancora dentro. Porto in me la Forza Plasmante. Non invecchierò. Forse mi ribellerò. Forse, un giorno, mi ergerò ancora più in alto. \n[Congratulazioni per la vittoria standard Potente. Hai messo il gioco a tappeto. Ci sono altri percorsi.]",
+         "image":"forgeofdays",
+         "flavour":"Grand",
+         "anim":"DramaticLightCool",
+         "achievement":"A_ENDING_MINORFORGEVICTORY"
+      },
+      {
+         "id":"minorgrailvictory",
+         "label":"Il banchetto della vera nascita",
+         "description":"Per un po' dimoro nelle alte stanze del Mansus, in seguito ritorno attraversando il Cancello Tricuspide, e mi strappo gli stracci appiccicosi della mia vecchia carne. Il mio nuovo corpo è liscio e rosso dentro, come un dolce frutto. I miei arti sono forti come cavi. I miei sensi sono coltelli. Non invecchierò. Camminerò nel mondo al servizio del Graal, banchettando, crescendo. Forse mi ribellerò. Forse, un giorno, mi ergerò ancora più in alto.\n[Congratulazioni per la vittoria standard Sensuale. Hai messo il gioco a tappeto. Ci sono altri percorsi.]",
+         "image":"redgrail",
+         "flavour":"Grand",
+         "anim":"DramaticLightCool",
+         "achievement":"A_ENDING_MINORGRAILVICTORY"
+      },
+      {
+         "id":"minorlanternvictory",
+         "label":"L'Incursus",
+         "description":"Ho oltrepassato il Cancello Tricuspide, e sono entrato nelle alte stanze del Mansus. La Gloria è molto vicina, qui. Gocciola dal tessuto della casa per contribuire alla sua luce. Ho camminato dietro all'Osservatore: ho visto la sua ombra sulla Pietra. Talvolta sento le Ore dibattere una con l'altra sul corso del mondo. Non vivrò. Non morirò. Forse, un giorno, mi ergerò ancora più in alto. \n[Congratulazioni per la vittoria standard Illuminante. Hai messo il gioco a tappeto. Ci sono altri percorsi.]",
+         "image":"doorintheeye",
+         "flavour":"Grand",
+         "anim":"DramaticLightCool",
+         "achievement":"A_ENDING_MINORLANTERNVICTORY"
+      },
+      {
+         "id":"minorheartvictory",
+         "label":"VITA, ETERNA",
+         "description":"Come il dolore svanisce, così la mia voce, sebbene ora il mio cuore parli per me. Sulle bilance del Tempo sarà pesato con una piuma, e non sarà trovata alcuna mancanza. Nella mia forma finale oltrepasserò il Cancello Tricuspide, e aggiungerò il battito del mio cuore al coro del Pellefolgore. Il nostro ritmo è il ritmo delle Ore: e le Ore hanno ci hanno promesso che continueremo con l'incessante mondo. Attraverserò il Mansus per l'eternità, e nell'eternità verrà assicurata la mia costanza. \n[Congratulazioni per la vittoria standard Cambiamento: Piuma. Hai messo il gioco a tappeto. Ci sono altri percorsi.] ",
+         "image":"thunderskin",
+         "flavour":"Grand",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_MINORHEARTVICTORY"
+      },
+      {
+         "id":"minormothvictory",
+         "label":"COSE CON LE ALI",
+         "description":"La civiltà dell'Esoscheletro della Croce è andata, estinta, come il dodo o il drago. Restano solo gli esseri umani. Ma le mie ali si aprono ancora, la mia pelle è ancora indurita e squamata, e le sfaccettature dei miei occhi brillano ancora come antracite. Non ho oltrepassato il Cancello Tricuspide; sono disceso nella morte e ritornato a vivere. Rimarrò nell'oscurità, nella quale non posso esser visto, finché, alla fine, la Gloria non potrà più essere respinta. È nel fuoco che voliamo. La Croce è immaginaria; il cambiamento no. \n[Congratulazioni per la vittoria standard Cambiamento: Squama. Hai messo il gioco a tappeto. Ci sono altri percorsi.] ",
+         "image":"moth",
+         "flavour":"Grand",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_MINORMOTHVICTORY"
+      },
+      {
+         "id":"minormeniscatevictory",
+         "label":"NELLA CASA DELLA LUNA",
+         "description":"Ero bilanciato - troppo perfettamente - bilanciato tra cambiamento ed eternità - pertanto il Meniscate mi ha privilegiato. Ho oltrepassato la Porta Somma per entrare nella Casa della Luna, l'ombra del Mansus. Qui regna il vuoto e tutto è immobile, sebbene la Ruota giri ancora. Non sono un Lungo - sono solo un riflesso - ma talvolta sono il riflesso della Strega, talvolta della Sorella, e quando il Sole sarà rinato, il Meniscate mi riporterà a casa. Ciò che è dentro, vuoto; ciò che è vuoto, dentro. Sempre. \n[Congratulazioni per la vittoria Cambiamento: Equilibrio. Hai scoperto un segreto. Ci sono altri percorsi.] ",
+         "image":"meniscate",
+         "flavour":"Grand",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_MINORMENISCATEVICTORY"
+      },
+      {
+         "id":"minorforgevictorywithrisen",
+         "label":"LA CONFLAGRAZIONE DEL CUORE",
+         "description":"Per un po' dimoro nelle alte stanze del Mansus, in seguito ritorno attraversando il Cancello Tricuspide, e il mio corpo si agita nelle ceneri. Sono glabro, imperituro come il marmo, e il fuoco della Forgia mi brucia ancora dentro. Porto in me la Forza Plasmante... e qualcos'altro. La carne del mio defunto partner è stata consumata dalle fiamme, e ora sarà sempre una parte di me, come lo stagno che indurisce il bronzo. Non invecchieremo. Forse ci ribelleremo. Forse, un giorno, saliremo ancora più in alto. \n[Congratulazioni per la vittoria variante Potente. Hai messo il gioco a tappeto. Ci sono altri percorsi.] ",
+         "image":"forgeofdays",
+         "flavour":"Grand",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_MINORFORGEVICTORY_WITHRISEN"
+      },
+      {
+         "id":"minorgrailvictorywithrisen",
+         "label":"IL BANCHETTO DELLA VERA NASCITA",
+         "description":"Per un po' dimoro nelle alte stanze del Mansus, in seguito ritorno attraversando il Cancello Tricuspide, e mi strappo gli stracci appiccicosi della mia vecchia carne. Il mio nuovo corpo è liscio e rosso dentro, come un dolce frutto. I miei arti sono forti come cavi. I miei sensi sono coltelli. Non invecchierò. Camminerò nel mondo al servizio del Graal, banchettando, crescendo, e il mio defunto partner camminerà al mio fianco, partecipando alle mie feste, fino a diventare qualcosa di completamente nuovo. Forse ci ribelleremo. Forse, un giorno, saliremo ancora più in alto. \n[Congratulazioni per la vittoria variante Sensuale. Hai messo il gioco a tappeto. Ci sono altri percorsi.] ",
+         "image":"redgrail",
+         "flavour":"Grand",
+         "anim":"DramaticLightCool",
+         "achievement":"A_ENDING_MINORGRAILVICTORY_WITHRISEN"
+      },
+      {
+         "id":"minorlanternvictorywithrisen",
+         "label":"L'INCURSUS",
+         "description":"Ho oltrepassato il Cancello Tricuspide, e sono entrato nelle alte stanze del Mansus. Il mio defunto partner mi segue come un'ombra - e, nel nucleo santificato di questa luce, le ombre bruciano più profondamente. La Gloria è molto vicina, qui. Gocciola dal tessuto della casa per contribuire alla sua luce. Un giorno - forse molto presto -  il Pellegrinaggio si concluderà, e l'Osservatore permetterà a sette anime di ascendere ulteriormente. L'Ora chiamata il Vagabondo sarà la prima. Forse la raggiungeremo, la mia compagnia ed io. \n[Congratulazioni per la vittoria variante Illuminante. Hai messo il gioco a tappeto. Ci sono altri percorsi.] ",
+         "image":"doorintheeye",
+         "flavour":"Grand",
+         "anim":"DramaticLightCool",
+         "achievement":"A_ENDING_MINORLANTERNVICTORY_WITHRISEN"
+      },
+      {
+         "id":"minorheartvictorywithrisen",
+         "label":"VITA, ETERNA",
+         "description":"Come il dolore svanisce, così la mia voce, sebbene ora il mio cuore parli per me. Sulle bilance del Tempo sarà pesato con una piuma, e non sarà trovata alcuna mancanza. Nella mia forma finale oltrepasserò il Cancello Tricuspide, mentre il mio defunto partner mi seguirà agitandosi come una bandiera in una tempesta, e aggiungerò il battito del mio cuore al coro del Pellefolgore. Il nostro ritmo è il ritmo delle Ore: e le Ore hanno promesso che continueremo con l'incessante mondo. Chi un tempo fu il mio partner mi circonderà come il Graal indossava il Pellefolgore, e forse a questo siamo sempre stati destinati. Attraverseremo il Mansus per l'eternità, e nell'eternità verrà assicurata la nostra costanza. \n[Congratulazioni per la vittoria variante Cambiamento: Piuma. Hai messo il gioco a tappeto. Ci sono altri percorsi.] ",
+         "image":"thunderskin",
+         "flavour":"Grand",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_MINORHEARTVICTORY_WITHRISEN"
+      },
+      {
+         "id":"minormothvictorywithrisen",
+         "label":"COSE CON LE ALI",
+         "description":"La civiltà dell'Esoscheletro della Croce è andata, estinta, come il dodo o il drago. Restano solo gli esseri umani. Ma le mie ali si aprono ancora, la mia pelle è ancora indurita e squamata, e le sfaccettature dei miei occhi brillano ancora come antracite. Accanto a me giace il mio defunto partner: un'ombra di ciò che sono diventato. Non abbiamo oltrepassato il Cancello Tricuspide; siamo discesi nella morte e ritornati a vivere. Rimarremo nell'oscurità, nella quale non possiamo esser visti, finché, alla fine, la Gloria non potrà più essere respinta. È nel fuoco che voliamo. La Croce è immaginaria; il cambiamento no. \n[Congratulazioni per la vittoria variante Cambiamento: Squama. Hai messo il gioco a tappeto. Ci sono altri percorsi.] ",
+         "image":"moth",
+         "flavour":"Grand",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_MINORMOTHVICTORY_WITHRISEN"
+      },
+      {
+         "id":"minormeniscatevictorywithrisen",
+         "label":"NELLA CASA DELLA LUNA",
+         "description":"Ero bilanciato - troppo perfettamente - bilanciato tra cambiamento ed eternità - pertanto il Meniscate ci ha privilegiato, a me, al mio partner, la mia ombra, il mio riflesso. Abbiamo oltrepassato la Porta Somma per entrare nella Casa della Luna, l'ombra del Mansus. Qui regna il vuoto e tutto è immobile, sebbene la Ruota giri ancora. Non sono un Lungo - sono solo un riflesso - ma talvolta sono il riflesso della Strega, e talvolta il mio partner è la Sorella, e quando il Sole sarà rinato, il Meniscate ci riporterà a casa. Ciò che è dentro, vuoto; ciò che è vuoto, dentro. Sempre. \n[Congratulazioni per la vittoria variante Cambiamento: Equilibrio. Hai trovato un segreto. Ci sono altri percorsi.] ",
+         "image":"meniscate",
+         "flavour":"Grand",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_MINORMENISCATEVICTORY_WITHRISEN"
+      },
+      {
+         "id":"longnightmareending",
+         "label":"Dissoluzione",
+         "description":"Non potevo sopportarlo. Non più. \n[Gli incubi di un Lungo ti hanno spinto alla dissoluzione.]",
+         "image":"despair",
+         "flavour":"Melancholy",
+         "anim":"DramaticLightEvil",
+         "achievement":""
+      },
+      {
+         "id":"deathofthebody",
+         "label":"Il mio corpo è morto",
+         "description":"Dove mi troveranno? Io non sono qua. Alla fine la mia forza non è bastata a sostenere il mio cuore sofferente. \n[Ero malato, o affamato, e non mi rimaneva alcuna Salute. Mi sarei dovuto assicurare di avere i soldi per comprare l'essenziale; avrei potuto Sognare per riposare e recuperare le forze.]",
+         "image":"suninrags",
+         "flavour":"Melancholy",
+         "anim":"DramaticLightEvil",
+         "achievement":"A_ENDING_DEATHOFTHEBODY"
+      },
+      {
+         "id":"despairending",
+         "label":"Non più",
+         "description":"Disperazione, il lupo che divora il pensiero. Sono vivo o sono morto? Non importa più.\n[Ho permesso che la Disperazione raggiungesse tre segnalini Terrore o Ferita.]",
+         "image":"despair",
+         "flavour":"Melancholy",
+         "anim":"DramaticLightEvil",
+         "achievement":"A_ENDING_DESPAIRENDING"
+      },
+      {
+         "id":"visionsending",
+         "label":"Gloria",
+         "description":"Prima erano i sogni. Poi erano le visioni. Ora è tutto. Non ho più idea di cosa sia reale e cosa non lo sia.\n[Ho permesso alle Visioni di raggiungere tre segnalini Seduzione.]",
+         "image":"madness",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_VISIONSENDING"
+      },
+      {
+         "id":"wintersacrifice",
+         "label":"Andarsene silenziosamente",
+         "description":"Nell'attico della casa nella quale vengo condotto, il mio respiro diviene nebbia e i miei occhi si ammorbidiscono. La luce nella stanza è la luce della fine del sole. Sono un bellissimo finale. [Ho flirtato con i poteri dell'Inverno.]",
+         "image":"suninrags",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_WINTERSACRIFICE"
+      },
+      {
+         "id":"arrest",
+         "label":"Barre sul sole",
+         "description":"La natura dei miei crimini era vaga e il processo controverso. Ma sono tutti d'accordo sul fatto che io abbia fatto qualcosa che non avrei dovuto fare. Vorrei fosse andata diversamente. Vorrei aver potuto fare <i>tutto</i> ciò che non dovrei fare. \n[Molti cacciatori hanno specifiche debolezze. Forse, puoi usare quelle debolezze per fermarli prima che ti portino a processo.]",
+         "image":"notorious",
+         "flavour":"Melancholy",
+         "anim":"DramaticLightEvil",
+         "achievement":"A_ENDING_ARREST"
+      },
+      {
+         "id":"rivalascension",
+         "label":"NON ABBASTANZA A LUNGO",
+         "description":"Forse ho aspettato troppo a lungo. O forse questa vittoria non è mai stata destinata a me. Un Rivale è salito al mio posto. Ora che è risorto, io diminuirò, finché non sarò solo un ricordo. Forse qualcun altro vendicherà la mia sconfitta. \n[Qualcun altro ti ha superato, ha cambiato il mondo, e ha vinto.]",
+         "image":"lionsmith",
+         "flavour":"Melancholy",
+         "anim":"DramaticLightEvil",
+         "achievement":"A_RIVAL_ASCENSION"
+      },
+      {
+         "id":"rivalascensionapostle",
+         "label":"TROPPO A LUNGO",
+         "description":"Un rivale è salito all'immortalità. Si alleerà con il nemico immortale che già ci perseguita. Non possiamo opporci a due immortali. Il piano del nostro Fondatore è giunto al termine e, con esso, il mio servizio. \n[L'ascensione di un rivale esclude una vittoria da Apostolo.]",
+         "image":"lionsmith",
+         "flavour":"Melancholy",
+         "anim":"DramaticLightEvil",
+         "achievement":"A_RIVAL_ASCENSION"
+      },
+      {
+         "id":"workvictory",
+         "label":"Cala la sera",
+         "description":"Ho il mio fuoco, i miei libri, il mio orologio, la mia finestra sul mondo nel quale avvengono altre cose. Potevo essere infelice. Non sono infelice. Ho avuto una vita di successo, e quando sarà finita la dolce terra riempirà la mia bocca, più morbida delle schegge. \n[Questa potrebbe essere considerata una vittoria.]",
+         "image":"insomnia",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_WORKVICTORY"
+      },
+      {
+         "id":"workvictoryb",
+         "label":"La corrente dell'ambizione",
+         "description":"Salirò in alto, e ancora più in alto. I miei affari prospereranno. Riempirò una bella casa di oggetti eleganti. Sarò onorato dai miei pari e calunniato dai rivali. Crescerò abituato al suono del mio nome. Poi, un giorno, morirò e qualche tempo dopo il mio nome non sarà più udito. \n[Questa dovrebbe essere considerata una vittoria minore.]",
+         "image":"finehouse",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_WORKVICTORYB"
+      },
+      {
+         "id":"workvictorymarriage",
+         "label":"UNA NUOVA VITA",
+         "description":"Ero povero, e ora sono ricco. Ero qualcosa di comune, e ora sono qualcosa di raro. Le mattine d'estate le colline fuori dalla finestra della mia camera da letto sono verdi e soleggiate, le mattine d'inverno sono bianche di neve, su di esse si stende il suono del riso dei nostri eredi e quello del vento. Il vento scuote le casematte, corre nelle colline e svanisce. \n[Questa dovrebbe essere considerata una vittoria minore.]",
+         "image":"moonlitcastle",
+         "flavour":"Grand",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_WORKVICTORYMARRIAGE"
+      },
+      {
+         "id":"turnasidevictory",
+         "label":"DOPO, FELICEMENTE",
+         "description":"XXX",
+         "comment":"turnasidevictory isn't referenced in the JSON anywheree. Left in just in case someone out there has a save file at exactly the wrong moment",
+         "image":"moth",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_MINORMOTHVICTORY"
+      },
+      {
+         "id":"tristanvictory",
+         "label":"PER SEMPRE: TRISTAN",
+         "description":"La nostra carne può stancarsi. Possiamo invecchiare. Ma non mi pentirò. Egli è impresso nella mia memoria: i tratti sicuri e forti delle note scritte a mano; la forma che lascia nei cuscini; il soffice rigonfiamento delle sue braccia vicino al fuoco. Il suo corpo, rispetto al mio, è il più luminoso, colmo delle fiamme dell'alba. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"tristan",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_TRISTANVICTORY"
+      },
+      {
+         "id":"valcianevictory",
+         "label":"PER SEMPRE: VALCIANE",
+         "description":"Riempie le nostre vite di forme: tesori di porcellana, madreperla, vetro soffiato. Alcuni sono i prodotti del suo lavoro. Alcuni sono testimonianze di viaggi all'estero. Si accumulano a mucchi intorno alla nostra casa, formando curiosi passaggi. Ma la trovo tra i labirinti che costruisce. Vuole davvero essere trovata. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"valciane",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_VALCIANEVICTORY"
+      },
+      {
+         "id":"laidlawvictory",
+         "label":"PER SEMPRE: LAIDLAW",
+         "description":"Abbiamo i nostri schemi. Le nostre visite alla casa d'aste, i film tremolanti che guardiamo insieme, il ritmo nella notte che ben conosciamo. Ma lui è imprevedibile come la scintilla nel focolare. Quando sputerà di nuovo la brace? Quando il suo fuoco si raffredderà? Delineo la mia forma nei suoi bagliori. Abbiamo trovato, crediamo, un modo. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"laidlaw",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_LAIDLAWVICTORY"
+      },
+      {
+         "id":"elridgevictory",
+         "label":"PER SEMPRE: ELRIDGE",
+         "description":"La nostra casa è ordinata, lucidata, controllata. Sa sempre dove sono gli strumenti di cui abbiamo bisogno. Sa ripulirli per rimetterli di nuovo a posto. A volte devo attenderlo, mentre fa ciò che deve fare. Ma quando finisce, mi guarda, e io lo ricompenso. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"elridge",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_ELRIDGEVICTORY"
+      },
+      {
+         "id":"rosevictory",
+         "label":"PER SEMPRE: ROSE",
+         "description":"Le nostre vite sono felici. Sembriamo una coppia perfetta. Ci sono, naturalmente, le visite di suo fratello - ma lei è sola quando viaggio, e ha bisogno di compagnia. Quando ritorno i suoi occhi sono più morbidi, e i baci sanno di vino e caramello. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"rose",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_ROSEVICTORY"
+      },
+      {
+         "id":"victorvictory",
+         "label":"PER SEMPRE: VICTOR",
+         "description":"Le nostre serate insieme sono molto eleganti. Come spazzare scale luccicanti d'oro. Come sospiri da un pubblico vicino al palco. Come la fessura dei nostri coltelli, profonda, lungo il filo della lama. Spesso incontriamo sua sorella, i cui gusti rispecchiano i nostri. Ma quando siamo di nuovo soli, spalanca gli occhi guardandomi. Offre baci, carezze, caramello. Siamo felici, credo. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"victor",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_VICTORVICTORY"
+      },
+      {
+         "id":"salibavictory",
+         "label":"PER SEMPRE: SALIBA",
+         "description":"Non direi che sia finita male. Ma è rimasto poco di me, ora. Le nostre attività sociali sono diminuite nel tempo, e così anche io, lo so. Man mano che mi assottiglio, il mio amante si interessa sempre di più a me: in questi giorni a malapena si allontana, e io, a malapena, dalla sua stanza. Presto, mi dice, una macchia bagnata sotto il suo occhio. Presto. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"saliba",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_SALIBAVICTORY"
+      },
+      {
+         "id":"reniravictory",
+         "label":"PER SEMPRE: RENIRA",
+         "description":"Sono ubriaco di lei. Spalle scoperte all'opera, centinaia di sorrisi di rubino attraversano un ristorante affollato. Il suo sorriso si affievolisce quando vengo attratto, anche solo per poco, da qualcos'altro. Ma lei sa di essere il mio cuore pulsante, la linfa vitale del mio lavoro. Sono perso nelle sue belle braccia, la sua bocca dolce come la mirra. Il suo cuore è il mio cuore. La mia dea. Lei. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"renira",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_RENIRAVICTORY"
+      },
+      {
+         "id":"violetvictory",
+         "label":"PER SEMPRE: VIOLET",
+         "description":"La casa è ravvivata dalle candele. Ma non durano mai a lungo. Lei giace con me nell'oscurità, mentre le nostre finestre gelano per il respiro, per il freddo, per il silenzio della notte. Una dopo l'altra, spegniamo le fiamme e ascoltiamo il suono del nulla, stringendoci l'uno nelle braccia dell'altro. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"violet",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_VIOLETVICTORY"
+      },
+      {
+         "id":"auclairvictory",
+         "label":"PER SEMPRE: AUCLAIR",
+         "description":"Lei, da sola, affolla la mia mente. I catechismi sulla zuppa, i dialoghi sulla vita quotidiana. Le nostre passeggiate sotto la luna ora sono divenute cari ricordi, di lei ed io prima di conoscere noi stessi. Ora conosciamo. Ora siamo eruditi del cuore. Ora siamo l'uno dell'altro. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"auclair",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_AUCLAIRVICTORY"
+      },
+      {
+         "id":"enidvictory",
+         "label":"PER SEMPRE: ENID",
+         "description":"Non parla quando è triste, e spesso è triste. Ora so come posizionarmi, in che posizione lasciare la mia mano, e come convincere quel bel collo a giacere sulla mia spalla. Le nostre vite sono intontite da momenti come questo, taciuti, invisibili, nostri. E la mattina, quando il giorno si apre e si allarga dinanzi a lei, sorride con un sorriso che solo io conosco; e mi sento ben ripagato. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"enid",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_ENIDVICTORY"
+      },
+      {
+         "id":"nevillevictory",
+         "label":"PER SEMPRE: NEVILLE",
+         "description":"Trovo appunti tra le mie carte, cioccolatini sulla mia scrivania. Quando ceniamo lui si siede sempre vicino a me, noncurante delle rimostranze del cameriere. A volte l'ho trovato, nella tristezza dell'alba, ad accarezzarmi una ciocca dei miei capelli. Lo bacio; lo faccio mio. Dopo mi ringrazia. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"neville",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_NEVILLEVICTORY"
+      },
+      {
+         "id":"catvictory",
+         "label":"PER SEMPRE: CAT",
+         "description":"La nostra casa è sempre rifornita di ciò di cui abbiamo bisogno, ancor prima che io sappia di cosa abbiamo bisogno. È difficile sapere se i miei desideri siano inconsci, se ci siano prima di quando me ne rendo conto, o se lei li crea in me dal nulla. A volte la colgo persa nei pensieri, aureolata nella luce della lampada e nel fumo. Mi muovo tranquillamente e faccio tintinnare le nostre coppe, quando le porto con me, così non si spaventa. Questa cosa la fa ridere, ma poi si assicura sempre che io faccia sogni d'oro. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"cat",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_CATVICTORY"
+      },
+      {
+         "id":"cliftonvictory",
+         "label":"PER SEMPRE: CLIFTON",
+         "description":"Talvolta è difficile capire, con lui, se si debba ridere o piangere. A volte inciampa all'alba, sparpagliando tutte le sue sigarette turche. Altre volte addobba la nostra casa appendendo lampade, e non è sempre in grado di convincere il grammofono malconcio a funzionare. In quelle serate, nel buio scintillante della notte, degustiamo prima il cibo, poi l'un l'altro. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"clifton",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_CLIFTONVICTORY"
+      },
+      {
+         "id":"sleevictory",
+         "label":"PER SEMPRE: SLEE",
+         "description":"La nostra casa è colma di suoi appunti. Trattano la maestosità dell'amore, della nascita, di tutto. Tra queste, quando le leggiamo, ridiamo sulle filastrocche, e ci ubriachiamo fino a dormire. Quando ci svegliamo siamo avvolti in un bozzolo di coperte, caldi l'uno negli incavi dell'altro. A volte spingo qualche foglio fuori dal copriletto. A volte li lascio là. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"slee",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_SLEEVICTORY"
+      },
+      {
+         "id":"portervictory",
+         "label":"PER SEMPRE: PORTER",
+         "description":"Egli è molto specifico su ciò che gli piace e ciò che non gli piace. Imparo dai suoi modi: a disegnare cerchi con il dito intorno all'orecchio, ad irritarlo fino a quando non accende la sua pipa, ad addolcirgli l'animo con zuccherose delizie. Non riuscirò mai a comprendere pienamente quest'uomo, perché lui stesso non mi comprenderà mai. Ma i nostri anni sono macchiati da quello che qualcuno potrebbe chiamare amore, e questo basta. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"porter",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_PORTERVICTORY"
+      },
+      {
+         "id":"ysabetvictory",
+         "label":"PER SEMPRE: YSABET",
+         "description":"Le nostre vite sono ricche, i giorni caotici. Annoto gli appuntamenti nel suo diario diverse ore prima dell'ora dell'incontro, ma lei comunque riesce raramente ad arrivare in orario. Mi sdraio sul letto, aspettandola, solo per svegliarmi all'alba quando lei scivola, fredda, accanto a me. Ma il suo sorriso è caldo sul mio collo. I suoi occhi sono ardenti d'amore per me. La nostra casa è dimora di cose svolazzanti, e lei deve battere le ali. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"ysabet",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_YSABETVICTORY"
+      },
+      {
+         "id":"sylviavictory",
+         "label":"PER SEMPRE: SYLVIA",
+         "description":"La vita non è facile con lei. Discutiamo spesso. Ci sono volte in cui gira per le strade alla ricerca di qualsiasi finestra luminosa che - nella stessa notte - incornici lei ed qualcun'altro. Ma è spietatamente affascinante quando ritorna. C'è sempre un motivo. Ci siamo tirati indietro insieme, ancora e ancora, dal desiderio di cancellare il mondo. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"sylvia",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_SYLVIAVICTORY"
+      },
+      {
+         "id":"clovettevictory",
+         "label":"PER SEMPRE: CLOVETTE",
+         "description":"La mia vita segue il cammino della sua gioia - potente, spietata, sua. Qualche volta devo ricordarle i nostri voti, però lei si pente sempre, ed è sempre irresistibile. Mi arricchisce con il bagliore della sua attenzione ogni volta che la tiro fuori, faticosamente, dalle feste alle quali partecipiamo quotidianamente. Quando lei è mia, oh, io sono suo, e i nostri cuori battono più velocemente, insieme. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"clovette",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_CLOVETTEVICTORY"
+      },
+      {
+         "id":"dorothyvictory",
+         "label":"PER SEMPRE: DOROTHY",
+         "description":"Ci sono alcune pause nella nostra melodia, ma molti più crescendo che cadute. Viviamo insieme, viaggiamo insieme, camminiamo con naturalezza a passo unito. Prima di dormire, spesso, balliamo al ritmo basso e lento delle strade. In queste notti abbiamo gli stessi sogni e ci svegliamo, accaldati, all'alba. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"dorothy",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_DOROTHYVICTORY"
+      },
+      {
+         "id":"leovictory",
+         "label":"PER SEMPRE: LEO",
+         "description":"Il suo amore è irrefrenabile. Germoglia come erbacce in un prato soleggiato e non può essere vincolato. Non ero sapevo, tanto per cominciare, cosa fosse la luna e cosa fosse l'uomo. Ma ha seminato la ricchezza nella nostra casa. L'ha riempita di oggetti presi dalla nostra vita. Egli è la melodia dell'amore, e ora la odo. \n[Questa potrebbe esser considerata una vittoria. Ma la Casa non è un posto per amanti.]",
+         "image":"leo",
+         "flavour":"Melancholy",
+         "anim":"DramaticLight",
+         "achievement":"A_ENDING_LEOVICTORY"
+      }
+   ]
+}

@@ -1,0 +1,96 @@
+{
+   "recipes":[
+      {
+         "id":"explore_movehq_hint",
+         "label":"Un Cambio Locali?",
+         "actionId":"explore",
+         "requirements":{
+            "hq.potential":1
+         },
+         "startdescription":"Potremmo spostare la nostra base delle operazioni qui, volendo.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"explorevault_hint_sending",
+         "label":"Un Secondo Me Stesso?",
+         "actionId":"explore",
+         "requirements":{
+            "vault":1,
+            "sending":1
+         },
+         "startdescription":"Se questa spedizione avrà successo, l’Io-che-non-sono-Io sarà qui ad eseguire le Forme. [Se avrai successo, raccoglierai la solita ricompensa e progredirai nella tua ascesa Cambiamento.]",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"explorevault_hint_addfunds",
+         "label":"Preparazioni per una Spedizione?",
+         "actionId":"explore",
+         "requirements":{
+            "vault":1,
+            "follower":1
+         },
+         "startdescription":"Se aggiungerò almeno un Fondo, potrò cominciare la Spedizione. [Le Spedizioni necessitano di almeno un Fondo per ostacolo. I Seguaci sconfiggeranno gli ostacoli. Se finisci i Fondi o i Seguaci, la Spedizione si conclude.]",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"explorevault_hint_addfollower",
+         "label":"Preparazioni per una Spedizione?",
+         "actionId":"explore",
+         "requirements":{
+            "vault":1,
+            "funds":1
+         },
+         "startdescription":"Se aggiungerò un Seguace, potrò cominciare la Spedizione. [Le Spedizioni necessitano di almeno un Fondo per ostacolo. I Seguaci sconfiggeranno gli ostacoli. Se finisci i Fondi o i Seguaci, la Spedizione si conclude.]",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"explorevault_hint",
+         "label":"Preparazioni per una Spedizione?",
+         "actionId":"explore",
+         "requirements":{
+            "vault":1
+         },
+         "startdescription":"Potrei organizzare una Spedizione in questo luogo per cercare libri, tesori, oggetti di potere. Ma avrò bisogno di Seguaci da mandare e di Fondi per sostenerli.",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"exploresulochanacabaret_hint",
+         "label":"La Vecchia Forma e la Nuova",
+         "actionId":"explore",
+         "requirements":{
+            "locationcabaret":1,
+            "sulochana":1
+         },
+         "startdescription":"[Se possiedi l’espansione 'la Danzatrice' puoi usare questa combinazione per trovare un lavoro all’Ecdysis club e inseguire l’ascensione Cambiamento.]",
+         "hintonly":true,
+         "craftable":false
+      },
+      {
+         "id":"explore.searchgraveyard.hint",
+         "actionId":"explore",
+         "requirements":{
+            "location.cemetery":1
+         },
+         "label":"Un'Esumazione?",
+         "startdescription":"Dovrò impiegaree la mia stessa forza, o quella di un amico.",
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"explore.searchgraveyard.closing.hint",
+         "actionId":"explore",
+         "requirements":{
+            "location.cemetery.closing":1
+         },
+         "label":"Una Cauta Esumazione?",
+         "startdescription":"Dovrò impiegaree la mia stessa forza, o quella di un amico.",
+         "craftable":false,
+         "hintonly":true
+      }
+   ]
+}

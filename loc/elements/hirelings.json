@@ -1,0 +1,133 @@
+{
+   "elements":[
+      {
+         "id":"thugedgeminor",
+         "label":"Un Compagno Mastodontico",
+         "aspects":{
+            "mortal":1,
+            "hireling":1,
+            "follower":1,
+            "edge":3
+         },
+         "description":"'Faccio il mio lavoro.' [Questo Mercenario può essere utile per alcune Spedizioni e può essere d’aiuto con i Cacciatori e le Seccature.]",
+         "xtriggers":{
+            "hiring":"thugedgeminor",
+            "killmortal":"corpse",
+            "derangemortal":"lunatic",
+            "capturefollower":"generic_p"
+         },
+         "lifetime":120
+      },
+      {
+         "id":"thugmothminor",
+         "label":"Una Donna Losca",
+         "aspects":{
+            "mortal":1,
+            "hireling":1,
+            "follower":1,
+            "moth":3
+         },
+         "description":"'Faccio il mio lavoro.' [Questo Mercenario può essere utile per alcune Spedizioni e può essere d’aiuto con i Cacciatori e le Seccature.]",
+         "xtriggers":{
+            "hiring":"thugmothminor",
+            "killmortal":"corpse",
+            "derangemortal":"lunatic",
+            "capturefollower":"generic_p"
+         },
+         "lifetime":120
+      },
+      {
+         "id":"thugedge",
+         "label":"Una Muscolatura Professionale",
+         "aspects":{
+            "mortal":1,
+            "hireling":1,
+            "follower":1,
+            "edge":5
+         },
+         "description":"'Li spezzerò in due.' [Questo Mercenario può essere utile per alcune Spedizioni e può essere d’aiuto con i Cacciatori e le Seccature.]",
+         "xtriggers":{
+            "hiring":"thugedge",
+            "killmortal":"corpse",
+            "derangemortal":"lunatic",
+            "capturefollower":"generic_p"
+         },
+         "lifetime":120
+      },
+      {
+         "id":"thugforgeedge",
+         "label":"Un Dinamitardo",
+         "aspects":{
+            "mortal":1,
+            "hireling":1,
+            "follower":1,
+            "forge":5,
+            "edge":3
+         },
+         "description":"'Magari è meglio se non discutiamo di politica, ora.' [Questo Mercenario può essere utile per alcune Spedizioni e può essere d’aiuto con i Cacciatori e le Seccature.]",
+         "xtriggers":{
+            "hiring":"thugforgeedge",
+            "killmortal":"corpse",
+            "derangemortal":"lunatic",
+            "capturefollower":"generic_p"
+         },
+         "lifetime":120
+      },
+      {
+         "id":"thugknock",
+         "label":"Un Esperto di Entrate",
+         "aspects":{
+            "mortal":1,
+            "hireling":1,
+            "follower":1,
+            "knock":5
+         },
+         "description":"'Sono bravo con le porte. [Questo Mercenario può essere utile per alcune Spedizioni.]'",
+         "xtriggers":{
+            "hiring":"thugknock",
+            "killmortal":"corpse",
+            "derangemortal":"lunatic",
+            "capturefollower":"generic_p"
+         },
+         "lifetime":120
+      },
+      {
+         "id":"thuglanternmoth",
+         "label":"Un Indovino",
+         "aspects":{
+            "mortal":1,
+            "hireling":1,
+            "follower":1,
+            "lantern":5,
+            "moth":3
+         },
+         "description":"'Vedo le cose. Vedo che tu sei differente.' [Questo Mercenario può essere utile per alcune Spedizioni e può essere d’aiuto con i Cacciatori e le Seccature.]",
+         "xtriggers":{
+            "hiring":"thuglanternmoth",
+            "killmortal":"corpse",
+            "derangemortal":"lunatic",
+            "capturefollower":"generic_p"
+         },
+         "lifetime":120
+      },
+      {
+         "id":"thugmoth",
+         "label":"Un Imbroglione Vissuto",
+         "aspects":{
+            "mortal":1,
+            "hireling":1,
+            "follower":1,
+            "moth":5,
+            "grail":1
+         },
+         "description":"'Che delizia lavorare con te!' [Questo Mercenario può essere utile per alcune Spedizioni e può essere d’aiuto con i Cacciatori e le Seccature.]",
+         "xtriggers":{
+            "hiring":"thugmoth",
+            "killmortal":"corpse",
+            "derangemortal":"lunatic",
+            "capturefollower":"generic_p"
+         },
+         "lifetime":120
+      }
+   ]
+}

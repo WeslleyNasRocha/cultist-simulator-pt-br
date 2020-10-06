@@ -1,0 +1,327 @@
+{
+   "recipes":[
+      {
+         "id":"ambition.apostleforge.emitfuel",
+         "actionId":"work",
+         "label":"Guida dal nostro Forgiatore",
+         "requirements":{
+            "apostleforge.mentor":1
+         },
+         "startdescription":"Il nostro Forgiatore ci ha privilegiati con la sua guita. Dovremmo utilizzarla per compiere il Grande Lavoro.",
+         "effects":{
+            "apostleforge.pillarfuel":1
+         }
+      },
+      {
+         "id":"work.apostleforge.majorvictory.postbetrayal",
+         "actionId":"work",
+         "label":"Tuttavia, il Grande Lavoro Continua",
+         "extantreqs":{
+            "apostleforge.mentor":-1
+         },
+         "startdescription":"PER RICOSTRUIRE CON IL FUOCO; PER CONCLUDERE CIÒ CHE NON CAMBIA; PER CONCLUDERE OGNI NOTTE. Quando l'InfrangiAlba comincerà a roteare, la rotazione della Terra comincerà a rallentare, poco alla volta. Echidna porterà la chiave tra le sue mani artigliate. Il Compasso pronuncerà le sue ultime parole. L'Oro Blu brucerà. La Porta Selvaggia si aprirà. Il nostro Forgiatore attuerà la Forgia. E io; io ritornerò al fianco del nostro Forgiatore. Ho fatto la mia scelta molto tempo fa. Verrò consumato.",
+         "description":"",
+         "requirements":{
+            "fragmentknockg":1,
+            "influenceforgeg":1,
+            "apostleforge.pillar2":1,
+            "apostleforge.pillar3":1,
+            "apostleforge.pillar4":1,
+            "apostleforge.pillar5":1
+         },
+         "warmup":60,
+         "craftable":true,
+         "ending":"majorforgevictory"
+      },
+      {
+         "id":"work.apostleforge.majorvictory",
+         "actionId":"work",
+         "label":"Gli Ultimi Pezzi del Grande Lavoro",
+         "extantreqs":{
+            "apostleforge.mentor":1
+         },
+         "startdescription":"PER RICOSTRUIRE CON IL FUOCO; PER CONCLUDERE CIÒ CHE NON CAMBIA; PER CONCLUDERE OGNI NOTTE. Quando l'InfrangiAlba comincerà a roteare, la rotazione della Terra comincerà a rallentare, poco alla volta. Echidna porterà la chiave tra le sue mani artigliate. Il Compasso pronuncerà le sue ultime parole. L'Oro Blu brucerà. La Porta Selvaggia si aprirà. Il nostro Forgiatore attuerà la Forgia. E io; io verrò consumato.",
+         "description":"",
+         "requirements":{
+            "fragmentknockg":1,
+            "influenceforgeg":1,
+            "apostleforge.pillar2":1,
+            "apostleforge.pillar3":1,
+            "apostleforge.pillar4":1,
+            "apostleforge.pillar5":1
+         },
+         "warmup":60,
+         "craftable":true,
+         "ending":"majorforgevictory"
+      },
+      {
+         "id":"work.apostleforge.createcore",
+         "actionId":"work",
+         "label":"Forgia il Nucleo InfrangiAlba",
+         "startdescription":"Sotto la guida del nostro Forgiatore, e con una particella dell'antico Sole, possiamo cominciare la costruzione del Dispositivo InfrangiAlba.",
+         "description":"Mentre lavoriamo canticchiamo una vecchia canzone: ciò che non cambia dovrà finire. Alla fine il Nucleo è completato. Il Dispositivo sonnecchia. I Misteri della Creazione vi instilleranno la vita.",
+         "requirements":{
+            "toolforgef":1,
+            "apostleforge.pillarfuel":1
+         },
+         "effects":{
+            "toolforgef":-1,
+            "apostleforge.pillarfuel":-1,
+            "apostleforge.pillar2.dormant":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"work.apostleforge.awakencore",
+         "actionId":"work",
+         "label":"Sveglia il Nucleo InfrangiAlba",
+         "startdescription":"La Forgia, il Madrugad e il Meniscate ricordano tutti il Sole. Dobbiamo costruire la loro memoria come un'armatura intorno al Nucleo, e sfarfallerà nella terribile consapevolezza.",
+         "description":"Il Dispositivo si sveglia, come una vita ronzante, e come ongi forma di vita, conosce la fame. Dovrà essere nutrito solamente con i prodotti più elevati dell'alchimia.",
+         "requirements":{
+            "apostleforge.pillar2.dormant":1,
+            "fragmentforgeg":1
+         },
+         "effects":{
+            "apostleforge.pillar2.dormant":-1,
+            "apostleforge.pillar2":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"work.apostleforge.upgradeingredientforgeb",
+         "actionId":"work",
+         "label":"Raffina i Sali Neramari",
+         "startdescription":"Con la guida del nostro Forgiatore possiamo raffinare questo elemento in qualcosa di più grandioso.",
+         "description":"Il nero schiarisce in giallo.",
+         "requirements":{
+            "ingredientforgeb":1,
+            "apostleforge.pillarfuel":1
+         },
+         "effects":{
+            "ingredientforgeb":-1,
+            "apostleforge.pillarfuel":-1,
+            "ingredientforged":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"work.apostleforge.upgradeingredientforged",
+         "actionId":"work",
+         "label":"Raffina l'Essenza Xanthotica",
+         "startdescription":"Con la guida del nostro Forgiatore, possiamo raffinare questo elemento in qualcosa di più grandioso.",
+         "description":"Il giallo matura nel rosso.",
+         "requirements":{
+            "ingredientforged":1,
+            "apostleforge.pillarfuel":1
+         },
+         "effects":{
+            "ingredientforged":-1,
+            "apostleforge.pillarfuel":-1,
+            "ingredientforgef":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"work.apostleforge.prepareingredientforgef",
+         "actionId":"work",
+         "label":"Raffina l'Essenza Iotica",
+         "startdescription":"Con la guida del nostro Forgiatore, possiamo raffinare questo elemento in qualcosa di più grandioso.",
+         "description":"Il rosso si eccita fino a divenire blu.",
+         "requirements":{
+            "ingredientforgef":1,
+            "apostleforge.pillarfuel":1
+         },
+         "effects":{
+            "ingredientforgef":-1,
+            "apostleforge.pillarfuel":-1,
+            "apostleforge.pillar3":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"work.apostleforge.baptisefollower",
+         "actionId":"work",
+         "label":"Scegli il Compasso",
+         "startdescription":"Con l'assistenza del nostro Forgiatore, possiamo preparare un seguace a cercare una falla nel mondo. Una volta trovata, non troverà più nulla, mai più.",
+         "description":"Gli occhi, braci. Il cuore, un tempio in attesa.",
+         "requirements":{
+            "follower":1,
+            "mortal":1,
+            "apostleforge.pillarfuel":1,
+            "tool":-1,
+            "lore":-1
+         },
+         "effects":{
+            "apostleforge.pillarfuel":-1
+         },
+         "mutations":[
+            {
+               "filter":"mortal",
+               "mutate":"apostleforge.pillar4.dormant",
+               "level":1
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"explore.apostleforge.findflaw",
+         "actionId":"explore",
+         "label":"La Falla nel Mondo",
+         "startdescription":"Pochi occhi possono vedere la falla, e coloro che la vedono una volta non vedranno più nulla, mai più.",
+         "description":"Questo è il luogo nel quale le Storie si allineano - la carne scoperta nella pelle del mondo. Ogni ferita inferta farà sette volte il danno. Se facessimo detonare il Dispositivo InfrangiAlba qui, potrebbe girare la Chiave Mordente nela serratura della Porta Selvaggia, e il nostro Forgiatore potrebbe passarci, come fecero gli dei-che-furono-pietre.",
+         "requirements":{
+            "apostleforge.pillar4.dormant":1
+         },
+         "mutations":[
+            {
+               "filter":"apostleforge.pillar4.dormant",
+               "mutate":"apostleforge.pillar4",
+               "level":1
+            },
+            {
+               "filter":"apostleforge.pillar4.dormant",
+               "mutate":"edge",
+               "level":-99
+            },
+            {
+               "filter":"apostleforge.pillar4.dormant",
+               "mutate":"forge",
+               "level":-99
+            },
+            {
+               "filter":"apostleforge.pillar4.dormant",
+               "mutate":"grail",
+               "level":-99
+            },
+            {
+               "filter":"apostleforge.pillar4.dormant",
+               "mutate":"heart",
+               "level":-99
+            },
+            {
+               "filter":"apostleforge.pillar4.dormant",
+               "mutate":"knock",
+               "level":-99
+            },
+            {
+               "filter":"apostleforge.pillar4.dormant",
+               "mutate":"lantern",
+               "level":-99
+            },
+            {
+               "filter":"apostleforge.pillar4.dormant",
+               "mutate":"moth",
+               "level":-99
+            },
+            {
+               "filter":"apostleforge.pillar4.dormant",
+               "mutate":"winter",
+               "level":-99
+            }
+         ],
+         "warmup":0,
+         "craftable":false
+      },
+      {
+         "id":"talk.apostleforge.sulochanaechidna",
+         "actionId":"talk",
+         "label":"Un'Introduzione alla Signora E.",
+         "startdescription":"'Il tuo Forgiatore vuole passare per la Porta Selvaggia, hm? Sa davvero cosa sta facendo? Ho visto lunghi della Forgia provarci. Di norma falliscono. Ma vedrò cosa posso fare. Ho una sorella che possiede la chiave che desideri. Mi metterò in contatto con lei... ma ci vorrà del tempo.'",
+         "description":"",
+         "requirements":{
+            "apostleforge.pillarfuel":1
+         },
+         "effects":{
+            "apostleforge.pillarfuel":-1,
+            "echidna.enroute":1
+         },
+         "craftable":false
+      },
+      {
+         "id":"talk.apostleforge.echidna",
+         "actionId":"talk",
+         "label":"Un'Istanza alla Sig.a E.",
+         "startdescription":"'Certo che posso aiutarti, bimbo mio. Sei fortunato ad esser venuto da me. Sono molto più accomodante delle mie sorelle. Ma desidero qualcosa di saporito... sempre che tu non abbia qualche buona ragione per farmi cambiare idea.'",
+         "description":"'No? Sarò nei dintorni ancora per un po'.'",
+         "requirements":{
+            "echidna":1
+         },
+         "slots":[
+            {
+               "id":"sacrifice",
+               "label":"Qualcuno Saporito, o una Buona Ragione",
+               "required":{
+                  "exalted":1,
+                  "cultsecrethistories_1":1
+               }
+            }
+         ],
+         "warmup":60,
+         "craftable":true,
+         "alt":[
+            {
+               "id":"talk.apostleforge.echidnahelp.independent"
+            },
+            {
+               "id":"talk.apostleforge.echidnahelp"
+            },
+            {
+               "id":"talk.apostleforge.echidnahelp.sthydra"
+            }
+         ]
+      },
+      {
+         "id":"talk.apostleforge.echidnahelp.independent",
+         "actionId":"talk",
+         "label":"Qualcuno Saporito",
+         "startdescription":"'Avete litigato? Non preoccuparti, pulirò tutto. Ascolta, comunque - sono una donna di parola, ma non sono una donna paziente. Attendi finché non sarai pronto, e quindi portami il tuo piccolo e saporito problema.'",
+         "description":"'Prendi questo. Non perderlo. Mi troverai là.'",
+         "requirements":{
+            "echidna":1,
+            "exalted":1
+         },
+         "effects":{
+            "exalted":-1,
+            "apostleforge.pillar5":1
+         },
+         "craftable":false
+      },
+      {
+         "id":"talk.apostleforge.echidnahelp",
+         "actionId":"talk",
+         "label":"Qualcuno Saporito",
+         "startdescription":"'Oh, bene.  Ascolta, comunque - sono una donna di parola, ma non sono una donna paziente. Non consegnarmi il tuo amico finché non sarai pronto.'",
+         "description":"'Prendi questo. Non perderlo. Mi troverai là.'",
+         "requirements":{
+            "echidna":1,
+            "exalted":1
+         },
+         "effects":{
+            "exalted":-1,
+            "apostleforge.pillar5":1
+         },
+         "craftable":false
+      },
+      {
+         "id":"talk.apostleforge.echidnahelp.sthydra",
+         "actionId":"talk",
+         "label":"Una Buona Ragione",
+         "startdescription":"'Vedo che entrambi allattiamo serpenti. Come ama dire mia sorella: Ligeia ricorda. Ti verrò incontro. (Ti sei mai chiesto perché fosse cinque, non sette? Due Storie disperse. Bene, ma perché solo due? Peccato che non abbiamo tempo per questo. Non sono una donna paziente.) Non chiedere il mio aiuto finché non sarai pronto.'",
+         "description":"'Prendi questo. Non perderlo. Mi troverai là.'",
+         "requirements":{
+            "echidna":1,
+            "cultsecrethistories_1":1
+         },
+         "effects":{
+            "apostleforge.pillar5":1
+         },
+         "craftable":false
+      }
+   ]
+}

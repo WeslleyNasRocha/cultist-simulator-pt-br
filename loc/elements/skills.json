@@ -1,0 +1,729 @@
+{
+   "elements":[
+      {
+         "id":"skillhealtha",
+         "label":"Abilità: un Fisico Più Forte",
+         "aspects":{
+            "healthskill":1,
+            "ability":1
+         },
+         "description":"Ho tratto benefici dall’esercizio. [Usala con due Lezioni Apprese per guadagnare più Salute.]",
+         "slots":[
+            {
+               "id":"Health",
+               "actionId":"work",
+               "label":"Salute",
+               "description":"Devo dedicare le mie energie a questo.",
+               "required":{
+                  "health":1
+               }
+            },
+            {
+               "id":"V1",
+               "actionId":"study",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "vitalityplus":1
+               },
+               "consumes":true,
+               "description":"Sono pronto a diventare più forte?",
+               "actionId":"study"
+            },
+            {
+               "id":"V2",
+               "actionId":"study",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "vitalityplus":1
+               },
+               "consumes":true,
+               "description":"Sono pronto a diventare più forte?",
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "careeradvancement":"skillhealthb"
+         }
+      },
+      {
+         "id":"skillhealthb",
+         "label":"Abilità: un Fisico Temprato",
+         "description":"Potresti non notarlo guardandomi, ma sono diventato forte come un fabbro o un soldato. [Usala con tre Lezioni Apprese per guadagnare più Salute.]",
+         "xtriggers":{
+            "careeradvancement":"skillhealthc"
+         },
+         "aspects":{
+            "healthskill":2,
+            "ability":1
+         },
+         "slots":[
+            {
+               "id":"Health",
+               "actionId":"work",
+               "label":"Salute",
+               "description":"Devo dedicare le mie energie a questo.",
+               "required":{
+                  "health":1
+               }
+            },
+            {
+               "id":"V1",
+               "actionId":"study",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "vitalityplus":1
+               },
+               "consumes":true,
+               "description":"Dovrei diventare ancora più forte?[Usa questo con tre Lezioni Apprese per guadagnare più Salute.]",
+               "actionId":"study"
+            },
+            {
+               "id":"V2",
+               "actionId":"study",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "vitalityplus":1
+               },
+               "consumes":true,
+               "description":"Dovrei diventare ancora più forte?",
+               "actionId":"study"
+            },
+            {
+               "id":"V3",
+               "actionId":"study",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "vitalityplus":1
+               },
+               "consumes":true,
+               "description":"Dovrei diventare ancora più forte?",
+               "actionId":"study"
+            }
+         ]
+      },
+      {
+         "id":"skillhealthc",
+         "label":"Abilità: un Fisico Ferreo",
+         "description":"Sono molte le cose che ora posso distruggere con le mie mani. [Usala con quattro Lezioni Apprese per guadagnare più Salute.]",
+         "aspects":{
+            "healthskill":3,
+            "ability":1
+         },
+         "slots":[
+            {
+               "id":"Health",
+               "actionId":"work",
+               "label":"Salute",
+               "description":"Devo dedicare le mie energie a questo.",
+               "required":{
+                  "health":1
+               }
+            },
+            {
+               "id":"specialisation",
+               "actionId":"study",
+               "label":"Qualcosa in Più",
+               "required":{
+                  "lore":1
+               },
+               "description":"Se conosco la giusta Tradizione, posso utilizzare le arti invisibili per raggiungere sommità ancora più elevate. Devo scegliere tra la forza e la grazia.",
+               "actionId":"study"
+            },
+            {
+               "id":"V1",
+               "actionId":"study",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "vitalityplus":1
+               },
+               "consumes":true,
+               "description":"Posso diventare ancora più sano? [Usa questo con quattro Lezioni Apprese per guadagnare più Salute.]",
+               "actionId":"study"
+            },
+            {
+               "id":"V2",
+               "actionId":"study",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "vitalityplus":1
+               },
+               "consumes":true,
+               "description":"Posso diventare ancora più sano?",
+               "actionId":"study"
+            },
+            {
+               "id":"V3",
+               "actionId":"study",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "vitalityplus":1
+               },
+               "consumes":true,
+               "description":"Posso diventare ancora più sano?",
+               "actionId":"study"
+            },
+            {
+               "id":"V4",
+               "actionId":"study",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "vitalityplus":1
+               },
+               "consumes":true,
+               "description":"Posso diventare ancora più sano?",
+               "actionId":"study"
+            }
+         ]
+      },
+      {
+         "id":"skillhealthd_strength",
+         "label":"Abilità: un Fisico Incomparabile",
+         "description":"Mi muovo come una montagna e colpisco come il cielo. 'Per comandare gli altri c’è la la forza, per comandare te stesso c’è il potere.' [Salute ed Abilità non possono aumentare oltre.]",
+         "aspects":{
+            "healthskill":4,
+            "ability":1,
+            "murderskill":1
+         },
+         "slots":[
+            {
+               "id":"Health",
+               "actionId":"work",
+               "label":"Salute",
+               "description":"Devo dedicare le mie energie a questo.",
+               "required":{
+                  "health":1
+               }
+            }
+         ]
+      },
+      {
+         "id":"skillhealthd_grace",
+         "label":"Abilità: un Fisico Perfetto",
+         "description":"La perfezione della macchina. Tendini consolidati d’avorio, stretti in pelle satinata. 'Da qui posso solo deteriorarmi.' [Salute ed Abilità non possono aumentare oltre.]",
+         "aspects":{
+            "healthskill":4,
+            "ability":1
+         },
+         "slots":[
+            {
+               "id":"Health",
+               "actionId":"work",
+               "label":"Salute",
+               "description":"Devo dedicare le mie energie a questo.",
+               "required":{
+                  "health":1
+               }
+            }
+         ]
+      },
+      {
+         "id":"skillreasona",
+         "label":"Abilità: Erudizione",
+         "aspects":{
+            "reasonskill":1,
+            "ability":1
+         },
+         "description":"Conosco moltissimi aforismi intelligenti. [Usala con due Lezioni Apprese per guadagnare più Ragione.]",
+         "slots":[
+            {
+               "id":"e1",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "eruditionplus":1
+               },
+               "consumes":true,
+               "description":"Dovrei immagazzinare più conoscenze nella mia mente?",
+               "actionId":"study"
+            },
+            {
+               "id":"e2",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "eruditionplus":1
+               },
+               "consumes":true,
+               "description":"SDovrei immagazzinare più conoscenze nella mia mente?",
+               "actionId":"study"
+            }
+         ],
+         "xtriggers":{
+            "careeradvancement":"skillreasonb"
+         }
+      },
+      {
+         "id":"skillreasonb",
+         "label":"Abilità: Erudizione Notevole",
+         "description":"Ho imparato abbastanza cose da sapere quante poche ne conosco. [Usala con tre Lezioni Apprese per guadagnare più Ragione.]",
+         "xtriggers":{
+            "careeradvancement":"skillreasonc"
+         },
+         "aspects":{
+            "reasonskill":2,
+            "ability":1
+         },
+         "slots":[
+            {
+               "id":"e1",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "eruditionplus":1
+               },
+               "consumes":true,
+               "description":"Potrei imparare ancora qualcosa?",
+               "actionId":"study"
+            },
+            {
+               "id":"e2",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "eruditionplus":1
+               },
+               "consumes":true,
+               "description":"Potrei imparare ancora qualcosa?",
+               "actionId":"study"
+            },
+            {
+               "id":"e3",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "eruditionplus":1
+               },
+               "consumes":true,
+               "description":"Potrei imparare ancora qualcosa?",
+               "actionId":"study"
+            }
+         ]
+      },
+      {
+         "id":"skillreasonc",
+         "label":"Abilità: Profonda Erudizione",
+         "description":"Il mio cranio scricchiola negli angoli per la conoscenza che ho maturato. [Usala con quattro Lezioni Apprese per guadagnare più Ragione.]",
+         "aspects":{
+            "reasonskill":3,
+            "ability":1
+         },
+         "slots":[
+            {
+               "id":"specialisation",
+               "actionId":"study",
+               "label":"Qualcosa in Più",
+               "required":{
+                  "lore":1
+               },
+               "description":"Se conosco la giusta Tradizione, posso utilizzare le arti invisibili per raggiungere sommità ancora più elevate. Devo scegliere tra l’illuminazione e la concentrazione.",
+               "actionId":"study"
+            },
+            {
+               "id":"e1",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "eruditionplus":1
+               },
+               "consumes":true,
+               "description":"Posso temprare oltre la mia ragione?",
+               "actionId":"study"
+            },
+            {
+               "id":"e2",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "eruditionplus":1
+               },
+               "consumes":true,
+               "description":"Posso temprare oltre la mia ragione?",
+               "actionId":"study"
+            },
+            {
+               "id":"e3",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "eruditionplus":1
+               },
+               "consumes":true,
+               "description":"Posso temprare oltre la mia ragione?",
+               "actionId":"study"
+            },
+            {
+               "id":"e4",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "eruditionplus":1
+               },
+               "consumes":true,
+               "description":"Posso temprare oltre la mia ragione?",
+               "actionId":"study"
+            }
+         ]
+      },
+      {
+         "id":"skillreasond_illumination",
+         "label":"Abilità: Una Mente Rarefatta",
+         "description":"La mia mente è vetro, e la memoria luce. [Ragione ed Abilità non possono aumentare oltre.]",
+         "aspects":{
+            "reasonskill":4,
+            "ability":1
+         },
+         "icon":"skillreasonc"
+      },
+      {
+         "id":"skillreasond_concentration",
+         "label":"Abilità: una Forza Silente",
+         "description":"Questa fredda quiete è l’immobilità della certezza. [Ragione ed Abilità non possono aumentare oltre.]",
+         "aspects":{
+            "reasonskill":4,
+            "ability":1
+         },
+         "icon":"skillreasonc"
+      },
+      {
+         "id":"skillpassiona",
+         "label":"Abilità: una Fervida Immaginazione",
+         "aspects":{
+            "passionskill":1,
+            "ability":1
+         },
+         "description":"I sogni ad occhi aperti, talvolta, superano i miei sogni. [Usala per Lavorare ai Dipinti, o con Studiare e due Lezioni Apprese per guadagnare più Passione.]",
+         "slots":[
+            {
+               "id":"G1",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "glimmeringplus":1
+               },
+               "consumes":true,
+               "description":"Sono pronto a nutrire ulteriormente le mie passioni?",
+               "actionId":"study"
+            },
+            {
+               "id":"G2",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "glimmeringplus":1
+               },
+               "consumes":true,
+               "description":"Sono pronto a nutrire ulteriormente le mie passioni?",
+               "actionId":"study"
+            },
+            {
+               "id":"painting1",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            },
+            {
+               "id":"painting2",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            }
+         ],
+         "xtriggers":{
+            "careeradvancement":"skillpassionb"
+         }
+      },
+      {
+         "id":"skillpassionb",
+         "label":"Abilità: un’Immaginazione Sfrenata",
+         "description":"Sono famoso per rompere sei matite al giorno. [Usala per Lavorare ai Dipinti, o con Studiare e tre Lezioni Apprese per guadagnare più Passione.]",
+         "xtriggers":{
+            "careeradvancement":"skillpassionc"
+         },
+         "aspects":{
+            "passionskill":2,
+            "ability":1
+         },
+         "slots":[
+            {
+               "id":"G1",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "glimmeringplus":1
+               },
+               "consumes":true,
+               "description":"Cosa potrei vedere, cosa potrei essere? [Usa questo con tre Lezioni Apprese per guadagnare più Passione.]",
+               "actionId":"study"
+            },
+            {
+               "id":"G2",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "glimmeringplus":1
+               },
+               "consumes":true,
+               "description":"Cosa potrei vedere, cosa potrei essere?",
+               "actionId":"study"
+            },
+            {
+               "id":"G3",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "glimmeringplus":1
+               },
+               "consumes":true,
+               "description":"Cosa potrei vedere, cosa potrei essere?",
+               "actionId":"study"
+            },
+            {
+               "id":"painting1",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            },
+            {
+               "id":"painting2",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            },
+            {
+               "id":"painting3",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            }
+         ]
+      },
+      {
+         "id":"skillpassionc",
+         "label":"Abilità: un’Immaginazione Febbricitante",
+         "description":"I fantasmi cavalcano la mia mente anche nella veglia. [Usala per Lavorare ai Dipinti, o con Studiare e quattro Lezioni Apprese per guadagnare più Passione.]",
+         "aspects":{
+            "passionskill":3,
+            "ability":1
+         },
+         "slots":[
+            {
+               "id":"specialisation",
+               "actionId":"study",
+               "label":"Qualcosa in Più",
+               "required":{
+                  "lore":1
+               },
+               "description":"Se conosco la giusta Tradizione, posso utilizzare le arti invisibili per raggiungere sommità ancora più elevate. Devo scegliere tra irrazionalità e follia.",
+               "actionId":"study"
+            },
+            {
+               "id":"G1",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "glimmeringplus":1
+               },
+               "consumes":true,
+               "description":"Quali furiose visioni rimangono? [Usa questo con quattro Lezioni Apprese per guadagnare più Passione.]",
+               "actionId":"study"
+            },
+            {
+               "id":"G2",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "glimmeringplus":1
+               },
+               "consumes":true,
+               "description":"Quali furiose visioni rimangono?",
+               "actionId":"study"
+            },
+            {
+               "id":"G3",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "glimmeringplus":1
+               },
+               "consumes":true,
+               "description":"Quali furiose visioni rimangono?",
+               "actionId":"study"
+            },
+            {
+               "id":"G4",
+               "label":"Una Lezione Appresa",
+               "required":{
+                  "glimmeringplus":1
+               },
+               "consumes":true,
+               "description":"Quali furiose visioni rimangono?",
+               "actionId":"study"
+            },
+            {
+               "id":"painting1",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            },
+            {
+               "id":"painting2",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            },
+            {
+               "id":"painting3",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            },
+            {
+               "id":"painting4",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            }
+         ]
+      },
+      {
+         "id":"skillpassiond_unreason",
+         "label":"Abilità: Nessun-No",
+         "description":"Di più, di più, di più, di p - [Passione ed Abilità non possono aumentare oltre.]",
+         "aspects":{
+            "passionskill":4,
+            "ability":1
+         },
+         "slots":[
+            {
+               "id":"painting1",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            },
+            {
+               "id":"painting2",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            },
+            {
+               "id":"painting3",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            },
+            {
+               "id":"painting4",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            }
+         ],
+         "icon":"skillpassionc"
+      },
+      {
+         "id":"skillpassiond_folly",
+         "label":"Abilità: un'Anima Aperta",
+         "description":"'Osserva, stanno alla mia porta e bussano; se sento qualsiasi voce, aprirò la porta, ed entreranno per me, e cenerò con loro, e loro con me.' [Passione ed Abilità non possono aumentare oltre.]",
+         "aspects":{
+            "passionskill":4,
+            "ability":1
+         },
+         "slots":[
+            {
+               "id":"painting1",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            },
+            {
+               "id":"painting2",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            },
+            {
+               "id":"painting3",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            },
+            {
+               "id":"painting4",
+               "label":"Arte o Pane",
+               "required":{
+                  "passion":1,
+                  "mystique":1,
+                  "notoriety":1
+               },
+               "description":"Posso utilizzare la Passione per compiere al meglio il lavoro; o se ho una reputazione, posso dipingere qualcosa che conquisti l’attenzione.",
+               "actionId":"work"
+            }
+         ],
+         "icon":"skillpassionc"
+      }
+   ]
+}

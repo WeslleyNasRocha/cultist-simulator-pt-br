@@ -1,0 +1,609 @@
+{
+   "recipes":[
+      {
+         "id":"work.poison.fascination.longlesson.trap",
+         "actionId":"work",
+         "label":"Un Nemico Sempre Vigile",
+         "startdescription":"Il nostro nemico osserva le nostre operazioni da un'alta finestra del Mansus. Ha imparato qualcosa in più su di noi.",
+         "requirements":{
+            "poison.fascination.longlesson":1,
+            "fascination":1
+         },
+         "effects":{
+            "long.lesson.dreamwork":1
+         },
+         "mutations":[
+            {
+               "filter":"fascination",
+               "mutate":"poison.fascination.longlesson",
+               "level":-1
+            }
+         ],
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "label":"Gloria della Ragione [Grandioso]",
+         "id":"arcane_lantern_edge_grand",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "lantern":15,
+            "edge":1
+         },
+         "effects":{},
+         "startdescription":"Come in alto, così in basso: Ragione e Passione si contendono nell'animo umano, come la Gloria illumina l'oscurità della Foresta. Questa disciplina mistica trasformerà la Passione in Ragione. [Stai chiamando un potere Grandioso della Lanterna, e questa azione avrà quasi certamente successo, sebbene ci siano sempre dei rischi.] ",
+         "description":"Nella mia mente si è riversata la luce. Sono più calmo e più affilato. Sono cambiato. [La Passione è stata trasformata in Ragione.]",
+         "slots":[
+            {
+               "id":"passion",
+               "label":"Arrendi la Passione",
+               "required":{
+                  "passion":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":10,
+               "id":"arcane_lantern_edge_failure"
+            }
+         ],
+         "aspects":{
+            "toreason":1,
+            "fascinating":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "label":"Gloria della Ragione [Maggiore]",
+         "id":"arcane_lantern_edge_major",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "lantern":10,
+            "edge":1
+         },
+         "effects":{},
+         "startdescription":"Come in alto, così in basso: Ragione e Passione si contendono nell'animo umano, come la Gloria illumina l'oscurità della Foresta. Questa disciplina mistica trasformerà la Passione in Ragione. [Stai chiamando un potere Maggiore della Lanterna, quindi il rito avrà probabilmente successo. Aumenta il livello della Lanterna al quindicesimo grado per incrementare ulteriormente le tue possibilità.] ",
+         "description":"Nella mia mente si è riversata la luce. Sono più calmo e più affilato. Sono cambiato. [La Passione è stata trasformata in Ragione.]",
+         "slots":[
+            {
+               "id":"passion",
+               "label":"Arrendi la Passione",
+               "required":{
+                  "passion":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":30,
+               "id":"arcane_lantern_edge_failure"
+            }
+         ],
+         "aspects":{
+            "toreason":1,
+            "fascinating":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "label":"Gloria della Ragione [Minore]",
+         "id":"arcane_lantern_edge_minor",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "lantern":5,
+            "edge":1
+         },
+         "effects":{},
+         "startdescription":"Come in alto, così in basso: Ragione e Passione si contendono nell'animo umano, come la Gloria illumina l'oscurità della Foresta. Questa disciplina mistica trasformerà la Passione in Ragione. [Stai chiamando solamente un potere Minore della Lanterna, quindi è probabile che il rito fallisca. Aumenta il livello della Lanterna almeno al decimo grado per incrementare le tue possibilità.] ",
+         "description":"Nella mia mente si è riversata la luce. Sono più calmo e più affilato. Sono cambiato. [La Passione è stata trasformata in Ragione.]",
+         "slots":[
+            {
+               "id":"passion",
+               "label":"Arrendi la Passione",
+               "required":{
+                  "passion":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":70,
+               "id":"arcane_lantern_edge_failure"
+            }
+         ],
+         "aspects":{
+            "toreason":1,
+            "fascinating":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"arcane_lantern_edge_failure",
+         "label":"Gloria della Ragione [Fallimento!]",
+         "actionId":"work",
+         "description":"Questa magia è andata storta. Una luce invisibile mi ha intrappolato.",
+         "effects":{
+            "fascination":1
+         }
+      },
+      {
+         "label":"Vortice della Passione [Grandioso]",
+         "id":"arcane_moth_edge_grand",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "moth":15,
+            "edge":1
+         },
+         "effects":{},
+         "startdescription":"Come in basso, così in alto: Passione e Ragione si contendono nell'animo umano, come la Foresta ingloba la luce della Gloria. Questa pratica estatica trasformerà la Ragione in Passione... ma potrebbe sfuggirmi di mano. [Stai chiamando un potere Grandioso della Falena, e questa azione avrà quasi certamente successo, sebbene ci siano sempre dei rischi.] ",
+         "description":"Le mie passioni s'innalzano come il vento, come la marea, come l'inondazione. È difficile pensare con lucidità. Sono cambiato. [La Ragione è stata trasformata in Passione.]",
+         "slots":[
+            {
+               "id":"reason",
+               "label":"Arrendi la Ragione",
+               "required":{
+                  "reason":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":10,
+               "id":"arcane_moth_edge_failure"
+            }
+         ],
+         "aspects":{
+            "topassion":1,
+            "dreadful":1
+         },
+         "warmup":60,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"arcane_moth_edge_runaway_link",
+               "chance":30
+            }
+         ]
+      },
+      {
+         "label":"Vortice della Passione [Maggiore]",
+         "id":"arcane_moth_edge_major",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "moth":10,
+            "edge":1
+         },
+         "effects":{},
+         "startdescription":"Come in basso, così in alto: Passione e Ragione si contendono nell'animo umano, come la Foresta ingloba la luce della Gloria. Questa pratica estatica trasformerà la Ragione in Passione... ma potrebbe sfuggirmi di mano. [Stai chiamando un potere Maggiore della Falena, quindi il rito avrà probabilmente successo. Aumenta il livello della Falena al quindicesimo grado per incrementare ulteriormente le tue possibilità.] ",
+         "description":"Le mie passioni s'innalzano come il vento, come la marea, come l'inondazione. È difficile pensare con lucidità. Sono cambiato. [La Ragione è stata trasformata in Passione.]",
+         "slots":[
+            {
+               "id":"reason",
+               "label":"Arrendi la Ragione",
+               "required":{
+                  "reason":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":30,
+               "id":"arcane_moth_edge_failure"
+            }
+         ],
+         "aspects":{
+            "topassion":1,
+            "dreadful":1
+         },
+         "warmup":60,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"arcane_moth_edge_runaway_link",
+               "chance":30
+            }
+         ]
+      },
+      {
+         "label":"Vortice della Passione [Minore]",
+         "id":"arcane_moth_edge_minor",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "moth":5,
+            "edge":1
+         },
+         "effects":{},
+         "startdescription":"Come in basso, così in alto: Passione e Ragione si contendono nell'animo umano, come la Foresta ingloba la luce della Gloria. Questa pratica estatica trasformerà la Ragione in Passione... ma potrebbe sfuggirmi di mano. [Stai chiamando solamente un potere Minore della Falena, quindi è probabile che il rito fallisca. Aumenta il livello della Falena almeno al decimo grado per incrementare le tue possibilità.] ",
+         "description":"Le mie passioni s'innalzano come il vento, come la marea, come l'inondazione. È difficile pensare con lucidità. Sono cambiato. [La Ragione è stata trasformata in Passione.]",
+         "slots":[
+            {
+               "id":"reason",
+               "label":"Arrendi la Ragione",
+               "required":{
+                  "reason":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":70,
+               "id":"arcane_moth_edge_failure"
+            }
+         ],
+         "aspects":{
+            "topassion":1,
+            "dreadful":1
+         },
+         "warmup":60,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"arcane_moth_edge_runaway_link",
+               "chance":30
+            }
+         ]
+      },
+      {
+         "id":"arcane_moth_edge_failure",
+         "label":"Vortice della Passione [Fallimento!]",
+         "actionId":"work",
+         "description":"Questa magia è andata storia. Il Terrore ha affogato la delizia.",
+         "effects":{
+            "dread":1
+         }
+      },
+      {
+         "id":"arcane_moth_edge_runaway_link",
+         "label":"Vortice della Passione [INCESSANTE!]",
+         "actionId":"work",
+         "warmup":2,
+         "linked":[
+            {
+               "id":"arcane_moth_edge_runaway",
+               "chance":30
+            }
+         ]
+      },
+      {
+         "id":"arcane_moth_edge_runaway",
+         "label":"Vortice della Passione [INCESSANTE!]",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "moth":15,
+            "edge":1
+         },
+         "startdescription":"La Falena mi ha preso! Il vortice si allarga! La mia Ragione potrebbe esserne completamente sommersa!",
+         "description":"Alla fine il Vortice è arrivato alla sua conclusione, ma è difficile pensare con lucidità. Sono cambiato. [La Ragione è stata trasformata in Passione.]",
+         "slots":[
+            {
+               "id":"reason",
+               "label":"Arrendi la Ragione",
+               "required":{
+                  "reason":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":10,
+               "id":"arcane_moth_edge_failure"
+            }
+         ],
+         "aspects":{
+            "topassion":1,
+            "fascinating":1
+         },
+         "effects":{
+            "influenceheartc":1
+         },
+         "warmup":15,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"arcane_moth_edge_runaway",
+               "chance":30
+            }
+         ]
+      },
+      {
+         "label":"Riscatto della Forgia [Grandioso]",
+         "id":"arcane_forge_grail_grand",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "forge":15,
+            "grail":1
+         },
+         "effects":{
+                "notoriety": 1,
+                "fascination": 1
+         },
+         "startdescription":"La Forgia dei Giorni distrugge e rinnova. La invocherò con il Graal per rinnovare la mia carne fatiscente con magie proibite. [Stai chiamando un potere Grandioso della Forgia, e questa azione avrà quasi certamente successo, sebbene ci siano sempre dei rischi.] ",
+         "description":"Sono stato rinnovato con la fiamma, temprato con il sangue. La mia carne è di nuovo forte, ma lo splendore della Forgia ha corrotto la mia anima... e la gente parlerà. [La Decrepitezza è stata trasformata in Salute, ma hai guadagnato Seduzione e Notorietà.]",
+         "slots":[
+            {
+               "id":"decrepitude",
+               "label":"Decrepitezza",
+               "required":{
+                  "decrepitude":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":10,
+               "id":"arcane_forge_grail_failure"
+            }
+         ],
+         "aspects":{
+            "tohealth":1,
+            "fascinating":1
+         },
+         "effects":{
+            "notoriety":1,
+            "fascination":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "label":"Riscatto della Forgia [Maggiore]",
+         "id":"arcane_forge_grail_major",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "forge":10,
+            "grail":1
+         },
+         "startdescription":"La Forgia dei Giorni distrugge e rinnova. La invocherò con il Graal per rinnovare la mia carne fatiscente con magie proibite. [Stai chiamando un potere Maggiore della Forgia, quindi il rito avrà probabilmente successo. Aumenta il livello della Forgia al quindicesimo grado per incrementare ulteriormente le tue possibilità.] ",
+         "description":"Sono stato rinnovato con la fiamma, temprato con il sangue. La mia carne è di nuovo forte, ma lo splendore della Forgia ha corrotto la mia anima... e la gente parlerà. [La Decrepitezza è stata trasformata in Salute, ma hai guadagnato Seduzione e Notorietà.]",
+         "slots":[
+            {
+               "id":"decrepitude",
+               "label":"Decrepitezza",
+               "required":{
+                  "decrepitude":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":30,
+               "id":"arcane_forge_grail_failure"
+            }
+         ],
+         "aspects":{
+            "tohealth":1,
+            "fascinating":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "label":"Riscatto della Forgia [Minore]",
+         "id":"arcane_forge_grail_minor",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "forge":5,
+            "grail":1
+         },
+         "effects":{
+            "notoriety": 1,
+            "fascination": 1
+         },
+         "startdescription":"La Forgia dei Giorni distrugge e rinnova. La invocherò con il Graal per rinnovare la mia carne fatiscente con magie proibite. [Stai chiamando solamente un potere Minore della Forgia, quindi è probabile che il rito fallisca. Aumenta il livello della Forgia almeno al decimo grado per incrementare le tue possibilità.] ",
+         "description":"Sono stato rinnovato con la fiamma, temprato con il sangue. La mia carne è di nuovo forte, ma lo splendore della Forgia ha corrotto la mia anima... e la gente parlerà. [La Decrepitezza è stata trasformata in Salute, ma hai guadagnato Seduzione e Notorietà.]",
+         "slots":[
+            {
+               "id":"decrepitude",
+               "label":"Decrepitezza",
+               "required":{
+                  "decrepitude":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":70,
+               "id":"arcane_forge_grail_failure"
+            }
+         ],
+         "aspects":{
+            "tohealth":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"arcane_forge_grail_failure",
+         "label":"Riscatto della Forgia [Fallimento!]",
+         "actionId":"work",
+         "description":"La Forgia dei Giorni ha fallito, o io ho fallito. Questa magia mi ha portato solamente incubi e pericoli.",
+         "effects":{
+            "dread":1,
+            "mystique":1
+         }
+      },
+      {
+         "label":"La Fine è Magnifica [Grandiosa]",
+         "id":"arcane_winter_lantern_grand",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "winter":15,
+            "lantern":1
+         },
+         "startdescription":"Il Sole-negli-Stracci porta con sé splendidi finali. Questa repentina e pericolosa magia concluderà qualcuno o qualcosa, ma è impossibile sapere cosa. Ucciderà anche ogni mortale o spirito che mi assisterà con il rituale. [Stai chiamando un potere Grandioso dell'Inverno, e questa azione avrà quasi certamente successo, sebbene sarebbe più sicuro se fallisse.] ",
+         "description":"La neve si è fermata su ogni superficie del mio studio. Il fuoco non emana alcun calore, ma non posso neanche spegnerlo, né posso spegnere le candele, che bruciano con un nembo rosso, una fiamma dorata e un cuore nero. Quando il rituale raggiunge il climax qualcuno, da qualche parte, si conclude.",
+         "slots":[
+            {
+               "id":"conclusion",
+               "label":"Una Conclusione",
+               "required":{
+                  "mortal":1,
+                  "summoned":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":10,
+               "id":"arcane_winter_lantern_failure"
+            }
+         ],
+         "aspects":{
+            "killhunter":1,
+            "killmortal":1,
+            "killsummoned":1
+         },
+         "effects":{
+            "dread":1,
+            "fascination":1,
+            "notoriety":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "label":"La Fine è Magnifica [Maggiore]",
+         "id":"arcane_winter_lantern_major",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "winter":10,
+            "lantern":1
+         },
+         "startdescription":"Il Sole-negli-Stracci porta con sé splendidi finali. Questa repentina e pericolosa magia concluderà qualcuno o qualcosa, ma è impossibile sapere cosa. Ucciderà anche ogni mortale o spirito che mi assisterà con il rituale. [Stai chiamando un potere Maggiore dell'Inverno, quindi il rito avrà probabilmente successo. Aumenta il livello dell'Inverno al quindicesimo grado per incrementare ulteriormente le tue possibilità, sebbene sarebbe più sicuro se fallisse.] ",
+         "description":"La neve si è fermata su ogni superficie del mio studio. Il fuoco non emana alcun calore, ma non posso neanche spegnerlo, né posso spegnere le candele, che bruciano con un nembo rosso, una fiamma dorata e un cuore nero. Quando il rituale raggiunge il climax qualcuno, da qualche parte, si conclude.",
+         "slots":[
+            {
+               "id":"conclusion",
+               "label":"Una Conclusione",
+               "required":{
+                  "mortal":1,
+                  "summoned":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":30,
+               "id":"arcane_winter_lantern_failure"
+            }
+         ],
+         "aspects":{
+            "killhunter":1,
+            "killmortal":1,
+            "killsummoned":1
+         },
+         "effects":{
+            "dread":1,
+            "fascination":1,
+            "notoriety":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "label":"La Fine è Magnifica [Minore]",
+         "id":"arcane_winter_lantern_minor",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":-1,
+            "desire":-1,
+            "winter":5,
+            "lantern":1
+         },
+         "startdescription":"Il Sole-negli-Stracci porta con sé splendidi finali. Questa repentina e pericolosa magia concluderà qualcuno o qualcosa, ma è impossibile sapere cosa. Ucciderà anche ogni mortale o spirito che mi assisterà con il rituale. [Stai chiamando solamente un potere Minore dell'Inverno, quindi è probabile che il rito fallisca. Aumenta il livello della Forgia almeno al decimo grado per incrementare le tue possibilità, sebbene sarebbe più sicuro se fallisse.] ",
+         "description":"La neve si è fermata su ogni superficie del mio studio. Il fuoco non emana alcun calore, ma non posso neanche spegnerlo, né posso spegnere le candele, che bruciano con un nembo rosso, una fiamma dorata e un cuore nero. Quando il rituale raggiunge il climax qualcuno, da qualche parte, si conclude.",
+         "slots":[
+            {
+               "id":"conclusion",
+               "label":"Una Conclusione",
+               "required":{
+                  "mortal":1,
+                  "summoned":1
+               },
+               "greedy":true
+            }
+         ],
+         "alt":[
+            {
+               "chance":30,
+               "id":"arcane_winter_lantern_failure"
+            }
+         ],
+         "aspects":{
+            "killhunter":1,
+            "killmortal":1,
+            "killsummoned":1
+         },
+         "effects":{
+            "dread":1,
+            "fascination":1,
+            "notoriety":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"arcane_winter_lantern_failure",
+         "label":"La Fine è Magnifica [Fallimento!]",
+         "actionId":"work",
+         "description":"Il Sole-negli-Stracci non ha risposto alla mia chiamata. Questa magia mi ha portato solamente la preveggenza dell'inverno.",
+         "effects":{
+            "dread":1,
+            "mystique":1
+         }
+      }
+   ]
+}

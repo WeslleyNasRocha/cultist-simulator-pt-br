@@ -1,0 +1,315 @@
+{
+   "recipes":[
+      {
+         "id":"explore_vaultlandbeyondforest1_setup",
+         "label":"Comincia una Spedizione: Cava delle Candele",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultlandbeyondforest1":1
+         },
+         "effects":{
+            "peril_mountains":1,
+            "guardian_serpent":1
+         },
+         "startdescription":"L'ascesa alla cava, attraverso i passi montani, sarà pericolosa. Ciò che ci attende nell'ombra, poi, potrebbe essere ancora più pericoloso. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultlandbeyondforest2_setup",
+         "label":"Comincia una Spedizione: Cittadella del Voivoda",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultlandbeyondforest2":1
+         },
+         "effects":{
+            "seal_hiddendoor":1,
+            "guardian_dead":1
+         },
+         "startdescription":"La cassaforte del Voivoda sarà ben nascosta e, se le storie sono vere, le sue vittime potrebbero non riposare in pace, nell'oscurità della cittadella. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultlandbeyondforest3_setup",
+         "label":"Comincia una Spedizione: Circo Permanente di Grunewald",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultlandbeyondforest3":1
+         },
+         "effects":{
+            "guardian_watchers":1,
+            "curse_nowhere":1
+         },
+         "startdescription":"I circensi saranno pronti a impugnare le armi contro di noi, e il Circo, temo, potrebbe esser stato toccato dal potere del Verme. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultlandbeyondforest4_setup",
+         "label":"Comincia una Spedizione: Torre Revek",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultlandbeyondforest4":1
+         },
+         "effects":{
+            "seal_hiddendoor":1,
+            "curse_affliction":1
+         },
+         "startdescription":"Dobbiamo cercare assiduamente qualunque tesoro possa essere ancora presente; se la torre è stata veramente distrutta durante una battaglia tra adepti, potrebbero ancora aleggiarci infulenze pericolose. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultlandbeyondforest5_setup",
+         "label":"Comincia una Spedizione: La Donazione Kusnetsov",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultlandbeyondforest5":1
+         },
+         "effects":{
+            "seal_hiddendoor":1,
+            "guardian_watchers":1,
+            "peril_treacherousground":1
+         },
+         "startdescription":"Il viaggio verso gli edifici della Donazione non è lungo, ma il territorio sarà ostile. Abbiamo mandato tre volte una richiesta di visita, e altrettante volte abbiamo ricevuto una sempre minor gentile risposta. Senz'alcun dubbio, lo staff cercherà di impedirci l'ingresso. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultlandbeyondforestdefault_setup",
+         "label":"Comincia una Spedizione: Prati di Gigli della Volpe",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultlandbeyondforestdefault":1
+         },
+         "effects":{
+            "peril_mountains":1,
+            "guardian_watchers":1,
+            "curse_visions":1
+         },
+         "startdescription":"Il cammino sarà duro, attraverseremo le montagne ed arriveremo agli alpeggi. I montanari proveranno a deviarci. Se ritorneremo a casa sani e salvi, potremmo avere qualche difficoltà a tener lontane le visioni del luogo. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explorevaultlandbeyondforest1_success",
+         "label":"Un Nido di Luci",
+         "actionId":"explore",
+         "requirements":{
+            "vaultlandbeyondforest1":1
+         },
+         "effects":{
+            "vaultlandbeyondforest1":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "influencelanternc",
+               "accountkanishkspidersdooraramaic",
+               "theskythesoularamaic",
+               "ingredientlanternf"
+            ],
+            "draws":4,
+            "defaultcard":"compensationc",
+            "resetonexhaustion":false
+         },
+         "startdescription":"I tunnel al di sotto della cava sono lisci per il passaggio del grande serpente e soffocantemente oscuri, finché non accendiamo le lanterne. Tuttavia, le camere dove aveva fatto la tana sono sorprendentemente luminose. Funghi luminescenti inondano il luogo di luce artificiale. Forse le candele ne attingevano, non respingevano.",
+         "description":"Un piccolo tesoretto, costruitosi nel tempo dai pasti del serpente. Li ha rigettati in una pila luccinante.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultlandbeyondforest2_success",
+         "label":"La Tomba Vuota",
+         "actionId":"explore",
+         "requirements":{
+            "vaultlandbeyondforest2":1
+         },
+         "effects":{
+            "vaultlandbeyondforest2":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "influencegrailc",
+               "gospelzacchaeusgreek",
+               "catalogueofunchartedpleasuresphrygian",
+               "bookofthronesphrygian",
+               "twentysixenticementsseventormentsfucine",
+               "toolheartd"
+            ],
+            "draws":6,
+            "defaultcard":"compensationc",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Qui c'è il mausoleo del Voivoda. Innumerevoli ragnatele pendono come soffici tende grigie. Un grande sarcofago di arenaria giace innalzato nel fondo della stanza. È vuoto.",
+         "description":"Qualcuno ha abbandonato un piccolo cumulo di tesori davanti al sarcofago, come un'offerta. Non ci sono impronte nella polvere. Chiunque sia stato, è venuto molto tempo fa, oppure non aveva bisogno di toccare il pavimento.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultlandbeyondforest3_success",
+         "label":"Dopo il Circo",
+         "actionId":"explore",
+         "requirements":{
+            "vaultlandbeyondforest3":1
+         },
+         "effects":{
+            "vaultlandbeyondforest3":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "erudition",
+               "jumble",
+               "sunsetpassageslatin",
+               "historyofshadowlesskingsaramaic",
+               "ivorybookfucine",
+               "ingredientgrailf",
+               "textbooksanskrit"
+            ],
+            "draws":7,
+            "defaultcard":"compensationc",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Nella tenda striata vi sono teratologie conservate dietro vetri torbidi ed imbrattati. Nella tenda grigia, una nebbia grondante che ci allarma, come un gatto durante la caccia - una nebbia che rende animali. Nella tenda nera con le stelle, meravigliosi miscugli di scultura e orrore, guarniti di lustrini e gemme. Nella tenda rossa, un prete cereo in una bara di vetro, e dei libri serrati sul suo petto...",
+         "description":"Nella tenda rossa, una follia di carta. I circensi hanno incollato carte ricoperte di diagrammi su ogni superficie: le anatomie del tempo, le dissezioni del vecchio tempo. Questo luogo puzza di Nulla. Dovremmo bruciarlo quando ce ne andremo. Sopra ad un tavolo a trespolo c'è un pasticcio incerimonioso di trofei e ricordi.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultlandbeyondforest4_success",
+         "label":"Una Conclusione Procrastinata a Lungo",
+         "actionId":"explore",
+         "requirements":{
+            "vaultlandbeyondforest4":1
+         },
+         "effects":{
+            "vaultlandbeyondforest4":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "furioustantrasanskrit",
+               "twinserpenttantrasanskrit",
+               "howendwillbeginvak",
+               "ingredientforgeb"
+            ],
+            "draws":4,
+            "defaultcard":"compensationc",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Al di sotto della torre c'è una piccola cantina dalle pareti d'ardesia frantumate. Le proporzioni sono peculiari - dovrebbe essere un cubo perfetto ma, per qualche ragione, vi sono troppi angoli. Luci blu prosperano nelle giunzioni tra soffitto e muri. Il pavimento si flette, lentamente, come la pelle di una bolla. Risuona ai nostri passi. Che spazio si apre al di sotto?",
+         "description":"Racchiudi i libri in un sacco. Corri su velocemente per gli appigli fino al tronco della torre. Il cielo sopra di noi si increspa con un'aurora cobalto. Le colline intorno sono lavate da brividi di luce blu. Si alza un alto canto dalle pietre della torre mentre ce ne andiamo. Lampi scoppiano nel cielo, e improvvisamente tutto è silenzioso. Il tronco di torre non c'è più.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultlandbeyondforest5_success",
+         "label":"La Fine delle Parole",
+         "actionId":"explore",
+         "requirements":{
+            "vaultlandbeyondforest5":1
+         },
+         "effects":{
+            "vaultlandbeyondforest5":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "burningwomanphrygian",
+               "encirclingtantrasanskrit",
+               "knownunknowntantrasanskrit",
+               "ironbookfucine",
+               "silverbookfucine",
+               "matthiasamethystpursuitaramaic"
+            ],
+            "draws":6,
+            "defaultcard":"compensationc",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Il soffitto della libreria è crollato anni fa. Molti dei libri oramai sono diventati polpa tumefatta a causa dell'acqua colata. Qualcosa dev'essere rimasto.",
+         "description":"Un ritratto d'un uomo sorridente - pelle scura, occhi chiari, né capelli né sopracciglia - osserva dall'alto la libreria in rovina. È intitolato 'Non Badare a Me' e firmato con un indecifrabile scarabocchio serpentino. La vernice si sta scrostando. Ci guarda con un sorriso benevolo mentre troviamo dei tesori intatti tra i libri rigonfi.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultlandbeyondforestdefault_success",
+         "label":"Il Nutrimento dei Boccioli",
+         "actionId":"explore",
+         "requirements":{
+            "vaultlandbeyondforestdefault":1
+         },
+         "effects":{
+            "vaultlandbeyondforestdefault":-1
+         },
+         "deckeffects":{
+            "vaultrewardsd":3
+         },
+         "startdescription":"Abbiamo intinto i vestiti nell'ammoniaca e li abbiamo legati intorno alle nostre facce per attutire l'odore dei gigli della volpe. Anche così ci gira la testa e il corpo risponde ad una mezza dozzina di desideri contraddittori. Ecco le ossa che cercavamo. Prendiamole ed andiamocene.",
+         "description":"I gigli di volpe sono bianchi come gli animali che vivono nelle grotte, bianchi come il gelo, bianchi come lenzuola immacolate. È difficile guardare da un'altra parte. Chiuderemo gli occhi e fuggiremo, faticosamente, con il nostro tesoro.",
+         "warmup":30,
+         "craftable":false,
+         "linked":[
+            {
+               "id":"expeditionascensionheartd",
+               "chance":100
+            },
+            {
+               "id":"expeditionascensionmothd",
+               "chance":100
+            }
+         ]
+      }
+   ]
+}

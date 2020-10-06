@@ -1,0 +1,177 @@
+{
+   "elements":[
+      {
+         "id":"peril_treacherousground",
+         "label":"Terreno Insidioso",
+         "aspects":{
+            "peril":1
+         },
+         "description":"Fosse, pantani e frane improvvise. La terra qui non è affidabile. Abbiamo bisogno di mani forti o di limpida visione - Forgia, o Lanterna."
+      },
+      {
+         "id":"peril_forest",
+         "label":"Foresta Ronzante di Pericoli",
+         "aspects":{
+            "peril":1
+         },
+         "description":"Tempo fa gli alberi primordiali marciarono da mare a mare. Alcune tracce del loro regno sopravvivono ancora - come questo territorio denso e asfissiante di radici e spine. La praticità della Forgia, o i misteri della Falena, ci condurranno dall’altra parte."
+      },
+      {
+         "id":"peril_mountains",
+         "label":"Gli Alti Valichi",
+         "aspects":{
+            "peril":1
+         },
+         "description":"Desolati pendii grigio-verdi alzano lo sguardo verso distanti picchi innevati innalzati al cielo... sarà un lavoro infernale trovare qualcosa lassù. La Forgia ci sosterrà, l’Inverno ci proteggerà."
+      },
+      {
+         "id":"peril_desert",
+         "label":"Desolazione",
+         "aspects":{
+            "peril":1
+         },
+         "description":"Un'immensa fornace fulva contenuta a malapena dai suoi orizzonti. Di notte diviene una gelida foresta di stelle. Dobbiamo essere cauti, con la Forgia a plasmare la nostra strada, o il Graal a salvarci dalla sete."
+      },
+      {
+         "id":"peril_sea",
+         "label":"Un Mare Occidentale",
+         "aspects":{
+            "peril":1
+         },
+         "description":"Molte di queste isole sono ben conosciute alle Storie, ma la nostra destinazione giace nei selvaggi confini inesplorati. Avremo bisogno del Cuore o della Forgia per sopravvivere."
+      },
+      {
+         "id":"seal_hiddendoor",
+         "label":"Una Porta Nascosta",
+         "aspects":{
+            "seal":1
+         },
+         "description":"Le Porte Nascoste possono essere trovate con la Lanterna o il Colpo."
+      },
+      {
+         "id":"seal_wardeddoor",
+         "label":"Una Porta Protetta",
+         "aspects":{
+            "seal":1
+         },
+         "description":"Un ingegnere, o un adepto, ci ha garantito che questa porta non si apre facilmente. La Forgia o il Colpo la sconfiggeranno."
+      },
+      {
+         "id":"guardian_serpent",
+         "label":"Sorella Minore",
+         "aspects":{
+            "guardian":1
+         },
+         "description":"La Madre delle Formiche è nata presso i serpenti. Lei possiede molte sorelle minori. Può essere sconfitta in battaglia; o risponderà al potere della Madre."
+      },
+      {
+         "id":"guardian_watchers",
+         "label":"Osservatori",
+         "aspects":{
+            "guardian":1
+         },
+         "description":"Mortali. Forse addirittura mortali ordinari. Ma in buon numero. Possono essere combattuti, sedotti o ingannati."
+      },
+      {
+         "id":"guardian_monks",
+         "label":"Monaci",
+         "aspects":{
+            "guardian":1
+         },
+         "description":"Contemplativi benedetti o condannati a prestare servizio qui. Sono legati ai loro curiosi voti. Possiamo assassinarli, o ingannarli, ma non si lasceranno sedurre."
+      },
+      {
+         "id":"guardian_dead",
+         "label":"Il Morto Agitato",
+         "aspects":{
+            "guardian":1
+         },
+         "description":"Non tutti i Morti riposano in pace. Questi non apprezzano la nostra intrusione. Possiamo prevalere su di loro con la Lama; o possono obbedire a qualcuno che venga nel nome dell’Inverno."
+      },
+      {
+         "id":"guardian_serpent_pre",
+         "label":"Sorella Minore",
+         "description":"La Madre delle Formiche è nata presso i serpenti. Lei possiede molte sorelle minori. Può essere sconfitta in battaglia; o risponderà al potere della Madre.",
+         "isAspect":true,
+         "icon":"guardian"
+      },
+      {
+         "id":"guardian_watchers_pre",
+         "label":"Osservatori",
+         "aspects":{
+            "guardian":1
+         },
+         "description":"Mortali. Forse addirittura mortali ordinari. Ma in buon numero. Possono essere combattuti, sedotti o ingannati.",
+         "isAspect":true,
+         "icon":"guardian"
+      },
+      {
+         "id":"guardian_monks_pre",
+         "label":"Monaci",
+         "aspects":{
+            "guardian":1
+         },
+         "description":"Contemplativi benedetti o condannati a prestare servizio qui. Sono legati ai loro curiosi voti. Possiamo assassinarli, o ingannarli, ma non si lasceranno sedurre.",
+         "isAspect":true,
+         "icon":"guardian"
+      },
+      {
+         "id":"guardian_dead_pre",
+         "label":"Il Morto Agitato",
+         "aspects":{
+            "guardian":1
+         },
+         "description":"Non tutti i Morti riposano in pace. Questi non apprezzano la nostra intrusione. Possiamo prevalere su di loro con la Lama; o possono obbedire a qualcuno che venga nel nome dell’Inverno.",
+         "isAspect":true,
+         "icon":"guardian"
+      },
+      {
+         "id":"guardian_soucouyants",
+         "label":"Soucouyant",
+         "aspects":{
+            "guardian":1
+         },
+         "description":"Si potrebbe confonderle con delle signore anziane, finché non scartano la pelle. Il luogo brulica di loro. Sono forti come radici strangolanti e almeno per metà Lunghi, ma possono essere ingannate, e sono molto impaurite dalla luce."
+      },
+      {
+         "id":"guardian_long",
+         "label":"Lungo",
+         "aspects":{
+            "guardian":1
+         },
+         "description":"È molto difficile uccidere qualcuno che ha oltrepassato la Porta Tricuspide. E qui ce ne sono parecchi. Ma forse possiamo ingannarli, o approfittare degli appetiti di qualcuno."
+      },
+      {
+         "id":"curse_dread",
+         "label":"Maledizione dell’Anima Secca",
+         "aspects":{
+            "curse":1
+         },
+         "description":"Abbiamo bisogno del Cuore o della Lanterna per sopprimere questa maledizione. Non ci impedirà di raggiungere il nostro obbiettivo, ma potrebbe darci problemi più tardi."
+      },
+      {
+         "id":"curse_visions",
+         "label":"Maledizione del Quinto Occhio",
+         "aspects":{
+            "curse":1
+         },
+         "description":"Abbiamo bisogno del Cuore o dell'Inverno per sopprimere questa maledizione. Non ci impedirà di raggiungere il nostro obbiettivo, ma potrebbe darci problemi più tardi."
+      },
+      {
+         "id":"curse_affliction",
+         "label":"Maledizione del Respiro Strisciante",
+         "aspects":{
+            "curse":1
+         },
+         "description":"Abbiamo bisogno del Cuore o del Graal per sopprimere questa maledizione. Non ci impedirà di raggiungere il nostro obbiettivo, ma potrebbe darci problemi più tardi."
+      },
+      {
+         "id":"curse_nowhere",
+         "label":"I Vermi nel Mondo",
+         "aspects":{
+            "curse":1
+         },
+         "description":"Abbiamo bisogno della Lanterna o della Falena per sopprimere questa maledizione. Non ci impedirà di raggiungere il nostro obbiettivo, ma potrebbe darci problemi più tardi."
+      }
+   ]
+}

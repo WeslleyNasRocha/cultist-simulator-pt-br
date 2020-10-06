@@ -1,0 +1,339 @@
+{
+   "elements":[
+      {
+         "id":"ascensionpowera",
+         "label":"Tentazione: Potere",
+         "aspects":{
+            "desire":1,
+            "powermarks":1
+         },
+         "description":"Mi è capitato di avere la chiave per il potere. [Questa carta ti permetterà di vincere una vittoria Potere, se la farai crescere abbastanza. Sognare con essa potrebbe farla crescere, o cambiarla.]",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionsensationa",
+         "label":"Tentazione: Sensazioni",
+         "aspects":{
+            "desire":1,
+            "sensationmarks":1
+         },
+         "description":"Potrei provare esperienze di un'intensità che pochi possono immaginare. [Questa carta ti permetterà di vincere una vittoria Sensazione, se la farai crescere abbastanza. Sognare con essa potrebbe farla crescere, o cambiarla.]",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionenlightenmenta",
+         "label":"Tentazione: Illuminazione",
+         "aspects":{
+            "desire":1,
+            "enlightenmentmarks":1
+         },
+         "description":"Mi è capitato di avere la chiave per la conoscenza. [Questa carta ti permetterà di vincere una vittoria Illuminazione, se la farai crescere abbastanza. Sognare con essa potrebbe farla crescere, o cambiarla.]",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionpowerb",
+         "label":"Dedizione: Potere",
+         "aspects":{
+            "desire":2,
+            "powermarks":2
+         },
+         "description":"Mi sono dedicato all’acquisizione dei poteri immortali, ad ogni costo. [Avanza ulteriormente questa carta per rendere possibile una vittoria Potere. Devo essere un vero iniziato del Mansus; dovrò Lavorare con l’aspetto della Forgia per invocare la Forgia dei Giorni e cominciare il cambiamento.]",
+         "slots":[
+            {
+               "id":"Know",
+               "label":"Sapiente",
+               "actionId":"work",
+               "required":{
+                  "waystag_after":1
+               },
+               "description":"Solamente un vero adepto, un Sapiente, può intraprendere questo passo. I Sapienti sono coloro che hanno oltrepassato la Porta del Cervo, nei sogni."
+            },
+            {
+               "id":"Power",
+               "label":"Potere",
+               "actionId":"work",
+               "required":{
+                  "forge":1
+               },
+               "description":"Avrò bisogno di abbastanza incandescenza furiosa della Forgia."
+            }
+         ],
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionsensationbm",
+         "label":"Dedizione: Sensazioni",
+         "aspects":{
+            "desire":2,
+            "sensationmarks":2
+         },
+         "description":"Mi sono dedicato all’immortale ricerca delle sensazioni. [Avanza ulteriormente questa carta per rendere possibile una vittoria Sensazione. Devo essere un vero iniziato del Mansus; dovrò Lavorare con l’aspetto del Graal per rendere me stesso gustoso al Graal Rosso.]",
+         "slots":[
+            {
+               "id":"Know",
+               "label":"Sapiente",
+               "actionId":"work",
+               "required":{
+                  "waystag_after":1
+               },
+               "description":"Solamente un vero adepto, un Sapiente, può intraprendere questo passo. I Sapienti sono coloro che hanno oltrepassato la Porta del Cervo, nei sogni."
+            },
+            {
+               "id":"Power",
+               "label":"Potere",
+               "actionId":"work",
+               "required":{
+                  "grail":1
+               },
+               "description":"Avrò bisogno dell’intensità impetuosa del Graal."
+            }
+         ],
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionsensationbf",
+         "label":"Dedizione: Sensazioni",
+         "aspects":{
+            "desire":2,
+            "sensationmarks":2
+         },
+         "description":"Mi sono dedicato all’immortale ricerca delle sensazioni. [Avanza ulteriormente questa carta per rendere possibile una vittoria Sensazione. Devo essere un vero iniziato del Mansus; dovrò Lavorare con l’aspetto del Graal per rendermi gustoso al Graal Rosso.]",
+         "slots":[
+            {
+               "id":"Know",
+               "label":"Sapiente",
+               "actionId":"work",
+               "required":{
+                  "waystag_after":1
+               },
+               "description":"Solamente un vero adepto, un Sapiente, può intraprendere questo passo. I Sapienti sono coloro che hanno oltrepassato la Porta del Cervo, nei sogni."
+            },
+            {
+               "id":"Power",
+               "label":"Potere",
+               "actionId":"work",
+               "required":{
+                  "grail":1
+               },
+               "description":"Avrò bisogno dell’intensità impetuosa del Graal."
+            }
+         ],
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionenlightenmentb",
+         "label":"Dedizione: Illuminazione",
+         "aspects":{
+            "desire":2,
+            "enlightenmentmarks":2
+         },
+         "description":"Mi sono dedicato alla ricerca di comprensioni più elevate. Devo restare sotto la pelle, a qualunque costo. [Questa rende possibile una vittoria Illuminazione. Devo essere un vero iniziato del Mansus; dovrò Lavorare con l’aspetto della Lanterna per permettere all’Osservatore di vedermi.]",
+         "slots":[
+            {
+               "id":"Know",
+               "label":"Sapiente",
+               "actionId":"work",
+               "required":{
+                  "waystag_after":1
+               },
+               "description":"Solamente un vero adepto, un Sapiente, può intraprendere questo passo. I Sapienti sono coloro che hanno oltrepassato la Porta del Cervo, nei sogni."
+            },
+            {
+               "id":"Power",
+               "label":"Potere",
+               "actionId":"work",
+               "required":{
+                  "lantern":1
+               },
+               "description":"Avrò bisogno di un pegno della luce spietata del Mansus."
+            }
+         ],
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionpowerc",
+         "label":"Ascesa: Potere",
+         "aspects":{
+            "desire":3,
+            "powermarks":3
+         },
+         "xtriggers":{
+            "ascend":"ascensionpowerd"
+         },
+         "description":"La Forgia ha risposto accendendo un scintilla nella mia carne. Mi attrae il calore delle fiamme. Credo che molto presto potrei cominciare ad accenderle in sogno. È una necessità impellente, come il bisogno d'acqua. So che questo è il Terzo Marchio.",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionpowerd",
+         "label":"Ascesa: Potere",
+         "aspects":{
+            "desire":4,
+            "powermarks":4
+         },
+         "xtriggers":{
+            "ascend":"ascensionpowere",
+            "descend":"ascensionpowerc"
+         },
+         "description":"Porto cicatrici ovunque, ora, per colpa delle fiamme, ma è sempre più difficile bruciare la mia carne. Comincio ad abituarmi alla fiamma, come un drago o una pietra. Questo è il Quarto Marchio.",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionpowere",
+         "label":"Ascesa: Potere",
+         "aspects":{
+            "desire":5,
+            "powermarks":5,
+            "murderskill":1
+         },
+         "xtriggers":{
+            "ascend":"ascensionpowerf",
+            "descend":"ascensionpowerd"
+         },
+         "description":"Il Quinto Marchio: non è rimasto neanche un pelo sul mio corpo. Sono forte, diabolicamente forte. Quando sono lontano dal fuoco, ho sempre i brividi per il freddo.",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionpowerf",
+         "label":"Ascesa: Potere",
+         "aspects":{
+            "desire":6,
+            "powermarks":6,
+            "murderskill":1
+         },
+         "xtriggers":{
+            "descend":"ascensionpowere"
+         },
+         "description":"È difficile piegare le membra. Ho così tante cicatrici. Preferisco non esporre il mio volto agli occhi del pubblico. Potrei tenere un carbone ardente nella mia mano e non sentir niente, soltanto qualche odore e sfrigolio. Questo è il Sesto Marchio.",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionsensationc",
+         "label":"Ascesa: Sensazioni",
+         "aspects":{
+            "desire":3,
+            "sensationmarks":3
+         },
+         "xtriggers":{
+            "ascend":"ascensionsensationd"
+         },
+         "description":"Il Graal Rosso mi ha riscaldato. La sua sete ha cominciato ad asciugarmi la bocca e a farmi prudere la mano. So che questo è il Terzo Marchio.",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionsensationd",
+         "label":"Ascesa: Sensazioni",
+         "aspects":{
+            "desire":4,
+            "sensationmarks":4
+         },
+         "xtriggers":{
+            "ascend":"ascensionsensatione",
+            "descend":"ascensionsensationc"
+         },
+         "description":"Il Quarto Marchio è l’intermittente miglioramento della mia pelle. A pezzi, lungo le mie braccia o giù per i fianchi, è pulita, morbida, luminosa, come la pelle di un bambino appena pulito nell’acqua di fonte. Ma solo a pezzi.",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionsensatione",
+         "label":"Ascesa: Sensazioni",
+         "aspects":{
+            "desire":5,
+            "sensationmarks":5
+         },
+         "xtriggers":{
+            "ascend":"ascensionsensationf",
+            "descend":"ascensionsensationd"
+         },
+         "description":"'Estensioni ed eruzioni' è il soprannome del Quinto Marchio. Ho sviluppato due nuove dita, ma solo una in una mano. Ho un fistola nell’incavo del mio ginocchio. La pressione lungo i suoi bordi è un sottile pulsare di piacere. Credo che il rigonfiamento dietro la mia schiena sia un nuovo organo.",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionsensationf",
+         "label":"Ascesa: Sensazioni",
+         "aspects":{
+            "desire":6,
+            "sensationmarks":6
+         },
+         "xtriggers":{
+            "descend":"ascensionsensatione"
+         },
+         "description":"Il Sesto Marchio viene identificato nel divenire più alto di una spanna. Mi gonfio in ogni membro ed in ogni direzione. La mia pelle è velluto radiante. Fosse di carne ammortizzano i miei occhi. Sono molto assetato.",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionenlightenmentc",
+         "label":"Ascesa: Illuminazione",
+         "aspects":{
+            "desire":3,
+            "enlightenmentmarks":3
+         },
+         "xtriggers":{
+            "ascend":"ascensionenlightenmentd"
+         },
+         "description":"L’Osservatore, il quale è la Porta-ne-l’Occhio, mi ha toccato. Ogni giorno, ora, la mia curiosità cresce di più: un urgente bisogno fisico, come una fame incontrollabile. So che questo è il Terzo Marchio.",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionenlightenmentd",
+         "label":"Ascesa: Illuminazione",
+         "aspects":{
+            "desire":4,
+            "enlightenmentmarks":4
+         },
+         "xtriggers":{
+            "ascend":"ascensionenlightenmente",
+            "descend":"ascensionenlightenmentc"
+         },
+         "description":"Il Quarto Marchio è la luce che si trova negli occhi, ma è molto sottile. I più la possono vedere solamente quando le lampade sono spente o la notte è molto buia; sebbene quando io spalanchi i miei occhi, ne fuoriesca di più. Sto dimagrendo.",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionenlightenmente",
+         "label":"Ascesa: Illuminazione",
+         "aspects":{
+            "desire":5,
+            "enlightenmentmarks":5
+         },
+         "xtriggers":{
+            "ascend":"ascensionenlightenmentf",
+            "descend":"ascensionenlightenmentd"
+         },
+         "description":"Al Quinto Marchio la luce potrebbe fuoriuscire ovunque la pelle sia ferita o logora. Ed ora la pelle comincia a lasciarsi andare sul mio corpo mentre il cammino rosicchia la mia carne. Sono molto magro, ora. Sono sempre affamato.",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"ascensionenlightenmentf",
+         "label":"Ascesa: Illuminazione",
+         "aspects":{
+            "desire":6,
+            "enlightenmentmarks":6
+         },
+         "xtriggers":{
+            "descend":"ascensionenlightenmente"
+         },
+         "description":"Il Sesto Marchio, si dice, avviene quando la carne tra le dita e il pollice può essere tirata fino all’ultima congiunzione delle dita. La mia pelle è molto lasca ora. Credo che le mie ossa abbiano cominciato ad ammorbidirsi. I miei occhi non hanno un colore umano.",
+         "uniquenessgroup":"uqdesire"
+      },
+      {
+         "id":"temptation.remembrance",
+         "label":"Tentazione: Ricordo",
+         "description":"Il vento freddo che soffiava quando il sole era rosso e basso. La voce che un tempo usarono le onde. Le forme che ci siamo lasciati dietro nella neve. Tutto distrutto dietro lo spesso vetro del tempo. Devo rivisitare ciò che è stato perduto. ",
+         "aspects":{
+            "desire":1,
+            "remembrancemarks":1
+         },
+         "xtriggers":{
+            "ascend":"dedication.remembrance"
+         }
+      },
+      {
+         "id":"dedication.remembrance",
+         "label":"Dedizione: Ricordo",
+         "description":"Il vento freddo che soffiava quando il sole era rosso e basso. La voce che un tempo usarono le onde. Le forme che ci siamo lasciati dietro nella neve. Tutto distrutto dietro lo spesso vetro del tempo. Devo rivisitare ciò che è stato perduto... sebbene il suo gusto sia invecchiato e strano.",
+         "aspects":{
+            "desire":1,
+            "remembrancemarks":2
+         }
+      }
+   ]
+}

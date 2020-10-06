@@ -1,0 +1,31 @@
+{
+   "elements":[
+      {
+         "id":"textbookreason",
+         "label":"Una Raccolta di Saggi",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Se la mente è una spada, questa è una cote. [Studialo per guadagnare un’Erudizione: Lezione Appresa, con la quale potrai incrementare la tua Ragione.]"
+      },
+      {
+         "id":"textbookpassion",
+         "label":"Una Raccolta di Poesie",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"'Il poeta rende sé stesso il profeta di un immenso, lungo, deliberato squilibrio di tutti i sensi...' L'opposto della saggezza, fortunatamente. [Studialo per guadagnare un Barlume: Lezione Appresa, con la quale potrai incrementare la tua Passione.]"
+      },
+      {
+         "id":"genericrubbishbook",
+         "label":"Qualcosa di MISTERIOSO",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Un orribile soufflé di pettegolezzi mezzi digeriti sui 'Mondi Segreti' e l’irrilevanza della moralità contemporanea. Comprende anche un catalogo di inverosimili, e probabilmente inventate, dissolutezze. [Se ho comprato questo da un negozio, probabilmente significa che non ha più nulla da vendermi.]"
+      }
+   ]
+}

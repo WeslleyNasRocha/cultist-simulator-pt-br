@@ -1,0 +1,51 @@
+{
+   "elements":[
+      {
+         "id":"mystique",
+         "label":"Misticismo",
+         "aspects":{
+            "reputation":1
+         },
+         "description":"Persiste lo straniamento. [Il misticismo può attrarre l’attenzione dei Cacciatori. Non possono usarla per allestire un processo contro di te, ma li incoraggerà a cercare meglio.]",
+         "lifetime":300
+      },
+      {
+         "id":"notoriety",
+         "label":"Notorietà",
+         "aspects":{
+            "reputation":2
+         },
+         "description":"Determinati atti non vengono dimenticati velocemente. [La notorietà può permettere ai Cacciatori di allestire un processo contro di te.]",
+         "lifetime":300,
+         "xtriggers":{
+            "scandalous":"notoriety"
+         }
+      },
+      {
+         "id":"evidence",
+         "aspects":{
+            "evidencelevel":1
+         },
+         "label":"Indicazioni Preliminari",
+         "description":"Un Cacciatore ha trovato delle prove - reali o immaginarie - dei miei peccati. [I Cacciatori diventano più pericolosi quando ottengono Prove di attività occulte. Le prove possono sopravvivere alla morte del Cacciatore che le ha create.]",
+         "xtriggers":{
+            "investigatingsuccess":"evidenceb",
+            "investigatingsetback":"notoriety"
+         },
+         "lifetime":600
+      },
+      {
+         "id":"evidenceb",
+         "aspects":{
+            "evidencelevel":2
+         },
+         "label":"Prove Schiaccianti",
+         "description":"'Terra, apriti!  Oh, no, non mi proteggerà!' [Il Dipartimento della Soppressione potrà incarcerarti con delle Prove Schiaccianti di attività occulte. Le prove possono sopravvivere alla morte del Cacciatore che le ha create.]",
+         "xtriggers":{
+            "investigatingsetback":"evidence"
+         },
+         "lifetime":600,
+         "decayTo":"evidence"
+      }
+   ]
+}

@@ -1,0 +1,1131 @@
+{
+   "recipes":[
+      {
+         "id":"work.seance.first",
+         "actionId":"work",
+         "label":"Una Performance Ben Curata di un Medium",
+         "startdescription":"Sono illuminato da un faretto sul palco. Accetto la prima domanda dal pubblico - la prima di molte stasera, persone che si rifiuteranno di riconoscere che i morti sono morti. Mi sono preparato bene: ho molte risposte pronte.",
+         "requirements":{
+            "ghouljob.first":1
+         },
+         "slots":[
+            {
+               "id":"desire",
+               "label":"Qualcosa di Più?",
+               "description":"Sono un impostore... vero?",
+               "greedy":true,
+               "required":{
+                  "desire":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"work.seance.demotion"
+            },
+            {
+               "id":"work.seance.first.shameful"
+            },
+            {
+               "id":"work.seance.first.profitable"
+            },
+            {
+               "id":"work.seance.first.joyful"
+            },
+            {
+               "id":"work.seance.first.fleeting"
+            },
+            {
+               "id":"work.seance.first.nomemory"
+            }
+         ],
+         "warmup":15,
+         "craftable":true
+      },
+      {
+         "id":"work.seance.first.shameful",
+         "actionId":"work",
+         "label":"Imita i Morti: Qualcosa di Vergognoso",
+         "startdescription":"Non condivido tutti i peccati dei morti di cui sono a conoscenza. Non farebbe bene a nessuno. Ma condivido indizi che possano essere riconosciuti dal pubblico.",
+         "description":"L'attività in pubblico è finita, e dopo lo spettacolo i familiari del defunto concluderanno in privato con un piccolo regalo - qualcosa per garantire il mio silenzio.\n\n(C'è qualcosa nell'aria stanotte. Il profumo della neve? Sembra improbabile.)",
+         "requirements":{
+            "memory.shameful":1
+         },
+         "effects":{
+            "favour":1,
+            "funds":6,
+            "passion":1,
+            "memory.shameful":-1,
+            "mystique":1
+         },
+         "alt":[
+            {
+               "id":"open.dream.ghoul",
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"work.seance.first.profitable",
+         "actionId":"work",
+         "label":"Imita i Morti: Qualcosa di Redditizio",
+         "startdescription":"Ho fiutato un investimento dimenticato che andrà a vantaggio di tutte le parti. Ma devo fare attenzione a non cedere troppe informazioni. I vivi sono più avidi dei morti.",
+         "description":"Mi incontreranno dopo lo spettacolo. Saranno scettici ma grati. Mi sono guadagnato il compenso.\n\n(C'è qualcosa nell'aria stanotte. Il profumo della neve? Sembra improbabile.)",
+         "requirements":{
+            "memory.profitable":1
+         },
+         "effects":{
+            "funds":6,
+            "reason":1,
+            "memory.profitable":-1,
+            "mystique":1
+         },
+         "alt":[
+            {
+               "id":"open.dream.ghoul",
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"work.seance.first.joyful",
+         "actionId":"work",
+         "label":"Imita i Morti: Qualcosa di Gioioso",
+         "startdescription":"Ho visto alcune fotografie di un pomeriggio dorato, è passato abbastanza tempo da rendere il ricordo dolce, ma non così tanto da farlo svanire.",
+         "description":"Piangono quando tornano al loro posto. Se torneranno, non risponderò alle loro domande. Questa dovrebbe essere la storia che racconteranno su di me.\n\n(C'è qualcosa nell'aria stanotte. Il profumo della neve? Sembra improbabile.)",
+         "requirements":{
+            "memory.joyful":1
+         },
+         "effects":{
+            "funds":4,
+            "health":1,
+            "memory.joyful":-1,
+            "mystique":1
+         },
+         "alt":[
+            {
+               "id":"open.dream.ghoul",
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"work.seance.first.fleeting",
+         "actionId":"work",
+         "label":"Imita i Morti: Dicerie e Pettegolezzi",
+         "startdescription":"Ho raccolto abbastanza pettegolezzi per mettere insieme qualcosa di ragionevolmente convincente.",
+         "description":"Rispondo alle loro domande con altre domande. Ad ogni chiamata una risposta, come uccelli notturni. Sono soddisfatti? Restano seduti, perlomeno.\n\n(C'è qualcosa nell'aria stanotte. Il profumo della neve? Sembra improbabile.)",
+         "requirements":{
+            "fleeting":1
+         },
+         "effects":{
+            "funds":2,
+            "fleeting":-1
+         },
+         "alt":[
+            {
+               "id":"open.dream.ghoul",
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"work.seance.first.nomemory",
+         "actionId":"work",
+         "label":"Imita i Morti al meglio delle mie possibilità",
+         "startdescription":"Non ho informazioni pronte per stanotte. Posso solo improvvisare.",
+         "description":"Le mie risposte sono state poco brillanti. La delusione del pubblico era evidente anche nella semioscurità.\n\n(C'è qualcosa nell'aria stanotte. Il profumo della neve? Sembra improbabile.)",
+         "effects":{
+            "funds":1
+         },
+         "alt":[
+            {
+               "id":"open.dream.ghoul",
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"work.seance.demotion",
+         "actionId":"work",
+         "label":"Il Morto",
+         "startdescription":"Non appena apro la bocca per parlare, sento il sapore della neve e del rame...",
+         "requirements":{
+            "ghouljob.first":1,
+            "temptation.remembrance":1
+         },
+         "effects":{
+            "funds":2,
+            "memory":-1,
+            "notoriety":1
+         },
+         "aspects":{
+            "demotion":1
+         },
+         "alt":[
+            {
+               "id":"open.explore.ghoul",
+               "additional":true
+            }
+         ],
+         "linked":[
+            {
+               "id":"work.seance.demotion.continue"
+            }
+         ]
+      },
+      {
+         "id":"work.seance.demotion.continue",
+         "actionId":"work",
+         "label":"Lo Spettacolo Non Procede Come Pianificato",
+         "startdescription":"Sento la mia voce da lontano. Sto parlando di avorio e neve antica. Sto imitando i canti degli uccelli. Il pubblico ha cominciato, imbarazzato, a ridere, sebbene alcuni tra di loro stiano piangendo. Pronuncio nomi che mi suonano familiari: Montmerenzi. Naenia. #PREVIOUSCHARACTERNAME#. E avanti - e avanti... ",
+         "description":"Il mio contratto viene stracciato prima ancora che io abbia lasciato l'edificio. Il direttore del teatro non si degna nemmeno di insultarmi di persona. Mi trovo in una strada gelida, a contemplare gli stracci della mia reputazione, mentre colombe pallide mi contemplano dalla grondaia del teatro. Nel loro ridacchiare e tubare sembrano quasi proferire delle parole: 'Montmerenzi. Naenia. #PREVIOUSCHARACTERNAME#...' ",
+         "warmup":60
+      },
+      {
+         "id":"open.dream.ghoul",
+         "actionId":"dream",
+         "label":"La Notte Precedente",
+         "startdescription":"Qui, sul palco, mi sono ricordato del sogno pallido...",
+         "description":"Qui, sul palco, mi sono ricordato del sogno pallido, che ieri notte si è presentato nuovamente. Il vento freddo soffiava quando il sole era rosso e basso. Le onde un tempo usate da una voce. Le forme che si muovevano a balzi al nostro fianco nella neve... il desiderio si annida ora come un rombo di selce sotto al mio cuore.",
+         "effects":{
+            "temptation.remembrance":1,
+            "health":1
+         },
+         "warmup":15
+      },
+      {
+         "id":"open.explore.ghoul",
+         "actionId":"explore",
+         "label":"'Montmerenzi'.",
+         "startdescription":"Non 'Montmorency', ma 'Montmerenzi.' <i>Avevo</i> sentito questo nome - un tempo, quando ancora mi credevo un pittore.",
+         "description":"Questo era il posto di cui avevo sentito parlare. Una galleria con una facciata grigia, chiusa come il volto di una vedova.",
+         "effects":{
+            "location.gallery":1,
+            "reason":1
+         },
+         "warmup":60
+      },
+      {
+         "id":"explore.location.gallery.ghoul",
+         "actionId":"explore",
+         "label":"Esplora la Galleria",
+         "startdescription":"Pago il biglietto d'ingresso e salgo per le scale oscure. Questo deve significare qualcosa. Forse significa che sono completamente impazzito.",
+         "description":"Santi contestati dalla chiesa, disegni anatomici, ossari disegnati a pastello. Bozzetti di occhi intonacati sulla roccia. Un vecchio dipinto ad olio di una strada piena di templi marmorei in svariate condizioni atmosferiche, intitolato 'Le Stagioni di Abydos'. Ma c'è un quadro che mi attrae particolarmente, e la parte più interessante è il suo titolo.",
+         "requirements":{
+            "location.gallery":1
+         },
+         "effects":{
+            "location.gallery":-1,
+            "fragmentsecrethistories":1
+         },
+         "alt":[
+            {
+               "id":"open.talk.ghoul",
+               "additional":true
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"open.talk.ghoul",
+         "actionId":"talk",
+         "label":"'Miss Naenia'",
+         "startdescription":"Nel dipinto la pelle di Miss Naenia è scura, ma i suoi cortissimi capelli sono avorio, e i suoi occhi sono del colore della neve. Torno ogni giorno, in attesa di conoscere le ragioni che mi hanno spinto qui. Non sento mai il quadro parlare - è solo un quadro! - ma ogni volta che me ne vado, mi sembra di ricordare cosa mi ha detto.",
+         "description":"Ricordo come io e Miss Naenia abbiamo parlato di quel basso sole rosso che comprende; di quella pallida gioia di volare. Sono arrivato a credere che se le porterò i tesori della mia memoria, lei mi lascerà un tesoro al loro posto.",
+         "requirements":{},
+         "effects":{
+            "naenia":1,
+            "passion":1
+         },
+         "warmup":60
+      },
+      {
+         "id":"open.study.ghoul",
+         "actionId":"study",
+         "label":"La Mensola Più Alta dello Studio",
+         "startdescription":"Miss Naenia mi ha ricordato di un libro che non apro da anni. Dovrei averlo ancora, da qualche parte.",
+         "description":"Hagan e Gristwood, 'Usi Funerari delle Montagne Laceranti.' Ho comprato questo libro tempo fa quando avevo bisogno di ispirazione per i miei spettacoli. Non vi avevo trovato nulla di utile. Ma ora ricordo la formula che vi era registrata. La formula sembra sgradevole... ma la menzione dell'avorio in polvere è come se mi dicesse qualcosa.",
+         "effects":{
+            "prealzabo":1,
+            "fragmentgrail":1
+         },
+         "warmup":30
+      },
+      {
+         "id":"ghoul.firsttaste.prologue",
+         "actionId":"study",
+         "label":"Il Primo Assaggio",
+         "requirements":{
+            "prealzabo":1,
+            "temptation.remembrance":1,
+            "corpse":1,
+            "funds":1
+         },
+         "startdescription":"Cenerò da solo - o non esattamente solo.",
+         "slots":[
+            {
+               "id":"forceofwill",
+               "label":"Forza di Volontà",
+               "description":"È difficile.",
+               "required":{
+                  "passion":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"ghoul.firsttaste"
+            }
+         ],
+         "description":"Non ci sono riuscito.",
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"ghoul.firsttaste",
+         "actionId":"study",
+         "label":"Il Primo Assaggio",
+         "startdescription":"È difficile cominciare. Mi trovo a dover concentrare la mia volontà frastagliata, come la pietra di una lancia. Ma ogni boccone è sempre più facile.",
+         "description":"'Ognuno di noi' - ho scritto in seguito sul mio diario - 'possiede il ricordo di un momento nel quale le cose sono cambiate per sempre, sebbene al momento non ce ne accorgessimo. Forse anche il mondo possiede queste memorie.' Ricordo quindi di aver posato la penna e di aver guardato l'oscurità fuori dalla finestra, ma mi sono dimenticato l'altro lato di quel momento. Forse mi sono asciugato la bocca. Forse mi sono leccato le labbra.",
+         "requirements":{
+            "prealzabo":1,
+            "temptation.remembrance":1,
+            "corpse":1,
+            "funds":1,
+            "passion":1
+         },
+         "effects":{
+            "corpse":-1,
+            "memory.unexpected":1,
+            "prealzabo":-1,
+            "funds":-1,
+            "alzabo":1
+         },
+         "aspects":{
+            "ascend":1
+         },
+         "mutations":[
+            {
+               "filter":"desire",
+               "mutate":"ghoul.hunger",
+               "level":1
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.hint",
+         "actionId":"talk",
+         "label":"Parlare con Miss Naenia?",
+         "startdescription":"Miss Naenia attende con la pazienza propria delle immagini.",
+         "requirements":{
+            "naenia":1
+         },
+         "craftable":false,
+         "hintonly":true
+      },
+      {
+         "id":"talk.ghoul.consolation",
+         "actionId":"talk",
+         "label":"Cerca consolazione da Miss Naenia",
+         "startdescription":"Gli occhi di Miss Naenia sono gentili.",
+         "description":"Comprende la mia inquietudine. L'ha conosciuta lei stessa, di tanto in tanto. Mi ricorda che nulla permane.",
+         "requirements":{
+            "naenia":1,
+            "restlessness":1
+         },
+         "effects":{
+            "restlessness":-1,
+            "fleeting":1
+         },
+         "alt":[
+            {
+               "id":"open.study.ghoul",
+               "additional":true
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.recollection",
+         "actionId":"talk",
+         "label":"Condividi i tuoi ricordi con Miss Naenia",
+         "startdescription":"Gli occhi di Miss Naenia sono pensierosi.",
+         "description":"Miss Naenia non nega il fatto che tutto svanirà, anche la memoria... ma i ricordi possono essere passati, come una torcia, o un tesoro.",
+         "requirements":{
+            "naenia":1,
+            "fleeting":1
+         },
+         "effects":{
+            "fleeting":-1,
+            "restlessness":1
+         },
+         "alt":[
+            {
+               "id":"open.study.ghoul",
+               "additional":true
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.fascination",
+         "actionId":"talk",
+         "label":"Parla con Miss Naenia delle mie visioni",
+         "startdescription":"È sicuro parlarne con lei?",
+         "description":"Qui la luce è più brillante di quanto non mi fossi accorto. I colori nuotano sotto la pelle di Miss Naenia, come elettricità, come olio. È molto difficile distogliere lo sguardo.",
+         "requirements":{
+            "naenia":1,
+            "fascination":1
+         },
+         "effects":{
+            "fascination":1
+         },
+         "alt":[
+            {
+               "id":"open.study.ghoul",
+               "additional":true
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.dread",
+         "actionId":"talk",
+         "label":"Parla con Miss Naenia del mio Terrore",
+         "startdescription":"Dovrei davvero condividere le mie paure con lei? Non credo che sia un dipinto gentile.",
+         "description":"Più guardo il sorriso di Miss Naenia, più mi fisso sui suoi denti.",
+         "requirements":{
+            "naenia":1,
+            "dread":1
+         },
+         "effects":{
+            "dread":1
+         },
+         "alt":[
+            {
+               "id":"open.study.ghoul",
+               "additional":true
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.grandmemory",
+         "actionId":"talk",
+         "label":"Sprofondare nel Tempo",
+         "startdescription":"Quando sono davanti a Miss Naenia, sembra quasi che una pallida luce giochi intorno alla sua bocca e ai suoi occhi.",
+         "description":"In seguito, mi sono ricordato di come io e la signorina Naenia abbiamo passeggiato attraverso la galleria chiusa, a braccetto. La luce della candela che portava risuonava sui volti degli altri dipinti. 'Noi non saremo dimenticati', sussurrò, 'finché la nostra immagine durerà.'",
+         "requirements":{
+            "naenia":1,
+            "memory":5
+         },
+         "effects":{
+            "restlessness":1
+         },
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.memorypassionate",
+         "actionId":"talk",
+         "label":"Parla a Miss Naenia del mio partner",
+         "startdescription":"Sono venuto a rievocare con lei un ricordo potente.",
+         "requirements":{
+            "naenia":1,
+            "memorypassionate":1
+         },
+         "alt":[
+            {
+               "id":"dreampassionatememory"
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.memorypleasant",
+         "actionId":"talk",
+         "label":"Parla a Miss Naenia del mio partner",
+         "startdescription":"Sono venuto a rievocare con lei un ricordo dolce.",
+         "requirements":{
+            "naenia":1,
+            "memorypleasant":1
+         },
+         "alt":[
+            {
+               "id":"dreampleasantmemory"
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.memorybittersweet",
+         "actionId":"talk",
+         "label":"Parla a Miss Naenia del mio partner",
+         "startdescription":"Sono venuto a rievocare con lei un ricordo difficile.",
+         "requirements":{
+            "naenia":1,
+            "memorybittersweet":1
+         },
+         "alt":[
+            {
+               "id":"dreambittersweetmemory"
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.memory.menacing",
+         "actionId":"talk",
+         "label":"Condividi un ricordo minaccioso con Miss Naenia",
+         "startdescription":"I suoi occhi sono vigili.",
+         "requirements":{
+            "naenia":1,
+            "memory.menacing":1
+         },
+         "warmup":30,
+         "internaldeck":{
+            "label":"Responso",
+            "description":"Responso",
+            "spec":[
+               "vitalityplus",
+               "influenceedgec",
+               "influencewinterc",
+               "influenceedgec",
+               "influencewinterc"
+            ],
+            "resetonexhaustion":true,
+            "draws":1
+         },
+         "effects":{
+            "memory.menacing":-1
+         },
+         "description":"@#vitalityplus|Miss Naenia tace, ma ricordo come in seguito il suo sorriso mi abbia scaldato dal gelo.\n#influenceedgec|Miss Naenia tace, ma ancora ricordo come lampeggiavano i suoi occhi.\n#influencewinterc|Miss Naenia tace. Il silenzio scende come un'ombra tra le lampade della galleria.@",
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.memory.shameful",
+         "actionId":"talk",
+         "label":"Condividi il ricordo di un peccato segreto con Miss Naenia",
+         "startdescription":"Oggi gli occhi di Miss Naenia sembrano sornioni.",
+         "requirements":{
+            "naenia":1,
+            "memory.shameful":1
+         },
+         "warmup":30,
+         "internaldeck":{
+            "label":"Responso",
+            "description":"Responso",
+            "spec":[
+               "favour",
+               "contentment",
+               "influencegrailc",
+               "influencegrailc",
+               "influencegrailc"
+            ],
+            "resetonexhaustion":true,
+            "draws":1
+         },
+         "effects":{
+            "memory.shameful":-1
+         },
+         "description":"@#favour|Miss Naenia tace, ma mi rendo conto che dev'essere venuta la stessa idea ad entrambi: potremmo usarla come leva contro qualche autorità.\n#contentment|Miss Naenia tace, ma l'intimità del momento è molto piacevole, e la serenità permane.\n#influencegrailc|Miss Naenia tace, ma la sua bocca curva lentamente, molto lentamente. Mi rendo conto che non ho mai visto le sue labbra separarsi.@",
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.memory.unexpected",
+         "actionId":"talk",
+         "label":"Condividi un ricordo non convenzionale con Miss Naenia",
+         "startdescription":"È difficile leggere l'espressione di Miss Naenia oggi. Sono diventato cosciente dei suoi occhi, della sua bocca, delle linee del suo volto come oggetti separati, congiunti solo per caso, come il contenuto delle tasche di qualcuno svuotato su di un tavolo.",
+         "requirements":{
+            "naenia":1,
+            "memory.unexpected":1
+         },
+         "warmup":30,
+         "deckeffects":{
+            "vaultrewardsb":1
+         },
+         "effects":{
+            "memory.unexpected":-1
+         },
+         "description":"@#|Miss Naenia tace, ma lì, nella galleria, ho preso la mia penna dalla tasca e scritto, amichevolmente, come se mi fossero state sussurrate nell'orecchio da qualcuno delle direzioni. Se seguissi le indicazioni troverei qualcosa di prezioso.@",
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.memory.joyful",
+         "actionId":"talk",
+         "label":"Condividi un ricordo gioioso con Miss Naenia",
+         "startdescription":"Gli occhi di Miss Naenia sono caldi.",
+         "requirements":{
+            "naenia":1,
+            "memory.joyful":1
+         },
+         "warmup":30,
+         "internaldeck":{
+            "label":"Responso",
+            "description":"Responso",
+            "spec":[
+               "influencehearte",
+               "influenceheartc",
+               "influenceheartc",
+               "contentment",
+               "contentment"
+            ],
+            "resetonexhaustion":true,
+            "draws":1
+         },
+         "effects":{
+            "memory.joyful":-1
+         },
+         "description":"@#influencehearte|Miss Naenia tace, ma il mio cuore batte come un martello sull'incudine, anche dopo aver lasciato la galleria.\n#influenceheartc|Miss Naenia tace, ma per tutta la strada di casa sento una melodia nella testa che mi fa pensare a lei.\n#contentment|Miss Naenia tace, ma mi associo al suo sorriso.@",
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.memory.profitable",
+         "actionId":"talk",
+         "label":"Condividi un ricordo redditizio con Miss Naenia",
+         "startdescription":"Gli occhi di Miss Naenia sono scaltri.",
+         "requirements":{
+            "naenia":1,
+            "memory.profitable":1
+         },
+         "warmup":30,
+         "internaldeck":{
+            "label":"Responso",
+            "description":"Responso",
+            "spec":[
+               "jumble",
+               "funds",
+               "compensation",
+               "funds",
+               "funds"
+            ],
+            "resetonexhaustion":true,
+            "draws":1
+         },
+         "effects":{
+            "memory.profitable":-1
+         },
+         "description":"@#jumble|Miss Naenia tace, ma in seguito ripenso a lei mentre girovago in un negozio di rottami, e mi ritrovo a comprare d'impulso qualcosa di stupido.\n#funds|Miss Naenia tace, ma il giorno dopo ricevo un pacchetto inaspettato nella cassetta postale.\n#compensation|Miss Naenia tace, ma in seguito trovo una sovrana per strada.@",
+         "craftable":true
+      },
+      {
+         "id":"talk.ghoul.painting.palest",
+         "actionId":"talk",
+         "label":"Mostra a Miss Naenia il Più Pallido dei Dipinti",
+         "startdescription":"Potrei sentirmi un po' stupido a portare con me un dipinto per mostrarlo ad un altro dipinto. Ma quando entro nella strada della galleria sta nevicando, e solo in quella strada. I passanti si accalcano, fuggono o schiamazzano per la meraviglia. Abbraccio il dipinto e lo stringo a me, anche se è avvolto al sicuro in carta marrone, e monto le scale verso la camera di Miss Naenia.",
+         "description":"Miss Naenia è svanita. Un rettangolo scuro marchia lo spazio vuoto dove prima pendeva. Resto a fissarlo costernato. Ma lei non è qui. Non c'è più niente da fare.\n\nNiente, per ora, ma quando scarto il Più Pallido dei Dipinti, nel silenzio della mia casa, noto che è cambiato. Una debole figura si leva in piedi sulla porta del Nulla, guardandosi alle spalle, in attesa che la segua. La forma mi ricorda qualcosa di Miss Naenia.",
+         "requirements":{
+            "naenia":1,
+            "painting.palest":1
+         },
+         "warmup":30,
+         "effects":{
+            "naenia":-1
+         },
+         "mutations":[
+            {
+               "mutate":"way",
+               "filter":"painting.palest",
+               "level":1
+            }
+         ],
+         "craftable":true
+      },
+      {
+         "id":"dream.ghoul.painting.palest",
+         "actionId":"dream",
+         "label":"Entra nella Porta Dipinta",
+         "startdescription":"La Casa del Sole ha molte porte segrete. Sono tutte, ovviamente, chiuse a chiave, ma questa notte Miss Naenia ne aprirà una per me. Oltre a quella porta attende l'Elegiasta, con l'inverno nelle sue mani.",
+         "requirements":{
+            "painting.palest":1,
+            "way":1
+         },
+         "linked":[
+            {
+               "id":"dream.ghoul.sacrificeabilities"
+            }
+         ],
+         "craftable":true,
+         "warmup":10
+      },
+      {
+         "id":"dream.ghoul.sacrificeabilities",
+         "actionId":"dream",
+         "label":"La Morte è Scesa",
+         "startdescription":"Oltre alla porta c'è una scala a chiocciola illuminata da lampade di nefrite nere e, molto più in basso, il luogo chiamato Nulla, nel quale i morti scendono, nel quale nulla viene dimenticato. Devo andare giù.",
+         "slots":[
+            {
+               "id":"sacrifice",
+               "label":"La Fame del Dipinto",
+               "description":"La Porta Dipinta si prenderà tutto, se la lascerò fare. <i>Non</i> provare a farlo a casa.",
+               "required":{
+                  "health":1,
+                  "passion":1,
+                  "reason":1,
+                  "fatigue":1,
+                  "disillusionment":1,
+                  "concentration":1,
+                  "passionexhausted":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"dream.ghoul.noabilitysacrificed"
+            }
+         ],
+         "linked":[
+            {
+               "id":"ending.minorpalestvictory"
+            },
+            {
+               "id":"dream.ghoul.sacrificeabilities"
+            }
+         ],
+         "warmup":30,
+         "effects":{
+            "health":-1,
+            "passion":-1,
+            "reason":-1,
+            "fatigue":-1,
+            "disillusionment":-1,
+            "concentration":-1,
+            "passionexhausted":-1
+         }
+      },
+      {
+         "id":"dream.ghoul.noabilitysacrificed",
+         "actionId":"dream",
+         "label":"Colui Dal Quale Nulla Può Esser Più Tolto",
+         "startdescription":"L'Elegiasta non offre l'immortalità, ma un'esistenza che superi la morte. Il Più Pallido dei dipinti si prenderà ciò che resta della mia vita, ma solo se glielo permetterò.",
+         "requirements":{
+            "health":-1,
+            "passion":-1,
+            "reason":-1,
+            "fatigue":-1,
+            "disillusionment":-1,
+            "concentration":-1,
+            "passionexhausted":-1
+         },
+         "description":"Sono sveglio. Sul muro sopra di me, il dipinto attende affamato."
+      },
+      {
+         "id":"ending.minorpalestvictory",
+         "actionId":"dream",
+         "label":"NULLA",
+         "startdescription":"Ho visto i colori perduti, e il prezzo di ciò è la morte e il Nulla. Ma se l'Elegiasta si ricordasse di me, forse potrebbe richiamarmi nel Mansus, per camminare nel mondo fino alla mia fine prestabilita...",
+         "extantreqs":{
+            "health":-1,
+            "passion":-1,
+            "reason":-1,
+            "fatigue":-1,
+            "disillusionment":-1,
+            "concentration":-1,
+            "passionexhausted":-1
+         },
+         "ending":"minorpalestvictory",
+         "signalEndingFlavour":"Pale",
+         "warmup":30
+      },
+      {
+         "id":"study.alzabo.remnant",
+         "actionId":"study",
+         "label":"Banchetta con dei Resti",
+         "startdescription":"@#corpse| Ancora una volta si ergono i miei appetiti, ancora una volta accompagnati da brividi di repulsione.\n#spirit_wintera_moth| Rimarrà immobile, se lo dico.\n#spirit_wintera_edge| Rimarrà immobile, se lo dico. Potrebbe addirittura essere succulento.\n#corpse.furious| Lo ridurrò in polvere e lo farò scendere.\n#corpse.luxurious| Gommoso.\n#corpse.liminal| Come mangiare spezie crude.\n#corpse.horizon| Se solo lo potessi bollire fino a farlo diventare tenero...\n#corpse.splendid| Questo non sarà un pasto facile.\n#ingredientheartf| Brillante sulla lingua, come agrumi e rame.\n#ingredientmothf| Mi chiedevo quale potesse essere il suo sapore, ma, soprattutto ora, l'esperienza mi dice che è <i>viscoso</i>.\n#spirit_forgee_edge.defunct| Sciacquerò ostinatamente con l'acqua la bocca per pulirla ed estinguere fuochi inattesi.\n#decrepitude| Quindi questo è ciò a cui sono giunto. Non sono morto. Spero di essere abbastanza morto da poter lavorare come spero, e sbloccare i ricordi che giacciono nella mia stessa carne.\n#|Speriamo che sia edibile.@",
+         "description":"@#memory.furious|Ho una memoria selvaggia, ereditata da chi conobbe molti banchetti - una memoria del color della sabbia, pronta per essere dipinta.\n#memory.liminal| Ho un ricordo sui limiti, pronto per essere dipinto.\n#memory.splendid| Ho un ricordo su come le cose andassero prima dell'Intercalare, pronto per essere dipinto.\n#memory.golden| Ho un ricordo su come le cose andassero prima che la Forgia fosse accesa, pronto per essere dipinto.\n#memory.horizon| Ho un ricordo di qualcosa che perfino i Re che lo possedevano non compresero.\n#memory.endless| Ho un ricordo, ora, di qualcosa che non doveva mai cessare - e che, forse, non è mai cessata...\n#memory.wildering| Ho un ricordo della Caccia nella quale la Ruota fu, per la prima volta, portata sulla terra...\n#memory.honeyed| Ho un ricordo che sembra quasi mio.\n#|Qualcosa?@",
+         "requirements":{
+            "remnant":1,
+            "alzabo":1,
+            "remembrancemarks":1
+         },
+         "linked":[
+            {
+               "id":"study.alzabo.remnant.reducehunger"
+            }
+         ],
+         "alt":[
+            {
+               "id":"study.alzabo.follower_scar_edge"
+            },
+            {
+               "id":"study.alzabo.follower_scar_knock"
+            },
+            {
+               "id":"study.alzabo.follower_scar_winter"
+            },
+            {
+               "id":"study.alzabo.corpse"
+            },
+            {
+               "id":"study.alzabo.crucible"
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"study.alzabo.remnant.reducehunger",
+         "actionId":"study",
+         "label":"Banchetta con dei Resti",
+         "requirements":{
+            "ghoul.hunger":1
+         },
+         "mutations":[
+            {
+               "filter":"remembrancemarks",
+               "mutate":"ghoul.hunger",
+               "level":-1,
+               "additive":true
+            }
+         ]
+      },
+      {
+         "id":"study.alzabo.corpse",
+         "actionId":"study",
+         "label":"Banchetta con un Cadavere",
+         "startdescription":"A volte rimane qualcosa da seppellire di nuovo, ma si può essere più efficienti.",
+         "requirements":{
+            "corpse":1,
+            "alzabo":1
+         },
+         "linked":[
+            {
+               "id":"study.alzabo.corpse.reducehunger"
+            }
+         ],
+         "deckeffects":{
+            "ghoul.memory":1
+         },
+         "effects":{
+            "corpse":-1
+         }
+      },
+      {
+         "id":"study.alzabo.corpse.reducehunger",
+         "actionId":"study",
+         "label":"Banchetta con un Cadavere",
+         "requirements":{
+            "ghoul.hunger":1
+         },
+         "mutations":[
+            {
+               "filter":"remembrancemarks",
+               "mutate":"ghoul.hunger",
+               "level":-1,
+               "additive":true
+            }
+         ]
+      },
+      {
+         "id":"study.alzabo.follower_scar_edge",
+         "actionId":"study",
+         "label":"Vecchio Dolore",
+         "startdescription":"L'esperienza brutale ha lasciato un morso selvaggio nella carne.",
+         "requirements":{
+            "follower_scar_edge":1
+         },
+         "linked":[
+            {
+               "id":"study.alzabo.follower_scar.reducehunger"
+            }
+         ],
+         "effects":{
+            "dread":1,
+            "influenceedge":1,
+            "memory.menacing":1,
+            "corpse":-1
+         },
+         "warmup":10
+      },
+      {
+         "id":"study.alzabo.follower_scar_knock",
+         "actionId":"study",
+         "label":"Vecchio Dolore",
+         "startdescription":"Troppe porte sono state aperte in questa carne, e il sapore è quello di un labirinto di orrori.",
+         "requirements":{
+            "follower_scar_knock":1
+         },
+         "linked":[
+            {
+               "id":"study.alzabo.follower_scar.reducehunger"
+            }
+         ],
+         "effects":{
+            "dread":1,
+            "influenceknock":1,
+            "memory.menacing":1,
+            "corpse":-1
+         },
+         "warmup":10
+      },
+      {
+         "id":"study.alzabo.follower_scar_winter",
+         "actionId":"study",
+         "label":"Vecchio Dolore",
+         "startdescription":"La gelida miseria ha lasciato una sorta di gelo in questa carne, e il mio cuore ne è, di conseguenza, raggelato.",
+         "requirements":{
+            "follower_scar_winter":1
+         },
+         "linked":[
+            {
+               "id":"study.alzabo.follower_scar.reducehunger"
+            }
+         ],
+         "effects":{
+            "dread":1,
+            "influencewinter":1,
+            "memory.menacing":1,
+            "corpse":-1
+         },
+         "warmup":10
+      },
+      {
+         "id":"study.alzabo.follower_scar.reducehunger",
+         "actionId":"study",
+         "label":"Vecchio Dolore",
+         "requirements":{
+            "ghoul.hunger":1
+         },
+         "mutations":[
+            {
+               "filter":"remembrancemarks",
+               "mutate":"ghoul.hunger",
+               "level":-1,
+               "additive":true
+            }
+         ]
+      },
+      {
+         "id":"study.alzabo.crucible",
+         "actionId":"study",
+         "label":"Banchetta con i Resti di Re Crogiolo",
+         "startdescription":"Vai: ho bisogno soltanto di prenderne un po'.",
+         "description":"Le scottature sono lievi - guariranno velocemente - ma il suo sapore mi resterà in bocca per giorni.",
+         "requirements":{
+            "alzabo":1,
+            "spirit_forgee_edge.defunct":1
+         },
+         "effects":{
+            "influenceforgec":1,
+            "spirit_forgee_edge.consumed":1
+         },
+         "linked":[
+            {
+               "id":"study.alzabo.crucible.reducehunger"
+            }
+         ]
+      },
+      {
+         "id":"study.alzabo.crucible.reducehunger",
+         "actionId":"study",
+         "label":"Banchetta con i Resti di Re Crogiolo",
+         "requirements":{
+            "ghoul.hunger":1
+         },
+         "mutations":[
+            {
+               "filter":"remembrancemarks",
+               "mutate":"ghoul.hunger",
+               "level":-1,
+               "additive":true
+            }
+         ]
+      },
+      {
+         "id":"explore.ghoul.findgraveyard",
+         "actionId":"explore",
+         "requirements":{
+            "ghoul.hunger":1
+         },
+         "effects":{
+            "location.cemetery":1,
+            "mystique":1
+         },
+         "label":"Cerca un Cimitero Promettente",
+         "startdescription":"Mi aggiro tra i cimiteri cercando luoghi di sepoltura vicini, ma non troppo - popolati, ma non eccessivamente.",
+         "description":"Ho trovato un terreno di sepoltura promettente.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"work.seance",
+         "actionId":"work",
+         "label":"Una Consulenza Clandestina",
+         "startdescription":"La mia reputazione sul palco è rovinata. La mia reputazione come oracolo è appena cominciata. Ma le autorità vigilano su di me.",
+         "description":"Nessuno si ferma nel mio camerino oggi. Meglio così: non avrei nulla da dire.",
+         "requirements":{
+            "ghouljob":1
+         },
+         "alt":[
+            {
+               "id":"work.seance.shameful"
+            },
+            {
+               "id":"work.seance.profitable"
+            },
+            {
+               "id":"work.seance.joyful"
+            },
+            {
+               "id":"work.seance.menacing"
+            },
+            {
+               "id":"work.seance.unexpected"
+            },
+            {
+               "id":"work.seance.grandmemory"
+            },
+            {
+               "id":"work.seance.other"
+            }
+         ],
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"work.seance.shameful",
+         "actionId":"work",
+         "label":"Ricordare i Morti: Qualcosa di Vergognoso",
+         "startdescription":"Ho trovato qualcuno che comprerà il mio silenzio.",
+         "description":"Una transazione squallida, ma redditizia.",
+         "requirements":{
+            "memory.shameful":1
+         },
+         "effects":{
+            "funds":3,
+            "memory.shameful":-1
+         }
+      },
+      {
+         "id":"work.seance.profitable",
+         "actionId":"work",
+         "label":"Ricordare i Morti: Qualcosa di Redditizio",
+         "startdescription":"Ho trovato qualcuno che beneficerà di questo ricordo. Pagherà bene.",
+         "description":"Entrambi ne siamo usciti bene... e la mia reputazione un po' più strana.",
+         "requirements":{
+            "memory.profitable":1
+         },
+         "effects":{
+            "funds":3,
+            "memory.profitable":-1,
+            "mystique":1
+         }
+      },
+      {
+         "id":"work.seance.joyful",
+         "actionId":"work",
+         "label":"Ricordare i Morti: Qualcosa di Gioioso",
+         "startdescription":"Potrebbero non essere necessariamente i ricordi del mio cliente, ma sono sicuramente veri.",
+         "description":"Per ora è abbastanza. Le lacrime del cliente sono benvenute, per entrambi.",
+         "requirements":{
+            "memory.joyful":1
+         },
+         "effects":{
+            "funds":2,
+            "memory.joyful":-1,
+            "contentment":1,
+            "mystique":1
+         }
+      },
+      {
+         "id":"work.seance.menacing",
+         "actionId":"work",
+         "label":"Ricordare i Morti: Qualcosa di Minaccioso",
+         "startdescription":"Sarà dura. Potrebbe non piacermi.",
+         "description":"Il cliente è stupito, ma anche emozionato. Alcune persone pagherebbero per questo. Altre pagherebbero per qualsiasi cosa.",
+         "requirements":{
+            "memory.menacing":1
+         },
+         "effects":{
+            "funds":2,
+            "memory.menacing":-1,
+            "dread":1,
+            "mystique":1
+         }
+      },
+      {
+         "id":"work.seance.unexpected",
+         "actionId":"work",
+         "label":"Ricordare i Morti: Qualcosa di Inaspettato",
+         "startdescription":"Non è degno di un oracolo l'essere troppo prevedibili.",
+         "description":"Non ricordo mai esattamente quello che ho detto, dopo, ma le mie labbra mantengono il sapore delle parole.",
+         "requirements":{
+            "memory.unexpected":1
+         },
+         "effects":{
+            "funds":2,
+            "memory.unexpected":-1,
+            "mystique":1
+         },
+         "internaldeck":{
+            "label":"Qualcosa di Inaspettato",
+            "description":"Qualcosa di Inaspettato",
+            "spec":[
+               "vitalityplus",
+               "fascination",
+               "dread",
+               "eruditionplus",
+               "glimmeringplus",
+               "influencelanternc",
+               "influencewinterc",
+               "influencemothc",
+               "fragmentsecrethistories",
+               "vitalityplus",
+               "fascination",
+               "dread",
+               "eruditionplus",
+               "glimmeringplus",
+               "influencelanternc",
+               "influencewinterc",
+               "influencemothc",
+               "fragmentsecrethistories",
+               "fragmentsecrethistoriesc",
+               "influencemothe"
+            ],
+            "resetonexhaustion":true,
+            "draws":1
+         }
+      },
+      {
+         "id":"work.seance.grandmemory",
+         "actionId":"work",
+         "label":"Un Vino Troppo Ricco",
+         "startdescription":"Voglio veramente parlare dei colori che furono perduti?",
+         "description":"Il cliente va via incespicando dalla stanza. Non credo che abbia capito un quarto di quello che ho detto, ma avrà una storia da raccontare.",
+         "requirements":{
+            "memory":5
+         },
+         "effects":{
+            "funds":1,
+            "notoriety":1
+         }
+      },
+      {
+         "id":"work.seance.other",
+         "actionId":"work",
+         "label":"Ispirazione e Disperazione",
+         "startdescription":"Posso mettere insieme abbastanza mezze verità da soddisfare il mio cliente.",
+         "description":"La mia tassa è stata pagata. È difficile dire se ci ho veramente guadagnato. Fortunatamente, è difficile anche per i clienti capire se me la sono guadagnata.",
+         "comments":"I've decided that Fleeting Rems get eaten and romantic rems, Dread, F all get kept. We can crack this into specifics if we have too.",
+         "requirements":{
+            "memory":1
+         },
+         "effects":{
+            "funds":1,
+            "mystique":1,
+            "fleeting":-1
+         }
+      }
+   ]
+}

@@ -1,0 +1,1098 @@
+{
+   "elements":[
+      {
+         "id":"dehoris1",
+         "unique":true,
+         "label":"De Horis (Libro 1)",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Un catalogo, talvolta coerente, degli dei segreti. Questa è una traduzione in Inglese di un volume che tratta dei poteri della Foresta."
+      },
+      {
+         "id":"dehoris2",
+         "unique":true,
+         "label":"De Horis (Libro 2)",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Un catalogo, talvolta coerente, degli dei segreti. Questa è una traduzione in Inglese di un volume che tratta le ostilità del Leonfabbro e del Tribuno delle Cicatrici."
+      },
+      {
+         "id":"travellingatnight1",
+         "unique":true,
+         "label":"Viaggiare di Notte (Vol. 1)",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"I diari dei sogni, commentati, di Christopher Illopoly, talvolta chiamato 'l’unico occultista leggibile': letterato, divertente, sconcertante."
+      },
+      {
+         "id":"travellingatnight2",
+         "unique":true,
+         "label":"Viaggiare di Notte (Vol. 2)",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"I diari dei sogni, commentati, di Christopher Illopoly, talvolta chiamato 'l’unico occultista leggibile': letterato, divertente, sconcertante. Questo è il secondo volume."
+      },
+      {
+         "id":"travellingatnight3",
+         "unique":true,
+         "label":"Viaggiare di Notte (Vol. 3)",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"I diari dei sogni, commentati, di Christopher Illopoly, talvolta chiamato 'l’unico occultista leggibile': letterato, divertente, sconcertante. Questo è il terzo volume."
+      },
+      {
+         "id":"sixlettersonnecessity",
+         "unique":true,
+         "label":"Le Sei Lettere sulla Necessità",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Avvertenze e confessioni sui costi delle arti invisibili, originariamente scritte da Julian Coseley, stregone del diciassettesimo secolo (reputato immortale), per un suo allievo."
+      },
+      {
+         "id":"locksmithsdream1",
+         "unique":true,
+         "label":"Il Sogno del Fabbro: una Luce attraverso la Serratura",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Il primo volume delle analisi dei paralleli nei sogni mistici degli artigiani di Teresa Galmier."
+      },
+      {
+         "id":"locksmithsdream2",
+         "unique":true,
+         "label":"Il Sogno del Fabbro: Porzioni e Proporzioni",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Il secondo volume delle analisi dei paralleli nei sogni mistici degli artigiani di Teresa Galmier. Il frontespizio è stato tagliato con un rasoio."
+      },
+      {
+         "id":"locksmithsdream3",
+         "unique":true,
+         "label":"Il Sogno del Fabbro: Trasgressioni",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Il terzo volume delle analisi dei paralleli nei sogni mistici degli artigiani di Teresa Galmier."
+      },
+      {
+         "id":"locksmithsdream4",
+         "unique":true,
+         "label":"Il Sogno del Fabbro: Riflessi Rubati",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il quarto volume dell’espansiva opera di Teresa Galmier - non più una discussione sugli artigiani, ma una valida indagine su altre opere. Il tono è più calmo di 'Trasgressioni', ma talvolta è terribile, perfino paranoico. Questo volume venne pubblicato nel 1926 ma praticamente subito ritirato dall’editore e mandato al macero - per richiesta dell’autore o probabilmente delle autorità, a seconda della storia alla quale vuoi credere. Poche copie sono sopravvissute."
+      },
+      {
+         "id":"locksmithsdream5",
+         "unique":true,
+         "label":"Il Sogno del Fabbro: Incursus",
+         "aspects":{
+            "text":1,
+            "lantern":1
+         },
+         "description":"Il quinto (e ultimo?) volume della celebre opera di Teresa Galmier, cominciata come esame dei paralleli nei sogni mistici degli artigiani, ma divenuta un resoconto del suo stesso viaggio nell’occulto. Questo volume non fu mai pubblicato né, apparentemente, scritto."
+      },
+      {
+         "id":"humoursofagentleman",
+         "unique":true,
+         "label":"Gli Umori di un Gentiluomo",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"La commedia satirica di Samuel Savage, sugli intrighi del malato, ma astuto, John Sonne, la sua amante Maevelin, il di lei amante Leo, e l’arrivista Corvino."
+      },
+      {
+         "id":"victoryofcrowns",
+         "unique":true,
+         "label":"La Vittoria delle Corone",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Resoconti irregolari di un tale 'Arun' sulla caccia e la consunzione dei supposti immortali compiuta da oscuri culti di assassini. Pubblicato nel tardo diciannovesimo secolo."
+      },
+      {
+         "id":"introductiontohistories",
+         "unique":true,
+         "label":"Un’Introduzione alle Storie",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Il mistico ed antiquario del diciassettesimo secolo Claude Hersault descrive alcuni incidenti discrepanti di cinque Storie maggiori."
+      },
+      {
+         "id":"treatiseonunderplaces",
+         "unique":true,
+         "label":"Il Trattato sui Luoghi Inferiori",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Qui il mistico ed antiquario del diciassettesimo secolo Claude Hersault descrive i 'Limiti' o 'Luoghi Inferiori', i bordi del sogno. Egli avverte che essi cambiano nel tempo."
+      },
+      {
+         "id":"onthewhite",
+         "unique":true,
+         "label":"Sul Bianco",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Solomon Husher scrive, forse allegoricamente, sull’Inverno, e la sua lunga, lenta e dannata relazione con il Sole. L’epigrafe è 'Tramonto a Mezzogiorno'."
+      },
+      {
+         "id":"waroftheroadscensored",
+         "unique":true,
+         "label":"La Guerra delle Strade, 1450-1580, EDIZIONE CENSURATA",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Willis-Ford descrive dettagliatamente la Guerra delle Strade, un episodio di un'altra storia rispetto alla nostra. Tuttavia, numerose pagine sono state rimosse, il nome dell’editore è stato cancellato ed un minaccioso foglio graffettato sulla copertina spiega che Willis-Ford è stato 'asportato'."
+      },
+      {
+         "id":"queensoftherivers",
+         "unique":true,
+         "label":"Le Regine delle Rive",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Una surreale opera teatrale contemporanea dell’enigmatica Monica Medina, nella quale le Regine delle Rive vengono assassinate una ad una."
+      },
+      {
+         "id":"apolloandmarsyas",
+         "unique":true,
+         "label":"Apollo e Marsia",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Il libretto è un’opera perduta sulla sfida tra Apollo e Marsia e i suoi tragici risultati. Il librettista è identificato solamente dalle sue iniziali: RKNJL."
+      },
+      {
+         "id":"skeletonsongs",
+         "unique":true,
+         "label":"Le Canzoni dello Scheletro",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Poesie di avida gioia composte da Arabella Dusk, probabilmente uno pseudonimo, la presunta ereditiera-divenuta-signora-e-in-seguito-poetessa."
+      },
+      {
+         "id":"burningofunburntgod",
+         "unique":true,
+         "label":"Il Rogo del Dio Incombusto",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Compilato da Jay Wigglesworth Jensen, tratta le tradizioni orali della Persia rurale."
+      },
+      {
+         "id":"debellismurorum",
+         "unique":true,
+         "label":"De Bellis Murorum",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Un poema epico del diciottesimo secolo di 'Solipsistos', uno pseudonimo."
+      },
+      {
+         "id":"onwhatiscontainedbysilver",
+         "unique":true,
+         "label":"Su Ciò Che È Contenuto Dall’Argento",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Un terribile bestiario sugli orrori che possono essere trovati negli specchi. Questa è una riedizione recente di un testo del terzo secolo di 'Poemander'."
+      },
+      {
+         "id":"truecompleteasclepian",
+         "unique":true,
+         "label":"Un Resoconto Fedele e Completo dei Misteri Asclepiadei delle Radici della Casa",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Descrizioni dei 'Misteri Asclepiadei', riportati da un tale 'Rylee Grese' da - si suppone - un testo molto più antico. È difficile che sia autentico, ma menziona 'La Casa senza Muri e la sua Foresta', proprio qua, nel prologo."
+      },
+      {
+         "id":"geminiad",
+         "unique":true,
+         "label":"Le Geminiadi",
+         "aspects":{
+            "knock":2,
+            "tool":1,
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Un manoscritto fragile, illuminato da una bellezza triste e luminosa, decorato con tutte le fasi della luna. Potrebbe essere anche del diciassettesimo secolo, ma la lingua - Fucino - è molto più vecchia. La copertina è decorata con il corallo e i bordi delle sue pagine sono abbastanza affilati da poter tagliare una gola. [Ho preso degli appunti per apprestare una traduzione. Ora posso studiarlo.]"
+      },
+      {
+         "id":"geminiadread",
+         "unique":true,
+         "label":"Le Geminiadi [Letto]",
+         "aspects":{
+            "knock":2,
+            "tool":1,
+            "auctionable":2
+         },
+         "description":"Un manoscritto fragile, illuminato da una bellezza triste e luminosa, decorato con tutte le fasi della luna. Potrebbe essere anche del diciassettesimo secolo, ma la lingua - Fucino - è molto più vecchia. La copertina è decorata con il corallo e i bordi delle sue pagine sono abbastanza affilati da poter tagliare una gola. [Ho imparato tutto ciò che potevo, ma il libro in sé ha ancora potere.]"
+      },
+      {
+         "id":"orchidtransfigurations1",
+         "unique":true,
+         "label":"Le Trasfigurazioni dell’Orchidea, Vol. 1: un Banchetto",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Il primo volume di una raccolta di allegorie quasi-Rosacrociane, probabilmente di Robert Fludd. Questa è una tarda traduzione in Inglese."
+      },
+      {
+         "id":"orchidtransfigurations2",
+         "unique":true,
+         "label":"Le Trasfigurazioni dell’Orchidea, Vol. 2: una Nascita",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Il secondo volume di una raccolta di allegorie quasi-Rosacrociane, probabilmente di Robert Fludd. Questa è una tarda traduzione in Inglese."
+      },
+      {
+         "id":"orchidtransfigurations3",
+         "unique":true,
+         "label":"Le Trasfigurazioni dell’Orchidea, Vol. 3: Alba",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Il terzo volume di una raccolta di allegorie quasi-Rosacrociane, probabilmente di Robert Fludd. Questa è una tarda traduzione in Inglese."
+      },
+      {
+         "id":"wainscothistories",
+         "unique":true,
+         "label":"Le Storie di Rivestimento",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Sottotitolato 'Storie da Dietro i Muri': una miscellanea di storie non tradizionali raccolta da William Gore, include battaglie generalmente non conosciute e paesi che non appaiono su nessuna mappa, raccontati in una maniera giocosa e, apparentemente, finzionale."
+      },
+      {
+         "id":"chioneatabydos",
+         "unique":true,
+         "label":"Chione ad Abidos",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Un’opera che tratta del soggiorno di nove anni di una dea della neve nella città trace di Abydos, di 'Apollo Tessitore del Fuoco'. Ebbe successo a Londra nella sua edizione del 1892, quando venne ristampata da - apparentemente - un testo greco più antico."
+      },
+      {
+         "id":"irreproachabletraditionssocietynobleendeavour",
+         "unique":true,
+         "label":"Le Tradizioni Irreprensibili...",
+         "description":"Le Tradizioni Irreprensibili della Società del Nobile Sforzo. I membri della Società del Nobile Sforzo adottavano nobili nomi durante la loro iniziazione: 'Parsifal', 'Rolando', 'Oisín'. Essi traevano la loro ispirazione dalla Fiamma al Guinzaglio, la quale diede all’isola Britannica un potere spaventoso, in alcune storie. Un tale Samuel Partridge ha raccontato le loro azioni.",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         }
+      },
+      {
+         "id":"roseofnuriel",
+         "unique":true,
+         "label":"La Rosa di Nuriel",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Un volume di insegnamenti scelti della Sorellanza del Nodo, l’ordine arcano-contemplativo che esistette in tutte le storie, ma che in alcune era, invero, molto potente. Questo è stato scritto da 'Nuriel' e dedicato a San Trifone."
+      },
+      {
+         "id":"roseofhypatia",
+         "unique":true,
+         "label":"La Rosa di Ipazia",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Un volume di insegnamenti scelti della Sorellanza del Nodo, l’ordine arcano-contemplativo che esistette in tutte le storie, ma che in alcune era, invero, molto potente. Questo è stato scritto da 'Ipazia' e dedicato a Santa Ninfa."
+      },
+      {
+         "id":"roseofwaznei",
+         "unique":true,
+         "label":"La Rosa di Waznei",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Gli insegnamenti eretici di un ramo disonorato della Sorellanza del Nodo, l’ordine arcano-contemplativo esistito in tutte le storie. Questo è stato scritto da 'Waznei' e dedicato a San Respicio."
+      },
+      {
+         "id":"sunsetpassages",
+         "unique":true,
+         "label":"Passaggi del Tramonto",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Una miscellanea di preghiere funerarie, cerimonie ed inni della Chiesa del Sole Invitto, la quale era ascendente nella Terza e Quarta Storia. Si scisse durante l’Intercalare, quando il Sole fu diviso, e attualmente non ha una forza significativa."
+      },
+      {
+         "id":"gospelzacchaeus",
+         "unique":true,
+         "label":"Il Vangelo di Zaccheo",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Un resoconto estremamente eterodosso del Messia Nazareno e dei suoi lavori, descrive la sua ascensione al Mansus attraverso le aperture del suo corpo."
+      },
+      {
+         "id":"matthiasamethystloss",
+         "unique":true,
+         "label":"Su Mattia e L’Imago Ametista: Perdita",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il resoconto di una storia d’amore occulta. Un tale Para, figlio di Aaron, afferma di averlo scritto in un solo giorno ed una sola notte come parte della sua iniziazione alla branca Damasca della Casa del Lete - un ordine fortemente disciplinato di immortali che rifiutava il suo passato e futuro."
+      },
+      {
+         "id":"matthiasamethysttransformation",
+         "unique":true,
+         "label":"Su Mattia e L’Imago Ametista: Trasformazione",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il resoconto di una storia d’amore occulta. Un certo Iyavogos afferma di averlo scritto in un solo giorno ed una sola notte come parte della sua iniziazione alla branca Aleppina della Casa del Lete - un ordine di immortali che non prestava giuramento a nessuna Ora."
+      },
+      {
+         "id":"matthiasamethystpursuit",
+         "unique":true,
+         "label":"Su Mattia e L’Imago Ametista: Ricerca",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il resoconto di una storia d’amore occulta. Un certo Mek afferma di averlo scritto in un solo giorno ed una sola notte come parte della sua iniziazione alla branca Tebana della Casa del Lete - un ordine di immortali che usava le arti dell’acqua per nascondersi."
+      },
+      {
+         "id":"franklinbancroftdiaries",
+         "unique":true,
+         "label":"Lord Franklin Bancroft: Diari, 1750-1790",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Lord Franklin Bancroft venne iniziato alle arti del Creatore di Fiori dalla 'strega della rosa' Fionna Ayrshire. Egli arrivò a creare una Società che provvedesse ai suoi servizi occulti e ai suoi piaceri segreti, prima della sua brusca sparizione nel 1790."
+      },
+      {
+         "id":"indignitiesobliviate",
+         "unique":true,
+         "label":"Le Umiliazioni Perpetrate Dalla Fraudolenta Fraternità degli Obliviati",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Non è chiaro se 'C.R.O.D', identificato solamente dalle sue iniziali, fosse veramente un iniziato dell’ordine di immortali degli Obliviati. Egli scrisse nel sedicesimo secolo, dopo che l’ordine - se gli si crede - aveva raggiunto le vette del suo potere."
+      },
+      {
+         "id":"furioustantra",
+         "unique":true,
+         "label":"Il Tantra Furioso",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Come riportato dal medium e pirotecnico Jacob Oliver Topp-Mugglestone. La tradizione vuole che l’abbia trovato impresso da un fulmine nella corteccia di una quercia."
+      },
+      {
+         "id":"devouredtantra",
+         "unique":true,
+         "label":"Il Tantra Divorato",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il diplomatico-prete Stanislav John Schaller lo trascrisse dalla libreria di un Lungo Rosso, ma il manoscritto originale è rimasto in una collezione privata di Kerisham."
+      },
+      {
+         "id":"ceaselesstantra",
+         "unique":true,
+         "label":"Il Tantra Incessante",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il coreografo d’avanguardia Nicholas Keirle incorporò questo Tantra, apparentemente, nei suoi minacciosi balletti."
+      },
+      {
+         "id":"knownunknowntantra",
+         "unique":true,
+         "label":"Il Tantra Conosciuto-Sconosciuto",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Carlos Garcia Sauri, mistico estatico dei Pirenei, era noto per saperlo recitare in tre lingue, sebbene non avesse mai visitato il Subcontinente."
+      },
+      {
+         "id":"encirclingtantra",
+         "unique":true,
+         "label":"Il Tantra dell’Accerchiamento",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"L’esploratore ed imprenditore T. Everett Duplantis una volta provò a saccheggiare il tempio dove veniva conservato il testo. Il suo destino è registrato in un’appendice."
+      },
+      {
+         "id":"shavenlocktantra",
+         "unique":true,
+         "label":"Il Tantra della Serratura Rasata",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Anche conosciuto come 'Colui Il Quale Si È Rasato I Capelli'. Questa, dice la storia, è la tradizione rifiutata anche dai Vānara mutaforma."
+      },
+      {
+         "id":"tantraworms",
+         "unique":true,
+         "label":"Il Tantra dei Vermi",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"L’entomologa Juliana Zawistowski arrivò ad sostenere che il testo fosse stato scritto da insetti che abitavano una pelle umana. Non presentò mai prove delle sue affermazioni."
+      },
+      {
+         "id":"bookofcentipede",
+         "unique":true,
+         "label":"Il Libro del Millepiedi",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"A metà del 1860 una tale 'Madame Yi' presentò uno spettacolo basato, a suo dire, su questo libro."
+      },
+      {
+         "id":"accountkanishkspidersdoor",
+         "unique":true,
+         "label":"Il Resoconto di Kanishk alla Porta del Ragno",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Lok Kahuli, vittima ed amante di Kanishk, scrisse questo resoconto, forse postumamente."
+      },
+      {
+         "id":"stumm",
+         "unique":true,
+         "label":"STUMM!",
+         "slots":[
+            {
+               "id":"projector",
+               "label":"Proiettore",
+               "description":"Dovrò acquistare un proiettore se ho intenzione di guardarlo.",
+               "required":{
+                  "funds":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Una latta di pellicola in nitrato etichettata STUMM! - 'In Silenzio' o, forse, 'Muto'. Il nome del regista, 'Jernik Krosse', è precariamente allegato."
+      },
+      {
+         "id":"vinzantinscriptions",
+         "unique":true,
+         "label":"Le Iscrizioni Vinzant",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Everett Vinzant trascrisse queste iscrizioni da un dirupo in Anatolia, dove egli, è noto, sopravvisse ad un fulmine. Morì sette anni dopo quel giorno. Le sue ossa, vuole la leggenda, sono rimaste per lungo tempo calde al tatto."
+      },
+      {
+         "id":"larquebinecodex",
+         "unique":true,
+         "label":"Il Codex Larquebine",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Christoph Larquebus affermò di aver comprato due copie manoscritte del Codice da una famiglia di streghe sulle coste del Mar di Marmara. Una terza fu 'donata al Mare'."
+      },
+      {
+         "id":"againstsisterhoodknot",
+         "unique":true,
+         "label":"Contro la Sorellanza del Nodo e...",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"'Contro la Sorellanza del Nodo e la Follia dei loro Costumi Depravati'. Hieronymus Pseudo-Hypnerotomachus scrisse questo sermone furioso sulla sinistra influenza della Sorellanza sulla sua stessa Casa del Sole Invitto."
+      },
+      {
+         "id":"morphycodex",
+         "unique":true,
+         "label":"Il Codex Morphy",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Nel quale una sacerdotessa della Sorellanza del Nodo afferma di aver intravisto il vero significato della nascita del Pellefolgore."
+      },
+      {
+         "id":"leoninetantra",
+         "unique":true,
+         "label":"Il Tantra Leonino",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Nella più celebre traduzione del Tantra Leonino, Ashley Phillips è indicato come il traduttore, ma la sua esistenza viene esplicitamente negata nel prologo. Questa confusione è caratteristica dei libri che trattano i Grandi Principi Incappucciati."
+      },
+      {
+         "id":"incandescenttantra",
+         "unique":true,
+         "label":"Il Tantra Incandescente",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Michael Blockley, l’eccentrico magnate del ferro, amava citare questo tantra. Blockley morì in un incendio in fabbrica."
+      },
+      {
+         "id":"thirstingtantra",
+         "unique":true,
+         "label":"Il Tantra Assetante",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"C.G. Burial, l’attivista della temperanza, pubblicò tratti di questo testo in un pamphlet che, quando era divenuto troppo popolare, dovette essere ritirato e distrutto."
+      },
+      {
+         "id":"flayedtantra",
+         "unique":true,
+         "label":"Il Tantra Spellato",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Questo Tantra, si dice, sarebbe stato pronunciato da un enigmatico individuo identificato come 'Peel', il quale possiede molte delle qualità del naga mitologico. Il Tantra Spellato servì da base, inoltre, per intere sezioni dei pamphlet paranoici di Alexander Sparrow."
+      },
+      {
+         "id":"watchfultantra",
+         "unique":true,
+         "label":"Il Tantra Osservatore",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Famigerato per il suo coinvolgimento nelle morti di Dafyd Jones e Meredith Blaine, due dei primi fisici, poiché entrambi dichiaravano di averne l’unica copia. Finirono a combattere un duello per venire a capo della questione nel 1840."
+      },
+      {
+         "id":"twinserpenttantra",
+         "unique":true,
+         "label":"Il Tantra del Serpente-Gemello",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Subito prima del focolaio della Grande Guerra, 'Alexander Sparrow' - quasi certamente uno pseudonimo - pubblicò degli opuscoli sostenendo l’influenza dei 'Principi Serpenti' negli affari del mondo. Il testo chiamato 'Il Tantra del Serpente-Gemello' fu la sua ispirazione primaria."
+      },
+      {
+         "id":"firecircletantra",
+         "unique":true,
+         "label":"Il Tantra del Circolo di Fuoco",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"L’unica copia conosciuta sopravvissuta in Europa Occidentale fu rubata dalla British Library nel 1892. Un tale Harvey Hattington confessò il crimine ed affermò di averla mangiata, con il burro e l’aglio, in un momento di ingovernabile stravaganza."
+      },
+      {
+         "id":"asthesunhiscourse",
+         "unique":true,
+         "label":"Come Il Sole Il Suo Percorso",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Joel da Bridge, un soldato a riposo e talvolta riscossore, scrisse questo poema epico sulla famosa decisione inspiegabile di Alessandro di ritirarsi dalla guerra contro gli Achemenidi ad Isso, e il suo conseguente ritorno in Macedonia."
+      },
+      {
+         "id":"concursumdiaries",
+         "unique":true,
+         "label":"I Diari del Concursum",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"I diari dell'esploratore ed assassino Lars Westergren. Li aveva inutilmente tradotti in Frigio, per riservatezza."
+      },
+      {
+         "id":"ironbook",
+         "unique":true,
+         "label":"Il Libro di Ferro",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Un manuale dell'Ordo Limiae, un ordine di quasi-immortali un tempo stabiliti in un’enclave segreta alla sorgente del fiume Limia, nella provincia Romana dell’Hispania Gallaecia. Questo manuale venne compilato da un tale Melerai Yivni, il quale afferma di aver viaggiato per unirsi all’Ordo da 'il Crocevia delle Acque'."
+      },
+      {
+         "id":"silverbook",
+         "unique":true,
+         "label":"Il Libro d’Argento",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Un manuale dell'Ordo Limiae, un ordine di quasi-immortali un tempo stabiliti in un’enclave segreta alla sorgente del fiume Limia, nella provincia Romana dell’Hispania Gallaecia. Questo manuale venne compilato da un tale Burzghash, il quale spiega che egli venne per unirsi all’Ordo dalla 'città delle aquile messaggere' dopo aver abbandonato il servizio della Colomba d’Avorio."
+      },
+      {
+         "id":"ivorybook",
+         "unique":true,
+         "label":"Il Libro d’Avorio",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Un manuale dell'Ordo Limiae, un ordine di quasi-immortali un tempo stabiliti in un’enclave segreta alla sorgente del fiume Limia, nella provincia Romana dell’Hispania Gallaecia. Questo manuale venne compilato da un tale Kurenai, il quale afferma di aver abbandonato 'la tirannia del Trono del Crisantemo' per attraversare il mondo ed unirsi all’Ordo."
+      },
+      {
+         "id":"worlddoesnotweep",
+         "unique":true,
+         "label":"Il Mondo Non Piange",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Joshua 'Brown' trovò questo testo in un pozzo ad Hamath. Secondo un'improbabile storia sarebbe stato abbandonato da Alessandro durante la sua ritirata da Isso."
+      },
+      {
+         "id":"deedsofthescarredcaptain",
+         "unique":true,
+         "label":"Le Gesta del Capitano Sfregiato",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Composte faticosamente da Pavel Shulga, soldato di ventura e, talvolta, mantenuto dalla famiglia, durante i suoi anni in Grecia."
+      },
+      {
+         "id":"bookofdissolution",
+         "unique":true,
+         "label":"Il Libro della Dissoluzione",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Alexander Probst, seguendo il lavoro fondamentale di Jay Wigglesworth Jensen, recuperò una copia del testo da un tempio di montagna in Persia. Altre copie appaiono qua e là, di solito impresse sulla roccia."
+      },
+      {
+         "id":"catalogueofunchartedpleasures",
+         "unique":true,
+         "label":"Un Catalogo di Piaceri Inesplorati",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"'Il Gentleman Oscuro' è l’unico autore, identificato in maniera decisamente pomposa, di quest’opera spesso imitata."
+      },
+      {
+         "id":"thosewhodonotsleep",
+         "unique":true,
+         "label":"Coloro I Quali Non Dormono",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il mistico Brodnax discute le origini della Sorella-e-Strega, e del Pellefolgore."
+      },
+      {
+         "id":"theskythesoul",
+         "unique":true,
+         "label":"Il Cielo, l’Anima",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il grande lavoro di Kalle, un poeta ascetico che scrisse alla corte dei Re Senza Ombra."
+      },
+      {
+         "id":"onthematterandthedeedsofserpents",
+         "unique":true,
+         "label":"Sulla Questione e le Azioni dei Serpenti",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Questa è probabilmente la 'Profezia del Naga', tradotta in Inglese ed illustrata da 'William Midnight' nel 1880 a Parigi; tuttavia mostra un alto numero di divergenze da quel testo. È sicuramente abbastanza recente, nonostante sia un testo Vak."
+      },
+      {
+         "id":"serenityofblackwood",
+         "unique":true,
+         "label":"La Serenità della Foresta Oscura",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Una storia allegorica sulla Casa del Lete, la quale, è qui sottinteso, fu incoraggiata dal Millepiedi. 'Sereno Blackwood' è tutt'ora un alias oscuro."
+      },
+      {
+         "id":"bookofthrones",
+         "unique":true,
+         "label":"Il Libro dei Troni",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Una leggenda sugli Imperi Senza Ombra, trascritta da Alexander Peterhans dagli annali di un santuario segreto in Anatolia."
+      },
+      {
+         "id":"secondglory",
+         "unique":true,
+         "label":"Una Seconda Gloria",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il prete Juceh celebra l’estirpazione degli Dei-che-furono-pietra, le Ore che precedettero l’umanità."
+      },
+      {
+         "id":"bookoftrueblood",
+         "unique":true,
+         "label":"Libro del Vero Sangue",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Cassius Thoman rivela le azioni delle Innumerevoli Legioni, l’armata segreta che protesse Roma dall’Impero Senza Ombra."
+      },
+      {
+         "id":"burningwoman",
+         "unique":true,
+         "label":"La Donna Ardente",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Una trascrizione dell’opera di Menandro il Vincitore, forse l'omonimo drammaturgo, in Frigio, commentato."
+      },
+      {
+         "id":"twentysixenticementsseventorments",
+         "unique":true,
+         "label":"Ventisei Attrattive, Sette Tormenti",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il pittore Niels Frederik Malskær, è noto, tentò una serie di dipinti basati sui Tormenti. Al Quinto Tormento le richieste del dipinto finirono per dissanguarlo. I diagrammi delle sue opere sono, per fortuna, meno dettagliati."
+      },
+      {
+         "id":"historyofshadowlesskings",
+         "unique":true,
+         "label":"Una Veritiera ed Accurata Storia dei Re Senza Ombra",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"'Una Veritiera ed Accurata Storia dei Re Senza Ombra, di Isaac di Karth.' Isaac descrive l’ascesa millenaria dell’Impero Senza Ombra."
+      },
+      {
+         "id":"highmysterieschurchsolar",
+         "unique":true,
+         "label":"Gli Alti Misteri delle Più Interne Stanze della nostra Chiesa Solare",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"'Gli Alti Misteri delle Stanze Più Interne della nostra Chiesa Solare'. Riti segreti della Chiesa del Sole Invitto, la quale ebbe il potere in almeno due Storie."
+      },
+      {
+         "id":"medusaslament",
+         "unique":true,
+         "label":"Il Lamento di Medusa",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Sulla morte dell’Ora chiamata Sette-Spire, 'il Padre della Madre'."
+      },
+      {
+         "id":"bookofmasks",
+         "unique":true,
+         "label":"Il Libro delle Maschere",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il lavoro di Athena Vana sull’Ora ribelle chiamata il Vagabondo, la quale è anche conosciuta come l’Usignolo Ridente, il Millepiedi, il Pellegrino, e da tanti altri nomi - o, come dice Vana, 'maschere'."
+      },
+      {
+         "id":"inthemountainsasupontheplain",
+         "unique":true,
+         "label":"Nelle Montagne...",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"'Nelle Montagne Poiché Sulle Pianure Potrebbe Non Esserci Una Via Per La Quale Nessuno Sia Passato'. Ninegala di Lagash descrive i segreti da trovare sulle montagne."
+      },
+      {
+         "id":"memoryofgods",
+         "unique":true,
+         "label":"In Memoria degli Dei",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"'Il Figlio del Carretto', un adepto Gallico senza nome, unitosi ad un’organizzazione identificata nell’Ordo Limiae, scrive a malincuore della distruzione degli dei-che-furono-pietra - le Ore che precedettero l’umanità."
+      },
+      {
+         "id":"sevenfoldslayingsevencoiled",
+         "unique":true,
+         "label":"Il Settimo Omicidio del Sette-Spire",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il resoconto della distruzione di un’Ora primordiale, un dio-che-fu-Pietra."
+      },
+      {
+         "id":"bighuff",
+         "unique":true,
+         "label":"Le Mie Azioni, I Miei Poteri, I Miei Risultati...",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"'Le Mie Azioni, I Miei Poteri, I Miei Risultati E Le Ingiustizie Perpetrate Contro Di Me'. Hokobald di Pocsind, precedentemente dell’ordine degli immortali chiamato da alcuni Casa del Lete, tira le somme."
+      },
+      {
+         "id":"dreamconspiracyskies",
+         "unique":true,
+         "label":"Il Sogno della Cospirazione dei Cieli Inferiori",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"L’oracolo in disgrazia Damaon Azenaten ha vagliato le straordinarie storie di Penelope di Gordio, i lavori del poeta di corte Kalle e i frammenti proibiti dei lavori dell’adepto Arrettrez, trovandovi le tematiche comuni."
+      },
+      {
+         "id":"bookwhitecat",
+         "unique":true,
+         "label":"Il Libro del Gatto Bianco",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Storie raccontate a Penelope di Gordio da un gatto bianco e cieco."
+      },
+      {
+         "id":"focusamber",
+         "unique":true,
+         "label":"La Concentrazione dell’Ambra",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Omar, l’Incendio, passò sette anni presidiando un faro a Tiro in ammenda per aver estinto una fiamma sacra. Alla fine era così terrificato dal fuoco che non poteva stare nella stessa stanza di una candela. Ha scritto i suoi lavori scritti come forma di parziale penitenza."
+      },
+      {
+         "id":"songscarapacecross",
+         "unique":true,
+         "label":"Le Canzoni dell’Esoscheletro della Croce",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Micah Xi, talvolta chiamato lo Stregone del Quarzo, incise quest’opera sulla pietra con l’acido. È stata riprodotta molte volte da allora, ma le riproduzioni sono spesso perse durante smottamenti."
+      },
+      {
+         "id":"originsofhours",
+         "unique":true,
+         "label":"L’Origine delle Ore",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il saggio ed estatico Soham, un abituale visitatore del Mansus, afferma di aver conversato con il Corvo della Spiaggia in persona. Soham, in seguito, insistette per essere sepolto in cielo."
+      },
+      {
+         "id":"wherehasshegone",
+         "unique":true,
+         "label":"Dov’è andata?",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"'Lo Speeth' - forse un singolo adepto, forse un comitato di eruditi - ipotizza eventi segreti da limitate prove con un'accuratezza persuasiva."
+      },
+      {
+         "id":"bookextinguishedheart",
+         "unique":true,
+         "label":"Il Libro del Cuore Estinto",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Nei giorni dei Re Senza Ombra, Ennis Lazali fu messo a morte per aver profetizzato la Divisione del Sole. Se tra i suoi assassini ci fu qualche Lungo probabilmente, in seguito, si sarà pentito."
+      },
+      {
+         "id":"howendwillbegin",
+         "unique":true,
+         "label":"Come Inizierà la Fine",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Una profezia sulle Guerre delle Strade, documentata nel Subcontinente nei giorni precedenti ai Grandi Principi Incappucciati."
+      },
+      {
+         "id":"manneralchemistspared",
+         "unique":true,
+         "label":"La Maniera nella quale furono Risparmiati gli Alchimisti",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Nel 1782, Anaël Verdier usò questo testo come base per una presentazione all’Accademia delle Scienze di Parigi. Venne giustiziato in segreto la mattina seguente, senza processo."
+      },
+      {
+         "id":"fivecreations",
+         "unique":true,
+         "label":"Cinque Creazioni",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"L’erudito itinerante Shohei discusse cinque possibili origini per l’umanità con una figura incappucciata che affermava essere il Corvo della Spiaggia. Shohei in seguito affermò che tutti quei rendiconti si provarono falsi, ma il dibattito fu, tuttavia, documentato."
+      },
+      {
+         "id":"commandspreservationallexists",
+         "unique":true,
+         "label":"Comandamenti Per La Preservazione di Tutto Ciò Che Esiste",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Black Elie, la Matriarca di Damasco della Sorellanza del Nodo, fu imprigionata dall’imperatore Didio Giuliano. Lei, secondo quanto riferito, avrebbe dato ordine di registrare queste dottrine segrete per iscritto al fine di preservarle. Purtroppo, narra la storia, Didio Giuliano ordinò che l'opera venisse seppellita con lei in un sepolcro senza simboli."
+      },
+      {
+         "id":"timedivision",
+         "unique":true,
+         "label":"Il Tempo della Divisione",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Nel quale Amira Zahra profetizza gli eventi poi conosciuti come l’Intercalare, quando l’Ora chiamata il Sole-nel-Lusso sarà divisa."
+      },
+      {
+         "id":"manualdeparture",
+         "unique":true,
+         "label":"Un Manuale per la Dipartita",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"L’autore, che si identifica come lo Jekadu, afferma di essere un Grande Principe Incappucciato della Terra della Riva. Lo stile è informale, addirittura colloquiale."
+      },
+      {
+         "id":"birdsong",
+         "unique":true,
+         "label":"Inaam, Kapigiginlupir, Garkie, Cryppys",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Nel quale quattro figure enigmatiche raccontano le storie che hanno sentito nel corso degli anni nel Trespolo, il luogo segreto dove le Ore aviformi si raccolgono."
+      },
+      {
+         "id":"voyagesfo",
+         "unique":true,
+         "label":"I Viaggi di Ferninshun da Oreol",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Un diario di viaggio, per così dire."
+      },
+      {
+         "id":"scarsky",
+         "unique":true,
+         "label":"La Ferita nel Cielo",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Nyn lo scrisse, ed arrivò a pentirsene."
+      },
+      {
+         "id":"kitlingripe",
+         "unique":true,
+         "label":"Kitling Ripe e la Tomba di Moldywarp (ed Altre Storie)",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Un lascivo tomo illustrato di storie per bambini vagamente connesse, raccolte da un tale N.K. Field. Poche di esse sono lontanamente adatte ad un bambino."
+      },
+      {
+         "id":"raptintheking",
+         "unique":true,
+         "label":"Rapito nel Re",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Resoconti dettagliati di James Colin Murphy dei baccanali segreti e delle danze estatiche osservate nelle necropoli e nei cimiteri dell’Europa del Sud, in Egitto e in Anatolia. L’autore è un ghoul dichiarato, un mangiatore di carne sepolta: egli afferma di aver visto tali danze durante i suoi banchetti."
+      },
+      {
+         "id":"vienneseconundra",
+         "unique":true,
+         "label":"L’Indovinello Viennese",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Nico Van Driel descrive bizzarri eventi a Vienna - la sparizione di bambini; epidemie di attività parassitica; mutilazioni animali; incubi di vermi; le attività di un’organizzazione caritatevole, la New Ligeians, che finanzia il seppellimento dei poveri. Essa propone connessioni peculiari tra queste attività."
+      }
+   ]
+}

@@ -1,0 +1,164 @@
+{
+   "recipes":[
+      {
+         "id":"explorecabaret",
+         "actionId":"explore",
+         "label":"Visita l’Ecdysis Club",
+         "requirements":{
+            "locationcabaret":1,
+            "funds":1
+         },
+         "startdescription":"L’entrata si perde nelle soffici tendine cremisi, cinabro e vermiglio. Sopra la porta, il motto del club: 'IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI'. Si può tradurre con 'nei cerchi della notte voliamo, finché il fuoco non dispone di noi'.",
+         "description":".",
+         "effects":{
+            "funds":-1
+         },
+         "craftable":true,
+         "deckeffects":{
+            "cabaretevents":1
+         },
+         "linked":[
+            {
+               "id":"cabaretpleasure",
+               "chance":100
+            },
+            {
+               "id":"cabaretallure",
+               "chance":100
+            },
+            {
+               "id":"cabareteducation",
+               "chance":100
+            },
+            {
+               "id":"cabaretglimpse",
+               "chance":100
+            },
+            {
+               "id":"cabaretharm",
+               "chance":100
+            },
+            {
+               "id":"cabaretexposure",
+               "chance":100
+            },
+            {
+               "id":"cabarethunger",
+               "chance":100
+            },
+            {
+               "id":"cabaretfey",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"cabaretpleasure",
+         "label":"Piaceri Notturni allo Spettacolo",
+         "actionId":"explore",
+         "requirements":{
+            "contentment":1
+         },
+         "startdescription":"I drink, le canzoni, le luci; i muri inarcati, la nebbia del fumo azzurro, le spinte e le onde di carne vestita e svestita.",
+         "description":"Ho acquistato il piacere. Barcollo verso casa ad ore disumane e collasso a letto.",
+         "warmup":15,
+         "craftable":false
+      },
+      {
+         "id":"cabaretallure",
+         "label":"Fascino all’Ecdysis Club",
+         "actionId":"explore",
+         "requirements":{
+            "fascination":1
+         },
+         "startdescription":"Nella performance di stasera, 'Ametista', un cacciatore, brandendo una rete, perseguita una donna alata da veli in un labirinto mormorante di ballerine ricoperte di foglie. Ogni movimento è rallentato, come sott’acqua.",
+         "description":"Le luci scendono, molto gradualmente, quando finisce lo spettacolo. Non ci sono applausi. Andiamo tutti in strada, soli con il nostro sogno.",
+         "effects":{
+            "contentment":1
+         },
+         "warmup":15,
+         "craftable":false
+      },
+      {
+         "id":"cabareteducation",
+         "label":"Gli Insegnamenti dello Spettacolo",
+         "actionId":"explore",
+         "requirements":{
+            "erudition":1
+         },
+         "startdescription":"La performance di stasera è una storia raffazzonata di veli agitati e carne sincera. Gli spettatori si girano a chiaccherare.",
+         "description":"Ho passato la serata scambiando teorie con una tavolata di ciarlatani, impostori e - forse - iniziati. Alcune di queste teorie potrebbero essere vere.",
+         "effects":{
+            "contentment":1
+         },
+         "warmup":15,
+         "craftable":false
+      },
+      {
+         "id":"cabaretglimpse",
+         "label":"Uno Sguardo a Qualcosa di Più all’Ecdysis Club",
+         "actionId":"explore",
+         "requirements":{
+            "glimmering":1
+         },
+         "startdescription":"Le scenografie per la performance di stasera sono dipinte con immagini da incubo quasi piranesiane - vaste, impossibili prigioni sotterranee. Le ballerine sono mascherate da mostri, improvvise come il fuoco, ogni movimento schiocca di intenti malvagi.",
+         "description":"Le ballerine passano dietro le scenografie, le attraversano, sembrano muoversi sulle loro scalinate e i ponti levatoi. I loro corpi si fondono con le pitture della scenografia. Un ruggito sorge dal pubblico. 'Le mura della Casa...'",
+         "warmup":15,
+         "craftable":false
+      },
+      {
+         "id":"cabaretharm",
+         "label":"Una Consumazione Che Ferisce all’Ecdysis Club",
+         "actionId":"explore",
+         "requirements":{
+            "vitality":1
+         },
+         "startdescription":"Questa notte, gli attori passano tra il pubblico, destreggiandosi con coltelli o bottiglie di vetro rosso, piegandosi per conferire bisbigli o altri doni.",
+         "description":"Una ballerina ha premuto una coppa di vetro rosso sulla mia bocca. Il suo bordo era affilato. La mia bocca sta sanguinando. Ma il vino all’interno era un vino forte...",
+         "effects":{
+            "contentment":1
+         },
+         "warmup":15,
+         "craftable":false
+      },
+      {
+         "id":"cabaretexposure",
+         "label":"Un’Interruzione all’Ecdysis Club",
+         "actionId":"explore",
+         "requirements":{
+            "notoriety":1
+         },
+         "startdescription":"Lo spettacolo è appena cominciato, quando un gemito di terrore sale dal pubblico!",
+         "description":"La performance finisce immediatamente; le luci si alzano; veniamo portati via dai nostri posti ed invitati ad andare in strada. Non è chiaro cosa sia successo, ma lo staff del Club sembra preparato, come se questo fosse già successo prima. Le luci sbocciano nelle finestre vicine, e i passanti fissano la folla di ospiti che si disperdono nella notte.",
+         "warmup":15,
+         "craftable":false
+      },
+      {
+         "id":"cabarethunger",
+         "label":"Gli Appetiti dell’Ecdysis Club",
+         "actionId":"explore",
+         "requirements":{
+            "influencegrail":1
+         },
+         "startdescription":"Una ballerina entra dalla sinistra del palco, avvolta in bende rosse, strette come tendini. Ne sbuccia via una. Un’altra. Un’altra. Un’altra...",
+         "description":"Questo dev'essere un trucco. Nessuno può rimuovere gli indumenti tanto morbidamente da rendere le ossa visibili sotto la pelle. Ossa rosa, come la carne delle pesche. Organi annidati, come uva. Le luci si soffondono, in strada, andate fuori, e la stella rossa del palco con voi. Le nostre labbra sono secche.",
+         "warmup":15,
+         "craftable":false
+      },
+      {
+         "id":"cabaretfey",
+         "label":"I Misteri dell’Ecdysis Club",
+         "actionId":"explore",
+         "requirements":{
+            "influencemoth":1
+         },
+         "startdescription":"'La Corona!’ annuncia il cerimoniere. Una ballerina ondula sul palco dispiegando le braccia. Falene vive fuoriescono in un flusso dalla sua bocca!",
+         "description":"Falene bianche vorticano per la sala. Si appollaiano sui bordi dei bicchieri di vino e sorseggiano. Il pubblico applaude. La donna sul palco si muove come se avesse troppe membra. Falene affollano le mie braccia, si accomodano sulla mia spalla. Tra poco uscirò e guarderò le chiare fredde stelle: immaginerò di aver sognato tutto quanto. I fumi del Club sono infidi.",
+         "effects":{
+            "contentment":1
+         },
+         "warmup":15,
+         "craftable":false
+      }
+   ]
+}

@@ -1,0 +1,327 @@
+{
+   "elements":[
+      {
+         "id":"welland_unknown",
+         "label":"Una Losca Presenza",
+         "description":"Il suo potere è formidabile; la sua identità, ancora sconosciuta. [Quando il Potere, le Connessioni, o la Luce Stellare del Lungo raggiunge 3, sarà possibile smascherarlo.]",
+         "aspects":{
+            "long.enemy":1,
+            "long.preference.assault":1
+         },
+         "xtriggers":{
+            "revealidentity":"welland"
+         }
+      },
+      {
+         "id":"tryphon_unknown",
+         "label":"Una Losca Presenza",
+         "description":"Il suo potere è formidabile; la sua identità, ancora sconosciuta. [Quando il Potere, le Connessioni, o la Luce Stellare del Lungo raggiunge 3, sarà possibile smascherarlo.]",
+         "aspects":{
+            "long.enemy":1,
+            "long.preference.intrigue":1
+         },
+         "xtriggers":{
+            "revealidentity":"tryphon"
+         }
+      },
+      {
+         "id":"diarist_unknown",
+         "label":"Una Losca Presenza",
+         "description":"Il suo potere è formidabile; la sua identità, ancora sconosciuta. [Quando il Potere, le Connessioni, o la Luce Stellare del Lungo raggiunge 3, sarà possibile smascherarlo.]",
+         "aspects":{
+            "long.enemy":1,
+            "long.preference.dreamwork":1
+         },
+         "xtriggers":{
+            "revealidentity":"diarist"
+         }
+      },
+      {
+         "id":"julian_unknown",
+         "label":"Una Losca Presenza",
+         "description":"Il suo potere è formidabile; la sua identità, ancora sconosciuta. [Quando il Potere, le Connessioni, o la Luce Stellare del Lungo raggiunge 3, sarà possibile smascherarlo.]",
+         "aspects":{
+            "long.enemy":1,
+            "long.preference.winter":1
+         },
+         "xtriggers":{
+            "revealidentity":"julian"
+         }
+      },
+      {
+         "id":"welland",
+         "label":"Capitano Welland",
+         "description":"'Questo non è un Nobile Sforzo. Nessun arrivista saltellerà tra i ranghi della Casa.' [Welland è più incline ad utilizzare gli attacchi Assalto.]",
+         "aspects":{
+            "long.enemy":1,
+            "long.preference.assault":1
+         },
+         "verbicon":"long-forge",
+         "xtriggers":{
+            "longded":"welland.defeated"
+         }
+      },
+      {
+         "id":"tryphon",
+         "label":"Lady Tryphon",
+         "description":"'No, Egli non può farti del male; Egli non può trovarti. Ma io non soffro certe restrizioni.' [Tryphon è più incline ad utilizzare gli attacchi Intrigo.]",
+         "aspects":{
+            "long.enemy":1,
+            "long.preference.intrigue":1
+         },
+         "verbicon":"long-grail",
+         "xtriggers":{
+            "longded":"tryphon.defeated"
+         }
+      },
+      {
+         "id":"diarist",
+         "label":"Il Diarista",
+         "description":"'Il tuo pretendente sarà una maledetta nota a piè di pagina. Ma non mi aspetto nulla più di questo.' [Il Diarista  è più incline ad utilizzare gli attacchi Luce Stellare.]",
+         "aspects":{
+            "long.enemy":1,
+            "long.preference.dreamwork":1
+         },
+         "verbicon":"long-lantern",
+         "xtriggers":{
+            "longded":"diarist.defeated"
+         }
+      },
+      {
+         "id":"julian",
+         "label":"J.C.",
+         "description":"'Niente più Nomi. Tutto qua; mi dispiace; non ho il tempo per i convenevoli.' [Julian è più incline ad utilizzare i tempi morti per incrementare le sue abilità.]",
+         "aspects":{
+            "long.enemy":1,
+            "long.preference.winter":1
+         },
+         "verbicon":"long-winter",
+         "xtriggers":{
+            "longded":"julian.defeated"
+         }
+      },
+      {
+         "id":"welland.defeated",
+         "label":"Una Lettera da Welland",
+         "description":"'SIR - (Sembra che Welland non sia mai stato sconfitto da nessuno di rango inferiore)\nsono il nemico più pericoloso che potrai mai affrontare, e ho sconfitto individui molto più potenti di te. Tuttavia, non meriti di essere combustibile per la pira. Ti esorto a frantumare le tue catene, come fece il Leonforgia molto tempo fa, ed ergerti per prendere il tuo posto come Lungo.\nAllego il segreto che Dario disse ad Alessandro ad Isso. Usalo con saggezza.\nCordiali Saluti,\nW. '\n[Il segreto è allegato. Puoi usarlo per liberarti del tuo Mentore.]",
+         "slots":[
+            {
+               "id":"mentor",
+               "label":"Forgiatore",
+               "required":{
+                  "apostleforge.mentor":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "aspects":{
+            "legacyplotitem":1
+         }
+      },
+      {
+         "id":"tryphon.defeated",
+         "label":"Una Lettera da Lady Tryphon",
+         "description":"'Mio amato,\nsono stata sconfitta, e tu, mio conquistatore, hai vinto la mia devozione. Allego un frammento di ciò che rimane di me stessa, e procedo alla mia dipartita.\nConsuma quanto rimane di me e saremo un tutt’uno, come ha deciso per noi tempo fa il Creatore di Fiori. Rigetta la tua 'Delizia'. Il tuo destino è molto più grande.\nTi domanderai: è questo un ultimo trucco? Uno stratagemma disperato per assicurarmi il tuo tradimento? Posso solo risponderti: assaggiami, e vedrai.\nMi confermo tua deliziosa amica,\nT.E.'\n[Se consumi il boccone allegato di Lady Tryphon, potrai liberarti del tuo Mentore.]",
+         "slots":[
+            {
+               "id":"mentor",
+               "label":"Delizia",
+               "required":{
+                  "apostlegrail.mentor":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "aspects":{
+            "legacyplotitem":1
+         }
+      },
+      {
+         "id":"diarist.defeated",
+         "label":"Un Sogno del Diarista",
+         "description":"La luce solare viene meno attraverso la finestra occidentale dello Scriptorium. Mentre il Diarista scrive le sue ultime annotazioni, la camera gela dal dorato al grigio. Chiude con un colpo il suo piccolo libro. 'La Morte è scesa', spiega, 'e io sto già perdendo quota. Non vi porto alcun rancore. Vi dico una cosa, comunque, \nspero che il Vostro Illuminato viaggi e caschi giù per l’Ascesa.' La faccia del Diarista si sta cancellando, poco a poco, i suoi occhi sono già andati. Ti porge il suo piccolo libro. 'Questa è la tua ultima possibilità. Puoi andare dov'ero io, o dove stavi andando. Io saprei quale sarebbe la migliore.' La sua bocca si arriccia da sola come l’apertura di una zip, e sparisce, dov'era è come carta bianca.\n\n[Se esamini il sogno del diario, potrai liberarti del tuo Mentore.]",
+         "slots":[
+            {
+               "id":"mentor",
+               "label":"L’Illuminato",
+               "required":{
+                  "apostlelantern.mentor":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "aspects":{
+            "legacyplotitem":1
+         },
+         "lifetime":120
+      },
+      {
+         "id":"julian.defeated",
+         "label":"Una Lettera da Julian Coseley",
+         "description":"'Nemico,\n\nnon vengo distrutto così facilmente. Ma devo riconoscere che mi hai sconfitto, e così ti ricompenserò con il mio parere.\n\nSei un folle, gabbato da un folle per collocare una pietra in più nelle mura del Mansus. Potresti, se lo volessi, gettare quella pietra nella notte.\n\nSe la getterai, morirai vuoto e solo, come tutti, anche i Lunghi. Potresti morire libero.\n\n- Julian'\n\n[Se accogli la lezione di Julian nel cuore, potrai liberarti del tuo Mentore.]",
+         "slots":[
+            {
+               "id":"mentor",
+               "label":"Fondatore",
+               "required":{
+                  "apostleforge.mentor":1,
+                  "apostlegrail.mentor":1,
+                  "apostlelantern.mentor":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "aspects":{
+            "legacyplotitem":1
+         }
+      },
+      {
+         "id":"strategy.prep",
+         "label":"Preparativi In Corso",
+         "description":"Il nostro nemico immortale sta preparando un’altra azione. [Il Lungo necessita di tre Preparativi per lanciare un’altra azione.]",
+         "lifetime":1
+      },
+      {
+         "id":"strategy.prep.delayed",
+         "label":"Preparativi Rovinati!",
+         "description":"La nostra spia ha alcuni elementi scombussolanti sui Preparativi del nostro nemico. [Il Lungo ha perso un segnalino Preparativo grazie al tuo sabotaggio.]",
+         "lifetime":1
+      },
+      {
+         "id":"strategy.assault.concealed",
+         "label":"I Piani del Lungo",
+         "description":"Il Lungo sta pianificando la sua prossima azione contro di noi. Se mandassimo una spia, saremmo in grado di scoprire le sue intenzioni.",
+         "aspects":{
+            "intention.assault":1
+         },
+         "xtriggers":{
+            "revealstrategy":"strategy.assault.revealed"
+         },
+         "lifetime":1,
+         "icon":"strategy.unknown"
+      },
+      {
+         "id":"strategy.intrigue.concealed",
+         "label":"I Piani del Lungo",
+         "description":"Il Lungo sta pianificando la sua prossima azione contro di noi. Se mandassimo una spia, saremmo in grado di scoprire le sue intenzioni.",
+         "aspects":{
+            "intention.intrigue":1
+         },
+         "xtriggers":{
+            "revealstrategy":"strategy.intrigue.revealed"
+         },
+         "lifetime":1,
+         "icon":"strategy.unknown"
+      },
+      {
+         "id":"strategy.dreams.concealed",
+         "label":"I Piani del Lungo",
+         "description":"Il Lungo sta pianificando la sua prossima azione contro di noi. Se mandassimo una spia, saremmo in grado di scoprire le sue intenzioni.",
+         "aspects":{
+            "intention.dreams":1
+         },
+         "xtriggers":{
+            "revealstrategy":"strategy.dreams.revealed"
+         },
+         "lifetime":1,
+         "icon":"strategy.unknown"
+      },
+      {
+         "id":"strategy.downtime.concealed",
+         "label":"I Piani del Lungo",
+         "description":"Il Lungo sta pianificando la sua prossima azione contro di noi. Se mandassimo una spia, saremmo in grado di scoprire le sue intenzioni.",
+         "aspects":{
+            "intention.downtime":1
+         },
+         "xtriggers":{
+            "revealstrategy":"strategy.downtime.revealed"
+         },
+         "lifetime":1,
+         "icon":"strategy.unknown"
+      },
+      {
+         "id":"strategy.assault.revealed",
+         "label":"I Piani del Lungo Rivelati: Assalto",
+         "description":"Il nostro nemico intende usare un attacco diretto di qualche genere, questa volta.",
+         "aspects":{
+            "intention.assault":1,
+            "strategy.revealed":1
+         },
+         "xtriggers":{
+            "revealstrategy":"strategy.assault.revealed"
+         },
+         "lifetime":1
+      },
+      {
+         "id":"strategy.intrigue.revealed",
+         "label":"I Piani del Lungo Rivelati: Intrigo",
+         "description":"Il nostro nemico intende usare l’inganno contro di noi, questa volta.",
+         "aspects":{
+            "intention.intrigue":1,
+            "strategy.revealed":1
+         },
+         "xtriggers":{
+            "revealstrategy":"strategy.intrigue.revealed"
+         },
+         "lifetime":1
+      },
+      {
+         "id":"strategy.dreams.revealed",
+         "label":"I Piani del Lungo Rivelati: Sogni",
+         "description":"Il nostro nemico ci troverà attraverso il Mansus, questa volta.",
+         "aspects":{
+            "intention.dreams":1,
+            "strategy.revealed":1
+         },
+         "xtriggers":{
+            "revealstrategy":"strategy.dreams.revealed"
+         },
+         "lifetime":1
+      },
+      {
+         "id":"strategy.downtime.revealed",
+         "label":"I Piani del Lungo Rivelati: Una Tregua",
+         "description":"Il nostro nemico non si muoverà contro di noi, questa volta. Si riposerà... e forse nel riposo diventerà più forte.",
+         "aspects":{
+            "intention.downtime":1,
+            "strategy.revealed":1
+         },
+         "xtriggers":{
+            "revealstrategy":"strategy.downtime.revealed"
+         },
+         "lifetime":1
+      },
+      {
+         "id":"strategy.dreams.preference",
+         "label":"Un Presentimento: la Lezione dell’Anima",
+         "description":"Per la loro prossima azione, probabilmente, questo Lungo proverà a comprendere le nostre debolezze dai sogni - anche se i loro piani, di solito, detterebbero altrimenti.",
+         "comments":"This is currently unused - it became less relevant once tablereqs came in.",
+         "lifetime":1,
+         "noartneeded":true
+      },
+      {
+         "id":"long.lesson.might",
+         "label":"Potere Crescente",
+         "aspects":{
+            "long.lesson":1
+         },
+         "description":"Il nostro nemico immortale ci sta prendendo sul serio e ha accumulato più risorse per sostenersi. [Il Potere di un Lungo nemico crescerà, permettendogli di condurre assalti più potenti.]"
+      },
+      {
+         "id":"long.lesson.connections",
+         "label":"Più Connessioni",
+         "aspects":{
+            "long.lesson":1
+         },
+         "description":"Il nostro nemico immortale ci sta prendendo sul serio e ha accumulato più risorse per sostenersi. [Le Connessioni di un Lungo nemico cresceranno, permettendogli di condurre intrighi più subdoli.]"
+      },
+      {
+         "id":"long.lesson.dreamwork",
+         "label":"Bagliori dell’Anima",
+         "aspects":{
+            "long.lesson":1
+         },
+         "description":"Il nostro nemico immortale ha imparato qualcosa su di noi. [La Luce Stellare di un Lungo nemico crescerà, permettendogli di avere più potere nei nostri sogni.]"
+      }
+   ]
+}

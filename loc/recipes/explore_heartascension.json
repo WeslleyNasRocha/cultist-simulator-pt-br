@@ -1,0 +1,75 @@
+{
+   "recipes":[
+      {
+         "id":"expeditionascensionheartb",
+         "label":"Nome del Serpente, Nome della Sorella",
+         "actionId":"explore",
+         "requirements":{
+            "sendingheartb":1
+         },
+         "warmup":30,
+         "effects":{
+            "ascensionlessonheartb":1,
+            "sending":-1
+         },
+         "description":"Il Nome del Serpente: Il mio io serpente ha trovato il vecchio sogno dove il Nome della Madre delle Formiche, chiamata Angoscia dell’Antica Madre, si incontra con suo figlia Daha, la quale ebbe un gemello. Il loro colloquio è finito da tempo, ma posso ancora imparare la loro lezione. "
+      },
+      {
+         "id":"expeditionascensionheartc",
+         "label":"Il Nome del Velluto",
+         "actionId":"explore",
+         "requirements":{
+            "sendingheartc":1
+         },
+         "warmup":30,
+         "effects":{
+            "ascensionlessonheartc":1,
+            "sending":-1
+         },
+         "description":"Il Sangue attirerà la creatura chiamata Kitling Ripe dalle radici della Casa per danzare nella notte delle Pietre. Il mio io gatto lo raggiungerà qui, finché non mi avrà insegnato la fine di tutti i passi."
+      },
+      {
+         "id":"expeditionascensionheartd",
+         "label":"Il Nome del Creatore di Fiori",
+         "actionId":"explore",
+         "requirements":{
+            "sendingheartd":1
+         },
+         "warmup":30,
+         "startdescription":"Tinte, Cedute",
+         "effects":{
+            "ascensionlessonheartd":1,
+            "sending":-1
+         },
+         "description":"Il mio io volpe si infilerà ancora più in profondità nei gigli. Karpellus, il Nome del Creatore di Fiori, mi attende vicino al ruscello con il suo corpo dono della perfezione e la sua corona di giunchi. Laggiù sbloccherà i luoghi che non hanno ancora visto la luce del giorno."
+      },
+      {
+         "id":"expeditionascensionhearte",
+         "label":"Una Danza con il Vagabondo",
+         "actionId":"explore",
+         "requirements":{
+            "sendinghearte":1
+         },
+         "warmup":30,
+         "effects":{
+            "ascensionlessonhearte":1,
+            "sending":-1
+         },
+         "description":"Vista, Ceduta: Inizialmente la donna anziana è solamente un granello nella sabbia, ma il mio io aquila segue quel granello, infallibilmente, per appollaiarsi sul suo braccio ed accettare il suo tocco. Non riesco a guardarla dritta negli occhi. Mi gratta sotto il mento e mi caccia, per poi trasformarsi essa stessa in un uccello. Saliamo sempre più nel cielo, finché la mia vista si affievolisce nell’oro.'"
+      },
+      {
+         "id":"expeditionascensionheartf",
+         "label":"Il Nome dell’Elegiasta",
+         "actionId":"explore",
+         "requirements":{
+            "sendingheartf":1
+         },
+         "warmup":30,
+         "effects":{
+            "ascensionlessonheartf":1,
+            "sending":-1
+         },
+         "description":"Ossa, Cedute: Nel cimitero di Toussaint Road, vi è una tomba di marmo bianco che la gente del luogo mantiene pulita. Madame Rogier vi dorme ogni tre notti, così che Miss Naenia, il più gentile dei Nomi dell’Elegiasta, possa camminare nei suoi sogni. In forma di uccello mi appollaierò sulla cima della tomba, finché Miss Naenia sarà abbastanza vicina da toccarmi con il suo respiro."
+      }
+   ]
+}

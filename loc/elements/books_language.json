@@ -1,0 +1,80 @@
+{
+   "elements":[
+      {
+         "id":"textbooklatin",
+         "label":"La Grammatica Latina di Gildersleeve",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Ciò di cui avevi bisogno per rinfrescare le tue conoscenze di Latino."
+      },
+      {
+         "id":"textbookfucine",
+         "label":"Il Diario di Alessandro LaCroce",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Il Principe Alessandro LaCroce spese anni in segreti studi sulle tavolette trovate nelle Paludi Fucine in centro Italia. Il suo lavoro ti permetterà di tradurre i testi in Fucino.",
+         "unique":true
+      },
+      {
+         "id":"textbookgreek",
+         "label":"Kühner e Gerth",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Kühner e Gerth's 'Ausführliche Grammatik der griechischen Sprache' - una grammatica Greca. Un’arma essenziale per una battaglia feroce con una lingua combattiva."
+      },
+      {
+         "id":"textbookphrygian",
+         "label":"Le Iscrizioni Velshorn",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Un poema epico e soprattutto erotico che descrive una serie di accoppiamenti di musicisti, e lo scorticamento finale, con la Madre Rossa - sia in Greco che in Frigio. L’intrepido Cal Velshorn trovò queste iscrizioni sul muro di un tempio ad Alicarnasso, ma le stesse iscrizioni sono spuntate fuori in un sorprendente numero di altri posti. [Se parli Greco, puoi usare questo per imparare il Frigio.]",
+         "unique":true
+      },
+      {
+         "id":"textbookaramaic",
+         "label":"L’UNICO ED AUTENTICO RESOCONTO DEL MAGUS VON BRANDT SULLA VERA LINGUA DELLA VERA TERRA SANTA DEL SUPREMO",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Scritto con impeto e con una certa fretta da un gentiluomo in preda ad un entusiasmo Trascendentalista, ma nondimeno una utile guida all’Aramaico."
+      },
+      {
+         "id":"textbookmandaic",
+         "label":"La Pietra di Augusto",
+         "aspects":{
+            "text":1,
+            "auctionable":2
+         },
+         "description":"Una coppa tremenda, grande come un gong, intagliata nel basalto nero, reca una formula contro i demoni in Basso Mandaico. Il fondo presenta la stessa formula in Aramaico. [Se parli Aramaico, puoi usare questo per imparare il Basso Mandaico.]",
+         "unique":true
+      },
+      {
+         "id":"textbooksanskrit",
+         "label":"Letture dal Sanscrito di Gartside",
+         "aspects":{
+            "text":1,
+            "auctionable":1
+         },
+         "description":"Un libro chiaro che delinea un sentiero approfondito attraverso una lingua vasta e complessa."
+      },
+      {
+         "id":"textbookvak",
+         "label":"L’Uyrus",
+         "aspects":{
+            "text":1,
+            "auctionable":3
+         },
+         "description":"Una elaborata scultura d’avorio impossibilmente complessa. Intorno e attraverso le sue superfici, iscrizioni in Sanscrito proseguono a spirale inversa rispetto alla corrispondente traduzione in Vak. [Se parli Sanscrito, puoi usare questo per imparare il Vak, la prima lingua del mondo.]",
+         "unique":true
+      }
+   ]
+}

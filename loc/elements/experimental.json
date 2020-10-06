@@ -1,0 +1,89 @@
+{
+   "elements":[
+      {
+         "id":"owl",
+         "label":"Il Gufo Senza Cappello",
+         "aspects":{
+            "job":1
+         },
+         "description":"Il Gufo afferma che il nostro ultimo personaggio era #PREVIOUSCHARACTERNAME#, il nostro ultimo desiderio #LAST_DESIRE#, il nostro ultimo e miglior seguace #LAST_FOLLOWER# e l'ultimo libro #LAST_BOOK#.",
+         "noartneeded":true
+      },
+      {
+         "id":"wolfatthedoor",
+         "label":"Il Lupo alla Porta",
+         "aspects":{
+            "ability":1,
+            "location":1,
+            "acquaintance":1
+         },
+         "slots":[
+            {
+               "id":"Meal1",
+               "consumes":true,
+               "actionId":"work"
+            }
+         ],
+         "slots":[
+            {
+               "id":"Meal2",
+               "consumes":true,
+               "actionId":"dream"
+            }
+         ],
+         "slots":[
+            {
+               "id":"Meal3",
+               "consumes":true,
+               "actionId":"study"
+            }
+         ],
+         "slots":[
+            {
+               "id":"Meal4",
+               "consumes":true,
+               "actionId":"talk"
+            }
+         ],
+         "slots":[
+            {
+               "id":"Meal5",
+               "consumes":true,
+               "actionId":"explore"
+            }
+         ],
+         "description":"Il Lupo accetterà qualsiasi cosa, e in seguito divorerà tutto, non importa cosa.",
+         "noartneeded":true
+      },
+      {
+         "id":"wolf",
+         "lifetime":1,
+         "decayTo":"wolfatthedoor",
+         "noartneeded":true
+      },
+      {
+         "id":"lionweb",
+         "label":"Il Leone nella Tela",
+         "comments":"L'informazione vive in cielo.",
+         "noartneeded":true
+      },
+      {
+         "id":"boarwords",
+         "label":"The Boar in the Words",
+         "comments":"I Titoli sono criminali.",
+         "noartneeded":true
+      },
+      {
+         "id":"worldbull",
+         "label":"Il Mondo nel Toro",
+         "comments":"Il crimine Nell'origine",
+         "noartneeded":true
+      },
+      {
+         "id":"notaworm",
+         "label":"Forse un Uccello",
+         "comments":"Attendiamo S.T.E.",
+         "noartneeded":true
+      }
+   ]
+}

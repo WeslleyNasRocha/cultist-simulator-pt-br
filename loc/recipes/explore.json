@@ -1,0 +1,473 @@
+{
+   "recipes":[
+      {
+         "id":"exploremovehq",
+         "actionId":"explore",
+         "label":"Un Cambio Locali",
+         "startdescription":"Muoviamo i quartier generali della nostra organizzazione verso una nuova località. [Questo sposterà permanentemente i tuoi quartieri generali. Non è possibile tornare indietro. Può ridurre la Notorietà.]",
+         "description":"Nessun indirizzo è permanente. Come i nostri corpi, li abbandoniamo tutti alla fine. Ma per ora, questa è casa.",
+         "requirements":{
+            "hq":1,
+            "hq.potential":1
+         },
+         "aspects":{
+            "movehq":1
+         },
+         "slots":[
+            {
+               "id":"coldtrail",
+               "label":"Una Traccia Persa",
+               "description":"Traslocando, il Dipartimento Soppressione potrebbe perdere tempo per indagare il nostro vecchio quartier generale.",
+               "greedy":true,
+               "required":{
+                  "notoriety":1
+               }
+            }
+         ],
+         "effects":{
+            "notoriety":-1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"explorehq.townhouse",
+         "actionId":"explore",
+         "label":"FNORD",
+         "startdescription":"FNORD",
+         "description":"FNORD",
+         "requirements":{
+            "hq.townhouse":1,
+            "funds":1
+         },
+         "effects":{
+            "influencegrail":1,
+            "funds":-1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"explorehq.hospital",
+         "actionId":"explore",
+         "label":"Dove Si Apre",
+         "startdescription":"I primi guardiani di questo luogo hanno continuato a praticare le loro incisioni e recisioni finché il mondo non si è diviso, come la pelle di un frutto. Quelle ferite sono guarite da tempo, ma nulla guarisce completamente.",
+         "description":"È sempre conturbante, all'inizio, ma ci siamo assicurati che tutto venisse fatto con pulizia, così da poter toccare la radiosa gonna della Madre delle Formiche.",
+         "requirements":{
+            "hq.hospital":1,
+            "funds":1
+         },
+         "effects":{
+            "influenceknock":1,
+            "funds":-1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"explorehq.mithraeum",
+         "actionId":"explore",
+         "label":"Il Sole Sotto di Noi",
+         "startdescription":"Questo era un luogo consacrato al Sole Invitto, il Sole Indiviso. Con la più pura delle candele, potremmo toccare la luce che ancora nuota sulle pietre.",
+         "description":"Il lucente, il trasparente, la memoria dello splendore. Molto è andato perso e molto rimane. del Sole Invisibile e Indivisibile.",
+         "requirements":{
+            "hq.mithraeum":1,
+            "funds":1
+         },
+         "effects":{
+            "influencelantern":1,
+            "funds":-1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"explorehq.church",
+         "actionId":"explore",
+         "label":"Le Ferite della Saggezza",
+         "startdescription":"'Non tutte le porte sono ferite, ma tutte le ferite sono porte'. La storia di questo luogo è ricca sia di porte che di ferite. Con i giusti materiali, possiamo ammorbidire l'aria dove un tempo questa si aprì.",
+         "description":"Questa notte nessuna porta in questa chiesa si chiuderà; nessuna serratura avrà bisogno di chiave; ed ogni cuore sarà aperto.",
+         "requirements":{
+            "hq.church":1,
+            "funds":1
+         },
+         "effects":{
+            "influenceknock":1,
+            "funds":-1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"explorehq.bookshop",
+         "actionId":"explore",
+         "label":"Il Cuore Custodito",
+         "startdescription":"Scalderemo gli spazi interni del negozio con la luce del fuoco, li animeremo con i fischi del bollitore e il ronzio del grammofono. Non tutte le nostre celebrazioni richiedono lo spargimento di sangue.",
+         "description":"La libreria dona conforto all'ansioso, all'ignorante e allo spirito inquieto. Anche dopo il trasloco di Morland, con i suoi oggetti curiosi, questo conforto rimane. Stanotte l'Ora chiamata Pellefolgore procede dolcemente.",
+         "requirements":{
+            "hq.bookshop":1,
+            "funds":1
+         },
+         "effects":{
+            "influenceheart":1,
+            "funds":-1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"explorehq.warehouse",
+         "actionId":"explore",
+         "label":"In Memoria dei Motori",
+         "startdescription":"In origine questo magazzino era la casa di molte macchine: una casa di vapore e ferro e, di tanto in tanto, carne lacerata e urla. Verseremo gli oli per commemorare quei tempi.",
+         "description":"Ancora una volta abbiamo le fiamme, ancora una volta abbiamo il ferro e ancora una volta la carne conoscerà il bacio del calore; sebbene ciò non verrà mostrato, non di giorno. In alto, in basso, la Forgia dei Giorni procede con le sue purificazioni.",
+         "requirements":{
+            "hq.warehouse":1,
+            "funds":1
+         },
+         "effects":{
+            "influenceforge":1,
+            "funds":-1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"explorelocationbookdealer",
+         "label":"Aggiungi alla tua Libreria",
+         "actionId":"explore",
+         "requirements":{
+            "locationbookdealer":1,
+            "funds":1
+         },
+         "effects":{},
+         "deckeffects":{
+            "commontomes":1
+         },
+         "startdescription":"È un processo lungo il separare l'oro dalle impurità, il grano dal loglio, il sangue dall'acqua. Se comprassi abbastanza libri, troverei sicuramente qualcosa di interessante.",
+         "description":"Ho trovato qualcosa degno di nota.",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorelocationbookdealer_exhausted",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explorelocationbookdealer_exhausted",
+         "label":"Morland sta Chiudendo!",
+         "actionId":"explore",
+         "requirements":{
+            "genericrubbishbook":1
+         },
+         "description":"'Sto voltando pagina', informa Miss Morland. 'La mia scorta è ampiamente esaurita, e il Dipartimento Soppressione si sta interessando a me. Quindi addio. Quest'ultimo libro non ha alcun senso, ma vi ho infilato alcune carte interessanti nel suo retro, come ringraziamento per i vostri modi.'",
+         "deckeffects":{
+            "oneoffrewards":1
+         },
+         "warmup":1,
+         "aspects":{
+            "exhaustlocation":1
+         }
+      },
+      {
+         "id":"explorelocationauctionhouse",
+         "label":"Partecipa ad un'Asta da Oriflamme",
+         "actionId":"explore",
+         "requirements":{
+            "locationauctionhouse":1,
+            "auctionable":-1
+         },
+         "effects":{},
+         "deckeffects":{
+            "auctionedcommontomes":1
+         },
+         "startdescription":"Ci posiamo su inquietanti sedie Rietveld in una stanza senza finestre, dai muri color arancione vivido, in attesa del banditore e delle sue offerte. Il fetore della vernice fresca fa girare la testa. [Premi Cominciare per vedere cosa verrà offerto; o aggiungi un oggetto se vuoi venderlo.]",
+         "description":".",
+         "warmup":5,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"auctionbuy",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explorelocationstreetsstrange",
+         "label":"Esplora un'incredibile groviglio di strade sotto la luce della luna.",
+         "actionId":"explore",
+         "requirements":{
+            "locationstreetsstrange":1
+         },
+         "deckeffects":{
+            "streetsstrangefinds":1
+         },
+         "startdescription":"Le strade sono strane, nell'ora chiamata Meniscate.",
+         "description":"Le visioni mi sorpassano con la grazia di una pavana - una finestra si apre sul bosco, un giardino di ghiaccio, un sole tremante, una donna di vetro. Tornerò a casa, riluttante.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"explorefollower",
+         "label":"Cerca nella Città",
+         "actionId":"explore",
+         "requirements":{
+            "follower":1,
+            "location":-1
+         },
+         "deckeffects":{
+            "exploreevents":1
+         },
+         "linked":[
+            {
+               "id":"explorefindcriminal",
+               "chance":100
+            },
+            {
+               "id":"explorefindplace",
+               "chance":100
+            }
+         ],
+         "startdescription":"Arterie affollate di giorno, un labirinto avvolto dalla nebbia di notte. Manderò i miei tirapiedi a cercare qualche opportunità.",
+         "description":".",
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"explorerumour",
+         "label":"Rintraccia un pettegolezzo",
+         "actionId":"explore",
+         "requirements":{
+            "rumour":1
+         },
+         "deckeffects":{
+            "acquaintances":1
+         },
+         "effects":{
+            "rumour":-1,
+            "notoriety":1
+         },
+         "startdescription":"Sospetto che, alla fine della storia, potrei trovare qualcuno che ascolti ciò che ho da dire.",
+         "description":"Un indirizzo poco promettente: ma un residente promettente.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"explorehealth",
+         "label":"Cerca nella Città",
+         "actionId":"explore",
+         "requirements":{
+            "health":1,
+            "location":-1
+         },
+         "deckeffects":{
+            "exploreevents":1
+         },
+         "aspects":{
+            "fatiguing":1
+         },
+         "linked":[
+            {
+               "id":"explorefindcriminal",
+               "chance":100
+            },
+            {
+               "id":"explorefindplace",
+               "chance":100
+            }
+         ],
+         "startdescription":"Arterie affollate di giorno, un labirinto avvolto dalla nebbia di notte. Camminerò per le strade alla ricerca di segreti, finché sarò troppo stanco per continuare.",
+         "description":".",
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"explorefindcriminal",
+         "label":"Un Mercenario?",
+         "actionId":"explore",
+         "requirements":{
+            "daycriminals":1
+         },
+         "deckeffects":{
+            "hirelings":1
+         },
+         "effects":{
+            "season":-1
+         },
+         "warmup":0,
+         "linked":[
+            {
+               "id":"explorechoosepaycriminal",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explorechoosepaycriminal",
+         "label":"Un Mercenario?",
+         "actionId":"explore",
+         "startdescription":"Ho trovato qualcuno che potrei pagare per svolgere i compiti più spiacevoli. [Aggiungi Fondi per assumerlo, per un tempo limitato.]",
+         "slots":[
+            {
+               "id":"Payment",
+               "label":"Pagamento",
+               "required":{
+                  "funds":1
+               },
+               "consumes":true
+            }
+         ],
+         "alt":[
+            {
+               "id":"explorepaycriminal",
+               "chance":100
+            }
+         ],
+         "effects":{
+            "hireling":-1
+         },
+         "description":"Meglio di no. Devo selezionare bene le persone che frequento.",
+         "warmup":60
+      },
+      {
+         "id":"explorepaycriminal",
+         "label":"Un Mercenario",
+         "requirements":{
+            "funds":1
+         },
+         "actionId":"explore",
+         "startdescription":"Questo comprerà la sua lealtà, per ora.",
+         "effects":{
+            "funds":-1
+         }
+      },
+      {
+         "id":"explorefindplace",
+         "label":"Un Luogo Trascurato?",
+         "actionId":"explore",
+         "requirements":{
+            "dayplaces":1
+         },
+         "startdescription":"Potrei aver trovato un luogo inusuale.",
+         "description":".",
+         "deckeffects":{
+            "citysecrets":1
+         },
+         "effects":{
+            "season":-1
+         },
+         "warmup":5
+      },
+      {
+         "id":"explore.searchgraveyard.self",
+         "actionId":"explore",
+         "requirements":{
+            "location.cemetery":1,
+            "health":1
+         },
+         "effects":{
+            "corpse":1,
+            "mystique":1
+         },
+         "aspects":{
+            "fatiguing":1
+         },
+         "label":"Un'Esumazione",
+         "startdescription":"Scavi furtivi sotto la luce di una lanterna, incappucciati.",
+         "description":"La pala colpisce il legno. È un buon segno. Quando la bara è troppo marcia, di solito, i resti sono inadeguati.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"explore.searchgraveyard.follower",
+         "actionId":"explore",
+         "requirements":{
+            "location.cemetery":1,
+            "follower":1
+         },
+         "effects":{
+            "corpse":1,
+            "mystique":1
+         },
+         "label":"Un'Esumazione",
+         "startdescription":"Scavi furtivi sotto la luce di una lanterna, incappucciati.",
+         "description":"La pala colpisce il legno. È un buon segno. Quando la bara è troppo marcia, di solito i resti sono inadeguati.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"explore.searchgraveyard.closing.self",
+         "actionId":"explore",
+         "requirements":{
+            "location.cemetery.closing":1,
+            "health":1
+         },
+         "effects":{
+            "corpse":1,
+            "notoriety":1
+         },
+         "aspects":{
+            "fatiguing":1
+         },
+         "label":"Un'Esumazione Cauta ",
+         "startdescription":"Rubare con il favore delle tenebre. Nessuna lampada. Prosegui con circospezione.",
+         "description":"Scavo nell'oscurità, finché non trovo abbastanza per proseguire.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"explore.searchgraveyard.closing.follower",
+         "actionId":"explore",
+         "requirements":{
+            "location.cemetery.closing":1,
+            "follower":1
+         },
+         "effects":{
+            "corpse":1,
+            "notoriety":1
+         },
+         "label":"Un'Esumazione Cauta",
+         "startdescription":"Rubare con il favore delle tenebre. Nessuna lampada. Prosegui con circospezione.",
+         "description":"Scavo nell'oscurità, finché non trovo abbastanza per proseguire.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"explore.fleeting",
+         "actionId":"explore",
+         "requirements":{
+            "fleeting":1
+         },
+         "label":"Lascia che la memoria guidi i passi",
+         "startdescription":"I miei pensieri vagheranno, e io li seguirò. Vecchie emozioni verranno a posarsi.",
+         "description":"La memoria è un dedalo, e il suo cuore un giardino.",
+         "effects":{
+            "fleeting":-1
+         },
+         "internaldeck":{
+            "label":"Dove Possiamo Andare",
+            "description":"Dove Possiamo Andare",
+            "spec":[
+               "restlessness",
+               "dread",
+               "fascination",
+               "contentment",
+               "restlessness",
+               "dread",
+               "fascination",
+               "contentment",
+               "restlessness",
+               "dread",
+               "fascination",
+               "contentment"
+            ],
+            "resetonexhaustion":true,
+            "draws":1
+         },
+         "warmup":30,
+         "craftable":true
+      }
+   ]
+}

@@ -1,0 +1,1933 @@
+{
+   "recipes":[
+      {
+         "id":"studydehoris1",
+         "label":"Leggi De Horis (Libro 1)",
+         "actionId":"study",
+         "requirements":{
+            "dehoris1":1
+         },
+         "effects":{
+            "dehoris1":-1,
+            "fragmentmoth":1,
+            "erudition":1
+         },
+         "startdescription":"Questo volume tratta principalmente delle Ore della Foresta: la Falena, il Lino Nero, il Tasso-Accerchiato, tra le altre cose.",
+         "description":"'La Gloria è una domanda, e la Falena risponde sempre 'Si'. La risposta del Lino Nero è 'No', e questa è sempre la sua risposta.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydehoris2",
+         "label":"Leggi De Horis (Libro 2)",
+         "actionId":"study",
+         "requirements":{
+            "dehoris2":1
+         },
+         "effects":{
+            "dehoris2":-1,
+            "fragmentedge":1,
+            "erudition":1
+         },
+         "startdescription":"Questo volume tratta principalmente del Leonfabbro, il Tribuno delle Cicatrici, e della loro inmicizia.",
+         "description":"'Il Leonfabbro costruisce mostri per sconfiggere il Tribuno; ma ognuna delle ferite del Tribuno è un'arma.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytravellingatnight1",
+         "label":"Leggi questo volume di Viaggiare di Notte",
+         "actionId":"study",
+         "requirements":{
+            "travellingatnight1":1
+         },
+         "effects":{
+            "travellingatnight1":-1,
+            "fragmentmoth":1,
+            "erudition":1
+         },
+         "startdescription":"'La Foresta cresce intorno alle mura del Mansus. Come sa ogni studente delle Storie, il Mansus non ha mura.'",
+         "description":"Illopoly descrive come riuscì a ripetere le sue visite alla Foresta onirica tramite quelli che lui chiama sogni argentati. 'Cercare di pensare alla tua via per la Foresta', spiega, 'è come pensare a come ti innamori. Ma ho trovato un Segreto che mi ha aiutato.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytravellingatnight2",
+         "label":"Leggi questo volume di Viaggiare di Notte",
+         "actionId":"study",
+         "requirements":{
+            "travellingatnight2":1
+         },
+         "effects":{
+            "travellingatnight2":-1,
+            "fragmentwinter":1,
+            "erudition":1
+         },
+         "startdescription":"Vi è una lunga discussione sulle similitudini tra i sogni dello stesso Illopoly e quelli dell'Imperatore Elagabalo, il quale è considerato un duplicato o avatar del Sole-negli-Stracci da Illopoly. 'Il Bianco è a ponente del mondo', osserva Illopoly, 'e l'Inverno non attende per sempre.'",
+         "description":"'Alla fine Elagabalo trovò la sua via per la Porta Bianca, per fortuna. La voce non può oltrepassare la Porta Bianca, e, onestamente, Elagabalo non ebbe mai nulla di interessante da dire. Ho provato a seguire i suoi passi, ma non ho mai imparato abbastanza del Bianco. Suppongo di esserne felice, in realtà. Ma qui c'è ciò che so...'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytravellingatnight3",
+         "label":"Leggi questo volume di Viaggiare di Notte",
+         "actionId":"study",
+         "requirements":{
+            "travellingatnight3":1
+         },
+         "effects":{
+            "travellingatnight3":-1,
+            "fragmentforge":1,
+            "erudition":1
+         },
+         "startdescription":"Le disquisizioni di Illopoly sul fuoco e sul Dio Incombusto sono interrotte da distaenti passi erotici dedicati ad una tale 'Baldomera'.",
+         "description":"'Credo che per raggiungere la Porta del Cervo sia solamente necessario il volere qualcosa realmente. Io non ho mai desiderato nulla realmente, tranne Baldomera, e temo che il nodo della storia sia questo: ciò che vuole Baldomera è la Porta del Cervo. Ma qui c'è qualcosa che ho imparato in Persia. Forse ti insegnerà qualcosa che <i>tu</i> vuoi.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studysixlettersonnecessity",
+         "label":"Leggi Le Sei Lettere sulla Necessità",
+         "actionId":"study",
+         "requirements":{
+            "sixlettersonnecessity":1
+         },
+         "effects":{
+            "sixlettersonnecessity":-1,
+            "fragmentforge":1,
+            "erudition":1
+         },
+         "startdescription":"Il tono di Coseley è incalzante - come se sospettasse di avere poco tempo a disposizione.",
+         "description":"'Perfino lo Sole puote esser diviso, sennonché tal divisione richiede la Forgia dei Giorni.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studylocksmithsdream1",
+         "label":"Leggi questo volume del Sogno del Fabbro",
+         "actionId":"study",
+         "requirements":{
+            "locksmithsdream1":1
+         },
+         "effects":{
+            "locksmithsdream1":-1,
+            "fragmentlantern":1,
+            "erudition":1
+         },
+         "startdescription":"I sogni mistici vissuti parallelamente da falegnami, muratori e altri artigiani, e cosa questi pretendono di rivelare sull'architettura di questo mondo. Talvolta caustico, talvolta divertente. Nessuno è mai stato in grado di spiegare perché Galmier si sia impegnata in queste donchisciottesche esplorazioni dei sogni degli artigiani.",
+         "description":"'Sentiamo parlare continuamente della Foresta, la quale cresce dalle fondamenta del mondo. Tutti gli alberi cercano la luce. Che cosa cerca la Foresta? C'è differenza tra luce e Luce? Ritengo che la chiave ai sogni della Foresta possa essere una di queste - una non esattamente reale.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studylocksmithsdream2",
+         "label":"Leggi questo volume del Sogno del Fabbro",
+         "actionId":"study",
+         "requirements":{
+            "locksmithsdream2":1
+         },
+         "effects":{
+            "locksmithsdream2":-1,
+            "fragmentknock":1,
+            "erudition":1
+         },
+         "startdescription":"In questo volume, Galmier riporta sogni febbrili e spiega altre delle sue elaborate teorie. 'Lo riscontriamo più e più volte: ciò che sta sotto non può sfuggire a quanto sta sopra.'",
+         "description":"'Tutti i migliori artigiani sognano la Porta Bianca alla fine. Non sono un'artigiana, solo un'erudita. Credo vi sia un Segreto conosciuto da tutti questi artigiani, altresì ritengo che il Segreto sia solo metà della faccenda.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studylocksmithsdream3",
+         "label":"Leggi questo volume del Sogno del Fabbro",
+         "actionId":"study",
+         "requirements":{
+            "locksmithsdream3":1
+         },
+         "effects":{
+            "locksmithsdream3":-1,
+            "fragmentmothb":1,
+            "glimmering":1
+         },
+         "startdescription":"In questo celebre volume la prosa della Galmier comincia a disgregarsi, e non si comprende più quali sogni siano effettivamente i suoi.",
+         "description":"'La donna nel vestito color sabbia mi disse: le scale del Mansus proseguono all'infinito. La Morte è in basso. La Madre delle Formiche custodisce entrambe le direzioni con le sue teste, e in tal modo il passaggio deve sempre avvenire attraverso una ferita. Ritengo che la Porta Bianca possa essere una ferita. Questo spiegherebbe perché alcuni Morti l'oltrepassino. Credo di possedere l'altra metà del segreto ora, e spero che il lettore sia in grado di unire le due metà.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studylocksmithsdream4",
+         "label":"Leggi questo volume del Sogno del Fabbro",
+         "actionId":"study",
+         "requirements":{
+            "locksmithsdream4":1
+         },
+         "effects":{
+            "locksmithsdream4":-1,
+            "fragmentmothc":1,
+            "fragmentlanternc":1,
+            "fascination":1
+         },
+         "startdescription":"'Giano è il Guardiano, il dio gemello, il dio che ferisce, l'augure dei cambiamenti, il sole, la luna. Pertanto lo identifichiamo nell'Osservatore, con i Gemelli, con la Madre, con la Forgia, con il Meniscate e il Madrugad. Non può essere tutti questi. Può egli? I <i>flamini</i> conoscevano la Chiesa, conoscevano le Terre Aride, conoscevano Elagabalo. È quindi una sintesi? O qualcos'altro? In Galizia lo chiamavano Ianus Lamius, ma gli Obliviati sono noti per le loro calunnie.'",
+         "description":"'Giano ha, si dice, non una faccia ma due. Al che io rispondo: perché una? Perché solo due? Hersault e Coseley - stando a quanto afferma Thomas Love Denman - una volta convennero che Giano fosse 'tutti gli dei e nessuno'. Tuttavia, in seguito Hersault propendette sul 'tutti gli dei', mentre Coseley preferì, più semplicemente, il 'nessuno'. Denman era un inquietante dilettante, ma potrebbe suonare vero anche per gli altri due.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studyorchidtransfigurations1",
+         "label":"Leggi questo volume delle Trasfigurazioni dell’Orchidea",
+         "actionId":"study",
+         "requirements":{
+            "orchidtransfigurations1":1
+         },
+         "effects":{
+            "orchidtransfigurations1":-1,
+            "fragmentgrail":1,
+            "glimmering":1
+         },
+         "startdescription":"Le illustrazioni sono certamente suggestive. Scorrono sotto alla pelle e brillano al di sotto delle palpebre anche quando si chiude il libro.",
+         "description":"'Dobbiamo divorare per essere divorati. Non possiamo essere non-divorati come non possiamo non-nascere.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studyorchidtransfigurations2",
+         "label":"Leggi questo volume delle Trasfigurazioni dell’Orchidea",
+         "actionId":"study",
+         "requirements":{
+            "orchidtransfigurations2":1
+         },
+         "effects":{
+            "orchidtransfigurations2":-1,
+            "fragmentgrailb":1
+         },
+         "startdescription":"Fludd, o pseudo-Fludd, suggerisce collegamenti tra la tradizione alchemica della rubedo e le più antiche tradizioni del Graal partendo dalla ricerca del Cavaliere d'Abete per la Coppa Cinabro.",
+         "description":"'Cerca la Coppa nel parto', fu detto al Cavaliere d'Abete. L'Ostetrica del parto, con suo grande stupore, è la Madre della Montagna. In un attacco di meraviglia, si castra e scortica da solo. La Tempesta Vigile esplode, gioiosa, dai resti.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studyorchidtransfigurations3",
+         "label":"Leggi questo volume delle Trasfigurazioni dell’Orchidea",
+         "actionId":"study",
+         "requirements":{
+            "orchidtransfigurations3":1
+         },
+         "effects":{
+            "orchidtransfigurations3":-1,
+            "fragmentheart":1
+         },
+         "startdescription":"Un lungo dialogo tra la Madre della Montagna e la Tempesta Vigile, nel quale viene descritta la fine delle montagne e delle tempeste e le protezioni contro queste conclusioni.",
+         "description":"'Ma dobbiamo usare il coltello', disse il L'Incoronato dal Leone, 'il cappio, la fiamma, il Mondo della Veglia, contro coloro che hanno oltrepassato la Porta delle Tre Valvole. E così nessuno potrà passare: questa è la nostra Legge, la Legge del Sole.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studyhumoursofagentleman",
+         "label":"'Gli Umori di un Gentiluomo' di Peruse Savage",
+         "actionId":"study",
+         "requirements":{
+            "humoursofagentleman":1
+         },
+         "effects":{
+            "humoursofagentleman":-1,
+            "fragmentlantern":1
+         },
+         "startdescription":"Alla fine del primo atto, Maevelin rivela una porta segreta nelle mura della Casa a Leo, mentre Corvino comincia a consumare Vermi.",
+         "description":"Lo spettacolo è scabroso e, talvolta, esilarante. I personaggi sono in continuo contrasto e capricciosi. Molte tra le battute ripetute potrebbero essere formule di potere nascoste in piena vista.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studyvictoryofcrowns",
+         "label":"Leggi 'La Vittoria delle Corone', di 'Arun'",
+         "actionId":"study",
+         "requirements":{
+            "victoryofcrowns":1
+         },
+         "effects":{
+            "victoryofcrowns":-1,
+            "fragmentedge":1
+         },
+         "startdescription":"Gli assassini sono, secondo 'Arun', gli agenti di un potere chiamato il Colonnello, un 'soldato dei Padroni Segreti'. I resoconti tornano indietro fino al tempo dei Romani.",
+         "description":"L'erudizione di Arun è dubbia, ma lui (lei?) scrive schiettamente. Casi di morte improvvisa e violenta vengono inframmezzati da aforismi: 'le Ore non sognano. I Lunghi provano a non farlo.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studyintroductiontohistories",
+         "label":"Leggi 'Un’Introduzione alle Storie' di Hersault",
+         "actionId":"study",
+         "requirements":{
+            "introductiontohistories":1
+         },
+         "effects":{
+            "introductiontohistories":-1,
+            "fragmentsecrethistories":1
+         },
+         "startdescription":"Il prologo mette lungamente in guardia sulle nefandezze di un tale Julian Coseley, in precedenza un collega il quale Hersault ora descrive cupamente come 'Verme dei Vermi'. Sembra che Coseley consigliasse Hersault al principio del libro, ma che quest'ultimo sia diventato man mano sempre più sospettoso.",
+         "description":"Hersault identifica il Sangue, l'Argento, il Disegno e i Vermi come gli assi centrali di ogni Storia, e afferma che la cosiddètta Seconda Storia sia l'unica reale. ",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytreatiseonunderplaces",
+         "label":"Leggi Il Trattato sui Luoghi Inferiori di Hersault",
+         "actionId":"study",
+         "requirements":{
+            "treatiseonunderplaces":1
+         },
+         "effects":{
+            "treatiseonunderplaces":-1,
+            "fragmentknockb":1
+         },
+         "startdescription":"'Le mura del Mansus', comincia Hersault, 'sono delle dimensioni della luce stellare.' Molte delle sue indicazioni sono ugualmente inutili, ma emergono relazioni comuni.",
+         "description":"Un resoconto picaresco di un viaggio nell'incubo, intervallato da quelli che sembrano frammenti di un rito. 'Nella diciottesima Ascesa è la gemma. Nella trentaseiesima Ascesa, il bocciolo.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studyonthewhite",
+         "label":"Studia 'Sul Bianco'",
+         "actionId":"study",
+         "requirements":{
+            "onthewhite":1
+         },
+         "effects":{
+            "onthewhite":-1,
+            "fragmentwinter":1
+         },
+         "startdescription":"Ad un'analisi approfondita, questo lavoro sembra essere un saggio di teoria estetica, o una serie di avvertimenti sui pericoli della pittura.",
+         "description":"Husher scrive distrattamente del suo odio per i colori e dei suoi desideri di morte. Allude ad un Grande Lavoro che egli avrebbe immaginato, o cominciato, il 'più pallido dei dipinti' che avrebbe dovuto affascinare il mondo. Ripete svariate volte delle frasi avvincenti, che suggerisce essere 'le parole segrete dell'Inverno'.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studywaroftheroadscensored",
+         "label":"Studia una versione censurata de 'La Guerra delle Strade, 1450-1580'",
+         "actionId":"study",
+         "requirements":{
+            "waroftheroadscensored":1
+         },
+         "effects":{
+            "waroftheroadscensored":-1,
+            "fragmentsecrethistoriesb":1
+         },
+         "startdescription":"'In questo passato, sono stati creati una ventina o più di Lunghi. Negoziarono la pace con la Forgia dei Giogni, abbastanza a lungo da indirizzare l'Inghilterra verso un cammino di veloci conquiste ed eventuale distruzione. La Forgia stessa divorò il più grande tra di loro.'",
+         "description":"Il Regno d'Inghilterra, secondo Willis-Ford, divenne il Regno della Fiamma Incatenata, distruggendo o trasformando i suoi nemici, conquistando l'Europa e consacrando enormi cattedrali alla Santa Scintilla. L'alleanza con la Forgia cominciò a richiedere il suo prezzo. Gli ultimi capitoli mancano del tutto.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studyqueensoftherivers",
+         "label":"Studia 'Le Regine delle Rive'",
+         "actionId":"study",
+         "requirements":{
+            "queensoftherivers":1
+         },
+         "effects":{
+            "queensoftherivers":-1,
+            "fragmentsecrethistories":1
+         },
+         "startdescription":"La Regina del Vistola è stata avvelenata. La Regina del Nipro si è strozzata con un amo da pesca. La Regina del Tago è stata bruciata viva...",
+         "description":"Il colpevole, emerge, è il pubblico. Le Regine soppravvissute uccideranno chiunque non fugga nel pubblico. Un epilogo sorprendentemente lucido suggerisce che le corrispondente tra i nomi dei fiumi e gli eventi storici potrebbe fornire dei suggerimenti sulle storie segrete oltre alla nostra.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studyapolloandmarsyas",
+         "label":"Studia 'Apollo e Marsia'",
+         "actionId":"study",
+         "requirements":{
+            "apolloandmarsyas":1
+         },
+         "effects":{
+            "apolloandmarsyas":-1,
+            "fragmentheart":1
+         },
+         "startdescription":"Nel mito originale, Marsia perde una sfida musicale e viene scorticato da Apollo, che in seguito se ne pente. In questa versione la pelle di Marsia prosegue il suo viaggio...",
+         "description":"La Pelle di Marsia fornisce oracoli, e viene in seguito portata in Frigia, dove le sacerdotesse di Cibele la usarono su di un tamburo. Nel climax dell'opera, il battito dei tamburi manda in follia suicida quelli che vorrebbero violare le sacerdotesse. L'opera si conclude con un malinconico inno della sacerdotessa più giovane alla bellezza dei pini di montagna.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studyskeletonsongs",
+         "label":"Studia Le Canzoni dello Scheletro",
+         "actionId":"study",
+         "requirements":{
+            "skeletonsongs":1
+         },
+         "effects":{
+            "skeletonsongs":-1,
+            "fragmentgrail":1
+         },
+         "startdescription":"Nell'introduzione, Arabella ci spiega che il libro doveva essere illustrato, ma che il Dipartimento Soppressione non l'avrebbe permesso. Allude al fatto che le illustrazioni ancora esisterebbero da qualche parte. Il libro è dedicato a 'Sir Parsival della Coppa Rossa'.",
+         "description":"I Ventisei Frutti Deliziosi; i Sette Castighi; i Nove Giardini; i Quattro Rimpianti.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studyburningofunburntgod",
+         "label":"Studia 'Il Rogo del Dio Incombusto' di Jensen",
+         "actionId":"study",
+         "requirements":{
+            "burningofunburntgod":1
+         },
+         "effects":{
+            "burningofunburntgod":-1,
+            "fragmentforgeb":1,
+            "ritetoolconsumefollower":1
+         },
+         "startdescription":"Jensen ipotizza una divinità del fuoco pre-Zoroastriana, i quali riti sarebbero stati i riti dei fabbri.",
+         "description":"Jensen, in ultima analisi, conclude, con apparente riluttanza, che la divinità fosse di genere femminile. Inoltre, suggerisce che il genere può esser stato la causa della sua soppressione. I riti descritti sono spesso inquietanti, talvolta macabri.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studydebellismurorum",
+         "label":"Studia 'De Bellis Murorum', di 'Solipsistos'",
+         "actionId":"study",
+         "requirements":{
+            "debellismurorum":1
+         },
+         "effects":{
+            "debellismurorum":-1,
+            "fragmentedgeb":1
+         },
+         "startdescription":"Il poema descrive in maniera ellittica una guerra tra bestie, fenomeni atmosferici e concetti arcani. È abbastanza specifico sulle tattiche utilizzate.",
+         "description":"'I Due-in-Uno si congiunsero, e i Cornuti si distinsero. Di conseguenza, il sangue.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studyonwhatiscontainedbysilver",
+         "label":"Leggi 'Su Ciò Che È Contenuto Dall’Argento' di Poemander",
+         "actionId":"study",
+         "requirements":{
+            "onwhatiscontainedbysilver":1
+         },
+         "effects":{
+            "onwhatiscontainedbysilver":-1,
+            "fragmentlanternb":1,
+            "ritetoolfollowerconsumelore":1
+         },
+         "startdescription":"Un tremendo bestiario degli orrori che si possono trovare negli specchi. Questa è un'edizione recente di un testo del terzo secolo di un tale 'Poemander'.",
+         "description":"'Le vergini/fanciulle dello specchio privilegiano le orchidee. Le [presenze?] privilegiano i rododendri. Fiori recisi di entrambe le nature non devono essere posti di fronte al bronzo lucidato'. Un'appendice contiene un rito che può essere utilizzato per evocare alcune di queste entità, sebbene i dettagli non siano chiari.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytruecompleteasclepian",
+         "label":"Leggi 'Un Resoconto Fedele e Completo dei Misteri Asclepiadei delle Radici della Casa' di Grese",
+         "actionId":"study",
+         "requirements":{
+            "truecompleteasclepian":1
+         },
+         "effects":{
+            "truecompleteasclepian":-1,
+            "fragmentheartb":1,
+            "ritetoolconsumeinfluence":1
+         },
+         "startdescription":"Questo è palesemente un testo recente. Alla fine è stato malamente mutilato. Tuttavia, contiene notevole materiale intrigante: soprattutto una persuasiva comparazione tra la Casa senza Mura, senza porte, con il corpo umano, con tutti i suoi portali.",
+         "description":"'La direzione della Morte è il basso', spiega nel libro. 'La Porta del Pavone è stata considerata una lacerazione, o un'abrasione, ma in alcuni aspetti è più simile ad una bocca - se non un'entrata più preziosa'. La discussione sulle Porte include un rito che può essere usato per evocare creature da quelle porte, sebbene manchino gli incantesimi chiave.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studywainscothistories",
+         "label":"Leggi 'Le Storie di Rivestimento' di Gore",
+         "actionId":"study",
+         "requirements":{
+            "wainscothistories":1
+         },
+         "effects":{
+            "wainscothistories":-1,
+            "fragmentsecrethistoriesb":1
+         },
+         "startdescription":"Gore non menziona direttamente il Mansus, ma l'uso costante di timidi riferimenti metaforici come 'l'Ascendere le Scale degli Anni', 'le Porte del Sonno' o 'la Luce Blu dell'Alba', suggerisce la sua conoscenza del mondo invisibile.",
+         "description":"'Era comune a quei tempi parlare della Divisione del Sole; la quale veniva compresa dai contemporanei come l'irruzione di Forze Barbare, e i loro Dei selvaggi.'",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studygeminiad",
+         "label":"Leggi Le Geminiadi",
+         "actionId":"study",
+         "requirements":{
+            "geminiad":1
+         },
+         "effects":{
+            "geminiad":-1,
+            "geminiadread":1,
+            "fragmentgraild":1,
+            "fragmentheartd":1,
+            "fragmentmothd":1,
+            "riteinfluenceconsumeingredient":1
+         },
+         "startdescription":"Queste pagine descrivono la natura e le dottrine di un'Ora che richiede l'unione di ciò che è a riposo, un'Ora che viene cercata al confine dell'acqua e dietro alla luna: la Strega-e-Sorella. La lingua è contorta, poetica, testarda. Necessita di qualche interpretazione.",
+         "description":"Le Geminiadi affermano che la Strega-e-Sorella si ritiene manifestarsi come Sorella-e-Strega, e che questa faccia possa risanare, mentre l'altra faccia sia sempre affamata. Ciò implica connessioni tra la Strega-e-Sorella e l'Ora della Foresta - in primo luogo con il detentore dei segreti chiamato il Velluto - ma non è chiaro se la Strega-e-Sorella sia una vera e propria Ora della Foresta. Infine, si sofferma lungamente sulla tristezza delle due-che-sono-uno, la tristezza che rimane dai loro tempi in carne ed ossa.",
+         "warmup":90,
+         "craftable":true
+      },
+      {
+         "id":"studychioneatabydos",
+         "label":"Leggi 'Chione ad Abidos'",
+         "actionId":"study",
+         "requirements":{
+            "chioneatabydos":1
+         },
+         "effects":{
+            "chioneatabydos":-1,
+            "fragmentwinterb":1
+         },
+         "warmup":60,
+         "startdescription":"L'entità chiamata 'Chione' arriva in una tormenta di neve e chiede che le porte della città vengano barrate. Mentre Abidos cade sotto il suo incantesimo, i morti tornano, ma non parlano...",
+         "description":"Per otto anni la città divenne un luogo di lenta morte, gelida estasi e bellezza silente, ma il nono anno una Cospirazione delle Grida venne ordita ai danni della quiete richiesta da Chione. I cospiratori aprirono le porte della città, e un uomo pieno di cicatrici arrivò per portare Chione fuori per i capelli. L'Estate ritornò, ma i cospiratori morirono per il rimorso.",
+         "craftable":true
+      },
+      {
+         "id":"studyirreproachabletraditionssocietynobleendeavour",
+         "label":"Leggi 'Le Tradizioni Irreprensibili della Società del Nobile Sforzo'",
+         "actionId":"study",
+         "requirements":{
+            "irreproachabletraditionssocietynobleendeavour":1
+         },
+         "effects":{
+            "irreproachabletraditionssocietynobleendeavour":-1,
+            "fragmentforgeb":1
+         },
+         "warmup":60,
+         "startdescription":"Il loro 'Sforzo' era indiscutibilmente nobile - una furiosa conflagrazione arcana che avrebbe dovuto raffinarli in qualcosa di più degli esseri umani. Ma tali trasformazioni sono rare, e spesso si concludono, meno nobilmente, in cenere.",
+         "description":"Partridge afferma di aver identificato caratteristiche comuni tra coloro che sono ascesi. Tutti avevano oltrepassato la Porta del Cervo, ed erano stati riconosciuti come Sapienti. Tutti quanti avevano pronunciato l'Invocazione Callidate, o un rito più elevato, all'inizio della loro ascesa. Tutti loro erano ricchi.",
+         "craftable":true
+      },
+      {
+         "id":"studyroseofnuriel",
+         "label":"Leggi 'La Rosa di Nuriel'",
+         "actionId":"study",
+         "requirements":{
+            "roseofnuriel":1
+         },
+         "effects":{
+            "roseofnuriel":-1,
+            "fragmentgrailb":1,
+            "fragmentknockb":1
+         },
+         "warmup":60,
+         "startdescription":"San Trifone, spiega Nuriel, compì miracoli segreti nel nome di 'Colei che Sanguina e Sopporta' e 'Colei che Apre'. Così San Trifone aprì la porta per la Casa del Sole; così San Trifone subì la Grande Nascita, un'ascensione all'immortalità.",
+         "description":"San Trifone cominciò la sua ascensione oltrepassando la 'Porta Cornuta'. Continuò imparando le 'Invocazioni Tiatiche' - che Nuriel non riporta a causa della loro estrema santità. E, spiega cupamente Nuriel, per raggiungere il Settimo Marchio della Grande Nascita San Trifone consumò 'sia coloro la cui anima era trapassata, sia coloro la cui anima era ancora presente.'",
+         "craftable":true
+      },
+      {
+         "id":"studyroseofhypatia",
+         "label":"Leggi 'La Rosa di Ipazia'",
+         "actionId":"study",
+         "requirements":{
+            "roseofhypatia":1
+         },
+         "effects":{
+            "roseofhypatia":-1,
+            "fragmentheartb":1,
+            "fragmentmothb":1
+         },
+         "warmup":60,
+         "startdescription":"Santa Ninfa è descritta come 'non nata, ma coltivata'. 'Ipazia' dimostra che la coscienza di colei che in seguito divenne santa abitò nel corpo di una peccatrice per avviarne la redenzione.",
+         "description":"'Non tutti i Morti entrano nel Mansus attraverso la Porta dell'Inverno. Non tutti i morti entrano nel Mansus in generale.'",
+         "craftable":true
+      },
+      {
+         "id":"studyroseofwaznei",
+         "label":"Leggi 'La Rosa di Waznei'",
+         "actionId":"study",
+         "requirements":{
+            "roseofwaznei":1
+         },
+         "effects":{
+            "roseofwaznei":-1,
+            "fragmentlanternb":1,
+            "fragmentedgeb":1
+         },
+         "warmup":60,
+         "startdescription":"La propaggine preferita di Waznei - 'la Vera Sorellanza' - seguì San Respicio nella ricerca dell'ascensione nel nome della Porta nell'Occhio, l'Ora spietata della luce. San Respicio fallì, forse a causa del fatto che la branca principale della Sorellanza lo rintracciò e lo strangolò in un rituale, ma Waznei illustra i passi per coloro che sperano di avere successo.",
+         "description":"'Cerca nei sogni; cerca il Mansus. Il Terzo Marchio può essere ottenuto solo dopo aver passato la Porta del Cervo. Si deve superare la Foresta. Ergersi alla Porta Bianca. La Porta del Cervo attende il portatore di luce, sotto lo sguardo di Ghirbi.'",
+         "craftable":true
+      },
+      {
+         "id":"studysunsetpassages",
+         "label":"Leggi 'Passaggi del Tramonto'",
+         "actionId":"study",
+         "requirements":{
+            "sunsetpassages":1
+         },
+         "effects":{
+            "sunsetpassages":-1,
+            "fragmentwinterb":1
+         },
+         "warmup":60,
+         "startdescription":"La chiesa venerava il Sole-nel-Lusso prima che venisse diviso - ma anche quando era ancora integro, i suoi vari io postumi erano riconosciuti come suoi Nomi. Il Madrugad, ovviamente, presiedette alla morte e al passaggio nella Casa.",
+         "description":"La Cerimonia Bianca fu pronunciata per onorare il Madrugad durante i funerali tenuti negli spazi gelidi prima dell'alba. Il testo avverte che tutte le lame dovrebbero rimanere nelle guaine mentre la Cerimonia viene svolta, 'per timore che il corpo si agiti.'",
+         "craftable":true
+      },
+      {
+         "id":"studygospelzacchaeus",
+         "label":"Leggi 'Il Vangelo di Zaccheo'",
+         "actionId":"study",
+         "requirements":{
+            "gospelzacchaeus":1
+         },
+         "effects":{
+            "gospelzacchaeus":-1,
+            "fragmentknockc":1,
+            "ritefollowerconsumeingredient":1
+         },
+         "warmup":60,
+         "startdescription":"'Sette furono le ferite del Suo corpo, sette le porte della Casa. Sette sono gli aspetti minori delle Ore, e il Colpo è l'aspetto maggiore rispetto agli altri, poiché la Madre delle Formiche è la Madre della Salvezza.'",
+         "description":"Il libro include la descrizione di un Rito che può essere usato per riportare un corpo alla quasi-vita, 'in memoria di Colui il quale sanguinò per la Foresta'. Necessita di un cadavere e di potere sufficente - l'autore suggerisce un'invocazione della tradizione dell'Inverno, con l'aiuto di un assistente toccato dai poteri della Foresta.",
+         "craftable":true
+      },
+      {
+         "id":"studymatthiasamethystloss",
+         "label":"Leggi 'Su Mattia e L’Imago Ametista: Perdita'",
+         "actionId":"study",
+         "requirements":{
+            "matthiasamethystloss":1
+         },
+         "effects":{
+            "matthiasamethystloss":-1,
+            "fragmentmothc":1,
+            "ritetoolconsumeinfluence":1
+         },
+         "warmup":60,
+         "startdescription":"'Le leggi della Casa proibirono l'amore a Mattia. I costumi della Foresta proibirono all'Imago di restare. Così egli l'evocò un'ultima volta, quando essa ebbe scoperto le Forbici di Alakapura; e lei, sofferente, gli chiese di tagliarle le ali dalla schiena, affinché potesse rimanere; lui, sofferente, le chiese di tagliare le parti che contengono il seme maschile, per trattenerlo dall'Atto Detestabile. Questo era amore, in tutto il suo sangue e la sua gioia. Abbiamo cacciato Mattia dalla Casa.'",
+         "description":"'Il Rito del Bordo della Mappa ci fu dato dal Vagabondo. È il rito che Mattia usò per evocare l'Imago Ametista, ma come molti riti di evocazione, può essere utilizzato per evocare praticamente qualunque entità - avendo lo strumento appropriato e l'influenza appropriata. Usalo con delicatezza, in memoria dei Nomi e dei Lunghi che soffrirono le agonie che li avrebbero potuti unire.'",
+         "craftable":true
+      },
+      {
+         "id":"studymatthiasamethysttransformation",
+         "label":"Leggi 'Su Mattia e L’Imago Ametista: Trasformazione'",
+         "actionId":"study",
+         "requirements":{
+            "matthiasamethysttransformation":1
+         },
+         "effects":{
+            "matthiasamethysttransformation":-1,
+            "fragmentforgec":1
+         },
+         "warmup":60,
+         "startdescription":"'Cacciammo Mattia, e pronunciammo una maledizione sull'Imago Ametista, ma li osserviamo nei sogni. Li vediamo prostrarsi alla Forgia per cambiare loro stessi e ascendere rinnovati. Volano nel fuoco.'",
+         "description":"Questa è la prima delle pratiche che l'Imago e Mattia usarono per cominciare la loro ascesa al potere. Sono avanzati ben oltre la nostra visione, ma le loro fiamme potrebbero non bruciare più nel Malleario.'",
+         "craftable":true
+      },
+      {
+         "id":"studymatthiasamethystpursuit",
+         "label":"Leggi 'Su Mattia e L’Imago Ametista: Ricerca'",
+         "actionId":"study",
+         "requirements":{
+            "matthiasamethystpursuit":1
+         },
+         "effects":{
+            "matthiasamethystpursuit":-1,
+            "fragmentgrailc":1
+         },
+         "warmup":60,
+         "startdescription":"'Mattia ci ha sfidati a cacciare i Nomi della Falena nella Foresta, per popolare la sua raccolta spillata. L'Imago Ametista ha indugiato con la Strega-e-Sorella, ma tornò nella Foresta per pregare il perdono della Falena. La Falena, per capriccio o penitenza, la mandò ad attrarre il Lungo verso un pantano di incubi.'",
+         "description":"'Mattia amava l'Imago. (Era così? I Lunghi possono amare, o quell'organo della loro anima si è disseccato oltre ogni recupero?) L'Imago amava Mattia. (Era così? O stava solo rincorrendo un capriccio?) Egli la inseguì per tutta la Foresta, ma alla fine essa si ritrasse dal pantano di incubi, e giacettero insieme dove i Limiti crescono luminosi. Così essi impararono i piaceri del Graal, e questa è la tradizione che vinsero.'",
+         "craftable":true
+      },
+      {
+         "id":"studyfranklinbancroftdiaries",
+         "label":"Leggi 'Lord Franklin Bancroft: Diari, 1750-1790'",
+         "actionId":"study",
+         "requirements":{
+            "franklinbancroftdiaries":1
+         },
+         "effects":{
+            "franklinbancroftdiaries":-1,
+            "fragmentlanternc":1
+         },
+         "warmup":60,
+         "startdescription":"Bancroft sembra esser stato un adepto talentuoso, ma spese le sue energie in frustranti progetti capricciosi: organizzare 'gare di vendemmia' tra spiriti del Mansus, insegnare ai Percussigant la giocoleria ed evocare tempeste di boccioli immaginari per la strega delle rose Ayrshire, la quale si rifiutò con risolutezza di copulare con lui. Bancroft si lamenta di quest'ultimo fatto per venti pagine.",
+         "description":"Il Mantra qui riportato è un'alta magia estatica che può essere usata per impegnare il proprio spirito all'Osservatore, cominciando un'ascesa verso la Casa. Bancroft si vanta della sua abilità nella recitazione dello stesso. Lo ha anche musicato per uno spettacolo completo di fuochi d'artificio ai Giardini Vauxhall.",
+         "craftable":true
+      },
+      {
+         "id":"studyindignitiesobliviate",
+         "label":"Leggi 'Le Umiliazioni Perpetrate Dalla Fraudolenta Fraternità degli Obliviati'",
+         "actionId":"study",
+         "requirements":{
+            "indignitiesobliviate":1
+         },
+         "effects":{
+            "indignitiesobliviate":-1,
+            "fragmentwinterc":1,
+            "ritetoolfollowerconsumelore":1
+         },
+         "warmup":60,
+         "startdescription":"'CINQUANTOTTO. Affermarono di aver ereditato le tradizioni della Casa del Lete, ma IGNORARONO sia le cerimonie più sacre che le più belle quando non le trovavano CONVENIENTI. CINQUANTANOVE...'",
+         "description":"'Ora condividerò il Rito che l'Ordine usava per evocarelo spirito di una Caligine. In CHIARO CONTRASTO con la tradizione del Lete, essi non offrirono la Tradizione del Colpo con un Iniziato dell'Inverno e un Martello Imperativo, ma INVECE con un Iniziato del Colpo e il Martello! Non può essere sopportato...'",
+         "craftable":true
+      },
+      {
+         "id":"studyfurioustantra",
+         "label":"Leggi 'Il Tantra Furioso'",
+         "actionId":"study",
+         "requirements":{
+            "furioustantra":1
+         },
+         "effects":{
+            "furioustantra":-1,
+            "fragmentedgec":1,
+            "ritefollowerconsumetool":1
+         },
+         "warmup":60,
+         "startdescription":"Questo tantra descrive gli usi e i pericoli della rabbia. Mette in guardia sul fatto che la rabbia non sopravviva sempre alle trasformazioni.",
+         "description":"'Una luna piena appare, le creature vengono rigenerate e perfino una lucertola non può essere uccisa, poiché potrebbe essere te.'",
+         "craftable":true
+      },
+      {
+         "id":"studydevouredtantra",
+         "label":"Leggi 'Il Tantra Divorato'",
+         "actionId":"study",
+         "requirements":{
+            "devouredtantra":1
+         },
+         "effects":{
+            "devouredtantra":-1,
+            "fragmentgrailc":1
+         },
+         "warmup":60,
+         "startdescription":"Il Tantra Divorato mette in guardia sugli usi e i pericoli degli appetiti, ma dedica un intero passo ai 'portatori di fame dagli arti stellati', descritti con ovvio affetto.",
+         "description":"'Un milione di fuochi ardenti nello stomaco sommerge ciò che è stato ingoiato dalla fauce multiforme.'",
+         "craftable":true
+      },
+      {
+         "id":"studyceaselesstantra",
+         "label":"Leggi 'Il Tantra Incessante'",
+         "actionId":"study",
+         "requirements":{
+            "ceaselesstantra":1
+         },
+         "effects":{
+            "ceaselesstantra":-1,
+            "fragmentheartc":1
+         },
+         "warmup":60,
+         "startdescription":"Il Tantra Incessante mette in guardia, principalmente, dalle vivaci creature chiamate Percussigant, ma si conclude con un canto che può essere utilizzato per invocarli. Aggiunge che può essere insegnata qualsiasi danza ai Percussigant, ma che essi ne preferiscono soltanto una.",
+         "description":"'Ciò che non cessa, non sarà cessato.'",
+         "craftable":true
+      },
+      {
+         "id":"studyknownunknowntantra",
+         "label":"Leggi 'Il Tantra Conosciuto-Sconosciuto'",
+         "actionId":"study",
+         "requirements":{
+            "knownunknowntantra":1
+         },
+         "effects":{
+            "knownunknowntantra":-1,
+            "fragmentlanternc":1
+         },
+         "warmup":60,
+         "startdescription":"Il Tantra Conosciuto-Sconosciuto descrive un viaggio verso la Porta Bianca del Mansus, oltre la quale cessa la voce. Descrive un mantra che può essere usato, nel luogo e momento giusto, per raggiungere questa porta.",
+         "description":"'La luce di una lanterna può rivelare solamente lo spazio tra le ombre della foresta.'",
+         "craftable":true
+      },
+      {
+         "id":"studyencirclingtantra",
+         "label":"Leggi 'Il Tantra dell’Accerchiamento'",
+         "actionId":"study",
+         "requirements":{
+            "encirclingtantra":1
+         },
+         "effects":{
+            "encirclingtantra":-1,
+            "fragmentknockc":1
+         },
+         "warmup":60,
+         "startdescription":"Il Tantra dell’Accerchiamento parla del Cancello del Serpente, la porta affamata chiamata talvolta la Porta del Ragno, la quale è sacra alla Madre delle Formiche, attraverso la quale passarono i Grandi Principi Incappucciati.",
+         "description":"Il tantra include un'invocazione ma avvisa, utilmente, che l'invocazione non sia abbastanza potente per raggiungere il Cancello del Serpente dal Cancello del Cacciatore. 'Una strada che non ha destinazioni, è essa stessa una destinazione', aggiunge gentilmente.",
+         "craftable":true
+      },
+      {
+         "id":"studyshavenlocktantra",
+         "label":"Leggi 'Il Tantra della Serratura Rasata'/ 'Colui Il Quale Si È Rasato I Capelli'",
+         "actionId":"study",
+         "requirements":{
+            "shavenlocktantra":1
+         },
+         "effects":{
+            "shavenlocktantra":-1,
+            "fragmentmothc":1
+         },
+         "warmup":60,
+         "startdescription":"Il Tantra parla brillantemente di coloro che sono preparati ad abbandonare il loro vecchio sé per cercarne un più elevato. Avvisa che, quando il cambiamento è realmente cominciato, 'dopo il Terzo Marchio', un ritorno al vecchio sé è doloroso e pericoloso.",
+         "description":"'Sussurra i tuoi segreti nella terra, bruciali nel fuoco, spargili nel mare. Ancora si aggrapperanno ai tuoi capelli', avverte il Tantra. Fornisce un enigma occulto che afferma essere la soluzione all'Enigma della Porta del Cacciatore.",
+         "craftable":true
+      },
+      {
+         "id":"studytantraworms",
+         "label":"Leggi 'Il Tantra dei Vermi'",
+         "actionId":"study",
+         "requirements":{
+            "tantraworms":1
+         },
+         "effects":{
+            "tantraworms":-1,
+            "fragmentwinterc":1
+         },
+         "warmup":60,
+         "startdescription":"Il Tantra fornisce contromisure tanto varie quanto poco pratiche contro i Vermi, i 'Serpenti Che Non Sono Serpenti'. La Falena e l'Inverno sono i più vicini a loro, così da poter comprendere le loro debolezze, ma entrambi hanno i loro pericoli. Il Leonfabbro li distrugge, ma ciò non è raccomandabile per un mortale.",
+         "description":"'I Vermi sono sempre stati desiderosi di abitarci. Qui ci sono le pratiche per renderci inospitali'. Ci sono diagrammi. I diagrammi non sono gradevoli a vedersi, e nessuna delle pratiche descritte permetterebbe la soppravvivenza del soggetto.",
+         "craftable":true
+      },
+      {
+         "id":"studybookofcentipede",
+         "label":"Leggi 'Il Libro del Millepiedi'",
+         "actionId":"study",
+         "requirements":{
+            "bookofcentipede":1
+         },
+         "effects":{
+            "bookofcentipede":-1,
+            "fragmentsecrethistoriesc":1
+         },
+         "warmup":60,
+         "startdescription":"'Il Millepiedi trova sempre la sua strada verso i luoghi oscuri. Quando è stata punita per questo, ha reagito malamente, così avvenne nel Mansus e a Miah.'",
+         "description":"'Il Fiume scorre, attraverso le sabbie del mito, nella leggenda. Il Fiume Dipinto scorre nella direzione opposta. Una è impedita al Millepiedi ora, ma lei, talvolta, trova lo stesso la sua strada.'",
+         "craftable":true
+      },
+      {
+         "id":"studyaccountkanishkspidersdoor",
+         "label":"Leggi 'Il Resoconto di Kanishk alla Porta del Ragno'",
+         "actionId":"study",
+         "requirements":{
+            "accountkanishkspidersdoor":1
+         },
+         "effects":{
+            "accountkanishkspidersdoor":-1,
+            "fragmentedgec":1
+         },
+         "warmup":60,
+         "startdescription":"Kanishk cercò di divenire un Nome. Inseguendo tal fine, egli fece di Lok Kahuli il tramite dei suoi appetiti, promettendo a Lok di ascendere insieme. Alla Porta del Ragno, egli tradì l'amante...",
+         "description":"Il Tribuno ascoltò il tradimento, e quindi forzò Kanishk al suo servizio. Il Tribuno non può essere contraddetto. Lok Kahuli rimase per scrivere quest'opera, e per descrivere le magie esterne della lotta e della gara.",
+         "craftable":true
+      },
+      {
+         "id":"studystumm",
+         "label":"Guarda 'STUMM'",
+         "actionId":"study",
+         "requirements":{
+            "stumm":1,
+            "funds":1
+         },
+         "effects":{
+            "stumm":-1,
+            "fragmentwinterc":1,
+            "dread":1,
+            "ritefollowerconsumeinfluence":1,
+            "funds":-1
+         },
+         "warmup":60,
+         "startdescription":"Il film tremola attraverso il proiettore e illumina silenziosamente il muro. È la storia di un folle studente delle arti proibite, il quale recluta una danzatrice per attirare i Morti nel mondo attraverso una falla nella sua pelle. È fiction, ma qui sul titolo è chiamata l'Operazione del Tramonto...",
+         "description":"Il Rito è mostrato in ogni raggelante dettaglio. C'è la falla nel mondo, un'Influenza scintillante in vernice luminosa. Ora la danzatrice comincia a ballare ad un ritmo irresistibile. Lo studente recita l'Operazione; ed ora i morti, nella nebbia, passano attraverso la falla per consumarlo! Il film si chiude sugli espressivi occhi della danzatrice. L'aveva previsto fin dal principio?",
+         "craftable":true
+      },
+      {
+         "id":"studyvinzantinscriptions",
+         "label":"Leggi 'Le Iscrizioni Vinzant'",
+         "actionId":"study",
+         "requirements":{
+            "vinzantinscriptions":1
+         },
+         "effects":{
+            "vinzantinscriptions":-1,
+            "fragmentforgec":1
+         },
+         "warmup":60,
+         "startdescription":"Molto tempo fa, narra la Sorellanza del Nodo, la Forgia amò l'Ora chiamata il Sole-nel-Lusso. Il Graal Rosso aveva da tempo anticipato la loro unione, e le sacerdotesse del Graal l'avevano profetizzata...",
+         "description":"Il resto del testo consiste in gongolanti commenti delle sacerdotesse del Graal sulla Formazione che verrà, frammezzate da avvertimenti e lamenti di coloro della Sorellanza che servono il Tasso-Accerchiato e, specialmente, l'Ascia Cornuta. Ciononostante, un'invocazione alla Forgia è inclusa come parte di un tentativo di muovere gli eventi.",
+         "craftable":true
+      },
+      {
+         "id":"studylarquebinecodex",
+         "label":"Leggi 'Il Codex Larquebine'",
+         "actionId":"study",
+         "requirements":{
+            "larquebinecodex":1
+         },
+         "effects":{
+            "larquebinecodex":-1,
+            "fragmentheartc":1
+         },
+         "warmup":60,
+         "startdescription":"La Sorella-e-Strega vennero da Occidente, dove erano nate in due grembi, quello di una principessa e quello di un mostro. Tuttavia, si amarono l'un l'altra fin dalla nascita, e si incontrono in segreto 'per cercare l'unione'.",
+         "description":"Quando venne la grande siccità, i re di quella terra cercarono di sacrificare la principessa e la strega, così presero la via del Mare. Quando il terrore le prese, si lanciarono nelle soffocanti acque... e trovarono il Fiume Dipinto, dal quale entrarono nel Mansus grazie all'intervento del Graal Rosso. Tuttavia, il Codex si conclude con una condanna del Graal.",
+         "craftable":true
+      },
+      {
+         "id":"studyagainstsisterhoodknot",
+         "label":"Leggi 'Contro la Sorellanza del Nodo e la Follia dei loro Costumi Depravati'",
+         "actionId":"study",
+         "requirements":{
+            "againstsisterhoodknot":1
+         },
+         "effects":{
+            "againstsisterhoodknot":-1,
+            "fragmentsecrethistoriesd":1
+         },
+         "warmup":60,
+         "startdescription":"Hieronymus sostiene che i poteri serviti dalla Sorellanza del Nodo abbiano fatto un accordo: il Pellefolgore amava il Tasso e il Graal lo distrusse, come punizione per la distruzione degli amati dall'Ascia. La scrittura di Hieronymus a questo punto diviene incoerente per la rabbia.",
+         "description":"Hieronymus ritrova la compostezza, ad un certo punto, quando descrive come il Pellefolgore entrò nel Mansus attraverso la Porta del Pavone. Questa, insiste Hieronymus, è 'abominio su abominio: ma è anche da dire che la più abominevole delle Porte è sempre stata un abominio.'",
+         "craftable":true
+      },
+      {
+         "id":"studymorphycodex",
+         "label":"Leggi 'Il Codex Morphy'",
+         "actionId":"study",
+         "requirements":{
+            "morphycodex":1
+         },
+         "effects":{
+            "morphycodex":-1,
+            "fragmentsecrethistoriesd":1
+         },
+         "warmup":60,
+         "startdescription":"L'autore asserisce che il Graal Rosso, il Tasso-Accerchiato e l'Ascia Cornuta - i poteri adorati dalla Sorellanza - abbiano concordato un accordo finale tra le Ore della Casa e le Ore che questi avevano allontanato: il Pellefolgore amava il Tasso, e il Graal lo distrusse come pegno per l'assassinio dei fratelli e delle sorelle dell'Ascia Cornuta.",
+         "description":"Il Pellefolgore entrò nel Mansus attraverso la Porta del Pavone, 'un privilegio mai concesso alla Strega-e-Sorella: d'altronde i loro meriti erano inferiori'. L'autore ammette che l'entrata attraverso la Porta del Pavone sia indecorosa, ma insiste che, in tali circostanze, non ci fosse altra via.",
+         "craftable":true
+      },
+      {
+         "id":"studyleoninetantra",
+         "label":"Leggi 'Il Tantra Leonino'",
+         "actionId":"study",
+         "requirements":{
+            "leoninetantra":1
+         },
+         "effects":{
+            "leoninetantra":-1,
+            "fragmentedged":1
+         },
+         "warmup":60,
+         "startdescription":"Il Tantra descrive, ellitticamente, i Grandi Principi Incappucciati e le molte vie con le quali hanno influenzato le guerre contro gli invasori della Terra della Grande Riva, 'sebbene, in un certo senso, loro stessi fossero invasori'.",
+         "description":"'I leoni possono essere creati, non come i bambini e neanche come le parole, ma come vengono create le armi. I Grandi Principi Incappucciati scoprirono come creare i leoni spiando gli affari delle Ore, e ora non tutti i leoni servono il Generale Dorato.'",
+         "craftable":true
+      },
+      {
+         "id":"studyincandescenttantra",
+         "label":"Leggi 'Il Tantra Incandescente'",
+         "actionId":"study",
+         "requirements":{
+            "incandescenttantra":1
+         },
+         "effects":{
+            "incandescenttantra":-1,
+            "fragmentforged":1
+         },
+         "warmup":60,
+         "startdescription":"Dialoghi con un'entità chiamata il Principe Crogiolo. Il Principe mette in guardia sugli appetiti della sua amante, la Regina Ardente, e del pericolo del nudo desiderio che essa condivide con il Sole, tuttavia professa la sua lealtà.",
+         "description":"'Un rito che cambia è necessariamente un rito che distrugge. Ma un grande rito di cambiamento richiede una distruzione smisurata.'",
+         "craftable":true
+      },
+      {
+         "id":"studythirstingtantra",
+         "label":"Leggi 'Il Tantra Assetante'",
+         "actionId":"study",
+         "requirements":{
+            "thirstingtantra":1
+         },
+         "effects":{
+            "thirstingtantra":-1,
+            "fragmentgraild":1,
+            "ritetoolconsumeingredient":1
+         },
+         "warmup":60,
+         "startdescription":"Una dissertazione sulle tante varietà della sete, i loro usi e i loro effetti.",
+         "description":"Il tantra descrive come il soddisfacimento della sete può permettere ad un mortale l'entrata nelle grazie del Potere Assetante, ma mette in guardia sulle conseguenze del rigetto delle seti più rare per preferire le più comuni. 'Coloro che hanno sete le cui menti si aggrappano alle azioni in questo mondo, o Potente, ritorneranno in questo mondo d'azione dall'altro luogo.'",
+         "craftable":true
+      },
+      {
+         "id":"studyflayedtantra",
+         "label":"Leggi 'Il Tantra Spellato'",
+         "actionId":"study",
+         "requirements":{
+            "flayedtantra":1
+         },
+         "effects":{
+            "flayedtantra":-1,
+            "fragmentheartd":1
+         },
+         "warmup":60,
+         "startdescription":"'Spellato' era uno dei Grandi Principi Incappucciati, ma ruppe con i suoi confratelli e seguì il Pellefolgore nella danza senza fine.",
+         "description":"Quando Spellato si scorticò, ebbe l'inchiostro necessario per scrivere il Tantra e si trovò ad affrontare la rabbia dei suoi compagni. Qui ci sono le invocazioni che usò per difendersi.",
+         "craftable":true
+      },
+      {
+         "id":"studywatchfultantra",
+         "label":"Leggi 'Il Tantra Osservatore'",
+         "actionId":"study",
+         "requirements":{
+            "watchfultantra":1
+         },
+         "effects":{
+            "watchfultantra":-1,
+            "fragmentlanternd":1,
+            "ritetoolfollowerconsumelore":1
+         },
+         "warmup":60,
+         "startdescription":"Il Tantra descrive i processi dell'illuminazione occulta, compresa una formula che potrebbe mostrare la via dalla 'Porta del Cacciatore' alla 'Porta del Serpente' - che in Occidente viene chiamata di solito Porta del Ragno.",
+         "description":"'Il Sole passa attraverso la Casa all'ora prestabilita. Dalla divisione del Sole l'orario è incerto.'",
+         "craftable":true
+      },
+      {
+         "id":"studytwinserpenttantra",
+         "label":"Leggi 'Il Tantra del Serpente-Gemello'",
+         "actionId":"study",
+         "requirements":{
+            "twinserpenttantra":1
+         },
+         "effects":{
+            "twinserpenttantra":-1,
+            "fragmentknockd":1,
+            "ritefollowerconsumeingredient":1
+         },
+         "warmup":60,
+         "startdescription":"Il Tantra descrive i Grandi Principi Incappucciati - una dinastia di principi dalle oscure origini - impegnarsi in preghiere, sacrifici e poesie in onore del Serpente-Chiave, i Gemelli del Crocevia e la Regina dello Specchio. 'Nagi circonda; Nagi nasce dalle ferite; Nagi preserva coloro che sono stati feriti.'",
+         "description":"Si dice che i Grandi Principi Incappucciati siano 'scappati dalla storia della loro morte verso una storia dove fossero ancora vivi'. Il testo afferma che, ora, di essi ce ne sono centootto, ma - in uno dei tanti casi di macchinosità nel testo - prima che si muovessero dalla cronaca della loro morte, erano solamente cinquantaquattro.",
+         "craftable":true
+      },
+      {
+         "id":"studyfirecircletantra",
+         "label":"Leggi 'Il Tantra del Circolo di Fuoco'",
+         "actionId":"study",
+         "requirements":{
+            "firecircletantra":1
+         },
+         "effects":{
+            "firecircletantra":-1,
+            "fragmentmothd":1
+         },
+         "warmup":60,
+         "startdescription":"I Grandi Principi Incappucciati vengono mostrati supplicanti affinché la Foresta si erga per divorare l'armata Timuride. Il 'Re Screziato', 'l'Albero di Miele' e le 'Gemelli del Mare' negano tutti il loro aiuto, finché non ottengono quello di un detentore di segreti...",
+         "description":"Armati del ricatto ottenuto dal 'detentore di segreti', i Grandi Principi Incappucciati richiamano le forze della Foresta una seconda volta, e hanno successo. Un quarto dell'armata Timuride viene divorata dalle api, un quarto si getta nelle acque e affoga ed un quarto 'si spoglia finché nulla di loro rimane'.",
+         "craftable":true
+      },
+      {
+         "id":"studyasthesunhiscourse",
+         "label":"Leggi 'Come Il Sole Il Suo Percorso'",
+         "actionId":"study",
+         "requirements":{
+            "asthesunhiscourse":1
+         },
+         "effects":{
+            "asthesunhiscourse":-1,
+            "fragmentedged":1,
+            "ritefollowerconsumetool":1
+         },
+         "warmup":60,
+         "startdescription":"Alessandro si incontrò ad Isso con Dario, Re dei Re, per tre giorni e tre notti. Il primo giorno, i due uomini si minacciarono; il secondo, si scambiarono promesse; il terzo, segreti. Dario raccontò ad Alessando qualcosa di così sconvolgente che si ritirò nella sua tenda per riflettere su 'questioni di forza e questioni di dominio'.",
+         "description":"All'alba del quarto giorno, Alessandro annunciò: 'il Sole ha il suo percorso, sul quale egli ritorna; e così anch'io'. Tornò in Macedonia, dopo aver condannato due capitani che avevano messo in discussione la sua decisione. Portò con se i 'nomi di un Dio cieco' e un 'rito di un tradimento sacro' poiché, opina Joel, senza tradimento finirebbe la guerra.",
+         "craftable":true
+      },
+      {
+         "id":"studyconcursumdiaries",
+         "label":"Leggi 'I Diari del Concursum'",
+         "actionId":"study",
+         "requirements":{
+            "concursumdiaries":1
+         },
+         "effects":{
+            "concursumdiaries":-1,
+            "fragmentlanternd":1
+         },
+         "warmup":60,
+         "startdescription":"'Vi sono leggende che sono mappe, vi sono mappe di leggende e vi sono leggende su mappe. Il Mansus possiede tutti questi aspetti, più o meno come puoi trovare l'acqua in una palude, in una coppa e nel cielo.'",
+         "description":"Westergren descrive una serie di spedizioni nel Mansus. Si focalizza sui dettagli dell'esperienza - i colori, i panorami, le strutture - piuttosto che le sugli aspetti pratici. Ci avvisa che il Mansus cambia ogni anno, sebbene assicuri il lettore che le Porte rimangano le stesse. 'Le porte possono chiudersi, ma non spariscono mai. Almeno, non finché ci saranno mortali nel Mansus. Siamo come topi.'",
+         "craftable":true
+      },
+      {
+         "id":"studyironbook",
+         "label":"Leggi 'Il Libro di Ferro'",
+         "actionId":"study",
+         "requirements":{
+            "ironbook":1
+         },
+         "effects":{
+            "ironbook":-1,
+            "fragmentforged":1
+         },
+         "warmup":60,
+         "startdescription":"I membri dell'Ordo fecero un giuramento, la Catena di Ferro, che richiedeva di rimanere nascosti dal mondo. Questo manuale include indirizzi, presumibilmente obsoleti da tempo, e parole d'ordine che potevano essere utilizzate per trovare i contatti dell'Ordo nella città di Iria.",
+         "description":"La parte finale del manuale descrive le punizioni per i membri dell'Ordo che rompevano il giuramento di segretezza. Tra queste, un'invocazione usata per invocare lo spirito chiamato Re Crogiolo per portare a conclusione la vendetta. Yivni mette in guardia che dev'essere l'ultima spiaggia, non deve esser evocato se non quando il sacrilego, altrimenti, rimarrebbe impunito: evocare Re Crogiolo potrebbe attrarre l'attenzione personale della Forgia dei Giorni.",
+         "craftable":true
+      },
+      {
+         "id":"studysilverbook",
+         "label":"Leggi 'Il Libro d’Argento'",
+         "actionId":"study",
+         "requirements":{
+            "silverbook":1
+         },
+         "effects":{
+            "silverbook":-1,
+            "fragmentknockd":1
+         },
+         "warmup":60,
+         "startdescription":"I membri dell'Ordo fecero un giuramento, la Catena d'Argento, che impediva agli uomini di giacere con le donne, e alle donne con gli uomini: 'poiché ciò che succede, sebbene non sia sempre il Crimine del Cielo, è pur sempre un pericolo furioso'. Era apparentemente permesso per l'uomo giacere con un uomo, e per la donna il giacere con altra donna - infatti, Burzghash suggerisce di incoraggiare tali pratiche, per distrarsi da altre tentazioni.",
+         "description":"Il manuale prescrive contromisure potenziali per proteggere coloro che potrebbero essere tentati di infrangere il giuramento: maschere, deturpazioni, severe discipline poetiche. Colo che lo infrangevano venivano puniti con la morte, sebbene siano descritte punizioni minori per vari atti che non coinvolgevano un coito reale. È inclusa un'invocazione utilizzata per incorporare tali punizioni nei riti d'evocazione.",
+         "craftable":true
+      },
+      {
+         "id":"studyivorybook",
+         "label":"Leggi 'Il Libro d’Avorio'",
+         "actionId":"study",
+         "requirements":{
+            "ivorybook":1
+         },
+         "effects":{
+            "ivorybook":-1,
+            "fragmentwinterd":1,
+            "ritefollowerconsumeinfluence":1
+         },
+         "warmup":60,
+         "startdescription":"I membri dell'Ordo fecero un giuramento, la Catena d'Avorio, che non gli permetteva di avere affari con le Ore. Seguirlo letteralmente sarebbe stato praticamente impossibile per un adepto, così il manuale contiene numerosi chiarimenti, eccezioni e processi di indulgenza.",
+         "description":"Kurenai descrive i riti di sepoltura dell'Ordine, i quali includono delle magie per assicurarsi - in teoria - che le anime dei Lunghi defunti non siano date alle Ore. L'Ora chiamata la Colomba d'Avorio, che immortala e commemora, deve essere invocata, in segreto, in questi riti, 'poiché con quell'Ora abbiamo fatto un accordo'.",
+         "craftable":true
+      },
+      {
+         "id":"studyworlddoesnotweep",
+         "label":"Leggi 'Il Mondo Non Piange'",
+         "actionId":"study",
+         "requirements":{
+            "worlddoesnotweep":1
+         },
+         "effects":{
+            "worlddoesnotweep":-1,
+            "fragmentwinterd":1,
+            "riteinfluenceconsumefollower":1
+         },
+         "warmup":60,
+         "startdescription":"Un adepto sconosciuto scrisse questo proclama: il mondo dimentica, ma la Colomba d'Avorio no. Il testo contiene delle prescrizioni per assicurarsi che certi atti siano ricordati, compreso un rito che richiede un sacrificio in una maniera particolarmente mostruosa...",
+         "description":"Le Ore provarono a seppellire la memoria di ciò che successe alla Ruota, all'Onda e al Sette-Spire, ma la Colomba non lo permise. Come non permettera che quanto successe al Primo Uovo sia dimenticato, sebbene sia, forse, ciò che l'Osservatore non perdonerà mai...",
+         "craftable":true
+      },
+      {
+         "id":"studydeedsofthescarredcaptain",
+         "label":"Leggi 'Le Gesta del Capitano Sfregiato'",
+         "actionId":"study",
+         "requirements":{
+            "deedsofthescarredcaptain":1
+         },
+         "effects":{
+            "deedsofthescarredcaptain":-1,
+            "fragmentedged":1
+         },
+         "warmup":60,
+         "startdescription":"Un resoconto sulla fondazione di Micene da parte di un 'Capitano Sfregiato', il quale uccise sette mostri per liberarne le terre.",
+         "description":"Mentre il Capitano distrugge i mostri, un diluvio di sangue cresce sempre di più, finché alla fine una sacerdotessa annega e rinasce come divinità-serpente. Essa benedice il Capitano, ed egli parte per 'la Casa sopra la Foresta', abbandonando Micene per poter regnare indisturbato quando l'alluvione di sangue si sarà placata.",
+         "craftable":true
+      },
+      {
+         "id":"studybookofdissolution",
+         "label":"Leggi 'Il Libro della Dissoluzione'",
+         "actionId":"study",
+         "requirements":{
+            "bookofdissolution":1
+         },
+         "effects":{
+            "bookofdissolution":-1,
+            "fragmentforgee":1,
+            "ritetoolconsumefollower":1
+         },
+         "warmup":60,
+         "startdescription":"Il Libro consiste prevalentemente in preghiere per il Dio Incombusto, la Forgia dei Giorni che consuma e trasforma. Suggerisce che i poteri della forgia nascano in parte dalla sua natura, in parte dai suoi strumenti.",
+         "description":"Il Libro descrive una Casa del Sole precedente, le cui porte e vie erano differenti. Prega la Forgia dei Giorni per aprire le vie nella casa e trasformare ciò che fu in ciò che è, malgrado le urla della pietra...",
+         "craftable":true
+      },
+      {
+         "id":"studycatalogueofunchartedpleasures",
+         "label":"Leggi 'Un Catalogo di Piaceri Inesplorati'",
+         "actionId":"study",
+         "requirements":{
+            "catalogueofunchartedpleasures":1
+         },
+         "effects":{
+            "catalogueofunchartedpleasures":-1,
+            "fragmentgraile":1
+         },
+         "warmup":60,
+         "startdescription":"'Alcuni piaceri', attestano le Formule Voluttuose, 'sono così intensi da poter corrompere le leggi del mondo fisico'. Questo libro ne elenca alcuni.",
+         "description":"La nascita avviene alla congiunzione del piacere con il tormento. Così il primo Atto Proibito della Forgia diede alla luce scintille di delizia che radicarono nella Gloria, o nel Nulla; chi può dirlo? Così i semi del Creatore di Fiori furono piantati, sebbene per lungo tempo egli fu solamente dolore inespresso.",
+         "craftable":true
+      },
+      {
+         "id":"studythosewhodonotsleep",
+         "label":"Leggi 'Coloro I Quali Non Dormono'",
+         "actionId":"study",
+         "requirements":{
+            "thosewhodonotsleep":1
+         },
+         "effects":{
+            "thosewhodonotsleep":-1,
+            "fragmenthearte":1,
+            "ritetoolconsumeingredient":1
+         },
+         "warmup":60,
+         "startdescription":"'La Sorella-e-Strega nacque in due ventri, uno povero uno ricco, dall'altra parte del mare. La Sorella era più forte nell'aspetto del Cuore, pertanto la loro sopravvivenza era assicurata; la Strega era più forte nell'aspetto del Graal, quindi non erano soddisfatte...'",
+         "description":"'Quando la Sorella e Strega venne dall'Occidente, il Graal Rosso acconsentì alla loro ascensione, ma divenne poi geloso del loro potere. Attirò un grande musicista tra i ranghi dei suoi Nomi, e lo fece rinascere dal sangue come Ora del Cuore, affinché il Graal potesse mantenere il dominio anche lì. Ma la sua vittoria non è assicurata.'",
+         "craftable":true
+      },
+      {
+         "id":"studytheskythesoul",
+         "label":"Leggi 'Il Cielo, l’Anima'",
+         "actionId":"study",
+         "requirements":{
+            "theskythesoul":1
+         },
+         "effects":{
+            "theskythesoul":-1,
+            "fragmentlanterne":1,
+            "fascination":1
+         },
+         "warmup":60,
+         "startdescription":"I versi di Kalle sono brevi, oscuri e spesso dominati da immagini di violenza. 'Una stella è una puntura di spillo, ma il sole è una ferita.'",
+         "description":"'È sempre possibile essere più morti', afferma Kalle. 'L'Osservatore precede; non meno di sette possono seguirlo'; 'Tuttavia, siamo nati per la Gloria, come le faville per volare verso l'alto.'",
+         "craftable":true
+      },
+      {
+         "id":"studyonthematterandthedeedsofserpents",
+         "label":"Leggi 'Sulla Questione e le Azioni dei Serpenti'",
+         "actionId":"study",
+         "requirements":{
+            "onthematterandthedeedsofserpents":1
+         },
+         "effects":{
+            "onthematterandthedeedsofserpents":-1,
+            "fragmentknocke":1,
+            "dread":1
+         },
+         "warmup":60,
+         "startdescription":"Gli uomini-serpente chiamati i Grandi Principi Incappucciati conobbero l'ordine chiamato la Casa del Lete, e guerreggiarono in lungo e in largo con loro. Si allearono con la Madre delle Formiche, 'i quali figli furono'...",
+         "description":"Il testo descrive come i Grandi Principi Incappucciati scapparono (o scapperanno) dalla Quinta Storia, dove morirono (o erano destinati a morire). Si impegnarono in una segreta conquista della 'terra della Grande Riva', chiamata India in alcune storie, e si assicurarono che tutte le seguenti conquiste di quella terra fossero false.",
+         "craftable":true
+      },
+      {
+         "id":"studyserenityofblackwood",
+         "label":"Leggi 'La Serenità della Foresta Oscura'",
+         "actionId":"study",
+         "requirements":{
+            "serenityofblackwood":1
+         },
+         "effects":{
+            "serenityofblackwood":-1,
+            "fragmentmothe":1,
+            "fascination":1
+         },
+         "warmup":60,
+         "startdescription":"Il 'Proverbiale Spensierato' raccoglie dei viaggiatori in una foresta, e li guida attraverso gli alberi, ma li abbandona a metà strada. Questi si trovano tormentati da 'mostri gloriosi'.",
+         "description":"I viaggiatori scoprono di poter sopravvivere chiudendo gli occhi (adottano un occhio chiuso come loro simbolo) e che possono passare inosservati bevendo dai ruscelli freddi e puliti. Essi non dimenticano mai 'il proverbiale spensierato, il Millepiedi', ma anche lei non si dimentica.",
+         "craftable":true
+      },
+      {
+         "id":"studybookofthrones",
+         "label":"Leggi 'Il Libro dei Troni'",
+         "actionId":"study",
+         "requirements":{
+            "bookofthrones":1
+         },
+         "effects":{
+            "bookofthrones":-1,
+            "fragmentsecrethistoriese":1,
+            "fragmentedgee":1
+         },
+         "warmup":60,
+         "startdescription":"Nella 'prima e più grande storia', un sottomesso dell'Impero Senz'Ombre di Persia viaggia verso Occidente, verso i regni dei Perseidi. Qui diviene un protetto della divinità tutelare Perseide, l'Uomo Sfregiato che vive nell'oscurità. Ritorna dopo sette anni per offire i suoi servizi all'Impero Senz'Ombre, diventando il loro Generale Dorato...        ",
+         "description":"Dopo tanti anni di pace, gli eredi dei Perseidi muovono guerra contro il Re dei Re e l'Impero Senz'Ombra. Il Generale Dorato non muove i battaglioni contro il sangue dei suoi mentori, finché il Re dei Re non sussurra 'un grande segreto di tradimento' nel suo orecchio. Rompe la sua spada, spergiura i suoi patti, sia con l'Impero che con l'Uomo Sfregiato, ed entra nel 'Tempio dietro al Mondo', abbandondando la vita.",
+         "craftable":true
+      },
+      {
+         "id":"studysecondglory",
+         "label":"Leggi 'Una Seconda Gloria'",
+         "actionId":"study",
+         "requirements":{
+            "secondglory":1
+         },
+         "effects":{
+            "secondglory":-1,
+            "fragmentwintere":1,
+            "dread":1,
+            "riteinfluenceconsumefollower":1
+         },
+         "warmup":60,
+         "startdescription":"Juceh si impegna in un'apologia della distruzione delle Ore: erano antiche, codarde, vili, il loro tempo era concluso, ed era lo splendente destino dell'umanità impadronirsi della Casa in gloriose battaglie.",
+         "description":"Juceh narra di come l'Ora chiamata il Sette-Spire venne uccisa in battaglia dal Colonnello, di come il Graal divorò l'Ora chiamata Marea e di come l'Uovo che si Schiude 'fuggì come un codardo'. È abbastanza ingiurioso contro l'Uovo. Ci mette in guardia, in mariera oscura, su un suo possibile ritorno.",
+         "craftable":true
+      },
+      {
+         "id":"studybookoftrueblood",
+         "label":"Leggi 'Libro del Vero Sangue'",
+         "actionId":"study",
+         "requirements":{
+            "bookoftrueblood":1
+         },
+         "effects":{
+            "bookoftrueblood":-1,
+            "fragmentedgee":1,
+            "dread":1
+         },
+         "warmup":60,
+         "startdescription":"Il Legato della Legione rispose direttamente all'Ora chiamata il Tribuno delle Cicatrici, e gli fu promessa l'immortalità nel caso fosse morto in battaglia...",
+         "description":"Nel finale, Cassius confessa di essere stato un Legato. Racconta del suo terrore per il Tribuno, e divulga la tradizione segreta del Generale Dorato, il campione dell'Impero Senz'Ombra, il nemico del Tribuno, nella speranza che, un giorno, il Tribuno possa essere disfatto.",
+         "craftable":true
+      },
+      {
+         "id":"studyburningwoman",
+         "label":"Leggi 'La Donna Ardente'",
+         "actionId":"study",
+         "requirements":{
+            "burningwoman":1
+         },
+         "effects":{
+            "burningwoman":-1,
+            "fragmentforgee":1,
+            "fascination":1
+         },
+         "warmup":60,
+         "startdescription":"L'opera descrive il pellegrinaggio di fabbri ed adepti lungo le tracce della Donna Ardente, la quale apparve in tutti i loro sogni, e diede a tutti una Ferita e una Parola.",
+         "description":"I fabbri e gli adepti, ad un certo punto, cessano la ricerca della Donna Ardente, e decidono di fondare il loro stesso regno, 'nel quale la nostra forza sarà sufficiente a frantumare il mondo.'",
+         "craftable":true
+      },
+      {
+         "id":"studytwentysixenticementsseventorments",
+         "label":"Leggi 'Ventisei Attrattive, Sette Tormenti'",
+         "actionId":"study",
+         "requirements":{
+            "twentysixenticementsseventorments":1
+         },
+         "effects":{
+            "twentysixenticementsseventorments":-1,
+            "fragmentgraile":1,
+            "dread":1
+         },
+         "warmup":60,
+         "startdescription":"'Le Attrattive del Graal superano i suoi Tormenti, ma i tormenti sono i suoi caratteri reali. La Nascita è il Primo Tormento, e la Sete il Settimo'.",
+         "description":"Dall'enumerazione delle attrattive e dei tormenti del Graal si snoda la dolorosa storia delle Streghe della Terra Arida: il calvario della nascita da due ventri, la loro battaglia e le implorazioni al Graal, il desiderio di unione che li muoveva tutti.",
+         "craftable":true
+      },
+      {
+         "id":"studyhistoryofshadowlesskings",
+         "label":"Leggi 'Una Veritiera ed Accurata Storia dei Re Senza Ombra'",
+         "actionId":"study",
+         "requirements":{
+            "historyofshadowlesskings":1
+         },
+         "effects":{
+            "historyofshadowlesskings":-1,
+            "fragmentsecrethistoriese":1,
+            "fragmenthearte":1
+         },
+         "warmup":60,
+         "startdescription":" 'La prima e maggiore storia' è descritta qui dentro. L'Impero Persiano - 'i figli di Achemene', 'i Re Senz'Ombra', 'l'Impero più Glorioso' - soppravvisse agli assalti di Alessandro Magno e fiorì fino al quinto secolo. ",
+         "description":"Dopo la caduta di Roma, l'Impero Senz'Ombra prese Bisanzio sotto la sua ala e si mosse ad Est contro la Terra della Grande Riva. Isaac comincia a narrare di quando l'invasione combatté contro 'le armate non squoiate dei serpenti incappucciati', ma si conclude bruscamente con una serie di incantesimi che, afferma, permisero all'Impero Senz'Ombra di persistere.",
+         "craftable":true
+      },
+      {
+         "id":"studyhighmysterieschurchsolar",
+         "label":"Leggi 'Gli Alti Misteri delle Più Interne Stanze della nostra Chiesa Solare'",
+         "actionId":"study",
+         "requirements":{
+            "highmysterieschurchsolar":1
+         },
+         "effects":{
+            "highmysterieschurchsolar":-1,
+            "fragmentlanterne":1,
+            "fascination":1
+         },
+         "warmup":60,
+         "startdescription":"La Chiesa, essenzialmente, adorava il Sole-nel-Lusso, il sole originale ed indiviso; ma questo testo include anche atti di devozione verso alcuni suoi aspetti, come l'alba del gelido inverno e il tramonto in allontanamento, oppure il Meniscate, il 'sé notturno' del Sole. I preti della Chiesa erano tutti uomini, ma sono anche inclusi riti per permettere alle donne di passare, cerimonialmente, al genere maschile.",
+         "description":"I più alti riti della Chiesa venivano eseguiti nel Concursum, la camera nel cuore del Mansus nella quale, è risaputo, passano le Ore: il Graal, il Tasso-Accerchiato, l'Ascia Cornuta e il Pellefolgore.",
+         "craftable":true
+      },
+      {
+         "id":"studymedusaslament",
+         "label":"Leggi 'Il Lamento di Medusa'",
+         "actionId":"study",
+         "requirements":{
+            "medusaslament":1
+         },
+         "effects":{
+            "medusaslament":-1,
+            "fragmentknocke":1,
+            "dread":1
+         },
+         "warmup":60,
+         "startdescription":"La prima parte del poema descrive l'imboscata compiuta ai danni del Sette-Spire da un guerriero 'sfregiato ovunque dagli dei traditori, perfino negli occhi, affinché la stessa vista delle grandi spire non lo distruggesse'.",
+         "description":"La battaglia infuria, finché il Sette-Spire non affoga nel suo stesso sangue, e qui la narrativa diviene mistica ed allusiva. Una divinità con sette titoli si erge dalla schiuma del suo sangue: essa è una regina armata, una figlia del serpente, una chiave, una guaritrice, un'assassina e un'oracola, ma il suo settimo titolo non può essere rivelato.",
+         "craftable":true
+      },
+      {
+         "id":"studybookofmasks",
+         "label":"Leggi 'Il Libro delle Maschere'",
+         "actionId":"study",
+         "requirements":{
+            "bookofmasks":1
+         },
+         "effects":{
+            "bookofmasks":-1,
+            "fragmentmothe":1
+         },
+         "warmup":60,
+         "startdescription":"La Maschera del Garrulo, afferma Athena Vana, era in ottimi rapporti d'amicizia con il Sole-nel-Lusso, il patriarca supremo delle Ore del Mansus (ora diviso e defunto). La Maschera del Ladro di Vista dipinse il fiume del Mansus. Alla Maschera del Vagabondo fu proibito l'accesso al Mansus, non per ciò che fece, ma per ciò che accadrebbe...",
+         "description":"La Maschera del Millepiedi rammenta il suo luogo di nascita, Miah, che la punì per esser sgusciata dentro il recinto del tempio. Questa Maschera maledì Miah a bere solo polvere e ad essere ricordata solo dal vento - 'poiché sotto nessuna Maschera essa perdona, e la fame del Millepiedi non può essere dimenticata.'",
+         "craftable":true
+      },
+      {
+         "id":"studyinthemountainsasupontheplain",
+         "label":"Leggi 'Nelle Montagne Poiché Sulle Pianure Potrebbe Non Esserci Una Via Per La Quale Nessuno Sia Passato'",
+         "actionId":"study",
+         "requirements":{
+            "inthemountainsasupontheplain":1
+         },
+         "effects":{
+            "inthemountainsasupontheplain":-1,
+            "fragmentsecrethistoriese":1,
+            "fragmentmothe":1
+         },
+         "warmup":60,
+         "startdescription":"Ninegala racconta un buon numero di storie vivaci su orchi misteriosi e guerre tra tribù di montagna, ma ritorna oscuro nel racconto del Cacciatore dalle Mani Vuote: un amante del Graal che cercava di corrispondere ai suoi appetiti ed unirsi a lei come Ora, ma che alla fine si lacera e divora da solo, dando il suo nome alle montagne sulle quali, un tempo, camminava.",
+         "description":"Secondo Ninegala, le Ore che talvolta si manifestano in forma di uccello - il Garrulo, la Colomba d'Avorio, il Corvo della Spiaggia e la Strega-e-Sorella - si incontrano in una località segreta sulla cima di una montagna per scambiarsi informazioni non conosciute dai loro pari. Quando un mortale li ascolta, viene sempre annientato, e il luogo d'incontro cambiato.",
+         "craftable":true
+      },
+      {
+         "id":"studymemoryofgods",
+         "label":"Leggi 'In Memoria degli Dei'",
+         "actionId":"study",
+         "requirements":{
+            "memoryofgods":1
+         },
+         "effects":{
+            "memoryofgods":-1,
+            "fragmentwintere":1,
+            "dread":1
+         },
+         "warmup":60,
+         "startdescription":"La Figlia del Carretto chiede a gran voce condanne speciali per il Tribuno Sfregiato, per il Graal Rosso, per la Forgia e la Falena, in quanto assassini dei primi dei. 'Viviamo all'ombra del loro crimine', scrive, 'e dobbiamo sfuggirgli o ripeterlo'.",
+         "description":"La Figlia del Carretto descrive come il Graal prosciugò l'Ora chiamata Marea, di come la Falena 'usurpò la Ruota dall'interno', rubando la sua pelle, e di come la Forgia prima eclissò, poi distrusse la Selce. 'Forse queste sono glorie', osserva, 'ma, allora, la Gloria non può essere misericordiosa.'",
+         "craftable":true
+      },
+      {
+         "id":"studysevenfoldslayingsevencoiled",
+         "label":"Leggi 'Il Settimo Omicidio del Sette-Spire'",
+         "actionId":"study",
+         "requirements":{
+            "sevenfoldslayingsevencoiled":1
+         },
+         "effects":{
+            "sevenfoldslayingsevencoiled":-1,
+            "fragmentedgef":1,
+            "dread":1
+         },
+         "warmup":60,
+         "startdescription":"Ci sono dodici versetti. Nel primo, un'Ora nascente identificata nello Sfregiato enumera le sue giustificazioni per aver distrutto il Sette-Spire: i suoi appetiti, la sua crescita, il suo odio per l'umanità. Nel secondo, una sacerdotessa tira fuori gli occhi e sfregia la pelle dello Sfregiato per proteggerlo dalla magia del Sette Spire. In ognunoa dei sette versetti seguenti, egli distrugge uno degli aspetti del Sette Spire...",
+         "description":"Nel decimo versetto, lo Sfregiato immerge la sua sacerdotessa-protettrice nel sangue del Sette-Spire, per prestarle il suo potere. Nell'undicesimo, essi assaltano il 'tempio dietro al mondo', entrandoci con la forza. Nel dodicesimo, prestano un giuramento tripartito per proteggere i loro discendenti, e loro stessi.",
+         "craftable":true
+      },
+      {
+         "id":"studybighuff",
+         "label":"Leggi 'Le Mie Azioni, I Miei Poteri, I Miei Risultati E Le Ingiustizie Perpetrate Contro Di Me'",
+         "actionId":"study",
+         "requirements":{
+            "bighuff":1
+         },
+         "effects":{
+            "bighuff":-1,
+            "fragmentforgef":1
+         },
+         "warmup":60,
+         "startdescription":"Hokobald si vanta della sua discendenza regale, ed insiste sul fatto che le magie della Forgia siano più efficaci qualora praticate da persone di sangue nobile.",
+         "description":"Pocsind si lamenta della sua condanna da parte dell'Ordo Limiae. Riconosce di esser stato 'sotto alterazioni' dopo aver 'consumato delizie particolari', ma insiste che questi cambiamenti siano eleganti ed inevitabili. 'Chi è il fuoco e chi il combustibile?', chiede retoricamente.",
+         "craftable":true
+      },
+      {
+         "id":"studydreamconspiracyskies",
+         "label":"Leggi 'Il Sogno della Cospirazione dei Cieli Inferiori'",
+         "actionId":"study",
+         "requirements":{
+            "dreamconspiracyskies":1
+         },
+         "effects":{
+            "dreamconspiracyskies":-1,
+            "fragmentgrailf":1,
+            "fascination":1
+         },
+         "warmup":60,
+         "startdescription":"Damaon insiste che le Ore siano soggette alle loro passioni molto più dei mortali - all'odio e, perfino, all'amore. 'Le stagioni di carestia ed abbondanza, i giri della terra, le trasformazioni della fornace - tutti questi sono i risultati delle emanazioni delle passioni minori delle Ore.'",
+         "description":"Damaon suggerisce che le Ore abbiano frenato le loro rivalità per evitare una guerra all'interno della Casa del Sole. Egli identifica nella 'Paura del Crimine del Cielo' la ragione per cui le Ore non soddisfano altre passioni. Egli specula sulla possibilità terrificante che le Ore diventino Alukiti. 'Cosa divorerebbero allora?'",
+         "craftable":true
+      },
+      {
+         "id":"studybookwhitecat",
+         "label":"Leggi 'Il Libro del Gatto Bianco'",
+         "actionId":"study",
+         "requirements":{
+            "bookwhitecat":1
+         },
+         "effects":{
+            "bookwhitecat":-1,
+            "fragmentheartf":1
+         },
+         "warmup":60,
+         "startdescription":"Si ritiene che le Ore aviformi - il Corvo, il Garrulo, la Colomba, e i Nibbi gemelli - si incontrassero sulle montagne a nord di Gordio, in un luogo chiamato il Trespolo, per scambiarsi informazioni. Penelope afferma che i mortali che ascoltano le loro parole vengono obliterati, ma insiste sul fatto che il suo gatto possa andare senza esser notato, e che le riporterebbe sempre dei frammenti delle riunioni delle Ore.",
+         "description":"Le storie, che Penelope afferma essere pettegolezzi, delle Ore sono frammentarie e confuse: racconti nei quali la Speranza, il Terrore e l'Impero Senz'Ombra vengono usati come pezzi in un gioco, progetti di rovina e ricordi di nessuna storia conosciuta. L'elemento più interessante è l'incantesimo protettivo riportato dall'autrice alla fine del libro, quando l'autrice si preoccupa di esser spiata dalle Ore.",
+         "craftable":true
+      },
+      {
+         "id":"studyfocusamber",
+         "label":"Leggi 'La Concentrazione dell’Ambra'",
+         "actionId":"study",
+         "requirements":{
+            "focusamber":1
+         },
+         "effects":{
+            "focusamber":-1,
+            "fragmentlanternf":1,
+            "fascination":1
+         },
+         "warmup":60,
+         "startdescription":"Omar afferma che l'Ora chiamata l'Osservatore è sia un dio-che-era-carne - un'Ora che fu mortale - sia un dio-dalla-Luce - un'Ora che discese dalla Gloria - ma aggiunge, alla fine, che l'origine dell'Osservatore è triplice, e che 'nell'essenza, esso è ambra'.'",
+         "description":"L'Osservatore, stando ad Omar, un tempo era un'Ora completamente diversa, ed ascese nella Gloria per fuggire dai tentativi delle altre Ore di mandarlo nel Nulla. Il senso di persecuzione pare strisciare nella narrativa a questo punto: di sicuro diviene meno coerente, e nell'ultima parte cerca di provare che gli occhi, le uova e il Sole sono tutti, in qualche maniera, congiunti.",
+         "craftable":true
+      },
+      {
+         "id":"studysongscarapacecross",
+         "label":"Leggi 'Le Canzoni dell’Esoscheletro della Croce'",
+         "actionId":"study",
+         "requirements":{
+            "songscarapacecross":1
+         },
+         "effects":{
+            "songscarapacecross":-1,
+            "fragmentknockf":1,
+            "dread":1
+         },
+         "warmup":60,
+         "startdescription":"Xi descrive i riti degli dei-che-furono-pietra, le prime Ore, e di come questi venissero praticati, prima dell'esistenza della civiltà umana, 'dall'Esoscheletro della Croce'. Egli afferma che un ultimo sopravvissuto della Croce abbia condiviso le informazioni con lui.",
+         "description":"I riti sono decisamente obsoleti oramai. Poche volte, negli ultimi secoli, hanno avuto qualche effetto. Tuttavia, Xi identifica almeno un'invocazione particolarmente potente. Egli avvisa che dovrebbe essere utilizzata con particolare cautela, affinché gli dei-che-furono-pietra non trovino la strada del ritorno dal Nulla.",
+         "craftable":true
+      },
+      {
+         "id":"studyoriginsofhours",
+         "label":"Leggi 'L’Origine delle Ore'",
+         "actionId":"study",
+         "requirements":{
+            "originsofhours":1
+         },
+         "effects":{
+            "originsofhours":-1,
+            "fragmentmothf":1,
+            "dread":1
+         },
+         "warmup":60,
+         "startdescription":"Gli scritti di Soham virano dalla poesia alla confessione. Egli suddivide gli dei in questa maniera: dio dalla carne (coloro che furono mortali), dal sangue (coloro che sorsero dal sacrificio), dalla Luce (ammessi dalla Gloria) e dalla pietra (coloro che sorsero prima della sua conoscenza). Insiste sul fatto che la Falena fosse il primo dio-che-era-sangue, ma in seguito si contraddice affermando che il primo fosse il Graal Rosso.",
+         "description":"'Il Mansus era differente prima del primo dio venuto dalla Luce, ma non ho mai dubitato che sia esistito, neanche allora.'",
+         "craftable":true
+      },
+      {
+         "id":"studywherehasshegone",
+         "label":"Leggi 'Dov’è andata?'",
+         "actionId":"study",
+         "requirements":{
+            "wherehasshegone":1
+         },
+         "effects":{
+            "wherehasshegone":-1,
+            "fragmentsecrethistoriesf":1
+         },
+         "warmup":60,
+         "startdescription":"Si narra che il Vagabondo abbia viaggiato non solo per il Mansus, per la Foresta, per tutti e nove i continenti, ma anche per luoghi proibiti ad altre Ore...",
+         "description":"Dai pettegolezzi delle Ore e dalla tradizione invisibile, Speeth deduce che il Vagabondo abbia visitato il Nulla, e che lei non tornerà. Asserisce, inoltre, che deve ancora visitare la Gloria, ma questo, inevitabilmente, deve essere il suo obbiettivo.",
+         "craftable":true
+      },
+      {
+         "id":"studybookextinguishedheart",
+         "label":"Leggi 'Il Libro del Cuore Estinto'",
+         "actionId":"study",
+         "requirements":{
+            "bookextinguishedheart":1
+         },
+         "effects":{
+            "bookextinguishedheart":-1,
+            "fragmentwinterf":1,
+            "dread":1,
+            "riteconsumetoolingredientfollowerinfluence":1
+         },
+         "warmup":60,
+         "startdescription":"Lazali dimostra che il Sole sarà diviso nel Malleario dalla Forgia dei Giorni, armata con l'amore nel suo cuore.",
+         "description":"'L'amore non sarà la causa della morte del Sole, ma l'invidia. L'invidia non sarà la causa della morte del Sole, ma la sete. La sete non dovrà essere la causa della sua morte, ma la curiosità. La curiosità non dovrà essere la sua fine; poiché sarà l'amore.'",
+         "craftable":true
+      },
+      {
+         "id":"studyhowendwillbegin",
+         "label":"Leggi 'Come Inizierà la Fine'",
+         "actionId":"study",
+         "requirements":{
+            "howendwillbegin":1
+         },
+         "effects":{
+            "howendwillbegin":-1,
+            "fragmentedgeg":1,
+            "dread":1
+         },
+         "warmup":60,
+         "startdescription":"Nella guerra profetizzata, i Figli della Fiamma Incatenata marciano sulle città del Continente, ma gli 'Interpreti della Legge Solare' e della 'Tripla Sorellanza' uniscono le forze per trattenerli... ad un costo tremendo.",
+         "description":"'Nella battaglia tra le Legioni Imperiture e la Fiamma Incatenata, le Legioni periranno e le fiamme saranno liberate.'",
+         "craftable":true
+      },
+      {
+         "id":"studymanneralchemistspared",
+         "label":"Leggi 'La Maniera nella quale furono Risparmiati gli Alchimisti'",
+         "actionId":"study",
+         "requirements":{
+            "manneralchemistspared":1
+         },
+         "effects":{
+            "manneralchemistspared":-1,
+            "fragmentforgeg":1,
+            "fascination":1
+         },
+         "warmup":60,
+         "startdescription":"Durante i giorni dell'Esoscheletro della Croce, quando l'umanità viveva nell'oscurità e mangiava sulle sue ginocchia, gli uomini potevano entrare nel Mansus come vermi. Uno imparò le arti della Selce, le arti della formazione e della ricostruzione...",
+         "description":"'Tramite il Nero, il Giallo, il Rosso, il Mortale Stolto ascese all'ombra dell'Uovo che si Schiude, e rimase al suo servizio. Potrebbe esserlo ancora ai giorni nostri.'",
+         "craftable":true
+      },
+      {
+         "id":"studyfivecreations",
+         "label":"Leggi 'Cinque Creazioni'",
+         "actionId":"study",
+         "requirements":{
+            "fivecreations":1
+         },
+         "effects":{
+            "fivecreations":-1,
+            "fragmentgrailg":1,
+            "dread":1
+         },
+         "warmup":60,
+         "startdescription":"'LE ORIGINI DELL'ESOSCHELETRO: siamo nati dal guscio, come i figli della vespa da un ragno. LE ORIGINI GLORIOSE: i nostri granelli di vita discendono dalla Luce. LE ORIGINI LORDE: siamo stati trovati nudi e cosparsi di letame tra le radici della Foresta...'",
+         "description":"Tra le teorie preferite di Shohei c'è quella secondo la quale l'umanità proverrebbe dai figli delle scimmie erette, sebbene il suo tono sia satirico; e che non solo avremmo consumato i nostri parenti, 'che non è il Crimine del Cielo', ma anche le nostre origini, cosicché noi verremmo dal Nulla.",
+         "craftable":true
+      },
+      {
+         "id":"studycommandspreservationallexists",
+         "label":"Leggi 'Comandamenti Per La Preservazione di Tutto Ciò Che Esiste'",
+         "actionId":"study",
+         "requirements":{
+            "commandspreservationallexists":1
+         },
+         "effects":{
+            "commandspreservationallexists":-1,
+            "fragmentheartg":1
+         },
+         "warmup":60,
+         "startdescription":"Elie descrive potenti incantesimi protettivi da usare in una grande varietà di circostanze.",
+         "description":"'È essenziale che queste Protezioni siano completate ogni quarto anno, per difendere dall'ingresso dei Vermi e contro l'avidità dell'Onda e della Ferita.' Nella Storia corrente, almeno, non ci sono prove che queste Protezioni siano state utilizzate con regolarità, almeno negli ultimi secoli.",
+         "craftable":true
+      },
+      {
+         "id":"studytimedivision",
+         "label":"Leggi 'Il Tempo della Divisione'",
+         "actionId":"study",
+         "requirements":{
+            "timedivision":1
+         },
+         "effects":{
+            "timedivision":-1,
+            "fragmentlanterng":1,
+            "fascination":1,
+            "dread":1,
+            "riteconsumetoolingredientfollowerinfluence":1
+         },
+         "warmup":60,
+         "startdescription":"Il Sole sarà diviso poiché non può avere figli. Tuttavia, i suoi figli saranno Quattro in numero, i loro figli saranno Sette e i loro figli saranno ancora Innumerati. Gli Innumerati apriranno la strada ai Sette, e i Sette consumeranno i Quattro...'",
+         "description":"Amira profetizza quattro grandi guerre prima della Seconda Alba, quando il Sole-nel-Lusso risorgerà. Essa mette in guardia: 'l'Alba è sangue, e prevedo che il Sole risorgerà dal sangue, ma né dal colore del sangue, né dall'ora della Notte.' Include un rito che, afferma, sarà necessario per la Seconda Alba.",
+         "craftable":true
+      },
+      {
+         "id":"studymanualdeparture",
+         "label":"Leggi 'Un Manuale per la Dipartita'",
+         "actionId":"study",
+         "requirements":{
+            "manualdeparture":1
+         },
+         "effects":{
+            "manualdeparture":-1,
+            "fragmentknockg":1,
+            "dread":1
+         },
+         "warmup":60,
+         "startdescription":"'No, queste porte non dovrebbero essere riportate, ma se avessimo riportato le cose prima di dover abbandonare la Quinta Storia, saremmo in uno stato decisamente migliore. Pertanto ora ne scriverò, e se non ti piacerà potrai sempre sanzionarmi.'",
+         "description":"Il 'Manuale per la Dipartita' elenca una serie di strategie - occulte, marziali e politiche - per rapide fughe. Moltre sono irrilevanti, obsolete o enigmatiche, ma il Manuale include anche un certo numero di potenti tecniche per aprire portali.",
+         "craftable":true
+      },
+      {
+         "id":"studybirdsong",
+         "label":"Leggi 'Il Canto degli Uccelli'",
+         "actionId":"study",
+         "requirements":{
+            "birdsong":1
+         },
+         "effects":{
+            "birdsong":-1,
+            "fragmentmothg":1,
+            "fascination":1,
+            "dread":1
+         },
+         "warmup":60,
+         "startdescription":"INAAM: Non condivise il Corvo della Spiaggia i suoi tesori? GARKIE: Non i più rari. Egli prende le cose più prezione, che dichiara esser trovate, non rubate.",
+         "description":"Il Corvo della Spiaggia, suggerisce Kapigiginlupir, non è solamente un ladro, ma anche una spia e, talvolta, un guardone. Ha nascosto la memoria degli accoppiamenti segreti tra le Ore e i loro Nomi negli angoli della Casa, come tesori di cui gongolarsi. Vi è una speculazione particolarmente febbrile su di una liaison tra il Tasso-Accerchiato, l'ardente ora della Foresta, e la Giumenta-ne-l'Albero, la quale, talvolta, è stata la Sorella della Strega.",
+         "craftable":true
+      },
+      {
+         "id":"studyvoyagesfo",
+         "label":"Leggi 'I Viaggi di Ferninshun da Oreol'",
+         "actionId":"study",
+         "requirements":{
+            "voyagesfo":1
+         },
+         "effects":{
+            "voyagesfo":-1,
+            "fragmentsecrethistoriesg":1
+         },
+         "warmup":60,
+         "startdescription":"Ferninshun ha chiaramente visitato il Mansus, navigando lungo il Fiume Dipinto. Afferma, inoltre, di aver attraversato un mare di finissima sabbia, di aver sfidato le ardenti ondate della superficie del Sole, e di esser sceso fino ad un oceano sotterraneo illuminato da lampade di nefrite nera...",
+         "description":"Il viaggio finale di Ferninshun è verso la pensione in una pacifica isola in mezzo al mare, nella quale egli individua una fonte, le quali acque lo terranno al sicuro. 'Verrò dimenticato', egli dichiara, 'e questo libro resterà la mia unica traccia.'",
+         "craftable":true
+      },
+      {
+         "id":"studyscarsky",
+         "label":"Leggi 'La Ferita nel Cielo'",
+         "actionId":"study",
+         "requirements":{
+            "scarsky":1
+         },
+         "effects":{
+            "scarsky":-1,
+            "fragmentwinterg":1,
+            "dread":1,
+            "riteconsumetoolingredientfollowerinfluence":1
+         },
+         "warmup":60,
+         "startdescription":"Ogni pagina di questo libro contiene una sola parola, ma ogni volta che si gira pagina, s'insinua una consapevolezza.",
+         "description":"L'ultima pagina è affollata. Ogni lettore del libro vi ha scritto la stessa parola. Ora è il mio turno.",
+         "craftable":true
+      },
+      {
+         "id":"studykitlingripe",
+         "label":"Leggi 'Kitling Ripe e la Tomba di Moldywarp (ed Altre Storie)'",
+         "actionId":"study",
+         "requirements":{
+            "kitlingripe":1
+         },
+         "effects":{
+            "kitlingripe":-1,
+            "fragmentmothb":1,
+            "glimmering":1
+         },
+         "warmup":60,
+         "startdescription":"Il protagonista, una cosa muta simile ad un gatto chiamata Kitling Ripe, compie una serie di riti elaborati - per salvare i membri della sua famiglia allargata - che sfociano nella resurrezione della sua 'altra nonna', Moldywarp.",
+         "description":"'Quando la Strega-Serpente uccise il cervo, Kitling prese uno dei suoi occhi. Quando la Strega-Arida uccise la scrofa, Kitling rubò una coppa del suo sangue. Quindi portò il tutto nel luogo dove Moldywarp giaceva sepolta, scosse i suoi capelli, e cominciò a danzare...'",
+         "craftable":true
+      },
+      {
+         "id":"studyraptintheking",
+         "label":"Leggi 'Rapito nel Re'",
+         "actionId":"study",
+         "requirements":{
+            "raptintheking":1
+         },
+         "effects":{
+            "raptintheking":-1,
+            "fragmentheartc":1,
+            "vitality":1
+         },
+         "warmup":60,
+         "startdescription":"Le danze attinsero alle tradizioni dei Misteri, dei culti di Iside e Cibele, ma include anche scorticamenti simbolici e letterali, e il cuore umano è sempre centrale in tutti i riti. L'autore scandisce i suoi resoconti con descrizioni veloci e voluttuose dei suoi banchetti interrotti.",
+         "description":"'In questi Banchetti maggiori, un Maiale Nero viene sempre proclamato Re prima del suo Assassinio. In questa Occasione, il suo Cuore venne pesato sulla Bilancia con un Nodo di Piume, e la sua Pelle divenne un Mantello per l'Officiante. La sua Carne fu lasciata ai Corvi, sebbene debba confessare che il mio Interesse non era nei confronti della Carcassa, quanto nella Profumata Carne del Merciaio posta recentemente nella Terra.'",
+         "craftable":true
+      },
+      {
+         "id":"studyvienneseconundra",
+         "label":"Leggi 'L’Indovinello Viennese'",
+         "actionId":"study",
+         "requirements":{
+            "vienneseconundra":1
+         },
+         "effects":{
+            "vienneseconundra":-1,
+            "fragmentmothc":1,
+            "glimmering":1
+         },
+         "warmup":60,
+         "startdescription":"'Quando l'individuo K. partecipa alle riunioni, vengono sacrificati e squartati cani neri. Quando l'individuo M. è al servizio, giumente nere vengono trovate sgozzate. Ritengo che questi sacrifici non siano necessari, ma che i nostri amici Ligei possano considerarli 'adeguati'. Qui di seguito i diagrammi delle mutilazioni...'",
+         "description":"'L'Enigma di Medusa, pertanto, preferisco ridurlo a 'Cosa Non È Visto?' Vi è un altro enigma, uno che ho sentito pronunciato come 'Cosa può essere Perso?' Delineerò la storia di alcuni tentativi di offrire una risposta: questi sono, in un certo senso, sacrifici...'",
+         "craftable":true
+      },
+      {
+         "id":"studytextbooklatin",
+         "label":"Migliora il mio Latino",
+         "actionId":"study",
+         "requirements":{
+            "textbooklatin":1
+         },
+         "effects":{
+            "textbooklatin":-1,
+            "scholarlatin":1
+         },
+         "startdescription":"Ricordo ancora qualcosa dai miei studi liceali, ma ho bisogno di ripetere.",
+         "description":"Le porte del palazzo della memoria sono aperte.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytextbookgreek",
+         "label":"Migliora il mio Greco",
+         "actionId":"study",
+         "requirements":{
+            "textbookgreek":1
+         },
+         "effects":{
+            "textbookgreek":-1,
+            "scholargreek":1
+         },
+         "startdescription":"Naturalmente conosco già un po' di Greco. Ma necessito di qualcosa di più.",
+         "description":"Una lingua determinata e particolare. Ma ne conosco le misure.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytextbookaramaic",
+         "label":"Migliora il mio Aramaico",
+         "actionId":"study",
+         "requirements":{
+            "textbookaramaic":1
+         },
+         "effects":{
+            "textbookaramaic":-1,
+            "scholararamaic":1
+         },
+         "startdescription":"Non c'è, ovviamente, un solo 'Aramaico', ma imparerò ciò che posso.",
+         "description":"Ho raggiunto un livello di comprensione elementare.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytextbooksanskrit",
+         "label":"Migliora il mio Sanscrito",
+         "actionId":"study",
+         "requirements":{
+            "textbooksanskrit":1
+         },
+         "effects":{
+            "textbooksanskrit":-1,
+            "scholarsanskrit":1
+         },
+         "startdescription":"Il nome è traducibile con 'la lingua perfezionata'.",
+         "description":"Così tante parole, così poco tempo. Terrò i manuali di riferimento a portata di mano.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytextbookfucine",
+         "label":"Sviluppa una conoscenza della lingua Fucina",
+         "actionId":"study",
+         "requirements":{
+            "textbookfucine":1
+         },
+         "effects":{
+            "textbookfucine":-1,
+            "scholarfucine":1
+         },
+         "startdescription":"Ha qualcosa in comune con il Latino e con il graffiare dei ratti impazziti.",
+         "description":"In certi punti si sovrappone ad alcune lingue che conosco. In altri punti... beh, posso capire perché la chiamino 'la lingua delle streghe'. Ma ora posso comprenderlo abbastanza bene.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytextbookphrygian",
+         "label":"Impara le basi del Frigio",
+         "actionId":"study",
+         "requirements":{
+            "textbookphrygian":1
+         },
+         "effects":{
+            "textbookphrygian":-1,
+            "scholarphrygian":1
+         },
+         "startdescription":"Il Frigio, la lingua di Mida, di Tecmessa, dei preti di Cibele.",
+         "description":"Qualcosa in questa lingua agita il sangue. Forse è meglio che nessuno ricordi i suoi suoni perduti.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytextbookmandaic",
+         "label":"Impara qualcosa sul Basso Mandaico",
+         "actionId":"study",
+         "requirements":{
+            "textbookmandaic":1
+         },
+         "effects":{
+            "textbookmandaic":-1,
+            "scholarmandaic":1
+         },
+         "startdescription":"Il Mandaico è la lingua di una setta Gnostica delle zone più remote della Persia. Il Basso Mandaico rimane la lingua di una setta all'interno di quella setta, ma un tempo fu parlata dagli adepti.",
+         "description":"Questa lingua ha quel tanto in comune con l'Aramaico da rendere i miei studi possibili, ma non facili.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytextbookvak",
+         "label":"Acquisisci qualche nozione di Vak",
+         "actionId":"study",
+         "requirements":{
+            "textbookvak":1
+         },
+         "effects":{
+            "textbookvak":-1,
+            "scholarvak":1
+         },
+         "startdescription":"Le Ore parlano? Se lo facessero, questa potrebbe essere la lingua utilizzata.",
+         "description":"È stato detto che nessuno impara il Vak, ma che, piuttosto, si arriva a conoscerlo. Bene, ora ci conosciamo un po' di più.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytextbookreason",
+         "label":"Migliora la mia Ragione",
+         "actionId":"study",
+         "requirements":{
+            "textbookreason":1
+         },
+         "effects":{
+            "textbookreason":-1,
+            "eruditionplus":1
+         },
+         "startdescription":"Esercizi per l'intelletto.",
+         "description":"Possibilità...",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studytextbookpassion",
+         "label":"Leggi Poesie",
+         "actionId":"study",
+         "requirements":{
+            "textbookpassion":1
+         },
+         "effects":{
+            "textbookpassion":-1,
+            "glimmeringplus":1
+         },
+         "startdescription":"Alimenterò le fiamme della mia immaginazione.",
+         "description":"Barlumi...",
+         "warmup":60,
+         "craftable":true
+      }
+   ]
+}

@@ -1,0 +1,342 @@
+{
+   "recipes":[
+      {
+         "id":"workapostleforgejob",
+         "label":"Considera le Risorse",
+         "actionId":"work",
+         "requirements":{
+            "legacyapostleforgejob":1
+         },
+         "effects":{
+            "funds":7,
+            "legacyapostleforgejob":-1
+         },
+         "alt":[
+            {
+               "id":"apostleforgeopentalk",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "startdescription":"La nostra organizzazione possiede risorse...",
+         "description":"...sufficienti, per il momento, ma avrò bisogno di trovare altri mezzi di sostentamento.",
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"apostleforgeopentalk",
+         "label":"La Nostra Causa",
+         "actionId":"talk",
+         "requirements":{},
+         "startdescription":"Non sono solo.",
+         "alt":[
+            {
+               "id":"apostleforgeopenstudy",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "description":"I miei alleati; il mio Forgiatore.",
+         "effects":{
+            "lever_LastCult":1,
+            "lever_LastFollower":1,
+            "apostleforge.mentor":1
+         },
+         "warmup":10,
+         "craftable":false,
+         "linked":[
+            {
+               "id":"begincultfoundation",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"apostleforgeopenstudy",
+         "label":"Cosa mi ricordo?",
+         "actionId":"study",
+         "startdescription":"Mi sono stati concessi dei segreti.",
+         "alt":[
+            {
+               "id":"apostleforgeopenexplore",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "effects":{
+            "fragmentforgef":1,
+            "reason":1,
+            "waywood":1,
+            "waywhite":1,
+            "waystag_after":1
+         },
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"apostleforgeopenexplore",
+         "label":"Un Luogo per Cominciare",
+         "actionId":"explore",
+         "startdescription":"Dov'eravamo rimasti?",
+         "description":"Nel luogo del nostro incontro, rifletterò sugli ordini che ho ricevuto.",
+         "alt":[
+            {
+               "id":"apostleforgeopendream",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "effects":{
+            "apostleforge.pillar1":1,
+            "hq.temporary":1
+         },
+         "warmup":10,
+         "craftable":false
+      },
+      {
+         "id":"apostleforgeopendream",
+         "label":"Tuono Distante",
+         "actionId":"dream",
+         "startdescription":"Cosa sta arrivando? Chi sta arrivando?",
+         "description":"Il nostro Forgiatore desidera cambiare l’ordine del mondo, e perfino del Mansus. Ci saranno resistenze.",
+         "warmup":60,
+         "effects":{
+            "passion":1
+         },
+         "craftable":false,
+         "alt":[
+            {
+               "id":"long.spawn.forge",
+               "chance":100,
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"workapostlegrailjob",
+         "label":"Considera le Risorse",
+         "actionId":"work",
+         "requirements":{
+            "legacyapostlegrailjob":1
+         },
+         "effects":{
+            "funds":7,
+            "legacyapostlegrailjob":-1,
+            "apostlegrail.pillar2.dormant":1,
+            "apostlegrail.pillarfuel":1
+         },
+         "alt":[
+            {
+               "id":"apostlegrailopentalk",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "startdescription":"La nostra organizzazione possiede risorse...",
+         "description":"...sufficienti, per il momento, ma avrò bisogno di trovare altri mezzi di sostentamento. E la mia salute è molto cattiva, ora. Posso solo sperare che la nostra Delizia mi sostenga.",
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"apostlegrailopentalk",
+         "label":"La Nostra Causa",
+         "actionId":"talk",
+         "requirements":{},
+         "startdescription":"Non sono solo.",
+         "alt":[
+            {
+               "id":"apostlegrailopenstudy",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "description":"I miei alleati; la mia Delizia.",
+         "effects":{
+            "lever_LastCult":1,
+            "lever_LastFollower":1,
+            "apostlegrail.mentor":1
+         },
+         "warmup":10,
+         "craftable":false,
+         "linked":[
+            {
+               "id":"begincultfoundation",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"apostlegrailopenstudy",
+         "label":"Cosa mi ricordo?",
+         "actionId":"study",
+         "startdescription":"Mi sono stati concessi dei segreti.",
+         "alt":[
+            {
+               "id":"apostlegrailopenexplore",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "effects":{
+            "fragmentgrailf":1,
+            "reason":1,
+            "waywood":1,
+            "waywhite":1,
+            "waystag_after":1
+         },
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"apostlegrailopenexplore",
+         "label":"Un Luogo per Cominciare",
+         "actionId":"explore",
+         "startdescription":"Dov'eravamo rimasti?",
+         "description":"Nel luogo del nostro incontro, rifletterò sugli ordini che ho ricevuto.",
+         "alt":[
+            {
+               "id":"apostlegrailopendream",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "effects":{
+            "apostlegrail.pillar1":1,
+            "hq.temporary":1
+         },
+         "warmup":10,
+         "craftable":false
+      },
+      {
+         "id":"apostlegrailopendream",
+         "label":"Luce Distante",
+         "actionId":"dream",
+         "startdescription":"Cosa sta arrivando? Chi sta arrivando?",
+         "description":"La nostra Delizia desidera cambiare l’ordine del mondo, e perfino del Mansus. Ci saranno resistenze.",
+         "warmup":60,
+         "effects":{
+            "passion":1
+         },
+         "craftable":false,
+         "alt":[
+            {
+               "id":"long.spawn.grail",
+               "chance":100,
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"workapostlelanternjob",
+         "label":"Cosa Devo Fare",
+         "actionId":"work",
+         "requirements":{
+            "legacyapostlelanternjob":1
+         },
+         "effects":{
+            "funds":7,
+            "legacyapostlelanternjob":-1,
+            "apostlelantern.pillar1":1
+         },
+         "alt":[
+            {
+               "id":"apostlelanternopentalk",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "startdescription":"Ritorno in me stesso con un punto di partenza. Stavo sognando ad occhi aperti?",
+         "description":"Qui c’è un pacchetto, pieno di fondi. Qui ci sono le mie istruzioni, in una sottile busta color blu cielo. È abbastanza. Gli altri ricordi non sono importanti, per ora.",
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"apostlelanternopentalk",
+         "label":"La Nostra Causa",
+         "actionId":"talk",
+         "requirements":{},
+         "startdescription":"Ricordo questi nomi, sebbene non li abbia mai sentiti pronunciare.",
+         "alt":[
+            {
+               "id":"apostlelanternopenstudy",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "description":"I miei alleati, il mio Illuminato.",
+         "effects":{
+            "lever_LastCult":1,
+            "lever_LastFollower":1,
+            "apostlelantern.mentor":1
+         },
+         "warmup":10,
+         "craftable":false,
+         "linked":[
+            {
+               "id":"begincultfoundation",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"apostlelanternopenstudy",
+         "label":"Cosa mi ricordo?",
+         "actionId":"study",
+         "startdescription":"Mi sono stati concessi dei segreti.",
+         "alt":[
+            {
+               "id":"apostlelanternopenexplore",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "effects":{
+            "fragmentlanternf":1,
+            "reason":1,
+            "waywood":1,
+            "waywhite":1,
+            "waystag_after":1
+         },
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"apostlelanternopenexplore",
+         "label":"Un Luogo per Cominciare",
+         "actionId":"explore",
+         "startdescription":"Dov'eravamo rimasti?",
+         "description":"Questo è il luogo che vidi, nella luce al confine del sogno.",
+         "alt":[
+            {
+               "id":"apostlelanternopendream",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "effects":{
+            "hq.temporary":1
+         },
+         "warmup":10,
+         "craftable":false
+      },
+      {
+         "id":"apostlelanternopendream",
+         "label":"Luce Distante",
+         "actionId":"dream",
+         "startdescription":"Cosa sta arrivando? Chi sta arrivando?",
+         "description":"I sogni mi avevano avvisato che ci sarebbe stata opposizione all’Illuminato. Tutti i sogni che mi vengono mandati sono veri.",
+         "warmup":60,
+         "effects":{
+            "passion":1
+         },
+         "craftable":false,
+         "alt":[
+            {
+               "id":"long.spawn.lantern",
+               "chance":100,
+               "additional":true
+            }
+         ]
+      }
+   ]
+}

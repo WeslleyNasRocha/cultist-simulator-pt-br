@@ -1,0 +1,303 @@
+{
+   "recipes":[
+      {
+         "id":"explore_vaultcapital1_setup",
+         "label":"Comincia una Spedizione: Residenza di Strathcoyne",
+         "actionId":"explore",
+         "requirements":{
+            "vaultcapital1":1,
+            "funds":1,
+            "follower":1
+         },
+         "effects":{
+            "guardian_watchers":1
+         },
+         "startdescription":"Il Signor Strathcoyne ha proibito l'ingresso alla sua libreria. Sfortunatamente. Vediamo cosa possiamo farci. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultcapital2_setup",
+         "label":"Comincia una Spedizione: il Mitreo Dimenticato",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultcapital2":1
+         },
+         "effects":{
+            "seal_hiddendoor":1
+         },
+         "startdescription":"Sono convinto che il Mitreo contenga ancora segreti che i suoi scopritori non trovarono mai. È difficile che sia pericoloso, ma la ricerca avrà bisogno di fondi. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultcapital3_setup",
+         "label":"Comincia una Spedizione: Cater & Hero Limited",
+         "actionId":"explore",
+         "requirements":{
+            "vaultcapital3":1,
+            "funds":1,
+            "follower":1
+         },
+         "effects":{
+            "peril_treacherousground":1
+         },
+         "startdescription":"I resti delle mura della fabbrica potrebbero crollare in qualsiasi momento. Travi annerite scricchiolano paurosamente. Dobbiamo equipaggiarci adeguatamente e muoverci con terribile cura. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultcapital4_setup",
+         "label":"Comincia una Spedizione: Ospedale Sant’Agnese",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultcapital4":1
+         },
+         "effects":{
+            "curse_dread":1
+         },
+         "startdescription":"Solo l'eco abita i corridoi dell'ospedale ora, ma la malvagità ristagna nell'aria. Dobbiamo cercare meticolosamente, stanza per stanza. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultcapital5_setup",
+         "label":"Comincia una Spedizione: Congrega di San Felix di Schüren",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultcapital5":1
+         },
+         "effects":{
+            "guardian_monks":1
+         },
+         "startdescription":"L'ingresso nella Congrega è controllato a vista. Può anche essere ereditato. L'approccio più sicuro è rapinare la casa del reverendo del culto mentre sta conducendo messa - ma le madri giurate della Congrega controllano il luogo a turno, e non sono facilmente distraibili. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultcapitaldefault_setup",
+         "label":"Comincia una Spedizione: La Distanza Abbandonata",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultcapitaldefault":1
+         },
+         "effects":{
+            "peril_treacherousground":1,
+            "guardian_watchers":1
+         },
+         "startdescription":"La legge non tocca questo decadente margine della città. Il fango qui si è preso molte vite, inoltre ci saranno sicuramente degli infelici criminali, o altre sorprese, nel magazzino. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explorevaultcapital1_success",
+         "label":"I Tesori di Strathcoyne",
+         "actionId":"explore",
+         "requirements":{
+            "vaultcapital1":1
+         },
+         "effects":{
+            "vaultcapital1":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "wainscothistories",
+               "textbookfucine",
+               "travellingatnight3",
+               "locksmithsdream4",
+               "treatiseonunderplaces"
+            ],
+            "draws":5,
+            "defaultcard":"compensationb",
+            "resetonexhaustion":false
+         },
+         "startdescription":"L'accogliente santuario di Strathcoyne. Un fuoco cova nella grata. Espositori di vetro proteggono oggetti di potere conquistati con la fatica. Dobbiamo prendere ciò che possiamo, veloemente! Strathcoyne potrebbe aver già chiamato la polizia.",
+         "description":"Fuori, nella notte! Fuggiamo senza esser visti, ma il giorno seguente è pieno di articoli che parlano di un incedio alla residenza di Strathcoyne. Che qualcuno di noi abbia calciato un carbone ardente sul tappeto? O forse Strathcoyne ha distrutto il luogo come parte di uno schema più grande?",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultcapital2_success",
+         "label":"Il Santuario Inferiore",
+         "actionId":"explore",
+         "requirements":{
+            "vaultcapital2":1
+         },
+         "effects":{
+            "vaultcapital2":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "ingredientlanternb",
+               "toolwinterd",
+               "toollanternbcracked",
+               "hq.mithraeum.potential"
+            ],
+            "draws":4,
+            "defaultcard":"compensationb",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Uno spazio solitario, stantio a causa della memoria del sangue. Abbiamo trovato la porta nascosta che utilizzavano i più alti gradi degli iniziati.",
+         "description":"L'altare si inclina all'indietro, come una mandibola. Dietro c'è il suo spazio piramidale nel quale solamente i cacciatori del Sole e i datori dell'Alba potevano andare... ma qualcun'altro è già stato qua, recentemente. Ha lasciato i suoi tesori.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultcapital3_success",
+         "label":"Ufficio di Cater",
+         "actionId":"explore",
+         "requirements":{
+            "vaultcapital3":1
+         },
+         "effects":{
+            "vaultcapital3":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "toolheartb",
+               "ingredientgrailb",
+               "franklinbancroftdiarieslatin",
+               "apolloandmarsyas",
+               "hq.warehouse.potential"
+            ],
+            "draws":5,
+            "defaultcard":"compensationb",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Eccoci, nella grande stanza dalla quale Mr. Cater, un tempo, guardava i lavoratori del piano sottostante. La vetrata è rotta da tempo, ratti e corvi hanno fatto di questo luogo il loro campo di battaglia, ma forse c'è ancora qualcosa di utile qua dentro...",
+         "description":"Due assi del pavimento si alzano per rivelare uno spazio al di sotto della scrivania di Cater! I ratti hanno fatto fuori i biscotti tenuti per la fame improvvisa che insegue l'imprenditore, ma non sono potuti penetrare fino a questa scatola di ferro. Con un piede di porco si aprirà in un attimo.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultcapital4_success",
+         "label":"Le Stanze Viola",
+         "actionId":"explore",
+         "requirements":{
+            "vaultcapital4":1
+         },
+         "effects":{
+            "vaultcapital4":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "toolgrailb",
+               "ingredientheartb",
+               "locksmithsdream3",
+               "roseofhypatiagreek",
+               "hq.hospital.potential"
+            ],
+            "draws":5,
+            "defaultcard":"compensationb",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Che cos'era questo luogo? La porta non reca alcun cartello. Non ci sono finestre. Le mura sono dipinte di un ricco violetto - ricco anche dopo il passaggio della pioggia per il soffitto danneggiato. Una sedia putrescente perde brandelli di pelle dai braccioli. Il pavimento è di porcellana, e scanalato.",
+         "description":"C'è una credenza chiusa a chiave sul muro: non resiste a lungo alla nostra insistenza. Contiene strumenti appuntiti di vetro ed ossidiana - strumenti che non ci si aspetterebbe da un chirurgo. Contiene anche altri oggetti interessanti...",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultcapital5_success",
+         "label":"Devozioni Segrete",
+         "actionId":"explore",
+         "requirements":{
+            "vaultcapital5":1
+         },
+         "effects":{
+            "vaultcapital5":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "roseofnurielgreek",
+               "roseofwazneigreek",
+               "chioneatabydos",
+               "debellismurorum",
+               "textbookgreek",
+               "hq.church.potential"
+            ],
+            "draws":6,
+            "defaultcard":"compensationb",
+            "resetonexhaustion":false
+         },
+         "startdescription":"La camera da letto del reverendo è grande nelle proporzioni, ma povera nei mobili. Dietro alla finestra, un'ascia piumata ornamentale giace affiancata ad un calice-tamburo smaltato, il tutto su di un piccolo altare in legno di tasso.",
+         "description":"Dietro all'altare, in una scatola chiusa con un complicato triplo nodo, troviamo qualche libro - ed inoltre - un coltello incrostato di sangue vecchio, un panno accartocciato e i resti di pelle di ciò che il reverendo ha offerto durante la sua ordinazione.",
+         "warmup":30,
+         "craftable":false,
+         "alt":[
+            {
+               "id":"expedition.corpse.find.vaultcapital5",
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"explorevaultcapitaldefault_success",
+         "label":"Una Consegna Ritardata",
+         "actionId":"explore",
+         "requirements":{
+            "vaultcapitaldefault":1
+         },
+         "effects":{
+            "vaultcapitaldefault":-1,
+            "funds":1
+         },
+         "deckeffects":{
+            "vaultrewardsa":3
+         },
+         "startdescription":"Una porta barrata, uno spazio angusto, un carico nascosto.",
+         "description":"Gli osservatori stavano facendo la guardia a delle casse con il tipico marchio dei ladri. Questa non era un'operazione legale: i proprietari di questo carico potrebbero non essere felici delle nostre ingerenze.",
+         "warmup":30,
+         "craftable":false
+      }
+   ]
+}

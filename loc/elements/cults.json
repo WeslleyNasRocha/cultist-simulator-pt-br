@@ -1,0 +1,472 @@
+{
+   "elements":[
+      {
+         "id":"cultedge_1",
+         "label":"Chiesa del Radioso Margine",
+         "aspects":{
+            "society":1,
+            "venerationedge":1
+         },
+         "slots":[
+            {
+               "id":"Associate",
+               "label":"Associa",
+               "actionId":"talk",
+               "required":{
+                  "mortal":1
+               },
+               "forbidden":{
+                  "hunter":1,
+                  "hireling":1,
+                  "prisoner":1
+               },
+               "description":"Una nuova recluta, o un discepolo temprato."
+            },
+            {
+               "id":"Ceremony",
+               "label":"Cerimonia",
+               "actionId":"talk",
+               "required":{
+                  "lore":1
+               },
+               "description":"Per reclutare un novizio ho solo bisogno di un piccolo segreto. I misteri più alti necessitano di giuramenti più profondi."
+            },
+            {
+               "id":"Trappings",
+               "label":"Simboli",
+               "actionId":"talk",
+               "required":{
+                  "tool":1,
+                  "ingredient":1,
+                  "influence":1
+               },
+               "description":"Per cogliere appieno il significato della circostanza. Consuma Ingredienti e Influssi; usa, ma non consuma, gli Strumenti."
+            }
+         ],
+         "description":"Una società occulta devota alle Ore che lottano e conquistano. [Puoi usare i Culti con il verbo Parlare per reclutare o promuovere un discepolo e per mandarli fuori a fare commissioni per ricavare risorse. Un Credente può essere promosso a Discepolo; pochi, dotati, Discepoli possono essere esaltati  e divenire Assassini.]",
+         "unique":true
+      },
+      {
+         "id":"cultforge_1",
+         "label":"Ordine Inflessibile",
+         "aspects":{
+            "society":1,
+            "venerationforge":1
+         },
+         "slots":[
+            {
+               "id":"Associate",
+               "label":"Associa",
+               "actionId":"talk",
+               "required":{
+                  "mortal":1
+               },
+               "forbidden":{
+                  "hunter":1,
+                  "hireling":1,
+                  "prisoner":1
+               },
+               "description":"Una nuova recluta, o un discepolo temprato."
+            },
+            {
+               "id":"Ceremony",
+               "label":"Cerimonia",
+               "actionId":"talk",
+               "required":{
+                  "lore":1
+               },
+               "description":"Per reclutare un novizio ho solo bisogno di un piccolo segreto. I misteri più alti necessitano di giuramenti più profondi."
+            },
+            {
+               "id":"Trappings",
+               "label":"Simboli",
+               "actionId":"talk",
+               "required":{
+                  "tool":1,
+                  "ingredient":1,
+                  "influence":1
+               },
+               "description":"Per cogliere appieno il significato della circostanza. Consuma Ingredienti e Influssi; usa, ma non consuma, gli Strumenti."
+            }
+         ],
+         "description":"Una società occulta devota al fuoco che muta e ricostruisce. [Puoi usare i Culti con il verbo Parlare per reclutare o promuovere un discepolo e per mandarli fuori a fare commissioni per ricavare risorse. Un Credente può essere promosso a Discepolo; pochi, dotati, Discepoli possono essere esaltati e divenire Mutaforma.]",
+         "unique":true
+      },
+      {
+         "id":"cultgrail_1",
+         "label":"Ordine della Coppa Sanguinante",
+         "aspects":{
+            "society":1,
+            "venerationgrail":1
+         },
+         "slots":[
+            {
+               "id":"Associate",
+               "label":"Associa",
+               "actionId":"talk",
+               "required":{
+                  "mortal":1
+               },
+               "forbidden":{
+                  "hunter":1,
+                  "hireling":1,
+                  "prisoner":1
+               },
+               "description":"Una nuova recluta, o un discepolo temprato."
+            },
+            {
+               "id":"Ceremony",
+               "label":"Cerimonia",
+               "actionId":"talk",
+               "required":{
+                  "lore":1
+               },
+               "description":"Per reclutare un novizio ho solo bisogno di un piccolo segreto. I misteri più alti necessitano di giuramenti più profondi."
+            },
+            {
+               "id":"Trappings",
+               "label":"Simboli",
+               "actionId":"talk",
+               "required":{
+                  "tool":1,
+                  "ingredient":1,
+                  "influence":1
+               },
+               "description":"Per cogliere appieno il significato della circostanza. Consuma Ingredienti e Influssi; usa, ma non consuma, gli Strumenti."
+            }
+         ],
+         "description":"Una società occulta devota ai misteri della nascita, del sangue e dell’appetito. [Puoi usare i Culti con il verbo Parlare per reclutare o promuovere un discepolo e per mandarli fuori a fare commissioni per ricavare risorse. Un Credente può essere promosso a Discepolo; pochi, dotati, Discepoli possono essere esaltati e divenire Cipriani.]",
+         "unique":true
+      },
+      {
+         "id":"cultheart_1",
+         "label":"Tempio Incessante",
+         "aspects":{
+            "society":1,
+            "venerationheart":1
+         },
+         "slots":[
+            {
+               "id":"Associate",
+               "label":"Associa",
+               "actionId":"talk",
+               "required":{
+                  "mortal":1
+               },
+               "forbidden":{
+                  "hunter":1,
+                  "hireling":1,
+                  "prisoner":1
+               },
+               "description":"Una nuova recluta, o un discepolo temprato."
+            },
+            {
+               "id":"Ceremony",
+               "label":"Cerimonia",
+               "actionId":"talk",
+               "required":{
+                  "lore":1
+               },
+               "description":"Per reclutare un novizio ho solo bisogno di un piccolo segreto. I misteri più alti necessitano di giuramenti più profondi."
+            },
+            {
+               "id":"Trappings",
+               "label":"Simboli",
+               "actionId":"talk",
+               "required":{
+                  "tool":1,
+                  "ingredient":1,
+                  "influence":1
+               },
+               "description":"Per cogliere appieno il significato della circostanza. Consuma Ingredienti e Influssi; usa, ma non consuma, gli Strumenti."
+            }
+         ],
+         "description":"Una società occulta devota al rullo di tamburi che non potrà mai finire. [Puoi usare i Culti con il verbo Parlare per reclutare o promuovere un discepolo e per mandarli fuori a fare commissioni per ricavare risorse. Un Credente può essere promosso a Discepolo; pochi, dotati, Discepoli possono essere esaltati e divenire Tarantellisti.]",
+         "unique":true
+      },
+      {
+         "id":"cultknock_1",
+         "label":"Società della Sacra Ferita",
+         "aspects":{
+            "society":1,
+            "venerationknock":1
+         },
+         "slots":[
+            {
+               "id":"Associate",
+               "label":"Associa",
+               "actionId":"talk",
+               "required":{
+                  "mortal":1
+               },
+               "forbidden":{
+                  "hunter":1,
+                  "hireling":1,
+                  "prisoner":1
+               },
+               "description":"Una nuova recluta, o un discepolo temprato."
+            },
+            {
+               "id":"Ceremony",
+               "label":"Cerimonia",
+               "actionId":"talk",
+               "required":{
+                  "lore":1
+               },
+               "description":"Per reclutare un novizio ho solo bisogno di un piccolo segreto. I misteri più alti necessitano di giuramenti più profondi."
+            },
+            {
+               "id":"Trappings",
+               "label":"Simboli",
+               "actionId":"talk",
+               "required":{
+                  "tool":1,
+                  "ingredient":1,
+                  "influence":1
+               },
+               "description":"Per cogliere appieno il significato della circostanza. Consuma Ingredienti e Influssi; usa, ma non consuma, gli Strumenti."
+            }
+         ],
+         "description":"Una società occulta devota alle Ore che aprono le porte. [Puoi usare i Culti con il verbo Parlare per reclutare o promuovere un discepolo e per mandarli fuori a fare commissioni per ricavare risorse. Un Credente può essere promosso a Discepolo; pochi, dotati, Discepoli possono essere esaltati e divenire Chiavi.]",
+         "unique":true
+      },
+      {
+         "id":"cultlantern_1",
+         "label":"Specchio della Gloria",
+         "aspects":{
+            "society":1,
+            "venerationlantern":1
+         },
+         "slots":[
+            {
+               "id":"Associate",
+               "label":"Associa",
+               "actionId":"talk",
+               "required":{
+                  "mortal":1
+               },
+               "forbidden":{
+                  "hunter":1,
+                  "hireling":1,
+                  "prisoner":1
+               },
+               "description":"Una nuova recluta, o un discepolo temprato."
+            },
+            {
+               "id":"Ceremony",
+               "label":"Cerimonia",
+               "actionId":"talk",
+               "required":{
+                  "lore":1
+               },
+               "description":"Per reclutare un novizio ho solo bisogno di un piccolo segreto. I misteri più alti necessitano di giuramenti più profondi."
+            },
+            {
+               "id":"Trappings",
+               "label":"Simboli",
+               "actionId":"talk",
+               "required":{
+                  "tool":1,
+                  "ingredient":1,
+                  "influence":1
+               },
+               "description":"Per cogliere appieno il significato della circostanza. Consuma Ingredienti e Influssi; usa, ma non consuma, gli Strumenti."
+            }
+         ],
+         "description":"Una società occulta devota alla comprensione della Luce che trapela da un luogo più feroce. [Puoi usare i Culti con il verbo Parlare per reclutare o promuovere un discepolo e per mandarli fuori a fare commissioni per ricavare risorse. Un Credente può essere promosso a Discepolo; pochi, dotati, Discepoli possono essere esaltati e divenire Veggenti.]",
+         "unique":true
+      },
+      {
+         "id":"cultmoth_1",
+         "label":"Wildwood Club",
+         "aspects":{
+            "society":1,
+            "venerationmoth":1
+         },
+         "slots":[
+            {
+               "id":"Associate",
+               "label":"Associa",
+               "actionId":"talk",
+               "required":{
+                  "mortal":1
+               },
+               "forbidden":{
+                  "hunter":1,
+                  "hireling":1,
+                  "prisoner":1
+               },
+               "description":"Una nuova recluta, o un discepolo temprato."
+            },
+            {
+               "id":"Ceremony",
+               "label":"Cerimonia",
+               "actionId":"talk",
+               "required":{
+                  "lore":1
+               },
+               "description":"Per reclutare un novizio ho solo bisogno di un piccolo segreto. I misteri più alti necessitano di giuramenti più profondi."
+            },
+            {
+               "id":"Trappings",
+               "label":"Simboli",
+               "actionId":"talk",
+               "required":{
+                  "tool":1,
+                  "ingredient":1,
+                  "influence":1
+               },
+               "description":"Per cogliere appieno il significato della circostanza. Consuma Ingredienti e Influssi; usa, ma non consuma, gli Strumenti."
+            }
+         ],
+         "description":"Una società occulta devota al caos, e le Ore impreviste. [Puoi usare i Culti con il verbo Parlare per reclutare o promuovere un discepolo e per mandarli fuori a fare commissioni per ricavare risorse. Un Credente può essere promosso a Discepolo; pochi, dotati, Discepoli possono essere esaltati e divenire Scioglipelle.]",
+         "unique":true
+      },
+      {
+         "id":"cultsecrethistories_1",
+         "label":"Società di Sant’Idra",
+         "aspects":{
+            "society":1,
+            "venerationedge":1,
+            "venerationforge":1,
+            "venerationgrail":1,
+            "venerationheart":1,
+            "venerationlantern":1,
+            "venerationknock":1,
+            "venerationmoth":1,
+            "venerationwinter":1
+         },
+         "slots":[
+            {
+               "id":"Associate",
+               "label":"Associa",
+               "actionId":"talk",
+               "required":{
+                  "mortal":1
+               },
+               "forbidden":{
+                  "hunter":1,
+                  "hireling":1,
+                  "prisoner":1
+               },
+               "description":"Una nuova recluta, o un discepolo temprato."
+            },
+            {
+               "id":"Ceremony",
+               "label":"Cerimonia",
+               "actionId":"talk",
+               "required":{
+                  "lore":1
+               },
+               "description":"I misteri più alti necessitano di giuramenti più profondi."
+            },
+            {
+               "id":"Trappings",
+               "label":"Simboli",
+               "actionId":"talk",
+               "required":{
+                  "tool":1,
+                  "ingredient":1,
+                  "influence":1
+               },
+               "description":"Per cogliere appieno il significato della circostanza. Consuma Ingredienti e Influssi; usa, ma non consuma, gli Strumenti."
+            }
+         ],
+         "description":"Una società occulta devota allo studio delle cinque Storie e delle loro migliaia di diramazioni semi-reali. [Sant’Idra, generalmente, ti permette di usare un qualsiasi aspetto per promuovere un Credente; ma non ha specialisti Esaltati.]",
+         "unique":true
+      },
+      {
+         "id":"cultwinter_1",
+         "label":"Figli del Silenzio",
+         "aspects":{
+            "society":1,
+            "venerationwinter":1
+         },
+         "slots":[
+            {
+               "id":"Associate",
+               "label":"Associa",
+               "actionId":"talk",
+               "required":{
+                  "mortal":1
+               },
+               "forbidden":{
+                  "hunter":1,
+                  "hireling":1,
+                  "prisoner":1
+               },
+               "description":"Una nuova recluta, o un discepolo temprato."
+            },
+            {
+               "id":"Ceremony",
+               "label":"Cerimonia",
+               "actionId":"talk",
+               "required":{
+                  "lore":1
+               },
+               "description":"Per reclutare un novizio ho solo bisogno di un piccolo segreto. I misteri più alti necessitano di giuramenti più profondi."
+            },
+            {
+               "id":"Trappings",
+               "label":"Simboli",
+               "actionId":"talk",
+               "required":{
+                  "tool":1,
+                  "ingredient":1,
+                  "influence":1
+               },
+               "description":"Per cogliere appieno il significato della circostanza. Consuma Ingredienti e Influssi; usa, ma non consuma, gli Strumenti."
+            }
+         ],
+         "description":"Una società occulta devota al silenzio che arriva e al freddo che conclude. [Puoi usare i Culti con il verbo Parlare per reclutare o promuovere un discepolo e per mandarli fuori a fare commissioni per ricavare risorse. Un Credente può essere promosso a Discepolo; pochi, dotati, Discepoli possono essere esaltati ed arrivare ad una condizione di silenzio letale.]",
+         "unique":true
+      },
+      {
+         "id":"cultwinter_2",
+         "label":"Torri della Colomba",
+         "aspects":{
+            "society":1,
+            "venerationwinter":1
+         },
+         "slots":[
+            {
+               "id":"Associate",
+               "label":"Associa",
+               "actionId":"talk",
+               "required":{
+                  "mortal":1
+               },
+               "forbidden":{
+                  "hunter":1,
+                  "hireling":1,
+                  "prisoner":1
+               },
+               "description":"Una nuova recluta, o un discepolo temprato."
+            },
+            {
+               "id":"Ceremony",
+               "label":"Cerimonia",
+               "actionId":"talk",
+               "required":{
+                  "lore":1
+               },
+               "description":"Per reclutare un novizio ho solo bisogno di un piccolo segreto. I misteri più alti necessitano di giuramenti più profondi."
+            },
+            {
+               "id":"Trappings",
+               "label":"Simboli",
+               "actionId":"talk",
+               "required":{
+                  "tool":1,
+                  "ingredient":1,
+                  "influence":1
+               },
+               "description":"Per cogliere appieno il significato della circostanza. Consuma Ingredienti e Influssi; usa, ma non consuma, gli Strumenti."
+            }
+         ],
+         "description":"Una società occulta devota a tutto ciò che è stato perso, e a ciò che potrebbe ancora tornare. [Puoi usare i Culti con il verbo Parlare per reclutare o promuovere un discepolo e per mandarli fuori a fare commissioni per ricavare risorse. Un Credente può essere promosso a Discepolo; pochi, dotati, Discepoli possono essere esaltati ed arrivare ad una condizione di silenzio letale.]",
+         "unique":true,
+         "icon":"cultwinter_1"
+      }
+   ]
+}

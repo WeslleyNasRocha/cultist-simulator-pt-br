@@ -1,0 +1,758 @@
+{
+   "recipes":[
+      {
+         "id":"legacydancer_openstudy",
+         "label":"Un Mistero Scartato",
+         "actionId":"study",
+         "startdescription":"Centinaia di ballerine sono passate per questo camerino. Ogni tanto trovo le loro tracce, come petali caduti: un guanto dimenticato, una fotografia sbiadita, il biglietto di un ammiratore...",
+         "description":"Una poesia appallottolata - lunga una dozzina di pagine - è stata infilata in una scarpa abbandonata. Non è una poesia d'amore. Sono abbastanza sicura che non sia una poesia d'amore. Ma quando la leggo il mio respiro diviene più veloce, e mi domando se non sto ricordando qualcosa che avevo dimenticato.",
+         "effects":{
+            "dancerlegacy_plotitem_a":1
+         },
+         "warmup":60,
+         "comments":"Opened from initial work"
+      },
+      {
+         "id":"legacydancer_study_plotitema_heart",
+         "actionId":"study",
+         "label":"Considera la Poesia Stropicciata come una Sfida Fisica",
+         "requirements":{
+            "dancerlegacy_plotitem_a":1,
+            "heart":1
+         },
+         "startdescription":"È un qualche tipo di codice? Ci sono suggerimenti verso passi inusuali?",
+         "effects":{
+            "vitality":2,
+            "dancerlegacy_plotitem_a":-1
+         },
+         "description":"Le indicazioni divengono chiare. Ci sono passi, certamente - passi che comincio a sentire - e i passi finiscono da qualche parte - qualche parte al limite della veglia. In qualche maniera sono diversa. Ruoto la mia spalla: perché sembra che la mia pelle non mi stia esattamente addosso?",
+         "alt":[
+            {
+               "id":"legacydancer_opendream_heart",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"legacydancer_study_plotitema_moth",
+         "actionId":"study",
+         "label":"Considera la Poesia Stropicciata come una Sfida Onirica",
+         "requirements":{
+            "dancerlegacy_plotitem_a":1,
+            "moth":1
+         },
+         "startdescription":"Penso di aver sognato qualcosa di simile una strana notte, mentre la luna maculava le lenzuola del mio letto - ho sognato che le mie mani non erano esattamente le mie mani, che qualcosa pulsava sotto la mia pelle, qualcosa di più del semplice sangue - e che la pelle non fosse la mia pelle. Cosa succederebbe se trovassi di nuovo pezzi di quel sogno?",
+         "description":"Rimango sveglia per metà della notte, convinta che ci sia qualcosa nella mia stanza. Poco dopo mezzanotte mi viene in mente che sono io quel qualcosa; e graziosamente crollo nel sonno.",
+         "effects":{
+            "glimmering":2,
+            "dancerlegacy_plotitem_a":-1
+         },
+         "alt":[
+            {
+               "id":"legacydancer_opendream_moth",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"legacydancer_opendream_heart",
+         "actionId":"dream",
+         "label":"Un Sogno di un Altro Sé",
+         "startdescription":"Nei miei sogni diviene chiaro. Questa è una danza che non può essere eseguita né da soli né con un partner. Questa è una danza da ballare con una bambola.",
+         "description":"Ho eseguito i passi con una bambola di pezza, ma non erano totalmente corretti. Quando ho rimosso la stoffa della bambola, come pelle, non mi sono sentita sollevata, ma poi, ovviamente, è crollato tutto... Qualcosa è sbagliato - sbagliato nella bambola, nel mondo o in me.",
+         "effects":{
+            "ascensionchangea":1,
+            "dancerlegacy_plotitem_a":-1
+         },
+         "comments":"opened from studying about first plot object with health",
+         "alt":[
+            {
+               "id":"legacydancer_openexplore_heart",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "linked":[
+            {
+               "id":"L_desire_addhearttrack",
+               "chance":100
+            }
+         ],
+         "warmup":60
+      },
+      {
+         "id":"L_desire_addhearttrack",
+         "actionId":"dream",
+         "label":"Un Sogno di un Altro Sé",
+         "mutations":[
+            {
+               "filter":"desire",
+               "mutate":"desireheart_track",
+               "level":1,
+               "additive":true
+            }
+         ]
+      },
+      {
+         "id":"legacydancer_opendream_moth",
+         "label":"Un Sogno di un Sé Più Vecchio",
+         "actionId":"dream",
+         "startdescription":"Questa notte mi taglierò un ciuffo di capelli prima di andare a dormire. L'ho letto nella poesia. Zac; zac.",
+         "effects":{
+            "ascensionchangea":1,
+            "dancerlegacy_plotitem_a":-1
+         },
+         "description":"Ho sognato una grande Foresta nel cuore del primo continente, ci muovevamo tra gli alberi, buio, luce e ancora buio, su, giù e dentro nel fuoco. Ho sognato che un tempo fossimo qualcos'altro - o che qualcos'altro fosse noi. Forse un tempo siamo stati cose con le ali. Talvolta, ora, la mia scapola prude.",
+         "comments":"opened from studying about first plot object with passion",
+         "alt":[
+            {
+               "id":"legacydancer_openexplore_moth",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "linked":[
+            {
+               "id":"L_desire_addmothtrack",
+               "chance":100
+            }
+         ],
+         "warmup":60
+      },
+      {
+         "id":"L_desire_addmothtrack",
+         "actionId":"dream",
+         "label":"Un Sogno di un Sé Più Vecchio",
+         "mutations":[
+            {
+               "filter":"desire",
+               "mutate":"desiremoth_track",
+               "level":1,
+               "additive":true
+            }
+         ]
+      },
+      {
+         "id":"legacydancer_openexplore_heart",
+         "actionId":"explore",
+         "label":"Un Nuovo Partner",
+         "startdescription":"Talvolta, mi aggiro di pomeriggio nei mercatini sulla strada. Ho danzato le danze del poema e ho rovinato la mia bambola di pezza. Ci dev'essere una bambola migliore da qualche parte, così da poter imprimere ancora quei passi.",
+         "description":"L'ho trovata! Venduta come rifiuto per mezzo scellino. Non è perfetta, ma ci va vicino. La sua superficie, le sue cicatrici, la forma degli arti.",
+         "effects":{
+            "reason":1,
+            "toolheartb":1
+         },
+         "warmup":60,
+         "comments":"opened from dreaming"
+      },
+      {
+         "id":"legacydancer_openexplore_moth",
+         "actionId":"explore",
+         "label":"Un Vecchio Partner",
+         "startdescription":"Quando esce la luna scavalco il recinto ed entro nel parco chiuso, cercando sotto i rami nei luoghi sacri. Non so perché, ancora.",
+         "description":"Ho trovato un pacchetto abbandonato nel fango. Ho compreso subito che era ciò che cercavo. Forse era indirizzato a me, forse l'ho rubato come si potrebbe rapire un bambino abbandonato. Nel sogno alato della Foresta ho ballato con qualcosa di simile.",
+         "effects":{
+            "reason":1,
+            "toolmothb":1
+         },
+         "warmup":60,
+         "comments":"opened from dreaming"
+      },
+      {
+         "id":"legacydancer_opentalk",
+         "actionId":"talk",
+         "label":"Cosa Diciamo E Quando Lo Diciamo",
+         "comments":"opened from first audience interaction",
+         "startdescription":"Ho qualcosa in comune con chi mi guarda?",
+         "effects":{
+            "fleeting":1
+         },
+         "warmup":60
+      },
+      {
+         "id":"worklegacydancerjob_pleadforreinstatement",
+         "label":"Supplica per il Ripristino al Gaiety Theatre",
+         "actionId":"work",
+         "requirements":{
+            "legacydancerjob_suspended":1,
+            "passion":1
+         },
+         "aspects":{
+            "plead":1
+         },
+         "startdescription":"Ho bisogno del mio lavoro. Gli dirò qualcosa di diverso questa volta. Forse comprenderanno.",
+         "description":"Non ho supplicato; non esattamente.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"worklegacydancerjob",
+         "label":"Esibisciti al Gaiety Theatre",
+         "actionId":"work",
+         "requirements":{
+            "legacydancerjob":1,
+            "health":1
+         },
+         "alt":[
+            {
+               "id":"legacydancer_openstudy",
+               "chance":100,
+               "additional":true
+            }
+         ],
+         "linked":[
+            {
+               "id":"worklegacydancerjob_more",
+               "chance":70
+            }
+         ],
+         "startdescription":"Il palco mi attente, caldo, pulito, nudo e luminoso. Se mi muoverò come vorranno e farò i passi che mi dicono mi pagheranno.",
+         "description":".",
+         "effects":{
+            "funds":1
+         },
+         "warmup":45,
+         "craftable":true
+      },
+      {
+         "id":"worklegacydancerjob_more",
+         "actionId":"work",
+         "label":"Un'Opportunità al Gaiety Theatre",
+         "startdescription":"Questa notte sento di avere un'opportunità. Potrei attrarre l'attenzione di qualcuno, se smettessi di trattenermi, se mi dedicassi maggiormente.",
+         "description":"Sono rimasta distaccata. Mi sono mossa come volevano e ho fatto i passi richiesti, ora mi pagheranno.",
+         "comments":"the better outcomes require heart or moth 2: enough for abilities or for restlessness, too much for fatigue",
+         "slots":[
+            {
+               "id":"more",
+               "label":"Sforzo Supplementare",
+               "required":{
+                  "ability":1,
+                  "restlessness":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"A_worklegacydancerjob_more_benefactorm",
+               "chance":50
+            },
+            {
+               "id":"A_worklegacydancerjob_more_benefactorf",
+               "chance":70
+            },
+            {
+               "id":"A_worklegacydancerjob_more_ecdysiast",
+               "chance":70
+            },
+            {
+               "id":"A_worklegacydancerjob_more_heart",
+               "chance":100
+            },
+            {
+               "id":"A_worklegacydancerjob_more_moth",
+               "chance":100
+            }
+         ],
+         "warmup":10
+      },
+      {
+         "id":"A_worklegacydancerjob_more_benefactorm",
+         "actionId":"work",
+         "requirements":{
+            "potentialbenefactorm":1,
+            "heart":2
+         },
+         "label":"Un Potenziale Benefattore",
+         "startdescription":".",
+         "description":"Un gentiluomo ha avuto la meglio sul direttore e ha concordato un appuntamento con me nel mio camerino. È cortese; dice tutte le cose giuste sul mio lavoro; ha con sé un dono. Spera in una possibile amicizia.",
+         "effects":{
+            "benefactorm":1,
+            "funds":2,
+            "influence":-1
+         },
+         "mutations":[
+            {
+               "filter":"job",
+               "mutate":"potentialbenefactorm",
+               "level":-1
+            }
+         ],
+         "alt":[
+            {
+               "id":"legacydancer_opentalk",
+               "chance":100,
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"A_worklegacydancerjob_more_benefactorf",
+         "actionId":"work",
+         "requirements":{
+            "potentialbenefactorf":1,
+            "heart":2
+         },
+         "label":"Un Potenziale Benefattore",
+         "startdescription":"",
+         "description":"Una signora ha concordato un appuntamento con me nello scintillante caffé dall'altra parte della strada. È molto lusinghiera; ascolta attentamente tutto ciò che dico; ha con sé un dono. Spera in una possibile amicizia.",
+         "effects":{
+            "benefactorf":1,
+            "funds":2,
+            "influence":-1
+         },
+         "mutations":[
+            {
+               "filter":"job",
+               "mutate":"potentialbenefactorf",
+               "level":-1
+            }
+         ],
+         "alt":[
+            {
+               "id":"legacydancer_opentalk",
+               "chance":100,
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"A_worklegacydancerjob_more_ecdysiast",
+         "actionId":"work",
+         "requirements":{
+            "potentialecdysiast":1,
+            "moth":2
+         },
+         "label":"Un Messaggio da un Ammiratore?",
+         "startdescription":".",
+         "description":"Una lettera consegnata a mano, indirizzata a me. Odora fortemente di fumo di sigaretta e garofano. C'è scritto: 'Se hai bisogno di parlare con qualcuno dei tuoi sogni, vieni a trovarmi. Non chiamarmi finché non sarai pronta.' C'è un nomero di telefono e un nome: Sulochana.",
+         "effects":{
+            "sulochana":1,
+            "funds":1,
+            "influence":-1
+         },
+         "mutations":[
+            {
+               "filter":"job",
+               "mutate":"potentialecdysiast",
+               "level":-1
+            }
+         ],
+         "alt":[
+            {
+               "id":"legacydancer_opentalk",
+               "chance":100,
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"A_worklegacydancerjob_more_heart",
+         "actionId":"work",
+         "requirements":{
+            "heart":2
+         },
+         "label":"Sono un flessibile pacchetto di carne e sangue.",
+         "startdescription":"Stanotte se ne accorgeranno.",
+         "description":"Ho sentito tutti i loro occhi su di me. In seguito ho ricevuto un regalo da un ammiratore - troppo pacchiano per i miei gusti, ma posso venderlo in un mercatino dell'usato.",
+         "effects":{
+            "funds":1,
+            "influence":-1
+         }
+      },
+      {
+         "id":"A_worklegacydancerjob_more_moth",
+         "actionId":"work",
+         "requirements":{
+            "moth":2
+         },
+         "label":"Sono più di un flessibile pacchetto di carne e sangue.",
+         "startdescription":"Stanotte se ne accorgeranno.",
+         "description":"Ho sentito tutti i loro occhi su di me. In seguito ho ricevuto un regalo da un ammiratore - troppo personale perché mi sentissi a mio agio, ma posso venderlo in un mercatino dell'usato.",
+         "effects":{
+            "funds":1,
+            "influence":-1
+         }
+      },
+      {
+         "id":"workdancerjobbenefactor",
+         "label":"Esibisciti per un Benefattore",
+         "actionId":"work",
+         "requirements":{
+            "benefactor":1,
+            "health":1,
+            "funds":1
+         },
+         "effects":{
+            "funds":-1
+         },
+         "aspects":{
+            "employment":1
+         },
+         "linked":[
+            {
+               "id":"L_workdancerjobbenefactor_discardsme",
+               "chance":70
+            },
+            {
+               "id":"L_workdancerjobbenefactor_proposes_always",
+               "chance":100
+            },
+            {
+               "id":"L_workdancerjobbenefactor_proposes_sometimes",
+               "chance":30
+            },
+            {
+               "id":"L_workdancerjobbenefactor_more_health",
+               "chance":30
+            },
+            {
+               "id":"L_workdancerjobbenefactor_more_passion",
+               "chance":30
+            },
+            {
+               "id":"L_workdancerjobbenefactor_more_funds",
+               "chance":30
+            },
+            {
+               "id":"L_workdancerjobbenefactor_more_reason",
+               "chance":30
+            },
+            {
+               "id":"L_workdancerjobbenefactor_satisfactory_norequirement",
+               "chance":70
+            },
+            {
+               "id":"L_workdancerjobbenefactor_bored",
+               "chance":100
+            }
+         ],
+         "startdescription":"Il mio Benefattore sarebbe deliziato da una performance privata per un piccolo pubblico scelto. In seguito mi inviterà a cena e, naturalmente, mi offrirà regali adeguati in cambio del mio tempo.",
+         "description":".",
+         "warmup":45,
+         "craftable":true
+      },
+      {
+         "id":"L_workdancerjobbenefactor_more_health",
+         "actionId":"work",
+         "label":"Il mio Benefattore: Energia",
+         "startdescription":"Questa sera il mio Benefattore è pieno di energie. Dovrei esserlo anche io!",
+         "description":".",
+         "slots":[
+            {
+               "id":"energy",
+               "label":"Energia",
+               "required":{
+                  "health":1
+               }
+            }
+         ],
+         "linked":[
+            {
+               "id":"L_workdancerjobbenefactor_satisfactory_health",
+               "chance":70
+            },
+            {
+               "id":"L_workdancerjobbenefactor_bored",
+               "chance":100
+            }
+         ],
+         "warmup":10
+      },
+      {
+         "id":"L_workdancerjobbenefactor_more_passion",
+         "actionId":"work",
+         "label":"Il mio Benefattore: Inventiva",
+         "startdescription":"Questa sera il mio Benefattore desidererebbe inventiva; entusiasmo; brio. Passione.",
+         "description":".",
+         "slots":[
+            {
+               "id":"vivacity",
+               "label":"Vivacità",
+               "required":{
+                  "passion":1
+               }
+            }
+         ],
+         "linked":[
+            {
+               "id":"L_workdancerjobbenefactor_satisfactory_passion",
+               "chance":70
+            },
+            {
+               "id":"L_workdancerjobbenefactor_bored",
+               "chance":100
+            }
+         ],
+         "warmup":10
+      },
+      {
+         "id":"L_workdancerjobbenefactor_more_funds",
+         "actionId":"work",
+         "label":"Il mio Benefattore: Colori Freschi",
+         "startdescription":"Questa sera il mio Benefattore preferirebbe vedermi in panni nuovi. Dovrei comprarmi qualcosa, velocemente...",
+         "description":".",
+         "slots":[
+            {
+               "id":"funds",
+               "label":"Fondi",
+               "required":{
+                  "funds":1
+               }
+            }
+         ],
+         "linked":[
+            {
+               "id":"L_workdancerjobbenefactor_satisfactory_funds",
+               "chance":70
+            },
+            {
+               "id":"L_workdancerjobbenefactor_bored",
+               "chance":100
+            }
+         ],
+         "warmup":10
+      },
+      {
+         "id":"L_workdancerjobbenefactor_more_reason",
+         "actionId":"work",
+         "label":"Il mio Benefattore: la Vita della Mente",
+         "startdescription":"Questa sera il mio Benefattore è loquace.",
+         "slots":[
+            {
+               "id":"L_conversation",
+               "label":"Conversazione",
+               "required":{
+                  "reason":1
+               }
+            }
+         ],
+         "linked":[
+            {
+               "id":"L_workdancerjobbenefactor_satisfactory_reason",
+               "chance":70
+            },
+            {
+               "id":"L_workdancerjobbenefactor_bored",
+               "chance":100
+            }
+         ],
+         "warmup":10
+      },
+      {
+         "id":"L_workdancerjobbenefactor_satisfactory_health",
+         "actionId":"work",
+         "requirements":{
+            "health":1
+         },
+         "label":"Il Mio Benefattore Mi Trova Accattivante",
+         "description":"Dopo la performance sono arrossata e sudata, ma sembra piaccere al mio Benefattore. Mi ha portato qualcosa di piccolo e luccicante.",
+         "mutations":[
+            {
+               "filter":"benefactor",
+               "mutate":"besotment",
+               "level":1,
+               "additive":true
+            }
+         ],
+         "effects":{
+            "funds":5
+         }
+      },
+      {
+         "id":"L_workdancerjobbenefactor_satisfactory_passion",
+         "actionId":"work",
+         "requirements":{
+            "passion":1
+         },
+         "label":"Il Mio Benefattore È Deliziato",
+         "startdescription":"Tutti i presenti applaudono convintamente! La mia performance è andata bene. In seguito il mio Benefattore si mostra rispettoso ed affezionato. Rimango con un souvenir della serata - abbastanza costoso.",
+         "mutations":[
+            {
+               "filter":"benefactor",
+               "mutate":"besotment",
+               "level":1,
+               "additive":true
+            }
+         ],
+         "effects":{
+            "funds":5
+         }
+      },
+      {
+         "id":"L_workdancerjobbenefactor_satisfactory_funds",
+         "actionId":"work",
+         "requirements":{
+            "funds":1
+         },
+         "label":"Il Mio Benefattore Mi Guarda Con Affetto",
+         "description":"Ho scelto bene i miei abiti per la performance. Il mio Benefattore mi ricopre di complimenti, e regali.",
+         "mutations":[
+            {
+               "filter":"benefactor",
+               "mutate":"besotment",
+               "level":1,
+               "additive":true
+            }
+         ],
+         "effects":{
+            "funds":4
+         },
+         "comments":"only 4 funds; 1 used up"
+      },
+      {
+         "id":"L_workdancerjobbenefactor_satisfactory_reason",
+         "actionId":"work",
+         "requirements":{
+            "reason":1
+         },
+         "label":"Il Mio Benefattore Mi Trova Accattivante",
+         "description":"La performance è più corta del solito, ma le conversazioni - con gli altri ospiti e, più tardi, solo con il mio Benefattore - vanno avanti fino a notte tarda. Torno a casa con un bellissimo regalo.",
+         "mutations":[
+            {
+               "filter":"benefactor",
+               "mutate":"besotment",
+               "level":1,
+               "additive":true
+            }
+         ],
+         "effects":{
+            "funds":5
+         }
+      },
+      {
+         "id":"L_workdancerjobbenefactor_satisfactory_norequirement",
+         "actionId":"work",
+         "label":"Il Mio Benefattore Mi Trova Accattivante",
+         "startdescription":".",
+         "description":"Stasera ho ballato, riso, sono stata accattivante con il mio Benefattore e deliziosa con gli ospiti. Tutti sono felici. E ho ricevuto un piccolo regalo - abbastanza per viverci un po'.",
+         "mutations":[
+            {
+               "filter":"benefactor",
+               "mutate":"besotment",
+               "level":1,
+               "additive":true
+            }
+         ],
+         "effects":{
+            "funds":5
+         }
+      },
+      {
+         "id":"L_workdancerjobbenefactor_bored",
+         "actionId":"work",
+         "label":"Il mio Benefattore è Inquieto",
+         "description":"Per qualche strana ragione, nonostante i miei sforzi, il mio Benefattore non sembra interessato a me stasera. Cerca inutilmente di offrirmi un cortese arrivederci, ma il suo regalo affettato sembra quasi un ripensamento.",
+         "mutations":[
+            {
+               "filter":"benefactor",
+               "mutate":"boredom",
+               "level":1,
+               "additive":true
+            }
+         ],
+         "effects":{
+            "funds":2
+         },
+         "aspects":{
+            "employment":1
+         }
+      },
+      {
+         "id":"L_workdancerjobbenefactor_discardsme",
+         "actionId":"work",
+         "requirements":{
+            "boredom":7
+         },
+         "label":"Il mio Benefattore si è Stancato di Me?",
+         "startdescription":"Sono giorni che non ho notizie dal mio Benefattore...",
+         "description":"Quando lo chiamo, vengo informata che non riceve visitatori. Me ne sono dovuta accertare per tre volte. Alla fine ricevo un piccolo dono con un biglietto d'auguri per il futuro. Non è firmato. Forse nessuno l'ha mandato.",
+         "aspects":{
+            "rejection":1
+         },
+         "effects":{
+            "funds":2
+         }
+      },
+      {
+         "id":"L_workdancerjobbenefactor_proposes_always",
+         "actionId":"work",
+         "requirements":{
+            "besotment":10,
+            "benefactor_proposal":-1
+         },
+         "label":"Il mio Benefattore vuole Sposarmi?",
+         "startdescription":"Questa sera sopprime l'eccitazione.",
+         "description":".",
+         "effects":{
+            "funds":5,
+            "contentment":1
+         },
+         "aspects":{
+            "avowal":1
+         }
+      },
+      {
+         "id":"L_workdancerjobbenefactor_proposes_sometimes",
+         "actionId":"work",
+         "requirements":{
+            "besotment":7,
+            "benefactor_proposal":-1
+         },
+         "label":"Il mio Benefattore vuole Sposarmi?",
+         "startdescription":"Questa sera sopprime l'eccitazione.",
+         "description":".",
+         "effects":{
+            "funds":5,
+            "contentment":1
+         },
+         "aspects":{
+            "avowal":1
+         },
+         "comments":"Identical to proposes_always, but with a lower threshold"
+      },
+      {
+         "id":"talk_benefactormarry",
+         "actionId":"talk",
+         "requirements":{
+            "benefactor_proposal":1
+         },
+         "slots":[
+            {
+               "id":"Yes",
+               "label":"Si",
+               "required":{
+                  "passion":1
+               }
+            }
+         ],
+         "label":"Accettare una Proposta di Matrimonio",
+         "startdescription":"Mi è stato proposto un matrimonio - per di più con un nobile. Pace, prosperità, comodità, e l'affettuosa compagnia del mio Benefattore per il resto della mia vita. Ma devo essere sincera. Se non posso esserlo, mi tocca divenirlo.",
+         "description":"Il mio Benefattore attende ancora, la faccia è rannuvolata.",
+         "alt":[
+            {
+               "id":"talk_benefactormarrycomplete",
+               "chance":100
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"talk_benefactormarrycomplete",
+         "actionId":"talk",
+         "label":"'Si!'",
+         "requirements":{
+            "benefactor_proposal":1,
+            "passion":1
+         },
+         "startdescription":"Ora lascerò questo posto ed entrerò in un'altra vita. Una felice, si spera...",
+         "ending":"workvictorymarriage"
+      }
+   ]
+}

@@ -1,0 +1,109 @@
+{
+   "recipes":[
+      {
+         "id":"studybenefactorwill",
+         "label":"Studia i Documenti di un Caro Estinto",
+         "actionId":"study",
+         "requirements":{
+            "benefactorwill":1,
+            "funds":1
+         },
+         "alt":[
+            {
+               "id":"studybenefactorwill_suspicion",
+               "chance":30
+            }
+         ],
+         "effects":{
+            "funds":49,
+            "benefactorwill":-1
+         },
+         "startdescription":"Questa situazione necessita discrezione. La società considera il nostro legame improprio.",
+         "description":"La nostra relazione non è mai stata formalizzata. Sarebbe impensabile che io ereditassi una porzione significativa dell’eredità. Tuttavia, ho avuto tutto il necessario.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"studybenefactorwill_suspicion",
+         "label":".",
+         "actionId":"study",
+         "effects":{
+            "notoriety":1,
+            "benefactorwill":-1
+         },
+         "description":"Qualcosa è andato storto. La nostra frequentazione passata cambia strada quando la incrocio. Un quotidiano accenna ad un delitto. L’avvocato non mi riceverà. Non posso aspettarmi alcuna eredità, ed il peggio potrebbe ancora dover arrivare."
+      },
+      {
+         "id":"study.welland.defeated",
+         "actionId":"study",
+         "label":"Come Ad Isso",
+         "startdescription":"Ho l’opportunità di ribellarmi al nostro Forgiatore, come fece il Leonfabbro contro il Colonnello. [Questo impedirà al tuo personaggio precedente di ascendere ulteriormente, ma ti darà la possibilità di vincere una vittoria standard della Forgia. Non avrà altro effetto.]",
+         "description":"La catena della lealtà è stata infranta. I miei seguaci non sospetteranno nulla. Quando il nostro Forgiatore potrà tornare dal suo esilio, io non ci sarò più, o ci sarò per sempre.",
+         "requirements":{
+            "welland.defeated":1,
+            "mentor":1
+         },
+         "effects":{
+            "mentor":-1,
+            "welland.defeated":-1,
+            "ascensionpowerc":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"study.tryphon.defeated",
+         "actionId":"study",
+         "label":"Il Prescelto dei Menù",
+         "startdescription":"Se consumassi ciò che rimane di Lady Tryphon, non sarò consumato. [Questo impedirà al tuo personaggio precedente di ascendere ulteriormente, ma ti darà la possibilità di vincere una vittoria standard del Graal. Non avrà altro effetto.]",
+         "description":"Il sapore è intenso sulla lingua. Non ci sarà nessuna Vitulazione per la nostra Delizia. I miei seguaci serviranno i miei desideri. Per ora, divorerò; non sarò divorato.",
+         "requirements":{
+            "tryphon.defeated":1,
+            "mentor":1
+         },
+         "effects":{
+            "mentor":-1,
+            "tryphon.defeated":-1,
+            "ascensionsensationc":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"study.diarist.defeated",
+         "actionId":"study",
+         "label":"Una Porta Si Chiude",
+         "startdescription":"Il Diarista mi ha dato i mezzi per abbandonare nel Mansus il nostro Illuminato. [Questo impedirà al tuo personaggio precedente di ascendere ulteriormente, ma ti darà la possibilità di vincere una vittoria standard della Lanterna. Non avrà altro effetto.]",
+         "description":"Ho chiuso la porta nel mio occhio. L’ho chiusa con la cera. Quell’occhio è cieco, ma l’altro vede nuovi orizzonti. La nostra organizzazione perseguirà un fine differente. Forse un giorno saluterò il nostro Fondatore da pari.",
+         "requirements":{
+            "diarist.defeated":1,
+            "mentor":1
+         },
+         "effects":{
+            "mentor":-1,
+            "diarist.defeated":-1,
+            "ascensionenlightenmentc":1
+         },
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"study.julian.defeated",
+         "actionId":"study",
+         "label":"Vuoto e Solo",
+         "startdescription":"'Una pietra in più nelle mura del Mansus'. È tutto qua ciò che sono? Non c’è nient’altro? [Questo impedirà al tuo personaggio precedente di ascendere ulteriormente, ed aggiungerà Terrore sul tavolo. Non avrà altro effetto.]",
+         "description":"Vivrò la mia vita assecondando le mie scelte. Ciò che sono è ciò che sarò, finché non sarò il nulla.",
+         "requirements":{
+            "julian.defeated":1,
+            "mentor":1
+         },
+         "effects":{
+            "mentor":-1,
+            "julian.defeated":-1,
+            "dread":1
+         },
+         "warmup":60,
+         "craftable":true
+      }
+   ]
+}

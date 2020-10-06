@@ -1,0 +1,263 @@
+{
+   "elements":[
+      {
+         "id":"ingredientedgeb",
+         "label":"Pasta di Martensite",
+         "description":"Il sacro olio della spada. È anche un bel verde-grigio.",
+         "aspects":{
+            "edge":4,
+            "auctionable":2,
+            "ingredient":1,
+            "pigment":1
+         }
+      },
+      {
+         "id":"ingredientedged",
+         "label":"Grani Labitici",
+         "description":"I Labiti sono i più giovani tra i servi del Leonfabbro. Quando vengono ridotti in polvere mantengono la loro potenza, ma non la bellezza.",
+         "aspects":{
+            "edge":8,
+            "auctionable":4,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"ingredientedgef",
+         "label":"Zanna di Skaptodon",
+         "description":"È raro per il Leonfabbro costruire uno skaptodon, ora; ma sono difficili da uccidere, e vivono molto a lungo.",
+         "aspects":{
+            "edge":12,
+            "auctionable":6,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"ingredientforgeb",
+         "label":"Sali Neramari",
+         "description":"Nessun chimico potrebbe produrre questi cristalli che brillano di buio - non senza il tocco della Forgia.",
+         "aspects":{
+            "forge":4,
+            "auctionable":2,
+            "ingredient":1,
+            "pigment":1
+         }
+      },
+      {
+         "id":"ingredientforged",
+         "label":"Essenza Xanthotica",
+         "description":"In certe attività della Forgia, si dice che la luce del sole prevalga sulla luce lunare, come noi passiamo dal Meniscate al Madrugad. Questa essenza era mercurio, una volta, ma ora è l'oro ricco di un pomeriggio estivo. Bello.",
+         "aspects":{
+            "forge":8,
+            "auctionable":4,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"ingredientforgef",
+         "label":"Essenza Iotica",
+         "description":"Nelle attività successive della Forgia il Madrugad cede il passo alla vera Forgia dei Giorni, e l’essenza comincia a divenire rossa. Un giorno, forse, non lo farà, ma per ora abbiamo questo.",
+         "aspects":{
+            "forge":12,
+            "auctionable":6,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"ingredientgrailb",
+         "label":"Pigmento Vitale",
+         "description":"Non è normale che un rosso così rosso sopravviva alla morte del corpo.",
+         "aspects":{
+            "grail":4,
+            "auctionable":2,
+            "ingredient":1,
+            "pigment":1
+         }
+      },
+      {
+         "id":"ingredientgraild",
+         "label":"Nettare Amarantino",
+         "description":"Uno dei tanti regali del Creatore di Fiori. In un’era più luminosa, avrebbe potuto concedere l’immortalità. In questa Storia luminosa, è comunque di una dolcezza insuperabile.",
+         "aspects":{
+            "grail":8,
+            "auctionable":4,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"ingredientgrailf",
+         "label":"Placenta Fremente",
+         "description":"Stendi la tua mano su queste pieghe lacere e senti il loro calore; lasciaci la mano sopra, e valuterà la possibilità di abbracciarti.",
+         "aspects":{
+            "grail":12,
+            "auctionable":6,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"ingredientheartb",
+         "label":"Polvere di Perla Rosa",
+         "description":"Le Perle sono sacre alla Strega-e-Sorella, soprattutto quelle di questo colore. Di solito si usano in riti di protezione, tra l’altro.",
+         "aspects":{
+            "heart":4,
+            "auctionable":2,
+            "ingredient":1,
+            "pigment":1
+         }
+      },
+      {
+         "id":"ingredientheartd",
+         "label":"Olio Bacio di Strega",
+         "description":"La formula rimane invariata sin dai giorni in cui Ecate era venerata agli incroci.",
+         "aspects":{
+            "heart":8,
+            "auctionable":4,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"ingredientheartf",
+         "label":"Vero Sangue di San Gennaro",
+         "description":"Il Pellefolgore protesse colui che un tempo era chiamato Gennaro dai pericoli di ogni passato. Ancora oggi il suo sangue continua a danzare.",
+         "aspects":{
+            "heart":12,
+            "auctionable":6,
+            "ingredient":1,
+            "remnant":1
+         },
+         "xtriggers":{
+            "alzabo":"memory.endless"
+         }
+      },
+      {
+         "id":"ingredientknockb",
+         "label":"La Tintura Bizantina",
+         "description":"La porpora profonda indossata soltamente in alcune Storie, quando le tinture di Tiro non erano abbastanza ricche per gli imperatori. È difficile entrare in un bar per chi veste questo colore.",
+         "aspects":{
+            "knock":4,
+            "auctionable":2,
+            "ingredient":1,
+            "pigment":1
+         }
+      },
+      {
+         "id":"ingredientknockd",
+         "label":"Veleno Stenico",
+         "description":"Talvolta, la Madre delle Formiche è anche stata chiamata anche la Figlia dei Veleni. Questa sostanza apre il corpo in innumerevoli posti.",
+         "aspects":{
+            "knock":8,
+            "auctionable":4,
+            "ingredient":1,
+            "poison":2
+         }
+      },
+      {
+         "id":"ingredientknockf",
+         "label":"Azoth",
+         "description":"Conservalo solamente in contenitori di qualche elemento puro e non premettere mai che si scaldi. Forse non è il solvente finale che gli alchimisti sognavano. Ma funzionerà, per i nostri scopi.",
+         "aspects":{
+            "knock":12,
+            "auctionable":6,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"ingredientlanternb",
+         "label":"Refulgina",
+         "description":"Un bianco così puro che rimane visibile perfino nell’oscurità assoluta.",
+         "aspects":{
+            "lantern":4,
+            "auctionable":2,
+            "ingredient":1,
+            "pigment":1
+         }
+      },
+      {
+         "id":"ingredientlanternd",
+         "label":"Tossina Dito di Vetro",
+         "description":"'Ciò che è dentro, vuoto; ciò che è vuoto, dentro.' Un veleno sacro al Meniscate.",
+         "aspects":{
+            "lantern":8,
+            "auctionable":4,
+            "ingredient":1,
+            "poison":2
+         }
+      },
+      {
+         "id":"ingredientlanternf",
+         "label":"Icore Vitreo",
+         "description":"Un pallido liquido vigile che può essere raccolto, talvolta, quando la Porta nell’Occhio viene aperta.",
+         "aspects":{
+            "lantern":12,
+            "auctionable":6,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"ingredientmothb",
+         "label":"Pigmento Pezzato",
+         "description":"Dalle ali frantumate di rari lepidotteri. 'Dipingere in nero, o dipingere in bianco, questa è la cosa che tu vedrai immediatamente.'",
+         "aspects":{
+            "moth":4,
+            "auctionable":2,
+            "ingredient":1,
+            "pigment":1
+         }
+      },
+      {
+         "id":"ingredientmothd",
+         "label":"Leathy",
+         "description":"Un liquore scuro e sciropposo amato nei villaggi innominati della foresta. 'La lingua e l’occhio, e ora cominciamo! Dimentica il tuo nome, dimentica la tua pelle.'",
+         "aspects":{
+            "moth":8,
+            "auctionable":4,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"ingredientmothf",
+         "label":"Santissima Emolinfa",
+         "description":"Deboli tracce di una sostanza enigmatica versata nella commissione di un antico crimine, ben sigillate in un’ampolla di vetro. 'Chi si ricorderà del figlio del barbiere?'",
+         "aspects":{
+            "moth":12,
+            "auctionable":6,
+            "ingredient":1,
+            "remnant":1
+         },
+         "xtriggers":{
+            "alzabo":"memory.wildering"
+         }
+      },
+      {
+         "id":"ingredientwinterb",
+         "label":"Olio di Greydawn",
+         "description":"Il colore delle ore nelle quali uno non può dormire.",
+         "aspects":{
+            "winter":4,
+            "auctionable":2,
+            "ingredient":1,
+            "pigment":1
+         }
+      },
+      {
+         "id":"ingredientwinterd",
+         "label":"Neve del Lupo",
+         "description":"Troppo freddo per sciogliersi in qualcosa che non sia il sole di mezzogiorno più caldo. Consumerà, molto gradualmente, la carne umana.",
+         "aspects":{
+            "winter":8,
+            "auctionable":4,
+            "ingredient":1
+         }
+      },
+      {
+         "id":"ingredientwinterf",
+         "label":"Vermi Vigili",
+         "description":"Un piccolo vaso di resti larvali storditi ed esiccati della Prima Guerra Verminea, pieni del potere che dimora nelle Ore defunte.",
+         "aspects":{
+            "winter":12,
+            "auctionable":6,
+            "ingredient":1,
+            "poison":3
+         }
+      }
+   ]
+}

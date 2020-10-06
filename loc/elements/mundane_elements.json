@@ -1,0 +1,118 @@
+{
+   "elements":[
+      {
+         "id":"rumour",
+         "label":"Strano Pettegolezzo",
+         "description":"Questo potrebbe portarmi a qualcuno di cui ho bisogno; o potrebbe significare qualcosa di completamente diverso. [Esplora il Pettegolezzo per portare avanti la cosa.]",
+         "aspects":{
+            "ingredient":1,
+            "secrethistories":1,
+            "moth":1
+         },
+         "lifetime":60
+      },
+      {
+         "id":"favour",
+         "label":"Un Favore dalle Autorità",
+         "description":"Ho scoperto qualcosa che mi farà avere qualche beneficio, una volta sola. [Questo salverà te o un Seguace dall’imprigionamento... ma non ci si può fare troppo affidamento.] ",
+         "aspects":{
+            "suspicious":1
+         },
+         "lifetime":300
+      },
+      {
+         "id":"mistakenidentity",
+         "label":"Uno Scambio di Persona",
+         "aspects":{
+            "mortal":1
+         },
+         "description":"Questo non è chi speravi fosse, dopo tutto. Non è di particolare importanza e, eventualmente, sparirà dalla tua memoria. Forse non c’è più nessuno che possa apprezzare appieno la tua amicizia.",
+         "xtriggers":{
+            "rebellion":"generic_r"
+         },
+         "comments":"This xtrigger is here specifically in case someone runs through all the possible rivals as a Detective",
+         "lifetime":10
+      },
+      {
+         "id":"funds",
+         "label":"Fondi",
+         "aspects":{
+            "ingredient":1
+         },
+         "description":"Abbastanza per sostenermi per un po’ di tempo in condizioni decorose."
+      },
+      {
+         "id":"compensation",
+         "label":"Spintria di Ferro",
+         "aspects":{
+            "edge":2,
+            "secrethistories":1,
+            "compensationvalue":2,
+            "ingredient":1,
+            "auctionable":2
+         },
+         "description":"Gli iniziati al mondo nascosto usano gli Spintria per pagare i servizi. Gli Spintria di Ferro sono il taglio più piccolo, e mostrano scene di assassini sul loro rovescio. [Gli Spintria possono essere venduti per fondi più tradizionali in una casa d’aste.]"
+      },
+      {
+         "id":"compensationb",
+         "label":"Spintria di Bronzo",
+         "aspects":{
+            "forge":4,
+            "secrethistories":1,
+            "compensationvalue":4,
+            "ingredient":1,
+            "auctionable":3
+         },
+         "description":"Gli iniziati al mondo nascosto usano gli Spintria per pagare i servizi. Gli spintria di bronzo, di norma, mostrano atti di formazione sul loro rovescio. [Gli Spintria possono essere venduti per fondi più tradizionali in una casa d’aste.]"
+      },
+      {
+         "id":"compensationc",
+         "label":"Spintria d’Argento",
+         "aspects":{
+            "grail":6,
+            "secrethistories":1,
+            "compensationvalue":8,
+            "ingredient":1,
+            "auctionable":4
+         },
+         "description":"Gli iniziati al mondo nascosto usano gli Spintria per pagare i servizi. Possono essere facilmente venduti a favore di valute più tradizionali. Gli spintria d’argento sono di maggior valore, e di norma mostrano scene di depravazione sul loro rovescio. [Gli Spintria possono essere venduti per fondi più tradizionali in una casa d’aste.]"
+      },
+      {
+         "id":"compensationd",
+         "label":"Spintria d’Oro",
+         "aspects":{
+            "lantern":8,
+            "secrethistories":1,
+            "compensationvalue":16,
+            "ingredient":1,
+            "auctionable":5
+         },
+         "description":"Gli iniziati al mondo nascosto usano gli Spintria per pagare i servizi. Possono essere facilmente venduti a favore di valute più tradizionali. Gli spintria d’oro mostrando scene che invisibili agli occhi mortali sul loro rovescio. [Gli Spintria possono essere venduti per fondi più tradizionali in una casa d’aste.]"
+      },
+      {
+         "id":"mapbookdealer",
+         "label":"Indicazioni per Morland",
+         "aspects":{
+            "legacyplotitem":1
+         },
+         "description":"Criptiche indicazioni dell’indirizzo di una certa Morland, una commerciante di libri rari."
+      },
+      {
+         "id":"jumble",
+         "label":"Guazzabuglio",
+         "aspects":{
+            "auctionable":1
+         },
+         "description":"Vecchi vestiti, accessori praticamente senza valore. Potrei farci qualche penny da qualche parte, ma per me non ha alcun valore."
+      },
+      {
+         "id":"snare",
+         "label":"Trappola",
+         "aspects":{
+            "snarelevel":1
+         },
+         "description":"Ho preparato un'imboscata contro un rivale. [Una Trappola può essere usata su ogni Dissidente, o per impedire l'esplorazione di un Vault da parte di un Dissidente.]",
+         "lifetime":300
+      }
+   ]
+}

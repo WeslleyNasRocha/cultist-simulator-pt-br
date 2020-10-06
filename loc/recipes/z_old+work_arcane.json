@@ -1,0 +1,118 @@
+{
+   "recipes":[
+      {
+         "id":"conjurationpower",
+         "label":"La Chiave per il Mio Cuore",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "follower":1,
+            "ascensionpowera":1
+         },
+         "effects":{},
+         "startdescription":"Posso usare questo rito per permettere ad un’Ora di entrare nel mio corpo? Il Potere viene con loro come un profumo. Ovviamente... non so quale Ora potrebbe venire.",
+         "description":"Il rituale è completo. La porta si sta aprendo.",
+         "warmup":30,
+         "craftable":false,
+         "comments":"legacy",
+         "burnimage":"flammarion"
+      },
+      {
+         "id":"conjurationpowerclue",
+         "label":"La Chiave per il Mio Cuore?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "ascensionpowera":1
+         },
+         "effects":{
+            "mystique":1
+         },
+         "startdescription":"Posso usare questo rito per permettere ad un’Ora di entrare nel mio corpo? Il Potere viene con loro come un profumo.",
+         "description":"Non ha funzionato. Ho bisogno di un’altra invocazione - qualcosa per aprire la via. Ed ho bisogno di un sacrificio intenzionale.",
+         "warmup":30,
+         "craftable":false,
+         "comments":"legacy",
+         "burnimage":"flammarion"
+      },
+      {
+         "id":"conjurationenlightenment",
+         "label":"La Porta nei miei Sogni",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "knock":2,
+            "funds":1,
+            "ascensionenlightenmenta":1
+         },
+         "effects":{},
+         "startdescription":"Posso usare questo rito per seguire i passi dell’Osservatore, e conoscere la casa senza mura.",
+         "description":"Il rituale è completo. La porta si sta aprendo.",
+         "warmup":30,
+         "craftable":false,
+         "comments":"legacy",
+         "burnimage":"flammarion"
+      },
+      {
+         "id":"conjurationenlightenmentclue",
+         "label":"La Porta nei miei Sogni?",
+         "actionId":"work",
+         "requirements":{
+            "ritual":1,
+            "ascensionenlightenmenta":1
+         },
+         "startdescription":"Posso usare questo rito per seguire i passi dell’Osservatore, e conoscere la casa senza mura?",
+         "description":"Non ha funzionato. Ho bisogno di chiamare un’altro potere - un potere dell’apertura. E avrò bisogno di fondi, per comprare le candele di cera rara che illumineranno la via dell’Osservatore.",
+         "warmup":30,
+         "craftable":false,
+         "comments":"legacy",
+         "burnimage":"flammarion"
+      },
+      {
+         "id":"ascensionpowerapromotion",
+         "label":"ARRIVA IL GRAAL ROSSO",
+         "actionId":"grailminorpromotion",
+         "requirements":{},
+         "slots":[
+            {
+               "id":"Dedication",
+               "label":"Dedizione",
+               "required":{
+                  "passion":1
+               }
+            }
+         ],
+         "startdescription":"Il mio cuore si dilata; il mio sangue brucia. Sono molto vicino. Devo dedicare me stesso con più fervore.",
+         "description":"Il rito è fallito! C’ero andato vicino - vicino come la fiamma ad una candela, come il sangue in un cuore. Devo provarci ancora.",
+         "warmup":60,
+         "craftable":false,
+         "comments":"legacy",
+         "burnimage":"flammarion"
+      },
+      {
+         "id":"ascensionenlightenmentapromotion",
+         "label":"SENTO I PASSI DELL’OSSERVATORE",
+         "actionId":"watchmanminorpromotion",
+         "requirements":{},
+         "effects":{
+            "mystique":1
+         },
+         "slots":[
+            {
+               "id":"Dedication",
+               "label":"Dedizione",
+               "required":{
+                  "reason":1
+               }
+            }
+         ],
+         "startdescription":"Le mura del mondo tremolano come seta. Sono molto vicino. Tutti i miei pensieri devono convergere.",
+         "description":"L’ho toccata con la punta delle mie dita, la comprensione cerco. Così vicino. Devo provarci ancora.",
+         "warmup":60,
+         "craftable":false,
+         "comments":"legacy",
+         "burnimage":"flammarion"
+      }
+   ]
+}

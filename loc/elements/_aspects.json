@@ -1,0 +1,1899 @@
+{"elements":
+   [
+      {
+         "id":"acquaintance",
+         "label":"Conoscenza",
+         "description":"Non ancora un amico, ma nemmeno un nemico.",
+         "isAspect":true
+      },
+      {
+         "id":"independent",
+         "label":"Dissidente",
+         "description":"Uno studioso delle arti invisibili, con i suoi progetti personali.",
+         "isAspect":true
+      },
+      {
+         "id":"benefactor",
+         "label":"Benefattore",
+         "description":"Qualcuno affezionato al mio lavoro, al quale mi sono avvicinato molto.",
+         "isAspect":true
+      },
+      {
+         "id":"follower",
+         "label":"Seguace",
+         "description":"Studente, aiutante, difensore, campione, vittima, sacrificio... compagno.",
+         "isAspect":true
+      },
+      {
+         "id":"hireling",
+         "label":"Mercenario",
+         "description":"Ho negoziato i servizi di questo, per un po’ di tempo.",
+         "isAspect":true
+      },
+      {
+         "id":"disciple",
+         "label":"Discepolo",
+         "description":"Un vero iniziato ai misteri.",
+         "isAspect":true
+      },
+      {
+         "id":"devotee",
+         "label":"Devoto",
+         "description":"Per ora la sua devozione lo divora. Ma presto potrebbe svanire, e allora potrebbe chiedersi cos'ha fatto.",
+         "isAspect":true
+      },
+      {
+         "id":"exalted",
+         "label":"Esaltato",
+         "description":"Non può salire più in alto... perlomeno finché comando io.",
+         "isAspect":true
+      },
+      {
+         "id":"prisoner",
+         "label":"Prigioniero",
+         "description":"Questo è nelle mie mani.",
+         "isAspect":true
+      },
+      {
+         "id":"hunter",
+         "label":"Cacciatore",
+         "description":"Le leggi della civilizzazione sono più giovani delle Leggi delle Ore, ma loro, pure, talvolta richiedono un sacrificio. Questo è un agente della legge.",
+         "isAspect":true
+      },
+      {
+         "id":"patron",
+         "label":"Benefattore",
+         "description":"Una figura nota nei circoli nei quali mi muovo.",
+         "isAspect":true
+      },
+      {
+         "id":"approval",
+         "label":"Approvazione",
+         "description":"Qualcuno guarda a me con crescente approvazione.",
+         "isAspect":true
+      },
+      {
+         "id":"tutor",
+         "label":"Tutor",
+         "description":"Questo possiede conoscenze di valore.",
+         "isAspect":true
+      },
+      {
+         "id":"annoyance",
+         "label":"Fastidio",
+         "description":"Qui c’è una spina nel mio fianco. Potrei trovare una maniera di rimuoverla.",
+         "isAspect":true
+      },
+      {
+         "id":"sending",
+         "label":"Inviato",
+         "description":"Non esattamente me, ma neanche qualcos’altro.",
+         "isAspect":true
+      },
+      {
+         "id":"edge",
+         "label":"Lama",
+         "description":"Tutte le conquiste avvengono al Limite. Chi vi dimora è cieco, e non può essere ferito. Un altro è forte, e diventa sempre più forte. [La Lama è il principio della battaglia e dello scontro.]",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"forge",
+         "label":"Forgia",
+         "description":"'Il fuoco', lessi una volta, 'è l’inverno che si scalda e la primavera che consuma.' [Il principio della Forgia trasforma e distrugge.]",
+         "isAspect":true
+      },
+      {
+         "id":"grail",
+         "label":"Graal",
+         "description":"Fame, lussuria, le acque che affogano. [Il principio del Graal onora sia la nascita che il banchetto.]",
+         "isAspect":true,
+         "induces":[
+            {
+               "id":"grailinduction",
+               "chance":5
+            }
+         ]
+      },
+      {
+         "id":"heart",
+         "label":"Cuore",
+         "description":"Il Cuore batte Implacabilmente per proteggere la pelle del mondo che comprendiamo. [Il Cuore è il principio che continua e preserva.]",
+         "isAspect":true,
+         "induces":[
+            {
+               "id":"heartinduction",
+               "chance":10
+            }
+         ]
+      },
+      {
+         "id":"knock",
+         "label":"Colpo",
+         "description":"Il Colpo non permette alcun sigillo e nessuna isolamento. Ci spinge allegramente fuori dalla salvezza dell’ignoranza. [Il Colpo è il principio che apre le porte e scuce le barriere.]",
+         "isAspect":true
+      },
+      {
+         "id":"lantern",
+         "label":"Lanterna",
+         "description":"'La vita è pura fiamma, e noi viviamo grazie ad un invisibile Sole al nostro interno.' - Thomas Browne. [La Lanterna è il principio del luogo segreto chiamato talvolta la Casa del Sole, e della luce sopra di esso.]",
+         "isAspect":true,
+         "induces":[
+            {
+               "id":"lanterninduction",
+               "chance":5
+            }
+         ]
+      },
+      {
+         "id":"moth",
+         "label":"Falena",
+         "isAspect":true,
+         "description":"Conoscevo un uomo che catturava le falene in una campana di vetro. Nelle notti come questa le rilasciava, una alla volta, per guardarle morire nella fiamma di una candela. [La Falena è il principio selvaggio e pericoloso del caos e del desiderio.]",
+         "induces":[
+            {
+               "id":"mothinduction",
+               "chance":10
+            }
+         ]
+      },
+      {
+         "id":"secrethistories",
+         "label":"Storie Segrete",
+         "description":"La storia è la ferita sulla pelle del mondo. [Le Storie Segrete descrivono le sconosciute complessità del mondo, e i suoi tanti passati.]",
+         "isAspect":true
+      },
+      {
+         "id":"winter",
+         "label":"Inverno",
+         "description":"... [L’Inverno è il principio del silenzio, dei finali, e di quanto non è esattamente morto.]",
+         "isAspect":true
+      },
+      {
+         "id":"ability",
+         "label":"Abilità",
+         "isAspect":true,
+         "description":"Cervello, cuore, mano o occhio. Molti tra noi sono nati con tutti, o quasi."
+      },
+      {
+         "id":"scar",
+         "label":"Ferita",
+         "isAspect":true,
+         "description":"L’irrevocabile risultato di un irrevocabile atto."
+      },
+      {
+         "id":"advancement",
+         "label":"Avanzamento",
+         "isAspect":true,
+         "description":"Un assaggio di cosa potrebbe essere. [Con abbastanza carte di questo tipo, puoi incrementare un’Abilità.]"
+      },
+      {
+         "id":"potential",
+         "label":"Potenziale",
+         "isAspect":true,
+         "description":"Il marchio della grandezza? [Nelle giuste circostanze, il seguace può divenire ancora più potente.]"
+      },
+      {
+         "id":"job",
+         "label":"Lavoro",
+         "isAspect":true,
+         "description":"Una disposizione per scambiare la vita di uno per soldi.",
+         "induces":[
+            {
+               "id":"needs",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"dance",
+         "label":"Danza",
+         "isAspect":true,
+         "description":"Più vecchia della lingua, più giovane della vita.",
+         "induces":[
+            {
+               "id":"heartinduction",
+               "chance":10
+            },
+            {
+               "id":"mothglimmeringinduction",
+               "chance":10
+            }
+         ]
+      },
+      {
+         "id":"ecdysijob",
+         "label":"Un Posto all’Ecdysis Club",
+         "isAspect":true,
+         "description":"Ho avuto un posto sul palco dell’Ecdysis Club."
+      },
+      {
+         "id":"demotion",
+         "label":"Retrocessione",
+         "isAspect":true,
+         "description":"Ho passato troppo tempo lontano dal lavoro."
+      },
+      {
+         "id":"ritual",
+         "label":"Rito",
+         "isAspect":true,
+         "description":"'La cosa appropriata, nella maniera appropriata, nell’ordine appropriato. Che Dio ci aiuti tutti.' - attribuita ad Hersault. [Un Rito ti permette di combinare gli aspetti per eseguire un’evocazione.]"
+      },
+      {
+         "id":"society",
+         "label":"Società",
+         "isAspect":true,
+         "description":"Per poter reclutare credenti devo costruire qualcosa in cui possano credere."
+      },
+      {
+         "id":"rededicable",
+         "label":"Instabile",
+         "description":"Questa organizzazione ha cominciato a mettere in dubbio i suoi dogmi. Potrei fare pressioni per alterare la sua strada.",
+         "isAspect":true
+      },
+      {
+         "id":"ingredient",
+         "label":"Ingrediente",
+         "isAspect":true,
+         "description":"Combustibile, unguento, pigmento, pazienza: tutti vengono consumati nel tempo.",
+         "induces":[
+            {
+               "id":"needs",
+               "chance":100
+            }
+         ],
+         "comments":"This is so anything that generates Funds will always trigger the needs timer if it's not already running."
+      },
+      {
+         "id":"pigment",
+         "label":"Pigmento",
+         "isAspect":true,
+         "description":"Potrebbe essere possibile l’applicazione su tela."
+      },
+      {
+         "id":"poison",
+         "label":"Veleno Letale",
+         "isAspect":true,
+         "description":"In nessuna circostanza dovresti darlo a qualcuno a cui tieni."
+      },
+      {
+         "id":"influence",
+         "label":"Influenza",
+         "isAspect":true,
+         "description":"Un eco, una risonanza, un allineamento. Qualcosa che presto svanirà."
+      },
+      {
+         "id":"tool",
+         "label":"Strumento",
+         "isAspect":true,
+         "description":"'Una spada non uccide; è uno strumento nella mano dell'assassino.' - Seneca Giovane"
+      },
+      {
+         "id":"mirror",
+         "label":"Uno Specchio",
+         "isAspect":true,
+         "description":"Rompi la pelle della luce, e la luce sanguinerà."
+      },
+      {
+         "id":"riddle",
+         "label":"Enigma",
+         "isAspect":true,
+         "description":"Alcune domande hanno una sola risposta. Altre non hanno risposta alcuna."
+      },
+      {
+         "id":"reputation",
+         "label":"Reputazione",
+         "isAspect":true,
+         "description":"'Molti temono per la loro reputazione, pochi per la loro coscienza.' - Plinio"
+      },
+      {
+         "id":"evidencelevel",
+         "label":"Livello della Prova",
+         "isAspect":true,
+         "description":"Alcune prove sono più forti di altre in tribunale."
+      },
+      {
+         "id":"suspicious",
+         "label":"Sospetto",
+         "isAspect":true,
+         "description":"Un detective potrebbe voler investigare questo."
+      },
+      {
+         "id":"healthskill",
+         "label":"Forza",
+         "isAspect":true,
+         "description":"Sono forte tanto di giorno quanto di notte. [Questo potrebbe permetterti di lavorare meglio come operaio, o come danzatore.]"
+      },
+      {
+         "id":"murderskill",
+         "label":"Pericoloso",
+         "isAspect":true,
+         "description":"Il confronto diretto è sempre poco saggio. Ma come ultima spiaggia, se si arriva alla lotta, sono molto pericoloso."
+      },
+      {
+         "id":"passionskill",
+         "label":"Immaginazione",
+         "isAspect":true,
+         "description":"Il mio teschio è intorbidito dalle visioni. [Questo potrebbe permetterti di creare dipinti più ambiziosi.]"
+      },
+      {
+         "id":"reasonskill",
+         "label":"Erudizione",
+         "isAspect":true,
+         "description":"Sono un pilastro di saggezza. [Attualmente questo ti permette solamente di incrementare la tua Ragione.]"
+      },
+      {
+         "id":"way",
+         "label":"Una Via del Ritorno Attraverso il Sogno",
+         "isAspect":true,
+         "description":"Alcune memorie sono abbozzi di mappe del sogno. Alcune passano addirittura i Limiti del sogno, verso la Foresta e la Casa che si erge su di essa."
+      },
+      {
+         "id":"desire",
+         "label":"Desiderio",
+         "isAspect":true,
+         "description":"Il mio obiettivo finale. Ci sarà un prezzo da pagare."
+      },
+      {
+         "id":"promise",
+         "label":"Promessa",
+         "isAspect":true,
+         "description":"Un impegno a favore di una conclusione."
+      },
+      {
+         "id":"rivalmarks",
+         "label":"Ascesa di un Rivale",
+         "isAspect":true,
+         "description":"Le opportunità di ascendere alla Casa del Sole sono rare. Se un altro la ottiene, potrei perdere l’occasione. [Se questo raggiunge il sette, il tuo Rivale potrebbe vincere il gioco invece di te.]"
+      },
+      {
+         "id":"changemarks",
+         "label":"Le Forme del Cambiamento",
+         "isAspect":true,
+         "description":"Ogni volta che cambio, lascio indietro qualcosa."
+      },
+      {
+         "id":"powermarks",
+         "label":"I Marchi della Plasmazione",
+         "isAspect":true,
+         "description":"Potrei cercare l'immortalità e il potere nell’Ora chiamata la Forgia dei Giorni. Il suo tocco porta appetiti particolari, e Marchi."
+      },
+      {
+         "id":"sensationmarks",
+         "label":"I Marchi della Delizia",
+         "isAspect":true,
+         "description":"Potrei cercare l'immortalità e la gioia nell’Ora chiamata il Graal Rosso. Il suo tocco porta appetiti particolari, e Marchi."
+      },
+      {
+         "id":"enlightenmentmarks",
+         "label":"I Marchi della Luce",
+         "isAspect":true,
+         "description":"Potrei cercare l'immortalità e l’illuminazione nell’Ora chiamata l’Osservatore. Il suo tocco porta appetiti particolari, e Marchi."
+      },
+      {
+         "id":"remembrancemarks",
+         "label":"Gli artigli della Memoria",
+         "isAspect":true,
+         "description":"Sotto la terra, ossa. Nelle ossa, memoria. Nella memoria, colori.",
+         "comments":"Important! this is used to trigger the extra corpse-remnants discovery from Expeditions for Ghoul"
+      },
+      {
+         "id":"follower_lustenlightenment",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"follower_lustpower",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"follower_lustsensation",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"follower_lustchange",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"detectivetemptation",
+         "comments":"Aspect for Detective plot items",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"long.preference.assault",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"long.preference.intrigue",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"long.preference.dreamwork",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"long.preference.winter",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"ascend",
+         "label":"Ascendente",
+         "isAspect":true,
+         "description":"Verso il prossimo Marchio.",
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"descend",
+         "label":"Discendente",
+         "isAspect":true,
+         "description":"Se non nutro i miei nuovi appetiti, i miei Marchi svaniranno.",
+         "noartneeded":true,
+         "comments":"Recipe aspect"
+      },
+      {
+         "id":"article",
+         "label":"Articolo",
+         "isAspect":true,
+         "description":"Un lavoro originale su un argomento particolare."
+      },
+      {
+         "id":"text",
+         "label":"Testo",
+         "isAspect":true,
+         "description":"I libri sono la memoria che non muore."
+      },
+      {
+         "id":"legacyplotitem",
+         "label":"Oggetto dall'Eredità",
+         "isAspect":true,
+         "isHidden":true,
+         "comments":"Used for plot items that shouldn't be passed down to another legacy through LEVER_LastBook, since they can break flows."
+      },
+      {
+         "id":"autographed",
+         "label":"Autografato",
+         "isAspect":true,
+         "description":"Marchiato dal suo creatore."
+      },
+      {
+         "id":"lore",
+         "label":"Tradizione",
+         "isAspect":true,
+         "description":"La conoscenza delle arti invisibili. Posso utilizzarlo per attrarre seguaci, per eseguire riti, per aprire le porte verso il Mansus, per proseguire nella mia ascesa... [I frammenti di Tradizione possono talvolta essere migliorati Studiando frammenti corrispondenti.]"
+      },
+      {
+         "id":"subvertable_lore",
+         "label":"Tradizione Sovvertibile",
+         "isAspect":true,
+         "isHidden":true,
+         "noartneeded":true
+      },
+      {
+         "id":"memory",
+         "label":"Memoria",
+         "isAspect":true,
+         "description":"Ricordiamo i morti, finché non ce li dimentichiamo."
+      },
+      {
+         "id":"language",
+         "label":"Una Lingua",
+         "isAspect":true,
+         "description":"Questa è utile per tradurre testi."
+      },
+      {
+         "id":"tutorlatin",
+         "label":"Erudito in Latino",
+         "isAspect":true,
+         "description":"Un erudito in Latino che potrebbe esser disposto a farti da tutor se studiassi con lui."
+      },
+      {
+         "id":"tutorgreek",
+         "label":"Erudito in Greco",
+         "isAspect":true,
+         "description":"Un erudito in Greco che potrebbe esser disposto a farti da tutor se studiassi con lui."
+      },
+      {
+         "id":"tutoraramaic",
+         "label":"Erudito in Aramaico",
+         "isAspect":true,
+         "description":"Un erudito in Aramaico che potrebbe esser disposto a farti da tutor se studiassi con lui."
+      },
+      {
+         "id":"tutorsanskrit",
+         "label":"Erudito in Sanscrito",
+         "isAspect":true,
+         "description":"Un erudito in Aramaico che potrebbe esser disposto a farti da tutor se studiassi con lui."
+      },
+      {
+         "id":"spirittutorfucine",
+         "label":"Oratore Fucino",
+         "isAspect":true,
+         "description":"Questo spirito potrebbe essere in grado di insegnarti il Fucino, se conoscessi una lingua affine."
+      },
+      {
+         "id":"spirittutorphrygian",
+         "label":"Oratore Frigio",
+         "isAspect":true,
+         "description":"Questo spirito potrebbe essere in grado di insegnarti il Frigio, se conoscessi una lingua affine."
+      },
+      {
+         "id":"spirittutormandaic",
+         "label":"Oratore Mandaico",
+         "isAspect":true,
+         "description":"Questo spirito potrebbe essere in grado di insegnarti il Basso Mandaico, se conoscessi una lingua affine."
+      },
+      {
+         "id":"spiritsicknessprotector",
+         "label":"Phylaxian",
+         "description":"Se parlassi con questo spirito della mia Salute, potrebbe ofrirmi protezione contro la malattia.",
+         "isAspect":true
+      },
+      {
+         "id":"spiriteatspassion",
+         "label":"Lume della Perdita",
+         "description":"Se gli parlassi, potrei offrirgli la mia Passione.",
+         "isAspect":true
+      },
+      {
+         "id":"spiriteatsreason",
+         "label":"Trebbiatrice di Pensieri",
+         "description":"Se gli parlassi, potrei offrirgli la mia Ragione.",
+         "isAspect":true
+      },
+      {
+         "id":"auctionable",
+         "label":"Vendibile",
+         "description":"Potrei essere in grado di metterlo all’asta, sebbene il guadagno sia sempre incerto.",
+         "isAspect":true
+      },
+      {
+         "id":"compensationvalue",
+         "label":"Valore in Spintria",
+         "description":"Gli Spintria sono la valuta del mondo nascosto. Alcuni spintria valgono più di altri. Ma non aspettarti il cambio. Questo non è un fruttivendolo.",
+         "isAspect":true
+      },
+      {
+         "id":"hq",
+         "label":"Quartier Generale",
+         "description":"Per le conversazioni e le convocazioni.",
+         "isAspect":true
+      },
+      {
+         "id":"hq.potential",
+         "label":"Quartier Generale Potenziale",
+         "description":".",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"movehq",
+         "label":"Muoviti verso un Nuovo QG",
+         "description":"Elemento per ricetta",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"library",
+         "label":"Libreria",
+         "description":"Una collezione di volumi minori, copie parziali e cose effimere che possono aiutarti con la ricerca.",
+         "isAspect":true
+      },
+      {
+         "id":"pit",
+         "label":"Fossa",
+         "description":"Un pozzo senza luce di solitudine dove potrei sperimentare tristi intuizioni.",
+         "isAspect":true
+      },
+      {
+         "id":"secret",
+         "label":"Segreto",
+         "description":"Questo posto è spesso trascurato. [Potresti essere in grado di eliminare le carte Reputazione.]",
+         "isAspect":true,
+         "induces":[
+            {
+               "id":"secret.induction",
+               "chance":30
+            }
+         ]
+      },
+      {
+         "id":"sanctuary",
+         "label":"Santuario",
+         "description":"Uno spazio designato per la contemplazione e, forse, la pace.",
+         "isAspect":true
+      },
+      {
+         "id":"location",
+         "label":"Luogo",
+         "description":"Luoghi! Tutto dev’essere da qualche parte, e questo è qua.",
+         "isAspect":true
+      },
+      {
+         "id":"vaultcapital",
+         "label":"Nella Capitale",
+         "description":"Un luogo segreto nella brulicante capitale in cui vivo.",
+         "isAspect":true
+      },
+      {
+         "id":"vaultshires",
+         "label":"Nella Contea",
+         "description":"Verdi campi e verdi colline.",
+         "isAspect":true
+      },
+      {
+         "id":"vaultcontinent",
+         "label":"Nel Continente",
+         "description":"Oltre uno stretto mare, in angoli non sospetti di nazioni rivali.",
+         "isAspect":true
+      },
+      {
+         "id":"vaultlandbeyondforest",
+         "label":"Nella Terra al di là della Foresta",
+         "description":"Passi nebbiosi e villaggi remoti, dove la pelle del mondo è sottile. ",
+         "isAspect":true
+      },
+      {
+         "id":"vaultrendingmountains",
+         "label":"Nelle Montagne Laceranti",
+         "description":"Accerchiate dal bronzeo, toccate dalla neve, lontane da ogni aiuto.",
+         "isAspect":true
+      },
+      {
+         "id":"vaultloneandlevelsands",
+         "label":"Nelle Sabbie Deserte e Piatte",
+         "description":"In un arido luogo distante, ti attendono orizzonti di dune incatenate.",
+         "isAspect":true
+      },
+      {
+         "id":"vaulteveningisles",
+         "label":"Presso le Isole del Vespro",
+         "description":"Catene di isole rocciose bagnate dalle onde, vibranti di vita verde.",
+         "isAspect":true
+      },
+      {
+         "id":"peril",
+         "label":"Pericolo",
+         "description":"Un ostacolo, un pericolo, o una conclusione prematura.",
+         "isAspect":true
+      },
+      {
+         "id":"curse",
+         "label":"Maledizione",
+         "description":"Un'influenza maligna che devi sconfiggere.",
+         "isAspect":true
+      },
+      {
+         "id":"guardian",
+         "label":"Guardiano",
+         "description":"Un’entità che è stata incaricata di prevenire l’entrata.",
+         "isAspect":true
+      },
+      {
+         "id":"seal",
+         "label":"Sigillo",
+         "description":"Ti viene impedito di progredire.",
+         "isAspect":true
+      },
+      {
+         "id":"vault",
+         "label":"Sotterraneo",
+         "description":"C’è qualcosa di prezioso qua.",
+         "isAspect":true
+      },
+      {
+         "id":"challenge.knowledge",
+         "label":"Richiede Conoscenza",
+         "description":"Questo è un puzzle con pezzi mancanti. Potrei trovare questi pezzi in strani angoli dell'erudizione. [Per migliorare o convertire questo Frammento, avrai bisogno di Erudizione, o di un QG con una Libreria.]",
+         "isAspect":true
+      },
+      {
+         "id":"challenge.intuition",
+         "label":"Richiede Intuizione",
+         "description":"Con tempo e pace, le risposte talvolta arrivano non annunciate. [Per migliorare o convertire questo Frammento, avrai bisogno di Barlumi, o di un QG con un Santuario.]",
+         "isAspect":true
+      },
+      {
+         "id":"challenge.grim",
+         "label":"Richiede una Lezione Lugubre",
+         "description":"Imparerò. [Per migliorare o convertire questo Frammento, avrai bisogno di Terrore (che potrebbe moltiplicarsi), l'abilità Forza Silente, o un QG con una Fossa.]",
+         "isAspect":true
+      },
+      {
+         "id":"challenge.obsessive",
+         "label":"Richiede Ricerca Ossessiva",
+         "description":"Questo argomento richiede più attenzione di quanto non sia sicuro. [Per migliorare o convertire questo Frammento, avrai bisogno di un QG con una Libreria, l'abilità Nessun-No, o una Ragione. C'è una piccola possibilità che la tua Ragione possa essere permanentemente danneggiata.]",
+         "isAspect":true
+      },
+      {
+         "id":"challenge.paradox",
+         "label":"Richiede una Soluzione Paradossale",
+         "description":"La verità è un serpente. Le risposte nutrono i suoi appetiti. [Per migliorare o convertire questo Frammento, avrai bisogno di un QG con un Santuario, l'abilità Anima Aperta, o una Passione. C'è una piccola possibilità che la tua Passione rimanga permanentemente danneggiata.]",
+         "isAspect":true
+      },
+      {
+         "id":"challenge.illumination",
+         "label":"Richiede Illuminazione",
+         "description":"L'acqua riempie la coppa; la luce riempie la mente. [Per migliorare o convertire questo Frammento, avrai bisogno di Seduzione (che potrebbe moltiplicarsi), di un QG con una Libreria, o l'abilità Una Mente Elevata.]",
+         "isAspect":true
+      },
+      {
+         "id":"challenge.practical",
+         "label":"Richiede Sperimentazione Pratica",
+         "description":"Il dolore è solo ciò che accade ora; la conoscenza sarà ciò che ricorderemo. [Per migliorare o convertire questo Frammento, avrai bisogno di rischiare la tua Salute o usare un Prigioniero.]",
+         "isAspect":true
+      },
+      {
+         "id":"summoned",
+         "label":"Evocato",
+         "description":"Questo qui non è di qua.",
+         "isAspect":true
+      },
+      {
+         "id":"illhealth",
+         "label":"Salute Malata",
+         "description":"Forse posso riposare, e riprendermi.",
+         "isAspect":true
+      },
+      {
+         "id":"inducesdespair",
+         "label":"Induce Terrore",
+         "description":"Questo può causare Terrore.",
+         "isAspect":true
+      },
+      {
+         "id":"inducesvisions",
+         "label":"Induce Visioni",
+         "description":"Potrei vedere cose.",
+         "isAspect":true
+      },
+      {
+         "id":"commissiongiven",
+         "label":"Commissione",
+         "description":"Un lavoro attende la tua attenzione.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"commissionfulfilled",
+         "label":"Commissione Completata",
+         "description":"Hai completato un lavoro.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"recruiting",
+         "label":"Reclutamento",
+         "description":"Per vedere la luce, uno non può essere cieco; ma talvolta, è la luce che ci acceca.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"hiring",
+         "label":"Assunzione",
+         "description":"Estendi il periodo di servizio di un mercenario.",
+         "isAspect":true,
+         "comments":"Recipe aspect. Use to rehire hirelings.",
+         "noartneeded":true
+      },
+      {
+         "id":"refiring",
+         "label":"Richiamo",
+         "description":"Estendi il periodo di servizio.",
+         "isAspect":true,
+         "comments":"Recipe aspect. Use to refire devotees.",
+         "noartneeded":true
+      },
+      {
+         "id":"promotiontodisciple",
+         "label":"Promozione",
+         "description":"È ora di fare giuramenti più profondi.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"promotionto_d_edge",
+         "label":"Esaltazione: Lama",
+         "description":"Questi sono i veri misteri del nostro culto.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"promotionto_d_forge",
+         "label":"Esaltazione: Forgia",
+         "description":"Questi sono i veri misteri del nostro culto.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"promotionto_d_grail",
+         "label":"Esaltazione: Graal",
+         "description":"Questi sono i veri misteri del nostro culto.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"promotionto_d_heart",
+         "label":"Esaltazione: Cuore",
+         "description":"Questi sono i veri misteri del nostro culto.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"promotionto_d_knock",
+         "label":"Esaltazione: Colpo",
+         "description":"Questi sono i veri misteri del nostro culto.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"promotionto_d_lantern",
+         "label":"Esaltazione: Lanterna",
+         "description":"Questi sono i veri misteri del nostro culto.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"promotionto_d_moth",
+         "label":"Esaltazione: Falena",
+         "description":"Questi sono i veri misteri del nostro culto.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"promotionto_d_winter",
+         "label":"Esaltazione: Inverno",
+         "description":"Questi sono i veri misteri del nostro culto.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"rival_promotion",
+         "label":"Promozione: Rivale",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"fatiguing",
+         "label":"Un Impegno è stato Preso",
+         "description":"È successo qualcosa.",
+         "isAspect":true,
+         "comments":"Recipe aspect; runs to fatigue stats, or to convert situation-invested elements into a form that won't keep triggering a recipe that wants more of them (eg reason in Research, funds in bidding).",
+         "noartneeded":true
+      },
+      {
+         "id":"exhaustlocation",
+         "label":"Luogo Esaurito",
+         "description":"Un luogo è stato consumato, e non sarà riaperto finché non verrà esplicitamente rinnovato.",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"restore",
+         "label":"Non è successo Niente",
+         "description":"Tutto è com’era.",
+         "isAspect":true,
+         "comments":"Recipe aspect; runs when an situation fails to convert situation control elements back to their originals.",
+         "noartneeded":true
+      },
+      {
+         "id":"decline",
+         "label":"Declino",
+         "description":"Qualcosa sta Finendo.",
+         "isAspect":true,
+         "comments":"Recipe aspect; runs when we want to decay something like an investment.",
+         "noartneeded":true
+      },
+      {
+         "id":"avowal",
+         "label":"Dichiarazione",
+         "description":"Un Cambiamento Positivo nelle Lealtà.",
+         "isAspect":true,
+         "comments":"Recipe aspect; runs when we want to flip someone's loyalties positively",
+         "noartneeded":true
+      },
+      {
+         "id":"rejection",
+         "label":"Rifiuto",
+         "description":"Un Cambiamento nelle Lealtà.",
+         "isAspect":true,
+         "comments":"Recipe aspect; runs when we want to flip someone's loyalties",
+         "noartneeded":true
+      },
+      {
+         "id":"scarability",
+         "label":"Abilità Ferita",
+         "description":"Converte permanentemente un’abilità (attiva o esausta) nella sua versione ferita.",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"restorehealth",
+         "label":"Recupera Salute",
+         "description":"La salute tornerà.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"damagehealth",
+         "label":"Danneggia Salute",
+         "description":"La salute sarà ferita.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"fallsick",
+         "label":"Cadi Malato",
+         "description":"La salute diventerà afflizione; questo potrebbe anche influenzare, potenzialmente, altre persone.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"destroyhealth",
+         "label":"Distruggi Salute",
+         "description":"La salute sarà distrutta.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"damagereason",
+         "label":"Danneggia Ragione",
+         "description":"La Ragione diventerà Terrore.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"toreason",
+         "label":"Verso la Ragione",
+         "description":"...diventerà Ragione.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"topassion",
+         "label":"Verso la Passione",
+         "description":"...wdiventerà Passione.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"tohealth",
+         "label":"Verso la Salute",
+         "description":"...diventerà Salute.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"dreadful",
+         "label":"Terribile",
+         "description":"Rischia di generare Terrore.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true,
+         "induces":[
+            {
+               "id":"dreadinduction",
+               "chance":30
+            }
+         ]
+      },
+      {
+         "id":"fascinating",
+         "label":"Seducente",
+         "description":"Rischia di generare Seduzione.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true,
+         "induces":[
+            {
+               "id":"fascinationinduction",
+               "chance":30
+            }
+         ]
+      },
+      {
+         "id":"damagepassion",
+         "label":"Danneggia Passione",
+         "description":"La Passione diventerà Seduzione.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"killmortal",
+         "label":"Uccidi Mortale",
+         "description":"I Mortali saranno rimpiazzati da cadaveri.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"longded",
+         "label":"Uccidi Lungo",
+         "description":"Il Lungo sarà rimpiazzato dalla sua ricompensa.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"killsummoned",
+         "label":"Uccidi Evocazione",
+         "description":"L'evocazione sarà rimpiazzata da esaltatori di influssi o difensori d’evocazione.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"killmanifesting",
+         "label":"Uccidi Evocazione in Arrivo",
+         "description":"L'evocazione sarà rimpiazzata da esaltatori di influssi o difensori d’evocazione.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"dissolution",
+         "label":"Dissoluzione",
+         "description":"Ciò che è dentro, vuoto; ciò che è vuoto, dentro. Dissolve qualcosa in un Influsso.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"raiseshattered",
+         "label":"Trasformare p.e. un corpo in un Risorto Frammentato",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"raiseburgeoning",
+         "label":"Trasformare p.e. un corpo in un Risorto Fiorente",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"renewshattered",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"renewburgeoning",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"rebellion",
+         "label":"Ribellione",
+         "description":"I seguaci diventeranno Rivali.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"endannoyance",
+         "label":"Eliminare un Fastidio",
+         "description":"I problemi, come i capi difficili, saranno risolti.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"careeradvancement",
+         "label":"Progresso di Carriera",
+         "description":"Una promozione o incremento d’abilità.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"derangemortal",
+         "label":"Confondi Mortale",
+         "description":"Il Mortale sarà rimpiazzato da un Lunatico.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"capturehunter",
+         "label":"Cattura Cacciatore",
+         "description":"Il Cacciatore sarà imprigionato.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"killhunter",
+         "label":"Uccidi Cacciatore",
+         "description":"Il Cacciatore diventerà un cadavere.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"capturefollower",
+         "label":"Cattura Seguace",
+         "description":"Il Seguace sarà imprigionato.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"restorepassion",
+         "label":"Recupera Passione",
+         "description":"La Passione sarà schiarita.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"plead",
+         "label":"Perorare",
+         "description":"Potrebbe mostrare pietà.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"employment",
+         "label":"Impiego",
+         "description":"Ho concluso un giorno di lavoro.",
+         "isAspect":true,
+         "comments":"Recipe aspect. Refreshes job timers and fatigues stats",
+         "noartneeded":true
+      },
+      {
+         "id":"scandalous",
+         "label":"Scandaloso",
+         "description":"Non sarà dimenticato facilmente.",
+         "isAspect":true,
+         "comments":"Recipe aspect. Refreshes reputation timers.",
+         "noartneeded":true
+      },
+      {
+         "id":"epiphany",
+         "label":"Epifania",
+         "description":"La mia comprensione è incrementata.",
+         "isAspect":true,
+         "comments":"Recipe aspect. Upgrades lore.",
+         "noartneeded":true
+      },
+      {
+         "id":"upgradeinfluence",
+         "label":"Migliorare un Influsso",
+         "description":"Ho trovato un allineamento.",
+         "isAspect":true,
+         "comments":"Recipe aspect. Upgrades influence.",
+         "noartneeded":true
+      },
+      {
+         "id":"glorify",
+         "label":"Una MOssa verSo la GLoria",
+         "description":"Converte Terrore in Seduzione, e altri elementi potenziali ad equivalenti più Gloriosi.",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"depiphany",
+         "label":"Depifania",
+         "description":"Comprendo le cose con più semplicità ora.",
+         "isAspect":true,
+         "comments":"Recipe aspect. Downgrades and splits lore.",
+         "noartneeded":true
+      },
+      {
+         "id":"investigatingsuccess",
+         "label":"Successo nelle Indagini",
+         "description":"Migliora le prove.",
+         "isAspect":true,
+         "comments":"Recipe aspect.",
+         "noartneeded":true
+      },
+      {
+         "id":"investigatingsetback",
+         "label":"Contrattempo nelle Indagini",
+         "description":"Peggiora le prove.",
+         "isAspect":true,
+         "comments":"Recipe aspect.",
+         "noartneeded":true
+      },
+      {
+         "id":"crackmirror",
+         "label":"Specchi Infranti",
+         "description":"Gli Specchi saranno infranti.",
+         "isAspect":true,
+         "comments":"Recipe aspect",
+         "noartneeded":true
+      },
+      {
+         "id":"mortal",
+         "label":"Mortale",
+         "description":"'La lunga abitudine al vivere ci indispone al morire.' - Thomas Browne",
+         "isAspect":true
+      },
+      {
+         "id":"commission",
+         "label":"Commissione",
+         "description":"Un’opportunità per fare profitto. Dovrei completarla e riportarla al benefattore.",
+         "isAspect":true
+      },
+      {
+         "id":"benign",
+         "label":"Pura Buona Fortuna",
+         "description":"Quanto sono stato fortunato...",
+         "isAspect":true
+      },
+      {
+         "id":"malign",
+         "label":"Una Bruttura",
+         "description":"Qualcosa di sgradito.",
+         "isAspect":true
+      },
+      {
+         "id":"season",
+         "label":"Stagione",
+         "description":"Qualcosa di rilevante accadrà, presto.",
+         "isAspect":true,
+         "comments":"identifies card draws for Time seasonal events"
+      },
+      {
+         "id":"devourer",
+         "label":"Divoratore",
+         "description":"Se si liberasse, potrebbe assalirti, o consumare i tuoi seguaci.",
+         "isAspect":true
+      },
+      {
+         "id":"deceiver",
+         "label":"Imbroglione",
+         "description":"Se si liberasse, potrebbe tentare di condurre te o i tuoi seguaci alla follia.",
+         "isAspect":true
+      },
+      {
+         "id":"mystic",
+         "label":"Mistico",
+         "description":"Questo Cacciatore di norma sopravvive agli attacchi delle creature del Mansus, anche nel caso di attacchi inarrestabili.",
+         "isAspect":true
+      },
+      {
+         "id":"brilliant",
+         "label":"Brillante",
+         "description":"I Cacciatori Brillanti trovano i significati dei più piccoli dettagli. Possono convertire direttamente la Notorietà in Prove Schiaccianti.",
+         "noartneeded":true,
+         "isAspect":true
+      },
+      {
+         "id":"erratic",
+         "label":"Erratico",
+         "description":"Questo Cacciatore di norma fallisce nella creazione delle Prove dalla Notorietà. Di converso, talvolta creano Prove quando non riescono a trovare Notorietà.",
+         "isAspect":true
+      },
+      {
+         "id":"meticulous",
+         "label":"Meticoloso",
+         "description":"Questo Cacciatore riesce sempre a creare Prove dalla Notorietà.",
+         "isAspect":true
+      },
+      {
+         "id":"tenacious",
+         "label":"Tenace",
+         "description":"Questo Cacciatore sopravvive a circa un attacco fisico su tre, anche nel caso di attacchi inarrestabili.",
+         "isAspect":true
+      },
+      {
+         "id":"wary",
+         "label":"Diffidente",
+         "description":"È diventato cauto. Non mi incontrerà più di persona.",
+         "isAspect":true
+      },
+      {
+         "id":"grim",
+         "label":"Cupo",
+         "description":"I Cacciatori Cupi non possono essere influenzati dal fascino dell Gloria... ma la loro stessa disperazione potrebbe distruggerli.",
+         "isAspect":true
+      },
+      {
+         "id":"idealist",
+         "label":"Idealista",
+         "description":"Gli Idealisti non possono essere demoralizzati - sebbene, talvolta, i loro ideali possano essere utilizzati contro di loro.",
+         "isAspect":true
+      },
+      {
+         "id":"venerationedge",
+         "label":"Venerazione: Lama",
+         "description":"Questa organizzazione venera il principio chiamato Lama, che noi chiamiamo nel nome del Colonnello e del Leonfabbro... tra gli altri.",
+         "isAspect":true
+      },
+      {
+         "id":"venerationforge",
+         "label":"Venerazione: Forgia",
+         "description":"Questa organizzazione venera il principio chiamato Forgia, che noi chiamiamo nel nome della Forgia dei Giorni e del Madrugad... tra gli altri.",
+         "isAspect":true
+      },
+      {
+         "id":"venerationgrail",
+         "label":"Venerazione: Graal",
+         "description":"Questa organizzazione venera il principio chiamato Graal, che noi chiamiamo nel nome del Graal Rosso e della Sorella-e-Strega... tra gli altri.",
+         "isAspect":true
+      },
+      {
+         "id":"venerationheart",
+         "label":"Venerazione: Cuore",
+         "description":"Questa organizzazione venera il principio chiamato Cuore, che noi chiamiamo nel nome del Pellefolgore ed il Velluto... tra gli altri.",
+         "isAspect":true
+      },
+      {
+         "id":"venerationknock",
+         "label":"Venerazione: Colpo",
+         "description":"Questa organizzazione venera il principio chiamato Colpo, che noi chiamiamo nel nome della Madre delle Formiche e del Meniscate... tra gli altri.",
+         "isAspect":true
+      },
+      {
+         "id":"venerationlantern",
+         "label":"Venerazione: Lanterna",
+         "description":"Questa organizzazione venera il principio chiamato Lanterna, che noi chiamiamo nel nome della Porta-ne-l’Occhio e il Creatore di Fiori... tra gli altri.",
+         "isAspect":true
+      },
+      {
+         "id":"venerationmoth",
+         "label":"Venerazione: Falena",
+         "description":"Questa organizzazione venera il principio chiamato Falena, che noi chiamiamo nel nome della stessa Falena e della Strega-e-Sorella... tra gli altri.",
+         "isAspect":true
+      },
+      {
+         "id":"venerationwinter",
+         "label":"Venerazione: Inverno",
+         "description":"Questa organizzazione venera il principio chiamato Inverno, che noi chiamiamo nel nome del Sole-negli-Stracci e l’Ascia Cornuta... tra gli altri.",
+         "isAspect":true
+      },
+      {
+         "id":"textlatin",
+         "label":"Scritto in Latino",
+         "description":"Una lingua morta: morta come i diamanti. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "isAspect":true
+      },
+      {
+         "id":"textfucine",
+         "label":"Scritto in Fucino",
+         "description":"Delle persone vissero ad est del perduto lago Fucino. Orazio aveva avvertito che la loro era la terra delle streghe. Questa era la loro lingua, chiamata da alcuni 'la lingua asciutta' e da altri 'la lingua delle streghe'.[Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "isAspect":true
+      },
+      {
+         "id":"textgreek",
+         "label":"Scritto in Greco",
+         "description":"Una lingua per filosofi, teologi ed eroi. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "isAspect":true
+      },
+      {
+         "id":"textphrygian",
+         "label":"Scritto in Frigio",
+         "description":"I Frigi adoravano la Grande Madre, che noi chiamiamo 'il Graal'. La loro era la terra nella quale la Sorellanza del Nodo è nata, e questa è la lingua nella quale il Pellefolgore supplicò alla sua ascensione. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "isAspect":true
+      },
+      {
+         "id":"textaramaic",
+         "label":"Scritto in Aramaico",
+         "description":"La lingua di Aram, e di tutti i suoi innumerevoli figli in questi ultimi tremila anni e più. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "isAspect":true
+      },
+      {
+         "id":"textmandaic",
+         "label":"Scritto in Basso Mandaico",
+         "description":"I più segreti scritti sui riti più intimi delle più profonde sette del profondo deserto. La madrelingua, si dice, della stessa Madre delle Formiche. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "isAspect":true
+      },
+      {
+         "id":"textsanskrit",
+         "label":"Scritto in Sanscrito",
+         "description":"La lingua santa del Subcontinente. La porta a quattromila anni di poesia, cerimonie e misteri ora si apre davanti a te, se riesci ad affrontare la sinuosità a loto del suo vocabolario. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "isAspect":true
+      },
+      {
+         "id":"textvak",
+         "label":"Scritto in Vak",
+         "description":"Prima che gli dei si ergessero dal sangue, prima che qualsiasi scimmia si ergesse, questa era la lingua udita nella Casa del Sole. [Alcuni libri devono essere tradotti prima di poter essere letti.]",
+         "isAspect":true
+      },
+      {
+         "id":"follower_honoured",
+         "label":"Onorato",
+         "description":"Ho onorato questo seguace con un regalo.",
+         "isAspect":true
+      },
+      {
+         "id":"romanticinterest",
+         "label":"Interessato",
+         "description":"Questo è qualcuno che ha sviluppato un interesse romantico nei miei confronti.",
+         "isAspect":true
+      },
+      {
+         "id":"long_wound",
+         "label":"Ferita",
+         "description":"È possibile che un Lungo muoia? Mettiamolo alla prova.",
+         "isAspect":true,
+         "icon":"long_wound"
+      },
+      {
+         "id":"follower_wound",
+         "label":"Ferita",
+         "description":"Questo qui ha sofferto al mio servizio. [I Seguaci Feriti non contano come Seguaci, e non possono usati come agenti o assistenti. Potrebbero morire nella Stagione di Malattia. Usa <b>Parlare</b> per curarli.]",
+         "isAspect":true
+      },
+      {
+         "id":"follower_scar_edge",
+         "label":"Ferita: Esperienza Brutale",
+         "description":"FAUSTUS: Penso che l’Inferno sia una favola. MEPHISTOPHILIS: Sì, continua a pensare così, finché l’esperienza ti cambierà l’opinione. [Tre Ferite dello stesso tipo uccidono un mortale.]",
+         "isAspect":true
+      },
+      {
+         "id":"follower_scar_knock",
+         "label":"Ferita: Fistola Mezza Curata",
+         "description":"Non tutte le porte sono ferite; ma tutte le ferite sono porte. [Tre Ferite dello stesso tipo uccidono un mortale.]",
+         "isAspect":true
+      },
+      {
+         "id":"follower_scar_winter",
+         "label":"Ferita: Vecchia Cicatrice",
+         "description":"Fai un passo verso il tramonto, e vedrai le prime stelle della notte. [Tre Ferite dello stesso tipo uccidono un mortale.]",
+         "isAspect":true
+      },
+      {
+         "id":"corpse_scar",
+         "label":"Vecchia Cicatrice",
+         "description":"Questo era qualcuno che conosceva il dolore.",
+         "isAspect":true
+      },
+      {
+         "id":"resentment",
+         "label":"Risentimento",
+         "description":"Troppe lamentele possono compromettere la lealtà.",
+         "comments":"Three resentments in the season of ambitions will turn someone Troublemaker",
+         "isAspect":true
+      },
+      {
+         "id":"boredom",
+         "label":"Noia",
+         "description":"Gli interessi del mio benefattore, ad un certo punto, svaniranno.",
+         "isAspect":true
+      },
+      {
+         "id":"besotment",
+         "label":"Infatuato",
+         "description":"Il mio benefattore mi apprezza.",
+         "isAspect":true
+      },
+      {
+         "id":"benefactor_proposal",
+         "label":"Una proposta da un Benefattore",
+         "description":"In un momento di passione, il mio benefattore ha proposto di sposarci. Se cogliessi il momento ed accettassi, questo trasformerebbe la mia vita... e chiuderebbe per sempre altre porte. [Parla al Benefattore prima che il suo entusiasmo svanisca.]",
+         "isAspect":true
+      },
+      {
+         "id":"desiremoth_track",
+         "label":"Vecchia Forma",
+         "description":"Sto venendo a conoscenza di una danza che comincia nelle fradice foreste del primo continente.",
+         "isAspect":true
+      },
+      {
+         "id":"desireheart_track",
+         "label":"La Nuova Forma",
+         "description":"Sto venendo a conoscenza di una danza che comincia sotto i pini montani delle terre aride.",
+         "isAspect":true
+      },
+      {
+         "id":"potentialbenefactorm",
+         "label":"Il Gentlemen all’Ingresso degli Artisti",
+         "description":"Un ricco gentleman che, talvolta, viene agli spettacoli. Egli è noto per pagare il suo rispetto al corpo di ballo dopo lo spettacolo.",
+         "isAspect":true
+      },
+      {
+         "id":"potentialbenefactorf",
+         "label":"La Signora nella Scatola",
+         "description":"Una ricca signora che, talvolta, viene agli spettacoli. Essa è nota per mostrare un grande interesse per il corpo di ballo.",
+         "isAspect":true
+      },
+      {
+         "id":"potentialecdysiast",
+         "label":"Un'Osservatrice dagli Occhi Luminosi",
+         "description":"Talvolta essa siede in seconda fila, cercando nuovi talenti per la sua strana istituzione. Coloro che sono stati impiegati sono visti raramente per la città.",
+         "isAspect":true
+      },
+      {
+         "id":"snarelevel",
+         "label":"Efficacia della Trappola",
+         "description":"Alcune trappole sono facili da evitare. Altre sono ragnatele d’acciaio.",
+         "isAspect":true
+      },
+      {
+         "id":"apostleforge.pillar4.dormant",
+         "label":"Il Compasso Scelto",
+         "description":"Il nostro Forgiatore ha scelto questo per essere un compasso nel difetto del mondo - il luogo debole nel luogo che non cambia. Quando lo troveranno consegneranno i loro occhi, e vivranno per il loro Scopo.",
+         "isAspect":true
+      },
+      {
+         "id":"apostleforge.pillar4",
+         "label":"I Tuoi Occhi Hanno Visto",
+         "description":"Questo è cieco, tuttavia è in grado di vedere la falla del mondo che cerchiamo. Ce n’è una a Vienna, ma ce n’è una molto più vicina a casa, nel luogo il cui nome è sempre stato lo stesso, anche come ai tempi di Caer Ys. Possono condurlo là, con il Nucleo InfrangiAlba, per svolgere il nostro Grande Lavoro.",
+         "isAspect":true
+      },
+      {
+         "id":"mentor",
+         "label":"Mentore",
+         "description":"Il nostro sovrano segreto, che comanda la nostra lealtà, il quale si eleverà ancora più in alto attraverso il nostro lavoro.",
+         "isAspect":true
+      },
+      {
+         "id":"intention.assault",
+         "label":"Intenzione",
+         "description":"Il nostro nemico immortale ha un piano.",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"intention.intrigue",
+         "label":"Intenzione",
+         "description":"Il nostro nemico immortale ha un piano.",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"intention.dreams",
+         "label":"Intenzione",
+         "description":"Il nostro nemico immortale ha un piano.",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"intention.downtime",
+         "label":"Intenzione",
+         "description":"Il nostro nemico immortale ha un piano.",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"strategy.revealed",
+         "label":"Strategia Rivelata",
+         "description":"Questa strategia è stata esposta.",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"revealstrategy",
+         "label":"Rivela Strategia",
+         "description":"Rivela una strategia celata",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"revealidentity",
+         "label":"Rivela Indentità",
+         "description":"Rivela un nemico sconosciuto",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"long.lesson",
+         "label":"Una Lezione Appresa",
+         "description":"Il nostro nemico guarda ed impara.",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"long.might",
+         "label":"Potere",
+         "description":"Nel tempo, questo Lungo accumulerà alleati e risorse nella città, migliorando la sua abilità nell’assaltarci. [Se mai raggiungesse 10 segnalini, il Lungo potrebbe attaccarti direttamente.]",
+         "isAspect":true
+      },
+      {
+         "id":"long.connections",
+         "label":"Connessioni",
+         "description":"Nel tempo, questo Lungo accumulerà alleati e risorse nella città, migliorando la sua abilità  di macchinare contro di noi. [Se mai raggiungesse 10 segnalini, il Lungo potrebbe attaccarti direttamente.]",
+         "isAspect":true
+      },
+      {
+         "id":"long.dreamwork",
+         "label":"Le Dimensioni della Luce",
+         "description":"Nel tempo, questo Lungo imparerà la forma dei nostri sogni, migliorando la loro abilità di colpirci attraverso il Mansus. [Se mai raggiungesse 10 segnalini, il Lungo potrebbe attaccarti direttamente.]",
+         "isAspect":true
+      },
+      {
+         "id":"long.enemy",
+         "label":"Un Nemico Immortale",
+         "description":"Molti Lunghi servono le Ore. Essi si oppongono accanitamente all’ascesa di nuovi Nomi, i quali potrebbero, con difficoltà, diventare un giorno Ore usurpatrici. Alcuni Lunghi odiano le Ore. La loro opposizione ai nuovi Nomi è, in questo caso, ancora più accanita.",
+         "isAspect":true,
+         "isHidden":true
+      },
+      {
+         "id":"greatwork",
+         "label":"Un elemento del Grande Lavoro",
+         "description":"Quando il Lavoro è completo, il nostro fondatore, la nostra ispirazione, salirà ancora più in alto.",
+         "isAspect":true
+      },
+      {
+         "id":"greatwork.sabotaged",
+         "label":"Sabotato!",
+         "description":"Il Grande Lavoro è a rischio. [Usa un discepolo della Forgia e uno Spintria d’Argento per ripararlo.]",
+         "isAspect":true
+      },
+      {
+         "id":"sabotage",
+         "label":"Sabotaggio!",
+         "description":"Converte un oggetto Grande Lavoro in una versione instabile che necessita di riparazione.",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"sabotage.repair",
+         "label":"Sabotaggio Riparato!",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"grailflavour",
+         "label":"Il Più Dolce",
+         "description":"Fragole, cannella, fiori d’arancio.",
+         "isAspect":true
+      },
+      {
+         "id":"heartflavour",
+         "label":"Il Sale",
+         "description":"Rame, mirra, ruggine.",
+         "isAspect":true
+      },
+      {
+         "id":"mothflavour",
+         "label":"Il Dolce",
+         "description":"Fichi, noci, malto.",
+         "isAspect":true
+      },
+      {
+         "id":"vitulationupgrade",
+         "label":"Aggiornamento degli Ospiti della Vitulazione",
+         "description":"Ospiti riunitevi!",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"cloudwitnessesupgrade",
+         "label":"Aggiornamento della Nube dei Testimoni",
+         "description":"Testimoni riunitevi!",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"renew.apostlelantern.pillar3",
+         "label":"Rinnovare il Fascino",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"poison.notoriety",
+         "label":"Esposto",
+         "description":"I segreti di questo seguace sono stati rivelati al pubblico. La stampa potrebbe iniziare a seguirlo in ogni sua mossa.",
+         "isAspect":true,
+         "icon":"reputation",
+         "induces":[
+            {
+               "id":"poison.notoriety.induction",
+               "chance":30
+            }
+         ]
+      },
+      {
+         "id":"poison.passion.dread",
+         "label":"Passione Avvelenata",
+         "description":"Le mie emozioni sono state infettate da macchie di paura strisciante. [Usare questa carta, in qualsiasi caso, probabilmente creerà Terrore.]",
+         "isAspect":true,
+         "induces":[
+            {
+               "id":"poison.passion.dread.induction",
+               "chance":70
+            }
+         ]
+      },
+      {
+         "id":"poison.reason.fascination",
+         "label":"L’Infezione Splendente",
+         "description":"Sogni ricorrenti di fiamme di candela mi perseguitano. [Usare questa carta, in qualsiasi caso, creerà probabilmente Seduzione.]",
+         "isAspect":true,
+         "induces":[
+            {
+               "id":"poison.reason.fascination.induction",
+               "chance":70
+            }
+         ]
+      },
+      {
+         "id":"poison.health.dread",
+         "label":"La Carne Cadente",
+         "description":"Sono soggetto ad un dolore che non andrà mai via. [Usare questa carta, in qualsiasi caso, creerà probabilmente Terrore.]",
+         "isAspect":true,
+         "induces":[
+            {
+               "id":"poison.health.dread.induction",
+               "chance":70
+            }
+         ]
+      },
+      {
+         "id":"poison.fascination.longlesson",
+         "label":"Gli Occhi nella mia Memoria",
+         "description":"Il Lungo mi ha mandato un sogno dolce. Non ci devo pensare. [Se Sogni via questa carta o la usi in un rituale, il Lungo imparerà da te, incrementando il loro potere nei tuoi sogni.]",
+         "isAspect":true
+      },
+      {
+         "id":"poison.dread.longlesson",
+         "label":"Il Dente nel mio Cuore",
+         "description":"Il Lungo ha mandato dei sogni a tormentarmi. Sarebbe più sicuro bandirli, ma più saggio non pensarci. [Se Sogni via questa carta o la usi in un rituale, il Lungo imparerà da te, incrementando il loro potere nei tuoi sogni.]",
+         "isAspect":true
+      },
+      {
+         "id":"poison.way.long",
+         "label":"La Via è Guardata",
+         "description":"Il Lungo ha posto una guardia su questa Via. Se la passo, imparerà di più su di me quando dormo.",
+         "isAspect":true
+      },
+      {
+         "id":"lockscar",
+         "label":"Cicatrice-Serratura",
+         "description":"Forse un serpente mi ha baciato, forse un coltello si è abbeverato da me, forse ho sognato troppo taglientemente. [In un rito, con abbastanza aspetto del Colpo, questa ferita potrebbe aprirsi.]",
+         "isAspect":true
+      },
+      {
+         "id":"openedlockscar",
+         "label":"Cicatrice-Serratura Aperta",
+         "description":"[Questa Cicatrice si sta aprendo.]",
+         "isAspect":true
+      },
+      {
+         "id":"unlockscar",
+         "label":"Questa ferita si Aprirà",
+         "description":"Elemento Ricetta.",
+         "isAspect":true,
+         "noartneeded":true
+      },
+      {
+         "id":"ghoul.hunger",
+         "label":"Bocca da Cimitero",
+         "description":"Ora che ho assaggiato il frutto del cimitero, la fame torna spesso a darmi problemi. La mia bocca si inumidisce con le fragranze del decadimento, e il mio stomaco ringhia come un cane. [Riduci questo cibandoti di Avanzi. Non permettergli mai di raggiungere il sette, il gioco potrebbe finire, e non piacevolmente.]",
+         "isAspect":true
+      },
+      {
+         "id":"colours.furious",
+         "label":"I Colori Sette Volte Attorcigliati",
+         "description":"In un letto di dune, sotto un basso sole rosso, un mostro combatte contro sé stesso mentre una folla di partecipanti si appresta ai suoi fianchi. È flaccido e grande, del colore dello zolfo sporco. I suoi colli, tentacolari e zannuti, combattono come cuccioli. Si strappa allegramente la sua stessa carne, e il sangue che gronda è dorato. Si muove come in un cataclisma di carne aggrovigliata, spappolando un nodo di partecipanti, mentre gli altri urlano e tifano.",
+         "isAspect":true
+      },
+      {
+         "id":"colours.luxurious",
+         "label":"I Colori della Marea",
+         "description":"Nelle notti blu, nella nebbia del Mansus, nuota una corona di corallo regale. Nella sua parte anteriore assorbe i Nomi minori, ricoprendoli di minerali e succhi, e nel bordo posteriore espelle alcuni di questi, lucidati come gioielli. Gli altri vanno a nutrire il cuore spinoso della Marea.",
+         "isAspect":true
+      },
+      {
+         "id":"colours.liminal",
+         "label":"I Colori del Doppio Limite",
+         "description":"Quando ripenso all'Ascia Cornuta, mi ricordo dei profumi del biancospino. Penso ad un cielo serale violaceo inframmezzato da rosso dorato. Ricordo che i suoi bordi gocciolavano dove lei, ultimamente, aveva lavorato.",
+         "isAspect":true
+      },
+      {
+         "id":"colours.horizon",
+         "label":"I Colori dell'Orizzonte",
+         "description":"Un bianco sfumato verso l'oro pallido, come si vede in certe parti del cielo, quando la nebbia si sta diradando ma il sole potrebbe ancora esser scambiato per la luna. Tratteniamo il respiro e lo guardiamo rischiararsi, finché ogni colore si divide come un alfabeto appena coniato. L'Uovo che si Schiude.",
+         "isAspect":true
+      },
+      {
+         "id":"colours.splendid",
+         "label":"I Colori che Furono",
+         "description":"Il rosa dell'aurora gareggia con il blu elettrico. Non vi è né notte né mattina, ma solamente le ore del mezzogiorno anticipate e persistente meriggio. Ognuno di noi apre il suo cuore all'ago dorato nel cielo. Tutti i colori sono magnificato sotto il Sole-nel-Lusso.",
+         "isAspect":true
+      },
+      {
+         "id":"colours.endless",
+         "label":"I Colori che Trasformano",
+         "description":"Ad ogni battito delle ciglia e ad ogni contorsione il corpo arroscisce, traslucente, verso il cremisi. Potrebbe sembrar brutto, ma è bellissimo, come un prelievo di sangue attraverso labirinti di vetro. Non smette e tutte le sue involuzioni sono infinite. La Ruota.",
+         "isAspect":true
+      },
+      {
+         "id":"colours.wildering",
+         "label":"I Colori Che Non Sono Nero",
+         "description":"La Foresta prima del suo oscuramento, i suoi frutti verde-veleno, le sue radici color corniola. Gli occhi della Falena sono felici nella fame. Sta cacciando.",
+         "isAspect":true
+      },
+      {
+         "id":"colours.golden",
+         "label":"I Colori del Vecchio Fuoco",
+         "description":"Questa è solamente una pietra, sebbene sia stata lisciata e sia molto affilata, ma guarda più da vicino. Ognuna delle sue sfaccettature mostra un singolo punto di luce. Potrebbe essere il luccichio di un focolare. Ognuna potrebbe essere una Stella differente.",
+         "isAspect":true
+      },
+      {
+         "id":"colours.honeyed",
+         "label":"I Colori che Saranno",
+         "description":"Le nostre ali dispiegate e lucenti, le nostre scaglie guizzanti come ossidiana, i nostri occhi sfaccettati come gioielli, le nostre zanne inattaccabilmente oscure.",
+         "isAspect":true
+      },
+      {
+         "id":"ascension.remembrance.offering",
+         "label":"Il Prezzo dell'Elegiasta",
+         "description":"L'Elegiasta è l'Ora dalla quale nulla più può esser preso, e l'Ora che chiama ogni Morto per nome. Una volta ogni eone, per un grande prezzo, chiamerà uno dei Morti dal Nulla, affinché possa continuare, solitario, illeso, fino alla data del suo stesso inverno finale.",
+         "isAspect":true
+      },
+      {
+         "id":"remnant",
+         "label":"Residuo",
+         "description":"Un tempo qualcun'altro indossò questa carne.",
+         "isAspect":true
+      },
+      {
+         "id":"manifesting",
+         "label":"Manifestarsi",
+         "description":"Lo spirito sta entrando in questo mondo. Ciò è più semplice di una nascita, ma non così semplice come attraversare una porta.",
+         "isAspect":true
+      },
+      {
+         "id":"stale",
+         "label":"Stantio",
+         "description":"Ho cominciato a ripetermi. [Più alto sarà questo valore, maggiore l'impatto sul tuo lavoro. Produrre lavori di alta qualità ridurrà gradualmente l'esser Stantio.]",
+         "isAspect":true,
+         "icon":"boredom"
+      },
+      {
+         "id":"project",
+         "label":"Progetto",
+         "description":"Programma un progetto di ricerca.",
+         "isHidden":true,
+         "isAspect":true
+      }
+   ]
+}

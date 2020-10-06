@@ -1,0 +1,537 @@
+{
+   "elements":[
+      {
+         "id":"locationbookdealer",
+         "label":"La Bottega di Morland",
+         "aspects":{
+            "location":1
+         },
+         "slots":[
+            {
+               "id":"Cost",
+               "label":"Costo",
+               "required":{
+                  "funds":1
+               },
+               "consumes":true,
+               "actionId":"explore"
+            }
+         ],
+         "description":"Gli oscuri locali di Miss Morland, la quale tratta libri rari e talvolta pericolosi.",
+         "unique":true,
+         "xtriggers":{
+            "exhaustlocation":"locationbookdealer_exhausted"
+         }
+      },
+      {
+         "id":"locationbookdealer_exhausted",
+         "label":"La Bottega di Morland [Chiusa]",
+         "description":"Questo era l’indirizzo di Morland, la commerciante di libri, ma dovrò procurarmi da qualche altra parte le fonti, ora.",
+         "aspects":{
+            "location":1,
+            "hq.potential":1
+         },
+         "slots":[
+            {
+               "id":"Old HQ",
+               "label":"Vecchio QG",
+               "description":"Poni un vecchio QG qui per abbandonarlo e muoverti in questo nuovo luogo. Non sarà possibile nessun ritorno.",
+               "actionId":"explore",
+               "required":{
+                  "hq":1
+               }
+            }
+         ],
+         "unique":true,
+         "xtriggers":{
+            "movehq":"hq.bookshop"
+         }
+      },
+      {
+         "id":"locationauctionhouse",
+         "label":"Casa d’Aste d’Oriflamme",
+         "aspects":{
+            "location":1
+         },
+         "description":"Oriflamme è specializzato in curiosità, profumi, tassidermia, reperti e testi rari. Si trova ad operare in angusti nuovi locali, ora, dalla distruzione dei vecchi dopo un inspiegabile incendio. [Puoi comprare o vendere oggetti da Oriflamme.]",
+         "slots":[
+            {
+               "id":"Sell",
+               "label":"Vendi",
+               "description":"Poni qui un oggetto per metterlo all’asta.",
+               "required":{
+                  "auctionable":1
+               },
+               "actionId":"explore"
+            }
+         ],
+         "unique":true
+      },
+      {
+         "id":"locationcabaretclosed",
+         "label":"L’Ecdysis Club [Chiuso]",
+         "description":"Un cabaret dall'occulta fama. È aperto solamente certe notti della settimana; riaprirà presto.",
+         "unique":true,
+         "lifetime":30,
+         "decayTo":"locationcabaret",
+         "uniquenessgroup":"uqcabaret",
+         "resaturate":true
+      },
+      {
+         "id":"locationcabaret",
+         "label":"L’Ecdysis Club",
+         "aspects":{
+            "location":1,
+            "moth":1,
+            "grail":1,
+            "heart":1
+         },
+         "description":"Un cabaret dall'occulta fama.",
+         "slots":[
+            {
+               "id":"Entry",
+               "label":"Entrata",
+               "actionId":"explore",
+               "required":{
+                  "funds":1,
+                  "sulochana":1
+               }
+            }
+         ],
+         "xtriggers":{
+            "locationcabaret":"locationcabaretclosed"
+         },
+         "unique":true,
+         "uniquenessgroup":"uqcabaret"
+      },
+      {
+         "id":"hq.abandoned",
+         "label":"Quartier Generale Abbandonato",
+         "description":"Dimenticatelo, J.N.",
+         "lifetime":1
+      },
+      {
+         "id":"generichq",
+         "label":"Quartier Generale?",
+         "aspects":{
+            "hq":1
+         },
+         "description":"[La meccanica dei Quartieri Generali è cambiata.]",
+         "unique":true
+      },
+      {
+         "id":"hq.temporary",
+         "label":"Quartier Generale Temporaneo",
+         "aspects":{
+            "hq":1,
+            "location":1
+         },
+         "description":"I nostri affari sono privati. Potremmo usare un luogo più segreto.",
+         "slots":[
+            {
+               "id":"Cupboard",
+               "label":"Sottoscala",
+               "description":"Poni un Seguace qui per convertirlo, permanentemente, in un Prigioniero.",
+               "actionId":"talk",
+               "required":{
+                  "follower":1
+               },
+               "forbidden":{
+                  "summoned":1
+               }
+            }
+         ],
+         "xtriggers":{
+            "movehq":"hq.abandoned"
+         },
+         "unique":true,
+         "icon":"generichq"
+      },
+      {
+         "id":"hq.townhouse",
+         "label":"Villetta Opulenta",
+         "aspects":{
+            "hq":1,
+            "location":1,
+            "library":1
+         },
+         "description":"Chiudiamo sempre bene le tende prima di arrotolare i tappeti e marchiare il pavimento con il gesso.",
+         "slots":[
+            {
+               "id":"Attic",
+               "label":"Attico",
+               "description":"Poni un Seguace qui per convertirlo, permanentemente, in un Prigioniero.",
+               "actionId":"talk",
+               "required":{
+                  "follower":1
+               },
+               "forbidden":{
+                  "summoned":1
+               }
+            },
+            {
+               "id":"funds",
+               "label":"Fondi",
+               "description":"Poni dei Fondi qui per richiamare l’influsso del Graal.",
+               "actionId":"explore",
+               "required":{
+                  "funds":1
+               }
+            }
+         ],
+         "xtriggers":{
+            "movehq":"hq.abandoned"
+         },
+         "unique":true
+      },
+      {
+         "id":"hq.church",
+         "label":"Chiesa Eterodossa",
+         "aspects":{
+            "hq":1,
+            "location":1,
+            "sanctuary":1
+         },
+         "description":"Perfino la Domenica mattina avvengono bizzarrie durante la funzione, ma molti esterni non se ne accorgono. Gli estranei, inoltre, non sono invitati alle cerimonie che teniamo nelle ore più fredde.",
+         "slots":[
+            {
+               "id":"Vestry",
+               "label":"Sacrestia",
+               "description":"Rinchiudi un Seguace qui per convertirlo, permanentemente, in un Prigioniero.",
+               "actionId":"talk",
+               "required":{
+                  "follower":1
+               },
+               "forbidden":{
+                  "summoned":1
+               }
+            },
+            {
+               "id":"funds",
+               "label":"Fondi",
+               "description":"Poni dei Fondi qui per richiamare l’influsso del Colpo.",
+               "actionId":"explore",
+               "required":{
+                  "funds":1
+               }
+            }
+         ],
+         "xtriggers":{
+            "movehq":"hq.abandoned"
+         },
+         "unique":true
+      },
+      {
+         "id":"hq.mithraeum",
+         "label":"Mitreo a Lume di Candela",
+         "aspects":{
+            "hq":1,
+            "location":1,
+            "sanctuary":1,
+            "secret":1
+         },
+         "description":"Gli Iniziati hanno celebrato i Misteri qui per almeno duemila anni. Le parole cambiano, gli dei cambiano, ma c’è sempre, alla fine, del sangue.",
+         "slots":[
+            {
+               "id":"Chains",
+               "label":"Catene",
+               "description":"Poni un Seguace qui per convertirlo, permanentemente, in un Prigioniero.",
+               "actionId":"talk",
+               "required":{
+                  "follower":1
+               },
+               "forbidden":{
+                  "summoned":1
+               }
+            },
+            {
+               "id":"funds",
+               "label":"Fondi",
+               "description":"Poni dei Fondi qui per richiamare l’influsso della Lanterna.",
+               "actionId":"explore",
+               "required":{
+                  "funds":1
+               }
+            }
+         ],
+         "xtriggers":{
+            "movehq":"hq.abandoned"
+         },
+         "unique":true
+      },
+      {
+         "id":"hq.hospital",
+         "label":"Casa Violetta",
+         "aspects":{
+            "hq":1,
+            "location":1,
+            "pit":1,
+            "secret":1
+         },
+         "description":"Abbiamo dipinto i muri interni del ricco colore della Camera Violetta. Abbiamo pulito dalle ragnatele, posto persiane su ogni finestra e abbiamo cambiato tutte le serrature.",
+         "slots":[
+            {
+               "id":"Cell",
+               "label":"Cella",
+               "description":"Poni un Seguace qui per convertirlo, permanentemente, in un Prigioniero.",
+               "actionId":"talk",
+               "required":{
+                  "follower":1
+               },
+               "forbidden":{
+                  "summoned":1
+               }
+            },
+            {
+               "id":"funds",
+               "label":"Fondi",
+               "description":"Poni dei Fondi qui per richiamare l’influsso del Colpo.",
+               "actionId":"explore",
+               "required":{
+                  "funds":1
+               }
+            }
+         ],
+         "xtriggers":{
+            "movehq":"hq.abandoned"
+         },
+         "unique":true
+      },
+      {
+         "id":"hq.bookshop",
+         "label":"Stanze Interne di una Libreria",
+         "aspects":{
+            "hq":1,
+            "location":1,
+            "library":1
+         },
+         "description":"I pezzi minori dei fondi di Miss Morland sono ancora qua. Da quando siamo arrivati estranei continuano ad arrivare con dei libri da vendere, e talvolta li assecondiamo.",
+         "slots":[
+            {
+               "id":"Cellar",
+               "label":"Cantina",
+               "description":"Poni un Seguace qui per convertirlo, permanentemente, in un Prigioniero.",
+               "actionId":"talk",
+               "required":{
+                  "follower":1
+               },
+               "forbidden":{
+                  "summoned":1
+               }
+            },
+            {
+               "id":"funds",
+               "label":"Fondi",
+               "description":"Poni dei Fondi qui per richiamare l’influsso del Cuore.",
+               "actionId":"explore",
+               "required":{
+                  "funds":1
+               }
+            }
+         ],
+         "xtriggers":{
+            "movehq":"hq.abandoned"
+         },
+         "unique":true
+      },
+      {
+         "id":"hq.warehouse",
+         "label":"Un Magazzino Oscuro",
+         "aspects":{
+            "hq":1,
+            "location":1,
+            "pit":1,
+            "secret":1
+         },
+         "description":"Le travi sono rosicchiate dai ratti. Il loro odore quasi si perde nel fetore del fiume. È lontano da qualsiasi posto in cui possa voler andare una qualsiasi persona. Tutte queste cose sono, a modo loro, dei vantaggi.",
+         "slots":[
+            {
+               "id":"Shed",
+               "label":"Capanno",
+               "description":"Poni un Seguace qui per convertirlo, permanentemente, in un Prigioniero.",
+               "actionId":"talk",
+               "required":{
+                  "follower":1
+               },
+               "forbidden":{
+                  "summoned":1
+               }
+            },
+            {
+               "id":"funds",
+               "label":"Fondi",
+               "description":"Poni dei Fondi qui per richiamare l’influsso della Forgia.",
+               "actionId":"explore",
+               "required":{
+                  "funds":1
+               }
+            }
+         ],
+         "xtriggers":{
+            "movehq":"hq.abandoned"
+         },
+         "unique":true
+      },
+      {
+         "id":"hq.church.potential",
+         "label":"Chiesa Incustodita",
+         "aspects":{
+            "location":1,
+            "hq.potential":1
+         },
+         "description":"Il pastore è scomparso, una notte, assai repentinamente, con la sua cerchia ristretta e i più importanti tesori della chiesa. Si presume che, con molta probabilità, egli sia andato in un posto migliore: forse un luogo assolato, oltre un lucente mare. Potremmo reclutare il suo gregge abbandonato, e rendere questa la base delle nostre operazioni.",
+         "slots":[
+            {
+               "id":"Old HQ",
+               "label":"Vecchio QG",
+               "description":"Poni un vecchio QG qui per abbandonarlo e muoverti in questo nuovo luogo. Non sarà possibile nessun ritorno.",
+               "actionId":"explore",
+               "required":{
+                  "hq":1
+               }
+            }
+         ],
+         "unique":true,
+         "xtriggers":{
+            "movehq":"hq.church"
+         },
+         "icon":"hq.church"
+      },
+      {
+         "id":"hq.mithraeum.potential",
+         "label":"Mitreo Vuoto",
+         "aspects":{
+            "location":1,
+            "hq.potential":1
+         },
+         "description":"Questo era un luogo di culto, un tempo. Potremmo renderlo di nuovo tale.",
+         "slots":[
+            {
+               "id":"Old HQ",
+               "label":"Vecchio QG",
+               "description":"Poni un vecchio QG qui per abbandonarlo e muoverti in questo nuovo luogo. Non sarà possibile nessun ritorno.",
+               "actionId":"explore",
+               "required":{
+                  "hq":1
+               }
+            }
+         ],
+         "unique":true,
+         "xtriggers":{
+            "movehq":"hq.mithraeum"
+         },
+         "icon":"hq.mithraeum"
+      },
+      {
+         "id":"hq.hospital.potential",
+         "label":"Ospedale Vuoto",
+         "aspects":{
+            "location":1,
+            "hq.potential":1
+         },
+         "description":"I fantasmi - dicono i vicini - camminano ancora per gli echeggianti corridoi. Se ne prendiamo possesso, ovviamente, se ne andranno, o noi li piegheremo a nostro vantaggio.",
+         "slots":[
+            {
+               "id":"Old HQ",
+               "label":"Vecchio QG",
+               "description":"Poni un vecchio QG qui per abbandonarlo e muoverti in questo nuovo luogo. Non sarà possibile nessun ritorno.",
+               "actionId":"explore",
+               "required":{
+                  "hq":1
+               }
+            }
+         ],
+         "unique":true,
+         "xtriggers":{
+            "movehq":"hq.hospital"
+         },
+         "icon":"hq.hospital"
+      },
+      {
+         "id":"hq.warehouse.potential",
+         "label":"Un Magazzino Abbandonato",
+         "aspects":{
+            "location":1,
+            "hq.potential":1
+         },
+         "description":"Un involucro marcescente accanto ad un fiume. Chi ci seguirebbe fino a qua?",
+         "slots":[
+            {
+               "id":"Old HQ",
+               "label":"Vecchio QG",
+               "description":"Poni un vecchio QG qui per abbandonarlo e muoverti in questo nuovo luogo. Non sarà possibile nessun ritorno.",
+               "actionId":"explore",
+               "required":{
+                  "hq":1
+               }
+            }
+         ],
+         "unique":true,
+         "xtriggers":{
+            "movehq":"hq.warehouse"
+         },
+         "icon":"hq.warehouse"
+      },
+      {
+         "id":"locationstreetsstrange",
+         "label":"Strane Strade al Chiaro di Luna",
+         "aspects":{
+            "location":1
+         },
+         "description":"Talvolta, la luce lunare è una chiave per altri spazi. Ho trovato un posto dove, per una notte o due, le strade curvano in maniere insolite. Se ci camminassi, potrei trovarci una visione, o potrei essere toccato dalla follia.",
+         "lifetime":120
+      },
+      {
+         "id":"location.gallery",
+         "label":"La Galleria Montmerenzi-McDonald",
+         "comments":"currently just used for early Ghoul flavour, but we could do more.",
+         "aspects":{
+            "location":1
+         },
+         "description":"Alistair Montmerenzi, terzo e ultimo dei cartografi Montmerenzi e il suo enigmatico benefattore Timothy McDonald hanno riunito questa piccola ma stupefacente miscellanea. Dopo la loro sparizione, avvenuta durante la loro ultima spedizione polare, la collezione è stata aperta al pubblico in uno spoglio e grigio edificio accanto ad un parco tranquillo... alla condizione che nessun pezzo d'arte al suo interno potesse mai esser fotografato, o esposto alla luce solare."
+      },
+      {
+         "id":"location.cemetery",
+         "label":"Cimitero",
+         "slots":[
+            {
+               "id":"muscle",
+               "label":"Muscoli",
+               "description":"Potrei impiegare un aiutante, o scavare con le mie mani.",
+               "actionId":"explore",
+               "required":{
+                  "health":1,
+                  "follower":1
+               }
+            }
+         ],
+         "description":"Nel mondo della veglia, come nel sogno, i morti spesso si trovano al di sotto.",
+         "aspects":{
+            "location":1
+         },
+         "lifetime":300,
+         "decayTo":"location.cemetery.closing"
+      },
+      {
+         "id":"location.cemetery.closing",
+         "label":"Cimitero Guardato a Vista",
+         "description":"Le autorità hanno notato peculiari attività in questo luogo. Ora è posizionata una guardia al cancello. Le visite prenderanno più tempo, e presto non saranno più possibili.",
+         "slots":[
+            {
+               "id":"muscle",
+               "label":"Muscoli",
+               "description":"Potrei impiegare un aiutante, o scavare con le mie mani.",
+               "actionId":"explore",
+               "required":{
+                  "health":1,
+                  "follower":1
+               }
+            }
+         ],
+         "aspects":{
+            "location":1
+         },
+         "lifetime":60
+      }
+   ]
+}

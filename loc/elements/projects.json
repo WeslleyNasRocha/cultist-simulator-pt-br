@@ -1,0 +1,298 @@
+{
+   "elements":[
+      {
+         "id":"project_upgrade_edge",
+         "label":"Aumentare la mia comprensione della tradizione della Lama",
+         "description":"Spero di migliorare la conoscenza della tradizione della Lama.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_subvert_edgetowinter",
+         "label":"Convertire Lama in Inverno",
+         "description":"Sto riconoscendo la vittoria della pazienza sulla forza, sovvertendo la mia tradizione della Lama a quella dell'Inverno.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_upgrade_forge",
+         "label":"Aumentare la mia comprensione della tradizione della Forgia",
+         "description":"Spero di migliorare la mia tradizione della Forgia.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_subvert_forgetoedge",
+         "label":"Convertire Forgia in Lama",
+         "description":"Sto convertendo la mia tradizione della Forgia in quella della Lama.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_upgrade_grail",
+         "label":"Aumentare la mia comprensione della tradizione del Graal",
+         "description":"Spero di migliorare la mia tradizione del Graal.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_subvert_grailtomoth",
+         "label":"Convertire la tradizione del Graal in Falena",
+         "description":"Sto convertendo la mia tradizione del Graal in quella della Falena.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_upgrade_heart",
+         "label":"Aumentare la mia comprensione della tradizione del Cuore",
+         "description":"Spero di migliorare la mia tradizione del Cuore.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_subvert_hearttograil",
+         "label":"Convertire la tradizione del Cuore in Graal",
+         "description":"Sto convertendo la tradizione del Cuore in quella del Graal.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_upgrade_subvert_knock",
+         "label":"Aumentare la mia comprensione della tradizione del Colpo",
+         "description":"Sto approfondendo la mia comprendione della tradizione del Colpo.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_upgrade_lantern",
+         "label":"Aumentare la mia comprensione della tradizione della Lanterna",
+         "description":"Spero di migliorare la mia tradizione della Lanterna.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_subvert_lanterntoforge",
+         "label":"Convertire la tradizione della Lanterna in Forgia",
+         "description":"Sto convertendo la tradizione della Lanterna in quella della Forgia.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_upgrade_moth",
+         "label":"Aumentare la mia comprensione della tradizione della Falena",
+         "description":"Spero di migliorare la mia tradizione della Falena.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_subvert_mothtolantern",
+         "label":"Convertire la tradizione della Falena in Lanterna",
+         "description":"Sto convertendo la tradizione della Falena in quella della Lanterna.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_upgrade_secrethistories",
+         "label":"Aumentare la mia comprensione della tradizione delle Storie Segrete",
+         "description":"Spero di migliorare la mia tradizione delle Storie Segrete.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_upgrade_winter",
+         "label":"Aumentare la mia comprensione della tradizione dell'Inverno",
+         "description":"Spero di migliorare la mia tradizione dell'Inverno.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_subvert_wintertoheart",
+         "label":"Convertire la tradizione dell'Inverno in Cuore",
+         "description":"Sto convertendo la tradizione dell'Inverno in quella del Cuore.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_upgrade_edge",
+         "icon":"project_upgrade_edge",
+         "label":"Aumentare un'influenza della Lama",
+         "description":"Spero di aumentare questa influenza della Lama.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_subvert_edgetowinter",
+         "icon":"project_subvert_edgetowinter",
+         "label":"Convertire Lama in Inverno",
+         "description":"Sto riconoscendo la vittoria della pazienza sulla forza, sovvertendo la mia influenza della Lama in una dell'Inverno.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_upgrade_forge",
+         "label":"Aumentare un'influenza della Forgia",
+         "description":"Spero di aumentare questa influenza della Forgia.",
+         "aspects":{
+            "project":1
+         },
+         "icon": "project_upgrade_forge",
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_subvert_forgetoedge",
+         "icon":"project_subvert_forgetoedge",
+         "label":"Convertire Forgia in Lama",
+         "description":"Sto sovvertendo la mia influenza della Forgia in una della Lama.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_upgrade_grail",
+         "icon":"project_upgrade_grail",
+         "label":"Aumentare un'influenza del Graal",
+         "description":"Spero di aumentare questa influenza del Graal.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_subvert_grailtomoth",
+         "icon":"project_subvert_grailtomoth",
+         "label":"Convertire un'influenza del Graal in Falena",
+         "description":"Sto sovvertendo la mia influenza del Graal in una della Falena.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_upgrade_heart",
+         "icon":"project_upgrade_heart",
+         "label":"Aumentare un'influenza del Cuore",
+         "description":"Spero di aumentare questa influenza del Cuore.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_subvert_hearttograil",
+         "icon":"project_subvert_hearttograil",
+         "label":"Convertire un'influenza del Cuore in Graal",
+         "description":"Sto sovvertendo la mia influenza del Cuore in una del Graal.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_upgrade_subvert_knock",
+         "icon":"project_upgrade_subvert_knock",
+         "label":"Aumentare un'influenza del Colpo",
+         "description":"Sto approfondendo la mia comprensione dell'influenza del Colpo.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_upgrade_lantern",
+         "icon":"project_upgrade_lantern",
+         "label":"Aumentare un'influenza della Lanterna",
+         "description":"Spero di aumentare questa influenza della Lanterna.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_subvert_lanterntoforge",
+         "icon":"project_subvert_lanterntoforge",
+         "label":"Convertire un'influenza della Lanterna in Forgia",
+         "description":"Sto sovvertendo la mia influenza della Lanterna in una della Forgia.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_upgrade_moth",
+         "icon":"project_upgrade_moth",
+         "label":"Aumentare un'influenza della Falena",
+         "description":"Spero di aumentare questa influenza della Falena.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_subvert_mothtolantern",
+         "icon":"project_subvert_mothtolantern",
+         "label":"Convertire un'influenza della Falena in Lanterna",
+         "description":"Sto sovvertendo la mia influenza della Falena in una della Lanterna.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_upgrade_winter",
+         "icon":"project_upgrade_winter",
+         "label":"Aumentare un'influenza dell'Inverno",
+         "description":"Spero di aumentare questa influenza dell'Inverno.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      },
+      {
+         "id":"project_influence_subvert_wintertoheart",
+         "icon":"project_subvert_wintertoheart",
+         "label":"Convertire un'influenza dell'Inverno in Cuore",
+         "description":"Sto convertendo la mia influenza dell'Inverno in una del Cuore.",
+         "aspects":{
+            "project":1
+         },
+         "lifetime":1
+      }
+   ]
+}

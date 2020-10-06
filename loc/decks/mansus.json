@@ -1,0 +1,298 @@
+{"decks":[
+      {
+         "id":"stagriddles",
+         "spec":[
+            "waystagbefore_1",
+            "waystagbefore_2",
+            "waystagbefore_3",
+            "waystagbefore_4",
+            "waystagbefore_5"
+         ],
+         "defaultcard":"fleeting",
+         "resetonexhaustion":false,
+         "comments":"but this should only be drawn from once."
+      },
+      {
+         "id":"mansus_wood",
+         "spec":[
+            "influencemoth",
+            "fragmentsecrethistories",
+            "rumour"
+         ],
+         "drawmessages":{
+            "influencemoth":"'Nel mezzo del cammin di nostra vita, mi ritrovai per una selva oscura, ché la diritta via era smarrita. Ahi quanto a dir qual era è cosa dura, esta selva selvaggia e aspra e forte...' Non ricordo esattamente cosa sia successo, la scorsa notte, nella battente oscurità tra i tronchi degli alberi, dove cose alate si muovevano sotto le mie mani. Ma questa mattina il mio cervello sfrigolava pieno di frammenti: IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI RUM IMUS NOC TE ET CON SUMI MUR...'",
+            "fragmentsecrethistories":"Ho camminato nella Foresta la scorsa notte, delle forbici lavoravano lontane, cose pelose si ammassavano nella mia bocca e assediavano le mie orecchie, ho sentito l’antico desiderio di gettarmi a quattro zampe con il naso tra le radici. Ma ho ricordato che cammino eretto di giorno e conosco il fuoco, l’acciaio, le parole, e finalmente ho scoperto un luogo,sotto il muschio della corteccia, nel quale il Velluto ha occultato un segreto. L’ho letto con le punte delle dita, e ora penso di poterlo scrivere per intero.",
+            "rumour":"'Mentre tornavo negli abissi, apparve uno, davanti ai miei occhi, la cui bocca era sigillata. Quando lo vidi, nel grande vuoto, urlai...' Penso di aver incontrato un’altra anima nella Foresta la scorsa notte. Non ricorderò mai esattamente cosa ci siamo detti l'uno all’altro, ma credo che ci riconosceremo reciprocamente nel mondo della veglia."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_wood1",
+         "spec":[
+            "influencegrail",
+            "vitality",
+            "fragmentsecrethistoriesb",
+            "rumour"
+         ],
+         "drawmessages":{
+            "influencegrail":"Il Pozzo nella Foresta non è mai asciutto, ma non è mai pulito. Una notte potrebbe sussultare per le radici striscianti, un’altra pulsare di luminoso muschio. Nelle notti di luna piena le sue acque sono soffocate dai grassi corpi pezzati delle falene. La scorsa notte l’ho visto traboccante di nero e viscoso sangue. Pezzi gelatinosi scivolavano sulla sua superficie; coaguli di materia del Graal.",
+            "vitality":"Il Pozzo nella Foresta è sacro per il Graal, l’Ora che ha fame, e al Velluto, l’Ora che custodisce i segreti... questa notte mentre mi avvicinavo, il muschio del Velluto palpitava, onde agitate di verde profondo e vibrante pulsavano ripetutamente nella sua gola. È cresciuto intorno alle mie caviglie, salite alle mie cosce, e questa mattina sento ancora il respiro del Velluto, forte dentro me.",
+            "fragmentsecrethistoriesb":"Il Velluto è forte presso il Pozzo nella Foresta; ma di tanto in tanto lei lascia cadere un piccolo segreto, come una briciola ad un banchetto. La scorsa notte ho trovato una roccia ricoperta di muschio con su iscritti i segreti di un’altra storia. Potrei rendere grazie al Velluto, ma potrebbe essere più saggio non attirare la sua attenzione.",
+            "rumour":"Sorgono molte cose dal Pozzo nella Foresta. La scorsa notte era infestato da radici in putrefazione. Gli alberi si raggrupparono e sussurrarono. Forse volevano dare il benvenuto all’influsso. Ho trovato un’anima addormentata intrappolata tra le radici, e l’ho aiutata a battersi fino alla libertà. Da sveglio si ricorderà la mia faccia, come io ricordo la sua."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_wood2",
+         "spec":[
+            "influenceknock",
+            "influenceheart",
+            "fragmentsecrethistoriesb",
+            "rumour"
+         ],
+         "drawmessages":{
+            "influenceknock":"La scorsa notte sono andato nella Foresta alla ricerca della roccia grande e frastagliata chiamata Tempio della Ruota. I suoi fianchi, ricoperti di licheni neri e di simboli d'occhi, si sono aperti come una bocca sotto le mie mani, e ho camminato nel mormorante spazio al suo interno. Gli Dei-che-furono-pietre, i primi tra le Ore, sono quasi del tutto spariti oramai, ma qui le loro voci permangono: Ruota, Selce, Marea, gli altri anonimi.",
+            "influenceheart":"Nella Foresta al di fuori delle mura del Mansus, una roccia irregolare si solleva come le spoglie pietrificate di un gigante danzante. La mano ha accarezzato i suoi fianchi, scorrendo sopra i simboli ad occhio, i licheni e i rozzi graffiti dei poteri minori della Foresta, e ho percepito la vibrazione della Ruota ormai andata. È andata, ma qualcosa prosegue.",
+            "fragmentsecrethistoriesb":"Nel sonno sono andato alla roccia alta ed irregolare tutt’ora chiamata Tempio della Ruota, sebbene l’Ora chiamata Ruota si sia estinta da tempo. Un’altra mano incise un segreto nella lanterna nera ai suoi fianchi. Ho marchiato quel segreto nella mia memoria per preservarlo al risveglio, prima che il Velluto venisse fuori dalle profondità vellutate della Foresta e lo cancellasse. Il Velluto è geloso dei suoi segreti.",
+            "rumour":"Sono andato al Tempio della Ruota, l’alta e irregolare roccia, il memoriale agli dei morti. Coloro che si tolgono la vita, talvolta, si scagliano prima dalle sue cime, nei sogni. Ho trovato un’altra anima dormiente, incideva il marchio dell’occhio nei licheni sulla sua cima. Non ricordo cosa sia successo tra noi, ma riconoscerei la sua faccia nel mondo della veglia."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_whitedoor",
+         "spec":[
+            "influencewinterc",
+            "fragmentsecrethistoriesb",
+            "restlessness"
+         ],
+         "drawmessages":{
+            "influencewinterc":"La scorsa notte la Porta Bianca era luminosa come uno specchio, splendente come l’emicrania lunare. Ricordo la sua luminosità, ma ricordo ancor più il suo gelo. Ho appoggiato la mia guancia su di essa. Sento ancora il dolore del suo freddo nel mio teschio.",
+            "fragmentsecrethistoriesb":"Molti tra i Morti entrano nel Mansus attraverso la Porta Bianca. Essi vagano tra i suoi corridoi silenti finché essi son perduti. Alcuni si stringono l’uno all’altro, alcuni si divorano a vicenda, altri forzano la loro strada nei sogni dei viventi. In pochi, infine, riportano le loro memorie dove la pietra del Mansus è morbida. La graffiano con le loro unghie, vedi. La scorsa notte ho letto uno di questi ricordi.",
+            "restlessness":"Alcuni tra i Morti si perdono nella Foresta, altri si ergono più in alto, ma molti - troppi - passano la Porta Bianca per entrare nella Casa, e diventano silenti per l’eternità. La scorsa notte brulicavano all’entrata. La mia bocca era una ferita sanata. I loro occhi vagavano sulla mia pelle. Le loro mani cercavano il mio calore, ma il mio tocco bruciava, e si ritirarono. La loro insistenza mi ha infettato."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_whitedoor1",
+         "spec":[
+            "influenceknockc",
+            "fragmentsecrethistoriesc",
+            "glimmering",
+            "erudition",
+            "fascination",
+            "favour"
+         ],
+         "drawmessages":{
+            "influenceknockc":"La scorsa notte, nel grande Padiglione sopra i grigi spazi dei Limiti, una donna che un tempo chiamata Theresa Galmier sedeva su cuscinetti dalle frange dorate, e mi offriva del vino in una coppa di corno. 'Il vino è immaginario', spiegava, 'ma non lo è la coppa. Per attraversare il Manus uno deve comprendere la differenza. Magari un giorno ti unirai a me nel Pellegrinaggio, o sarò io ad unirmi. Quindi ecco, permettimi di condividere un segreto...' e il suo respiro solleticava il mio orecchio.",
+            "fragmentsecrethistoriesc":"La scorsa notte ho visitato il Rifugio del Savio Cavaliere. La mia ospite si è manifestata come una donna elegante dagli eleganti capelli corti e occhiali scuri. 'No', ha ammesso, 'non ho più bisogno di loro, non più di quanto abbia bisogno degli occhi. Permettimi i miei slanci sentimentali. ma tu sei venuto per la conoscenza, suppongo? Ecco qua una storia che ho sentito nei giorni passati a Kerisham. Sei libero di usarla. Ricordati solamente di me, se verrai a fare il Pellegrinaggio.'",
+            "glimmering":"Ricordo il sogno. Ero nel Rifugio di seta azzurra, sbattuta dai venti dei Limiti all’estremità del Mansus, e qui ero con la sua signora, che mi ha accolto come accoglie tutti i viaggiatori. 'La compagnia è piacevole', mi ha confidato, 'tuttavia mi manca ancora il mio Christopher. Dieci anni! Dieci anni, e non è finita. Ma noi non potevamo divenire Lunghi - non senza poterci toccare l’un l’altro. E tu sai cosa avviene quando un lui-Lungo giace con una lei Lunga. O forse non lo sai. Spero che tu non lo sappia. Non te lo dirò, per sicurezza. In cambio ti darò un piccolo dono.'",
+            "erudition":"Nel sogno della scorsa notte ero nel Rifugio del Savio Cavaliere, oltrepassata la Porta Bianca - è difficile ricordare esattamente come ci sia arrivato - e la signora del luogo, la donna dagli occhiali scuri, annuiva come se le avessi fatto una domanda difficile. Ovviamente non avevo fatto alcuna domanda. Ho perso la voce superando la Porta Bianca. 'Com’è possibile che io possa parlare?' mi disse. 'Non sono arrivata qua attraverso la Porta Bianca. Non vado fiera di ciò che ho fatto per arrivare qua. Perciò, lascia che ti parli di qualcos’altro.'",
+            "fascination":"La scorsa notte, nel blu svolazzante del Rifugio del Savio Cavaliere, sedevo su cuscini di velluto e guardavo due Morti duellare con spade splendenti.'Erano già qui quando sono arrivata', disse la donna che ora regna qui, colei che una volta si chiamava Galmier. 'Non ero io il Savio Cavaliere, se è ciò che ti chiedi! È salito nel Mansus, molto prima che arrivassi.' La mia attenzione si era spostata. Le spade risplendevano come la pioggia; i Morti si muovevano come danzatori.",
+            "favour":"La scorsa notte ho sognato il padiglione di seta blu che sovrasta il nuvoloso labirinto dei Limiti. Ho ascoltato la signora del luogo parlare di altri visitatori. 'È venuto qui il Dipartimento Soppressione, lo sapevi? Credono di potermi reclutare come alleata.' Sbuffò beffardamente. 'Dopo quello che hanno cercato di fare a Christopher? Tuttavia, la loro stoltezza è la tua fortuna. Ti dirò qualcosa che potrebbe aiutarti, se mai il Dipartimento ti desse rogne.'"
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_whitedoor2",
+         "spec":[
+            "influencelanternc",
+            "glimmering",
+            "influenceheartc",
+            "fragmentsecrethistoriesc"
+         ],
+         "drawmessages":{
+            "influencelanternc":"'Le arti invisibili', si dice abbia scritto Christopher Illopoly, 'sono tanto remunerative quanto i macramé, tanto morali quanto il contrabbando di tabacco, e generalmente vantaggiose quanto la roulette. Eppure, vi è sempre il Frutteto delle Luci.' Ed invero, il Frutteto, con i suoi splendenti frutti e le sue pacifiche nebbie, è un luogo desiderabile. La scorsa notte vi ho camminato nelle ore pacifiche della notte profonda. Perfino dopo la camminata, porto ancora con me un frammento della gloria dell’antico Sole.",
+            "glimmering":"Il Sole-nel—Lusso, l’Ora che un tempo regnava sul Mansus, spesso passeggiava nel Frutteto, prima della sua tremenda divisione. Talvolta i suoi resti camminano ancora qui - talvolta vedo la gelida radiosità del Meniscate attraverso gli alberi, o l’ancor più freddo splendore del Sole-negli-Stracci. Stavano per venirmi incontro, poteva essere la mia fine, ma il poterli vedere da distante è un dono dell’intuito.",
+            "influenceheartc":"Le Ore sono state chiamate spietate, ma esse permettono ai dormienti, talvolta, di camminare nel Frutteto delle Luci, dove ogni frutto risplende come un tramonto, dove le radici degli alberi sono modellate per permettere un pacifico riposo, dove la nebbia lenisce il cuore. Ero là, ieri notte, e il sapore dei frutti ancora persiste, tagliente e dolce come il passaggio dalla primavera all’estate.",
+            "fragmentsecrethistoriesc":"La scorsa notte ho camminato nel Frutteto delle Luci. Ho strappato il frutto (perennemente maturo) e l’ho divorato in due bocconi (il suo sapore non può essere dimenticato). Mentre leccavo i lucenti succhi dalle mie dita, ho visto un messaggio inciso nella corteccia dell’albero. Al mio risveglio ho riportato quel messaggio - quello che riuscivo a ricordare - nel mio diario."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_stagdoor",
+         "spec":[
+            "influenceknocke",
+            "fragmentsecrethistoriesc",
+            "influenceforgec"
+         ],
+         "drawmessages":{
+            "influenceknocke":"Nel sogno, scorrevo le dita lungo le pareti scanalate delle ferite della Porta del Cervo. 'La nostra compagnia la distrusse', disse all’improvviso Ghirbi. 'Prima, con gli Dei-che-furono-carne, il Mansus era precluso ai mortali. Siamo stati i primi Sapienti.' Egli comincia di nuovo a piangere lacrime incandescenti. 'Vorrei non fosse successo. Preferirei esser morto nel mondo...' Ho dimenticato cos’altro mi disse. Ma ricordo la forma delle fenditure della Porta del Cervo, e per tutto il giorno, le porte temeranno il mio tocco.",
+            "fragmentsecrethistoriesc":"La scorsa notte Ghirbi era loquace. Parlava di storie che aveva origliato nel mondo della veglia con la sua voce da macchina da assedio. Ho ascoltato, finché le sue storie sono finite in lacrime, ancora una volta.",
+            "influenceforgec":"Ghirbi stava ancora piangendo. Ho raccolto le sue lacrime incandescenti nelle mie mani poste a coppa. Nel sogno la mia pelle si scorticava e piagava, ma solamente nel sogno."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_stagdoor1",
+         "spec":[
+            "influenceedgee",
+            "influencegrailc",
+            "influencewintere"
+         ],
+         "drawmessages":{
+            "influenceedgee":"È stato scritto questo del luogo in cui i miei sogni mi hanno portato la scorsa notte: 'L’ascesa è vetro. I muri sono coltelli. Ogni passo è sangue.' Non sono salito molto. Il dolore era troppo grande. Quando mi sono svegliato quel dolore è rimasto con me - un dolore che potrei usare per propositi occulti, sebbene debba fare in fretta.",
+            "influencegrailc":"L’Ascesa dei Coltelli viene chiamata anche 'la Scala Affilata', 'la Madre degli Specchi' e 'il Banchetto del Graal'. Se qualcuno guardasse al di sotto dell'Ascesa, come ho fatto in sogno ieri notte, comprenderebbe quest’ultimo nome. Il sangue dei piedi di coloro che l'ascendono è un tributo. Gli Empousai - alcuni a forma d’uomo, molti modellati come donne - attendono al di sotto del vetro delle scale per soddisfare la loro fame. Non mi sono avvicinato; non ho emesso alcun rumore; ho solo osservato.",
+            "influencewintere":"Ho visitato l’Ascesa dei Coltelli la scorsa notte, la più dura delle strade che attraversano la Casa. È consacrata al Meniscate e al Sole-negli-Stracci sin dall’Intercalare, quando il vero Sole fu diviso. Al mio risveglio la stanza era gelida. Il suo gelo aveva crepato il vetro della finestra."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_stagdoor2",
+         "spec":[
+            "fascination",
+            "fragmentsecrethistoriesd",
+            "eruditionplus"
+         ],
+         "drawmessages":{
+            "fascination":"Ho sognato il grande spazio del Mansus oltre la Porta Bianca, sopra il Frutteto; lo spazio che sovrasta i Limiti, lo spazio dove il Vagabondo un tempo ha dipinto il suo Fiume. Navi pitturate passavano sopra il Fiume Dipinto. Ho incontrato gli occhi dipinti di un capitano dipinto. Lei mi ha salutato, e il movimento era come il movimento stratificato delle nuvole. La vela della nave era color ambra e gli occhi del capitano verde come l'orzo nuovo e acquamarina, come le rive. Anche dopo il risveglio vedo quei colori.",
+            "fragmentsecrethistoriesd":"Vi è una grande stanza nel Mansus attraverso la quale scorre il Fiume Dipinto. Il Vagabondo, si narra, lo dipinse prima di lasciar la casa, dipinse i suoi ricordi. Certamente vi sono storie nascoste nel suo disegno. Ne ho scoperti alcuni con le mie mani la scorsa notte. Alla fine ho trovato dei frammenti di pittura color acquamarina e delle scaglie di foglia d’oro sotto le mie unghie.",
+            "eruditionplus":"Il Fiume Dipinto scorre in una grande stanza vicino alla Porta Bianca, nelle profondità del Mansus, e alla fine sfocia in un delta dipinto di nuvole lontane. Ho viaggiato per metà della sua lunghezza la scorsa notte con un capitano dalla faccia severa, sotto una vela color rosso ruggine. Mentre le nuvole crescevano al di sopra di noi, i marinai innalzavano una nostalgica canzone da marinai, tirando su le vele di bolina per meglio sfruttare i venti dipinti. E tutto questo mentre io e il capitano parlavamo dei segreti della Casa del Sole..."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_spiderdoor",
+         "spec":[
+            "influencegraile",
+            "influencehearte",
+            "fragmentsecrethistoriesd",
+            "favour"
+         ],
+         "drawmessages":{
+            "influencegraile":"La SETE della Porta del Ragno è seconda solo a quella del Graal, o forse è proprio la stessa cosa. L’ho oltrepassata la scorsa notte, ma non sono penetrato oltre nel Mansus. Ho passato un’ora la scorsa notte sognando la sua gola, e questa mattina avidi appetiti mi infiammano.",
+            "influencehearte":"La scorsa notte ho vagato per gli organi ammassati della Porta del Ragno. Ho trovato un nodo di particolare vitalità - tutto ciò che rimaneva di qualcuno un tempo coraggioso, o tradito. Mentre la SETE della Porta del Ragno era ancora placata, l’ho portato a casa in una piega della mia anima.",
+            "fragmentsecrethistoriesd":"La Guerra delle Strade si estese fin dentro al Mansus. Nei corridoi dietro alla Porta del Ragno, la strega-massone che si faceva chiamare Hubris Clamore ha riportato le sue battaglie nella pietra onirica del Mansus con miglia di linee di ossessivi, ramificati, scritti funerari. La scorsa notte li ho trovati, e ho letto delle campagne dei Figli della Fiamma Incatenata, la valorosa difesa della Sorellanza del Nodo, l’alleanza con il Vagabondo, le furiose controversie tra Il Graal e la Forgia...",
+            "favour":"Ieri notte, oltre la Porta del Ragno, ho trovato un agente dell’ordine che si era incautamente smarrito nel sogno. Le cose che errano per le Sabbie di Seta, il grigiore della Porta, hanno un sapore particolare per i poliziotti. Ha urlato fino a quando non l'ho liberato, ma non l'ho liberato fino a quando non mi ha detto qualcosa di utile..."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_spiderdoor1",
+         "spec":[
+            "influenceforgeg",
+            "fragmentsecrethistoriese",
+            "ingredientforgef",
+            "influencelanterne"
+         ],
+         "drawmessages":{
+            "influenceforgeg":"Ieri notte ho visitato il Malleario, dalle quali strade e macchine uno non emerge immutato. Ho guardato i processi del tramonto e ho partecipato alla gioia d’ambra, la gioia candida e alla gioia blu, ed ero illuminato dalla calcinazione, quando la Forgia dei Giorni mi ha toccato con le sue dita brunite. Mi alzo dal letto con l'assoluta certezza del fatto che ogni notte, ogni notte, ogni notte deve finire.",
+            "fragmentsecrethistoriese":"La scorsa notte ho visitato il Malleario, dai quali martelli e crogioli uno non emerge immutato, e il mio cuore si è interrotto per nove colpi mentre entrava nelle fiamme della Forgia, e le passioni della Forgia entravano in lui. Mi sono svegliato con l’alba, e i suoi colori poveramente divisi ispirano il ricordo della passione della Forgia per il Sole, della maledizione del Vagabondo, del profondo desiderio del Graal... così tante memorie a metà.",
+            "ingredientforgef":"Ieri notte ho visitato il Malleario, dai quali fuochi uno non si erge immutato. La luce della Forgia mi ha colpito, il mio cuore bolliva e quando mi sono svegliato il mio sangue bruciava dentro me al punto doverlo versare in una tazza, se non avessi voluto esser sopraffatto. E dieci gocce non erano sangue, non esattamente, al massimo erano Sangue del Sole. Forse ho trovato la coppa e il sangue non è mio. La Forgia dissecca la memoria.",
+            "influencelanterne":"La scorsa notte ho visitato il Malleario, dai quali impulsi e rotazioni uno non emerge immutato. Vi sono molte radiosità qui, provengono dai fuochi, dalla Forgia, dai suoi Nomi e i suoi strumenti, ma una radiosità aleggia dietro tutte loro come una melodia che s'affievolisce: l'ultima luce del Sole-nel-Lusso, sparsa al momento della sua Divisione, qui dove la Forgia è più forte. al mio risveglio vedo ancora quella radiosità."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_spiderdoor2",
+         "spec":[
+            "influenceknockg",
+            "influencelanterne",
+            "influencewintere",
+            "influencemothe",
+            "fragmentsecrethistoriesc",
+            "fascination"
+         ],
+         "drawmessages":{
+            "influenceknockg":"Ieri notte sono arrivato nel Concursum, il crocevia del Mansus, il quale è stato chiamato 'la Camera delle Vie'. Da qui le Ore possono passare in ogni luogo del Mansus. Qui l’Ascia Cornuta mi parlò con la sua voce, più vecchia di qualsiasi cosa vivente, e mi ha detto: esiste una Porta che si aprirà per un breve momento. Questo è il suo momento, e questa un’altra divisione.",
+            "influencelanterne":"La scorsa notte sono arrivato nel Concursum, il nucleo del Mansus, anche chiamato 'la Camera delle Rivelazioni', i suoi specchi sono senza fine e i percorsi onnicomprensivi. Da qui le Ore possono vedere tutto ciò che traspare nel Mansus. Ho visto la luce dell'Osservatore nella lontananza blu del luogo, come un sole al di sotto del mare.",
+            "influencemothe":"Ieri notte sono arrivato nel Concursum, il cuore del Mansus, il quale è stato chiamato 'la Camera delle Scelte', nel quale ogni percorso che uno non prende è un futuro nato morto. Nella Luce blu come il cielo marittimo della Camera ho visto la Sorella-e-Strega passare, le loro quattro mani intrecciavano due percorsi in uno. Al mio risveglio la passione si era contorta come un nodo. C’è qualcosa che devo fare; c’è sempre qualcosa che devo fare.",
+            "influencewintere":"La scorsa notte sono arrivato nel Concursum, il luogo nel quale finiscono tutti i corridoi del Mansus, e per questo chiamato anche 'la Camera delle Conclusioni'. Qui le Ore si incontrano nella lotta, nella condanna o nella rassegnazione. Nella luce della Camera, colore zaffiro serale, ho visto il Sole-negli-Stracci passare con la sua corona infranta e il suo silente seguito, e questa mattina mi sono svegliato tremante.",
+            "fragmentsecrethistoriesc":"Ieri notte sono arrivato nel Concursum, il meridiano del Mansus, il quale viene anche chiamato 'la Camera delle Storie'. Qui ho parlato con un'adepta morta da tempo. Mi ha raccontato dei sui voli attraverso la Casa dei decenni passati, delle maniere con cui i morti sopravvivono al di fuori delle Ore e tramandano le storie non approvate. Questa mattina riesco a ricordarmi la fine di una di queste storie.",
+            "fascination":"La scorsa notte sono arrivato nel Concursum, lo spazio al centro del Mansus, il quale viene anche chiamato 'la Camera degli Specchi'. Da qui le Ore possono andare in ogni luogo del Mansus. Ho visto il Meniscate ergersi nella gloria cobalto della luce della Camera, flessibile come una ballerina, lucente come la luna, lei ha riflesso la mia faccia nella sua. Questa mattina è tutto ciò che riesco a vedere."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_peacockdoor",
+         "spec":[
+            "scholarvak",
+            "fragmentsecrethistoriese",
+            "influencelanterng",
+            "fascination"
+         ],
+         "drawmessages":{
+            "scholarvak":"Ieri notte ho aperto la Porta del Pavone, e successivamente questa mi ha parlato. 'Io sono Vak', si vantava, 'sia la lingua sia la Divinità. Io sono la sola entrata alla luce segreta. Io ero adorata prima che tu divenissi una scimmia eretta, e io sarò quando tutti voi non sarete altro che laida polvere. Ascoltami, e te lo proverò.' Mi sono svegliato con la bocca piena di parole.",
+            "fragmentsecrethistoriese":"La scorsa notte ho aperto la Porta del Pavone, e dietro ad essa nei luminosi spazi della Casa ho incontrato un adepto-pellegrino. 'Sono quasi pronto', mi ha detto, 'ad andare alla sommità della Casa, a prepararmi per l’ascensione finale. Forse potresti unirti a me. Avrò bisogno di alleati per conquistare per il mio posto. Ecco una storia per innalzarti.'",
+            "influencelanterng":"Ieri notte ho soddisfatto la Porta del Pavone, e la mia azione ha attirato l’attenzione di una determinata Ora. Negli spazi dorati oltre la Casa ho sentito la promessa del Creatore di Fiori, e la sua promessa è questa: egli non può danneggiarmi, ed egli non più trovarmi, ma se andassi da lui soddisferebbe il mio desiderio come io ho soddisfatto la Porta del Pavone. In pegno, per questa promessa, i miei occhi sono stati aperti, e questa mattina vedo la gloria."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_peacockdoor1",
+         "spec":[
+            "influencegrailg",
+            "ingredientgraild",
+            "fragmentsecrethistoriesf",
+            "favour",
+            "fascination"
+         ],
+         "drawmessages":{
+            "influencegrailg":"Quando uno sogna la Chiesa Rossa sente le voci dei Nomi del Graal, i Bramente, gli Eburnei, gli Adorati e gli altri. 'Non tutti gli empousai sono donne', si potrebbe sentirli dire. 'Gli appetiti delle donne non corrono più profondamente degli appetiti degli uomini. Ma una madre non è mai lontana da suo figlio alla nascita, e questo non si può sempre dire di un padre. Avvicinati e ti mostreremo cosa intendiamo.'",
+            "ingredientgraild":"Quando ho visitato la Chiesa Rossa la scorsa notte loro mi hanno detto, tra i loro graffi e le carezze, che il Creatore di Fiori li aveva visitati di recente, con il suo Nettare e la sua promessa. Mi sono svegliato avvinghiato nelle coperte inzuppate, con il Nettare Amarantino traboccante nella mia mano. Ne ho raccolto quanto potevo - solamente qualche goccia, ma sarà abbastanza.",
+            "fragmentsecrethistoriesf":"Ho visto ancora la Chiesa Rossa la scorsa notte, con le sue panche d’osso, le vetrate rubino, l’altare dorato che batteva come un cuore. La notte che i Nomi del Graal si raccolsero a parlare di quei Lunghi i quali avevano giurato di rinunciare ai piaceri della camera da letto - eccetto i rapporti tra uomo e uomo, o donna e donna. 'Hanno ancora da pagare il tributo della delizia' disse un Eburneo. 'Essi non fruttificano' disse un Adorato. 'Se Forgia e Sole si sono uniti -' si lamentò un Bramente. Quindi essi caddero nei pettegolezzi sui Lunghi e sulla Casa di Lete, e le loro gesta nel deserto. Lo ricordo ancora.",
+            "favour":"Ogni pannello della vetrata della Chiesa Rossa è devoto ad un appetito distinto, e le scene che mostrano provengono dalla vita. Ieri notte, in una delle finestre più brutte, ho visto gli appetiti soddisfatti nel privato di una determinata figura pubblica. Sono sicuro che non voglia far conoscere questa informazione al pubblico. Forse mi terrà in considerazione.",
+            "fascination":"Ieri notte ho visitato la Chiesa Rossa, dove il Graal conduce i suoi banchetti. La luce che attraversava le vetrate era completamente nello spettro del rosso, e i nomi del Graal partorivano un desiderio che fino ad oggi non aveva un nome. Sono rimasto appiccicato al suo ricordo, e questa mattina tutto ciò che vedo è tinto di rubino."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      },
+      {
+         "id":"mansus_peacockdoor2",
+         "spec":[
+            "influencewinterg",
+            "fragmentsecrethistoriesf",
+            "dread"
+         ],
+         "drawmessages":{
+            "influencewinterg":"La scorsa notte ho visitato il Museo del Verme, il quale è sia all’interno del Mansus (per sicurezza) sia all’esterno (per sicurezza). Le ore hanno incaricato il Colonnello della sua difesa, e perfino il Leonfabbro non lo osa sfidare qui. L’Inverno è il principale aspetto di questo luogo. I Vermi prosperano dove le cose terminano, ma anche loro possono essere terminati, e devono terminare, se il Mansus vuole durare. Questa mattina, la gelida certezza della mano del Colonnello ancora permane sulla mia spalla.",
+            "fragmentsecrethistoriesf":"La dimensione nel Mansus è negoziabile, e così ieri notte ho visto nel Museo del Verme uno dei Vermi che prese Vienna, ingabbiato a fianco di un Verme tratto dall’anima di un bambino. Nei sogni i Vermi sono più visibili che nella veglia, lisci e scuri come gioielli. I muri riportano storie della Prima e della Seconda Guerra Verminea. La Terza è ancora troppo recente per entrare nelle Storie.",
+            "dread":"Ho sognato il Museo dei Vermi ieri notte. Le Ore hanno posto protezioni e avvisi davanti al Museo, ma  l’hanno lasciato aperto agli adepti mortali per permettergli di mettersi alla prova raggiungendolo. Forse sperano di ispirare repulsione contro le cose che crescevano nel corpo del Sole. Queste erano ancora là, sempre morenti, mai morte. Vennero dal Nulla, recitavano gli avvisi, e se mai completassero il loro lavoro, il Mansus si troverebbe, un giorno, nel Nulla."
+         },
+         "defaultdrawmessages":{
+
+         },
+         "resetonexhaustion":true
+      }
+   ]
+}

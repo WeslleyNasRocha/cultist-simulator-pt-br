@@ -1,0 +1,46 @@
+{
+   "elements":[
+      {
+         "id":"insight",
+         "label":"Intuizione",
+         "description":"Un’intuizione in questo mistero.",
+         "lifetime":1
+      },
+      {
+         "id":"bid",
+         "label":"Offerta",
+         "description":"Un’offerta in una casa d’aste.",
+         "xtriggers":{
+            "restore":"funds"
+         }
+      },
+      {
+         "id":"abductioninprogress",
+         "label":"Una Cella Protetta",
+         "description":"Pensare, dicono, è gratis, ma il pensiero è incatenato al corpo.",
+         "lifetime":1,
+         "icon":"seal_wardeddoor"
+      },
+      {
+         "id":"assassinationinprogress.player",
+         "label":"Un Assassinio",
+         "description":"Finirà con una morte - la loro, o la nostra.",
+         "lifetime":1,
+         "icon":"dread"
+      },
+      {
+         "id":"assassinationinprogress.follower",
+         "label":"Un Assassinio",
+         "description":"Finirà con una morte - la loro, o la nostra.",
+         "lifetime":1,
+         "icon":"dread"
+      },
+      {
+         "id":"scandalinprogress",
+         "label":"Pettegolezzo Malvagio",
+         "description":"Quello che dicono è solo un’ombra della verità, ma dalle nostre ombre veniamo scoperti.",
+         "lifetime":1,
+         "icon":"notoriety"
+      }
+   ]
+}

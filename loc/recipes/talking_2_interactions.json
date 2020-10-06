@@ -1,0 +1,455 @@
+{
+   "recipes":[
+      {
+         "id":"lockfollowerincupboard",
+         "label":"Tradisci e Imprigiona un Seguace",
+         "actionId":"talk",
+         "requirements":{
+            "hq":1,
+            "follower":1
+         },
+         "startdescription":"Deve servire ad un altro scopo, ora. Che vada nel sottoscala.",
+         "description":"L'ho rinchiuso lontano. Quando s'innalzeranno le sue urla e i suoi deliri, lo farò tacere con i giusti metodi.",
+         "aspects":{
+            "capturefollower":1
+         },
+         "effects":{
+            "notoriety":1
+         },
+         "mutations":[
+            {
+               "filter":"mortal",
+               "mutate":"romanticinterest",
+               "level":-1
+            }
+         ],
+         "craftable":true,
+         "warmup":10
+      },
+      {
+         "id":"sulochanachat",
+         "label":"Una Chiaccherata con Sulochana",
+         "actionId":"talk",
+         "requirements":{
+            "sulochana":1
+         },
+         "slots":[
+            {
+               "id":"Subject",
+               "label":"Argomento",
+               "description":"Un argomento di conversazione"
+            }
+         ],
+         "startdescription":"@#ascensionlessonhearta|'Vuoi saperne di più?'\n#ascensionlessonheartb|'Vuoi saperne di più?'\n#ascensionlessonheartc|'Vuoi saperne di più?'#ascensionlessonheartd|'Vuoi saperne di più?'\n#ascensionlessonhearte|'Vuoi saperne di più?'\n#ascensionlessonheartf|'Vuoi saperne di più?'\n#ascensionlessonmotha|'Vuoi saperne di più?'\n#ascensionlessonmothb|'Vuoi saperne di più?'\n#ascensionlessonmothc|'Vuoi saperne di più?'\n#ascensionlessonmothd|'Vuoi saperne di più?'\n#ascensionlessonmothe|'Vuoi saperne di più?'\n#ascensionlessonmothf|'Vuoi saperne di più?'\n#|Sulochana spegne la sua sigaretta. 'Si, se vuoi studiare lingue con me, si, puoi. C'è qualcos'altro?'@",
+         "description":"@#ascensionlessonhearta|'Non è la mia specialità'. Sulochana sorride.\n#ascensionlessonheartb|'Non è la mia specialità'. Sulochana si stringe come un serpente.\n#ascensionlessonheartc|'Non è la mia specialità'. Sulochana sorride.\n#ascensionlessonheartd|'Non è la mia specialità'. Sulochana si stringe come un serpente.\n#ascensionlessonhearte|'Non è la mia specialità'. Sulochana sorride.\n#ascensionlessonheartf|'Non è la mia specialità'. Sulochana si stringe come un serpente.\n#ascensionlessonmotha|'La lezione è cio che è. Sono una tua dipendente, non la tua insegnante'. Sulochana si snoda. 'Abbi un po' di pazienza'.\n#ascensionlessonmothb|'La lezione è cio che è. Sono una tua dipendente, non la tua insegnante'. Sulochana si snoda. 'Abbi un po' di pazienza'.\n#ascensionlessonmothc|'La lezione è cio che è. Sono una tua dipendente, non la tua insegnante'. Sulochana si snoda. 'Abbi un po' di pazienza'.\n#ascensionlessonmothd|'La lezione è cio che è. Se vuoi un insegnante parla con gli Obliviati'. Sulochana digrigna i denti. 'Sempre che questi parlino con te.'\n#ascensionlessonmothe|'La lezione è cio che è. Se vuoi un insegnante parla con gli Obliviati'. Sulochana digrigna i denti. 'Sempre che questi parlino con te.'\n#ascensionlessonmothf|'La lezione è cio che è. Se vuoi un insegnante parla con gli Obliviati'. Sulochana digrigna i denti. 'Sempre che questi parlino con te.'\n#|È delusa? È sempre difficile dirlo con with Sulochana.@",
+         "alt":[
+            {
+               "id":"talk.apostleforge.sulochanaechidna"
+            },
+            {
+               "id":"talk.apostlegrail.sulochanamarinette"
+            },
+            {
+               "id":"apostlelantern.attemptrecruitkleidouchos.sulochana"
+            },
+            {
+               "id":"sulochanachat_health",
+               "chance":100
+            },
+            {
+               "id":"sulochanachat_passion",
+               "chance":100
+            },
+            {
+               "id":"sulochanachat_cabaret",
+               "chance":100
+            },
+            {
+               "id":"sulochanachat_desireheart_track",
+               "chance":100
+            },
+            {
+               "id":"sulochanachat_desiremoth_track",
+               "chance":100
+            },
+            {
+               "id":"sulochanachat_desire",
+               "chance":100
+            },
+            {
+               "id":"sulochanachat_secrethistoriesrouter",
+               "chance":100
+            }
+         ],
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"sulochanachat_health",
+         "actionId":"talk",
+         "label":"Sulle Energie del Corpo",
+         "requirements":{
+            "sulochana":1,
+            "health":1
+         },
+         "startdescription":"'Sei giovane. Congratulazioni.'",
+         "description":"'Chiunque è stato giovane. Chiunque. È l'unica cosa che quasi tutti hanno in comune.'"
+      },
+      {
+         "id":"sulochanachat_passion",
+         "label":"Sulla Passione",
+         "actionId":"talk",
+         "requirements":{
+            "sulochana":1,
+            "passion":1
+         },
+         "startdescription":"'Si. Questa ti porterà problemi.'",
+         "description":"'Hai potenziale. L'hai notato quando l'ho visto. Il potenziale non è abbastanza. Qualcos'altro?'"
+      },
+      {
+         "id":"sulochanachat_cabaret",
+         "label":"Sull'Ecdysis Club",
+         "actionId":"talk",
+         "requirements":{
+            "sulochana":1,
+            "locationcabaret":1
+         },
+         "startdescription":"'Si?'",
+         "description":"'C'è una strada percorribile che parte dalla mia casa. Se vuoi parlarne, incontrami là.'"
+      },
+      {
+         "id":"sulochanachat_desireheart_track",
+         "label":"Sulla Nuova Forma",
+         "actionId":"talk",
+         "requirements":{
+            "sulochana":1,
+            "desireheart_track":1
+         },
+         "effects":{
+            "locationcabaret":1
+         },
+         "startdescription":"'Cerchi di perdere la tua pelle, eh?'",
+         "description":"'La strada che intendi percorrere è quella che chiamiamo la Nuova Forma. Non nuova del tutto, non a quasto punto. Ma ha dei meriti, se riesci a resistere al dolore. Vieni a trovarmi a casa mia, e parleremo del partner di cui avrai bisogno alla fine. Qui hai l'indirizzo.'"
+      },
+      {
+         "id":"sulochanachat_desiremoth_track",
+         "actionId":"talk",
+         "label":"Sulla Vecchia Forma",
+         "requirements":{
+            "sulochana":1,
+            "desiremoth_track":1
+         },
+         "effects":{
+            "locationcabaret":1
+         },
+         "startdescription":"Ora - ora cominciamo a capirci l'un l'altro.",
+         "description":"La strada che intendi percorrere è quella che chiamiamo la Vecchia Forma. L'ho percorsa io stessa e, alla fine, mi ha condotta qua. Dovrai cedere tutto lungo la strada. Avrai bisogno di perdere la tua pelle, e non solo una volta...  Vieni a trovarmi a casa mia, e parleremo del partner di cui avrai bisogno alla fine. Qui hai l'indirizzo."
+      },
+      {
+         "id":"sulochanachat_desire_change",
+         "actionId":"talk",
+         "label":"Sul Desiderio",
+         "requirements":{
+            "sulochana":1,
+            "changemarks":1
+         },
+         "startdescription":"La danza, eh?",
+         "description":"Vieni a trovarmi a casa mia, e parleremo del partner di cui avrai bisogno alla fine. Qui hai l'indirizzo."
+      },
+      {
+         "id":"sulochanachat_desire",
+         "actionId":"talk",
+         "label":"Sul Desiderio",
+         "requirements":{
+            "sulochana":1,
+            "desire":1
+         },
+         "startdescription":"È per questo che ti muovi?",
+         "description":"Non abbiamo alcun terreno in comune. Ho scelto una strada diversa molto tempo fa. Ma se è una strada quella che desideri percorrere... parlami ancora, all'Ecdysis Club."
+      },
+      {
+         "id":"sulochanachat_secrethistoriesrouter",
+         "actionId":"talk",
+         "label":"Sui Luoghi Segreti",
+         "requirements":{
+            "sulochana":1,
+            "lore":1,
+            "secrethistories":1
+         },
+         "startdescription":"A tal proposito...",
+         "description":".",
+         "linked":[
+            {
+               "id":"sulochanachat_secrethistoriesg",
+               "chance":100
+            },
+            {
+               "id":"sulochanachat_secrethistoriesf",
+               "chance":100
+            },
+            {
+               "id":"sulochanachat_secrethistoriese",
+               "chance":100
+            },
+            {
+               "id":"sulochanachat_secrethistoriesd",
+               "chance":100
+            },
+            {
+               "id":"sulochanachat_secrethistoriesc",
+               "chance":100
+            },
+            {
+               "id":"sulochanachat_secrethistoriesb",
+               "chance":100
+            },
+            {
+               "id":"sulochanachat_secrethistoriesa",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"sulochanachat_secrethistoriesg",
+         "actionId":"talk",
+         "label":"Sulla Via per l'Avorio",
+         "requirements":{
+            "sulochana":1,
+            "fragmentsecrethistoriesg":1
+         },
+         "startdescription":"'Devi andare a Noon? Ha. Mi dispiace sentirtelo dire.' Sulochana parla in maniera stranamente velenosa.",
+         "description":"'Qua. Questa mappa funzionerà per un po' di tempo. Se chiunque tra loro ti chiederà di me, digli che verrò per i loro figli.'",
+         "effects":{
+            "lore":-1,
+            "vaulteveningislesdefault":1
+         }
+      },
+      {
+         "id":"sulochanachat_secrethistoriesf",
+         "actionId":"talk",
+         "label":"Sulla Via del Discepolo",
+         "requirements":{
+            "sulochana":1,
+            "fragmentsecrethistoriesf":1
+         },
+         "startdescription":"'Devi andare a Miah? Portami un po' di quei datteri.'",
+         "description":"'Qua. Qui hai l'indirizzo di qualcuno che ti guiderà. Se il Ladro di Viste ti chiederà di me... digli di portare i miei riguardi a Kleido... sai cosa? Non dire niente. Ecco l'indirizzo.'",
+         "effects":{
+            "lore":-1,
+            "vaultloneandlevelsandsdefault":1
+         }
+      },
+      {
+         "id":"sulochanachat_secrethistoriese",
+         "actionId":"talk",
+         "label":"Non lì...",
+         "requirements":{
+            "sulochana":1,
+            "fragmentsecrethistoriese":1
+         },
+         "startdescription":"'I Re Senz'Ombra? No...'",
+         "description":"'Non c'è niente per la mia gente o la tua. Non vale la pena danzare in quel luogo. Dovrai andare ancora più a sud.'",
+         "effects":{}
+      },
+      {
+         "id":"sulochanachat_secrethistoriesd",
+         "actionId":"talk",
+         "label":"Sulla Via dello Stigma",
+         "requirements":{
+            "sulochana":1,
+            "fragmentsecrethistoriesd":1
+         },
+         "startdescription":"'Devi andare nelle Praterie? Mmh.'",
+         "description":"'Questa è la via più veloce in questo periodo dell'anno. Ma non sarà facile. Divertiti.'",
+         "effects":{
+            "lore":-1,
+            "vaultlandbeyondforestdefault":1
+         }
+      },
+      {
+         "id":"sulochanachat_secrethistoriesc",
+         "actionId":"talk",
+         "label":"Sulla Via per Antumbra",
+         "requirements":{
+            "sulochana":1,
+            "fragmentsecrethistoriesc":1
+         },
+         "startdescription":"'Vuoi andare alle Pietre?'",
+         "description":"'Qua. Questo ti condurrà all'ultimo miglio, e da qui dovrai camminare. C'era un piccolo auberge dove soggiornavo di solito quando mi recavo nella zona. Ma l'ho bruciato'. E si accende una sigaretta.",
+         "effects":{
+            "lore":-1,
+            "vaultcontinentdefault":1
+         }
+      },
+      {
+         "id":"sulochanachat_secrethistoriesb",
+         "actionId":"talk",
+         "label":"Sulla Via per la Perla",
+         "requirements":{
+            "sulochana":1,
+            "fragmentsecrethistoriesb":1
+         },
+         "startdescription":"'Vuoi andare a Kerisham? Si. I treni sono complicati.'",
+         "description":"Sulochana ti porge un foglio stampato. 'Questi sono i numeri di questo mese. Assicurati di essere ai binari giusti. Più facile arrivarci ora, ah? C'è stato un tempo in cui era necessario passare per la Porta Sbagliata, e ora ho cose migliori da fare'. Si mette a ridacchiare grassamente.",
+         "effects":{
+            "lore":-1,
+            "vaultshiresdefault":1
+         }
+      },
+      {
+         "id":"sulochanachat_secrethistoriesa",
+         "actionId":"talk",
+         "label":"Sulla Via per il Cambiamento",
+         "requirements":{
+            "sulochana":1,
+            "fragmentsecrethistories":1
+         },
+         "startdescription":"'Posso aiutarti... se intendi Cambiare.'",
+         "description":"'Cambiamo sempre, in primo luogo, nel mare. Kerisham è perfetto in questi giorni. In seguito dovrai recarti in luoghi sempre più remoti. Ma non di persona. Mai di persona. Nei tuoi altri io. Quando vuoi, torna da me con più tradizioni, se non sai dove devi andare. Se non cerchi altro che Cambiare... posso aiutarti.'"
+      },
+      {
+         "id":"poppyoffer",
+         "label":"Parla a Poppy Lascelles",
+         "actionId":"talk",
+         "requirements":{
+            "poppyready":1
+         },
+         "slots":[
+            {
+               "id":"Consent",
+               "label":"Consenso",
+               "description":"Aggiungi Passione per accettare, o Ragione per interrogare Poppy più a fondo.",
+               "required":{
+                  "passion":1,
+                  "reason":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"poppyofferaccept",
+               "chance":100
+            },
+            {
+               "id":"poppyofferquery",
+               "chance":100
+            }
+         ],
+         "startdescription":"'Mio caro, era da tempo che volevo parlarti. Talvolta, finanzio eruditi delle arti invisibili. Offro, di solito, un contributo sostanziale. Mi piacerebbe offrirti il mio supporto. Tutto ciò che dovrai fare, un giorno, sarà presentarmi qualcuno che concluderà la faccenda in maniera corretta'. Sorride, benignamente. [Aggiungi <b>Passione</b> per accettare, o <b>Ragione</b> per interrogarla più a fondo.]",
+         "description":"Non ho accettato l'offerta di Poppy.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"poppyofferaccept",
+         "label":"Accetta l'Offerta di Poppy",
+         "actionId":"talk",
+         "requirements":{
+            "passion":1
+         },
+         "startdescription":"'Si, perfetto. Tornerò stanotte.'",
+         "description":"Un piccolo pacchetto di piccoli tesori: il regalo di Poppy. Ci vedremo di nuovo nella Stagione degli Stracci, affinché io possa mantenere la promessa.",
+         "effects":{
+            "funds":10,
+            "compensationc":1,
+            "poppyready":-1
+         },
+         "alt":[
+            {
+               "id":"poppytimebomb",
+               "chance":100,
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"poppyofferquery",
+         "label":"Interroga Poppy a fondo",
+         "actionId":"talk",
+         "requirements":{
+            "reason":1
+         },
+         "startdescription":"Qualcuno che concluderà la faccenda correttamente?",
+         "description":"'Si. Quando arriverà la Stagione degli Stracci, il mio sponsor avrà bisogno di qualcuno per una conclusione. Puoi provvedere con qualcuno di abbastanza leale, o con te stesso. Come preferisci. Non voglio creare alcun problema.'",
+         "effects":{
+            "influencewinter":1
+         }
+      },
+      {
+         "id":"poppytimebomb",
+         "label":"La Richiesta di Poppy",
+         "actionId":"poppytime",
+         "startdescription":"Nella 'Stagione degli Stracci', Poppy tornerà...",
+         "description":".",
+         "linked":[
+            {
+               "id":"poppysafefornow",
+               "chance":7
+            },
+            {
+               "id":"poppywantssoul",
+               "chance":100
+            }
+         ],
+         "warmup":300
+      },
+      {
+         "id":"poppysafefornow",
+         "actionId":"poppytime",
+         "label":"Silenzio da Poppy",
+         "startdescription":"Poppy è stata vista ad un evento di beneficenza, sorridendo benignamente, giù in città.",
+         "description":".",
+         "linked":[
+            {
+               "id":"poppytimebomb",
+               "chance":100
+            }
+         ],
+         "warmup":10
+      },
+      {
+         "id":"poppywantssoul",
+         "label":"Una Visita Amichevole da Poppy",
+         "actionId":"poppytime",
+         "slots":[
+            {
+               "id":"Sacrifice",
+               "label":"Sacrificio",
+               "required":{
+                  "follower":1
+               },
+               "forbidden":{
+                  "hireling":1,
+                  "summoned":1
+               }
+            }
+         ],
+         "alt":[
+            {
+               "id":"poppysatiated",
+               "chance":100
+            }
+         ],
+         "warmup":60,
+         "signalEndingFlavour":"Melancholy",
+         "ending":"wintersacrifice",
+         "startdescription":"'Questo è il momento, mio caro. Il Sole-negli-Stracci pretende la sua conclusione. Sarai tu? O hai trovato un amico?'",
+         "description":"."
+      },
+      {
+         "id":"poppysatiated",
+         "actionId":"poppytime",
+         "label":"Una Conclusione Adeguata",
+         "requirements":{
+            "follower":1
+         },
+         "startdescription":"'Che amico leale! Salutalo per sempre, ora.'",
+         "description":"Il mio seguace se n'è andato. Io rimango. Poppy Lascelles è stata vista gironzolare per la città. Potrebbe avere ancora qualcosa da dirmi.",
+         "effects":{
+            "poppycommissionready":1,
+            "influencewinter":1,
+            "follower":-1
+         }
+      }
+   ]
+}

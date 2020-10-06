@@ -1,0 +1,55 @@
+{
+   "recipes":[
+      {
+         "id":"explore_vaultfloating1_setup",
+         "label":"Comincia una Spedizione: la 'Hebe Stanton'",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultfloating1":1
+         },
+         "effects":{
+            "guardian_watchers":1,
+            "seal_wardeddoor":1,
+            "peril_sea":1
+         },
+         "startdescription":"È raro che le navi passeggeri visitino le cupe isole nelle quali la 'Hebe Stanton' ha intenzione di attraccare, tuttavia possiamo noleggiare un peschereccio, e affidarci al mare. Il lavoro reale, di oltrepassare guardie e porte, comincerà se riusciremo a salire a bordo. [Le Spedizioni hanno bisogno di almeno un Fondo per ostacolo. I Seguaci sconfiggeranno gli ostacoli. Se finisci i Fondi o i Seguaci, la Spedizione avrà termine.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explorevaultfloating1_success",
+         "label":"Un Nido Accogliente",
+         "actionId":"explore",
+         "requirements":{
+            "vaultfloating1":1
+         },
+         "effects":{
+            "vaultfloating1":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "ceaselesstantrasanskrit",
+               "leoninetantrasanskrit",
+               "incandescenttantrasanskrit",
+               "firecircletantrasanskrit"
+            ],
+            "draws":4,
+            "defaultcard":"compensationd",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Ci sono pochi passeggeri a bordo - non c’è da stupirsi, dato che la destinazione della nave è un'isola ghiacciata ed infelice. Ma vi è almeno un passeggero - uno che ha protetto la porta della sua cabina con qualcosa di più potente di un semplice lucchetto. Dev’essere sceso a terra. Potrebbe tornare in qualsiasi momento...",
+         "description":"Svuotiamo i bagagli, rovesciamo i libri e li scuotiamo, giriamo le foto per controllare i loro dorsi. Troviamo vestiti, biglietti, mappe, nulla fuori dall’ordinario... sebbene vi sia un curioso materiale traslucido, come un foglio ripiegato in pelle di serpente, su di una sedia. Finalmente, quando squarciamo il materasso per controllare la sua imbottitura, troviamo una piccola collezione di casse d’avorio per le pergamene.",
+         "warmup":30,
+         "craftable":false
+      }
+   ]
+}

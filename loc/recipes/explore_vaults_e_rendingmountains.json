@@ -1,0 +1,266 @@
+{
+   "recipes":[
+      {
+         "id":"explore_vaultrendingmountains1_setup",
+         "label":"Comincia una Spedizione: Fosse del Cacciatore",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultrendingmountains1":1
+         },
+         "effects":{
+            "peril_mountains":1,
+            "guardian_watchers":1,
+            "guardian_serpent":1
+         },
+         "startdescription":"I labirinti-trappola delle Tribù Laceranti. Dovremo scalare le montagne e combatterci la via attraverso le tribù. Dopo, senza dubbio, ci sarà qualcos'altro. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultrendingmountains2_setup",
+         "label":"Comincia una Spedizione: Snow's Keeper",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultrendingmountains2":1
+         },
+         "effects":{
+            "peril_mountains":1,
+            "guardian_dead":1,
+            "curse_nowhere":1
+         },
+         "startdescription":"Supereremo coraggiosamente le montagne innevate per raggiungere il tempio. Se i morti sorgeranno contro di noi, li sopprimeremo. Ma vi è un'ulteriore malignità che dovremo sopprimere, o ci seguirà fino a casa. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultrendingmountains3_setup",
+         "label":"Comincia una Spedizione: L’Occhio di Ikirmawi",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultrendingmountains3":1
+         },
+         "effects":{
+            "peril_mountains":1,
+            "seal_wardeddoor":1,
+            "curse_visions":1
+         },
+         "startdescription":"Le Montagne Laceranti si frappongono tra noi e l'osservatorio. La porta sarà sigillata e sbarrata per prevenire il nostro accesso. Le visioni che vi troveremo potrebbero strapparci i sensi. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultrendingmountains4_setup",
+         "label":"Comincia una Spedizione: Mausoleo dei Lupi",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultrendingmountains4":1
+         },
+         "effects":{
+            "peril_mountains":1,
+            "seal_wardeddoor":1,
+            "guardian_dead":1
+         },
+         "startdescription":"Venne qua il Sole, quando venne pronunciata la sua morte? Forse quel giudizio era prematuro. In ogni caso, se usurperemo il suo cammino ci troveremo ad affrontare valanghe, spettri furiosi e una porta sigillata da architetti-adepti. Meglio esser pronti. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explore_vaultrendingmountainsdefault_setup",
+         "label":"Comincia una Spedizione: Tombe dei Re Senz'Ombra",
+         "actionId":"explore",
+         "requirements":{
+            "funds":1,
+            "follower":1,
+            "vaultrendingmountainsdefault":1
+         },
+         "effects":{
+            "peril_mountains":1,
+            "seal_hiddendoor":1,
+            "guardian_watchers":1,
+            "curse_affliction":1
+         },
+         "startdescription":"Dobbiamo penetrare nelle montagne, oltrepassare i guardiani e affrontare la maledizione lasciata sul luogo dai Re Senza Ombra. Forse troveremo dei tesori. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
+         "description":".",
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"explorevault_expeditionbegun",
+               "chance":100
+            }
+         ]
+      },
+      {
+         "id":"explorevaultrendingmountains1_success",
+         "label":"Le Memorie di Guerra",
+         "actionId":"explore",
+         "requirements":{
+            "vaultrendingmountains1":1
+         },
+         "effects":{
+            "vaultrendingmountains1":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "ingredientedgef",
+               "ingredientedgef",
+               "ingredientedgef",
+               "toolforged",
+               "bookofdissolutionmandaic",
+               "ingredientforgeb",
+               "ingredientforgeb",
+               "ingredientforgeb",
+               "textbookmandaicaramaic"
+            ],
+            "draws":9,
+            "defaultcard":"compensationd",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Nelle cadenti profondità delle Fosse del Cacciatore troviamo una stanza, sui muri sono raffigurate scene di battaglia. Qui giacciono i sepolcri di tutti i più grandi cacciatori delle Tribù Laceranti.",
+         "description":"Questi sono i trofei vinti dai cacciatori. Non tutte le bestie, nel mucchio, sono animali che camminano ancora sulla terra.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultrendingmountains2_success",
+         "label":"Gli Indumenti dell'Altare",
+         "actionId":"explore",
+         "requirements":{
+            "vaultrendingmountains2":1
+         },
+         "effects":{
+            "vaultrendingmountains2":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "toolgraild",
+               "wherehasshegonevak",
+               "tooledgef",
+               "dreamconspiracyskiesphrygian",
+               "textbookvaksanskrit"
+            ],
+            "draws":5,
+            "defaultcard":"compensationd",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Gli interni del tempio pulsano per i funghi luminescenti. Dobbiamo rimuoverli dall'altare con i guanti, prima di poter razziare il luogo. È freddo come la carne rinfrescata dalla pioggia. I guanti sono macchiati di luce. Il nostro fiato diviene nebbia nel freddo del tempio.",
+         "description":"Troviamo un mucchio di tesori lasciati qui da preti ignoti ed un pietoso mucchio d'ossa. Un sacrificio? O un visitatore ha concluso qui la sua visita? Il fungo luminescente ha impresso il suo scheletro con i suoi acidi.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultrendingmountains3_success",
+         "label":"Il Progresso dei Cieli",
+         "actionId":"explore",
+         "requirements":{
+            "vaultrendingmountains3":1
+         },
+         "effects":{
+            "vaultrendingmountains3":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "toollanternfcracked",
+               "larquebinecodexphrygian",
+               "bookofmasksphrygian",
+               "toolknockd"
+            ],
+            "draws":4,
+            "defaultcard":"compensationd",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Il grande telescopio è arrugginito e la cupola è crollata. Le lenti si sono crepate. Tuttavia, pallide luci ruotano lentamente sopra al pavimento, come luci tenute da ballerini. Forse imitano la processione dei corpi celesti. Forse il loro moto piange il passaggio del Sole.",
+         "description":"Il capo degli astronomi che ha dimorato qui dev'esser stato un praticante delle arti invisibili. In una scatola in legno di cedro, trovata sotto al letto ormai marcescente nei suoi alloggi, abbiamo trovato ciò che cercavamo.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultrendingmountains4_success",
+         "label":"L'Arrivo del Lupo",
+         "actionId":"explore",
+         "requirements":{
+            "vaultrendingmountains4":1
+         },
+         "effects":{
+            "vaultrendingmountains4":-1
+         },
+         "internaldeck":{
+            "spec":[
+               "ingredientwinterd",
+               "ingredientwinterd",
+               "ingredientwinterd",
+               "secondglorymandaic",
+               "asthesunhiscoursearamaic",
+               "textbookphrygiangreek"
+            ],
+            "draws":6,
+            "defaultcard":"compensationd",
+            "resetonexhaustion":false
+         },
+         "startdescription":"Il sussurro del Morto è quieto, ma un altro suono rieccheggia nel Mausoleo: un debole urlo discendente, come il metallo quando si squarcia lo scafo di una barca, che scende di tono fino a farci ribollire le ossa. Potrebbe essere il vento, ma non è così. Non dovremmo starci a lungo, qui.",
+         "description":"Il freddo dell'aria diviene più profondo, finché la nostra pelle non frigge nel ghiaccio. Nel cuore del Mausoleo vi è una coppa di marmo bianco sopra ad un piedistallo di granito. È piena di neve, che al tocco brucia la pelle, e sepolta in essa vi sono oggetti degni di nota. Sono stati sigillati qui? O erano offerte? Non rimane altro.",
+         "warmup":30,
+         "craftable":false
+      },
+      {
+         "id":"explorevaultrendingmountainsdefault_success",
+         "label":"Ciò Che Rimane",
+         "actionId":"explore",
+         "requirements":{
+            "vaultrendingmountainsdefault":1
+         },
+         "effects":{
+            "vaultrendingmountainsdefault":-1
+         },
+         "deckeffects":{
+            "vaultrewardse":3
+         },
+         "startdescription":"Spostiamo di lato la pietra, e la luce inonda la tomba. Troviamo il re, seccato fino a sembrare pergamena e ossa fatiscenti. Non si muove. Questo non era un immortale.",
+         "description":"I Re Senza Ombra venivano sepelliti solamente con i tesori che ritenevano più preziosi. Non si aspettavano nessun lusso nell'oltrevita. Qui c'è un piccolo mucchio con ciò che questo re considerava di valore.",
+         "warmup":30,
+         "craftable":false,
+         "alt":[
+            {
+               "id":"expedition.corpse.find.vaultrendingmountainsdefault",
+               "additional":true
+            }
+         ]
+      }
+   ]
+}

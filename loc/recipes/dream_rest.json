@@ -1,0 +1,316 @@
+{
+   "recipes":[
+      {
+         "id":"dream.poison.fascination.longlesson.trap",
+         "actionId":"dream",
+         "label":"Un Nemico Sempre Vigile",
+         "startdescription":"Il nostro nemico ha imparato dai miei sogni.",
+         "requirements":{
+            "poison.fascination.longlesson":1,
+            "fascination":1
+         },
+         "effects":{
+            "long.lesson.dreamwork":1
+         },
+         "mutations":[
+            {
+               "filter":"fascination",
+               "mutate":"poison.fascination.longlesson",
+               "level":-1
+            }
+         ],
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"dreamhealth",
+         "label":"A Letto Presto",
+         "actionId":"dream",
+         "requirements":{
+            "health":1
+         },
+         "effects":{
+            "fleeting":1
+         },
+         "alt":[
+            {
+               "id":"dreamhealthdread",
+               "chance":10
+            },
+            {
+               "id":"dreamhealthfascination",
+               "chance":10
+            },
+            {
+               "id":"dreamhealthcontentment",
+               "chance":30
+            },
+            {
+               "id":"dream_router",
+               "chance":30
+            }
+         ],
+         "startdescription":"Con un po’ di fortuna, il riposo mi ristorerà. [Talvolta, fornirà Soddisfazione. Spesso, non farà nulla. Occasionalmente, creerà Terrore o Seduzione.]",
+         "description":"Talvolta, sogno una donna alta in un cappotto color sabbia ai piedi del mio letto, sorride mentre mi guarda dormire. Nel sogno gira la testa con la rapidità di un uccello, e le sue dita sono flessibili come artigli. Non penso di averla sognata la scorsa notte. Se lo avessi fatto, non avrei dormito così profondamente.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"dreamhealthcontentment",
+         "label":"A Letto Presto",
+         "actionId":"dream",
+         "effects":{
+            "contentment":1
+         },
+         "description":"Il sonno è un lungo oceano oscuro, ma talvolta, quando raggiungiamo la costa più lontana, vi è la luce della lampada.",
+         "craftable":false
+      },
+      {
+         "id":"dreamhealthdread",
+         "label":"A Letto Presto",
+         "actionId":"dream",
+         "effects":{
+            "dread":1
+         },
+         "description":"Nella terra delle due rive, ai tempi di Rimush e di Naram-Sin, si raccontavano storie su una donna ululante che divorò i figli di altre madri. La scorsa notte vi era una donna ululante, nei miei sogni.",
+         "craftable":false
+      },
+      {
+         "id":"dreamhealthfascination",
+         "label":"A Letto Presto",
+         "actionId":"dream",
+         "effects":{
+            "fascination":1
+         },
+         "description":"Immagina una scatola di specchi dove ogni specchio contiene una luce più dolce. Ora immagina che nel settimo specchio vi sia solamente una normale alba, un normale letto, i noiosi inizi di un normale giorno. Immagina questo, e desidera la luce.",
+         "craftable":false
+      },
+      {
+         "id":"recoverhunger",
+         "label":"Ripristina le Forze",
+         "actionId":"dream",
+         "requirements":{
+            "funds":1,
+            "hunger":1
+         },
+         "effects":{
+            "funds":-1
+         },
+         "aspects":{
+            "restorehealth":1
+         },
+         "startdescription":"Ho passato molto tempo senza nutrirmi. Dovrei mangiare con cautela.",
+         "description":"La mia forza ritorna. Le ombre ai lati della vista sono andate via.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"recoverfatigue",
+         "label":"Un pisolino per riprendersi dalla Stanchezza",
+         "actionId":"dream",
+         "requirements":{
+            "fatigue":1
+         },
+         "aspects":{
+            "restorehealth":1
+         },
+         "startdescription":"Ho solo bisogno di un po’ di tempo per recuperare le mie energie.",
+         "description":"È stato ristorante.",
+         "warmup":30,
+         "craftable":true
+      },
+      {
+         "id":"recover.apostlegrail.pillar2",
+         "actionId":"dream",
+         "label":"Il Sogno della Fine",
+         "startdescription":"Consumo la piccola fiala di sangue, mi sdraio, chiudo gli occhi. Domani sarò più forte.",
+         "description":"Mi sono molto ripreso - molto - sono sontuoso. La sclera dei miei occhi, le vene nei miei polsi, sono a bagno in splendidi sieri. Quando arriverà la Vitulazione sarò l’elemento centrale, la nostra Delizia potrà dimostrare il suo appetito, il Graal potrà attuarsi.",
+         "requirements":{
+            "apostlegrail.pillarfuel":1,
+            "apostlegrail.pillar2.dormant":1
+         },
+         "effects":{
+            "apostlegrail.pillar2.dormant":-1,
+            "apostlegrail.pillar2":1,
+            "apostlegrail.pillarfuel":-1,
+            "fascination":1
+         },
+         "warmup":10,
+         "craftable":true
+      },
+      {
+         "id":"recoverillhealthfunds",
+         "label":"Cura",
+         "actionId":"dream",
+         "requirements":{
+            "funds":1,
+            "illhealth":1
+         },
+         "effects":{
+            "funds":-1
+         },
+         "aspects":{
+            "restorehealth":1
+         },
+         "startdescription":"La medicina è nera ed amara come catrame. Sarebbe facile sospettare l'avvelenamento.",
+         "description":"L’infermeria è sempre più stretta e stantia. È tempo di tirarsi su.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"recoverillhealthfundsvitality",
+         "label":"Cura",
+         "actionId":"dream",
+         "requirements":{
+            "vitality":1,
+            "illhealth":1
+         },
+         "effects":{
+            "vitality":-1
+         },
+         "aspects":{
+            "restorehealth":1
+         },
+         "startdescription":"Ho solo bisogno di tempo.",
+         "description":"L’infermeria è sempre più stretta e stantia. È tempo di tirarsi su.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"reducedread",
+         "label":"Libera la Mente",
+         "actionId":"dream",
+         "requirements":{
+            "contentment":1,
+            "dread":1
+         },
+         "effects":{
+            "contentment":-1,
+            "dread":-1,
+            "fleeting":1
+         },
+         "startdescription":"Ricordo di esser stato diverso, un tempo.",
+         "description":"Il sole si muove ancora. Il vento cammina ancora. I miei diari sono le tracce del labirinto.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"reducefascination",
+         "label":"Compostezza",
+         "actionId":"dream",
+         "requirements":{
+            "dread":1,
+            "fascination":1
+         },
+         "effects":{
+            "fascination":-1,
+            "dread":-1,
+            "fleeting":1
+         },
+         "startdescription":".",
+         "description":"Ora l’aria è coagulata. Sono di nuovo a casa, in questa zoppicante carne. Meglio, forse.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"reducefascinationfleeting",
+         "label":"Compostezza",
+         "actionId":"dream",
+         "requirements":{
+            "fleeting":1,
+            "fascination":1
+         },
+         "effects":{
+            "fleeting":-1,
+            "fascination":-1
+         },
+         "startdescription":".",
+         "description":"Ora l’aria è coagulata. Sono di nuovo a casa, in questa zoppicante carne. Meglio, forse.",
+         "warmup":60,
+         "craftable":true
+      },
+      {
+         "id":"dreamfunds",
+         "label":"Acquista una Tintura d’Oppio",
+         "actionId":"dream",
+         "requirements":{
+            "funds":1
+         },
+         "effects":{
+            "contentment":1,
+            "funds":-1
+         },
+         "startdescription":"In momenti di crisi eccezionale, potrei visitare un farmacista riservato per acquistare una tintura d’oppio e rendere dolci i miei sogni. Ma solo in momenti di crisi. [Questa è una via costosa e rischiosa per guadagnare Soddisfazione. Potrebbe provocarti malattie o Terrore.]",
+         "description":"Oh, quella pace profonda. Ma non dovrei più farlo.",
+         "warmup":30,
+         "craftable":true,
+         "alt":[
+            {
+               "id":"grailinduction",
+               "chance":30,
+               "additional":true
+            },
+            {
+               "id":"despairrisk",
+               "chance":10,
+               "additional":true
+            },
+            {
+               "id":"presickness",
+               "chance":10,
+               "additional":true
+            }
+         ]
+      },
+      {
+         "id":"dream.decrepitude",
+         "actionId":"dream",
+         "label":"Misure Disperate",
+         "startdescription":"La mia anima tormenta la mia carne cadente come un fuoco fatuo. Il mio cuore rallenta, e un giorno si fermerà. Forse se consumassi determinante sostanze esotiche potrei recuperare le forze perse. Tuttavia, mi sembra improbabile.",
+         "requirements":{
+            "decrepitude":1,
+            "ingredient":1
+         },
+         "warmup":30,
+         "craftable":true,
+         "linked":[
+            {
+               "id":"dream.decrepitude.ingredientheartf"
+            },
+            {
+               "id":"dream.decrepitude.failure"
+            }
+         ]
+      },
+      {
+         "id":"dream.decrepitude.ingredientheartf",
+         "actionId":"dream",
+         "label":"Accelerazione di Gennaro",
+         "startdescription":"Al tenue pizzico arrugginito del sangue, il mio cuore sussulta, doloroso come un'alba lancinante.",
+         "description":"San Gennaro ha aperto la porta degli anni e la porta delle agonie, e attraverso queste porte gemelle, dolore e storia fuggono.",
+         "requirements":{
+            "ingredientheartf":1,
+            "decrepitude":1
+         },
+         "effects":{
+            "ingredientheartf":-1,
+            "restlessness":1,
+            "mystique":1
+         },
+         "aspects":{
+            "tohealth":1
+         },
+         "warmup":30
+      },
+      {
+         "id":"dream.decrepitude.failure",
+         "actionId":"dream",
+         "label":"Solo i Sapori Più Strani",
+         "startdescription":"Il mio cuore zoppica. Non ne ho avuto alcun beneficio - eccetto, suppongo, conoscenze vinte a caro prezzo.",
+         "effects":{
+            "ingredient":-1,
+            "erudition":1
+         }
+      }
+   ]
+}

@@ -1,0 +1,697 @@
+{
+   "recipes":[
+      {
+         "id":"getcommissionaladim",
+         "label":"Ottieni una Commissione dal Dr. al-Adim",
+         "actionId":"talk",
+         "requirements":{
+            "aladimready":1
+         },
+         "startdescription":"Il dottore vorrebbe il mio aiuto per le sue ricerche.",
+         "description":"Qui c'è ciò che cercava.",
+         "warmup":10,
+         "deckeffects":{
+            "aladimcommissions":1
+         },
+         "aspects":{
+            "commissiongiven":1
+         },
+         "craftable":true
+      },
+      {
+         "id":"getcommissionbechet",
+         "label":"Ottieni una Commissione da Mme Bechet",
+         "actionId":"talk",
+         "requirements":{
+            "bechetready":1
+         },
+         "startdescription":"Sta cercando qualcosa da scrivere sul celeberrimo 'Kerisham Review'.",
+         "description":"Qui c'è ciò che cercava.",
+         "warmup":10,
+         "deckeffects":{
+            "bechetcommissions":1
+         },
+         "aspects":{
+            "commissiongiven":1
+         },
+         "craftable":true
+      },
+      {
+         "id":"getcommissionjannings",
+         "label":"Ottieni una Commissione dal Conte Jannings",
+         "actionId":"talk",
+         "requirements":{
+            "janningsready":1
+         },
+         "startdescription":"La fratellanza europea del buon Conte sta cercando risposte particolari.",
+         "description":"Qui c'è ciò che cercava.",
+         "warmup":10,
+         "deckeffects":{
+            "janningscommissions":1
+         },
+         "aspects":{
+            "commissiongiven":1
+         },
+         "craftable":true
+      },
+      {
+         "id":"getcommissionpoppy",
+         "label":"Ottieni una Commissione da Poppy Lascelles",
+         "actionId":"talk",
+         "requirements":{
+            "poppycommissionready":1
+         },
+         "startdescription":"'Sono', dice Poppy con una risatina adolescenziale, 'interessata, oh, insomma, alle arti del sangue e del ghiaccio. Sembra stupido, ma lascia che un'anziana abbia i suoi capricci. Mi aiuterai?'",
+         "description":"Qui c'è ciò che cercava.",
+         "warmup":10,
+         "deckeffects":{
+            "poppycommissions":1
+         },
+         "aspects":{
+            "commissiongiven":1
+         },
+         "craftable":true
+      },
+      {
+         "id":"fulfilcommissionaladimsecrethistoriesc",
+         "label":"Svolgi una Commissione per il Dr. al-Adim",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlesecrethistoriesc":1,
+            "aladim":1,
+            "article":1,
+            "secrethistories":6
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che il dottore mi ha chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionaladimsecrethistoriesb",
+         "label":"Svolgi una Commissione per il Dr. al-Adim",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlesecrethistoriesb":1,
+            "aladim":1,
+            "article":1,
+            "secrethistories":4
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che il dottore mi ha chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionaladimsecrethistories",
+         "label":"Svolgi una Commissione per il Dr. al-Adim",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlesecrethistories":1,
+            "aladim":1,
+            "article":1,
+            "secrethistories":2
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che il dottore mi ha chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionaladimlanternc",
+         "label":"Svolgi una Commissione per il Dr. al-Adim",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlelanternc":1,
+            "aladim":1,
+            "article":1,
+            "lantern":6
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che il dottore mi ha chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionaladimlanternb",
+         "label":"Svolgi una Commissione per il Dr. al-Adim",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlelanternb":1,
+            "aladim":1,
+            "article":1,
+            "lantern":4
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che il dottore mi ha chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionaladimlantern",
+         "label":"Svolgi una Commissione per il Dr. al-Adim",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlelantern":1,
+            "aladim":1,
+            "article":1,
+            "lantern":2
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che il dottore mi ha chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionbechetforgec",
+         "label":"Svolgi una Commissione per Mme Bechet",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticleforgec":1,
+            "bechet":1,
+            "article":1,
+            "forge":6
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionbechetforgeb",
+         "label":"Svolgi una Commissione per Mme Bechet",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticleforgeb":1,
+            "bechet":1,
+            "article":1,
+            "forge":4
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionbechetforge",
+         "label":"Svolgi una Commissione per Mme Bechet",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticleforge":1,
+            "bechet":1,
+            "article":1,
+            "forge":2
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionbechetgrailc",
+         "label":"Svolgi una Commissione per Mme Bechet",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlegrailc":1,
+            "bechet":1,
+            "article":1,
+            "grail":6
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "glimmering":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionbechetgrailb",
+         "label":"Svolgi una Commissione per Mme Bechet",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlegrailb":1,
+            "bechet":1,
+            "article":1,
+            "grail":4
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "glimmering":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionbechetgrail",
+         "label":"Svolgi una Commissione per Mme Bechet",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlegrail":1,
+            "bechet":1,
+            "article":1,
+            "grail":2
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "glimmering":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionbechetmothc",
+         "label":"Svolgi una Commissione per Mme Bechet",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlemothc":1,
+            "bechet":1,
+            "article":1,
+            "moth":6
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "glimmering":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionbechetmothb",
+         "label":"Svolgi una Commissione per Mme Bechet",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlemothb":1,
+            "bechet":1,
+            "article":1,
+            "moth":4
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "glimmering":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionbechetmoth",
+         "label":"Svolgi una Commissione per Mme Bechet",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlemoth":1,
+            "bechet":1,
+            "article":1,
+            "moth":2
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "glimmering":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionjanningsheartc",
+         "label":"Svolgi una Commissione per il Conte Jannings",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticleheartc":1,
+            "jannings":1,
+            "article":1,
+            "heart":6
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "glimmering":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionjanningsheartb",
+         "label":"Svolgi una Commissione per il Conte Jannings",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticleheartb":1,
+            "jannings":1,
+            "article":1,
+            "heart":4
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "glimmering":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionjanningsheart",
+         "label":"Svolgi una Commissione per il Conte Jannings",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticleheart":1,
+            "jannings":1,
+            "article":1,
+            "heart":2
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "glimmering":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionjanningsedgec",
+         "label":"Svolgi una Commissione per il Conte Jannings",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticleedgec":1,
+            "jannings":1,
+            "article":1,
+            "edge":6
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionjanningsedgeb",
+         "label":"Svolgi una Commissione per il Conte Jannings",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticleedgeb":1,
+            "jannings":1,
+            "article":1,
+            "edge":4
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionjanningsedge",
+         "label":"Svolgi una Commissione per il Conte Jannings",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticleedge":1,
+            "jannings":1,
+            "article":1,
+            "edge":2
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che mi era stato chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionpoppycommissionwinterc",
+         "label":"Svolgi una Commissione per Poppy Lascelles",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlewinterc":1,
+            "poppycommission":1,
+            "article":1,
+            "winter":6
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che Poppy mi aveva chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionpoppycommissionwinterb",
+         "label":"Svolgi una Commissione per Poppy Lascelles",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlewinterb":1,
+            "poppycommission":1,
+            "article":1,
+            "winter":4
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che Poppy mi aveva chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionpoppycommissionwinter",
+         "label":"Svolgi una Commissione per Poppy Lascelles",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticlewinter":1,
+            "poppycommission":1,
+            "article":1,
+            "winter":2
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che Poppy mi aveva chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionpoppycommissionknockc",
+         "label":"Svolgi una Commissione per Poppy Lascelles",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticleknockc":1,
+            "poppycommission":1,
+            "article":1,
+            "knock":6
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che Poppy mi aveva chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionpoppycommissionknockb",
+         "label":"Svolgi una Commissione per Poppy Lascelles",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticleknockb":1,
+            "poppycommission":1,
+            "article":1,
+            "knock":4
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che Poppy mi aveva chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      },
+      {
+         "id":"fulfilcommissionpoppycommissionknock",
+         "label":"Svolgi una Commissione per Poppy Lascelles",
+         "actionId":"talk",
+         "requirements":{
+            "commissionarticleknock":1,
+            "poppycommission":1,
+            "article":1,
+            "knock":2
+         },
+         "effects":{
+            "mystique":1,
+            "article":-1,
+            "erudition":1
+         },
+         "startdescription":"Ho ciò che Poppy mi aveva chiesto.",
+         "description":"Ho ricevuto la valuta del mondo segreto, e il mio mecenate si è lasciato sfuggire informazioni stuzzicanti.",
+         "warmup":10,
+         "craftable":true,
+         "aspects":{
+            "commissionfulfilled":1
+         }
+      }
+   ]
+}

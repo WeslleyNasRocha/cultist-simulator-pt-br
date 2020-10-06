@@ -1,0 +1,1074 @@
+{
+   "elements":[
+      {
+         "id":"influenceedge",
+         "label":"Un’Aria Elettrizzante",
+         "aspects":{
+            "edge":2,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze della Lama combacianti per intensificarla oppure studia come è influenzata dall’Inverno per convertirla, piuttosto.",
+               "required":{
+                  "influenceedge":1,
+                  "influencewinter":1,
+                  "dread":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentedgec":1,
+                  "fragmentedged":1,
+                  "fragmentedgee":1,
+                  "fragmentedgef":1,
+                  "fragmentedgeg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"I sensi sono affilati. [Un’Influenza di secondo ordine: evidente ai percettivi, immediatamente riconoscibile da un adepto. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influenceedgec"
+         }
+      },
+      {
+         "id":"influenceedgec",
+         "label":"Un’Aria Stimolante",
+         "aspects":{
+            "edge":6,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze della Lama combacianti per intensificarla oppure studia come è influenzata dall’Inverno per convertirla, piuttosto.",
+               "required":{
+                  "influenceedgec":1,
+                  "influencewinterc":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentedgec":1,
+                  "fragmentedged":1,
+                  "fragmentedgee":1,
+                  "fragmentedgef":1,
+                  "fragmentedgeg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Le passioni sono destate. [Un’Influenza di sesto ordine: i segni sono inequivocabili. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influenceedgee"
+         },
+         "decayTo":"influenceedge"
+      },
+      {
+         "id":"influenceedgee",
+         "label":"Un’Aria Furiosa",
+         "aspects":{
+            "edge":10,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze della Lama combacianti per intensificarla oppure studia come è influenzata dall’Inverno per convertirla, piuttosto.",
+               "required":{
+                  "influenceedgee":1,
+                  "influencewintere":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentedgec":1,
+                  "fragmentedged":1,
+                  "fragmentedgee":1,
+                  "fragmentedgef":1,
+                  "fragmentedgeg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"La rabbia è implicita in ogni forma. [Un’Influenza di decimo grado! Un nodo-accumulo di potere e pericolo. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influenceedgeg"
+         },
+         "decayTo":"influenceedgec"
+      },
+      {
+         "id":"influenceedgeg",
+         "label":"Una Risoluzione",
+         "aspects":{
+            "edge":15,
+            "influence":1
+         },
+         "description":"Chi può scongiurare il fine ultimo della battaglia? [Un’Influenza di quindicesimo grado! Questa potrebbe essere l'attenzione personale di un’Ora. Può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "decayTo":"influenceedgee"
+      },
+      {
+         "id":"influenceforge",
+         "label":"Un Calore Crescente",
+         "aspects":{
+            "forge":2,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze della Forgia combacianti per intensificarla oppure studia come è influenzata dalla Lama per convertirla, piuttosto.",
+               "required":{
+                  "influenceforge":1,
+                  "influenceedge":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentforgec":1,
+                  "fragmentforged":1,
+                  "fragmentforgee":1,
+                  "fragmentforgef":1,
+                  "fragmentforgeg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Una foschia e un luccichio. [Un’Influenza di secondo ordine: evidente ai percettivi, immediatamente riconoscibile da un adepto. Questa può essere usata in alcuni Riti per evocare un famiglio, ed alcuni di questi ne emaneranno quando sono distrutti.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influenceforgec"
+         }
+      },
+      {
+         "id":"influenceforgec",
+         "label":"Un Calore Tremolante",
+         "aspects":{
+            "forge":6,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze della Forgia combacianti per intensificarla oppure studia come è influenzata dalla Lama per convertirla, piuttosto.",
+               "required":{
+                  "influenceforgec":1,
+                  "influenceedgec":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentforgec":1,
+                  "fragmentforged":1,
+                  "fragmentforgee":1,
+                  "fragmentforgef":1,
+                  "fragmentforgeg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"La possibilità delle scintille. [Un’Influenza di sesto ordine: i segni sono inequivocabili. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influenceforgee"
+         },
+         "decayTo":"influenceforge"
+      },
+      {
+         "id":"influenceforgee",
+         "label":"Un Calore Esaltante",
+         "aspects":{
+            "forge":10,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze della Forgia combacianti per intensificarla oppure studia come è influenzata dalla Lama per convertirla, piuttosto.",
+               "required":{
+                  "influenceforgee":1,
+                  "influenceedgee":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentforgec":1,
+                  "fragmentforged":1,
+                  "fragmentforgee":1,
+                  "fragmentforgef":1,
+                  "fragmentforgeg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Questa è l’aura sul baratro della cima del vulcano. [Un’Influenza di decimo grado! Un nodo-accumulo di potere e pericolo. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influenceforgeg"
+         },
+         "decayTo":"influenceforgec"
+      },
+      {
+         "id":"influenceforgeg",
+         "label":"Una Incandescenza",
+         "aspects":{
+            "forge":15,
+            "influence":1
+         },
+         "description":"Il Cambiamento segue il fuoco. [Un’Influenza di quindicesimo grado! Questa potrebbe essere l'attenzione personale di un’Ora. Può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "decayTo":"influenceforgee"
+      },
+      {
+         "id":"influencegrail",
+         "label":"Una Consapevolezza dell’Appetito",
+         "aspects":{
+            "grail":2,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze del Graal combacianti per intensificarla oppure studia come è influenzata dalla Falena per convertirla, piuttosto.",
+               "required":{
+                  "influencegrail":1,
+                  "influencemoth":1,
+                  "glimmering":1,
+                  "glimmeringplus":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentgrailc":1,
+                  "fragmentgraild":1,
+                  "fragmentgraile":1,
+                  "fragmentgrailf":1,
+                  "fragmentgrailg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Ogni senso è amplificato; ogni sensazione, approfondita. [Un’Influenza di secondo ordine: evidente ai percettivi, immediatamente riconoscibile da un adepto. Questa può essere usata in alcuni Riti per evocare un famiglio, ed alcuni di questi ne emaneranno quando sono distrutti.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencegrailc"
+         }
+      },
+      {
+         "id":"influencegrailc",
+         "label":"Un’Urgenza dell’Appetito",
+         "aspects":{
+            "grail":6,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze del Graal combacianti per intensificarla oppure studia come è influenzata dalla Falena per convertirla, piuttosto.",
+               "required":{
+                  "influencegrailc":1,
+                  "influencemothc":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentgrailc":1,
+                  "fragmentgraild":1,
+                  "fragmentgraile":1,
+                  "fragmentgrailf":1,
+                  "fragmentgrailg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"È difficile controllarsi. [Un’Influenza di sesto ordine: i segni sono inequivocabili. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencegraile"
+         },
+         "decayTo":"influencegrail"
+      },
+      {
+         "id":"influencegraile",
+         "label":"Un Imperativo dell’Appetito",
+         "aspects":{
+            "grail":10,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze del Graal combacianti per intensificarla oppure studia come è influenzata dalla Falena per convertirla, piuttosto.",
+               "required":{
+                  "influencegraile":1,
+                  "influencemothe":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentgrailc":1,
+                  "fragmentgraild":1,
+                  "fragmentgraile":1,
+                  "fragmentgrailf":1,
+                  "fragmentgrailg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Le labbra sono doloranti per l’assaporare; le dita per l’aggrapparsi. [Un’Influenza di decimo grado! Un nodo-accumulo di potere e pericolo. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencegrailg"
+         },
+         "decayTo":"influencegrailc"
+      },
+      {
+         "id":"influencegrailg",
+         "label":"Un’Incarnadescenza",
+         "aspects":{
+            "grail":15,
+            "influence":1
+         },
+         "description":"La stessa aria è succulenta per le possibilità. Bucala, e potrebbe sanguinare. [Un’Influenza di quindicesimo grado! Questa potrebbe essere l'attenzione personale di un’Ora. Può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "decayTo":"influencegraile"
+      },
+      {
+         "id":"influenceheart",
+         "label":"Arie Tremanti",
+         "aspects":{
+            "heart":2,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze del Cuore combacianti per intensificarla oppure studia come è influenzata dalla Falena per convertirla, piuttosto.",
+               "required":{
+                  "influenceheart":1,
+                  "influencegrail":1,
+                  "vitality":1,
+                  "vitalityplus":1,
+                  "contentment":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentheartc":1,
+                  "fragmentheartd":1,
+                  "fragmenthearte":1,
+                  "fragmentheartf":1,
+                  "fragmentheartg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"I piedi battono. Tutto è pungente e tutto va bene. [Un’Influenza di secondo ordine: evidente ai percettivi, immediatamente riconoscibile da un adepto. Questa può essere usata in alcuni Riti per evocare un famiglio, ed alcuni di questi ne emaneranno quando sono distrutti.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influenceheartc"
+         },
+         "decayTo":"vitality"
+      },
+      {
+         "id":"influenceheartc",
+         "label":"Arie Pulsanti",
+         "aspects":{
+            "heart":6,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze del Cuore combacianti per intensificarla oppure studia come è influenzata dalla Falena per convertirla, piuttosto.",
+               "required":{
+                  "influenceheartc":1,
+                  "influencegrailc":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentheartc":1,
+                  "fragmentheartd":1,
+                  "fragmenthearte":1,
+                  "fragmentheartf":1,
+                  "fragmentheartg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Un potere crescente; un’energia rassicurante. [Un’Influenza di sesto ordine: i segni sono inequivocabili. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencehearte"
+         },
+         "decayTo":"influenceheart"
+      },
+      {
+         "id":"influencehearte",
+         "label":"Arie Martellanti",
+         "aspects":{
+            "heart":10,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze del Cuore combacianti per intensificarla, oppure studia come è influenzata dalla Falena per convertirla, piuttosto.",
+               "required":{
+                  "influencehearte":1,
+                  "influencegraile":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentheartc":1,
+                  "fragmentheartd":1,
+                  "fragmenthearte":1,
+                  "fragmentheartf":1,
+                  "fragmentheartg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Il cuore si muove; il mondo si muove. [Un’Influenza di decimo grado! Un nodo-accumulo di potere e pericolo. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influenceheartg"
+         },
+         "decayTo":"influenceheartc"
+      },
+      {
+         "id":"influenceheartg",
+         "label":"Un’Imminenza",
+         "aspects":{
+            "heart":15,
+            "influence":1
+         },
+         "description":"Il cielo è un tamburo; la terra è pronta per la sua estasi. [Un’Influenza di quindicesimo grado! Questa potrebbe essere l'attenzione personale di un’Ora. Può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "decayTo":"influencehearte"
+      },
+      {
+         "id":"sicknessprotection",
+         "label":"Un Rinvio dell'Esecuzione",
+         "description":"Tutta la carne cede. Ma mi è stato promesso che la mia cederà un po' più tardi. [Questa è un'assicurazione contro la malattia, se non ti è rimasta alcuna Vita.]",
+         "lifetime":600,
+         "decayTo":"influenceheart"
+      },
+      {
+         "id":"influenceknock",
+         "label":"Falla Sottile",
+         "aspects":{
+            "knock":2,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Premendo abbastanza, la pelle del mondo si strapperà. Aggiungi una qualsiasi influenza per convertirla in una del Colpo di livello più alto.",
+               "actionId":"study",
+               "required":{
+                  "influenceedge":1,
+                  "influenceforge":1,
+                  "influencegrail":1,
+                  "influenceheart":1,
+                  "influenceknock":1,
+                  "influencelantern":1,
+                  "influencemoth":1,
+                  "influencewinter":1,
+                  "erudition":1,
+                  "glimmering":1,
+                  "vitality":1,
+                  "eruditionplus":1,
+                  "glimmeringplus":1,
+                  "vitalityplus":1
+               }
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentknockc":1,
+                  "fragmentknockd":1,
+                  "fragmentknocke":1,
+                  "fragmentknockf":1,
+                  "fragmentknockg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Lacci snodati -- le finestre dondolano aperte -- le serrature si muovono come se fossero oliate. [Un’Influenza di secondo ordine: evidente ai percettivi, immediatamente riconoscibile da un adepto. Questa può essere usata in alcuni Riti per evocare un famiglio, ed alcuni di questi ne emaneranno quando sono distrutti.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influenceknockc"
+         }
+      },
+      {
+         "id":"influenceknockc",
+         "label":"Frattura Subdola",
+         "aspects":{
+            "knock":6,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Premendo abbastanza, la pelle del mondo si strapperà. Aggiungi una qualsiasi influenza per convertirla in una del Colpo di livello più alto.",
+               "actionId":"study",
+               "required":{
+                  "influenceedgec":1,
+                  "influenceforgec":1,
+                  "influencegrailc":1,
+                  "influenceheartc":1,
+                  "influenceknockc":1,
+                  "influencelanternc":1,
+                  "influencemothc":1,
+                  "influencewinterc":1
+               }
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentknockc":1,
+                  "fragmentknockd":1,
+                  "fragmentknocke":1,
+                  "fragmentknockf":1,
+                  "fragmentknockg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Parti di nuvole -- crepe nei muri -- il dolore delle vecchie ferite. [Un’Influenza di sesto ordine: i segni sono inequivocabili. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influenceknocke"
+         },
+         "decayTo":"influenceknock"
+      },
+      {
+         "id":"influenceknocke",
+         "label":"Rottura Subdola",
+         "aspects":{
+            "knock":10,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Premendo abbastanza, la pelle del mondo si strapperà. Aggiungi una qualsiasi influenza per convertirla in una del Colpo di livello più alto.",
+               "actionId":"study",
+               "required":{
+                  "influenceedgee":1,
+                  "influenceforgee":1,
+                  "influencegraile":1,
+                  "influencehearte":1,
+                  "influenceknocke":1,
+                  "influencelanterne":1,
+                  "influencemothe":1,
+                  "influencewintere":1
+               }
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentknockc":1,
+                  "fragmentknockd":1,
+                  "fragmentknocke":1,
+                  "fragmentknockf":1,
+                  "fragmentknockg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"La geometria si contorce -- le porte si spalancano -- serpenti ribollono dalla terra! [Un’Influenza di decimo grado! Un nodo-accumulo di potere e pericolo. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influenceknockg"
+         },
+         "decayTo":"influenceknockc"
+      },
+      {
+         "id":"influenceknockg",
+         "label":"Porta Sbagliata",
+         "aspects":{
+            "knock":15,
+            "influence":1
+         },
+         "description":"Vi è una porta che non dovrebbe essere aperta, e anche ora i suoi cardini sono destati -- [Un’Influenza di quindicesimo grado! Questa potrebbe essere l'attenzione personale di un’Ora. Può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "decayTo":"influenceknocke"
+      },
+      {
+         "id":"influencelantern",
+         "label":"Una Consapevolezza della Radiosità",
+         "aspects":{
+            "lantern":2,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze della Lanterna combacianti per intensificarla oppure studia come è influenzata dalla Forgia per convertirla, piuttosto.",
+               "required":{
+                  "influencelantern":1,
+                  "influenceforge":1,
+                  "erudition":1,
+                  "eruditionplus":1,
+                  "fascination":1,
+                  "contentment":1,
+                  "fleeting":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentlanternc":1,
+                  "fragmentlanternd":1,
+                  "fragmentlanterne":1,
+                  "fragmentlanternf":1,
+                  "fragmentlanterng":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Vi è una luce dietro il mondo, una luce sopra al Mansus, una luce che penetra sia il vetro che la pelle. È qui. [Un’Influenza di secondo ordine: evidente ai percettivi, immediatamente riconoscibile da un adepto. Questa può essere usata in alcuni Riti per evocare un famiglio, ed alcuni di questi ne emaneranno quando sono distrutti.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencelanternc"
+         },
+         "decayTo":"fascination"
+      },
+      {
+         "id":"influencelanternc",
+         "label":"Un’Intensità della Radiosità",
+         "aspects":{
+            "lantern":6,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze della Lanterna combacianti per intensificarla oppure studia come è influenzata dalla Forgia per convertirla, piuttosto.",
+               "required":{
+                  "influencelanternc":1,
+                  "influenceforgec":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentlanternc":1,
+                  "fragmentlanternd":1,
+                  "fragmentlanterne":1,
+                  "fragmentlanternf":1,
+                  "fragmentlanterng":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"La luce rinfresca la pelle e tinge l’aria. [Un’Influenza di sesto ordine: i segni sono inequivocabili. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencelanterne"
+         },
+         "decayTo":"influencelantern"
+      },
+      {
+         "id":"influencelanterne",
+         "label":"Una Fiammata della Radiosità",
+         "aspects":{
+            "lantern":10,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze della Lanterna combacianti per intensificarla oppure studia come è influenzata dalla Forgia per convertirla, piuttosto.",
+               "required":{
+                  "influencelanterne":1,
+                  "influenceforgee":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentlanternc":1,
+                  "fragmentlanternd":1,
+                  "fragmentlanterne":1,
+                  "fragmentlanternf":1,
+                  "fragmentlanterng":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Ogni colore è diventato più luminoso, come una nuova tinta, ma ora cominciano a stingere verso il bianco. [Un’Influenza di decimo grado! Un nodo-accumulo di potere e pericolo. Questa può essere usata in alcuni Riti per evocare un famiglio. Se non viene utilizzata, diventerà Seduzione.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencelanterng"
+         },
+         "decayTo":"influencelanternc"
+      },
+      {
+         "id":"influencelanterng",
+         "label":"Uno Splendore",
+         "aspects":{
+            "lantern":15,
+            "influence":1
+         },
+         "lifetime":60,
+         "description":"Copriti gli occhi, se lo desideri. Non servirà a nulla. [Un’Influenza di quindicesimo grado! Questa potrebbe essere l'attenzione personale di un’Ora. Può essere usata in alcuni Riti per evocare un famiglio.]",
+         "decayTo":"influencelanterne"
+      },
+      {
+         "id":"influencemoth",
+         "label":"Un Ronzio nel Cervello",
+         "aspects":{
+            "moth":2,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze della Falena combacianti per intensificarla oppure studia come è influenzata dalla Lanterna per convertirla, piuttosto.",
+               "required":{
+                  "influencemoth":1,
+                  "influencelantern":1,
+                  "erudition":1,
+                  "eruditionplus":1,
+                  "glimmering":1,
+                  "glimmeringplus":1,
+                  "fascination":1,
+                  "fleeting":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentmothc":1,
+                  "fragmentmothd":1,
+                  "fragmentmothe":1,
+                  "fragmentmothf":1,
+                  "fragmentmothg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"in gi rum imus noc te et con sumi <b>snip snip snip</b> [Un’Influenza di secondo ordine: evidente ai percettivi, immediatamente riconoscibile da un adepto. Questa può essere usata in alcuni Riti per evocare un famiglio, ed alcuni di questi ne emaneranno quando sono distrutti.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencemothc"
+         },
+         "decayTo":"restlessness"
+      },
+      {
+         "id":"influencemothc",
+         "label":"Un Rantolo nell’Anima",
+         "aspects":{
+            "moth":6,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze della Falena combacianti per intensificarla oppure studia come è influenzata dalla Lanterna per convertirla, piuttosto.",
+               "required":{
+                  "influencemothc":1,
+                  "influencelanternc":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentmothc":1,
+                  "fragmentmothd":1,
+                  "fragmentmothe":1,
+                  "fragmentmothf":1,
+                  "fragmentmothg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Oh, gli amici che abbiamo suonato e le pelli create; ci accompagnano ancora! [Un’Influenza di sesto ordine: i segni sono inequivocabili. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencemothe"
+         },
+         "decayTo":"influencemoth"
+      },
+      {
+         "id":"influencemothe",
+         "label":"Un Ululato nel Cuore",
+         "aspects":{
+            "moth":10,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze della Falena combacianti per intensificarla oppure studia come è influenzata dalla Lanterna per convertirla, piuttosto.",
+               "required":{
+                  "influencemothe":1,
+                  "influencelanterne":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentmothc":1,
+                  "fragmentmothd":1,
+                  "fragmentmothe":1,
+                  "fragmentmothf":1,
+                  "fragmentmothg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Le emozioni contorcono i nostri pensieri. Una passione porta all’altra come foglie nella morsa del vento! [Un’Influenza di decimo grado! Un nodo-accumulo di potere e pericolo. Questa può essere usata in alcuni Riti per evocare un famiglio.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencemothg"
+         },
+         "decayTo":"influencemothc"
+      },
+      {
+         "id":"influencemothg",
+         "label":"Quella Vecchia Brama",
+         "aspects":{
+            "moth":15,
+            "influence":1
+         },
+         "description":"\"\r\n    per cortesia\"",
+         "lifetime":60,
+         "decayTo":"influencemothe"
+      },
+      {
+         "id":"influencewinter",
+         "label":"Un’Atmosfera Fredda",
+         "aspects":{
+            "winter":2,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze dell’Inverno combacianti per intensificarla oppure studia come è influenzata dal Cuore per convertirla, piuttosto.",
+               "required":{
+                  "influencewinter":1,
+                  "influenceheart":1,
+                  "vitality":1,
+                  "vitalityplus":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentwinterc":1,
+                  "fragmentwinterd":1,
+                  "fragmentwintere":1,
+                  "fragmentwinterf":1,
+                  "fragmentwinterg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"Un freddo peculiare aleggia nelle mie stanze. [Un’Influenza di secondo ordine: evidente ai percettivi, immediatamente riconoscibile da un adepto. Questa può essere usata in alcuni Riti per evocare un famiglio, ed alcuni di questi ne emaneranno quando sono distrutti.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencewinterc"
+         },
+         "decayTo":"dread"
+      },
+      {
+         "id":"influencewinterc",
+         "label":"Un’Atmosfera Gelida",
+         "aspects":{
+            "winter":6,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze dell’Inverno combacianti per intensificarla oppure studia come è influenzata dal Cuore per convertirla, piuttosto.",
+               "required":{
+                  "influencewinterc":1,
+                  "influenceheartc":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentwinterc":1,
+                  "fragmentwinterd":1,
+                  "fragmentwintere":1,
+                  "fragmentwinterf":1,
+                  "fragmentwinterg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"L’aria secca la pelle. Il gelo marchia il vetro. [Un’Influenza di sesto ordine: i segni sono inequivocabili. Questa può essere usata in alcuni Riti per evocare un famiglio. Se non viene utilizzata, diventerà Terrore.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencewintere"
+         },
+         "decayTo":"influencewinter"
+      },
+      {
+         "id":"influencewintere",
+         "label":"Un’Atmosfera Amara",
+         "aspects":{
+            "winter":10,
+            "influence":1
+         },
+         "slots":[
+            {
+               "id":"with",
+               "label":"Con",
+               "description":"Studia le corrispondenze di due influenze dell’Inverno combacianti per intensificarla oppure studia come è influenzata dal Cuore per convertirla, piuttosto.",
+               "required":{
+                  "influencewintere":1,
+                  "influencehearte":1
+               },
+               "actionId":"study"
+            },
+            {
+               "id":"knowledge",
+               "label":"Conoscenza",
+               "description":"Devo comprendere le influenze che vi soggiacciono, se voglio rinforzarle o convertirle. [Avrai bisogno di fondamenta notevoli nella tradizione pertinente.]",
+               "required":{
+                  "fragmentwinterc":1,
+                  "fragmentwinterd":1,
+                  "fragmentwintere":1,
+                  "fragmentwinterf":1,
+                  "fragmentwinterg":1
+               },
+               "actionId":"study"
+            }
+         ],
+         "description":"L’inverno passa attraverso i vestiti, passa attraverso la pelle, si annida nelle vene. [Un’Influenza di decimo grado! Un nodo-accumulo di potere e pericolo. Questa può essere usata in alcuni Riti per evocare un famiglio. Se non viene utilizzata, diventerà Terrore.]",
+         "lifetime":60,
+         "xtriggers":{
+            "upgradeinfluence":"influencewinterg"
+         },
+         "decayTo":"influencewinterc"
+      },
+      {
+         "id":"influencewinterg",
+         "label":"Gelo Perfetto",
+         "aspects":{
+            "winter":15,
+            "influence":1
+         },
+         "description":"Il mondo è fermo come il giaccio. Ogni movimento è un viaggio. [Un’Influenza di quindicesimo grado! Questa potrebbe essere l'attenzione personale di un’Ora. Può essere usata in alcuni Riti per evocare un famiglio. Se non viene utilizzata, diventerà Terrore.]",
+         "lifetime":60,
+         "decayTo":"influencewintere"
+      }
+   ]
+}
