@@ -1,299 +1,299 @@
 {
-   "recipes":[
-      {
-         "id":"studylatintutoring",
-         "label":"Studia Latino con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "tutorlatin":1,
-            "commission":-1,
-            "article":-1
-         },
-         "slots":[
-            {
-               "id":"Costs",
-               "label":"Costo",
-               "required":{
-                  "compensationvalue":1
-               }
-            }
-         ],
-         "alt":[
-            {
-               "id":"studylatintutoringpaid",
-               "chance":100
-            }
-         ],
-         "startdescription":"Nel caso dovessi imparare il Latino, qui ci sarebbe qualcuno che potrebbe aiutarmi; ma dovrò pagarlo in sprintia, la valuta del mondo nascosto.",
-         "description":"I Precettori non lavorano a gratis. Sarà per la prossima volta.",
-         "warmup":60,
-         "craftable":true
-      },
-      {
-         "id":"studylatintutoringpaid",
-         "label":"Studia Latino con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "compensationvalue":2
-         },
-         "effects":{
-            "scholarlatin":1,
-            "compensationvalue":-2
-         },
-         "startdescription":"Questo sarà sufficiente. Ascolterò attentamente.",
-         "description":"La lingua del 'De Rerum Natura' di Lucrezio, della 'Summa Theologiae' di San Tommaso d'Aquino e del famigerato 'De Horis'..."
-      },
-      {
-         "id":"studygreektutoring",
-         "label":"Studia Greco con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "tutorgreek":1,
-            "commission":-1,
-            "article":-1
-         },
-         "slots":[
-            {
-               "id":"Costs",
-               "label":"Costo",
-               "required":{
-                  "compensationvalue":1
-               }
-            }
-         ],
-         "alt":[
-            {
-               "id":"studygreektutoringpaid",
-               "chance":100
-            }
-         ],
-         "startdescription":"Nel caso dovessi imparare il Greco, qui ci sarebbe qualcuno che potrebbe aiutarmi; ma dovrò pagarlo in sprintia, la valuta del mondo nascosto.",
-         "description":"I Precettori non lavorano a gratis. Sarà per la prossima volta.",
-         "warmup":60,
-         "craftable":true
-      },
-      {
-         "id":"studygreektutoringpaid",
-         "label":"Studia Greco con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "compensationvalue":2
-         },
-         "effects":{
-            "scholargreek":1,
-            "compensationvalue":-2
-         },
-         "startdescription":"Questo sarà sufficiente. Ascolterò attentamente.",
-         "description":"La lingua della Metafisica, delle 'Storie Segrete' di Procopio, e del minaccioso 'Su Ciò Che È Contenuto Dall’Argento'..."
-      },
-      {
-         "id":"studyaramaictutoring",
-         "label":"Studia Aramaico con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "tutoraramaic":1,
-            "commission":-1,
-            "article":-1
-         },
-         "slots":[
-            {
-               "id":"Costs",
-               "label":"Costo",
-               "required":{
-                  "compensationvalue":1
-               }
-            }
-         ],
-         "alt":[
-            {
-               "id":"studyaramaictutoringpaid",
-               "chance":100
-            }
-         ],
-         "startdescription":"Nel caso dovessi imparare l'Aramaico, qui ci sarebbe qualcuno che potrebbe aiutarmi; ma dovrò pagarlo in sprintia, la valuta del mondo nascosto.",
-         "description":"I Precettori non lavorano a gratis. Sarà per la prossima volta.",
-         "warmup":60,
-         "craftable":true
-      },
-      {
-         "id":"studyaramaictutoringpaid",
-         "label":"Studia Aramaico con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "compensationvalue":2
-         },
-         "effects":{
-            "scholararamaic":1,
-            "compensationvalue":-2
-         },
-         "startdescription":"Questo sarà sufficiente. Ascolterò attentamente.",
-         "description":"La lingua delle Visioni di Aram, del Libro di Daniele, e del Resoconto di Kanishk alla Porta del Ragno."
-      },
-      {
-         "id":"studysanskrittutoring",
-         "label":"Studia Sanscrito con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "tutorsanskrit":1,
-            "commission":-1,
-            "article":-1
-         },
-         "slots":[
-            {
-               "id":"Costs",
-               "label":"Costo",
-               "required":{
-                  "compensationvalue":1
-               }
-            }
-         ],
-         "alt":[
-            {
-               "id":"studysanskrittutoringpaid",
-               "chance":100
-            }
-         ],
-         "startdescription":"Nel caso dovessi imparare il Sanscrito, qui ci sarebbe qualcuno che potrebbe aiutarmi; ma dovrò pagarlo in sprintia, la valuta del mondo nascosto.",
-         "description":"I Precettori non lavorano a gratis. Sarà per la prossima volta.",
-         "warmup":60,
-         "craftable":true
-      },
-      {
-         "id":"studysanskrittutoringpaid",
-         "label":"Studia Sanscrito con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "compensationvalue":2
-         },
-         "effects":{
-            "scholarsanskrit":1,
-            "compensationvalue":-2
-         },
-         "startdescription":"Questo sarà sufficiente. Ascolterò attentamente.",
-         "description":"La lingua sacra del Subcontinente. La porta verso quattro millenni di poesia, cerimonie e misteri."
-      },
-      {
-         "id":"studyfucinetutoringspirit",
-         "label":"Studia Fucino con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "spirittutorfucine":1,
-            "summoned":1
-         },
-         "slots":[
-            {
-               "id":"Background",
-               "label":"Basi",
-               "required":{
-                  "scholarlatin":1
-               }
-            }
-         ],
-         "alt":[
-            {
-               "id":"studyfucinetutoringsuccessful",
-               "chance":100
-            }
-         ],
-         "startdescription":"'Fucino? Si, conosco bene il Fucino. Posso insegnartelo, se hai le giuste basi di Latino. Ma menzionami la 'lingua delle streghe' e la chiudiamo subito.'",
-         "description":"Non ho le basi necessarie.",
-         "warmup":60,
-         "craftable":true
-      },
-      {
-         "id":"studyfucinetutoringsuccessful",
-         "label":"Studia Fucino con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "scholarlatin":1
-         },
-         "effects":{
-            "scholarfucine":1
-         },
-         "startdescription":"Il Latino servirà da base. Imparerò tutto ciò che mi sarà possibile.",
-         "description":"Non si può parlare Fucino a lungo senza sorseggiare dell'acqua. Inaridisce le labbra; secca la gola. Poteva essere parlato solamente dalla popolazione delle rive di un lago."
-      },
-      {
-         "id":"studyphrygiantutoringspirit",
-         "label":"Studia Frigio con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "spirittutorphrygian":1,
-            "summoned":1
-         },
-         "slots":[
-            {
-               "id":"Background",
-               "label":"Basi",
-               "required":{
-                  "scholargreek":1
-               }
-            }
-         ],
-         "alt":[
-            {
-               "id":"studyphrygiantutoringsuccessful",
-               "chance":100
-            }
-         ],
-         "startdescription":"'Frigio! La lingua della Grande Madre! Certo. Se conosci abbastanza bene il Greco, ti posso assicurare che l'esperienza dell'imparare il frigio sarà <i>molto</i> piacevole.'",
-         "description":"Non ho le basi necessarie.",
-         "warmup":60,
-         "craftable":true
-      },
-      {
-         "id":"studyphrygiantutoringsuccessful",
-         "label":"Studia Frigio con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "scholargreek":1
-         },
-         "effects":{
-            "scholarphrygian":1
-         },
-         "startdescription":"Il mio Greco servirà da base. Imparerò tutto ciò che mi sarà possibile.",
-         "description":"Erodoto racconta una storia assurda su di un faraone, il quale avrebbe scoperto che il Frigio sarebbe stato la prima lingua parlata dagli uomini. Era in torto, ovviamente; era il Vak. Ma tutti apprezzano la storia."
-      },
-      {
-         "id":"studymandaictutoringspirit",
-         "label":"Studia Basso Mandaico con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "spirittutormandaic":1,
-            "summoned":1
-         },
-         "slots":[
-            {
-               "id":"Background",
-               "label":"Basi",
-               "required":{
-                  "scholararamaic":1
-               }
-            }
-         ],
-         "alt":[
-            {
-               "id":"studymandaictutoringsuccessful",
-               "chance":100
-            }
-         ],
-         "startdescription":"'INSIEME COMMEMOREREMO LA LINGUA DEL DIO INCOMBUSTO.'",
-         "description":"Non ho le basi necessarie.",
-         "warmup":60,
-         "craftable":true
-      },
-      {
-         "id":"studymandaictutoringsuccessful",
-         "label":"Studia Basso Mandaico con un Precettore",
-         "actionId":"study",
-         "requirements":{
-            "scholararamaic":1
-         },
-         "effects":{
-            "scholarmandaic":1
-         },
-         "startdescription":"Il mio Aramaico servirà da base. Imparerò tutto ciò che mi sarà possibile.",
-         "description":"In una Storia, questa era la lingua parlata dai Re Senz'Ombra. In un'altra, era la base degli incantesimi dei figli della Fiamma Incatenata."
-      }
-   ]
+    "recipes": [
+        {
+            "id": "studylatintutoring",
+            "label": "Study Latin with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "tutorlatin": 1,
+                "commission": -1,
+                "article": -1
+            },
+            "slots": [
+                {
+                    "id": "Costs",
+                    "label": "Costs",
+                    "required": {
+                        "compensationvalue": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studylatintutoringpaid",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "If I need to learn Latin, here's one who will help; but I'll need to pay in spintriae, the currency of the hidden world.",
+            "description": "Tutors don't work for free. Another time.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studylatintutoringpaid",
+            "label": "Study Latin with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "compensationvalue": 2
+            },
+            "effects": {
+                "scholarlatin": 1,
+                "compensationvalue": -2
+            },
+            "startdescription": "This will be sufficient. I'll listen carefully.",
+            "description": "The language of Lucretius' 'On the Nature of Things', of Aquinas' 'Summa Theologiae', and of the notorious 'De Horis...'"
+        },
+        {
+            "id": "studygreektutoring",
+            "label": "Study Greek with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "tutorgreek": 1,
+                "commission": -1,
+                "article": -1
+            },
+            "slots": [
+                {
+                    "id": "Costs",
+                    "label": "Costs",
+                    "required": {
+                        "compensationvalue": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studygreektutoringpaid",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "If I need to learn Greek, here's one who will help; but I'll need to pay in spintriae, the currency of the hidden world.",
+            "description": "Tutors don't work for free. Another time.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studygreektutoringpaid",
+            "label": "Study Greek with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "compensationvalue": 2
+            },
+            "effects": {
+                "scholargreek": 1,
+                "compensationvalue": -2
+            },
+            "startdescription": "This will be sufficient. I'll listen carefully.",
+            "description": "The language of the Metaphysics, of Procopius' 'Secret History', and of the menacing 'On What is Contained by Silver'..."
+        },
+        {
+            "id": "studyaramaictutoring",
+            "label": "Study Aramaic with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "tutoraramaic": 1,
+                "commission": -1,
+                "article": -1
+            },
+            "slots": [
+                {
+                    "id": "Costs",
+                    "label": "Costs",
+                    "required": {
+                        "compensationvalue": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studyaramaictutoringpaid",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "If I need to learn Aramaic, here's one who will help; but I'll need to pay in spintriae, the currency of the hidden world.",
+            "description": "Tutors don't work for free. Another time.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyaramaictutoringpaid",
+            "label": "Study Aramaic with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "compensationvalue": 2
+            },
+            "effects": {
+                "scholararamaic": 1,
+                "compensationvalue": -2
+            },
+            "startdescription": "This will be sufficient. I'll listen carefully.",
+            "description": "The language of the Visions of Aram, of the Book of Daniel, and of the Account of Kanishk at the Spider's Door."
+        },
+        {
+            "id": "studysanskrittutoring",
+            "label": "Study Sanskrit with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "tutorsanskrit": 1,
+                "commission": -1,
+                "article": -1
+            },
+            "slots": [
+                {
+                    "id": "Costs",
+                    "label": "Costs",
+                    "required": {
+                        "compensationvalue": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studysanskrittutoringpaid",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "If I need to learn Sanskrit, here's one who will help; but I'll need to pay in spintriae, the currency of the hidden world.",
+            "description": "Tutors don't work for free. Another time.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studysanskrittutoringpaid",
+            "label": "Study Sanskrit with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "compensationvalue": 2
+            },
+            "effects": {
+                "scholarsanskrit": 1,
+                "compensationvalue": -2
+            },
+            "startdescription": "This will be sufficient. I'll listen carefully.",
+            "description": "The holy tongue of the Subcontinent. The door to four thousand years of poetry, ceremony and mystery."
+        },
+        {
+            "id": "studyfucinetutoringspirit",
+            "label": "Study Fucine with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "spirittutorfucine": 1,
+                "summoned": 1
+            },
+            "slots": [
+                {
+                    "id": "Background",
+                    "label": "Background",
+                    "required": {
+                        "scholarlatin": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studyfucinetutoringsuccessful",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "'Fucine? Yes, I get by in Fucine. I can teach you, if you have Latin as a grounding. But if I hear one crack about the 'tongue of witches', it's off.'",
+            "description": "I don't have the grounding I needed.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyfucinetutoringsuccessful",
+            "label": "Study Fucine with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "scholarlatin": 1
+            },
+            "effects": {
+                "scholarfucine": 1
+            },
+            "startdescription": "My Latin will serve as a foundation. I'll learn everything I can.",
+            "description": "One cannot speak Fucine for long without sipping water. It parches the lips; it dries the throat. It could only have been spoken by a people who lived close to a lake-shore."
+        },
+        {
+            "id": "studyphrygiantutoringspirit",
+            "label": "Study Phrygian with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "spirittutorphrygian": 1,
+                "summoned": 1
+            },
+            "slots": [
+                {
+                    "id": "Background",
+                    "label": "Background",
+                    "required": {
+                        "scholargreek": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studyphrygiantutoringsuccessful",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "'Phrygian! The Great Mother's tongue! Of course. If you have enough Greek, I guarantee that the experience of learning Phrygian will be <i>very</i> pleasant.'",
+            "description": "I don't have the grounding I needed.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyphrygiantutoringsuccessful",
+            "label": "Study Phrygian with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "scholargreek": 1
+            },
+            "effects": {
+                "scholarphrygian": 1
+            },
+            "startdescription": "My Greek will serve as a foundation. I'll learn everything I can.",
+            "description": "Herodotus tells a wild story of a pharaoh who discovered the Phrygian language was the first spoken by humans. He was wrong, of course; it was Vak. But everyone enjoys the story."
+        },
+        {
+            "id": "studymandaictutoringspirit",
+            "label": "Study Deep Mandaic with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "spirittutormandaic": 1,
+                "summoned": 1
+            },
+            "slots": [
+                {
+                    "id": "Background",
+                    "label": "Background",
+                    "required": {
+                        "scholararamaic": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studymandaictutoringsuccessful",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "'TOGETHER WE WILL COMMEMORATE THE TONGUE OF THE UNBURNT GOD.'",
+            "description": "I don't have the grounding I needed.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studymandaictutoringsuccessful",
+            "label": "Study Deep Mandaic with a Tutor",
+            "actionid": "study",
+            "requirements": {
+                "scholararamaic": 1
+            },
+            "effects": {
+                "scholarmandaic": 1
+            },
+            "startdescription": "My Aramaic will serve as a foundation. I'll learn everything I can.",
+            "description": "In one History, this was the tongue the Shadowless Kings spoke. In another, it was the basis of the incantations of the children of the Leashed Flame."
+        }
+    ]
 }

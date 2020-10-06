@@ -1,119 +1,119 @@
 {
-   "recipes":[
-      {
-         "id":"temptationremembrancehintdream",
-         "label":"Tentazioni?",
-         "actionId":"dream",
-         "requirements":{
-            "temptation.remembrance":1
-         },
-         "startdescription":"Ci sono colori nel mondo, ci sono colori nel Mansus e, infine, ci sono colori perduti. La loro assenza è il coltello che non posso liberare. [La Rimembranza ha i suoi denti in te, nessun'altra tentazione ti toccherà.]",
-         "craftable":false,
-         "hintonly":true
-      },
-      {
-         "id":"vitalityhintdream",
-         "label":"Vitalità",
-         "actionId":"dream",
-         "requirements":{
-            "vitality":1
-         },
-         "startdescription":"Questo non provoca alcun sogno; ma potrei studiarlo per incrementare la mia Salute.",
-         "craftable":false,
-         "hintonly":true,
-         "comments":"Not currently possible with restrictions on Dream primary slot"
-      },
-      {
-         "id":"eruditionhintdream",
-         "label":"Erudizione",
-         "actionId":"dream",
-         "requirements":{
-            "erudition":1
-         },
-         "startdescription":"Questo non provoca alcun sogno; ma potrei studiarlo per incrementare la mia Ragione.",
-         "craftable":false,
-         "hintonly":true,
-         "comments":"Not currently possible with restrictions on Dream primary slot"
-      },
-      {
-         "id":"glimmeringhintdream",
-         "label":"Barlume",
-         "actionId":"dream",
-         "requirements":{
-            "glimmering":1
-         },
-         "startdescription":"Questo non provoca alcun sogno; ma potrei studiarlo per incrementare la mia Passione.",
-         "craftable":false,
-         "hintonly":true,
-         "comments":"Not currently possible with restrictions on Dream primary slot"
-      },
-      {
-         "id":"contentmenthintdream",
-         "label":"Serenità",
-         "actionId":"dream",
-         "requirements":{
-            "contentment":1
-         },
-         "startdescription":"La Serenità non è una chiave per i sogni, sebbene i sogni possano talvolta rendermi sereno.",
-         "craftable":false,
-         "hintonly":true,
-         "comments":"Not currently possible with restrictions on Dream primary slot"
-      },
-      {
-         "id":"dedicationtoobsession_power_hint",
-         "label":"Il Prossimo Passo",
-         "actionId":"dream",
-         "requirements":{
-            "ascensionpowerb":1
-         },
-         "startdescription":"Sono andato il più lontano possibile nel sogno. Devo svolgere il <b>Lavoro</b>.",
-         "craftable":false,
-         "hintonly":true
-      },
-      {
-         "id":"dedicationtoobsession_enlightenment_hint",
-         "label":"Il Prossimo Passo",
-         "actionId":"dream",
-         "requirements":{
-            "ascensionenlightenmentb":1
-         },
-         "startdescription":"Sono andato il più lontano possibile nel sogno. Devo svolgere il <b>Lavoro</b>.",
-         "craftable":false,
-         "hintonly":true
-      },
-      {
-         "id":"tryreducefascination",
-         "label":"Cerchi Compostezza?",
-         "actionId":"dream",
-         "requirements":{
-            "fascination":1
-         },
-         "startdescription":"Le porte della visione si spalancheranno. Una leggera oscurità addolcirà la mia luce. Perfino il Terrore ha i suoi usi.",
-         "hintonly":true,
-         "craftable":false
-      },
-      {
-         "id":"tryrecoverreason",
-         "label":"Schiarirmi le Idee?",
-         "actionId":"dream",
-         "requirements":{
-            "dread":1
-         },
-         "startdescription":"Ricordo di esser stato differente: ma non posso ancora ricordare perché. [Il Terrore può essere represso con la risorsa corretta.]",
-         "hintonly":true,
-         "craftable":false
-      },
-      {
-         "id":"tryrecoverillhealth",
-         "label":"Guarire?",
-         "actionId":"dream",
-         "requirements":{
-            "illhealth":1
-         },
-         "startdescription":"Riposare mi guarirà - se ho le risorse necessarie.",
-         "craftable":false,
-         "hintonly":true,
-         "comments":"This one's generic."
-      }
-   ]
+    "recipes": [
+        {
+            "id": "temptationremembrancehintdream",
+            "label": "Temptations?",
+            "actionid": "dream",
+            "requirements": {
+                "temptation.remembrance": 1
+            },
+            "startdescription": "There are colours in the world, there are colours in the Mansus, and then there are colours lost. Their absence is the knife I cannot release. [The Remembrance temptation has its teeth in you, and no other Temptation will touch you.]",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "vitalityhintdream",
+            "label": "Vitality",
+            "actionid": "dream",
+            "requirements": {
+                "vitality": 1
+            },
+            "startdescription": "This provokes no dreams; but I could Study it to increase my Health.",
+            "craftable": false,
+            "hintonly": true,
+            "comments": "Not currently possible with restrictions on Dream primary slot"
+        },
+        {
+            "id": "eruditionhintdream",
+            "label": "Erudition",
+            "actionid": "dream",
+            "requirements": {
+                "erudition": 1
+            },
+            "startdescription": "This provokes no dreams; but I could Study it to increase my Reason.",
+            "craftable": false,
+            "hintonly": true,
+            "comments": "Not currently possible with restrictions on Dream primary slot"
+        },
+        {
+            "id": "glimmeringhintdream",
+            "label": "Glimmering",
+            "actionid": "dream",
+            "requirements": {
+                "glimmering": 1
+            },
+            "startdescription": "This provokes no dreams, just now; but I could Study it to increase my Passion.",
+            "craftable": false,
+            "hintonly": true,
+            "comments": "Not currently possible with restrictions on Dream primary slot"
+        },
+        {
+            "id": "contentmenthintdream",
+            "label": "Contentment",
+            "actionid": "dream",
+            "requirements": {
+                "contentment": 1
+            },
+            "startdescription": "Contentment isn't a key to dreams, though dreams may sometimes make me content.",
+            "craftable": false,
+            "hintonly": true,
+            "comments": "Not currently possible with restrictions on Dream primary slot"
+        },
+        {
+            "id": "dedicationtoobsession_power_hint",
+            "label": "The Next Step",
+            "actionid": "dream",
+            "requirements": {
+                "ascensionpowerb": 1
+            },
+            "startdescription": "I've gone as far as I can in dream. I must perform the <b>Work</b>.",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "dedicationtoobsession_enlightenment_hint",
+            "label": "The Next Step",
+            "actionid": "dream",
+            "requirements": {
+                "ascensionenlightenmentb": 1
+            },
+            "startdescription": "I've gone as far as I can in dream. I must perform the <b>Work</b>.",
+            "craftable": false,
+            "hintonly": true
+        },
+        {
+            "id": "tryreducefascination",
+            "label": "Seek Composure?",
+            "actionid": "dream",
+            "requirements": {
+                "fascination": 1
+            },
+            "startdescription": "The doors of vision swing wide. A little darkness will mellow my light. Even Dread has its uses.",
+            "hintonly": true,
+            "craftable": false
+        },
+        {
+            "id": "tryrecoverreason",
+            "label": "Clear my Mind?",
+            "actionid": "dream",
+            "requirements": {
+                "dread": 1
+            },
+            "startdescription": "I remember that I was different: but I can't yet remember how. [Dread can be quelled with the correct resource.]",
+            "hintonly": true,
+            "craftable": false
+        },
+        {
+            "id": "tryrecoverillhealth",
+            "label": "Recover?",
+            "actionid": "dream",
+            "requirements": {
+                "illhealth": 1
+            },
+            "startdescription": "Resting will restore me - if I have the necessary resources.",
+            "craftable": false,
+            "hintonly": true,
+            "comments": "This one's generic."
+        }
+    ]
 }

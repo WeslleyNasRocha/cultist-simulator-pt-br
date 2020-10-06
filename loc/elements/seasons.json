@@ -1,143 +1,143 @@
 {
-   "elements":[
-      {
-         "id":"dayacquaintances",
-         "label":"Un Giorno per Nuove Conoscenze",
-         "description":"Potrei trovare l’anima gemella.",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1
-      },
-      {
-         "id":"daypatrons",
-         "label":"Un Giorno per Nuovi Mecenati",
-         "description":"Potrei trovare qualcuno che potrebbe offrirmi assistenza.",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1
-      },
-      {
-         "id":"daycriminals",
-         "label":"Un Giorno per Conoscenze Sgradevoli",
-         "description":"Potrei trovare qualcuno pronto a sporcarsi le mani.",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1
-      },
-      {
-         "id":"dayplaces",
-         "label":"Un Giorno per Cartografi",
-         "description":"Potrei imbattermi in un luogo interessante.",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1
-      },
-      {
-         "id":"seasonsickness",
-         "label":"Una Stagione della Malattia",
-         "description":"Influenze maligne contaminano l’aria notturna. [La mia Salute potrebbe presto soffrirne. I Seguaci feriti potrebbero morire.]",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1
-      },
-      {
-         "id":"seasonserenities",
-         "label":"Una Stagione Serena",
-         "description":"Domani sarà un giorno migliore.",
-         "comments":"currently unused",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1
-      },
-      {
-         "id":"seasonsuspicion",
-         "label":"Una Stagione del Sospetto",
-         "description":"Mi tengono sott’occhio?",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1
-      },
-      {
-         "id":"seasondespair",
-         "label":"Una Stagione della Disperazione",
-         "description":"La notte mi aspetta.",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1
-      },
-      {
-         "id":"seasonvisions",
-         "label":"Una Stagione delle Visioni",
-         "description":"Tali visioni.",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1
-      },
-      {
-         "id":"seasonambitions",
-         "label":"Una Stagione delle Ambizioni",
-         "description":"In questa stagione i venti della Foresta invertono la loro direzione: un tempo nel quale si ergono sia gli appetiti che i mortali.",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1
-      },
-      {
-         "id":"seasonsilence",
-         "label":"Una Stagione del Silenzio",
-         "description":"Questi sono i giorni dell’attesa.",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1
-      },
-      {
-         "id":"seasonardours",
-         "label":"Una Stagione degli Ardori",
-         "description":"Noi siamo tutti scimmie ed angeli.",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1
-      },
-      {
-         "id":"schememurder",
-         "label":"Uno Schema Assassino",
-         "aspects":{
-            "season":1
-         },
-         "description":"Tracce lasciate dalla decisione di un rivale di muoversi contro un nemico.",
-         "lifetime":1,
-         "icon":"skillhealthd_strength"
-      },
-      {
-         "id":"schemeexpedition",
-         "label":"Uno Schema Audace",
-         "aspects":{
-            "season":1
-         },
-         "description":"Tracce lasciate dalla decisione di un rivale di muoversi audacemente.",
-         "lifetime":1,
-         "icon":"vaultrendingmountainsdefault"
-      },
-      {
-         "id":"schemeactivities",
-         "label":"Uno Schema Cauto",
-         "aspects":{
-            "season":1
-         },
-         "lifetime":1,
-         "description":"Tracce lasciate dalla decisione di un rivale di muoversi cautamente.",
-         "icon":"contentment"
-      }
-   ]
+    "elements": [
+        {
+            "id": "dayacquaintances",
+            "label": "A Day for New Acquaintances",
+            "description": "I might find a kindred spirit.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "daypatrons",
+            "label": "A Day for New Patrons",
+            "description": "I might find someone who could offer assistance.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "daycriminals",
+            "label": "A Day for Unsavoury Connections",
+            "description": "I might find someone prepared to get their hands dirty.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "dayplaces",
+            "label": "A Day for Cartographers",
+            "description": "I might stumble across somewhere interesting.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonsickness",
+            "label": "A Season of Sickness",
+            "description": "Malign influences taint the night air. [My Health may soon suffer. Wounded Followers may die.]",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonserenities",
+            "label": "A Season of Serenities",
+            "description": "Tomorrow may be a better day.",
+            "comments": "currently unused",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonsuspicion",
+            "label": "A Season of Suspicion",
+            "description": "Am I being watched?",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasondespair",
+            "label": "A Season of Despair",
+            "description": "Night waits for me.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonvisions",
+            "label": "A Season of Visions",
+            "description": "Such sights.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonambitions",
+            "label": "A Season of Ambitions",
+            "description": "This is the season that the winds of the Wood reverse direction: a time when appetites and mortals both rise.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonsilence",
+            "label": "A Season of Silence",
+            "description": "These are the days of anticipation.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "seasonardours",
+            "label": "A Season of Ardours",
+            "description": "We are all of us both ape and angel.",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1
+        },
+        {
+            "id": "schememurder",
+            "label": "A Murderous Scheme",
+            "aspects": {
+                "season": 1
+            },
+            "description": "Traces left by a rival's decision to move against an enemy.",
+            "lifetime": 1,
+            "icon": "skillhealthd_strength"
+        },
+        {
+            "id": "schemeexpedition",
+            "label": "A Bold Scheme",
+            "aspects": {
+                "season": 1
+            },
+            "description": "Traces left by a rival's decision to move boldly.",
+            "lifetime": 1,
+            "icon": "vaultrendingmountainsdefault"
+        },
+        {
+            "id": "schemeactivities",
+            "label": "A Cautious Scheme",
+            "aspects": {
+                "season": 1
+            },
+            "lifetime": 1,
+            "description": "Traces left by a rival's decision to move cautiously.",
+            "icon": "contentment"
+        }
+    ]
 }

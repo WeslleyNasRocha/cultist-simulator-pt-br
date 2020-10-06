@@ -1,100 +1,100 @@
 {
-   "decks":[
-      {
-         "id":"locationscapital",
-         "label":"Luoghi Nascosti nella Capitale",
-         "description":"Luoghi a portata di mano.",
-         "spec":[
-            "vaultcapital1",
-            "vaultcapital2",
-            "vaultcapital3",
-            "vaultcapital4",
-            "vaultcapital5"
-         ],
-         "defaultcard":"vaultcapitaldefault",
-         "resetonexhaustion":false
-      },
-      {
-         "id":"vaultsshires",
-         "label":"Luoghi Nascosti nella Contea",
-         "description":"Un’opportunità per un giorno in campagna, forse.",
-         "spec":[
-            "vaultshires1",
-            "vaultshires2",
-            "vaultshires3",
-            "vaultshires4",
-            "vaultshires5"
-         ],
-         "defaultcard":"vaultshiresdefault",
-         "resetonexhaustion":false
-      },
-      {
-         "id":"vaultscontinent",
-         "label":"Luoghi Nascosti nel Continente",
-         "description":"Un mondo più grande giace oltre il mare stretto.",
-         "spec":[
-            "vaultcontinent1",
-            "vaultcontinent2",
-            "vaultcontinent3",
-            "vaultcontinent4",
-            "vaultcontinent5",
-            "vaultcontinent6"
-         ],
-         "defaultcard":"vaultcontinentdefault",
-         "resetonexhaustion":false
-      },
-      {
-         "id":"vaultslandbeyondforest",
-         "label":"Luoghi Nascosti nella Terra al di là della Foresta",
-         "description":"Un mosaico di possibilità in una terra montuosa ed infestata.",
-         "spec":[
-            "vaultlandbeyondforest1",
-            "vaultlandbeyondforest2",
-            "vaultlandbeyondforest3",
-            "vaultlandbeyondforest4",
-            "vaultlandbeyondforest5"
-         ],
-         "defaultcard":"vaultlandbeyondforestdefault",
-         "resetonexhaustion":false
-      },
-      {
-         "id":"vaultsrendingmountains",
-         "label":"Luoghi Nascosti nelle Montagne Laceranti",
-         "description":"Tombe e templi, remoti e pericolosi.",
-         "spec":[
-            "vaultrendingmountains1",
-            "vaultrendingmountains2",
-            "vaultrendingmountains3",
-            "vaultrendingmountains4"
-         ],
-         "defaultcard":"vaultrendingmountainsdefault",
-         "resetonexhaustion":false
-      },
-      {
-         "id":"vaultsloneandlevelsands",
-         "label":"Luoghi Nascosti nelle Sabbie Deserte e Piatte",
-         "description":"Qui giacciono i tesori dell’antichità, disponibili a quanti possono sfruttarli.",
-         "spec":[
-            "vaultloneandlevelsands1",
-            "vaultloneandlevelsands2",
-            "vaultloneandlevelsands3",
-            "vaultloneandlevelsands4"
-         ],
-         "defaultcard":"vaultloneandlevelsandsdefault",
-         "resetonexhaustion":false
-      },
-      {
-         "id":"vaultseveningisles",
-         "label":"Luoghi Nascosti nelle Isole del Vespro",
-         "description":"Isole inesplorate nei dintorni di Port Noon.",
-         "spec":[
-            "vaulteveningisles1",
-            "vaulteveningisles2",
-            "vaulteveningisles3",
-            "vaulteveningisles4"
-         ],
-         "defaultcard":"vaulteveningislesdefault",
-         "resetonexhaustion":false
-      }
-   ]
+    "decks": [
+        {
+            "id": "locationscapital",
+            "label": "Hidden Locations in the Capital",
+            "description": "Places close at hand.",
+            "spec": [
+                "vaultcapital1",
+                "vaultcapital2",
+                "vaultcapital3",
+                "vaultcapital4",
+                "vaultcapital5"
+            ],
+            "defaultcard": "vaultcapitaldefault",
+            "resetonexhaustion": false
+        },
+        {
+            "id": "vaultsshires",
+            "label": "Hidden Locations in the Shires",
+            "description": "An opportunity for a day out in the country, perhaps.",
+            "spec": [
+                "vaultshires1",
+                "vaultshires2",
+                "vaultshires3",
+                "vaultshires4",
+                "vaultshires5"
+            ],
+            "defaultcard": "vaultshiresdefault",
+            "resetonexhaustion": false
+        },
+        {
+            "id": "vaultscontinent",
+            "label": "Hidden Locations on the Continent",
+            "description": "A wider world lies across the narrow sea.",
+            "spec": [
+                "vaultcontinent1",
+                "vaultcontinent2",
+                "vaultcontinent3",
+                "vaultcontinent4",
+                "vaultcontinent5",
+                "vaultcontinent6"
+            ],
+            "defaultcard": "vaultcontinentdefault",
+            "resetonexhaustion": false
+        },
+        {
+            "id": "vaultslandbeyondforest",
+            "label": "Hidden Locations in the Land beyond the Forest",
+            "description": "A patchwork of possibilities in a mountain-haunted land.",
+            "spec": [
+                "vaultlandbeyondforest1",
+                "vaultlandbeyondforest2",
+                "vaultlandbeyondforest3",
+                "vaultlandbeyondforest4",
+                "vaultlandbeyondforest5"
+            ],
+            "defaultcard": "vaultlandbeyondforestdefault",
+            "resetonexhaustion": false
+        },
+        {
+            "id": "vaultsrendingmountains",
+            "label": "Hidden Locations in the Rending Mountains",
+            "description": "Remote and dangerous vaults and temples.",
+            "spec": [
+                "vaultrendingmountains1",
+                "vaultrendingmountains2",
+                "vaultrendingmountains3",
+                "vaultrendingmountains4"
+            ],
+            "defaultcard": "vaultrendingmountainsdefault",
+            "resetonexhaustion": false
+        },
+        {
+            "id": "vaultsloneandlevelsands",
+            "label": "Hidden Locations in the Lone and Level Sands",
+            "description": "Here lie the treasures of antiquity, for those who can seize them.",
+            "spec": [
+                "vaultloneandlevelsands1",
+                "vaultloneandlevelsands2",
+                "vaultloneandlevelsands3",
+                "vaultloneandlevelsands4"
+            ],
+            "defaultcard": "vaultloneandlevelsandsdefault",
+            "resetonexhaustion": false
+        },
+        {
+            "id": "vaultseveningisles",
+            "label": "Hidden Locations in the Evening Isles",
+            "description": "Unmapped islands in the ambit of Port Noon.",
+            "spec": [
+                "vaulteveningisles1",
+                "vaulteveningisles2",
+                "vaulteveningisles3",
+                "vaulteveningisles4"
+            ],
+            "defaultcard": "vaulteveningislesdefault",
+            "resetonexhaustion": false
+        }
+    ]
 }

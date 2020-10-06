@@ -1,1006 +1,1006 @@
 {
-   "recipes":[
-      {
-         "id":"huntermysticsurvives",
-         "actionId":"talk",
-         "label":"Barriere e Sigilli",
-         "requirements":{
-            "mystic":1,
-            "summoned":1
-         },
-         "description":"'Il nostro nemico possiede la più pericolosa delle armi: la conoscenza.'\nLa tua evocazione è caduta preda delle contromisure del tuo avversario. I Cacciatori Mistici conoscono le protezioni adeguate, e di norma sopravvivono agli attacchi delle evocazioni. Ma prima o poi compierà un'errore.",
-         "effects":{
-            "notoriety":1
-         },
-         "aspects":{
-            "killsummoned":1
-         }
-      },
-      {
-         "id":"huntertenacioussurvives",
-         "actionId":"talk",
-         "label":"Tenacia",
-         "requirements":{
-            "tenacious":1
-         },
-         "description":"'Ma... nessuno sarebbe potuto sopravvivere!'\nTalvolta, i Cacciatori Tenaci sopravvivono ad ogni attacco, anche i più potenti. Ma la loro fortuna prima o poi finisce; e ci sono molte maniere per distruggere un Cacciatore, oltre all'assalto fisico.",
-         "effects":{
-            "notoriety":1
-         }
-      },
-      {
-         "id":"huntersurvives_becomestenacious",
-         "actionId":"talk",
-         "label":"Cicatrici",
-         "requirements":{
-            "tenacious":-1
-         },
-         "description":"'È più resistente di quel che sembri.'\nUn Cacciatore che sopravvivive ad un attacco, talvolta, può diventare Tenace. I Cacciatori Tenaci sono più difficili da uccidere.",
-         "mutations":[
-            {
-               "filter":"hunter",
-               "mutate":"tenacious",
-               "level":1
+    "recipes": [
+        {
+            "id": "huntermysticsurvives",
+            "actionid": "talk",
+            "label": "Wards and Seals",
+            "requirements": {
+                "mystic": 1,
+                "summoned": 1
+            },
+            "description": "'Our enemy possesses the most dangerous weapon of all: knowledge.'\nYour summoning has fallen prey to your adversary's countermeasures. Mystic Hunters know the proper protections, and will usually survive attacks from summoned Minions. But sooner or later, they'll make a mistake.",
+            "effects": {
+                "notoriety": 1
+            },
+            "aspects": {
+                "killsummoned": 1
             }
-         ],
-         "effects":{
-            "notoriety":1,
-            "follower":-1
-         }
-      },
-      {
-         "id":"huntersurvives_becomesmystic",
-         "actionId":"talk",
-         "label":"Aspre Lezioni",
-         "requirements":{
-            "summoned":1,
-            "mystic":-1
-         },
-         "description":"'Ciò che non ti uccide talvolta ti rende più strano.'\nQuando un Cacciatore sopravvive ad un attacco di una creatura evocata, può essere ispirato ad imparare le contromisure necessarie. I Cacciatori Mistici, talvolta, sopravvivono agli attacchi delle creature del Mansus.",
-         "mutations":[
-            {
-               "filter":"hunter",
-               "mutate":"mystic",
-               "level":1
+        },
+        {
+            "id": "huntertenacioussurvives",
+            "actionid": "talk",
+            "label": "Tenacity",
+            "requirements": {
+                "tenacious": 1
+            },
+            "description": "'But - no-one could have survived that!'\nNow and then, Tenacious Hunters somehow survive attacks that should have killed them. But their luck always runs out in the end; and there are other ways to destroy a Hunter beside physical assault.",
+            "effects": {
+                "notoriety": 1
             }
-         ],
-         "effects":{
-            "notoriety":1
-         },
-         "aspects":{
-            "killsummoned":1
-         }
-      },
-      {
-         "id":"hunterfitewithextraswole",
-         "label":"Un Attacco a Sorpresa contro un Avversario",
-         "actionId":"talk",
-         "requirements":{
-            "murderskill":1
-         },
-         "startdescription":"Il mio avversario insiste affinché l'incontro avvenga in un luogo pubblico. Ha preso tutte le precauzioni possibili. Ma non ci sono precauzioni possibili contro un tipo come me. Un assalto fisico diretto sarebbe un rischio... ma forse è ciò a cui dobbiamo arrivare. [Potrebbe funzionare, contro ogni previsione.]",
-         "description":"Ho la sua testa tra le mie mani. Gli spezzo il collo. Prima che il corpo cada a terra, sono già andato via.",
-         "alt":[
-            {
-               "id":"hunterfitewithswole_failure",
-               "chance":70
+        },
+        {
+            "id": "huntersurvives_becomestenacious",
+            "actionid": "talk",
+            "label": "Scars",
+            "requirements": {
+                "tenacious": -1
             },
-            {
-               "id":"huntertenacioussurvives",
-               "chance":30
+            "description": "'They're tougher than they look.'\nA Hunter who survives a physical attack may sometimes become Tenacious. Tenacious Hunters are harder to kill.",
+            "mutations": [
+                {
+                    "filter": "hunter",
+                    "mutate": "tenacious",
+                    "level": 1
+                }
+            ],
+            "effects": {
+                "notoriety": 1,
+                "follower": -1
             }
-         ],
-         "effects":{
-            "notoriety":1
-         },
-         "aspects":{
-            "killhunter":1
-         },
-         "craftable":false
-      },
-      {
-         "id":"hunterfitewithswole",
-         "label":"Un Attacco a Sorpresa contro un Avversario",
-         "actionId":"talk",
-         "requirements":{
-            "healthskill":1
-         },
-         "startdescription":"Il mio avversario insiste affinché l'incontro avvenga in un luogo pubblico. Ha preso tutte le precauzioni possibili e un assalto fisico diretto sarebbe un rischio... ma forse è ciò a cui dobbiamo arrivare. [Questo è un tentativo disperato, senza dubbio.]",
-         "description":"Ho la sua testa tra le mie mani. Gli spezzo il collo. Prima che il corpo cada a terra, sono già andato via.",
-         "alt":[
-            {
-               "id":"hunterfitewithswole_failure",
-               "chance":90
+        },
+        {
+            "id": "huntersurvives_becomesmystic",
+            "actionid": "talk",
+            "label": "Harsh Lessons",
+            "requirements": {
+                "summoned": 1,
+                "mystic": -1
             },
-            {
-               "id":"huntertenacioussurvives",
-               "chance":30
+            "description": "'What does not kill them sometimes makes them stranger.'\nWhen a Hunter survives an attack by a summoned creature, occasionally they'll be inspired to learn countermeasures against Mansus-things, becoming Mystic. Mystic Hunters usually survive further attacks by summoned creatures.",
+            "mutations": [
+                {
+                    "filter": "hunter",
+                    "mutate": "mystic",
+                    "level": 1
+                }
+            ],
+            "effects": {
+                "notoriety": 1
+            },
+            "aspects": {
+                "killsummoned": 1
             }
-         ],
-         "effects":{
-            "notoriety":1
-         },
-         "aspects":{
-            "killhunter":1
-         },
-         "craftable":false
-      },
-      {
-         "id":"hunterfitewithswole_failure",
-         "label":"L'Attacco a Sorpresa è Fallito!",
-         "actionId":"talk",
-         "startdescription":".",
-         "description":"Il mio avversario indietreggia, gridando e prendendo a calci il tavolo! Tutti intorno si girano. Nessuno ha visto le mie mosse. L'unico vero testimone è il mio avversario, ma devo andarmene subito.",
-         "craftable":false,
-         "effects":{
-            "notoriety":1
-         },
-         "mutations":[
-            {
-               "filter":"hunter",
-               "mutate":"wary",
-               "level":1
+        },
+        {
+            "id": "hunterfitewithextraswole",
+            "label": "A Surprise Attack on an Adversary",
+            "actionid": "talk",
+            "requirements": {
+                "murderskill": 1
+            },
+            "startdescription": "My adversary insists on a public meeting-place. They have taken all reasonable precautions. But there are no reasonable precautions against one such as I. A direct personal assault would be a considerable risk... but perhaps that's what we've come to. [This might succeed, against the odds.]",
+            "description": "I have their head between my hands. I snap their neck. I'm gone before the body hits the ground.",
+            "alt": [
+                {
+                    "id": "hunterfitewithswole_failure",
+                    "chance": 70
+                },
+                {
+                    "id": "huntertenacioussurvives",
+                    "chance": 30
+                }
+            ],
+            "effects": {
+                "notoriety": 1
+            },
+            "aspects": {
+                "killhunter": 1
+            },
+            "craftable": false
+        },
+        {
+            "id": "hunterfitewithswole",
+            "label": "A Surprise Attack on an Adversary",
+            "actionid": "talk",
+            "requirements": {
+                "healthskill": 1
+            },
+            "startdescription": "My adversary insists on a public meeting-place. They have taken all reasonable precautions, and a direct personal assault would be a considerable risk... but perhaps that's what we've come to. [This is a very long shot indeed.]",
+            "description": "I have their head between my hands. I snap their neck. I'm gone before the body hits the ground.",
+            "alt": [
+                {
+                    "id": "hunterfitewithswole_failure",
+                    "chance": 90
+                },
+                {
+                    "id": "huntertenacioussurvives",
+                    "chance": 30
+                }
+            ],
+            "effects": {
+                "notoriety": 1
+            },
+            "aspects": {
+                "killhunter": 1
+            },
+            "craftable": false
+        },
+        {
+            "id": "hunterfitewithswole_failure",
+            "label": "A Surprise Attack has Failed!",
+            "actionid": "talk",
+            "startdescription": ".",
+            "description": "With a cry, my adversary leaps back, kicking over the table! All around us, heads turn. No-one saw me move. The only real witness is my adversary. But I must leave immediately.",
+            "craftable": false,
+            "effects": {
+                "notoriety": 1
+            },
+            "mutations": [
+                {
+                    "filter": "hunter",
+                    "mutate": "wary",
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "id": "hunterspeakpoison_glassfinger",
+            "label": "Employ Glassfinger Toxin against a Hunter",
+            "actionid": "talk",
+            "requirements": {
+                "ingredientlanternd": 1
+            },
+            "startdescription": "'Enjoying your tea?'",
+            "description": "The end is not pretty, but it's quick and almost painless. When the dissolution is complete, nothing visible remains.",
+            "alt": [
+                {
+                    "id": "huntertenacioussurvives",
+                    "chance": 30
+                }
+            ],
+            "effects": {
+                "ingredientlanternd": -1
+            },
+            "aspects": {
+                "dissolution": 1
+            },
+            "craftable": false
+        },
+        {
+            "id": "hunterspeakpoison",
+            "label": "Employ a Remarkable Poison against a Hunter",
+            "actionid": "talk",
+            "requirements": {
+                "poison": 1
+            },
+            "startdescription": "'Enjoying your tea?'",
+            "description": "The end is not pretty, but it's quick and almost painless. There are much worse ways to die.",
+            "alt": [
+                {
+                    "id": "huntertenacioussurvives",
+                    "chance": 30
+                }
+            ],
+            "effects": {
+                "poison": -1,
+                "notoriety": 1
+            },
+            "aspects": {
+                "killhunter": 1
+            },
+            "craftable": false
+        },
+        {
+            "id": "hunterattackhighwinter",
+            "label": "Send a silent Minion to resolve the problem of a Hunter",
+            "actionid": "talk",
+            "startdescription": "This will probably ensure the Hunter ceases to trouble us. [This is less likely to succeed than an Edge attack, and success or failure will both draw attention, but the minion will usually survive.]",
+            "requirements": {
+                "hunter": 1,
+                "winter": 10,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "hunterstealthattacksuccess",
+                    "chance": 70
+                },
+                {
+                    "id": "hunterstealthattackfailure",
+                    "chance": 100
+                }
+            ],
+            "craftable": false
+        },
+        {
+            "id": "hunterattackmidwinter",
+            "label": "Send a quiet Minion to resolve the problem of a Hunter",
+            "actionid": "talk",
+            "startdescription": "My Minion will watch and wait. If we're lucky, they may have an opportunity to dispose of our enemy. [This is less likely to succeed than an Edge attack, and success or failure will both draw attention, but the minion will usually survive.]",
+            "description": ".",
+            "requirements": {
+                "hunter": 1,
+                "winter": 5,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "hunterstealthattacksuccess",
+                    "chance": 30
+                },
+                {
+                    "id": "hunterstealthattackfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterattacklowwinter",
+            "label": "Send a cautious Minion to resolve the problem of a Hunter",
+            "actionid": "talk",
+            "startdescription": "My Minion will wait for the right moment, though most likely that moment will never come. [This is less likely to succeed than an Edge attack, and success or failure will both draw attention, but the minion will usually survive.]",
+            "description": ".",
+            "requirements": {
+                "hunter": 1,
+                "winter": 1,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "hunterstealthattacksuccess",
+                    "chance": 10
+                },
+                {
+                    "id": "hunterstealthattackfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterstealthattacksuccess",
+            "label": "Patience...",
+            "actionid": "talk",
+            "startdescription": "I await word....",
+            "description": "My minion has returned, with a trophy.",
+            "effects": {
+                "notoriety": 1
+            },
+            "aspects": {
+                "killhunter": 1
+            },
+            "alt": [
+                {
+                    "id": "huntertenacioussurvives",
+                    "chance": 30
+                },
+                {
+                    "id": "huntermysticsurvives",
+                    "chance": 70
+                }
+            ],
+            "comments": "No summoned creatures currently attack with Winter. This is in case I add one later.",
+            "warmup": 10
+        },
+        {
+            "id": "hunterstealthattackfailure",
+            "label": "Patience...",
+            "actionid": "talk",
+            "startdescription": "I await word....",
+            "description": "My minion has returned. There was no opportunity to end the Hunter's life; and the Hunter may now be aware of danger.",
+            "effects": {
+                "notoriety": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "hunterattackhighedge",
+            "label": "Send an Unstoppable Force to murder a Hunter",
+            "actionid": "talk",
+            "startdescription": "Unless this Hunter has some unusual protection, they're already dead. But their demise will attract attention.",
+            "description": ".",
+            "requirements": {
+                "hunter": 1,
+                "edge": 10,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "hunterattacksuccess",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterattackmidedge",
+            "label": "Send a Potent Minion to murder a Hunter",
+            "actionid": "talk",
+            "startdescription": "My minion is powerful. This Hunter is unlikely to survive. But the attempt will draw attention. [Failure will kill your minion.]",
+            "description": ".",
+            "requirements": {
+                "hunter": 1,
+                "edge": 5,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "hunterattacksuccess",
+                    "chance": 70
+                },
+                {
+                    "id": "hunterattackfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterattacklowedge",
+            "label": "Send a Minion to murder a Hunter",
+            "actionid": "talk",
+            "startdescription": "My minion's skills are limited. This Hunter will probably survive, and the attempt will draw attention. [Failure will kill your minion.]",
+            "description": ".",
+            "requirements": {
+                "hunter": 1,
+                "edge": 1,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "hunterattacksuccess",
+                    "chance": 30
+                },
+                {
+                    "id": "hunterattackfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterattacknoedge",
+            "label": "Send Someone Unsuitable to Murder a Hunter",
+            "actionid": "talk",
+            "startdescription": "My minion lacks the Edge aspect, and is woefully unsuited to attacking the hunter. There's a small chance they might succeed. [Failure will kill your minion.]",
+            "description": ".",
+            "requirements": {
+                "hunter": 1,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "hunterattacksuccess",
+                    "chance": 10
+                },
+                {
+                    "id": "hunterattackfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterattacksuccess",
+            "label": "Hunting a Hunter...",
+            "actionid": "talk",
+            "startdescription": "I await word....",
+            "description": "My minion has returned, with a trophy.",
+            "effects": {
+                "hunter": -1,
+                "corpse": 1,
+                "notoriety": 1
+            },
+            "alt": [
+                {
+                    "id": "huntertenacioussurvives",
+                    "chance": 30
+                },
+                {
+                    "id": "huntermysticsurvives",
+                    "chance": 70
+                },
+                {
+                    "id": "huntercapturesuccess",
+                    "chance": 30
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "huntercapturesuccess",
+            "label": "Hunting a Hunter...",
+            "actionid": "talk",
+            "startdescription": "I await word....",
+            "description": "My minion has returned, with a prisoner!",
+            "effects": {
+                "notoriety": 1
+            },
+            "aspects": {
+                "capturehunter": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "hunterattackfailure",
+            "label": "Hunting a Hunter...",
+            "actionid": "talk",
+            "startdescription": "I await word....",
+            "description": "My minion has not returned. They must have failed.",
+            "effects": {
+                "follower": -1,
+                "notoriety": 1
+            },
+            "alt": [
+                {
+                    "id": "huntersurvives_becomesmystic",
+                    "chance": 30
+                },
+                {
+                    "id": "huntersurvives_becomestenacious",
+                    "chance": 10
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "evidencedestroymidmoth",
+            "label": "Send a Devious Minion to destroy Evidence",
+            "actionid": "talk",
+            "startdescription": "My scheme will most likely succeed. There is always a chance that something will go awry.",
+            "description": ".",
+            "requirements": {
+                "follower": 1,
+                "moth": 5,
+                "evidencelevel": 1
+            },
+            "linked": [
+                {
+                    "id": "evidencedestroysuccess",
+                    "chance": 70
+                },
+                {
+                    "id": "evidencedestroyfailure_mortalfollower",
+                    "chance": 100
+                },
+                {
+                    "id": "evidencedestroyfailure",
+                    "chance": 100
+                }
+            ],
+            "comments": "We don't want a 100% chance because there's no downside. This could easily change later."
+        },
+        {
+            "id": "evidencedestroylowmoth",
+            "label": "Send a Minion to destroy Evidence",
+            "actionid": "talk",
+            "startdescription": "My minion's talent for deceit is limited, and this is a difficult task. They will likely fail.",
+            "description": ".",
+            "requirements": {
+                "follower": 1,
+                "moth": 1,
+                "evidencelevel": 1
+            },
+            "linked": [
+                {
+                    "id": "evidencedestroysuccess",
+                    "chance": 30
+                },
+                {
+                    "id": "evidencedestroyfailure_mortalfollower",
+                    "chance": 100
+                },
+                {
+                    "id": "evidencedestroyfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "evidencedestroynomoth",
+            "label": "Send Someone Unsuitable to Destroy Evidence",
+            "actionid": "talk",
+            "startdescription": "My minion lacks the Moth aspect, and will be out of their depth. There's a small chance they might succeed.",
+            "description": ".",
+            "requirements": {
+                "evidencelevel": 1
+            },
+            "linked": [
+                {
+                    "id": "evidencedestroysuccess",
+                    "chance": 10
+                },
+                {
+                    "id": "evidencedestroyfailure_mortalfollower",
+                    "chance": 100
+                },
+                {
+                    "id": "evidencedestroyfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "evidencedestroysuccess",
+            "label": "Tampering with Records...",
+            "actionid": "talk",
+            "startdescription": "I await word....",
+            "description": "My minion has returned. The evidence has been destroyed. I am a little safer.",
+            "effects": {
+                "evidencelevel": -1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "evidencedestroyfailure",
+            "label": "Tampering with Records...",
+            "actionid": "talk",
+            "startdescription": "I await word....",
+            "description": "My minion has not returned. They have failed, and their blundering may have attracted attention...",
+            "effects": {
+                "follower": -1,
+                "notoriety": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "evidencedestroyfailure_mortalfollower",
+            "label": "Tampering with Records...",
+            "actionid": "talk",
+            "requirements": {
+                "summoned": -1
+            },
+            "startdescription": "I await word....",
+            "description": "My minion has returned, stumbling, mumbling, clumsily bandaged. They were caught in the coils of their own plan. [Heal a fallen Follower with Talk.]",
+            "effects": {
+                "notoriety": 1
+            },
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "follower_wound",
+                    "level": 1,
+                    "additive": false
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "follower",
+                    "level": -1,
+                    "additive": false
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "hunterspeakwinterg",
+            "actionid": "talk",
+            "label": "Share a terrible mystery of the Ragged Lore",
+            "startdescription": "'When the Forge is cold and the Glory is dark and the Wood is dust, perhaps the Wolf Divided will rest, but only until it can devour itself. Hear me now...'  [This will likely sway the Hunter from their path, but it will always increase your own Dread.]",
+            "requirements": {
+                "winter": 14,
+                "lore": 1
+            },
+            "mutations": [
+                {
+                    "filter": "hunter",
+                    "mutate": "grim",
+                    "level": 1
+                }
+            ],
+            "linked": [
+                {
+                    "id": "hunterspeakdread_resistant",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterspeakdread_vulnerable_demoralised",
+                    "chance": 70
+                },
+                {
+                    "id": "hunterspeakdread_demoralised",
+                    "chance": 70
+                },
+                {
+                    "id": "hunterspeakdread_survives",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterspeakwinterd",
+            "actionid": "talk",
+            "label": "Share the colder invocations of the Ragged Lore",
+            "startdescription": "'There is a power that commemorates and grieves, from whom nothing is taken, but who cannot be deceived. I will tell you that power's name. Listen to me...' [This might sway the Hunter from their path, especially if they're already Grim, but it will always increase your own Dread.]",
+            "requirements": {
+                "winter": 8,
+                "lore": 1
+            },
+            "linked": [
+                {
+                    "id": "hunterspeakdread_resistant",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterspeakdread_vulnerable_demoralised",
+                    "chance": 70
+                },
+                {
+                    "id": "hunterspeakdread_demoralised",
+                    "chance": 30
+                },
+                {
+                    "id": "hunterspeakdread_survives",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterspeakwinter",
+            "actionid": "talk",
+            "label": "Hint at the Ragged Lore",
+            "startdescription": "'Let's speak of endings. Let's speak of the declining sun. Let's speak of things that aren't quite dead, and won't quite die...' [This might sway the Hunter from their path, but it will always increase your own Dread.]",
+            "requirements": {
+                "winter": 1,
+                "lore": 1
+            },
+            "linked": [
+                {
+                    "id": "hunterspeakdread_resistant",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterspeakdread_vulnerable_demoralised",
+                    "chance": 30
+                },
+                {
+                    "id": "hunterspeakdread_demoralised",
+                    "chance": 30
+                },
+                {
+                    "id": "hunterspeakdread_survives",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterspeakdread",
+            "actionid": "talk",
+            "label": "Describe the horrors awaiting an adversary",
+            "requirements": {
+                "dread": 1
+            },
+            "startdescription": "'Something to think about, every time you close your eyes.' [This might sway the Hunter from their path, but it will always increase your own Dread.]",
+            "description": "",
+            "linked": [
+                {
+                    "id": "hunterspeakdread_resistant",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterspeakdread_vulnerable_demoralised",
+                    "chance": 30
+                },
+                {
+                    "id": "hunterspeakdread_demoralised",
+                    "chance": 30
+                },
+                {
+                    "id": "hunterspeakdread_survives",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterspeakdread_resistant",
+            "actionid": "talk",
+            "requirements": {
+                "idealist": 1
+            },
+            "label": "The Horrors Beneath the World's Skin",
+            "startdescription": "'All right, it might end badly for me, but it's worth the sacrifice. And others will carry on the struggle. We'll meet again. [Idealists cannot be demoralised.]",
+            "effects": {
+                "notoriety": 1,
+                "dread": 1
             }
-         ]
-      },
-      {
-         "id":"hunterspeakpoison_glassfinger",
-         "label":"Impega la Tossina Dito di Vetro contro un Cacciatore",
-         "actionId":"talk",
-         "requirements":{
-            "ingredientlanternd":1
-         },
-         "startdescription":"'Ti stai gustando il tuo tè?'",
-         "description":"La fine non è bella, ma è veloce e, quasi, indolore. Quando la dissoluzione si conclude non rimane nulla di visibile.",
-         "alt":[
-            {
-               "id":"huntertenacioussurvives",
-               "chance":30
+        },
+        {
+            "id": "hunterspeakdread_vulnerable_demoralised",
+            "actionid": "talk",
+            "requirements": {
+                "grim": 1
+            },
+            "label": "The Horrors Beneath the World's Skin",
+            "startdescription": "Your account is too much for the Hunter. Their eyes bulge. Their jaw tightens. In the days to come, they will sink inexorably into despair... unless they can find a new truth to cling to.",
+            "description": "",
+            "effects": {
+                "dread": 1
+            },
+            "aspects": {
+                "derangemortal": 1
             }
-         ],
-         "effects":{
-            "ingredientlanternd":-1
-         },
-         "aspects":{
-            "dissolution":1
-         },
-         "craftable":false
-      },
-      {
-         "id":"hunterspeakpoison",
-         "label":"Impega un Veleno Pregevole contro un Cacciatore",
-         "actionId":"talk",
-         "requirements":{
-            "poison":1
-         },
-         "startdescription":"'Ti stai gustando il tuo tè?'",
-         "description":"La fine non è bella, ma è veloce e, quasi, indolore. Ci sono maniere peggiori per morire.",
-         "alt":[
-            {
-               "id":"huntertenacioussurvives",
-               "chance":30
+        },
+        {
+            "id": "hunterspeakdread_demoralised",
+            "actionid": "talk",
+            "requirements": {
+                "grim": -1
+            },
+            "label": "The Horrors Beneath the World's Skin",
+            "startdescription": "The Hunter growls defiance, but you can see that your words have found their mark. [This Hunter has become Grim.] ",
+            "description": "",
+            "mutations": [
+                {
+                    "filter": "hunter",
+                    "mutate": "grim",
+                    "level": 1
+                }
+            ],
+            "effects": {
+                "notoriety": 1,
+                "dread": 1
             }
-         ],
-         "effects":{
-            "poison":-1,
-            "notoriety":1
-         },
-         "aspects":{
-            "killhunter":1
-         },
-         "craftable":false
-      },
-      {
-         "id":"hunterattackhighwinter",
-         "label":"Manda un Tirapiedi silente a risolvere il problema di un Cacciatore",
-         "actionId":"talk",
-         "startdescription":"Questo Cacciatore potrebbe smettere di darci problemi. [Ha meno probabilità di avere successo di un attacco della Lama, e sia il successo che il fallimento attrarrà l'attenzione, ma il seguage di norma sopravviverà.]",
-         "requirements":{
-            "hunter":1,
-            "winter":10,
-            "follower":1
-         },
-         "linked":[
-            {
-               "id":"hunterstealthattacksuccess",
-               "chance":70
-            },
-            {
-               "id":"hunterstealthattackfailure",
-               "chance":100
+        },
+        {
+            "id": "hunterspeakdread_survives",
+            "actionid": "talk",
+            "label": "The Horrors Beneath the World's Skin",
+            "alt": [
+                {
+                    "id": "hunterspeakdread_survives_becometenacious",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "",
+            "description": "'Yes, there are terrible things in the world, but that's all the more reason to resist them. I should thank you. You've shown me what I must do.' [This Hunter has become an Idealist.]",
+            "mutations": [
+                {
+                    "filter": "hunter",
+                    "mutate": "idealist",
+                    "level": 1
+                }
+            ],
+            "effects": {
+                "notoriety": 1,
+                "dread": 1
             }
-         ],
-         "craftable":false
-      },
-      {
-         "id":"hunterattackmidwinter",
-         "label":"Manda un Tirapiedi quieto a risolvere il problema di un Cacciatore",
-         "actionId":"talk",
-         "startdescription":"Il Tirapiedi osserverà ed attenderà. Se saremo fortunati, potrebbe avere l'occasione di eliminare il nostro nemico. [Ha meno probabilità di avere successo di un attacco della Lama, e sia il successo che il fallimento attrarrà l'attenzione, ma il seguage di norma sopravviverà.]",
-         "description":".",
-         "requirements":{
-            "hunter":1,
-            "winter":5,
-            "follower":1
-         },
-         "linked":[
-            {
-               "id":"hunterstealthattacksuccess",
-               "chance":30
+        },
+        {
+            "id": "hunterspeakdread_survives_becometenacious",
+            "actionid": "talk",
+            "label": "The Horrors Beneath the World's Skin",
+            "requirements": {
+                "tenacious": -1
             },
-            {
-               "id":"hunterstealthattackfailure",
-               "chance":100
+            "startdescription": "",
+            "description": "'Yes, there are terrible things in the world, but that's all the more reason to resist them. I should thank you. You've shown me what I must do.' [This Hunter has become Tenacious, and an Idealist.]",
+            "mutations": [
+                {
+                    "filter": "hunter",
+                    "mutate": "tenacious",
+                    "level": 1
+                },
+                {
+                    "filter": "hunter",
+                    "mutate": "idealist",
+                    "level": 1
+                }
+            ],
+            "effects": {
+                "notoriety": 1,
+                "dread": 1
             }
-         ]
-      },
-      {
-         "id":"hunterattacklowwinter",
-         "label":"Manda un Tirapiedi cauto a risolvere il problema di un Cacciatore",
-         "actionId":"talk",
-         "startdescription":"Il Tirapiedi aspetterà il momento giusto, anche se probabilmente non arriverà mai. [Ha meno probabilità di avere successo di un attacco della Lama, e sia il successo che il fallimento attrarrà l'attenzione, ma il seguage di norma sopravviverà.]",
-         "description":".",
-         "requirements":{
-            "hunter":1,
-            "winter":1,
-            "follower":1
-         },
-         "linked":[
-            {
-               "id":"hunterstealthattacksuccess",
-               "chance":10
+        },
+        {
+            "id": "hunterspeaklanterng",
+            "actionid": "talk",
+            "label": "Share a terrible mystery of the Glorious Lore",
+            "startdescription": "'This is the secret doctrine of the Door-in-the-Eye. Open your ears...' [This is likely to tempt the Hunter from their path, but will always increase your own Fascination.]",
+            "requirements": {
+                "lantern": 14,
+                "lore": 1
             },
-            {
-               "id":"hunterstealthattackfailure",
-               "chance":100
+            "mutations": [
+                {
+                    "filter": "hunter",
+                    "mutate": "idealist",
+                    "level": 1
+                }
+            ],
+            "linked": [
+                {
+                    "id": "hunterspeakfascination_resistant",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterspeakfascination_vulnerable_fascinated",
+                    "chance": 70
+                },
+                {
+                    "id": "hunterspeakfascination_fascinated",
+                    "chance": 70
+                },
+                {
+                    "id": "hunterspeakfascination_survives",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterspeaklanternd",
+            "actionid": "talk",
+            "label": "Share the brighter invocations of the Glorious Lore",
+            "startdescription": "'The Door-in-the-Eye navigates; he is not merciful; but first and always, he illuminates. Listen, and be illuminated...' [This may tempt the Hunter from their path, especially if they're already an Idealist, but will always increase your own Fascination.]",
+            "requirements": {
+                "lantern": 8,
+                "lore": 1
+            },
+            "linked": [
+                {
+                    "id": "hunterspeakfascination_resistant",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterspeakfascination_vulnerable_fascinated",
+                    "chance": 70
+                },
+                {
+                    "id": "hunterspeakfascination_fascinated",
+                    "chance": 30
+                },
+                {
+                    "id": "hunterspeakfascination_survives",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterspeaklantern",
+            "actionid": "talk",
+            "label": "Hint at the Glorious Lore",
+            "startdescription": "'There are finer things than we see. You must have felt it. Consider the possibilities of eternity...' [This might tempt the Hunter from their path, but will always increase your own Fascination.]",
+            "requirements": {
+                "lantern": 1,
+                "lore": 1
+            },
+            "linked": [
+                {
+                    "id": "hunterspeakfascination_resistant",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterspeakfascination_vulnerable_fascinated",
+                    "chance": 30
+                },
+                {
+                    "id": "hunterspeakfascination_fascinated",
+                    "chance": 30
+                },
+                {
+                    "id": "hunterspeakfascination_survives",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterspeakfascination",
+            "actionid": "talk",
+            "label": "Describe your visions to your adversary",
+            "requirements": {
+                "fascination": 1
+            },
+            "startdescription": "The higher you rise, the more you'll see.' [This might tempt the Hunter from their path, but will always increase your own Fascination.]",
+            "description": "",
+            "linked": [
+                {
+                    "id": "hunterspeakfascination_resistant",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterspeakfascination_vulnerable_fascinated",
+                    "chance": 30
+                },
+                {
+                    "id": "hunterspeakfascination_fascinated",
+                    "chance": 30
+                },
+                {
+                    "id": "hunterspeakfascination_survives",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "hunterspeakfascination_resistant",
+            "actionid": "talk",
+            "requirements": {
+                "grim": 1
+            },
+            "label": "Visions of Glory",
+            "startdescription": "'That sounds pretty. But I've got a job to do. You'll hear from me again. [Grim Hunters cannot be Fascinated.]",
+            "effects": {
+                "notoriety": 1,
+                "fascination": 1
             }
-         ]
-      },
-      {
-         "id":"hunterstealthattacksuccess",
-         "label":"Pazienza...",
-         "actionId":"talk",
-         "startdescription":"Attendo notizie...",
-         "description":"Il tirapiedi è tornato, con un trofeo.",
-         "effects":{
-            "notoriety":1
-         },
-         "aspects":{
-            "killhunter":1
-         },
-         "alt":[
-            {
-               "id":"huntertenacioussurvives",
-               "chance":30
+        },
+        {
+            "id": "hunterspeakfascination_vulnerable_fascinated",
+            "actionid": "talk",
+            "requirements": {
+                "idealist": 1
             },
-            {
-               "id":"huntermysticsurvives",
-               "chance":70
+            "label": "Visions of Glory",
+            "startdescription": "Your account is too much for the Hunter. Their eyes grow wide and bright. Their smile becomes dreamy. In the days to come, they will forsake everything they once knew.",
+            "description": "",
+            "effects": {
+                "fascination": 1
+            },
+            "aspects": {
+                "derangemortal": 1
             }
-         ],
-         "comments":"No summoned creatures currently attack with Winter. This is in case I add one later.",
-         "warmup":10
-      },
-      {
-         "id":"hunterstealthattackfailure",
-         "label":"Pazienza...",
-         "actionId":"talk",
-         "startdescription":"Attendo notizie...",
-         "description":"Il tirapiedi è tornato. Non ci sono state opportunità per assassinare il Cacciatore; e potrebbe essere a conoscenza dei pericoli che corre.",
-         "effects":{
-            "notoriety":1
-         },
-         "warmup":10
-      },
-      {
-         "id":"hunterattackhighedge",
-         "label":"Manda una Forza Inarrestabile ad assassinare un Cacciatore",
-         "actionId":"talk",
-         "startdescription":"A meno che questo Cacciatore non abbia qualche strana protezione, è già morto. Ma la sua dipartita attrarrà l'attenzione.",
-         "description":".",
-         "requirements":{
-            "hunter":1,
-            "edge":10,
-            "follower":1
-         },
-         "linked":[
-            {
-               "id":"hunterattacksuccess",
-               "chance":100
+        },
+        {
+            "id": "hunterspeakfascination_fascinated",
+            "actionid": "talk",
+            "requirements": {
+                "idealist": -1
+            },
+            "label": "Visions of Glory",
+            "startdescription": "The Hunter scoffs, but you can see that the urgency of your account has struck a spark. [This Hunter has become an Idealist.] ",
+            "description": "",
+            "mutations": [
+                {
+                    "filter": "hunter",
+                    "mutate": "idealist",
+                    "level": 1
+                }
+            ],
+            "effects": {
+                "notoriety": 1,
+                "fascination": 1
             }
-         ]
-      },
-      {
-         "id":"hunterattackmidedge",
-         "label":"Manda un Tirapiedi Potente ad assassinare un Cacciatore",
-         "actionId":"talk",
-         "startdescription":"Il tirapiedi è potente. È difficile che il Cacciatore sopravviva. Ma lo stesso tentativo di assassinarlo attrarrà l'attenzione. [Il fallimento ucciderà il tuo tirapiedi.]",
-         "description":".",
-         "requirements":{
-            "hunter":1,
-            "edge":5,
-            "follower":1
-         },
-         "linked":[
-            {
-               "id":"hunterattacksuccess",
-               "chance":70
-            },
-            {
-               "id":"hunterattackfailure",
-               "chance":100
+        },
+        {
+            "id": "hunterspeakfascination_survives",
+            "actionid": "talk",
+            "label": "Visions of Glory",
+            "alt": [
+                {
+                    "id": "hunterspeakfascination_survives_becometenacious",
+                    "chance": 100
+                }
+            ],
+            "description": "'Yes, I could be something finer, but what we are is less important than what we do. The world is where we live, and I will defend it till I die. You can keep your visions.' [This Hunter has become Grim.]",
+            "mutations": [
+                {
+                    "filter": "hunter",
+                    "mutate": "grim",
+                    "level": 1
+                }
+            ],
+            "effects": {
+                "notoriety": 1,
+                "fascination": 1
             }
-         ]
-      },
-      {
-         "id":"hunterattacklowedge",
-         "label":"Manda un Tirapiedi ad assassinare un Cacciatore",
-         "actionId":"talk",
-         "startdescription":"Le abilità del tirapiedi sono limitate. Probabilmente questo cacciatore sopravviverà e lo stesso tentativo di assassinarlo attrarrà l'attenzione. [Il fallimento ucciderà il tuo tirapiedi.]",
-         "description":".",
-         "requirements":{
-            "hunter":1,
-            "edge":1,
-            "follower":1
-         },
-         "linked":[
-            {
-               "id":"hunterattacksuccess",
-               "chance":30
+        },
+        {
+            "id": "hunterspeakfascination_survives_becometenacious",
+            "actionid": "talk",
+            "label": "Visions of Glory",
+            "requirements": {
+                "tenacious": -1
             },
-            {
-               "id":"hunterattackfailure",
-               "chance":100
+            "description": "'Yes, I could be something finer, but what we are is less important than what we do. The world is where we live, and I will defend it till I die. You can keep your visions.' [This Hunter has become Grim and Tenacious.]",
+            "mutations": [
+                {
+                    "filter": "hunter",
+                    "mutate": "grim",
+                    "level": 1
+                },
+                {
+                    "filter": "hunter",
+                    "mutate": "tenacious",
+                    "level": 1
+                }
+            ],
+            "effects": {
+                "notoriety": 1,
+                "fascination": 1
             }
-         ]
-      },
-      {
-         "id":"hunterattacknoedge",
-         "label":"Manda Qualcuno Inadatto ad Assassinare un Cacciatore",
-         "actionId":"talk",
-         "startdescription":"Il tirapiedi è carente nell'aspetto della Lama ed è, quindi, tristemente inadatto ad attaccare il cacciatore. C'è tuttavia un piccola possibilità che abbia successo. [Il fallimento ucciderà il tuo tirapiedi.]",
-         "description":".",
-         "requirements":{
-            "hunter":1,
-            "follower":1
-         },
-         "linked":[
-            {
-               "id":"hunterattacksuccess",
-               "chance":10
-            },
-            {
-               "id":"hunterattackfailure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"hunterattacksuccess",
-         "label":"Assassinando un Cacciatore...",
-         "actionId":"talk",
-         "startdescription":"Attendo notizie...",
-         "description":"Il tirapiedi è tornato, con un trofeo.",
-         "effects":{
-            "hunter":-1,
-            "corpse":1,
-            "notoriety":1
-         },
-         "alt":[
-            {
-               "id":"huntertenacioussurvives",
-               "chance":30
-            },
-            {
-               "id":"huntermysticsurvives",
-               "chance":70
-            },
-            {
-               "id":"huntercapturesuccess",
-               "chance":30
-            }
-         ],
-         "warmup":10
-      },
-      {
-         "id":"huntercapturesuccess",
-         "label":"Assassinando un Cacciatore...",
-         "actionId":"talk",
-         "startdescription":"Attendo notizie...",
-         "description":"Il tirapiedi è tornato, con un prigioniero!",
-         "effects":{
-            "notoriety":1
-         },
-         "aspects":{
-            "capturehunter":1
-         },
-         "warmup":10
-      },
-      {
-         "id":"hunterattackfailure",
-         "label":"Assassinando un Cacciatore...",
-         "actionId":"talk",
-         "startdescription":"Attendo notizie...",
-         "description":"Il tirapiedi è tornato. Deve aver fallito la sua missione.",
-         "effects":{
-            "follower":-1,
-            "notoriety":1
-         },
-         "alt":[
-            {
-               "id":"huntersurvives_becomesmystic",
-               "chance":30
-            },
-            {
-               "id":"huntersurvives_becomestenacious",
-               "chance":10
-            }
-         ],
-         "warmup":10
-      },
-      {
-         "id":"evidencedestroymidmoth",
-         "label":"Manda un Tirapiedi Subdolo a distruggere le Prove",
-         "actionId":"talk",
-         "startdescription":"Il mio piano dovrebbe avere successo. C'è sempre una piccola possibilità che qualcosa vada storto.",
-         "description":".",
-         "requirements":{
-            "follower":1,
-            "moth":5,
-            "evidencelevel":1
-         },
-         "linked":[
-            {
-               "id":"evidencedestroysuccess",
-               "chance":70
-            },
-            {
-               "id":"evidencedestroyfailure_mortalfollower",
-               "chance":100
-            },
-            {
-               "id":"evidencedestroyfailure",
-               "chance":100
-            }
-         ],
-         "comments":"We don't want a 100% chance because there's no downside. This could easily change later."
-      },
-      {
-         "id":"evidencedestroylowmoth",
-         "label":"Manda un Tirapiedi a distruggere le Prove",
-         "actionId":"talk",
-         "startdescription":"Il mio tirapiedi non ha molto talento nell'ingannare, e questa è una missione difficile. È probabile che fallisca.",
-         "description":".",
-         "requirements":{
-            "follower":1,
-            "moth":1,
-            "evidencelevel":1
-         },
-         "linked":[
-            {
-               "id":"evidencedestroysuccess",
-               "chance":30
-            },
-            {
-               "id":"evidencedestroyfailure_mortalfollower",
-               "chance":100
-            },
-            {
-               "id":"evidencedestroyfailure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"evidencedestroynomoth",
-         "label":"Manda Qualcuno di Inadatto per Distruggere le Prove",
-         "actionId":"talk",
-         "startdescription":"Il mio tirapiedi è carente nell'aspetto della Falena, e la missione è fuori dalla sua portata. C'è solo una piccola possibilità che abbia successo.",
-         "description":".",
-         "requirements":{
-            "evidencelevel":1
-         },
-         "linked":[
-            {
-               "id":"evidencedestroysuccess",
-               "chance":10
-            },
-            {
-               "id":"evidencedestroyfailure_mortalfollower",
-               "chance":100
-            },
-            {
-               "id":"evidencedestroyfailure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"evidencedestroysuccess",
-         "label":"Manomettere le Prove...",
-         "actionId":"talk",
-         "startdescription":"Attendo notizie...",
-         "description":"Il mio tirapiedi è tornato. Le prove sono state distrutte. Siamo un po' più tranquilli, ora.",
-         "effects":{
-            "evidencelevel":-1
-         },
-         "warmup":10
-      },
-      {
-         "id":"evidencedestroyfailure",
-         "label":"Manomettere le Prove...",
-         "actionId":"talk",
-         "startdescription":"Attendo notizie...",
-         "description":"Il mio tirapiedi non è tornato. Deve aver fallito, e il suo tentativo attratto l'attenzione...",
-         "effects":{
-            "follower":-1,
-            "notoriety":1
-         },
-         "warmup":10
-      },
-      {
-         "id":"evidencedestroyfailure_mortalfollower",
-         "label":"Manomettere le Prove...",
-         "actionId":"talk",
-         "requirements":{
-            "summoned":-1
-         },
-         "startdescription":"Attendo notizie...",
-         "description":"Il mio tirapiedi è tornato, ammaccato, farfugliante, bendato malamente. È stato catturato dalle spire del suo stesso piano. [Cura un seguace caduto con Parlare.]",
-         "effects":{
-            "notoriety":1
-         },
-         "mutations":[
-            {
-               "filter":"mortal",
-               "mutate":"follower_wound",
-               "level":1,
-               "additive":false
-            },
-            {
-               "filter":"mortal",
-               "mutate":"follower",
-               "level":-1,
-               "additive":false
-            }
-         ],
-         "warmup":10
-      },
-      {
-         "id":"hunterspeakwinterg",
-         "actionId":"talk",
-         "label":"Condividi un terribile mistero della Tradizione Logora",
-         "startdescription":"'Quando la Forgia sarà fredda, la Gloria oscurata e la Foresta polvere, forse il Lupo Diviso riposerà, ma solo fino a quando non si divorerà. Ascoltami ora...'  [Probabilmente devierà il Cacciatore dal suo cammino, ma aumenterà il tuo Terrore.]",
-         "requirements":{
-            "winter":14,
-            "lore":1
-         },
-         "mutations":[
-            {
-               "filter":"hunter",
-               "mutate":"grim",
-               "level":1
-            }
-         ],
-         "linked":[
-            {
-               "id":"hunterspeakdread_resistant",
-               "chance":100
-            },
-            {
-               "id":"hunterspeakdread_vulnerable_demoralised",
-               "chance":70
-            },
-            {
-               "id":"hunterspeakdread_demoralised",
-               "chance":70
-            },
-            {
-               "id":"hunterspeakdread_survives",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"hunterspeakwinterd",
-         "actionId":"talk",
-         "label":"Condividi la più fredda delle invocazioni della Tradizione Logora",
-         "startdescription":"'C'è un potere che commemora e soffre, dal quale nulla può esser preso, ma che non può essere ingannato. Ti dirò il nome di quel potere. Ascoltami...' [Potrebbe deviare il Cacciatore dal suo cammino, soprattutto se è già Cupo, ma aumenterà il tuo Terrore.]",
-         "requirements":{
-            "winter":8,
-            "lore":1
-         },
-         "linked":[
-            {
-               "id":"hunterspeakdread_resistant",
-               "chance":100
-            },
-            {
-               "id":"hunterspeakdread_vulnerable_demoralised",
-               "chance":70
-            },
-            {
-               "id":"hunterspeakdread_demoralised",
-               "chance":30
-            },
-            {
-               "id":"hunterspeakdread_survives",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"hunterspeakwinter",
-         "actionId":"talk",
-         "label":"Alludi alla Tradizione Logora",
-         "startdescription":"'Parliamo delle conclusioni. Parliamo del sole in declino. Parliamo delle cose che non sono totalmente morte, e che mai moriranno totalmente...' [Potrebbe deviare il Cacciatore dal suo cammino, ma aumenterà il tuo Terrore.]",
-         "requirements":{
-            "winter":1,
-            "lore":1
-         },
-         "linked":[
-            {
-               "id":"hunterspeakdread_resistant",
-               "chance":100
-            },
-            {
-               "id":"hunterspeakdread_vulnerable_demoralised",
-               "chance":30
-            },
-            {
-               "id":"hunterspeakdread_demoralised",
-               "chance":30
-            },
-            {
-               "id":"hunterspeakdread_survives",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"hunterspeakdread",
-         "actionId":"talk",
-         "label":"Descrivi gli orrori che attendono un avversario",
-         "requirements":{
-            "dread":1
-         },
-         "startdescription":"'Qualcosa alla quale pensare ogniqualvolta chiudi gli occhi.' [Potrebbe deviare il Cacciatore dal suo cammino, ma aumenterà sempre il tuo Terrore.]",
-         "description":"",
-         "linked":[
-            {
-               "id":"hunterspeakdread_resistant",
-               "chance":100
-            },
-            {
-               "id":"hunterspeakdread_vulnerable_demoralised",
-               "chance":30
-            },
-            {
-               "id":"hunterspeakdread_demoralised",
-               "chance":30
-            },
-            {
-               "id":"hunterspeakdread_survives",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"hunterspeakdread_resistant",
-         "actionId":"talk",
-         "requirements":{
-            "idealist":1
-         },
-         "label":"Gli Orrori Sotto la Pelle del Mondo",
-         "startdescription":"'Va bene, potrebbe finire male per me, ma ne vale il sacrificio. E altri porteranno avanti il lavoro. Ci incontreremo ancora. [Gli Idealisti non possono essere demoralizzati.]",
-         "effects":{
-            "notoriety":1,
-            "dread":1
-         }
-      },
-      {
-         "id":"hunterspeakdread_vulnerable_demoralised",
-         "actionId":"talk",
-         "requirements":{
-            "grim":1
-         },
-         "label":"Gli Orrori Sotto la Pelle del Mondo",
-         "startdescription":"Il tuo resoconto è troppo per il Cacciatore. I suoi occhi si rigonfiano. La sua mandibola si stringe. Nei prossimi giorni scivolerà inesorabilmente verso la disperazione... sempre che non riesca a trovare una nuova verità a cui aggrapparsi.",
-         "description":"",
-         "effects":{
-            "dread":1
-         },
-         "aspects":{
-            "derangemortal":1
-         }
-      },
-      {
-         "id":"hunterspeakdread_demoralised",
-         "actionId":"talk",
-         "requirements":{
-            "grim":-1
-         },
-         "label":"Gli Orrori Sotto la Pelle del Mondo",
-         "startdescription":"Il Cacciatore ringhia con disprezzo, ma puoi vedere che le tue parole hanno colto nel segno. [Il Cacciatore è diventato Cupo.] ",
-         "description":"",
-         "mutations":[
-            {
-               "filter":"hunter",
-               "mutate":"grim",
-               "level":1
-            }
-         ],
-         "effects":{
-            "notoriety":1,
-            "dread":1
-         }
-      },
-      {
-         "id":"hunterspeakdread_survives",
-         "actionId":"talk",
-         "label":"Gli Orrori Sotto la Pelle del Mondo",
-         "alt":[
-            {
-               "id":"hunterspeakdread_survives_becometenacious",
-               "chance":100
-            }
-         ],
-         "startdescription":"",
-         "description":"'Si, ci sono cose terribili a questo mondo, ma questo è quanto basta per resistergli. Ti dovrei ringraziare. Mi hai mostrato cosa fare.' [Il Cacciatore è diventato un Idealista.]",
-         "mutations":[
-            {
-               "filter":"hunter",
-               "mutate":"idealist",
-               "level":1
-            }
-         ],
-         "effects":{
-            "notoriety":1,
-            "dread":1
-         }
-      },
-      {
-         "id":"hunterspeakdread_survives_becometenacious",
-         "actionId":"talk",
-         "label":"Gli Orrori Sotto la Pelle del Mondo",
-         "requirements":{
-            "tenacious":-1
-         },
-         "startdescription":"",
-         "description":"'Si, ci sono cose terribili a questo mondo, ma questo è quanto basta per resistergli. Ti dovrei ringraziare. Mi hai mostrato cosa fare.' [Il Cacciatore è diventato Tenace e Idealista.]",
-         "mutations":[
-            {
-               "filter":"hunter",
-               "mutate":"tenacious",
-               "level":1
-            },
-            {
-               "filter":"hunter",
-               "mutate":"idealist",
-               "level":1
-            }
-         ],
-         "effects":{
-            "notoriety":1,
-            "dread":1
-         }
-      },
-      {
-         "id":"hunterspeaklanterng",
-         "actionId":"talk",
-         "label":"Condividi un terribile mistero della Tradizione Gloriosa",
-         "startdescription":"'Questa è la dottrina segreta della Porta nell'Occhio. Apri le tue orecchie...' [È probabile che tenti il Cacciatore lontano dalla sua via, ma aumenterà la tua Seduzione.]",
-         "requirements":{
-            "lantern":14,
-            "lore":1
-         },
-         "mutations":[
-            {
-               "filter":"hunter",
-               "mutate":"idealist",
-               "level":1
-            }
-         ],
-         "linked":[
-            {
-               "id":"hunterspeakfascination_resistant",
-               "chance":100
-            },
-            {
-               "id":"hunterspeakfascination_vulnerable_fascinated",
-               "chance":70
-            },
-            {
-               "id":"hunterspeakfascination_fascinated",
-               "chance":70
-            },
-            {
-               "id":"hunterspeakfascination_survives",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"hunterspeaklanternd",
-         "actionId":"talk",
-         "label":"Condividi le invocazioni più luminose della Tradizione Gloriosa",
-         "startdescription":"'La Porta nell'Occhio naviga; non è misericordiosa; ma soprattutto, illumina. Ascolta, e illuminati...' [Potrebbe tentare il Cacciatore lontano dalla sua strada, soprattutto se è già un Idealista, ma aumenterà la tua Seduzione.]",
-         "requirements":{
-            "lantern":8,
-            "lore":1
-         },
-         "linked":[
-            {
-               "id":"hunterspeakfascination_resistant",
-               "chance":100
-            },
-            {
-               "id":"hunterspeakfascination_vulnerable_fascinated",
-               "chance":70
-            },
-            {
-               "id":"hunterspeakfascination_fascinated",
-               "chance":30
-            },
-            {
-               "id":"hunterspeakfascination_survives",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"hunterspeaklantern",
-         "actionId":"talk",
-         "label":"Alludi alla Tradizione Gloriosa",
-         "startdescription":"'Vi sono cose migliori di quelle che vediamo. Devi averle provate. Considera la possibilità dell'eternità...' [Potrebbe tentare il Cacciatore lontano dalla sua strada, ma aumenterà la tua Seduzione.]",
-         "requirements":{
-            "lantern":1,
-            "lore":1
-         },
-         "linked":[
-            {
-               "id":"hunterspeakfascination_resistant",
-               "chance":100
-            },
-            {
-               "id":"hunterspeakfascination_vulnerable_fascinated",
-               "chance":30
-            },
-            {
-               "id":"hunterspeakfascination_fascinated",
-               "chance":30
-            },
-            {
-               "id":"hunterspeakfascination_survives",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"hunterspeakfascination",
-         "actionId":"talk",
-         "label":"Descrivi le tue visioni al tuo avversario",
-         "requirements":{
-            "fascination":1
-         },
-         "startdescription":"Più in alto si sale, più è possibile vedere.' [Potrebbe tentare il Cacciatore lontano dalla sua strada, ma aumenterà la tua Seduzione.]",
-         "description":"",
-         "linked":[
-            {
-               "id":"hunterspeakfascination_resistant",
-               "chance":100
-            },
-            {
-               "id":"hunterspeakfascination_vulnerable_fascinated",
-               "chance":30
-            },
-            {
-               "id":"hunterspeakfascination_fascinated",
-               "chance":30
-            },
-            {
-               "id":"hunterspeakfascination_survives",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"hunterspeakfascination_resistant",
-         "actionId":"talk",
-         "requirements":{
-            "grim":1
-         },
-         "label":"Visioni della Gloria",
-         "startdescription":"'Suona interessante. Ma ho un lavoro da svolgere. Avrai presto mie notizie. [I Cacciatori Cupi non possono essere Sedotti.]",
-         "effects":{
-            "notoriety":1,
-            "fascination":1
-         }
-      },
-      {
-         "id":"hunterspeakfascination_vulnerable_fascinated",
-         "actionId":"talk",
-         "requirements":{
-            "idealist":1
-         },
-         "label":"Visioni della Gloria",
-         "startdescription":"Il tuo resoconto è troppo per il Cacciatore. I suoi occhi si spalancano. Il sorriso diventa sognante. Nei giorni a seguire dimenticherà tutto ciò che un tempo sapeva.",
-         "description":"",
-         "effects":{
-            "fascination":1
-         },
-         "aspects":{
-            "derangemortal":1
-         }
-      },
-      {
-         "id":"hunterspeakfascination_fascinated",
-         "actionId":"talk",
-         "requirements":{
-            "idealist":-1
-         },
-         "label":"Visioni della Gloria",
-         "startdescription":"Il Cacciatore si beffa di te, ma vedi dall'urgenza nei suoi occhi che il tuo resoconto ha acceso una scintilla. [Il Cacciatore è diventato Idealista.] ",
-         "description":"",
-         "mutations":[
-            {
-               "filter":"hunter",
-               "mutate":"idealist",
-               "level":1
-            }
-         ],
-         "effects":{
-            "notoriety":1,
-            "fascination":1
-         }
-      },
-      {
-         "id":"hunterspeakfascination_survives",
-         "actionId":"talk",
-         "label":"Visioni della Gloria",
-         "alt":[
-            {
-               "id":"hunterspeakfascination_survives_becometenacious",
-               "chance":100
-            }
-         ],
-         "description":"'Si, potrei migliorare, ma ciò che siamo è meno importante di ciò che facciamo. Il mondo è quello nel quale viviamo, e io lo difenderò fino alla morte. Puoi tenerti le tue visioni.' [Il Cacciatore è diventato Cupo.]",
-         "mutations":[
-            {
-               "filter":"hunter",
-               "mutate":"grim",
-               "level":1
-            }
-         ],
-         "effects":{
-            "notoriety":1,
-            "fascination":1
-         }
-      },
-      {
-         "id":"hunterspeakfascination_survives_becometenacious",
-         "actionId":"talk",
-         "label":"Visioni della Gloria",
-         "requirements":{
-            "tenacious":-1
-         },
-         "description":"'Si, potrei migliorare, ma ciò che siamo è meno importante di ciò che facciamo. Il mondo è quello nel quale viviamo, e io lo difenderò fino alla morte. Puoi tenerti le tue visioni.' [Il Cacciatore è diventato Cupo e Tenace.]",
-         "mutations":[
-            {
-               "filter":"hunter",
-               "mutate":"grim",
-               "level":1
-            },
-            {
-               "filter":"hunter",
-               "mutate":"tenacious",
-               "level":1
-            }
-         ],
-         "effects":{
-            "notoriety":1,
-            "fascination":1
-         }
-      }
-   ]
+        }
+    ]
 }

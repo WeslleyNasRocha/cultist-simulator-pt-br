@@ -1,147 +1,147 @@
 {
-   "recipes":[
-      {
-         "id":"workintrojob",
-         "label":"Un Altro Turno all’Ospedale",
-         "actionId":"work",
-         "requirements":{
-            "introjob":1
-         },
-         "effects":{
-            "introjob":-1,
-            "health":1,
-            "funds":2
-         },
-         "alt":[
-            {
-               "id":"introdream",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "startdescription":"Un Altro Turno: pulendo i corridoi oscuri, consegnando la posta agli invalidi dagli occhi incavati, trascinando barelle cariche di corpi verso il seminterrato.",
-         "description":"A metà del tuo turno, il capo custode ti chiama da parte. 'Non avremo più bisogno dei suoi servizi', dice. 'Prendi: la tua ultima paga. Ti abbiamo pagato fino alla fine del mese.'\nHo perso il mio lavoro. Almeno ora ho un po’ di tempo per riposare, e la mia Salute migliora.\n[<b>Sognare</b> è sbloccato.]",
-         "warmup":10,
-         "craftable":true
-      },
-      {
-         "id":"introdream",
-         "label":"Ricorda i Sogni",
-         "actionId":"dream",
-         "requirements":{},
-         "effects":{
-            "passion":1,
-            "contentment":1
-         },
-         "alt":[
-            {
-               "id":"bequestcountdown",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "startdescription":"Ancora una volta sogno un bagliore al di sotto della lurida pelle del mondo. La luce attraverso la foresta oscura. La porta pallida. L’uomo vecchio...",
-         "description":"Sono cominciati da quando ho parlato con l'uomo anziano all’ospedale. Ma ora egli è morto. Polmonite. Perché lo sogno ancora? Cos’è quella luce cobalto nei miei sogni?\n[Il Tempo, ora, sta scorrendo.]",
-         "warmup":30,
-         "craftable":false,
-         "comments":"This is triggered from the intro work recipe only."
-      },
-      {
-         "id":"bequestcountdown",
-         "label":"Un Cambiamento nell’Aria",
-         "actionId":"study",
-         "requirements":{},
-         "startdescription":"Ho bisogno di Fondi per vivere. Ma forse questo turbamento della mia situazione è in fondo una benedizione. C’è qualcosa nei miei sogni? C’è un cambiamento nell’aria.",
-         "description":".",
-         "warmup":60,
-         "craftable":false,
-         "linked":[
-            {
-               "id":"bequestarrives",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"bequestarrives",
-         "label":"Arriva Un’Eredità",
-         "actionId":"study",
-         "requirements":{},
-         "effects":{
-            "reason":1,
-            "funds":9,
-            "bequestintro":1
-         },
-         "startdescription":"Una lettera da un avvocato. Il vecchio uomo all’ospedale - quello che ho sognato - mi ha nominato nel suo testamento. A breve ne saprò di più.",
-         "description":"L’anziano signore mi ha lasciato in eredità una somma di denaro ed un pacchetto di carte peculiari - poesie, enigmi, speculazioni metafisiche. Per la prima volta in mesi, trovo del combustibile per la mia Ragione.\n[<b>Studiare</b> è sbloccato.]",
-         "warmup":30,
-         "craftable":false,
-         "maxexecutions":1,
-         "comments":"This makes the Study action available, and is triggered from intro only."
-      },
-      {
-         "id":"studybequestreason",
-         "label":"Esamina l’Eredità, utilizzando la Ragione",
-         "actionId":"study",
-         "requirements":{
-            "bequestintro":1,
-            "reason":1
-         },
-         "effects":{
-            "bequestintro":-1,
-            "ascensionenlightenmenta":1,
-            "mapbookdealer":1,
-            "fragmentlantern":1,
-            "contactintro":1
-         },
-         "startdescription":"Esaminerò ogni elemento con cura meticolosa.",
-         "description":"Il mio corrispondente descrive esattamente i miei sogni! Usa nomi che mi sono immediatamente familiari - la Casa, la Foresta, le Ore, la Gloria. Conosceva segreti al di sotto del tempo e della pelle del mondo. <b>Una nuova curiosità brucia in me</b>.\nC’è un appunto qui - le indicazioni per una libreria che non pubblicizza la sua merce...\n",
-         "warmup":30,
-         "craftable":true
-      },
-      {
-         "id":"studybequestpassion",
-         "label":"Esamina l’Eredità, utilizzando la Passione",
-         "actionId":"study",
-         "requirements":{
-            "bequestintro":1,
-            "passion":1
-         },
-         "effects":{
-            "bequestintro":-1,
-            "ascensionpowera":1,
-            "mapbookdealer":1,
-            "fragmentforge":1,
-            "contactintro":1
-         },
-         "startdescription":"Leggerò, teorizzerò, camminerò, tratteggerò, mi aggrapperò ai capelli meravigliato, mi ergerò euforico, crollerò disperato.",
-         "description":"Il mio corrispondente descrive esattamente i miei sogni! Usa nomi che mi sono immediatamente familiari - la Casa, la Foresta, le Ore, la Gloria. Percepisco qui un potere che generali e re invidierebbero. <b>Un nuovo desiderio brucia in me.</b>\nC’è un appunto qui - le indicazioni per una libreria che non pubblicizza la sua merce...\n",
-         "warmup":30,
-         "craftable":true
-      },
-      {
-         "id":"studycontactintro",
-         "label":"Trova un potenziale collaboratore",
-         "actionId":"study",
-         "requirements":{
-            "contactintro":1
-         },
-         "effects":{
-            "contactintro":-1,
-            "mystique":1
-         },
-         "alt":[
-            {
-               "id":"findacquaintanceopentalk",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "startdescription":"Ho un nome, una descrizione, qualche allettante dettaglio... ma vi sono migliaia e migliaia di volti.",
-         "description":"Ed ora ho un indirizzo! Spedirò una lettera e proporrò un incontro. [<b>Parlare</b> è sbloccato].",
-         "warmup":30,
-         "craftable":true,
-         "comments":"This is one way the Talk verb may be opened."
-      }
-   ]
+    "recipes": [
+        {
+            "id": "workintrojob",
+            "label": "Another Shift at the Hospital",
+            "actionid": "work",
+            "requirements": {
+                "introjob": 1
+            },
+            "effects": {
+                "introjob": -1,
+                "health": 1,
+                "funds": 2
+            },
+            "alt": [
+                {
+                    "id": "introdream",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription": "Another shift: mopping the darkened hallways, delivering post to hollow-eyed invalids, trundling corpse-laden gurneys to the basement.",
+            "description": "Halfway through your shift, the head porter beckons you aside. 'We won't require your services any longer', he says. 'Here: your last payment. We've paid you through the end of the month.'\nI have lost my job. At least now I have a little time to rest, and my Health improves.\n[<b>Dream</b> is unlocked.]",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "introdream",
+            "label": "Recall my Dreams",
+            "actionid": "dream",
+            "requirements": {},
+            "effects": {
+                "passion": 1,
+                "contentment": 1
+            },
+            "alt": [
+                {
+                    "id": "bequestcountdown",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription": "Once again, I dream of a glow beneath the filthy skin of the world. The light through the black wood. The pale door. The old man - ",
+            "description": "It began when I spoke to the old man in the hospital. He knew my name. But he's dead now. The pneumonia. Why do I dream of him still? What is the cobalt light in my dreams?\n[Time is now passing.]",
+            "warmup": 30,
+            "craftable": false,
+            "comments": "This is triggered from the intro work recipe only."
+        },
+        {
+            "id": "bequestcountdown",
+            "label": "A Change in the Air",
+            "actionid": "study",
+            "requirements": {},
+            "startdescription": "I need Funds to live. But perhaps this recent upset in my circumstances is a secret blessing. Is there something to my dreams? There is a change in the air.",
+            "description": ".",
+            "warmup": 60,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "bequestarrives",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "bequestarrives",
+            "label": "A Bequest Arrives",
+            "actionid": "study",
+            "requirements": {},
+            "effects": {
+                "reason": 1,
+                "funds": 9,
+                "bequestintro": 1
+            },
+            "startdescription": "A letter from a solicitor. The old man at the hospital - the one I dream of - has named me in his will. I'll hear more soon.",
+            "description": "The old man has bequeathed me a sum of money, and a packet of peculiar papers - poetry, riddles, metaphysical speculations. For the first time in months, here is some fuel for my Reason.\n[<b>Study</b> is unlocked.]",
+            "warmup": 30,
+            "craftable": false,
+            "maxexecutions": 1,
+            "comments": "This makes the Study action available, and is triggered from intro only."
+        },
+        {
+            "id": "studybequestreason",
+            "label": "Examine the Bequest, employing Reason",
+            "actionid": "study",
+            "requirements": {
+                "bequestintro": 1,
+                "reason": 1
+            },
+            "effects": {
+                "bequestintro": -1,
+                "ascensionenlightenmenta": 1,
+                "mapbookdealer": 1,
+                "fragmentlantern": 1,
+                "contactintro": 1
+            },
+            "startdescription": "I'll examine each item with meticulous care. ",
+            "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - the House, the Wood, the Hours, the Glory. They knew secrets beneath time and the skin of the world. <b>A new curiosity burns in me</b>.\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "studybequestpassion",
+            "label": "Examine my Bequest, employing Passion",
+            "actionid": "study",
+            "requirements": {
+                "bequestintro": 1,
+                "passion": 1
+            },
+            "effects": {
+                "bequestintro": -1,
+                "ascensionpowera": 1,
+                "mapbookdealer": 1,
+                "fragmentforge": 1,
+                "contactintro": 1
+            },
+            "startdescription": "I'll read, theorise, pace, sketch, clutch at my hair in wonder, rise in elation, collapse in despair.",
+            "description": "My correspondent describes my dreams exactly! They use names that are instantly familiar - the House, the Wood, the Hours, the Glory. I sense here a power that generals and kings would envy. <b>A new desire burns in me.</b>\nThere is a note here - directions to a book shop that does not advertise its wares -\n",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "studycontactintro",
+            "label": "Find a potential collaborator",
+            "actionid": "study",
+            "requirements": {
+                "contactintro": 1
+            },
+            "effects": {
+                "contactintro": -1,
+                "mystique": 1
+            },
+            "alt": [
+                {
+                    "id": "findacquaintanceopentalk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription": "I have a name, a description, a few tantalising details... but there are a thousand thousand faces in this city.",
+            "description": "And now I have an address! I'll dispatch a letter and propose a meeting. [ <b>Talk</b> is unlocked].",
+            "warmup": 30,
+            "craftable": true,
+            "comments": "This is one way the Talk verb may be opened."
+        }
+    ]
 }

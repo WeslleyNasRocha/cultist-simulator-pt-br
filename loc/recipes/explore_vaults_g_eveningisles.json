@@ -1,262 +1,262 @@
 {
-   "recipes":[
-      {
-         "id":"explore_vaulteveningisles1_setup",
-         "label":"Una Spedizione per l'Isola del Corvo",
-         "actionId":"explore",
-         "requirements":{
-            "funds":1,
-            "follower":1,
-            "vaulteveningisles1":1
-         },
-         "effects":{
-            "peril_sea":1,
-            "guardian_soucouyants":1,
-            "curse_visions":1
-         },
-         "startdescription":"Il principale pericolo di Raven Isle sono i soucouyant, gli immortali caduti. Ma anche la via marittima sarà dura, e l'isola è piena di voci che trasportano la maledizione delle visioni. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
-         "description":".",
-         "warmup":30,
-         "craftable":true,
-         "linked":[
-            {
-               "id":"explorevault_expeditionbegun",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explore_vaulteveningisles2_setup",
-         "label":"Una Spedizione per il Forte Geryk",
-         "actionId":"explore",
-         "requirements":{
-            "funds":1,
-            "follower":1,
-            "vaulteveningisles2":1
-         },
-         "effects":{
-            "peril_sea":1,
-            "seal_wardeddoor":1,
-            "guardian_dead":1
-         },
-         "startdescription":"Una fortezza diroccata d'arenaria si erge su una baia vuota. Di notte i morti camminano. Di giorno giacciono immobili in attesa. In una cripta sigillata, il tesoro del vecchio governatore attende i suoi predatori. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
-         "description":".",
-         "warmup":30,
-         "craftable":true,
-         "linked":[
-            {
-               "id":"explorevault_expeditionbegun",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explore_vaulteveningisles3_setup",
-         "label":"Una Spedizione per la Christabel",
-         "actionId":"explore",
-         "requirements":{
-            "funds":1,
-            "follower":1,
-            "vaulteveningisles3":1
-         },
-         "effects":{
-            "peril_sea":1,
-            "guardian_serpent":1,
-            "curse_affliction":1
-         },
-         "startdescription":"Le tempeste hanno trasportato la Christabel sulla scogliera dove tutt'ora giace, ma un naufragio con una fine così tragica porterà sicuramente con sé una maledizion, e la bestia che un tempo la amò sarà ancora là. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
-         "description":".",
-         "warmup":30,
-         "craftable":true,
-         "linked":[
-            {
-               "id":"explorevault_expeditionbegun",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explore_vaulteveningisles4_setup",
-         "label":"Una Spedizione per San Tentreto della Porta Profonda",
-         "actionId":"explore",
-         "requirements":{
-            "funds":1,
-            "follower":1,
-            "vaulteveningisles4":1
-         },
-         "effects":{
-            "seal_hiddendoor":1,
-            "guardian_monks":1,
-            "curse_visions":1
-         },
-         "startdescription":"I monaci di San Tentreto non saranno inclini a lasciarci passare. Avranno nascosto bene i loro tesori e, se riusciremo a impadronircene, sicuramente ci scaglieranno contro le loro maledizioni. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
-         "description":".",
-         "warmup":30,
-         "craftable":true,
-         "linked":[
-            {
-               "id":"explorevault_expeditionbegun",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explore_vaulteveningislesdefault_setup",
-         "label":"Una Spedizione per Port Noon",
-         "actionId":"explore",
-         "requirements":{
-            "funds":1,
-            "follower":1,
-            "vaulteveningislesdefault":1
-         },
-         "effects":{
-            "peril_sea":1,
-            "seal_wardeddoor":1,
-            "guardian_long":1,
-            "curse_visions":1
-         },
-         "startdescription":"Se riusciremo ad attraversare il mare fino a Port Noon, se riusciremo a sconfiggere il Lungo immortale, se riusciremo ad impadronirci dei loro tesori privati, ci troveremo a dover affrontare la tentazione delle visioni. [Le Spedizioni necessitano almeno di un Fondo per ostacolo. I Seguaci possono sconfiggere gli ostacoli. Se finisci Fondi o Seguaci, la Spedizione si conclude.]",
-         "description":".",
-         "warmup":30,
-         "craftable":true,
-         "linked":[
-            {
-               "id":"explorevault_expeditionbegun",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaulteveningisles1_success",
-         "label":"Piume di Corvo",
-         "actionId":"explore",
-         "requirements":{
-            "vaulteveningisles1":1
-         },
-         "effects":{
-            "vaulteveningisles1":-1
-         },
-         "internaldeck":{
-            "spec":[
-               "manualdeparturevak",
-               "toolgrailf",
-               "fivecreationsvak",
-               "originsofhoursvak"
-            ],
-            "draws":4,
-            "defaultcard":"compensationd",
-            "resetonexhaustion":false
-         },
-         "startdescription":"Una cava in montagna insozzata dai soucouyant. Sui muri hanno scarabocchiato le loro tristi storie in eleganti scritti in centinaia di lingue: le creature che erano, le storie che possedevano, i figli che compiansero.",
-         "description":"Nel fondo della cava, i soucouyant hanno creato una sorta di nido-museo. I bei vestiti che un tempo portarono, adornati ora con piume di corvo. Una piccola miscellanea di ritratti di famiglia ed album. Qualche oggetto di potere.",
-         "warmup":30,
-         "craftable":false
-      },
-      {
-         "id":"explorevaulteveningisles2_success",
-         "label":"L'Ultima Mossa del Governatore",
-         "actionId":"explore",
-         "requirements":{
-            "vaulteveningisles2":1
-         },
-         "effects":{
-            "vaulteveningisles2":-1
-         },
-         "internaldeck":{
-            "spec":[
-               "bighufffucine",
-               "toolforgef",
-               "timedivisionmandaic",
-               "ingredientheartf"
-            ],
-            "draws":4,
-            "defaultcard":"compensationd",
-            "resetonexhaustion":false
-         },
-         "startdescription":"La cripta del Forte Geryk. Un mosaico è stato disposto come fosse una tavola da gioco di stupende dimensioni e complessità: una mappa delle Isole del Vespro. Le piastrelle del mare sono lapislazzuli; le isole sono in nefrite e ossidiana. Ci sono navi giocattolo e soldatini di piombo. L'isola di San Thomas è assediata. Raven Isle è affollata di regine nere degli scacchi.",
-         "description":"Tra i pezzi del gioco troviamo, usati come segnalini, oggetti di vero potere. Era un tentativo di nasconderli, o il Governatore non ne conosceva il reale valore?",
-         "warmup":30,
-         "craftable":false
-      },
-      {
-         "id":"explorevaulteveningisles3_success",
-         "label":"Un Occhio Chiuso",
-         "actionId":"explore",
-         "requirements":{
-            "vaulteveningisles3":1
-         },
-         "effects":{
-            "vaulteveningisles3":-1
-         },
-         "internaldeck":{
-            "spec":[
-               "bookextinguishedheartmandaic",
-               "bookwhitecatphrygian",
-               "toolknockf",
-               "ingredientgrailf"
-            ],
-            "draws":4,
-            "defaultcard":"compensationd",
-            "resetonexhaustion":false
-         },
-         "startdescription":"La nave puzza ancora di mare. Un lento polpo si allontana strisciando dalla luce della nostra lampada. Le travi sono per metà corallo. Dove sono i corpi dell'equipaggio? Solamente un sopravvissuto è stato trovato. Il serpente ha divorato il resto degli uomini?",
-         "description":"Abbiamo trovato la cabina del capitano. Il giornale di bordo è qui, ma le sue pagine sono un ammasso di polpa indistinguibile dal sale che la ricopre. Qualcuno ha grattato il marchio di un occhio chiuso sulla scrivania dove era incatenato. Sotto al simbolo, troviamo un cassetto nascosto nella scrivania dal quale estraiamo, a sprangate, i suoi tesori...",
-         "warmup":30,
-         "craftable":false
-      },
-      {
-         "id":"explorevaulteveningisles4_success",
-         "label":"I Primi Tremori",
-         "actionId":"explore",
-         "requirements":{
-            "vaulteveningisles4":1
-         },
-         "effects":{
-            "vaulteveningisles4":-1
-         },
-         "internaldeck":{
-            "spec":[
-               "scarskyfucine",
-               "toollanternf",
-               "birdsongphrygian",
-               "commandspreservationallexistsmandaic"
-            ],
-            "draws":4,
-            "defaultcard":"compensationd",
-            "resetonexhaustion":false
-         },
-         "startdescription":"Siamo arrivati nella cava sotto al monastero, e vi troviamo una profonda piscina marina. Acque nere tremolano nelle luci delle nostre lampade. Appena ci avviciniamo, il livello dell'acqua scende drasticamente. Non ci sono onde in questo mare. Cosa sta succedendo?",
-         "description":"Abbiamo profanato la cava! Le Ore hanno già ritirato la loro benedizione. Le acque si ritirano, lasciano vuota la piscina. Le offerte giacciono sul suo fondo. Dobbiamo recuperarle velocemente. I primi tremori sono già cominciati - i precursori del terremoto a lungo procrastinato che i monaci hanno tenuto a bada fino ad ora.",
-         "warmup":30,
-         "craftable":false
-      },
-      {
-         "id":"explorevaulteveningislesdefault_success",
-         "label":"Fin Qui dalla Galizia",
-         "actionId":"explore",
-         "requirements":{
-            "vaulteveningislesdefault":1
-         },
-         "effects":{
-            "vaulteveningislesdefault":-1
-         },
-         "deckeffects":{
-            "vaultrewardsg":3
-         },
-         "startdescription":"Siamo arrivati sotto alla cantina dell'Hotel Ciervo. Le mura sono imbiancate; il pavimento pulito di recente; gli scaffali curvati dalle stranezze. Un uomo ingabbiato, con una barba selvaggia, ti scruta tristemente dall'angolo. 'Ancora?' dice. 'O sei di un'altra squadra? No, non ho bisogno di essere salvato, grazie. È molto peggio fuori di qui.' ",
-         "description":"'Prendi ciò che riesci, presto!' sibila l'uomo ingabbiato. 'Saranno presto di ritorno. Lascia soltanto il gladio, te ne prego. L'ho portato fin qui dalla Galizia, tanto tempo fa. Quello, quello scaffale è buono. Muoviti, stanno arrivando! Puoi scappare dalla scala di servizio.'",
-         "warmup":30,
-         "craftable":false,
-         "linked":[
-            {
-               "id":"expeditionascensionheartf",
-               "chance":100
+    "recipes": [
+        {
+            "id": "explore_vaulteveningisles1_setup",
+            "label": "An Expedition to Raven Isle",
+            "actionid": "explore",
+            "requirements": {
+                "funds": 1,
+                "follower": 1,
+                "vaulteveningisles1": 1
             },
-            {
-               "id":"expeditionascensionmothf",
-               "chance":100
-            }
-         ]
-      }
-   ]
+            "effects": {
+                "peril_sea": 1,
+                "guardian_soucouyants": 1,
+                "curse_visions": 1
+            },
+            "startdescription": "The chiefest peril of Raven Isle is the soucouyants, the fallen immortals. But the way there across the sea will be hard, and the isle is full of voices which carry the curse of visions. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "description": ".",
+            "warmup": 30,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "explorevault_expeditionbegun",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explore_vaulteveningisles2_setup",
+            "label": "An Expedition to Fort Geryk",
+            "actionid": "explore",
+            "requirements": {
+                "funds": 1,
+                "follower": 1,
+                "vaulteveningisles2": 1
+            },
+            "effects": {
+                "peril_sea": 1,
+                "seal_wardeddoor": 1,
+                "guardian_dead": 1
+            },
+            "startdescription": "A crumbling sandstone fortress broods over an empty bay. At night the dead walk. By day they lie in wait. In a sealed vault, the old governor's hoard awaits its plunderer. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "description": ".",
+            "warmup": 30,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "explorevault_expeditionbegun",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explore_vaulteveningisles3_setup",
+            "label": "An Expedition to the Wreck of the Christabel",
+            "actionid": "explore",
+            "requirements": {
+                "funds": 1,
+                "follower": 1,
+                "vaulteveningisles3": 1
+            },
+            "effects": {
+                "peril_sea": 1,
+                "guardian_serpent": 1,
+                "curse_affliction": 1
+            },
+            "startdescription": "Storms have lifted the Christabel from the sea to lay it on a reef, but a wreck with such a sad end will carry a curse. And the beast that once loved it remains there still. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "description": ".",
+            "warmup": 30,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "explorevault_expeditionbegun",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explore_vaulteveningisles4_setup",
+            "label": "An Expedition to St Tentreto of the Deep Door",
+            "actionid": "explore",
+            "requirements": {
+                "funds": 1,
+                "follower": 1,
+                "vaulteveningisles4": 1
+            },
+            "effects": {
+                "seal_hiddendoor": 1,
+                "guardian_monks": 1,
+                "curse_visions": 1
+            },
+            "startdescription": "The monks of St Tentreto will not be inclined to allow us to pass. They will hide their treasures well, and if we manage to seize them, no doubt they will pursue us with curses. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "description": ".",
+            "warmup": 30,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "explorevault_expeditionbegun",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explore_vaulteveningislesdefault_setup",
+            "label": "An Expedition to Port Noon",
+            "actionid": "explore",
+            "requirements": {
+                "funds": 1,
+                "follower": 1,
+                "vaulteveningislesdefault": 1
+            },
+            "effects": {
+                "peril_sea": 1,
+                "seal_wardeddoor": 1,
+                "guardian_long": 1,
+                "curse_visions": 1
+            },
+            "startdescription": "If we can cross the sea to Port Noon, if we can defeat the Long who do not die, if we can breach their private vaults, still we must resist the temptation of visions. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "description": ".",
+            "warmup": 30,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "explorevault_expeditionbegun",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaulteveningisles1_success",
+            "label": "Raven Feathers",
+            "actionid": "explore",
+            "requirements": {
+                "vaulteveningisles1": 1
+            },
+            "effects": {
+                "vaulteveningisles1": -1
+            },
+            "internaldeck": {
+                "spec": [
+                    "manualdeparturevak",
+                    "toolgrailf",
+                    "fivecreationsvak",
+                    "originsofhoursvak"
+                ],
+                "draws": 4,
+                "defaultcard": "compensationd",
+                "resetonexhaustion": false
+            },
+            "startdescription": "A mountain cave befouled by soucouyants. On the walls they have scrawled their sad histories, in a hundred languages, in script of striking elegance: the creatures they were, the histories they owned, the children they mourn.",
+            "description": "At the back of the cave, the soucouyants have made a sort of museum-nest. The fine clothes they wore once, adorned now with raven feathers. A little miscellany of cameo portraits and rotting family albums. A few items of power.",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "explorevaulteveningisles2_success",
+            "label": "The Governor's Last Move",
+            "actionid": "explore",
+            "requirements": {
+                "vaulteveningisles2": 1
+            },
+            "effects": {
+                "vaulteveningisles2": -1
+            },
+            "internaldeck": {
+                "spec": [
+                    "bighufffucine",
+                    "toolforgef",
+                    "timedivisionmandaic",
+                    "ingredientheartf"
+                ],
+                "draws": 4,
+                "defaultcard": "compensationd",
+                "resetonexhaustion": false
+            },
+            "startdescription": "The vault of Fort Geryk. A mosaic has been laid out as a game board of stupendous size and complexity: a map of the Evening Isles. The sea-tiles are lapis; the islands are nephrite and obsidian. There are toy ships and tin soldiers. The isle of St Thomas is sieged. Raven Isle is crowded with black chess-queens.",
+            "description": "Among the game-pieces, items of true power have been used as temporary markers. Was this an attempt to hide them? Or did the Governor know nothing of their real worth?",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "explorevaulteveningisles3_success",
+            "label": "A Closed Eye",
+            "actionid": "explore",
+            "requirements": {
+                "vaulteveningisles3": 1
+            },
+            "effects": {
+                "vaulteveningisles3": -1
+            },
+            "internaldeck": {
+                "spec": [
+                    "bookextinguishedheartmandaic",
+                    "bookwhitecatphrygian",
+                    "toolknockf",
+                    "ingredientgrailf"
+                ],
+                "draws": 4,
+                "defaultcard": "compensationd",
+                "resetonexhaustion": false
+            },
+            "startdescription": "The ship still stinks of the sea. A sluggish octopus crawls from our lamp-light. The timbers are half-coral. Where are the bodies of the crew? Only one survivor was recorded. Did the serpent devour the rest?",
+            "description": "We've found the captain's cabin. The log-book is here, but its pages are a mass of salt-caked pulp. Someone has scratched a closed-eye symbol on the desk where it was chained. Beneath the symbol is a hidden drawer in the desk, which we can wrench open to loot its treasures...",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "explorevaulteveningisles4_success",
+            "label": "The First Tremors",
+            "actionid": "explore",
+            "requirements": {
+                "vaulteveningisles4": 1
+            },
+            "effects": {
+                "vaulteveningisles4": -1
+            },
+            "internaldeck": {
+                "spec": [
+                    "scarskyfucine",
+                    "toollanternf",
+                    "birdsongphrygian",
+                    "commandspreservationallexistsmandaic"
+                ],
+                "draws": 4,
+                "defaultcard": "compensationd",
+                "resetonexhaustion": false
+            },
+            "startdescription": "Here we are in the cave of the deep sea-pool, beneath the monastery. Dark water shivers in the light of our lamps. As we approach, the level of the water suddenly drops. There are no tides in this sea. What's happening?",
+            "description": "We have profaned the cave! Already the Hours withdraw their blessing. The water sinks away, leaving the pool empty. Offerings lie on its bed. We must snatch them up quickly. Already the first tremors have begun - the forerunners of the long-delayed earthquake that the monks held at bay for so long.",
+            "warmup": 30,
+            "craftable": false
+        },
+        {
+            "id": "explorevaulteveningislesdefault_success",
+            "label": "All the Way from Gallaecia",
+            "actionid": "explore",
+            "requirements": {
+                "vaulteveningislesdefault": 1
+            },
+            "effects": {
+                "vaulteveningislesdefault": -1
+            },
+            "deckeffects": {
+                "vaultrewardsg": 3
+            },
+            "startdescription": "This is the secret sub-cellar of the Hotel Ciervo. The walls are whitewashed; the floor is freshly scrubbed; shelves bulge with oddities. A caged man with a wild beard peers morosely at you from the corner. 'Again?' he says. 'Or are you a different lot? No, I don't need rescuing, thank you. It's much worse out there.' ",
+            "description": "'Grab what you can, quickly!' the caged man hisses. 'They'll be back soon. Only please leave the gladius. I brought that all the way from Gallaecia, back in the day. There, that shelf's good. Hurry, they're coming! You can escape up the delivery stairs.'",
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "expeditionascensionheartf",
+                    "chance": 100
+                },
+                {
+                    "id": "expeditionascensionmothf",
+                    "chance": 100
+                }
+            ]
+        }
+    ]
 }

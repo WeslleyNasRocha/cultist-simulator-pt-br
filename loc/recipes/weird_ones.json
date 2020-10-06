@@ -1,59 +1,59 @@
 {
-   "recipes":[
-      {
-         "id":"health_expel_to_scar",
-         "label":"Salute: Ferita",
-         "actionId":"scar_ability",
-         "startdescription":"Il mio corpo sta cambiando...",
-         "description":"Alcuni movimenti lasciano un marchio più profondo di altri. [La Salute è cambiata permanentemente in una Ferita. Attenzione: Malattia e Inedia non vengono soddisfatte dalle Ferite.]",
-         "requirements":{
-            "health":1
-         },
-         "aspects":{
-            "scarability":1
-         },
-         "warmup":10
-      },
-      {
-         "id":"passion_expel_to_scar",
-         "label":"Passione: Ferita",
-         "actionId":"scar_ability",
-         "startdescription":"I miei sentimenti mi stanno cambiando...",
-         "description":"I miei pensieri legano la carne e lo spirito più strettamente di quanto non sia sicuro. [La Passione è cambiata permanentemente in una Ferita.]",
-         "requirements":{
-            "passion":1
-         },
-         "aspects":{
-            "scarability":1
-         },
-         "warmup":10
-      },
-      {
-         "id":"expel_independent",
-         "label":"Prudentemente Ignaro",
-         "actionId":"expel_independent",
-         "startdescription":"Il mio Rivale non può sapere cosa l'aspetta.",
-         "warmup":1
-      },
-      {
-         "id":"expel_corpses",
-         "label":"Un'Ombra Fragile",
-         "actionId":"expel_corpse",
-         "requirements":{
-            "corpse":1
-         },
-         "startdescription":"Vi sono menzogne.",
-         "warmup":1
-      },
-      {
-         "id":"expel_injury",
-         "label":"Una Scia di Sangue",
-         "actionId":"expel_injury",
-         "requirements":{
-            "injury":1
-         },
-         "startdescription":"Il dolore è l'ultimo dono.",
-         "warmup":1
-      }
-   ]
+    "recipes": [
+        {
+            "id": "health_expel_to_scar",
+            "label": "Health: Scarred",
+            "actionid": "scar_ability",
+            "startdescription": "My body is changing...",
+            "description": "Some movements leave a deeper mark than others. [Health has permanently changed to a Scar. Be careful: Sickness and Starvation are not satisfied by Scars.]",
+            "requirements": {
+                "health": 1
+            },
+            "aspects": {
+                "scarability": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "passion_expel_to_scar",
+            "label": "Passion: Scarred",
+            "actionid": "scar_ability",
+            "startdescription": "My sentiments are changing me...",
+            "description": "My thoughts bind my flesh and my spirit more tightly than is safe. [Passion has permanently changed to a Scar.]",
+            "requirements": {
+                "passion": 1
+            },
+            "aspects": {
+                "scarability": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "expel_independent",
+            "label": "Safely Unaware",
+            "actionid": "expel_independent",
+            "startdescription": "My Rival cannot know what awaits them.",
+            "warmup": 1
+        },
+        {
+            "id": "expel_corpses",
+            "label": "A Frail Shadow",
+            "actionid": "expel_corpse",
+            "requirements": {
+                "corpse": 1
+            },
+            "startdescription": "There it lies.",
+            "warmup": 1
+        },
+        {
+            "id": "expel_injury",
+            "label": "A Trail of Blood",
+            "actionid": "expel_injury",
+            "requirements": {
+                "injury": 1
+            },
+            "startdescription": "Pain is the last gift.",
+            "warmup": 1
+        }
+    ]
 }

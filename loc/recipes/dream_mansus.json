@@ -1,1518 +1,1518 @@
 {
-   "recipes":[
-      {
-         "id":"dreamstartingpassion",
-         "label":"La Strada al Chiaro di Luna",
-         "actionId":"dream",
-         "requirements":{
-            "passion":1
-         },
-         "slots":[
-            {
-               "id":"Lore",
-               "label":"Tradizione",
-               "description":"Se mi dedicassi a pratiche occulte prima di andare a dormire, potrei trovare la strada per i sogni più profondi.",
-               "required":{
-                  "lore":1,
-                  "waywood":1
-               }
-            }
-         ],
-         "startdescription":"Conosco questo sogno. Una strada segue la cima di una collina, e l'aria è luminosa come l'argento...",
-         "description":"Campi arruffati, l'occhiolino di un fiume. Un freddo pizzicante.",
-         "alt":[
-            {
-               "id":"dreamreachwoodknock",
-               "chance":100
-            },
-            {
-               "id":"dreamreachwoodlantern",
-               "chance":100
-            },
-            {
-               "id":"dreamreachwoodmoth",
-               "chance":100
-            },
-            {
-               "id":"dreamenterwood",
-               "chance":100
-            }
-         ],
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ],
-         "warmup":60,
-         "craftable":true,
-         "burnimage":"moon",
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dreamreachwoodmoth",
-         "label":"La Strada dell'Ipocisto",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "moth":3
-         },
-         "comments":"requirement 3, not 2, because there's already moth in the mix.",
-         "startdescription":"Potrei tagliarmi una ciocca di capelli prima di andare a dormire, in onore del potere della Foresta.",
-         "description":"La strada si nasconde tra gli alberi. Pallide ali si muovono nel profondo del bosco. Ora inciampo tra le radici. Ho la tentazione di gettarmi a gattoni, per evitare i rami più bassi. La luna passa oltre le foglie nere, sebbene le sue dita rimangano tra i miei capelli. Non dimenticherò la strada per questo luogo.",
-         "effects":{
-            "waywood":1,
-            "influencemoth":1
-         },
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dreamreachwoodknock",
-         "label":"La Strada del Serpente",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "knock":2
-         },
-         "startdescription":"I fabbri spesso hanno il Sogno dopo essersi feriti la pianta del piede - specialmente nel caso vengano morsi da un serpente. Potrei provarci.",
-         "description":"Zoppico lungo la strada, e, in seguito, vedo il serpente nel fossato. Lo seguo attraverso i luoghi desolati e nel labirinto di radici. Capelli mi spazzolano la faccia, forse è muschio pendente. Mi piego, per avvicinarmi alla terra, come la mia guida. Non dimenticherò la strada per questo luogo.",
-         "effects":{
-            "waywood":1,
-            "influencemoth":1
-         },
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dreamreachwoodlantern",
-         "label":"La Strada Decolorata",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "lantern":2
-         },
-         "startdescription":"Potrei dormire in una stanza senza colori: candeggiare le lenzuola, imbiancare le pareti, tingere i capelli e sbiancare la pelle.",
-         "description":"'I Colori esistono solamente dove vi è luce': e la Foresta è il luogo dove la luce non cammina. Nel sogno, chiudo i miei occhi e cammino, inciampando, ferendomi i piedi e le ginocchia. Il sottobosco davanti a me è troppo denso per passarci e, quando apro i miei occhi, sono alla deriva tra gli alberi neri. Ombre svolazzano. I miei piedi conosceranno la strada per questo luogo.",
-         "effects":{
-            "waywood":1,
-            "influencemoth":1
-         },
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dreamusewoodway",
-         "label":"La Via per la Foresta",
-         "actionId":"dream",
-         "requirements":{
-            "waywood":1
-         },
-         "slots":[
-            {
-               "id":"Path",
-               "label":"Sentiero",
-               "description":"Utilizza la Passione per entrare nella Foresta - o, con la giusta tradizione, trova la strada per la Porta Bianca, la porta dove i morti si affollano.",
-               "required":{
-                  "lore":1,
-                  "passion":1
-               }
-            }
-         ],
-         "startdescription":"Se ho abbastanza Passione, posso camminare la strada onirica per la Foresta. Se posseggo le giuste conoscenze, potrei trovare la strada oltre ad essa.",
-         "description":"Le acque della Foresta scorrono fredde e profonde, ma mai limpide. La memoria da sola non mi porterà qui meccanicamente. Devo impiegare la mia Passione. Ora vado alla deriva in altri sogni.",
-         "aspects":{
-            "fatiguing":1
-         },
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            },
-            {
-               "id":"dreamenterwood",
-               "chance":100
-            },
-            {
-               "id":"dreamreachwhitelantern",
-               "chance":100
-            },
-            {
-               "id":"dreamreachwhiteknock",
-               "chance":100
-            },
-            {
-               "id":"dreamreachwhitewinter",
-               "chance":100
-            },
-            {
-               "id":"dreamnotquitereachwhitelantern",
-               "chance":100
-            },
-            {
-               "id":"dreamnotquitereachwhiteknock",
-               "chance":100
-            },
-            {
-               "id":"dreamnotquitereachwhitewinter",
-               "chance":100
-            }
-         ],
-         "craftable":true,
-         "warmup":60,
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"dreamenterwood",
-         "label":"Entra nella Foresta",
-         "actionId":"dream",
-         "craftable":false,
-         "requirements":{
-            "waywood":1,
-            "passion":1
-         },
-         "startdescription":"Passo in mezzo ad alberi dalla corteccia ferita. La luna si nasconde dietro ai rami, sebbene le sue dita rimangano tra i miei capelli. Ora inciampo tra le radici. Ho la tentazione di gettarmi a gattoni, per evitare i rami bassi. Pallide ali si muovono nel profondo della notte.",
-         "description":".",
-         "portaleffect":"Wood",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "warmup":0,
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dreamnotquitereachwhitelantern",
-         "label":"La Luce nella Foresta: Insufficiente!",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "lantern":1
-         },
-         "startdescription":"C'è una Casa nella Foresta. Questo è quanto so. Vedo una luce tra gli alberi...",
-         "description":"La mia pelle onirica è perforata, nel sogno, da spine oniriche. Il mio letto sarà macchiato di sangue quando mi sveglierò. Questo è l'approccio giusto, ma devo scoprire come viaggiare più a lungo. Ora scivolo in altri sogni.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ],
-         "aspects":{
-            "fatiguing":1
-         },
-         "warmup":10
-      },
-      {
-         "id":"dreamreachwhitelantern",
-         "label":"Avvicinati Alla Porta Bianca",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "lantern":4
-         },
-         "startdescription":"C'è una Casa nella Foresta. So qualcosa di questa Casa. Ma è abbastanza per trovare la strada per le sue luci?",
-         "description":"Questi sono i Limiti della Casa, con le loro nebbie e le loro tracce. Questa è la roccia chiamata il Tempio della Ruota, alta come la guglia di una chiesa, macchiata di licheni neri e imbrattata da marchi a forma d'occhio. La supero, e davanti a me si staglia la Porta Bianca. La luce della Casa fugge dai suoi bordi.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "effects":{
-            "waywhite":1
-         },
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dreamnotquitereachwhiteknock",
-         "label":"La Luce nella Foresta: Insufficiente!",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "knock":1
-         },
-         "startdescription":"C'è una Casa nella Foresta. Questo è quanto so. Vedo una luce tra gli alberi...",
-         "description":"La mia pelle onirica è perforata, nel sogno, da spine oniriche. Il mio letto sarà macchiato di sangue quando mi sveglierò. Questo è l'approccio giusto, ma devo scoprire come viaggiare più a lungo. Ora scivolo in altri sogni.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ],
-         "warmup":10,
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dreamreachwhiteknock",
-         "label":"Avvicinati Alla Porta Bianca",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "knock":4
-         },
-         "startdescription":"C'è una Casa nella Foresta. Conosco abbastanza storie del Colpo per trovare i percorsi nascosti nel groviglio degli alberi.",
-         "description":"Questi sono i Limiti della Casa, con le loro nebbie e le loro tracce. Questa è la roccia chiamata il Tempio della Ruota, alta come la guglia di una chiesa, macchiata di licheni neri e imbrattata da marchi a forma d'occhio. La supero, e davanti a me si staglia la Porta Bianca: aperta, come fu prescritto molto tempo fa.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "effects":{
-            "waywhite":1
-         },
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dreamnotquitereachwhitewinter",
-         "label":"La Luce nella Foresta: Insufficiente!",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "winter":1
-         },
-         "startdescription":"C'è una Casa nella Foresta. Questo è quanto so. Vedo una luce tra gli alberi...",
-         "description":"La mia pelle onirica è perforata, nel sogno, da spine oniriche. Il mio letto sarà macchiato di sangue quando mi sveglierò. Questo è l'approccio giusto, ma devo scoprire come viaggiare più a lungo. Ora scivolo in altri sogni.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ],
-         "aspects":{
-            "fatiguing":1
-         },
-         "warmup":10
-      },
-      {
-         "id":"dreamreachwhitewinter",
-         "label":"Avvicinati Alla Porta Bianca",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "winter":4
-         },
-         "startdescription":"C'è una Casa nella Foresta, e una porta alla quale giungono, talvolta, i Morti. Ho letto dei percorsi che questi, i Morti, prendono.",
-         "description":"Questi sono i Limiti della Casa, con le loro nebbie e le loro tracce. Questa è la roccia chiamata il Tempio della Ruota, alta come la guglia di una chiesa, macchiata di licheni neri e imrattata da marchi a forma d'occhio. La supero, e davanti a me si staglia la Porta Bianca, raggiante come la luna d'Inverno.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "effects":{
-            "waywhite":1
-         },
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dreamusewhiteway",
-         "label":"La Via per la Porta Bianca",
-         "actionId":"dream",
-         "requirements":{
-            "waywhite":1
-         },
-         "slots":[
-            {
-               "id":"Ascent",
-               "label":"Ascesa",
-               "description":"Spendi Salute per oltrepassare la Porta bianca - o segui il tuo desiderio fino alla Porta del Cervo, la porta dei Sapienti.",
-               "required":{
-                  "desire":1,
-                  "health":1
-               }
-            }
-         ],
-         "startdescription":"Nei miei sogni conosco il cammino per la Porta Bianca, attraverso i Limiti. Ma il percorso è affollato dai Morti che passano per quella via. Avrò bisogno di Salute per resistere al loro gelo.",
-         "description":"Lo stretto sentiero è affollato da figure lente - l'aria trema per i loro sospiri. Il mio sangue è raggelato. Devo tornare indietro. Ora scivolo in altri sogni.",
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ],
-         "craftable":true,
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            },
-            {
-               "id":"dreamenterwhite",
-               "chance":100
-            },
-            {
-               "id":"dreamreachstagfirst",
-               "chance":100
-            },
-            {
-               "id":"dreamreachstagsubsequent",
-               "chance":100
-            }
-         ],
-         "warmup":60,
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dreamenterwhite",
-         "label":"Entra nella Porta Bianca",
-         "actionId":"dream",
-         "craftable":false,
-         "requirements":{
-            "waywhite":1,
-            "health":1
-         },
-         "startdescription":"Ora posso avvicinarmi alla Porta Bianca attraversando i Limiti. Ora posso premere le mia dita su di essa, sentire il suo gelo, guardarla aprirsi. Alla sua apertura, la mia bocca si chiude, serrata, cicatrizzata come una deformità rimossa. Intorno e sopra di me la luce cobalto del Mansus...",
-         "description":".",
-         "portaleffect":"whitedoor",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "warmup":0,
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dreamreachstagfirst",
-         "label":"Verso la Porta del Cervo",
-         "actionId":"dream",
-         "requirements":{
-            "waywhite":1,
-            "desire":1
-         },
-         "extantreqs":{
-            "waystagbefore_1":-1,
-            "waystagbefore_2":-1,
-            "waystagbefore_3":-1,
-            "waystagbefore_4":-1,
-            "waystagbefore_5":-1,
-            "waystag_after":-1
-         },
-         "startdescription":"L'ascesa è lenta. Venti dal nulla mi pizzicano. La mia pelle è chiazzata dalla luce. La Foresta rabbrividisce dai movimenti al di sotto di essa.",
-         "description":"La Porta del Cervo: una barriera increspata da corna striate di sangue, abbastanza grande da farci passare una nave. Era rotta molto tempo fa, e anche adesso le ferite non si sono totalmente rimarginate. In un declivio oltre la porta, riposa una grande Testa dorata ferita. Le sue fauci sarebbero abbastanza larghe da ingoiarmi, se non avesse la mascella in frantumi. Il suo Nome è Ghirbi, ed intona il suo enigma.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "deckeffects":{
-            "stagriddles":1
-         },
-         "warmup":30,
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dreamreachstagsubsequent",
-         "label":"Alla Porta del Cervo, di Nuovo",
-         "actionId":"dream",
-         "requirements":{
-            "waywhite":1,
-            "desire":1
-         },
-         "startdescription":"Ho già compiuto questa ascesa. Non mi sarà di alcun profitto. Dovrei rispondere all'Enigma se devo, o utilizzare la Via per la Porta del Cervo se posso.",
-         "description":"La Porta del Cervo: una barriera increspata da corna striate di sangue, abbastanza grande da farci passare una nave. Era rotta molto tempo fa, e anche adesso le ferite non si sono totalmente rimarginate. In un declivio oltre la porta, riposa una grande Testa dorata ferita Testa dorata. Il suo Nome è Ghirbi. Ha intonato il suo enigma, al quale dovrò rispondere se ho intenzione di entrare nella Porta del Cervo. [Sogna con l'Enigma per rispondergli, o con Via: la Porta del Cervo se gli hai già risposto.]",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "warmup":10,
-         "aspects":{
-            "fatiguing":1
-         }
-      },
-      {
-         "id":"dream_answerstagriddle_router",
-         "actionId":"dream",
-         "label":"L'Enigma di Ghirbi",
-         "requirements":{
-            "riddle":1
-         },
-         "slots":[
-            {
-               "id":"Answer",
-               "label":"Risposta",
-               "required":{
-                  "lore":1
-               }
-            }
-         ],
-         "startdescription":"Nei miei sogni sarò, di nuovo, di fronte alla Porta del Cervo: una barriera increspata da corna striate di sangue, rotta molto tempo fa, non ancora risanata. La Testa, grande e dorata, Ghirbi, attenderà la risposta all'enigma.",
-         "description":"La Testa è silente. La Porta rimane chiusa. Ora scivolo verso altri sogni.",
-         "aspects":{
-            "fatiguing":1
-         },
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ],
-         "alt":[
-            {
-               "id":"dream_answerstagriddle_1",
-               "chance":100
-            },
-            {
-               "id":"dream_answerstagriddle_1",
-               "chance":100
-            },
-            {
-               "id":"dream_answerstagriddle_2",
-               "chance":100
-            },
-            {
-               "id":"dream_answerstagriddle_3",
-               "chance":100
-            },
-            {
-               "id":"dream_answerstagriddle_4",
-               "chance":100
-            },
-            {
-               "id":"dream_answerstagriddle_5",
-               "chance":100
-            },
-            {
-               "id":"dream_wronganswerstagriddle",
-               "chance":100
-            }
-         ],
-         "warmup":60,
-         "comments":"Route through this to answer riddle.",
-         "craftable":true
-      },
-      {
-         "id":"dream_answerstagriddle_1",
-         "label":"Un Filo in un Labirinto",
-         "actionId":"dream",
-         "requirements":{
-            "waystagbefore_1":1,
-            "fragmentmothc":1
-         },
-         "startdescription":"'Vi sono molte risposte a questa domanda, come sanno i trituratori di pelle. Qui c'è la mia...'",
-         "description":"La Porta digrigna spostandosi di lato. La luce dell'Osservatore mi inonda dal corridoio interno. Sento un gemito provenire dalla Testa, Ghirbi. Lacrime di bronzo fuso colano dai suoi occhi e rotolano giù dalle guance, bruciando il terreno sottostante. Posso entrare!",
-         "effects":{
-            "riddle":-1,
-            "waystag_after":1,
-            "reason":1
-         },
-         "linked":[
-            {
-               "id":"dreamenterstag",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"dream_answerstagriddle_2",
-         "label":"Una Risposta Implacabile",
-         "actionId":"dream",
-         "requirements":{
-            "waystagbefore_2":1,
-            "fragmentlanternc":1
-         },
-         "startdescription":"'Solo nell'ombra.'",
-         "description":"La Porta digrigna spostandosi di lato. La luce dell'Osservatore mi inonda dal corridoio interno. Sento un gemito provenire dalla Testa, Ghirbi. Lacrime di bronzo fuso colano dai suoi occhi e rotolano giù dalle guance, bruciando il terreno sottostante. Posso entrare!",
-         "effects":{
-            "riddle":-1,
-            "waystag_after":1,
-            "reason":1
-         },
-         "linked":[
-            {
-               "id":"dreamenterstag",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"dream_answerstagriddle_3",
-         "actionId":"dream",
-         "label":"Una Risposta Desiderabile",
-         "requirements":{
-            "waystagbefore_3":1,
-            "fragmentgrailc":1
-         },
-         "startdescription":"'Ecco le parole...'",
-         "description":"La Porta digrigna spostandosi di lato. La luce dell'Osservatore mi inonda dal corridoio interno. Sento un gemito provenire dalla Testa, Ghirbi. Lacrime di bronzo fuso colano dai suoi occhi e rotolano giù dalle guance, bruciando il terreno sottostante. Posso entrare!",
-         "effects":{
-            "riddle":-1,
-            "waystag_after":1,
-            "reason":1
-         },
-         "linked":[
-            {
-               "id":"dreamenterstag",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"dream_answerstagriddle_4",
-         "actionId":"dream",
-         "label":"Una Risposta del Serpente",
-         "requirements":{
-            "waystagbefore_4":1,
-            "fragmentknockc":1
-         },
-         "startdescription":"'Io stesso devo essere aperto. Osserva il mio sangue sparso.'",
-         "description":"La Porta digrigna spostandosi di lato. La luce dell'Osservatore mi inonda dal corridoio interno. Sento un gemito provenire dalla Testa, Ghirbi. Lacrime di bronzo fuso colano dai suoi occhi e rotolano giù dalle guance, bruciando il terreno sottostante. Posso entrare!",
-         "effects":{
-            "riddle":-1,
-            "waystag_after":1,
-            "reason":1
-         },
-         "linked":[
-            {
-               "id":"dreamenterstag",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"dream_answerstagriddle_5",
-         "actionId":"dream",
-         "label":"Una Risposta dalle Storie",
-         "requirements":{
-            "waystagbefore_5":1,
-            "fragmentsecrethistoriesc":1
-         },
-         "startdescription":"'Il suo cuore è sepolto in un'altra Storia.'",
-         "description":"La Porta digrigna spostandosi di lato. La luce dell'Osservatore mi inonda dal corridoio interno. Sento un gemito provenire dalla Testa, Ghirbi. Lacrime di bronzo fuso colano dai suoi occhi e rotolano giù dalle guance, bruciando il terreno sottostante. Posso entrare!",
-         "effects":{
-            "riddle":-1,
-            "waystag_after":1,
-            "reason":1
-         },
-         "linked":[
-            {
-               "id":"dreamenterstag",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"dream_wronganswerstagriddle",
-         "actionId":"dream",
-         "label":"Questa Non è la Risposta",
-         "requirements":{
-            "lore":1
-         },
-         "startdescription":"Ghirbi è caduto molto lontano. Non può entrare nella Casa, e una delle sue poche soddisfazioni è negarne l'ingresso. È troppo onorevole per sbeffeggiarmi, ma leggo la soddisfazione nei suoi occhi dorati. 'Questa non è,' dice soddisfatto, 'la risposta.'",
-         "description":"Sono sveglio. I miei occhi sono aperti, e la Porta del Cervo rimane chiusa. Ora scivolo in altri sogni.",
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"dreamusestagway",
-         "label":"La Via per la Porta del Cervo",
-         "actionId":"dream",
-         "requirements":{
-            "waystag_after":1
-         },
-         "slots":[
-            {
-               "id":"Ascent",
-               "label":"Ascesa",
-               "description":"Spendi la Ragione per oltrepassare la Porta del Cervo - o, con la giusta tradizione, trova la via per la Porta del Ragno, la porta sulla quale viene versato il sangue.",
-               "required":{
-                  "reason":1,
-                  "lore":1
-               }
-            }
-         ],
-         "startdescription":"Nei miei sogni conosco la via per la Porta del Cervo, oltre il labirinto dei Limiti. Ghirbi mi lascerà passare, ma il percorso è sempre un puzzle. Avrò bisogno di usare la mia Ragione.",
-         "description":"Qui nelle alte e secche strade secondarie dei Limiti vi sono diecimila di anni di insidie e intricate fessure. La mia Ragione vacilla. Mi sveglierà senza aver visto la Porta. Ora scivolo in altri sogni.",
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ],
-         "craftable":true,
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            },
-            {
-               "id":"dreamenterstag",
-               "chance":100
-            },
-            {
-               "id":"dreamreachspiderlantern",
-               "chance":100
-            },
-            {
-               "id":"dreamreachspiderknock",
-               "chance":100
-            },
-            {
-               "id":"dreamreachspidergrail",
-               "chance":100
-            },
-            {
-               "id":"dreamnotquitereachspiderlantern",
-               "chance":100
-            },
-            {
-               "id":"dreamnotquitereachspiderknock",
-               "chance":100
-            },
-            {
-               "id":"dreamnotquitereachspidergrail",
-               "chance":100
-            }
-         ],
-         "warmup":60
-      },
-      {
-         "id":"dreamenterstag",
-         "label":"Entra nella Porta del Cervo",
-         "actionId":"dream",
-         "craftable":false,
-         "requirements":{
-            "waystag_after":1,
-            "reason":1
-         },
-         "aspects":{
-            "fatiguing":1
-         },
-         "startdescription":"La Porta del Cervo è il Cancello dell'Adepto. Passarlo significa essere iniziati ai primi veri misteri della Casa del Sole. La Testa, Ghirbi, piange a vedermi entrare dove egli non può: ma deve lasciarmi passare. Le valvole ferite della Porta si aprono digrignando.",
-         "description":".",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "portaleffect":"stagdoor",
-         "warmup":30
-      },
-      {
-         "id":"dreamnotquitereachspiderlantern",
-         "label":"Le Sabbie di Seta: Insufficiente!",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "lantern":1
-         },
-         "startdescription":"Nei sogni le Sabbie di Seta sono i luoghi che sussurrano. Grani grigi volano, erbe grigie tremano. Ho letto dei tracciati angolari che devono essere seguiti, dei residenti delle Sabbie: arcuati, invisibili, lenti...",
-         "description":"Le Sabbie ingoiano i miei passi. Volano ovunque, bloccano la bocca e riempiono gli occhi... Mi sveglierò con la lingua riarsa e la gola dolorosamente secca. Questo è l'approccio giusto, ma devo conoscere di più per viaggiare più in alto. Ora scivolo in altri sogni.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ],
-         "warmup":10
-      },
-      {
-         "id":"dreamreachspiderlantern",
-         "label":"Avvicinati Alla Porta del Ragno",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "lantern":8
-         },
-         "startdescription":"Nei sogni le Sabbie di Seta sono i luoghi che sussurrano. Grani grigi volano, erbe grigie tremano. Ho letto dei tracciati angolari che devono essere seguiti, dei residenti delle Sabbie: arcuati, invisibili, lenti...",
-         "description":"Le Sabbie si ritirano come acqua, e al di sotto appaiono le rocce dalle quali si ersero gli dei, molto tempo fa. Davanti a me si erge la Porta, luccicante come la pioggia, la sua nera superficie è perlata dal sangue, ogni goccia pesantemente curvata, come una zecca rigonfia.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "effects":{
-            "wayspider":1
-         }
-      },
-      {
-         "id":"dreamnotquitereachspiderknock",
-         "label":"Le Sabbie di Seta: Insufficiente!",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "knock":1
-         },
-         "startdescription":"Nei sogni le Sabbie di Seta sono i luoghi che sussurrano. Grani grigi volano, erbe grigie tremano. Conosco le parole che aprono il vento...",
-         "description":"Le Sabbie ingoiano i miei passi. Volano ovunque, bloccano la bocca e riempiono gli occhi... Mi sveglierò con la lingua riarsa e la gola dolorosamente secca. Questo è l'approccio giusto, ma devo conoscere di più per viaggiare più in alto. Ora scivolo in altri sogni.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ],
-         "warmup":10
-      },
-      {
-         "id":"dreamreachspiderknock",
-         "label":"Avvicinati Alla Porta del Ragno",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "knock":8
-         },
-         "startdescription":"Nei sogni le Sabbie di Seta sono i luoghi che sussurrano. Grani grigi volano, erbe grigie tremano. Ho letto dei tracciati angolari che devono essere seguiti, dei residenti delle Sabbie: arcuati, invisibili, lenti...",
-         "description":"Le Sabbie si ritirano come acqua, e al di sotto appaiono le rocce dalle quali si ersero gli dei, molto tempo fa. Davanti a me si erge la Porta, luccicante come la pioggia, la sua nera superficie è perlata dal sangue, ogni goccia pesantemente curvata, come una zecca rigonfia.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "effects":{
-            "wayspider":1
-         }
-      },
-      {
-         "id":"dreamnotquitereachspidergrail",
-         "label":"Le Sabbie di Seta: Insufficiente!",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "grail":1
-         },
-         "startdescription":"Nei sogni le Sabbie di Seta sono i luoghi che sussurrano. Grani grigi volano, erbe grigie tremano. La SETE è l'unica guida attraverso le Sabbie - la mia SETE, o la SETE della Porta del Ragno...",
-         "description":"Le Sabbie ingoiano i miei passi. Volano ovunque, bloccano la bocca e riempiono gli occhi... Mi sveglierò con la lingua riarsa e la gola dolorosamente secca. Questo è l'approccio giusto, ma devo conoscere di più per viaggiare più in alto. Ora scivolo in altri sogni.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ],
-         "warmup":10
-      },
-      {
-         "id":"dreamreachspidergrail",
-         "label":"Avvicinati Alla Porta del Ragno",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "grail":8
-         },
-         "startdescription":"Nei sogni le Sabbie di Seta sono i luoghi che sussurrano. Grani grigi volano, erbe grigie tremano. La SETE è l'unica guida attraverso le Sabbie - la mia SETE, o la SETE della Porta del Ragno...",
-         "description":"Le Sabbie si ritirano come acqua, e al di sotto appaiono le rocce dalle quali si ersero gli dei, molto tempo fa. Davanti a me si erge la Porta, luccicante come la pioggia, la sua nera superficie è perlata dal sangue, ogni goccia pesantemente curvata, come una zecca rigonfia.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "effects":{
-            "wayspider":1
-         }
-      },
-      {
-         "id":"dreamusespiderway",
-         "label":"La Via per la Porta del Ragno",
-         "actionId":"dream",
-         "requirements":{
-            "wayspider":1
-         },
-         "slots":[
-            {
-               "id":"Ascent",
-               "label":"Ascesa",
-               "description":"Provvedi ad un sacrificio di sangue per soddisfare la SETE della Porta del Ragno - o, con la tradizione giusta, trova la via per la Porta del Pavone, la porta dove la luce gocciola come sangue.",
-               "required":{
-                  "prisoner":1,
-                  "lore":1
-               }
-            }
-         ],
-         "startdescription":"Nei miei sogni, conosco la strada, attraverso le Sabbie di Seta, per la Porta del Ragno. Se estignuo la sua SETE, versando sangue fresco prima di dormire, si aprirà per me.",
-         "description":"Qui tra le pieghe del sogno v'è la porta, nera e splendente come l'addome di una massiccia vespa, marchiata in eterno da chiazze di sangue sempre più piccole. Non ho soddisfatto la sua SETE, e non si aprirà. Ora scivolo in altri sogni.",
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ],
-         "aspects":{
-            "fatiguing":1
-         },
-         "craftable":true,
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            },
-            {
-               "id":"dreamenterspider",
-               "chance":100
-            },
-            {
-               "id":"dreamreachpeacocklantern",
-               "chance":100
-            },
-            {
-               "id":"dreamreachpeacockknock",
-               "chance":100
-            },
-            {
-               "id":"dreamreachpeacockedge",
-               "chance":100
-            },
-            {
-               "id":"dreamnotquitereachpeacocklantern",
-               "chance":100
-            },
-            {
-               "id":"dreamnotquitereachpeacockknock",
-               "chance":100
-            },
-            {
-               "id":"dreamnotquitereachpeacockedge",
-               "chance":100
-            }
-         ],
-         "warmup":60
-      },
-      {
-         "id":"dreamenterspider",
-         "label":"Entra nella Porta del Ragno",
-         "actionId":"dream",
-         "craftable":false,
-         "requirements":{
-            "wayspider":1,
-            "prisoner":1
-         },
-         "startdescription":"La Porta del Ragno ha sempre SETE. Sempre. Il sangue che le ho dato si insinua nelle crepe, cola attraverso la pelle del mondo, la Porta lo beve, e in un momento di soddisfazione espande la sua entrata abbastanza da farmi passare.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "effects":{
-            "prisoner":-1
-         },
-         "description":".",
-         "portaleffect":"spiderdoor",
-         "warmup":0
-      },
-      {
-         "id":"dreamnotquitereachpeacocklantern",
-         "label":"Giardino di Vetro: Insufficiente!",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "lantern":1
-         },
-         "startdescription":"La luce del Sole Diviso penetra nel mio sogno, ma non abbastanza da disgelare i fiori congelati, morti da tempo, del Giardino di Vetro. Ogni passo che compio polverizza altre piante. Questa è la via percorsa un tempo dalle Ore più luminose, ma ora è silente, qui tra le nuvole...",
-         "description":"Il gelo del Giardino di Vetro mi perfora in ogni poro. Mi sveglierò raffreddato e cianotico per il freddo. Questo è l'approccio giusto, ma devo conoscere di più per viaggiare più in alto. Ora scivolo in altri sogni.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"dreamreachpeacocklantern",
-         "label":"Giardino di Vetro: Avvicinati alla Porta del Pavone",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "lantern":10
-         },
-         "startdescription":"La luce del Sole Diviso penetra nel mio sogno, ma non abbastanza da disgelare i fiori congelati, morti da tempo, del Giardino di Vetro. Ogni passo che compio polverizza altre piante. Questa è la via percorsa un tempo dalle Ore più luminose, ma ora è silente, qui tra le nuvole...",
-         "description":"La Porta del Pavone: ametista fiera e luminosa, il suo bagliore colora le forme bianco pallide del Giardino di Vetro. Questo è il punto più alto dove i mortali possono penetrare nel Mansus. Nessuna crepa danneggia la sua superficie. Questa non è una porta che si apre, sebbene, si dice, possa sanguinare luce.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "effects":{
-            "waypeacock":1
-         }
-      },
-      {
-         "id":"dreamnotquitereachpeacockknock",
-         "label":"Giardino di Vetro: Insufficiente!",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "knock":1
-         },
-         "startdescription":"La luce del Sole Diviso penetra nel mio sogno, ma non abbastanza da disgelare i fiori congelati del Giardino di Vetro. Ogni passo che compio polverizzo altre piante. Conosco quasi tutta la via...",
-         "description":"Il gelo del Giardino di Vetro mi perfora in ogni poro. Mi sveglierò raffreddato e cianotico per il freddo. Questo è l'approccio giusto, ma devo conoscere di più per viaggiare più in alto. Ora scivolo in altri sogni.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"dreamreachpeacockknock",
-         "label":"Giardino di Vetro: Avvicinati alla Porta del Pavone",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "knock":10
-         },
-         "startdescription":"La luce del Sole Diviso penetra nel mio sogno, ma non abbastanza da disgelare i fiori congelati del Giardino di Vetro. Ogni passo che compio polverizzo altre piante. Camminerò con attenzione. Ho imparato la via...",
-         "description":"La Porta del Pavone: ametista fiera e luminosa, il suo bagliore colora le forme bianco pallide del Giardino di Vetro. Questo è il punto più alto dove i mortali possono penetrare nel Mansus. Nessuna crepa danneggia la sua superficie. Questa non è una porta che si apre, sebbene, si dice, possa sanguinare luce.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "effects":{
-            "waypeacock":1
-         }
-      },
-      {
-         "id":"dreamnotquitereachpeacockedge",
-         "label":"Giardino di Vetro: Insufficiente!",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "edge":1
-         },
-         "startdescription":"La luce del Sole Diviso penetra nel mio sogno, ma non abbastanza da disgelare i fiori congelati del Giardino di Vetro. Ogni passo che compio polverizzo altre piante. Così è come dev'essere...",
-         "description":"La Porta del Pavone: ametista fiera e luminosa, il suo bagliore colora le forme bianco pallide del Giardino di Vetro. Questo è il punto più alto dove i mortali possono penetrare nel Mansus. Nessuna crepa danneggia la sua superficie. Questa non è una porta che si apre, sebbene, si dice, possa sanguinare luce. Ora scivolo in altri sogni.",
-         "linked":[
-            {
-               "id":"dream_router",
-               "chance":100
-            }
-         ],
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "warmup":10
-      },
-      {
-         "id":"dreamreachpeacockedge",
-         "label":"Giardino di Vetro: Avvicinati alla Porta del Pavone",
-         "actionId":"dream",
-         "requirements":{
-            "lore":1,
-            "edge":10
-         },
-         "startdescription":"La luce del Sole Diviso penetra nel mio sogno, ma non abbastanza da disgelare i fiori congelati del Giardino di Vetro. Ogni passo che compio polverizzo altre piante. Così è come deve essere. Sceglierò con cura i miei passi, come prescrive la tradizione...",
-         "description":"La Porta del Pavone: ametista fiera e luminosa, il suo bagliore colora le forme bianco pallide del Giardino di Vetro. Questo è il punto più alto dove i mortali possono penetrare nel Mansus. Nessuna crepa danneggia la sua superficie. Questa non è una porta che si apre, sebbene, si dice, possa sanguinare luce.",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "effects":{
-            "waypeacock":1
-         }
-      },
-      {
-         "id":"dreamusepeacockway",
-         "label":"La Via per la Porta del Pavone",
-         "actionId":"dream",
-         "requirements":{
-            "waypeacock":1
-         },
-         "slots":[
-            {
-               "id":"Ascent",
-               "label":"Ascesa",
-               "description":"La Porta del Pavone non si apre, per la precisione.",
-               "required":{
-                  "tool":1
-               }
-            }
-         ],
-         "startdescription":"Nei miei sogni conosco la strada attraverso il Giardino di Vetro per la Porta del Pavone: la più mirabile delle Porte, la Porta che splende come uno specchio. Forse, con lo strumento giusto, posso oltrepassarla. ",
-         "description":"La Porta del Pavone è viola come la più dolce delle gemme, come il più maturo dei frutti, come la prosa più profonda. Prende il mio riflesso e non restituisce nulla. Quando mi sveglierò non ricorderò il sogno.",
-         "craftable":true,
-         "aspects":{
-            "fatiguing":1
-         },
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            },
-            {
-               "id":"apostlelantern.createpillar2",
-               "chance":100
-            },
-            {
-               "id":"dreamenterpeacockmirror",
-               "chance":100
-            },
-            {
-               "id":"dreamenterpeacockfrangiclave",
-               "chance":100
-            }
-         ],
-         "warmup":60
-      },
-      {
-         "id":"dreamenterpeacockmirror",
-         "label":"Entra nella Porta del Pavone",
-         "actionId":"dream",
-         "craftable":false,
-         "requirements":{
-            "waypeacock":1,
-            "mirror":1
-         },
-         "startdescription":"La Porta del Pavone riflette lo specchio che tengo in mano, mentre lo specchio riflette la Porta del Pavone. Presto un brivido sensuale increspa la sua superficie. Soffre per la frattura, e quando troverà soddisfazione, entrerò.",
-         "description":".",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "portaleffect":"peacockdoor",
-         "aspects":{
-            "crackmirror":1
-         },
-         "warmup":0
-      },
-      {
-         "id":"dreamenterpeacockfrangiclave",
-         "label":"Entra nella Porta del Pavone",
-         "actionId":"dream",
-         "craftable":false,
-         "requirements":{
-            "waypeacock":1,
-            "toolknockf":1
-         },
-         "startdescription":"Un ronzio, come un diapason, anima la chiave nella mia mano; la Porta del Pavone geme in risposta. Presto un brivido sensuale increspa la sua superficie. Soffre per la frattura, e quando troverà soddisfazione, entrerò.",
-         "description":".",
-         "alt":[
-            {
-               "id":"poison.long.way.trap",
-               "additional":true
-            }
-         ],
-         "portaleffect":"peacockdoor",
-         "warmup":0
-      },
-      {
-         "id":"poison.long.way.trap",
-         "actionId":"poison.long.way.trap",
-         "label":"La Guardia lungo la Strada",
-         "startdescription":"Il Lungo ha posto cartografi invisibili lungo la via per osservare il mio passaggio e mapparmi, come un territorio ancora sconosciuto.",
-         "requirements":{
-            "poison.way.long":1
-         },
-         "effects":{
-            "long.lesson.dreamwork":1
-         },
-         "warmup":10
-      },
-      {
-         "id":"dreamheartvictoryintro",
-         "label":"Tamburi nella Tempesta",
-         "actionId":"dream",
-         "requirements":{
-            "sendingheartg":1
-         },
-         "startdescription":"Il vento si alza, i tetti tremano mentre mi preparo a dormire. C'è un'erba amara che mi aiuterà ad uscire dal corpo. La Foresta si apre intorno a me, ma vedo un'altra via grazie ai miei nuovi occhi. Colei che viene chiamata Marinette attende lungo la via, con la Chiave che mi concluderà e mi comincerà.",
-         "warmup":30,
-         "craftable":true,
-         "signalEndingFlavour":"Grand",
-         "slots":[
-            {
-               "id":"beloved",
-               "label":"Partner",
-               "required":{
-                  "romanticinterest":1
-               },
-               "forbidden":{
-                  "corpse":1,
-                  "notoriety":1
-               },
-               "greedy":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"dreamheartvictory_withrisen",
-               "chance":100
-            },
-            {
-               "chance":100,
-               "id":"belovedfarewelldream"
-            },
-            {
-               "id":"dreamheartvictory",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"dreamheartvictory",
-         "label":"La Porta Pelle di Re",
-         "actionId":"dream",
-         "requirements":{
-            "sendingheartg":1
-         },
-         "startdescription":"Marinette attende all'ombra di un pino, pelle nera brillante, ossa bianche luccicanti, artigli chiari come bronzo. Porta una Chiave rossa che potrebbe essere un coltello insanguinato o una ferita rubino. Quando lo abbassa, il suo dolore è totalmente rosso.",
-         "ending":"minorheartvictory",
-         "warmup":30
-      },
-      {
-         "id":"dreamheartvictory_withrisen",
-         "label":"La Porta Pelle di Re",
-         "actionId":"dream",
-         "requirements":{
-            "sendingheartg":1,
-            "summoned":1
-         },
-         "startdescription":"Marinette attende nell'ombra di un pino, pelle nera brillante, ossa bianche luccicanti, artigli chiari come bronzo. Porta una Chiave rossa che potrebbe essere un coltello insanguinato o una ferita rubino. Quando lo abbassa, il suo dolore è totalmente rosso.\n\nChi mi ha seguito osserva dall'oscurità degli alberi, la pelle è screziata e gli occhi sono diventati lampade.",
-         "ending":"minorheartvictorywithrisen",
-         "warmup":10
-      },
-      {
-         "id":"dreammothvictoryintro",
-         "label":"Tamburi nella Tempesta",
-         "actionId":"dream",
-         "requirements":{
-            "sendingmothg":1
-         },
-         "startdescription":"Scivolo per le vie oniriche familiari, finché la Foresta non diviene chiara davanti a me, con i suoi avidi alberi e le vie frangiate dalle ombre. La Porta nella Foresta giace oltre le acque del pozzo. Ora lo so. Non posso oltrepassarla da vivo e non posso oltrepassarla da Morto. Medusa, che non è né morta né viva, preparerà la strada. Io irromperò al trotto.",
-         "warmup":30,
-         "craftable":true,
-         "signalEndingFlavour":"Grand",
-         "slots":[
-            {
-               "id":"beloved",
-               "label":"Partner",
-               "required":{
-                  "romanticinterest":1
-               },
-               "forbidden":{
-                  "corpse":1,
-                  "notoriety":1
-               },
-               "greedy":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"dreammothvictory_withrisen",
-               "chance":100
-            },
-            {
-               "chance":100,
-               "id":"belovedfarewelldream"
-            },
-            {
-               "id":"dreammothvictory",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"dreammothvictory",
-         "label":"La Porta nella Foresta",
-         "actionId":"dream",
-         "requirements":{
-            "sendingmothg":1
-         },
-         "startdescription":"La luce della luna colpisce gli alberi per oscurare ciò che è contenuto nel pozzo, per limitare le radici degli alberi, per toccare gli arti gemelli di Medusa, che attende vicino al pozzo. Alza un braccio gocciolante, stringe una pallida Chiave che si dimena come un verme zannuto. Mi inchino, un cervo rosso, e offro il mio collo. Un fiotto di sangue spilla nel pozzo; e Medusa comincia a incidere la mia nuova forma.",
-         "ending":"minormothvictory",
-         "warmup":30
-      },
-      {
-         "id":"dreammothvictory_withrisen",
-         "label":"La Porta nella Foresta",
-         "actionId":"dream",
-         "requirements":{
-            "sendingmothg":1,
-            "summoned":1
-         },
-         "startdescription":"La luce della luna colpisce gli alberi per oscurare ciò che è contenuto nel pozzo, per limitare le radici degli alberi, per toccare gli arti gemelli di Medusa, che attende vicino al pozzo. Alza un braccio gocciolante, stringe una pallida Chiave che si dimena come un verme zannuto. Mi inchino, un cervo rosso, e offro il mio collo. Un fiotto di sangue spilla nel pozzo; e Medusa comincia a incidere la mia nuova forma. \n\nChi mi ha seguito osserva dall'oscurità degli alberi, la pelle è screziata e gli occhi sono diventati lampade.",
-         "ending":"minormothvictorywithrisen",
-         "warmup":10
-      },
-      {
-         "id":"dreammeniscatevictoryintro",
-         "label":"Senza le Mura",
-         "actionId":"dream",
-         "requirements":{
-            "sendingmothheartg":1
-         },
-         "startdescription":"Scivolo giù per le vie oniriche familiari, finché la Foresta non diviene chiara davanti a me, con i suoi avidi alberi e le vie frangiate dalle ombre. Ma questa non è la Foresta che conosco. Sono tutte betulle, bianche come la luce della luna, e la luce della luna è nera come l'inchiostro. Sotto la sua pressione, la bianca pelle degli alberi comincia a formare vesciche e a sanguinare. Io arrivo al trotto, poi galoppando. Devo raggiungere il Pozzo prima di svegliarmi, o prima che succeda qualcosa di peggiore...",
-         "warmup":30,
-         "craftable":true,
-         "signalEndingFlavour":"Grand",
-         "slots":[
-            {
-               "id":"beloved",
-               "label":"Partner",
-               "required":{
-                  "romanticinterest":1
-               },
-               "forbidden":{
-                  "corpse":1,
-                  "notoriety":1
-               },
-               "greedy":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"dreammeniscatevictory_withrisen",
-               "chance":100
-            },
-            {
-               "chance":100,
-               "id":"belovedfarewelldream"
-            },
-            {
-               "id":"dreammeniscatevictory",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"dreammeniscatevictory",
-         "label":"Tre",
-         "actionId":"dream",
-         "requirements":{
-            "sendingmothheartg":1
-         },
-         "startdescription":"La mia pelle si straccia. Il Pozzo è davanti a me, ma la luna sta cambiando, è nera, dorata, perlata. Il sangue del Pozzo è uno specchio rosso, e tre di loro sorgono, i loro volti sono il mio, cornuti come la Luna, il più grande tiene una chiave di zaffiro nero e quando fa a pezzi la mia pelle il mio corpo è lacerato come la luce, e CIÒ CHE È DENTRO, VUOTO; CIÒ CHE È VUOTO, DENTRO...",
-         "ending":"minormeniscatevictory",
-         "warmup":30
-      },
-      {
-         "id":"dreammeniscatevictory_withrisen",
-         "label":"Tre",
-         "actionId":"dream",
-         "requirements":{
-            "sendingmothheartg":1,
-            "summoned":1
-         },
-         "startdescription":"La mia pelle si straccia. Il Pozzo è davanti a me, ma la luna sta cambiando, è nera, dorata, perlata. Il sangue del Pozzo è uno specchio rosso, e tre di loro sorgono, i loro volti sono il mio, cornuti come la Luna, il più grande tiene una chiave di zaffiro nero e quando fa a pezzi la mia pelle il mio corpo è lacerato come la luce, e CIÒ CHE È DENTRO, VUOTO; CIÒ CHE È VUOTO, DENTRO...",
-         "ending":"minormeniscatevictorywithrisen",
-         "warmup":30
-      },
-      {
-         "id":"belovedfarewelldream",
-         "label":"La Scelta della Soglia",
-         "actionId":"dream",
-         "requirements":{
-            "romanticinterest":1
-         },
-         "startdescription":"L'addio finale. Il mio partner rimarrà, io ascenderò.",
-         "slots":[
-            {
-               "id":"decision",
-               "label":"Decisione",
-               "description":"[Aggiungi Passione per fermare l'ascesa... e vivere come mortale con il tuo partner. Non far nulla per continuare.]",
-               "required":{
-                  "passion":1
-               }
-            }
-         ],
-         "alt":[
-            {
-               "id":"auclairvictory",
-               "chance":100
-            },
-            {
-               "id":"catvictory",
-               "chance":100
-            },
-            {
-               "id":"clovettevictory",
-               "chance":100
-            },
-            {
-               "id":"cliftonvictory",
-               "chance":100
-            },
-            {
-               "id":"dorothyvictory",
-               "chance":100
-            },
-            {
-               "id":"elridgevictory",
-               "chance":100
-            },
-            {
-               "id":"enidvictory",
-               "chance":100
-            },
-            {
-               "id":"laidlawvictory",
-               "chance":100
-            },
-            {
-               "id":"leovictory",
-               "chance":100
-            },
-            {
-               "id":"nevillevictory",
-               "chance":100
-            },
-            {
-               "id":"portervictory",
-               "chance":100
-            },
-            {
-               "id":"reniravictory",
-               "chance":100
-            },
-            {
-               "id":"rosevictory",
-               "chance":100
-            },
-            {
-               "id":"salibavictory",
-               "chance":100
-            },
-            {
-               "id":"sleevictory",
-               "chance":100
-            },
-            {
-               "id":"sylviavictory",
-               "chance":100
-            },
-            {
-               "id":"tristanvictory",
-               "chance":100
-            },
-            {
-               "id":"valcianevictory",
-               "chance":100
-            },
-            {
-               "id":"victorvictory",
-               "chance":100
-            },
-            {
-               "id":"violetvictory",
-               "chance":100
-            },
-            {
-               "id":"ysabetvictory",
-               "chance":100
-            },
-            {
-               "id":"imnotinlovedream",
-               "chance":100
-            }
-         ],
-         "warmup":30
-      },
-      {
-         "id":"imnotinlovedream",
-         "label":"Dedizione",
-         "startdescription":"Forse mi ama. Forse l'amo. Forse non importa nulla di tutto ciò.",
-         "actionId":"dream",
-         "craftable":false,
-         "linked":[
-            {
-               "id":"dreammothvictory",
-               "chance":100
-            },
-            {
-               "id":"dreamheartvictory",
-               "chance":100
-            },
-            {
-               "id":"dreammeniscatevictory",
-               "chance":100
-            }
-         ]
-      }
-   ]
+    "recipes": [
+        {
+            "id": "dreamstartingpassion",
+            "label": "The Moonlit Road",
+            "actionid": "dream",
+            "requirements": {
+                "passion": 1
+            },
+            "slots": [
+                {
+                    "id": "Lore",
+                    "label": "Lore",
+                    "description": "If I engage in an occult practice before I sleep, I might find the way to deeper dream.",
+                    "required": {
+                        "lore": 1,
+                        "waywood": 1
+                    }
+                }
+            ],
+            "startdescription": "I know this dream. A road crests a hill-top, and the air is silver-bright -",
+            "description": "Rumpled fields, the wink of a river. A tingling chill.",
+            "alt": [
+                {
+                    "id": "dreamreachwoodknock",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachwoodlantern",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachwoodmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamenterwood",
+                    "chance": 100
+                }
+            ],
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "craftable": true,
+            "burnimage": "moon",
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dreamreachwoodmoth",
+            "label": "The Thyrsine Way",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "moth": 3
+            },
+            "comments": "requirement 3, not 2, because there's already moth in the mix.",
+            "startdescription": "I could cut a lock of hair before I sleep, to honour a power of the Wood.",
+            "description": "The road ducks into the trees. Pale wings move deep in the wood. I am stumbling over roots, now. It is tempting to drop to all fours, to avoid the low branches. The moon passes behind the black leaves, though her fingers remain in my hair. I will not forget the way to this place.",
+            "effects": {
+                "waywood": 1,
+                "influencemoth": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dreamreachwoodknock",
+            "label": "The Serpent's Way",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "knock": 2
+            },
+            "startdescription": "Locksmiths often have the Dream after the sole of the foot is wounded - especially if it has been snake-bitten. I could try that.",
+            "description": "I limp along the road, and so it is that I see the serpent in the ditch. I follow it across the waste places and into the root-maze. Is it hair that brushes my face, or hanging moss? I bend low, to stay close to the earth, like my guide. I will not forget the way to this place.",
+            "effects": {
+                "waywood": 1,
+                "influencemoth": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dreamreachwoodlantern",
+            "label": "The Bleached Way",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "lantern": 2
+            },
+            "startdescription": "I could sleep in a room without colours: bleach the sheets, whitewash the walls, dye my hair and paint my skin.",
+            "description": "'Colour exists only where there is light': and the Wood is the place where light does not walk. In the dream, I close my eyes, and walk, stumbling, bruising my feet and knees. At last the undergrowth before me grows too thick to pass, and when I open my eyes, I am adrift among black trees. Shadows flutter. My feet will know the way back to this place.",
+            "effects": {
+                "waywood": 1,
+                "influencemoth": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dreamusewoodway",
+            "label": "The Way to the Wood",
+            "actionid": "dream",
+            "requirements": {
+                "waywood": 1
+            },
+            "slots": [
+                {
+                    "id": "Path",
+                    "label": "Path",
+                    "description": "Employ Passion to enter the Wood - or, with the right lore, find the way to the White Door, the door where the dead throng.",
+                    "required": {
+                        "lore": 1,
+                        "passion": 1
+                    }
+                }
+            ],
+            "startdescription": "If I have enough Passion, I can walk the dream-road to the Wood. If I have the right knowledge, I might be able to find the way beyond it.",
+            "description": "The waters of the Wood run cold and deep, but never clear. Rote memory alone will not take me there. I must engage my Passion. Now I drift into other dreams.",
+            "aspects": {
+                "fatiguing": 1
+            },
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                },
+                {
+                    "id": "dreamenterwood",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachwhitelantern",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachwhiteknock",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachwhitewinter",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamnotquitereachwhitelantern",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamnotquitereachwhiteknock",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamnotquitereachwhitewinter",
+                    "chance": 100
+                }
+            ],
+            "craftable": true,
+            "warmup": 60,
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dreamenterwood",
+            "label": "Entering the Wood",
+            "actionid": "dream",
+            "craftable": false,
+            "requirements": {
+                "waywood": 1,
+                "passion": 1
+            },
+            "startdescription": "Now I pass between scar-barked trees. The moon passes behind branches, though her fingers remain in my hair. I am stumbling over roots, now. It is tempting to drop to all fours, to avoid the low branches. Pale wings move, deep in the night.",
+            "description": ".",
+            "portaleffect": "Wood",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "warmup": 0,
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dreamnotquitereachwhitelantern",
+            "label": "The Light in the Wood: Not Enough!",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "lantern": 1
+            },
+            "startdescription": "There is a House in the Wood. This much I know. Here is a light through the trees - ",
+            "description": "My dream-skin is dream-pierced by dream-thorns. My bed will be spotted with blood when I awaken. This is the right approach, but I must know more to travel further. Now I drift into other dreams.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ],
+            "aspects": {
+                "fatiguing": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "dreamreachwhitelantern",
+            "label": "Approaching The White Door",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "lantern": 4
+            },
+            "startdescription": "There is a House in the Wood. I know something of that House. Enough to find my way to its light?",
+            "description": "These are the Bounds about the House, with their mists and their traces. This the rock called the Temple of the Wheel, high as a church spire, patched with black lichen and daubed with eye-signs. I round it, and there ahead of me is the White Door. The light of the House leaks round its edges.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "waywhite": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dreamnotquitereachwhiteknock",
+            "label": "The Light in the Wood: Not Enough!",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "knock": 1
+            },
+            "startdescription": "There is a House in the Wood. This much I know. Here is a light through the trees - ",
+            "description": "My dream-skin is dream-pierced by dream-thorns. My bed will be spotted with blood when I awaken. This is the right approach, but I must know more to travel further. Now I drift into other dreams.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10,
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dreamreachwhiteknock",
+            "label": "Approaching The White Door",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "knock": 4
+            },
+            "startdescription": "There is a House in the Wood. I know enough Knock-secrets to find the hidden paths through the tangled trees.",
+            "description": "These are the Bounds about the House, with their mists and their traces. This the rock called the Temple of the Wheel, high as a church spire, patched with black lichen and daubed with eye-signs. I round it, and there ahead of me is the White Door: open, as was prescribed so long ago.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "waywhite": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dreamnotquitereachwhitewinter",
+            "label": "The Light in the Wood: Not Enough!",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "winter": 1
+            },
+            "startdescription": "There is a House in the Wood. This much I know. Here is a light through the trees - ",
+            "description": "My dream-skin is dream-pierced by dream-thorns. My bed will be spotted with blood when I awaken. This is the right approach, but I must know more to travel further. Now I drift into other dreams.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ],
+            "aspects": {
+                "fatiguing": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "dreamreachwhitewinter",
+            "label": "Approaching The White Door",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "winter": 4
+            },
+            "startdescription": "There is a House in the Wood, and a door where the Dead sometimes go. I have read of the paths the Dead take.",
+            "description": "These are the Bounds about the House, with their mists and their traces. This the rock called the Temple of the Wheel, high as a church spire, patched with black lichen and daubed with eye-signs. I round it, and there ahead of me is the White Door, aglow like the moon in Winter.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "waywhite": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dreamusewhiteway",
+            "label": "The Way to the White Door",
+            "actionid": "dream",
+            "requirements": {
+                "waywhite": 1
+            },
+            "slots": [
+                {
+                    "id": "Ascent",
+                    "label": "Ascent",
+                    "description": "Invest Health to pass the White Door - or follow desire to the Stag Door, the door of the Know.",
+                    "required": {
+                        "desire": 1,
+                        "health": 1
+                    }
+                }
+            ],
+            "startdescription": "In my dreams, I know the path to the White Door, through the Bounds. But that path is thronged with the Dead who pass that way. I will need Health to resist their chill.",
+            "description": "The narrow path is crowded with slow shapes - the air shivers with their sighs. My blood is thicked with cold. I must turn back. Now I drift into other dreams.",
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ],
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                },
+                {
+                    "id": "dreamenterwhite",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachstagfirst",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachstagsubsequent",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dreamenterwhite",
+            "label": "Entering the White Door",
+            "actionid": "dream",
+            "craftable": false,
+            "requirements": {
+                "waywhite": 1,
+                "health": 1
+            },
+            "startdescription": "Now I can approach the White Door through the Bounds. Now I can press my fingers to it, feel its chill, watch it swing open. As it opens, my mouth closes, tightens, heals over like a lost deformity. Around and about me is the cobalt light of the Mansus...",
+            "description": ".",
+            "portaleffect": "whitedoor",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "warmup": 0,
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dreamreachstagfirst",
+            "label": "To the Stag Door",
+            "actionid": "dream",
+            "requirements": {
+                "waywhite": 1,
+                "desire": 1
+            },
+            "extantreqs": {
+                "waystagbefore_1": -1,
+                "waystagbefore_2": -1,
+                "waystagbefore_3": -1,
+                "waystagbefore_4": -1,
+                "waystagbefore_5": -1,
+                "waystag_after": -1
+            },
+            "startdescription": "The ascent is slow. Winds from nowhere pluck at me. My skin is stained with light. The Wood shivers with motion, far below.",
+            "description": "The Stag Door: a ridged barrier of blood-streaked horn, huge enough for a ship to pass. It was broken long ago, and even now the scars are not quite healed. In a declivity beside the door rests a vast and wounded golden Head. Its mouth would be large enough to swallow me, were its jaw not shattered. It is the Name, Ghirbi. It begins to intone its riddle. ",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "deckeffects": {
+                "stagriddles": 1
+            },
+            "warmup": 30,
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dreamreachstagsubsequent",
+            "label": "At the Stag Door, Again",
+            "actionid": "dream",
+            "requirements": {
+                "waywhite": 1,
+                "desire": 1
+            },
+            "startdescription": "I have made this ascent before. It will not profit me. I should answer the Riddle if I must, or use the Way to the Stag Door if I can.",
+            "description": "The Stag Door: a ridged barrier of blood-streaked horn, huge enough for a ship to pass. It was broken long ago, and even now the scars are not quite healed. In a declivity beside the door rests the vast and wounded golden Head, Ghirbi. It has given me its riddle, which I must answer if I am to enter the Stag Door. [Dream on the Riddle to answer it, or Way: the Stag Door if you have already answered.]",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "warmup": 10,
+            "aspects": {
+                "fatiguing": 1
+            }
+        },
+        {
+            "id": "dream_answerstagriddle_router",
+            "actionid": "dream",
+            "label": "Ghirbi's Riddle",
+            "requirements": {
+                "riddle": 1
+            },
+            "slots": [
+                {
+                    "id": "Answer",
+                    "label": "Answer",
+                    "required": {
+                        "lore": 1
+                    }
+                }
+            ],
+            "startdescription": "In my dream, I will stand again before the Stag Door: a ridged barrier of blood-streaked horn, broken long ago, not yet quite healed. That vast and golden Head, Ghirbi, will await the answer to my riddle.",
+            "description": "The Head is silent. The Door remains closed. Now I drift into other dreams.",
+            "aspects": {
+                "fatiguing": 1
+            },
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ],
+            "alt": [
+                {
+                    "id": "dream_answerstagriddle_1",
+                    "chance": 100
+                },
+                {
+                    "id": "dream_answerstagriddle_1",
+                    "chance": 100
+                },
+                {
+                    "id": "dream_answerstagriddle_2",
+                    "chance": 100
+                },
+                {
+                    "id": "dream_answerstagriddle_3",
+                    "chance": 100
+                },
+                {
+                    "id": "dream_answerstagriddle_4",
+                    "chance": 100
+                },
+                {
+                    "id": "dream_answerstagriddle_5",
+                    "chance": 100
+                },
+                {
+                    "id": "dream_wronganswerstagriddle",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "comments": "Route through this to answer riddle.",
+            "craftable": true
+        },
+        {
+            "id": "dream_answerstagriddle_1",
+            "label": "One Thread in a Labyrinth",
+            "actionid": "dream",
+            "requirements": {
+                "waystagbefore_1": 1,
+                "fragmentmothc": 1
+            },
+            "startdescription": "'There are many answers to this question, as the shedders of skin know. Here is mine...'",
+            "description": "The Door grinds apart. The Watchman's light floods from the corridor within. There is a grinding moan from the Head, Ghirbi. Tears of molten brass bulge from its eyes and roll down its cheeks, scorching the ground beneath. I may enter!",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_answerstagriddle_2",
+            "label": "An Implacable Answer",
+            "actionid": "dream",
+            "requirements": {
+                "waystagbefore_2": 1,
+                "fragmentlanternc": 1
+            },
+            "startdescription": "'Only in shadow.'",
+            "description": "The Door grinds apart. The Watchman's light floods from the corridor within. There is a grinding moan from the Head, Ghirbi. Tears of molten brass bulge from its eyes and roll down its cheeks, scorching the ground beneath. I may enter!",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_answerstagriddle_3",
+            "actionid": "dream",
+            "label": "A Desirable Answer",
+            "requirements": {
+                "waystagbefore_3": 1,
+                "fragmentgrailc": 1
+            },
+            "startdescription": "'Here are those words...'",
+            "description": "The Door grinds apart. The Watchman's light floods from the corridor within. There is a grinding moan from the Head, Ghirbi. Tears of molten brass bulge from its eyes and roll down its cheeks, scorching the ground beneath. I may enter!",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_answerstagriddle_4",
+            "actionid": "dream",
+            "label": "A Serpent's Answer",
+            "requirements": {
+                "waystagbefore_4": 1,
+                "fragmentknockc": 1
+            },
+            "startdescription": "'I, myself, must be opened. Behold my blood which is shed.'",
+            "description": "The Door grinds apart. The Watchman's light floods from the corridor within. There is a grinding moan from the Head, Ghirbi. Tears of molten brass bulge from its eyes and roll down its cheeks, scorching the ground beneath. I may enter!",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_answerstagriddle_5",
+            "actionid": "dream",
+            "label": "An Answer from History",
+            "requirements": {
+                "waystagbefore_5": 1,
+                "fragmentsecrethistoriesc": 1
+            },
+            "startdescription": "'Her heart is buried in another History.'",
+            "description": "The Door grinds apart. The Watchman's light floods from the corridor within. There is a grinding moan from the Head, Ghirbi. Tears of molten brass bulge from its eyes and roll down its cheeks, scorching the ground beneath. I may enter!",
+            "effects": {
+                "riddle": -1,
+                "waystag_after": 1,
+                "reason": 1
+            },
+            "linked": [
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dream_wronganswerstagriddle",
+            "actionid": "dream",
+            "label": "This is Not the Answer",
+            "requirements": {
+                "lore": 1
+            },
+            "startdescription": "Ghirbi has fallen very far. It may not enter the House, and one of its few satisfactions is to deny entry. It has too much honour to mock me, but I see the satisfaction in its golden eyes. 'That is not,' it says, with relish, 'the answer.'",
+            "description": "I am awake. My eyes are open, and the Stag Door remains closed. Now I drift into other dreams.",
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dreamusestagway",
+            "label": "The Way to the Stag Door",
+            "actionid": "dream",
+            "requirements": {
+                "waystag_after": 1
+            },
+            "slots": [
+                {
+                    "id": "Ascent",
+                    "label": "Ascent",
+                    "description": "Invest Reason to pass the Stag Door - or, with the right lore, find the way to the Spider's Door, the door where blood is spilled.",
+                    "required": {
+                        "reason": 1,
+                        "lore": 1
+                    }
+                }
+            ],
+            "startdescription": "In my dreams, I know the path to the Stag Door, through the maze of the Bounds. Ghirbi will let me pass, but the path is always a puzzle. I will need Reason.",
+            "description": "Here in the high dry byways of the Bounds are the intricate fissures and snares of ten thousand years of time. My Reason is lacking. I will wake without sight of the Door. Now I drift into other dreams.",
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ],
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                },
+                {
+                    "id": "dreamenterstag",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachspiderlantern",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachspiderknock",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachspidergrail",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamnotquitereachspiderlantern",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamnotquitereachspiderknock",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamnotquitereachspidergrail",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "dreamenterstag",
+            "label": "Entering the Stag Door",
+            "actionid": "dream",
+            "craftable": false,
+            "requirements": {
+                "waystag_after": 1,
+                "reason": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
+            "startdescription": "The Stag Door is the Adept's Gate. To pass it is to be initiated into the first true mystery of the House of the Sun. The Head, Ghirbi, weeps to see me enter where it cannot: but it must let me pass. The scarred valves of the Door grind open.",
+            "description": ".",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "portaleffect": "stagdoor",
+            "warmup": 30
+        },
+        {
+            "id": "dreamnotquitereachspiderlantern",
+            "label": "The Silken Sands: Not Enough!",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "lantern": 1
+            },
+            "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. I have read of the angular tracks one must follow, of the Sands' arched, unseen, slow-stepping residents - ",
+            "description": "The Sands swallow my footsteps. They rush in to clog my mouth and fill my eyes... I will wake with my tongue swollen and my throat cracked dry. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "dreamreachspiderlantern",
+            "label": "Approaching The Spider's Door",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "lantern": 8
+            },
+            "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. I have read of the angular tracks one must follow, of the Sands' arched, unseen, slow-stepping residents - ",
+            "description": "The Sands drain away like water, and beneath is the stone from which gods arose, so long ago. Ahead is the Door, glistening like rain, its black surface beaded with blood, each drop heavy-curved like a swollen tick.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "wayspider": 1
+            }
+        },
+        {
+            "id": "dreamnotquitereachspiderknock",
+            "label": "The Silken Sands: Not Enough!",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "knock": 1
+            },
+            "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. I know of the words that open the wind - ",
+            "description": "The Sands swallow my footsteps. They rush in to clog my mouth and fill my eyes... I will wake with my tongue swollen and my throat cracked dry. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "dreamreachspiderknock",
+            "label": "Approaching The Spider's Door",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "knock": 8
+            },
+            "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. I know the words that open the wind, so the Sands will permit my passage - ",
+            "description": "The Sands drain away like water, and beneath is the stone from which gods arose, so long ago. Ahead is the Door, glistening like rain, its black surface beaded with blood, each drop heavy-curved like a swollen tick.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "wayspider": 1
+            }
+        },
+        {
+            "id": "dreamnotquitereachspidergrail",
+            "label": "The Silken Sands: Not Enough!",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "grail": 1
+            },
+            "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. THIRST is the only guide through the Sands - my THIRST, or the THIRST of the Spider's Door -",
+            "description": "The Sands swallow my footsteps. They rush in to clog my mouth and fill my eyes... I will wake with my tongue swollen and my throat cracked dry. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "dreamreachspidergrail",
+            "label": "Approaching The Spider's Door",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "grail": 8
+            },
+            "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. THIRST is the only guide through the Sands - my THIRST, or the THIRST of the Spider's Door -",
+            "description": "The Sands drain away like water, and beneath is the stone from which gods arose, so long ago. Ahead is the Door, glistening like rain, its black surface beaded with blood, each drop heavy-curved like a swollen tick.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "wayspider": 1
+            }
+        },
+        {
+            "id": "dreamusespiderway",
+            "label": "The Way to the Spider's Door",
+            "actionid": "dream",
+            "requirements": {
+                "wayspider": 1
+            },
+            "slots": [
+                {
+                    "id": "Ascent",
+                    "label": "Ascent",
+                    "description": "Provide a blood sacrifice to satisfy the THIRST of the Spider's Door - or, with the right lore, find the way to the Peacock's Door, the door where light is spilt like blood.",
+                    "required": {
+                        "prisoner": 1,
+                        "lore": 1
+                    }
+                }
+            ],
+            "startdescription": "In my dreams, I know the path through the Silken Sands to the Spider's Door. If I slake its THIRST by spilling fresh blood before I sleep, it will open to me.",
+            "description": "Here in the folds of dream is the door, glistening black like the abdomen of a scoliid wasp, ever marked with ever-shrinking spots of blood. I have not satisfied its THIRST, and it will not open. Now I drift into other dreams.",
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ],
+            "aspects": {
+                "fatiguing": 1
+            },
+            "craftable": true,
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                },
+                {
+                    "id": "dreamenterspider",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachpeacocklantern",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachpeacockknock",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamreachpeacockedge",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamnotquitereachpeacocklantern",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamnotquitereachpeacockknock",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamnotquitereachpeacockedge",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "dreamenterspider",
+            "label": "Entering the Spider's Door",
+            "actionid": "dream",
+            "craftable": false,
+            "requirements": {
+                "wayspider": 1,
+                "prisoner": 1
+            },
+            "startdescription": "The Spider's Door is always THIRSTY. Always. The blood I have given leaks in threads and spills through the skin of the world, and the Door drinks it and a moment's satisfaction swells its opening until I can pass.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "prisoner": -1
+            },
+            "description": ".",
+            "portaleffect": "spiderdoor",
+            "warmup": 0
+        },
+        {
+            "id": "dreamnotquitereachpeacocklantern",
+            "label": "Glassgarden: Not Enough!",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "lantern": 1
+            },
+            "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. This is the way the brighter Hours once came, but now it's silent, here in the clouds - ",
+            "description": "The Glassgarden's chill pierces me at every pore. I will wake white-blue with cold. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dreamreachpeacocklantern",
+            "label": "Glassgarden: Approaching The Peacock's Door",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "lantern": 10
+            },
+            "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. This is the way the brighter Hours once came, but now it's silent, here in the clouds - ",
+            "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "waypeacock": 1
+            }
+        },
+        {
+            "id": "dreamnotquitereachpeacockknock",
+            "label": "Glassgarden: Not Enough!",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "knock": 1
+            },
+            "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. I almost know the way - ",
+            "description": "The Glassgarden's chill pierces me at every pore. I will wake white-blue with cold. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dreamreachpeacockknock",
+            "label": "Glassgarden: Approaching The Peacock's Door",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "knock": 10
+            },
+            "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. I will step carefully. I have learnt the way - ",
+            "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "waypeacock": 1
+            }
+        },
+        {
+            "id": "dreamnotquitereachpeacockedge",
+            "label": "Glassgarden: Not Enough!",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "edge": 1
+            },
+            "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. This is as it must be - ",
+            "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light. Now I drift into other dreams.",
+            "linked": [
+                {
+                    "id": "dream_router",
+                    "chance": 100
+                }
+            ],
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "dreamreachpeacockedge",
+            "label": "Glassgarden: Approaching The Peacock's Door",
+            "actionid": "dream",
+            "requirements": {
+                "lore": 1,
+                "edge": 10
+            },
+            "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. This is as it must be. I will choose my steps carefully, as the lore prescribes -",
+            "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "waypeacock": 1
+            }
+        },
+        {
+            "id": "dreamusepeacockway",
+            "label": "The Way to the Peacock's Door",
+            "actionid": "dream",
+            "requirements": {
+                "waypeacock": 1
+            },
+            "slots": [
+                {
+                    "id": "Ascent",
+                    "label": "Ascent",
+                    "description": "The Peacock Door does not open, exactly.",
+                    "required": {
+                        "tool": 1
+                    }
+                }
+            ],
+            "startdescription": "In my dreams, I know the path through the Glassgarden to the Peacock's Door: the most admirable of Doors, the Door which shines like a mirror. Perhaps, with the right resources, I can pass it. ",
+            "description": "The Peacock's Door is purple as the sweetest gem, as the ripest fruit, as the most depthless prose. It takes my reflection and returns nothing. When I wake, I won't recall my dream.",
+            "craftable": true,
+            "aspects": {
+                "fatiguing": 1
+            },
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                },
+                {
+                    "id": "apostlelantern.createpillar2",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamenterpeacockmirror",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamenterpeacockfrangiclave",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "dreamenterpeacockmirror",
+            "label": "Passing the Peacock's Door",
+            "actionid": "dream",
+            "craftable": false,
+            "requirements": {
+                "waypeacock": 1,
+                "mirror": 1
+            },
+            "startdescription": "The Peacock's Door reflects the mirror I hold in my sleep, and the mirror reflects the Peacock's Door. Already a sensuous shiver ripples its surface. It aches for fracture, and when it finds that satisfaction, I will enter.",
+            "description": ".",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "portaleffect": "peacockdoor",
+            "aspects": {
+                "crackmirror": 1
+            },
+            "warmup": 0
+        },
+        {
+            "id": "dreamenterpeacockfrangiclave",
+            "label": "Passing the Peacock's Door",
+            "actionid": "dream",
+            "craftable": false,
+            "requirements": {
+                "waypeacock": 1,
+                "toolknockf": 1
+            },
+            "startdescription": "A tuning-fork hum animates the key in my hand; the Peacock's Door groans in response. Already a sensuous shiver ripples its surface. It aches for fracture, and when it finds that satisfaction, I will enter.",
+            "description": ".",
+            "alt": [
+                {
+                    "id": "poison.long.way.trap",
+                    "additional": true
+                }
+            ],
+            "portaleffect": "peacockdoor",
+            "warmup": 0
+        },
+        {
+            "id": "poison.long.way.trap",
+            "actionid": "poison.long.way.trap",
+            "label": "The Watch upon the Way",
+            "startdescription": "The Long has set invisible cartographers at the gate, to observe me as I pass and map me like a half-known country.",
+            "requirements": {
+                "poison.way.long": 1
+            },
+            "effects": {
+                "long.lesson.dreamwork": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "dreamheartvictoryintro",
+            "label": "Drums in the Storm",
+            "actionid": "dream",
+            "requirements": {
+                "sendingheartg": 1
+            },
+            "startdescription": "The wind rises and the roof rattles as I settle myself to sleep. There is a bitter herb that will help me pass from my body. The Wood opens around me, but with my new eyes, I see another path now. The one called Marinette waits along that path, with the Key that will end me and begin me.",
+            "warmup": 30,
+            "craftable": true,
+            "signalEndingFlavour": "Grand",
+            "slots": [
+                {
+                    "id": "beloved",
+                    "label": "Beloved",
+                    "required": {
+                        "romanticinterest": 1
+                    },
+                    "forbidden": {
+                        "corpse": 1,
+                        "notoriety": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "dreamheartvictory_withrisen",
+                    "chance": 100
+                },
+                {
+                    "chance": 100,
+                    "id": "belovedfarewelldream"
+                },
+                {
+                    "id": "dreamheartvictory",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dreamheartvictory",
+            "label": "The Kingskin Gate",
+            "actionid": "dream",
+            "requirements": {
+                "sendingheartg": 1
+            },
+            "startdescription": "Marinette waits in the shadow of a pine tree, dark skin gleaming, white bone glinting, claws bright as brass. She carries a red Key that might be a bloody knife or a ruby wound. When she brings it down, the pain of it is all red.",
+            "ending": "minorheartvictory",
+            "warmup": 30
+        },
+        {
+            "id": "dreamheartvictory_withrisen",
+            "label": "The Kingskin Gate",
+            "actionid": "dream",
+            "requirements": {
+                "sendingheartg": 1,
+                "summoned": 1
+            },
+            "startdescription": "Marinette waits in the shadow of a pine tree, dark skin gleaming, white bone glinting, claws bright as brass. She carries a red Key that might be a bloody knife or a ruby wound. When she brings it down, the pain of it is all red.\n\nIn the dark place beneath the trees, my dead beloved watches, with their skin which is dappled, their eyes which are lamps.",
+            "ending": "minorheartvictorywithrisen",
+            "warmup": 10
+        },
+        {
+            "id": "dreammothvictoryintro",
+            "label": "Drums in the Storm",
+            "actionid": "dream",
+            "requirements": {
+                "sendingmothg": 1
+            },
+            "startdescription": "I drift down sleep's familiar pathways, until the Wood comes clear before me with its grasping trees and shadow-fringed paths. The Door in the Wood lies beneath the waters of the well. I know that now. I cannot pass it living and I cannot pass it dead. Medusa, who is neither living nor dead, will clear the way. I break into a trot.",
+            "warmup": 30,
+            "craftable": true,
+            "signalEndingFlavour": "Grand",
+            "slots": [
+                {
+                    "id": "beloved",
+                    "label": "Beloved",
+                    "required": {
+                        "romanticinterest": 1
+                    },
+                    "forbidden": {
+                        "corpse": 1,
+                        "notoriety": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "dreammothvictory_withrisen",
+                    "chance": 100
+                },
+                {
+                    "chance": 100,
+                    "id": "belovedfarewelldream"
+                },
+                {
+                    "id": "dreammothvictory",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dreammothvictory",
+            "label": "The Door in the Wood",
+            "actionid": "dream",
+            "requirements": {
+                "sendingmothg": 1
+            },
+            "startdescription": "The moonlight parts the trees to blacken what the well holds, to limn the tree-roots, to touch Medusa's twining limbs where she waits by the well. She lifts her dripping arms, which hold a pale Key, twisting like a fanged worm. I kneel, a red deer, and offer my neck. A gout of blood spills into the well; and then Medusa begins to carve my new shape.",
+            "ending": "minormothvictory",
+            "warmup": 30
+        },
+        {
+            "id": "dreammothvictory_withrisen",
+            "label": "The Door in the Wood",
+            "actionid": "dream",
+            "requirements": {
+                "sendingmothg": 1,
+                "summoned": 1
+            },
+            "startdescription": "The moonlight parts the trees to blacken what the well holds, to limn the tree-roots, to touch Medusa's twining limbs where she waits by the well. She lifts her dripping arms, which hold a pale Key, twisting like a fanged worm. I kneel, a red deer, and offer my neck. A gout of blood spills into the well; and then Medusa begins to carve my new shape. \n\nIn the dark place beneath the trees, my dead beloved watches, with their skin which is dappled, their eyes which are lamps.",
+            "ending": "minormothvictorywithrisen",
+            "warmup": 10
+        },
+        {
+            "id": "dreammeniscatevictoryintro",
+            "label": "Without the Walls",
+            "actionid": "dream",
+            "requirements": {
+                "sendingmothheartg": 1
+            },
+            "startdescription": "I drift down sleep's familiar pathways, until the Wood comes clear before me with its grasping trees and shadow-fringed paths. But this is not the Wood I know. It is all birch trees, white as moonlight, and the moonlight is black as ink. Beneath its pressure, the white skins of the trees begin to blister, then bleed. I break into a trot, then a gallop. I must reach the Well, before I wake, or before something worse - ",
+            "warmup": 30,
+            "craftable": true,
+            "signalEndingFlavour": "Grand",
+            "slots": [
+                {
+                    "id": "beloved",
+                    "label": "Beloved",
+                    "required": {
+                        "romanticinterest": 1
+                    },
+                    "forbidden": {
+                        "corpse": 1,
+                        "notoriety": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "dreammeniscatevictory_withrisen",
+                    "chance": 100
+                },
+                {
+                    "chance": 100,
+                    "id": "belovedfarewelldream"
+                },
+                {
+                    "id": "dreammeniscatevictory",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "dreammeniscatevictory",
+            "label": "Three",
+            "actionid": "dream",
+            "requirements": {
+                "sendingmothheartg": 1
+            },
+            "startdescription": "My skin is tattering now. The Well is ahead, but the moon is changing, is black, is gold, is pearl. The blood of the Well is a red mirror, and three of them rise, and their faces are mine, are horned like the Moon, the greatest holds a key of black sapphire and when it parts my skin my body is rent like lightning, and WHAT IS WITHIN, WITHOUT, WHAT IS WITHOUT, WITHIN -",
+            "ending": "minormeniscatevictory",
+            "warmup": 30
+        },
+        {
+            "id": "dreammeniscatevictory_withrisen",
+            "label": "Three",
+            "actionid": "dream",
+            "requirements": {
+                "sendingmothheartg": 1,
+                "summoned": 1
+            },
+            "startdescription": "My skin is tattering now. The Well is ahead, but the moon is changing, is black, is gold, is pearl. The blood of the Well is a red mirror, and three of them rise, and their faces are mine, are horned like the Moon, the greatest holds a key of black sapphire and when it parts my skin my body is rent like lightning, and WHAT IS WITHIN, WITHOUT, WHAT IS WITHOUT, WITHIN -",
+            "ending": "minormeniscatevictorywithrisen",
+            "warmup": 30
+        },
+        {
+            "id": "belovedfarewelldream",
+            "label": "The Threshold Choice",
+            "actionid": "dream",
+            "requirements": {
+                "romanticinterest": 1
+            },
+            "startdescription": "The final farewell. They will remain, and I will ascend.",
+            "slots": [
+                {
+                    "id": "decision",
+                    "label": "Decision",
+                    "description": "[Add Passion to turn aside from your ascent... and live as a mortal with your beloved. Do nothing to continue.]",
+                    "required": {
+                        "passion": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "auclairvictory",
+                    "chance": 100
+                },
+                {
+                    "id": "catvictory",
+                    "chance": 100
+                },
+                {
+                    "id": "clovettevictory",
+                    "chance": 100
+                },
+                {
+                    "id": "cliftonvictory",
+                    "chance": 100
+                },
+                {
+                    "id": "dorothyvictory",
+                    "chance": 100
+                },
+                {
+                    "id": "elridgevictory",
+                    "chance": 100
+                },
+                {
+                    "id": "enidvictory",
+                    "chance": 100
+                },
+                {
+                    "id": "laidlawvictory",
+                    "chance": 100
+                },
+                {
+                    "id": "leovictory",
+                    "chance": 100
+                },
+                {
+                    "id": "nevillevictory",
+                    "chance": 100
+                },
+                {
+                    "id": "portervictory",
+                    "chance": 100
+                },
+                {
+                    "id": "reniravictory",
+                    "chance": 100
+                },
+                {
+                    "id": "rosevictory",
+                    "chance": 100
+                },
+                {
+                    "id": "salibavictory",
+                    "chance": 100
+                },
+                {
+                    "id": "sleevictory",
+                    "chance": 100
+                },
+                {
+                    "id": "sylviavictory",
+                    "chance": 100
+                },
+                {
+                    "id": "tristanvictory",
+                    "chance": 100
+                },
+                {
+                    "id": "valcianevictory",
+                    "chance": 100
+                },
+                {
+                    "id": "victorvictory",
+                    "chance": 100
+                },
+                {
+                    "id": "violetvictory",
+                    "chance": 100
+                },
+                {
+                    "id": "ysabetvictory",
+                    "chance": 100
+                },
+                {
+                    "id": "imnotinlovedream",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "imnotinlovedream",
+            "label": "Dedication",
+            "startdescription": "Perhaps they love me. Perhaps I love them. Perhaps none of that matters.",
+            "actionid": "dream",
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "dreammothvictory",
+                    "chance": 100
+                },
+                {
+                    "id": "dreamheartvictory",
+                    "chance": 100
+                },
+                {
+                    "id": "dreammeniscatevictory",
+                    "chance": 100
+                }
+            ]
+        }
+    ]
 }

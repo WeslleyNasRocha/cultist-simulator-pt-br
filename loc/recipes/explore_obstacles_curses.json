@@ -1,872 +1,872 @@
 {
-   "recipes":[
-      {
-         "id":"explorevaultcurse_dread_encounter",
-         "actionId":"explore",
-         "label":"La Maledizione dell'Anima Arida",
-         "startdescription":"I tesori giacciono sotto la Maledizione dell'Anima Arida. Senza la Lanterna o il Cuore, potrebbe seguirci fino a casa e essiccare la nostra anima.",
-         "requirements":{
-            "curse_dread":1
-         },
-         "slots":[
-            {
-               "id":"Assistance",
-               "label":"Assistenza",
-               "description":"I Fondi sono essenziali per le spedizioni. I Seguaci mi permetteranno di superare gli ostacoli.",
-               "required":{
-                  "follower":1,
-                  "funds":1
-               }
-            }
-         ],
-         "alt":[
-            {
-               "id":"explorevaultcurse_dread_highheart",
-               "chance":100
+    "recipes": [
+        {
+            "id": "explorevaultcurse_dread_encounter",
+            "actionid": "explore",
+            "label": "The Dry Soul Curse",
+            "startdescription": "The treasures ahead lie under a Dry Soul Curse. Without Lantern or Heart, it may follow us back home and dessicate the spirit.",
+            "requirements": {
+                "curse_dread": 1
             },
-            {
-               "id":"explorevaultcurse_dread_highlantern",
-               "chance":100
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "Assistance",
+                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "required": {
+                        "follower": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "explorevaultcurse_dread_highheart",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_dread_highlantern",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_dread_midheart",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_dread_midlantern",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_dread_lowheart",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_dread_lowlantern",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaultcurse_dread_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_dread_highheart",
+            "actionid": "explore",
+            "requirements": {
+                "heart": 10
             },
-            {
-               "id":"explorevaultcurse_dread_midheart",
-               "chance":100
+            "label": "We call upon the Ring-Yew, who is renewed",
+            "startdescription": "We are strong enough in Heart to be almost entirely secure against the Curse.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_dread_success",
+                    "chance": 90
+                },
+                {
+                    "id": "explorevaultcurse_dread_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_dread_midheart",
+            "actionid": "explore",
+            "requirements": {
+                "heart": 5
             },
-            {
-               "id":"explorevaultcurse_dread_midlantern",
-               "chance":100
+            "label": "We call upon the Ring-Yew, who encompasseth",
+            "startdescription": "We carry enough Heart aspect to quell the Curse... probably.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_dread_success",
+                    "chance": 70
+                },
+                {
+                    "id": "explorevaultcurse_dread_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_dread_lowheart",
+            "actionid": "explore",
+            "requirements": {
+                "heart": 1
             },
-            {
-               "id":"explorevaultcurse_dread_lowheart",
-               "chance":100
+            "label": "We call upon the Ring-Yew, who is succulent",
+            "startdescription": "Perhaps the power of that old and fecund Hour, the Ring-Yew, can protect us from the Curse. Perhaps not.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_dread_success",
+                    "chance": 30
+                },
+                {
+                    "id": "explorevaultcurse_dread_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_dread_highlantern",
+            "actionid": "explore",
+            "requirements": {
+                "lantern": 10
             },
-            {
-               "id":"explorevaultcurse_dread_lowlantern",
-               "chance":100
-            }
-         ],
-         "warmup":30,
-         "craftable":false,
-         "linked":[
-            {
-               "id":"explorevaultcurse_dread_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_dread_highheart",
-         "actionId":"explore",
-         "requirements":{
-            "heart":10
-         },
-         "label":"Invochiamo il Tasso-Accerchiato, il quale è rinnovato",
-         "startdescription":"Siamo abbastanza forti nel Cuore da esser sicuri di salvarci dalla Maledizione.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_dread_success",
-               "chance":90
+            "label": "We call upon the Colonel, who cannot be denied",
+            "startdescription": "The Colonel is a fierce Hour, but a power which knows Light, and he has survived worse. His power will almost certainly protect us.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_dread_success",
+                    "chance": 90
+                },
+                {
+                    "id": "explorevaultcurse_dread_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_dread_midlantern",
+            "actionid": "explore",
+            "requirements": {
+                "lantern": 5
             },
-            {
-               "id":"explorevaultcurse_dread_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_dread_midheart",
-         "actionId":"explore",
-         "requirements":{
-            "heart":5
-         },
-         "label":"Invochiamo il Tasso-Accerchiato, il quale circonda",
-         "startdescription":"Possediamo abbastanza aspetto del Cuore per reprimere la Maledizione... probabilmente.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_dread_success",
-               "chance":70
+            "label": "We call upon the Colonel, who is scarred",
+            "startdescription": "The Colonel is a scarred Hour, but a power which knows Light, and he has survived worse. His power should protect us.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_dread_success",
+                    "chance": 70
+                },
+                {
+                    "id": "explorevaultcurse_dread_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_dread_lowlantern",
+            "actionid": "explore",
+            "requirements": {
+                "lantern": 1
             },
-            {
-               "id":"explorevaultcurse_dread_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_dread_lowheart",
-         "actionId":"explore",
-         "requirements":{
-            "heart":1
-         },
-         "label":"Invochiamo il Tasso-Accerchiato, il quale è succulento",
-         "startdescription":"Forse il potere della vecchia e feconda Ora, il Tasso-Accerchiato, potrà proteggerci dalla Maledizione. Forse no.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_dread_success",
-               "chance":30
+            "label": "We call upon the Colonel, who is blind",
+            "startdescription": "The Colonel is an Hour which knows Light, but does he remember it? His power might yet protect us.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_dread_success",
+                    "chance": 30
+                },
+                {
+                    "id": "explorevaultcurse_dread_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_dread_success",
+            "actionid": "explore",
+            "label": "The Curse Shrivels",
+            "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
+            "description": ".",
+            "effects": {
+                "curse_dread": -1
             },
-            {
-               "id":"explorevaultcurse_dread_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_dread_highlantern",
-         "actionId":"explore",
-         "requirements":{
-            "lantern":10
-         },
-         "label":"Invochiamo il Colonnello, che non può essere negato",
-         "startdescription":"Il Colonnello è un'Ora feroce, un potere che conosce la Luce, ed è sopravvissuto a cose ben peggiori. Il suo potere ci dovrebbe proteggere.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_dread_success",
-               "chance":90
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaulttick",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "explorevaultcurse_dread_failure",
+            "actionid": "explore",
+            "label": "The Curse Clings",
+            "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the curse will tighten around us.",
+            "description": ".",
+            "effects": {
+                "curse_dread": -1
             },
-            {
-               "id":"explorevaultcurse_dread_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_dread_midlantern",
-         "actionId":"explore",
-         "requirements":{
-            "lantern":5
-         },
-         "label":"Invochiamo il Colonnello, che è sfregiato",
-         "startdescription":"Il Colonnello è un'Ora sfregiata, un potere che conosce la Luce, ed è sopravvissuto a cose ben peggiori. I suoi poteri dovrebbero proteggerci.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_dread_success",
-               "chance":70
+            "alt": [
+                {
+                    "id": "curse_dread_dormant",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaulttick",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "explorevaultcurse_visions_encounter",
+            "actionid": "explore",
+            "label": "The Fifth Eye Curse",
+            "startdescription": "The treasures ahead lie under a Fifth Eye Curse. Without Winter or Heart, it may follow us back home and tear open the eye of the soul.",
+            "requirements": {
+                "curse_visions": 1
             },
-            {
-               "id":"explorevaultcurse_dread_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_dread_lowlantern",
-         "actionId":"explore",
-         "requirements":{
-            "lantern":1
-         },
-         "label":"Invochiamo il Colonnello, che è cieco",
-         "startdescription":"Il Colonnello è un'Ora che conosce la Luce, ma se la ricorda? I suoi poteri potrebbero proteggerci.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_dread_success",
-               "chance":30
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "Assistance",
+                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "required": {
+                        "follower": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "explorevaultcurse_visions_highheart",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_visions_highwinter",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_visions_midheart",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_visions_midwinter",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_visions_lowheart",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_visions_lowwinter",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaultcurse_visions_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_visions_highheart",
+            "actionid": "explore",
+            "requirements": {
+                "heart": 10
             },
-            {
-               "id":"explorevaultcurse_dread_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_dread_success",
-         "actionId":"explore",
-         "label":"La Maledizione Svanisce",
-         "startdescription":"Il nostro potere prevale su quello della maledizione. Non ci toccherà.",
-         "description":".",
-         "effects":{
-            "curse_dread":-1
-         },
-         "craftable":false,
-         "linked":[
-            {
-               "id":"explorevaulttick",
-               "chance":100
-            }
-         ],
-         "warmup":30
-      },
-      {
-         "id":"explorevaultcurse_dread_failure",
-         "actionId":"explore",
-         "label":"La Maledizione Ci Segue",
-         "startdescription":"C'è un prezzo da pagare quando si oltrepassa un luogo come questo. Presto la maledizione tornerà da noi.",
-         "description":".",
-         "effects":{
-            "curse_dread":-1
-         },
-         "alt":[
-            {
-               "id":"curse_dread_dormant",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "craftable":false,
-         "linked":[
-            {
-               "id":"explorevaulttick",
-               "chance":100
-            }
-         ],
-         "warmup":30
-      },
-      {
-         "id":"explorevaultcurse_visions_encounter",
-         "actionId":"explore",
-         "label":"La Maledizione del Quinto Occhio",
-         "startdescription":"I tesori giacciono sotto la Maledizione del Quinto Occhio. Senza l'Inverno o il Cuore, potrebbe seguirci fino a casa e lacerare l'occhio dell'anima.",
-         "requirements":{
-            "curse_visions":1
-         },
-         "slots":[
-            {
-               "id":"Assistance",
-               "label":"Assistenza",
-               "description":"I Fondi sono essenziali per le spedizioni. I Seguaci mi permetteranno di superare gli ostacoli.",
-               "required":{
-                  "follower":1,
-                  "funds":1
-               }
-            }
-         ],
-         "alt":[
-            {
-               "id":"explorevaultcurse_visions_highheart",
-               "chance":100
+            "label": "We call upon the Ring-Yew, who is renewed",
+            "startdescription": "We are strong enough in Heart to be almost entirely secure against the Curse.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_visions_success",
+                    "chance": 90
+                },
+                {
+                    "id": "explorevaultcurse_visions_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_visions_midheart",
+            "actionid": "explore",
+            "requirements": {
+                "heart": 5
             },
-            {
-               "id":"explorevaultcurse_visions_highwinter",
-               "chance":100
+            "label": "We call upon the Ring-Yew, who encompasseth",
+            "startdescription": "We carry enough Heart aspect to quell the Curse... probably.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_visions_success",
+                    "chance": 70
+                },
+                {
+                    "id": "explorevaultcurse_visions_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_visions_lowheart",
+            "actionid": "explore",
+            "requirements": {
+                "heart": 1
             },
-            {
-               "id":"explorevaultcurse_visions_midheart",
-               "chance":100
+            "label": "We call upon the Ring-Yew, who is succulent",
+            "startdescription": "Perhaps the power of that old and fecund Hour, the Ring-Yew, can protect us from the Curse. Perhaps not.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_visions_success",
+                    "chance": 30
+                },
+                {
+                    "id": "explorevaultcurse_visions_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_visions_highwinter",
+            "actionid": "explore",
+            "requirements": {
+                "winter": 10
             },
-            {
-               "id":"explorevaultcurse_visions_midwinter",
-               "chance":100
+            "label": "We call upon the Elegiast, from whom nothing more can be taken",
+            "startdescription": "The Elegiast knows what is already lost. His power will almost certainly protect us.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_visions_success",
+                    "chance": 90
+                },
+                {
+                    "id": "explorevaultcurse_visions_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_visions_midwinter",
+            "actionid": "explore",
+            "requirements": {
+                "winter": 5
             },
-            {
-               "id":"explorevaultcurse_visions_lowheart",
-               "chance":100
+            "label": "We call upon the Elegiast, who cannot be deceived",
+            "startdescription": "The Elegiast separates the remembered from the true. His power should protect us.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_visions_success",
+                    "chance": 70
+                },
+                {
+                    "id": "explorevaultcurse_visions_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_visions_lowwinter",
+            "actionid": "explore",
+            "requirements": {
+                "winter": 1
             },
-            {
-               "id":"explorevaultcurse_visions_lowwinter",
-               "chance":100
-            }
-         ],
-         "warmup":30,
-         "craftable":false,
-         "linked":[
-            {
-               "id":"explorevaultcurse_visions_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_visions_highheart",
-         "actionId":"explore",
-         "requirements":{
-            "heart":10
-         },
-         "label":"Invochiamo il Tasso-Accerchiato, il quale è rinnovato",
-         "startdescription":"Siamo abbastanza forti nel Cuore da esser sicuri di salvarci dalla Maledizione.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_visions_success",
-               "chance":90
+            "label": "We call upon the Elegiast, who calls each of the Dead by name",
+            "startdescription": "The Elegiast's irony and sorrow might yet quell the visions. Who knows?",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_visions_success",
+                    "chance": 30
+                },
+                {
+                    "id": "explorevaultcurse_visions_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_visions_success",
+            "actionid": "explore",
+            "label": "The Curse Shrivels",
+            "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
+            "description": ".",
+            "effects": {
+                "curse_visions": -1
             },
-            {
-               "id":"explorevaultcurse_visions_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_visions_midheart",
-         "actionId":"explore",
-         "requirements":{
-            "heart":5
-         },
-         "label":"Invochiamo il Tasso-Accerchiato, il quale circonda",
-         "startdescription":"Possediamo abbastanza aspetto del Cuore per reprimere la Maledizione... probabilmente.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_visions_success",
-               "chance":70
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaulttick",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "explorevaultcurse_visions_failure",
+            "actionid": "explore",
+            "label": "The Curse Clings",
+            "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the curse will tighten around us.",
+            "description": ".",
+            "effects": {
+                "curse_visions": -1
             },
-            {
-               "id":"explorevaultcurse_visions_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_visions_lowheart",
-         "actionId":"explore",
-         "requirements":{
-            "heart":1
-         },
-         "label":"Invochiamo il Tasso-Accerchiato, il quale è succulento",
-         "startdescription":"Forse il potere della vecchia e feconda Ora, il Tasso-Accerchiato, potrà proteggerci dalla Maledizione. Forse no.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_visions_success",
-               "chance":30
+            "alt": [
+                {
+                    "id": "curse_visions_dormant",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaulttick",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "explorevaultcurse_affliction_encounter",
+            "actionid": "explore",
+            "label": "The Creeping Breath",
+            "startdescription": "The treasures ahead lie under a Creeping Breath Curse. Without Grail or Heart, it may follow us back home, and settle like spores into our lungs.",
+            "requirements": {
+                "curse_affliction": 1
             },
-            {
-               "id":"explorevaultcurse_visions_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_visions_highwinter",
-         "actionId":"explore",
-         "requirements":{
-            "winter":10
-         },
-         "label":"Invochiamo l'Elegiasta, dal quale nulla più può esser preso",
-         "startdescription":"L'Elegiasta conosce quanto è andato perso. I suoi poteri ci proteggeranno, quasi sicuramente.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_visions_success",
-               "chance":90
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "Assistance",
+                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "required": {
+                        "follower": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "explorevaultcurse_affliction_highheart",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_affliction_highgrail",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_affliction_midheart",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_affliction_midgrail",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_affliction_lowheart",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_affliction_lowgrail",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaultcurse_affliction_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_affliction_highheart",
+            "actionid": "explore",
+            "requirements": {
+                "heart": 10
             },
-            {
-               "id":"explorevaultcurse_visions_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_visions_midwinter",
-         "actionId":"explore",
-         "requirements":{
-            "winter":5
-         },
-         "label":"Invochiamo l'Elegiasta, il quale non può essere ingannato",
-         "startdescription":"L'Elegiasta separa il ricordo dal reale. I suoi poteri dovrebbero proteggerci.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_visions_success",
-               "chance":70
+            "label": "We call upon the Ring-Yew, who is renewed",
+            "startdescription": "We are almost certainly  strong enough in Heart to be secure against the Curse.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_affliction_success",
+                    "chance": 90
+                },
+                {
+                    "id": "explorevaultcurse_affliction_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_affliction_midheart",
+            "actionid": "explore",
+            "requirements": {
+                "heart": 5
             },
-            {
-               "id":"explorevaultcurse_visions_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_visions_lowwinter",
-         "actionId":"explore",
-         "requirements":{
-            "winter":1
-         },
-         "label":"Invochiamo l'Elegiasta, il quale chiama ognuno dei morti per nome",
-         "startdescription":"L'ironia e il dolore dell'Elegiasta potrebbero sedare le visioni. Chissà...",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_visions_success",
-               "chance":30
+            "label": "We call upon the Ring-Yew, who encompasseth",
+            "startdescription": "We carry enough Heart aspect to quell the Curse... probably.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_affliction_success",
+                    "chance": 70
+                },
+                {
+                    "id": "explorevaultcurse_affliction_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_affliction_lowheart",
+            "actionid": "explore",
+            "requirements": {
+                "heart": 1
             },
-            {
-               "id":"explorevaultcurse_visions_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_visions_success",
-         "actionId":"explore",
-         "label":"La Maledizione Svanisce",
-         "startdescription":"Il nostro potere prevale su quello della maledizione. Non ci toccherà.",
-         "description":".",
-         "effects":{
-            "curse_visions":-1
-         },
-         "craftable":false,
-         "linked":[
-            {
-               "id":"explorevaulttick",
-               "chance":100
-            }
-         ],
-         "warmup":30
-      },
-      {
-         "id":"explorevaultcurse_visions_failure",
-         "actionId":"explore",
-         "label":"La Maledizione Ci Segue",
-         "startdescription":"C'è un prezzo da pagare quando si oltrepassa un luogo come questo. Presto la maledizione tornerà da noi.",
-         "description":".",
-         "effects":{
-            "curse_visions":-1
-         },
-         "alt":[
-            {
-               "id":"curse_visions_dormant",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "craftable":false,
-         "linked":[
-            {
-               "id":"explorevaulttick",
-               "chance":100
-            }
-         ],
-         "warmup":30
-      },
-      {
-         "id":"explorevaultcurse_affliction_encounter",
-         "actionId":"explore",
-         "label":"Il Respiro Strisciante",
-         "startdescription":"I tesori giacciono sotto la Maledizione del Respiro Strisciante. Senza il Graal o il Cuore, potrebbe seguirci fino a casa e insidiarsi, come piccole spore, nei nostri polmoni.",
-         "requirements":{
-            "curse_affliction":1
-         },
-         "slots":[
-            {
-               "id":"Assistance",
-               "label":"Assistenza",
-               "description":"I Fondi sono essenziali per le spedizioni. I Seguaci mi permetteranno di superare gli ostacoli.",
-               "required":{
-                  "follower":1,
-                  "funds":1
-               }
-            }
-         ],
-         "alt":[
-            {
-               "id":"explorevaultcurse_affliction_highheart",
-               "chance":100
+            "label": "We call upon the Ring-Yew, who is succulent",
+            "startdescription": "Perhaps the power of that old and fecund Hour, the Ring-Yew, can protect us from the Curse. Perhaps not.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_affliction_success",
+                    "chance": 30
+                },
+                {
+                    "id": "explorevaultcurse_affliction_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_affliction_highgrail",
+            "actionid": "explore",
+            "requirements": {
+                "grail": 10
             },
-            {
-               "id":"explorevaultcurse_affliction_highgrail",
-               "chance":100
+            "label": "We call upon the Red Grail, which gives life",
+            "startdescription": "The Red Grail's vigour will almost certainly preserve us from the Curse.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_affliction_success",
+                    "chance": 90
+                },
+                {
+                    "id": "explorevaultcurse_affliction_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_affliction_midgrail",
+            "actionid": "explore",
+            "requirements": {
+                "grail": 5
             },
-            {
-               "id":"explorevaultcurse_affliction_midheart",
-               "chance":100
+            "label": "We call upon the Red Grail, which takes life",
+            "startdescription": "The Red Grail's hungers should preserve us from the Curse.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_affliction_success",
+                    "chance": 70
+                },
+                {
+                    "id": "explorevaultcurse_affliction_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_affliction_lowgrail",
+            "actionid": "explore",
+            "requirements": {
+                "grail": 1
             },
-            {
-               "id":"explorevaultcurse_affliction_midgrail",
-               "chance":100
+            "label": "We call upon the Red Grail, which is not sated",
+            "startdescription": "The Red Grail might preserve us from the Curse. It is a fickle Hour.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_affliction_success",
+                    "chance": 30
+                },
+                {
+                    "id": "explorevaultcurse_affliction_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_affliction_success",
+            "actionid": "explore",
+            "label": "The Curse Shrivels",
+            "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
+            "description": ".",
+            "effects": {
+                "curse_affliction": -1
             },
-            {
-               "id":"explorevaultcurse_affliction_lowheart",
-               "chance":100
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaulttick",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "explorevaultcurse_affliction_failure",
+            "actionid": "explore",
+            "label": "The Curse Clings",
+            "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the curse will tighten around us.",
+            "description": ".",
+            "effects": {
+                "curse_affliction": -1
             },
-            {
-               "id":"explorevaultcurse_affliction_lowgrail",
-               "chance":100
-            }
-         ],
-         "warmup":30,
-         "craftable":false,
-         "linked":[
-            {
-               "id":"explorevaultcurse_affliction_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_affliction_highheart",
-         "actionId":"explore",
-         "requirements":{
-            "heart":10
-         },
-         "label":"Invochiamo il Tasso-Accerchiato, il quale è rinnovato",
-         "startdescription":"Siamo abbastanza forti nel Cuore da esser sicuri di salvarci dalla Maledizione.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_affliction_success",
-               "chance":90
+            "alt": [
+                {
+                    "id": "curse_affliction_dormant",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaulttick",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "explorevaultcurse_nowhere_encounter",
+            "actionid": "explore",
+            "label": "Curse-from-Nowhere",
+            "startdescription": "Here is a place where the world's skin yellowed with fever. Lantern or Moth might protect us. Nothing else will. ",
+            "requirements": {
+                "curse_nowhere": 1
             },
-            {
-               "id":"explorevaultcurse_affliction_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_affliction_midheart",
-         "actionId":"explore",
-         "requirements":{
-            "heart":5
-         },
-         "label":"Invochiamo il Tasso-Accerchiato, il quale circonda",
-         "startdescription":"Possediamo abbastanza aspetto del Cuore per reprimere la Maledizione... probabilmente.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_affliction_success",
-               "chance":70
+            "slots": [
+                {
+                    "id": "Assistance",
+                    "label": "Assistance",
+                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "required": {
+                        "follower": 1,
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "explorevaultcurse_nowhere_highmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_nowhere_highlantern",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_nowhere_midmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_nowhere_midlantern",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_nowhere_lowmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "explorevaultcurse_nowhere_lowlantern",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaultcurse_nowhere_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_nowhere_highmoth",
+            "actionid": "explore",
+            "requirements": {
+                "moth": 10
             },
-            {
-               "id":"explorevaultcurse_affliction_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_affliction_lowheart",
-         "actionId":"explore",
-         "requirements":{
-            "heart":1
-         },
-         "label":"Invochiamo il Tasso-Accerchiato, il quale è succulento",
-         "startdescription":"Forse il potere della vecchia e feconda Ora, il Tasso-Accerchiato, potrà proteggerci dalla Maledizione. Forse no.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_affliction_success",
-               "chance":30
+            "label": "We call upon the Laughingthrush, who cannot be exhausted",
+            "startdescription": "We are almost certainly strong enough in Moth to be secure against the Curse.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_nowhere_success",
+                    "chance": 90
+                },
+                {
+                    "id": "explorevaultcurse_nowhere_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_nowhere_midmoth",
+            "actionid": "explore",
+            "requirements": {
+                "moth": 5
             },
-            {
-               "id":"explorevaultcurse_affliction_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_affliction_highgrail",
-         "actionId":"explore",
-         "requirements":{
-            "grail":10
-         },
-         "label":"Invochiamo il Graal Rosso, il quale dona la vita",
-         "startdescription":"Il vigore del Graal Rosso dovrebbe, quasi certamente, salvarci dalla Maledizione.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_affliction_success",
-               "chance":90
+            "label": "We call upon the Laughingthrush, who cannot be stayed",
+            "startdescription": "The Hour called the Laughingthrush may be implored to carry this Curse away. We will probably be safe.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_nowhere_success",
+                    "chance": 70
+                },
+                {
+                    "id": "explorevaultcurse_nowhere_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_nowhere_lowmoth",
+            "actionid": "explore",
+            "requirements": {
+                "moth": 1
             },
-            {
-               "id":"explorevaultcurse_affliction_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_affliction_midgrail",
-         "actionId":"explore",
-         "requirements":{
-            "grail":5
-         },
-         "label":"Invochiamo il Graal Rosso, il quale prende la vita",
-         "startdescription":"La fame del Graal Rosso dovrebbe salvarci dalla Maledizione.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_affliction_success",
-               "chance":70
+            "label": "We call upon the Laughingthrush, who tells her tale to the willing and the unwilling",
+            "startdescription": "The Laughingthrush is a Moth-power, and is not reliable. Perhaps she will protect us.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_nowhere_success",
+                    "chance": 30
+                },
+                {
+                    "id": "explorevaultcurse_nowhere_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_nowhere_highlantern",
+            "actionid": "explore",
+            "requirements": {
+                "lantern": 10
             },
-            {
-               "id":"explorevaultcurse_affliction_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_affliction_lowgrail",
-         "actionId":"explore",
-         "requirements":{
-            "grail":1
-         },
-         "label":"Invochiamo il Graal Rosso, il quale non è sazio",
-         "startdescription":"Il Graal Rosso potrebbe salvarci dalla Maledizione. È un'Ora capricciosa.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_affliction_success",
-               "chance":30
+            "label": "We call upon the Sun-in-Rags, which burns still",
+            "startdescription": "The Sun-in-Rags lends Lantern-light. It will almost certainly end this Curse here.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_nowhere_success",
+                    "chance": 90
+                },
+                {
+                    "id": "explorevaultcurse_nowhere_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_nowhere_midlantern",
+            "actionid": "explore",
+            "requirements": {
+                "lantern": 5
             },
-            {
-               "id":"explorevaultcurse_affliction_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_affliction_success",
-         "actionId":"explore",
-         "label":"La Maledizione Svanisce",
-         "startdescription":"Il nostro potere prevale su quello della maledizione. Non ci toccherà.",
-         "description":".",
-         "effects":{
-            "curse_affliction":-1
-         },
-         "craftable":false,
-         "linked":[
-            {
-               "id":"explorevaulttick",
-               "chance":100
-            }
-         ],
-         "warmup":30
-      },
-      {
-         "id":"explorevaultcurse_affliction_failure",
-         "actionId":"explore",
-         "label":"La Maledizione Ci Segue",
-         "startdescription":"C'è un prezzo da pagare quando si oltrepassa un luogo come questo. Presto la maledizione tornerà da noi.",
-         "description":".",
-         "effects":{
-            "curse_affliction":-1
-         },
-         "alt":[
-            {
-               "id":"curse_affliction_dormant",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "craftable":false,
-         "linked":[
-            {
-               "id":"explorevaulttick",
-               "chance":100
-            }
-         ],
-         "warmup":30
-      },
-      {
-         "id":"explorevaultcurse_nowhere_encounter",
-         "actionId":"explore",
-         "label":"Maledizione-dal-Nulla",
-         "startdescription":"Qui vi è un luogo nel quale la pelle del mondo è ingiallita per la febbre. La Lanterna o la Falena potrebbero proteggergi. Nient'altro sarà d'aiuto. ",
-         "requirements":{
-            "curse_nowhere":1
-         },
-         "slots":[
-            {
-               "id":"Assistance",
-               "label":"Assistenza",
-               "description":"I Fondi sono essenziali per le spedizioni. I Seguaci mi permetteranno di superare gli ostacoli.",
-               "required":{
-                  "follower":1,
-                  "funds":1
-               }
-            }
-         ],
-         "alt":[
-            {
-               "id":"explorevaultcurse_nowhere_highmoth",
-               "chance":100
+            "label": "We call upon the Sun-in-Rags, which is not as it was",
+            "startdescription": "The Sun-in-Rags, that weary chilly power, can lend us Lantern. It will conclude this curse... probably.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_nowhere_success",
+                    "chance": 70
+                },
+                {
+                    "id": "explorevaultcurse_nowhere_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_nowhere_lowlantern",
+            "actionid": "explore",
+            "requirements": {
+                "lantern": 1
             },
-            {
-               "id":"explorevaultcurse_nowhere_highlantern",
-               "chance":100
+            "label": "We call upon the Sun-in-Rags, which is distant",
+            "startdescription": "We need Lantern to end the Curse, but the Sun-in-Rags can lend us only a little.",
+            "description": ".",
+            "linked": [
+                {
+                    "id": "explorevaultcurse_nowhere_success",
+                    "chance": 30
+                },
+                {
+                    "id": "explorevaultcurse_nowhere_failure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorevaultcurse_nowhere_success",
+            "actionid": "explore",
+            "label": "The Curse Shrivels",
+            "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
+            "description": ".",
+            "effects": {
+                "curse_nowhere": -1
             },
-            {
-               "id":"explorevaultcurse_nowhere_midmoth",
-               "chance":100
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaulttick",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "explorevaultcurse_nowhere_failure",
+            "actionid": "explore",
+            "label": "The Curse Clings",
+            "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the Curse will tighten around us.",
+            "description": ".",
+            "effects": {
+                "curse_nowhere": -1
             },
-            {
-               "id":"explorevaultcurse_nowhere_midlantern",
-               "chance":100
-            },
-            {
-               "id":"explorevaultcurse_nowhere_lowmoth",
-               "chance":100
-            },
-            {
-               "id":"explorevaultcurse_nowhere_lowlantern",
-               "chance":100
-            }
-         ],
-         "warmup":30,
-         "craftable":false,
-         "linked":[
-            {
-               "id":"explorevaultcurse_nowhere_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_nowhere_highmoth",
-         "actionId":"explore",
-         "requirements":{
-            "moth":10
-         },
-         "label":"Invochiamo il Garrulo, il quale non può stancarsi",
-         "startdescription":"Siamo abbastanza forti nella Falena da ritenerci protetti dalla Maledizione.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_nowhere_success",
-               "chance":90
-            },
-            {
-               "id":"explorevaultcurse_nowhere_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_nowhere_midmoth",
-         "actionId":"explore",
-         "requirements":{
-            "moth":5
-         },
-         "label":"Invochiamo il Garrulo, il quale non può essere soggiogato",
-         "startdescription":"L'Ora chiamata il Garrulo può essere implorata per portar via questa Maledizione. Dovremmo essere al sicuro.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_nowhere_success",
-               "chance":70
-            },
-            {
-               "id":"explorevaultcurse_nowhere_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_nowhere_lowmoth",
-         "actionId":"explore",
-         "requirements":{
-            "moth":1
-         },
-         "label":"Invochiamo il Garrulo, il quale racconta le sue storie ai volenti e ai nolenti",
-         "startdescription":"Il Garrulo è un potere della Falena, e non è affidabile. Forse non ci proteggerà.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_nowhere_success",
-               "chance":30
-            },
-            {
-               "id":"explorevaultcurse_nowhere_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_nowhere_highlantern",
-         "actionId":"explore",
-         "requirements":{
-            "lantern":10
-         },
-         "label":"Invochiamo il Sole-negli-Stracci, il quale brucia ancora",
-         "startdescription":"Il Sole-negli-Stracci porta la luce della Lanterna. Dovrebbe, quasi sicuramente, terminare questa maledizione.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_nowhere_success",
-               "chance":90
-            },
-            {
-               "id":"explorevaultcurse_nowhere_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_nowhere_midlantern",
-         "actionId":"explore",
-         "requirements":{
-            "lantern":5
-         },
-         "label":"Invochiamo il Sole-negli-Stracci, il quale non è più com'era",
-         "startdescription":"Il Sole-negli-Stracci, il potere stanco e freddo, può portarci la Lanterna. Dovrebbe eliminare questa Maledizione... probabilmente.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_nowhere_success",
-               "chance":70
-            },
-            {
-               "id":"explorevaultcurse_nowhere_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_nowhere_lowlantern",
-         "actionId":"explore",
-         "requirements":{
-            "lantern":1
-         },
-         "label":"Invochiamo il Sole-negli-Stracci, il quale è distante",
-         "startdescription":"Abbiamo bisogno del potere della Lanterna per terminare questa Maledizione, ma il Sole-negli-Stracci può portarcene solo un po'.",
-         "description":".",
-         "linked":[
-            {
-               "id":"explorevaultcurse_nowhere_success",
-               "chance":30
-            },
-            {
-               "id":"explorevaultcurse_nowhere_failure",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"explorevaultcurse_nowhere_success",
-         "actionId":"explore",
-         "label":"La Maledizione Svanisce",
-         "startdescription":"Il nostro potere prevale su quello della maledizione. Non ci toccherà.",
-         "description":".",
-         "effects":{
-            "curse_nowhere":-1
-         },
-         "craftable":false,
-         "linked":[
-            {
-               "id":"explorevaulttick",
-               "chance":100
-            }
-         ],
-         "warmup":30
-      },
-      {
-         "id":"explorevaultcurse_nowhere_failure",
-         "actionId":"explore",
-         "label":"La Maledizione Ci Segue",
-         "startdescription":"C'è un prezzo da pagare quando si oltrepassa un luogo come questo. Presto la maledizione tornerà da noi.",
-         "description":".",
-         "effects":{
-            "curse_nowhere":-1
-         },
-         "alt":[
-            {
-               "id":"curse_nowhere_dormant",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "craftable":false,
-         "linked":[
-            {
-               "id":"explorevaulttick",
-               "chance":100
-            }
-         ],
-         "warmup":30
-      }
-   ]
+            "alt": [
+                {
+                    "id": "curse_nowhere_dormant",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "explorevaulttick",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        }
+    ]
 }

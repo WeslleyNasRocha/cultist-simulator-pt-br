@@ -1,99 +1,99 @@
 {
-   "elements":[
-      {
-         "id":"waywood",
-         "label":"Via: La Foresta",
-         "description":"Ho imparato la via per arrivare alla Foresta, l’oscurità intrecciata che cresce intorno alle mura del Mansus (sebbene il Mansus non abbia mura). Posso Dormire con questo per ritornare nella Foresta.",
-         "aspects":{
-            "way":1
-         },
-         "unique":true
-      },
-      {
-         "id":"waywhite",
-         "label":"Via: La Porta Bianca",
-         "description":"Nei miei sogni ho superato la Porta Bianca, la quale è stata chiamata anche la Porta d’Osso e il Cancello d’Avorio. La mia voce rimane fuori dalla Casa ogni volta che vi entro.",
-         "aspects":{
-            "way":1
-         },
-         "unique":true
-      },
-      {
-         "id":"waystagbefore_1",
-         "label":"Enigma della Porta del Cervo",
-         "description":"'Cosa può essere perso?' Rispondi a questo enigma per oltrepassare la Porta del Cervo e dimostrare di essere un Sapiente.",
-         "aspects":{
-            "riddle":1,
-            "way":1
-         },
-         "unique":true
-      },
-      {
-         "id":"waystagbefore_2",
-         "label":"Enigma della Porta del Cervo",
-         "description":"'Dove si trova la pietà?' Rispondi a questo enigma per oltrepassare la Porta del Cervo e dimostrare di essere un Sapiente.",
-         "aspects":{
-            "riddle":1,
-            "way":1
-         },
-         "unique":true
-      },
-      {
-         "id":"waystagbefore_3",
-         "label":"Enigma della Porta del Cervo",
-         "description":"'Quali sono le parole che rendono dolce il sacrificio?' Rispondi a questo enigma per oltrepassare la Porta del Cervo e dimostrare di essere un Sapiente.",
-         "aspects":{
-            "riddle":1,
-            "way":1
-         },
-         "unique":true
-      },
-      {
-         "id":"waystagbefore_4",
-         "label":"Enigma della Porta del Cervo",
-         "description":"'Cosa deve aprirsi, prima che si apra questa Via?' Rispondi a questo enigma per oltrepassare la Porta del Cervo e dimostrare di essere un Sapiente.",
-         "aspects":{
-            "riddle":1,
-            "way":1
-         },
-         "unique":true
-      },
-      {
-         "id":"waystagbefore_5",
-         "label":"Enigma della Porta del Cervo",
-         "description":"'Dov’è la regina che non nacque?' Rispondi a questo enigma per oltrepassare la Porta del Cervo e dimostrare di essere un Sapiente.",
-         "aspects":{
-            "riddle":1,
-            "way":1
-         },
-         "unique":true
-      },
-      {
-         "id":"waystag_after",
-         "label":"Via: Attraverso la Porta del Cervo",
-         "description":"Nei miei sogni ho trovato la strada per la Porta del Cervo, talvolta chiamata Cancello di Corno o Porta dell’Adepto. Ho risolto il suo enigma, e sono stato accolto tra i Sapienti.",
-         "aspects":{
-            "way":1
-         },
-         "unique":true
-      },
-      {
-         "id":"wayspider",
-         "label":"Via: La Porta del Ragno",
-         "description":"Nei miei sogni ho trovato la strada per la Porta del Ragno, talvolta chiamata Cancello Sanguinoso o, in maniera più informale, la Porta Sbagliata.",
-         "aspects":{
-            "way":1
-         },
-         "unique":true
-      },
-      {
-         "id":"waypeacock",
-         "label":"Via: La Porta del Pavone",
-         "description":"Nei miei sogni ho trovato la strada per la Porta del Pavone, talvolta chiamata Cancello degli Occhi, o Sgomento dell’Orgoglio.",
-         "aspects":{
-            "way":1
-         },
-         "unique":true
-      }
-   ]
+    "elements": [
+        {
+            "id": "waywood",
+            "label": "Way: The Wood",
+            "description": "I've learnt the path to the Wood, the tangled darkness that grows around the walls of the Mansus (though the Mansus has no walls). I can Dream with this to return to the Wood.",
+            "aspects": {
+                "way": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "waywhite",
+            "label": "Way: The White Door",
+            "description": "In my dreams, I've passed the White Door, which has been called the Bone Door and the Gate of Ivory. My voice remains outside the House each time I enter.",
+            "aspects": {
+                "way": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_1",
+            "label": "Stag Door's Riddle",
+            "description": "'What may be lost?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_2",
+            "label": "Stag Door's Riddle",
+            "description": "'Where is mercy found?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_3",
+            "label": "Stag Door's Riddle",
+            "description": "'What are the words that make sacrifice sweet?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_4",
+            "label": "Stag Door's Riddle",
+            "description": "'What must open, before this Way opens?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "waystagbefore_5",
+            "label": "Stag Door's Riddle",
+            "description": "'Where is the queen who was not born?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
+            "aspects": {
+                "riddle": 1,
+                "way": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "waystag_after",
+            "label": "Way: Through the Stag Door",
+            "description": "In my dreams, I've found the way to the Stag Door, sometimes called the Horn Gate or the Adept's Door. I have answered its riddle, and am counted among the Know.",
+            "aspects": {
+                "way": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "wayspider",
+            "label": "Way: The Spider's Door",
+            "description": "In my dreams, I've found the way to the Spider's Door, sometimes called the Bloody Gate or, more informally, the Wrong Door.",
+            "aspects": {
+                "way": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "waypeacock",
+            "label": "Way: The Peacock's Door",
+            "description": "In my dreams, I've found the way to the Peacock's Door, sometimes called the Gate of Eyes, or Pride's Dismay.",
+            "aspects": {
+                "way": 1
+            },
+            "unique": true
+        }
+    ]
 }

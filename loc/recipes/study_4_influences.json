@@ -1,825 +1,825 @@
 {
-   "recipes":[
-      {
-         "id":"studyugradeknockinfluence",
-         "label":"Accelera le Fratture",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "knock":1
-         },
-         "effects":{
-            "project_influence_upgrade_subvert_knock":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"Applica pressione alla pelle del mondo e questa si spellerà, come un frutto maturo. [Qualsiasi influenza studiata con il Colpo diviene Colpo.]",
-         "description":".",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studyupgradeinfluence_edge",
-         "label":"Trova il Momento di Più Intensa Opposizione",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "edge":1,
-            "winter":-1,
-            "forge":-1,
-            "knock":-1
-         },
-         "effects":{
-            "project_influence_upgrade_edge":1
-         },
-         "alt":[
-            {
-               "id":"dreadinduction_ifdread",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"Tutti i più grandi sforzi si concludono con la morte. [Questo aumenterà la tua influenza della Lama.]",
-         "description":".",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studysubvertinfluence_edgetowinter",
-         "label":"Sovverti un'Influenza della Lama",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "edge":1,
-            "winter":1
-         },
-         "effects":{
-            "project_influence_subvert_edgetowinter":1
-         },
-         "alt":[
-            {
-               "id":"dreadinduction_ifdread",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"Tutto finisce. Mediterò sul trionfo della pazienza sulla forza. [Questo creerà un'influenza dell'Inverno invece che della Lama.]",
-         "description":".",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studyforgeinfluence",
-         "label":"Costruisci un Calore Maggiore",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "forge":1,
-            "edge":-1,
-            "lantern":-1,
-            "knock":-1
-         },
-         "effects":{
-            "project_influence_upgrade_forge":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"I fuochi crescono quando vengono nutriti. [Questo aumenterà la tua influenza della Forgia.]",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studysubvertinfluence_forgetoedge",
-         "label":"Sovverti un'Influenza della Forgia",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "forge":1,
-            "edge":1
-         },
-         "effects":{
-            "project_influence_subvert_forgetoedge":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"L'Ora chiamata Leonfabbro distrusse la sua stessa spada per sfuggire al dominio del suo padrone. Ogni cosa può essere superata, con abbastanza forza. [Questo creerà un'influenza della Lama invece che della Forgia.]",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studygrailinfluence",
-         "label":"Unisci gli Appetiti",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "grail":1,
-            "moth":-1,
-            "heart":-1,
-            "knock":-1
-         },
-         "effects":{
-            "project_influence_upgrade_grail":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"Quando seguiamo i desideri fino alle loro radici, scopriamo i desideri che vi giacciono sotto. [Questo aumenterà la tua influenza del Graal.]",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studysubvertinfluence_grailtomoth",
-         "label":"Sovverti un'Influenza del Graal",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "grail":1,
-            "moth":1
-         },
-         "effects":{
-            "project_influence_subvert_grailtomoth":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"Si dice che il Graal sia nato dal primo sacrificio. Ma la Falena lo sa per certo. [Questo creerà un'influenza della Falena invece che del Graal.]",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studyheartinfluence",
-         "label":"Intreccia i Ritmi Incessanti",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "heart":1,
-            "grail":-1,
-            "winter":-1,
-            "knock":-1
-         },
-         "effects":{
-            "project_influence_upgrade_heart":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"Ci sono lezioni che imparano l'anatomista, la danzatrice e lo sciamano. [Questo aumenterà la tua influenza del Cuore.]",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studysubvertinfluence_hearttograil",
-         "label":"Sovverti un'Influenza del Cuore",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "heart":1,
-            "grail":1
-         },
-         "effects":{
-            "project_influence_subvert_hearttograil":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"Ciò che non cessa soccombe, alla fine, alla tentazione. [Questo creerà un'influenza del Graal invece che del Cuore.]",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studylanterninfluence",
-         "label":"Allinea le Luminosità",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "lantern":1,
-            "forge":-1,
-            "moth":-1,
-            "knock":-1
-         },
-         "effects":{
-            "project_influence_upgrade_lantern":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"Dove gli specchi si incrociano, dove le ombre si separano, dove il sangue dorato del Sole si aggrega più profondo. [Questo aumenterà la tua influenza della Lanterna.]",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studysubvertinfluence_lanterntoforge",
-         "label":"Sovverti un'Influenza della Lanterna",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "lantern":1,
-            "forge":1
-         },
-         "effects":{
-            "project_influence_subvert_lanterntoforge":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"Il magus Julian Coseley afferma che la Forgia dei Giorni divise il Sole. Forse aveva ragione. [Questo creerà un'influenza della Forgia invece che della Lanterna.]",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studymothinfluence",
-         "label":"Abbraccia le Possibilità del Pericolo",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "moth":1,
-            "lantern":-1,
-            "grail":-1,
-            "knock":-1
-         },
-         "alt":[
-            {
-               "id":"fascinationinduction_iffascination",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "effects":{
-            "project_influence_upgrade_moth":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"Ora ritorno alle cose che posso comprendere. [Questo aumenterà la tua influenza della Falena.]",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studysubvertinfluence_mothtolantern",
-         "label":"Sovverti un'Influenza della Falena",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "moth":1,
-            "lantern":1
-         },
-         "alt":[
-            {
-               "id":"fascinationinduction_iffascination",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "effects":{
-            "project_influence_subvert_mothtolantern":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"La Gloria è una domanda, e la Falena risponde sempre 'Sì'. [Questo creerà un'influenza della Lanterna invece che della Falena.]",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studywinterinfluence",
-         "label":"Approfondisci il Silenzio",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "winter":1,
-            "heart":-1,
-            "knock":-1
-         },
-         "effects":{
-            "project_influence_upgrade_winter":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"Il Silenzio attende nell'ovest del mondo, ma non per sempre. [Questo aumenterà la tua influenza dell'Inverno.]",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"subvertwinterinfluence",
-         "label":"Sovverti un'Influenza dell'Inverno",
-         "actionId":"study",
-         "requirements":{
-            "influence":2,
-            "healthskill":-1,
-            "reasonskill":-1,
-            "passionskill":-1,
-            "lore":1,
-            "winter":1,
-            "heart":1
-         },
-         "effects":{
-            "project_influence_subvert_wintertoheart":1
-         },
-         "linked":[
-            {
-               "id":"studyinfluence_effectproject",
-               "chance":100
-            }
-         ],
-         "startdescription":"Perfino nella neve, nel silenzio, nel bianco senza colori, la vita non cessa mai del tutto. [Questo creerà un'influenza del Cuore invece che dell'Inverno.]",
-         "warmup":5,
-         "craftable":true
-      },
-      {
-         "id":"studyinfluence_effectproject",
-         "label":"Il Momento della Conseguenza",
-         "actionId":"study",
-         "requirements":{
-            "influence":2
-         },
-         "startdescription":"Ora potenze e potenzialità si allineano...",
-         "warmup":5,
-         "linked":[
-            {
-               "id":"studyproject_influence_upgrade_edge",
-               "chance":100
+    "recipes": [
+        {
+            "id": "studyugradeknockinfluence",
+            "label": "Accelerate Fractures",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "knock": 1
             },
-            {
-               "id":"studyproject_influence_upgrade_forge",
-               "chance":100
+            "effects": {
+                "project_influence_upgrade_subvert_knock": 1
             },
-            {
-               "id":"studyproject_influence_upgrade_grail",
-               "chance":100
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Apply pressure to the skin of the world, and it will part like the skin of a ripe fruit. [Any influence studied with Knock becomes Knock.]",
+            "description": ".",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studyupgradeinfluence_edge",
+            "label": "Find the Moment of Intensest Opposition",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "edge": 1,
+                "winter": -1,
+                "forge": -1,
+                "knock": -1
             },
-            {
-               "id":"studyproject_influence_upgrade_heart",
-               "chance":100
+            "effects": {
+                "project_influence_upgrade_edge": 1
             },
-            {
-               "id":"studyproject_influence_upgrade_lantern",
-               "chance":100
+            "alt": [
+                {
+                    "id": "dreadinduction_ifdread",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "All of the greatest struggles end in death. [This will upgrade your Edge influence.]",
+            "description": ".",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studysubvertinfluence_edgetowinter",
+            "label": "Subvert Edge Influence",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "edge": 1,
+                "winter": 1
             },
-            {
-               "id":"studyproject_influence_upgrade_moth",
-               "chance":100
+            "effects": {
+                "project_influence_subvert_edgetowinter": 1
             },
-            {
-               "id":"studyproject_influence_upgrade_winter",
-               "chance":100
+            "alt": [
+                {
+                    "id": "dreadinduction_ifdread",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "All things end. I will meditate on the triumph of patience over strength. [This will create Winter influence instead of Edge.]",
+            "description": ".",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studyforgeinfluence",
+            "label": "Build a Greater Heat",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "forge": 1,
+                "edge": -1,
+                "lantern": -1,
+                "knock": -1
             },
-            {
-               "id":"studyproject_influence_subvert_edgetowinter",
-               "chance":100
+            "effects": {
+                "project_influence_upgrade_forge": 1
             },
-            {
-               "id":"studyproject_influence_subvert_forgetoedge",
-               "chance":100
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Fires grow when fed. [This will upgrade your Forge influence.]",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studysubvertinfluence_forgetoedge",
+            "label": "Subvert Forge Influence",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "forge": 1,
+                "edge": 1
             },
-            {
-               "id":"studyproject_influence_subvert_grailtomoth",
-               "chance":100
+            "effects": {
+                "project_influence_subvert_forgetoedge": 1
             },
-            {
-               "id":"studyproject_influence_subvert_hearttograil",
-               "chance":100
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "The Hour called Lionsmith shattered his own sword to escape his master's dominion. All things can be overcome, with sufficient force. [This will create Edge influence instead of Forge.]",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studygrailinfluence",
+            "label": "Unite Appetites",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "grail": 1,
+                "moth": -1,
+                "heart": -1,
+                "knock": -1
             },
-            {
-               "id":"studyproject_influence_subvert_lanterntoforge",
-               "chance":100
+            "effects": {
+                "project_influence_upgrade_grail": 1
             },
-            {
-               "id":"studyproject_influence_subvert_mothtolantern",
-               "chance":100
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "When we follow desires to their roots, we find the desires that lie beneath. [This will upgrade your Grail influence.]",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studysubvertinfluence_grailtomoth",
+            "label": "Subvert Grail Influence",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "grail": 1,
+                "moth": 1
             },
-            {
-               "id":"studyproject_influence_subvert_wintertoheart",
-               "chance":100
+            "effects": {
+                "project_influence_subvert_grailtomoth": 1
             },
-            {
-               "id":"studyproject_influence_upgrade_subvert_knock",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"studyproject_influence_upgrade_edge",
-         "label":"Un'Opposizione Più Intensa",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_upgrade_edge":1
-         },
-         "effects":{
-            "influenceedge": -1,
-            "influenceedgec": -1,
-            "influenceedgee": -1,
-            "influenceedgeg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"Ho intensificato questa influenza della Lama."
-      },
-      {
-         "id":"studyproject_influence_upgrade_forge",
-         "label":"Un Calore Maggiore",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_upgrade_forge":1
-         },
-         "effects":{
-            "influenceforge": -1,
-            "influenceforgec": -1,
-            "influenceforgee": -1,
-            "influenceforgeg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"Ho intensificato questa influenza della Forgia."
-      },
-      {
-         "id":"studyproject_influence_upgrade_grail",
-         "label":"Un Appetito Più Potente",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_upgrade_grail":1
-         },
-         "effects":{
-            "influencegrail": -1,
-            "influencegrailc": -1,
-            "influencegraile": -1,
-            "influencegrailg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"Ho intensificato questa influenza del Graal."
-      },
-      {
-         "id":"studyproject_influence_upgrade_heart",
-         "label":"I Ritmi Incessanti",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_upgrade_heart":1
-         },
-         "effects":{
-            "influenceheart": -1,
-            "influenceheartc": -1,
-            "influencehearte": -1,
-            "influenceheartg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"Ho intensificato questa influenza del Cuore."
-      },
-      {
-         "id":"studyproject_influence_upgrade_lantern",
-         "label":"Luminosità Allineate",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_upgrade_lantern":1
-         },
-         "effects":{
-            "influencelantern": -1,
-            "influencelanternc": -1,
-            "influencelanterne": -1,
-            "influencelanterng": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"Ho intensificato questa influenza della Lanterna."
-      },
-      {
-         "id":"studyproject_influence_upgrade_moth",
-         "label":"Più Vicino, Più Vicino",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_upgrade_moth":1
-         },
-         "effects":{
-            "influencemoth": -1,
-            "influencemothc": -1,
-            "influencemothe": -1,
-            "influencemothg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"Ho intensificato questa influenza della Falena."
-      },
-      {
-         "id":"studyproject_influence_upgrade_winter",
-         "label":"Un Luogo Silente",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_upgrade_winter":1
-         },
-         "effects":{
-            "influencewinter": -1,
-            "influencewinterc": -1,
-            "influencewintere": -1,
-            "influencewinterg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"Ho intensificato questa influenza dell'Inverno."
-      },
-      {
-         "id":"studyproject_influence_subvert_edgetowinter",
-         "label":"Ogni Cosa Finisce",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_subvert_edgetowinter":1
-         },
-         "effects":{
-            "influenceedge": -1,
-            "influenceedgec": -1,
-            "influenceedgee": -1,
-            "influenceedgeg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"La pazienza sconfigge la forza."
-      },
-      {
-         "id":"studyproject_influence_subvert_forgetoedge",
-         "label":"La Forza Conquista Tutto",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_subvert_forgetoedge":1
-         },
-         "effects":{
-            "influenceforge": -1,
-            "influenceforgec": -1,
-            "influenceforgee": -1,
-            "influenceforgeg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"Ho distrutto ciò che era stato formato."
-      },
-      {
-         "id":"studyproject_influence_subvert_grailtomoth",
-         "label":"La Fame è Follia",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_subvert_grailtomoth":1
-         },
-         "effects":{
-            "influencegrail": -1,
-            "influencegrailc": -1,
-            "influencegraile": -1,
-            "influencegrailg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"Perfino il Graal Rosso cade preda del ronzio nel cervello."
-      },
-      {
-         "id":"studyproject_influence_subvert_hearttograil",
-         "label":"Ciò Che Non Cessa Deve Eventualmente Fruttare",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_subvert_hearttograil":1
-         },
-         "effects":{
-            "influenceheart": -1,
-            "influenceheartc": -1,
-            "influencehearte": -1,
-            "influenceheartg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"Tutto ciò che si muove deve soccombere alla fame."
-      },
-      {
-         "id":"studyproject_influence_subvert_lanterntoforge",
-         "label":"Tramonto a Mezzogiorno",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_subvert_lanterntoforge":1
-         },
-         "effects":{
-            "influencelantern": -1,
-            "influencelanternc": -1,
-            "influencelanterne": -1,
-            "influencelanterng": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"La luce porta al Calore."
-      },
-      {
-         "id":"studyproject_influence_subvert_mothtolantern",
-         "label":"La Luce Superiore",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_subvert_mothtolantern":1
-         },
-         "effects":{
-            "influencemoth": -1,
-            "influencemothc": -1,
-            "influencemothe": -1,
-            "influencemothg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"La Gloria è una domanda, e la Falena risponde sempre 'Sì'."
-      },
-      {
-         "id":"studyproject_influence_subvert_wintertoheart",
-         "label":"La Vita Sottostante",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_subvert_wintertoheart":1
-         },
-         "effects":{
-            "influencewinter": -1,
-            "influencewinterc": -1,
-            "influencewintere": -1,
-            "influencewinterg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"L'arrivo dell'Inverno deve portare, infine, alla primavera."
-      },
-      {
-         "id":"studyproject_influence_upgrade_subvert_knock",
-         "label":"La Pelle del Mondo",
-         "actionId":"study",
-         "requirements":{
-            "project_influence_upgrade_subvert_knock":1
-         },
-         "effects":{
-            "influenceedge": -1,
-            "influenceedgec": -1,
-            "influenceedgee": -1,
-            "influenceedgeg": -1,
-            "influenceforge": -1,
-            "influenceforgec": -1,
-            "influenceforgee": -1,
-            "influenceforgeg": -1,
-            "influencegrail": -1,
-            "influencegrailc": -1,
-            "influencegraile": -1,
-            "influencegrailg": -1,
-            "influenceheart": -1,
-            "influenceheartc": -1,
-            "influencehearte": -1,
-            "influenceheartg": -1,
-            "influencelantern": -1,
-            "influencelanternc": -1,
-            "influencelanterne": -1,
-            "influencelanterng": -1,
-            "influencemoth": -1,
-            "influencemothc": -1,
-            "influencemothe": -1,
-            "influencemothg": -1,
-            "influencewinter": -1,
-            "influencewinterc": -1,
-            "influencewintere": -1,
-            "influencewinterg": -1
-         },
-         "aspects":{
-            "upgradeinfluence":1
-         },
-         "description":"Applica pressione ad un punto debole, e lacera la pelle del mondo.",
-         "linked":[
-            {
-               "id":"studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
-         "label":"Tutto Deve Essere Aperto",
-         "comments":"This exists to remove a Knock influence, if we were combining Knock influences rather than Knock + another. Dangit Kennedy you wouldn't need hacks like this if you'd implemented OR conditions. Aspects don't *quite* always cut it.",
-         "actionId":"study",
-         "requirements":{
-            "influence":2
-         },
-         "effects":{
-            "influenceknock": -1,
-            "influenceknockc": -1,
-            "influenceknocke": -1,
-            "influenceknockg": -1
-         },
-         "description":"."
-      }
-   ]
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "It has been claimed that Grail was born from the first sacrifice. But Moth knows better. [This will create Moth influence instead of Grail.]",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studyheartinfluence",
+            "label": "Interweave the Rhythms Unceasing",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "heart": 1,
+                "grail": -1,
+                "winter": -1,
+                "knock": -1
+            },
+            "effects": {
+                "project_influence_upgrade_heart": 1
+            },
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "There are lessons the anatomist, the dancer and the shaman all learn. [This will upgrade your Heart influence.]",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studysubvertinfluence_hearttograil",
+            "label": "Subvert Heart Influence",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "heart": 1,
+                "grail": 1
+            },
+            "effects": {
+                "project_influence_subvert_hearttograil": 1
+            },
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "What does not cease will succumb, at last, to temptation. [This will create Grail influence instead of Heart.]",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studylanterninfluence",
+            "label": "Align Luminosities",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "lantern": 1,
+                "forge": -1,
+                "moth": -1,
+                "knock": -1
+            },
+            "effects": {
+                "project_influence_upgrade_lantern": 1
+            },
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Where mirrors cross, where shadows part, where the Sun's golden blood pools thickest. [This will upgrade your Lantern influence.]",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studysubvertinfluence_lanterntoforge",
+            "label": "Subvert Lantern Influence",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "lantern": 1,
+                "forge": 1
+            },
+            "effects": {
+                "project_influence_subvert_lanterntoforge": 1
+            },
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "The magus Julian Coseley claims the Forge of Days split the Sun. Perhaps he was right. [This will create Forge influence instead of Lantern.]",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studymothinfluence",
+            "label": "Embrace the Possibilities of Peril",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "moth": 1,
+                "lantern": -1,
+                "grail": -1,
+                "knock": -1
+            },
+            "alt": [
+                {
+                    "id": "fascinationinduction_iffascination",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "project_influence_upgrade_moth": 1
+            },
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Now I turn my back on the things I understand. [This will upgrade your Moth influence.]",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studysubvertinfluence_mothtolantern",
+            "label": "Subvert Moth Influence",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "moth": 1,
+                "lantern": 1
+            },
+            "alt": [
+                {
+                    "id": "fascinationinduction_iffascination",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "project_influence_subvert_mothtolantern": 1
+            },
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "The Glory is a question, and the Moth always answers, Yes. [This will create Lantern influence instead of Moth.]",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studywinterinfluence",
+            "label": "Deepen the Silence",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "winter": 1,
+                "heart": -1,
+                "knock": -1
+            },
+            "effects": {
+                "project_influence_upgrade_winter": 1
+            },
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Silence waits west of the world, but not forever. [This will upgrade your Winter influence.]",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "subvertwinterinfluence",
+            "label": "Subvert Winter Influence",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2,
+                "healthskill": -1,
+                "reasonskill": -1,
+                "passionskill": -1,
+                "lore": 1,
+                "winter": 1,
+                "heart": 1
+            },
+            "effects": {
+                "project_influence_subvert_wintertoheart": 1
+            },
+            "linked": [
+                {
+                    "id": "studyinfluence_effectproject",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Even in the snow, in the silence, in the white without colours, life will never quite cease. [This will create Heart influence instead of Winter.]",
+            "warmup": 5,
+            "craftable": true
+        },
+        {
+            "id": "studyinfluence_effectproject",
+            "label": "The Moment of Consequence",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2
+            },
+            "startdescription": "Now potencies and potentialities align -",
+            "warmup": 5,
+            "linked": [
+                {
+                    "id": "studyproject_influence_upgrade_edge",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_upgrade_forge",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_upgrade_grail",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_upgrade_heart",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_upgrade_lantern",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_upgrade_moth",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_upgrade_winter",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_subvert_edgetowinter",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_subvert_forgetoedge",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_subvert_grailtomoth",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_subvert_hearttograil",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_subvert_lanterntoforge",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_subvert_mothtolantern",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_subvert_wintertoheart",
+                    "chance": 100
+                },
+                {
+                    "id": "studyproject_influence_upgrade_subvert_knock",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "studyproject_influence_upgrade_edge",
+            "label": "An Intenser Opposition",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_upgrade_edge": 1
+            },
+            "effects": {
+                "influenceedge": -1,
+                "influenceedgec": -1,
+                "influenceedgee": -1,
+                "influenceedgeg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "I've intensified this Edge influence."
+        },
+        {
+            "id": "studyproject_influence_upgrade_forge",
+            "label": "A Greater Heat",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_upgrade_forge": 1
+            },
+            "effects": {
+                "influenceforge": -1,
+                "influenceforgec": -1,
+                "influenceforgee": -1,
+                "influenceforgeg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "I've intensified this Forge influence."
+        },
+        {
+            "id": "studyproject_influence_upgrade_grail",
+            "label": "A More Potent Appetite",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_upgrade_grail": 1
+            },
+            "effects": {
+                "influencegrail": -1,
+                "influencegrailc": -1,
+                "influencegraile": -1,
+                "influencegrailg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "I've intensified this Grail influence."
+        },
+        {
+            "id": "studyproject_influence_upgrade_heart",
+            "label": "The Rhythms Unceasing",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_upgrade_heart": 1
+            },
+            "effects": {
+                "influenceheart": -1,
+                "influenceheartc": -1,
+                "influencehearte": -1,
+                "influenceheartg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "I've intensified this Heart influence."
+        },
+        {
+            "id": "studyproject_influence_upgrade_lantern",
+            "label": "Luminosities Aligned",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_upgrade_lantern": 1
+            },
+            "effects": {
+                "influencelantern": -1,
+                "influencelanternc": -1,
+                "influencelanterne": -1,
+                "influencelanterng": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "I've intensified this Lantern influence."
+        },
+        {
+            "id": "studyproject_influence_upgrade_moth",
+            "label": "Closer, Closer",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_upgrade_moth": 1
+            },
+            "effects": {
+                "influencemoth": -1,
+                "influencemothc": -1,
+                "influencemothe": -1,
+                "influencemothg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "I've intensified this Moth influence."
+        },
+        {
+            "id": "studyproject_influence_upgrade_winter",
+            "label": "A Silent Place",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_upgrade_winter": 1
+            },
+            "effects": {
+                "influencewinter": -1,
+                "influencewinterc": -1,
+                "influencewintere": -1,
+                "influencewinterg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "I've intensified this Winter influence."
+        },
+        {
+            "id": "studyproject_influence_subvert_edgetowinter",
+            "label": "All Things End",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_subvert_edgetowinter": 1
+            },
+            "effects": {
+                "influenceedge": -1,
+                "influenceedgec": -1,
+                "influenceedgee": -1,
+                "influenceedgeg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "Patience defeats strength."
+        },
+        {
+            "id": "studyproject_influence_subvert_forgetoedge",
+            "label": "Force Conquers All",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_subvert_forgetoedge": 1
+            },
+            "effects": {
+                "influenceforge": -1,
+                "influenceforgec": -1,
+                "influenceforgee": -1,
+                "influenceforgeg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "I've shattered what was shaped."
+        },
+        {
+            "id": "studyproject_influence_subvert_grailtomoth",
+            "label": "Hunger is Folly",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_subvert_grailtomoth": 1
+            },
+            "effects": {
+                "influencegrail": -1,
+                "influencegrailc": -1,
+                "influencegraile": -1,
+                "influencegrailg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "Even the Red Grail falls prey to the buzzing in the brain."
+        },
+        {
+            "id": "studyproject_influence_subvert_hearttograil",
+            "label": "What Does Not Cease Must Eventually Yield",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_subvert_hearttograil": 1
+            },
+            "effects": {
+                "influenceheart": -1,
+                "influenceheartc": -1,
+                "influencehearte": -1,
+                "influenceheartg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "All that moves must succumb to hunger."
+        },
+        {
+            "id": "studyproject_influence_subvert_lanterntoforge",
+            "label": "Sunset at Noon",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_subvert_lanterntoforge": 1
+            },
+            "effects": {
+                "influencelantern": -1,
+                "influencelanternc": -1,
+                "influencelanterne": -1,
+                "influencelanterng": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "Light yields to Heat."
+        },
+        {
+            "id": "studyproject_influence_subvert_mothtolantern",
+            "label": "The Light Above",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_subvert_mothtolantern": 1
+            },
+            "effects": {
+                "influencemoth": -1,
+                "influencemothc": -1,
+                "influencemothe": -1,
+                "influencemothg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "The Glory is a question, and Moth always answers Yes."
+        },
+        {
+            "id": "studyproject_influence_subvert_wintertoheart",
+            "label": "The Life Beneath",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_subvert_wintertoheart": 1
+            },
+            "effects": {
+                "influencewinter": -1,
+                "influencewinterc": -1,
+                "influencewintere": -1,
+                "influencewinterg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "Winter's coming must yield at last to spring."
+        },
+        {
+            "id": "studyproject_influence_upgrade_subvert_knock",
+            "label": "The Skin of the World",
+            "actionid": "study",
+            "requirements": {
+                "project_influence_upgrade_subvert_knock": 1
+            },
+            "effects": {
+                "influenceedge": -1,
+                "influenceedgec": -1,
+                "influenceedgee": -1,
+                "influenceedgeg": -1,
+                "influenceforge": -1,
+                "influenceforgec": -1,
+                "influenceforgee": -1,
+                "influenceforgeg": -1,
+                "influencegrail": -1,
+                "influencegrailc": -1,
+                "influencegraile": -1,
+                "influencegrailg": -1,
+                "influenceheart": -1,
+                "influenceheartc": -1,
+                "influencehearte": -1,
+                "influenceheartg": -1,
+                "influencelantern": -1,
+                "influencelanternc": -1,
+                "influencelanterne": -1,
+                "influencelanterng": -1,
+                "influencemoth": -1,
+                "influencemothc": -1,
+                "influencemothe": -1,
+                "influencemothg": -1,
+                "influencewinter": -1,
+                "influencewinterc": -1,
+                "influencewintere": -1,
+                "influencewinterg": -1
+            },
+            "aspects": {
+                "upgradeinfluence": 1
+            },
+            "description": "Place pressure upon a weakness, and rend the skin of the world.",
+            "linked": [
+                {
+                    "id": "studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "studyproject_influence_upgrade_subvert_knock_remove_spare_knock",
+            "label": "All Shall Be Opened",
+            "comments": "This exists to remove a Knock influence, if we were combining Knock influences rather than Knock + another. Dangit Kennedy you wouldn't need hacks like this if you'd implemented OR conditions. Aspects don't *quite* always cut it.",
+            "actionid": "study",
+            "requirements": {
+                "influence": 2
+            },
+            "effects": {
+                "influenceknock": -1,
+                "influenceknockc": -1,
+                "influenceknocke": -1,
+                "influenceknockg": -1
+            },
+            "description": "."
+        }
+    ]
 }

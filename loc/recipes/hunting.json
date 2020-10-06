@@ -1,643 +1,643 @@
 {
-   "recipes":[
-      {
-         "id":"suspicion",
-         "label":"Il Tipo di Attenzione Sbagliata",
-         "actionId":"suspicion",
-         "requirements":{
-            "seasonsuspicion":1
-         },
-         "slots":[
-            {
-               "id":"Suspicion",
-               "label":"Un Avversario?",
-               "required":{
-                  "hunter":1
-               },
-               "greedy":true
-            }
-         ],
-         "startdescription":"La città pullula di giornalisti, detective e altri ficcanaso. Per quanto, ancora, mi lasceranno in pace?",
-         "description":"Per ora sono salvo. L'attenzione dei ficcanaso si è spostata da qualche altra parte. Un sollievo.",
-         "warmup":10,
-         "craftable":false,
-         "linked":[
-            {
-               "id":"suspiciongrabreputation",
-               "chance":100
+    "recipes": [
+        {
+            "id": "suspicion",
+            "label": "The Wrong Kind of Attention",
+            "actionid": "suspicion",
+            "requirements": {
+                "seasonsuspicion": 1
             },
-            {
-               "id":"suspiciontrycreatehunter",
-               "chance":70
-            }
-         ]
-      },
-      {
-         "id":"suspiciongrabreputation",
-         "label":"Alla Ricerca di Indizi...",
-         "actionId":"suspicion",
-         "requirements":{
-            "hunter":1
-         },
-         "startdescription":"Un avversario sta indagando sulle mie attività.",
-         "description":"",
-         "slots":[
-            {
-               "id":"Clues",
-               "label":"Indizi",
-               "required":{
-                  "reputation":1
-               },
-               "greedy":true
-            }
-         ],
-         "warmup":30,
-         "linked":[
-            {
-               "id":"suspicion_searchlongerforevidence",
-               "chance":100
+            "slots": [
+                {
+                    "id": "Suspicion",
+                    "label": "An Adversary?",
+                    "required": {
+                        "hunter": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "startdescription": "The city is rife with journalists and detectives and other meddlers. How long will they leave me in peace?",
+            "description": "I'm safe for now. The meddlers' attention must be elsewhere. A relief.",
+            "warmup": 10,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "suspiciongrabreputation",
+                    "chance": 100
+                },
+                {
+                    "id": "suspiciontrycreatehunter",
+                    "chance": 70
+                }
+            ]
+        },
+        {
+            "id": "suspiciongrabreputation",
+            "label": "Searching for Clues...",
+            "actionid": "suspicion",
+            "requirements": {
+                "hunter": 1
             },
-            {
-               "id":"suspiciongrabevidence",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"suspiciongrabevidence",
-         "actionId":"suspicion",
-         "label":"Esaminare le Prove...",
-         "startdescription":"Se un Cacciatore ha trovato una Notorietà, proverà ad usarla per creare o migliorare una Prova. Se è Meticoloso ci riuscirà sempre. Se è Erratico è più probabile che fallisca... ma capita che crei delle Prove anche in assenza di Notorietà.",
-         "description":"Sono salvo, per ora. Il mio avversario non ha abbastanza prove per creare un caso e non ha trovato nuovi indizi.",
-         "slots":[
-            {
-               "id":"Evidence",
-               "label":"Prove",
-               "required":{
-                  "evidenceb":1,
-                  "evidence":1
-               },
-               "greedy":true
-            }
-         ],
-         "alt":[
-            {
-               "id":"suspicionpretrial",
-               "chance":100
+            "startdescription": "An adversary is asking searching questions about my activities.",
+            "description": "",
+            "slots": [
+                {
+                    "id": "Clues",
+                    "label": "Clues",
+                    "required": {
+                        "reputation": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "warmup": 30,
+            "linked": [
+                {
+                    "id": "suspicion_searchlongerforevidence",
+                    "chance": 100
+                },
+                {
+                    "id": "suspiciongrabevidence",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "suspiciongrabevidence",
+            "actionid": "suspicion",
+            "label": "Considering the Evidence...",
+            "startdescription": "If a Hunter has found Notoriety, they will try to use it to create or upgrade Evidence. If they're Meticulous, they'll always succeed. If they're Erratic, they're more likely to fail... but they can occasionally create Evidence even without Notoriety.",
+            "description": "I am safe, for now. My adversary has not enough evidence to bring a case against me, and they've found no new clues.",
+            "slots": [
+                {
+                    "id": "Evidence",
+                    "label": "Evidence",
+                    "required": {
+                        "evidenceb": 1,
+                        "evidence": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "id": "suspicionpretrial",
+                    "chance": 100
+                },
+                {
+                    "id": "suspicionerratic_alwaysfail",
+                    "chance": 10
+                },
+                {
+                    "id": "suspicionpromoteevidencemeticulous",
+                    "chance": 100
+                },
+                {
+                    "id": "suspicionpromoteevidence",
+                    "chance": 70
+                },
+                {
+                    "id": "suspicioncreateevidencemeticulous",
+                    "chance": 100
+                },
+                {
+                    "id": "suspicioncreateevidence",
+                    "chance": 70
+                }
+            ],
+            "warmup": 30,
+            "linked": [
+                {
+                    "id": "suspicionerratic_alwayssucceed",
+                    "chance": 10
+                }
+            ]
+        },
+        {
+            "id": "suspicionerratic_alwaysfail",
+            "actionid": "suspicion",
+            "label": "Curious Habits",
+            "requirements": {
+                "erratic": 1,
+                "reputation": 1
             },
-            {
-               "id":"suspicionerratic_alwaysfail",
-               "chance":10
+            "startdescription": "My adversary is behaving eccentrically. [This happens only occasionally.]",
+            "description": "Has my adversary been practising a musical instrument instead of pursuing the investigation? Flinging darts at a cork board? Or just taking very long naps? Reports are inconsistent, but so is their behaviour. They've made no progress.",
+            "effects": {
+                "reputation": -1
+            }
+        },
+        {
+            "id": "suspicionerratic_alwayssucceed",
+            "actionid": "suspicion",
+            "label": "Bewildering Successes",
+            "requirements": {
+                "erratic": 1,
+                "reputation": -1
             },
-            {
-               "id":"suspicionpromoteevidencemeticulous",
-               "chance":100
+            "effects": {
+                "notoriety": 1
             },
-            {
-               "id":"suspicionpromoteevidence",
-               "chance":70
+            "startdescription": "A rumour claims my adversary has taken to casting oracles with the I Ching. Another claims they seek answers in dreams. Yet another, that they select which questions to ask by rolling dice. They've found evidence where there should be no evidence to find. [This happens only occasionally.]",
+            "linked": [
+                {
+                    "id": "suspicionpromoteevidence",
+                    "chance": 100
+                },
+                {
+                    "id": "suspicioncreateevidence",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "suspicion_searchlongerforevidence",
+            "actionid": "suspicion",
+            "requirements": {
+                "mystique": 1
             },
-            {
-               "id":"suspicioncreateevidencemeticulous",
-               "chance":100
+            "label": "The Perils of Renown",
+            "startdescription": "My Mystique has attracted this hunter's attention. They can prove nothing yet, but they'll keep looking for longer, now.",
+            "effects": {
+                "mystique": -1
             },
-            {
-               "id":"suspicioncreateevidence",
-               "chance":70
-            }
-         ],
-         "warmup":30,
-         "linked":[
-            {
-               "id":"suspicionerratic_alwayssucceed",
-               "chance":10
-            }
-         ]
-      },
-      {
-         "id":"suspicionerratic_alwaysfail",
-         "actionId":"suspicion",
-         "label":"Strani Vizi",
-         "requirements":{
-            "erratic":1,
-            "reputation":1
-         },
-         "startdescription":"Il mio avversario si sta comportando in maniera eccentrica. [Succede solo occasionalmente.]",
-         "description":"Il mio avversario ha studiato musica invece che seguire le indagini? Giocato a freccette? O, più semplicemente, dorme tutto il giorno? I resoconti sono inconsistenti, e inconsistente è anche il suo comportamento. Non ha fatto alcun progresso.",
-         "effects":{
-            "reputation":-1
-         }
-      },
-      {
-         "id":"suspicionerratic_alwayssucceed",
-         "actionId":"suspicion",
-         "label":"Successi Stupefacenti",
-         "requirements":{
-            "erratic":1,
-            "reputation":-1
-         },
-         "effects":{
-            "notoriety":1
-         },
-         "startdescription":"Gira voce che il mio avversario abbia cominciato a compiere oracoli con l'I Ching. Un'altra voce afferma che cerchi risposte nei sogni. Un'altra ancora afferma che chieda ad un dado che domanda porre. Ha trovato delle prove dove non ce ne dovrebbero essere. [Questo succede solo occasionalmente.]",
-         "linked":[
-            {
-               "id":"suspicionpromoteevidence",
-               "chance":100
+            "slots": [
+                {
+                    "id": "Clues",
+                    "label": "Clues",
+                    "required": {
+                        "reputation": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "warmup": 60,
+            "linked": [
+                {
+                    "id": "suspicion_searchlongerforevidence",
+                    "chance": 100
+                },
+                {
+                    "id": "suspiciongrabevidence",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "suspicionpromoteevidencemeticulous",
+            "actionid": "suspicion",
+            "label": "Creating Damning Evidence",
+            "requirements": {
+                "evidence": 1,
+                "reputation": 1,
+                "meticulous": 1
             },
-            {
-               "id":"suspicioncreateevidence",
-               "chance":100
-            }
-         ],
-         "warmup":30
-      },
-      {
-         "id":"suspicion_searchlongerforevidence",
-         "actionId":"suspicion",
-         "requirements":{
-            "mystique":1
-         },
-         "label":"I Pericoli della Fama",
-         "startdescription":"La mia Mistica ha attratto l'attenzione di questo cacciatore. Non può provare nulla, ma continuerà a cercare per ora.",
-         "effects":{
-            "mystique":-1
-         },
-         "slots":[
-            {
-               "id":"Clues",
-               "label":"Indizi",
-               "required":{
-                  "reputation":1
-               },
-               "greedy":true
-            }
-         ],
-         "warmup":60,
-         "linked":[
-            {
-               "id":"suspicion_searchlongerforevidence",
-               "chance":100
+            "linked": [
+                {
+                    "id": "suspicionpromoteevidence",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "suspicionpromoteevidence",
+            "actionid": "suspicion",
+            "requirements": {
+                "evidence": 1,
+                "reputation": 1
             },
-            {
-               "id":"suspiciongrabevidence",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"suspicionpromoteevidencemeticulous",
-         "actionId":"suspicion",
-         "label":"Creare Prove Schiaccianti",
-         "requirements":{
-            "evidence":1,
-            "reputation":1,
-            "meticulous":1
-         },
-         "linked":[
-            {
-               "id":"suspicionpromoteevidence",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"suspicionpromoteevidence",
-         "actionId":"suspicion",
-         "requirements":{
-            "evidence":1,
-            "reputation":1
-         },
-         "label":"Creare Prove Schiaccianti",
-         "startdescription":"Questo cacciatore sta apponendo gli ultimi ritocchi alla sua investigazione.",
-         "description":"Se mai andassi a processo, sarei in guai gravi. Anche se questo cacciatore viene eliminato, qualcuno potrebbe trovare i suoi appunti.",
-         "effects":{
-            "evidence":-1,
-            "evidenceb":1,
-            "reputation":-1
-         },
-         "warmup":30
-      },
-      {
-         "id":"suspicioncreateevidencemeticulous",
-         "actionId":"suspicion",
-         "label":"Trasformare Indizi in Prove",
-         "requirements":{
-            "reputation":1,
-            "meticulous":1
-         },
-         "linked":[
-            {
-               "id":"suspicioncreateevidence",
-               "chance":100
-            }
-         ]
-      },
-      {
-         "id":"suspicioncreateevidence",
-         "actionId":"suspicion",
-         "requirements":{
-            "reputation":1
-         },
-         "label":"Trasformare Indizi in Prove",
-         "startdescription":"Le voci stanno accovacciate sui tetti e sguazzano nelle grondaie. Questo cacciatore sta progredendo nelle sue investigazioni.",
-         "description":"Sono certo che il mio avversario abbia nascosto una copia dei suoi appunti da qualche altra parte - dal suo avvocato, dal suo superiore o, addirittura, da un contatto nella stampa. Questo è un problema.",
-         "effects":{
-            "reputation":-1,
-            "evidence":1
-         },
-         "warmup":30
-      },
-      {
-         "id":"suspiciontrycreatehunter",
-         "label":"I Pochi Curiosi",
-         "actionId":"suspicion",
-         "startdescription":"Il tipo sbagliato di attenzione può destare l'interesse dei curiosi, dei puritani, o dei vendicativi. [Una carta Reputazione può far emergere un avversario.]",
-         "slots":[
-            {
-               "id":"Clues",
-               "label":"Indizi",
-               "required":{
-                  "reputation":1
-               },
-               "greedy":true
-            }
-         ],
-         "alt":[
-            {
-               "id":"suspicioncreatefirsthunter",
-               "chance":100
+            "label": "Creating Damning Evidence",
+            "startdescription": "This hunter is putting the finishing touches to their investigation.",
+            "description": "If this ever reaches trial, I will be in serious danger. Even if this hunter is disposed of, another may find their notes.",
+            "effects": {
+                "evidence": -1,
+                "evidenceb": 1,
+                "reputation": -1
             },
-            {
-               "id":"suspicioncreatehunter",
-               "chance":100
-            }
-         ],
-         "description":"Il mio nome, per ora, è pulito. I guardiani rimangono nell'ombra.",
-         "effects":{
-            "contentment":1
-         },
-         "warmup":30
-      },
-      {
-         "id":"suspicioncreatefirsthunter",
-         "actionId":"suspicion",
-         "label":"Un Avversario!",
-         "requirements":{
-            "reputation":1
-         },
-         "startdescription":"Qualcuno sta ficcando il naso.",
-         "description":"C'è sempre qualcuno che non comprende, o che comprende troppo bene. Questo piantagrane potrebbe cercare prove delle mie attività per condividerle con le autorità.",
-         "effects":{
-            "reputation":-1,
-            "defaulthunter":1
-         },
-         "maxexecutions":1,
-         "warmup":0
-      },
-      {
-         "id":"suspicioncreatehunter",
-         "actionId":"suspicion",
-         "label":"Un Avversario!",
-         "requirements":{
-            "reputation":1
-         },
-         "startdescription":"Qualcuno sta ficcando il naso.",
-         "description":"C'è sempre qualcuno che non comprende, o che comprende troppo bene. Questo piantagrane potrebbe cercare prove delle mie attività per condividerle con le autorità.",
-         "deckeffects":{
-            "hunters":1
-         },
-         "effects":{
-            "reputation":-1
-         },
-         "warmup":0
-      },
-      {
-         "id":"suspicionpretrial",
-         "label":"Il Dipartimento Giudica il Mio Caso",
-         "actionId":"suspicion",
-         "requirements":{
-            "evidenceb":1
-         },
-         "startdescription":"Il mio avversario ha convinto il Dipartimento Soppressione a considerare il mio caso. Il Dipartimento punisce i criminali meno comuni - quelli i cui crimini esistono solamente nei sogni.",
-         "description":".",
-         "warmup":30,
-         "craftable":false,
-         "linked":[
-            {
-               "id":"suspicion_attemptmitigation_me",
-               "chance":30
+            "warmup": 30
+        },
+        {
+            "id": "suspicioncreateevidencemeticulous",
+            "actionid": "suspicion",
+            "label": "Converting Clues to Evidence",
+            "requirements": {
+                "reputation": 1,
+                "meticulous": 1
             },
-            {
-               "id":"suspicion_questionfollower",
-               "chance":100
-            }
-         ],
-         "burnimage":"beforetrial"
-      },
-      {
-         "id":"suspicion_questionme",
-         "label":"Sarò processato in tribunale!",
-         "actionId":"suspicion",
-         "startdescription":"Il Dipartimento Soppressione mi ha convocato per interrogatormi.",
-         "description":".",
-         "craftable":false,
-         "linked":[
-            {
-               "chance":100,
-               "id":"suspicion_attemptmitigation_me"
-            }
-         ],
-         "warmup":30
-      },
-      {
-         "id":"suspicion_questionfollower",
-         "label":"Un Processo!",
-         "actionId":"suspicion",
-         "slots":[
-            {
-               "id":"Suspect",
-               "label":"Indagato",
-               "required":{
-                  "follower":1,
-                  "independent":1
-               },
-               "forbidden":{
-                  "summoned":1,
-                  "hireling":1
-               },
-               "description":"Il Dipartimento è assetato di sospetti.",
-               "greedy":true
-            }
-         ],
-         "startdescription":"Il Diparminento Soppressione sta cercando un mio associato per interrogarlo. Se non ne troveranno, verranno direttamente da me.",
-         "description":".",
-         "craftable":false,
-         "linked":[
-            {
-               "chance":100,
-               "id":"suspicion_attemptmitigation_follower"
+            "linked": [
+                {
+                    "id": "suspicioncreateevidence",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "suspicioncreateevidence",
+            "actionid": "suspicion",
+            "requirements": {
+                "reputation": 1
             },
-            {
-               "chance":100,
-               "id":"suspicion_attemptmitigation_rival"
+            "label": "Converting Clues to Evidence",
+            "startdescription": "Rumour squats on rooftops and flutters in gutters. This hunter is making progress in their investigation.",
+            "description": "I am certain that my adversary has lodged a copy of their notes elsewhere - with their solicitor, with their superior, or even with a contact in the press. This is troubling.",
+            "effects": {
+                "reputation": -1,
+                "evidence": 1
             },
-            {
-               "chance":100,
-               "id":"suspicion_attemptmitigation_me"
-            }
-         ],
-         "warmup":30
-      },
-      {
-         "id":"suspicion_attemptmitigation_me",
-         "actionId":"suspicion",
-         "label":"Il Dipartimento Soppressione mi vuole processare!",
-         "startdescription":"Vi sono crimini che lo stato non riconosce apertamente. Sono stato accusato di uno di questi. Il Dipartimento Soppressione tiene i suoi processi in tribunali chiusi al pubblico, e non sono misericordiosi. Se non riuscirò a trarre vantaggio da qualche connessione con i piani alti, rischierò di finire in prigione!",
-         "description":".",
-         "slots":[
-            {
-               "id":"favour",
-               "label":"Un Favore",
-               "required":{
-                  "favour":1
-               }
-            }
-         ],
-         "linked":[
-            {
-               "chance":100,
-               "id":"suspicion_favourused"
+            "warmup": 30
+        },
+        {
+            "id": "suspiciontrycreatehunter",
+            "label": "The Curious Few",
+            "actionid": "suspicion",
+            "startdescription": "The wrong kind of reputation might awaken the interest of the curious, the puritanical, or the vengeful. [A Reputation may inspire an adversary to emerge.]",
+            "slots": [
+                {
+                    "id": "Clues",
+                    "label": "Clues",
+                    "required": {
+                        "reputation": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "id": "suspicioncreatefirsthunter",
+                    "chance": 100
+                },
+                {
+                    "id": "suspicioncreatehunter",
+                    "chance": 100
+                }
+            ],
+            "description": "My name, just now, is clear. Any guardians remain in the shadows.",
+            "effects": {
+                "contentment": 1
             },
-            {
-               "chance":70,
-               "id":"suspicion_meimprisoned"
+            "warmup": 30
+        },
+        {
+            "id": "suspicioncreatefirsthunter",
+            "actionid": "suspicion",
+            "label": "An Adversary!",
+            "requirements": {
+                "reputation": 1
             },
-            {
-               "chance":100,
-               "id":"suspicion_meexonerated"
-            }
-         ],
-         "warmup":60
-      },
-      {
-         "id":"suspicion_attemptmitigation_follower",
-         "label":"Il Dipartimento Soppressione vuole processare un mio associato!",
-         "actionId":"suspicion",
-         "requirements":{
-            "follower":1
-         },
-         "startdescription":"Vi sono crimini che lo stato non riconosce apertamente. Il mio associato è stato accusato di uno di questi. Il Dipartimento Soppressione tiene i suoi processi in tribunali chiusi al pubblico, e non sono misericordiosi. Se non riuscirò a trarre vantaggio da qualche connessione con i piani alti, il mio associato potrebbe sparire per sempre... ",
-         "description":".",
-         "slots":[
-            {
-               "id":"favour",
-               "label":"Un Favore",
-               "required":{
-                  "favour":1
-               }
-            }
-         ],
-         "linked":[
-            {
-               "chance":100,
-               "id":"suspicion_favourused"
+            "startdescription": "Someone is meddling.",
+            "description": "There's always someone who doesn't understand, or who understands too well. This troublemaker may seek evidence on my activities to share with the authorities.",
+            "effects": {
+                "reputation": -1,
+                "defaulthunter": 1
             },
-            {
-               "chance":70,
-               "id":"suspicion_followerimprisoned"
+            "maxexecutions": 1,
+            "warmup": 0
+        },
+        {
+            "id": "suspicioncreatehunter",
+            "actionid": "suspicion",
+            "label": "An Adversary!",
+            "requirements": {
+                "reputation": 1
             },
-            {
-               "chance":100,
-               "id":"suspicion_followerexonerated"
-            }
-         ],
-         "warmup":60
-      },
-      {
-         "id":"suspicion_attemptmitigation_rival",
-         "label":"Il Dipartimento Soppressione vuole processare un Rivale!",
-         "actionId":"suspicion",
-         "requirements":{
-            "independent":1
-         },
-         "startdescription":"Vi sono crimini che lo stato non riconosce apertamente. Il mio rivale è stato accusato di uno di questi. Il Dipartimento Soppressione tiene i suoi processi in tribunali chiusi al pubblico, e non sono misericordiosi. Questa potrebbe essere la fine del mio rivale... sebbene io possa intervenire.",
-         "description":".",
-         "slots":[
-            {
-               "id":"favour",
-               "label":"Un Favore",
-               "required":{
-                  "favour":1
-               }
-            }
-         ],
-         "linked":[
-            {
-               "chance":100,
-               "id":"suspicion_favourused"
+            "startdescription": "Someone is meddling.",
+            "description": "There's always someone who doesn't understand, or who understands too well. This troublemaker may seek evidence on my activities to share with the authorities.",
+            "deckeffects": {
+                "hunters": 1
             },
-            {
-               "chance":70,
-               "id":"suspicion_rivalimprisoned"
+            "effects": {
+                "reputation": -1
             },
-            {
-               "chance":100,
-               "id":"suspicion_rivalexonerated"
-            }
-         ],
-         "warmup":60
-      },
-      {
-         "id":"suspicion_favourused",
-         "actionId":"suspicion",
-         "label":"Un Alleato nelle Ombre",
-         "requirements":{
-            "favour":1
-         },
-         "effects":{
-            "favour":-1
-         },
-         "startdescription":"Ho richiesto i favori di un potente. Dovrebbe proteggermi, ma nulla è certo.",
-         "description":".",
-         "warmup":30,
-         "linked":[
-            {
-               "chance":70,
-               "id":"suspicion_followerexonerated"
+            "warmup": 0
+        },
+        {
+            "id": "suspicionpretrial",
+            "label": "The Bureau Considers My Case",
+            "actionid": "suspicion",
+            "requirements": {
+                "evidenceb": 1
             },
-            {
-               "chance":70,
-               "id":"suspicion_meexonerated"
+            "startdescription": "My adversary has convinced the Suppression Bureau to consider my case. The Bureau is charged with punishment of the less usual type of criminal - the criminal whose crimes may exist only in dreams.",
+            "description": ".",
+            "warmup": 30,
+            "craftable": false,
+            "linked": [
+                {
+                    "id": "suspicion_attemptmitigation_me",
+                    "chance": 30
+                },
+                {
+                    "id": "suspicion_questionfollower",
+                    "chance": 100
+                }
+            ],
+            "burnimage": "beforetrial"
+        },
+        {
+            "id": "suspicion_questionme",
+            "label": "I am to be tried in court!",
+            "actionid": "suspicion",
+            "startdescription": "The Suppression Bureau has taken me in for questioning.",
+            "description": ".",
+            "craftable": false,
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "suspicion_attemptmitigation_me"
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "suspicion_questionfollower",
+            "label": "A Trial!",
+            "actionid": "suspicion",
+            "slots": [
+                {
+                    "id": "Suspect",
+                    "label": "Suspect",
+                    "required": {
+                        "follower": 1,
+                        "independent": 1
+                    },
+                    "forbidden": {
+                        "summoned": 1,
+                        "hireling": 1
+                    },
+                    "description": "The Bureau thirsts for suspects.",
+                    "greedy": true
+                }
+            ],
+            "startdescription": "The Suppression Bureau is seeking an associate of mine for questioning. If they can't find one, they'll come after me directly.",
+            "description": ".",
+            "craftable": false,
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "suspicion_attemptmitigation_follower"
+                },
+                {
+                    "chance": 100,
+                    "id": "suspicion_attemptmitigation_rival"
+                },
+                {
+                    "chance": 100,
+                    "id": "suspicion_attemptmitigation_me"
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "suspicion_attemptmitigation_me",
+            "actionid": "suspicion",
+            "label": "The Suppression Bureau is bringing me to trial!",
+            "startdescription": "There are crimes the state does not openly recognise. I stand accused of one of these. The Suppression Bureau holds its trials in closed court, and they are not merciful. Unless I can take advantage of a connection, I risk imprisonment!",
+            "description": ".",
+            "slots": [
+                {
+                    "id": "favour",
+                    "label": "A Favour",
+                    "required": {
+                        "favour": 1
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "suspicion_favourused"
+                },
+                {
+                    "chance": 70,
+                    "id": "suspicion_meimprisoned"
+                },
+                {
+                    "chance": 100,
+                    "id": "suspicion_meexonerated"
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "suspicion_attemptmitigation_follower",
+            "label": "The Suppression Bureau is bringing an associate to trial!",
+            "actionid": "suspicion",
+            "requirements": {
+                "follower": 1
             },
-            {
-               "chance":100,
-               "id":"suspicion_favourused_failure"
-            }
-         ]
-      },
-      {
-         "id":"suspicion_favourused_failure",
-         "actionId":"suspicion",
-         "label":"Non Abbastanza!",
-         "startdescription":"Ho tirato tutte le corde che potevo, e non è bastato. Il Dipartimento è spietato. Se avessi un'ultima connessione, potrei provare ad utilizzarla. Altrimenti dovremo affrontare il processo.",
-         "description":".",
-         "warmup":30,
-         "linked":[
-            {
-               "chance":100,
-               "id":"suspicion_attemptmitigation_follower"
+            "startdescription": "There are crimes the state does not openly recognise. My associate has been implicated in one of these. The Suppression Bureau holds its trials in closed court, and they are not merciful. Unless I can take advantage of a connection, my associate may be gone forever... ",
+            "description": ".",
+            "slots": [
+                {
+                    "id": "favour",
+                    "label": "A Favour",
+                    "required": {
+                        "favour": 1
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "suspicion_favourused"
+                },
+                {
+                    "chance": 70,
+                    "id": "suspicion_followerimprisoned"
+                },
+                {
+                    "chance": 100,
+                    "id": "suspicion_followerexonerated"
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "suspicion_attemptmitigation_rival",
+            "label": "The Suppression Bureau is bringing a Rival to trial!",
+            "actionid": "suspicion",
+            "requirements": {
+                "independent": 1
             },
-            {
-               "chance":100,
-               "id":"suspicion_attemptmitigation_me"
+            "startdescription": "There are crimes the state does not openly recognise. My rival has been implicated in one of these. The Suppression Bureau holds its trials in closed court, and they are not merciful. This may be the end for my rival... although I could try to intervene.",
+            "description": ".",
+            "slots": [
+                {
+                    "id": "favour",
+                    "label": "A Favour",
+                    "required": {
+                        "favour": 1
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "suspicion_favourused"
+                },
+                {
+                    "chance": 70,
+                    "id": "suspicion_rivalimprisoned"
+                },
+                {
+                    "chance": 100,
+                    "id": "suspicion_rivalexonerated"
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "suspicion_favourused",
+            "actionid": "suspicion",
+            "label": "An Ally in the Shadows",
+            "requirements": {
+                "favour": 1
+            },
+            "effects": {
+                "favour": -1
+            },
+            "startdescription": "I have called in a favour with a person of note. It'll probably shield me, but nothing is certain.",
+            "description": ".",
+            "warmup": 30,
+            "linked": [
+                {
+                    "chance": 70,
+                    "id": "suspicion_followerexonerated"
+                },
+                {
+                    "chance": 70,
+                    "id": "suspicion_meexonerated"
+                },
+                {
+                    "chance": 100,
+                    "id": "suspicion_favourused_failure"
+                }
+            ]
+        },
+        {
+            "id": "suspicion_favourused_failure",
+            "actionid": "suspicion",
+            "label": "Not Enough!",
+            "startdescription": "I've pulled all the strings I can, and it wasn't enough. The Bureau is remorseless. If I have another connection, I might be able to use that. Otherwise, we'll have to take our chances in the trial.",
+            "description": ".",
+            "warmup": 30,
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "suspicion_attemptmitigation_follower"
+                },
+                {
+                    "chance": 100,
+                    "id": "suspicion_attemptmitigation_me"
+                }
+            ]
+        },
+        {
+            "id": "suspicion_followerimprisoned",
+            "actionid": "suspicion",
+            "label": "A Victory for the Bureau",
+            "description": "My associate has been locked away in a prison where there are no visiting rights, and even the date of release is obscure. The Bureau's appetite is satisfied for the moment; but what have they learnt?",
+            "aspects": {
+                "investigatingsetback": 1
+            },
+            "effects": {
+                "follower": -1
             }
-         ]
-      },
-      {
-         "id":"suspicion_followerimprisoned",
-         "actionId":"suspicion",
-         "label":"Una Vittoria per il Dipartimento",
-         "description":"Il mio associato è stato rinchiuso in una prigione nella quale sono proibite le visite, anche la data di rilascio è oscura. Gli appetiti del Dipartimento sono soddisfatti per il momento; ma cosa hanno scoperto?",
-         "aspects":{
-            "investigatingsetback":1
-         },
-         "effects":{
-            "follower":-1
-         }
-      },
-      {
-         "id":"suspicion_meimprisoned",
-         "actionId":"suspicion",
-         "label":"Una Vittoria per il Dipartimento",
-         "startdescription":"Sono stato ritenuto colpevole! I miei piani si concludono qui. Devo prepararmi.",
-         "description":".",
-         "warmup":10,
-         "signalEndingFlavour":"Melancholy",
-         "ending":"arrest"
-      },
-      {
-         "id":"suspicion_followerexonerated",
-         "actionId":"suspicion",
-         "requirements":{
-            "follower":1
-         },
-         "label":"La Furia del Dipartimento",
-         "startdescription":"Il mio associato è stato scagionato! Le prove non bastavano a carcerarlo, ed ora è libero di andarsene... anche se potrebbe avercela con me. Il Dipartimento è stato ostacolato, per il momento.",
-         "aspects":{
-            "investigatingsetback":1
-         },
-         "mutations":[
-            {
-               "filter":"follower",
-               "mutate":"resentment",
-               "level":1,
-               "additional":true
+        },
+        {
+            "id": "suspicion_meimprisoned",
+            "actionid": "suspicion",
+            "label": "A Victory for the Bureau",
+            "startdescription": "I've been found guilty! All my schemes end here. I must prepare myself.",
+            "description": ".",
+            "warmup": 10,
+            "signalEndingFlavour": "Melancholy",
+            "ending": "arrest"
+        },
+        {
+            "id": "suspicion_followerexonerated",
+            "actionid": "suspicion",
+            "requirements": {
+                "follower": 1
+            },
+            "label": "The Bureau's Fury",
+            "startdescription": "My associate has been exonerated! The evidence was not sufficiently compelling to convict them, and they're free to go... though they may harbour a grudge against me. The Bureau has been stymied for the moment.",
+            "aspects": {
+                "investigatingsetback": 1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": 1,
+                    "additive": true
+                }
+            ]
+        },
+        {
+            "id": "suspicion_meexonerated",
+            "actionid": "suspicion",
+            "label": "The Bureau's Fury",
+            "startdescription": "I have been exonerated! The evidence was not sufficiently compelling to convict me, and I'm free to go.",
+            "requirements": {
+                "follower": -1
+            },
+            "aspects": {
+                "evidencelevel": -1
             }
-         ]
-      },
-      {
-         "id":"suspicion_meexonerated",
-         "actionId":"suspicion",
-         "label":"La Furia del Dipartimento",
-         "startdescription":"Sono stato scagionato! Le prove non bastavano a carcerarmi, e ora sono libero di andarmene.",
-         "requirements":{
-            "follower":-1
-         },
-         "aspects":{
-            "evidencelevel":-1
-         }
-      },
-      {
-         "id":"suspiciontrial",
-         "comments":"Here for legacy compatibility",
-         "actionId":"suspicion",
-         "description":"ARRESTO!",
-         "warmup":0,
-         "linked":[
-            {
-               "id":"suspicionpretrial",
-               "chance":100
+        },
+        {
+            "id": "suspiciontrial",
+            "comments": "Here for legacy compatibility",
+            "actionid": "suspicion",
+            "description": "ARREST!",
+            "warmup": 0,
+            "linked": [
+                {
+                    "id": "suspicionpretrial",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "suspicion_rivalimprisoned",
+            "actionid": "suspicion",
+            "label": "A Victory for the Bureau",
+            "description": "My Rival will not be seen again by daylight. The Bureau's appetite is satisfied for the moment; but what have they learnt?",
+            "aspects": {
+                "investigatingsetback": 1
+            },
+            "effects": {
+                "independent": -1
             }
-         ]
-      },
-      {
-         "id":"suspicion_rivalimprisoned",
-         "actionId":"suspicion",
-         "label":"Una Vittoria per il Dipartimento",
-         "description":"Il mio Rivale non sarà più visto alla luce del giorno. Gli appetiti del Dipartimento sono soddisfatti per il momento; ma cosa hanno scoperto?",
-         "aspects":{
-            "investigatingsetback":1
-         },
-         "effects":{
-            "independent":-1
-         }
-      },
-      {
-         "id":"suspicion_rivalexonerated",
-         "actionId":"suspicion",
-         "requirements":{
-            "independent":1
-         },
-         "label":"La Furia del Dipartimento",
-         "startdescription":"Il Mio Rivale è stato scagionato! Le prove non bastavano a carcerarlo, ed ora è libero di andarsene... anche se, senza dubbio, darà la colpa a me.",
-         "aspects":{
-            "investigatingsetback":1
-         },
-         "mutations":[
-            {
-               "filter":"independent",
-               "mutate":"resentment",
-               "level":1,
-               "additional":true
-            }
-         ]
-      },
-      {
-         "id":"scapegoat",
-         "actionId":"suspicion",
-         "comments":"Here for legacy compatibility",
-         "warmup":0
-      }
-   ]
+        },
+        {
+            "id": "suspicion_rivalexonerated",
+            "actionid": "suspicion",
+            "requirements": {
+                "independent": 1
+            },
+            "label": "The Bureau's Fury",
+            "startdescription": "My Rival has been exonerated! The evidence was not sufficiently compelling to convict them, and they're free to go... though they will no doubt blame me for their hardships.",
+            "aspects": {
+                "investigatingsetback": 1
+            },
+            "mutations": [
+                {
+                    "filter": "independent",
+                    "mutate": "resentment",
+                    "level": 1,
+                    "additive": true
+                }
+            ]
+        },
+        {
+            "id": "scapegoat",
+            "actionid": "suspicion",
+            "comments": "Here for legacy compatibility",
+            "warmup": 0
+        }
+    ]
 }

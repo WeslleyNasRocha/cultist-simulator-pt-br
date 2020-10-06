@@ -1,151 +1,151 @@
 {
-   "elements":[
-      {
-         "id":"memorybittersweet",
-         "label":"Memoria Agrodolce",
-         "description":"Potrei ricordare un momento complesso.",
-         "aspects":{
-            "way":1,
-            "memory":1
-         },
-         "lifetime":300
-      },
-      {
-         "id":"memorypleasant",
-         "label":"Memoria Piacevole",
-         "description":"Potrei ricordare un momento più felice.",
-         "aspects":{
-            "way":1,
-            "memory":1
-         },
-         "lifetime":300
-      },
-      {
-         "id":"memorypassionate",
-         "label":"Memoria Appassionata",
-         "description":"Potrei ricordare un momento più caldo.",
-         "aspects":{
-            "way":1,
-            "memory":1
-         },
-         "lifetime":300
-      },
-      {
-         "id":"memory.shameful",
-         "label":"Qualcosa di Vergognoso",
-         "aspects":{
-            "memory":1
-         },
-         "description":"Non tutti i piaceri privati sono adatti alle discussioni in pubblico.",
-         "lifetime":300
-      },
-      {
-         "id":"memory.profitable",
-         "label":"Qualcosa di Redditizio",
-         "aspects":{
-            "memory":1
-         },
-         "description":"Un raggio di luce nei commerci; un'opportunità in miniatura; una banconota da cinque sterline sul pavimento.",
-         "lifetime":300
-      },
-      {
-         "id":"memory.joyful",
-         "label":"Qualcosa di Gioioso",
-         "aspects":{
-            "memory":1
-         },
-         "description":"La delizia non dura a lungo, ma talvolta dura più di quanto non duriamo noi stessi.",
-         "lifetime":300
-      },
-      {
-         "id":"memory.menacing",
-         "label":"Qualcosa di Minaccioso",
-         "aspects":{
-            "memory":1
-         },
-         "description":"La grande misericordia dei sogni consiste nel fatto che non si intromettano nella veglia.",
-         "lifetime":300
-      },
-      {
-         "id":"memory.unexpected",
-         "label":"Qualcosa di Inaspettato",
-         "aspects":{
-            "memory":1
-         },
-         "description":"Ogni vita ha i suoi angoli impossibili.",
-         "lifetime":300
-      },
-      {
-         "id":"memory.furious",
-         "label":"Memoria Furiosa",
-         "aspects":{
-            "memory":5
-         },
-         "description":"Quando le cause della rabbia sono passate, la rabbia persiste. Qui c'è una ricordo di un torto compiuto prima dell'addomesticazione del ferro. [Dipingi con questa Memoria per portarla alla piena consapevolezza.]"
-      },
-      {
-         "id":"memory.luxurious",
-         "label":"Memoria Lussuriosa",
-         "aspects":{
-            "memory":5
-         },
-         "description":"Il piacere, come il mare, è antico; il piacere, come il mare, precede la coscienza dell'anima umana; ma come il mare, il piacere è differente ad ogni età e ad ogni ora. [Dipingi con questa Memoria per portarla alla piena consapevolezza.]"
-      },
-      {
-         "id":"memory.liminal",
-         "label":"Memoria Liminale",
-         "aspects":{
-            "memory":5
-         },
-         "description":"'Ognuno di noi possiede un ricordo di un momento nel quale le cose sono cambiate per sempre, sebbene al tempo non lo potessimo sapere. Forse perfino il mondo possiede queste memorie.' [Dipingi con questa Memoria per portarla alla piena consapevolezza.]"
-      },
-      {
-         "id":"memory.horizon",
-         "label":"Memoria Gloriosa",
-         "aspects":{
-            "memory":5
-         },
-         "description":"Il Sole era più caldo un tempo - non più luminoso - ma il suo tocco era una sorta di grazia. [Dipingi con questa Memoria per portarla alla piena consapevolezza.]"
-      },
-      {
-         "id":"memory.splendid",
-         "label":"Memoria Splendida",
-         "aspects":{
-            "memory":5
-         },
-         "description":"Il Sole era più luminoso un tempo - non più caldo - ma la sua luce conteneva colori che non vediamo più. [Dipingi con questa Memoria per portarla alla piena consapevolezza.]"
-      },
-      {
-         "id":"memory.endless",
-         "label":"Memoria Infinita",
-         "aspects":{
-            "memory":5
-         },
-         "description":"Vi è una Ruota che gira solo sotto alla Luna, sebbene un tempo girasse dietro al Sole. Ma perché una solo? Perché solo due? [Dipingi con questa Memoria per portarla alla piena consapevolezza.]"
-      },
-      {
-         "id":"memory.wildering",
-         "label":"Memoria Selvaggia",
-         "aspects":{
-            "memory":5
-         },
-         "description":"Talvolta ricordiamo ciò che è perduto anche se ci siamo dimenticati che è andato via. [Dipingi con questa Memoria per portarla alla piena consapevolezza.]"
-      },
-      {
-         "id":"memory.golden",
-         "label":"Memoria Dorata",
-         "aspects":{
-            "memory":5
-         },
-         "description":"Nel fuoco vengono rivelati tutti i tesori della terra. [Dipingi con questa Memoria per portarla alla piena consapevolezza.]"
-      },
-      {
-         "id":"memory.honeyed",
-         "label":"Memoria Mielata",
-         "aspects":{
-            "memory":5
-         },
-         "description":"Quando camminavamo per le strade della foresta eravamo osservatori alati, e non avevamo bisogno di nettare. [Dipingi con questa Memoria per portarla alla piena consapevolezza.]"
-      }
-   ]
+    "elements": [
+        {
+            "id": "memorybittersweet",
+            "label": "Bittersweet Memory",
+            "description": "I could recall a complex time.",
+            "aspects": {
+                "way": 1,
+                "memory": 1
+            },
+            "lifetime": 300
+        },
+        {
+            "id": "memorypleasant",
+            "label": "Pleasant Memory",
+            "description": "I could recall a happier time.",
+            "aspects": {
+                "way": 1,
+                "memory": 1
+            },
+            "lifetime": 300
+        },
+        {
+            "id": "memorypassionate",
+            "label": "Passionate Memory",
+            "description": "I could recall a warmer time.",
+            "aspects": {
+                "way": 1,
+                "memory": 1
+            },
+            "lifetime": 300
+        },
+        {
+            "id": "memory.shameful",
+            "label": "Something Shameful",
+            "aspects": {
+                "memory": 1
+            },
+            "description": "Not all private pleasures are suitable for public discussion.",
+            "lifetime": 300
+        },
+        {
+            "id": "memory.profitable",
+            "label": "Something Profitable",
+            "aspects": {
+                "memory": 1
+            },
+            "description": "A ray of commercial light; a miniature opportunity; a figurative five-pound note on the pavement.",
+            "lifetime": 300
+        },
+        {
+            "id": "memory.joyful",
+            "label": "Something Joyful",
+            "aspects": {
+                "memory": 1
+            },
+            "description": "Delight does not endure for long, but sometimes, it endures longer than do we.",
+            "lifetime": 300
+        },
+        {
+            "id": "memory.menacing",
+            "label": "Something Menacing",
+            "aspects": {
+                "memory": 1
+            },
+            "description": "The great mercy of dreams is that they do not often intrude into waking life.",
+            "lifetime": 300
+        },
+        {
+            "id": "memory.unexpected",
+            "label": "Something Unexpected",
+            "aspects": {
+                "memory": 1
+            },
+            "description": "Every life has its impossible corners.",
+            "lifetime": 300
+        },
+        {
+            "id": "memory.furious",
+            "label": "Furious Memory",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "Long after the cause for rage has passed, the rage endures. Here is a memory of a wrong done before ever iron was tamed. [Paint with this Memory to bring it to full awareness.]"
+        },
+        {
+            "id": "memory.luxurious",
+            "label": "Luxurious Memory",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "Pleasure, like the sea, is ancient; pleasure, like the sea, precedes the conscious human soul; but like the sea, pleasure is different in every age and every hour. [Paint with this Memory to bring it to full awareness.]"
+        },
+        {
+            "id": "memory.liminal",
+            "label": "Liminal Memory",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "'We each of us have a memory of a moment when things changed forever, though at the time we never knew it. Perhaps the world also has those memories.' [Paint with this Memory to bring it to full awareness.]"
+        },
+        {
+            "id": "memory.horizon",
+            "label": "Glorious Memory",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "The Sun was warmer once - no brighter, but its touch was a kind of mercy. [Paint with this Memory to bring it to full awareness.]"
+        },
+        {
+            "id": "memory.splendid",
+            "label": "Splendid Memory",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "The Sun was brighter once - no warmer, but its light held colours we no longer see. [Paint with this Memory to bring it to full awareness.]"
+        },
+        {
+            "id": "memory.endless",
+            "label": "Endless Memory",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "There is a Wheel that only turns beneath the Moon, where once it turned beneath the Sun. But why only one? Why only two? [Paint with this Memory to bring it to full awareness.]"
+        },
+        {
+            "id": "memory.wildering",
+            "label": "Wildering Memory",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "Sometimes we remember what was lost even when we have forgotten that it is gone. [Paint with this Memory to bring it to full awareness.]"
+        },
+        {
+            "id": "memory.golden",
+            "label": "Golden Memory",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "In fire are all the treasures of the earth revealed. [Paint with this Memory to bring it to full awareness.]"
+        },
+        {
+            "id": "memory.honeyed",
+            "label": "Honeyed Memory",
+            "aspects": {
+                "memory": 5
+            },
+            "description": "When we walked in the ways of the wood we were winged and watchful, and we had no need of nectar. [Paint with this Memory to bring it to full awareness.]"
+        }
+    ]
 }

@@ -1,92 +1,92 @@
 {
-   "elements":[
-      {
-         "id":"previtality",
-         "label":"Vitalità",
-         "description":"[La Vitalità è fiorente...]",
-         "lifetime":1,
-         "icon":"vitality",
-         "decayTo":"vitality"
-      },
-      {
-         "id":"preerudition",
-         "label":"Erudizione",
-         "description":"[L'Erudizione nasce da un momento di comprensione...]",
-         "lifetime":1,
-         "icon":"erudition",
-         "decayTo":"erudition"
-      },
-      {
-         "id":"prerestlessness",
-         "label":"Irrequietezza",
-         "description":"[L'Irrequietezza sfarfalla...]",
-         "lifetime":1,
-         "icon":"restlessness",
-         "decayTo":"restlessness"
-      },
-      {
-         "id":"preglimmering",
-         "label":"Barlume",
-         "description":"[Un Barlume si sviluppa...]",
-         "lifetime":1,
-         "icon":"glimmering",
-         "decayTo":"glimmering"
-      },
-      {
-         "id":"predread",
-         "label":"Terrore",
-         "description":"[Il Terrore gela il mio spirito...]",
-         "lifetime":1,
-         "icon":"dread",
-         "decayTo":"dread"
-      },
-      {
-         "id":"prefascination",
-         "label":"Seduzione",
-         "description":"[La Seduzione rischiara...]",
-         "lifetime":1,
-         "icon":"fascination",
-         "decayTo":"fascination"
-      },
-      {
-         "id":"pre.fragmentedgeb",
-         "label":"Indizi: Lama",
-         "description":"Sto per comprendere qualcosa di nuovo sulle arti invisibili.",
-         "lifetime":1,
-         "decayTo":"fragmentedgeb",
-         "icon":"fragmentedgeb"
-      },
-      {
-         "id":"pre.fragmentforgeb",
-         "label":"Indizi: Forgia",
-         "description":"Sto per comprendere qualcosa di nuovo sulle arti invisibili.",
-         "lifetime":1,
-         "decayTo":"fragmentforgeb",
-         "icon":"fragmentforgeb"
-      },
-      {
-         "id":"pre.fragmentgrailb",
-         "label":"Indizi: Graal",
-         "description":"Sto per comprendere qualcosa di nuovo sulle arti invisibili.",
-         "lifetime":1,
-         "decayTo":"fragmentgrailb",
-         "icon":"fragmentgrailb"
-      },
-      {
-         "id":"pre.fragmentheartb",
-         "label":"Indizi: Cuore",
-         "description":"Sto per comprendere qualcosa di nuovo sulle arti invisibili.",
-         "lifetime":1,
-         "decayTo":"fragmentheartb",
-         "icon":"fragmentheartb"
-      },
-      {
-         "id":"pre.fragmentknockb",
-         "label":"Indizi: Colpo",
-         "description":"Sto per comprendere qualcosa di nuovo sulle arti invisibili.",
-         "lifetime":1,
-         "decayTo":"fragmentknockb",
-         "icon":"fragmentknockb"
-      }
-   ]
+    "elements": [
+        {
+            "id": "previtality",
+            "label": "Vitality",
+            "description": "[Vitality is burgeoning...]",
+            "lifetime": 1,
+            "icon": "vitality",
+            "decayTo": "vitality"
+        },
+        {
+            "id": "preerudition",
+            "label": "Erudition",
+            "description": "[Erudition arises from a moment of comprehension...]",
+            "lifetime": 1,
+            "icon": "erudition",
+            "decayTo": "erudition"
+        },
+        {
+            "id": "prerestlessness",
+            "label": "Restlessness",
+            "description": "[Restlessness flickers...]",
+            "lifetime": 1,
+            "icon": "restlessness",
+            "decayTo": "restlessness"
+        },
+        {
+            "id": "preglimmering",
+            "label": "Glimmering",
+            "description": "[A Glimmering develops...]",
+            "lifetime": 1,
+            "icon": "glimmering",
+            "decayTo": "glimmering"
+        },
+        {
+            "id": "predread",
+            "label": "Dread",
+            "description": "[Dread frosts my spirit...]",
+            "lifetime": 1,
+            "icon": "dread",
+            "decayTo": "dread"
+        },
+        {
+            "id": "prefascination",
+            "label": "Fascination",
+            "description": "[Fascination brightens...]",
+            "lifetime": 1,
+            "icon": "fascination",
+            "decayTo": "fascination"
+        },
+        {
+            "id": "pre.fragmentedgeb",
+            "label": "Hints: Edge",
+            "description": "I am coming to understand something new about the invisible arts.",
+            "lifetime": 1,
+            "decayTo": "fragmentedgeb",
+            "icon": "fragmentedgeb"
+        },
+        {
+            "id": "pre.fragmentforgeb",
+            "label": "Hints: Forge",
+            "description": "I am coming to understand something new about the invisible arts.",
+            "lifetime": 1,
+            "decayTo": "fragmentforgeb",
+            "icon": "fragmentforgeb"
+        },
+        {
+            "id": "pre.fragmentgrailb",
+            "label": "Hints: Grail",
+            "description": "I am coming to understand something new about the invisible arts.",
+            "lifetime": 1,
+            "decayTo": "fragmentgrailb",
+            "icon": "fragmentgrailb"
+        },
+        {
+            "id": "pre.fragmentheartb",
+            "label": "Hints: Heart",
+            "description": "I am coming to understand something new about the invisible arts.",
+            "lifetime": 1,
+            "decayTo": "fragmentheartb",
+            "icon": "fragmentheartb"
+        },
+        {
+            "id": "pre.fragmentknockb",
+            "label": "Hints: Knock",
+            "description": "I am coming to understand something new about the invisible arts.",
+            "lifetime": 1,
+            "decayTo": "fragmentknockb",
+            "icon": "fragmentknockb"
+        }
+    ]
 }

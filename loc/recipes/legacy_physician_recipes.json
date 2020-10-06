@@ -1,155 +1,155 @@
 {
-   "recipes":[
-      {
-         "id":"legacyphysicianwork",
-         "label":"Lavora all’Istituto",
-         "actionId":"work",
-         "requirements":{
-            "legacyphysicianjob":1
-         },
-         "effects":{
-            "funds":2,
-            "legacyphysicianjob":-1,
-            "institutephysicianjob":1,
-            "health":1,
-            "reason":3
-         },
-         "alt":[
-            {
-               "id":"legacyphysicianopenstudy",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "startdescription":"#PREVIOUSCHARACTERNAME# era un - un paziente difficile. Ho dovuto prendermi del tempo, quando quella storia si è conclusa.",
-         "description":"Ho finito presto. Il Direttore è stato comprensivo. Ma ora dovrei tornare al mio lavoro a tempo pieno.",
-         "warmup":10,
-         "craftable":true
-      },
-      {
-         "id":"legacyphysicianopenstudy",
-         "actionId":"study",
-         "label":"Appunti sul Caso di #PREVIOUSCHARACTERNAME#",
-         "startdescription": "I miei appunti escono dal cassetto della scrivania nel quale li ho stipati.",
-         "description":"Il paziente parlava di cose che non avevano alcun senso. La casa senza mura. Il sole diviso. La luce invisibile. Ma quando rimembro come parlava di quella luce invisibile, il mio cuore s’impenna. Non posso ignorare gli appunti ancora a lungo. \n[Il <b>Tempo</b> ha cominciato a scorrere.]",
-         "effects":{
-            "legacyphysiciannotes":1
-         },
-         "alt":[
-            {
-               "id":"needs",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "warmup":10
-      },
-      {
-         "id":"legacyphysicianstudynotes",
-         "actionId":"study",
-         "requirements":{
-            "legacyphysiciannotes":1
-         },
-         "label":"Studia gli Appunti sul Caso di #PREVIOUSCHARACTERNAME#",
-         "startdescription":"Appena comincio a leggere, rimembro la delizia negli occhi del paziente, la musica nella sua voce; ma anche l’odore della stanza nella quale giaceva.",
-         "description":"Emergono istanti bizzarri di senso. Avevo quasi dimenticato quella curiosa discussione sulla 'Strada di Morland' - ma ora, comprendo: era la 'via <i>per</i> Morland'. Ho sentito parlare di Morland - una trafficante di libri problematici. \nIl resto dei suoi deliri non hanno alcun significato... Come può una casa esser priva di mura? Cos’è la Gloria che egli tanto bramava? Ma posso già avvertire i sogni che mi attendono nel sonno.",
-         "effects":{
-            "legacyphysiciannotes":-1,
-            "mapbookdealer":1
-         },
-         "alt":[
-            {
-               "id":"legacyphysicianopendream",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "warmup":30,
-         "comments":"The book dealer can be studied through the generic intro; there's a generic openexplore there",
-         "craftable":true
-      },
-      {
-         "id":"legacyphysicianopendream",
-         "actionId":"dream",
-         "label":"La Luce Invisible",
-         "startdescription":"Nel sogno sono un albero contorto. Falene strisciano sulla mia corteccia. Comincia l’alba, sebbene la luce sia invisibile. Al suo tocco, mi ergo, per raggiungere il sole.",
-         "description":"Quando mi sveglio, la mia faccia è tormentata da lacrime di gioia! Più pulite di qualsiasi cosa che io abbia mai toccato durante la veglia. Ma ho visto cos’hanno combinato a #PREVIOUSCHARACTERNAME# alla fine. Non è saggio, o sicuro, seguirle.",
-         "effects":{
-            "contentment":1
-         },
-         "alt":[
-            {
-               "id":"legacyphysicianhook",
-               "chance":100,
-               "additional":true
-            }
-         ],
-         "warmup":30
-      },
-      {
-         "id":"legacyphysicianhook",
-         "actionId":"hookplot",
-         "label":"Credo?",
-         "startdescription":"Potrei cedere ai sogni. Ma questi <i>divoreranno</i> la mia Ragione.",
-         "description":".",
-         "alt":[
-            {
-               "id":"legacyphysicianhookfulfilment",
-               "chance":100
-            }
-         ],
-         "slots":[
-            {
-               "id":"Temptation",
-               "label":"Tentazione",
-               "required":{
-                  "reason":1
-               },
-               "consumes":true
-            }
-         ],
-         "linked":[
-            {
-               "id":"legacyphysicianhook",
-               "chance":100
-            }
-         ],
-         "warmup":60
-      },
-      {
-         "id":"legacyphysicianhookfulfilment",
-         "actionId":"hookplot",
-         "label":"L’Occhio dell’Osservatore",
-         "requirements":{
-            "reason":1
-         },
-         "startdescription":"L’Osservatore è la Porta nell’Occhio. Per poter aprire il mio stesso occhio, devo compiere un piccolo sacrificio.",
-         "description":"Ho maneggiato il coltello in sogno. È stato doloroso, ma anche il dolore è un'indicazione stradale. Ho fasciato la ferita. Dirò che è stato un incidente. Nel sogno ho visto la Porta. Un giorno, presto, la oltrepasserò.",
-         "effects":{
-            "ascensionenlightenmenta":1,
-            "passion":1,
-            "fragmentknock":1,
-            "fragmentlantern":1
-         },
-         "alt":[
-            {
-               "id":"legacyphysicianopentalk",
-               "chance":100,
-               "additional":true
-            }
-         ]
-      },
-      {
-         "id":"legacyphysicianopentalk",
-         "label":"Spiriti Affini",
-         "actionId":"talk",
-         "startdescription":"Anche uno dei pazienti dell’Istituto ha un occhio bendato. Una ferita autoinflitta, dicono. Forse potremmo parlarne.",
-         "description":"La mia ferita è guarita, e così la sua. Non sa perché l’ha fatto. Ma mi ha sognato, quella notte. Siamo connessi.",
-         "deckeffects":{
-            "acquaintances":1
-         },
-         "warmup":60,
-         "craftable":false
-      }
-   ]
+    "recipes": [
+        {
+            "id": "legacyphysicianwork",
+            "label": "Work at the Institute",
+            "actionid": "work",
+            "requirements": {
+                "legacyphysicianjob": 1
+            },
+            "effects": {
+                "funds": 2,
+                "legacyphysicianjob": -1,
+                "institutephysicianjob": 1,
+                "health": 1,
+                "reason": 3
+            },
+            "alt": [
+                {
+                    "id": "legacyphysicianopenstudy",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "startdescription": "#PREVIOUSCHARACTERNAME# was a - a difficult patient. I had to take some time away, after that business ended.",
+            "description": "I've finished early. The Director has been sympathetic. But I must return to work full-time, now.",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "legacyphysicianopenstudy",
+            "actionid": "study",
+            "label": "Notes in the Case of #PREVIOUSCHARACTERNAME#",
+            "startdescription": "My notes spill from the desk drawer where I had thrust them.",
+            "description": "The patient spoke of things that could have no meaning. The house without walls. The divided sun. The invisible light. But when I recall how they spoke of that invisible light, my heart surges. I can ignore the notes no longer.\n[<b>Time</b> is now passing.]",
+            "effects": {
+                "legacyphysiciannotes": 1
+            },
+            "alt": [
+                {
+                    "id": "needs",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "legacyphysicianstudynotes",
+            "actionid": "study",
+            "requirements": {
+                "legacyphysiciannotes": 1
+            },
+            "label": "Studying my Notes in the Case of #PREVIOUSCHARACTERNAME#",
+            "startdescription": "As I begin to read, I recall the delight in the patient's eyes, the music in their voice ; but also, the smell of the room where they lay.",
+            "description": "Odd moments of sense emerge. I had almost forgotten that curious discursion on 'the Way of Morland' - but now, I realise, it was 'the way <i>to</i> Morland'. I've heard of this Morland - a dealer in troublesome books. \n The rest of their raving - it means no more than it did before. How can a house lack walls? What is the Glory they yearned for? But I can already sense the dreams, waiting for me in sleep.",
+            "effects": {
+                "legacyphysiciannotes": -1,
+                "mapbookdealer": 1
+            },
+            "alt": [
+                {
+                    "id": "legacyphysicianopendream",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "warmup": 30,
+            "comments": "The book dealer can be studied through the generic intro; there's a generic openexplore there",
+            "craftable": true
+        },
+        {
+            "id": "legacyphysicianopendream",
+            "actionid": "dream",
+            "label": "The Invisible Light",
+            "startdescription": "In sleep, I am a crooked tree. Moths crawl my bark. Dawn begins, although the light is invisible. At its touch, I straighten, to reach for the sun.",
+            "description": "When I wake, my face is wracked with tears of joy. That light! cleaner than anything I touch in waking life. But I saw what these dreams did to #PREVIOUSCHARACTERNAME# at the end. It would not be wise or safe to follow them.",
+            "effects": {
+                "contentment": 1
+            },
+            "alt": [
+                {
+                    "id": "legacyphysicianhook",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "legacyphysicianhook",
+            "actionid": "hookplot",
+            "label": "Belief?",
+            "startdescription": "I could give in to the dreams. But they <i>will</i> devour my Reason.",
+            "description": ".",
+            "alt": [
+                {
+                    "id": "legacyphysicianhookfulfilment",
+                    "chance": 100
+                }
+            ],
+            "slots": [
+                {
+                    "id": "Temptation",
+                    "label": "Temptation",
+                    "required": {
+                        "reason": 1
+                    },
+                    "consumes": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "legacyphysicianhook",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "legacyphysicianhookfulfilment",
+            "actionid": "hookplot",
+            "label": "The Watchman's Eye",
+            "requirements": {
+                "reason": 1
+            },
+            "startdescription": "The Watchman is the Door in the Eye. To unlock my own eye, there must be a tiny sacrifice.",
+            "description": "I wielded the knife in sleep. There is pain, but even the pain is a signpost. I have bound the wound. I'll tell them it was an accident. In the dream, I saw the Door. Some day soon, I'll pass it.",
+            "effects": {
+                "ascensionenlightenmenta": 1,
+                "passion": 1,
+                "fragmentknock": 1,
+                "fragmentlantern": 1
+            },
+            "alt": [
+                {
+                    "id": "legacyphysicianopentalk",
+                    "chance": 100,
+                    "additional": true
+                }
+            ]
+        },
+        {
+            "id": "legacyphysicianopentalk",
+            "label": "Kindred Spirits",
+            "actionid": "talk",
+            "startdescription": "One of the patients at the Institute also has a bandaged eye. A self-inflicted wound, they say. Perhaps we'll speak soon.",
+            "description": "My wound has healed, and so has theirs. They don't understand why they did it. But they dreamt of me, that night. We are connected.",
+            "deckeffects": {
+                "acquaintances": 1
+            },
+            "warmup": 60,
+            "craftable": false
+        }
+    ]
 }

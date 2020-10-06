@@ -1,56 +1,56 @@
 {
-   "elements":[
-      {
-         "id":"lunatic",
-         "label":"Un Povero Lunatico",
-         "aspects":{
-            "mortal":1,
-            "prisoner":1,
-            "moth":3,
-            "grail":3,
-            "heart":3
-         },
-         "description":"Qualche esperienza opprimente ha derubato questo individuo dei suoi sensi. Svanirà presto, e non sarà mai più visto.",
-         "lifetime":60,
-         "xtriggers":{
-            "killmortal":"corpse"
-         }
-      },
-      {
-         "id":"genericprisonerm",
-         "label":"Uno Sventurato Prigioniero",
-         "aspects":{
-            "mortal":1,
-            "prisoner":1,
-            "lantern":3,
-            "grail":3,
-            "heart":3
-         },
-         "description":"Qualcuno caduto nelle tue grinfie. Non sopravviverà per sempre.",
-         "lifetime":600,
-         "decayTo":"corpse",
-         "xtriggers":{
-            "killmortal":"corpse",
-            "derangemortal":"lunatic"
-         }
-      },
-      {
-         "id":"genericprisonerf",
-         "label":"Una Sventurata Prigioniera",
-         "aspects":{
-            "mortal":1,
-            "prisoner":1,
-            "lantern":3,
-            "grail":3,
-            "heart":3
-         },
-         "description":"Qualcuna caduta nelle tue grinfie. Non sopravviverà per sempre.",
-         "lifetime":600,
-         "decayTo":"corpse",
-         "xtriggers":{
-            "killmortal":"corpse",
-            "derangemortal":"lunatic"
-         }
-      }
-   ]
+    "elements": [
+        {
+            "id": "lunatic",
+            "label": "A Poor Lunatic",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "Some overwhelming experience has robbed this individual of their senses. They will disappear soon, never to be seen again.",
+            "lifetime": 60,
+            "xtriggers": {
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "genericprisonerm",
+            "label": "A Hapless Prisoner",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "lantern": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "Someone has fallen into your clutches. They won't survive forever.",
+            "lifetime": 600,
+            "decayTo": "corpse",
+            "xtriggers": {
+                "killmortal": "corpse",
+                "derangemortal": "lunatic"
+            }
+        },
+        {
+            "id": "genericprisonerf",
+            "label": "A Hapless Prisoner",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "lantern": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "Someone has fallen into your clutches. They won't survive forever.",
+            "lifetime": 600,
+            "decayTo": "corpse",
+            "xtriggers": {
+                "killmortal": "corpse",
+                "derangemortal": "lunatic"
+            }
+        }
+    ]
 }
