@@ -2,8 +2,8 @@
     "decks": [
         {
             "id": "acquaintances",
-            "label": "Acquaintances",
-            "description": "So many people in the world, and so few worth knowing.",
+            "label": "Conhecidos",
+            "description": "Tantas pessoas no mundo, e tão poucas realmente valem a pena conhecer.",
             "spec": [
                 "auclair_a",
                 "cat_a",
@@ -39,8 +39,8 @@
         },
         {
             "id": "hirelings",
-            "label": "The Brutal and the Cunning",
-            "description": "Some tools are apt to some ends.",
+            "label": "O Brutal e o Astuto",
+            "description": "Algumas ferramentas são adequadas para alguns fins.",
             "spec": [
                 "thugedge",
                 "thugforgeedge",
@@ -65,8 +65,8 @@
         },
         {
             "id": "hunters",
-            "label": "Hunters",
-            "description": "Those who wish me ill.",
+            "label": "Caçadores",
+            "description": "Aqueles que me desejam mal.",
             "spec": [
                 "investigator1",
                 "investigator2",
@@ -78,8 +78,8 @@
         },
         {
             "id": "scholarpatrons",
-            "label": "Patrons",
-            "description": "Those who might assist me.",
+            "label": "Patronos",
+            "description": "Aqueles que podem me ajudar.",
             "spec": [
                 "aladimready",
                 "bechetready",
@@ -91,7 +91,7 @@
         },
         {
             "id": "aladimcommissions",
-            "label": "Al-Adim's Interests",
+            "label": "Os Interesses de Al-Adim",
             "description": "",
             "spec": [
                 "commissionarticlesecrethistories",
@@ -106,7 +106,7 @@
         },
         {
             "id": "bechetcommissions",
-            "label": "Bechet's Interests",
+            "label": "Interesses de Bechet",
             "description": "",
             "spec": [
                 "commissionarticleforge",
@@ -124,7 +124,7 @@
         },
         {
             "id": "janningscommissions",
-            "label": "Jannings' Interests",
+            "label": "Interesses de Jannings",
             "description": "",
             "spec": [
                 "commissionarticleedge",
@@ -138,7 +138,7 @@
         },
         {
             "id": "poppycommissions",
-            "label": "Poppy's' Interests",
+            "label": "Os Interesses de Poppy",
             "description": "",
             "spec": [
                 "commissionarticlewinter",
@@ -152,8 +152,8 @@
         },
         {
             "id": "randomvictim",
-            "label": "The Unwise and the Unwary",
-            "description": "We'll make of them what we must.",
+            "label": "O Imprudente e O Desavisado",
+            "description": "Faremos deles o que devemos.",
             "spec": [
                 "genericprisonerm",
                 "genericprisonerf"
