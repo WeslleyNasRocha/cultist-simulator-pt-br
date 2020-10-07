@@ -2,8 +2,8 @@
     "decks": [
         {
             "id": "seasonevents",
-            "label": "Seasons",
-            "description": "Whenever Time Passes, an unexpected event might occur.",
+            "label": "Temporadas",
+            "description": "Sempre que o tempo passa, um evento inesperado pode ocorrer.",
             "spec": [
                 "seasonsickness",
                 "seasonsuspicion",
@@ -22,8 +22,8 @@
         },
         {
             "id": "cabaretevents",
-            "label": "An Evening at the Club",
-            "description": "Each evening brings different delights, and occasionally perils.",
+            "label": "Uma Noite no Clube",
+            "description": "Cada noite traz diferentes delícias e, ocasionalmente, perigos.",
             "spec": [
                 "contentment",
                 "contentment",
@@ -42,8 +42,8 @@
         },
         {
             "id": "roserewards",
-            "label": "Romance's Reward",
-            "description": "Then, now, when?",
+            "label": "Recompensa de Romance",
+            "description": "Então, agora, quando?",
             "spec": [
                 "memorybittersweet",
                 "memorypleasant",
@@ -54,8 +54,8 @@
         },
         {
             "id": "dreamreasonresults",
-            "label": "Dream's Hinterlands",
-            "description": "Sleep usually brings rest and peace; but not always. Not always.",
+            "label": "Sertão dos Sonhos",
+            "description": "O sono geralmente traz descanso e paz; mas nem sempre. Nem sempre.",
             "spec": [
                 "dread",
                 "fascination",
@@ -68,8 +68,8 @@
         },
         {
             "id": "paintingresultsbasic",
-            "label": "Art's Rewards",
-            "description": "Painting can bring contentment, or sometimes, a new kind of understanding.",
+            "label": "Recompensas da Arte",
+            "description": "A pintura pode trazer contentamento ou, às vezes, um novo tipo de compreensão.",
             "spec": [
                 "contentment",
                 "contentment",
@@ -82,8 +82,8 @@
         },
         {
             "id": "paintingresults",
-            "label": "Art's Rewards",
-            "description": "Painting often brings contentment. Sometimes, my work will attract attention.",
+            "label": "Recompensas da Arte",
+            "description": "A pintura geralmente traz contentamento. Às vezes, meu trabalho chama a atenção.",
             "spec": [
                 "glimmering",
                 "glimmering",
@@ -109,8 +109,8 @@
         },
         {
             "id": "paintingresultsreputation",
-            "label": "Fame's Rewards",
-            "description": "This is where the money is.",
+            "label": "Recompensas da Fama",
+            "description": "É aqui que o dinheiro mora.",
             "spec": [
                 "overexposure",
                 "overexposure",
@@ -137,8 +137,8 @@
         },
         {
             "id": "ecdysisrewards",
-            "label": "The Offerings at the End",
-            "description": "The Club guarantees a minimum, but the audience sometimes offer contributions of their own.",
+            "label": "As Ofertas no Final",
+            "description": "O Clube garante um mínimo, mas o público às vezes oferece contribuições próprias.",
             "spec": [
                 "funds",
                 "funds",
@@ -164,8 +164,8 @@
         },
         {
             "id": "robberyrewards",
-            "label": "The Wages of Sin",
-            "description": "My minions will usually bring me back petty treasures; sometimes junk; rarely, something extraordinary.",
+            "label": "O Salário do Pecado",
+            "description": "Meus escravos geralmente me trazem tesouros mesquinhos; às vezes lixo; raramente, algo extraordinário.",
             "spec": [
                 "funds",
                 "funds",
@@ -216,8 +216,8 @@
         },
         {
             "id": "exploreevents",
-            "label": "Exploring the Capital",
-            "description": "Searching the city can find...",
+            "label": "Explorando a Capital",
+            "description": "Procurando pela cidade pode encontrar...",
             "spec": [
                 "daycriminals",
                 "dayplaces",
@@ -228,8 +228,8 @@
         },
         {
             "id": "schemeevents",
-            "label": "Potential Scheme",
-            "description": "My Rival Plots...",
+            "label": "Esquema em Potêncial",
+            "description": "Meu Rival está Tramando...",
             "spec": [
                 "schememurder",
                 "schememurder",
@@ -246,8 +246,8 @@
         },
         {
             "id": "talkevents",
-            "label": "Midnight Meetings",
-            "description": "I might find recruits, allies, or rivals.",
+            "label": "Encontros à Meia-Noite",
+            "description": "Posso encontrar recrutas, aliados ou rivais.",
             "spec": [
                 "dayacquaintances",
                 "dayacquaintances",
@@ -263,8 +263,8 @@
         },
         {
             "id": "citysecrets",
-            "label": "City Secrets",
-            "description": "Easily overlooked locations.",
+            "label": "Segredos da Cidade",
+            "description": "Locais facilmente esquecidos.",
             "spec": [
                 "locationauctionhouse",
                 "locationcabaret",
@@ -275,8 +275,8 @@
         },
         {
             "id": "streetsstrangefinds",
-            "label": "Strange Streets",
-            "description": "Insights and influences.",
+            "label": "Ruas Estranhas",
+            "description": "Intuições e influências.",
             "spec": [
                 "influenceknockc",
                 "influenceknockc",
@@ -290,8 +290,8 @@
         },
         {
             "id": "troublemakerconversations",
-            "label": "Conversations with a Troublemaker",
-            "description": "What might I learn?",
+            "label": "Conversas com um Encrenqueiro",
+            "description": "O que eu posso aprender?",
             "spec": [
                 "dread",
                 "dread",
@@ -307,8 +307,8 @@
         },
         {
             "id": "forgelong",
-            "label": "An Enemy of the Work",
-            "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
             "spec": [
                 "julian_unknown",
                 "welland_unknown",
@@ -318,8 +318,8 @@
         },
         {
             "id": "graillong",
-            "label": "An Enemy of the Work",
-            "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
             "spec": [
                 "tryphon_unknown",
                 "tryphon_unknown",
@@ -329,8 +329,8 @@
         },
         {
             "id": "lanternlong",
-            "label": "An Enemy of the Work",
-            "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
             "spec": [
                 "julian_unknown",
                 "diarist_unknown",
@@ -340,8 +340,8 @@
         },
         {
             "id": "long.strategies",
-            "label": "An Enemy of the Work",
-            "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
@@ -353,8 +353,8 @@
         },
         {
             "id": "long.strategies.preference.assault",
-            "label": "An Enemy of the Work",
-            "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.assault.concealed",
@@ -367,8 +367,8 @@
         },
         {
             "id": "long.strategies.preference.intrigue",
-            "label": "An Enemy of the Work",
-            "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
@@ -381,8 +381,8 @@
         },
         {
             "id": "long.strategies.preference.dreamwork",
-            "label": "An Enemy of the Work",
-            "description": "Our enemy will select a general approach, which we might be able to divine - but we'll never know the details of their plan until they execute it.",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
@@ -395,8 +395,8 @@
         },
         {
             "id": "priest.repevent",
-            "label": "The Congregation's Passions",
-            "description": "What will come of this?",
+            "label": "As Paixões da Congregação",
+            "description": "O que sairá disso?",
             "spec": [
                 "notoriety",
                 "notoriety",
@@ -415,8 +415,8 @@
         },
         {
             "id": "ghoul.memory",
-            "label": "Memories",
-            "description": "I will remember what all others have forgotten",
+            "label": "Memórias",
+            "description": "Vou lembrar o que todos os outros esqueceram",
             "spec": [
                 "memory.unexpected",
                 "memory.joyful",
