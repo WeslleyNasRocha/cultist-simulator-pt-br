@@ -1,3 +1,5 @@
 files:
   - source: /translations/en/content/cultures/culture.json
     translation: /translations/%locale%/content/cultures/culture.json
+  - source: /translations/en/loc/decks
+    translation: /translations/%locale%/loc/decks/%original_file_name%
