@@ -33,9 +33,9 @@
                 "generic_a_knock",
                 "generic_a_lantern",
                 "generic_a_moth",
-                "generic_a_winter"
+                "genérico_a_inverno"
             ],
-            "defaultcard": "mistakenidentity"
+            "defaultcard": "identidadeerroneamente"
         },
         {
             "id": "hirelings",
@@ -45,32 +45,32 @@
                 "thugedge",
                 "thugforgeedge",
                 "thuglanternmoth",
-                "thugknock",
-                "thugmoth",
+                "banquete",
+                "banquete",
                 "thugedge",
                 "thugforgeedge",
                 "thuglanternmoth",
-                "thugknock",
-                "thugmoth",
-                "thugmothminor",
-                "thugmothminor",
-                "thugmothminor",
-                "thugmothminor",
-                "thugedgeminor",
-                "thugedgeminor",
-                "thugedgeminor",
-                "thugedgeminor"
+                "banquete",
+                "banquete",
+                "secundar_thugmothminor",
+                "secundar_thugmothminor",
+                "secundar_thugmothminor",
+                "secundar_thugmothminor",
+                "banqueirogeminador",
+                "banqueirogeminador",
+                "banqueirogeminador",
+                "banqueirogeminador"
             ],
             "resetonexhaustion": true
         },
         {
-            "id": "hunters",
+            "id": "caçadores",
             "label": "Caçadores",
             "description": "Aqueles que me desejam mal.",
             "spec": [
-                "investigator1",
-                "investigator2",
-                "investigator3",
+                "investigador1",
+                "investigador2",
+                "investigador3",
                 "investigator4",
                 "defaulthunter"
             ],
@@ -81,77 +81,77 @@
             "label": "Patronos",
             "description": "Aqueles que podem me ajudar.",
             "spec": [
-                "aladimready",
+                "aladimpronto",
                 "bechetready",
-                "janningsready",
+                "pronto",
                 "poppyready",
-                "sulochana"
+                "Isolamento"
             ],
-            "defaultcard": "rumour"
+            "defaultcard": "boato"
         },
         {
-            "id": "aladimcommissions",
+            "id": "comissões",
             "label": "Os Interesses de Al-Adim",
             "description": "",
             "spec": [
-                "commissionarticlesecrethistories",
+                "artigos",
                 "commissionarticlesecrethistoriesb",
                 "commissionarticlesecrethistoriesc",
                 "commissionarticlelantern",
                 "commissionarticlelanternb",
                 "commissionarticlelanternc"
             ],
-            "defaultcard": "commissionarticlesecrethistories",
+            "defaultcard": "artigos",
             "resetonexhaustion": true
         },
         {
-            "id": "bechetcommissions",
+            "id": "comissões de bechetCommissions",
             "label": "Interesses de Bechet",
             "description": "",
             "spec": [
-                "commissionarticleforge",
+                "Fornalha",
                 "commissionarticleforgeb",
                 "commissionarticleforgec",
-                "commissionarticlegrail",
+                "commissionarticlegtrigo",
                 "commissionarticlegrailb",
                 "commissionarticlegrailc",
                 "commissionarticlemoth",
                 "commissionarticlemothb",
                 "commissionarticlemothc"
             ],
-            "defaultcard": "commissionarticlegrail",
+            "defaultcard": "commissionarticlegtrigo",
             "resetonexhaustion": true
         },
         {
-            "id": "janningscommissions",
+            "id": "comissões",
             "label": "Interesses de Jannings",
             "description": "",
             "spec": [
-                "commissionarticleedge",
+                "mandíbula",
                 "commissionarticleedgeb",
                 "commissionarticleedgec",
-                "commissionarticleheart",
+                "cardíaco",
                 "commissionarticleheartb",
                 "commissionarticleheartc"
             ],
             "resetonexhaustion": true
         },
         {
-            "id": "poppycommissions",
+            "id": "pipocommissões",
             "label": "Os Interesses de Poppy",
             "description": "",
             "spec": [
-                "commissionarticlewinter",
+                "Comissoarticleinverno",
                 "commissionarticlewinterb",
                 "commissionarticlewinterc",
                 "commissionarticleknock",
-                "commissionarticleknockb",
-                "commissionarticleknockc"
+                "commissionarticletocckb",
+                "commissionarticletocckc"
             ],
             "resetonexhaustion": true
         },
         {
-            "id": "randomvictim",
+            "id": "vítima aleatória",
             "label": "O Imprudente e O Desavisado",
             "description": "Faremos deles o que devemos.",
             "spec": [
