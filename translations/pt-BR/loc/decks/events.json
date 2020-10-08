@@ -1,0 +1,421 @@
+{
+    "decks": [
+        {
+            "id": "seasonevents",
+            "label": "Temporadas",
+            "description": "Sempre que o tempo passa, um evento inesperado pode ocorrer.",
+            "spec": [
+                "seasonsickness",
+                "seasonsuspicion",
+                "seasonsuspicion",
+                "seasondespair",
+                "seasondespair",
+                "seasonvisions",
+                "seasonvisions",
+                "seasonambitions",
+                "seasonambitions",
+                "seasonsilence",
+                "seasonardours"
+            ],
+            "defaultcard": "contentment",
+            "resetonexhaustion": true
+        },
+        {
+            "id": "cabaretevents",
+            "label": "Uma Noite no Clube",
+            "description": "Cada noite traz diferentes delícias e, ocasionalmente, perigos.",
+            "spec": [
+                "contentment",
+                "contentment",
+                "contentment",
+                "fascination",
+                "fascination",
+                "erudition",
+                "glimmering",
+                "vitality",
+                "notoriety",
+                "influencegrail",
+                "influencemoth"
+            ],
+            "defaultcard": "contentment",
+            "resetonexhaustion": true
+        },
+        {
+            "id": "roserewards",
+            "label": "Recompensa de Romance",
+            "description": "Então, agora, quando?",
+            "spec": [
+                "memorybittersweet",
+                "memorypleasant",
+                "memorypassionate",
+                "fleeting"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "dreamreasonresults",
+            "label": "Sertão dos Sonhos",
+            "description": "O sono geralmente traz descanso e paz; mas nem sempre. Nem sempre.",
+            "spec": [
+                "dread",
+                "fascination",
+                "glimmering",
+                "vitality",
+                "contentment",
+                "restlessness"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "paintingresultsbasic",
+            "label": "Recompensas da Arte",
+            "description": "A pintura pode trazer contentamento ou, às vezes, um novo tipo de compreensão.",
+            "spec": [
+                "contentment",
+                "contentment",
+                "glimmering",
+                "glimmering",
+                "glimmering",
+                "glimmering"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "paintingresults",
+            "label": "Recompensas da Arte",
+            "description": "A pintura geralmente traz contentamento. Às vezes, meu trabalho chama a atenção.",
+            "spec": [
+                "glimmering",
+                "glimmering",
+                "glimmering",
+                "glimmering",
+                "glimmering",
+                "glimmering",
+                "glimmering",
+                "contentment",
+                "contentment",
+                "contentment",
+                "contentment",
+                "contentment",
+                "mystique",
+                "mystique",
+                "mystique",
+                "mystique",
+                "mystique",
+                "mystique",
+                "mystique"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "paintingresultsreputation",
+            "label": "Recompensas da Fama",
+            "description": "É aqui que o dinheiro mora.",
+            "spec": [
+                "overexposure",
+                "overexposure",
+                "overexposure",
+                "overexposure",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "mystique",
+                "mystique",
+                "mystique",
+                "mystique"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "ecdysisrewards",
+            "label": "As Ofertas no Final",
+            "description": "O Clube garante um mínimo, mas o público às vezes oferece contribuições próprias.",
+            "spec": [
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "compensationb",
+                "compensationb",
+                "compensationc",
+                "jumble",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "compensationb",
+                "compensationb",
+                "compensationc",
+                "jumble",
+                "kitlingripe",
+                "raptintheking",
+                "vienneseconundra"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "robberyrewards",
+            "label": "O Salário do Pecado",
+            "description": "Meus escravos geralmente me trazem tesouros mesquinhos; às vezes lixo; raramente, algo extraordinário.",
+            "spec": [
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "funds",
+                "jumble",
+                "jumble",
+                "jumble",
+                "jumble",
+                "jumble",
+                "compensation",
+                "compensation",
+                "compensation",
+                "compensation",
+                "compensation",
+                "compensation",
+                "compensationb",
+                "compensationb",
+                "compensationb",
+                "ingredientedgeb",
+                "ingredientforgeb",
+                "ingredientgrailb",
+                "ingredientheartb",
+                "ingredientknockb",
+                "ingredientmothb"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "exploreevents",
+            "label": "Explorando a Capital",
+            "description": "Procurando pela cidade pode encontrar...",
+            "spec": ["daycriminals", "dayplaces", "daycriminals", "dayplaces"],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "schemeevents",
+            "label": "Esquema em Potêncial",
+            "description": "Meu Rival está Tramando...",
+            "spec": [
+                "schememurder",
+                "schememurder",
+                "schemeexpedition",
+                "schemeexpedition",
+                "schemeexpedition",
+                "schemeexpedition",
+                "schemeactivities",
+                "schemeactivities",
+                "schemeactivities",
+                "schemeactivities"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "talkevents",
+            "label": "Encontros à Meia-Noite",
+            "description": "Posso encontrar recrutas, aliados ou rivais.",
+            "spec": [
+                "dayacquaintances",
+                "dayacquaintances",
+                "dayacquaintances",
+                "dayacquaintances",
+                "dayacquaintances",
+                "dayacquaintances",
+                "dayacquaintances",
+                "daypatrons",
+                "daypatrons"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "citysecrets",
+            "label": "Segredos da Cidade",
+            "description": "Locais facilmente esquecidos.",
+            "spec": [
+                "locationauctionhouse",
+                "locationcabaret",
+                "locationbookdealer",
+                "locationstreetsstrange"
+            ],
+            "defaultcard": "locationstreetsstrange"
+        },
+        {
+            "id": "streetsstrangefinds",
+            "label": "Ruas Estranhas",
+            "description": "Intuições e influências.",
+            "spec": [
+                "influenceknockc",
+                "influenceknockc",
+                "glimmering",
+                "glimmering",
+                "fascination",
+                "contentment",
+                "contentment"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "troublemakerconversations",
+            "label": "Conversas com um Encrenqueiro",
+            "description": "O que eu posso aprender?",
+            "spec": [
+                "dread",
+                "dread",
+                "fascination",
+                "fascination",
+                "erudition",
+                "erudition",
+                "erudition",
+                "glimmering",
+                "glimmering"
+            ],
+            "defaultcard": "contentment"
+        },
+        {
+            "id": "forgelong",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "spec": ["julian_unknown", "welland_unknown", "welland_unknown"],
+            "defaultcard": "julian_unknown"
+        },
+        {
+            "id": "graillong",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "spec": ["tryphon_unknown", "tryphon_unknown", "julian_unknown"],
+            "defaultcard": "julian_unknown"
+        },
+        {
+            "id": "lanternlong",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "spec": ["julian_unknown", "diarist_unknown", "diarist_unknown"],
+            "defaultcard": "julian_unknown"
+        },
+        {
+            "id": "long.strategies",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "spec": [
+                "strategy.assault.concealed",
+                "strategy.intrigue.concealed",
+                "strategy.dreams.concealed",
+                "strategy.downtime.concealed"
+            ],
+            "defaultcard": "strategy.downtime",
+            "resetonexhaustion": true
+        },
+        {
+            "id": "long.strategies.preference.assault",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "spec": [
+                "strategy.assault.concealed",
+                "strategy.assault.concealed",
+                "strategy.intrigue.concealed",
+                "strategy.dreams.concealed",
+                "strategy.downtime.concealed"
+            ],
+            "defaultcard": "strategy.downtime",
+            "resetonexhaustion": true
+        },
+        {
+            "id": "long.strategies.preference.intrigue",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "spec": [
+                "strategy.assault.concealed",
+                "strategy.intrigue.concealed",
+                "strategy.intrigue.concealed",
+                "strategy.dreams.concealed",
+                "strategy.downtime.concealed"
+            ],
+            "defaultcard": "strategy.downtime",
+            "resetonexhaustion": true
+        },
+        {
+            "id": "long.strategies.preference.dreamwork",
+            "label": "Um Inimigo do Trabalho",
+            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "spec": [
+                "strategy.assault.concealed",
+                "strategy.intrigue.concealed",
+                "strategy.dreams.concealed",
+                "strategy.dreams.concealed",
+                "strategy.downtime.concealed"
+            ],
+            "defaultcard": "strategy.downtime",
+            "resetonexhaustion": true
+        },
+        {
+            "id": "priest.repevent",
+            "label": "As Paixões da Congregação",
+            "description": "O que sairá disso?",
+            "spec": [
+                "notoriety",
+                "notoriety",
+                "notoriety",
+                "notoriety",
+                "mystique",
+                "mystique",
+                "mystique",
+                "mystique",
+                "funds",
+                "funds",
+                "funds",
+                "funds"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "ghoul.memory",
+            "label": "Memórias",
+            "description": "Vou lembrar o que todos os outros esqueceram",
+            "spec": [
+                "memory.unexpected",
+                "memory.joyful",
+                "memory.profitable",
+                "memory.shameful",
+                "memory.menacing",
+                "memory.joyful",
+                "memory.profitable",
+                "memory.shameful",
+                "memory.menacing",
+                "memory.joyful",
+                "memory.profitable",
+                "memory.shameful",
+                "memory.menacing"
+            ],
+            "resetonexhaustion": true
+        }
+    ]
+}
