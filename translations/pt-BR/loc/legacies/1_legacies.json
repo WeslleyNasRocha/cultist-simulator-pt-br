@@ -27,7 +27,6 @@
             "availableWithoutEndingMatch": true,
             "startingverbid": "work"
         },
-
         {
             "id": "physician",
             "label": "The Physician",
@@ -70,7 +69,9 @@
             "image": "detective",
             "fromending": "workvictoryb",
             "availableWithoutEndingMatch": false,
-            "excludesOnEnding": ["detective"],
+            "excludesOnEnding": [
+                "detective"
+            ],
             "startingverbid": "work"
         },
         {
