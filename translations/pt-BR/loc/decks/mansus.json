@@ -15,7 +15,11 @@
         },
         {
             "id": "mansus_wood",
-            "spec": ["influencemoth", "fragmentsecrethistories", "rumour"],
+            "spec": [
+                "influencemoth",
+                "fragmentsecrethistories",
+                "rumour"
+            ],
             "drawmessages": {
                 "influencemoth": "'No meio da jornada de nossa vida, me encontrei em uma floresta escura sem caminhos. É difícil expressar o quão selvagem, áspera e impenetrável era aquela floresta... 'Não me lembro exatamente o que aconteceu, ontem à noite, na escuridão pulsante entre os troncos das árvores, onde coisas aladas se moviam sob minhas mãos. Mas agora esta manhã meu cérebro fervilha com fragmentos: IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI RUM IMUS NOC TE ET CON SUMI MUR -'",
                 "fragmentsecrethistories": "Eu caminhei na Floresta ontem à noite, e a tesoura trabalhou à distância e as coisas peludas encheram minha boca e enxamearam meus ouvidos, e Eu senti o velho desejo de cair de quatro e focinho entre as raízes. Mas me lembrei de que caminho ereto durante o dia e Eu conheço o fogo e o aço e as palavras, e finalmente descobri onde o Veludo havia escondido um segredo na casca de uma árvore sob o musgo. Li então com a ponta dos dedos e Eu acho que agora Eu poderia escrevê-lo por inteiro.",
@@ -121,7 +125,11 @@
         },
         {
             "id": "mansus_stagdoor1",
-            "spec": ["influenceedgee", "influencegrailc", "influencewintere"],
+            "spec": [
+                "influenceedgee",
+                "influencegrailc",
+                "influencewintere"
+            ],
             "drawmessages": {
                 "influenceedgee": "Of the place my dreams took me last night, this has been written: 'The ascent is glass. The walls are knives. Each step is blood.' I did not climb far. The pain was too great. When I woke, that pain remained with me - a pain I could employ to occult purposes, if I hurry.",
                 "influencegrailc": "The Ascent of Knives is called the Sharp Stair, and the Mother of Mirrors, and the Feast of the Grail. If one is to look beneath the stair, as I did last night in my dreams, one understands that last name. It draws a tithe of blood from the feet of those who ascend. Empousai - some shaped like men, many shaped like women - wait beneath the glass of the stairs to satisfy their hunger. I did not approach; I made no sound; I only observed.",
@@ -230,7 +238,11 @@
         },
         {
             "id": "mansus_peacockdoor2",
-            "spec": ["influencewinterg", "fragmentsecrethistoriesf", "dread"],
+            "spec": [
+                "influencewinterg",
+                "fragmentsecrethistoriesf",
+                "dread"
+            ],
             "drawmessages": {
                 "influencewinterg": "Last night I visited the Worm Museum, which is both within the Mansus (for security) and without (for safety). The Hours have charged the Colonel with its defence, and even the Lionsmith does not challenge him here. Winter is the chiefest aspect of this place. The Worms thrive where things end, but they can also be ended, and they must, if the Mansus is to endure. This morning, the chilly certainty of the Colonel's hand still lies on my shoulder.",
                 "fragmentsecrethistoriesf": "Size in the Mansus is negotiable, and so last night in the Worm Museum I saw one of the Worms who took Vienna, caged next to a Worm taken from the soul of a child. In dreams they are more visible than waking, smooth and dark as jewels. The walls bear stories of the First and Second Worm Wars. The Third is too recent to have passed into the Histories.",
