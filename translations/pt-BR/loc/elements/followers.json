@@ -4,9 +4,9 @@
             "id": "auclair_a",
             "label": "Auclair, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "acquaintance": "1",
+                "follower_lustenlightenment": "1"
             },
             "description": "Auclair has a scholarly aspect and a morbid streak. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -21,10 +21,10 @@
             "id": "auclair_b",
             "label": "Auclair, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "winter": 2,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "follower": "1",
+                "winter": "2",
+                "follower_lustenlightenment": "1"
             },
             "description": "Auclair is quiet, meticulous and remorseless.",
             "xtriggers": {
@@ -40,12 +40,12 @@
             "id": "auclair_c",
             "label": "Auclair, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "potential": 1,
-                "winter": 5,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "potential": "1",
+                "winter": "5",
+                "follower_lustenlightenment": "1"
             },
             "description": "Auclair rarely speaks. She chooses her words with care. Even her movements have become economical. She is never seen to blink.",
             "xtriggers": {
@@ -61,12 +61,12 @@
             "id": "auclair_d",
             "label": "A gaunt woman, who is silent",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "mortal": "1",
+                "follower": "1",
                 "disciple": 1,
-                "exalted": 1,
-                "winter": 10,
-                "follower_lustenlightenment": 1
+                "exalted": "1",
+                "winter": "10",
+                "follower_lustenlightenment": "1"
             },
             "description": "The air is frosty, the candles gutter, the street-sounds are hushed. Someone is here.",
             "xtriggers": {
@@ -81,8 +81,8 @@
             "id": "cat_a",
             "label": "Cat Caro, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "mortal": "1",
+                "acquaintance": "1",
                 "follower_lustenlightenment": 1
             },
             "description": "'Cat Caro', as she styles herself, earns a living as a stage medium and a fortune-teller. She may have deeper talents. [You might be able to recruit this acquaintance as a follower.]",
@@ -99,7 +99,7 @@
             "label": "Cat Caro, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "follower": "1",
                 "lantern": 2,
                 "follower_lustenlightenment": 1
             },
@@ -118,10 +118,10 @@
             "label": "Cat Caro, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
+                "follower": "1",
+                "disciple": "1",
                 "potential": 1,
-                "lantern": 5,
+                "lantern": "5",
                 "follower_lustenlightenment": 1
             },
             "description": "She still performs in the theatres sometimes. 'Cat Caro,' the posters say, 'finds the path; Cat Caro knows the way.'",
@@ -138,12 +138,12 @@
             "id": "cat_d",
             "label": "Cat Caro, a Seer",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": 1,
-                "disciple": 1,
+                "disciple": "1",
                 "exalted": 1,
                 "lantern": 10,
-                "follower_lustenlightenment": 1
+                "follower_lustenlightenment": "1"
             },
             "description": "Archaeologists find treasures in tombs. Farmers bring harvest from the fields. What does Cat Caro unearth in dreams?",
             "xtriggers": {
@@ -160,7 +160,7 @@
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
-                "follower_lustenlightenment": 1
+                "follower_lustenlightenment": "1"
             },
             "description": "A bellowing and unorthodox Catholic with a mystic streak and an untrimmed beard. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -176,7 +176,7 @@
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
-                "lantern": 2,
+                "lantern": "2",
                 "follower_lustenlightenment": 1
             },
             "description": "Now Clifton improvises new prayers rich with solar metaphors. He still shouts like a soldier and drinks like a sailor.",
@@ -193,12 +193,12 @@
             "id": "clifton_c",
             "label": "'Pope' Clifton, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "mortal": "1",
+                "follower": "1",
                 "disciple": 1,
-                "potential": 1,
+                "potential": "1",
                 "lantern": 5,
-                "follower_lustenlightenment": 1
+                "follower_lustenlightenment": "1"
             },
             "description": "Clifton's devotions have grown complex. His eyes have grown wide and shining. His voice has become even louder.",
             "xtriggers": {
@@ -216,8 +216,8 @@
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
+                "disciple": "1",
+                "exalted": "1",
                 "lantern": 10,
                 "follower_lustenlightenment": 1
             },
@@ -234,7 +234,7 @@
             "id": "clovette_a",
             "label": "Clovette, an acquaintance",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
@@ -250,9 +250,9 @@
             "id": "clovette_b",
             "label": "Clovette, a believer",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": 1,
-                "heart": 2,
+                "heart": "2",
                 "follower_lustchange": 1
             },
             "description": "Clovette's determined happiness now borders on the fanatical.",
@@ -269,11 +269,11 @@
             "id": "clovette_c",
             "label": "Clovette, a disciple",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": 1,
-                "disciple": 1,
-                "potential": 1,
-                "heart": 5,
+                "disciple": "1",
+                "potential": "1",
+                "heart": "5",
                 "follower_lustchange": 1
             },
             "description": "Clovette's optimism is daunting. She wields her joy like a hammer.",
@@ -292,10 +292,10 @@
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
-                "disciple": 1,
+                "disciple": "1",
                 "exalted": 1,
                 "heart": 10,
-                "follower_lustchange": 1
+                "follower_lustchange": "1"
             },
             "description": "Clovette is always in motion. She laughs easily. Her smile is the crescent at the edge of the moon.",
             "xtriggers": {
@@ -311,11 +311,11 @@
             "label": "Connie, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
                 "edge": 5,
-                "grail": 4
+                "grail": "4"
             },
             "description": "Connie's found one last gambit she couldn't resist... or perhaps she's just enjoying life.",
             "xtriggers": {
@@ -332,11 +332,11 @@
             "id": "connie_d",
             "label": "Connie, a Conqueress",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "mortal": "1",
+                "follower": "1",
                 "disciple": 1,
                 "exalted": 1,
-                "edge": 10,
+                "edge": "10",
                 "grail": 7
             },
             "description": "It's not in Connie's nature to serve. One day she'll rise as a river rises. But for now, she stoops to conquer.",
@@ -353,9 +353,9 @@
             "id": "dorothy_a",
             "label": "Dorothy, an acquaintance",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "acquaintance": 1,
-                "follower_lustchange": 1
+                "follower_lustchange": "1"
             },
             "description": "Dorothy is an enthusiastic sort with an eclectic reading habit. She's fascinated by my hints about the shapes beneath the world's skin. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -369,10 +369,10 @@
             "id": "dorothy_b",
             "label": "Dorothy, a believer",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": 1,
                 "heart": 2,
-                "follower_lustchange": 1
+                "follower_lustchange": "1"
             },
             "description": "Dorothy is an enthusiastic sort, and I have turned her enthusiasm to our advantage.",
             "xtriggers": {
@@ -389,11 +389,11 @@
             "label": "Dorothy, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "follower": "1",
                 "disciple": 1,
-                "potential": 1,
+                "potential": "1",
                 "heart": 5,
-                "follower_lustchange": 1
+                "follower_lustchange": "1"
             },
             "description": "Dorothy's enthusiasm has become obsession. She will not cease; and how she loves to dance.",
             "xtriggers": {
@@ -410,9 +410,9 @@
             "label": "Dorothy, a Tarantellist",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "follower": "1",
                 "disciple": 1,
-                "exalted": 1,
+                "exalted": "1",
                 "heart": 10,
                 "follower_lustchange": 1
             },
@@ -429,9 +429,9 @@
             "id": "douglas_b",
             "label": "Douglas, a believer",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": 1,
-                "forge": 2
+                "forge": "2"
             },
             "description": "Douglas has exchanged the Force for the Forge.",
             "xtriggers": {
@@ -448,11 +448,11 @@
             "id": "douglas_c",
             "label": "Douglas, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "mortal": "1",
+                "follower": "1",
                 "disciple": 1,
-                "potential": 1,
-                "forge": 5
+                "potential": "1",
+                "forge": "5"
             },
             "description": "Douglas doesn't like hammers. They remind him of an Incident. But he uses what instruments he must.",
             "xtriggers": {
@@ -469,11 +469,11 @@
             "id": "douglas_d",
             "label": "Douglas, a Reshaper",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": 1,
-                "disciple": 1,
+                "disciple": "1",
                 "exalted": 1,
-                "forge": 10
+                "forge": "10"
             },
             "description": "Douglas has changed so much. His eyes glow like smithy windows in fog. His voice is the rattle of coal in the chute. His arm is long.",
             "xtriggers": {
@@ -491,7 +491,7 @@
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
-                "follower_lustpower": 1
+                "follower_lustpower": "1"
             },
             "description": "An elegant man of inelegant habits. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -505,10 +505,10 @@
             "id": "elridge_b",
             "label": "Elridge, a believer",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": 1,
                 "edge": 2,
-                "follower_lustpower": 1
+                "follower_lustpower": "1"
             },
             "description": "Elridge has almost learnt not to pick his teeth with his knife in conversation. He has not yet learnt to leave his knife in his boot.",
             "xtriggers": {
@@ -525,9 +525,9 @@
             "label": "Elridge, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "follower": "1",
                 "disciple": 1,
-                "potential": 1,
+                "potential": "1",
                 "edge": 5,
                 "follower_lustpower": 1
             },
@@ -545,11 +545,11 @@
             "id": "elridge_d",
             "label": "Elridge, an Assassin",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "mortal": "1",
+                "follower": "1",
                 "disciple": 1,
                 "exalted": 1,
-                "edge": 10,
+                "edge": "10",
                 "follower_lustpower": 1
             },
             "description": "Elridge is never seen with a spot of blood upon his person. Not a spot.",
@@ -565,8 +565,8 @@
             "id": "enid_a",
             "label": "Enid, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "mortal": "1",
+                "acquaintance": "1",
                 "follower_lustenlightenment": 1
             },
             "description": "Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. It may be that you've dreamed the same dreams. [You might be able to recruit this acquaintance as a follower.]",
