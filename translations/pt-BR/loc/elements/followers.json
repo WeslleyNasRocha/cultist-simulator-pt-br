@@ -63,7 +63,7 @@
             "aspects": {
                 "mortal": "1",
                 "follower": "1",
-                "disciple": 1,
+                "disciple": "1",
                 "exalted": "1",
                 "winter": "10",
                 "follower_lustenlightenment": "1"
@@ -83,7 +83,7 @@
             "aspects": {
                 "mortal": "1",
                 "acquaintance": "1",
-                "follower_lustenlightenment": 1
+                "follower_lustenlightenment": "1"
             },
             "description": "'Cat Caro', as she styles herself, earns a living as a stage medium and a fortune-teller. She may have deeper talents. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -98,10 +98,10 @@
             "id": "cat_b",
             "label": "Cat Caro, a believer",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": "1",
-                "lantern": 2,
-                "follower_lustenlightenment": 1
+                "lantern": "2",
+                "follower_lustenlightenment": "1"
             },
             "description": "A bright-eyed, watchful woman who recalls her dreams perfectly.",
             "xtriggers": {
@@ -117,12 +117,12 @@
             "id": "cat_c",
             "label": "Cat Caro, a disciple",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": "1",
                 "disciple": "1",
-                "potential": 1,
+                "potential": "1",
                 "lantern": "5",
-                "follower_lustenlightenment": 1
+                "follower_lustenlightenment": "1"
             },
             "description": "She still performs in the theatres sometimes. 'Cat Caro,' the posters say, 'finds the path; Cat Caro knows the way.'",
             "xtriggers": {
@@ -139,10 +139,10 @@
             "label": "Cat Caro, a Seer",
             "aspects": {
                 "mortal": "1",
-                "follower": 1,
+                "follower": "1",
                 "disciple": "1",
-                "exalted": 1,
-                "lantern": 10,
+                "exalted": "1",
+                "lantern": "10",
                 "follower_lustenlightenment": "1"
             },
             "description": "Archaeologists find treasures in tombs. Farmers bring harvest from the fields. What does Cat Caro unearth in dreams?",
@@ -158,8 +158,8 @@
             "id": "clifton_a",
             "label": "'Pope' Clifton, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "mortal": "1",
+                "acquaintance": "1",
                 "follower_lustenlightenment": "1"
             },
             "description": "A bellowing and unorthodox Catholic with a mystic streak and an untrimmed beard. [You might be able to recruit this acquaintance as a follower.]",
@@ -175,9 +175,9 @@
             "label": "'Pope' Clifton, a believer",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
+                "follower": "1",
                 "lantern": "2",
-                "follower_lustenlightenment": 1
+                "follower_lustenlightenment": "1"
             },
             "description": "Now Clifton improvises new prayers rich with solar metaphors. He still shouts like a soldier and drinks like a sailor.",
             "xtriggers": {
@@ -195,9 +195,9 @@
             "aspects": {
                 "mortal": "1",
                 "follower": "1",
-                "disciple": 1,
+                "disciple": "1",
                 "potential": "1",
-                "lantern": 5,
+                "lantern": "5",
                 "follower_lustenlightenment": "1"
             },
             "description": "Clifton's devotions have grown complex. His eyes have grown wide and shining. His voice has become even louder.",
@@ -214,12 +214,12 @@
             "id": "clifton_d",
             "label": "Clifton, a Seer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "mortal": "1",
+                "follower": "1",
                 "disciple": "1",
                 "exalted": "1",
-                "lantern": 10,
-                "follower_lustenlightenment": 1
+                "lantern": "10",
+                "follower_lustenlightenment": "1"
             },
             "description": "Clifton still recites his prayers, but they are grown strange as old mirrors. He rises every morning to greet the dawn. He looks it full in the face, and tells you exactly what he sees.",
             "xtriggers": {
@@ -235,8 +235,8 @@
             "label": "Clovette, an acquaintance",
             "aspects": {
                 "mortal": "1",
-                "acquaintance": 1,
-                "follower_lustchange": 1
+                "acquaintance": "1",
+                "follower_lustchange": "1"
             },
             "description": "Clovette is happy in a way that brooks no counter-argument to happiness. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -251,9 +251,9 @@
             "label": "Clovette, a believer",
             "aspects": {
                 "mortal": "1",
-                "follower": 1,
+                "follower": "1",
                 "heart": "2",
-                "follower_lustchange": 1
+                "follower_lustchange": "1"
             },
             "description": "Clovette's determined happiness now borders on the fanatical.",
             "xtriggers": {
@@ -270,11 +270,11 @@
             "label": "Clovette, a disciple",
             "aspects": {
                 "mortal": "1",
-                "follower": 1,
+                "follower": "1",
                 "disciple": "1",
                 "potential": "1",
                 "heart": "5",
-                "follower_lustchange": 1
+                "follower_lustchange": "1"
             },
             "description": "Clovette's optimism is daunting. She wields her joy like a hammer.",
             "xtriggers": {
@@ -290,11 +290,11 @@
             "id": "clovette_d",
             "label": "Clovette, a Tarantellist",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "mortal": "1",
+                "follower": "1",
                 "disciple": "1",
-                "exalted": 1,
-                "heart": 10,
+                "exalted": "1",
+                "heart": "10",
                 "follower_lustchange": "1"
             },
             "description": "Clovette is always in motion. She laughs easily. Her smile is the crescent at the edge of the moon.",
@@ -310,11 +310,11 @@
             "id": "connie_c",
             "label": "Connie, a disciple",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": "1",
                 "disciple": "1",
                 "exalted": "1",
-                "edge": 5,
+                "edge": "5",
                 "grail": "4"
             },
             "description": "Connie's found one last gambit she couldn't resist... or perhaps she's just enjoying life.",
@@ -334,10 +334,10 @@
             "aspects": {
                 "mortal": "1",
                 "follower": "1",
-                "disciple": 1,
-                "exalted": 1,
+                "disciple": "1",
+                "exalted": "1",
                 "edge": "10",
-                "grail": 7
+                "grail": "7"
             },
             "description": "It's not in Connie's nature to serve. One day she'll rise as a river rises. But for now, she stoops to conquer.",
             "xtriggers": {
@@ -354,7 +354,7 @@
             "label": "Dorothy, an acquaintance",
             "aspects": {
                 "mortal": "1",
-                "acquaintance": 1,
+                "acquaintance": "1",
                 "follower_lustchange": "1"
             },
             "description": "Dorothy is an enthusiastic sort with an eclectic reading habit. She's fascinated by my hints about the shapes beneath the world's skin. [You might be able to recruit this acquaintance as a follower.]",
@@ -370,8 +370,8 @@
             "label": "Dorothy, a believer",
             "aspects": {
                 "mortal": "1",
-                "follower": 1,
-                "heart": 2,
+                "follower": "1",
+                "heart": "2",
                 "follower_lustchange": "1"
             },
             "description": "Dorothy is an enthusiastic sort, and I have turned her enthusiasm to our advantage.",
@@ -388,11 +388,11 @@
             "id": "dorothy_c",
             "label": "Dorothy, a disciple",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": "1",
-                "disciple": 1,
+                "disciple": "1",
                 "potential": "1",
-                "heart": 5,
+                "heart": "5",
                 "follower_lustchange": "1"
             },
             "description": "Dorothy's enthusiasm has become obsession. She will not cease; and how she loves to dance.",
@@ -409,12 +409,12 @@
             "id": "dorothy_d",
             "label": "Dorothy, a Tarantellist",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": "1",
-                "disciple": 1,
+                "disciple": "1",
                 "exalted": "1",
-                "heart": 10,
-                "follower_lustchange": 1
+                "heart": "10",
+                "follower_lustchange": "1"
             },
             "description": "When Dorothy moves, we hear the drum. When she speaks, we see the dance. Her determination is her shield and her weapon.",
             "xtriggers": {
@@ -430,7 +430,7 @@
             "label": "Douglas, a believer",
             "aspects": {
                 "mortal": "1",
-                "follower": 1,
+                "follower": "1",
                 "forge": "2"
             },
             "description": "Douglas has exchanged the Force for the Forge.",
@@ -450,7 +450,7 @@
             "aspects": {
                 "mortal": "1",
                 "follower": "1",
-                "disciple": 1,
+                "disciple": "1",
                 "potential": "1",
                 "forge": "5"
             },
@@ -470,9 +470,9 @@
             "label": "Douglas, a Reshaper",
             "aspects": {
                 "mortal": "1",
-                "follower": 1,
+                "follower": "1",
                 "disciple": "1",
-                "exalted": 1,
+                "exalted": "1",
                 "forge": "10"
             },
             "description": "Douglas has changed so much. His eyes glow like smithy windows in fog. His voice is the rattle of coal in the chute. His arm is long.",
@@ -489,8 +489,8 @@
             "id": "elridge_a",
             "label": "Elridge, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
+                "mortal": "1",
+                "acquaintance": "1",
                 "follower_lustpower": "1"
             },
             "description": "An elegant man of inelegant habits. [You might be able to recruit this acquaintance as a follower.]",
@@ -506,8 +506,8 @@
             "label": "Elridge, a believer",
             "aspects": {
                 "mortal": "1",
-                "follower": 1,
-                "edge": 2,
+                "follower": "1",
+                "edge": "2",
                 "follower_lustpower": "1"
             },
             "description": "Elridge has almost learnt not to pick his teeth with his knife in conversation. He has not yet learnt to leave his knife in his boot.",
@@ -524,12 +524,12 @@
             "id": "elridge_c",
             "label": "Elridge, a disciple",
             "aspects": {
-                "mortal": 1,
+                "mortal": "1",
                 "follower": "1",
-                "disciple": 1,
+                "disciple": "1",
                 "potential": "1",
-                "edge": 5,
-                "follower_lustpower": 1
+                "edge": "5",
+                "follower_lustpower": "1"
             },
             "description": "Elridge is waiting patiently until it's time to knife someone again.",
             "xtriggers": {
@@ -547,10 +547,10 @@
             "aspects": {
                 "mortal": "1",
                 "follower": "1",
-                "disciple": 1,
-                "exalted": 1,
+                "disciple": "1",
+                "exalted": "1",
                 "edge": "10",
-                "follower_lustpower": 1
+                "follower_lustpower": "1"
             },
             "description": "Elridge is never seen with a spot of blood upon his person. Not a spot.",
             "xtriggers": {
@@ -567,7 +567,7 @@
             "aspects": {
                 "mortal": "1",
                 "acquaintance": "1",
-                "follower_lustenlightenment": 1
+                "follower_lustenlightenment": "1"
             },
             "description": "Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. It may be that you've dreamed the same dreams. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -581,10 +581,10 @@
             "id": "enid_b",
             "label": "Enid, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "knock": 2,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "follower": "1",
+                "knock": "2",
+                "follower_lustenlightenment": "1"
             },
             "description": "Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. She sees things that others don't.",
             "xtriggers": {
@@ -600,12 +600,12 @@
             "id": "enid_c",
             "label": "Enid, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "potential": 1,
-                "knock": 5,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "potential": "1",
+                "knock": "5",
+                "follower_lustenlightenment": "1"
             },
             "description": "Enid sees what others do not. It is becoming difficult for her, but it is very useful.",
             "xtriggers": {
@@ -621,12 +621,12 @@
             "id": "enid_d",
             "label": "Enid, a Key",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "knock": 10,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "knock": "10",
+                "follower_lustenlightenment": "1"
             },
             "description": "Enid sees the gaps between things, and the arts that she has learned permit her, sometimes, to place her fingers in that gap.",
             "xtriggers": {
@@ -641,9 +641,9 @@
             "id": "laidlaw_a",
             "label": "Laidlaw, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
-                "follower_lustpower": 1
+                "mortal": "1",
+                "acquaintance": "1",
+                "follower_lustpower": "1"
             },
             "description": "Laidlaw is a tinkerer and mechanic with an uncanny knack. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -657,10 +657,10 @@
             "id": "laidlaw_b",
             "label": "Laidlaw, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "forge": 2,
-                "follower_lustpower": 1
+                "mortal": "1",
+                "follower": "1",
+                "forge": "2",
+                "follower_lustpower": "1"
             },
             "description": "Laidlaw has begun to understand the limitations of ingenuity, and the power of sacrifice.",
             "xtriggers": {
@@ -676,12 +676,12 @@
             "id": "laidlaw_c",
             "label": "Laidlaw, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "potential": 1,
-                "forge": 5,
-                "follower_lustpower": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "potential": "1",
+                "forge": "5",
+                "follower_lustpower": "1"
             },
             "description": "Laidlaw has learnt the cleverer uses of fire and copper, wax and acid.",
             "xtriggers": {
@@ -697,12 +697,12 @@
             "id": "laidlaw_d",
             "label": "Laidlaw, a Reshaper",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "forge": 10,
-                "follower_lustpower": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "forge": "10",
+                "follower_lustpower": "1"
             },
             "description": "Laidlaw can shape what is broken into what is necessary.",
             "xtriggers": {
@@ -717,9 +717,9 @@
             "id": "leo_a",
             "label": "Leo, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
-                "follower_lustchange": 1
+                "mortal": "1",
+                "acquaintance": "1",
+                "follower_lustchange": "1"
             },
             "description": "Leo is an earnest sort with an interest in the occult. He hangs on your hints about the invisible arts. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -733,10 +733,10 @@
             "id": "leo_b",
             "label": "Leo, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "heart": 2,
-                "follower_lustchange": 1
+                "mortal": "1",
+                "follower": "1",
+                "heart": "2",
+                "follower_lustchange": "1"
             },
             "description": "Leo is an earnest sort, but he's prepared to do what he must.",
             "xtriggers": {
@@ -752,12 +752,12 @@
             "id": "leo_c",
             "label": "Leo, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "potential": 1,
-                "heart": 5,
-                "follower_lustchange": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "potential": "1",
+                "heart": "5",
+                "follower_lustchange": "1"
             },
             "description": "Leo still yearns to preserve what is good and valuable; but he understands that to protect one's ideals, one must sometimes do questionable things.",
             "xtriggers": {
@@ -773,12 +773,12 @@
             "id": "leo_d",
             "label": "Leo, a Tarantellist",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "heart": 10,
-                "follower_lustchange": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "heart": "10",
+                "follower_lustchange": "1"
             },
             "description": "Leo will preserve, at all costs. He will not cease.",
             "xtriggers": {
@@ -793,12 +793,12 @@
             "id": "natalia_c",
             "label": "Natalia, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "lantern": 5,
-                "forge": 4
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "lantern": "5",
+                "forge": "4"
             },
             "description": "Natalia never follows unquestioningly - but for now, she follows.",
             "xtriggers": {
@@ -815,12 +815,12 @@
             "id": "natalia_d",
             "label": "Natalia, a Sage",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "lantern": 10,
-                "forge": 7
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "lantern": "10",
+                "forge": "7"
             },
             "description": "Natalia has aligned herself with the brightest path she can find.",
             "xtriggers": {
@@ -837,8 +837,8 @@
             "label": "Neville, an acquaintance",
             "aspects": {
                 "mortal": 1,
-                "acquaintance": 1,
-                "follower_lustenlightenment": 1
+                "acquaintance": "1",
+                "follower_lustenlightenment": "1"
             },
             "description": "Neville pauses before he speaks, and flinches easily. He laughs whenever he thinks you've made a joke. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -852,10 +852,10 @@
             "id": "neville_b",
             "label": "Neville, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "knock": 2,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "follower": "1",
+                "knock": "2",
+                "follower_lustenlightenment": "1"
             },
             "description": "Neville pauses before he speaks, and flinches easily. He's sensitive to deeper matters.",
             "xtriggers": {
@@ -871,12 +871,12 @@
             "id": "neville_c",
             "label": "Neville, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "potential": 1,
-                "knock": 5,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "potential": "1",
+                "knock": "5",
+                "follower_lustenlightenment": "1"
             },
             "description": "Neville's gaze has grown furtive, and his voice is sometimes shrill. He speaks freely of his dreams.",
             "xtriggers": {
@@ -892,12 +892,12 @@
             "id": "neville_d",
             "label": "Neville, a Key",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "knock": 10,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "knock": "10",
+                "follower_lustenlightenment": "1"
             },
             "description": "In his dreams, Neville sees the flaws where the world and its ways can be opened.",
             "xtriggers": {
@@ -912,9 +912,9 @@
             "id": "porter_a",
             "label": "Porter, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
-                "follower_lustchange": 1
+                "mortal": "1",
+                "acquaintance": "1",
+                "follower_lustchange": "1"
             },
             "description": "Porter was a barber, until the court case. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -928,10 +928,10 @@
             "id": "porter_b",
             "label": "Porter, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "moth": 2,
-                "follower_lustchange": 1
+                "mortal": "1",
+                "follower": "1",
+                "moth": "2",
+                "follower_lustchange": "1"
             },
             "description": "Porter plies his razor and his scissors, to the great advantage of his friends.",
             "xtriggers": {
@@ -947,12 +947,12 @@
             "id": "porter_c",
             "label": "Porter, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "potential": 1,
-                "moth": 5,
-                "follower_lustchange": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "potential": "1",
+                "moth": "5",
+                "follower_lustchange": "1"
             },
             "description": "Porter goes unnoticed, until he's ready.",
             "xtriggers": {
@@ -968,12 +968,12 @@
             "id": "porter_d",
             "label": "Porter, a Skintwister",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "moth": 10,
-                "follower_lustchange": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "moth": "10",
+                "follower_lustchange": "1"
             },
             "description": "Porter, like a spider, is found in the most unexpected places.",
             "xtriggers": {
@@ -988,9 +988,9 @@
             "id": "renira_a",
             "label": "Renira, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
-                "follower_lustsensation": 1
+                "mortal": "1",
+                "acquaintance": "1",
+                "follower_lustsensation": "1"
             },
             "description": "Renira has been found not guilty three times in three separate jurisdictions. She will likely never be found guilty of anything. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -1004,10 +1004,10 @@
             "id": "renira_b",
             "label": "Renira, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "grail": 2,
-                "follower_lustsensation": 1
+                "mortal": "1",
+                "follower": "1",
+                "grail": "2",
+                "follower_lustsensation": "1"
             },
             "description": "Renira continues to pursue her appetites discreetly, although her ambitions have grown. ",
             "xtriggers": {
@@ -1023,12 +1023,12 @@
             "id": "renira_c",
             "label": "Renira, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "potential": 1,
-                "grail": 5,
-                "follower_lustsensation": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "potential": "1",
+                "grail": "5",
+                "follower_lustsensation": "1"
             },
             "description": "Renira commands admiration wherever she goes. She reserves her attentions  for those who merit admiration in return.",
             "xtriggers": {
@@ -1044,12 +1044,12 @@
             "id": "renira_d",
             "label": "Renira, a Cyprian",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "grail": 10,
-                "follower_lustsensation": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "grail": "10",
+                "follower_lustsensation": "1"
             },
             "description": "Renira receives tokens from admirers almost daily. Some gifts are flowers, others poetry. Sometimes she receives jewels; sometimes, desperate gifts wrapped tightly in blood-stained crepe paper.",
             "xtriggers": {
