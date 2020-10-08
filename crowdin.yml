@@ -1,3 +1,15 @@
 files:
-  - source: en/**/*.json
-    translation: intl/%original_path%/%file_name%.%file_extension%
+  - source: /translations/en/content/cultures/culture.json
+    translation: /translations/%locale%/content/cultures/culture.json
+  - source: /translations/en/loc/decks
+    translation: /translations/%locale%/loc/decks/%original_file_name%
+  - source: /translations/en/loc/elements
+    translation: /translations/%locale%/loc/elements/%original_file_name%
+  - source: /translations/en/loc/endings
+    translation: /translations/%locale%/loc/endings/%original_file_name%
+  - source: /translations/en/loc/legacies
+    translation: /translations/%locale%/loc/legacies/%original_file_name%
+  - source: /translations/en/loc/recipes
+    translation: /translations/%locale%/loc/recipes/%original_file_name%
+  - source: /translations/en/loc/verbs
+    translation: /translations/%locale%/loc/verbs/%original_file_name%
