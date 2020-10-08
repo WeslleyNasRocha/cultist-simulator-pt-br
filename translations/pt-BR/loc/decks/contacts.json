@@ -154,7 +154,10 @@
             "id": "randomvictim",
             "label": "O Imprudente e O Desavisado",
             "description": "Faremos deles o que devemos.",
-            "spec": ["genericprisonerm", "genericprisonerf"],
+            "spec": [
+                "genericprisonerm",
+                "genericprisonerf"
+            ],
             "defaultcard": "genericprisonerm",
             "resetonexhaustion": true
         }
