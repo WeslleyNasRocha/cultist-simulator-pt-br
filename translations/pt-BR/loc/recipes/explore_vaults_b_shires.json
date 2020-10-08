@@ -239,7 +239,11 @@
                 "vaultshires4": -1
             },
             "internaldeck": {
-                "spec": ["toollanterndcracked", "victoryofcrowns", "tooledged"],
+                "spec": [
+                    "toollanterndcracked",
+                    "victoryofcrowns",
+                    "tooledged"
+                ],
                 "draws": 3,
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
