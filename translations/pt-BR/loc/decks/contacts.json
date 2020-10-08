@@ -35,7 +35,7 @@
                 "generic_a_moth",
                 "genérico_a_inverno"
             ],
-            "defaultcard": "identidadeerroneamente"
+            "defaultcard": "mistakenidentity"
         },
         {
             "id": "hirelings",
@@ -56,10 +56,10 @@
                 "secundar_thugmothminor",
                 "secundar_thugmothminor",
                 "secundar_thugmothminor",
-                "banqueirogeminador",
-                "banqueirogeminador",
-                "banqueirogeminador",
-                "banqueirogeminador"
+                "thugedgeminor",
+                "thugedgeminor",
+                "thugedgeminor",
+                "thugedgeminor"
             ],
             "resetonexhaustion": true
         },
@@ -81,11 +81,11 @@
             "label": "Patronos",
             "description": "Aqueles que podem me ajudar.",
             "spec": [
-                "aladimpronto",
+                "aladimready",
                 "bechetready",
                 "pronto",
                 "poppyready",
-                "Isolamento"
+                "sulochana"
             ],
             "defaultcard": "boato"
         },
@@ -105,14 +105,14 @@
             "resetonexhaustion": true
         },
         {
-            "id": "comissões de bechetCommissions",
+            "id": "bechetcommissions",
             "label": "Interesses de Bechet",
             "description": "",
             "spec": [
-                "Fornalha",
+                "commissionarticleforge",
                 "commissionarticleforgeb",
                 "commissionarticleforgec",
-                "commissionarticlegtrigo",
+                "commissionarticlegrail",
                 "commissionarticlegrailb",
                 "commissionarticlegrailc",
                 "commissionarticlemoth",
