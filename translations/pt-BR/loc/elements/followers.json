@@ -1064,9 +1064,9 @@
             "id": "rose_a",
             "label": "Rose, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
-                "follower_lustsensation": 1
+                "mortal": "1",
+                "acquaintance": "1",
+                "follower_lustsensation": "1"
             },
             "description": "Rose is a sly miss, and she recognises you as someone uncommon. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -1080,10 +1080,10 @@
             "id": "rose_b",
             "label": "Rose, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "edge": 2,
-                "follower_lustsensation": 1
+                "mortal": "1",
+                "follower": "1",
+                "edge": "2",
+                "follower_lustsensation": "1"
             },
             "description": "Rose is a sly miss, but loyal.",
             "xtriggers": {
@@ -1099,12 +1099,12 @@
             "id": "rose_c",
             "label": "Rose, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "potential": 1,
-                "edge": 5,
-                "follower_lustsensation": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "potential": "1",
+                "edge": "5",
+                "follower_lustsensation": "1"
             },
             "description": "Rose has sharpened her cunning to a concentrated point.",
             "xtriggers": {
@@ -1120,12 +1120,12 @@
             "id": "rose_d",
             "label": "Rose, an Assassin",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "edge": 10,
-                "follower_lustsensation": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "edge": "10",
+                "follower_lustsensation": "1"
             },
             "description": "The night before Rose meets her subject, the subject will receive a package with a single yellow rose.",
             "xtriggers": {
@@ -1140,9 +1140,9 @@
             "id": "saliba_a",
             "label": "Saliba, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
-                "follower_lustsensation": 1
+                "mortal": "1",
+                "acquaintance": "1",
+                "follower_lustsensation": "1"
             },
             "description": "Saliba is a man of prodigious appetites. He is long past the point where their satisfaction has given him any pleasure; but he has learnt so very much. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -1156,10 +1156,10 @@
             "id": "saliba_b",
             "label": "Saliba, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "grail": 2,
-                "follower_lustsensation": 1
+                "mortal": "1",
+                "follower": "1",
+                "grail": "2",
+                "follower_lustsensation": "1"
             },
             "description": "Saliba understands blood. He does not yet understand birth.",
             "xtriggers": {
@@ -1175,12 +1175,12 @@
             "id": "saliba_c",
             "label": "Saliba, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "potential": 1,
-                "grail": 5,
-                "follower_lustsensation": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "potential": "1",
+                "grail": "5",
+                "follower_lustsensation": "1"
             },
             "description": "Saliba's pleasures are taken in a room without windows. His companions return to him again and again, even though each time they are a little less.",
             "xtriggers": {
@@ -1196,12 +1196,12 @@
             "id": "saliba_d",
             "label": "Saliba, a Cyprian",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "grail": 10,
-                "follower_lustsensation": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "grail": "10",
+                "follower_lustsensation": "1"
             },
             "description": "Saliba's charisma strikes with the force of a hammer. It is horribly difficult to refuse his desires.",
             "xtriggers": {
@@ -1216,9 +1216,9 @@
             "id": "slee_a",
             "label": "Slee, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "acquaintance": "1",
+                "follower_lustenlightenment": "1"
             },
             "description": "Craig Slee, the astronomer and avant-garde poet, has developed an interest in the esoteric as his health wanes. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -1232,10 +1232,10 @@
             "id": "slee_b",
             "label": "Slee, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "lantern": 2,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "follower": "1",
+                "lantern": "2",
+                "follower_lustenlightenment": "1"
             },
             "description": "Slee speaks earnestly of his theories to all who will listen: the stars as tiny wounds, and the Sun as a haemorrhage of glory. His poetry is more eccentric than ever.",
             "xtriggers": {
@@ -1251,12 +1251,12 @@
             "id": "slee_c",
             "label": "Slee, a disciple",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "potential": 1,
-                "lantern": 5,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "potential": "1",
+                "lantern": "5",
+                "follower_lustenlightenment": "1"
             },
             "description": "Slee's headaches have become crippling, but his theories grow more practical by the day. His poetry's getting better, too.",
             "xtriggers": {
@@ -1272,12 +1272,12 @@
             "id": "slee_d",
             "label": "Slee, a Seer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "lantern": 10,
-                "follower_lustenlightenment": 1
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "lantern": "10",
+                "follower_lustenlightenment": "1"
             },
             "description": "Slee speaks exclusively in mathematics and in poetry. Both are compelling: it is increasingly difficult to tell the difference.",
             "xtriggers": {
@@ -1293,11 +1293,11 @@
             "label": "Spencer, a disciple",
             "aspects": {
                 "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "knock": 5,
-                "moth": 4
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "knock": "5",
+                "moth": "4"
             },
             "description": "Spencer carries a tiny icon of St Agnes on a chain around his neck, to rest on the scar above his heart.",
             "xtriggers": {
@@ -1314,12 +1314,12 @@
             "id": "spencer_d",
             "label": "Spencer, a Herald",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
-                "disciple": 1,
-                "exalted": 1,
-                "knock": 10,
-                "moth": 7
+                "mortal": "1",
+                "follower": "1",
+                "disciple": "1",
+                "exalted": "1",
+                "knock": "10",
+                "moth": "7"
             },
             "description": "Some follow the Way, and some are the Way for others. Spencer no longer tells us he made a decision: instead, he suggests that the decision has made him.",
             "xtriggers": {
@@ -1335,9 +1335,9 @@
             "id": "sylvia_a",
             "label": "Sylvia, an acquaintance",
             "aspects": {
-                "mortal": 1,
-                "acquaintance": 1,
-                "follower_lustchange": 1
+                "mortal": "1",
+                "acquaintance": "1",
+                "follower_lustchange": "1"
             },
             "description": "Sylvia lost her eye in the woods when she was nine years old. Every year, at Candlemas, she returns to the place she buried it. [You might be able to recruit this acquaintance as a follower.]",
             "xtriggers": {
@@ -1351,8 +1351,8 @@
             "id": "sylvia_b",
             "label": "Sylvia, a believer",
             "aspects": {
-                "mortal": 1,
-                "follower": 1,
+                "mortal": "1",
+                "follower": "1",
                 "moth": 2,
                 "follower_lustchange": 1
             },
