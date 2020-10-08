@@ -103,20 +103,29 @@
             "description": "'Fire', I once read, 'is the winter that warms and the spring that consumes.' [The principle of the Forge transforms and destroys.]",
             "isAspect": true
         },
-
         {
             "id": "grail",
             "label": "Grail",
             "description": "Hunger, lust, the drowning waters. [The principle of the Grail honours both the birth and the feast.]",
             "isAspect": true,
-            "induces": [{ "id": "grailinduction", "chance": 5 }]
+            "induces": [
+                {
+                    "id": "grailinduction",
+                    "chance": 5
+                }
+            ]
         },
         {
             "id": "heart",
             "label": "Heart",
             "description": "The Heart Relentless beats to protect the skin of the world we understand. [The Heart is the principle that continues and preserves.]",
             "isAspect": true,
-            "induces": [{ "id": "heartinduction", "chance": 10 }]
+            "induces": [
+                {
+                    "id": "heartinduction",
+                    "chance": 10
+                }
+            ]
         },
         {
             "id": "knock",
@@ -129,14 +138,24 @@
             "label": "Lantern",
             "description": "'Life is a pure flame, and we live by an invisible Sun within us.' - Thomas Browne. [Lantern is the principle of the secret place sometimes called the House of the Sun, and of the light above it.]",
             "isAspect": true,
-            "induces": [{ "id": "lanterninduction", "chance": 5 }]
+            "induces": [
+                {
+                    "id": "lanterninduction",
+                    "chance": 5
+                }
+            ]
         },
         {
             "id": "moth",
             "label": "Moth",
             "isAspect": true,
             "description": "I knew a man who captured moths in a bell-jar. On nights like this, he would release them one by one to die in the candle. [Moth is the wild and perilous principle of chaos and yearning.]",
-            "induces": [{ "id": "mothinduction", "chance": 10 }]
+            "induces": [
+                {
+                    "id": "mothinduction",
+                    "chance": 10
+                }
+            ]
         },
         {
             "id": "secrethistories",
@@ -144,7 +163,6 @@
             "description": "History is the scar on the world's skin. [Secret Histories describe the unknown complexities of the world, and its many pasts.]",
             "isAspect": true
         },
-
         {
             "id": "winter",
             "label": "Winter",
@@ -180,7 +198,12 @@
             "label": "Job",
             "isAspect": true,
             "description": "An arrangement to exchange one's life for money.",
-            "induces": [{ "id": "needs", "chance": 100 }]
+            "induces": [
+                {
+                    "id": "needs",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "dance",
@@ -188,8 +211,14 @@
             "isAspect": true,
             "description": "Older than language, younger than life.",
             "induces": [
-                { "id": "heartinduction", "chance": 10 },
-                { "id": "mothglimmeringinduction", "chance": 10 }
+                {
+                    "id": "heartinduction",
+                    "chance": 10
+                },
+                {
+                    "id": "mothglimmeringinduction",
+                    "chance": 10
+                }
             ]
         },
         {
@@ -227,7 +256,12 @@
             "label": "Ingredient",
             "isAspect": true,
             "description": "Fuel, ointment, pigment, patience: all are consumed in time.",
-            "induces": [{ "id": "needs", "chance": 100 }],
+            "induces": [
+                {
+                    "id": "needs",
+                    "chance": 100
+                }
+            ],
             "comments": "This is so anything that generates Funds will always trigger the needs timer if it's not already running."
         },
         {
@@ -266,7 +300,6 @@
             "isAspect": true,
             "description": "Some questions have only one answer. Some have no answer at all."
         },
-
         {
             "id": "reputation",
             "label": "Reputation",
@@ -321,7 +354,6 @@
             "isAspect": true,
             "description": "My ultimate aim. There will be a price."
         },
-
         {
             "id": "promise",
             "label": "Promise",
@@ -334,7 +366,6 @@
             "isAspect": true,
             "description": "Opportunities to ascend to the House of the Sun are rare. If another achieves it, I may miss my chance. [If this reaches seven, your Rival has a chance to win the game instead of you at the next Season of Ambitions.]"
         },
-
         {
             "id": "changemarks",
             "label": "The Forms of Change",
@@ -371,21 +402,28 @@
             "isAspect": true,
             "isHidden": true
         },
-
-        { "id": "follower_lustpower", "isAspect": true, "isHidden": true },
-
-        { "id": "follower_lustsensation", "isAspect": true, "isHidden": true },
-
-        { "id": "follower_lustchange", "isAspect": true, "isHidden": true },
-
+        {
+            "id": "follower_lustpower",
+            "isAspect": true,
+            "isHidden": true
+        },
+        {
+            "id": "follower_lustsensation",
+            "isAspect": true,
+            "isHidden": true
+        },
+        {
+            "id": "follower_lustchange",
+            "isAspect": true,
+            "isHidden": true
+        },
         {
             "id": "detectivetemptation",
             "comments": "Aspect for Detective plot items",
             "isAspect": true,
             "isHidden": true
         },
-
-        ({
+        {
             "id": "long.preference.assault",
             "isAspect": true,
             "isHidden": true
@@ -394,13 +432,17 @@
             "id": "long.preference.intrigue",
             "isAspect": true,
             "isHidden": true
-        }),
+        },
         {
             "id": "long.preference.dreamwork",
             "isAspect": true,
             "isHidden": true
         },
-        ({ "id": "long.preference.winter", "isAspect": true, "isHidden": true },
+        {
+            "id": "long.preference.winter",
+            "isAspect": true,
+            "isHidden": true
+        },
         {
             "id": "ascend",
             "label": "Ascending",
@@ -408,7 +450,7 @@
             "description": "To the next Mark.",
             "comments": "Recipe aspect",
             "noartneeded": true
-        }),
+        },
         {
             "id": "descend",
             "label": "Descending",
@@ -417,7 +459,6 @@
             "noartneeded": true,
             "comments": "Recipe aspect"
         },
-
         {
             "id": "article",
             "label": "Article",
@@ -456,7 +497,6 @@
             "isHidden": true,
             "noartneeded": true
         },
-
         {
             "id": "memory",
             "label": "Memory",
@@ -499,35 +539,30 @@
             "isAspect": true,
             "description": "This spirit may be able to teach you Fucine, if you know a related tongue."
         },
-
         {
             "id": "spirittutorphrygian",
             "label": "Phrygian Speaker",
             "isAspect": true,
             "description": "This spirit may be able to teach you Phrygian, if you know a related tongue."
         },
-
         {
             "id": "spirittutormandaic",
             "label": "Mandaic Speaker",
             "isAspect": true,
             "description": "This spirit may be able to teach you Deep Mandaic, if you know a related tongue."
         },
-
         {
             "id": "spiritsicknessprotector",
             "label": "Phylaxian",
             "description": "If I speak with this one about my Health, it can offer protection against disease.",
             "isAspect": true
         },
-
         {
             "id": "spiriteatspassion",
             "label": "Lamp of Loss",
             "description": "If I speak to this one, I could offer it my Passion.",
             "isAspect": true
         },
-
         {
             "id": "spiriteatsreason",
             "label": "Thresher of Thoughts",
@@ -566,27 +601,29 @@
             "isAspect": true,
             "noartneeded": true
         },
-
         {
             "id": "library",
             "label": "Library",
             "description": "A collection of minor volumes, partial copies and ephemera that may help with research.",
             "isAspect": true
         },
-
         {
             "id": "pit",
             "label": "Pit",
             "description": "A lightless well of solitude where I may experience grim insights.",
             "isAspect": true
         },
-
         {
             "id": "secret",
             "label": "Secret",
             "description": "This place is easily overlooked. [Use of this Headquarters will cause Reputation cards to disappear.]",
             "isAspect": true,
-            "induces": [{ "id": "secret.induction", "chance": 30 }]
+            "induces": [
+                {
+                    "id": "secret.induction",
+                    "chance": 30
+                }
+            ]
         },
         {
             "id": "sanctuary",
@@ -594,7 +631,6 @@
             "description": "A space designed for contemplation and perhaps even peace.",
             "isAspect": true
         },
-
         {
             "id": "location",
             "label": "Location",
@@ -625,21 +661,18 @@
             "description": "Misty passes and remote villages, where the world's skin is thin. ",
             "isAspect": true
         },
-
         {
             "id": "vaultrendingmountains",
             "label": "In the Rending Mountains",
             "description": "Tawny-flanked, snow-tipped, far from help.",
             "isAspect": true
         },
-
         {
             "id": "vaultloneandlevelsands",
             "label": "The Lone and Level Sands",
             "description": "In a dry and distant place, dune-chained horizons await you.",
             "isAspect": true
         },
-
         {
             "id": "vaulteveningisles",
             "label": "Among the Evening Isles",
@@ -682,49 +715,42 @@
             "description": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [To upgrade or subvert this Fragment, you'd need Erudition, or an HQ with a Library.]",
             "isAspect": true
         },
-
         {
             "id": "challenge.intuition",
             "label": "Requires Intuition",
             "description": "With time and peace, answers sometimes come unannounced. [To upgrade or subvert this Fragment, you'd need Glimmerings, or an HQ with a Sanctuary.]",
             "isAspect": true
         },
-
         {
             "id": "challenge.grim",
             "label": "Requires a Grim Lesson",
             "description": "I'll learn. [To upgrade or subvert this Fragment, you'd need Dread (which might breed), the Silent Intensity skill, or an HQ with a Pit.]",
             "isAspect": true
         },
-
         {
             "id": "challenge.obsessive",
             "label": "Requires Obsessive Research",
             "description": "This subject demands more attention than is safe. [To upgrade or subvert this Fragment, you'd need an HQ with a Library, the Never-No skill, or a Reason. There's a very small risk your Reason might be permanently damaged.]",
             "isAspect": true
         },
-
         {
             "id": "challenge.paradox",
             "label": "Requires a Paradoxical Resolution",
             "description": "Truth is a serpent. Answers feed its appetites. [To upgrade or subvert this Fragment, you'd need an HQ with a Sanctuary, the Open Soul skill, or a Passion. There's a very small risk your Passion might be permanently damaged.]",
             "isAspect": true
         },
-
         {
             "id": "challenge.illumination",
             "label": "Requires Illumination",
             "description": "Water fills the cup; light fills the mind. [To upgrade or subvert this Fragment, you'd need Fascination (which might breed), an HQ with a Library, or the Rarefied Mind skill.]",
             "isAspect": true
         },
-
         {
             "id": "challenge.practical",
             "label": "Requires Practical Experimentation",
             "description": "Pain is only what happens now; knowledge is what we will remember. [To upgrade or subvert this Fragment, you'd need to risk your Health or use a Prisoner.]",
             "isAspect": true
         },
-
         {
             "id": "summoned",
             "label": "Summoned",
@@ -737,7 +763,6 @@
             "description": "Perhaps I can rest, and recover.",
             "isAspect": true
         },
-
         {
             "id": "inducesdespair",
             "label": "Induces Despair",
@@ -923,7 +948,6 @@
             "isAspect": true,
             "noartneeded": true
         },
-
         {
             "id": "restorehealth",
             "label": "Restore Health",
@@ -932,7 +956,6 @@
             "comments": "Recipe aspect",
             "noartneeded": true
         },
-
         {
             "id": "damagehealth",
             "label": "Damage Health",
@@ -996,7 +1019,12 @@
             "isAspect": true,
             "comments": "Recipe aspect",
             "noartneeded": true,
-            "induces": [{ "id": "dreadinduction", "chance": 30 }]
+            "induces": [
+                {
+                    "id": "dreadinduction",
+                    "chance": 30
+                }
+            ]
         },
         {
             "id": "fascinating",
@@ -1005,7 +1033,12 @@
             "isAspect": true,
             "comments": "Recipe aspect",
             "noartneeded": true,
-            "induces": [{ "id": "fascinationinduction", "chance": 30 }]
+            "induces": [
+                {
+                    "id": "fascinationinduction",
+                    "chance": 30
+                }
+            ]
         },
         {
             "id": "damagepassion",
@@ -1015,7 +1048,6 @@
             "comments": "Recipe aspect",
             "noartneeded": true
         },
-
         {
             "id": "killmortal",
             "label": "Kill Mortal",
@@ -1056,8 +1088,7 @@
             "comments": "Recipe aspect",
             "noartneeded": true
         },
-
-        ({
+        {
             "id": "raiseshattered",
             "label": "Transform eg a corpse to Shattered Risen",
             "isAspect": true,
@@ -1070,7 +1101,7 @@
             "isAspect": true,
             "comments": "Recipe aspect",
             "noartneeded": true
-        }),
+        },
         {
             "id": "renewshattered",
             "isAspect": true,
@@ -1139,7 +1170,6 @@
             "comments": "Recipe aspect",
             "noartneeded": true
         },
-
         {
             "id": "restorepassion",
             "label": "Restore Passion",
@@ -1188,8 +1218,7 @@
             "comments": "Recipe aspect. Upgrades influence.",
             "noartneeded": true
         },
-
-        ({
+        {
             "id": "glorify",
             "label": "A MOve toWards the GLory",
             "description": "Converts Dread to Fascination, and potential other elements to more Gloryful equivalents.",
@@ -1219,7 +1248,7 @@
             "isAspect": true,
             "comments": "Recipe aspect.",
             "noartneeded": true
-        }),
+        },
         {
             "id": "crackmirror",
             "label": "Crack Mirrors",
@@ -1284,21 +1313,18 @@
             "noartneeded": true,
             "isAspect": true
         },
-
         {
             "id": "erratic",
             "label": "Erratic",
             "description": "This Hunter often fails to create Evidence from Notoriety. Conversely, they'll sometimes create Evidence even when they can't find Notoriety.",
             "isAspect": true
         },
-
         {
             "id": "meticulous",
             "label": "Meticulous",
             "description": "This Hunter always succeeds at creating Evidence from Notoriety.",
             "isAspect": true
         },
-
         {
             "id": "tenacious",
             "label": "Tenacious",
@@ -1323,7 +1349,6 @@
             "description": "Idealists cannot be demoralised - although sometimes their ideals can be turned against them.",
             "isAspect": true
         },
-
         {
             "id": "venerationedge",
             "label": "Veneration: Edge",
@@ -1451,7 +1476,6 @@
             "description": "FAUSTUS: I think Hell's a fable. MEPHISTOPHILIS: Ay, think so still, till experience change thy mind. [Three Scars of the same type will kill a mortal.]",
             "isAspect": true
         },
-
         {
             "id": "follower_scar_knock",
             "label": "Scar: Half-Healed Fistula",
@@ -1513,8 +1537,7 @@
             "description": "A gentleman of means sometimes attends performances. He has been known to pay his respects to chorus members after the show.",
             "isAspect": true
         },
-
-        ({
+        {
             "id": "potentialbenefactorf",
             "label": "The Lady in the Box",
             "description": "A lady of means sometimes attends performances. She has been known to show a keen interest in chorus members.",
@@ -1525,35 +1548,31 @@
             "label": "A Bright-Eyed Watcher",
             "description": "Sometimes she sits in the second row, seeking new talent for her peculiar establishment. Those she employs are rarely seen about town.",
             "isAspect": true
-        }),
+        },
         {
             "id": "snarelevel",
             "label": "Snare Effectiveness",
             "description": "Some snares are easy to escape. Some are webs of steel.",
             "isAspect": true
         },
-
         {
             "id": "apostleforge.pillar4.dormant",
             "label": "The Chosen Compass",
             "description": "Our Shaper has chosen this one to be a compass to the flaw in the world - the weak place in the place that does not change. When they find it they will surrender their eyes, and live for their Purpose.",
             "isAspect": true
         },
-
         {
             "id": "apostleforge.pillar4",
             "label": "Thine Eyes Have Seen",
             "description": "This one is blind to everything except the flaw in the world that we seek. There is one in Vienna, but there is another much closer to home, in the place whose name has always been the same, even as Caer Ys. They can lead us there, with the Dawnbreaker Core, to perform our Great Work.",
             "isAspect": true
         },
-
         {
             "id": "mentor",
             "label": "Mentor",
             "description": "Our secret ruler, who commands our loyalty, who shall rise still higher through our works.",
             "isAspect": true
         },
-
         {
             "id": "intention.assault",
             "label": "Intention",
@@ -1582,7 +1601,6 @@
             "isAspect": true,
             "isHidden": true
         },
-
         {
             "id": "strategy.revealed",
             "label": "Strategy Revealed",
@@ -1590,7 +1608,6 @@
             "isAspect": true,
             "isHidden": true
         },
-
         {
             "id": "revealstrategy",
             "label": "Reveal Strategy",
@@ -1598,7 +1615,6 @@
             "isAspect": true,
             "noartneeded": true
         },
-
         {
             "id": "revealidentity",
             "label": "Reveal Inentity",
@@ -1606,7 +1622,6 @@
             "isAspect": true,
             "noartneeded": true
         },
-
         {
             "id": "long.lesson",
             "label": "A Lesson Learnt",
@@ -1614,28 +1629,24 @@
             "isAspect": true,
             "isHidden": true
         },
-
         {
             "id": "long.might",
             "label": "Might",
             "description": "Over time, this Long will build up allies and resources in the city, improving their ability to assault us. [If it ever reaches 10, the Long will consider attacking you directly.]",
             "isAspect": true
         },
-
         {
             "id": "long.connections",
             "label": "Connections",
             "description": "Over time, this Long will build up their network in the city, improving their ability to intrigue against us. [If it ever reaches 10, the Long will consider attacking you directly.]",
             "isAspect": true
         },
-
         {
             "id": "long.dreamwork",
             "label": "The Size of Starlight",
             "description": "Over time, this Long will learn the shape of our dreams, improving their ability to strike at us through the Mansus. [If it ever reaches 10, the Long will consider attacking you directly.]",
             "isAspect": true
         },
-
         {
             "id": "long.enemy",
             "label": "An Immortal Enemy",
@@ -1643,21 +1654,18 @@
             "isAspect": true,
             "isHidden": true
         },
-
         {
             "id": "greatwork",
             "label": "An element of the Great Work",
             "description": "When the Work is complete, our founder, our inspiration, will rise yet higher.",
             "isAspect": true
         },
-
         {
             "id": "greatwork.sabotaged",
             "label": "Sabotaged!",
             "description": "The Great Work is imperilled. [Use a Forge follower and a Silver Spintria to repair this.]",
             "isAspect": true
         },
-
         {
             "id": "sabotage",
             "label": "Sabotage!",
@@ -1671,7 +1679,6 @@
             "isAspect": true,
             "noartneeded": true
         },
-
         {
             "id": "grailflavour",
             "label": "The Sweetest",
@@ -1690,7 +1697,6 @@
             "description": "Figs, nuts, malt.",
             "isAspect": true
         },
-
         {
             "id": "vitulationupgrade",
             "label": "Vitulation Guests Upgrade",
@@ -1705,30 +1711,35 @@
             "isAspect": true,
             "noartneeded": true
         },
-
         {
             "id": "renew.apostlelantern.pillar3",
             "label": "Renew the Allure",
             "isAspect": true,
             "noartneeded": true
         },
-
         {
             "id": "poison.notoriety",
             "label": "Exposed",
             "description": "This follower's secrets have been revealed to the public. Any time they're active, the press might take an interest.",
             "isAspect": true,
             "icon": "reputation",
-            "induces": [{ "id": "poison.notoriety.induction", "chance": 30 }]
+            "induces": [
+                {
+                    "id": "poison.notoriety.induction",
+                    "chance": 30
+                }
+            ]
         },
-
         {
             "id": "poison.passion.dread",
             "label": "Poisoned Passion",
             "description": "My emotions have been infected with the creeping taint of fear. [Using this card anywhere will probably create Dread.]",
             "isAspect": true,
             "induces": [
-                { "id": "poison.passion.dread.induction", "chance": 70 }
+                {
+                    "id": "poison.passion.dread.induction",
+                    "chance": 70
+                }
             ]
         },
         {
@@ -1737,39 +1748,42 @@
             "description": "I am teased by recurring dreams of candlefire. [Using this card anywhere will probably create Fascination.]",
             "isAspect": true,
             "induces": [
-                { "id": "poison.reason.fascination.induction", "chance": 70 }
+                {
+                    "id": "poison.reason.fascination.induction",
+                    "chance": 70
+                }
             ]
         },
-
         {
             "id": "poison.health.dread",
             "label": "The Failing Flesh ",
             "description": "I have become subject to pain that will never depart. [Using this card anywhere will probably create Dread.]",
             "isAspect": true,
-            "induces": [{ "id": "poison.health.dread.induction", "chance": 70 }]
+            "induces": [
+                {
+                    "id": "poison.health.dread.induction",
+                    "chance": 70
+                }
+            ]
         },
-
         {
             "id": "poison.fascination.longlesson",
             "label": "The Eyes in my Memory",
             "description": "The Long has sent me a sweet dream. I must not think of it. [If you Dream away this card or use it in a ritual, the Long will learn from you, increasing their power in your dreams.]",
             "isAspect": true
         },
-
         {
             "id": "poison.dread.longlesson",
             "label": "The Teeth in my Heart",
             "description": "The Long has set dreams to bedevil me. It would be safer to banish them, but wiser not to think of them. [If you Dream away this card or use it in a ritual, the Long will learn from you, increasing their power in your dreams.]",
             "isAspect": true
         },
-
         {
             "id": "poison.way.long",
             "label": "The Way is Watched",
             "description": "The Long has set a watch upon this Way. If I pass it, they'll learn more of me as I sleep.",
             "isAspect": true
         },
-
         {
             "id": "lockscar",
             "label": "Lock-Scar",
@@ -1789,98 +1803,84 @@
             "isAspect": true,
             "noartneeded": true
         },
-
         {
             "id": "ghoul.hunger",
             "label": "Graveyard Mouth",
             "description": "Now that I have tasted the graveyard fruit, the hunger comes often to trouble me. My mouth waters at the fragrances of decay, and my belly growls like a dog. [Reduce this by feeding on Remnants. Do not ever permit it to reach seven, the game may end, and not pleasantly.]",
             "isAspect": true
         },
-
         {
             "id": "colours.furious",
             "label": "The Colours Seven-Coiled",
             "description": "On a bed of dunes beneath a red low sun a monster wrestles itself while attendants crowd around its flanks. It is flabby and huge, the colour of dirty sulphur. Fanged tentacle-necks wrestle like kittens. It tears cheerfully at its own flesh, and the blood that flows is golden. It flops over in a cataclysm of wattled flesh, crushing a knot of attendants, and the others scream and cheer.",
             "isAspect": true
         },
-
         {
             "id": "colours.luxurious",
             "label": "The Colours Tidal",
             "description": "In a night-blue Mansus-haze swims a coral palace-crown. At its fore-edge it absorbs the lesser Names, coating them with its minerals and juices, and at its rear edge it expels some of them, polished like jewels. The others go to feed its thorny Tide-heart.",
             "isAspect": true
         },
-
         {
             "id": "colours.liminal",
             "label": "The Colours of the Double Threshold",
             "description": "When I remember the Horned Axe, I recall the scent of hawthorn. I recall a purple evening sky shot with red gold. I recall that her edges dripped where she had lately been at work.",
             "isAspect": true
         },
-
         {
             "id": "colours.horizon",
             "label": "The Colours of the Horizon",
             "description": "A faded pale white-gold seen in certain patches of the sky, when the mist is clearing but the sun might be mistaken for the moon. We hold our breath and watch it brighten, until each colour divides from the next like a new-minted alphabet. The Egg Unhatching.",
             "isAspect": true
         },
-
         {
             "id": "colours.splendid",
             "label": "The Colours that Were",
             "description": "Auroral rose vies with electric blue. There is neither night nor morning but only the hours of noon anticipated and lingering noon. We each of us open our hearts to the golden needle of the sky. All colours magnified beneath the Sun-in-Splendour.",
             "isAspect": true
         },
-
         {
             "id": "colours.endless",
             "label": "The Colours that Turn",
             "description": "With each turn its cilia pulse and wriggle and its body flushes translucent to crimson. It might be ugly but it is beautiful like the withdrawing of blood from the labyrinths of glass. It does not cease and all its involutions are infinite. The Wheel.",
             "isAspect": true
         },
-
         {
             "id": "colours.wildering",
             "label": "The Colours That Are Not Black",
             "description": "The Wood before its darkening, its fruits poison-green, its carnelian roots. The Moth's eyes are merry with hunger. He is hunting.",
             "isAspect": true
         },
-
         {
             "id": "colours.golden",
             "label": "The Colours of the Old Fire",
             "description": "This is only a stone, though it is smoothed and sharpened to a midnight point, but look closer. Each of its facets shows a single point of light. It might be the glint of firelight. It might be each a different Star.",
             "isAspect": true
         },
-
         {
             "id": "colours.honeyed",
             "label": "The Colours that Will Be",
             "description": "Our wings unfurled and shining, our scales lambent as obsidian, our eyes faceted like jewels, our claws unimpeachable dark.",
             "isAspect": true
         },
-
         {
             "id": "ascension.remembrance.offering",
             "label": "The Elegiast's Price",
             "description": "The Elegiast is the Hour from whom nothing more can be taken, and the Hour who calls each of the Dead by name. Once in a long ever, for a great price, he will call one of the Dead up out of Nowhere, that they may continue, lonely, unscathed, until the date of their own final winter.",
             "isAspect": true
         },
-
         {
             "id": "remnant",
             "label": "Remnant",
             "description": "Once another wore this flesh.",
             "isAspect": true
         },
-
         {
             "id": "manifesting",
             "label": "Manifesting",
             "description": "The spirit is entering the world. This is simpler than a birth, but not so simple as passing through a door.",
             "isAspect": true
         },
-
         {
             "id": "stale",
             "label": "Staleness",
@@ -1888,7 +1888,6 @@
             "isAspect": true,
             "icon": "boredom"
         },
-
         {
             "id": "project",
             "label": "Project",
