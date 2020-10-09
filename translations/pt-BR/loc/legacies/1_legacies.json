@@ -2,9 +2,9 @@
     "legacies": [
         {
             "id": "aspirant",
-            "label": "The Aspirant",
-            "description": "June the 28th, once again.",
-            "startdescription": "Alone in this chilly city, with my useless education, and my dreams.\nWhat now? Could I become something more?",
+            "label": "O Aspirante",
+            "description": "28 de Junho, mais uma vez.",
+            "startdescription": "Sozinho nessa fria cidade, junto de minha inútil educação e meus sonhos.\\n\nE que agora? Poderia tornar-me eu algo mais?",
             "effects": {
                 "introjob": 1
             },
@@ -15,9 +15,9 @@
         },
         {
             "id": "brightyoungthing",
-            "label": "The Bright Young Thing",
-            "description": "Endowed from birth with wealth and talent. A life of ease, comfort and delight stretches ahead like an amber carpet.",
-            "startdescription": "I missed the dawn. I generally do. There'll be plenty more.",
+            "label": "A Brilhante Jovem Coisa",
+            "description": "Dotada do berço com riquezas e talento. Uma vida fácil, confortável e deliciosa estende-se na sua frente como um ambarino tapete.",
+            "startdescription": "Senti falta do alvorecer. Geralmente sinto. Terão muitos mais.",
             "effects": {
                 "legacybytjob": 1,
                 "health": 1
@@ -27,12 +27,11 @@
             "availableWithoutEndingMatch": true,
             "startingverbid": "work"
         },
-
         {
             "id": "physician",
-            "label": "The Physician",
-            "description": "As the patient descended into the final delirium, I made copious notes. In the buzzing heat of the night, I re-read those notes, and they began, at last, to make a kind of sense.",
-            "startdescription": "Today is the day I return to my post at the Institute. I have a position, and a reputation. That should mean something; but I am beginning to dream of something else.",
+            "label": "O Médico",
+            "description": "À medida que o paciente descendeu a seus estágios finais do delírio, eu fiz abundantes anotações. No aquecido zumbido da noite, eu reli todas essas anotações, e elas começaram, por fim a fazer algum tipo de sentido.",
+            "startdescription": "Hoje é o dia que retorno a meu posto no Instituto. Tenho uma posição e uma reputação. Isso deve significar algo; mas começo agora a sonhar de algo outro.",
             "effects": {
                 "legacyphysicianjob": 1,
                 "reason": 1
@@ -44,9 +43,9 @@
         },
         {
             "id": "detective",
-            "label": "The Detective",
-            "description": "I am an Inspector in the capital's police, charged with the investigation of the most vile and wretched things that one human does to another.",
-            "startdescription": "I have ended the careers of thieves, murderers, blackmailers, arsonists. Some criminals do worse still; and on some mornings, my hands have been known to tremble.",
+            "label": "O Detetive",
+            "description": "Sou um Inspetor na polícia da capital, encarregado de investigar as mais vís e miseráveis coisas que um humano faz com outro.",
+            "startdescription": "Acabei com a carreira de ladrões, assassinos, chantagistas, incendiários... alguns criminosos ainda piores; e, em algumas manhãs, sabe-se que trêmulas são minhas mãos.",
             "effects": {
                 "legacydetectivejob": 1,
                 "reason": 1,
@@ -59,9 +58,9 @@
         },
         {
             "id": "detectivepostpromotion",
-            "label": "The Detective",
-            "description": "I am an Inspector in the capital's police, charged with the investigation of the most vile and wretched things that one human does to another.",
-            "startdescription": "I have ended the careers of thieves, murderers, blackmailers, arsonists. Some criminals do worse still; and on some mornings, my hands have been known to tremble.",
+            "label": "O Detetive",
+            "description": "Sou um Inspetor na polícia da capital, encarregado de investigar as mais vís e miseráveis coisas que um humano faz com outro.",
+            "startdescription": "Acabei com a carreira de ladrões, assassinos, chantagistas, incendiários. Alguns criminosos fazem coisas ainda piores; e, em algumas manhãs, sabe-se que minhas mão tremem.",
             "effects": {
                 "legacydetectivejob": 1,
                 "reason": 1,
@@ -70,14 +69,16 @@
             "image": "detective",
             "fromending": "workvictoryb",
             "availableWithoutEndingMatch": false,
-            "excludesOnEnding": ["detective"],
+            "excludesOnEnding": [
+                "detective"
+            ],
             "startingverbid": "work"
         },
         {
             "id": "apostleforge",
-            "label": "Apostle Aestuant",
-            "startdescription": "The one who shaped us has ascended to a higher state... in one history, at least. The past is uncertain. But I will tend the crucible for their next ascension.",
-            "description": "Our Great Shaper is grown powerful - and they have powerful enemies. They will remain in hiding, while I serve as their instrument.",
+            "label": "Apóstolo Ardente",
+            "startdescription": "Aquele que nos formou ascendeu a um estado mais elevado... em uma história, ao menos. O passado é incerto. Porém, eu cuidarei do cadinho para sua próxima ascensão.",
+            "description": "O nosso Grão Formador cresceu em poder - e tem inimigos poderosos. Ele continuará escondendo-se, enquanto eu o servirei como seu instrumento.",
             "effects": {
                 "health": 2,
                 "legacyapostleforgejob": 1
@@ -89,9 +90,9 @@
         },
         {
             "id": "apostlegrail",
-            "label": "Apostle Obsonate",
-            "startdescription": "The one who nourished us has ascended to a higher state... in one history, at least. The past is uncertain. But I will prepare the feast for their next ascension.",
-            "description": "Our Delight is grown powerful - and they have powerful enemies. They will remain in hiding, while I serve as their vessel.",
+            "label": "Apóstolo Obsonato",
+            "startdescription": "Aquele que nos nutriu ascendeu a um estado mais elevado... em uma história, ao menos. O passado é incerto. Porém, eu preparei o banquete para sua próxima ascensão.",
+            "description": "Nosso Deleite cresceu em poder - e tem inimigos poderosos. Ele continuará escondendo-se, enquanto eu o servirei como seu recipiente.",
             "effects": {
                 "passion": 1,
                 "health": 1,
@@ -104,9 +105,9 @@
         },
         {
             "id": "apostlelantern",
-            "label": "Apostle Entheate",
-            "startdescription": "The Illuminated One waits in the House of the Sun - waits to rise higher. I am their hand.",
-            "description": "I don't remember what happened. I don't remember who I am. But the dreams have taught me what I must do.",
+            "label": "Apóstolo Entheato",
+            "startdescription": "O Iluminado aguarda na Casa do Sol - aguarda para ascender mais. Eu sou sua mão.",
+            "description": "Não me lembro do que ocorreu. Não me lembro de quem sou. Mas os sonhos me ensinaram que fazer.",
             "effects": {
                 "reason": 1,
                 "health": 1,
@@ -119,9 +120,9 @@
         },
         {
             "id": "apostleforgewithrisen",
-            "label": "Apostle Aestuant",
-            "startdescription": "The one who shaped us has ascended to a higher state... in one history, at least. The past is uncertain. But I will tend the crucible for their next ascension.",
-            "description": "Our Great Shaper is grown powerful - and they have powerful enemies. They will remain in hiding, while I serve as their instrument.",
+            "label": "Apóstolo Aestetuante",
+            "startdescription": "Aquele que nos formou ascendeu a um estado mais elevado... Em uma história, ao menos. O passado é incerto. Porém, eu cuidarei do cadinho para sua próxima ascensão.",
+            "description": "O nosso Grão Formador cresceu-se poderoso - e tem inimigos poderosos. Eles continuaram escondendo-se, enquanto eu servirei-o como seu instrumento.",
             "effects": {
                 "health": 2,
                 "legacyapostleforgejob": 1
@@ -133,9 +134,9 @@
         },
         {
             "id": "apostlegrailwithrisen",
-            "label": "Apostle Obsonate",
-            "startdescription": "The one who nourished us has ascended to a higher state... in one history, at least. The past is uncertain. But I will prepare the feast for their next ascension.",
-            "description": "Our Delight is grown powerful - and they have powerful enemies. They will remain in hiding, while I serve as their vessel.",
+            "label": "Apóstolo Obsonato",
+            "startdescription": "Aquele que nos nutriu ascendeu a um estado mais elevado... em uma história, ao menos. O passado é incerto. Porém, eu preparei o banquete para sua próxima ascensão.",
+            "description": "Nosso Deleite cresceu-se poderoso - e tem inimigos poderosos. Ele continuará escondendo-se, enquanto eu servirei-o como seu recipiente.",
             "effects": {
                 "passion": 1,
                 "health": 1,
@@ -148,9 +149,9 @@
         },
         {
             "id": "apostlelanternwithrisen",
-            "label": "Apostle Entheate",
-            "startdescription": "The Illuminated One waits in the House of the Sun - waits to rise higher. I am their hand.",
-            "description": "I don't remember what happened. I don't remember who I am. But the dreams have taught me what I must do.",
+            "label": "Apóstolo Entheato",
+            "startdescription": "O Iluminado aguarda na Casa do Sol - aguarda para ascender mais. Eu sou sua mão.",
+            "description": "Não me lembro do que ocorreu. Não me lembro de quem sou. Mas os sonhos me ensinaram que fazer.",
             "effects": {
                 "reason": 1,
                 "health": 1,
@@ -163,7 +164,7 @@
         },
         {
             "id": "auctioneer",
-            "label": "The Auctioneer",
+            "label": "O Leiloeiro",
             "description": "--",
             "startdescription": "--",
             "effects": {
@@ -176,9 +177,9 @@
         },
         {
             "id": "survivor",
-            "label": "The Survivor",
-            "description": "At times, in mirrors, in crowds, you see the face of one now lost.",
-            "startdescription": "Haunted starting note",
+            "label": "--",
+            "description": "Não está no jogo.",
+            "startdescription": "Não está no jogo",
             "effects": {
                 "introjob": 1
             },
@@ -189,9 +190,9 @@
         },
         {
             "id": "cousin",
-            "label": "The Cousin",
-            "description": "One morning, when the Sun is high and the mirrors all are sealed, there will come a knock on your door. \"A benefactor\", the gentleman in grey will say. \"A bequest. Perhaps you hadn't known you were related.\"",
-            "startdescription": "Inheritor starting note",
+            "label": "Não está no jogo",
+            "description": "Não está no jogo",
+            "startdescription": "Não está no jogo",
             "effects": {
                 "introjob": 1
             },
