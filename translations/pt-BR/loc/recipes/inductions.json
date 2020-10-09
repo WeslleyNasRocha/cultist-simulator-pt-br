@@ -2,79 +2,79 @@
     "recipes": [
         {
             "id": "heartinduction",
-            "label": "The Course of the Heart",
+            "label": "O curso do Coração",
             "actionid": "heartinduction",
             "effects": {
                 "previtality": 1
             },
-            "startdescription": "Whenever the principle of the Heart is implicated, I may gain Vitality.",
-            "description": "My own heart pumps more strongly, today.",
+            "startdescription": "Sempre que está em causa o princípio do coração, posso ganhar Vitalidade.",
+            "description": "Hoje, meu próprio coração bombeia mais fortemente.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "lanterninduction",
-            "label": "A Light in the Skull",
+            "label": "Uma luz na caveira",
             "actionid": "lanterninduction",
             "effects": {
                 "preerudition": 1
             },
-            "startdescription": "Whenever the principle of the Lantern sheds its light, I may recall additional scraps of knowledge.",
-            "description": "Dusty facts have come clear in my brain. For now, at least.",
+            "startdescription": "Sempre que o princípio da lanterna lança a sua luz, posso relembrar mais pedaços de conhecimento.",
+            "description": "Os factos empoeirados tornaram-se claros no meu cérebro. Pelo menos por enquanto.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "mothinduction",
-            "label": "Old Unhappy Far-off Things",
+            "label": "Antigas Coisas Desfelizes",
             "actionid": "mothinduction",
             "effects": {
                 "prerestlessness": 1
             },
-            "startdescription": "Moth finds the light in the dark, and so do I.",
-            "description": "A half-glimpsed wistfulness has touched me.",
+            "startdescription": "A Mariposa encontra a luz no escuro, e eu também.",
+            "description": "Uma estranheza meio vislumbrou-me.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "mothglimmeringinduction",
-            "label": "The Dark, the Light",
+            "label": "O escuro, a luz",
             "actionid": "mothinduction",
             "effects": {
                 "preglimmering": 1
             },
-            "startdescription": "Moth finds the light in the dark, and so do I.",
-            "description": "What could I be if I could be not this?",
+            "startdescription": "A Mariposa encontra a luz no escuro, e eu também.",
+            "description": "O que eu poderia ser se não pudesse ser isto?",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "grailinduction",
-            "label": "The Place Behind Desire",
+            "label": "O Local Atrás do Desíte",
             "actionid": "grailinduction",
             "effects": {
                 "preglimmering": 1
             },
-            "startdescription": "Is there something to be learnt from the satisfaction of desire?",
-            "description": "This is something like enlightenment.",
+            "startdescription": "Há alguma coisa a aprender com a satisfação da vontade?",
+            "description": "Isto é algo como o iluminismo.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "dreadinduction",
-            "label": "Night Terrors",
+            "label": "Erros noturnos",
             "actionid": "dreadinduction",
             "effects": {
                 "predread": 1
             },
-            "startdescription": "I wake in the night. My palms, my face, are beaded with sweat.",
-            "description": "Slowly, my clenched fists relax. I'll slide back into sleep. But something will remain, like spiderwebs in the corner of the room.",
+            "startdescription": "Eu acordo na noite. Minhas palmas, meu rosto, são miçados de suor.",
+            "description": "Lentamente, meus punhos relaxam. Eu vou entrar novamente no sono. Mas algo permanecerá, como teias de aranhas no canto do quarto.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "dreadinduction_ifdread",
-            "label": "Night Terrors",
+            "label": "Erros noturnos",
             "actionid": "dreadinduction",
             "requirements": {
                 "dread": 1
@@ -83,26 +83,26 @@
                 "predread": 1
             },
             "comments": "Only triggers if there's already Dread in whatever called this.",
-            "startdescription": "I wake in the night. My palms, my face, are beaded with sweat.",
-            "description": "Slowly, my clenched fists relax. I'll slide back into sleep. But something will remain, like spiderwebs in the corner of the room.",
+            "startdescription": "Eu acordo na noite. Minhas palmas, meu rosto, são miçados de suor.",
+            "description": "Lentamente, meus punhos relaxam. Eu vou entrar novamente no sono. Mas algo permanecerá, como teias de aranhas no canto do quarto.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "fascinationinduction",
-            "label": "New Colours",
+            "label": "Cores Novas",
             "actionid": "fascinationinduction",
             "effects": {
                 "prefascination": 1
             },
-            "startdescription": "I have begun to notice colours in the world for which I have no name.",
-            "description": "I am seeing things I shouldn't. I know this is dangerous. But it's difficult not to long for it.",
+            "startdescription": "Comecei a observar cores no mundo pelas quais não tenho nome.",
+            "description": "Estou vendo coisas que não deveria. Eu sei que isso é perigoso, mas é difícil não esperar por isso.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "fascinationinduction_iffascination",
-            "label": "New Colours",
+            "label": "Cores Novas",
             "actionid": "fascinationinduction",
             "requirements": {
                 "fascination": 1
@@ -110,16 +110,16 @@
             "effects": {
                 "prefascination": 1
             },
-            "startdescription": "I have begun to notice colours in the world for which I have no name.",
-            "description": "I am seeing things I shouldn't. I know this is dangerous. But it's difficult not to long for it.",
+            "startdescription": "Comecei a observar cores no mundo pelas quais não tenho nome.",
+            "description": "Estou vendo coisas que não deveria. Eu sei que isso é perigoso, mas é difícil não esperar por isso.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "poison.notoriety.induction",
             "actionid": "poison.notoriety.induction",
-            "label": "The Public Gaze",
-            "startdescription": "I've used a follower who's too well-known. The Suppression Bureau may hear of it.",
+            "label": "A Olhar Pública",
+            "startdescription": "Usei um seguidor que é muito conhecido, o Gabinete de Supressão pode ouvir falar dele.",
             "effects": {
                 "notoriety": 1
             },
@@ -128,8 +128,8 @@
         {
             "id": "poison.passion.dread.induction",
             "actionid": "poison.passion.dread.induction",
-            "label": "The Creeping Colour",
-            "startdescription": "My passions are poisoned. Each pang of emotion brings an answering pang of savage grey.",
+            "label": "A Cor Creeping",
+            "startdescription": "Minhas paixões são envenenadas. Cada panela de emoção traz um resquício de cinza selvagem.",
             "effects": {
                 "dread": 1
             },
@@ -138,8 +138,8 @@
         {
             "id": "poison.reason.fascination.induction",
             "actionid": "poison.reason.fascination.induction",
-            "label": "Relentless Light",
-            "startdescription": "A candle, when burned, brings light. When my thoughts ignite, what then?",
+            "label": "Luz Implacável",
+            "startdescription": "Uma vela, quando queimada, traz luz. Quando meus pensamentos ibrarem, e então?",
             "effects": {
                 "fascination": 1
             },
@@ -148,8 +148,8 @@
         {
             "id": "poison.health.dread.induction",
             "actionid": "poison.health.dread.induction",
-            "label": "The Hospitality of Agony",
-            "startdescription": "I have invited an old friend to lair in my muscles for one more day.",
+            "label": "A Hospitalidade da Agônia",
+            "startdescription": "Convidei um velho amigo para lavar os meus músculos por mais um dia.",
             "effects": {
                 "dread": 1
             },
@@ -158,13 +158,13 @@
         {
             "id": "secret.induction",
             "actionid": "unsuspicion",
-            "label": "The Benefits of Privacy",
-            "startdescription": "We've taken care to locate our headquarters somewhere out of the way...",
-            "description": "...perhaps it will be harder for the Suppression Bureau to follow leads to our door. It may also be harder to sustain a reputation.",
+            "label": "Os Benefícios da Privacidade",
+            "startdescription": "Tivemos o cuidado de localizar a nossa sede em algum lugar fora do caminho...",
+            "description": "...talvez seja mais difícil para o Gabinete de Supressão seguir nos leve à porta, e também talvez seja mais difícil manter uma reputação.",
             "slots": [
                 {
                     "id": "reputation",
-                    "label": "Reputation",
+                    "label": "Reputação",
                     "required": {
                         "reputation": 1
                     },
