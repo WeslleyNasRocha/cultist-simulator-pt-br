@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "studymapbookdealer",
-            "label": "Find Morland's shop",
+            "label": "Encontre a loja de Morland",
             "actionid": "study",
             "requirements": {
                 "mapbookdealer": 1
@@ -18,22 +18,22 @@
                     "additional": true
                 }
             ],
-            "startdescription": "The directions to Morland's shop are cryptic. When one deals in the kind of books my correspondent studied, one must be circumspect.",
-            "description": "An ill-lit street at an ill-favoured bend in a lesser river. A soft yellow light through a grimy window. Miss Morland nods as I enter, but doesn't rise. 'I never ask the names of my clients,' she informs me, before I have time to introduce myself.\n[<b>Explore</b> is unlocked.]",
+            "startdescription": "As direções para a loja de Morland são crípticas. Quando se trata do tipo de livros que meu correspondente estudou, é preciso ser circunspecto.",
+            "description": "Uma rua mal iluminada numa curva mal favorecida num rio menor. Uma luz amarela suave através de uma janela grisalhada. A senhorita Morland acena enquanto eu entro, mas não se levanta. \"Nunca pergunto os nomes dos meus clientes\", diz-me ela, antes que eu tenha tempo para me apresentar.\n[<b>Explorar</b> está desbloqueado.]",
             "warmup": 30,
             "craftable": true,
             "comments": "This is one way the Explore verb may be opened."
         },
         {
             "id": "openexplore",
-            "label": "Explore",
+            "label": "EXPLORAR",
             "actionid": "explore",
             "requirements": {},
             "effects": {
                 "fragmentsecrethistories": 1
             },
             "startdescription": ".",
-            "description": "Now that I've found a location, I can EXPLORE it.",
+            "description": "Agora que encontrei uma localização, posso EXPLOR-la.",
             "warmup": 0,
             "maxexecutions": 1,
             "craftable": false
