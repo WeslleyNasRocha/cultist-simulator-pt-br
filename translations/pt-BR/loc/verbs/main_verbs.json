@@ -6,8 +6,8 @@
             "description": "Earn a living, or practice the invisible arts.",
             "slot": {
                 "id": "work",
-                "label": "Work",
-                "description": "Something I can do; something I know; or something I am.",
+                "label": "Trabalhar",
+                "description": "Algo que possa fazer; algo que eu saiba; ou algo que sou.",
                 "required": {
                     "ability": 1,
                     "job": 1,
@@ -22,12 +22,12 @@
         },
         {
             "id": "dream",
-            "label": "Dream",
-            "description": "Rest; reconsider your priorities; or risk yourself in exploration of the kingdoms of sleep.",
+            "label": "Sonhar",
+            "description": "Descanse; reconsidere suas prioridades; ou arrisque-se na exploração do reino do sono.",
             "slot": {
                 "id": "dream",
-                "label": "Dream",
-                "description": "A direction for my dreams; or a trouble to recover from.",
+                "label": "Sonhar",
+                "description": "Uma direção para meus sonhos; ou um problema para recuperar-me.",
                 "required": {
                     "ability": 1,
                     "desire": 1,
@@ -39,7 +39,7 @@
         },
         {
             "id": "study",
-            "label": "Study",
+            "label": "Estudar",
             "description": "Unlock books and other treasures.",
             "slot": {
                 "id": "study",
