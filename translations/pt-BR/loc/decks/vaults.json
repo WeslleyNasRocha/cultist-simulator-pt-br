@@ -2,7 +2,7 @@
     "decks": [
         {
             "id": "locationscapital",
-            "label": "Locais Ocultos no Capital",
+            "label": "Locais Ocultos na Capital",
             "description": "Lugares próximos às mãos.",
             "spec": [
                 "vaultcapital1",
@@ -16,8 +16,8 @@
         },
         {
             "id": "vaultsshires",
-            "label": "Lugares escondidos nos Shires",
-            "description": "Talvez seja uma oportunidade para um dia fora do país.",
+            "label": "Lugares escondidos na Costa",
+            "description": "Uma oportunidade para um dia no campo, talvez.",
             "spec": [
                 "vaultshires1",
                 "vaultshires2",
@@ -30,7 +30,7 @@
         },
         {
             "id": "vaultscontinent",
-            "label": "Locais Ocultos no continente",
+            "label": "Locais Ocultos no Continente",
             "description": "Um mundo mais amplo encontra-se através do mar estreito.",
             "spec": [
                 "vaultcontinent1",
@@ -59,8 +59,8 @@
         },
         {
             "id": "vaultsrendingmountains",
-            "label": "Lugares escondidos nas Montanhas de Aluguel",
-            "description": "Abóbadas e modelos remotos e perigosos.",
+            "label": "Lugares escondidos nas Montanhas Rasgantes",
+            "description": "Abóbadas e templos remotos e perigosos.",
             "spec": [
                 "vaultrendingmountains1",
                 "vaultrendingmountains2",
