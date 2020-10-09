@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "studyknocklore",
-            "label": "Study the Lore which Opens",
+            "label": "Estude a História que abre",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -17,14 +17,14 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "There are incantations of unseaming, where the space between the words is as potent as the actual syllables. When a thing is opened, we will know its nature. [Any Lore studied with Knock becomes Knock.]",
+            "startdescription": "Há encantamentos de desordenação, em que o espaço entre as palavras é tão poderoso quanto as sílabas reais. Quando uma coisa é aberta, saberemos sua natureza. [Qualquer história estudada com Knock se torna Toc.]",
             "description": ".",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studyupgradelore_edge",
-            "label": "Study the Lore of the Knife",
+            "label": "Estude a História da Faca",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -42,14 +42,14 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "All of the greatest struggles end in death. The Lore of the Knife holds the lessons of those struggles.",
+            "startdescription": "Todas as maiores lutas terminam na morte. A História da Faca tem as lições daquelas lutas.",
             "description": ".",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysubvertlore_edgetowinter",
-            "label": "Subvert the Lore of the Knife",
+            "label": "Subverta a História da Faca",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -65,14 +65,14 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "All things end. I will meditate on the triumph of patience over strength. [This will create Winter lore instead of Edge.]",
+            "startdescription": "Todas as coisas terminam. Meditarei sobre o triunfo da paciência sobre a força. [Isto criará história de inverno em vez de Edge.]",
             "description": ".",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studyforgelore",
-            "label": "Study the Lore which Burns",
+            "label": "Estude a História que queima",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -90,13 +90,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Very few know that smiths and murderers speak the same prayers. I will examine those prayers.",
+            "startdescription": "Muito poucos sabem que os ferreiros e os assassinos falam as mesmas orações, e vou examinar essas orações.",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysubvertlore_forgetoedge",
-            "label": "Subvert the Lore which Burns",
+            "label": "Subverta a História que Queima",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -112,13 +112,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "The Hour called Lionsmith shattered his own sword to escape his master's dominion. All things can be overcome, with sufficient force. [This will create Edge lore instead of Forge.]",
+            "startdescription": "A Hora chamou o Ferreiro de Lionsmith estilhaçou sua própria espada para escapar do domínio de seu mestre. Todas as coisas podem ser vencidas, com força suficiente. [Isto criará espaço na borda em vez de Forge.]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studygraillore",
-            "label": "Study the Succulent Lore",
+            "label": "Estude a História Suculenta",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -136,13 +136,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Certain words beg to be spoken. It is tempting to spend time in their consideration - tempting, and perhaps useful.",
+            "startdescription": "Algumas palavras pedem que se fale. É tentador passar algum tempo em sua consideração - tentador, e talvez útil.",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysubvertlore_grailtomoth",
-            "label": "Subvert the Succulent Lore",
+            "label": "Subverta a História Suculenta",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -158,13 +158,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "It has been claimed that Grail was born from the first sacrifice. But Moth knows better. [This will create Moth lore instead of Grail.]",
+            "startdescription": "Foi afirmado que Grail nasceu do primeiro sacrifício. Mas a Mariposa sabe melhor. [Isto criará minério de Mariposa em vez de Grail.]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studyheartlore",
-            "label": "Study the Lore Unceasing",
+            "label": "Estude o Conhecimento Desgastado",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -182,13 +182,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "There are lessons the anatomist, the dancer and the shaman all learn.",
+            "startdescription": "Há lições que o anatomista, o dançarino e o xamã aprendem.",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysubvertlore_hearttograil",
-            "label": "Subvert the Lore Unceasing",
+            "label": "Subverta o Descer do Tempo",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -204,13 +204,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "What does not cease will succumb, at last, to temptation. [This will create Grail lore instead of Heart.]",
+            "startdescription": "Aquilo que não cessa irá sucumbir, finalmente, à tentação. [Isto irá criar um monte de granizo em vez de um coração.]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studylanternlore",
-            "label": "Study the Glorious Lore",
+            "label": "Estude a História Gloriosa",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -228,13 +228,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "There is a proverb among the practitioners of the invisible arts: 'Glory visits the house without walls.' I would like to know about glory.",
+            "startdescription": "Há um provérbio entre os praticantes das artes invisíveis: \"A Glória visita a casa sem paredes\".",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysubvertlore_lanterntoforge",
-            "label": "Subvert the Glorious Lore",
+            "label": "Subverta a História Gloriosa",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -250,13 +250,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "The magus Julian Coseley claims the Forge of Days split the Sun. Perhaps he was right. [This will create Forge lore instead of Lantern.]",
+            "startdescription": "O magus Julian Coseley reivindica a Forja dos Dias para dividir o Sol. Talvez ele estivesse certo. [Isto criará mais minério de Forja em vez de Lanterna.]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studymothlore",
-            "label": "Study the Lore of the Wood",
+            "label": "Estude a História da Madeira",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -274,13 +274,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "When breath is black at the glass, when mist tautens the skin, when woods walk in winter, we hear these words.",
+            "startdescription": "Quando a respiração é preta no copo, quando a névoa ajusta a pele, quando a floresta anda no inverno, ouvimos essas palavras.",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysubvertlore_mothtolantern",
-            "label": "Subvert the Lore of the Wood",
+            "label": "Subverta a História da Madeira",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -296,13 +296,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "The Glory is a question, and the Moth always answers, Yes. [This will create Lantern lore instead of Moth.]",
+            "startdescription": "A Glória é uma pergunta, e a Mariposa sempre responde, Sim. [Isso cria história da Lanterna ao invés de Mariposa.]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studysecrethistorieslore",
-            "label": "Study the Histories",
+            "label": "Estude as tarefas",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -317,13 +317,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "History is less certain than we are taught. I can learn from the study of its blurred edges.",
+            "startdescription": "A história tem menos certeza do que nos ensinam. Posso aprender com o estudo de suas arestas borradas.",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studywinterlore",
-            "label": "Study the Ragged Lore",
+            "label": "Estude a História Enfurecida",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -340,13 +340,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "These are the words which chill the air and drink the colour of my skin.",
+            "startdescription": "Estas são as palavras que acalmam o ar e bebem a cor da minha pele.",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "subvertwinterlore",
-            "label": "Subvert the Ragged Lore",
+            "label": "Subverta a História Enfurecida",
             "actionid": "study",
             "requirements": {
                 "lore": 2,
@@ -362,13 +362,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Even in the snow, in the silence, in the white without colours, life will never quite cease. [This will create Heart lore instead of Winter.]",
+            "startdescription": "Mesmo na neve, no silêncio, no branco sem cores, a vida nunca cessará. [Isto criará minério de coração em vez de inverno.]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studyproject_upgrade_edge",
-            "label": "The Lore of the Knife",
+            "label": "A História da Faca",
             "actionid": "study",
             "requirements": {
                 "project_upgrade_edge": 1
@@ -380,11 +380,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "I've increased my mastery of the Lore of the Knife, which we call by its aspect, Edge."
+            "description": "Eu aumentei o meu domínio da Costa do Marfim, que chamamos por seu aspecto, Edge."
         },
         {
             "id": "studyproject_upgrade_forge",
-            "label": "The Lore that Burns",
+            "label": "A História que queima",
             "actionid": "study",
             "requirements": {
                 "project_upgrade_forge": 1
@@ -396,11 +396,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "I've increased my mastery of the Lore that Burns, which we call by its aspect, Forge."
+            "description": "Eu aumentei o meu domínio da História que os Burns possuem, como nós chamamos pela Forge."
         },
         {
             "id": "studyproject_upgrade_grail",
-            "label": "The Succulent Lore",
+            "label": "A História Suculenta",
             "actionid": "study",
             "requirements": {
                 "project_upgrade_grail": 1
@@ -412,11 +412,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "I've increased my mastery of the Succulent Lore, which we call by its aspect, Grail."
+            "description": "Eu aumentei o meu domínio do Lote Suculento, que chamamos pelo aspecto dele, o Grail."
         },
         {
             "id": "studyproject_upgrade_heart",
-            "label": "The Lore Unceasing",
+            "label": "A História Descessar",
             "actionid": "study",
             "requirements": {
                 "project_upgrade_heart": 1
@@ -428,11 +428,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "I've increased my mastery of the Lore Unceasing, which we call by its aspect, Heart."
+            "description": "Eu aumentei o meu domínio do Incesso, que chamamos pelo aspecto Apaixonado, Coração."
         },
         {
             "id": "studyproject_upgrade_lantern",
-            "label": "The Glorious Lore",
+            "label": "O Amante Glorioso",
             "actionid": "study",
             "requirements": {
                 "project_upgrade_lantern": 1
@@ -444,11 +444,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "I've increased my mastery of the Glorious Lore, which we call by its aspect, Lantern."
+            "description": "Eu aumentei o meu domínio do Lote Glorioso, como nós chamamos pelo aspecto dele, Lanterna."
         },
         {
             "id": "studyproject_upgrade_moth",
-            "label": "The Lore of the Wood",
+            "label": "A História da Madeira",
             "actionid": "study",
             "requirements": {
                 "project_upgrade_moth": 1
@@ -460,11 +460,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "I've increased my mastery of the Lore of the Wood, which we call by its aspect, Moth."
+            "description": "Eu aumentei o meu domínio da História da Madeira, como nós chamamos pelos aspectos dele, Mãe."
         },
         {
             "id": "studyproject_upgrade_secrethistories",
-            "label": "The Secret Histories",
+            "label": "As tarefas secretas",
             "actionid": "study",
             "requirements": {
                 "project_upgrade_secrethistories": 1
@@ -476,11 +476,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "I've increased my knowledge of the secret histories behind the one we know."
+            "description": "Eu aumentei o meu conhecimento das histórias secretas por trás do que nós conhecemos."
         },
         {
             "id": "studyproject_upgrade_winter",
-            "label": "The Ragged Lore",
+            "label": "A História Enfurecida",
             "actionid": "study",
             "requirements": {
                 "project_upgrade_winter": 1
@@ -492,11 +492,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "I've increased my mastery of the Ragged Lore, which we call by its aspect, Winter."
+            "description": "Eu aumentei o meu domínio do Feijão, que chamamos pelo aspecto dele, o inverno."
         },
         {
             "id": "studyproject_subvert_edgetowinter",
-            "label": "All Things End",
+            "label": "Todas as Coisas Terminam",
             "actionid": "study",
             "requirements": {
                 "project_subvert_edgetowinter": 1
@@ -508,11 +508,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "Patience defeats strength. I've subverted my Edge lore to Winter."
+            "description": "Paciência derrota a força. Eu subverti meu minério de borda para o inverno."
         },
         {
             "id": "studyproject_subvert_forgetoedge",
-            "label": "Force Conquers All",
+            "label": "Forçar todas as janelas",
             "actionid": "study",
             "requirements": {
                 "project_subvert_forgetoedge": 1
@@ -524,11 +524,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "I've shattered what I believed before. Thus have I subverted my Forge lore to Edge."
+            "description": "Eu quebrei o que eu acreditava antes. Assim eu subverti minha história Forja para Edge."
         },
         {
             "id": "studyproject_subvert_grailtomoth",
-            "label": "Hunger is Folly",
+            "label": "A fome é a loucura",
             "actionid": "study",
             "requirements": {
                 "project_subvert_grailtomoth": 1
@@ -540,11 +540,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "Even the Red Grail falls prey to the buzzing in the brain. I've subverted my Grail lore to Moth."
+            "description": "Até o Grau Vermelho cai presa ao zumbido do cérebro. Eu subverti minha história de grão à Maria."
         },
         {
             "id": "studyproject_subvert_hearttograil",
-            "label": "What Does Not Cease Must Eventually Yield",
+            "label": "O que não cessa Precisa Eventualmente de Rendimento",
             "actionid": "study",
             "requirements": {
                 "project_subvert_hearttograil": 1
@@ -556,11 +556,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "All that moves must succumb to hunger. I've subverted my Heart lore to Grail."
+            "description": "Todos os movimentos devem sucumbir à fome. submeti meu minério de Coração ao Trilho."
         },
         {
             "id": "studyproject_subvert_lanterntoforge",
-            "label": "Sunset at Noon",
+            "label": "Pôr do sol ao meio-dia",
             "actionid": "study",
             "requirements": {
                 "project_subvert_lanterntoforge": 1
@@ -572,11 +572,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "There are arts in Forge which may split even the sun. I've subverted my Lantern lore to Forge."
+            "description": "Há artes na Forja que podem dividir até mesmo o sol. Eu subverti a minério da Lanterna no Forge."
         },
         {
             "id": "studyproject_subvert_mothtolantern",
-            "label": "The Light Above",
+            "label": "A Luz Acima",
             "actionid": "study",
             "requirements": {
                 "project_subvert_mothtolantern": 1
@@ -588,11 +588,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "The Glory is a question, and Moth always answers Yes. I've subverted my Moth lore to Lantern."
+            "description": "A Glória é uma pergunta, e Mariposa sempre responde Sim. Eu submeti minha Mariposa a Lanterna."
         },
         {
             "id": "studyproject_subvert_wintertoheart",
-            "label": "The Life Beneath",
+            "label": "O Beneath de Vida",
             "actionid": "study",
             "requirements": {
                 "project_subvert_wintertoheart": 1
@@ -604,11 +604,11 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "Winter's coming must yield at last to spring. I've subverted my Winter lore to Heart."
+            "description": "A chegada do Inverno deve chegar na primavera. submeti minha história de Inverno ao Coração."
         },
         {
             "id": "studyproject_upgrade_subvert_knock",
-            "label": "All Shall Be Opened",
+            "label": "Tudo Grosso Seja Aberto",
             "actionid": "study",
             "requirements": {
                 "project_upgrade_subvert_knock": 1
@@ -620,7 +620,7 @@
             "aspects": {
                 "epiphany": 1
             },
-            "description": "When we open a thing, then we learn its nature. I've deepened my understanding of the Lore that Opens, which we call by its aspect, Knock.",
+            "description": "Quando abrimos uma coisa, aprendemos a sua natureza. Eu aprofundei a minha compreensão da História que abre, que nós chamamos pelo seu aspecto, Knock.",
             "linked": [
                 {
                     "id": "studyproject_upgrade_subvert_knock_remove_spare_knock",
@@ -630,7 +630,7 @@
         },
         {
             "id": "studyproject_upgrade_subvert_knock_remove_spare_knock",
-            "label": "All Shall Be Opened",
+            "label": "Tudo Grosso Seja Aberto",
             "comments": "This exists to remove a Knock lore, if we were combining Knock lores rather than Knock + another. Dangit Kennedy you wouldn't need hacks like this if you'd implemented OR conditions. Aspects don't *quite* always cut it.",
             "actionid": "study",
             "requirements": {
@@ -643,7 +643,7 @@
         },
         {
             "id": "studyresearchconsolation",
-            "label": "The Lessons of Experience",
+            "label": "As Lições da Experiência",
             "actionid": "study",
             "requirements": {},
             "effects": {
@@ -654,13 +654,13 @@
                 "restore": 1
             },
             "startdescription": ".",
-            "description": "This time, this research has failed. But I've learnt the lessons of experience.",
+            "description": "Desta vez, essa pesquisa falhou. Mas eu aprendi as lições da experiência.",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "studydowngradefragmentedgeb",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentedgeb": 1,
@@ -670,8 +670,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentedgeb": -1,
@@ -682,7 +682,7 @@
         },
         {
             "id": "studydowngradefragmentedgec",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentedgec": 1,
@@ -692,8 +692,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentedgec": -1,
@@ -704,7 +704,7 @@
         },
         {
             "id": "studydowngradefragmentedged",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentedged": 1,
@@ -714,8 +714,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentedged": -1,
@@ -726,7 +726,7 @@
         },
         {
             "id": "studydowngradefragmentedgee",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentedgee": 1,
@@ -736,8 +736,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentedgee": -1,
@@ -748,7 +748,7 @@
         },
         {
             "id": "studydowngradefragmentedgef",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentedgef": 1,
@@ -758,8 +758,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentedgef": -1,
@@ -770,7 +770,7 @@
         },
         {
             "id": "studydowngradefragmentedgeg",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentedgeg": 1,
@@ -780,8 +780,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentedgeg": -1,
@@ -792,7 +792,7 @@
         },
         {
             "id": "studydowngradefragmentforgeb",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentforgeb": 1,
@@ -802,8 +802,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentforgeb": -1,
@@ -814,7 +814,7 @@
         },
         {
             "id": "studydowngradefragmentforgec",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentforgec": 1,
@@ -824,8 +824,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentforgec": -1,
@@ -836,7 +836,7 @@
         },
         {
             "id": "studydowngradefragmentforged",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentforged": 1,
@@ -846,8 +846,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentforged": -1,
@@ -858,7 +858,7 @@
         },
         {
             "id": "studydowngradefragmentforgee",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentforgee": 1,
@@ -868,8 +868,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentforgee": -1,
@@ -880,7 +880,7 @@
         },
         {
             "id": "studydowngradefragmentforgef",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentforgef": 1,
@@ -890,8 +890,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentforgef": -1,
@@ -902,7 +902,7 @@
         },
         {
             "id": "studydowngradefragmentforgeg",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentforgeg": 1,
@@ -912,8 +912,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentforgeg": -1,
@@ -924,7 +924,7 @@
         },
         {
             "id": "studydowngradefragmentgrailb",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentgrailb": 1,
@@ -934,8 +934,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentgrailb": -1,
@@ -946,7 +946,7 @@
         },
         {
             "id": "studydowngradefragmentgrailc",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentgrailc": 1,
@@ -956,8 +956,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentgrailc": -1,
@@ -968,7 +968,7 @@
         },
         {
             "id": "studydowngradefragmentgraild",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentgraild": 1,
@@ -978,8 +978,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentgraild": -1,
@@ -990,7 +990,7 @@
         },
         {
             "id": "studydowngradefragmentgraile",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentgraile": 1,
@@ -1000,8 +1000,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentgraile": -1,
@@ -1012,7 +1012,7 @@
         },
         {
             "id": "studydowngradefragmentgrailf",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentgrailf": 1,
@@ -1022,8 +1022,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentgrailf": -1,
@@ -1034,7 +1034,7 @@
         },
         {
             "id": "studydowngradefragmentgrailg",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentgrailg": 1,
@@ -1044,8 +1044,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentgrailg": -1,
@@ -1056,7 +1056,7 @@
         },
         {
             "id": "studydowngradefragmentheartb",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentheartb": 1,
@@ -1066,8 +1066,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentheartb": -1,
@@ -1078,7 +1078,7 @@
         },
         {
             "id": "studydowngradefragmentheartc",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentheartc": 1,
@@ -1088,8 +1088,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentheartc": -1,
@@ -1100,7 +1100,7 @@
         },
         {
             "id": "studydowngradefragmentheartd",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentheartd": 1,
@@ -1110,8 +1110,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentheartd": -1,
@@ -1122,7 +1122,7 @@
         },
         {
             "id": "studydowngradefragmenthearte",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmenthearte": 1,
@@ -1132,8 +1132,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmenthearte": -1,
@@ -1144,7 +1144,7 @@
         },
         {
             "id": "studydowngradefragmentheartf",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentheartf": 1,
@@ -1154,8 +1154,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentheartf": -1,
@@ -1166,7 +1166,7 @@
         },
         {
             "id": "studydowngradefragmentheartg",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentheartg": 1,
@@ -1176,8 +1176,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "project": -1,
                 "fragmentheartg": -1,
@@ -1188,7 +1188,7 @@
         },
         {
             "id": "studydowngradefragmentknockb",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentknockb": 1,
@@ -1198,8 +1198,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentknockb": -1,
                 "fragmentknock": 2
@@ -1209,7 +1209,7 @@
         },
         {
             "id": "studydowngradefragmentknockc",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentknockc": 1,
@@ -1219,8 +1219,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentknockc": -1,
                 "fragmentknockb": 2
@@ -1230,7 +1230,7 @@
         },
         {
             "id": "studydowngradefragmentknockd",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentknockd": 1,
@@ -1240,8 +1240,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentknockd": -1,
                 "fragmentknockc": 2
@@ -1251,7 +1251,7 @@
         },
         {
             "id": "studydowngradefragmentknocke",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentknocke": 1,
@@ -1261,8 +1261,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentknocke": -1,
                 "fragmentknockd": 2
@@ -1272,7 +1272,7 @@
         },
         {
             "id": "studydowngradefragmentknockf",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentknockf": 1,
@@ -1282,8 +1282,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentknockf": -1,
                 "fragmentknocke": 2
@@ -1293,7 +1293,7 @@
         },
         {
             "id": "studydowngradefragmentknockg",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentknockg": 1,
@@ -1303,8 +1303,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentknockg": -1,
                 "fragmentknockf": 2
@@ -1314,7 +1314,7 @@
         },
         {
             "id": "studydowngradefragmentlanternb",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentlanternb": 1,
@@ -1324,8 +1324,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentlanternb": -1,
                 "fragmentlantern": 2
@@ -1335,7 +1335,7 @@
         },
         {
             "id": "studydowngradefragmentlanternc",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentlanternc": 1,
@@ -1345,8 +1345,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentlanternc": -1,
                 "fragmentlanternb": 2
@@ -1356,7 +1356,7 @@
         },
         {
             "id": "studydowngradefragmentlanternd",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentlanternd": 1,
@@ -1366,8 +1366,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentlanternd": -1,
                 "fragmentlanternc": 2
@@ -1377,7 +1377,7 @@
         },
         {
             "id": "studydowngradefragmentlanterne",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentlanterne": 1,
@@ -1387,8 +1387,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentlanterne": -1,
                 "fragmentlanternd": 2
@@ -1398,7 +1398,7 @@
         },
         {
             "id": "studydowngradefragmentlanternf",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentlanternf": 1,
@@ -1408,8 +1408,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentlanternf": -1,
                 "fragmentlanterne": 2
@@ -1419,7 +1419,7 @@
         },
         {
             "id": "studydowngradefragmentlanterng",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentlanterng": 1,
@@ -1429,8 +1429,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentlanterng": -1,
                 "fragmentlanternf": 2
@@ -1440,7 +1440,7 @@
         },
         {
             "id": "studydowngradefragmentmothb",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentmothb": 1,
@@ -1450,8 +1450,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentmothb": -1,
                 "fragmentmoth": 2
@@ -1461,7 +1461,7 @@
         },
         {
             "id": "studydowngradefragmentmothc",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentmothc": 1,
@@ -1471,8 +1471,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentmothc": -1,
                 "fragmentmothb": 2
@@ -1482,7 +1482,7 @@
         },
         {
             "id": "studydowngradefragmentmothd",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentmothd": 1,
@@ -1492,8 +1492,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentmothd": -1,
                 "fragmentmothc": 2
@@ -1503,7 +1503,7 @@
         },
         {
             "id": "studydowngradefragmentmothe",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentmothe": 1,
@@ -1513,8 +1513,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentmothe": -1,
                 "fragmentmothd": 2
@@ -1524,7 +1524,7 @@
         },
         {
             "id": "studydowngradefragmentmothf",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentmothf": 1,
@@ -1534,8 +1534,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentmothf": -1,
                 "fragmentmothe": 2
@@ -1545,7 +1545,7 @@
         },
         {
             "id": "studydowngradefragmentmothg",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentmothg": 1,
@@ -1555,8 +1555,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentmothg": -1,
                 "fragmentmothf": 2
@@ -1566,7 +1566,7 @@
         },
         {
             "id": "studydowngradefragmentsecrethistoriesb",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentsecrethistoriesb": 1,
@@ -1576,8 +1576,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentsecrethistoriesb": -1,
                 "fragmentsecrethistories": 2
@@ -1587,7 +1587,7 @@
         },
         {
             "id": "studydowngradefragmentsecrethistoriesc",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentsecrethistoriesc": 1,
@@ -1597,8 +1597,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentsecrethistoriesc": -1,
                 "fragmentsecrethistoriesb": 2
@@ -1608,7 +1608,7 @@
         },
         {
             "id": "studydowngradefragmentsecrethistoriesd",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentsecrethistoriesd": 1,
@@ -1618,8 +1618,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentsecrethistoriesd": -1,
                 "fragmentsecrethistoriesc": 2
@@ -1629,7 +1629,7 @@
         },
         {
             "id": "studydowngradefragmentsecrethistoriese",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentsecrethistoriese": 1,
@@ -1639,8 +1639,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentsecrethistoriese": -1,
                 "fragmentsecrethistoriesd": 2
@@ -1650,7 +1650,7 @@
         },
         {
             "id": "studydowngradefragmentsecrethistoriesf",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentsecrethistoriesf": 1,
@@ -1660,8 +1660,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentsecrethistoriesf": -1,
                 "fragmentsecrethistoriese": 2
@@ -1671,7 +1671,7 @@
         },
         {
             "id": "studydowngradefragmentsecrethistoriesg",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentsecrethistoriesg": 1,
@@ -1681,8 +1681,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentsecrethistoriesg": -1,
                 "fragmentsecrethistoriesf": 2
@@ -1692,7 +1692,7 @@
         },
         {
             "id": "studydowngradefragmentwinterb",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentwinterb": 1,
@@ -1702,8 +1702,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentwinterb": -1,
                 "fragmentwinter": 2
@@ -1713,7 +1713,7 @@
         },
         {
             "id": "studydowngradefragmentwinterc",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentwinterc": 1,
@@ -1723,8 +1723,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentwinterc": -1,
                 "fragmentwinterb": 2
@@ -1734,7 +1734,7 @@
         },
         {
             "id": "studydowngradefragmentwinterd",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentwinterd": 1,
@@ -1744,8 +1744,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentwinterd": -1,
                 "fragmentwinterc": 2
@@ -1755,7 +1755,7 @@
         },
         {
             "id": "studydowngradefragmentwintere",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentwintere": 1,
@@ -1765,8 +1765,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentwintere": -1,
                 "fragmentwinterd": 2
@@ -1776,7 +1776,7 @@
         },
         {
             "id": "studydowngradefragmentwinterf",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentwinterf": 1,
@@ -1786,8 +1786,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentwinterf": -1,
                 "fragmentwintere": 2
@@ -1797,7 +1797,7 @@
         },
         {
             "id": "studydowngradefragmentwinterg",
-            "label": "Return to the Fundamentals",
+            "label": "Voltar aos Fundamentos",
             "actionid": "study",
             "requirements": {
                 "fragmentwinterg": 1,
@@ -1807,8 +1807,8 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "Sometimes, I might need to return to a more basic understanding of a particular piece of lore. [This will split the lore into two lower-level fragments. You can recombine it later, but that won't be as easy as splitting it.]",
-            "description": "Analysis is a kind of vivisection. Reason is the knife.",
+            "startdescription": "Por vezes, talvez precise de voltar a uma compreensão mais básica de um determinado pedaço de vespa. [Isto irá dividir a história em dois fragmentos de nível inferior. Você pode recombiná-la mais tarde, mas isso não será tão fácil quanto dividi-la.]",
+            "description": "Análise é um tipo de vivisão. Motivo é a faca.",
             "effects": {
                 "fragmentwinterg": -1,
                 "fragmentwinterf": 2
