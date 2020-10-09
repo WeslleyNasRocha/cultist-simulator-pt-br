@@ -2,7 +2,7 @@
     "verbs": [
         {
             "id": "work",
-            "label": "Work",
+            "label": "Trabalhar",
             "description": "Ganhe o pão de cada dia, ou pratique as artes invisíveis.",
             "slot": {
                 "id": "work",
@@ -99,11 +99,11 @@
         },
         {
             "id": "time",
-            "label": "Time",
-            "description": "The sundial's shadow.",
+            "label": "Tempo",
+            "description": "A sombra do relógio solar.",
             "slot": {
                 "id": "time",
-                "label": "Time"
+                "label": "Tempo"
             }
         }
     ]
