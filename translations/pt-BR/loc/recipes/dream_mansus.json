@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "dreamstartingpassion",
-            "label": "The Moonlit Road",
+            "label": "A Estrada Enluarada",
             "actionid": "dream",
             "requirements": {
                 "passion": 1
@@ -10,16 +10,16 @@
             "slots": [
                 {
                     "id": "Lore",
-                    "label": "Lore",
-                    "description": "If I engage in an occult practice before I sleep, I might find the way to deeper dream.",
+                    "label": "Sabedoria",
+                    "description": "Se eu me engajar com uma prática oculta antes de dormir, eu talvez encontre um caminho para um sonho mais profundo.",
                     "required": {
                         "lore": 1,
                         "waywood": 1
                     }
                 }
             ],
-            "startdescription": "I know this dream. A road crests a hill-top, and the air is silver-bright -",
-            "description": "Rumpled fields, the wink of a river. A tingling chill.",
+            "startdescription": "Eu conheço esse sonho. A estrada alcança o cume do topo da colina, e o ar é brilhantemente prateado-",
+            "description": "Campos armafanhados, o piscar de um rio. Um frio arrepiante.",
             "alt": [
                 {
                     "id": "dreamreachwoodknock",
@@ -53,15 +53,15 @@
         },
         {
             "id": "dreamreachwoodmoth",
-            "label": "The Thyrsine Way",
+            "label": "O Caminho Thyrsínico",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "moth": 3
             },
             "comments": "requirement 3, not 2, because there's already moth in the mix.",
-            "startdescription": "I could cut a lock of hair before I sleep, to honour a power of the Wood.",
-            "description": "The road ducks into the trees. Pale wings move deep in the wood. I am stumbling over roots, now. It is tempting to drop to all fours, to avoid the low branches. The moon passes behind the black leaves, though her fingers remain in my hair. I will not forget the way to this place.",
+            "startdescription": "Eu poderia cortar um pedaço de meu cabelo antes de dormir, para honrar um poder da Floresta.",
+            "description": "A estrada desce até as árvores. Pálidas asas movem-se nas profundezas da floresta. Estou tropeçando nas raízes agora. Tenta-me ficar-me de quatro para desviar das galhos mais baixos. A lua passa por trás das pretas folhas, embora seus dedos continuem em meu cabelo. Eu não me esquecerei desse lugar.",
             "effects": {
                 "waywood": 1,
                 "influencemoth": 1
@@ -72,14 +72,14 @@
         },
         {
             "id": "dreamreachwoodknock",
-            "label": "The Serpent's Way",
+            "label": "O Caminho da Serpente",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "knock": 2
             },
-            "startdescription": "Locksmiths often have the Dream after the sole of the foot is wounded - especially if it has been snake-bitten. I could try that.",
-            "description": "I limp along the road, and so it is that I see the serpent in the ditch. I follow it across the waste places and into the root-maze. Is it hair that brushes my face, or hanging moss? I bend low, to stay close to the earth, like my guide. I will not forget the way to this place.",
+            "startdescription": "Serralheiros frequentemente tem o Sonho depois que a sola de seu pé é machucada - especialmente se foram mordidos por uma cobra. Eu poderia tentá-lo.",
+            "description": "Eu manco pela estrada, e assim é que eu vejo a serpente na vala. Eu a sigo pelos lugares de lixo e até o labirinto de raízes. É cabelo que bate contra meu rosto, ou será isso musgo? Abaixo-me, fico perto da terra, como se fosse me guia. Não me esquecerei o caminho para este lugar.",
             "effects": {
                 "waywood": 1,
                 "influencemoth": 1
@@ -90,14 +90,14 @@
         },
         {
             "id": "dreamreachwoodlantern",
-            "label": "The Bleached Way",
+            "label": "O Caminho Branqueado",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 2
             },
-            "startdescription": "I could sleep in a room without colours: bleach the sheets, whitewash the walls, dye my hair and paint my skin.",
-            "description": "'Colour exists only where there is light': and the Wood is the place where light does not walk. In the dream, I close my eyes, and walk, stumbling, bruising my feet and knees. At last the undergrowth before me grows too thick to pass, and when I open my eyes, I am adrift among black trees. Shadows flutter. My feet will know the way back to this place.",
+            "startdescription": "Eu poderia dormir em uma sala sem cores: branquear os lençóis, caiçar as paredes, tingir meu cabelo e pintar minha pele.",
+            "description": "'Cores existem apenas onde há luz': E a Floresta é o lugar onde a luz não anda. Em meu sonho, fecho meus olhos, e ando, cambaleando, machucando meus pés e joelhos. Por fim, a rasteira vegetação cresce grossa demais para passar e, quando abro meus olhos, estou à deriva em meio a negras árvores. Sombras tremem. Meus pés saberão o caminho de volta para este lugar.",
             "effects": {
                 "waywood": 1,
                 "influencemoth": 1
@@ -108,7 +108,7 @@
         },
         {
             "id": "dreamusewoodway",
-            "label": "The Way to the Wood",
+            "label": "O Caminho à Floresta",
             "actionid": "dream",
             "requirements": {
                 "waywood": 1
@@ -116,16 +116,16 @@
             "slots": [
                 {
                     "id": "Path",
-                    "label": "Path",
-                    "description": "Employ Passion to enter the Wood - or, with the right lore, find the way to the White Door, the door where the dead throng.",
+                    "label": "Caminho",
+                    "description": "Use Paixão para entrar na Floresta - ou, com a sabedoria certa, encontrar o caminho até a Porta Branca, a porta onde os mortos se amontoam.",
                     "required": {
                         "lore": 1,
                         "passion": 1
                     }
                 }
             ],
-            "startdescription": "If I have enough Passion, I can walk the dream-road to the Wood. If I have the right knowledge, I might be able to find the way beyond it.",
-            "description": "The waters of the Wood run cold and deep, but never clear. Rote memory alone will not take me there. I must engage my Passion. Now I drift into other dreams.",
+            "startdescription": "Se eu tiver Paixão suficiente, posso caminhar na onírica-estrada à Floresta. Se tivesse a sabedoria certa, talvez poderia encontrar um caminho além dela.",
+            "description": "As águas da Floresta são frias e profundas, mas nunca claras. A memória mecânia só não consiguirá levar-me até lá. Eu devo engajar minha Paixão. Agora eu flutuo até outros sonhos.",
             "aspects": {
                 "fatiguing": 1
             },
@@ -174,14 +174,14 @@
         },
         {
             "id": "dreamenterwood",
-            "label": "Entering the Wood",
+            "label": "Entrando na Floresta",
             "actionid": "dream",
             "craftable": false,
             "requirements": {
                 "waywood": 1,
                 "passion": 1
             },
-            "startdescription": "Now I pass between scar-barked trees. The moon passes behind branches, though her fingers remain in my hair. I am stumbling over roots, now. It is tempting to drop to all fours, to avoid the low branches. Pale wings move, deep in the night.",
+            "startdescription": "Agora eu passo pelas árvores com suas esfoladas cicatrizes. A lua passa atrás dos galhos, mas seus dedos continuam em meus cabelos. Estou tropeçando pelas raízes, agora. Tenta-me ficar-me de quatro para desviar dos galhos mais baixos. Pálidas asas movem-se na profundeza da noite.",
             "description": ".",
             "portaleffect": "Wood",
             "alt": [
@@ -197,14 +197,14 @@
         },
         {
             "id": "dreamnotquitereachwhitelantern",
-            "label": "The Light in the Wood: Not Enough!",
+            "label": "A Luz na Floresta: Insuficiente!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 1
             },
-            "startdescription": "There is a House in the Wood. This much I know. Here is a light through the trees - ",
-            "description": "My dream-skin is dream-pierced by dream-thorns. My bed will be spotted with blood when I awaken. This is the right approach, but I must know more to travel further. Now I drift into other dreams.",
+            "startdescription": "Há uma Casa na Floresta. Isso eu sei. Aqui está uma luz pelas árvores - ",
+            "description": "Minha pele onírica é oniricamente perfurada por oníricos espinhos. Minha cama estará manchada de sangue quando eu acordar. Este é o método correto, porém preciso saber mais para viajar mais longe. Agora, flutuo a outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -224,14 +224,14 @@
         },
         {
             "id": "dreamreachwhitelantern",
-            "label": "Approaching The White Door",
+            "label": "Aproximando-se: A Porta Branca",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 4
             },
-            "startdescription": "There is a House in the Wood. I know something of that House. Enough to find my way to its light?",
-            "description": "These are the Bounds about the House, with their mists and their traces. This the rock called the Temple of the Wheel, high as a church spire, patched with black lichen and daubed with eye-signs. I round it, and there ahead of me is the White Door. The light of the House leaks round its edges.",
+            "startdescription": "Há uma Casa na Floresta. Eu sei algo sobre aquela Casa. Será isso suficiente para encontrar o caminho até sua luz?",
+            "description": "Esses são os Limites sobre a Casa, com suas névoas e seus rastros. Essa pedra é chamada de Templo da Roda, tão alto quanto o pináculo de uma igreja, manchada por negros líquens e coberta com signos-de-olhos. Eu circundo-a, e aí, na minha frente, está a Porta Branca. A luz da casa brilha em volta de suas arestas.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -247,14 +247,14 @@
         },
         {
             "id": "dreamnotquitereachwhiteknock",
-            "label": "The Light in the Wood: Not Enough!",
+            "label": "A Luz na Floresta: Insuficiente!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "knock": 1
             },
-            "startdescription": "There is a House in the Wood. This much I know. Here is a light through the trees - ",
-            "description": "My dream-skin is dream-pierced by dream-thorns. My bed will be spotted with blood when I awaken. This is the right approach, but I must know more to travel further. Now I drift into other dreams.",
+            "startdescription": "Há uma Casa na Floresta. Isso eu sei. Aqui está uma luz pelas árvores - ",
+            "description": "Minha pele onírica é oniricamente perfurada por oníricos espinhos. Minha cama estará manchada de sangue quando eu acordar. Este é o método correto, porém preciso saber mais para viajar mais longe. Agora, flutuo a outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -274,14 +274,14 @@
         },
         {
             "id": "dreamreachwhiteknock",
-            "label": "Approaching The White Door",
+            "label": "Aproximando-se da porta branca",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "knock": 4
             },
-            "startdescription": "There is a House in the Wood. I know enough Knock-secrets to find the hidden paths through the tangled trees.",
-            "description": "These are the Bounds about the House, with their mists and their traces. This the rock called the Temple of the Wheel, high as a church spire, patched with black lichen and daubed with eye-signs. I round it, and there ahead of me is the White Door: open, as was prescribed so long ago.",
+            "startdescription": "Há uma casa na Madeira. Sei de suficientes segredos para encontrar os caminhos escondidos através das árvores enredadas.",
+            "description": "São estes os remanescentes do Parlamento, com as suas névoas e os seus vestígios. Esta pedra chamou o Templo da Roda, alta como uma escultura da igreja, arrumada com lichen preto e amadeirada com sinais de olho. À minha volta, e à minha frente está a porta branca, aberta, como há muito foi dito.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -297,14 +297,14 @@
         },
         {
             "id": "dreamnotquitereachwhitewinter",
-            "label": "The Light in the Wood: Not Enough!",
+            "label": "A Luz na Floresta: Insuficiente!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "winter": 1
             },
-            "startdescription": "There is a House in the Wood. This much I know. Here is a light through the trees - ",
-            "description": "My dream-skin is dream-pierced by dream-thorns. My bed will be spotted with blood when I awaken. This is the right approach, but I must know more to travel further. Now I drift into other dreams.",
+            "startdescription": "Há uma Casa na Floresta. Isso eu sei. Aqui está uma luz pelas árvores - ",
+            "description": "Minha pele de sonho é perfurada por espinhos. Minha cama será avistada com sangue quando eu acordar. Esta é a abordagem correcta, mas tenho de saber mais para ir mais longe; passo agora para outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -324,14 +324,14 @@
         },
         {
             "id": "dreamreachwhitewinter",
-            "label": "Approaching The White Door",
+            "label": "Aproximando-se da porta branca",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "winter": 4
             },
-            "startdescription": "There is a House in the Wood, and a door where the Dead sometimes go. I have read of the paths the Dead take.",
-            "description": "These are the Bounds about the House, with their mists and their traces. This the rock called the Temple of the Wheel, high as a church spire, patched with black lichen and daubed with eye-signs. I round it, and there ahead of me is the White Door, aglow like the moon in Winter.",
+            "startdescription": "Há uma casa na Floresta, e uma porta onde os Mortos as vezes vão. Eu li sobre os caminhos que os Mortos tomam.",
+            "description": "Esses são os Limites sobre a Casa, com suas névoas e seus rastros. Essa pedra é chamada de de Templo da Roda, tão alto quanto o pináculo de uma igreja, manchada por negros líquens e coberta com signos-de-olhos. Eu circundo-a, e aí, na minha frente, está a Porta Branca, brilhando como a lua no Inverno.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -347,7 +347,7 @@
         },
         {
             "id": "dreamusewhiteway",
-            "label": "The Way to the White Door",
+            "label": "O Caminho à Porta Branca",
             "actionid": "dream",
             "requirements": {
                 "waywhite": 1
@@ -355,16 +355,16 @@
             "slots": [
                 {
                     "id": "Ascent",
-                    "label": "Ascent",
-                    "description": "Invest Health to pass the White Door - or follow desire to the Stag Door, the door of the Know.",
+                    "label": "Ascensão",
+                    "description": "Invista Saúde para passar pela Porta Branca - ou siga seu desejo até a Porta do Veado, a porta do Conhecer.",
                     "required": {
                         "desire": 1,
                         "health": 1
                     }
                 }
             ],
-            "startdescription": "In my dreams, I know the path to the White Door, through the Bounds. But that path is thronged with the Dead who pass that way. I will need Health to resist their chill.",
-            "description": "The narrow path is crowded with slow shapes - the air shivers with their sighs. My blood is thicked with cold. I must turn back. Now I drift into other dreams.",
+            "startdescription": "Nos meus sonhos, eu sei o caminho até á Porta Branca, pelos Limites. Mas aquela caminho está lotado com os Mortos que passaram por alí. Eu precisarei de Saúde para resister o seu gelar.",
+            "description": "O estreito caminho está cheio de vagarosas formas - o ar treme com suas vistas. Meu sangue é engrossado com o frio. Eu tenho de voltar. Agora eu flutuo à outros sonhos.",
             "linked": [
                 {
                     "id": "dream_router",
@@ -397,14 +397,14 @@
         },
         {
             "id": "dreamenterwhite",
-            "label": "Entering the White Door",
+            "label": "Entrando na Porta Branca",
             "actionid": "dream",
             "craftable": false,
             "requirements": {
                 "waywhite": 1,
                 "health": 1
             },
-            "startdescription": "Now I can approach the White Door through the Bounds. Now I can press my fingers to it, feel its chill, watch it swing open. As it opens, my mouth closes, tightens, heals over like a lost deformity. Around and about me is the cobalt light of the Mansus...",
+            "startdescription": "Agora eu me aproximo da Porta Branca pelos Limites. Posso pressionar meus dedos contra ela, sentir seu frieza, vê-la abrindo. Enquanto ela abre-se, minha boca fecha-se, aperta-se, cura-se como uma deformidade perdida. Envolta e sobre mim está a luz cobáltica da Mansus...",
             "description": ".",
             "portaleffect": "whitedoor",
             "alt": [
@@ -420,7 +420,7 @@
         },
         {
             "id": "dreamreachstagfirst",
-            "label": "To the Stag Door",
+            "label": "Até a Porta do Veado",
             "actionid": "dream",
             "requirements": {
                 "waywhite": 1,
@@ -434,8 +434,8 @@
                 "waystagbefore_5": -1,
                 "waystag_after": -1
             },
-            "startdescription": "The ascent is slow. Winds from nowhere pluck at me. My skin is stained with light. The Wood shivers with motion, far below.",
-            "description": "The Stag Door: a ridged barrier of blood-streaked horn, huge enough for a ship to pass. It was broken long ago, and even now the scars are not quite healed. In a declivity beside the door rests a vast and wounded golden Head. Its mouth would be large enough to swallow me, were its jaw not shattered. It is the Name, Ghirbi. It begins to intone its riddle. ",
+            "startdescription": "A ascensão é demorada. Ventos de nenhum lugar depenam-me. Minha pele é manchada pela luz. A Floresta treme com movimento, muito abaixo.",
+            "description": "A Porta do Veado: uma barreira sulcada de um chifre manchado-de-sangue, gigantesca o suficiente para permitir a passagem de um navio. Há muito, fora quebrada, e até hoje suas cicatrizes não curaram-se completamente. Em um declive ao lado da porta, descansa a vasta e ferida Cabeça Dourada. Sua boca é grande o suficiente para engolir-me, estivesse sua mandíbula ainda inteira. É um Nome, Ghirbi. Ele começa a entonar sua charada. ",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -452,14 +452,14 @@
         },
         {
             "id": "dreamreachstagsubsequent",
-            "label": "At the Stag Door, Again",
+            "label": "Na Porta do Veado, Novamente",
             "actionid": "dream",
             "requirements": {
                 "waywhite": 1,
                 "desire": 1
             },
-            "startdescription": "I have made this ascent before. It will not profit me. I should answer the Riddle if I must, or use the Way to the Stag Door if I can.",
-            "description": "The Stag Door: a ridged barrier of blood-streaked horn, huge enough for a ship to pass. It was broken long ago, and even now the scars are not quite healed. In a declivity beside the door rests the vast and wounded golden Head, Ghirbi. It has given me its riddle, which I must answer if I am to enter the Stag Door. [Dream on the Riddle to answer it, or Way: the Stag Door if you have already answered.]",
+            "startdescription": "Já fiz essa ascendência antes. Não me trará lucros. Eu deveria responder a Charada se precisar, ou usar o Caminho à Porta do Veado se puder.",
+            "description": "A Porta de Stag: uma barreira repleta de chifres cortados de sangue, suficientemente grande para que um navio passe. Há muito tempo que foi quebrado, e mesmo agora as cicatrizes não estão bem cicatrizadas. Numa decvidência ao lado da porta está o vasto e ferido Cabeça dourada, Ghirbi. Deu-me o seu enigma, ao qual tenho de responder se quiser entrar na porta de Stag. [Sonhe na Orelha para respondê-la, ou Way: a Porta Stag se você já tiver respondido.]",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -474,21 +474,21 @@
         {
             "id": "dream_answerstagriddle_router",
             "actionid": "dream",
-            "label": "Ghirbi's Riddle",
+            "label": "Enigma de Ghirbi",
             "requirements": {
                 "riddle": 1
             },
             "slots": [
                 {
                     "id": "Answer",
-                    "label": "Answer",
+                    "label": "Responder",
                     "required": {
                         "lore": 1
                     }
                 }
             ],
-            "startdescription": "In my dream, I will stand again before the Stag Door: a ridged barrier of blood-streaked horn, broken long ago, not yet quite healed. That vast and golden Head, Ghirbi, will await the answer to my riddle.",
-            "description": "The Head is silent. The Door remains closed. Now I drift into other dreams.",
+            "startdescription": "No meu sonho, voltarei a estar perante a porta de Stag: uma barreira repleta de cordão de sangue, quebrada há muito tempo, ainda não completamente curada. Esse vasto e dourado Head, Ghirbi, aguardará a resposta ao meu enigma.",
+            "description": "A cabeça está em silêncio. A porta permanece fechada. Agora eu entro em outros sonhos.",
             "aspects": {
                 "fatiguing": 1
             },
@@ -534,14 +534,14 @@
         },
         {
             "id": "dream_answerstagriddle_1",
-            "label": "One Thread in a Labyrinth",
+            "label": "Uma Thread em um Labirinto",
             "actionid": "dream",
             "requirements": {
                 "waystagbefore_1": 1,
                 "fragmentmothc": 1
             },
-            "startdescription": "'There are many answers to this question, as the shedders of skin know. Here is mine...'",
-            "description": "The Door grinds apart. The Watchman's light floods from the corridor within. There is a grinding moan from the Head, Ghirbi. Tears of molten brass bulge from its eyes and roll down its cheeks, scorching the ground beneath. I may enter!",
+            "startdescription": "\"Há muitas respostas para esta pergunta, como sabem os despejos da pele. Aqui está a minha...\".",
+            "description": "A porta se desfaz. As luzes do observador enchem o corredor de dentro. Há uma lua moinha mochila do cabelo, Ghirbi. Lágrimas de massa de lata derretida de seus olhos e rolam suas bochechas, escaldando o chão embaixo. Posso entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -556,14 +556,14 @@
         },
         {
             "id": "dream_answerstagriddle_2",
-            "label": "An Implacable Answer",
+            "label": "Uma resposta implacável",
             "actionid": "dream",
             "requirements": {
                 "waystagbefore_2": 1,
                 "fragmentlanternc": 1
             },
-            "startdescription": "'Only in shadow.'",
-            "description": "The Door grinds apart. The Watchman's light floods from the corridor within. There is a grinding moan from the Head, Ghirbi. Tears of molten brass bulge from its eyes and roll down its cheeks, scorching the ground beneath. I may enter!",
+            "startdescription": "\"Só na sombra\".",
+            "description": "A porta se desfaz. As luzes do observador enchem o corredor de dentro. Há uma lua moinha mochila do cabelo, Ghirbi. Lágrimas de massa de lata derretida de seus olhos e rolam suas bochechas, escaldando o chão embaixo. Posso entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -579,13 +579,13 @@
         {
             "id": "dream_answerstagriddle_3",
             "actionid": "dream",
-            "label": "A Desirable Answer",
+            "label": "Uma resposta desejável",
             "requirements": {
                 "waystagbefore_3": 1,
                 "fragmentgrailc": 1
             },
-            "startdescription": "'Here are those words...'",
-            "description": "The Door grinds apart. The Watchman's light floods from the corridor within. There is a grinding moan from the Head, Ghirbi. Tears of molten brass bulge from its eyes and roll down its cheeks, scorching the ground beneath. I may enter!",
+            "startdescription": "Aqui estão essas palavras....",
+            "description": "A porta se desfaz. As luzes do observador enchem o corredor de dentro. Há uma lua moinha mochila do cabelo, Ghirbi. Lágrimas de massa de lata derretida de seus olhos e rolam suas bochechas, escaldando o chão embaixo. Posso entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -601,13 +601,13 @@
         {
             "id": "dream_answerstagriddle_4",
             "actionid": "dream",
-            "label": "A Serpent's Answer",
+            "label": "Resposta de uma Serpente",
             "requirements": {
                 "waystagbefore_4": 1,
                 "fragmentknockc": 1
             },
-            "startdescription": "'I, myself, must be opened. Behold my blood which is shed.'",
-            "description": "The Door grinds apart. The Watchman's light floods from the corridor within. There is a grinding moan from the Head, Ghirbi. Tears of molten brass bulge from its eyes and roll down its cheeks, scorching the ground beneath. I may enter!",
+            "startdescription": "Eu próprio tenho de ser aberto: mande o sangue que está derramado.",
+            "description": "A porta se desfaz. As luzes do observador enchem o corredor de dentro. Há uma lua moinha mochila do cabelo, Ghirbi. Lágrimas de massa de lata derretida de seus olhos e rolam suas bochechas, escaldando o chão embaixo. Posso entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -623,13 +623,13 @@
         {
             "id": "dream_answerstagriddle_5",
             "actionid": "dream",
-            "label": "An Answer from History",
+            "label": "Uma resposta do histórico",
             "requirements": {
                 "waystagbefore_5": 1,
                 "fragmentsecrethistoriesc": 1
             },
-            "startdescription": "'Her heart is buried in another History.'",
-            "description": "The Door grinds apart. The Watchman's light floods from the corridor within. There is a grinding moan from the Head, Ghirbi. Tears of molten brass bulge from its eyes and roll down its cheeks, scorching the ground beneath. I may enter!",
+            "startdescription": "\"O coração dela está enterrado numa outra História\".",
+            "description": "A porta se desfaz. As luzes do observador enchem o corredor de dentro. Há uma lua moinha mochila do cabelo, Ghirbi. Lágrimas de massa de lata derretida de seus olhos e rolam suas bochechas, escaldando o chão embaixo. Posso entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -645,12 +645,12 @@
         {
             "id": "dream_wronganswerstagriddle",
             "actionid": "dream",
-            "label": "This is Not the Answer",
+            "label": "Esta não é a resposta",
             "requirements": {
                 "lore": 1
             },
-            "startdescription": "Ghirbi has fallen very far. It may not enter the House, and one of its few satisfactions is to deny entry. It has too much honour to mock me, but I see the satisfaction in its golden eyes. 'That is not,' it says, with relish, 'the answer.'",
-            "description": "I am awake. My eyes are open, and the Stag Door remains closed. Now I drift into other dreams.",
+            "startdescription": "O Ghirbi foi muito longe, pode não entrar no Hemiciclo, e uma das suas poucas satisfações é negar a entrada. É com demasiada honra que me ridicularizo, mas vejo a satisfação nos seus olhos dourados. \"Isso não é\", diz com toda a franqueza \"resposta\".",
+            "description": "Estou acordado. Meus olhos estão abertos, e o Portão de Stag continua fechado. Agora entro em outros sonhos.",
             "linked": [
                 {
                     "id": "dream_router",
@@ -660,7 +660,7 @@
         },
         {
             "id": "dreamusestagway",
-            "label": "The Way to the Stag Door",
+            "label": "O Caminho até a Porta Stag",
             "actionid": "dream",
             "requirements": {
                 "waystag_after": 1
@@ -668,16 +668,16 @@
             "slots": [
                 {
                     "id": "Ascent",
-                    "label": "Ascent",
-                    "description": "Invest Reason to pass the Stag Door - or, with the right lore, find the way to the Spider's Door, the door where blood is spilled.",
+                    "label": "Ascensão",
+                    "description": "Invista Reason para passar a Porta Stag - ou, com o amor certo, encontre o caminho para a porta das Aranhas, a porta onde o sangue é derramado.",
                     "required": {
                         "reason": 1,
                         "lore": 1
                     }
                 }
             ],
-            "startdescription": "In my dreams, I know the path to the Stag Door, through the maze of the Bounds. Ghirbi will let me pass, but the path is always a puzzle. I will need Reason.",
-            "description": "Here in the high dry byways of the Bounds are the intricate fissures and snares of ten thousand years of time. My Reason is lacking. I will wake without sight of the Door. Now I drift into other dreams.",
+            "startdescription": "Nos meus sonhos, conheço o caminho até a porta de Stag, pelo labirinto dos Limes. Ghirbi vai me deixar passar, mas o caminho é sempre um quebra-cabeça. Vou precisar de Reason.",
+            "description": "Aqui, nas altas escuras dos canios, estão as fissuras intrincadas e as caracoes de dez mil anos de tempo. Meu Reason está faltando. Acordarei sem ver a porta. Agora vou entrar em outros sonhos.",
             "linked": [
                 {
                     "id": "dream_router",
@@ -723,7 +723,7 @@
         },
         {
             "id": "dreamenterstag",
-            "label": "Entering the Stag Door",
+            "label": "Entrando na Porta de Stag",
             "actionid": "dream",
             "craftable": false,
             "requirements": {
@@ -733,7 +733,7 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "The Stag Door is the Adept's Gate. To pass it is to be initiated into the first true mystery of the House of the Sun. The Head, Ghirbi, weeps to see me enter where it cannot: but it must let me pass. The scarred valves of the Door grind open.",
+            "startdescription": "O Portão de Stag é o Portão de Adept. Passá-lo vai ser iniciado no primeiro verdadeiro mistério da Casa do Sol. O cabelo, Ghirbi, varre pra me ver entrar onde não pode: mas isso deve me deixar. As válvulas marcadas da porta se movem abertamente.",
             "description": ".",
             "alt": [
                 {
@@ -746,14 +746,14 @@
         },
         {
             "id": "dreamnotquitereachspiderlantern",
-            "label": "The Silken Sands: Not Enough!",
+            "label": "Sandres Silenciosas: Não é o suficiente!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 1
             },
-            "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. I have read of the angular tracks one must follow, of the Sands' arched, unseen, slow-stepping residents - ",
-            "description": "The Sands swallow my footsteps. They rush in to clog my mouth and fill my eyes... I will wake with my tongue swollen and my throat cracked dry. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
+            "startdescription": "Nos sonhos, as Areias Sopas são o lugar que sussurra. Cinza os grãos tortos, cinza as ervas daninhas. Li as vias angulares a que temos de seguir os moradores arcados, incisivos e morosos dos Sandros - ",
+            "description": "As Areias engoliram meus passos. Elas se apressam para calar a boca e encher os meus olhos. Vou acordar com a minha língua inchada e a minha garganta foi seca. Esta é a abordagem correcta, mas devo saber mais do que isso, e passo agora para outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -770,14 +770,14 @@
         },
         {
             "id": "dreamreachspiderlantern",
-            "label": "Approaching The Spider's Door",
+            "label": "Aproximando-se da porta das aranhas",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 8
             },
-            "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. I have read of the angular tracks one must follow, of the Sands' arched, unseen, slow-stepping residents - ",
-            "description": "The Sands drain away like water, and beneath is the stone from which gods arose, so long ago. Ahead is the Door, glistening like rain, its black surface beaded with blood, each drop heavy-curved like a swollen tick.",
+            "startdescription": "Nos sonhos, as Areias Sopas são o lugar que sussurra. Cinza os grãos tortos, cinza as ervas daninhas. Li as vias angulares a que temos de seguir os moradores arcados, incisivos e morosos dos Sandros - ",
+            "description": "As Areias drenam como água, e abaixo está a pedra da qual os deuses saíram há muito tempo. À frente é a porta, brilhando como chuva, sua superfície preta inchada com sangue, cada gota curva pesada como um cartucho inchado.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -790,14 +790,14 @@
         },
         {
             "id": "dreamnotquitereachspiderknock",
-            "label": "The Silken Sands: Not Enough!",
+            "label": "Sandres Silenciosas: Não é o suficiente!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "knock": 1
             },
-            "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. I know of the words that open the wind - ",
-            "description": "The Sands swallow my footsteps. They rush in to clog my mouth and fill my eyes... I will wake with my tongue swollen and my throat cracked dry. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
+            "startdescription": "Nos sonhos, as Areias Silenciadas são o lugar que sussurra. Cinza grão esfregado, cinza seduz a quieta. Sei das palavras que abrem o vento - ",
+            "description": "As Areias engoliram meus passos. Elas se apressam para calar a boca e encher os meus olhos. Vou acordar com a minha língua inchada e a minha garganta foi seca. Esta é a abordagem correcta, mas devo saber mais do que isso, e passo agora para outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -814,14 +814,14 @@
         },
         {
             "id": "dreamreachspiderknock",
-            "label": "Approaching The Spider's Door",
+            "label": "Aproximando-se da porta das aranhas",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "knock": 8
             },
-            "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. I know the words that open the wind, so the Sands will permit my passage - ",
-            "description": "The Sands drain away like water, and beneath is the stone from which gods arose, so long ago. Ahead is the Door, glistening like rain, its black surface beaded with blood, each drop heavy-curved like a swollen tick.",
+            "startdescription": "Nos sonhos, as Areias Sopas são o lugar que sussurra. Cinza os grãos tortos, cinza as ervas daninhas. Conheço as palavras que abrem o vento, pelo que as areias me permitirão passar - ",
+            "description": "As Areias drenam como água, e abaixo está a pedra da qual os deuses saíram há muito tempo. À frente é a porta, brilhando como chuva, sua superfície preta inchada com sangue, cada gota curva pesada como um cartucho inchado.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -834,14 +834,14 @@
         },
         {
             "id": "dreamnotquitereachspidergrail",
-            "label": "The Silken Sands: Not Enough!",
+            "label": "Sandres Silenciosas: Não é o suficiente!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "grail": 1
             },
-            "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. THIRST is the only guide through the Sands - my THIRST, or the THIRST of the Spider's Door -",
-            "description": "The Sands swallow my footsteps. They rush in to clog my mouth and fill my eyes... I will wake with my tongue swollen and my throat cracked dry. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
+            "startdescription": "Nos sonhos, as Areias Sopas são o lugar que sussurra. Cinza os grãos tortos, cinza as ervas daninhas. TERCEIRO é o único guia através das areias - meu THIRST, ou THIRST da porta da Aranha -",
+            "description": "As Areias engoliram meus passos. Elas se apressam para calar a boca e encher os meus olhos. Vou acordar com a minha língua inchada e a minha garganta foi seca. Esta é a abordagem correcta, mas devo saber mais do que isso, e passo agora para outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -858,14 +858,14 @@
         },
         {
             "id": "dreamreachspidergrail",
-            "label": "Approaching The Spider's Door",
+            "label": "Aproximando-se da porta das aranhas",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "grail": 8
             },
-            "startdescription": "In dreams, the Silken Sands are the place that whispers. Grey grains sift, grey weeds quiver. THIRST is the only guide through the Sands - my THIRST, or the THIRST of the Spider's Door -",
-            "description": "The Sands drain away like water, and beneath is the stone from which gods arose, so long ago. Ahead is the Door, glistening like rain, its black surface beaded with blood, each drop heavy-curved like a swollen tick.",
+            "startdescription": "Nos sonhos, as Areias Sopas são o lugar que sussurra. Cinza os grãos tortos, cinza as ervas daninhas. TERCEIRO é o único guia através das areias - meu THIRST, ou THIRST da porta da Aranha -",
+            "description": "As Areias drenam como água, e abaixo está a pedra da qual os deuses saíram há muito tempo. À frente é a porta, brilhando como chuva, sua superfície preta inchada com sangue, cada gota curva pesada como um cartucho inchado.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -878,7 +878,7 @@
         },
         {
             "id": "dreamusespiderway",
-            "label": "The Way to the Spider's Door",
+            "label": "A Porta do Caminho das Aranhas",
             "actionid": "dream",
             "requirements": {
                 "wayspider": 1
@@ -886,16 +886,16 @@
             "slots": [
                 {
                     "id": "Ascent",
-                    "label": "Ascent",
-                    "description": "Provide a blood sacrifice to satisfy the THIRST of the Spider's Door - or, with the right lore, find the way to the Peacock's Door, the door where light is spilt like blood.",
+                    "label": "Ascensão",
+                    "description": "Conceda um sacrifício de sangue para satisfazer o TERCEIRO da porta da Aranha - ou, com o amor certo, encontre o caminho para a porta do pavão, a porta onde a luz é derramada como sangue.",
                     "required": {
                         "prisoner": 1,
                         "lore": 1
                     }
                 }
             ],
-            "startdescription": "In my dreams, I know the path through the Silken Sands to the Spider's Door. If I slake its THIRST by spilling fresh blood before I sleep, it will open to me.",
-            "description": "Here in the folds of dream is the door, glistening black like the abdomen of a scoliid wasp, ever marked with ever-shrinking spots of blood. I have not satisfied its THIRST, and it will not open. Now I drift into other dreams.",
+            "startdescription": "Em meus sonhos, conheço o caminho entre as areias Silken até a porta das Aranhas. Se eu abater sua TERRA derramando sangue fresco antes de dormir, abrirá para mim.",
+            "description": "Aqui nas dobras dos sonhos é a porta, o cintilante preto como o abdômen de uma vespa de um sangrio, sempre marcada com pontos de sangue cada vez mais encolhidos. Não fiquei satisfeito com o seu THIRST, que não vai abrir. Agora vou entrar noutros sonhos.",
             "linked": [
                 {
                     "id": "dream_router",
@@ -944,14 +944,14 @@
         },
         {
             "id": "dreamenterspider",
-            "label": "Entering the Spider's Door",
+            "label": "Entrando na porta das aranhas",
             "actionid": "dream",
             "craftable": false,
             "requirements": {
                 "wayspider": 1,
                 "prisoner": 1
             },
-            "startdescription": "The Spider's Door is always THIRSTY. Always. The blood I have given leaks in threads and spills through the skin of the world, and the Door drinks it and a moment's satisfaction swells its opening until I can pass.",
+            "startdescription": "A Porta da Aranha é sempre THIRSTY. Sempre. O sangue que dei vazamentos em fios e derrama pela pele do mundo e a porta o bebe e a satisfação de um momento enche a abertura até que eu possa passar.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -967,14 +967,14 @@
         },
         {
             "id": "dreamnotquitereachpeacocklantern",
-            "label": "Glassgarden: Not Enough!",
+            "label": "Glassgarden: Não basta!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 1
             },
-            "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. This is the way the brighter Hours once came, but now it's silent, here in the clouds - ",
-            "description": "The Glassgarden's chill pierces me at every pore. I will wake white-blue with cold. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
+            "startdescription": "A luz do Sol dividido penetra no meu sonho, mas não o suficiente para derrubar as flores gélidas há muito mortas do jardim de vidro. Cada passo que dou esmaga outra planta para pó. Foi assim que as horas mais brilhantes apareceram, mas agora está em silêncio, aqui nas nuvens - ",
+            "description": "O frio do jardim de vidro me perfura em cada pote. Vou acordar em azul branco com frio. Esta é a abordagem correcta, mas devo saber mais do que isso, e passo agora para outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -990,14 +990,14 @@
         },
         {
             "id": "dreamreachpeacocklantern",
-            "label": "Glassgarden: Approaching The Peacock's Door",
+            "label": "Glassgarden: Aproximando-se da porta do pavão",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 10
             },
-            "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. This is the way the brighter Hours once came, but now it's silent, here in the clouds - ",
-            "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",
+            "startdescription": "A luz do Sol dividido penetra no meu sonho, mas não o suficiente para derrubar as flores gélidas há muito mortas do jardim de vidro. Cada passo que dou esmaga outra planta para pó. Foi assim que as horas mais brilhantes apareceram, mas agora está em silêncio, aqui nas nuvens - ",
+            "description": "A Porta Pavão - orgulhosa e vergonhosa, seu brilho tingindo as formas pálidas de neve do jardim de vidro. Este é o ponto mais alto em que os mortais podem penetrar nos Mansus. Não há rachaduras em sua superfície. Não se trata de uma porta que se abra, se bem que se diga que pode sangrar a luz.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -1010,14 +1010,14 @@
         },
         {
             "id": "dreamnotquitereachpeacockknock",
-            "label": "Glassgarden: Not Enough!",
+            "label": "Glassgarden: Não basta!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "knock": 1
             },
-            "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. I almost know the way - ",
-            "description": "The Glassgarden's chill pierces me at every pore. I will wake white-blue with cold. This is the right approach, but I must know more to travel higher. Now I drift into other dreams.",
+            "startdescription": "A luz do Sol dividido penetra no meu sonho, mas não o suficiente para derrubar as flores gélidas há muito mortas do jardim de vidro. Cada passo que dou mata outra planta para pó. Quase sei o caminho - ",
+            "description": "O frio do jardim de vidro me perfura em cada pote. Vou acordar em azul branco com frio. Esta é a abordagem correcta, mas devo saber mais do que isso, e passo agora para outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -1033,14 +1033,14 @@
         },
         {
             "id": "dreamreachpeacockknock",
-            "label": "Glassgarden: Approaching The Peacock's Door",
+            "label": "Glassgarden: Aproximando-se da porta do pavão",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "knock": 10
             },
-            "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. I will step carefully. I have learnt the way - ",
-            "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",
+            "startdescription": "A luz do Sol dividido penetra no meu sonho, mas não o suficiente para derrubar as flores gélidas há muito mortas do jardim de vidro. Cada passo que dou é que dizima outra planta para pó. Vou tomar medidas cuidadosamente. Aprendi o caminho - ",
+            "description": "A Porta Pavão - orgulhosa e vergonhosa, seu brilho tingindo as formas pálidas de neve do jardim de vidro. Este é o ponto mais alto em que os mortais podem penetrar nos Mansus. Não há rachaduras em sua superfície. Não se trata de uma porta que se abra, se bem que se diga que pode sangrar a luz.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -1053,14 +1053,14 @@
         },
         {
             "id": "dreamnotquitereachpeacockedge",
-            "label": "Glassgarden: Not Enough!",
+            "label": "Glassgarden: Não basta!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "edge": 1
             },
-            "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. This is as it must be - ",
-            "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light. Now I drift into other dreams.",
+            "startdescription": "A luz do Sol dividido penetra no meu sonho, mas não o suficiente para derrubar as flores gélidas há muito mortas do jardim de vidro. Cada passo que dou conduz a outra planta para pó, tal como tem de acontecer - ",
+            "description": "A Porta Pavão - orgulhosa e vergonhosa, seu brilho tingindo as formas pálidas de neve do jardim de vidro. Este é o ponto mais alto em que os mortais podem penetrar no Mansus. Nenhuma rachadura marca a sua superfície. Esta não é uma porta que se abra, embora, como se diz, ela possa sangrar a luz. Agora vou entrar noutros sonhos.",
             "linked": [
                 {
                     "id": "dream_router",
@@ -1077,14 +1077,14 @@
         },
         {
             "id": "dreamreachpeacockedge",
-            "label": "Glassgarden: Approaching The Peacock's Door",
+            "label": "Glassgarden: Aproximando-se da porta do pavão",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "edge": 10
             },
-            "startdescription": "The light of the divided Sun penetrates my dream, but not enough to thaw the long-dead frost-blossoms of the Glassgarden. Each step I take crushes another plant to powder. This is as it must be. I will choose my steps carefully, as the lore prescribes -",
-            "description": "The Peacock Door: proud and shining amethyst, its glow tinting the snow-pale shapes of the Glassgarden. This is the highest point where mortals may penetrate the Mansus. No crack mars its surface. This is not a door that opens, although, it is said, it may bleed light.",
+            "startdescription": "A luz do Sol dividido penetra no meu sonho, mas não o suficiente para derrubar as flores gélidas há muito mortas do jardim de vidro. Cada passo que dou conduz a outra planta para pó, e é assim que deve ser. Escolherei meus passos com cuidado, conforme prescrever a história -",
+            "description": "A Porta Pavão - orgulhosa e vergonhosa, seu brilho tingindo as formas pálidas de neve do jardim de vidro. Este é o ponto mais alto em que os mortais podem penetrar nos Mansus. Não há rachaduras em sua superfície. Não se trata de uma porta que se abra, se bem que se diga que pode sangrar a luz.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -1097,7 +1097,7 @@
         },
         {
             "id": "dreamusepeacockway",
-            "label": "The Way to the Peacock's Door",
+            "label": "O Caminho até a Porta do Pavão",
             "actionid": "dream",
             "requirements": {
                 "waypeacock": 1
@@ -1105,15 +1105,15 @@
             "slots": [
                 {
                     "id": "Ascent",
-                    "label": "Ascent",
-                    "description": "The Peacock Door does not open, exactly.",
+                    "label": "Ascensão",
+                    "description": "A porta do pavão não está aberta, exatamente.",
                     "required": {
                         "tool": 1
                     }
                 }
             ],
-            "startdescription": "In my dreams, I know the path through the Glassgarden to the Peacock's Door: the most admirable of Doors, the Door which shines like a mirror. Perhaps, with the right resources, I can pass it. ",
-            "description": "The Peacock's Door is purple as the sweetest gem, as the ripest fruit, as the most depthless prose. It takes my reflection and returns nothing. When I wake, I won't recall my dream.",
+            "startdescription": "Nos meus sonhos, conheço o caminho através do jardim de Glass, até à porta do Pavão: a mais admirável das portas, a porta que brilha como um espelho. Talvez, com os recursos adequados, eu possa passar. ",
+            "description": "A Porta do pavão é roxa como a gema mais doce, como a fruta mais madura, como a mais profunda. Leva meu reflexo e não retorna nada. Quando eu acordar, não me lembrarei do meu sonho.",
             "craftable": true,
             "aspects": {
                 "fatiguing": 1
@@ -1140,14 +1140,14 @@
         },
         {
             "id": "dreamenterpeacockmirror",
-            "label": "Passing the Peacock's Door",
+            "label": "Passando a Porta da Parede",
             "actionid": "dream",
             "craftable": false,
             "requirements": {
                 "waypeacock": 1,
                 "mirror": 1
             },
-            "startdescription": "The Peacock's Door reflects the mirror I hold in my sleep, and the mirror reflects the Peacock's Door. Already a sensuous shiver ripples its surface. It aches for fracture, and when it finds that satisfaction, I will enter.",
+            "startdescription": "A Porta do Pavão reflete o espelho que guardo no meu sono, e o espelho reflete a Porta do Pavão. Já é uma sensação de arrepio que corta sua superfície. Dói-me por fratura, e quando encontra essa satisfação, vou entrar.",
             "description": ".",
             "alt": [
                 {
@@ -1163,14 +1163,14 @@
         },
         {
             "id": "dreamenterpeacockfrangiclave",
-            "label": "Passing the Peacock's Door",
+            "label": "Passando a Porta da Parede",
             "actionid": "dream",
             "craftable": false,
             "requirements": {
                 "waypeacock": 1,
                 "toolknockf": 1
             },
-            "startdescription": "A tuning-fork hum animates the key in my hand; the Peacock's Door groans in response. Already a sensuous shiver ripples its surface. It aches for fracture, and when it finds that satisfaction, I will enter.",
+            "startdescription": "Um hum tuning-fork anima a chave na minha mão; as portas do Pavão gemem em resposta. Já é uma sensação de arrepio que corta sua superfície. Dói-me por fratura, e quando encontra essa satisfação, vou entrar.",
             "description": ".",
             "alt": [
                 {
@@ -1184,8 +1184,8 @@
         {
             "id": "poison.long.way.trap",
             "actionid": "poison.long.way.trap",
-            "label": "The Watch upon the Way",
-            "startdescription": "The Long has set invisible cartographers at the gate, to observe me as I pass and map me like a half-known country.",
+            "label": "O relógio no caminho",
+            "startdescription": "O longo tempo colocou cartógrafos invisíveis no portão, para me observar enquanto passei e me mapeia como um país semiconhecido.",
             "requirements": {
                 "poison.way.long": 1
             },
@@ -1196,19 +1196,19 @@
         },
         {
             "id": "dreamheartvictoryintro",
-            "label": "Drums in the Storm",
+            "label": "Tambores na Tempestade",
             "actionid": "dream",
             "requirements": {
                 "sendingheartg": 1
             },
-            "startdescription": "The wind rises and the roof rattles as I settle myself to sleep. There is a bitter herb that will help me pass from my body. The Wood opens around me, but with my new eyes, I see another path now. The one called Marinette waits along that path, with the Key that will end me and begin me.",
+            "startdescription": "O vento sobe e o telhado chacota enquanto eu me estabeleço para dormir. Há uma erva amarga que vai me ajudar a passar do meu corpo. A Madeira abre ao meu redor, mas com meus olhos novos, vejo outro caminho agora. O chamado Marinette aguarda por esse caminho, com a chave que me terminará e me começará.",
             "warmup": 30,
             "craftable": true,
             "signalEndingFlavour": "Grand",
             "slots": [
                 {
                     "id": "beloved",
-                    "label": "Beloved",
+                    "label": "Amado",
                     "required": {
                         "romanticinterest": 1
                     },
@@ -1236,42 +1236,42 @@
         },
         {
             "id": "dreamheartvictory",
-            "label": "The Kingskin Gate",
+            "label": "O Portão Kingskin",
             "actionid": "dream",
             "requirements": {
                 "sendingheartg": 1
             },
-            "startdescription": "Marinette waits in the shadow of a pine tree, dark skin gleaming, white bone glinting, claws bright as brass. She carries a red Key that might be a bloody knife or a ruby wound. When she brings it down, the pain of it is all red.",
+            "startdescription": "Marinette espera na sombra de uma árvore de pinheiro, brilho da pele escura, cintilação de osso branco, garras brilhantes como latão. Ela carrega uma chave vermelha que pode ser uma faca sangrenta ou uma ferida enferrujada. Quando ela diminui, a dor é vermelha.",
             "ending": "minorheartvictory",
             "warmup": 30
         },
         {
             "id": "dreamheartvictory_withrisen",
-            "label": "The Kingskin Gate",
+            "label": "O Portão Kingskin",
             "actionid": "dream",
             "requirements": {
                 "sendingheartg": 1,
                 "summoned": 1
             },
-            "startdescription": "Marinette waits in the shadow of a pine tree, dark skin gleaming, white bone glinting, claws bright as brass. She carries a red Key that might be a bloody knife or a ruby wound. When she brings it down, the pain of it is all red.\n\nIn the dark place beneath the trees, my dead beloved watches, with their skin which is dappled, their eyes which are lamps.",
+            "startdescription": "Marinette espera na sombra de uma árvore de pinheiro, brilho da pele escura, cintilação de osso branco, garras brilhantes como latão. Ela carrega uma chave vermelha que pode ser uma faca sangrenta ou uma ferida enferrujada. Quando ela diminui, a dor é vermelha.\n\nNo lugar escuro debaixo das árvores, minha amada morta vigia com sua pele que é machada, seus olhos que são lâmpadas.",
             "ending": "minorheartvictorywithrisen",
             "warmup": 10
         },
         {
             "id": "dreammothvictoryintro",
-            "label": "Drums in the Storm",
+            "label": "Tambores na Tempestade",
             "actionid": "dream",
             "requirements": {
                 "sendingmothg": 1
             },
-            "startdescription": "I drift down sleep's familiar pathways, until the Wood comes clear before me with its grasping trees and shadow-fringed paths. The Door in the Wood lies beneath the waters of the well. I know that now. I cannot pass it living and I cannot pass it dead. Medusa, who is neither living nor dead, will clear the way. I break into a trot.",
+            "startdescription": "Eu descendo o caminho bem conhecido do sono, até que a Madeira fique clara antes de mim com suas árvores resplandecentes e caminhos com borda sombria. A porta na madeira está debaixo das águas do poço. Eu sei que agora. Não posso passar ele vivo e não posso passar ele morto. Medusa, que não está vivendo nem morto, irá limpar o caminho. Eu entro em uma troca.",
             "warmup": 30,
             "craftable": true,
             "signalEndingFlavour": "Grand",
             "slots": [
                 {
                     "id": "beloved",
-                    "label": "Beloved",
+                    "label": "Amado",
                     "required": {
                         "romanticinterest": 1
                     },
@@ -1299,42 +1299,42 @@
         },
         {
             "id": "dreammothvictory",
-            "label": "The Door in the Wood",
+            "label": "A porta na madeira",
             "actionid": "dream",
             "requirements": {
                 "sendingmothg": 1
             },
-            "startdescription": "The moonlight parts the trees to blacken what the well holds, to limn the tree-roots, to touch Medusa's twining limbs where she waits by the well. She lifts her dripping arms, which hold a pale Key, twisting like a fanged worm. I kneel, a red deer, and offer my neck. A gout of blood spills into the well; and then Medusa begins to carve my new shape.",
+            "startdescription": "O luar faz com que as árvores sejam pregadas pelo povo, para enclausurar as raízes, para tocar os membros gêmeos da Medusa onde espera pelo poço. Ela levanta os braços que pingam, que têm um Key pálido, torcendo como um verme curvado. Eu me joelhei, uma veada vermelha e ofereço o pescoço. Um gusa de sangue derrama no poço; e então a Medusa começa a entalhar minha nova forma.",
             "ending": "minormothvictory",
             "warmup": 30
         },
         {
             "id": "dreammothvictory_withrisen",
-            "label": "The Door in the Wood",
+            "label": "A porta na madeira",
             "actionid": "dream",
             "requirements": {
                 "sendingmothg": 1,
                 "summoned": 1
             },
-            "startdescription": "The moonlight parts the trees to blacken what the well holds, to limn the tree-roots, to touch Medusa's twining limbs where she waits by the well. She lifts her dripping arms, which hold a pale Key, twisting like a fanged worm. I kneel, a red deer, and offer my neck. A gout of blood spills into the well; and then Medusa begins to carve my new shape. \n\nIn the dark place beneath the trees, my dead beloved watches, with their skin which is dappled, their eyes which are lamps.",
+            "startdescription": "O luar faz com que as árvores sejam pregadas pelo povo, para enclausurar as raízes, para tocar os membros gêmeos da Medusa onde espera pelo poço. Ela levanta os braços que pingam, que têm um Key pálido, torcendo como um verme preso. Eu me ajoelhei, uma veada vermelha, e ofereço o meu pescoço. Um gusa de sangue derrama no poço; e então a Medusa começa a entalhar minha nova forma. \n\nNo lugar escuro debaixo das árvores, minha amada morta vigia com sua pele que é machada, seus olhos que são lâmpadas.",
             "ending": "minormothvictorywithrisen",
             "warmup": 10
         },
         {
             "id": "dreammeniscatevictoryintro",
-            "label": "Without the Walls",
+            "label": "Sem as paredes",
             "actionid": "dream",
             "requirements": {
                 "sendingmothheartg": 1
             },
-            "startdescription": "I drift down sleep's familiar pathways, until the Wood comes clear before me with its grasping trees and shadow-fringed paths. But this is not the Wood I know. It is all birch trees, white as moonlight, and the moonlight is black as ink. Beneath its pressure, the white skins of the trees begin to blister, then bleed. I break into a trot, then a gallop. I must reach the Well, before I wake, or before something worse - ",
+            "startdescription": "Eu descendo o caminho bem conhecido do sono, até que a Madeira fique clara antes de mim com suas árvores resplandecentes e caminhos com borda sombria. Mas esta não é a Madeira que conheço. São todas árvores de vidoeiro, brancas como lua e o luar é preto como tinta. Sob sua pressão, as peles brancas começam a brilhar e depois a sangrar. Quebro uma troca, então uma galopa. Tenho de chegar até o povo, antes de acordar, ou antes de algo pior, ",
             "warmup": 30,
             "craftable": true,
             "signalEndingFlavour": "Grand",
             "slots": [
                 {
                     "id": "beloved",
-                    "label": "Beloved",
+                    "label": "Amado",
                     "required": {
                         "romanticinterest": 1
                     },
@@ -1362,40 +1362,40 @@
         },
         {
             "id": "dreammeniscatevictory",
-            "label": "Three",
+            "label": "Três",
             "actionid": "dream",
             "requirements": {
                 "sendingmothheartg": 1
             },
-            "startdescription": "My skin is tattering now. The Well is ahead, but the moon is changing, is black, is gold, is pearl. The blood of the Well is a red mirror, and three of them rise, and their faces are mine, are horned like the Moon, the greatest holds a key of black sapphire and when it parts my skin my body is rent like lightning, and WHAT IS WITHIN, WITHOUT, WHAT IS WITHOUT, WITHIN -",
+            "startdescription": "Minha pele está triturando agora. O poço está à frente, mas a lua está mudando, é preta, é ouro, é pérola. O sangue do poço é um espelho vermelho, e três deles se erguem, e seus rostos são meus, são chifres como a Lua, a maior segura uma chave de safira preta e quando separa meu corpo é alugado como um relâmpago, e O QUE É COM, SEM SEM QUE ESTÁ SEM SEM SIM, SEM SEM -",
             "ending": "minormeniscatevictory",
             "warmup": 30
         },
         {
             "id": "dreammeniscatevictory_withrisen",
-            "label": "Three",
+            "label": "Três",
             "actionid": "dream",
             "requirements": {
                 "sendingmothheartg": 1,
                 "summoned": 1
             },
-            "startdescription": "My skin is tattering now. The Well is ahead, but the moon is changing, is black, is gold, is pearl. The blood of the Well is a red mirror, and three of them rise, and their faces are mine, are horned like the Moon, the greatest holds a key of black sapphire and when it parts my skin my body is rent like lightning, and WHAT IS WITHIN, WITHOUT, WHAT IS WITHOUT, WITHIN -",
+            "startdescription": "Minha pele está triturando agora. O poço está à frente, mas a lua está mudando, é preta, é ouro, é pérola. O sangue do poço é um espelho vermelho, e três deles se erguem, e seus rostos são meus, são chifres como a Lua, a maior segura uma chave de safira preta e quando separa meu corpo é alugado como um relâmpago, e O QUE É COM, SEM SEM QUE ESTÁ SEM SEM SIM, SEM SEM -",
             "ending": "minormeniscatevictorywithrisen",
             "warmup": 30
         },
         {
             "id": "belovedfarewelldream",
-            "label": "The Threshold Choice",
+            "label": "A escolha de limite",
             "actionid": "dream",
             "requirements": {
                 "romanticinterest": 1
             },
-            "startdescription": "The final farewell. They will remain, and I will ascend.",
+            "startdescription": "O fim do despedimento, eles permanecerão, e eu vou subir.",
             "slots": [
                 {
                     "id": "decision",
-                    "label": "Decision",
-                    "description": "[Add Passion to turn aside from your ascent... and live as a mortal with your beloved. Do nothing to continue.]",
+                    "label": "Decisão",
+                    "description": "[Adicione paixão para se afastar do seu ascensão... e viver como um mortal com o seu amado. Não faça nada para continuar.]",
                     "required": {
                         "passion": 1
                     }
@@ -1495,8 +1495,8 @@
         },
         {
             "id": "imnotinlovedream",
-            "label": "Dedication",
-            "startdescription": "Perhaps they love me. Perhaps I love them. Perhaps none of that matters.",
+            "label": "Dedicação",
+            "startdescription": "Talvez me amem, talvez eu os ame. Talvez nada disso importa.",
             "actionid": "dream",
             "craftable": false,
             "linked": [
