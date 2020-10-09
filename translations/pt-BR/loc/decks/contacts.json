@@ -3,7 +3,7 @@
         {
             "id": "acquaintances",
             "label": "Conhecidos",
-            "description": "Tantas pessoas no mundo, e tão poucas realmente valem a pena conhecer.",
+            "description": "Tantas pessoas no mundo, e tão poucas são dignas de serem conhecidas.",
             "spec": [
                 "auclair_a",
                 "cat_a",
@@ -33,29 +33,29 @@
                 "generic_a_knock",
                 "generic_a_lantern",
                 "generic_a_moth",
-                "genérico_a_inverno"
+                "generic_a_winter"
             ],
             "defaultcard": "mistakenidentity"
         },
         {
             "id": "hirelings",
-            "label": "O Brutal e o Astuto",
+            "label": "O Bruto e o Astuto",
             "description": "Algumas ferramentas são adequadas para alguns fins.",
             "spec": [
                 "thugedge",
                 "thugforgeedge",
                 "thuglanternmoth",
-                "banquete",
-                "banquete",
+                "thugknock",
+                "thugmoth",
                 "thugedge",
                 "thugforgeedge",
                 "thuglanternmoth",
-                "banquete",
-                "banquete",
-                "secundar_thugmothminor",
-                "secundar_thugmothminor",
-                "secundar_thugmothminor",
-                "secundar_thugmothminor",
+                "thugknock",
+                "thugmoth",
+                "thugmothminor",
+                "thugmothminor",
+                "thugmothminor",
+                "thugmothminor",
                 "thugedgeminor",
                 "thugedgeminor",
                 "thugedgeminor",
@@ -64,13 +64,13 @@
             "resetonexhaustion": true
         },
         {
-            "id": "caçadores",
+            "id": "hunters",
             "label": "Caçadores",
             "description": "Aqueles que me desejam mal.",
             "spec": [
-                "investigador1",
-                "investigador2",
-                "investigador3",
+                "investigator1",
+                "investigator2",
+                "investigator3",
                 "investigator4",
                 "defaulthunter"
             ],
@@ -83,30 +83,30 @@
             "spec": [
                 "aladimready",
                 "bechetready",
-                "pronto",
+                "janningsready",
                 "poppyready",
                 "sulochana"
             ],
-            "defaultcard": "boato"
+            "defaultcard": "rumour"
         },
         {
-            "id": "comissões",
+            "id": "aladimcommissions",
             "label": "Os Interesses de Al-Adim",
             "description": "",
             "spec": [
-                "artigos",
+                "commissionarticlesecrethistories",
                 "commissionarticlesecrethistoriesb",
                 "commissionarticlesecrethistoriesc",
                 "commissionarticlelantern",
                 "commissionarticlelanternb",
                 "commissionarticlelanternc"
             ],
-            "defaultcard": "artigos",
+            "defaultcard": "commissionarticlesecrethistories",
             "resetonexhaustion": true
         },
         {
             "id": "bechetcommissions",
-            "label": "Interesses de Bechet",
+            "label": "Os Interesses de Bechet",
             "description": "",
             "spec": [
                 "commissionarticleforge",
@@ -119,41 +119,41 @@
                 "commissionarticlemothb",
                 "commissionarticlemothc"
             ],
-            "defaultcard": "commissionarticlegtrigo",
+            "defaultcard": "commissionarticlegrail",
             "resetonexhaustion": true
         },
         {
-            "id": "comissões",
-            "label": "Interesses de Jannings",
+            "id": "janningscommissions",
+            "label": "Os Interesses de Jannings",
             "description": "",
             "spec": [
-                "mandíbula",
+                "commissionarticleedge",
                 "commissionarticleedgeb",
                 "commissionarticleedgec",
-                "cardíaco",
+                "commissionarticleheart",
                 "commissionarticleheartb",
                 "commissionarticleheartc"
             ],
             "resetonexhaustion": true
         },
         {
-            "id": "pipocommissões",
+            "id": "poppycommissions",
             "label": "Os Interesses de Poppy",
             "description": "",
             "spec": [
-                "Comissoarticleinverno",
+                "commissionarticlewinter",
                 "commissionarticlewinterb",
                 "commissionarticlewinterc",
                 "commissionarticleknock",
-                "commissionarticletocckb",
-                "commissionarticletocckc"
+                "commissionarticleknockb",
+                "commissionarticleknockc"
             ],
             "resetonexhaustion": true
         },
         {
-            "id": "vítima aleatória",
+            "id": "randomvictim",
             "label": "O Imprudente e O Desavisado",
-            "description": "Faremos deles o que devemos.",
+            "description": "Vamos fazer deles o que devemos.",
             "spec": [
                 "genericprisonerm",
                 "genericprisonerf"
