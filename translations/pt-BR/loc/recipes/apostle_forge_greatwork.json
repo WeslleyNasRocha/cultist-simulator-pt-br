@@ -3,11 +3,11 @@
         {
             "id": "ambition.apostleforge.emitfuel",
             "actionid": "work",
-            "label": "Guidance from our Shaper",
+            "label": "Orientação do nosso Shaper",
             "requirements": {
                 "apostleforge.mentor": 1
             },
-            "startdescription": "Our Shaper has favoured us with guidance. We should use it to pursue the Great Work.",
+            "startdescription": "O nosso Shaper favoreceu-nos com orientação, devemos usá-lo para prosseguir com o Grande Trabalho.",
             "effects": {
                 "apostleforge.pillarfuel": 1
             }
@@ -15,11 +15,11 @@
         {
             "id": "work.apostleforge.majorvictory.postbetrayal",
             "actionid": "work",
-            "label": "Nevertheless, the Great Work Continues",
+            "label": "No entanto, o excelente trabalho prossegue",
             "extantreqs": {
                 "apostleforge.mentor": -1
             },
-            "startdescription": "TO REMAKE WITH FIRE; TO END WHAT WILL NOT CHANGE; TO END ALL NIGHTS. As the Dawnbreaker begins to spin, the rotation of the Earth will slow, minutely. Echidna will bear the key in her taloned hands. The Compass will speak their last words. Blue Gold will burn. The Savage Door will open. Our Shaper will enact the Forge. And I; I will return to our Shaper's side. I made my choice long ago. I will be consumed.",
+            "startdescription": "A RETORNAR COM CAMINH; PARA FINALIZAR QUE NÃO MUITARá; PARA FIM DE TODOS OS NIGHTS. À medida que o disjuntor Dawnbreaker começa a girar, a rotação da Terra vai abrandar, minuto. Echidna vai carregar a chave nas mãos talentosas. A Bússola vai falar suas últimas palavras. O ouro azul vai queimar. A porta selvagem vai abrir. Nosso Shaper vai promulgar a Forja. E eu; voltarei ao nosso lado do Criador, fiz a minha escolha há muito tempo, vou ser consumido.",
             "description": "",
             "requirements": {
                 "fragmentknockg": 1,
@@ -36,11 +36,11 @@
         {
             "id": "work.apostleforge.majorvictory",
             "actionid": "work",
-            "label": "The Last Pieces of the Great Work",
+            "label": "As últimas peças do grande trabalho",
             "extantreqs": {
                 "apostleforge.mentor": 1
             },
-            "startdescription": "TO REMAKE WITH FIRE; TO END WHAT WILL NOT CHANGE; TO END ALL NIGHTS. As the Dawnbreaker begins to spin, the rotation of the Earth will slow, minutely. Echidna will bear the key in her taloned hands. The Compass will speak their last words. Blue Gold will burn. The Savage Door will open. Our Shaper will enact the Forge. And I; I will be consumed.",
+            "startdescription": "A RETORNAR COM CAMINH; PARA FINALIZAR QUE NÃO MUITARá; PARA FIM DE TODOS OS NIGHTS. À medida que o Destruidor de Dawnbreaker começa a girar, a rotação da Terra vai retardar, minuto. Echidna vai carregar a chave em suas mãos talentosas. A Bússola vai falar suas últimas palavras. O Ouro Azul vai queimar. A Porta Selvagem vai abrir. Nosso Shaper vai promulgar a Forja. E Eu; Eu serei consumido.",
             "description": "",
             "requirements": {
                 "fragmentknockg": 1,
@@ -57,9 +57,9 @@
         {
             "id": "work.apostleforge.createcore",
             "actionid": "work",
-            "label": "Forging the Dawnbreaker Core",
-            "startdescription": "With the guidance of our Shaper, and a mote of the old Sun, we can begin the construction of the Dawnbreaker Device.",
-            "description": "We hum as we work, the old song: what shall not change shall end. At last the Core is complete. The Device slumbers. The Mysteries of Making will raise it to life.",
+            "label": "Núcleo Forjando o Dawnbreaker",
+            "startdescription": "Com a orientação do nosso Shaper, e um esfregão do velho Sol, podemos começar a construção do Dispositivo Dawnbreaker.",
+            "description": "Enquanto trabalhamos, a velha canção: o que não vai mudar acabará finalmente com o núcleo. O Amplificador. Os Mysteries of Making irão levá-lo à vida.",
             "requirements": {
                 "toolforgef": 1,
                 "apostleforge.pillarfuel": 1
@@ -75,9 +75,9 @@
         {
             "id": "work.apostleforge.awakencore",
             "actionid": "work",
-            "label": "Awakening the Dawnbreaker Core",
-            "startdescription": "The Forge, the Madrugad and the Meniscate all recall the Sun. We shall build their memory as an armature around the Core, and it will flicker into terrible awareness.",
-            "description": "The Device wakes to purring life, and like all life, it knows hunger. Only the highest products of alchemy will feed it.",
+            "label": "Núcleo Despertar o Dawnbreaker",
+            "startdescription": "O Forge, o Madrugad e o Menisco lembram o Sol. Nós construiremos a memória deles como uma armatura em torno do núcleo, e ele irá agitar para uma terrível consciência.",
+            "description": "O rastro de dispositivo para a vida purgar, e como toda a vida, ele conhece fome. Somente os mais altos produtos da alquimia o alimentam.",
             "requirements": {
                 "apostleforge.pillar2.dormant": 1,
                 "fragmentforgeg": 1
@@ -92,9 +92,9 @@
         {
             "id": "work.apostleforge.upgradeingredientforgeb",
             "actionid": "work",
-            "label": "Refine Bitterblack Salts",
-            "startdescription": "With the guidance of our Shaper, we can refine this to something greater.",
-            "description": "Black clarifies to yellow.",
+            "label": "Refinar sais Bitterblack",
+            "startdescription": "Com a orientação do nosso Shaper, podemos restringir este aspecto a algo mais vasto.",
+            "description": "Pretas clarificam para amarelo.",
             "requirements": {
                 "ingredientforgeb": 1,
                 "apostleforge.pillarfuel": 1
@@ -110,9 +110,9 @@
         {
             "id": "work.apostleforge.upgradeingredientforged",
             "actionid": "work",
-            "label": "Refine Xanthotic Essence",
-            "startdescription": "With the guidance of our Shaper, we can refine this to something greater.",
-            "description": "Yellow ripens to red.",
+            "label": "Refinar Essência Xanthótica",
+            "startdescription": "Com a orientação do nosso Shaper, podemos restringir este aspecto a algo mais vasto.",
+            "description": "Canetas amarelas para vermelho.",
             "requirements": {
                 "ingredientforged": 1,
                 "apostleforge.pillarfuel": 1
@@ -128,9 +128,9 @@
         {
             "id": "work.apostleforge.prepareingredientforgef",
             "actionid": "work",
-            "label": "Refine Iotic Essence",
-            "startdescription": "With the guidance of our Shaper, we can refine this to something greater.",
-            "description": "Red thrills to blue.",
+            "label": "Refinar Essência Iótica",
+            "startdescription": "Com a orientação do nosso Shaper, podemos restringir este aspecto a algo mais vasto.",
+            "description": "O vermelho empolga o azul.",
             "requirements": {
                 "ingredientforgef": 1,
                 "apostleforge.pillarfuel": 1
@@ -146,9 +146,9 @@
         {
             "id": "work.apostleforge.baptisefollower",
             "actionid": "work",
-            "label": "Choose the Compass",
-            "startdescription": "With our Shaper's assistance, we can prepare a follower to find the way to a flaw in the world. Once they've found it, they will find nothing else, ever again.",
-            "description": "The eyes, embers. The heart, a waiting temple.",
+            "label": "Escolha a Bússola",
+            "startdescription": "Com a ajuda do nosso Shaper, podemos preparar um seguidor para encontrar o caminho para uma falha no mundo. Assim que encontrarem, eles não encontrarão mais nada, jamais de novo.",
+            "description": "Os olhos, braços. O coração, um templo de espera.",
             "requirements": {
                 "follower": 1,
                 "mortal": 1,
@@ -172,9 +172,9 @@
         {
             "id": "explore.apostleforge.findflaw",
             "actionid": "explore",
-            "label": "The Flaw in the World",
-            "startdescription": "Few eyes can see the flaw, and those that see it once will never see anything else.",
-            "description": "This is the place where the Histories align - the rawness in the world's skin. Each wound here will be a sevenfold harm. If we detonate the Dawnbreaker Device here, it might turn the Biting Key in the lock of the Savage Door, and our Shaper will pass as did the gods-who-were-stone.",
+            "label": "A justiça no mundo",
+            "startdescription": "Poucos olhos vêem o defeito, e aqueles que o vêem em tempos nunca verão mais nada.",
+            "description": "Este é o lugar onde as histórias se alinham - a raiva na pele do mundo. Cada ferida aqui será um sétimo dano. Se detonarmos o Dispositivo Dawnbreaker aqui, pode virar a Chave de Bing na fechadura da Porta Selvagem, e o nosso Shaper passará como os deuses-who-were-stone.",
             "requirements": {
                 "apostleforge.pillar4.dormant": 1
             },
@@ -231,8 +231,8 @@
         {
             "id": "talk.apostleforge.sulochanaechidna",
             "actionid": "talk",
-            "label": "An Introduction to Mrs E.",
-            "startdescription": "'Your Shaper wants to pass the Savage Door, hm? Do they really know what they're at? I've seen Forge-long try. Generally, they fail. But I'll see what I can do. I have a sister who holds the key you want. I'll get in touch with her... but it'll take a while.'",
+            "label": "Uma introdução à senhora deputada E.",
+            "startdescription": "'Seu Shaper quer passar a Porta Selvagem, h? Eles realmente sabem no que foram? Já vi a Forge-long tentativa. Geralmente, eles falham. Mas eu verei o que posso fazer. Tenho uma irmã que segura a chave que você quer. Entrarei em contato com ela... mas vai demorar um pouco.'",
             "description": "",
             "requirements": {
                 "apostleforge.pillarfuel": 1
@@ -246,16 +246,16 @@
         {
             "id": "talk.apostleforge.echidna",
             "actionid": "talk",
-            "label": "Petitioning Mrs E.",
-            "startdescription": "'Of course I can help, moppet. Lucky you came to me. I'm much more accommodating than our other sisters. But I will want someone tasty... unless you can give me a good reason.'",
-            "description": "'No? I'll be around a little while longer.'",
+            "label": "Peticionando a senhora deputada E.",
+            "startdescription": "\"É claro que posso ajudar, mofta. Sorte que você veio até mim. Eu sou muito mais acomodador do que nossas outras irmãs. Mas quererei alguém saboroso... a menos que me possa dar uma boa razão.\"",
+            "description": "Não? Estarei por volta mais um pouco.\"",
             "requirements": {
                 "echidna": 1
             },
             "slots": [
                 {
                     "id": "sacrifice",
-                    "label": "Someone Tasty, or a Good Reason",
+                    "label": "Alguém Detestável, ou uma boa razão",
                     "required": {
                         "exalted": 1,
                         "cultsecrethistories_1": 1
@@ -279,9 +279,9 @@
         {
             "id": "talk.apostleforge.echidnahelp.independent",
             "actionid": "talk",
-            "label": "Someone Tasty",
-            "startdescription": "'Have you two had a falling-out? Don't you worry, I'll tidy everything up. Listen, though - I'm a woman of my word, but I'm not a patient woman.  Wait until you're ready, and then I'll meet your tasty little problem.'",
-            "description": "'Take this. Don't lose it. I'll be there.'",
+            "label": "Alguém Adorável",
+            "startdescription": "\"Você dois teve algo de errado? Você não se preocupe, eu arrumarei tudo. Escute, porém - eu sou uma mulher da minha palavra, mas não sou uma mulher paciente. Espere até que você esteja pronto e então eu encontrarei seu saboroso pequeno problema.\"",
+            "description": "Toma isso. Não perca. Estarei aí.",
             "requirements": {
                 "echidna": 1,
                 "exalted": 1
@@ -295,9 +295,9 @@
         {
             "id": "talk.apostleforge.echidnahelp",
             "actionid": "talk",
-            "label": "Someone Tasty",
-            "startdescription": "'Oh, goody. Listen, though - I'm a woman of my word, but I'm not a patient woman. Don't give me your friend until you're ready.'",
-            "description": "'Take this. Don't lose it. I'll be there.'",
+            "label": "Alguém Adorável",
+            "startdescription": "Ah, aí. Escute, porém - eu sou uma mulher da minha palavra, mas eu não sou uma paciente. Não me dê o seu amigo até que esteja pronto.\"",
+            "description": "Toma isso. Não perca. Estarei aí.",
             "requirements": {
                 "echidna": 1,
                 "exalted": 1
@@ -311,9 +311,9 @@
         {
             "id": "talk.apostleforge.echidnahelp.sthydra",
             "actionid": "talk",
-            "label": "A Good Reason",
-            "startdescription": "'I see we both suckle serpents. As my sister likes to say: Ligeia remembers. I'll indulge you. (Did you ever wonder why it was five, not seven? Two missing Histories. Well, why only two? But we don't have time for that now. I'm not a patient woman.) Don't ask for my help until you're ready.'",
-            "description": "'Take this. Don't lose it. I'll be there.'",
+            "label": "Uma boa razão",
+            "startdescription": "\"Vejo nos dois serpentes em aleitamento, como a minha irmã gosta de dizer: Ligeia lembre-se. Eu vou te indagar. (Você já se perguntou por que foram cinco, não sete? Duas histórias perdidas. Bom, por que apenas duas? Mas agora não temos tempo. Eu não sou uma mulher paciente.) Não peça a minha ajuda até que esteja pronta.'",
+            "description": "Toma isso. Não perca. Estarei aí.",
             "requirements": {
                 "echidna": 1,
                 "cultsecrethistories_1": 1
