@@ -2,13 +2,13 @@
     "recipes": [
         {
             "id": "getcommissionaladim",
-            "label": "Get a Commission from Dr al-Adim",
+            "label": "Obtenha uma Comissão do Dr. al-Adim",
             "actionid": "talk",
             "requirements": {
                 "aladimready": 1
             },
-            "startdescription": "The doctor would like my help with his research.",
-            "description": "Here's what he needs.",
+            "startdescription": "O médico gostaria de minha ajuda com sua pesquisa.",
+            "description": "Aqui está o que ele precisa.",
             "warmup": 10,
             "deckeffects": {
                 "aladimcommissions": 1
@@ -20,13 +20,13 @@
         },
         {
             "id": "getcommissionbechet",
-            "label": "Get a Commission from Mme Bechet",
+            "label": "Obter uma Comissão da senhora Bechet",
             "actionid": "talk",
             "requirements": {
                 "bechetready": 1
             },
-            "startdescription": "She's seeking pieces for the notorious 'Kerisham Review'.",
-            "description": "Here's what she needs.",
+            "startdescription": "Ela está procurando peças para a famigerada 'Kerisham Review'.",
+            "description": "Aqui está o que ela precisa.",
             "warmup": 10,
             "deckeffects": {
                 "bechetcommissions": 1
@@ -38,13 +38,13 @@
         },
         {
             "id": "getcommissionjannings",
-            "label": "Get a Commission from Count Jannings",
+            "label": "Obtenha uma Comissão do Conde de Jannings",
             "actionid": "talk",
             "requirements": {
                 "janningsready": 1
             },
-            "startdescription": "The good Count's fraternity in Europe is seeking particular research.",
-            "description": "Here's what he needs.",
+            "startdescription": "A fraternidade do bom conde na Europa está à procura de investigação específica.",
+            "description": "Aqui está o que ele precisa.",
             "warmup": 10,
             "deckeffects": {
                 "janningscommissions": 1
@@ -56,13 +56,13 @@
         },
         {
             "id": "getcommissionpoppy",
-            "label": "Get a Commission from Poppy Lascelles",
+            "label": "Obter uma Comissão de Poppy Lascelles",
             "actionid": "talk",
             "requirements": {
                 "poppycommissionready": 1
             },
-            "startdescription": "'I am,' Poppy says with a girlish giggle, 'curious about, oh, you know, the arts of blood and ice. It's silly, but allow an old woman her whims. Will you help me?'",
-            "description": "Here's what she needs.",
+            "startdescription": "\"Eu são\", diz Poppy, com uma gigante menina, \"curiosa sobre, oh, como sabem, as artes de sangue e gelo. É tolica, mas deixa uma velha mulher seus caprichos. Você pode me ajudar?'",
+            "description": "Aqui está o que ela precisa.",
             "warmup": 10,
             "deckeffects": {
                 "poppycommissions": 1
@@ -74,7 +74,7 @@
         },
         {
             "id": "fulfilcommissionaladimsecrethistoriesc",
-            "label": "Fulfil a Commission for Dr al-Adim",
+            "label": "Agendar uma Comissão para Dr. al-Adim",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlesecrethistoriesc": 1,
@@ -87,8 +87,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what the doctor requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que o médico pediu.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -97,7 +97,7 @@
         },
         {
             "id": "fulfilcommissionaladimsecrethistoriesb",
-            "label": "Fulfil a Commission for Dr al-Adim",
+            "label": "Agendar uma Comissão para Dr. al-Adim",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlesecrethistoriesb": 1,
@@ -110,8 +110,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what the doctor requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que o médico pediu.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -120,7 +120,7 @@
         },
         {
             "id": "fulfilcommissionaladimsecrethistories",
-            "label": "Fulfil a Commission for Dr al-Adim",
+            "label": "Agendar uma Comissão para Dr. al-Adim",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlesecrethistories": 1,
@@ -133,8 +133,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what the doctor requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que o médico pediu.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -143,7 +143,7 @@
         },
         {
             "id": "fulfilcommissionaladimlanternc",
-            "label": "Fulfil a Commission for Dr al-Adim",
+            "label": "Agendar uma Comissão para Dr. al-Adim",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlelanternc": 1,
@@ -156,8 +156,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what the doctor requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que o médico pediu.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -166,7 +166,7 @@
         },
         {
             "id": "fulfilcommissionaladimlanternb",
-            "label": "Fulfil a Commission for Dr al-Adim",
+            "label": "Agendar uma Comissão para Dr. al-Adim",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlelanternb": 1,
@@ -179,8 +179,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what the doctor requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que o médico pediu.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -189,7 +189,7 @@
         },
         {
             "id": "fulfilcommissionaladimlantern",
-            "label": "Fulfil a Commission for Dr al-Adim",
+            "label": "Agendar uma Comissão para Dr. al-Adim",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlelantern": 1,
@@ -202,8 +202,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what the doctor requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que o médico pediu.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -212,7 +212,7 @@
         },
         {
             "id": "fulfilcommissionbechetforgec",
-            "label": "Fulfil a Commission for Mme Bechet",
+            "label": "Cumprir uma Comissão para a Senhora Bechet",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleforgec": 1,
@@ -225,8 +225,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -235,7 +235,7 @@
         },
         {
             "id": "fulfilcommissionbechetforgeb",
-            "label": "Fulfil a Commission for Mme Bechet",
+            "label": "Cumprir uma Comissão para a Senhora Bechet",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleforgeb": 1,
@@ -248,8 +248,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -258,7 +258,7 @@
         },
         {
             "id": "fulfilcommissionbechetforge",
-            "label": "Fulfil a Commission for Mme Bechet",
+            "label": "Cumprir uma Comissão para a Senhora Bechet",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleforge": 1,
@@ -271,8 +271,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -281,7 +281,7 @@
         },
         {
             "id": "fulfilcommissionbechetgrailc",
-            "label": "Fulfil a Commission for Mme Bechet",
+            "label": "Cumprir uma Comissão para a Senhora Bechet",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlegrailc": 1,
@@ -294,8 +294,8 @@
                 "article": -1,
                 "glimmering": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -304,7 +304,7 @@
         },
         {
             "id": "fulfilcommissionbechetgrailb",
-            "label": "Fulfil a Commission for Mme Bechet",
+            "label": "Cumprir uma Comissão para a Senhora Bechet",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlegrailb": 1,
@@ -317,8 +317,8 @@
                 "article": -1,
                 "glimmering": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -327,7 +327,7 @@
         },
         {
             "id": "fulfilcommissionbechetgrail",
-            "label": "Fulfil a Commission for Mme Bechet",
+            "label": "Cumprir uma Comissão para a Senhora Bechet",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlegrail": 1,
@@ -340,8 +340,8 @@
                 "article": -1,
                 "glimmering": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -350,7 +350,7 @@
         },
         {
             "id": "fulfilcommissionbechetmothc",
-            "label": "Fulfil a Commission for Mme Bechet",
+            "label": "Cumprir uma Comissão para a Senhora Bechet",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlemothc": 1,
@@ -363,8 +363,8 @@
                 "article": -1,
                 "glimmering": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -373,7 +373,7 @@
         },
         {
             "id": "fulfilcommissionbechetmothb",
-            "label": "Fulfil a Commission for Mme Bechet",
+            "label": "Cumprir uma Comissão para a Senhora Bechet",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlemothb": 1,
@@ -386,8 +386,8 @@
                 "article": -1,
                 "glimmering": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -396,7 +396,7 @@
         },
         {
             "id": "fulfilcommissionbechetmoth",
-            "label": "Fulfil a Commission for Mme Bechet",
+            "label": "Cumprir uma Comissão para a Senhora Bechet",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlemoth": 1,
@@ -409,8 +409,8 @@
                 "article": -1,
                 "glimmering": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -419,7 +419,7 @@
         },
         {
             "id": "fulfilcommissionjanningsheartc",
-            "label": "Fulfil a Commission for Count Jannings",
+            "label": "Cumprir uma Comissão para a contagem de temas",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleheartc": 1,
@@ -432,8 +432,8 @@
                 "article": -1,
                 "glimmering": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -442,7 +442,7 @@
         },
         {
             "id": "fulfilcommissionjanningsheartb",
-            "label": "Fulfil a Commission for Count Jannings",
+            "label": "Cumprir uma Comissão para a contagem de temas",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleheartb": 1,
@@ -455,8 +455,8 @@
                 "article": -1,
                 "glimmering": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -465,7 +465,7 @@
         },
         {
             "id": "fulfilcommissionjanningsheart",
-            "label": "Fulfil a Commission for Count Jannings",
+            "label": "Cumprir uma Comissão para a contagem de temas",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleheart": 1,
@@ -478,8 +478,8 @@
                 "article": -1,
                 "glimmering": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -488,7 +488,7 @@
         },
         {
             "id": "fulfilcommissionjanningsedgec",
-            "label": "Fulfil a Commission for Count Jannings",
+            "label": "Cumprir uma Comissão para a contagem de temas",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleedgec": 1,
@@ -501,8 +501,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -511,7 +511,7 @@
         },
         {
             "id": "fulfilcommissionjanningsedgeb",
-            "label": "Fulfil a Commission for Count Jannings",
+            "label": "Cumprir uma Comissão para a contagem de temas",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleedgeb": 1,
@@ -524,8 +524,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -534,7 +534,7 @@
         },
         {
             "id": "fulfilcommissionjanningsedge",
-            "label": "Fulfil a Commission for Count Jannings",
+            "label": "Cumprir uma Comissão para a contagem de temas",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleedge": 1,
@@ -547,8 +547,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what was requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Eu tenho o que foi solicitado.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -557,7 +557,7 @@
         },
         {
             "id": "fulfilcommissionpoppycommissionwinterc",
-            "label": "Fulfil a Commission for Poppy Lascelles",
+            "label": "Programe uma Comissão para Poppy Lascelles",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlewinterc": 1,
@@ -570,8 +570,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what Poppy requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Tenho o que a Poppy pediu.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -580,7 +580,7 @@
         },
         {
             "id": "fulfilcommissionpoppycommissionwinterb",
-            "label": "Fulfil a Commission for Poppy Lascelles",
+            "label": "Programe uma Comissão para Poppy Lascelles",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlewinterb": 1,
@@ -593,8 +593,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what Poppy requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Tenho o que a Poppy pediu.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -603,7 +603,7 @@
         },
         {
             "id": "fulfilcommissionpoppycommissionwinter",
-            "label": "Fulfil a Commission for Poppy Lascelles",
+            "label": "Programe uma Comissão para Poppy Lascelles",
             "actionid": "talk",
             "requirements": {
                 "commissionarticlewinter": 1,
@@ -616,8 +616,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what Poppy requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Tenho o que a Poppy pediu.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -626,7 +626,7 @@
         },
         {
             "id": "fulfilcommissionpoppycommissionknockc",
-            "label": "Fulfil a Commission for Poppy Lascelles",
+            "label": "Programe uma Comissão para Poppy Lascelles",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleknockc": 1,
@@ -639,8 +639,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what Poppy requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Tenho o que a Poppy pediu.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -649,7 +649,7 @@
         },
         {
             "id": "fulfilcommissionpoppycommissionknockb",
-            "label": "Fulfil a Commission for Poppy Lascelles",
+            "label": "Programe uma Comissão para Poppy Lascelles",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleknockb": 1,
@@ -662,8 +662,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what Poppy requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Tenho o que a Poppy pediu.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
@@ -672,7 +672,7 @@
         },
         {
             "id": "fulfilcommissionpoppycommissionknock",
-            "label": "Fulfil a Commission for Poppy Lascelles",
+            "label": "Programe uma Comissão para Poppy Lascelles",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleknock": 1,
@@ -685,8 +685,8 @@
                 "article": -1,
                 "erudition": 1
             },
-            "startdescription": "I have what Poppy requested.",
-            "description": "I've received the currency of the secret world, and my patron has let tantalising information slip.",
+            "startdescription": "Tenho o que a Poppy pediu.",
+            "description": "Eu recebi a moeda do mundo secreto e meu patrono deixou tantizar informações deslizando.",
             "warmup": 10,
             "craftable": true,
             "aspects": {
