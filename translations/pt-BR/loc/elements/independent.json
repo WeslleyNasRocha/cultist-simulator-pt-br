@@ -2,14 +2,14 @@
     "elements": [
         {
             "id": "generic_r",
-            "label": "A Troublemaker",
+            "label": "Um Troublemaker",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Someone who's lost all sense of proportion.",
+            "description": "Alguém que perdeu todo o sentido das proporções.",
             "icon": "generic_c_edge",
             "xtriggers": {
                 "rival_promotion": "generic_r_c",
@@ -21,14 +21,14 @@
         {
             "id": "auclair_r",
             "icon": "auclair_r",
-            "label": "Auclair, a troublemaker",
+            "label": "Aposentado, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Auclair enjoys chess, now more than ever. The black, the white.",
+            "description": "Auclair gosta de xadrez, agora mais do que nunca. O preto, o branco.",
             "xtriggers": {
                 "rival_promotion": "auclair_r_c",
                 "killmortal": "corpse",
@@ -40,14 +40,14 @@
         {
             "id": "cat_r",
             "icon": "cat_r",
-            "label": "Cat Caro, a troublemaker",
+            "label": "Gato Caro, um encrencista",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "'Cat Caro', she calls herself. Once she was a fortune teller. No-one seems to know exactly what she is now.",
+            "description": "'Gato Caro', ela se chama a si mesma. Uma vez que foi uma caixa de fortuna, parece que ninguém sabe exactamente o que é agora.",
             "xtriggers": {
                 "rival_promotion": "cat_r_c",
                 "killmortal": "corpse",
@@ -59,14 +59,14 @@
         {
             "id": "clifton_r",
             "icon": "clifton_r",
-            "label": "'Pope' Clifton, a troublemaker",
+            "label": "Clifton 'Pap', um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Clifton likes to be addressed as 'your Holiness'. When he is not so addressed, there may be a scene.",
+            "description": "Clifton gosta de ser tratado como \"o seu Holiness\". Quando ele não é tão abordado, pode haver uma cena.",
             "xtriggers": {
                 "rival_promotion": "clifton_r_c",
                 "killmortal": "corpse",
@@ -78,14 +78,14 @@
         {
             "id": "clovette_r",
             "icon": "clovette_r",
-            "label": "Clovette, a troublemaker",
+            "label": "Clovette, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "It's difficult to dislike Clovette, even when one knows what she's done.",
+            "description": "É difícil não gostar de Clovette, mesmo quando se sabe o que ela fez.",
             "xtriggers": {
                 "rival_promotion": "clovette_r_c",
                 "killmortal": "corpse",
@@ -97,14 +97,14 @@
         {
             "id": "dorothy_r",
             "icon": "dorothy_r",
-            "label": "Dorothy, a troublemaker",
+            "label": "Doroto, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Dorothy will not cease. She will never cease. She has vowed as much.",
+            "description": "Doroteia não cessará. Ela nunca cessará. Ela jurou tanto.",
             "xtriggers": {
                 "rival_promotion": "dorothy_r_c",
                 "killmortal": "corpse",
@@ -116,14 +116,14 @@
         {
             "id": "douglas_r",
             "icon": "defaulthunter",
-            "label": "Douglas, a troublemaker",
+            "label": "Douglas, um encrencador",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Douglas isn't having any more of it. Time to see what all the fuss is about.",
+            "description": "Douglas não está mais tendo isso. Hora de ver do que é todo o barulho.",
             "xtriggers": {
                 "rival_promotion": "douglas_r_c",
                 "killmortal": "corpse",
@@ -135,14 +135,14 @@
         {
             "id": "elridge_r",
             "icon": "elridge_r",
-            "label": "Elridge, a troublemaker",
+            "label": "Elridge, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Elridge's shoes are often spotted with blood.",
+            "description": "Os sapatos de Elridge são frequentemente avistados com sangue.",
             "xtriggers": {
                 "rival_promotion": "elridge_r_c",
                 "killmortal": "corpse",
@@ -153,14 +153,14 @@
         {
             "id": "enid_r",
             "icon": "enid_r",
-            "label": "Enid, a troublemaker",
+            "label": "Enid, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Enid always sees her enemies coming. All the time.",
+            "description": "Enid sempre vê seus inimigos chegando. O tempo todo.",
             "xtriggers": {
                 "rival_promotion": "enid_r_c",
                 "killmortal": "corpse",
@@ -172,14 +172,14 @@
         {
             "id": "laidlaw_r",
             "icon": "laidlaw_r",
-            "label": "Laidlaw, a troublemaker",
+            "label": "Laidlaw, um encrencista",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Laidlaw's schemes are intricate as fern-shadow.",
+            "description": "Os esquemas da Laidlaw's são complexos como fern-shadow.",
             "xtriggers": {
                 "rival_promotion": "laidlaw_r_c",
                 "killmortal": "corpse",
@@ -191,14 +191,14 @@
         {
             "id": "leo_r",
             "icon": "leo_r",
-            "label": "Leo, a troublemaker",
+            "label": "Leo, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Leo has chosen his cause, and he will do what is necessary to preserve it.",
+            "description": "Leo escolheu a sua causa e fará o que for necessário para a preservar.",
             "xtriggers": {
                 "rival_promotion": "leo_r_c",
                 "killmortal": "corpse",
@@ -210,14 +210,14 @@
         {
             "id": "neville_r",
             "icon": "neville_r",
-            "label": "Neville, a troublemaker",
+            "label": "Nevile, um encrencista",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Neville knows this can't last. But while it does, by God, he will open whatever doors present themselves.",
+            "description": "Neville sabe que isto não pode durar. Mas enquanto ele, por Deus, ele abrirá quaisquer portas que se apresentem.",
             "xtriggers": {
                 "rival_promotion": "neville_r_c",
                 "killmortal": "corpse",
@@ -229,14 +229,14 @@
         {
             "id": "porter_r",
             "icon": "porter_r",
-            "label": "Porter, a troublemaker",
+            "label": "Porto, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Porter has begun to collect names.",
+            "description": "O portador começou a coletar nomes.",
             "xtriggers": {
                 "rival_promotion": "porter_r_c",
                 "killmortal": "corpse",
@@ -248,14 +248,14 @@
         {
             "id": "renira_r",
             "icon": "renira_r",
-            "label": "Renira, a troublemaker",
+            "label": "Renira, um problemador",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Renira likes to convert admirers into worshippers.",
+            "description": "Renira gosta de converter admiradores em adoradores.",
             "xtriggers": {
                 "rival_promotion": "renira_r_c",
                 "killmortal": "corpse",
@@ -267,14 +267,14 @@
         {
             "id": "rose_r",
             "icon": "rose_r",
-            "label": "Rose, a troublemaker",
+            "label": "Rose, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Rose has long since ceased to fear her enemies.",
+            "description": "Desde há muito que a Rosa deixou de temer seus inimigos.",
             "xtriggers": {
                 "rival_promotion": "rose_r_c",
                 "killmortal": "corpse",
@@ -286,14 +286,14 @@
         {
             "id": "saliba_r",
             "icon": "saliba_r",
-            "label": "Saliba, a troublemaker",
+            "label": "Saliba, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Saliba does not tolerate boredom.",
+            "description": "Saliba não tolera tédio.",
             "xtriggers": {
                 "rival_promotion": "saliba_r_c",
                 "killmortal": "corpse",
@@ -305,14 +305,14 @@
         {
             "id": "slee_r",
             "icon": "slee_r",
-            "label": "Slee, a troublemaker",
+            "label": "Durma, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Slee is always hungry for resources to pursue his theories.",
+            "description": "O sono está sempre com fome de recursos para buscar as teorias dele.",
             "xtriggers": {
                 "rival_promotion": "slee_r_c",
                 "killmortal": "corpse",
@@ -324,14 +324,14 @@
         {
             "id": "sylvia_r",
             "icon": "sylvia_r",
-            "label": "Sylvia, a troublemaker",
+            "label": "Silvia, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Sylvia's agenda is not clear. One suspects it is not clear even to Sylvia.",
+            "description": "A agenda de trabalhos de Sylviana não é clara, pois nem sequer para Sylvia é clara.",
             "xtriggers": {
                 "rival_promotion": "sylvia_r_c",
                 "killmortal": "corpse",
@@ -343,14 +343,14 @@
         {
             "id": "tristan_r",
             "icon": "tristan_r",
-            "label": "Tristan, a troublemaker",
+            "label": "Tristan, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Tristan is forging a little kingdom. When fire is necessary, he will use fire.",
+            "description": "Tristan está forjando um pouco de reino. Quando o fogo é necessário, ele vai usar fogo.",
             "xtriggers": {
                 "rival_promotion": "tristan_r_c",
                 "killmortal": "corpse",
@@ -362,14 +362,14 @@
         {
             "id": "valciane_r",
             "icon": "valciane_r",
-            "label": "Valciane, a troublemaker",
+            "label": "Valciane, um encrencista",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Valciane attends to her opposition with the remorseless brio of a youth smashing bottles.",
+            "description": "Valciane está a assistir à sua oposição com o suborno desmoronado de uma garrafa que arrasa jovens.",
             "xtriggers": {
                 "rival_promotion": "valciane_r_c",
                 "killmortal": "corpse",
@@ -381,14 +381,14 @@
         {
             "id": "victor_r",
             "icon": "victor_r",
-            "label": "Victor, a troublemaker",
+            "label": "Vitoriosa, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Victor is ready for what may come. All his knives are keen as new soldiers.",
+            "description": "Victor está pronto para o que pode vir. Todas as facas dele estão afiadas como novos soldados.",
             "xtriggers": {
                 "rival_promotion": "victor_r_c",
                 "killmortal": "corpse",
@@ -400,14 +400,14 @@
         {
             "id": "violet_r",
             "icon": "violet_r",
-            "label": "Violet, a troublemaker",
+            "label": "Violeta, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Violet has found new hobbies.",
+            "description": "Violeta encontrou novos hobbies.",
             "xtriggers": {
                 "rival_promotion": "violet_r_c",
                 "killmortal": "corpse",
@@ -419,14 +419,14 @@
         {
             "id": "ysabet_r",
             "icon": "ysabet_r",
-            "label": "Ysabet, a troublemaker",
+            "label": "Sabet, um encrenqueiro",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
                 "rivalmarks": 2,
                 "suspicious": 1
             },
-            "description": "Ysabet waits where she cannot be seen.",
+            "description": "Ysabet espera onde ela não pode ser vista.",
             "xtriggers": {
                 "rival_promotion": "ysabet_r_c",
                 "killmortal": "corpse",
@@ -437,7 +437,7 @@
         },
         {
             "id": "generic_r_c",
-            "label": "A Rival",
+            "label": "Um marfim",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -445,7 +445,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Someone who's lost all sense of proportion.",
+            "description": "Alguém que perdeu todo o sentido das proporções.",
             "icon": "generic_c_edge",
             "xtriggers": {
                 "rival_promotion": "generic_r_d",
@@ -457,7 +457,7 @@
         {
             "id": "auclair_r_c",
             "icon": "auclair_r",
-            "label": "Auclair, a rival",
+            "label": "Atirador, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -465,7 +465,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Auclair enjoys chess, now more than ever. The black, the white.",
+            "description": "Auclair gosta de xadrez, agora mais do que nunca. O preto, o branco.",
             "xtriggers": {
                 "rival_promotion": "auclair_r_d",
                 "killmortal": "corpse",
@@ -477,7 +477,7 @@
         {
             "id": "cat_r_c",
             "icon": "cat_r",
-            "label": "Cat Caro, a rival",
+            "label": "Gato Caro, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -485,7 +485,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "'Cat Caro', she calls herself. Once she was a fortune teller. No-one seems to know exactly what she is now.",
+            "description": "'Gato Caro', ela se chama a si mesma. Uma vez que foi uma caixa de fortuna, parece que ninguém sabe exactamente o que é agora.",
             "xtriggers": {
                 "rival_promotion": "cat_r_d",
                 "killmortal": "corpse",
@@ -497,7 +497,7 @@
         {
             "id": "clifton_r_c",
             "icon": "clifton_r",
-            "label": "'Pope' Clifton, a rival",
+            "label": "Clifton 'Papa', rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -505,7 +505,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Clifton likes to be addressed as 'your Holiness'. When he is not so addressed, there may be a scene.",
+            "description": "Clifton gosta de ser tratado como \"o seu Holiness\". Quando ele não é tão abordado, pode haver uma cena.",
             "xtriggers": {
                 "rival_promotion": "clifton_r_d",
                 "killmortal": "corpse",
@@ -517,7 +517,7 @@
         {
             "id": "clovette_r_c",
             "icon": "clovette_r",
-            "label": "Clovette, a rival",
+            "label": "Fechar, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -525,7 +525,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "It's difficult to dislike Clovette, even when one knows what she's done.",
+            "description": "É difícil não gostar de Clovette, mesmo quando se sabe o que ela fez.",
             "xtriggers": {
                 "rival_promotion": "clovette_r_d",
                 "killmortal": "corpse",
@@ -537,7 +537,7 @@
         {
             "id": "connie_r_c",
             "icon": "connie_r",
-            "label": "Connie, a renegade",
+            "label": "Connie, uma renegada",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -545,7 +545,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Connie's... Connie's thinking things over.",
+            "description": "Connie... Concebe o pensamento das coisas.",
             "xtriggers": {
                 "rival_promotion": "connie_r_d",
                 "killmortal": "corpse",
@@ -557,7 +557,7 @@
         {
             "id": "dorothy_r_c",
             "icon": "dorothy_r",
-            "label": "Dorothy, a rival",
+            "label": "Doroteia, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -565,7 +565,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Dorothy will not cease. She will never cease. She has vowed as much.",
+            "description": "Doroteia não cessará. Ela nunca cessará. Ela jurou tanto.",
             "xtriggers": {
                 "rival_promotion": "dorothy_r_d",
                 "killmortal": "corpse",
@@ -577,7 +577,7 @@
         {
             "id": "douglas_r_c",
             "icon": "douglas_r",
-            "label": "Douglas, a rival",
+            "label": "Douglas, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -585,7 +585,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Douglas isn't having any more of it. Time to see what all the fuss is about.",
+            "description": "Douglas não está mais tendo isso. Hora de ver do que é todo o barulho.",
             "xtriggers": {
                 "rival_promotion": "douglas_r_d",
                 "killmortal": "corpse",
@@ -597,7 +597,7 @@
         {
             "id": "elridge_r_c",
             "icon": "elridge_r",
-            "label": "Elridge, a rival",
+            "label": "Elridge, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -605,7 +605,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Elridge's shoes are often spotted with blood.",
+            "description": "Os sapatos de Elridge são frequentemente avistados com sangue.",
             "xtriggers": {
                 "rival_promotion": "elridge_r_d",
                 "killmortal": "corpse",
@@ -624,7 +624,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Enid always sees her enemies coming. All the time.",
+            "description": "Enid sempre vê seus inimigos chegando. O tempo todo.",
             "xtriggers": {
                 "rival_promotion": "enid_r_d",
                 "killmortal": "corpse",
@@ -636,7 +636,7 @@
         {
             "id": "laidlaw_r_c",
             "icon": "laidlaw_r",
-            "label": "Laidlaw, a rival",
+            "label": "Laidlaw, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -644,7 +644,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Laidlaw's schemes are intricate as fern-shadow.",
+            "description": "Os esquemas da Laidlaw's são complexos como fern-shadow.",
             "xtriggers": {
                 "rival_promotion": "laidlaw_r_d",
                 "killmortal": "corpse",
@@ -656,7 +656,7 @@
         {
             "id": "leo_r_c",
             "icon": "leo_r",
-            "label": "Leo, a rival",
+            "label": "Leo, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -664,7 +664,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Leo has chosen his cause, and he will do what is necessary to preserve it.",
+            "description": "Leo escolheu a sua causa e fará o que for necessário para a preservar.",
             "xtriggers": {
                 "rival_promotion": "leo_r_d",
                 "killmortal": "corpse",
@@ -676,7 +676,7 @@
         {
             "id": "natalia_r_c",
             "icon": "natalia_r",
-            "label": "Natalia, a renegade",
+            "label": "Natalia, uma renegada",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -684,7 +684,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Natalia has learnt truths that were too long hidden. In consequence, she has adjusted her agenda.",
+            "description": "Natalia aprendeu verdades que se esconderam há demasiado tempo, pelo que ajustou a sua agenda.",
             "xtriggers": {
                 "rival_promotion": "natalia_r_d",
                 "killmortal": "corpse",
@@ -696,7 +696,7 @@
         {
             "id": "neville_r_c",
             "icon": "neville_r",
-            "label": "Neville, a rival",
+            "label": "Neville, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -704,7 +704,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Neville knows this can't last. But while it does, by God, he will open whatever doors present themselves.",
+            "description": "Neville sabe que isto não pode durar. Mas enquanto ele, por Deus, ele abrirá quaisquer portas que se apresentem.",
             "xtriggers": {
                 "rival_promotion": "neville_r_d",
                 "killmortal": "corpse",
@@ -716,7 +716,7 @@
         {
             "id": "porter_r_c",
             "icon": "porter_r",
-            "label": "Porter, a rival",
+            "label": "Porto, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -724,7 +724,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Porter has begun to collect names.",
+            "description": "O portador começou a coletar nomes.",
             "xtriggers": {
                 "rival_promotion": "porter_r_d",
                 "killmortal": "corpse",
@@ -744,7 +744,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Renira likes to convert admirers into worshippers.",
+            "description": "Renira gosta de converter admiradores em adoradores.",
             "xtriggers": {
                 "rival_promotion": "renira_r_d",
                 "killmortal": "corpse",
@@ -756,7 +756,7 @@
         {
             "id": "rose_r_c",
             "icon": "rose_r",
-            "label": "Rose, a rival",
+            "label": "Rose, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -764,7 +764,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Rose has long since ceased to fear her enemies.",
+            "description": "Desde há muito que a Rosa deixou de temer seus inimigos.",
             "xtriggers": {
                 "rival_promotion": "rose_r_d",
                 "killmortal": "corpse",
@@ -784,7 +784,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Saliba does not tolerate boredom.",
+            "description": "Saliba não tolera tédio.",
             "xtriggers": {
                 "rival_promotion": "saliba_r_d",
                 "killmortal": "corpse",
@@ -796,7 +796,7 @@
         {
             "id": "slee_r_c",
             "icon": "slee_r",
-            "label": "Slee, a rival",
+            "label": "Lugar, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -804,7 +804,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Slee is always hungry for resources to pursue his theories.",
+            "description": "O sono está sempre com fome de recursos para buscar as teorias dele.",
             "xtriggers": {
                 "rival_promotion": "slee_r_d",
                 "killmortal": "corpse",
@@ -816,7 +816,7 @@
         {
             "id": "spencer_r_c",
             "icon": "spencer_r",
-            "label": "Spencer, a renegade",
+            "label": "Penso, uma renegada",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -824,7 +824,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "For so long, Spencer flirted with these possibilities... and now he's made his decision.",
+            "description": "Por tanto tempo, Spencer flertou com essas possibilidades... e agora ele tomou sua decisão.",
             "xtriggers": {
                 "rival_promotion": "spencer_r_d",
                 "killmortal": "corpse",
@@ -844,7 +844,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Sylvia's agenda is not clear. One suspects it is not clear even to Sylvia.",
+            "description": "A agenda de trabalhos de Sylviana não é clara, pois nem sequer para Sylvia é clara.",
             "xtriggers": {
                 "rival_promotion": "sylvia_r_d",
                 "killmortal": "corpse",
@@ -856,7 +856,7 @@
         {
             "id": "tristan_r_c",
             "icon": "tristan_r",
-            "label": "Tristan, a rival",
+            "label": "Tristan, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -864,7 +864,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Tristan is forging a little kingdom. When fire is necessary, he will use fire.",
+            "description": "Tristan está forjando um pouco de reino. Quando o fogo é necessário, ele vai usar fogo.",
             "xtriggers": {
                 "rival_promotion": "tristan_r_d",
                 "killmortal": "corpse",
@@ -884,7 +884,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Valciane attends to her opposition with the remorseless brio of a youth smashing bottles.",
+            "description": "Valciane está a assistir à sua oposição com o suborno desmoronado de uma garrafa que arrasa jovens.",
             "xtriggers": {
                 "rival_promotion": "valciane_r_d",
                 "killmortal": "corpse",
@@ -896,7 +896,7 @@
         {
             "id": "victor_r_c",
             "icon": "victor_r",
-            "label": "Victor, a rival",
+            "label": "Vitoriosa, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -904,7 +904,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Victor is ready for what may come. All his knives are keen as new soldiers.",
+            "description": "Victor está pronto para o que pode vir. Todas as facas dele estão afiadas como novos soldados.",
             "xtriggers": {
                 "rival_promotion": "victor_r_d",
                 "killmortal": "corpse",
@@ -916,7 +916,7 @@
         {
             "id": "violet_r_c",
             "icon": "violet_r",
-            "label": "Violet, a rival",
+            "label": "Violeta, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -924,7 +924,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Violet has found new hobbies.",
+            "description": "Violeta encontrou novos hobbies.",
             "xtriggers": {
                 "rival_promotion": "violet_r_d",
                 "killmortal": "corpse",
@@ -936,7 +936,7 @@
         {
             "id": "ysabet_r_c",
             "icon": "ysabet_r",
-            "label": "Ysabet, a rival",
+            "label": "Sabet, um rival",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -944,7 +944,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Ysabet waits where she cannot be seen.",
+            "description": "Ysabet espera onde ela não pode ser vista.",
             "xtriggers": {
                 "rival_promotion": "ysabet_r_d",
                 "killmortal": "corpse",
@@ -956,7 +956,7 @@
         {
             "id": "zachary_r_c",
             "icon": "zachary_r",
-            "label": "Zachary, a renegade",
+            "label": "Zacaire, uma renegada",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -964,7 +964,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Zachary has always followed his reasoning wherever it leads: and now, it has led him out of the Suppression Bureau, into a bitter dawn.",
+            "description": "Zachary sempre seguiu o seu raciocínio onde quer que conduza: e agora, levou-o a sair do Gabinete de Supressão, a entrar numa alvorada amarga.",
             "xtriggers": {
                 "rival_promotion": "zachary_r_d",
                 "killmortal": "corpse",
@@ -975,7 +975,7 @@
         },
         {
             "id": "generic_r_d",
-            "label": "A Long in the making",
+            "label": "Um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -983,7 +983,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Someone who's lost all sense of proportion.",
+            "description": "Alguém que perdeu todo o sentido das proporções.",
             "icon": "generic_c_edge",
             "xtriggers": {
                 "killmortal": "corpse",
@@ -994,7 +994,7 @@
         {
             "id": "auclair_r_d",
             "icon": "auclair_r",
-            "label": "Auclair, a Long in the making",
+            "label": "Acoplar, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1002,7 +1002,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Auclair enjoys chess, now more than ever. The black, the white.",
+            "description": "Auclair gosta de xadrez, agora mais do que nunca. O preto, o branco.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1013,7 +1013,7 @@
         {
             "id": "cat_r_d",
             "icon": "cat_r",
-            "label": "Cat Caro, a Long in the making",
+            "label": "Gato Caro, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1021,7 +1021,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "'Cat Caro', she calls herself. Once she was a fortune teller. No-one seems to know exactly what she is now.",
+            "description": "'Gato Caro', ela se chama a si mesma. Uma vez que foi uma caixa de fortuna, parece que ninguém sabe exactamente o que é agora.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1032,7 +1032,7 @@
         {
             "id": "clifton_r_d",
             "icon": "clifton_r",
-            "label": "'Pope' Clifton, a Long in the making",
+            "label": "Clifton 'Papa', um longo trabalho de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1040,7 +1040,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Clifton likes to be addressed as 'your Holiness'. When he is not so addressed, there may be a scene.",
+            "description": "Clifton gosta de ser tratado como \"o seu Holiness\". Quando ele não é tão abordado, pode haver uma cena.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1051,7 +1051,7 @@
         {
             "id": "clovette_r_d",
             "icon": "clovette_r",
-            "label": "Clovette, a Long in the making",
+            "label": "Clovette, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1059,7 +1059,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "It's difficult to dislike Clovette, even when one knows what she's done.",
+            "description": "É difícil não gostar de Clovette, mesmo quando se sabe o que ela fez.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1070,7 +1070,7 @@
         {
             "id": "connie_r_d",
             "icon": "connie_r",
-            "label": "Connie, a Long in the making",
+            "label": "Connie, um longo trabalho de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1078,7 +1078,7 @@
                 "rivalmarks": 3,
                 "suspicious": 1
             },
-            "description": "Connie never could resist a challenge.",
+            "description": "Connie nunca poderia resistir a um desafio.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1089,7 +1089,7 @@
         {
             "id": "dorothy_r_d",
             "icon": "dorothy_r",
-            "label": "Dorothy, a Long in the making",
+            "label": "Doroto, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1097,7 +1097,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Dorothy will not cease. She will never cease. She has vowed as much.",
+            "description": "Doroteia não cessará. Ela nunca cessará. Ela jurou tanto.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1108,7 +1108,7 @@
         {
             "id": "douglas_r_d",
             "icon": "douglas_r",
-            "label": "Douglas, a Long in the Making",
+            "label": "Douglas, um longo na Fabricação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1116,7 +1116,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Douglas has found the fire.",
+            "description": "Douglas encontrou o fogo.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1127,7 +1127,7 @@
         {
             "id": "elridge_r_d",
             "icon": "elridge_r",
-            "label": "Elridge, a Long in the making",
+            "label": "Elridge, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1135,7 +1135,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Elridge's shoes are often spotted with blood.",
+            "description": "Os sapatos de Elridge são frequentemente avistados com sangue.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1145,7 +1145,7 @@
         {
             "id": "enid_r_d",
             "icon": "enid_r",
-            "label": "Enid, a Long in the making",
+            "label": "Enid, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1153,7 +1153,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Enid always sees her enemies coming. All the time.",
+            "description": "Enid sempre vê seus inimigos chegando. O tempo todo.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1164,7 +1164,7 @@
         {
             "id": "laidlaw_r_d",
             "icon": "laidlaw_r",
-            "label": "Laidlaw, a Long in the making",
+            "label": "Laidlaw, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1172,7 +1172,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Laidlaw's schemes are intricate as fern-shadow.",
+            "description": "Os esquemas da Laidlaw's são complexos como fern-shadow.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1183,7 +1183,7 @@
         {
             "id": "leo_r_d",
             "icon": "leo_r",
-            "label": "Leo, a Long in the making",
+            "label": "Leo, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1191,7 +1191,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Leo has chosen his cause, and he will do what is necessary to preserve it.",
+            "description": "Leo escolheu a sua causa e fará o que for necessário para a preservar.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1202,7 +1202,7 @@
         {
             "id": "natalia_r_d",
             "icon": "natalia_r",
-            "label": "Natalia, a Long in the making",
+            "label": "Natalia, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1210,7 +1210,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Natalia has learnt so much, and at such cost. She won't stop now.",
+            "description": "Natalia aprendeu tanto e, a esse custo, não vai parar agora.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1221,7 +1221,7 @@
         {
             "id": "neville_r_d",
             "icon": "neville_r",
-            "label": "Neville, a Long in the making",
+            "label": "Neville, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1229,7 +1229,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Neville knows this can't last. But while it does, by God, he will open whatever doors present themselves.",
+            "description": "Neville sabe que isto não pode durar. Mas enquanto ele, por Deus, ele abrirá quaisquer portas que se apresentem.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1240,7 +1240,7 @@
         {
             "id": "porter_r_d",
             "icon": "porter_r",
-            "label": "Porter, a Long in the making",
+            "label": "Porto, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1248,7 +1248,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Porter has begun to collect names.",
+            "description": "O portador começou a coletar nomes.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1259,7 +1259,7 @@
         {
             "id": "renira_r_d",
             "icon": "renira_r",
-            "label": "Renira, a Long in the making",
+            "label": "Renira, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1267,7 +1267,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Renira likes to convert admirers into worshippers.",
+            "description": "Renira gosta de converter admiradores em adoradores.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1278,7 +1278,7 @@
         {
             "id": "rose_r_d",
             "icon": "rose_r",
-            "label": "Rose, a Long in the making",
+            "label": "Rose, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1286,7 +1286,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Rose has long since ceased to fear her enemies.",
+            "description": "Desde há muito que a Rosa deixou de temer seus inimigos.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1297,7 +1297,7 @@
         {
             "id": "saliba_r_d",
             "icon": "saliba_r",
-            "label": "Saliba, a Long in the making",
+            "label": "Saliba, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1305,7 +1305,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Saliba does not tolerate boredom.",
+            "description": "Saliba não tolera tédio.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1316,7 +1316,7 @@
         {
             "id": "slee_r_d",
             "icon": "slee_r",
-            "label": "Slee, a Long in the making",
+            "label": "Durma, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1324,7 +1324,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Slee is always hungry for resources to pursue his theories.",
+            "description": "O sono está sempre com fome de recursos para buscar as teorias dele.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1335,7 +1335,7 @@
         {
             "id": "spencer_r_d",
             "icon": "spencer_r",
-            "label": "Spencer, a Long in the making",
+            "label": "Pencer, um longo trabalho de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1343,7 +1343,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Spencer will no longer permit anything to be kept from him. Now he approaches the final threshold.",
+            "description": "O Spencer já não permite que nada lhe seja escondido, aproximando-se agora do limiar final.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1354,7 +1354,7 @@
         {
             "id": "sylvia_r_d",
             "icon": "sylvia_r",
-            "label": "Sylvia, a Long in the making",
+            "label": "Silvia, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1362,7 +1362,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Sylvia's agenda is not clear. One suspects it is not clear even to Sylvia.",
+            "description": "A agenda de trabalhos de Sylviana não é clara, pois nem sequer para Sylvia é clara.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1373,7 +1373,7 @@
         {
             "id": "tristan_r_d",
             "icon": "tristan_r",
-            "label": "Tristan, a Long in the making",
+            "label": "Tristan, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1381,7 +1381,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Tristan is forging a little kingdom. When fire is necessary, he will use fire.",
+            "description": "Tristan está forjando um pouco de reino. Quando o fogo é necessário, ele vai usar fogo.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1392,7 +1392,7 @@
         {
             "id": "valciane_r_d",
             "icon": "valciane_r",
-            "label": "Valciane, a Long in the making",
+            "label": "Valciane, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1400,7 +1400,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Valciane attends to her opposition with the remorseless brio of a youth smashing bottles.",
+            "description": "Valciane está a assistir à sua oposição com o suborno desmoronado de uma garrafa que arrasa jovens.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1411,7 +1411,7 @@
         {
             "id": "victor_r_d",
             "icon": "victor_r",
-            "label": "Victor, a Long in the making",
+            "label": "Vitorioso, um longo processo de construção",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1419,7 +1419,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Victor is ready for what may come. All his knives are keen as new soldiers.",
+            "description": "Victor está pronto para o que pode vir. Todas as facas dele estão afiadas como novos soldados.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1430,7 +1430,7 @@
         {
             "id": "violet_r_d",
             "icon": "violet_r",
-            "label": "Violet, a Long in the making",
+            "label": "Violeta, um longo trabalho de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1438,7 +1438,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Violet has found new hobbies.",
+            "description": "Violeta encontrou novos hobbies.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1449,7 +1449,7 @@
         {
             "id": "ysabet_r_d",
             "icon": "ysabet_r",
-            "label": "Ysabet, a Long in the making",
+            "label": "Sabet, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1457,7 +1457,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Ysabet waits where she cannot be seen.",
+            "description": "Ysabet espera onde ela não pode ser vista.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1468,7 +1468,7 @@
         {
             "id": "zachary_r_d",
             "icon": "zachary_r",
-            "label": "Zachary, a Long in the making",
+            "label": "Zachary, um longo processo de criação",
             "aspects": {
                 "mortal": 1,
                 "independent": 1,
@@ -1476,7 +1476,7 @@
                 "rivalmarks": 4,
                 "suspicious": 1
             },
-            "description": "Zachary approaches his inevitable conclusion.",
+            "description": "Zachary aproxima-se de sua conclusão inevitável.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
