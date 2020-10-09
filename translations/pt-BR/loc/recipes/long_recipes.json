@@ -2,9 +2,9 @@
     "recipes": [
         {
             "id": "long.spawn.forge",
-            "label": "Someone has Arrived",
+            "label": "Alguém chegou",
             "actionid": "long",
-            "startdescription": "In candle-flames, in hearth-fires, in the hanging sway of smoke, the omens are certain. A great enemy of our Shaper has come to the city - someone who would prevent our Work.",
+            "startdescription": "Em chamas de vela, em incêndios de lareira, no grito de fumo, os presságios são certos. Um grande inimigo do nosso Shaper veio para a cidade - alguém que impediria nosso trabalho.",
             "deckeffects": {
                 "forgelong": 1
             },
@@ -19,9 +19,9 @@
         },
         {
             "id": "long.spawn.grail",
-            "label": "Someone has Arrived",
+            "label": "Alguém chegou",
             "actionid": "long",
-            "startdescription": "We are warned by the alteration of savours, by the fall of blood-drops, by the prodigal births reported in the dockside districts. A great enemy of our Delight has come to the city - someone who would prevent our Work.",
+            "startdescription": "Somos avisados pela alteração dos sabores, pela queda das gotas de sangue, pelos nascimentos prodigais registados nos distritos portuários. Um grande inimigo de nosso prazer veio para a cidade - alguém que impediria nosso trabalho.",
             "deckeffects": {
                 "graillong": 1
             },
@@ -36,9 +36,9 @@
         },
         {
             "id": "long.spawn.lantern",
-            "label": "Someone has Arrived",
+            "label": "Alguém chegou",
             "actionid": "long",
-            "startdescription": "We are warned by the colours in the sun, by the occlusion of the moon, by the fracture of the lens. A great enemy of our Illuminated One has come to the city - someone who would prevent our Work.",
+            "startdescription": "Somos avisados pelas cores ao sol, pela occisão da lua, pela fractura da lente. Um grande inimigo do nosso Iluminado veio para a cidade - alguém que impediria nossa obra.",
             "deckeffects": {
                 "lanternlong": 1
             },
@@ -53,7 +53,7 @@
         },
         {
             "id": "long.cycle",
-            "label": "Someone is Watching",
+            "label": "Alguém está assistindo",
             "actionid": "long",
             "effects": {
                 "intention.assault": -9,
@@ -63,13 +63,13 @@
                 "strategy.prep": -9,
                 "strategy.prep.delayed": -9
             },
-            "startdescription": "The immortal in the shadows ponders their next move.",
+            "startdescription": "O imortal nas sombras pondera seu próximo passo.",
             "warmup": 60,
             "slots": [
                 {
                     "id": "longlesson",
-                    "label": "Lessons",
-                    "description": "As we provoke our enemy, and as they learn from us, their attacks will grow deadlier.",
+                    "label": "Lições",
+                    "description": "Enquanto nós provocamos nosso inimigo, e conforme eles aprendem conosco, seus ataques ficarão mais mortíferos.",
                     "required": {
                         "long.lesson": 1
                     },
@@ -112,18 +112,18 @@
         {
             "id": "expelspy",
             "actionid": "expelspy",
-            "label": "In from the Night",
+            "label": "Dentro da Noite",
             "requirements": {
                 "follower": 1
             },
-            "startdescription": "Our spy has returned to us.",
+            "startdescription": "O nosso espião voltou.",
             "warmup": 10
         },
         {
             "id": "long.upgrade.might",
             "actionid": "long",
-            "label": "Greater Might",
-            "startdescription": "This Long's Might is increasing.",
+            "label": "Maior Poder",
+            "startdescription": "A Força deste Longo está aumentando.",
             "requirements": {
                 "long.lesson.might": 1
             },
@@ -149,8 +149,8 @@
         {
             "id": "long.upgrade.connections",
             "actionid": "long",
-            "label": "Deeper Connections",
-            "startdescription": "This Long is developing their Connections.",
+            "label": "Conexões Desenvolvidas",
+            "startdescription": "Este tempo está desenvolvendo as suas ligações.",
             "requirements": {
                 "long.lesson.connections": 1
             },
@@ -176,8 +176,8 @@
         {
             "id": "long.upgrade.dreamwork",
             "actionid": "long",
-            "label": "Starlight, Burgeoning",
-            "startdescription": "This Long has found their way deeper into my dreams.",
+            "label": "Luz Estelar, Ardente",
+            "startdescription": "Este longo tempo se encontra mais fundo nos meus sonhos.",
             "requirements": {
                 "long.lesson.dreamwork": 1
             },
@@ -203,8 +203,8 @@
         {
             "id": "long.selectstrategy",
             "actionid": "long",
-            "label": "A Decision",
-            "startdescription": "Our immortal enemy has decided on a course of action.",
+            "label": "Uma Decisão",
+            "startdescription": "Nosso inimigo imortal decidiu um curso de ação.",
             "requirements": {},
             "deckeffects": {
                 "long.strategies": 1
@@ -231,7 +231,7 @@
         },
         {
             "id": "long.preparestrategy.preference.assault",
-            "label": "A Decision",
+            "label": "Uma Decisão",
             "actionid": "long",
             "requirements": {
                 "long.preference.assault": 1
@@ -248,7 +248,7 @@
         },
         {
             "id": "long.preparestrategy.preference.intrigue",
-            "label": "A Decision",
+            "label": "Uma Decisão",
             "actionid": "long",
             "requirements": {
                 "long.preference.intrigue": 1
@@ -265,7 +265,7 @@
         },
         {
             "id": "long.preparestrategy.preference.dreamwork",
-            "label": "A Decision",
+            "label": "Uma Decisão",
             "actionid": "long",
             "requirements": {
                 "long.preference.dreamwork": 1
@@ -283,13 +283,13 @@
         {
             "id": "long.preparestrategy",
             "actionid": "long",
-            "label": "Preparing an Action",
-            "startdescription": "Our immortal enemy is preparing their next action.\n\n[Add a follower strong in <sprite name=knock> <sprite name=lantern> to try to uncover the Long's strategy.\nAdd a follower strong in\n<sprite name=edge> <sprite name=forge> to try to delay Assaults,\n<sprite name=grail> <sprite name=heart> for Intrigues,\n<sprite name=moth> <sprite name=winter> for Starlight attacks.]",
+            "label": "Preparando uma ação",
+            "startdescription": "Nosso inimigo imortal está preparando sua próxima ação.\n\n[Adicione um seguidor forte no <sprite name=knock> <sprite name=lantern> para tentar descobrir a estratégia de longo prazo.\nAdicione um seguidor forte em\n<sprite name=edge> <sprite name=forge> para tentar atrasar os ataques,\n<sprite name=grail> <sprite name=heart> para Intrigues,\n<sprite name=moth> <sprite name=winter> para ataques Starlight.]",
             "slots": [
                 {
                     "id": "spy",
-                    "label": "Spy",
-                    "description": "Spies can learn of the Long's plans. If you know or guess the nature of those plans, the right spies can delay them.",
+                    "label": "Espião",
+                    "description": "Espiões podem aprender os planos de Long. Se você conhece ou adivinhar a natureza desses planos, os espiões certos podem atrasá-los.",
                     "required": {
                         "follower": 1
                     }
@@ -528,50 +528,50 @@
         {
             "id": "expelallspies",
             "actionid": "expelallspies",
-            "label": "Because We Are Too Many",
+            "label": "Porque somos muitos",
             "requirements": {
                 "follower": 3
             },
-            "startdescription": "Our enemy is vigilant. We've sent too many watchers - if we send more than two, all will fail.",
+            "startdescription": "Nosso inimigo é vigilante. Já enviamos muitos observadores - se enviarmos mais de dois, tudo falhará.",
             "warmup": 10
         },
         {
             "id": "expelallspies_beforeconfrontation.might",
             "actionid": "expelallspies",
-            "label": "Before the Storm",
+            "label": "Antes da Tempestade",
             "requirements": {
                 "long.might": 10,
                 "follower": 1
             },
-            "startdescription": "Our enemy is almost ready to attack us directly. We've recalled our spies.",
+            "startdescription": "Nosso inimigo está quase pronto para nos atacar diretamente. Nós revogamos nossos espiões.",
             "warmup": 10
         },
         {
             "id": "expelallspies_beforeconfrontation.connections",
             "actionid": "expelallspies",
-            "label": "Before the Storm",
+            "label": "Antes da Tempestade",
             "requirements": {
                 "long.connections": 10,
                 "follower": 1
             },
-            "startdescription": "Our enemy is almost ready to attack us directly. We've recalled our spies.",
+            "startdescription": "Nosso inimigo está quase pronto para nos atacar diretamente. Nós revogamos nossos espiões.",
             "warmup": 10
         },
         {
             "id": "expelallspies_beforeconfrontation.dreamwork",
             "actionid": "expelallspies",
-            "label": "Before the Storm",
+            "label": "Antes da Tempestade",
             "requirements": {
                 "long.dreamwork": 10,
                 "follower": 1
             },
-            "startdescription": "Our enemy is almost ready to attack us directly. We've recalled our spies.",
+            "startdescription": "Nosso inimigo está quase pronto para nos atacar diretamente. Nós revogamos nossos espiões.",
             "warmup": 10
         },
         {
             "id": "long.spyonstrategy.success",
             "actionid": "long",
-            "label": "A Report from our Spy",
+            "label": "Um relatório do nosso Espião",
             "alt": [
                 {
                     "id": "long.revealidentity.success.might"
@@ -587,7 +587,7 @@
                 "follower": 1,
                 "strategy.revealed": -1
             },
-            "startdescription": "The shape of the Long's strategy is coming clear.",
+            "startdescription": "A forma da estratégia de Longa está a tornar-se clara.",
             "aspects": {
                 "revealstrategy": 1
             },
@@ -602,7 +602,7 @@
         {
             "id": "long.revealidentity.success.might",
             "actionid": "long",
-            "label": "Our Enemy's Identity",
+            "label": "Identidade do nosso inimigo",
             "requirements": {
                 "follower": 1,
                 "julian": -1,
@@ -620,7 +620,7 @@
         {
             "id": "long.revealidentity.success.connections",
             "actionid": "long",
-            "label": "Our Enemy's Identity",
+            "label": "Identidade do nosso inimigo",
             "requirements": {
                 "follower": 1,
                 "julian": -1,
@@ -638,7 +638,7 @@
         {
             "id": "long.revealidentity.success.dreamwork",
             "actionid": "long",
-            "label": "Our Enemy's Identity",
+            "label": "Identidade do nosso inimigo",
             "requirements": {
                 "follower": 1,
                 "julian": -1,
@@ -656,8 +656,8 @@
         {
             "id": "long.revealidentity.success",
             "actionid": "long",
-            "label": "Our Enemy's Identity",
-            "startdescription": "@#welland_unknown|Our enemy is one Captain Welland, a Forge-long who has fought under many names in many wars. He has demonstrated allegiance to both the Lionsmith and the Forge of Days. He has a preference for direct assault, but he is no simple soldier.\n@#tryphon_unknown|Our enemy is one Lady Tryphon, a Grail-long who has left a trail of broken souls through the best hotels on the Continent. She is beloved of the Grail and the Flowermaker. She inclines to intrigue, but she is no stranger to violence.\n#diarist_unknown|Our enemy is the Lantern-long called the Diarist, who like all his kind abandoned physical form for the Mansus. He has known the favour of the Colonel and the Meniscate. He will prefer to strike at us through dreams, but never doubt he also has allies in the waking world.\n#julian_unknown|Our enemy is a Winter-long identified by the initials 'J.C'. His motives are obscure: he has always professed alignment with the Obliviates and their successors, who have no truck with the wars of the Hours. But here he is, to spoil our day.@",
+            "label": "Identidade do nosso inimigo",
+            "startdescription": "@#welland_unknownalone. Nosso inimigo é um capitão Welland, um forge que lutou sob muitos nomes em muitas guerras. Demonstrou lealdade tanto ao Ferreiro como à Forja de Dias. Ele prefere assaltar directamente, mas não é um soldado simples.\n@#tryphon_unknown├Nosso inimigo é uma Dama Tryphon, uma Lady Tryphon, uma Vila que deixou um rastro de almas quebradas através dos melhores hotéis do Continente. Ela se ama do Grail e do Flowermaker. Ela inclina-se para ficar intrigada, mas não é desconhecida da violência.\n#diarist_unknown├Nosso inimigo é o Lanterna chamado de Diarista, que gosta de toda a sua forma física abandonada para o Mansus. Ele conheceu o favor do Coronel e do Meniscate. Irá preferir atacar-nos através de sonhos, mas nunca duvidar de que também tem aliados no mundo da vigília.\n#julian_unknown➲ Nosso inimigo é um Winterlong identificado pelas iniciais 'J.C'. Os seus motivos são obscuros: sempre fez o alinhamento com os esquecidos e os seus sucessores, que não têm nada a ver com as guerras das horas. Mas aqui está ele para estragar o nosso dia.@",
             "aspects": {
                 "revealidentity": 1
             },
@@ -672,8 +672,8 @@
         {
             "id": "long.delayaction.success.assault",
             "actionid": "long",
-            "label": "An Assault Delayed",
-            "startdescription": "We divined that the Long intended to launch an assault; we've delayed it a little. [This is only possible once each action.]",
+            "label": "Um assalto atrasado",
+            "startdescription": "Ventamos que a Longa pretendia lançar um ataque; atrasamos um pouco. [Isso só é possível uma vez cada ação.]",
             "requirements": {
                 "follower": 1,
                 "strategy.prep": 1,
@@ -698,8 +698,8 @@
         {
             "id": "long.delayaction.success.intrigue",
             "actionid": "long",
-            "label": "An Intrigue Delayed!",
-            "startdescription": "We divined that the Long intended to launch an intrigue; we've delayed it a little. [This is only possible once each action.]",
+            "label": "Um intrigo atrasado!",
+            "startdescription": "Vimos que a Longa pretendia lançar uma intrincada; atrasamos um pouco. [Isso só é possível uma vez cada ação.]",
             "requirements": {
                 "follower": 1,
                 "strategy.prep": 1,
@@ -724,8 +724,8 @@
         {
             "id": "long.delayaction.success.dreams",
             "actionid": "long",
-            "label": "The Moon, Occluded",
-            "startdescription": "We divined that the Long intended to come at us through our dreams; we've delayed that a little. [This is only possible once each action.]",
+            "label": "A Lua, ocorrida",
+            "startdescription": "Invencemos que a Longa tencionava vir até nós através de nossos sonhos; atrasamos um pouco. [Isso só é possível uma vez cada ação.]",
             "requirements": {
                 "follower": 1,
                 "strategy.prep": 1,
@@ -750,9 +750,9 @@
         {
             "id": "long.delayaction.success",
             "actionid": "long",
-            "label": "Our Spy Has Delayed Our Enemy",
+            "label": "Nosso Espião Atrasou Nosso Inimigo",
             "comments": "This generic recipe is included only for backwards compatibility with beta folks",
-            "startdescription": "They can slow the Long's action, though not prevent it. [This is only possible once each action.]",
+            "startdescription": "Eles podem atrasar a ação de Long, mas não a impedir. [Isto só é possível uma vez cada ação.]",
             "requirements": {
                 "follower": 1,
                 "strategy.prep": 1,
