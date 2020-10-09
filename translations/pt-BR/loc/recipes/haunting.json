@@ -6,7 +6,7 @@
             "requirements": {
                 "devourer": 1
             },
-            "startdescription": "It's free!",
+            "startdescription": "É grátis!",
             "warmup": 0,
             "linked": [
                 {
@@ -21,14 +21,14 @@
         },
         {
             "id": "summoning_haunt_devourer_eatsmortal",
-            "label": "A Lurking Devourer",
+            "label": "Um Devorador Agudo",
             "actionid": "haunting",
-            "startdescription": "Your escaped summoning haunts the district, seeking mortals to devour. [The higher the Devourer aspect, the more likely it is to harm a mortal.]",
-            "description": "The thing you conjured has returned to its own place. It will do you no more harm, for now.",
+            "startdescription": "O seu convocador escapou assombra o distrito, buscando mortais para devorar. [Quanto maior o aspecto do Devorador, maior a probabilidade de ele prejudicar um mortal.]",
+            "description": "O que você congregou voltou ao seu próprio lugar. Não lhe causará mais dano, por enquanto.",
             "slots": [
                 {
                     "id": "Consuming",
-                    "label": "Consuming",
+                    "label": "Consumindo",
                     "required": {
                         "mortal": 1
                     },
@@ -54,10 +54,10 @@
         },
         {
             "id": "devourer_haunting_mortal_highdevourer",
-            "label": "An Escaped Summoning Closes on its Victim",
+            "label": "Um Escape Invocador Fecha em sua Vitória",
             "actionid": "haunting",
-            "startdescription": "Closer with each sweep of the clock's hand, like a circling wind, like the river's coil.",
-            "description": "Death comes unseen, but not unheard.",
+            "startdescription": "Mais perto com cada varredura da mão do relógio, como um vento em círculo, como a bobina do rio.",
+            "description": "A morte vem invisível, mas não inaudível.",
             "requirements": {
                 "mortal": 1,
                 "devourer": 10
@@ -76,10 +76,10 @@
         },
         {
             "id": "devourer_haunting_mortal_middevourer",
-            "label": "An Escaped Summoning Closes on its Victim",
+            "label": "Um Escape Invocador Fecha em sua Vitória",
             "actionid": "haunting",
-            "startdescription": "The victim will know that something is amiss, by now. They will listen to the sounds in the night and try to make preparations.",
-            "description": ". devourer_haunting_mortal_middevourer",
+            "startdescription": "A vítima saberá que neste momento há algo de errado e que ouvirão os sons durante a noite e tentarão fazer os preparativos.",
+            "description": ". devorador_tal_mortal_middevourer",
             "requirements": {
                 "mortal": 1,
                 "devourer": 5
@@ -98,10 +98,10 @@
         },
         {
             "id": "devourer_haunting_mortal_lowdevourer",
-            "label": "An Escaped Summoning Closes on its Victim",
+            "label": "Um Escape Invocador Fecha em sua Vitória",
             "actionid": "haunting",
-            "startdescription": "This thing is only a moderate menace, but even a moderate menace can be lethal sometimes.",
-            "description": ". devourer_haunting_mortal_lowdevourer",
+            "startdescription": "Trata-se apenas de uma ameaça moderada, mas até mesmo uma ameaça moderada pode ser letal às vezes.",
+            "description": ". devorador_tal_mortal_lowdevourer",
             "requirements": {
                 "mortal": 1
             },
@@ -120,10 +120,10 @@
         },
         {
             "id": "devourer_haunting_mortal_success",
-            "label": "An Escaped Summoning has Claimed a Victim",
+            "label": "Um Invocador Escaído reivindicou uma Vitória",
             "actionid": "haunting",
             "startdescription": ".",
-            "description": "The first rays of the day's sun will fall on the open eyes of a corpse. There is often a price for an unwise summoning: but it is not always the summoner who pays it.",
+            "description": "Os primeiros raios do sol de um dia cairão sobre os olhos abertos de um cadáver. Muitas vezes, há um preço para uma invocação pouco sensata, mas nem sempre é o convocador que a paga.",
             "aspects": {
                 "killmortal": 1,
                 "killsummoned": 1
@@ -134,10 +134,10 @@
         },
         {
             "id": "devourer_haunting_mortal_failure",
-            "label": "An Escaped Summoning has visited Horror upon its Victim",
+            "label": "Um Invocador Escaído visitou Horror em sua vitória",
             "actionid": "haunting",
             "startdescription": ".",
-            "description": "The victim has survived, after all! but the story of this night will spread like a stain.",
+            "description": "Afinal de contas, a vítima sobreviveu! Mas a história desta noite irá propagar-se como um fracasso.",
             "effects": {
                 "notoriety": 1
             },
@@ -147,14 +147,14 @@
         },
         {
             "id": "summoning_haunt_devourer_damages_health",
-            "label": "A Lurking Devourer",
+            "label": "Um Devorador Agudo",
             "actionid": "haunting",
-            "startdescription": "Your escaped summoning will attempt to take something from you, before it returns to the place beneath the world's skin. [The higher the Devourer aspect, the more likely it is to damage you.]",
-            "description": "The thing you conjured has returned to its own place. It will do you no more harm, for now.",
+            "startdescription": "Sua invocação escapará tentará pegar algo de você, antes que ele volte para o lugar debaixo da pele do mundo. [Quanto maior o aspecto do Devorador, maior a probabilidade de danificar você.]",
+            "description": "O que você congregou voltou ao seu próprio lugar. Não lhe causará mais dano, por enquanto.",
             "slots": [
                 {
                     "id": "consuming",
-                    "label": "Consuming",
+                    "label": "Consumindo",
                     "required": {
                         "health": 1
                     },
@@ -184,9 +184,9 @@
         },
         {
             "id": "devourer_haunting_damageshealth_highdevourer",
-            "label": "An Escaped Summoning Awaits Its Moment",
+            "label": "Um Eclesiado Invocador Espera Seu Momento",
             "actionid": "haunting",
-            "startdescription": "Is it toying with me?",
+            "startdescription": "Ele está brincando comigo?",
             "description": ".",
             "requirements": {
                 "health": 1,
@@ -206,9 +206,9 @@
         },
         {
             "id": "devourer_haunting_damageshealth_middevourer",
-            "label": "An Escaped Summoning Lies in Wait for you",
+            "label": "Uma Encapsada Invocadora Está Esperando por você",
             "actionid": "haunting",
-            "startdescription": "There are so many ways to undo a human body. My skin feels vulnerable as an open door.",
+            "startdescription": "Há tantas maneiras de desfazer um corpo humano. Minha pele se sente vulnerável como uma porta aberta.",
             "description": ". devourer_haunting_damageshealth_middevourer",
             "requirements": {
                 "health": 1,
@@ -228,10 +228,10 @@
         },
         {
             "id": "devourer_haunting_damageshealth_lowdevourer",
-            "label": "An Escaped Summoning Lies in Wait for you",
+            "label": "Uma Encapsada Invocadora Está Esperando por você",
             "actionid": "haunting",
-            "startdescription": "I will watch the windows and bolt the doors and keep oak and silver by the bed. That might be sufficient.",
-            "description": ". devourer_haunting_damageshealth_lowdevourer",
+            "startdescription": "Vou ver as janelas e abrir as portas e manter o carvalho e a prata até à cama. Isso pode ser suficiente.",
+            "description": ". devorador_causa_danos_saudáveis_baixa",
             "requirements": {
                 "health": 1
             },
@@ -250,10 +250,10 @@
         },
         {
             "id": "devourer_haunting_damageshealth_success",
-            "label": "An Escaped Summoning has Savaged You",
+            "label": "Um Invocador Escaído salvou você",
             "actionid": "haunting",
             "startdescription": ".",
-            "description": "I will bear a scar, of the kind that one day might be photographed for a museum. And the neighbours will talk; how they will talk.",
+            "description": "Eu vou usar uma cicatriz, do tipo que um dia poderá ser fotografada para um museu. E os vizinhos falarão, como falarão.",
             "aspects": {
                 "damagehealth": 1,
                 "killsummoned": 1
@@ -264,10 +264,10 @@
         },
         {
             "id": "devourer_haunting_damageshealth_failure",
-            "label": "An Escaped Summoning Has Not Prevailed Against You",
+            "label": "Um Invocador Escaído Não Previa Contra Você",
             "actionid": "haunting",
             "startdescription": ".",
-            "description": "I was too much for it! But I couldn't deal with it in silence. People will talk.",
+            "description": "Eu era demais por isso! Mas eu não podia lidar com isso em silêncio. As pessoas vão falar.",
             "effects": {
                 "notoriety": 1
             },
@@ -281,7 +281,7 @@
             "requirements": {
                 "deceiver": 1
             },
-            "startdescription": "It's free!",
+            "startdescription": "É grátis!",
             "warmup": 0,
             "linked": [
                 {
@@ -293,14 +293,14 @@
         },
         {
             "id": "summoning_haunt_deceiver_derangesreason",
-            "label": "A Lurking Deceiver",
+            "label": "Uma Descida Espreitadora",
             "actionid": "haunting",
-            "startdescription": "Your escaped summoning haunts you, seeking to drive you to despair -",
-            "description": "The thing you conjured has returned to its own place. It will do you no more harm, for now.",
+            "startdescription": "Seu apelo escapou persegue-lo, procurando levá-lo ao desespero -",
+            "description": "O que você congregou voltou ao seu próprio lugar. Não lhe causará mais dano, por enquanto.",
             "slots": [
                 {
                     "id": "Consuming",
-                    "label": "Consuming",
+                    "label": "Consumindo",
                     "required": {
                         "reason": 1
                     },
@@ -330,9 +330,9 @@
         },
         {
             "id": "deceiver_haunting_reason_highdeceiver",
-            "label": "An Escaped Summoning Lies in Wait for you",
+            "label": "Uma Encapsada Invocadora Está Esperando por você",
             "actionid": "haunting",
-            "startdescription": "Human sanity is fragile, and this thing is all but irresistible.",
+            "startdescription": "A sanidade humana é frágil, e isto é tudo menos irresistível.",
             "description": ".",
             "requirements": {
                 "reason": 1,
@@ -351,10 +351,10 @@
         },
         {
             "id": "deceiver_haunting_reason_middeceiver",
-            "label": "An Escaped Summoning Lies in Wait for you",
+            "label": "Uma Encapsada Invocadora Está Esperando por você",
             "actionid": "haunting",
-            "startdescription": "Human sanity is fragile, and this thing is potent.",
-            "description": ". deceiver_haunting_reason_middeceiver",
+            "startdescription": "A sanidade humana é frágil, e isto é potenta.",
+            "description": ". decever_haunting_reasono_middeceiver",
             "requirements": {
                 "reason": 1,
                 "deceiver": 5
@@ -372,10 +372,10 @@
         },
         {
             "id": "deceiver_haunting_reason_lowdeceiver",
-            "label": "An Escaped Summoning Lies in Wait for you",
+            "label": "Uma Encapsada Invocadora Está Esperando por você",
             "actionid": "haunting",
-            "startdescription": "Human sanity is fragile, but perhaps this thing might cause more mischief than harm.",
-            "description": ". deceiver_haunting_reason_lowedge",
+            "startdescription": "A sanidade humana é frágil, mas talvez isto possa causar mais mal-estar do que mal.",
+            "description": ". enganar_camarada_de_base_de_raciocínio",
             "requirements": {
                 "reason": 1
             },
@@ -393,10 +393,10 @@
         },
         {
             "id": "deceiver_haunting_reason_success",
-            "label": "An Escaped Summoning has Ravaged your Dreams",
+            "label": "Um Invocador Escaído Ravou os seus Sonhos",
             "actionid": "haunting",
             "startdescription": ".",
-            "description": "The events of that night will live long in your memory; and for days, the newspapers question residents of the district.",
+            "description": "Os acontecimentos dessa noite ficarão muito longos na sua memória; e durante dias, os jornais questionam os residentes da região.",
             "aspects": {
                 "damagereason": 1,
                 "killsummoned": 1
@@ -407,10 +407,10 @@
         },
         {
             "id": "deceiver_haunting_reason_failure",
-            "label": "An Escaped Summoning has Failed to Break your Resolve",
+            "label": "Um Invocador Escaído Falhou ao Quebrar sua Resolução",
             "actionid": "haunting",
             "startdescription": ".",
-            "description": "The events of that night will live long in your memory; but the thing from beyond the Wake is no match for you. For days, however, the newspapers question residents of the district.",
+            "description": "Os eventos daquela noite irão viver muito tempo na sua memória; mas a coisa de além do Wake não é páreo para você. Durante dias, porém, os jornais questionam os residentes da região.",
             "effects": {
                 "notoriety": 1
             },
@@ -420,10 +420,10 @@
         },
         {
             "id": "summoning_haunt_deceiver_derangesmortal",
-            "label": "A Lurking Deceiver",
+            "label": "Uma Descida Espreitadora",
             "actionid": "haunting",
-            "startdescription": "Your escaped summoning haunts the district, seeking mortals to derange.",
-            "description": "The thing you conjured has returned to its own place. It will do you no more harm, for now.",
+            "startdescription": "O teu que escapou persegue o distrito, procurando mortais para descarrilar.",
+            "description": "O que você congregou voltou ao seu próprio lugar. Não lhe causará mais dano, por enquanto.",
             "effects": {
                 "notoriety": 1
             },
@@ -433,7 +433,7 @@
             "slots": [
                 {
                     "id": "Consuming",
-                    "label": "Consuming",
+                    "label": "Consumindo",
                     "required": {
                         "mortal": 1
                     },
@@ -459,9 +459,9 @@
         },
         {
             "id": "deceiver_haunting_mortal_highedge",
-            "label": "An Escaped Summoning Closes on its Victim",
+            "label": "Um Escape Invocador Fecha em sua Vitória",
             "actionid": "haunting",
-            "startdescription": "Human sanity is fragile, and this thing is all but irresistible.",
+            "startdescription": "A sanidade humana é frágil, e isto é tudo menos irresistível.",
             "description": ".",
             "requirements": {
                 "mortal": 1,
@@ -480,10 +480,10 @@
         },
         {
             "id": "deceiver_haunting_mortal_midedge",
-            "label": "An Escaped Summoning Closes on its Victim",
+            "label": "Um Escape Invocador Fecha em sua Vitória",
             "actionid": "haunting",
-            "startdescription": "Human sanity is fragile, and this thing is potent.",
-            "description": ". deceiver_haunting_mortal_midedge",
+            "startdescription": "A sanidade humana é frágil, e isto é potenta.",
+            "description": ". enganador_com_mortal_médio",
             "requirements": {
                 "mortal": 1,
                 "edge": 5
@@ -501,10 +501,10 @@
         },
         {
             "id": "deceiver_haunting_mortal_lowedge",
-            "label": "An Escaped Summoning Closes on its Victim",
+            "label": "Um Escape Invocador Fecha em sua Vitória",
             "actionid": "haunting",
-            "startdescription": "Human sanity is fragile, but perhaps this thing might cause more mischief than harm.",
-            "description": ". deceiver_haunting_mortal_lowedge",
+            "startdescription": "A sanidade humana é frágil, mas talvez isto possa causar mais mal-estar do que mal.",
+            "description": ". enganador_tal_mortal_inferior",
             "requirements": {
                 "mortal": 1,
                 "edge": 1
@@ -522,10 +522,10 @@
         },
         {
             "id": "deceiver_haunting_mortal_success",
-            "label": "An Escaped Summoning has visited Horror upon its Victim",
+            "label": "Um Invocador Escaído visitou Horror em sua vitória",
             "actionid": "haunting",
             "startdescription": ".",
-            "description": "Only the strongest mind could survive this. The newspapers will have a peculiar story to tell.",
+            "description": "Só a mente mais forte poderia sobreviver a isto. Os jornais terão uma história peculiar para contar.",
             "aspects": {
                 "derangemortal": 1,
                 "killsummoned": 1
@@ -536,10 +536,10 @@
         },
         {
             "id": "deceiver_haunting_mortal_failure",
-            "label": "An Escaped Summoning has visited Horror upon its Victim",
+            "label": "Um Invocador Escaído visitou Horror em sua vitória",
             "actionid": "haunting",
             "startdescription": ".",
-            "description": "Its victim's resolve remains unbroken. The newspapers will have a peculiar story to tell.",
+            "description": "A determinação da sua vítima permanece inabalável. Os jornais terão uma história peculiar para contar.",
             "effects": {
                 "notoriety": 1
             },
