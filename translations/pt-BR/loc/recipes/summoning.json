@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "summon_spirit_wintera_edge",
-            "label": "Call on the Cartographer of Scars to raise a corpse to half-life",
+            "label": "Chame o Cartógrafo dos Cachorros para levantar um cadáver para metade da vida",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -14,8 +14,8 @@
             "aspects": {
                 "raiseshattered": 1
             },
-            "startdescription": "A shattering force will infuse its flesh, so that it joins the Shattered Risen. I must begin the process. I will ready my hammer.",
-            "description": "The corpse lurches groaning to its feet: or what is left of its feet. I have conjured a Shattered Risen.",
+            "startdescription": "Uma força estilhaçada irá infundir sua carne para que ela se junte às Riscas Partidas. Devo começar o processo. Prepararei meu martelo.",
+            "description": "O cadáver se esconde subjugados aos seus pés: ou o que sobrou de seus pés. Eu confundi uma Destruição Partida.",
             "warmup": 60,
             "craftable": true,
             "comments": "it's possible for a corpse to have a negative follower mutation - eg, if the follower is wounded. Let's strip it out, just in case. We could add a mutation to lose any outstanding wounds too, but I'm leery of messing too much.",
@@ -29,7 +29,7 @@
         },
         {
             "id": "summon_spirit_wintera_moth",
-            "label": "Call on the Ring-Yew to raise a corpse to half-life",
+            "label": "Chame o Ring-Yew para criar um cadáver para meia vida",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -41,8 +41,8 @@
             "aspects": {
                 "raiseburgeoning": 1
             },
-            "startdescription": "First I must plant the seeds: under the eyelids, under the tongue, in all the secret openings of the body. It will awaken as a Burgeoning Risen.",
-            "description": "The corpse sways to its feet. Its eyes struggle open. Sap trickles from its mouth. It burgeons; it has risen.",
+            "startdescription": "Primeiro, devo plantar as sementes: debaixo das pálpebras, sob a língua, em todas as aberturas secretas do corpo. Ele será acordado como um incêndio emergente.",
+            "description": "O cadáver passa pelos pés. Seus olhos têm dificuldade em abrir. Seibras de sua boca. Ele floresceu; cresceu.",
             "warmup": 60,
             "craftable": true,
             "comments": "it's possible for a corpse to have a negative follower mutation - eg, if the follower is wounded. Let's strip it out, just in case. We could add a mutation to lose any outstanding wounds too, but I'm leery of messing too much.",
@@ -56,7 +56,7 @@
         },
         {
             "id": "renew_spirit_wintera_edge",
-            "label": "Call on the Cartographer of Scars to renew a corpse's half-life",
+            "label": "Chame o Cartógrafo dos Ciclos para renovar a meia-vida de um cadáver",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -68,14 +68,14 @@
             "aspects": {
                 "renewshattered": 1
             },
-            "startdescription": "This is not really a rite of renewal - more of deferral. Winter can be delayed, but not denied.",
-            "description": "The processes of decay are retarded - the motile energies re-engaged. The corpse will walk another ten hundred steps before it fails.",
+            "startdescription": "Este não é realmente um ritual de renovação - mais delongas. O inverno pode ser atrasado, mas não negado.",
+            "description": "Os processos de decaimento são retardados - as energias de humor engajadas novamente. O cadáver irá andar mais dezentos passos antes que falhe.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "renew_spirit_wintera_moth",
-            "label": "Call on the Ring-Yew to renew a corpse's half-life",
+            "label": "Chame o Ring-Yew para renovar a meia-vida do cadáver",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -87,14 +87,14 @@
             "aspects": {
                 "renewburgeoning": 1
             },
-            "startdescription": "The new life within the corpse struggles to be free. I will contain it a little longer.",
-            "description": "The light in the corpse's eyes grows less wild. Its tendrils are quelled. For a moment, I think it will speak.",
+            "startdescription": "A nova vida dentro das lutas por ser grátis. Contê-la-ei um pouco mais.",
+            "description": "A luz nos olhos do cadáver fica menos selvagem. Seus galhos estão amordaçados. Por um momento, acho que falará.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "summon_spirit_forgee_edge",
-            "label": "Summon one of the Name-emanations of the Forge of Days",
+            "label": "Invoque uma das emanações de nomes da Forja de Dias",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -112,7 +112,7 @@
             "effects": {
                 "pre.spirit_forgee_edge": 1
             },
-            "startdescription": "King Crucible will come only when the room glows with the aspect called Forge. He also requires a Lantern, for the light of the Glory that he claims to know.",
+            "startdescription": "O Rei Crisol só virá quando o quarto brilhar com o aspecto chamado Forge. Exige também uma Lanterna, para a luz da Glória que afirma conhecer.",
             "warmup": 60,
             "craftable": true,
             "linked": [
@@ -127,15 +127,15 @@
         },
         {
             "id": "summon_spirit_forgee_edge.success",
-            "label": "Summon one of the Name-emanations of the Forge of Days",
+            "label": "Invoque uma das emanações de nomes da Forja de Dias",
             "actionid": "work",
-            "description": "He can hide in a candle-flame if he must. But here he is in all his bonfire pomp. After I speak with him, the skin of my face and hands will be pink as if from too much sun.",
+            "description": "Ele pode se esconder em uma chama de vela, se necessário. Mas aqui está em todo o seu pompa de fogueira. Depois de falar com ele, a pele do meu rosto e das minhas mãos ficarão cor-de-rosa como se estivéssemos com sol demais.",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "summon_spirit_graile_edge",
-            "label": "Summon one of the Name-emanations of the Red Grail",
+            "label": "Invoque uma das nomeações do túmulo vermelho",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -152,7 +152,7 @@
             "effects": {
                 "pre.spirit_graile_edge": 1
             },
-            "startdescription": "Ezeem may enter only where the Grail's power is strong; and it will choose to enter only when invoked with the Forge, with which it has flirted so often. ",
+            "startdescription": "Ezeem pode entrar apenas onde o poder do Grail. e optará por entrar apenas quando invocado com o Forge, com o qual ele tem flertado tantas vezes. ",
             "warmup": 60,
             "craftable": true,
             "linked": [
@@ -167,15 +167,15 @@
         },
         {
             "id": "summon_spirit_graile_edge.success",
-            "label": "Summon one of the Name-emanations of the Red Grail",
+            "label": "Invoque uma das nomeações do túmulo vermelho",
             "actionid": "work",
-            "description": "So many rich aromas, like a feast upon the air! but first, and mostly, blood.",
+            "description": "Tantas aromas ricos, como um banquete no ar! Mas, primeiro, e sobretudo, sangue.",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "summon_spirit_lanterne_secret",
-            "label": "Summon the mysterious Name known as the Baldomerian",
+            "label": "Invocar o nome misterioso conhecido como Baldomeriano",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -192,15 +192,15 @@
             "effects": {
                 "pre.spirit_lanterne_secret": 1
             },
-            "startdescription": "A mighty force of Lantern to draw the Baldomerian's attention, and a teasing taste of secrets to bring her closer.",
-            "description": "The Baldomerian has the hunched shoulders of a scholar, the clear voice of a school-teacher, and the freckles of a traveller on the Continent. She lacks a shadow.",
+            "startdescription": "Uma poderosa força de Lanterna para chamar a atenção de Baldomerian, e um sabor rasgante de segredos para a aproximar.",
+            "description": "O Baldomeriano tem os ombros perseguidos de um estudioso, a voz clara de um professor de escola e os sardos de um viajante no Continente. Ela carece de sombra.",
             "warmup": 60,
             "craftable": true,
             "comments": "Teresa doesn't struggle; she's always up for a chat"
         },
         {
             "id": "summon_spirit_forgec_winter",
-            "label": "Summon a creature of smoky deception",
+            "label": "Invoque uma criatura de decepção suave",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -212,7 +212,7 @@
             "effects": {
                 "pre.spirit_forgec_winter": 1
             },
-            "startdescription": "Forge for the smoky spirit's summoning, Winter for its binding. It must know who will rule it.",
+            "startdescription": "Forja para invocar o Espírito Esfumado, Inverno para sua vinculação. Ele precisa saber quem o governará.",
             "warmup": 60,
             "craftable": true,
             "linked": [
@@ -227,15 +227,15 @@
         },
         {
             "id": "summon_spirit_forgec_winter.success",
-            "label": "Summon a creature of smoky deception",
+            "label": "Invoque uma criatura de decepção suave",
             "actionid": "work",
-            "description": "Not all the Forge's children are bright. Its offcuts and its bastards gather in the Bounds like hammerscale in the cracks of a smithy floor. Here comes one now.",
+            "description": "Nem todas as crianças da Forge são brilhantes. Seus retornos e seus desgraçados se reúnem nos Limões como escala de martelos nas rachaduras de um chão ferreiro. Agora chega.",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "summon_spirit_grailc_moth",
-            "label": "Summon one of the more bewildering creatures of the Red Grail",
+            "label": "Invoque uma das criaturas mais perplexas do Grau Vermelho",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -247,7 +247,7 @@
             "effects": {
                 "pre.spirit_grailc_moth": 1
             },
-            "startdescription": "Grail for the Raw Prophet's source, and a little Moth, for its chaos-addiction.",
+            "startdescription": "Grave pela fonte do Profeta Cru e um pouco de Lua, pelo seu caos dependente.",
             "warmup": 60,
             "craftable": true,
             "linked": [
@@ -262,15 +262,15 @@
         },
         {
             "id": "summon_spirit_grailc_moth.success",
-            "label": "Summon one of the more bewildering creatures of the Red Grail",
+            "label": "Invoque uma das criaturas mais perplexas do Grau Vermelho",
             "actionid": "work",
-            "description": "It enters the world one limb at a time, questing like a serpent, cawing like a crow, throbbing like a vein. It will cuddle close against my leg, if I let it, and afterwards I will have to dispose of my shoes.",
+            "description": "Ele entra no mundo um membro de cada vez, buscando como uma serpente, caindo como uma coroa e pulando como uma veia. Vai coçar-se perto da minha perna, se eu deixar, e depois terei de me livrar dos meus sapatos.",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "summon_spirit_lanternc_edge",
-            "label": "Summon a sharp-edged Lantern-thing",
+            "label": "Invoca uma coisa de Lanterna afiada",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -282,7 +282,7 @@
             "effects": {
                 "pre.spirit_lanternc_edge": 1
             },
-            "startdescription": "A Hint was once a living mortal, and then a dead one, and now it's something else. Their summoning requires Lantern, for the light which drew them to the Mansus, and Edge, for the striving they've endured in mirrors.",
+            "startdescription": "Uma Dica já era um mortal vivo, e depois um mortal, e agora é outra coisa. O convocamento deles requer Lanterna, para a luz que os atraiu para os Mansus e para Edge, pela luta que eles suportaram em espelhos.",
             "warmup": 60,
             "craftable": true,
             "linked": [
@@ -297,15 +297,15 @@
         },
         {
             "id": "summon_spirit_lanternc_edge.success",
-            "label": "Summon a sharp-edged Lantern-thing",
+            "label": "Invoca uma coisa de Lanterna afiada",
             "actionid": "work",
-            "description": "The Hinter do not indulge themselves with showy entrances. A living gaze will shatter them. I know it's here, and that's enough for now.",
+            "description": "O Hino não se embarca em entradas de shows. Um olhar vivo irá estilhaçá-los. Eu sei que é aqui e isso é suficiente por enquanto.",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "summon_spirit_heartc_edge",
-            "label": "Summon a creature of the Thunderskin",
+            "label": "Invoca uma criatura do Thunderskin",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -317,7 +317,7 @@
             "effects": {
                 "pre.spirit_heartc_edge": 1
             },
-            "startdescription": "The Percussigant, merciless and merry! Heart will bring it, Edge will constrain it.",
+            "startdescription": "O Percussor, impiedoso e alegre! Coração o trará, a borda o restringirá.",
             "warmup": 60,
             "craftable": true,
             "linked": [
@@ -332,15 +332,15 @@
         },
         {
             "id": "summon_spirit_heartc_edge.success",
-            "label": "Summon a creature of the Thunderskin",
+            "label": "Invoca uma criatura do Thunderskin",
             "actionid": "work",
-            "description": "First the thump, the thump, the rattle and cry of the ceremonies it attends in the Wood. Now here it is, shouldering its way through the world's skin, like a clawed and ruthless uncle or a headless flapping bear.",
+            "description": "Primeiro o espinho, o espinho, o chacoalho e o grito das cerimónias em que comparece na Madeira. Agora, aqui está o seu caminho através da pele do mundo, como um tio garrado e impiedoso ou um urso sem cabeça para rir.",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "summon_spirit_winterd_edge",
-            "label": "Summon a servant of the Sun-in-Rags",
+            "label": "Invoca um servo dos trapos do Sol",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -352,7 +352,7 @@
             "effects": {
                 "pre.spirit_winterd_edge": 1
             },
-            "startdescription": "A deep Winter's cold to name and draw the Maid-in-the-Mirror. Edge, to match her keen cruelty.",
+            "startdescription": "Um resfriado do Inverno profundo para nomear e desenhar a Maid-in-the-Mirror. Borda, para combinar com sua crueldade afiada.",
             "warmup": 60,
             "craftable": true,
             "linked": [
@@ -367,15 +367,15 @@
         },
         {
             "id": "summon_spirit_winterd_edge.success",
-            "label": "Summon a servant of the Sun-in-Rags",
+            "label": "Invoca um servo dos trapos do Sol",
             "actionid": "work",
-            "description": "The thing that was a woman has no expression of her own. The movements of her eyes and mouth always match mine, as if I were looking in a mirror. Her fingernails are sharp as glass.",
+            "description": "Aquilo que era uma mulher não tem nenhuma expressão própria. Os movimentos de seus olhos e boca sempre combinam com os meus, como se eu estivesse olhando em um espelho. Suas unhas são afiadas como vidro.",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "summon_spirit_winterb_heart",
-            "label": "Summon one of the Voiceless Dead",
+            "label": "Invoque um dos Mortos sem voz",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -387,7 +387,7 @@
             "effects": {
                 "pre.spirit_winterb_heart": 1
             },
-            "startdescription": "These are the Dead who do not descend or ascend, but who remain in the Mansus and dream of Winter. The power of Winter, along with a little of the Heart's warmth, will draw them here.",
+            "startdescription": "Estes são os mortos que não descem nem subem, mas que permanecem no Mansus e sonham com o Inverno. O poder do inverno, juntamente com um pouco do calor do coração, vai atraí-los aqui.",
             "warmup": 60,
             "craftable": true,
             "linked": [
@@ -402,19 +402,19 @@
         },
         {
             "id": "summon_spirit_winterb_heart.success",
-            "label": "Summon one of the Voiceless Dead",
+            "label": "Invoque um dos Mortos sem voz",
             "actionid": "work",
-            "description": "A dark shape limned with winter light. It will not speak, but its eyes are avid, looking, looking. The Dead always long for the world, eventually.",
+            "description": "Uma forma escura cobriu a luz do inverno. Não falará, mas seus olhos são ávidas, olhares, olhares. Os Mortos sempre anseiam pelo mundo, eventualmente.",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "summoninglosingcontrol",
-            "label": "Summoning: a Rebellious Spirit",
+            "label": "Invocação: um Espírito Rebellioso",
             "actionid": "work",
             "requirements": {},
-            "startdescription": "The summoning is struggling against my control! I could use Reason to dismiss it safely, which is always reliable. I could try to reassert control with Passion, which is not reliable. Or I could let what will happen, happen.",
-            "description": "It's escaped my control!",
+            "startdescription": "A invocação está lutando contra meu controle! Eu poderia usar Reason para rejeitá-lo em segurança, o que é sempre confiável. Poderia tentar reafirmar o controlo com Passion, que não é fiável; ou poderia deixar que acontecesse.",
+            "description": "Meu controle está escapado!",
             "alt": [
                 {
                     "id": "summoningshutitdown",
@@ -428,8 +428,8 @@
             "slots": [
                 {
                     "id": "Effort",
-                    "label": "Effort",
-                    "description": "I could use Reason to dismiss it safely, which is always reliable. I could try to reassert control with Passion, which is not reliable. Or I could let what will happen, happen.",
+                    "label": "Esforço",
+                    "description": "Eu poderia usar o Reason para rejeitá-lo de forma segura, o que é sempre confiável. Poderia tentar reafirmar o controlo com Passion, que não é fiável; ou poderia deixar que acontecesse.",
                     "required": {
                         "passion": 1,
                         "reason": 1
@@ -447,7 +447,7 @@
         },
         {
             "id": "summoningshutitdown",
-            "label": "Summoning: Sending it Home",
+            "label": "Invocação: Enviando sua Casa",
             "actionid": "work",
             "requirements": {
                 "reason": 1
@@ -457,15 +457,15 @@
                 "fatiguing": 1,
                 "killmanifesting": 1
             },
-            "startdescription": "Pronounce the words of dismissal. Seal the circle tight. Erase every trace.",
-            "description": "It's gone. We are safe.",
+            "startdescription": "Pronta as palavras de demitimento. Procure o círculo apertado. Apague cada traço.",
+            "description": "Já se foi. Estamos seguros.",
             "warmup": 10
         },
         {
             "id": "summoningfightformastery",
-            "label": "Summoning: Contending for Mastery",
+            "label": "Invocação: Contaminando para Maestria",
             "actionid": "work",
-            "startdescription": "The things from outside the world have many weapons: knives and riddles, fire and despair. I have weapons of my own. [This will usually, but not always, work.]",
+            "startdescription": "As coisas vindas de fora do mundo têm muitas armas: facas e enigmas, fogo e desespero. Eu tenho armas próprias. [Isso usualmente, mas não sempre, trabalho.]",
             "description": "",
             "requirements": {
                 "passion": 1
@@ -487,11 +487,11 @@
         },
         {
             "id": "summoningescaped",
-            "label": "Summoning: a Breach!",
+            "label": "Invocação: um Atalho!",
             "actionid": "work",
             "requirements": {},
-            "startdescription": "It's free!",
-            "description": "My summoning has escaped my control, where it'll wreak havoc, no doubt - ",
+            "startdescription": "É grátis!",
+            "description": "Minha invocação escapou do meu controle, onde ele vai causar estragos, sem dúvida - ",
             "warmup": 5,
             "alt": [
                 {
@@ -520,12 +520,12 @@
         },
         {
             "id": "summoningmasteryregained",
-            "label": "Summoning: Mastery Regained!",
+            "label": "Invocação: Maestria Reestruturada!",
             "actionid": "work",
             "requirements": {},
             "effects": {},
-            "startdescription": "I'm succeeding!",
-            "description": "My summoning will obey my wishes - for now.",
+            "startdescription": "Estou conseguindo!",
+            "description": "A minha convocação obedecerá aos meus desejos - por agora.",
             "warmup": 10
         }
     ]

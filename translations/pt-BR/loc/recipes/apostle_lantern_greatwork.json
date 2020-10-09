@@ -3,11 +3,11 @@
         {
             "id": "ambition.apostlelantern.emitfuel",
             "actionid": "work",
-            "label": "A Vision from the Illuminated One",
+            "label": "Uma Visão do Iluminado Um",
             "requirements": {
                 "apostlelantern.mentor": 1
             },
-            "startdescription": "The dream, again.",
+            "startdescription": "O sonho, de novo.",
             "effects": {
                 "apostlelantern.pillarfuel": 1
             }
@@ -15,11 +15,11 @@
         {
             "id": "work.apostlelantern.majorvictory.postbetrayal",
             "actionid": "work",
-            "label": "And Yet, The Gate Opens Outwards",
+            "label": "E no entanto, o Portão Abre para fora",
             "extantreqs": {
                 "apostlelantern.mentor": -1
             },
-            "startdescription": "The Watchman is here in all his knifely radiance, but even he will stand aside for the Key of Days. I have closed the door in my eye, but I cannot forget. My path was ordained before I ever saw true light.  The Witnesses and I are prepared - prepared for the Glory to enter the Mansus from the other side. The dreams of the innocent are not so prepared. Hundreds of souls will never wake. There is always a price, and it is essential that our Illuminated One navigates; that they illuminate; that they are not compassionate.",
+            "startdescription": "O Watchman está aqui em toda a sua escuridão espinhosa, mas mesmo assim estará de lado pela Chave dos Dias. Tenho fechado a porta nos meus olhos, mas não posso esquecer. Meu caminho estava ordenado antes de ver a luz verdadeira. As Testemunhas e eu estamos preparados - preparados para que a Glória entre no Mansus do outro lado. Os sonhos de inocentes não estão tão preparados. Centenas de almas nunca acordarão. Há sempre um preço, e é essencial que o nosso Iluminado One nave, que iluminem, que não sejam compassivas.",
             "requirements": {
                 "apostlelantern.pillar3": 1,
                 "apostlelantern.pillar4": 1,
@@ -36,11 +36,11 @@
         {
             "id": "work.apostlelantern.majorvictory",
             "actionid": "work",
-            "label": "The Gate Opens Outwards",
+            "label": "O Portão abre para fora",
             "extantreqs": {
                 "apostlelantern.mentor": 1
             },
-            "startdescription": "The Watchman is here in all his knifely radiance, but even he will stand aside for the Key of Days. The Witnesses and I are prepared - prepared for the Glory to enter the Mansus from the other side. The dreams of the innocent are not so prepared. Hundreds of souls will never wake. There is always a price, and it is essential that our Illuminated One navigates; that they illuminate; that they are not compassionate.",
+            "startdescription": "O Watchman está aqui em toda a sua escuridão espinhosa, mas mesmo assim estará de lado pela Chave dos Dias. As Testemunhas e eu estamos preparados - preparados para que a Glória entre no Mansus do outro lado. Os sonhos de inocentes não estão tão preparados. Centenas de almas nunca acordarão. Há sempre um preço, e é essencial que o nosso Iluminado One nave, que iluminem, que não sejam compassivas.",
             "requirements": {
                 "apostlelantern.pillar3": 1,
                 "apostlelantern.pillar4": 1,
@@ -57,9 +57,9 @@
         {
             "id": "apostlelantern.createpillar2",
             "actionid": "dream",
-            "label": "Locate the Crossroads",
-            "startdescription": "Behind the Peacock Door, Wormwards of the Chamber of Ways, two roads cross at the shadow of an oak.",
-            "description": "Here the blue light of the Mansus deepens to almost the blue of the evening sky. The roads stretch into the wall-haze and are forgotten, but here where they cross, the crow-shadow in the oak-shadow remembers.",
+            "label": "Localize a encruzilhada",
+            "startdescription": "Atrás da Porta de Pavão, Vermes da Câmara de Lindas, duas estradas cruzam à sombra de um carvalho.",
+            "description": "Aqui a luz azul do Mansus se aprofunda para quase o azul do céu da noite. As estradas estendem-se ao nevoeiro e são esquecidas, mas aqui onde atravessam, a sombra coroa-sombra nas sombras de carvalho recorda-se.",
             "requirements": {
                 "waypeacock": 1,
                 "apostlelantern.pillarfuel": 1
@@ -73,8 +73,8 @@
         {
             "id": "apostlelantern.createpillar3.hint2",
             "actionid": "dream",
-            "label": "Seed the Allure?",
-            "startdescription": "Press the dream of a key into the soft soil of the crossroads. Bathe it the keenest radiance we can muster. What will grow?",
+            "label": "Semente o Allure?",
+            "startdescription": "Pressione o sonho de uma chave no solo macio da encruzilhada. Bathe it the most querido radiance we can muster. O que vai crescer?",
             "requirements": {
                 "apostlelantern.pillar2": 1,
                 "apostlelantern.pillarfuel": 1
@@ -84,8 +84,8 @@
         {
             "id": "apostlelantern.createpillar3.hint1",
             "actionid": "dream",
-            "label": "Seed the Allure?",
-            "startdescription": "When the dream of the key next comes, I will bring it to the Crossroads.",
+            "label": "Semente o Allure?",
+            "startdescription": "Quando chegar o sonho da chave a seguir, eu o trarei para a encruzilhada.",
             "requirements": {
                 "apostlelantern.pillar2": 1
             },
@@ -94,9 +94,9 @@
         {
             "id": "apostlelantern.createpillar3",
             "actionid": "dream",
-            "label": "Seed the Allure",
-            "startdescription": "Press the dream of a key into the soft soil of the crossroads. Bathe it in the Watchman's light. A shining tree will uncoil, with a radiant harvest in its branches.",
-            "description": "This is the greater illumination our Illuminated One requires for the Watchman's enactment, but it has another purpose besides. As moths to a candle, as fish to a lure, so souls to light.",
+            "label": "Semente o Allure",
+            "startdescription": "Pressione o sonho de uma chave no solo macio das encruzilhadas. Assegure-o na luz do Watchman. Uma árvore brilhante irá desfocar, com uma colheita radiante em seus galhos.",
+            "description": "Esta é a maior iluminação que nossa Iluminada requer para a promulgação de Watchman, mas tem outros fins. Como mariposa para uma vela, como peixe para uma isca, então as almas para iluminar.",
             "requirements": {
                 "apostlelantern.pillar2": 1,
                 "apostlelantern.pillarfuel": 1,
@@ -113,8 +113,8 @@
         {
             "id": "apostlelantern.maintainpillar3.hint",
             "actionid": "study",
-            "label": "Maintain the Allure?",
-            "startdescription": "The Allure will wither... unless it is watered with the correct colours.",
+            "label": "Manter o Allure?",
+            "startdescription": "O Amante deixará... a menos que seja regado pelas cores corretas.",
             "requirements": {
                 "apostlelantern.pillar3": 1
             },
@@ -123,9 +123,9 @@
         {
             "id": "apostlelantern.maintainpillar3",
             "actionid": "study",
-            "label": "Maintain the Allure",
-            "startdescription": "In the blue dream of the Mansus, it is sometimes possible to carry light in one's cupped hands.",
-            "description": "I open my hands above the roots of the Allure, where it clings to the soil. New fruit swells in its branches, and the Crossroads is paler again.",
+            "label": "Mantenha o Allure",
+            "startdescription": "No sonho azul do Mansus, por vezes é possível carregar a luz nas mãos encaixadas.",
+            "description": "Eu abro minhas mãos acima das raízes do Allure, onde ele se agarra ao solo. Novas frutas incham nos seus galhos, e a encruzilhada está mais ou menos pálida.",
             "requirements": {
                 "apostlelantern.pillar3": 1,
                 "fascination": 1
@@ -142,8 +142,8 @@
         {
             "id": "apostlelantern.usepillar3",
             "actionid": "talk",
-            "label": "Send a Maid-in-the-Mirror to lure a Witness",
-            "startdescription": "My Maid will lead the sleeping soul through the White Door, and bear them up the Ascent of Knives, until what is left of it sees the Allure at the Crossroads.",
+            "label": "Envie uma Maid-in-the-Mirror para atrair uma Testemunha",
+            "startdescription": "Meu caráter vai liderar a alma adormecida através da porta branca e carregá-los a Ascensão dos Facões, até que o que resta veja o Allure na encruzilhada.",
             "requirements": {
                 "spirit_winterd_edge": 1,
                 "apostlelantern.pillar3": 1
@@ -157,9 +157,9 @@
         {
             "id": "apostlelantern.trycreatepillar4",
             "actionid": "talk",
-            "label": "Send a Maid-in-the-Mirror to lure a Witness",
-            "startdescription": "The Maid murmurs the lesser elements of the Mantra of Ascent. She places her pale feet carefully on the stones of the road: they leave no print. The Witness' feet are spotted with blood.",
-            "description": "The Maid departs; the Witness remains, swaying like the tree-shadow, eyes fixed on the Allure, mouth healing softly. One of seven. They will never wake; that will interest the Suppression Bureau.",
+            "label": "Envie uma Maid-in-the-Mirror para atrair uma Testemunha",
+            "startdescription": "O Maid murma os elementos menores do Mantra de Ascent. Ela coloca os pés pálidos cuidadosamente nas pedras da estrada: eles não deixam nenhuma impressão. Os pés da testemunha se encontram com sangue.",
+            "description": "Os departamentos do Made; a Testemunha continua, balançando como a árvore, olhos fixados no Allure, com sangue curado. Um dos sete, eles nunca irão acordar, o que interessará à Mesa de Supressão.",
             "effects": {
                 "spirit_winterd_edge": -1,
                 "apostlelantern.pillar4.inprogress1": 1,
@@ -168,7 +168,7 @@
             "slots": [
                 {
                     "id": "pillar4",
-                    "label": "Witnesses",
+                    "label": "Testemunhas",
                     "required": {
                         "uqthirdwaywitnesses": 1
                     },
@@ -185,9 +185,9 @@
         {
             "id": "apostlelantern.upgradepillar4",
             "actionid": "talk",
-            "label": "Send a Maid-in-the-Mirror to lure a Witness",
-            "startdescription": "The Maid murmurs the lesser elements of the Mantra of Ascent. She places her pale feet carefully on the stones of the road: they leave no print. The Witness' feet are spotted with blood.",
-            "description": "The Maid departs; the Witness remains, swaying like the tree-shadow, eyes fixed on the Allure, mouth healing softly. One more. They will never wake; that will interest the Suppression Bureau.",
+            "label": "Envie uma Maid-in-the-Mirror para atrair uma Testemunha",
+            "startdescription": "O Maid murma os elementos menores do Mantra de Ascent. Ela coloca os pés pálidos cuidadosamente nas pedras da estrada: eles não deixam nenhuma impressão. Os pés da testemunha se encontram com sangue.",
+            "description": "Os departamentos do Made; a Testemunha continua, balançando como a árvore, olhos fixados no Allure, com sangue curado. Mais uma vez, não deixarão de o fazer; isso interessará à Mesa de Supressão.",
             "requirements": {
                 "uqthirdwaywitnesses": 1
             },
@@ -202,9 +202,9 @@
         {
             "id": "apostlelantern.pillar4.chat",
             "actionid": "talk",
-            "label": "Speak with the Witnesses",
-            "startdescription": "Their mouths are closed, but their ears are open.",
-            "description": "Sometimes they look at me. Mostly, they look at the light. I see them sigh; I see them touch one another gently. They are still human. The light soaks into them, and into me. Perhaps I have helped maintain their attention.",
+            "label": "Fale com as Testemunhas",
+            "startdescription": "As bocas estão fechadas, mas os ouvidos estão abertos.",
+            "description": "Às vezes olham para mim. Geralmente, olham para a luz. Eu os vejo vistos; vejo-os tocados suavemente. Eles ainda são humanos. As luzes encharcam dentro deles e dentro de mim. Talvez eu tenha ajudado a manter a atenção deles.",
             "requirements": {
                 "uqthirdwaywitnesses": 1
             },
@@ -217,8 +217,8 @@
         {
             "id": "apostlelantern.attemptrecruitkleidouchos.sulochana",
             "actionid": "talk",
-            "label": "Ask Sulochana about the Key",
-            "startdescription": "'The Key of Days.' Sulochana gnaws on her lip. Her teeth glint in the lamp-light. 'Yes, I have a relevant sister. But I'm not going to make that introduction. Ask someone on the other side of the Wood - someone who cares about the Glory.'",
+            "label": "Pergunte a Sulochana sobre a chave",
+            "startdescription": "'A Chave dos Dias.' Sulochana gira na boca. Os dentes dela brilham à luz da lâmpada. 'Sim, tenho uma irmã relevante. Mas não vou fazer essa introdução: pergunte a alguém do outro lado da Madeira - alguém que se preocupa com o cloro?.",
             "requirements": {
                 "sulochana": 1,
                 "apostlelantern.pillarfuel": 1
@@ -227,9 +227,9 @@
         {
             "id": "apostlelantern.recruitkleidouchos.teresa",
             "actionid": "talk",
-            "label": "Ask Teresa about the Dream of the Key",
-            "startdescription": "'So my ascent-fellow has set their sights still higher, hm? They may regret it.' Teresa turns the imaginary key in her hands. 'A dream of the Key of Days. The dream is false; the Key is real. But it's not a thing for you or me to touch.'",
-            "description": "'I know the Key-holder - the one you want. I haven't spoken with her in some time - I don't often speak to Ligeians - but as Lantern-long, I owe courtesy to your mentor. I'll send for your Key-holder.'",
+            "label": "Pergunte a Teresa sobre o Sonho da Chave",
+            "startdescription": "'Então meu companheiro de ascensão colocou suas visões ainda mais altas, h? Eles podem lamentar.' Teresa vira a chave imaginária em suas mãos. 'Um sonho da Chave dos Dias. O sonho é falso; a Chave é real. Mas não é coisa para vós ou para mim tocar.”",
+            "description": "\"Eu sei o Key-holder - aquele que você quer. Não falo com ela há algum tempo - não costumo falar com Ligeians - mas como tempo de Lanterna, devo cortesia para com o seu mentor. Enviarei para o vosso titular.»",
             "requirements": {
                 "spirit_lanterne_secret": 1,
                 "apostlelantern.pillarfuel": 1
@@ -243,9 +243,9 @@
         {
             "id": "apostlelantern.persuadekleidouchos",
             "actionid": "talk",
-            "label": "Speak to the Woman in Black-and-White",
-            "startdescription": "'You need me to assist you with the Tricuspid Gate, yes, that is correct? In its ultimate mode? With my Key of Days? Yes, yes, I am aware. I do not like to travel in ignorance.'",
-            "description": "'Opportunities of this nature are so rare - so very rare. I will be delighted to attend your Long's ascension, little puppet. Tell me where. Tell me when. I shall enjoy your city until then.'",
+            "label": "Fale com a mulher em preto e branco",
+            "startdescription": "\"Você precisa que eu te ajude com o portão Tricuspid, sim, isso está correto? No modo definitivo? Com a minha chave dos dias? Sim, estou ciente. Não gosto de viajar por ignorância.\"",
+            "description": "\"Oportunidades desta natureza são tão raras - tão raras. Terei todo o prazer em assistir à ascensão do seu longo período, filhotinho. Diga-me onde. Diga-me quando. Acolherei a sua cidade até então.\"",
             "requirements": {
                 "kleidouchos": 1,
                 "promise": -1
@@ -263,8 +263,8 @@
         {
             "id": "apostlelantern.kleidouchos.persuaded.hint",
             "actionid": "talk",
-            "label": "Speak to the Woman in Black-and-White",
-            "startdescription": "'When you're ready. Take your time. I still have skins to glean.'",
+            "label": "Fale com a mulher em preto e branco",
+            "startdescription": "Quando você estiver pronto. Leve seu tempo. Eu ainda tenho skins para alegrar.",
             "requirements": {
                 "kleidouchos": 1,
                 "promise": 1

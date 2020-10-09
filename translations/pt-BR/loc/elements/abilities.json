@@ -11,15 +11,15 @@
             "slots": [
                 {
                     "id": "nourishment",
-                    "label": "Nourishment",
+                    "label": "Nutrição",
                     "actionid": "dream",
-                    "description": "To recover, I must eat.",
+                    "description": "Para recuperar, eu devo comer.",
                     "required": {
                         "funds": 1
                     }
                 }
             ],
-            "description": "I need rest and nourishment, if I am to recover. But when my mouth waters, when my vision swims, I see the red cup; and now and then it will speak to me. [Dreaming with Hunger before the card fades will allow you to recover Health.]",
+            "description": "Preciso de descanso e nutrição, se quiser se recuperar. Mas quando a minha boca navega, quando a minha visão nada, vejo a taça vermelha; e agora e depois ela falará comigo. [Sonhar com a Fome antes de as cartas se desvanecerem irá permitir que você recupere Saúde.]",
             "xtriggers": {
                 "restorehealth": "health",
                 "scar_ability": "scar_heart"
@@ -29,7 +29,7 @@
         },
         {
             "id": "health",
-            "label": "Health",
+            "label": "Vida",
             "aspects": {
                 "heart": 2,
                 "ingredient": 1,
@@ -46,17 +46,17 @@
                 "society": "fatigue",
                 "scar_ability": "scar_heart"
             },
-            "description": "This is my body. There are other bodies, but this one is mine, and my mind needs it as a fungus needs soil. [With enough Vitality, you can gain more Health.]"
+            "description": "Este é meu corpo. Existem outros corpos, mas este é meu, e minha mente precisa dele, pois um fungo precisa de solo. [Com vitalidade suficiente, você pode ganhar mais saúde.]"
         },
         {
             "id": "vitality",
-            "label": "Vitality",
+            "label": "Vitalidade",
             "slots": [
                 {
                     "id": "morevitality",
-                    "label": "More Vitality",
+                    "label": "Mais vitalidade",
                     "actionid": "study",
-                    "description": "With enough Vitality - or sometimes something more exotic - I can increase my Health.",
+                    "description": "Com vitalidade suficiente - ou, às vezes, algo mais exótico - posso aumentar a minha Saúde.",
                     "required": {
                         "vitality": 1,
                         "influenceheart": 1
@@ -68,7 +68,7 @@
                 "heart": 1,
                 "influence": 1
             },
-            "description": "Exercise, or something rarer, has invigorated me. [Use with another Vitality to improve your abilities. It lasts only three minutes, if unused.]",
+            "description": "Exercício, ou algo mais raro, me revigorou. [Use com outra vitalidade para melhorar suas habilidades. Dura apenas três minutos, se não for usado.]",
             "xtriggers": {
                 "upgradeinfluence": "influenceheartc"
             },
@@ -82,7 +82,7 @@
                 "heart": 2,
                 "influence": 1
             },
-            "description": "I am ready to improve. [Use this with your Strength skill to improve the skill and gain Health. It lasts up to five minutes before it decays back to a Vitality.]",
+            "description": "Estou pronto para melhorar. [Use isso com sua habilidade de Força para melhorar a habilidade e ganhar Saúde. Dura até cinco minutos antes de se decompor de volta a uma vitalidade.]",
             "xtriggers": {
                 "upgradeinfluence": "influenceheartc"
             },
@@ -91,7 +91,7 @@
         },
         {
             "id": "restlessness",
-            "label": "Restlessness",
+            "label": "Inquieto",
             "aspects": {
                 "influence": 1,
                 "forge": 2,
@@ -101,19 +101,19 @@
                 "moth": 2,
                 "memory": 1
             },
-            "description": "A restless longing has me. I feel that I want to do... <i>something</i>. What, exactly?",
+            "description": "Tenho um anseio inquieto. Eu sinto que quero fazer... <i>algo</i>. O que, exatamente?",
             "lifetime": 60,
             "decayTo": "dread"
         },
         {
             "id": "bloodshed",
             "label": "Bloodshed",
-            "description": "Blood has been spilt.",
+            "description": "O sangue foi derramado.",
             "lifetime": 1
         },
         {
             "id": "injury",
-            "label": "An Injury",
+            "label": "Uma lesão",
             "aspects": {
                 "illhealth": 1,
                 "knock": 2,
@@ -122,24 +122,24 @@
             "slots": [
                 {
                     "id": "medicines",
-                    "label": "Medicines, or...",
+                    "label": "Medicamentos, ou...",
                     "actionid": "dream",
-                    "description": "I could pay for a doctor's visit...",
+                    "description": "Eu poderia pagar pela visita de um médico...",
                     "required": {
                         "funds": 1
                     }
                 },
                 {
                     "id": "vitality",
-                    "label": "...Vitality",
-                    "description": "...but perhaps I just need a little rest.",
+                    "label": "...Vitalidade",
+                    "description": "...mas talvez eu precise de um pouco de descanso.",
                     "required": {
                         "vitality": 1
                     },
                     "actionid": "dream"
                 }
             ],
-            "description": "I need rest and nourishment, if I am to recover. But the Mother of Ants looks kindly on wounds. [Dreaming with an Injury before the card fades will also allow you to recover Health.]",
+            "description": "Preciso de descanso e nutrição, se for para recuperar. Mas a mãe das formigas parece gentilmente em feridas. [Sonhar com uma lesão antes do desaparecimento da carta também permitirá que você recupere Saúde.]",
             "xtriggers": {
                 "restorehealth": "health",
                 "scar_ability": "scar_heart"
@@ -149,8 +149,8 @@
         },
         {
             "id": "disillusionment",
-            "label": "Passion (Disillusioned)",
-            "description": "I have gone against my own principles, or my own preferences. [This card can't be used, but it will recover after sixty seconds.]",
+            "label": "Paixão (Desiludida)",
+            "description": "Fui contra meus próprios princípios, ou minhas preferências. [Este cartão não pode ser usado, mas vai se recuperar após sessenta segundos.]",
             "lifetime": 60,
             "decayTo": "passion",
             "icon": "passion",
@@ -163,8 +163,8 @@
         },
         {
             "id": "passionexhausted",
-            "label": "Passion (Exhausted)",
-            "description": "My passions burn low. [This card can't be used, but it will recover after sixty seconds.]",
+            "label": "Paixão (Exausto)",
+            "description": "Minhas paixões queimam. [Este cartão não pode ser usado, mas vai se recuperar após sessenta segundos]",
             "lifetime": 60,
             "decayTo": "passion",
             "icon": "passion",
@@ -177,12 +177,12 @@
         },
         {
             "id": "fatigue",
-            "label": "Health (Fatigued)",
+            "label": "Saúde (Fácil)",
             "aspects": {
                 "illhealth": 1,
                 "heart": 1
             },
-            "description": "This card can't be used, but it will recover after sixty seconds. I can recover it faster by Dreaming.",
+            "description": "Não é possível usar este cartão, mas ele vai se recuperar após sessenta segundos. Posso recuperá-lo mais rápido Sonhando.",
             "xtriggers": {
                 "restorehealth": "health",
                 "damagehealth": "injury",
@@ -197,7 +197,7 @@
         },
         {
             "id": "affliction",
-            "label": "An Affliction",
+            "label": "Uma Afeição",
             "aspects": {
                 "illhealth": 1,
                 "winter": 2,
@@ -210,36 +210,36 @@
             "slots": [
                 {
                     "id": "medicine",
-                    "label": "Medicines, or...",
+                    "label": "Medicamentos, ou...",
                     "actionid": "dream",
-                    "description": "I could pay for a doctor's visit...",
+                    "description": "Eu poderia pagar pela visita de um médico...",
                     "required": {
                         "funds": 1
                     }
                 },
                 {
                     "id": "vitality",
-                    "label": "...Vitality",
+                    "label": "...Vitalidade",
                     "actionid": "dream",
-                    "description": "...but perhaps I just need a little rest.",
+                    "description": "...mas talvez eu precise de um pouco de descanso.",
                     "required": {
                         "vitality": 1
                     }
                 }
             ],
-            "description": "Disease has left me weak. I need rest and nourishment, if I am to recover. [Dream on an Affliction to transform it back to Health, before the card decays.]",
+            "description": "A doença me deixou fraco. Preciso de descanso e nutrição, para me recuperar. [Sonhe em uma Afeição para transformá-la de volta à Saúde, antes do cartão cair.]",
             "lifetime": 180,
             "decayTo": "decrepitude"
         },
         {
             "id": "reason",
-            "label": "Reason",
+            "label": "Motivo",
             "aspects": {
                 "lantern": 2,
                 "ingredient": 1,
                 "ability": 1
             },
-            "description": "'No live organism can continue for long to exist sanely under conditions of absolute reality.' - Shirley Jackson\n\n[With Erudition, you can Study to gain more Reason.]",
+            "description": "\"Nenhum organismo vivo pode continuar a existir subitamente em condições de uma realidade absoluta. - Shirley Jackson\n\n[Com Erudição, você pode estudar para ganhar mais Reason.]",
             "xtriggers": {
                 "damagereason": "dread",
                 "fatiguing": "concentration",
@@ -253,8 +253,8 @@
         },
         {
             "id": "concentration",
-            "label": "Reason [Dimmed]",
-            "description": "My mind is weary. [This card can't be used, but it will recover after \n\nsixty seconds.]",
+            "label": "Motivo [Dimmed]",
+            "description": "Minha mente está usada. [Este cartão não pode ser usado, mas vai recuperar após \n\nsessenta segundos]",
             "lifetime": 60,
             "decayTo": "reason",
             "icon": "reason",
@@ -267,13 +267,13 @@
         },
         {
             "id": "erudition",
-            "label": "Erudition",
+            "label": "Erudição",
             "slots": [
                 {
                     "id": "moreerudition",
-                    "label": "More Erudition",
+                    "label": "Mais Erudição",
                     "actionid": "study",
-                    "description": "With enough Erudition - or sometimes something more exotic -  I can increase my Reason.",
+                    "description": "Com Erudição suficiente - ou às vezes algo mais exótico - eu posso aumentar minha razão.",
                     "required": {
                         "erudition": 1,
                         "influencelantern": 1
@@ -285,7 +285,7 @@
                 "lantern": 1,
                 "influence": 1
             },
-            "description": "I soak up knowledge as a shadow soaks up light. I may be close to advancement. [Erudition can be used with Study to gain Reason. It lasts only three minutes, if unused.]",
+            "description": "Eu engolido conhecimento enquanto uma sombra embeleza a luz. Eu posso estar perto de avançar. [Erudição pode ser usada com o Estudo para ganhar o Reason. Dura apenas três minutos, se não for usado.]",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influencelanternc"
@@ -293,13 +293,13 @@
         },
         {
             "id": "eruditionplus",
-            "label": "Erudition: a Lesson Learnt",
+            "label": "Erudição: uma lição aprendida",
             "aspects": {
                 "advancement": 1,
                 "lantern": 2,
                 "influence": 1
             },
-            "description": "I am ready to improve. [Use this with your Scholarship skill to improve the skill and gain Reason. It lasts up to five minutes before it decays back to an Erudition.]",
+            "description": "Eu estou pronto para melhorar. [Use isso com sua habilidade Espirituosa para melhorar a habilidade e ganhar Reason. Dura até cinco minutos antes de se decompor de volta a uma Erudição.]",
             "lifetime": 300,
             "xtriggers": {
                 "upgradeinfluence": "influencelanternc"
@@ -308,7 +308,7 @@
         },
         {
             "id": "dread",
-            "label": "Dread",
+            "label": "Terrível",
             "aspects": {
                 "edge": 2,
                 "inducesdespair": 1,
@@ -319,17 +319,17 @@
             "slots": [
                 {
                     "id": "reminders",
-                    "label": "Reminders",
+                    "label": "Lembrete",
                     "actionid": "dream",
                     "required": {
                         "contentment": 1
                     },
-                    "description": "I need a little peace, or a moment of happiness. [Too much Dread will destroy you. Contentment can cure it.]"
+                    "description": "Preciso de um pouco de paz, ou um momento de felicidade. [Tenda demais irá destruí-lo. O conteúdo pode curá-lo.]"
                 },
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Perhaps I can use my Dread to strengthen a dangerous influence.",
+                    "label": "com",
+                    "description": "Talvez eu possa usar o meu Papai para reforçar uma influência perigosa.",
                     "required": {
                         "influenceedge": 1,
                         "influencewinter": 1
@@ -338,8 +338,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentedgec": 1,
                         "fragmentedged": 1,
@@ -350,7 +350,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "I've seen too much. A nameless gnawing fear has its teeth in my hopes; an existential horror.",
+            "description": "Já vi muita coisa. O medo de uma enfermidade sem nome está em minhas esperanças; um horror existencial.",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influenceedgec",
@@ -359,13 +359,13 @@
         },
         {
             "id": "passion",
-            "label": "Passion",
+            "label": "Paixão",
             "aspects": {
                 "moth": 2,
                 "ingredient": 1,
                 "ability": 1
             },
-            "description": "'Dull minds are never either intuitive or mathematical.' - Blaise Pascal\n\n[With enough Glimmering, you can Study to gain more Passion.]",
+            "description": "'As mentes foscas nunca são nem intuitivas nem matemáticas.' - Pascal Blaise\n\n[Com o suficiente brilhante, você pode estudar para ganhar mais paixão.]",
             "xtriggers": {
                 "damagepassion": "fascination",
                 "plead": "disillusionment",
@@ -380,7 +380,7 @@
         {
             "id": "decrepitude",
             "label": "Decrepitude",
-            "description": "Some wounds never quite heal. [Untreated Injuries and Hunger become Decrepitude, which does not return to Health. Decrepitude remains until you die.]",
+            "description": "Algumas feridas nunca são bem curadas. [Injúrios e Fome não tratados tornam-se Decrenitude, o que não retorna à Saúde. Débito permanece até você morrer.]",
             "aspects": {
                 "ability": 1,
                 "winter": 1,
@@ -393,7 +393,7 @@
             "slots": [
                 {
                     "id": "consume",
-                    "label": "Consume",
+                    "label": "Consumir",
                     "required": {
                         "ingredient": 1
                     },
@@ -410,9 +410,9 @@
             "slots": [
                 {
                     "id": "moreglimmering",
-                    "label": "More Glimmering",
+                    "label": "Mais Brilhante",
                     "actionid": "study",
-                    "description": "With enough Glimmering - or sometimes something more exotic - I can increase my Passion.",
+                    "description": "Com o suficiente brilho - ou às vezes algo mais exótico - posso aumentar minha paixão.",
                     "required": {
                         "glimmering": 1,
                         "influencemoth": 1
@@ -424,7 +424,7 @@
                 "moth": 1,
                 "influence": 1
             },
-            "description": "My emotions run higher than usual. There are things I'll never understand, and those things will always be precious, but just now I am closer to them. [Glimmering can be used with Study to gain Passion. It lasts only three minutes, if unused.]",
+            "description": "As minhas emoções correm mais alto do que o normal. Há coisas que eu nunca vou entender, e essas coisas serão sempre preciosas, mas agora eu estou mais perto delas. [A Glimmering pode ser usada com Estudo para ganhar Passion. Dura apenas três minutos, se não for usado.]",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influencemothc"
@@ -432,13 +432,13 @@
         },
         {
             "id": "glimmeringplus",
-            "label": "Glimmering: a Lesson Learnt",
+            "label": "Brilhando: uma Lição de Aprendizado",
             "aspects": {
                 "advancement": 1,
                 "moth": 2,
                 "influence": 1
             },
-            "description": "I am ready to improve. [Use this with your Imagination skill to improve the skill and gain Passion. It lasts up to five minutes before it decays back to a Glimmering.]",
+            "description": "Estou pronto para melhorar. [Use isso com sua habilidade de imaginação para melhorar a habilidade e ganhar paixão. Dura até cinco minutos antes de se decompor de volta a um Glimmering.]",
             "lifetime": 300,
             "xtriggers": {
                 "upgradeinfluence": "influencemothc"
@@ -447,7 +447,7 @@
         },
         {
             "id": "fascination",
-            "label": "Fascination",
+            "label": "Fascinação",
             "aspects": {
                 "moth": 2,
                 "illhealth": 1,
@@ -457,18 +457,18 @@
             "slots": [
                 {
                     "id": "reminders",
-                    "label": "Reminders",
+                    "label": "Lembrete",
                     "required": {
                         "dread": 1,
                         "fleeting": 1
                     },
                     "actionid": "dream",
-                    "description": "Grey reality will steady my soul."
+                    "description": "A realidade cinzenta vai sustentar a minha alma."
                 },
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Perhaps I can use my Fascination to strengthen a tempting influence.",
+                    "label": "com",
+                    "description": "Talvez eu possa usar minha Fascinação para reforçar uma influência tentadora.",
                     "required": {
                         "influencemoth": 1,
                         "influencelantern": 1
@@ -477,8 +477,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentmothc": 1,
                         "fragmentmothd": 1,
@@ -489,7 +489,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Light LEAKS through the CRACKS. My mind is BRIGHTER than it EVER was. THE HIGHER I RISE THE MORE I SEE.",
+            "description": "MENOS CARREGADOS através do CRACKS. Minha mente é MAIS BRIGADOR do que EQUIPAMENTO É. A ALGULAR EU TENHO MAIS ESTO.",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influencemothc"
@@ -497,21 +497,21 @@
         },
         {
             "id": "scholarlatin",
-            "label": "Scholar: Latin",
+            "label": "Estudioso: latim",
             "aspects": {
                 "language": 1
             },
             "slots": [
                 {
                     "id": "Text",
-                    "label": "Untranslated Text",
+                    "label": "Texto Não Traduzido",
                     "required": {
                         "textlatin": 1
                     },
                     "actionid": "study"
                 }
             ],
-            "description": "A dead language: dead as diamonds. [Some books must be translated before they can be read.]",
+            "description": "Um idioma morto: morto como diamantes. [Alguns livros devem ser traduzidos antes que possam ser lidos.]",
             "unique": true
         },
         {
@@ -523,33 +523,33 @@
             "slots": [
                 {
                     "id": "Text",
-                    "label": "Untranslated Text",
+                    "label": "Texto Não Traduzido",
                     "required": {
                         "textfucine": 1
                     },
                     "actionid": "study"
                 }
             ],
-            "description": "A people lived east of the lost lake Fucino. Horace warned that theirs was the land of witches. This was their language, called by some 'the dry tongue' and by others 'the tongue of witches'.[Some books must be translated before they can be read.]",
+            "description": "Um povo viveu a leste do lago perdido Fucino. Horace avisou que a sua era a terra das bruxas. Esta era a sua língua, designada por \"língua seca\" e por outros \"língua das bruxas\". Alguns livros devem ser traduzidos antes de serem lidos.]",
             "unique": true
         },
         {
             "id": "scholargreek",
-            "label": "Scholar: Greek",
+            "label": "Estudioso: grego",
             "aspects": {
                 "language": 1
             },
             "slots": [
                 {
                     "id": "Text",
-                    "label": "Untranslated Text",
+                    "label": "Texto Não Traduzido",
                     "required": {
                         "textgreek": 1
                     },
                     "actionid": "study"
                 }
             ],
-            "description": "No doubt you're conversant with every variety of Greek, from the beginning to Byzantium. But it's a good thing you have those reference works. [Some books must be translated before they can be read.]",
+            "description": "Sem dúvida que você está conversando com todas as variações do grego, do início ao Bizâncio. Mas é bom que você tenha essas referências. [Alguns livros devem ser traduzidos antes que possam ser lidos.]",
             "unique": true
         },
         {
@@ -558,7 +558,7 @@
             "slots": [
                 {
                     "id": "Text",
-                    "label": "Untranslated Text",
+                    "label": "Texto Não Traduzido",
                     "required": {
                         "textphrygian": 1
                     },
@@ -568,7 +568,7 @@
             "aspects": {
                 "language": 1
             },
-            "description": "The Phrygians worshipped the Great Mother, who we call the Grail. Theirs was the land in which the Sisterhood of the Knot was born, and this is the tongue in which the Thunderskin pleaded, at his ascension. [Some books must be translated before they can be read.]",
+            "description": "Os Phrígios adoravam a Grande Mãe, a quem chamamos de Grail. Sua era a terra em que nasceu a Irmandade do Knot e esta é a língua em que o Thunderskin defendeu, na sua ascensão. [Alguns livros devem ser traduzidos antes de serem lidos.]",
             "unique": true
         },
         {
@@ -577,7 +577,7 @@
             "slots": [
                 {
                     "id": "Text",
-                    "label": "Untranslated Text",
+                    "label": "Texto Não Traduzido",
                     "required": {
                         "textaramaic": 1
                     },
@@ -587,7 +587,7 @@
             "aspects": {
                 "language": 1
             },
-            "description": "The language of Aram, and all her many children these three thousand years and more. [Some books must be translated before they can be read.]",
+            "description": "A língua de Aram, e todas as suas crianças nestes três mil anos ou mais. [Alguns livros devem ser traduzidos antes de serem lidos.]",
             "unique": true
         },
         {
@@ -596,7 +596,7 @@
             "slots": [
                 {
                     "id": "Text",
-                    "label": "Untranslated Text",
+                    "label": "Texto Não Traduzido",
                     "required": {
                         "textmandaic": 1
                     },
@@ -606,7 +606,7 @@
             "aspects": {
                 "language": 1
             },
-            "description": "The most secret script of the innermost rites of the deep sects of the deep desert. The birth-tongue, it is claimed, of the Mother of Ants herself. [Some books must be translated before they can be read.]",
+            "description": "O script mais secreto dos ritos mais internos das profundezas do deserto. A língua materna, que é reivindicada, da própria mãe dos Ants. [Alguns livros devem ser traduzidos antes que eles possam ser lidos.]",
             "unique": true
         },
         {
@@ -615,7 +615,7 @@
             "slots": [
                 {
                     "id": "Text",
-                    "label": "Untranslated Text",
+                    "label": "Texto Não Traduzido",
                     "required": {
                         "textsanskrit": 1
                     },
@@ -625,7 +625,7 @@
             "aspects": {
                 "language": 1
             },
-            "description": "The holy tongue of the Subcontinent. The door to four thousand years of poetry, ceremony and mystery now opens before you, if you can struggle through the lotus convolutions of its vocabulary. [Some books must be translated before they can be read.]",
+            "description": "A língua sagrada do Subcontinente. A porta para quatro mil anos de poesia, cerimônia e mistério agora abre diante de você, se você puder lutar com as convulsões de lotus de seu vocabulário. [Alguns livros devem ser traduzidos antes de serem lidos.]",
             "unique": true
         },
         {
@@ -634,7 +634,7 @@
             "slots": [
                 {
                     "id": "Text",
-                    "label": "Untranslated Text",
+                    "label": "Texto Não Traduzido",
                     "required": {
                         "textvak": 1
                     },
@@ -644,13 +644,13 @@
             "aspects": {
                 "language": 1
             },
-            "description": "Before gods arose from blood, before ever ape stood upright, this was the language heard in the House of the Sun. [Some books must be translated before they can be read.]",
+            "description": "Antes de os deuses terem nascido do sangue, antes de os macacos nunca terem ficado de pé, esta foi a linguagem que se ouviu na Câmara do Sol. [Alguns livros devem ser traduzidos antes de serem lidos.]",
             "unique": true
         },
         {
             "id": "fleeting",
-            "label": "Fleeting Reminiscence",
-            "description": "A moment in time. In another moment, it'll be gone.",
+            "label": "Lembrete Fugoso",
+            "description": "Em um momento e no tempo. Em outro momento, ele desaparecerá.",
             "aspects": {
                 "secrethistories": 2,
                 "moth": 2,
@@ -660,8 +660,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Perhaps I can find something in my memories to strengthen a transient influence.",
+                    "label": "com",
+                    "description": "Talvez eu consiga encontrar algo em minhas memórias para fortalecer uma influência transitória.",
                     "required": {
                         "influencemoth": 1,
                         "influencelantern": 1
@@ -670,8 +670,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentmothc": 1,
                         "fragmentmothd": 1,
@@ -689,18 +689,18 @@
         },
         {
             "id": "contentment",
-            "label": "Contentment",
+            "label": "Conteúdo",
             "aspects": {
                 "lantern": 2,
                 "heart": 2,
                 "influence": 1
             },
-            "description": "I'm happy, I think. [Contentment defends against Dread; but Contentment doesn't last.]",
+            "description": "Eu estou feliz, eu acho. [Contentment defende contra Dread; mas Contentment não dura.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Perhaps I can use my Contentment to strengthen a positive influence.",
+                    "label": "com",
+                    "description": "Talvez possa utilizar o meu conteúdo para reforçar uma influência positiva.",
                     "required": {
                         "influencelantern": 1,
                         "influenceheart": 1,
@@ -711,8 +711,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentheartc": 1,
                         "fragmentheartd": 1,
@@ -730,8 +730,8 @@
         },
         {
             "id": "scar_edge",
-            "label": "Scar: Brutal Experience",
-            "description": "FAUSTUS: I think Hell's a fable. MEPHISTOPHILIS: Ay, think so still, till experience change thy mind. [You've made a permanent sacrifice for power.]",
+            "label": "Cro: Experiência Brutal",
+            "description": "FUNCIONALIDA: Penso que o Inferno é um fável. eurodeputado: Ay, ainda veja, até que a sua mente mude. [Você fez um sacrifício permanente de poder.]",
             "aspects": {
                 "tool": 1,
                 "edge": 4,
@@ -740,8 +740,8 @@
         },
         {
             "id": "scar_knock",
-            "label": "Scar: Half-Healed Fistula",
-            "description": "Not all doors are wounds; but all wounds are doors. [You've made a permanent sacrifice for power.]",
+            "label": "Cicatriz: Fístula Curada",
+            "description": "Nem todas as portas são feridas; mas todas as feridas são portas. [Você fez um sacrifício permanente pelo poder.]",
             "aspects": {
                 "tool": 1,
                 "knock": 4,
@@ -750,8 +750,8 @@
         },
         {
             "id": "scar_winter",
-            "label": "Scar: Old Wound",
-            "description": "Step closer to the sunset, and see the first stars of night. [You've made a permanent sacrifice for power.]",
+            "label": "Ferida Antiga Ferida",
+            "description": "Chegue mais perto do pôr do sol e veja as primeiras estrelas da noite. [Você fez um sacrifício permanente pelo poder.]",
             "aspects": {
                 "tool": 1,
                 "winter": 4,
@@ -761,7 +761,7 @@
         {
             "id": "scar_heart",
             "label": "Scar: A Wandering Heart",
-            "description": "I have so much life in me. It is difficult not to move. When I sit, my joints burn. I know that if I stop, I might stop for always. [You've made a permanent sacrifice for power. Be careful: unlike Health, this card will not satisfy Sickness or Starvation.]",
+            "description": "Eu tenho tanta vida em mim. É difícil não me mudar. Quando me sento, minhas juntas queimam. Sei que se parar, posso parar para sempre. [Você fez um sacrifício permanente para o poder. Tenha cuidado: diferente da Saúde, este cartão não satisfaz a Doença ou a Estrela.]",
             "aspects": {
                 "tool": 1,
                 "heart": 4,
@@ -775,16 +775,16 @@
         },
         {
             "id": "scar_heart_fatigued",
-            "label": "Scar: A Wandering Heart (Strained)",
-            "description": "My arteries sing, my veins burn. I cannot push myself any further. [Wait.]",
+            "label": "Cache: Um Coração Viajante (Treinado)",
+            "description": "Minhas artérias cantam, minhas veias queimam. Não posso empurrar-me mais. [Wait.]",
             "decayTo": "scar_heart",
             "lifetime": 60,
             "resaturate": true
         },
         {
             "id": "scar_moth",
-            "label": "Scar: A Flexible Aspect",
-            "description": "I've worn so many guises. With each new guise it is harder to recall my original face. Even the cartilage softens when my tempers are high. [You've made a permanent sacrifice for power.]",
+            "label": "Ciclo: Um Aspecto Flexível",
+            "description": "Eu usei tantos disfarços. Com cada cara nova, é mais difícil lembrar meu rosto original. Até mesmo os amacios de cartilagem quando meus temperamentos são altos. [Você fez um sacrifício permanente pelo poder.]",
             "aspects": {
                 "tool": 1,
                 "moth": 4,
@@ -798,16 +798,16 @@
         },
         {
             "id": "scar_moth_fatigued",
-            "label": "Scar: A Flexible Aspect (Strained)",
-            "description": "With each new expression my features ripple like water. If I am not careful I shall entirely dissolve. [Wait.]",
+            "label": "Ciclo: Um Aspecto Flexível (Treinado)",
+            "description": "A cada nova expressão, meus recursos são ondulados como água. Se não tiver cuidado, irei dissolver. [Wait.]",
             "decayTo": "scar_moth",
             "lifetime": 60,
             "resaturate": true
         },
         {
             "id": "scar_lantern",
-            "label": "Scar: A Translucency",
-            "description": "Sometimes now I am beautiful beneath my skin. When I bend to the right angle - when my garments falls aside - when the eye is keen - my shape is a perfect revelation. [You've made a permanent sacrifice for power.]",
+            "label": "Ciclo: Uma Transparência",
+            "description": "Às vezes eu estou lindo debaixo da pele. Quando me curvo ao ângulo certo - quando as minhas roupas são postas de lado - quando os olhos estão interessados -, o meu formato é uma revelação perfeita. [Você fez um sacrifício permanente para o poder.]",
             "aspects": {
                 "tool": 1,
                 "lantern": 4,

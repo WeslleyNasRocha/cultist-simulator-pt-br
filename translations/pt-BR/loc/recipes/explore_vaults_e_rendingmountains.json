@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "explore_vaultrendingmountains1_setup",
-            "label": "Beginning an Expedition: Hunter's Pit",
+            "label": "Começando uma Expedição: Poço de Caçador",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -14,7 +14,7 @@
                 "guardian_watchers": 1,
                 "guardian_serpent": 1
             },
-            "startdescription": "The trap-labyrinths of the Tearing Tribes. We'll have to scale the mountains and battle our way through the tribes. After that, no doubt, there will be something else. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Os trapos labirintos das Tribos Arrancantes. Teremos que escalar as montanhas e batalhar através das tribos. Depois disso, não há dúvida de que haverá outra coisa. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -27,7 +27,7 @@
         },
         {
             "id": "explore_vaultrendingmountains2_setup",
-            "label": "Beginning an Expedition: Snow's Keeper",
+            "label": "Começando uma Expedição: Guardião da Neve",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -39,7 +39,7 @@
                 "guardian_dead": 1,
                 "curse_nowhere": 1
             },
-            "startdescription": "We'll brave the mountain-snows to reach the temple. If the dead rise against us, we'll suppress them. But there is a malignity here that we must suppress, or it will return home with us. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Teremos coragem para nevar de montanha para chegar ao templo. Se os mortos se levantarem contra nós, iremos reprimi-los. Mas há aqui um mal-estar que temos de suprimir ou que regressaremos a casa. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -52,7 +52,7 @@
         },
         {
             "id": "explore_vaultrendingmountains3_setup",
-            "label": "Beginning an Expedition: the Eye of Ikirmawi",
+            "label": "Começa uma Expedição: o Olho de Ikirmawi",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -64,7 +64,7 @@
                 "seal_wardeddoor": 1,
                 "curse_visions": 1
             },
-            "startdescription": "The Rending Mountains stand between us and the observatory. The door will be sealed and barred against us. The visions we find may tear at our senses. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "As montanhas de alavanca encontram-se entre nós e o observatório. A porta estará fechada e serrilhada contra nós. As visões que encontrarmos podem rasgar aos nossos sentidos. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -77,7 +77,7 @@
         },
         {
             "id": "explore_vaultrendingmountains4_setup",
-            "label": "Beginning an Expedition: the Mausoleum of Wolves",
+            "label": "Começo da Expedição: a Tumba dos Lobos",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -89,7 +89,7 @@
                 "seal_wardeddoor": 1,
                 "guardian_dead": 1
             },
-            "startdescription": "Did the Sun ever come here, when its death was pronounced? Perhaps that pronouncement was premature. In any case, if we usurp its progress, we'll have to face avalanches, furious ghosts, and a door sealed by adept-architects. Let's be ready. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "O Sol já veio aqui, quando a sua morte foi pronunciada, e talvez esse pronunciamento tenha sido prematuro. De qualquer forma, se usurparmos seu progresso, teremos que enfrentar avalanches, fantasmas furiosos e uma porta selada por arquitetos adeptos. Vamos estar prontos. [As expedições precisam de pelo menos um fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -102,7 +102,7 @@
         },
         {
             "id": "explore_vaultrendingmountainsdefault_setup",
-            "label": "Beginning an Expedition: Tombs of the Shadowless Kings",
+            "label": "Começando uma Expedição: Tumbas dos Reis sem Sombra",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -115,7 +115,7 @@
                 "guardian_watchers": 1,
                 "curse_affliction": 1
             },
-            "startdescription": "We must penetrate the mountains, pass the guardians, and brave the curse the Shadowless Kings left behind. Perhaps then we will find treasures. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Devemos penetrar nas montanhas, passar os guardiões e bravar a maldição que os Reis sem Sombra deixaram para trás. Talvez então encontremos tesouros. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -128,7 +128,7 @@
         },
         {
             "id": "explorevaultrendingmountains1_success",
-            "label": "The Memory of War",
+            "label": "A Memória de Guerra",
             "actionid": "explore",
             "requirements": {
                 "vaultrendingmountains1": 1
@@ -152,14 +152,14 @@
                 "defaultcard": "compensationd",
                 "resetonexhaustion": false
             },
-            "startdescription": "In the crumbling depths of the Hunter's Pits, we've found a room where battle-scenes are painted on the walls. Here are the shrines of all the greatest hunters of the Tearing Tribes.",
-            "description": "These are the trophies the hunters won. Not all the beasts they slew are beasts that walk the earth today.",
+            "startdescription": "Nas profundezas desmoronadas das poças do Caçador, encontramos uma sala onde as cenas de batalha são pintadas nas paredes. Aqui estão os santuários de todos os maiores caçadores das Tribos de Tearing.",
+            "description": "Estes são os troféus que os caçadores ganharam. Nem todos os animais que mataram são animais que andam pela terra hoje.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultrendingmountains2_success",
-            "label": "The Altar's Garment",
+            "label": "A Vestimenta do Altar",
             "actionid": "explore",
             "requirements": {
                 "vaultrendingmountains2": 1
@@ -179,14 +179,14 @@
                 "defaultcard": "compensationd",
                 "resetonexhaustion": false
             },
-            "startdescription": "The interior of the temple throbs with luminescent fungi. We must peel them from the altar with our gloved hands before we can loot the place. It is as cold as rain-chilled flesh. Our gloves now are stained with light. Our breath mists in the temple's cold.",
-            "description": "The treasures that unknown priests left here, and a pitiful huddle of bones. A sacrifice? Or did a later visitor end their visit here? The glowing fungus has etched their skeleton with its acids.",
+            "startdescription": "O interior dos templos com fungo luminescente Temos de descascá-los no altar com as nossas mãos luvas antes de saquear o lugar. Está frio como carne gelada. Nossas luvas agora estão manchadas com luz. Nossa respiração neblina no frio do templo.",
+            "description": "Os tesouros que os padres desconhecidos deixaram aqui, e uma porção lastimável de ossos. Um sacrifício? Ou um visitante mais tarde terminou a sua visita aqui? Os fungos brilhantes arrancaram seu esqueleto com ácidos.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultrendingmountains3_success",
-            "label": "The Progress of the Heavens",
+            "label": "O Progresso dos Céus",
             "actionid": "explore",
             "requirements": {
                 "vaultrendingmountains3": 1
@@ -205,14 +205,14 @@
                 "defaultcard": "compensationd",
                 "resetonexhaustion": false
             },
-            "startdescription": "The great telescope has rusted and fallen from the dome. The lenses have cracked. But pale lights rotate slowly above the floor, like lamps held aloft by dancers. Perhaps they imitate the procession of heavenly bodies. Perhaps their motion mourns the passing of the Sun.",
-            "description": "The chief of the astronomers who dwelt here must have been a practitioner of the invisible arts. In a cedarwood box in his quarters, beneath the decaying bed, we find what we sought.",
+            "startdescription": "O grande telescópio fugiu e caiu da cúpula. As lentes racharam. Mas as luzes pálidas giram lentamente acima do chão, como lâmpadas mantidas altas pelos dançarinos. Talvez eles imitem a procissão de corpos celestiais. Talvez a sua moção chame a boca do Sol.",
+            "description": "O chefe dos astrônomos que aqui moram deve ter sido um praticante das artes invisíveis. Numa caixa de madeira de cedro, debaixo da cama em decadência, encontramos o que procurámos.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultrendingmountains4_success",
-            "label": "The Coming of the Wolf",
+            "label": "A Chegada do Lobo",
             "actionid": "explore",
             "requirements": {
                 "vaultrendingmountains4": 1
@@ -233,14 +233,14 @@
                 "defaultcard": "compensationd",
                 "resetonexhaustion": false
             },
-            "startdescription": "The whispering of the Dead is quiet, but another sound echoes in the Mausoleum: a faint descending howl, like metal tearing in the hull of a ship, dropping in pitch until it churns our bones. It could almost be the wind, but it is not. We should not stay long here.",
-            "description": "The chill in the air deepens, until our skin crisps with ice. At the core of the Mausoleum is a white marble bowl upon a granite plinth. It is filled with snow whose touch burns the skin - and buried in it, items of note. Were they concealed here? Or were they offerings? Nothing beside remains.",
+            "startdescription": "O sussurro dos Mortos está quieto, mas outro som ecoa na Mausol: um uivo fraco descendo como um metal arrancando o casco de um navio, caindo no tom até derrubar os nossos ossos. Poderia quase ser o vento, mas não o é, não devemos ficar muito tempo aqui.",
+            "description": "O frio no ar se aprofunda, até a nossa pele beber gelo. No núcleo da Mausoléu está uma tigela de mármore branca sobre uma pílula de granito. Está cheio de neve cujo toque queima a pele - e enterrado nela, itens de anotação. Estavam escondidos aqui? Ou eram ofertas? Não sobra nada além disso.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultrendingmountainsdefault_success",
-            "label": "What Remains",
+            "label": "O que Restou",
             "actionid": "explore",
             "requirements": {
                 "vaultrendingmountainsdefault": 1
@@ -251,8 +251,8 @@
             "deckeffects": {
                 "vaultrewardse": 3
             },
-            "startdescription": "We roll the stone aside, and light floods the tomb. Here is the king, dried to papery leather and crumbling bone. He does not move. This one was not immortal.",
-            "description": "The Shadowless Kings were buried only with their most personal treasures. They expected no luxury in the afterlife. Here is a tiny cache of the things this king valued.",
+            "startdescription": "Nós jogamos a pedra à parte, e a luz enche a tumba. Aqui está o rei, seco a couro de papel e osso desmoronando. Ele não se mexe. Este não era imortal.",
+            "description": "Os Reis sem sombra foram enterrados apenas com seus tesouros mais pessoais. Eles não esperavam um luxo na vida após a morte. Aqui está um pequeno cache das coisas que este rei valorizou.",
             "warmup": 30,
             "craftable": false,
             "alt": [

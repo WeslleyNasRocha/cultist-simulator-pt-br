@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "corpse",
-            "label": "A Human Corpse",
-            "description": "The spirit is departed. At some point, the smell will be so bad you'll have to dispose of it, but here it is for now. It may attract attention; it may be used to impress the impressionable. [Even after the Corpse is gone, Notoriety will remain.]",
+            "label": "Um cadáver humano",
+            "description": "O espírito está quebrado. Em algum momento, o cheiro será tão ruim que você terá que eliminá-lo, mas aqui está por enquanto. Ele pode atrair a atenção; pode ser usado para impressionar o impressionante. [Mesmo depois do cadáver desaparecer, a Notoriedade permanecerá.]",
             "aspects": {
                 "winter": 3,
                 "grail": 3,
@@ -20,47 +20,47 @@
         },
         {
             "id": "corpse.furious",
-            "label": "Scarred Bone-Fragment",
+            "label": "Fragmento de Osso Cicatriz",
             "aspects": {
                 "remnant": 1
             },
             "xtriggers": {
                 "alzabo": "memory.furious"
             },
-            "description": "Within this fragment lie memories of an older Hour."
+            "description": "Dentro deste fragmento há lembranças de uma Hança mais velha."
         },
         {
             "id": "corpse.luxurious",
-            "label": "Leathery Remnant",
+            "label": "Caio Restante",
             "aspects": {
                 "remnant": 1
             },
             "xtriggers": {
                 "alzabo": "memory.luxurious"
             },
-            "description": "Sense-memories and longings, the secrets of the Knot, in an unpromising scrap of old self."
+            "description": "Memórias sensatas e anseios, segredos do Knot, numa sucata antiquada e pouco promissora."
         },
         {
             "id": "corpse.liminal",
-            "label": "Long-Flake",
+            "label": "Bandeira-Longo",
             "aspects": {
                 "remnant": 1
             },
             "xtriggers": {
                 "alzabo": "memory.liminal"
             },
-            "description": "Very little remains, but the taste - the unheralded taste - "
+            "description": "Muito pouco resta, mas o sabor - o sabor sem herança - "
         },
         {
             "id": "corpse.horizon",
-            "label": "Shadowless Segment",
+            "label": "Segmento Deslumbrante",
             "aspects": {
                 "remnant": 1
             },
             "xtriggers": {
                 "alzabo": "memory.horizon"
             },
-            "description": "Did the Kings ever know true Glory?"
+            "description": "Os Reis já conheceram a verdade Glória?"
         },
         {
             "id": "corpse.splendid",
@@ -71,7 +71,7 @@
             "xtriggers": {
                 "alzabo": "memory.splendid"
             },
-            "description": "Did she know the Sun as it was?"
+            "description": "Ela conhecia o Sol como era?"
         }
     ]
 }

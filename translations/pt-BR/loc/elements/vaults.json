@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "vaultcapital1",
-            "label": "Strathcoyne's Residence",
+            "label": "Residência do Strathcoyne",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -11,8 +11,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -20,8 +20,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -29,8 +29,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -38,15 +38,15 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "The house of Mr Strathcoyne, a collector of rare objects. Strathcoyne will not sell his treasures. But a sufficiently cunning accomplice might gain entry.",
+            "description": "A casa do Sr. Strathcoyne, colecionador de objetos raros. Strathcoyne não vende seus tesouros. Mas um cúmplice suficientemente astuto pode ganhar entrada.",
             "unique": true
         },
         {
@@ -60,8 +60,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -69,8 +69,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -78,8 +78,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -87,20 +87,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "Curiosity-seekers have picked over this ancient temple, but there may be a Hidden Door here somewhere.",
+            "description": "Os candidatos à curiosidade escolheram este templo antigo, mas pode haver uma porta escondida aqui em algum lugar.",
             "unique": true
         },
         {
             "id": "vaultcapital3",
-            "label": "Cater & Hero Limited",
+            "label": "Gater e Herói Limitados",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -109,8 +109,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -118,8 +118,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -127,8 +127,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -136,20 +136,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "It's been abandoned since the explosion, when both the owners died. The machines stand silent; the building is a collapsing shell. Mr Cater was known to display peculiar trinkets in his office. Perhaps some yet remain. ",
+            "description": "Ela foi abandonada desde a explosão, quando ambos os proprietários morreram. As máquinas ficam em silêncio; o edifício é uma concha que cai. Sabia-se que o senhor deputado Cater exibia no seu gabinete trinkets peculiares. Talvez ainda subsistam algumas. ",
             "unique": true
         },
         {
             "id": "vaultcapital4",
-            "label": "St Agnes Hospital",
+            "label": "Hospital de St. Agnes",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -158,8 +158,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -167,8 +167,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -176,8 +176,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -185,20 +185,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "They did good work here, once. Certainly there were a few too many amputations, but then there are individuals one would prefer not to walk the city streets.",
+            "description": "Eles fizeram um bom trabalho aqui, uma vez. Certamente que havia demasiadas amputações, mas então há indivíduos que prefeririam não andar pelas ruas da cidade.",
             "unique": true
         },
         {
             "id": "vaultcapital5",
-            "label": "Congregation of St Felix of Schüren",
+            "label": "Congregação de St Felix de Schu├ren",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -207,8 +207,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -216,8 +216,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -225,8 +225,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -234,20 +234,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "A Nonconformist enclave of a heterodox sect of a Calvinist offshoot, tucked away in an odd corner of the city. They belt out hymns with unsuitable gusto, in a throat-scraping language that is very much not quite Latin.",
+            "description": "Um enclave não conformista de um sete heterodoxo de um desfiladeiro calvinista, afastado num canto ímpar da cidade. Espreitam hinos com uma gusto inapropriado, numa linguagem de arranjo de garganta que não é muito bem o latim.",
             "unique": true
         },
         {
             "id": "vaultcapitaldefault",
-            "label": "The Forsaken Reach",
+            "label": "Alcance Abandonado",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -256,8 +256,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -265,8 +265,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -274,8 +274,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -283,19 +283,19 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "Along the grey banks of the rotting river, the warehouses wait. Perhaps I have identified one where an unusual cargo was stored. [You've found all the Expeditions in the Capital, although you can find and visit the Reach several times.]"
+            "description": "Ao longo das margens cinzas do rio apodrecido, os armazéns esperam. Talvez eu tenha identificado um onde uma carga incomum estava armazenada. [Você encontrou todas as Expedições no Capital, embora você possa encontrar e visitar o Alcance várias vezes.]"
         },
         {
             "id": "vaultshires1",
-            "label": "Gladwyn Lake",
+            "label": "Lago Gladwyn",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -304,8 +304,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -313,8 +313,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -322,8 +322,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -331,20 +331,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "Beneath the stark slopes of the fells, the mist-wreathed surface of the lake waits. There was a twin altar here before the Romans came; and a legend of a serpent who was sent to defile that altar.",
+            "description": "Sob as encostas gritantes das caias, a superfície envolta na névoa do lago espera. Havia um altar duplo aqui antes da chegada dos romanos; e uma lenda de uma serpente que foi enviada para desalojar aquele altar.",
             "unique": true
         },
         {
             "id": "vaultshires2",
-            "label": "Lockwood Fen",
+            "label": "Fornalha de Tranca",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -353,8 +353,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -362,8 +362,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -371,8 +371,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -380,20 +380,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "The reeking murk of the fenlands is ripe with furtive life. Taciturn locals still watch the sacred places of the small and secret gods, the ones that <i>answer</i> prayers.",
+            "description": "O murco reambulante das terras endurecidas está maduro de vida furtiva. Os moradores da Taciturn ainda observam os lugares sagrados dos deuses pequenos e secretos, os que <i>respondem</i> orações.",
             "unique": true
         },
         {
             "id": "vaultshires3",
-            "label": "Crowkiss Hill",
+            "label": "Colina de Crowkiss",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -402,8 +402,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -411,8 +411,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -420,8 +420,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -429,20 +429,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "The ancient tribes reserved this resting place for one who, by the end, in service to a certain merciless Hour, was more scar than man. They sealed the entrance with binding-songs and mortared blood. ",
+            "description": "As antigas tribos reservaram este lugar de repouso para aquele que, no final, em serviço de um certo Muro impiedoso, era mais cicatriz do que o homem. Eles selaram a entrada com canções vinculativas e sangue mortaco. ",
             "unique": true
         },
         {
             "id": "vaultshires4",
-            "label": "Keglin's Scratch",
+            "label": "Scratch do Keglin",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -451,8 +451,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -460,8 +460,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -469,8 +469,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -478,15 +478,15 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "Here the Romans dug for silver, until they reached the unsanctioned space where the Names hid things not fit for sunlight. Many others have come since then, even as the tunnels crumble. Some have never left.",
+            "description": "Aqui os romanos cavaram para a prata, até chegarem ao espaço não sancionado onde os Nomes escondiam as coisas que não cabem para luz solar. Muitos outros vieram desde então, mesmo que os túneis se desmoronassem.",
             "unique": true
         },
         {
@@ -500,8 +500,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -509,8 +509,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -518,8 +518,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -527,15 +527,15 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "On a crumbling cliff above a grey sea, the Gwaer Inn squats, until the day the sea comes for it. It receives few guests - fewer since the owner closed his notorious library to visiting scholars.",
+            "description": "Em um penhasco em cima de um mar cinzento, a Pousada Pousada se agachou, até o dia em que o mar chega por isso. Recebe poucos convidados - menos desde que o dono fechou sua biblioteca famosa para visitar estudiosos.",
             "unique": true
         },
         {
@@ -549,8 +549,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -558,8 +558,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -567,8 +567,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -576,8 +576,8 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
@@ -585,8 +585,8 @@
                 },
                 {
                     "id": "sending",
-                    "label": "Sending",
-                    "description": "Now and then, the expedition might have another purpose.",
+                    "label": "Enviando",
+                    "description": "De vez em quando, a expedição poderia ter outro objectivo.",
                     "required": {
                         "sendingheartb": 1,
                         "sendingmothb": 1
@@ -594,11 +594,11 @@
                     "actionid": "explore"
                 }
             ],
-            "description": "Drive through the downs to the coast where the grey-green land meets Atlantic grey. Search along the road for signs to Kerisham town. You will rarely find it, even if you have visited before; and its inhabitants guard their secrets with curse and cudgel and fast-bolted door. [You've found all the Expeditions in the Shires, although you can find and visit Kerisham several times.]"
+            "description": "Dirija pelas profundezas para a costa onde a terra cinzenta encontra a cinza Atlântica. Procure ao longo da estrada por sinais para a cidade de Kerisham. Raramente o descobrirá, mesmo que já tenha visitado antes; e os seus habitantes guardam os seus segredos com maldição e cambalheio e uma porta apressada. [Você encontrou todas as Expedições nos Shires, embora você possa encontrar e visitar Kerisham várias vezes.]"
         },
         {
             "id": "vaultcontinent1",
-            "label": "Chateau Raveline",
+            "label": "Raveline Chateau",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -607,8 +607,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -616,8 +616,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -625,8 +625,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -634,20 +634,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "The favourite stories of the Comtes des Raveline claim they descend from the <i>first</i> Sun-King. Other stories have them prowling the forest in wolf-shape. They are long gone. Their rotting chateau remains. Not all its malignities have been uncovered.",
+            "description": "As histórias favoritas dos Comtes des Raveline afirmam que eles desciam do <i>primeiro</i> Sun-King. Outras histórias fazem com que eles ronquem a floresta em forma de lobo. Elas se fogem há muito tempo. Seu chateu apodrecido permanece. Nem todos os seus maléficos foram descobertos.",
             "unique": true
         },
         {
             "id": "vaultcontinent2",
-            "label": "Fermier Abbey",
+            "label": "Fertilizante Absoluto",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -656,8 +656,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -665,8 +665,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -674,8 +674,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -683,15 +683,15 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "Robert Fermier spent much of his unsavoury fortune on the endowment of this monumental, forest-crowded abbey. The monks dislike visitors. Their ways are not exactly orthodox. They celebrate a certain harvest festival with unsavoury vigour.",
+            "description": "Robert Fermier gastou grande parte da sua infeliz fortuna na dotação deste monumental, cheio de florestas. Os monges não gostam muito de visitantes. Seus caminhos não são exatamente ortodoxos. Eles celebram um certo festival de colheita com vigor desagradável.",
             "unique": true
         },
         {
@@ -705,8 +705,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -714,8 +714,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -723,8 +723,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -732,20 +732,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "The pines grow thick as hairs on a dog's back. The airs of the inner wood are chokingly thick with resin and dust. The source that brought you here claimed that in the dawn times, the greatest tree, at the wood's black heart, served as perch for a great masked Crow.",
+            "description": "Os pinhos engrossam como cabelos nas costas de um cachorro. O ar da madeira interior é sufocante com resina e pó. A fonte que te trouxe aqui afirmava que nos tempos de alvorada, a maior árvore, no coração negro da madeira, serviu como poleiro para uma grande coroa mascarada.",
             "unique": true
         },
         {
             "id": "vaultcontinent4",
-            "label": "The Vanderschaaf Collection",
+            "label": "A Coleção de Vanderschaaf",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -754,8 +754,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -763,8 +763,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -772,8 +772,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -781,20 +781,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "A cramped little museum in a provincial town, long closed to the public since an outbreak of peculiar rapture in the room where they keep the pressed flowers. Only the very curious would ever pay attention to the place, and its close-warded store-room of ill-omened treasures.",
+            "description": "Um pequeno museu estampado em uma cidade província, há muito tempo que se aproximou do público desde que eclodiu violações peculiares na sala onde mantêm as flores pressionadas. Só os muito curiosos alguma vez prestariam atenção ao lugar e à sua sala de tesouros mal intencionados e próximos.",
             "unique": true
         },
         {
             "id": "vaultcontinent5",
-            "label": "Forman House",
+            "label": "Casa Forjada",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -803,8 +803,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -812,8 +812,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -821,8 +821,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -830,20 +830,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "Filip Forman, the helminthologist and antiquarian, did all his best work here at the family home, until the day his subjects escaped. The infestation was destroyed, but Forman, they say, walks the halls to this day, guarding his library and his shame.",
+            "description": "Filip Forman, helminthologista e antiquário, fez o seu melhor trabalho aqui na casa familiar, até ao dia em que os seus assuntos escaparam. A infestação foi destruída, mas o Forman, dizem, anda até hoje a sala, guardando a sua biblioteca e a sua vergonha.",
             "unique": true
         },
         {
             "id": "vaultcontinent6",
-            "label": "Key-Hunter's Garret",
+            "label": "Retorno do Key-Hunter",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -852,8 +852,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -861,8 +861,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -870,8 +870,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -879,20 +879,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "Vienna is one of those few cities which has the same name in every History, although adepts know it as the White City, or perhaps the City of the White. In a snowy street, in a crooked house, in a high and rattling attic, we have learnt that an eccentric hunter of imaginary keys has established a tiny trove of odd books.",
+            "description": "Viena é uma das poucas cidades que tem o mesmo nome em cada Histórico, embora os adeptos o conheçam como a Cidade Branca, ou talvez a Cidade dos Brancos. Em uma rua nevada, em uma casa torta, em um tinto alto e chocante, aprendemos que um caçador excêntrico de chaves imaginárias criou um pequeno tesouro de livros estranhos.",
             "unique": true
         },
         {
             "id": "vaultcontinentdefault",
-            "label": "The  Unnumbered Stones",
+            "label": "As Pedras Sem Número",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -901,8 +901,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -910,8 +910,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -919,8 +919,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -928,8 +928,8 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
@@ -937,8 +937,8 @@
                 },
                 {
                     "id": "sending",
-                    "label": "Sending",
-                    "description": "Now and then, the expedition might have another purpose.",
+                    "label": "Enviando",
+                    "description": "De vez em quando, a expedição poderia ter outro objectivo.",
                     "required": {
                         "sendingheartc": 1,
                         "sendingmothc": 1
@@ -946,11 +946,11 @@
                     "actionid": "explore"
                 }
             ],
-            "description": "Megaliths placed in obsessive, inerrant rows by priest-castes long dead. Time has long erased the original blood-stains, but on moonless nights, the locals supplement what remains. Hidden chambers might guard hidden treasures. [You've found all the Expeditions on the Continent, although you can find and visit the Stones several times.]"
+            "description": "Megalitos colocados em fileiras obsessivas, insultantes por casas-padre há muito mortos. O tempo apagou durante muito tempo as manchas de sangue originais, mas em noites sem lua, os habitantes locais complementam o que resta. Câmaras Ocultas podem proteger tesouros escondidos. [Você encontrou todas as Expedições no Continente, embora você possa encontrar e visitar as Pedras várias vezes.]"
         },
         {
             "id": "vaultlandbeyondforest1",
-            "label": "Cave of Candles",
+            "label": "Caverna de velas",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -959,8 +959,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -968,8 +968,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -977,8 +977,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -986,20 +986,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "Every seventh sunset, the cunning man comes from the village below to renew the candles. The floor of the entrance chamber is a slick of stinking wax. He claims the light keeps the creature below cowed; but more likely the sacrifices he brings keep it too sated to emerge.",
+            "description": "Cada sétimo pôr do sol, o homem astuto vem da aldeia abaixo para renovar as velas. O piso da câmara de entrada é um lençol de cera febre. Ele afirma que a luz mantém a criatura abaixo vacada; mas mais provável é que os sacrifícios que ele traz mantenha-a muito salgada para emergir.",
             "unique": true
         },
         {
             "id": "vaultlandbeyondforest2",
-            "label": "Voivode's Citadel",
+            "label": "Cidadela de Voivode",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1008,8 +1008,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1017,8 +1017,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1026,8 +1026,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1035,20 +1035,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "In the days of the great power of the Turks, a man of power ruled here. Over many years he fed many thirsts, until his own thirst overcame him. I have learned that both his treasures, and his victims, may remain in an untouched vault below the castle.",
+            "description": "Nos tempos da grande potência turca, um homem de poder governou aqui. Ao longo de muitos anos, alimentou muitas sedes, até que a sua própria sede o superasse. Eu aprendi que seus tesouros, e suas vítimas, podem permanecer em um cofre intocado abaixo do castelo.",
             "unique": true
         },
         {
             "id": "vaultlandbeyondforest3",
-            "label": "Grunewald's Permanent Circus",
+            "label": "Círculo permanente de Grunewald",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1057,8 +1057,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1066,8 +1066,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1075,8 +1075,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1084,20 +1084,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "A tiny city of patched tents around a white-washed farm. Hunched performers shiver in the dripping rain. Frau Grunewald has devoted her considerable fortune to the maintenance of this institution: who knows why? The circus performers dislike trespassers behind the scenes.",
+            "description": "Uma pequena cidade de tendas guardadas ao redor de uma fazenda lavada branca. Inimigos chateados tremeram na chuva a pingar. Frau Grunewald dedicou sua sorte à manutenção desta instituição: quem sabe porquê? Os artistas do circo não gostam de invasores nos bastidores.",
             "unique": true
         },
         {
             "id": "vaultlandbeyondforest4",
-            "label": "Tower Revek",
+            "label": "Revek de Torre",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1106,8 +1106,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1115,8 +1115,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1124,8 +1124,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1133,20 +1133,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "The blasted stump of a building. The air festers. Whatever power destroyed this place still clings. Only one floor remains above ground, but we suspect more space below.",
+            "description": "O toco abatido de um edifício. Os manifestantes do ar. Qualquer que poder tenha destruído este lugar ainda se agarra. Apenas um piso permanece acima do solo, mas suspeitamos de mais espaço abaixo.",
             "unique": true
         },
         {
             "id": "vaultlandbeyondforest5",
-            "label": "The Kusnetsov Endowment",
+            "label": "A Dotação Kusnetsov",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1155,8 +1155,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1164,8 +1164,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1173,8 +1173,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1182,20 +1182,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "Prince Kusnetsov gave one fourth part of his blood-soaked fortune to the establishment of a Department for Eschatology at this provincial university. The staff have grown peculiar, now, and the buildings fester in a freezing swamp, but some of Kusnetsov's bequest, perhaps, was spent on treasures.",
+            "description": "O príncipe Kusnetsov deu uma quarta parte da sua fortuna encharcada de sangue à criação de um departamento de Eschatologia nesta universidade provincial. O pessoal tornou-se peculiar, agora, e os edifícios pisam num pântano congelante, mas alguns da missão de Kusnetsov, talvez, foram gastos em tesouros.",
             "unique": true
         },
         {
             "id": "vaultlandbeyondforestdefault",
-            "label": "Foxlily Meadows",
+            "label": "Foxlily Miadinhas",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1204,8 +1204,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1213,8 +1213,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1222,8 +1222,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1231,8 +1231,8 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
@@ -1240,8 +1240,8 @@
                 },
                 {
                     "id": "sending",
-                    "label": "Sending",
-                    "description": "Now and then, the expedition might have another purpose.",
+                    "label": "Enviando",
+                    "description": "De vez em quando, a expedição poderia ter outro objectivo.",
                     "required": {
                         "sendingheartd": 1,
                         "sendingmothd": 1
@@ -1249,11 +1249,11 @@
                     "actionid": "explore"
                 }
             ],
-            "description": "The scent of foxlilies inspires ferocious appetites. It is probably fortunate that they grow only at this altitude. The peasants have organised to keep treasure-seekers away, but some treasure-seekers fall prey to lily-hungers. Their own treasures lie among their bones; and so the cycle continues. [You've found all the Expeditions in the Land Beyond the Forest, although you can find and visit the Meadows several times.]"
+            "description": "O aroma das raposas inspira ferozes apelidos. Provavelmente é uma sorte que elas só cresçam nesta altitude. Os camponeses organizaram para afastar os caçadores de tesouros, mas alguns caçadores de tesouros caem presas de festas lilés. Os seus próprios tesouros estão entre os ossos, e assim o ciclo continua. [Você encontrou todas as Expedições na Terra Além da Floresta, embora possa encontrar e visitar os Meadows várias vezes.]"
         },
         {
             "id": "vaultrendingmountains1",
-            "label": "Hunter's Pits",
+            "label": "Postes do caçador",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1262,8 +1262,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1271,8 +1271,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1280,8 +1280,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1289,20 +1289,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "The Tearing Tribes enlarged this cave system, digging shafts, preparing traps. It may have been a place of execution, or a proving ground. In either case it's sacred, and the tribes don't want us here. If we survive them, there is still one more terror in the cramped tunnels.",
+            "description": "As tribos Tearing ampliaram este sistema de cavernas, cavando agitações, preparando armadilhas. Pode ter sido um local de execução ou um terreno comprovante. Em ambos os casos é sagrado, e as tribos não nos querem aqui. Se os sobrevivermos, haverá ainda mais um terror nos túneis amontoados.",
             "unique": true
         },
         {
             "id": "vaultrendingmountains2",
-            "label": "Snow's Keeper",
+            "label": "Guardião da Neve",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1311,8 +1311,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1320,8 +1320,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1329,8 +1329,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1338,20 +1338,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "A mountain-peak temple of ill-omened aspect. Jewel-bright fungus-slicks glow in the snow. None has come here in a generation, but still something moves within.",
+            "description": "Um templo de pico de montanha de aspectos insônomos. Brilhantes de fatias de fungos brilhantes na neve. Nenhum veio aqui em uma geração, mas ainda assim algo se move dentro.",
             "unique": true
         },
         {
             "id": "vaultrendingmountains3",
-            "label": "The Eye of Ikirmawi",
+            "label": "O Olho de Ikirmawi",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1360,8 +1360,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1369,8 +1369,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1378,8 +1378,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1387,20 +1387,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "We have read of a sultan who, eight hundred years ago could sleep only beneath the stars. He ordered the construction of this observatory, so that the stars could be accurately depicted on the ceiling of his bedchamber. Regrettably, the stars they saw were not safe for the unprotected human mind. The sultan's successor ordered the observatory sealed.",
+            "description": "Lemos um sultão que, há oitocentos anos, só podia dormir debaixo das estrelas. Ordenou a construção deste observatório, para que as estrelas pudessem ser descritas com precisão no tecto do seu quarto. Lamentavelmente, as estrelas que viram não eram seguras para a mente humana desprotegida, e o sucessor da sultã ordenou a sela do observatório.",
             "unique": true
         },
         {
             "id": "vaultrendingmountains4",
-            "label": "Mausoleum of Wolves",
+            "label": "Mausoléu de Lobos",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1409,8 +1409,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1418,8 +1418,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1427,8 +1427,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1436,20 +1436,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "This chilly monument was built long before Rome fell. Stone wolves watch the door. A chamber within was carved from rock, to await fragments of the Sun at its prophesied funeral procession. That procession never came, but still the Dead are drawn here.",
+            "description": "Este monumento friamente foi construído muito antes de Roma cair. Os lobos de pedra vigiam a porta. Uma câmara foi esculpida de rocha, para aguardar fragmentos do Sol em sua profecia. Essa procissão nunca veio, mas ainda assim os mortos são desenhados aqui.",
             "unique": true
         },
         {
             "id": "vaultrendingmountainsdefault",
-            "label": "Tombs of the Shadowless Kings",
+            "label": "Túmulos dos Reis sem Sombra",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1458,8 +1458,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1467,8 +1467,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1476,8 +1476,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1485,19 +1485,19 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "In a rearing outcrop of lion-coloured rock, labourers carved tombs for the first kings of this land. Those kings had hoped to be immortal, and perhaps one of them is. The others lie among their trinkets. A hereditary order of guardians watches closely. [You've found all the Expeditions in the Rending Mountains, although you can find and visit the Tombs several times.]"
+            "description": "Em um arranque de rocha de cor de leão, trabalhadores esculpidos pelos primeiros reis desta terra. Esses reis esperavam ser imortais e talvez um deles. Os outros estão entre seus trinkets. Uma ordem hereditária dos guardiões observa de perto. [Você encontrou todas as Expedições nas Montanhas Crescentes, embora você possa encontrar e visitar as Tumbas várias vezes.]"
         },
         {
             "id": "vaultloneandlevelsands1",
-            "label": "Star-Shattered Fane",
+            "label": "Fane Estrelado",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1506,8 +1506,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1515,8 +1515,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1524,8 +1524,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1533,15 +1533,15 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "Here was a place sacred to the gods of earth, until a meteor fell on a winter's night. In time, worshippers crept back to the broken ruins. In time, the meteorite itself came to be worshipped as a bringer of dreams. The old altar may yet remain, somewhere beneath the meteorite's lair.",
+            "description": "Aqui estava um lugar sagrado para os deuses da Terra, até que um meteoro caiu na noite de um inverno. Com o tempo, os fiéis voltaram para as ruínas quebradas. Com o tempo, o próprio meteorito veio a ser adorado como um portador de sonhos. O velho altar ainda pode ficar algures abaixo do covil do meteorite.",
             "unique": true
         },
         {
@@ -1555,8 +1555,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1564,8 +1564,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1573,8 +1573,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1582,15 +1582,15 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "A low slope-sided rectangle of mud brick, in an obscure fold of the desert. It is not remarkable to look at, but Lagun was counted among the immortal Long, and no robber has ever breached his tomb.",
+            "description": "Um retângulo de tijolo de lama com baixa inclinação, numa dobra obscura do deserto. Não é extraordinário olhar para o assunto, mas Lagun foi contada entre o período imortal e nenhum ladrão jamais violou o seu túmulo.",
             "unique": true
         },
         {
@@ -1604,8 +1604,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1613,8 +1613,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1622,8 +1622,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1631,20 +1631,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "A quietly prosperous village rests in the crook of the river: a surprising splash of green against the dusty land behind. The longevity of the villagers surpasses the natural. What are they hiding?",
+            "description": "Uma aldeia silenciosamente próspera jaz no torto do rio: um salto surpreendente de verde contra a terra empoeirada por trás. A longevidade dos aldeões supera o natural. O que eles estão se escondendo?",
             "unique": true
         },
         {
             "id": "vaultloneandlevelsands4",
-            "label": "Temple of Seven Coils",
+            "label": "Templo de Sete Bobinas",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1653,8 +1653,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1662,8 +1662,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1671,8 +1671,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1680,20 +1680,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "A crumbling temple in a shadowed defile. It was built, it seems, in the Third History, the one where much later the Worms overran Europe, but it exists in all the Histories now.",
+            "description": "Um templo caído em um arquivo sombrio. Foi construída, ao que parece, na Terceira História. aquela em que muito mais tarde os Vermes invadiram a Europa, mas ela existe agora em todas as Histórias.",
             "unique": true
         },
         {
             "id": "vaultloneandlevelsandsdefault",
-            "label": "Miah",
+            "label": "Mianas",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1702,8 +1702,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1711,8 +1711,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1720,8 +1720,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1729,8 +1729,8 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
@@ -1738,8 +1738,8 @@
                 },
                 {
                     "id": "sending",
-                    "label": "Sending",
-                    "description": "Now and then, the expedition might have another purpose.",
+                    "label": "Enviando",
+                    "description": "De vez em quando, a expedição poderia ter outro objectivo.",
                     "required": {
                         "sendinghearte": 1,
                         "sendingmothe": 1
@@ -1747,7 +1747,7 @@
                     "actionid": "explore"
                 }
             ],
-            "description": "There was a city here. We can pick over its remains like jackals over old bones: palace walls, buried roads, shattered fountains. Sometimes we may find the knowledge of the  dead, and sometimes the dead may find us. [You've found all the Expeditions in the Sands, although you can find and visit Miah several times.]"
+            "description": "Havia uma cidade aqui. Podemos pegar seus remanescentes como casacos sobre ossos velhos: paredes do palácio, estradas enterradas, fontes quebradas. Às vezes podemos encontrar o conhecimento dos mortos, e às vezes os mortos nos encontram. [Você encontrou todas as Expedições nas Arenas, embora possa encontrar e visitar Miah várias vezes.]"
         },
         {
             "id": "vaulteveningisles1",
@@ -1760,8 +1760,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1769,8 +1769,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1778,8 +1778,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1787,20 +1787,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "An extinct volcano lifts its head from a fervid tangle of emerald jungle. Immortals fallen to the vilest crime of their kind are exiled here to roost, guzzling the blood and cracking the bones of unwary travellers. They must have acquired some interesting toys over the years.",
+            "description": "Um vulcão extinto levanta sua cabeça de um emaranhado de selva esmeralda. Os imortais caídos para o crime mais cruel do seu género são aqui exilados para seduzir o sangue e quebrar os ossos de viajantes desprevenidos. Devem ter adquirido alguns brinquedos interessantes ao longo dos anos.",
             "unique": true
         },
         {
             "id": "vaulteveningisles2",
-            "label": "Fort Geryk",
+            "label": "Forte Geryk",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1809,8 +1809,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1818,8 +1818,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1827,8 +1827,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1836,20 +1836,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "Three hundred years ago, a rapacious empire claimed an island ripe with tourmalines. Neither the empire nor the island are mentioned in any reputable history. But the governor's fortress remains. Perhaps his treasures remain. For that matter, perhaps he does, too.",
+            "description": "Há trezentos anos, um império rapaz reivindicou uma ilha madura com tourmalinos. Nem o império nem a ilha são mencionados em qualquer história reputável. Mas a fortaleza do governador mantém-se e talvez seus tesouros permaneçam, de resto, talvez ele também fique.",
             "unique": true
         },
         {
             "id": "vaulteveningisles3",
-            "label": "The Wreck of the Christabel",
+            "label": "O naufrágio do Natal",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1858,8 +1858,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1867,8 +1867,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1876,8 +1876,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1885,20 +1885,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "A sea-beast came to love this vessel, but when she would not return its affections, the sea-beast crushed it. Even now, the beast will not leave the ship's corpse, bedecked as it is with occult treasures. We must dive carefully.",
+            "description": "Uma besta marinha amou este navio, mas quando ela não devolveria o afecto, a besta marinha esmagou-o. Mesmo agora, a besta não deixará o cadáver do navio, arrumada como está com tesouros ocultos. Temos de mergulhar cuidadosamente.",
             "unique": true
         },
         {
             "id": "vaulteveningisles4",
-            "label": "St Tentreto of the Deep Door",
+            "label": "St Pintura da Porta Profunda",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1907,8 +1907,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1916,8 +1916,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1925,8 +1925,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1934,20 +1934,20 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "A monastery hangs grimly to a cliff-edge. It should have fallen into the sea by now, but - we have read - the monks drown victims in a deep pool beneath, to win the Sister-and-Witch's protection from the sea, one more year, one more year.",
+            "description": "Um mosteiro está penoso para uma borda de penhasco. Já devia ter caído no mar, mas - lemos - os monges afogam-se numa piscina profunda, debaixo de uma piscina profunda. para ganhar a protecção da Irmandade e da Bruxa no mar, mais um ano, mais um ano.",
             "unique": true
         },
         {
             "id": "vaulteveningislesdefault",
-            "label": "Port Noon",
+            "label": "Meio-porto",
             "aspects": {
                 "vault": 1,
                 "location": 1,
@@ -1956,8 +1956,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -1965,8 +1965,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -1974,8 +1974,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -1983,8 +1983,8 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
@@ -1992,8 +1992,8 @@
                 },
                 {
                     "id": "sending",
-                    "label": "Sending",
-                    "description": "Now and then, the expedition might have another purpose.",
+                    "label": "Enviando",
+                    "description": "De vez em quando, a expedição poderia ter outro objectivo.",
                     "required": {
                         "sendingheartf": 1,
                         "sendingmothf": 1
@@ -2001,7 +2001,7 @@
                     "actionid": "explore"
                 }
             ],
-            "description": "There is a choice that every immortal must make: enter the service of an Hour, or return to the mortal ranks, or face extinction. The sunny little island-port called Noon is the exile-realm of the immortals who refused all those options. [You've found all the Expeditions in the Evening Isles, although you can find and visit Noon several times.]"
+            "description": "Há uma escolha que cada imortal deve fazer: entrar no serviço de uma Mão, ou retornar aos níveis mortais ou enfrentar a extinção. O ensolarado pequeno porto chamado Noon é o reino do exílio dos imortais que recusaram todas essas opções. [Você encontrou todas as Expedições nas Ilhas Noventas, embora possa encontrar e visitar o Noel várias vezes.]"
         },
         {
             "id": "vaultfloating1",
@@ -2013,8 +2013,8 @@
             "slots": [
                 {
                     "id": "expeditionmember",
-                    "label": "Leader",
-                    "description": "I must have at least one Follower to start the expedition. I can add more later.",
+                    "label": "Líder",
+                    "description": "Eu devo ter pelo menos um Seguidor para iniciar a expedição. Eu posso adicionar mais tarde.",
                     "required": {
                         "follower": 1
                     },
@@ -2022,8 +2022,8 @@
                 },
                 {
                     "id": "expeditionmember2",
-                    "label": "Assistant",
-                    "description": "Optionally, I can add an extra Follower now, if I think they'll be useful.",
+                    "label": "Assistente",
+                    "description": "Opcionalmente, eu posso adicionar um Follower extra agora, se eu acho que eles serão úteis.",
                     "required": {
                         "follower": 1
                     },
@@ -2031,8 +2031,8 @@
                 },
                 {
                     "id": "expeditionfunds",
-                    "label": "Funds",
-                    "description": "I must have at least one Funds to begin the expedition.",
+                    "label": "Fundos",
+                    "description": "Tenho de dispor, pelo menos, de um fundo para dar início à expedição.",
                     "required": {
                         "funds": 1
                     },
@@ -2040,15 +2040,15 @@
                 },
                 {
                     "id": "expeditionfunds2",
-                    "label": "Further Funds",
-                    "description": "Optionally, I can add more Funds now, if I'm worried about running out.",
+                    "label": "Mais fundos",
+                    "description": "Opcionalmente, eu posso adicionar mais fundos agora, se estou preocupado com se esgotar.",
                     "required": {
                         "funds": 1
                     },
                     "actionid": "explore"
                 }
             ],
-            "description": "A battered but surprisingly plush steamer, much used by actors fleeing scandal, by shy millionaires, by occult scholars who feel safer with moving water under them; and, just once, by the Ligeia Club, who chartered the whole ship for the use of seven cabins.",
+            "description": "Um açambarcado espumado, mas surpreendentemente espoliador, usado por actores que fogem do escândalo, por milionários tímidos, por estudiosos ocultos que se sentem mais seguros se moverem água para baixo deles; e, apenas uma vez, pelo Clube de Ligeia, que fretou todo o navio para a utilização de sete cabinas.",
             "unique": true
         }
     ]

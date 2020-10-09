@@ -2,71 +2,71 @@
     "recipes": [
         {
             "id": "explore_movehq_hint",
-            "label": "A Change of Premises?",
+            "label": "Uma mudança de premissas?",
             "actionid": "explore",
             "requirements": {
                 "hq.potential": 1
             },
-            "startdescription": "We could move our base of operations here, if we so choose.",
+            "startdescription": "Poderíamos deslocar a nossa base de operações para cá, se assim o quisermos.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "explorevault_hint_sending",
-            "label": "A Second Self?",
+            "label": "Uma segunda Self?",
             "actionid": "explore",
             "requirements": {
                 "vault": 1,
                 "sending": 1
             },
-            "startdescription": "If this expedition succeeds, the I-that-is-not-I will be there to perform the Forms. [If you succeed, you'll reap the usual rewards, and also progress your Change ascension.]",
+            "startdescription": "Se esta expedição for bem-sucedida, o I-that-not-I estará lá para executar as Formas. [Se você conseguir, você colherá as recompensas habituais, e também avançará sua ascensão.]",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "explorevault_hint_addfunds",
-            "label": "Preparations for an Expedition?",
+            "label": "Preparações para uma Expedição?",
             "actionid": "explore",
             "requirements": {
                 "vault": 1,
                 "follower": 1
             },
-            "startdescription": "If I add at least one Funds, I can begin the Expedition. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Se eu adicionar pelo menos um Fundo, posso começar a Expedição. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "explorevault_hint_addfollower",
-            "label": "Preparations for an Expedition?",
+            "label": "Preparações para uma Expedição?",
             "actionid": "explore",
             "requirements": {
                 "vault": 1,
                 "funds": 1
             },
-            "startdescription": "If I add a Follower, I can begin the Expedition. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Se eu adicionar um Seguidor, posso começar a Expedição. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "explorevault_hint",
-            "label": "Preparations for an Expedition?",
+            "label": "Preparações para uma Expedição?",
             "actionid": "explore",
             "requirements": {
                 "vault": 1
             },
-            "startdescription": "I could send an Expedition here to find books, treasures, tools of power. But I'll need Followers to send, and Funds to supply them.",
+            "startdescription": "Eu poderia enviar uma Expedição aqui para encontrar livros, tesouros, ferramentas de poder. Mas precisarei de Seguidores para enviar e Fundos para fornecê-los.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "exploresulochanacabaret_hint",
-            "label": "The Old Form and the New",
+            "label": "A Forma Antiga e a Nova",
             "actionid": "explore",
             "requirements": {
                 "locationcabaret": 1,
                 "sulochana": 1
             },
-            "startdescription": "[If you have the Dancer expansion, you can use this combination to find a job at the Ecdysis club, and pursue the Change ascensions.]",
+            "startdescription": "[Se você tiver a expansão Dancer, você pode usar essa combinação para encontrar um trabalho no clube Ecdisis e seguir as Ascensões de Mudanças].",
             "hintonly": true,
             "craftable": false
         },
@@ -76,8 +76,8 @@
             "requirements": {
                 "location.cemetery": 1
             },
-            "label": "A Disinterment?",
-            "startdescription": "I'll need to deploy my own strength, or that of a friend.",
+            "label": "Um Desinterlição?",
+            "startdescription": "Precisarei implantar minha própria força, ou a de um amigo.",
             "craftable": false,
             "hintonly": true
         },
@@ -87,8 +87,8 @@
             "requirements": {
                 "location.cemetery.closing": 1
             },
-            "label": "A Cautious Disinterment?",
-            "startdescription": "I'll need to deploy my own strength, or that of a friend.",
+            "label": "Uma Desinterligação cautelosa?",
+            "startdescription": "Precisarei implantar minha própria força, ou a de um amigo.",
             "craftable": false,
             "hintonly": true
         }

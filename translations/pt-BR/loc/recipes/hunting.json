@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "suspicion",
-            "label": "The Wrong Kind of Attention",
+            "label": "O tipo errado de atenção",
             "actionid": "suspicion",
             "requirements": {
                 "seasonsuspicion": 1
@@ -10,15 +10,15 @@
             "slots": [
                 {
                     "id": "Suspicion",
-                    "label": "An Adversary?",
+                    "label": "Um Adversário?",
                     "required": {
                         "hunter": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "The city is rife with journalists and detectives and other meddlers. How long will they leave me in peace?",
-            "description": "I'm safe for now. The meddlers' attention must be elsewhere. A relief.",
+            "startdescription": "A cidade abunda com jornalistas, detetives e outros intrometidos. Quanto tempo me deixarão em paz?",
+            "description": "Estou seguro por enquanto. Os intrometidos devem estar em outro lugar. Um alívio.",
             "warmup": 10,
             "craftable": false,
             "linked": [
@@ -34,17 +34,17 @@
         },
         {
             "id": "suspiciongrabreputation",
-            "label": "Searching for Clues...",
+            "label": "Procurando por Clues...",
             "actionid": "suspicion",
             "requirements": {
                 "hunter": 1
             },
-            "startdescription": "An adversary is asking searching questions about my activities.",
+            "startdescription": "Um adversário está fazendo perguntas sobre minhas atividades.",
             "description": "",
             "slots": [
                 {
                     "id": "Clues",
-                    "label": "Clues",
+                    "label": "Dicas",
                     "required": {
                         "reputation": 1
                     },
@@ -66,13 +66,13 @@
         {
             "id": "suspiciongrabevidence",
             "actionid": "suspicion",
-            "label": "Considering the Evidence...",
-            "startdescription": "If a Hunter has found Notoriety, they will try to use it to create or upgrade Evidence. If they're Meticulous, they'll always succeed. If they're Erratic, they're more likely to fail... but they can occasionally create Evidence even without Notoriety.",
-            "description": "I am safe, for now. My adversary has not enough evidence to bring a case against me, and they've found no new clues.",
+            "label": "Considerando a prova...",
+            "startdescription": "Se um caçador encontrou Notoriety, eles vão tentar usá-lo para criar ou atualizar a prova. Se forem Meticulosos, sempre terão sucesso. Se eles estão errados, é mais provável que falhem... mas ocasionalmente podem criar provas mesmo sem Notoriety.",
+            "description": "Estou seguro, por enquanto. Meu adversário não tem evidências suficientes para trazer um caso contra mim, e eles não encontraram novas pistas.",
             "slots": [
                 {
                     "id": "Evidence",
-                    "label": "Evidence",
+                    "label": "Prova",
                     "required": {
                         "evidenceb": 1,
                         "evidence": 1
@@ -117,13 +117,13 @@
         {
             "id": "suspicionerratic_alwaysfail",
             "actionid": "suspicion",
-            "label": "Curious Habits",
+            "label": "Hábitos Curiosos",
             "requirements": {
                 "erratic": 1,
                 "reputation": 1
             },
-            "startdescription": "My adversary is behaving eccentrically. [This happens only occasionally.]",
-            "description": "Has my adversary been practising a musical instrument instead of pursuing the investigation? Flinging darts at a cork board? Or just taking very long naps? Reports are inconsistent, but so is their behaviour. They've made no progress.",
+            "startdescription": "Meu adversário está se comportando de forma excêntrica. [Isso só acontece ocasionalmente.]",
+            "description": "O meu adversário tem estado a praticar um instrumento musical em vez de prosseguir a investigação? Jogando dardos em uma rolha? Ou demorando muito tempo? Os relatórios são inconsistentes, mas o comportamento deles. Eles não fizeram progresso.",
             "effects": {
                 "reputation": -1
             }
@@ -131,7 +131,7 @@
         {
             "id": "suspicionerratic_alwayssucceed",
             "actionid": "suspicion",
-            "label": "Bewildering Successes",
+            "label": "Perplexos de sucesso",
             "requirements": {
                 "erratic": 1,
                 "reputation": -1
@@ -139,7 +139,7 @@
             "effects": {
                 "notoriety": 1
             },
-            "startdescription": "A rumour claims my adversary has taken to casting oracles with the I Ching. Another claims they seek answers in dreams. Yet another, that they select which questions to ask by rolling dice. They've found evidence where there should be no evidence to find. [This happens only occasionally.]",
+            "startdescription": "Um boato alega que o meu adversário levou para lançar oráculos com o \"Ching\". Outras afirmações que buscam respostas em sonhos. Mais uma vez, seleccionam quais as perguntas que devem ser feitas com dados circulantes. Eles encontraram evidências onde não deveria haver evidências para encontrar. [Isso só acontece ocasionalmente.]",
             "linked": [
                 {
                     "id": "suspicionpromoteevidence",
@@ -158,15 +158,15 @@
             "requirements": {
                 "mystique": 1
             },
-            "label": "The Perils of Renown",
-            "startdescription": "My Mystique has attracted this hunter's attention. They can prove nothing yet, but they'll keep looking for longer, now.",
+            "label": "Os Perigos de Renown",
+            "startdescription": "Meu Mystique atraiu a atenção deste caçador. Ainda não podem provar nada, mas eles vão continuar procurando por mais tempo, agora.",
             "effects": {
                 "mystique": -1
             },
             "slots": [
                 {
                     "id": "Clues",
-                    "label": "Clues",
+                    "label": "Dicas",
                     "required": {
                         "reputation": 1
                     },
@@ -188,7 +188,7 @@
         {
             "id": "suspicionpromoteevidencemeticulous",
             "actionid": "suspicion",
-            "label": "Creating Damning Evidence",
+            "label": "Criando Evidência Condenante",
             "requirements": {
                 "evidence": 1,
                 "reputation": 1,
@@ -208,9 +208,9 @@
                 "evidence": 1,
                 "reputation": 1
             },
-            "label": "Creating Damning Evidence",
-            "startdescription": "This hunter is putting the finishing touches to their investigation.",
-            "description": "If this ever reaches trial, I will be in serious danger. Even if this hunter is disposed of, another may find their notes.",
+            "label": "Criando Evidência Condenante",
+            "startdescription": "Este caçador está dando os retoques finais em sua investigação.",
+            "description": "Se isto alguma vez chegar ao julgamento, eu estarei em sério perigo. Mesmo que este caçador seja eliminado, outro pode achar suas anotações.",
             "effects": {
                 "evidence": -1,
                 "evidenceb": 1,
@@ -221,7 +221,7 @@
         {
             "id": "suspicioncreateevidencemeticulous",
             "actionid": "suspicion",
-            "label": "Converting Clues to Evidence",
+            "label": "Conversão de Clues em Evidência",
             "requirements": {
                 "reputation": 1,
                 "meticulous": 1
@@ -239,9 +239,9 @@
             "requirements": {
                 "reputation": 1
             },
-            "label": "Converting Clues to Evidence",
-            "startdescription": "Rumour squats on rooftops and flutters in gutters. This hunter is making progress in their investigation.",
-            "description": "I am certain that my adversary has lodged a copy of their notes elsewhere - with their solicitor, with their superior, or even with a contact in the press. This is troubling.",
+            "label": "Conversão de Clues em Evidência",
+            "startdescription": "Há boatos de boatos em telhados e agitadores em ruínas. Este caçador está fazendo progresso em suas investigações.",
+            "description": "Estou certo de que o meu adversário apresentou uma cópia das suas notas noutros lugares - junto do seu advogado. com o seu superior, ou mesmo com um contato na imprensa. Isto é preocupante.",
             "effects": {
                 "reputation": -1,
                 "evidence": 1
@@ -250,13 +250,13 @@
         },
         {
             "id": "suspiciontrycreatehunter",
-            "label": "The Curious Few",
+            "label": "Os Curiosos Poucos",
             "actionid": "suspicion",
-            "startdescription": "The wrong kind of reputation might awaken the interest of the curious, the puritanical, or the vengeful. [A Reputation may inspire an adversary to emerge.]",
+            "startdescription": "O tipo errado de reputação pode despertar o interesse do curioso, do puritânico, ou da vingança. [Uma reputação pode inspirar um adversário à espião.]",
             "slots": [
                 {
                     "id": "Clues",
-                    "label": "Clues",
+                    "label": "Dicas",
                     "required": {
                         "reputation": 1
                     },
@@ -273,7 +273,7 @@
                     "chance": 100
                 }
             ],
-            "description": "My name, just now, is clear. Any guardians remain in the shadows.",
+            "description": "O meu nome acaba de ser claro. Qualquer guardião permanece na sombra.",
             "effects": {
                 "contentment": 1
             },
@@ -282,12 +282,12 @@
         {
             "id": "suspicioncreatefirsthunter",
             "actionid": "suspicion",
-            "label": "An Adversary!",
+            "label": "Um Adversário!",
             "requirements": {
                 "reputation": 1
             },
-            "startdescription": "Someone is meddling.",
-            "description": "There's always someone who doesn't understand, or who understands too well. This troublemaker may seek evidence on my activities to share with the authorities.",
+            "startdescription": "Alguém está se intrometendo.",
+            "description": "Há sempre alguém que não entende, ou que entenda muito bem. Esse agitador pode procurar evidências sobre minhas atividades para compartilhar com as autoridades.",
             "effects": {
                 "reputation": -1,
                 "defaulthunter": 1
@@ -298,12 +298,12 @@
         {
             "id": "suspicioncreatehunter",
             "actionid": "suspicion",
-            "label": "An Adversary!",
+            "label": "Um Adversário!",
             "requirements": {
                 "reputation": 1
             },
-            "startdescription": "Someone is meddling.",
-            "description": "There's always someone who doesn't understand, or who understands too well. This troublemaker may seek evidence on my activities to share with the authorities.",
+            "startdescription": "Alguém está se intrometendo.",
+            "description": "Há sempre alguém que não entende, ou que entenda muito bem. Esse agitador pode procurar evidências sobre minhas atividades para compartilhar com as autoridades.",
             "deckeffects": {
                 "hunters": 1
             },
@@ -314,12 +314,12 @@
         },
         {
             "id": "suspicionpretrial",
-            "label": "The Bureau Considers My Case",
+            "label": "A Mesa observa Meu Caso",
             "actionid": "suspicion",
             "requirements": {
                 "evidenceb": 1
             },
-            "startdescription": "My adversary has convinced the Suppression Bureau to consider my case. The Bureau is charged with punishment of the less usual type of criminal - the criminal whose crimes may exist only in dreams.",
+            "startdescription": "O meu adversário convenceu a Mesa para a Supressão a considerar o meu caso. A Mesa é acusada de castigar o tipo de criminoso menos habitual - o criminoso, cujos crimes só podem existir nos sonhos.",
             "description": ".",
             "warmup": 30,
             "craftable": false,
@@ -337,9 +337,9 @@
         },
         {
             "id": "suspicion_questionme",
-            "label": "I am to be tried in court!",
+            "label": "Estou a ser julgado em tribunal!",
             "actionid": "suspicion",
-            "startdescription": "The Suppression Bureau has taken me in for questioning.",
+            "startdescription": "A Mesa de Supressão levou-me a perguntar.",
             "description": ".",
             "craftable": false,
             "linked": [
@@ -352,12 +352,12 @@
         },
         {
             "id": "suspicion_questionfollower",
-            "label": "A Trial!",
+            "label": "Uma Provação!",
             "actionid": "suspicion",
             "slots": [
                 {
                     "id": "Suspect",
-                    "label": "Suspect",
+                    "label": "Suspender",
                     "required": {
                         "follower": 1,
                         "independent": 1
@@ -366,11 +366,11 @@
                         "summoned": 1,
                         "hireling": 1
                     },
-                    "description": "The Bureau thirsts for suspects.",
+                    "description": "A Mesa tem sede de suspeitos.",
                     "greedy": true
                 }
             ],
-            "startdescription": "The Suppression Bureau is seeking an associate of mine for questioning. If they can't find one, they'll come after me directly.",
+            "startdescription": "A Mesa de Supressão está procurando um associado meu para interrogatório. Se não encontrar um, virá logo depois de mim.",
             "description": ".",
             "craftable": false,
             "linked": [
@@ -392,13 +392,13 @@
         {
             "id": "suspicion_attemptmitigation_me",
             "actionid": "suspicion",
-            "label": "The Suppression Bureau is bringing me to trial!",
-            "startdescription": "There are crimes the state does not openly recognise. I stand accused of one of these. The Suppression Bureau holds its trials in closed court, and they are not merciful. Unless I can take advantage of a connection, I risk imprisonment!",
+            "label": "O Gabinete de Supressão leva-me a julgamento!",
+            "startdescription": "Há crimes que o Estado não reconhece abertamente, dos quais sou acusado. A Mesa de Supressão, que realiza os seus julgamentos em tribunal fechado, e que eles não são misericordiosos, a menos que eu possa tirar partido de uma ligação, arrisco-me a ser preso!",
             "description": ".",
             "slots": [
                 {
                     "id": "favour",
-                    "label": "A Favour",
+                    "label": "Um Favor",
                     "required": {
                         "favour": 1
                     }
@@ -422,17 +422,17 @@
         },
         {
             "id": "suspicion_attemptmitigation_follower",
-            "label": "The Suppression Bureau is bringing an associate to trial!",
+            "label": "O Gabinete de Supressão traz consigo o julgamento de um associado!",
             "actionid": "suspicion",
             "requirements": {
                 "follower": 1
             },
-            "startdescription": "There are crimes the state does not openly recognise. My associate has been implicated in one of these. The Suppression Bureau holds its trials in closed court, and they are not merciful. Unless I can take advantage of a connection, my associate may be gone forever... ",
+            "startdescription": "Há crimes que o Estado não reconhece abertamente, um dos quais foi implicado pela minha associação. O Gabinete de Supressão realiza os seus julgamentos em tribunal fechado e não são misericordiosos. A menos que eu possa tirar proveito de uma conexão, minha associação pode desaparecer para sempre... ",
             "description": ".",
             "slots": [
                 {
                     "id": "favour",
-                    "label": "A Favour",
+                    "label": "Um Favor",
                     "required": {
                         "favour": 1
                     }
@@ -456,17 +456,17 @@
         },
         {
             "id": "suspicion_attemptmitigation_rival",
-            "label": "The Suppression Bureau is bringing a Rival to trial!",
+            "label": "O Gabinete de Supressão traz um Rival para o julgamento!",
             "actionid": "suspicion",
             "requirements": {
                 "independent": 1
             },
-            "startdescription": "There are crimes the state does not openly recognise. My rival has been implicated in one of these. The Suppression Bureau holds its trials in closed court, and they are not merciful. This may be the end for my rival... although I could try to intervene.",
+            "startdescription": "Há crimes que o Estado não reconhece abertamente, um dos quais foi implicado pelo meu rival . O Gabinete de Supressão realiza os seus julgamentos em tribunal fechado e não são misericordiosos. Este pode ser o fim do meu rival... embora eu pudesse tentar intervir.",
             "description": ".",
             "slots": [
                 {
                     "id": "favour",
-                    "label": "A Favour",
+                    "label": "Um Favor",
                     "required": {
                         "favour": 1
                     }
@@ -491,14 +491,14 @@
         {
             "id": "suspicion_favourused",
             "actionid": "suspicion",
-            "label": "An Ally in the Shadows",
+            "label": "Um Aliado nas Sombras",
             "requirements": {
                 "favour": 1
             },
             "effects": {
                 "favour": -1
             },
-            "startdescription": "I have called in a favour with a person of note. It'll probably shield me, but nothing is certain.",
+            "startdescription": "Eu pedi o favor de uma pessoa de anotação. Provavelmente me protegerei, mas nada é certo.",
             "description": ".",
             "warmup": 30,
             "linked": [
@@ -519,8 +519,8 @@
         {
             "id": "suspicion_favourused_failure",
             "actionid": "suspicion",
-            "label": "Not Enough!",
-            "startdescription": "I've pulled all the strings I can, and it wasn't enough. The Bureau is remorseless. If I have another connection, I might be able to use that. Otherwise, we'll have to take our chances in the trial.",
+            "label": "Não é suficiente!",
+            "startdescription": "Eu puxei todas as cordas que puder, e não foi o suficiente. A Mesa é irreversível. Se eu tiver outra conexão, talvez eu consiga usá-la. Caso contrário, teremos de correr nossas chances na avaliação.",
             "description": ".",
             "warmup": 30,
             "linked": [
@@ -537,8 +537,8 @@
         {
             "id": "suspicion_followerimprisoned",
             "actionid": "suspicion",
-            "label": "A Victory for the Bureau",
-            "description": "My associate has been locked away in a prison where there are no visiting rights, and even the date of release is obscure. The Bureau's appetite is satisfied for the moment; but what have they learnt?",
+            "label": "Uma vitória para a Mesa",
+            "description": "O meu amigo foi preso numa prisão onde não há direitos de visita, e mesmo a data de libertação é obscura. O desejo da Mesa está satisfeito por agora, mas o que é que aprendemos?",
             "aspects": {
                 "investigatingsetback": 1
             },
@@ -549,8 +549,8 @@
         {
             "id": "suspicion_meimprisoned",
             "actionid": "suspicion",
-            "label": "A Victory for the Bureau",
-            "startdescription": "I've been found guilty! All my schemes end here. I must prepare myself.",
+            "label": "Uma vitória para a Mesa",
+            "startdescription": "Eu fui considerado culpado! Todos os meus esquemas terminam aqui. Eu preciso me preparar.",
             "description": ".",
             "warmup": 10,
             "signalEndingFlavour": "Melancholy",
@@ -562,8 +562,8 @@
             "requirements": {
                 "follower": 1
             },
-            "label": "The Bureau's Fury",
-            "startdescription": "My associate has been exonerated! The evidence was not sufficiently compelling to convict them, and they're free to go... though they may harbour a grudge against me. The Bureau has been stymied for the moment.",
+            "label": "A Fúria da Mesa",
+            "startdescription": "A minha amiga foi ilibada! As provas não foram suficientemente convincentes para as condenar, e são livres de ir. Embora possam ter uma atitude de relutância contra mim, a Mesa está bloqueada por agora.",
             "aspects": {
                 "investigatingsetback": 1
             },
@@ -579,8 +579,8 @@
         {
             "id": "suspicion_meexonerated",
             "actionid": "suspicion",
-            "label": "The Bureau's Fury",
-            "startdescription": "I have been exonerated! The evidence was not sufficiently compelling to convict me, and I'm free to go.",
+            "label": "A Fúria da Mesa",
+            "startdescription": "Fui ilibado! As provas não foram suficientemente convincentes para me condenar, e estou livre de sair.",
             "requirements": {
                 "follower": -1
             },
@@ -592,7 +592,7 @@
             "id": "suspiciontrial",
             "comments": "Here for legacy compatibility",
             "actionid": "suspicion",
-            "description": "ARREST!",
+            "description": "RESTAURAR!",
             "warmup": 0,
             "linked": [
                 {
@@ -604,8 +604,8 @@
         {
             "id": "suspicion_rivalimprisoned",
             "actionid": "suspicion",
-            "label": "A Victory for the Bureau",
-            "description": "My Rival will not be seen again by daylight. The Bureau's appetite is satisfied for the moment; but what have they learnt?",
+            "label": "Uma vitória para a Mesa",
+            "description": "O meu Rival não voltará a ser visto à luz do dia. O apetite da Mesa está satisfeito de momento; mas o que é que aprendemos?",
             "aspects": {
                 "investigatingsetback": 1
             },
@@ -619,8 +619,8 @@
             "requirements": {
                 "independent": 1
             },
-            "label": "The Bureau's Fury",
-            "startdescription": "My Rival has been exonerated! The evidence was not sufficiently compelling to convict them, and they're free to go... though they will no doubt blame me for their hardships.",
+            "label": "A Fúria da Mesa",
+            "startdescription": "O meu Rival foi ilibado! As provas não foram suficientemente convincentes para os condenar, e são livres de ir. Embora me culpem, sem dúvida, pelas suas dificuldades.",
             "aspects": {
                 "investigatingsetback": 1
             },

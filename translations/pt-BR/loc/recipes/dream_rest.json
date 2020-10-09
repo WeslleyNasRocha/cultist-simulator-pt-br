@@ -3,8 +3,8 @@
         {
             "id": "dream.poison.fascination.longlesson.trap",
             "actionid": "dream",
-            "label": "An Enemy Ever Vigilant",
-            "startdescription": "Our enemy has learnt from my dreams.",
+            "label": "Um Vigilante Eterno Inimigo",
+            "startdescription": "Nosso inimigo aprendeu com os meus sonhos.",
             "requirements": {
                 "poison.fascination.longlesson": 1,
                 "fascination": 1
@@ -24,7 +24,7 @@
         },
         {
             "id": "dreamhealth",
-            "label": "An Early Night",
+            "label": "Uma Noite Antiga",
             "actionid": "dream",
             "requirements": {
                 "health": 1
@@ -50,44 +50,44 @@
                     "chance": 30
                 }
             ],
-            "startdescription": "With luck, I'll wake refreshed. [Sometimes, this will provide Contentment. Often, it will do nothing. Occasionally, it will create Dread or Fascination.]",
-            "description": "Sometimes, I have dreamt of a tall woman in a sand-coloured coat, who stands at the foot of my bed, smiling as she watches me sleep. In that dream, she turns her head with the swiftness of a bird, and her fingers flex like talons. I do not think I dreamt of her last night. If I had, I could not have slept so soundly.",
+            "startdescription": "Com sorte, acordarei atualizado. [Às vezes, isso fornecerá conteúdo. Muitas vezes, não fará nada. Ocasionalmente, criará Temidos ou Fascinação.]",
+            "description": "Às vezes, eu sonhei com uma mulher alta em um casaco de cor fria, que está no pé da minha cama, sorrindo enquanto me assiste a dormir. Nesse sonho, ela vira sua cabeça com a velocidade escalar de um pássaro, e seus dedos pulam como garras. Eu não acho que sonhei com ela ontem à noite. Se tivesse, não teria podido dormir tão bem.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "dreamhealthcontentment",
-            "label": "An Early Night",
+            "label": "Uma Noite Antiga",
             "actionid": "dream",
             "effects": {
                 "contentment": 1
             },
-            "description": "Sleep is a long dark ocean, but sometimes, when we reach the farther shore, there is lamp-light.",
+            "description": "O sono é um longo oceano escuro, mas às vezes, quando chegamos à costa mais longa, há luz de lâmpada.",
             "craftable": false
         },
         {
             "id": "dreamhealthdread",
-            "label": "An Early Night",
+            "label": "Uma Noite Antiga",
             "actionid": "dream",
             "effects": {
                 "dread": 1
             },
-            "description": "In the land of the two rivers, in the days of Rimush and of Naram-Sin, there were stories told of a howling woman who devoured the children of other mothers. Last night there was a howling in my dreams.",
+            "description": "Na terra dos dois rios, nos dias de Rimush e de Naram-Sin, contaram histórias de uma mulher uivante que devorou os filhos de outras mães. Ontem à noite, houve um uivo nos meus sonhos.",
             "craftable": false
         },
         {
             "id": "dreamhealthfascination",
-            "label": "An Early Night",
+            "label": "Uma Noite Antiga",
             "actionid": "dream",
             "effects": {
                 "fascination": 1
             },
-            "description": "Imagine a box of mirrors, where each mirror contains a sweeter light. Now imagine that in the seventh mirror there is only an ordinary dawn, an ordinary bed, the dull beginnings of an ordinary day. Imagine that, and long for light.",
+            "description": "Imagine uma caixa de espelhos, onde cada espelho contém uma luz mais ampla. Imaginem agora que, no sétimo espelho, há apenas uma alvorada comum, uma cama vulgar, o começo maçador de um dia comum. Imaginem isso e anseiem pela luz.",
             "craftable": false
         },
         {
             "id": "recoverhunger",
-            "label": "Restore my Strength",
+            "label": "Restaurar minha Força",
             "actionid": "dream",
             "requirements": {
                 "funds": 1,
@@ -99,14 +99,14 @@
             "aspects": {
                 "restorehealth": 1
             },
-            "startdescription": "I have gone some time without food. I should eat carefully.",
-            "description": "My strength returns. The wheeling dark at the corners of my sight is gone.",
+            "startdescription": "Passei algum tempo sem comida. Devo comer cuidadosamente.",
+            "description": "Minha força retorna. A escuridão ao redor dos cantos da minha visão se foi.",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "recoverfatigue",
-            "label": "Nap to recover from Fatigue",
+            "label": "Nap para se recuperar da Fadiga",
             "actionid": "dream",
             "requirements": {
                 "fatigue": 1
@@ -114,17 +114,17 @@
             "aspects": {
                 "restorehealth": 1
             },
-            "startdescription": "I just need a little time to recover my energies.",
-            "description": "I am refreshed.",
+            "startdescription": "Eu só preciso de um pouco de tempo para recuperar minhas energias.",
+            "description": "Eu estou refrescado.",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "recover.apostlegrail.pillar2",
             "actionid": "dream",
-            "label": "The Dream of the End",
-            "startdescription": "I consume the little vial of blood, lie back, close my eyes. Tomorrow, I will be stronger.",
-            "description": "I am much recovered - more than that - I am sumptuous. The sclera of my eyes, the veins in my wrists, are aswim with gorgeous serums. When the Vitulation comes, I will be the centre-piece, for our Delight to prove their appetite, to enact the Grail.",
+            "label": "O Sonho do Fim",
+            "startdescription": "Eu consumo o pequeno frasco de sangue, me mingue, feche os olhos. Amanhã, eu serei mais forte.",
+            "description": "Estou muito recuperado - mais do que isso - sou sumptuoso. A esclera dos meus olhos, as veias dos meus pulsos, são aswim com lindos sermões. Quando a Vitulação chegar, serei a peça central, para o nosso prazer em provar o seu apetite, em promulgar o Grail.",
             "requirements": {
                 "apostlegrail.pillarfuel": 1,
                 "apostlegrail.pillar2.dormant": 1
@@ -140,7 +140,7 @@
         },
         {
             "id": "recoverillhealthfunds",
-            "label": "Heal",
+            "label": "Curar",
             "actionid": "dream",
             "requirements": {
                 "funds": 1,
@@ -152,14 +152,14 @@
             "aspects": {
                 "restorehealth": 1
             },
-            "startdescription": "The medicine is dark and bitter as tar. It would be easy to suspect I am being poisoned.",
-            "description": "The sick-room grows close and stale. Time to get up.",
+            "startdescription": "O remédio é escuro e amargo como alcatrão. Seria fácil suspeitar que eu estou sendo envenenado.",
+            "description": "A sala de doença fica cada vez mais perto. Hora de se levantar.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "recoverillhealthfundsvitality",
-            "label": "Heal",
+            "label": "Curar",
             "actionid": "dream",
             "requirements": {
                 "vitality": 1,
@@ -171,14 +171,14 @@
             "aspects": {
                 "restorehealth": 1
             },
-            "startdescription": "All I need now is time.",
-            "description": "The sick-room grows close and stale. Time to get up.",
+            "startdescription": "Tudo o que preciso agora é de tempo.",
+            "description": "A sala de doença fica cada vez mais perto. Hora de se levantar.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "reducedread",
-            "label": "Clear my Mind",
+            "label": "Limpar minha mente",
             "actionid": "dream",
             "requirements": {
                 "contentment": 1,
@@ -189,14 +189,14 @@
                 "dread": -1,
                 "fleeting": 1
             },
-            "startdescription": "I remember that I was different, before.",
-            "description": "The sun still moves. The wind still walks. My journals are the labyrinth clue.",
+            "startdescription": "Eu me lembro de que era diferente, antes.",
+            "description": "O sol ainda se movimenta. O vento ainda anda. Meus diários são a pista labirinta.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "reducefascination",
-            "label": "Composure",
+            "label": "Composição",
             "actionid": "dream",
             "requirements": {
                 "dread": 1,
@@ -208,13 +208,13 @@
                 "fleeting": 1
             },
             "startdescription": ".",
-            "description": "The air is curdled now. I am home again, in this lumpen flesh. Better, perhaps.",
+            "description": "Agora o ar está amaldiçoado. Estou em casa novamente, nesta carne de metralhadora. Better, talvez.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "reducefascinationfleeting",
-            "label": "Composure",
+            "label": "Composição",
             "actionid": "dream",
             "requirements": {
                 "fleeting": 1,
@@ -225,13 +225,13 @@
                 "fascination": -1
             },
             "startdescription": ".",
-            "description": "The air is curdled now. I am home again, in this lumpen flesh. Better, perhaps.",
+            "description": "Agora o ar está amaldiçoado. Estou em casa novamente, nesta carne de metralhadora. Better, talvez.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "dreamfunds",
-            "label": "Purchase a Tincture of Opium",
+            "label": "Compre um Inclinação de Opio",
             "actionid": "dream",
             "requirements": {
                 "funds": 1
@@ -240,8 +240,8 @@
                 "contentment": 1,
                 "funds": -1
             },
-            "startdescription": "In times of especial crisis, I might visit a discreet pharmacist, to purchase a tincture of opium and make my dreams sweet. But only in times of especial crisis. [This is an expensive and risky way to gain Contentment. It might provoke sickness or despair.]",
-            "description": "Oh, that deep peace. But I should not do this again.",
+            "startdescription": "Em tempos de crise particular, poderia visitar um farmacêutico discreto, para comprar um palette de ópio e fazer os meus sonhos doces. Mas somente em tempos de crise particular. [Esta é uma forma cara e arriscada de ganhar Contentment. Pode causar doença ou desespero.]",
+            "description": "Ah, essa paz profunda, mas eu não devo fazer isso de novo.",
             "warmup": 30,
             "craftable": true,
             "alt": [
@@ -265,8 +265,8 @@
         {
             "id": "dream.decrepitude",
             "actionid": "dream",
-            "label": "Desperate Measures",
-            "startdescription": "My soul haunts my failing flesh like a swamp-wisp. My heart slows, and one day it will cease. Perhaps if I were to consume some exotic substance it might restore the strength that is lost. But it seems unlikely.",
+            "label": "Medidas desesperadas",
+            "startdescription": "Minha alma assombra minha carne fracassada como um pântano. Meu coração desacelera, e um dia vai cessar. Se eu quisesse consumir alguma substância exótica, talvez pudesse restaurar a força que se perdeu. Mas parece improvável.",
             "requirements": {
                 "decrepitude": 1,
                 "ingredient": 1
@@ -285,9 +285,9 @@
         {
             "id": "dream.decrepitude.ingredientheartf",
             "actionid": "dream",
-            "label": "January's Quickening",
-            "startdescription": "At the faint rust-tang of the blood, my heart leaps, painful as a stabbing sunrise.",
-            "description": "St January has opened the door of years and the door of agonies, and through that twin gate, pain and history flee.",
+            "label": "Agilidade de janeiro",
+            "startdescription": "No pálido braço do sangue, meu coração salta, doloroso como um apunhalador do sol.",
+            "description": "São Janeiro abriu a porta dos anos e a porta dos agónios e, através desse portão, dor e fuga de História gémeos.",
             "requirements": {
                 "ingredientheartf": 1,
                 "decrepitude": 1
@@ -305,8 +305,8 @@
         {
             "id": "dream.decrepitude.failure",
             "actionid": "dream",
-            "label": "Only The Strangest Taste",
-            "startdescription": "My heart limps on. I have gained no benefit - except, I suppose, hard-won knowledge.",
+            "label": "Somente os Presos Mais Estranhos",
+            "startdescription": "O meu coração não me atraiu. Não obtive qualquer benefício - excepto, suponho eu, o conhecimento arduamente conquistado.",
             "effects": {
                 "ingredient": -1,
                 "erudition": 1

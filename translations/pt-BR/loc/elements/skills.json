@@ -2,17 +2,17 @@
     "elements": [
         {
             "id": "skillhealtha",
-            "label": "Skill: a Stronger Physique",
+            "label": "Habilidade: Uma Física Mais Forte",
             "aspects": {
                 "healthskill": 1,
                 "ability": 1
             },
-            "description": "I have benefited from exercise. [Use this with two Lessons Learnt to gain more Health.]",
+            "description": "Beneficiei do exercício. [Use isto com duas Lições de Aprendizado para obter mais saúde.]",
             "slots": [
                 {
                     "id": "Health",
                     "actionid": "work",
-                    "description": "I must devote my energies to this.",
+                    "description": "Tenho de dedicar toda a minha energia a esta questão.",
                     "required": {
                         "health": 1
                     }
@@ -20,22 +20,22 @@
                 {
                     "id": "V1",
                     "actionid": "study",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Am I ready to grow stronger?"
+                    "description": "Estou pronto para crescer mais forte?"
                 },
                 {
                     "id": "V2",
                     "actionid": "study",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Am I ready to grow stronger?"
+                    "description": "Estou pronto para crescer mais forte?"
                 }
             ],
             "xtriggers": {
@@ -44,8 +44,8 @@
         },
         {
             "id": "skillhealthb",
-            "label": "Skill: a Hardened Physique",
-            "description": "You might not know it to look at me, but I have grown strong as a smith or a soldier. [Use this with three Lessons Learnt to gain more Health.]",
+            "label": "Habilidade: Uma Física Endurecida",
+            "description": "Talvez não o saibam para me ver, mas eu me fortaleci como ferreiro ou soldado. [Use isto com três Lições Aprendidas para ganhar mais saúde.]",
             "xtriggers": {
                 "careeradvancement": "skillhealthc"
             },
@@ -57,7 +57,7 @@
                 {
                     "id": "Health",
                     "actionid": "work",
-                    "description": "I must devote my energies to this.",
+                    "description": "Tenho de dedicar toda a minha energia a esta questão.",
                     "required": {
                         "health": 1
                     }
@@ -65,39 +65,39 @@
                 {
                     "id": "V1",
                     "actionid": "study",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Shall I grow stronger yet?[Use this with three Lessons Learnt  to gain more Health.]"
+                    "description": "Ainda deve ser mais forte que eu ainda vejo?[Use isto com três Aulas de Aprendizado para ganhar mais saúde.]"
                 },
                 {
                     "id": "V2",
                     "actionid": "study",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Shall I grow stronger yet?"
+                    "description": "Ainda devo ficar mais forte?"
                 },
                 {
                     "id": "V3",
                     "actionid": "study",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Shall I grow stronger yet?"
+                    "description": "Ainda devo ficar mais forte?"
                 }
             ]
         },
         {
             "id": "skillhealthc",
-            "label": "Skill: a Steely Physique",
-            "description": "There are many things now that I could crush in my fists. [Use this with four Lessons Learnt to gain more Health.]",
+            "label": "Habilidade: Uma Física de Aço",
+            "description": "Agora há muitas coisas que eu poderia esmagar nos meus punhos. [Use isto com quatro Lições Aprendidas para ganhar mais saúde.]",
             "aspects": {
                 "healthskill": 3,
                 "ability": 1
@@ -106,7 +106,7 @@
                 {
                     "id": "Health",
                     "actionid": "work",
-                    "description": "I must devote my energies to this.",
+                    "description": "Tenho de dedicar toda a minha energia a esta questão.",
                     "required": {
                         "health": 1
                     }
@@ -114,58 +114,58 @@
                 {
                     "id": "specialisation",
                     "actionid": "study",
-                    "label": "Something More",
+                    "label": "Mais alguma coisa",
                     "required": {
                         "lore": 1
                     },
-                    "description": "If I know the right Lore, I can employ the invisible arts to reach an even higher summit. I must choose between strength and grace."
+                    "description": "Se conheço bem o Lore, posso utilizar as artes invisíveis para chegar a uma cimeira ainda mais alta, e tenho de escolher entre a força e a alegria."
                 },
                 {
                     "id": "V1",
                     "actionid": "study",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Could I grow healthier still? [Use this with four Lessons Learnt to gain more Health.]"
+                    "description": "Eu ainda poderia ficar mais saudável? [Use isto com quatro Aulas Aprendidas para obter mais saúde.]"
                 },
                 {
                     "id": "V2",
                     "actionid": "study",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Could I grow healthier still?"
+                    "description": "Poderia ficar mais saudável ainda?"
                 },
                 {
                     "id": "V3",
                     "actionid": "study",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Could I grow healthier still?"
+                    "description": "Poderia ficar mais saudável ainda?"
                 },
                 {
                     "id": "V4",
                     "actionid": "study",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "vitalityplus": 1
                     },
                     "consumes": true,
-                    "description": "Could I grow healthier still?"
+                    "description": "Poderia ficar mais saudável ainda?"
                 }
             ]
         },
         {
             "id": "skillhealthd_strength",
-            "label": "Skill: a Matchless Physique",
-            "description": "I move like a mountain and strike like the sky. 'To master others is strength. To master yourself is power.' [Health and Skill can increase no further.]",
+            "label": "Habilidade: Uma Física Sem Correspondência",
+            "description": "Eu me movo como uma montanha e ataque como o céu. 'Para dominar os outros é a força. Aprender a si mesmo é poder.\" [Saúde e Habilidade não podem aumentar mais.]",
             "aspects": {
                 "healthskill": 4,
                 "ability": 1,
@@ -175,7 +175,7 @@
                 {
                     "id": "Health",
                     "actionid": "work",
-                    "description": "I must devote my energies to this.",
+                    "description": "Tenho de dedicar toda a minha energia a esta questão.",
                     "required": {
                         "health": 1
                     }
@@ -184,8 +184,8 @@
         },
         {
             "id": "skillhealthd_grace",
-            "label": "Skill: a Flawless Physique",
-            "description": "Machine perfection. Sinew-bound ivory, tight in satin skin. 'From here, I can only deteriorate.' [Health and Skill can increase no further.]",
+            "label": "Habilidade: Uma Física Impecável",
+            "description": "Perfeição da máquina. Marfim sinew, apertado em pele sátil. 'Daqui eu só posso se deteriorar.' [Saúde e habilidade não podem aumentar mais.]",
             "aspects": {
                 "healthskill": 4,
                 "ability": 1
@@ -194,7 +194,7 @@
                 {
                     "id": "Health",
                     "actionid": "work",
-                    "description": "I must devote my energies to this.",
+                    "description": "Tenho de dedicar toda a minha energia a esta questão.",
                     "required": {
                         "health": 1
                     }
@@ -203,31 +203,31 @@
         },
         {
             "id": "skillreasona",
-            "label": "Skill: Scholarship",
+            "label": "Habilidade: Estudante",
             "aspects": {
                 "reasonskill": 1,
                 "ability": 1
             },
-            "description": "I am flush with clever quotations. [Use this with two Lessons Learnt to gain more Reason.]",
+            "description": "Estou cheio de citações inteligentes. [Use isto com duas lições aprendidas para ganhar mais Reason.]",
             "slots": [
                 {
                     "id": "e1",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "eruditionplus": 1
                     },
                     "consumes": true,
-                    "description": "Shall I stock my mind with more knowledge?",
+                    "description": "Devo estocar minha mente com mais conhecimento?",
                     "actionid": "study"
                 },
                 {
                     "id": "e2",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "eruditionplus": 1
                     },
                     "consumes": true,
-                    "description": "Shall I stock my mind with more knowledge?",
+                    "description": "Devo estocar minha mente com mais conhecimento?",
                     "actionid": "study"
                 }
             ],
@@ -237,8 +237,8 @@
         },
         {
             "id": "skillreasonb",
-            "label": "Skill: Notable Scholarship",
-            "description": "I have learnt enough to know how little I know. [Use this with three Lessons Learnt to gain more Reason.]",
+            "label": "Habilidade: Esplendor Notável",
+            "description": "Aprendi o suficiente para saber quão pouco sei. [Use isto com três Lições Aprendidas para ganhar mais Reason.]",
             "xtriggers": {
                 "careeradvancement": "skillreasonc"
             },
@@ -249,40 +249,40 @@
             "slots": [
                 {
                     "id": "e1",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "eruditionplus": 1
                     },
                     "consumes": true,
-                    "description": "Could I learn even more?",
+                    "description": "Eu poderia aprender ainda mais?",
                     "actionid": "study"
                 },
                 {
                     "id": "e2",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "eruditionplus": 1
                     },
                     "consumes": true,
-                    "description": "Could I learn even more?",
+                    "description": "Eu poderia aprender ainda mais?",
                     "actionid": "study"
                 },
                 {
                     "id": "e3",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "eruditionplus": 1
                     },
                     "consumes": true,
-                    "description": "Could I learn even more?",
+                    "description": "Eu poderia aprender ainda mais?",
                     "actionid": "study"
                 }
             ]
         },
         {
             "id": "skillreasonc",
-            "label": "Skill: Profound Scholarship",
-            "description": "My skull creaks at the corners with the knowledge I've accrued. [Use this with four Lessons Learnt to gain more Reason.]",
+            "label": "Habilidade: Escócia Profunda",
+            "description": "Meu crânio brilha nos cantos com o conhecimento que eu ganhei. [Use isto com quatro Aulas Aprendidas para ganhar mais Reason.]",
             "aspects": {
                 "reasonskill": 3,
                 "ability": 1
@@ -291,58 +291,58 @@
                 {
                     "id": "specialisation",
                     "actionid": "study",
-                    "label": "Something More",
+                    "label": "Mais alguma coisa",
                     "required": {
                         "lore": 1
                     },
-                    "description": "If I know the right Lore, I can employ the invisible arts to reach an even higher summit. I must choose between illumination and concentration."
+                    "description": "Se conheço bem o Lore, posso utilizar as artes invisíveis para chegar a uma cimeira ainda mais alta, e escolher entre iluminação e concentração."
                 },
                 {
                     "id": "e1",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "eruditionplus": 1
                     },
                     "consumes": true,
-                    "description": "Can I sharpen my reason further?",
+                    "description": "Posso aprimorar ainda mais minha razão?",
                     "actionid": "study"
                 },
                 {
                     "id": "e2",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "eruditionplus": 1
                     },
                     "consumes": true,
-                    "description": "Can I sharpen my reason further?",
+                    "description": "Posso aprimorar ainda mais minha razão?",
                     "actionid": "study"
                 },
                 {
                     "id": "e3",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "eruditionplus": 1
                     },
                     "consumes": true,
-                    "description": "Can I sharpen my reason further?",
+                    "description": "Posso aprimorar ainda mais minha razão?",
                     "actionid": "study"
                 },
                 {
                     "id": "e4",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "eruditionplus": 1
                     },
                     "consumes": true,
-                    "description": "Can I sharpen my reason further?",
+                    "description": "Posso aprimorar ainda mais minha razão?",
                     "actionid": "study"
                 }
             ]
         },
         {
             "id": "skillreasond_illumination",
-            "label": "Skill: a Rarefied Mind",
-            "description": "My mind is glass, and my memory light. [Reason and Skill can increase no further.]",
+            "label": "Habilidade: Uma mente Rareficada",
+            "description": "Minha mente está com vidro, e minha luz de memória. [Reason e Habilidade não podem aumentar mais.]",
             "aspects": {
                 "reasonskill": 4,
                 "ability": 1
@@ -351,8 +351,8 @@
         },
         {
             "id": "skillreasond_concentration",
-            "label": "Skill: a Silent Intensity",
-            "description": "This chilly stillness is the stillness of certainty. [Reason and Skill can increase no further.]",
+            "label": "Habilidade: Intensidade Silenciosa",
+            "description": "Esta persistência fria é a persistência da certeza. [Reason e habilidade podem não aumentar mais.]",
             "aspects": {
                 "reasonskill": 4,
                 "ability": 1
@@ -361,53 +361,53 @@
         },
         {
             "id": "skillpassiona",
-            "label": "Skill: a Vivid Imagination",
+            "label": "Habilidade: uma imaginação vívida",
             "aspects": {
                 "passionskill": 1,
                 "ability": 1
             },
-            "description": "My daydreams sometimes outpace my dreams. [Use this with Work to Paint, or with Study and with two Lessons Learnt to gain more Passion.]",
+            "description": "Os meus sonhos acordados às vezes superam os meus sonhos. [Use isto com Trabalho para Pintar, ou com Estudos e com duas Aulas Aprendidas para ganhar mais Passion.]",
             "slots": [
                 {
                     "id": "G1",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "Am I ready to feed my passions further?",
+                    "description": "Estou pronto para alimentar minhas paixões?",
                     "actionid": "study"
                 },
                 {
                     "id": "G2",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "Am I ready to feed my passions further?",
+                    "description": "Estou pronto para alimentar minhas paixões?",
                     "actionid": "study"
                 },
                 {
                     "id": "painting1",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 },
                 {
                     "id": "painting2",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 }
             ],
@@ -417,8 +417,8 @@
         },
         {
             "id": "skillpassionb",
-            "label": "Skill: a Wild Imagination",
-            "description": "I have been known to break six pencils in a day. [Use this with Work to Paint, or with Study and three Lessons Learnt to gain more Passion.]",
+            "label": "Habilidade: Imaginação Selvagem",
+            "description": "Sabe-se que eu pego seis lápis em um dia. [Use isto com o Trabalho para Pintar, ou com Estudos e três Aulas Aprendidas para ganhar mais paixão.]",
             "xtriggers": {
                 "careeradvancement": "skillpassionc"
             },
@@ -429,73 +429,73 @@
             "slots": [
                 {
                     "id": "G1",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "What could I see, what could I be? [Use this with three Lessons Learnt to gain more Passion.]",
+                    "description": "O que poderia ver, o que poderia ser? [Use isto com três Lições Aprendidas para ganhar mais paixão.]",
                     "actionid": "study"
                 },
                 {
                     "id": "G2",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "What could I see, what could I be?",
+                    "description": "O que eu poderia ver, o que poderia ser?",
                     "actionid": "study"
                 },
                 {
                     "id": "G3",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "What could I see, what could I be?",
+                    "description": "O que eu poderia ver, o que poderia ser?",
                     "actionid": "study"
                 },
                 {
                     "id": "painting1",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 },
                 {
                     "id": "painting2",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 },
                 {
                     "id": "painting3",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 }
             ]
         },
         {
             "id": "skillpassionc",
-            "label": "Skill: a Fevered Imagination",
-            "description": "Phantoms ride my waking mind. [Use this with four Lessons Learnt to gain more Passion.]",
+            "label": "Habilidade: uma imaginação febrida",
+            "description": "Os fantasmas ficam na minha mente acordando. [Use isto com quatro Lições Aprendidas para ganhar mais paixão.]",
             "aspects": {
                 "passionskill": 3,
                 "ability": 1
@@ -504,102 +504,102 @@
                 {
                     "id": "specialisation",
                     "actionid": "study",
-                    "label": "Something More",
+                    "label": "Mais alguma coisa",
                     "required": {
                         "lore": 1
                     },
-                    "description": "If I know the right Lore, I can employ the invisible arts to reach an even higher summit. I must choose between unreason and folly."
+                    "description": "Se conheço bem o Lore, posso utilizar as artes invisíveis para chegar a uma cimeira ainda mais alta, e tenho de escolher entre insensatez e loucura."
                 },
                 {
                     "id": "G1",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "What furious visions remain? [Use this with Work to Paint, or with Study and four Lessons Learnt to gain more Passion.]",
+                    "description": "Quais visões furiosas permanecem? [Use isto com o Trabalho para Pintar, ou com o Estudo e quatro Aulas Aprendidas para ganhar mais paixão.]",
                     "actionid": "study"
                 },
                 {
                     "id": "G2",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "What furious visions remain?",
+                    "description": "Quais são as visões furiosas?",
                     "actionid": "study"
                 },
                 {
                     "id": "G3",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "What furious visions remain?",
+                    "description": "Quais são as visões furiosas?",
                     "actionid": "study"
                 },
                 {
                     "id": "G4",
-                    "label": "A Lesson Learnt",
+                    "label": "Uma lição aprendida",
                     "required": {
                         "glimmeringplus": 1
                     },
                     "consumes": true,
-                    "description": "What furious visions remain?",
+                    "description": "Quais são as visões furiosas?",
                     "actionid": "study"
                 },
                 {
                     "id": "painting1",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 },
                 {
                     "id": "painting2",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 },
                 {
                     "id": "painting3",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 },
                 {
                     "id": "painting4",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 }
             ]
         },
         {
             "id": "skillpassiond_unreason",
-            "label": "Skill: Never-No",
-            "description": "The more, the more, the more, the m - [Passion and Skill can increase no further.]",
+            "label": "Habilidade: Não-Não",
+            "description": "Quanto mais, mais, mais, m - [paixão e habilidade não podem aumentar mais.]",
             "aspects": {
                 "passionskill": 4,
                 "ability": 1
@@ -607,46 +607,46 @@
             "slots": [
                 {
                     "id": "painting1",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 },
                 {
                     "id": "painting2",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 },
                 {
                     "id": "painting3",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 },
                 {
                     "id": "painting4",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 }
             ],
@@ -654,8 +654,8 @@
         },
         {
             "id": "skillpassiond_folly",
-            "label": "Skill: an Open Soul",
-            "description": "'Behold, they stand at my door and knock; if I hear any voice, I will open the door, and they will come in to me, and sup with them, and they with me.' [Passion and Skill can increase no further.]",
+            "label": "Habilidade: Uma Alma Aberta",
+            "description": "\"Senão, param na minha porta e tocam; Se ouvir alguma voz, abrirei a porta e eles virão até mim e juntar-se-ão a eles, e comigo eles. [Paixão e Habilidade não podem aumentar mais.]",
             "aspects": {
                 "passionskill": 4,
                 "ability": 1
@@ -663,46 +663,46 @@
             "slots": [
                 {
                     "id": "painting1",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 },
                 {
                     "id": "painting2",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 },
                 {
                     "id": "painting3",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 },
                 {
                     "id": "painting4",
-                    "label": "Art or Bread",
+                    "label": "Arte ou pão",
                     "required": {
                         "passion": 1,
                         "mystique": 1,
                         "notoriety": 1
                     },
-                    "description": "I can employ Passion to do the best work I can; or if I have a reputation, I can paint something to win attention.",
+                    "description": "Posso empregar paixão para fazer o melhor trabalho que posso; ou se tiver uma reputação, posso pintar algo para ganhar atenção.",
                     "actionid": "work"
                 }
             ],

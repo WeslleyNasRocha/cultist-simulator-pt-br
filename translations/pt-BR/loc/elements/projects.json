@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "project_upgrade_edge",
-            "label": "Increasing my understanding of Edge lore",
-            "description": "I hope to improve my Edge lore.",
+            "label": "Aumentando os meus conhecimentos sobre a história da borda",
+            "description": "Eu espero melhorar meu Edge lore.",
             "aspects": {
                 "project": 1
             },
@@ -11,8 +11,8 @@
         },
         {
             "id": "project_subvert_edgetowinter",
-            "label": "Subverting Edge to Winter",
-            "description": "I am acknowledging the victory of patience over strength, subverting my Edge lore to Winter lore.",
+            "label": "Subvertendo aresta para o inverno",
+            "description": "Reconheço a vitória da paciência em relação à força, subvertendo a minha história de Inverno.",
             "aspects": {
                 "project": 1
             },
@@ -20,8 +20,8 @@
         },
         {
             "id": "project_upgrade_forge",
-            "label": "Increasing my understanding of Forge lore",
-            "description": "I hope to improve my Forge lore.",
+            "label": "Aumentando o meu entendimento da Forja de Troca",
+            "description": "Eu espero melhorar meu Forge lore.",
             "aspects": {
                 "project": 1
             },
@@ -29,8 +29,8 @@
         },
         {
             "id": "project_subvert_forgetoedge",
-            "label": "Subverting Forge to Edge",
-            "description": "I am subverting my Forge lore to Edge lore.",
+            "label": "Subvertendo Forja para Borda",
+            "description": "Estou subvertendo minha história de Forja para Edge lore.",
             "aspects": {
                 "project": 1
             },
@@ -38,8 +38,8 @@
         },
         {
             "id": "project_upgrade_grail",
-            "label": "Increasing my understanding of Grail lore",
-            "description": "I hope to improve my Grail lore.",
+            "label": "Aumentando a minha compreensão da história do túmulo",
+            "description": "Eu espero melhorar meu grail.",
             "aspects": {
                 "project": 1
             },
@@ -47,8 +47,8 @@
         },
         {
             "id": "project_subvert_grailtomoth",
-            "label": "Subverting Grail lore to Moth",
-            "description": "I am subverting my Grail lore to Moth lore.",
+            "label": "Subvertendo minério de granulado à Mariposa",
+            "description": "Estou subvertendo minha história de granizo para a mariposa.",
             "aspects": {
                 "project": 1
             },
@@ -56,8 +56,8 @@
         },
         {
             "id": "project_upgrade_heart",
-            "label": "Increasing my understanding of Heart lore",
-            "description": "I hope to improve my Heart lore.",
+            "label": "Aumente o meu entendimento da história do Coração",
+            "description": "Eu espero melhorar meu pano de coração.",
             "aspects": {
                 "project": 1
             },
@@ -65,8 +65,8 @@
         },
         {
             "id": "project_subvert_hearttograil",
-            "label": "Subverting Heart lore to Grail",
-            "description": "I am subverting my Heart lore to Grail lore.",
+            "label": "Subvertendo minério de Coração para Cascalho",
+            "description": "Eu estou subvertendo a minha história de Coração para tomar calor.",
             "aspects": {
                 "project": 1
             },
@@ -74,8 +74,8 @@
         },
         {
             "id": "project_upgrade_subvert_knock",
-            "label": "Increasing my understanding of Knock lore",
-            "description": "I am deepening my understanding of Knock lore.",
+            "label": "Aumentando os meus conhecimentos sobre a história de Knock",
+            "description": "Estou aprofundando a minha compreensão de Knock lore.",
             "aspects": {
                 "project": 1
             },
@@ -83,8 +83,8 @@
         },
         {
             "id": "project_upgrade_lantern",
-            "label": "Increasing my understanding of Lantern lore",
-            "description": "I hope to improve my Lantern lore.",
+            "label": "Aumente os meus conhecimentos sobre a descrição da Lanterna",
+            "description": "Eu espero melhorar a minha Lanterna perdida.",
             "aspects": {
                 "project": 1
             },
@@ -92,8 +92,8 @@
         },
         {
             "id": "project_subvert_lanterntoforge",
-            "label": "Subverting Lantern lore to Forge",
-            "description": "I am subverting my Lantern lore to Forge lore.",
+            "label": "Subvertendo minério da Lanterna à Forja",
+            "description": "Estou subvertendo minha descrição da Lanterna para Forjar o lore.",
             "aspects": {
                 "project": 1
             },
@@ -101,8 +101,8 @@
         },
         {
             "id": "project_upgrade_moth",
-            "label": "Increasing my understanding of Moth lore",
-            "description": "I hope to improve my Moth lore.",
+            "label": "Aumentando os meus conhecimentos sobre a história da Mariposa",
+            "description": "Eu espero melhorar a minha Mariposa.",
             "aspects": {
                 "project": 1
             },
@@ -110,8 +110,8 @@
         },
         {
             "id": "project_subvert_mothtolantern",
-            "label": "Subverting Moth lore to Lantern",
-            "description": "I am subverting my Moth lore to Lantern lore",
+            "label": "Subverter minério de Mariposa ao Lanterna",
+            "description": "Estou subvertendo minha história de Mariposa para a lanterna",
             "aspects": {
                 "project": 1
             },
@@ -119,8 +119,8 @@
         },
         {
             "id": "project_upgrade_secrethistories",
-            "label": "Increasing my understanding of Secret Histories lore",
-            "description": "I hope to improve my Secret Histories lore.",
+            "label": "Aumente o meu entendimento das Histórias Secretas",
+            "description": "Espero melhorar as minhas Histórias Secretas a perder.",
             "aspects": {
                 "project": 1
             },
@@ -128,8 +128,8 @@
         },
         {
             "id": "project_upgrade_winter",
-            "label": "Increasing my understanding of Winter lore",
-            "description": "I hope to improve my Winter lore.",
+            "label": "Aumentar a minha compreensão da história de Inverno",
+            "description": "Eu espero melhorar meu calor de inverno.",
             "aspects": {
                 "project": 1
             },
@@ -137,8 +137,8 @@
         },
         {
             "id": "project_subvert_wintertoheart",
-            "label": "Subverting Winter lore to Heart",
-            "description": "I am subverting my Winter lore to Heart lore",
+            "label": "Subvertendo minério de Inverno ao Coração",
+            "description": "Eu estou subvertendo a minha história de Inverno para a história do Coração",
             "aspects": {
                 "project": 1
             },
@@ -147,8 +147,8 @@
         {
             "id": "project_influence_upgrade_edge",
             "icon": "project_upgrade_edge",
-            "label": "Augmenting a Edge influence",
-            "description": "I hope to augment this Edge influence.",
+            "label": "Aumentar a influência da borda",
+            "description": "Eu espero aumentar esta influência da borda.",
             "aspects": {
                 "project": 1
             },
@@ -157,8 +157,8 @@
         {
             "id": "project_influence_subvert_edgetowinter",
             "icon": "project_subvert_edgetowinter",
-            "label": "Subverting Edge to Winter",
-            "description": "I am acknowledging the victory of patience over strength, subverting my Edge influence to Winter influence.",
+            "label": "Subvertendo aresta para o inverno",
+            "description": "Reconheço a vitória da paciência em relação à força, subvertendo a minha influência na influência do Inverno.",
             "aspects": {
                 "project": 1
             },
@@ -166,8 +166,8 @@
         },
         {
             "id": "project_influence_upgrade_forge",
-            "label": "Augmenting a Forge influence",
-            "description": "I hope to augment this Forge influence.",
+            "label": "Aumentar a influência de uma Forja",
+            "description": "Eu espero aumentar esta influência da Forja.",
             "aspects": {
                 "project": 1
             },
@@ -177,8 +177,8 @@
         {
             "id": "project_influence_subvert_forgetoedge",
             "icon": "project_subvert_forgetoedge",
-            "label": "Subverting Forge to Edge",
-            "description": "I am subverting my Forge influence to Edge influence.",
+            "label": "Subvertendo Forja para Borda",
+            "description": "Estou subvertendo minha influência de Forja para a influência de Edge.",
             "aspects": {
                 "project": 1
             },
@@ -187,8 +187,8 @@
         {
             "id": "project_influence_upgrade_grail",
             "icon": "project_upgrade_grail",
-            "label": "Augmenting a Grail influence",
-            "description": "I hope to augment this Grail influence.",
+            "label": "Aumentar a influência de Grail",
+            "description": "Espero aumentar esta influência de Grail.",
             "aspects": {
                 "project": 1
             },
@@ -197,8 +197,8 @@
         {
             "id": "project_influence_subvert_grailtomoth",
             "icon": "project_subvert_grailtomoth",
-            "label": "Subverting Grail influence to Moth",
-            "description": "I am subverting my Grail influence to Moth influence.",
+            "label": "Subvertendo a influência de Grail a Mariposa",
+            "description": "Estou subvertendo a minha influência de Grail à influência de Mari.",
             "aspects": {
                 "project": 1
             },
@@ -207,8 +207,8 @@
         {
             "id": "project_influence_upgrade_heart",
             "icon": "project_upgrade_heart",
-            "label": "Augmenting a Heart influence",
-            "description": "I hope to augment this Heart influence.",
+            "label": "Aumento da influência de um Coração",
+            "description": "Eu espero aumentar esta influência do coração.",
             "aspects": {
                 "project": 1
             },
@@ -217,8 +217,8 @@
         {
             "id": "project_influence_subvert_hearttograil",
             "icon": "project_subvert_hearttograil",
-            "label": "Subverting Heart influence to Grail",
-            "description": "I am subverting my Heart influence to Grail influence.",
+            "label": "Subvertendo a influência cardíaca para Grail",
+            "description": "Estou subvertendo a minha influência de Coração para Grail.",
             "aspects": {
                 "project": 1
             },
@@ -227,8 +227,8 @@
         {
             "id": "project_influence_upgrade_subvert_knock",
             "icon": "project_upgrade_subvert_knock",
-            "label": "Augmenting a Knock influence",
-            "description": "I am deepening my understanding of Knock influence.",
+            "label": "Aumentando a influência de um toco",
+            "description": "Estou aprofundando a minha compreensão da influência de Knock.",
             "aspects": {
                 "project": 1
             },
@@ -237,8 +237,8 @@
         {
             "id": "project_influence_upgrade_lantern",
             "icon": "project_upgrade_lantern",
-            "label": "Augmenting a Lantern influence",
-            "description": "I hope to augment this Lantern influence.",
+            "label": "Aumentar a influência da Lanterna",
+            "description": "Eu espero aumentar essa influência da Lanterna.",
             "aspects": {
                 "project": 1
             },
@@ -247,8 +247,8 @@
         {
             "id": "project_influence_subvert_lanterntoforge",
             "icon": "project_subvert_lanterntoforge",
-            "label": "Subverting Lantern influence to Forge",
-            "description": "I am subverting my Lantern influence to Forge influence.",
+            "label": "Subvertendo a influência da Lanterna à Forja",
+            "description": "Estou subvertendo a influência da minha lanterna para forjar influência.",
             "aspects": {
                 "project": 1
             },
@@ -257,8 +257,8 @@
         {
             "id": "project_influence_upgrade_moth",
             "icon": "project_upgrade_moth",
-            "label": "Augmenting a Moth influence",
-            "description": "I hope to augment this Moth influence.",
+            "label": "Aumentar a influência da Mariposa",
+            "description": "Eu espero aumentar esta influência de Mariposa.",
             "aspects": {
                 "project": 1
             },
@@ -267,8 +267,8 @@
         {
             "id": "project_influence_subvert_mothtolantern",
             "icon": "project_upgrade_moth",
-            "label": "Subverting Moth influence to Lantern",
-            "description": "I am subverting my Moth influence to Lantern influence",
+            "label": "Subverter a influência da Mariposa ao Lanterna",
+            "description": "Estou subvertendo minha influência de Mariposa para a influência da lanterna",
             "aspects": {
                 "project": 1
             },
@@ -277,8 +277,8 @@
         {
             "id": "project_influence_upgrade_winter",
             "icon": "project_upgrade_winter",
-            "label": "Augmenting a Winter influence",
-            "description": "I hope to augment this Winter influence.",
+            "label": "Aumentando a influência do inverno",
+            "description": "Eu espero aumentar a influência deste inverno.",
             "aspects": {
                 "project": 1
             },
@@ -287,8 +287,8 @@
         {
             "id": "project_influence_subvert_wintertoheart",
             "icon": "project_subvert_wintertoheart",
-            "label": "Subverting Winter influence to Heart",
-            "description": "I am subverting my Winter influence to Heart influence",
+            "label": "Subvertendo a influência de Inverno ao Coração",
+            "description": "Estou subvertendo minha influência de Inverno para a influência de Coração",
             "aspects": {
                 "project": 1
             },

@@ -3,16 +3,16 @@
         {
             "id": "explorevaultseal_hiddendoor_encounter",
             "actionid": "explore",
-            "label": "A Hidden Door",
-            "startdescription": "There must be a door here. But without Lantern or Knock, we can't uncover it.",
+            "label": "Uma porta escondida",
+            "startdescription": "Deve haver uma porta aqui. Mas sem Lanterna ou Toc, não podemos descobri-la.",
             "requirements": {
                 "seal_hiddendoor": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -60,8 +60,8 @@
             "requirements": {
                 "lantern": 10
             },
-            "label": "We call upon the Watchman, who Illuminates",
-            "startdescription": "We'll almost certainly find this Hidden Door.",
+            "label": "Chamamos o Observador que Ilumina",
+            "startdescription": "Quase certamente encontraremos esta Porta Escondida.",
             "description": ".",
             "linked": [
                 {
@@ -80,8 +80,8 @@
             "requirements": {
                 "lantern": 5
             },
-            "label": "We call upon the Watchman, who Navigates",
-            "startdescription": "Our senses are sharpened. We should find this Hidden Door.",
+            "label": "Chamamos a atenção do Watchman, que navega",
+            "startdescription": "Nossos sentidos estão afiados. Deveríamos encontrar esta porta escondida.",
             "description": ".",
             "linked": [
                 {
@@ -100,8 +100,8 @@
             "requirements": {
                 "lantern": 1
             },
-            "label": "We call upon the Watchman, who is not Compassionate",
-            "startdescription": "We carry light. We might find this Hidden Door. It'll be a struggle.",
+            "label": "Apelamos para o Watchman, que não é Compassional",
+            "startdescription": "Nós carregamos luz. Podemos encontrar esta Porta Escondida. Será um problema.",
             "description": ".",
             "linked": [
                 {
@@ -120,8 +120,8 @@
             "requirements": {
                 "knock": 10
             },
-            "label": "We call upon the Beach-Crow, who sees what is lost",
-            "startdescription": "We bear a great power of opening. We'll almost certainly find this Hidden Door.",
+            "label": "Chamamos a Briga-Coroa, que vê o que é perdido",
+            "startdescription": "Temos uma grande força para abrir. Quase certamente encontraremos essa porta escondida.",
             "description": ".",
             "linked": [
                 {
@@ -140,8 +140,8 @@
             "requirements": {
                 "knock": 5
             },
-            "label": "We call upon the Beach-Crow, who opens the earth",
-            "startdescription": "We are skilled in uncovering hidden ways. We'll probably find this Hidden Door.",
+            "label": "Nós chamamos a praia-coroa que abre a terra",
+            "startdescription": "Somos habilidosos de formas ocultas. Provavelmente encontraremos essa porta escondida.",
             "description": ".",
             "linked": [
                 {
@@ -160,8 +160,8 @@
             "requirements": {
                 "knock": 1
             },
-            "label": "We call upon the Beach-Crow, to whom belongs what is not possessed",
-            "startdescription": "We have some ability in the matter of opening. We might find this Hidden Door. It'll be a struggle.",
+            "label": "Apelamos para a Ceifadora-Coroa, a quem pertence o que não é possuído",
+            "startdescription": "Temos alguma habilidade na questão de abrir. Pode ser que encontremos essa porta escondida. Vai ser um problema.",
             "description": ".",
             "linked": [
                 {
@@ -177,8 +177,8 @@
         {
             "id": "explorevaultseal_hiddendoor_success",
             "actionid": "explore",
-            "label": "A Way through the Hidden Door",
-            "startdescription": "Faint lines in stone; a surface that yields to pressure. We've found it! The Hidden Door moves, with a grating shudder and a shower of dust.",
+            "label": "Um caminho através da porta escondida",
+            "startdescription": "Mancha linhas na pedra; uma superfície que se rende à pressão. Nós encontramos! A Porta Oculta se mexe, com uma sombra de poeira, com uma chuva de pó.",
             "description": ".",
             "effects": {
                 "seal_hiddendoor": -1
@@ -195,8 +195,8 @@
         {
             "id": "explorevaultseal_hiddendoor_failure",
             "actionid": "explore",
-            "label": "A Fruitless Search",
-            "startdescription": "Where is it? We could use more Knock, or Lantern.",
+            "label": "Uma pesquisa sem frutas",
+            "startdescription": "Onde está? Poderíamos usar mais Knock, ou Lanterna.",
             "description": ".",
             "craftable": false,
             "linked": [
@@ -210,16 +210,16 @@
         {
             "id": "explorevaultseal_wardeddoor_encounter",
             "actionid": "explore",
-            "label": "A Warded Door",
-            "startdescription": "This door has held fast for a long time. Unless we bring Forge or Knock, it will hold fast against us too.",
+            "label": "Uma Porta Garantida",
+            "startdescription": "Esta porta se mantém rápida por um longo tempo. A menos que tragamos Forja ou Toc, ela também se manterá firme contra nós.",
             "requirements": {
                 "seal_wardeddoor": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -267,8 +267,8 @@
             "requirements": {
                 "forge": 10
             },
-            "label": "We call upon the Forge of Days, who will end all nights",
-            "startdescription": "We'll almost certainly shatter this Warded Door.",
+            "label": "Apelamos para a Forja das Dias, que terminarão todas as noites",
+            "startdescription": "Nós quase certamente quebraremos esta porta garantida.",
             "description": ".",
             "linked": [
                 {
@@ -287,8 +287,8 @@
             "requirements": {
                 "forge": 5
             },
-            "label": "We call upon the Forge of Days, who ends what will not change",
-            "startdescription": "Our tools are ready. We should be able to penetrate this Warded Door.",
+            "label": "Convocamos a Forja dos Dias, que acaba com o que não vai mudar",
+            "startdescription": "Nossas ferramentas estão prontas. Seremos capazes de penetrar esta porta garantida.",
             "description": ".",
             "linked": [
                 {
@@ -307,8 +307,8 @@
             "requirements": {
                 "forge": 1
             },
-            "label": "We call upon the Forge of Days, who remakes with fire",
-            "startdescription": "We are ready with the Forge's fire. We might be able to penetrate this Warded Door. It'll be a struggle.",
+            "label": "Apelamos para a Forja dos Dias, que reproduzem com fogo",
+            "startdescription": "Estamos prontos com o fogo da Forja. Talvez possamos penetrar nesta porta garantida. Vai ser uma luta.",
             "description": ".",
             "linked": [
                 {
@@ -327,8 +327,8 @@
             "requirements": {
                 "knock": 10
             },
-            "label": "We call upon the Horned-Axe, who waits at the threshold",
-            "startdescription": "We bear a great power of opening. We'll almost certainly shatter this Warded Door.",
+            "label": "Chamamos o Machado Horned-Axe, que espera no limiar",
+            "startdescription": "Temos uma grande força para abrir. Nós quase certamente quebraremos esta porta garantida.",
             "description": ".",
             "linked": [
                 {
@@ -347,8 +347,8 @@
             "requirements": {
                 "knock": 5
             },
-            "label": "We call upon the Horned-Axe, who permits passage when passage is to be permitted",
-            "startdescription": "We are skilled in uncovering warded ways. We'll probably penetrate this Warded Door.",
+            "label": "Chamamos o Machado Horned-Axe, que permite a passagem quando a passagem é permitida",
+            "startdescription": "Somos hábeis de maneiras descobertas. Provavelmente vamos penetrar essa porta garantida.",
             "description": ".",
             "linked": [
                 {
@@ -367,8 +367,8 @@
             "requirements": {
                 "knock": 1
             },
-            "label": "We call upon the Horned-Axe, who bears two blades",
-            "startdescription": "We have some ability in the matter of opening. We might be able to penetrate this Warded Door. It'll be a struggle.",
+            "label": "Chamamos o Machado-Horned-Axe, que tem duas lâminas",
+            "startdescription": "Nós temos alguma habilidade em questão de abertura. Talvez sejamos capazes de penetrar esta porta garantida. Será uma dificuldade.",
             "description": ".",
             "linked": [
                 {
@@ -384,8 +384,8 @@
         {
             "id": "explorevaultseal_wardeddoor_success",
             "actionid": "explore",
-            "label": "The Death of a Door",
-            "startdescription": "All doors must open, as all lives must end. This door has found its end here today.",
+            "label": "A Morte de uma Porta",
+            "startdescription": "Todas as portas têm de abrir, pois toda a vida tem de acabar.",
             "description": ".",
             "effects": {
                 "seal_wardeddoor": -1
@@ -402,8 +402,8 @@
         {
             "id": "explorevaultseal_wardeddoor_failure",
             "actionid": "explore",
-            "label": "The Purposes of Doors",
-            "startdescription": "Doors have two purposes: to open, and to remain closed. Today, this door remains true to its second purpose.",
+            "label": "Os Objetivos das Portas",
+            "startdescription": "Portas têm duas finalidades: abrir e permanecer fechada. Hoje, esta porta mantém-se fiel ao seu segundo propósito.",
             "description": ".",
             "craftable": false,
             "linked": [

@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "ascensionpower_upgradetoobsession",
-            "label": "The Burning Key",
+            "label": "A Chave Ardente",
             "actionid": "work",
             "requirements": {
                 "ascensionpowerb": 1,
@@ -13,8 +13,8 @@
                 "ascensionpowerb": -1,
                 "ascensionpowerc": 1
             },
-            "startdescription": "This rite is the Key that will allow the Forge of Days to enter me. I will be changed forever.",
-            "description": "The Rite is complete. The Marks of the Forge are upon me. The First Mark is what I have said, and the second is what I have done. If I inspect my body, I'll find the Third. I am aglow with new needs.",
+            "startdescription": "Este rito é a chave que permitirá que a Forja de Dias entre em mim. Eu serei alterado para sempre.",
+            "description": "O Rite está completo. As Marcas da Forja estão sobre mim. O primeiro é o que eu disse, e o segundo é o que eu fiz. Se eu inspecionar meu corpo, encontrarei o Terceiro. Estou com novas necessidades.",
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion"
@@ -22,7 +22,7 @@
         {
             "comments": "male and female flavour; //TODO implement more elegantly",
             "id": "ascensionsensation_upgradetoobsessionm",
-            "label": "The Sighing Key",
+            "label": "A Chave da Pontaria",
             "actionid": "work",
             "requirements": {
                 "ascensionsensationbm": 1,
@@ -33,8 +33,8 @@
                 "ascensionsensationbm": -1,
                 "ascensionsensationc": 1
             },
-            "startdescription": "This rite is the Key that will allow the Red Grail to enter me. I will be changed forever.",
-            "description": "The Rite is complete. The Marks of the Grail are upon me. The First Mark is what I have said, and the second is what I have done. If I inspect my body, I'll find the Third. I thrill with new appetites.",
+            "startdescription": "Este ritual é a chave que permitirá que o Grau Vermelho entre em mim. Eu serei mudado para sempre.",
+            "description": "O Rite está completo. As Marcas do Grau estão aqui para mim. O primeiro é o que eu disse, e o segundo é o que eu fiz. Se eu inspecionar meu corpo, encontrarei a Terceira. Emotirei de novos apetites.",
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion"
@@ -42,7 +42,7 @@
         {
             "comments": "male and female flavour; //TODO implement more elegantly",
             "id": "ascensionsensation_upgradetoobsessionf",
-            "label": "The Sighing Key",
+            "label": "A Chave da Pontaria",
             "actionid": "work",
             "requirements": {
                 "ascensionsensationbf": 1,
@@ -53,15 +53,15 @@
                 "ascensionsensationbf": -1,
                 "ascensionsensationc": 1
             },
-            "startdescription": "This rite is the Key that will allow the Red Grail to enter me. I will be changed forever.",
-            "description": "The Rite is complete. The Marks of the Grail are upon me. The First Mark is what I have said, and the second is what I have done. If I inspect my body, I'll find the Third. I thrill with new appetites.",
+            "startdescription": "Este ritual é a chave que permitirá que o Grau Vermelho entre em mim. Eu serei mudado para sempre.",
+            "description": "O Rite está completo. As Marcas do Grau estão aqui para mim. O primeiro é o que eu disse, e o segundo é o que eu fiz. Se eu inspecionar meu corpo, encontrarei a Terceira. Emotirei de novos apetites.",
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion"
         },
         {
             "id": "ascensionsensation_switchpolarity_mtof",
-            "label": "Preferences",
+            "label": "Preferências:",
             "actionid": "dream",
             "requirements": {
                 "ascensionsensationbm": 1
@@ -70,14 +70,14 @@
                 "ascensionsensationbm": -1,
                 "ascensionsensationbf": 1
             },
-            "startdescription": "I've gone as far as I can in dream. I must perform the <b>Work</b>. But perhaps, when I consider my desires, it's not usually men that come to mind...",
-            "description": "Tastes alter, desires change, thoughts bend to other forms.",
+            "startdescription": "Eu fui tão longe quanto posso sonhar. Devo executar o <b>Trabalho</b>. Mas talvez, quando eu considero os meus desejos, não sejam geralmente os homens que vêm à mente...",
+            "description": "Gostos alteram, desejam mudar, pensamentos se dobram para outras formas.",
             "warmup": 3,
             "craftable": true
         },
         {
             "id": "ascensionsensation_switchpolarity_ftom",
-            "label": "Preferences",
+            "label": "Preferências:",
             "actionid": "dream",
             "requirements": {
                 "ascensionsensationbf": 1
@@ -86,14 +86,14 @@
                 "ascensionsensationbf": -1,
                 "ascensionsensationbm": 1
             },
-            "startdescription": "I've gone as far as I can in dream. I must perform the <b>Work</b>. But perhaps, when I consider my desires, it's not usually women that come to mind...",
-            "description": "Tastes alter, desires change, thoughts bend to other forms.",
+            "startdescription": "Eu fui tão longe quanto posso sonhar. Devo executar o <b>Trabalho</b>. Mas talvez, quando eu considero os meus desejos, não sejam geralmente as mulheres que vêm à mente...",
+            "description": "Gostos alteram, desejam mudar, pensamentos se dobram para outras formas.",
             "warmup": 3,
             "craftable": true
         },
         {
             "id": "ascensionenlightenment_upgradetoobsession",
-            "label": "The Blinding Key",
+            "label": "A Chave Cegante",
             "actionid": "work",
             "requirements": {
                 "ascensionenlightenmentb": 1,
@@ -104,15 +104,15 @@
                 "ascensionenlightenmentb": -1,
                 "ascensionenlightenmentc": 1
             },
-            "startdescription": "This rite is the Key that will allow the Watchman's gaze to enter me. I will be changed forever.",
-            "description": "The Rite is complete. The Marks of the Watchman are upon me. The First Mark is what I have said, and the second is what I have done. If I inspect my body, I'll find the Third. My hungers have been refined, now.",
+            "startdescription": "Este rito é a chave que permitirá que o olhar do Observador me entregue. Eu serei alterado para sempre.",
+            "description": "O Rite está completo. As Marcas do Watchman estão aqui para mim. O primeiro é o que eu disse, e o segundo é o que eu fiz. Se eu inspecionar meu corpo, descobrirei a Terceira. Minha fome foi refinada agora.",
             "warmup": 60,
             "craftable": true,
             "burnimage": "flammarion"
         },
         {
             "id": "majorforgevictory",
-            "label": "THE DAWN IS COME",
+            "label": "O AMANHO É COMO",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -120,16 +120,16 @@
                 "forge": 50
             },
             "effects": {},
-            "startdescription": "[This text is available when advanced legacies arrive.]",
-            "description": "Remember that the ending text will contain the payload.",
+            "startdescription": "[Este texto está disponível quando legados avançados chegam.]",
+            "description": "Lembre-se de que o texto final conterá o payload.",
             "warmup": 60,
             "craftable": false
         },
         {
             "id": "minorforgevictory_trigger",
             "actionid": "work",
-            "label": "The Conflagration of the Heart",
-            "startdescription": "I have been in the flame so many times. The plates of my flesh grate one against another. I conjure now the heat of the Forge, which will sear from me what I was. I will die as I pass the Tricuspid Gate, but death is not the end. I will be immortal: a Long, favoured of the Forge. [Any Follower used in the ritual will be consumed. If you care about whom you might leave behind, be careful.]",
+            "label": "A Conflagração do Coração",
+            "startdescription": "Estive na chama muitas vezes. Os pratos da minha carne andam uns contra os outros. Eu conjuro agora o calor do Forge, que sairá de mim o que eu era. Vou morrer quando passar pelo Portão Tricuspid, mas a morte não é o fim. Serei imortal: um longo e privilegiado da Forja. [Qualquer seguidor utilizado no ritual será consumido. Se se importa com quem você pode deixar para trás, tenha cuidado.]",
             "requirements": {
                 "ritual": 1,
                 "ascensionpowerf": 1,
@@ -152,14 +152,14 @@
         },
         {
             "id": "minorforgevictory_overture",
-            "label": "The Conflagration of the Heart",
+            "label": "A Conflagração do Coração",
             "actionid": "work",
-            "description": "I am becoming a name of fire. Remember that the ending text will contain the payload.",
+            "description": "Estou me tornando um nome de fogo. Lembre-se que o texto final conterá a carga.",
             "warmup": 60,
             "slots": [
                 {
                     "id": "beloved",
-                    "label": "Beloved",
+                    "label": "Amado",
                     "required": {
                         "romanticinterest": 1
                     },
@@ -188,7 +188,7 @@
         },
         {
             "id": "minorforgevictory",
-            "label": "The Conflagration of the Heart",
+            "label": "A Conflagração do Coração",
             "requirements": {
                 "ascensionpowerf": 1
             },
@@ -201,13 +201,13 @@
                 "summoned": 1,
                 "ascensionpowerf": 1
             },
-            "label": "The Conflagration of the Heart",
+            "label": "A Conflagração do Coração",
             "ending": "minorforgevictorywithrisen",
             "actionid": "work"
         },
         {
             "id": "majorgrailvictory",
-            "label": "THE FEAST IS NIGH",
+            "label": "A MENOS ESTÁ NIGO",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -215,14 +215,14 @@
                 "grail": 50
             },
             "effects": {},
-            "startdescription": "[This text is available when advanced legacies arrive.]",
-            "description": "The Feast is beginning. Remember that the ending text will contain the payload.",
+            "startdescription": "[Este texto está disponível quando legados avançados chegam.]",
+            "description": "O Banquete está começando. Lembre-se de que o texto final irá conter a carga.",
             "warmup": 60,
             "craftable": false
         },
         {
             "id": "minorgrailvictory_withromanticsacrifice",
-            "label": "The Feast of the Heart's Remembrance",
+            "label": "A Festa da Memória do Coração",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -230,7 +230,7 @@
                 "romanticinterest": 1,
                 "grail": 27
             },
-            "startdescription": "I am swollen with the lives of others. The seams of my body begin to rupture. Now I invoke the Red Grail, who is the Mother of Mountains, who Consumes, who is the Source. One is here who loved me and whom perhaps I have loved, as perhaps the Red Grail loved the Thunderskin before his end. With this sacrifice, the invocation is both easier and more terrible. In Her Name I will give birth to myself. The Tricuspid Gate opens. I will be immortal: a Long, favoured of the Grail, and one who loved me will be remembered as long as I endure.",
+            "startdescription": "Estou inchado com a vida dos outros. As costuras do meu corpo começam a romper. Agora invoco o Grau Vermelho, que é o Mãe das Montanhas e que consome quem é a Fonte. Um deles era aqui que me amava e que talvez eu tenha amado, como talvez o Grau Vermelho amasse o Thunderskin antes do seu fim. Com este sacrifício, a invocação é mais fácil e mais terrível. Em seu nome, vou dar à luz a mim mesmo. O Portão Tricuspid abre o caminho. Serei imortal: um longo, favorecido pelo Grail, e um que me amava será recordado enquanto eu suportar.",
             "description": ".",
             "warmup": 60,
             "craftable": true,
@@ -240,8 +240,8 @@
         {
             "id": "minorgrailvictory_trigger",
             "actionid": "work",
-            "label": "The Feast of the True Birth",
-            "startdescription": "I am swollen with the lives of others. The seams of my body begin to rupture. Now I invoke the Red Grail, who is the Mother of Mountains, who Consumes, who is the Source. In Her Name I will give birth to myself. The Tricuspid Gate opens. I will be immortal: a Long, favoured of the Grail. [Any Follower used in the ritual will be consumed. If you care about whom you might leave behind, be careful.]",
+            "label": "O Banquete do verdadeiro nascimento",
+            "startdescription": "Estou inchado com a vida dos outros. As costuras do meu corpo começam a romper. Agora invoco o Grau Vermelho, que é o Mãe das Montanhas e que consome quem é a Fonte. Em nome dela, vou dar à luz para mim. O Portão Tricuspid abre. Vou ser imortal: um longo, favorecido pelo Grail. [Qualquer seguidor utilizado no ritual será consumido. Se você se importar com quem pode deixar para trás, tenha cuidado.]",
             "requirements": {
                 "ritual": 1,
                 "ascensionsensationf": 1,
@@ -264,7 +264,7 @@
         },
         {
             "id": "minorgrailvictory_overture",
-            "label": "The Feast of the True Birth",
+            "label": "O Banquete do verdadeiro nascimento",
             "actionid": "work",
             "description": ".",
             "warmup": 60,
@@ -272,7 +272,7 @@
             "slots": [
                 {
                     "id": "beloved",
-                    "label": "Beloved",
+                    "label": "Amado",
                     "required": {
                         "romanticinterest": 1
                     },
@@ -300,7 +300,7 @@
         },
         {
             "id": "minorgrailvictory",
-            "label": "The Feast of the True Birth",
+            "label": "O Banquete do verdadeiro nascimento",
             "requirements": {
                 "ascensionsensationf": 1
             },
@@ -313,13 +313,13 @@
                 "summoned": 1,
                 "ascensionsensationf": 1
             },
-            "label": "The Feast of the True Birth",
+            "label": "O Banquete do verdadeiro nascimento",
             "ending": "minorgrailvictorywithrisen",
             "actionid": "work"
         },
         {
             "id": "majorlanternvictory",
-            "label": "THE LANTERN",
+            "label": "A LANTERNA",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -327,25 +327,25 @@
                 "lantern": 50
             },
             "effects": {},
-            "startdescription": "[This text is available when advanced legacies arrive.]",
-            "description": "I am approaching the Glory. Remember that the ending text will contain the payload.",
+            "startdescription": "[Este texto está disponível quando legados avançados chegam.]",
+            "description": "Estou me aproximando da Glória. Lembre-se que o texto final conterá a carga carregada.",
             "warmup": 60,
             "craftable": false
         },
         {
             "id": "belovedfarewell",
-            "label": "The Threshold Choice",
+            "label": "A escolha de limite",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "summoned": -1
             },
-            "startdescription": "The final farewell. They will remain, and I will ascend.",
+            "startdescription": "O fim do despedimento, eles permanecerão, e eu vou subir.",
             "slots": [
                 {
                     "id": "decision",
-                    "label": "Decision",
-                    "description": "[Add Passion to turn aside from your ascent... and live as a mortal with your beloved. Do nothing to continue.]",
+                    "label": "Decisão",
+                    "description": "[Adicione paixão para se afastar do seu ascensão... e viver como um mortal com o seu amado. Não faça nada para continuar.]",
                     "required": {
                         "passion": 1
                     }
@@ -445,14 +445,14 @@
         },
         {
             "id": "auclairvictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqauclair": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with your beloved Auclair.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com seu amado Auclair.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -461,14 +461,14 @@
         },
         {
             "id": "catvictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqcat": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Cat Caro.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como mortal com o Gato Caro.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -477,14 +477,14 @@
         },
         {
             "id": "clovettevictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqclovette": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Clovette.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como mortal com Clovette.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -493,14 +493,14 @@
         },
         {
             "id": "cliftonvictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqclifton": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Clifton.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com Clifton.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -509,14 +509,14 @@
         },
         {
             "id": "dorothyvictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqdorothy": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Dorothy.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com Dorothy.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -525,14 +525,14 @@
         },
         {
             "id": "elridgevictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqelridge": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Elridge.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com Elridge.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -541,14 +541,14 @@
         },
         {
             "id": "enidvictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqenid": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Enid.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e escolherá viver como um mortal com o Enid.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -557,14 +557,14 @@
         },
         {
             "id": "laidlawvictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqlaidlaw": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Laidlaw.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com Laidlaw.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -573,14 +573,14 @@
         },
         {
             "id": "leovictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqleo": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Leo.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com Leo.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -589,14 +589,14 @@
         },
         {
             "id": "nevillevictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqneville": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Neville.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção irá abortar sua Ascensão e optar por viver como um mortal com Neville.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -605,14 +605,14 @@
         },
         {
             "id": "portervictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqporter": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Porter.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com o Porter.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -621,14 +621,14 @@
         },
         {
             "id": "reniravictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqrenira": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Renira.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e escolherá viver como mortal com Renira.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -637,14 +637,14 @@
         },
         {
             "id": "rosevictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqrose": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Rose.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com Rose.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -653,14 +653,14 @@
         },
         {
             "id": "salibavictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqsaliba": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Saliba.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e escolherá viver como mortal com Saliba.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -669,14 +669,14 @@
         },
         {
             "id": "sleevictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqslee": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Slee.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com o Slee.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -685,14 +685,14 @@
         },
         {
             "id": "sylviavictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqsylvia": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Sylvia.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com Sylvia.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -701,14 +701,14 @@
         },
         {
             "id": "tristanvictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqtristan": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Tristan.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e escolherá viver como um mortal com Tristan.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -717,14 +717,14 @@
         },
         {
             "id": "valcianevictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqvalciane": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Valciane.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como mortal com Valciane.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -733,14 +733,14 @@
         },
         {
             "id": "victorvictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqvictor": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Victor.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com Victor.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -749,14 +749,14 @@
         },
         {
             "id": "violetvictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqviolet": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Violet.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com Violet.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -765,14 +765,14 @@
         },
         {
             "id": "ysabetvictory",
-            "label": "Love?",
+            "label": "Amor?",
             "actionid": "work",
             "requirements": {
                 "romanticinterest": 1,
                 "passion": 1,
                 "uqysabet": 1
             },
-            "startdescription": "I heard a story once: of scales where one pan held a heart, and the other a feather. This the choice I now make, though the feather be eternity. [This choice will abort your Ascension, and make the choice to live as a mortal with Ysabet.]",
+            "startdescription": "Eu ouvi uma história uma vez: de escamas onde um pregava um coração, e o outro tinha uma pena. Esta é a escolha que faço agora, embora a pena seja eterna. [Esta opção cancelará sua Ascensão e fará a escolha de viver como um mortal com Ysabet.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -781,8 +781,8 @@
         },
         {
             "id": "imnotinlove",
-            "label": "Dedication",
-            "startdescription": "Perhaps they love me. Perhaps I love them. Perhaps none of that matters.",
+            "label": "Dedicação",
+            "startdescription": "Talvez me amem, talvez eu os ame. Talvez nada disso importa.",
             "actionid": "work",
             "craftable": false,
             "alt": [
@@ -803,8 +803,8 @@
         {
             "id": "minorlanternvictory_trigger",
             "actionid": "work",
-            "label": "The Incursus",
-            "startdescription": "Little of this flesh remains. I will pass through the Tricuspid Gate and I will not return. The Watchman awaits me. In His footsteps, I will find the Glory's light. The understanding is too much for my soul to hold, and so my soul will open. I will not be immortal: I will be more than that. [Any Follower used in the ritual will be consumed. If you care about whom you might leave behind, be careful.]",
+            "label": "O Incurso",
+            "startdescription": "Pouco desta carne resta. Passarei pelo Portão Tricuspid e não voltarei. O Watchman me espera. Em seus passos, encontrarei a luz do Glory. O entendimento é demais para a minha alma segurar, e por isso a minha alma se abrirá. Não serei imortal: serei mais do que isso. [Qualquer seguidor utilizado no ritual será consumido. Se você se importar com quem pode deixar para trás, tenha cuidado.]",
             "requirements": {
                 "ritual": 1,
                 "ascensionenlightenmentf": 1,
@@ -827,14 +827,14 @@
         },
         {
             "id": "minorlanternvictory_overture",
-            "label": "The Incursus",
+            "label": "O Incurso",
             "actionid": "work",
             "description": ".",
             "warmup": 60,
             "slots": [
                 {
                     "id": "beloved",
-                    "label": "Beloved",
+                    "label": "Amado",
                     "required": {
                         "romanticinterest": 1
                     },
@@ -863,7 +863,7 @@
         },
         {
             "id": "minorlanternvictory",
-            "label": "The Incursus",
+            "label": "O Incurso",
             "requirements": {
                 "ascensionenlightenmentf": 1
             },
@@ -876,7 +876,7 @@
                 "summoned": 1,
                 "ascensionenlightenmentf": 1
             },
-            "label": "The Incursus",
+            "label": "O Incurso",
             "ending": "minorlanternvictorywithrisen",
             "actionid": "work"
         },
@@ -885,13 +885,13 @@
             "requirements": {
                 "seasonambitions": 1
             },
-            "label": "Exotic Cravings?",
+            "label": "Saudações Exóticas?",
             "actionid": "craving",
             "slots": [
                 {
                     "id": "Obsessions",
-                    "label": "Obsessions",
-                    "description": "Deeper urges",
+                    "label": "Obsessões",
+                    "description": "Acidentes de entorno",
                     "required": {
                         "enlightenmentmarks": 3,
                         "powermarks": 3,
@@ -905,7 +905,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "What hungers drive us?",
+            "startdescription": "Que fome nos conduzem?",
             "description": "",
             "effects": {},
             "warmup": 10,
@@ -998,7 +998,7 @@
         },
         {
             "id": "L_independent",
-            "label": "Rivalry!",
+            "label": "Rivalidade!",
             "requirements": {
                 "independent": 1
             },
@@ -1015,13 +1015,13 @@
         },
         {
             "id": "L_independent_router",
-            "label": "Rivalry!",
+            "label": "Rivalidade!",
             "actionid": "ambition",
             "requirements": {
                 "independent": 1
             },
             "comments": "That requirement is strictly unnecessary, but leaving it here just in case we move recipe connections again - it's an important filter",
-            "startdescription": "Here is another who would ascend before me. [Independent occultists will try to monopolise the attention of the Hours. They may also conduct other schemes, whether you like it or not.]",
+            "startdescription": "Aqui está outra pessoa que iria ascender diante de mim. [Independent occultistas vão tentar monopolizar a atenção das Horas. Eles também podem conduzir outros esquemas, gostem ou não.]",
             "alt": [
                 {
                     "id": "scheme_murderhunter",
@@ -1068,8 +1068,8 @@
             "extantreqs": {
                 "long.enemy": -1
             },
-            "label": "A Pretender Victorious",
-            "startdescription": "My Rival's achievements eclipse my own. Now they will ascend to a place in the House of the Sun, while here, in the world, I will remain alone with my frustrations.",
+            "label": "Um Tender Vitorioso",
+            "startdescription": "As conquistas de meu Rival eclipsam as minhas. Agora irão ascender a um lugar na Casa do Sol, enquanto aqui, no mundo, ficarei sozinho com as minhas frustrações.",
             "ending": "rivalascension",
             "signalEndingFlavour": "Melancholy",
             "warmup": 60
@@ -1083,21 +1083,21 @@
             "extantreqs": {
                 "long.enemy": 1
             },
-            "label": "Too Many Enemies",
-            "startdescription": "One immortal enemy is a mortal peril. Two immortal enemies are too much. Our Great Work has failed.",
+            "label": "Inimigos demais",
+            "startdescription": "Um inimigo imortal é um perigo mortal. Dois inimigos imortais são demais. A nossa grande obra falhou.",
             "ending": "rivalascension",
             "signalEndingFlavour": "Melancholy",
             "warmup": 60
         },
         {
             "id": "L_rebellion_activate",
-            "label": "Rebellion!",
+            "label": "Rebelião!",
             "actionid": "ambition",
             "requirements": {
                 "resentment": 3
             },
-            "startdescription": "Too much, or not enough? Whatever I've done, it's angered someone beyond forbearance.",
-            "description": "An ally has broken away from me. They might not be an enemy - not yet - not exactly - but they will no longer serve me.",
+            "startdescription": "Muito muito, ou não o suficiente? O que eu fiz, está irritado alguém sem compaixão.",
+            "description": "Um aliado quebrou de mim. Podem não ser um inimigo - ainda não - não exactamente - mas já não me servirão.",
             "aspects": {
                 "rebellion": 1
             },
@@ -1105,13 +1105,13 @@
         },
         {
             "id": "L_rebellion_noactivation",
-            "label": "Discontent",
+            "label": "Descontente",
             "actionid": "ambition",
             "requirements": {
                 "resentment": 3
             },
-            "startdescription": "Too much, or not enough? Whatever I've done, it's angered an ally.",
-            "description": "This one has spent some time in sulky solitude. For now, they'll return to the fold.",
+            "startdescription": "Muito muito, ou não? O que quer que eu faça, está irritado com um aliado.",
+            "description": "Este passou algum tempo em solitude sultida. Por enquanto, eles retornarão à dobra.",
             "mutations": [
                 {
                     "filter": "follower",
@@ -1125,18 +1125,18 @@
         {
             "id": "ending.minorcrownedgrowthvictory",
             "actionid": "ambition",
-            "label": "TO INFECT AND BECOME",
+            "label": "PARA INFECTAR E ANTERIOR",
             "requirements": {
                 "ghoul.hunger": 7
             },
-            "startdescription": "My appetite has become a thing beyond me, but not outside me. My abdomen pullulates with fruitfulness. It is too late.",
+            "startdescription": "Meu apetite se tornou uma coisa além de mim, mas não fora de mim. Meu abdômen pega com frutuosidade. É tarde demais.",
             "ending": "minorcrownedgrowthvictory",
             "signalEndingFlavour": "Vile",
             "warmup": 30
         },
         {
             "id": "ascensionnotyet",
-            "label": "Mortal Frustrations",
+            "label": "Frustrações Mortais",
             "actionid": "craving",
             "requirements": {
                 "enlightenmentmarks": -1,
@@ -1146,19 +1146,19 @@
             "slots": [
                 {
                     "id": "Temptations",
-                    "label": "Temptations",
-                    "description": "The fire needs feeding",
+                    "label": "Tentações",
+                    "description": "O fogo precisa se alimentar",
                     "required": {
                         "desire": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "What hungers drive me?",
+            "startdescription": "Que fome me dirige?",
             "effects": {
                 "restlessness": 1
             },
-            "description": "As yet, I have only the needs and desires of any other mortal. But what stirs in me?",
+            "description": "Até agora, eu tenho apenas as necessidades e desejos de qualquer outro mortal. Mas o que me agita?",
             "alt": [
                 {
                     "id": "ascensionhintpower2",
@@ -1197,13 +1197,13 @@
         },
         {
             "id": "ascensionhintpower2",
-            "label": "The Forge's Roar",
+            "label": "Rugido do Forge",
             "actionid": "craving",
             "requirements": {
                 "ascensionpowerb": 1
             },
-            "startdescription": "I am never quite warm enough, now.",
-            "description": "I have dreamed of the Forge, and I long for the heat of her flames. It is almost time to perform the Work and begin the changes - but I must have enough Forge-aspect. <b>Exploration</b> might find more.",
+            "startdescription": "Eu nunca estou muito quente o suficiente.",
+            "description": "Sonhei com o Forge, e anseio pelo calor das chamas dela. Está quase na altura de realizar o trabalho e iniciar as mudanças - mas preciso de ter suficiente Forge-aspect. <b>Exploração</b> pode encontrar mais.",
             "effects": {
                 "restlessness": 1
             },
@@ -1211,13 +1211,13 @@
         },
         {
             "id": "ascensionhintenlightenment2",
-            "label": "The Watchman's Light",
+            "label": "A Luz do Observador",
             "actionid": "craving",
             "requirements": {
                 "ascensionenlightenmentb": 1
             },
-            "startdescription": "Even in waking hours, I have begun to see new colours.",
-            "description": "My curiosity is becoming a physical need. My eyes will be thresholds. It is almost time to perform the Work and begin the changes - but I must have enough Lantern-aspect. <b>Exploration</b> might find more.",
+            "startdescription": "Mesmo em horas acordadas, comecei a ver novas cores.",
+            "description": "Minha curiosidade está se tornando uma necessidade física. Meus olhos serão limiares. Está quase na altura de realizar o trabalho e iniciar as mudanças - mas preciso de ter suficiente aspecto Lanterna. <b>Exploração</b> pode encontrar mais.",
             "effects": {
                 "restlessness": 1
             },
@@ -1225,13 +1225,13 @@
         },
         {
             "id": "ascensionhintsensation2m",
-            "label": "The Grail's Touch",
+            "label": "Toque do Grail's",
             "actionid": "craving",
             "requirements": {
                 "ascensionsensationbm": 1
             },
-            "startdescription": "My desires are changing.",
-            "description": "The Grail's wonderful tides move in me. It is almost time to perform the Work and begin the changes - but I must have enough Grail-aspect. <b>Exploration</b> might find more.",
+            "startdescription": "Meus desejos estão mudando.",
+            "description": "As marés maravilhosas do Grail, se movem em mim. Está quase na altura de realizar o trabalho e de iniciar as mudanças - mas tenho de ter aspectos ferroviários suficientes. <b>Exploração</b> pode encontrar mais.",
             "effects": {
                 "restlessness": 1
             },
@@ -1239,13 +1239,13 @@
         },
         {
             "id": "ascensionhintsensation2f",
-            "label": "The Grail's Touch",
+            "label": "Toque do Grail's",
             "actionid": "craving",
             "requirements": {
                 "ascensionsensationbf": 1
             },
-            "startdescription": "My desires are changing.",
-            "description": "The Grail has touched me with her wonderful fingers. It is almost time to perform the Work and begin the changes - but I must have enough Grail-aspect. <b>Exploration</b> might find more.",
+            "startdescription": "Meus desejos estão mudando.",
+            "description": "O Grail tocou-me com seus dedos maravilhosos. Está quase na altura de realizar o trabalho e de iniciar as mudanças - mas tenho de ter aspectos ferroviários suficientes. <b>Exploração</b> pode encontrar mais.",
             "effects": {
                 "restlessness": 1
             },
@@ -1253,13 +1253,13 @@
         },
         {
             "id": "ascensionhintpower1",
-            "label": "The Forge's Glow",
+            "label": "O brilho do Forge",
             "actionid": "craving",
             "requirements": {
                 "ascensionpowera": 1
             },
-            "startdescription": "Hunger burns in my heart - hunger for the power the invisible arts might bring.",
-            "description": "The Forge of Days waits in my dreams. If I learn the Forge's lore, and I dream of this temptation, I can advance my purpose. The need gnaws at me.",
+            "startdescription": "A fome queima em meu coração - fome pelo poder que as artes invisíveis podem trazer.",
+            "description": "A Forja de Dias espera nos meus sonhos. Se eu aprender o amante do Forge, e sonho com esta tentação, posso fazer avançar minha finalidade. As caras necessárias são para mim.",
             "effects": {
                 "restlessness": 1
             },
@@ -1267,13 +1267,13 @@
         },
         {
             "id": "ascensionhintenlightenment1",
-            "label": "The Watchman's Footsteps",
+            "label": "Pés do Vigiador",
             "actionid": "craving",
             "requirements": {
                 "ascensionenlightenmenta": 1
             },
-            "startdescription": "Hunger glows in my brain - hunger for the knowledge the invisible arts might bring.",
-            "description": "The Watchman, who is the Door-in-the-Eye, waits in my dreams. If I learn the Lantern-lore, and I dream of this temptation, I can advance my purpose. The need gnaws at me.",
+            "startdescription": "A fome brilha no meu cérebro - a fome pelo conhecimento que as artes invisíveis podem trazer.",
+            "description": "O Watchman, que é o Porto do Oei, espera nos meus sonhos. Se eu aprendo o Lanterna, e sonho com esta tentação, posso fazer avançar o meu propósito. A necessidade é cara.",
             "effects": {
                 "restlessness": 1
             },
@@ -1281,13 +1281,13 @@
         },
         {
             "id": "ascensionhintsensation1",
-            "label": "The Grail's Whispers",
+            "label": "Os Sussurros do Cálice",
             "actionid": "craving",
             "requirements": {
                 "ascensionsensationa": 1
             },
-            "startdescription": "Hungers roam my body - hungers for the pleasures that the invisible arts might bring.",
-            "description": "The red cup, the cup of drowning and devouring, waits in my dreams. If I learn the Grail-lore, and I dream of this temptation, I can advance my purpose. The need gnaws at me.",
+            "startdescription": "Os húngaros vagam pelo meu corpo - são famintos pelos prazeres que as artes invisíveis podem trazer.",
+            "description": "O copo vermelho, a xícara de afogamento e devorador, espera nos meus sonhos. Se eu aprendo o Grail-lore, e sonho com esta tentação, posso fazer avançar minha finalidade. A necessidade é para mim.",
             "effects": {
                 "restlessness": 1
             },
@@ -1295,7 +1295,7 @@
         },
         {
             "id": "ascensioncravingpower",
-            "label": "The Shaping Heat",
+            "label": "O Calor da Forma",
             "actionid": "craving",
             "requirements": {
                 "powermarks": 1
@@ -1303,15 +1303,15 @@
             "slots": [
                 {
                     "id": "Fuels",
-                    "label": "Fuels",
-                    "description": "The fire needs feeding",
+                    "label": "Combustíveis",
+                    "description": "O fogo precisa se alimentar",
                     "required": {
                         "funds": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "I require ever hotter fires. Their fuel now is rare and costly. If I cannot afford them, the cold will overtake me.",
+            "startdescription": "Exijo incêndios cada vez mais quentes. O combustível deles agora é raro e caro. Se não consigo pagar a eles, o frio vai me ultrapassar.",
             "linked": [
                 {
                     "id": "ascensionsuccesscravingpower_descend",
@@ -1326,7 +1326,7 @@
         },
         {
             "id": "ascensionsuccesscravingpower_descend",
-            "label": "The Ashes of Change",
+            "label": "As Cinzas de Mudança",
             "actionid": "craving",
             "requirements": {
                 "funds": -1
@@ -1334,8 +1334,8 @@
             "slots": [
                 {
                     "id": "Pain",
-                    "label": "Pain",
-                    "description": "My need gnaws at me",
+                    "label": "Dor",
+                    "description": "Minha necessidade de cobras para mim",
                     "required": {
                         "health": 1,
                         "vitality": 1
@@ -1343,8 +1343,8 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "I am shivering. Without the fire, my flesh will thin and weaken.",
-            "description": "My strength is less. My blood is colder. I think that even some of my scars are healing. I diminish.",
+            "startdescription": "Eu estou tremendo. Sem o fogo, minha carne vai ficar fina e fraca.",
+            "description": "Minha força é menor. Meu sangue está mais frio. Acho que até mesmo algumas das minhas cicatrizes estão curando. Eu diminuo.",
             "aspects": {
                 "descend": 1,
                 "damagehealth": 1
@@ -1356,10 +1356,10 @@
         },
         {
             "id": "ascensioncravingpower_ascend",
-            "label": "Another Mark",
+            "label": "Outra Marca",
             "actionid": "craving",
             "startdescription": "",
-            "description": "The flames yearn for me as I for them. Their touch is much more than pain. I have another Mark.",
+            "description": "As chamas anseiam por mim como eu por elas. O seu toque está muito mais do que dor. Eu tenho outro Marco.",
             "effects": {
                 "vitality": 2,
                 "funds": -1
@@ -1370,7 +1370,7 @@
         },
         {
             "id": "ascensioncravingsensation",
-            "label": "The Red Need",
+            "label": "A necessidade vermelha",
             "actionid": "craving",
             "requirements": {
                 "sensationmarks": 1
@@ -1378,8 +1378,8 @@
             "slots": [
                 {
                     "id": "Sustenance",
-                    "label": "Sustenance",
-                    "description": "The recently dead, or the living.",
+                    "label": "Sustentação",
+                    "description": "Os mortos, ou os vivos recentemente.",
                     "required": {
                         "corpse": 1,
                         "lunatic": -1,
@@ -1388,7 +1388,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "A thirst for blood? If only it were so simple. I will drain them far more deeply.",
+            "startdescription": "Uma sede de sangue? Se ao menos fosse tão simples. Vou drená-los muito mais profundamente.",
             "linked": [
                 {
                     "id": "ascensionsuccesscravingsensation_descend",
@@ -1403,7 +1403,7 @@
         },
         {
             "id": "ascensionsuccesscravingsensation_descend",
-            "label": "The Desert Inside",
+            "label": "O Deserto Interno",
             "actionid": "craving",
             "requirements": {
                 "corpse": -1,
@@ -1413,8 +1413,8 @@
             "slots": [
                 {
                     "id": "Pain",
-                    "label": "Pain",
-                    "description": "My need gnaws at me",
+                    "label": "Dor",
+                    "description": "Minha necessidade de cobras para mim",
                     "required": {
                         "passion": 1,
                         "glimmering": 1
@@ -1422,8 +1422,8 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "Without the life of others, my own life will feed on itself.",
-            "description": "My fluids thin; my flesh dessicates; my changes uncoil; my passions dim. I am becoming less than I want.",
+            "startdescription": "Sem a vida dos outros, minha própria vida se alimentará de si mesma.",
+            "description": "Meus fluidos se tornam; meus descendentes de carne; minhas mudanças desfocam; minhas paixões escurecem. Estou ficando cada vez menos do que quero.",
             "aspects": {
                 "descend": 1,
                 "fatiguing": 1
@@ -1435,7 +1435,7 @@
         },
         {
             "id": "ascensioncravingsensation_ascend",
-            "label": "Another Mark",
+            "label": "Outra Marca",
             "actionid": "craving",
             "effects": {
                 "glimmering": 2,
@@ -1444,14 +1444,14 @@
                 "prisoner": -1
             },
             "startdescription": "",
-            "description": "When I am done, the satisfaction is deep as the moon in the sea. Another Mark buds in me.",
+            "description": "Quando estou a trabalhar, a satisfação é profunda como a lua no mar.",
             "aspects": {
                 "ascend": 1
             }
         },
         {
             "id": "ascensioncravingenlightenment",
-            "label": "The Curiosities of Light",
+            "label": "As Curiosidades da Luz",
             "actionid": "craving",
             "requirements": {
                 "enlightenmentmarks": 1
@@ -1459,15 +1459,15 @@
             "slots": [
                 {
                     "id": "Conversation",
-                    "label": "Conversation",
-                    "description": "The last words of a living mind.",
+                    "label": "Conversa",
+                    "description": "As últimas palavras de um espírito vivo.",
                     "required": {
                         "prisoner": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "Time alone in a quiet room with a living mind. That's all I need.",
+            "startdescription": "Tempo sozinho numa sala tranquila com a mente viva. Isso é tudo de que eu preciso.",
             "linked": [
                 {
                     "id": "ascensionsuccesscravingenlightenment_descend",
@@ -1482,7 +1482,7 @@
         },
         {
             "id": "ascensionsuccesscravingenlightenment_descend",
-            "label": "The Desert Inside",
+            "label": "O Deserto Interno",
             "actionid": "craving",
             "requirements": {
                 "prisoner": -1
@@ -1490,8 +1490,8 @@
             "slots": [
                 {
                     "id": "Pain",
-                    "label": "Pain",
-                    "description": "My need gnaws at me",
+                    "label": "Dor",
+                    "description": "Minha necessidade de cobras para mim",
                     "required": {
                         "reason": 1,
                         "erudition": 1
@@ -1499,8 +1499,8 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "If I cannot consume the thoughts of a living mind, my need will turn in upon itself.",
-            "description": "The Light of the Mansus dims in me. I am less than I was. I need conversation. I must have those particular conversations.",
+            "startdescription": "Se eu não puder consumir os pensamentos de um espírito vivo, minha necessidade se focará em si mesma.",
+            "description": "A luz do Mansus escurece em mim. Eu sou menos do que era. Preciso de conversa. Devo ter essas conversas em particular.",
             "aspects": {
                 "descend": 1,
                 "fatiguing": 1
@@ -1512,21 +1512,21 @@
         },
         {
             "id": "ascensioncravingenlightenment_ascend",
-            "label": "Another Mark",
+            "label": "Outra Marca",
             "actionid": "craving",
             "effects": {
                 "erudition": 2,
                 "prisoner": -1
             },
             "startdescription": "",
-            "description": "I have drunk the light of their mind. It thrills and fills me. The Marks brighten in me.",
+            "description": "Bebi a luz da mente. Ela me emociona e me preenche. As Marcas me iluminam.",
             "aspects": {
                 "ascend": 1
             }
         },
         {
             "id": "ascensioncravingremembrance",
-            "label": "The Hunger that Grows in Dark Earth",
+            "label": "A Fome que Cresce na Terra Negra",
             "actionid": "craving",
             "requirements": {
                 "remembrancemarks": 2,
@@ -1540,12 +1540,12 @@
                     "additive": true
                 }
             ],
-            "startdescription": "The taste - the particular taste - the taste which is neither fair nor foul - it comes to trouble my mouth again. My tongue will swell, my lips will blacken. The Elixir has set its spores within me, and only dead flesh can quell them.",
+            "startdescription": "O gosto - o gosto - o gosto - o gosto que não é justo nem fraco - volta a perturbar a minha boca. Minha língua vai bem, meus lábios vão ser pretos. O Elixir configurou seus esporos dentro de mim, e só a carne morta pode apagá-los.",
             "warmup": 30
         },
         {
             "id": "ascensioncravingremembrancenegative",
-            "label": "The Hunger that Grows in Dark Earth",
+            "label": "A Fome que Cresce na Terra Negra",
             "actionid": "craving",
             "requirements": {
                 "remembrancemarks": 2
@@ -1558,13 +1558,13 @@
                     "additive": false
                 }
             ],
-            "startdescription": "The taste - the particular taste - the taste which is neither fair nor foul - it comes to trouble my mouth again. My tongue will swell, my lips will blacken. The Elixir has set its spores within me, and only dead flesh can quell them.",
+            "startdescription": "O gosto - o gosto - o gosto - o gosto que não é justo nem fraco - volta a perturbar a minha boca. Minha língua vai bem, meus lábios vão ser pretos. O Elixir configurou seus esporos dentro de mim, e só a carne morta pode apagá-los.",
             "comments": "This is a safety measure for players who managed to allow their hunger to go negative with an old save.",
             "warmup": 30
         },
         {
             "id": "ascensioncravingchange_tryascendfroma",
-            "label": "The Temptation of Change",
+            "label": "A tentação de alteração",
             "actionid": "craving",
             "requirements": {
                 "ascensionchangea": 1
@@ -1572,8 +1572,8 @@
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "Lesson",
-                    "description": "Surrender, to become",
+                    "label": "Aula",
+                    "description": "Entregue-se, para se tornar",
                     "required": {
                         "ascensionlessonhearta": 1,
                         "ascensionlessonmotha": 1
@@ -1581,7 +1581,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "I long to be something else, but have I learnt the lesson I need before the witnesses I must have?",
+            "startdescription": "Há muito tempo que eu sou outra coisa, mas será que aprendi a lição de que precisava antes das testemunhas?",
             "linked": [
                 {
                     "id": "ascensioncravingchange_heartlessonascendfroma",
@@ -1600,12 +1600,12 @@
         },
         {
             "id": "ascensioncravingchange_heartlessonascendfroma",
-            "label": "Garments, Surrendered",
+            "label": "Garagens, renderizadas",
             "actionid": "craving",
             "requirements": {
                 "ascensionlessonhearta": 1
             },
-            "description": "When I surrender the choices I have made, when the tree-filtered moon walks my surfaces, I grow light as a leaf.",
+            "description": "Quando eu desisto das escolhas que fiz, quando a lua filtrada pela árvore caminha minhas superfícies, eu fico com a luz como uma folha.",
             "aspects": {
                 "ascend": 1
             },
@@ -1624,12 +1624,12 @@
         },
         {
             "id": "ascensioncravingchange_mothlessonascendfroma",
-            "label": "Garments, Surrendered",
+            "label": "Garagens, renderizadas",
             "actionid": "craving",
             "requirements": {
                 "ascensionlessonmotha": 1
             },
-            "description": "I shuck my husk to grow. Here is the moon and here am I in its eye -",
+            "description": "Chorei o meu marido para crescer. Aqui está a lua e aqui estou nos seus olhos -",
             "aspects": {
                 "ascend": 1
             },
@@ -1648,7 +1648,7 @@
         },
         {
             "id": "ascensioncravingchange_tryascendfromb",
-            "label": "Toward the Second Change",
+            "label": "Para a segunda mudança",
             "actionid": "craving",
             "requirements": {
                 "ascensionchangeb": 1
@@ -1656,8 +1656,8 @@
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "Lesson",
-                    "description": "Surrender, to become",
+                    "label": "Aula",
+                    "description": "Entregue-se, para se tornar",
                     "required": {
                         "ascensionlessonheartb": 1,
                         "ascensionlessonmothb": 1
@@ -1665,7 +1665,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "The skin I bear will grow too small, and so I must begin to abandon it. I will need to send a part of myself to learn how.",
+            "startdescription": "A pele que eu urso vai crescer demasiado pequena, e por isso tenho de começar a abandoná-la. Vou precisar mandar uma parte de mim mesmo para aprender como.",
             "linked": [
                 {
                     "id": "ascensioncravingchange_heartlessonascendfromb",
@@ -1684,12 +1684,12 @@
         },
         {
             "id": "ascensioncravingchange_heartlessonascendfromb",
-            "label": "Integument, Surrendered",
+            "label": "Integargumento, renderizado",
             "actionid": "craving",
             "requirements": {
                 "ascensionlessonheartb": 1
             },
-            "description": "My outermost skin comes free in shreds and patches, and so do I.",
+            "description": "A minha pele ultraperiférica é livre em pedaços e remendos e eu também.",
             "aspects": {
                 "ascend": 1
             },
@@ -1708,12 +1708,12 @@
         },
         {
             "id": "ascensioncravingchange_mothlessonascendfromb",
-            "label": "Integument, Surrendered",
+            "label": "Integargumento, renderizado",
             "actionid": "craving",
             "requirements": {
                 "ascensionlessonmothb": 1
             },
-            "description": "\"We all are layers\r\n\r\nbut not so much I\"",
+            "description": "\"Todos nós somos camadas\r\n\r\n, mas não tanto quanto eu\"",
             "aspects": {
                 "ascend": 1
             },
@@ -1732,7 +1732,7 @@
         },
         {
             "id": "ascensioncravingchange_tryascendfromc",
-            "label": "Toward the Third Change",
+            "label": "Para a Terceira Mudança",
             "actionid": "craving",
             "requirements": {
                 "ascensionchangec": 1
@@ -1740,8 +1740,8 @@
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "Lesson",
-                    "description": "Surrender, to become",
+                    "label": "Aula",
+                    "description": "Entregue-se, para se tornar",
                     "required": {
                         "ascensionlessonheartc": 1,
                         "ascensionlessonmothc": 1
@@ -1749,7 +1749,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "One reveals, one conceals, one reveals. To proceed, I must learn a lesson of concealment.",
+            "startdescription": "Revela-se, esconde-se, e para prosseguir, tenho de aprender uma lição de ocultação.",
             "linked": [
                 {
                     "id": "ascensioncravingchange_heartlessonascendfromc",
@@ -1768,12 +1768,12 @@
         },
         {
             "id": "ascensioncravingchange_heartlessonascendfromc",
-            "label": "Steps, Surrendered",
+            "label": "Passos, renderizados",
             "actionid": "craving",
             "requirements": {
                 "ascensionlessonheartc": 1
             },
-            "description": "Without footsteps to follow, who will know our destination? I wish so very much to go.",
+            "description": "Sem pistas a seguir, quem saberá o nosso destino?",
             "aspects": {
                 "ascend": 1
             },
@@ -1792,12 +1792,12 @@
         },
         {
             "id": "ascensioncravingchange_mothlessonascendfromc",
-            "label": "Steps, Surrendered",
+            "label": "Passos, renderizados",
             "actionid": "craving",
             "requirements": {
                 "ascensionlessonmothc": 1
             },
-            "description": "Moldywarp's oldest lesson: between music, silence",
+            "description": "Lição mais antiga do Moldywarp: entre música, silêncio",
             "comments": "lack of full stop intentional",
             "aspects": {
                 "ascend": 1
@@ -1817,7 +1817,7 @@
         },
         {
             "id": "ascensioncravingchange_tryascendfromd",
-            "label": "Toward the Fourth Change",
+            "label": "Para a Quarta Mudança",
             "actionid": "craving",
             "requirements": {
                 "ascensionchanged": 1
@@ -1825,8 +1825,8 @@
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "Lesson",
-                    "description": "Surrender, to become",
+                    "label": "Aula",
+                    "description": "Entregue-se, para se tornar",
                     "required": {
                         "ascensionlessonheartd": 1,
                         "ascensionlessonmothd": 1
@@ -1834,7 +1834,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "For the next change, I must soften myself to receive the agencies of alteration.",
+            "startdescription": "Para a próxima mudança, tenho de me convencer a receber as agências de alteração.",
             "linked": [
                 {
                     "id": "ascensioncravingchange_heartlessonascendfromd",
@@ -1853,12 +1853,12 @@
         },
         {
             "id": "ascensioncravingchange_heartlessonascendfromd",
-            "label": "Hues Surrendered",
+            "label": "Hues Entregues",
             "actionid": "craving",
             "requirements": {
                 "ascensionlessonheartd": 1
             },
-            "description": "My newly paling flesh is rich with the juices of dissolution.",
+            "description": "Minha carne recém-pálida é rica com os sumos de dissolução.",
             "aspects": {
                 "ascend": 1
             },
@@ -1877,12 +1877,12 @@
         },
         {
             "id": "ascensioncravingchange_mothlessonascendfromd",
-            "label": "Hues, Surrendered",
+            "label": "Tonalidades, Entregues",
             "actionid": "craving",
             "requirements": {
                 "ascensionlessonmothd": 1
             },
-            "description": "When I go into the last skin, all this me will dissolve, dapple dapple. So soon, dapple dapple.",
+            "description": "Quando eu entrar na última pele, tudo isto me dissolverá, dapple dapeste logo em breve, dapple dapple.",
             "aspects": {
                 "ascend": 1
             },
@@ -1901,7 +1901,7 @@
         },
         {
             "id": "ascensioncravingchange_tryascendfrome",
-            "label": "Toward the Fifth Change",
+            "label": "Para a Quinta Mudança",
             "actionid": "craving",
             "requirements": {
                 "ascensionchangee": 1
@@ -1909,8 +1909,8 @@
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "Lesson",
-                    "description": "Surrender, to become",
+                    "label": "Aula",
+                    "description": "Entregue-se, para se tornar",
                     "required": {
                         "ascensionlessonhearte": 1,
                         "ascensionlessonmothe": 1
@@ -1918,7 +1918,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "The door I will pass is never visible to either the waking eye, or the eye that is closed. I must surrender those eyes to one who knows the way, so that I can see.",
+            "startdescription": "A porta que vou passar nunca é visível, nem para o olho acordar, nem para o olho fechado. Devo abdicar desses olhos a alguém que conhece o caminho, para que eu possa ver.",
             "linked": [
                 {
                     "id": "ascensioncravingchange_heartlessonascendfrome",
@@ -1937,12 +1937,12 @@
         },
         {
             "id": "ascensioncravingchange_heartlessonascendfrome",
-            "label": "Sight, Surrendered",
+            "label": "Este, Sobreposto",
             "actionid": "craving",
             "requirements": {
                 "ascensionlessonhearte": 1
             },
-            "description": "Sometimes, the citrine eyes of one who has undergone this change are mistaken for the illumined eyes of one approaching the Incursus. But never for long. ",
+            "description": "Por vezes, os olhos citrinos de quem foi vítima desta mudança estão errados para os olhos iluminados de um que se aproxima dos Incursus. Mas nunca por muito tempo. ",
             "aspects": {
                 "ascend": 1
             },
@@ -1961,12 +1961,12 @@
         },
         {
             "id": "ascensioncravingchange_mothlessonascendfrome",
-            "label": "Sight, Surrendered",
+            "label": "Este, Sobreposto",
             "actionid": "craving",
             "requirements": {
                 "ascensionlessonmothe": 1
             },
-            "description": "Now I enter my final skin.",
+            "description": "Agora vou entrar na minha skin final.",
             "aspects": {
                 "ascend": 1
             },
@@ -1986,15 +1986,15 @@
         {
             "id": "ascensioncravingchange_tryascendfromg",
             "actionid": "craving",
-            "label": "The Pulse Inside",
+            "label": "O Pulse Interno",
             "requirements": {
                 "ascensionchangeg": 1
             },
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "Lesson",
-                    "description": "Surrender, to become",
+                    "label": "Aula",
+                    "description": "Entregue-se, para se tornar",
                     "required": {
                         "ascensionlessonheartf": 1,
                         "ascensionlessonmothf": 1
@@ -2002,21 +2002,21 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "I must dream soon, before my soul bursts.",
+            "startdescription": "Preciso sonhar logo, antes que minha alma exploda.",
             "warmup": 10
         },
         {
             "id": "ascensioncravingchange_tryascendfromf",
             "actionid": "craving",
-            "label": "Toward the Sixth Change",
+            "label": "Para a Sexta Mudança",
             "requirements": {
                 "ascensionchangef": 1
             },
             "slots": [
                 {
                     "id": "Lesson",
-                    "label": "Lesson",
-                    "description": "Surrender, to become",
+                    "label": "Aula",
+                    "description": "Entregue-se, para se tornar",
                     "required": {
                         "ascensionlessonheartf": 1,
                         "ascensionlessonmothf": 1
@@ -2024,7 +2024,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "The bones are always last. When I have learnt how they change, I will be ready.",
+            "startdescription": "Os ossos são sempre os últimos. Quando eu tiver aprendido como mudam, estarei pronto.",
             "linked": [
                 {
                     "id": "ascensioncravingchange_heartlessonascendfromf",
@@ -2043,12 +2043,12 @@
         },
         {
             "id": "ascensioncravingchange_heartlessonascendfromf",
-            "label": "Bones, Surrendered",
+            "label": "ossos, rendidos",
             "actionid": "craving",
             "requirements": {
                 "ascensionlessonheartf": 1
             },
-            "description": "Now that sun has set and the shadows are extinguished, it's time to remember, and I will remember with my bones, as I have been taught. I am almost ready.",
+            "description": "Agora que o sol se pôs e as sombras se extinguem, é hora de lembrar. e recordo-me com os ossos, como me ensinaram. Estou quase pronto.",
             "aspects": {
                 "ascend": 1
             },
@@ -2067,12 +2067,12 @@
         },
         {
             "id": "ascensioncravingchange_mothlessonascendfromf",
-            "label": "Bones, Surrendered",
+            "label": "ossos, rendidos",
             "actionid": "craving",
             "requirements": {
                 "ascensionlessonmothf": 1
             },
-            "description": "Now that sun has fallen and the shadows have spread like oil, my bones know what must happen at the end. The end is very near.",
+            "description": "Agora que o sol caiu e as sombras se espalharam como o petróleo, os meus ossos sabem o que tem de acontecer no fim. O fim está muito próximo.",
             "aspects": {
                 "ascend": 1
             },
@@ -2091,9 +2091,9 @@
         },
         {
             "id": "ascensioncravingchange_noascension",
-            "label": "The Same Self",
+            "label": "O mesmo usuário",
             "actionid": "craving",
-            "description": "I am no further along my path of change. In the movements of the secret Forms must I find my lesson.",
+            "description": "Não estou mais no meu caminho de mudança. Nos movimentos das formas secretas devo encontrar minha lição.",
             "effects": {
                 "restlessness": 1
             },

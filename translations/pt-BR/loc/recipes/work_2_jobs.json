@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "findclericalwork",
-            "label": "Find Clerical Work",
+            "label": "Encontrar trabalho clínico",
             "actionid": "work",
             "requirements": {
                 "reason": 1,
@@ -12,8 +12,8 @@
             "effects": {
                 "gloverandgloverjuniorjob": 1
             },
-            "startdescription": "Find work which will spare my body, if not my mind.",
-            "description": "Glover & Glover have offered me a junior position. I start at eight sharp, tomorrow morning! ",
+            "startdescription": "Encontre trabalhos que poupem meu corpo, se não meu.",
+            "description": "Glover & Glover me ofereceram uma posição júnior. Eu começo a oito afiados, amanhã de manhã! ",
             "warmup": 10,
             "craftable": true,
             "maxexecutions": 1,
@@ -21,7 +21,7 @@
         },
         {
             "id": "job_plead_hint",
-            "label": "Plead to Keep my Job?",
+            "label": "Plead para manter meu trabalho?",
             "actionid": "work",
             "requirements": {
                 "demotion": 1
@@ -29,13 +29,13 @@
             "aspects": {
                 "plead": 1
             },
-            "startdescription": "My superiors must believe in my contrition. [Use Passion to convince management to let you return to work.]",
+            "startdescription": "Os meus superiores devem acreditar na minha força. [Utilize a paixão para convencer a gestão para que regresse ao trabalho.]",
             "hintonly": true,
             "craftable": true
         },
         {
             "id": "job_plead",
-            "label": "Plead to Keep my Job",
+            "label": "Conduzir para manter meu trabalho",
             "actionid": "work",
             "requirements": {
                 "passion": 1,
@@ -44,14 +44,14 @@
             "aspects": {
                 "plead": 1
             },
-            "startdescription": "This is not a pleasant conversation, but it may be a necessary one.",
-            "description": "I have been offered another chance. I am, apparently, expected to be grateful.",
+            "startdescription": "Não é uma conversa agradável, mas pode ser uma conversa necessária.",
+            "description": "Foi-me oferecida uma outra oportunidade; segundo consta, ficarei grata.",
             "craftable": true,
             "warmup": 30
         },
         {
             "id": "gloverandgloverjuniorwork",
-            "label": "Junior Work at Glover & Glover",
+            "label": "Júnior Work em Glover & Glover",
             "aspects": {
                 "employment": 1
             },
@@ -69,8 +69,8 @@
                 "funds": 1
             },
             "actionid": "work",
-            "startdescription": "The scratching of pens, the sourness of dust, the sighing of the younger Glover, the greedy gurgling of the elder.",
-            "description": "The clerks file out in silence. I am free for now.",
+            "startdescription": "O arranhamento de canetas, a fonte de poeira, o avistamento do globo mais novo, o ganancioso borrão dos velhos.",
+            "description": "Os funcionários estão em silêncio. Estou livre por enquanto.",
             "warmup": 60,
             "slots": [
                 {
@@ -80,14 +80,14 @@
                         "reason": 1
                     },
                     "forbidden": {},
-                    "description": "Extra effort. It might help, sometimes."
+                    "description": "Faz um esforço extra. Às vezes pode ajudar."
                 }
             ],
             "craftable": true
         },
         {
             "id": "gloverandglover_diligence",
-            "label": "Extra Effort at Glover & Glover",
+            "label": "Esforço Extra na Luva & Luva",
             "aspects": {
                 "employment": 1
             },
@@ -104,14 +104,14 @@
                 "funds": 1
             },
             "actionid": "work",
-            "startdescription": "I will apply extra effort. Perhaps they'll appreciate it.",
-            "description": "The end of the day. My neck aches. There is as much work to do tomorrow as there ever was.",
+            "startdescription": "Eu vou fazer um esforço extra. Talvez eles vão gostar disso.",
+            "description": "O fim do dia. Meu pescoço dói. Amanhã há tanto trabalho a fazer quanto houve.",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "gloverandgloverjunior_diligence_promotion",
-            "label": "A Promotion!",
+            "label": "Uma Promoção!",
             "requirements": {
                 "gloverandgloverjuniorjob": 1,
                 "reason": 1
@@ -124,12 +124,12 @@
             },
             "actionid": "work",
             "startdescription": "",
-            "description": "Mr Alden, the Supervisor of Records, has called me into his office to recognise my diligence. I watch the mole on his neck as he talks; and talks; and talks. But at the end of it, I have a promotion!\n\nMy new position is better paid, and the desk stands by the street window. But I work directly for Mr Alden now. Mr Alden is known to be exacting.",
+            "description": "O Sr. Alden, Supervisor dos Recordes, exortou-me ao seu gabinete a reconhecer a minha diligência. Vejo a toupeira no pescoço enquanto ela fala e fala e conversa. Mas no final da página, tenho uma promoção!\n\nA nova posição é melhor paga e a mesa fica ao lado da janela da rua. Mas agora trabalho directamente para o senhor deputado Alden, e é sabido que o senhor deputado Alden é exigente.",
             "warmup": 0
         },
         {
             "id": "gloverandgloverjuniorwork_again",
-            "label": "Junior Work at Glover & Glover",
+            "label": "Júnior Work em Glover & Glover",
             "aspects": {
                 "employment": 1
             },
@@ -147,8 +147,8 @@
                 "funds": 1
             },
             "actionid": "work",
-            "startdescription": "The scratching of pens, the sourness of dust, the sighing of the younger Glover, the greedy gurgling of the elder.",
-            "description": "The clerks file out in silence. I am free for now.",
+            "startdescription": "O arranhamento de canetas, a fonte de poeira, o avistamento do globo mais novo, o ganancioso borrão dos velhos.",
+            "description": "Os funcionários estão em silêncio. Estou livre por enquanto.",
             "warmup": 60,
             "slots": [
                 {
@@ -158,14 +158,14 @@
                         "reason": 1
                     },
                     "forbidden": {},
-                    "description": "Extra effort. It might help, sometimes."
+                    "description": "Faz um esforço extra. Às vezes pode ajudar."
                 }
             ],
             "craftable": true
         },
         {
             "id": "gloverandglover_diligence_again",
-            "label": "Extra Effort at Glover & Glover",
+            "label": "Esforço Extra na Luva & Luva",
             "aspects": {
                 "employment": 1
             },
@@ -182,14 +182,14 @@
                 "funds": 1
             },
             "actionid": "work",
-            "startdescription": "I will apply extra effort. Perhaps they'll appreciate it; perhaps I'll regain a higher position.",
-            "description": "The end of the day. My neck aches. There is as much work to do tomorrow as there ever was.",
+            "startdescription": "Eu vou fazer um esforço extra. Talvez eles vão gostar; talvez eu vá recuperar um cargo mais alto.",
+            "description": "O fim do dia. Meu pescoço dói. Amanhã há tanto trabalho a fazer quanto houve.",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "gloverandgloverjunior_diligence_promotion_again",
-            "label": "A Promotion!",
+            "label": "Uma Promoção!",
             "requirements": {
                 "gloverandgloverjuniorjob_nodifficultbossa": 1,
                 "reason": 1
@@ -202,7 +202,7 @@
             },
             "actionid": "work",
             "startdescription": "",
-            "description": "I have regained a higher position.",
+            "description": "Recuperei uma posição mais alta.",
             "warmup": 0
         },
         {
@@ -211,11 +211,11 @@
             "aspects": {
                 "employment": 1
             },
-            "label": "Work at Glover & Glover",
+            "label": "Trabalhe em Glover & Glover",
             "requirements": {
                 "gloverandglover_difficultbossa_job": 1
             },
-            "startdescription": "I am better-paid than I was. But Mr Alden has taken an interest in me. Mr Alden is very particular. Mr Alden likes things done just so. And Mr Alden has never believed that I am qualified for this position.",
+            "startdescription": "O meu salário é mais bem pago do que eu, mas o senhor deputado Alden interessou me por mim, e o senhor deputado Alden é muito especial. O senhor deputado Alden gosta das coisas e o senhor deputado Alden nunca acreditou que eu estivesse qualificado para esta posição.",
             "description": ".",
             "effects": {
                 "funds": 2
@@ -243,15 +243,15 @@
             "aspects": {
                 "employment": 1
             },
-            "label": "Work at Glover & Glover",
+            "label": "Trabalhe em Glover & Glover",
             "startdescription": ".",
-            "description": "Mr Alden has found nothing to criticise in my work, today. He does not look up as I leave."
+            "description": "O senhor deputado Alden não encontrou nada para criticar no meu trabalho de hoje, pois não olha para a minha partida."
         },
         {
             "id": "gloverandglover_difficultbossa_patienceisavirtue",
             "actionid": "work",
-            "label": "Mr Alden is retiring!",
-            "startdescription": "'I shall be leaving Glover & Glover tomorrow. When you've finished your work for the day, come and see me.'",
+            "label": "O senhor deputado Alden está a reformar-se!",
+            "startdescription": "Amanhã vou sair de Glover & Glover. Quando terminar o seu trabalho por dia, venha me ver.\"",
             "description": "'You <i>have</i> shown some improvement, under my direction. I have recommended you as my replacement. Remember what I have taught you, and you might one day be a credit to this department. You may go.'\n\n'One more thing! I had almost forgotten - '\n\n'Be especially punctual tomorrow, please.'",
             "warmup": 30,
             "craftable": false,
@@ -266,19 +266,19 @@
             "aspects": {
                 "employment": 1
             },
-            "label": "Work overtime, at Mr Alden's insistence",
-            "startdescription": "'The work is complete when I have assessed the work as complete, and not before. I trust we understand each other.'",
+            "label": "Faça horas extraordinárias, por insistência do senhor deputado Alden",
+            "startdescription": "\"O trabalho está completo quando avaliei o trabalho como completo, e não antes.",
             "slots": [
                 {
                     "id": "Attention",
-                    "label": "Attention",
+                    "label": "Atenção",
                     "required": {
                         "reason": 1
                     },
-                    "description": "Extra effort. It might help, if I'm very lucky."
+                    "description": "Faça um esforço extra. Pode ajudar, se eu tiver muita sorte."
                 }
             ],
-            "description": "'On this occasion I have determined that your work is of an acceptable standard. You may go. Be punctual tomorrow, please.'\n\n[There may be ways to deal with Mr Alden.]",
+            "description": "\"Neste caso, determinei que o seu trabalho é de uma norma aceitável. Seja pontual amanhã, por favor.'\n\n[Pode haver maneiras de lidar com Alden.]",
             "alt": [
                 {
                     "id": "gloverandglover_difficultbossa_overtime_fail",
@@ -295,20 +295,20 @@
             "aspects": {
                 "employment": 1
             },
-            "label": "Work overtime, at Mr Alden's insistence",
-            "startdescription": "'The work is complete when I have assessed the work as complete, and not before. I trust we understand each other.'",
+            "label": "Faça horas extraordinárias, por insistência do senhor deputado Alden",
+            "startdescription": "\"O trabalho está completo quando avaliei o trabalho como completo, e não antes.",
             "slots": [
                 {
                     "id": "Attention",
-                    "label": "Attention",
+                    "label": "Atenção",
                     "required": {
                         "reason": 1,
                         "passion": 1
                     },
-                    "description": "Extra effort. It might help, if I'm very lucky."
+                    "description": "Faça um esforço extra. Pode ajudar, se eu tiver muita sorte."
                 }
             ],
-            "description": "'Once again, I have determined that your work is of an acceptable standard. You may go. Be punctual tomorrow, please.'\n\n[There may be ways to deal with Mr Alden.]",
+            "description": "\"Mais uma vez, determinei que o seu trabalho é de uma norma aceitável. Pode ir. Seja pontual amanhã, por favor.'\n\n[Pode haver maneiras de lidar com Alden.]",
             "alt": [
                 {
                     "id": "gloverandglover_difficultbossa_overtime_fail",
@@ -330,9 +330,9 @@
             "aspects": {
                 "employment": 1
             },
-            "label": "Work overtime, at Mr Alden's insistence",
-            "startdescription": "'I do not believe that you have properly understood the importance of our work here. This task will require your <i>full</i> attention.' [Add Reason to satisfy Mr Alden.]",
-            "description": "'I would like to say that I am disappointed, but my expectations of you were already low. I have no choice but to withhold a portion of your pay. You may go, but be punctual tomorrow, please.'\n\n[There may be ways to deal with Mr Alden.]",
+            "label": "Faça horas extraordinárias, por insistência do senhor deputado Alden",
+            "startdescription": "\"Não creio que tenham compreendido bem a importância do nosso trabalho aqui. Esta tarefa exigirá sua <i>atenção</i> completa.' [Adicionar motivo para satisfazer o Sr. Alden.]",
+            "description": "\"Gostaria de dizer que estou desapontada, mas as expectativas que tinha em si já eram baixas. Não tenho outra alternativa senão reter uma parte do seu salário. Você pode ir, mas seja pontual amanhã, por favor.'\n\n[Pode haver maneiras de lidar com Alden.]",
             "requirements": {
                 "reason": -1
             },
@@ -347,12 +347,12 @@
             "aspects": {
                 "employment": 1
             },
-            "label": "Work at Glover & Glover",
+            "label": "Trabalhe em Glover & Glover",
             "requirements": {
                 "gloverandglover_difficultbossa_gone_job": 1
             },
-            "startdescription": "The office crackles with the news of Alden's unexpected absence. A scrawny, nervous fellow from the fourth floor has been appointed Supervisor of Records (Temporary). Unlike Alden, he does not interfere with my work.",
-            "description": "Ink, paper, and the fizzing of the electric lights. The office is dark when I leave. But I leave at the appointed time.",
+            "startdescription": "O escritório racha com a notícia da ausência inesperada de Alden. Foi nomeado um companheiro nervoso e sazonal do quarto andar, Supervisor dos Registos (Temporário). Ao contrário de Alden, ele não interfere no meu trabalho.",
+            "description": "Cai, papel e a descarga das luzes elétricas. O escritório é escuro quando vou embora. Mas parto à hora estabelecida.",
             "effects": {
                 "funds": 2,
                 "gloverandglover_difficultbossa_gone_job": -1,
@@ -363,7 +363,7 @@
         },
         {
             "id": "gloverandgloverwork",
-            "label": "Work at Glover & Glover",
+            "label": "Trabalhe em Glover & Glover",
             "aspects": {
                 "employment": 1
             },
@@ -380,24 +380,24 @@
                 "funds": 2
             },
             "actionid": "work",
-            "startdescription": "The work is more demanding, now, but it's better-paid.",
-            "description": "Ink, paper, and the fizzing of the electric lights. The office is dark when I leave. Outside on the pavement, I turn up my collar.",
+            "startdescription": "O trabalho é mais exigente, agora, mas é melhor remunerado.",
+            "description": "Cai, papel e a descarga das luzes elétricas. O escritório fica escuro quando parti. Fora do pavimento, viro minha colar.",
             "warmup": 70,
             "slots": [
                 {
                     "id": "Devotion",
-                    "label": "Devotion",
+                    "label": "Devoção",
                     "required": {
                         "reason": 1
                     },
-                    "description": "Extra effort. It might help, if I'm very lucky."
+                    "description": "Faça um esforço extra. Pode ajudar, se eu tiver muita sorte."
                 }
             ],
             "craftable": true
         },
         {
             "id": "gloverandglover_diligence_promotion",
-            "label": "Extra Hours at Glover & Glover",
+            "label": "Horas Extras no Glover & Glover",
             "aspects": {
                 "careeradvancement": 1
             },
@@ -410,12 +410,12 @@
             },
             "actionid": "work",
             "startdescription": "",
-            "description": "The younger Glover has taken me out for a lunch at his club. I am to do more of the things that I do, more carefully, and in return, he will give me a little more of the money I earn for his father.",
+            "description": "O Glover mais novo me levou para almoçar no clube dele. Vou fazer mais das coisas que faço, com mais cuidado e em troca, ele vai me dar um pouco mais do dinheiro que eu ganho para o pai dele.",
             "warmup": 0
         },
         {
             "id": "gloverandgloverwork_again",
-            "label": "Work at Glover & Glover",
+            "label": "Trabalhe em Glover & Glover",
             "aspects": {
                 "employment": 1
             },
@@ -432,24 +432,24 @@
                 "funds": 2
             },
             "actionid": "work",
-            "startdescription": "The work is more demanding, now, but it's better-paid.",
-            "description": "Ink, paper, and the fizzing of the electric lights. The office is dark when I leave. Outside on the pavement, I turn up my collar.",
+            "startdescription": "O trabalho é mais exigente, agora, mas é melhor remunerado.",
+            "description": "Cai, papel e a descarga das luzes elétricas. O escritório fica escuro quando parti. Fora do pavimento, viro minha colar.",
             "warmup": 70,
             "slots": [
                 {
                     "id": "Devotion",
-                    "label": "Devotion",
+                    "label": "Devoção",
                     "required": {
                         "reason": 1
                     },
-                    "description": "Extra effort. It might help, if I'm very lucky."
+                    "description": "Faça um esforço extra. Pode ajudar, se eu tiver muita sorte."
                 }
             ],
             "craftable": true
         },
         {
             "id": "gloverandglover_diligence_promotion_again",
-            "label": "Extra Hours at Glover & Glover",
+            "label": "Horas Extras no Glover & Glover",
             "aspects": {
                 "careeradvancement": 1
             },
@@ -461,12 +461,12 @@
             },
             "actionid": "work",
             "startdescription": "",
-            "description": "I have regained my senior position.",
+            "description": "Revolvi o meu cargo de topo.",
             "warmup": 0
         },
         {
             "id": "gloverandgloverseniorwork_retirementoption",
-            "label": "Work at Glover & Glover",
+            "label": "Trabalhe em Glover & Glover",
             "aspects": {
                 "employment": 1
             },
@@ -478,17 +478,17 @@
                 "funds": 3
             },
             "actionid": "work",
-            "startdescription": "Curl my hands into the correct shapes, and begin.",
-            "description": "I am always the last to leave, even after the elder Glover.",
+            "startdescription": "Retire as minhas mãos nas formas corretas e comece.",
+            "description": "Eu sou sempre o último a sair, mesmo depois do globo mais velho.",
             "warmup": 70,
             "slots": [
                 {
                     "id": "Acceptance",
-                    "label": "Acceptance",
+                    "label": "Aceitação",
                     "required": {
                         "passion": 1
                     },
-                    "description": "I could devote my life to this."
+                    "description": "Eu poderia dedicar a minha vida a isto."
                 }
             ],
             "alt": [
@@ -501,7 +501,7 @@
         },
         {
             "id": "gloverandgloverseniorwork",
-            "label": "Work at Glover & Glover",
+            "label": "Trabalhe em Glover & Glover",
             "aspects": {
                 "employment": 1
             },
@@ -513,25 +513,25 @@
                 "funds": 3
             },
             "actionid": "work",
-            "startdescription": "Curl my hands into the correct shapes, and begin.",
-            "description": "I am always the last to leave, even after the elder Glover. I am on good terms with the younger Glover. He likes to joke that I might take his job next. I won't, of course. His father will see to that. He makes the joke to put me in my place. It is beginning to annoy me.",
+            "startdescription": "Retire as minhas mãos nas formas corretas e comece.",
+            "description": "Eu sou sempre o último a sair, mesmo depois do globo mais velho. Estou de bem com a Glover mais nova. Ele gosta de brincar que eu vou levar seu emprego em seguida. Eu não vou, claro. O seu pai velará por isso. Ele faz a piada para me colocar no meu lugar. Está começando a me irritar.",
             "warmup": 70,
             "craftable": true
         },
         {
             "id": "gloverandgloverseniorwork_hint",
-            "label": "Work at Glover & Glover?",
+            "label": "Trabalhe em Glover & Glover?",
             "actionid": "work",
             "requirements": {
                 "gloverandgloverseniorjob": 1
             },
-            "startdescription": "My job is demanding. I'll need to devote some Reason to it.",
+            "startdescription": "Meu trabalho é exigente. Precisarei dedicar um pouco do Reason a isso.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "gloverandgloverseniorworkyoungerglovergone",
-            "label": "Work at Glover & Glover",
+            "label": "Trabalhe em Glover & Glover",
             "aspects": {
                 "employment": 1
             },
@@ -543,17 +543,17 @@
                 "funds": 3
             },
             "actionid": "work",
-            "startdescription": "Curl my hands into the correct shapes, and begin.",
-            "description": "When I close my eyes, figures march behind my eyelids. When I open them, the light hurts.",
+            "startdescription": "Retire as minhas mãos nas formas corretas e comece.",
+            "description": "Quando fecho meus olhos, os números marcham atrás das minhas pálpebras. Quando os abo, a luz dói.",
             "warmup": 70,
             "slots": [
                 {
                     "id": "Ambition",
-                    "label": "Ambition",
+                    "label": "Ambição",
                     "required": {
                         "passion": 1
                     },
-                    "description": "The younger Glover's board seat remains unoccupied..."
+                    "description": "O lugar mais novo do globo permanece sem ocupação..."
                 }
             ],
             "alt": [
@@ -566,18 +566,18 @@
         },
         {
             "id": "gloverandgloverseniorwork_youngerglovergone_hint",
-            "label": "Work at Glover & Glover?",
+            "label": "Trabalhe em Glover & Glover?",
             "actionid": "work",
             "requirements": {
                 "gloverandgloverseniorjob_youngerglovergone": 1
             },
-            "startdescription": "My job is demanding. I'll need to devote some of my Reason to it.",
+            "startdescription": "Meu trabalho é exigente. Precisarei dedicar uma parte da minha Reason a isso.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "gloverandgloversenior_diligence_promotion",
-            "label": "A Promotion!",
+            "label": "Uma Promoção!",
             "requirements": {
                 "passion": 1
             },
@@ -589,11 +589,11 @@
             },
             "actionid": "work",
             "startdescription": ".",
-            "description": "'My son,' the elder Glover confides, 'was a dear boy, but he did lack ambition. You, on the other hand, burn with it. I see myself in you, do you know that? I do. Well, I think we can find you a place on the board of directors.'"
+            "description": "\"Meu filho\", o Velho Glover confia, \"era um querido rapaz, mas faltava ambição; por outro lado, V. Exa. queima com ele. Vou-me ver em si, sabe o que sabe? Bom, acho que podemos encontrar um lugar no conselho de administração.\""
         },
         {
             "id": "gloverandglovertopwork",
-            "label": "Work at Glover & Glover",
+            "label": "Trabalhe em Glover & Glover",
             "aspects": {
                 "employment": 1
             },
@@ -604,16 +604,16 @@
             "slots": [
                 {
                     "id": "Scandal",
-                    "label": "Scandal",
+                    "label": "Escaval",
                     "required": {
                         "notoriety": 1
                     },
                     "greedy": true,
-                    "description": "My high position now affords me some protection against scandal. But if the firm grows too concerned, I may be dismissed."
+                    "description": "A minha elevada posição permite-me agora proteger-me de algum modo contra o escândalo, mas se a empresa se tornar demasiado preocupada, posso ser descartada."
                 }
             ],
-            "startdescription": "The hours of the working day wait in ranks before me. I might just go home after lunch...",
-            "description": "If Glover and Glover had a heart, it would be the Accounts department, where money flows like the tides of spring. Its limbs would be its brisk hushed administrators and clerks. But I sit with the other directors at the peak of its skull, safe (for now) from scandal and financial concerns.",
+            "startdescription": "As horas do dia útil esperam nos ranks antes de mim. Eu posso ir para casa depois do almoço...",
+            "description": "Se Glover e Glover tivessem coração, seria o departamento de Contas, onde o dinheiro flui como as marés da primavera. Os seus membros seriam os seus administradores e os seus funcionários insonorizados. Mas sentei-me com os outros directores no auge do seu crânio, seguro (para já) de preocupações escandalosas e financeiras.",
             "warmup": 50,
             "effects": {
                 "funds": 4,
@@ -632,13 +632,13 @@
             "aspects": {
                 "employment": 1
             },
-            "label": "An Expression of Concern",
+            "label": "Uma expressão de preocupação",
             "actionid": "work",
             "requirements": {
                 "notoriety": 1
             },
             "startdescription": ".",
-            "description": "I have been summoned into the presence of the elder Glover - the only Glover, now. He shifts uncomfortably in his seat. 'I have heard - ' he begins. He hesitates. He looks me in the eyes. 'I don't want to hear anything more about that - about that. Not another word. Not a word.'",
+            "description": "Fui convocada para a presença de Glover ancião - o único Glover, agora. Desengaja-se mal no seu assento. \"Ouvi-o dizer - começa. Ele hesita. Ele olha para mim nos olhos. \"Não quero ouvir mais nada sobre isso - sobre isso, nem mais uma palavra. Nem uma palavra.",
             "effects": {
                 "funds": 4,
                 "notoriety": -1,
@@ -651,7 +651,7 @@
             "aspects": {
                 "employment": 1
             },
-            "label": "Work at Glover & Glover",
+            "label": "Trabalhe em Glover & Glover",
             "actionid": "work",
             "requirements": {
                 "gloverandglovertopjob_tainted": 1
@@ -659,16 +659,16 @@
             "slots": [
                 {
                     "id": "Scandal",
-                    "label": "Scandal",
+                    "label": "Escaval",
                     "required": {
                         "notoriety": 1
                     },
                     "greedy": true,
-                    "description": "My high position may protect me a little longer. But I am now in real danger of losing my position."
+                    "description": "A minha elevada posição pode proteger-me um pouco mais, mas corro o risco de perder a minha posição."
                 }
             ],
-            "startdescription": "The days are past when I could head home after lunch. My colleagues have begun to suspect what I am. They know nothing of what I could be.",
-            "description": "I review tidy columns of figures in a tidy fifth-floor room. From my office window, I can see the river. My secretary brings me a hot drink every fifty-nine minutes. The river is the colour of rain.",
+            "startdescription": "Os dias são passados quando podia ir para casa depois do almoço. Os meus colegas começaram a suspeitar do que sou. Eles não sabem nada do que eu poderia ser.",
+            "description": "Eu reviso colunas nítidas de figuras em um quarto andar. Da minha janela do escritório, posso ver o rio. Meu secretário me traz uma bebida quente a cada cinquenta e nove minutos. O rio é a cor da chuva.",
             "warmup": 60,
             "effects": {
                 "funds": 4,
@@ -684,13 +684,13 @@
         },
         {
             "id": "gloverandglovertopwork_scandal_b",
-            "label": "Disgraced!",
+            "label": "Desgraçado!",
             "actionid": "work",
             "requirements": {
                 "notoriety": 1
             },
             "startdescription": ".",
-            "description": "I have received a formal (but oddly apprehensive) letter, hand-delivered from the firm of Glover and Glover. My services as director are no longer required, but I have been awarded quite a generous severance payment. The firm hopes very much that there will be no ill feeling. The signature on the letter is a little shaky... ",
+            "description": "Recebi uma carta formal (mas estranhamente apreensiva) e entregue à mão pela firma Glover e Glover. Os meus serviços enquanto director deixaram de ser necessários, mas recebi um pagamento de indemnização muito generoso. A empresa espera sinceramente que não haja mal-estar e que a assinatura da carta seja um pouco abalada... ",
             "effects": {
                 "funds": 8,
                 "notoriety": -1,
@@ -699,7 +699,7 @@
         },
         {
             "id": "institutephysicianwork",
-            "label": "Work at the Institute",
+            "label": "Trabalhe no Instituto",
             "requirements": {
                 "institutephysicianjob": 1,
                 "ritual": -1
@@ -708,14 +708,14 @@
                 "funds": 2
             },
             "actionid": "work",
-            "startdescription": "There is a dank and clinging smell to the Institute halls that never quite leaves one. Perhaps it is the paint. Perhaps it is the patients. Perhaps it is something in the walls.",
-            "description": "I have done some good. My patients are quieter than when I began.",
+            "startdescription": "Há um cheiro penoso e agarrado aos corredores do Instituto que nunca deixa sequer um. Talvez seja a tinta, talvez sejam os doentes, talvez seja alguma coisa nas paredes.",
+            "description": "Fiz algo bom. Meus pacientes estão mais quietos do que quando comecei.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "workbeg",
-            "label": "Beg in the Streets",
+            "label": "Abelha nas Ruas",
             "actionid": "work",
             "requirements": {
                 "decrepitude": 1
@@ -730,14 +730,14 @@
                     "chance": 30
                 }
             ],
-            "startdescription": "I'll display my infirmities, and hope for compassion from passers-by.",
-            "description": "A long day. Some flung coins, most turned away. It is difficult to watch so many retreating backs for so many hours.",
+            "startdescription": "Eu vou exibir minhas mandíbulas, e esperar compaixão pelos transeuntes.",
+            "description": "Um longo dia. Algumas moedas irritaram, a maioria delas desviou-se. É difícil assistir a tantas retraídas de volta por tantas horas.",
             "warmup": 90,
             "craftable": true
         },
         {
             "id": "workbeg_lucky",
-            "label": "Beg in the Streets",
+            "label": "Abelha nas Ruas",
             "actionid": "work",
             "requirements": {
                 "decrepitude": 1
@@ -745,12 +745,12 @@
             "effects": {
                 "funds": 2
             },
-            "description": "A long day. Some flung coins, most turned away. But there is a gold sovereign in my bowl! A generous donation, or an accident?",
+            "description": "Um longo dia. Algumas moedas de estalo, a maioria virou fora. Mas há um soberano de ouro no meu arco! Uma doação generosa ou um acidente?",
             "warmup": 90
         },
         {
             "id": "workhealthskilld_edge",
-            "label": "Unskilled Labour: Like the Mountain",
+            "label": "Trabalho Inqualificável: como a Montanha",
             "actionid": "work",
             "requirements": {
                 "health": 1,
@@ -766,14 +766,14 @@
             "aspects": {
                 "employment": 1
             },
-            "startdescription": "Once again I put my strength to use.",
-            "description": "They say I can do the job of any two others together. It's not true; not quite.",
+            "startdescription": "Mais uma vez, coloquei minha força para usar.",
+            "description": "Dizem que eu posso fazer o trabalho dos outros dois juntos. Não é verdade; não é quieto.",
             "warmup": 40,
             "craftable": true
         },
         {
             "id": "workhealthskillc",
-            "label": "Unskilled Labour: Arms of Steel",
+            "label": "Trabalho Inqualificável: Braços de Aço",
             "actionid": "work",
             "requirements": {
                 "health": 1,
@@ -789,14 +789,14 @@
             "aspects": {
                 "employment": 1
             },
-            "startdescription": "Once again I put my strength to use.",
-            "description": "My strength attracts comment. Not all the comments are compliments. I draw my pay and leave.",
+            "startdescription": "Mais uma vez, coloquei minha força para usar.",
+            "description": "Minha força atrai comentário. Nem todos os comentários são elogios. Eu sorto meu salário e vou embora.",
             "warmup": 45,
             "craftable": true
         },
         {
             "id": "workhealthskillb",
-            "label": "Unskilled Labour: Arms of Iron",
+            "label": "Trabalho Inqualificável: Braços de Ferro",
             "actionid": "work",
             "requirements": {
                 "health": 1,
@@ -812,14 +812,14 @@
             "aspects": {
                 "employment": 1
             },
-            "startdescription": "I will work with speed and in silence. I don't fear injury.",
-            "description": "The others speak little to me, but now they nod when I pass. Here's my pay.",
+            "startdescription": "Eu vou trabalhar com velocidade e em silêncio. Não tenho medo de ferir.",
+            "description": "Os outros falam pouco comigo, mas agora eles acenam quando eu passo. Aqui está meu salário.",
             "warmup": 50,
             "craftable": true
         },
         {
             "id": "workhealthskilla",
-            "label": "Unskilled Labour: Arms of Bronze",
+            "label": "Trabalho Inqualificável: Braços de Bronze",
             "alt": [
                 {
                     "id": "workhealthinjury",
@@ -841,14 +841,14 @@
             "aspects": {
                 "employment": 1
             },
-            "startdescription": "To work, then.",
-            "description": "I've finished early. Here's my pay.",
+            "startdescription": "Trabalhemos então.",
+            "description": "Terminei cedo. Aqui está meu pagamento.",
             "warmup": 55,
             "craftable": true
         },
         {
             "id": "workhealth_noinjurychance",
-            "label": "Unskilled Labour",
+            "label": "Trabalho não qualificado",
             "actionid": "work",
             "requirements": {
                 "health": 1,
@@ -870,8 +870,8 @@
                     "additional": true
                 }
             ],
-            "startdescription": "Back-breaking work for meagre pay. Is this the best I can do?",
-            "description": "The day is done, and so am I; but I've earned my pay.",
+            "startdescription": "Queimador de trabalho para o magro salário. Este é o melhor que eu posso fazer?",
+            "description": "O dia está pronto, e eu também; mas eu mereço o meu salário.",
             "warmup": 60,
             "craftable": true,
             "maxexecutions": 3,
@@ -879,7 +879,7 @@
         },
         {
             "id": "workhealth",
-            "label": "Unskilled Labour",
+            "label": "Trabalho não qualificado",
             "alt": [
                 {
                     "id": "workhealthinjury",
@@ -900,14 +900,14 @@
             "aspects": {
                 "employment": 1
             },
-            "startdescription": "Back-breaking work for meagre pay. Is this the best I can do?",
-            "description": "The day is done, and so am I; but I've earned my pay.",
+            "startdescription": "Queimador de trabalho para o magro salário. Este é o melhor que eu posso fazer?",
+            "description": "O dia está pronto, e eu também; mas eu mereço o meu salário.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "workhealthinjury",
-            "label": "An injury at work!",
+            "label": "Uma lesão no trabalho!",
             "actionid": "work",
             "requirements": {},
             "effects": {
@@ -916,13 +916,13 @@
                 "funds": 1
             },
             "startdescription": ".",
-            "description": "I'm injured! I'll hobble painfully home with my wretched pay.",
+            "description": "Estou ferido! Vou passar amordaçar dolorosamente em casa com meu pagamento miserável.",
             "warmup": 0,
             "craftable": false
         },
         {
             "id": "workinvestmentjobc",
-            "label": "Manage my Affairs",
+            "label": "Gerenciar meus Assuntos",
             "actionid": "work",
             "requirements": {
                 "investmentsjobc": 1
@@ -936,14 +936,14 @@
                     "chance": 30
                 }
             ],
-            "startdescription": "My investments will provide well for me, if I pay attention to them.",
-            "description": "A neat white cheque in a neat white envelope, for a handsome sum.",
+            "startdescription": "Os meus investimentos serão bem úteis para mim, se eu lhes prestar atenção.",
+            "description": "Um cheque branco simples num envelope branco bem arrumado, com uma quantia bonita.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "workinvestmentjobb",
-            "label": "Manage my Affairs",
+            "label": "Gerenciar meus Assuntos",
             "actionid": "work",
             "requirements": {
                 "investmentsjobb": 1
@@ -957,14 +957,14 @@
                     "chance": 30
                 }
             ],
-            "startdescription": "My investments will provide sufficiently for me, if I pay attention to them.",
-            "description": "A neat white cheque in a neat white envelope, for a reasonably attractive sum.",
+            "startdescription": "Os meus investimentos ser-me-ão suficientes para mim, se lhes prestar atenção.",
+            "description": "Um cheque branco legítimo, com um envelope branco legítimo, para uma soma razoavelmente atraente.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "workinvestmentjoba",
-            "label": "Manage my Affairs",
+            "label": "Gerenciar meus Assuntos",
             "actionid": "work",
             "requirements": {
                 "investmentsjoba": 1
@@ -978,20 +978,20 @@
                     "chance": 30
                 }
             ],
-            "startdescription": "My investments will just about provide for me, if I pay attention to them.",
-            "description": "A neat white cheque in a neat white envelope, for a modest sum.",
+            "startdescription": "Os meus investimentos quase me fornecerão, se eu lhes prestar atenção.",
+            "description": "Um cheque branco legítimo, com um envelope branco legítimo, para uma soma modesta.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "investmentsjobdecline",
-            "label": "A Decline in Circumstances",
+            "label": "Um Recusado em Circulações",
             "aspects": {
                 "decline": 1
             },
             "actionid": "work",
             "startdescription": ".",
-            "description": "I have received the usual cheque, but it comes with disquieting news. My investments have suffered - ill luck, or, just possibly, an enemy's malice.",
+            "description": "Recebi o cheque habitual, mas ele vem com notícias inquietantes. Meus investimentos sofreram - muita sorte, ou, possivelmente, mal de um inimigo.",
             "warmup": 5,
             "craftable": false
         }

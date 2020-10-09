@@ -2,30 +2,30 @@
     "elements": [
         {
             "id": "textbookreason",
-            "label": "A Collection of Essays",
+            "label": "Uma Coleção de Essays",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "If the mind is a blade, this is a whetstone. [Study to gain an Erudition: Lesson Learnt, which you may be able to use to increase Reason.]"
+            "description": "Se a mente é uma lâmina, esta é uma pedra. [Estudo para ganhar uma Erudição: Aprendizado da Aula, que você poderá usar para aumentar o Reason.]"
         },
         {
             "id": "textbookpassion",
-            "label": "A Collection of Poetry",
+            "label": "Uma coleção de poesia",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "'The poet makes himself a seer by an immense, long, deliberate derangement of all the senses...' The opposite of wisdom, thankfully. [Study to gain a Glimmering: Lesson Learnt, which you may be able to use to increase Passion.]"
+            "description": "\"O poeta torna-se um goleiro de um desvio imenso e deliberado de todos os sentidos...\", graças a Deus, o oposto da sabedoria. [Estudo para ganhar um Glimmering: Lição de Aprendizado, que você poderá usar para aumentar a paixão.]"
         },
         {
             "id": "genericrubbishbook",
-            "label": "Something something DEEP MYSTERIES something",
+            "label": "Algo algo algo de DEPE MYSTERIES algo",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "A dreadful soufflé of half-digested rumour about the 'Secret Worlds' and the irrelevance of contemporary morality, including a catalogue of unlikely, and probably invented, debaucheries. [If I've bought this from a shop, it probably means there is nothing else of interest left in stock.]."
+            "description": "Um terrível boato sobre os \"Mundos Secretos\" e a irrelevância da moralidade contemporânea, incluindo um catálogo de desavenças prováveis e provavelmente inventadas. [Se eu comprei isto em uma loja, provavelmente significa que não sobrou mais nada de interesse em estoque.]."
         }
     ]
 }

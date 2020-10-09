@@ -2,13 +2,13 @@
     "recipes": [
         {
             "id": "scheme_murderhunter",
-            "label": "A scheme to murder a Hunter is afoot",
+            "label": "Um esquema para matar um Caçador está a pé",
             "actionid": "scheme",
             "requirements": {
                 "schememurder": 1
             },
             "effects": {},
-            "startdescription": "A Rival intends to end a Hunter. This may be to my advantage... but it may also draw attention.",
+            "startdescription": "Um Rival pretende acabar com um caçador. Isso pode ser a minha vantagem... mas também pode chamar a atenção.",
             "warmup": 60,
             "craftable": false,
             "linked": [
@@ -20,12 +20,12 @@
         },
         {
             "id": "scheme_murderhunter_grab",
-            "label": "A scheme to murder a Hunter is afoot",
+            "label": "Um esquema para matar um Caçador está a pé",
             "actionid": "scheme",
             "slots": [
                 {
                     "id": "victim",
-                    "label": "Victim",
+                    "label": "Vitória",
                     "greedy": true,
                     "required": {
                         "hunter": 1
@@ -52,7 +52,7 @@
         },
         {
             "id": "scheme_murderhunter_success",
-            "label": "Someone has murdered a Hunter!",
+            "label": "Alguém matou um caçador!",
             "actionid": "scheme",
             "requirements": {
                 "hunter": 1
@@ -63,13 +63,13 @@
             "effects": {
                 "notoriety": 1
             },
-            "startdescription": "This may give me breathing space - but it may ultimately bring the Suppression Bureau to my door.",
+            "startdescription": "Isto pode dar me algum espaço para respirar - mas, em última análise, pode levar a Mesa para a Rebeldia à minha porta.",
             "warmup": 5,
             "craftable": false
         },
         {
             "id": "scheme_murderhunter_failure",
-            "label": "Someone has failed to murder a Hunter!",
+            "label": "Alguém falhou em matar um caçador!",
             "actionid": "scheme",
             "requirements": {
                 "hunter": 1
@@ -77,27 +77,27 @@
             "effects": {
                 "notoriety": 1
             },
-            "startdescription": "This may ultimately bring the Suppression Bureau to my door.",
+            "startdescription": "Isto poderá, em última análise, levar o Gabinete de Supressão à minha porta.",
             "warmup": 5,
             "craftable": false
         },
         {
             "id": "scheme_murderhunter_nohunterfound",
-            "label": "A scheme to murder a Hunter has ended without consequences.",
+            "label": "Um esquema para matar um caçador terminou sem consequências.",
             "actionid": "scheme",
             "effects": {},
-            "startdescription": "Perhaps this was for the best.",
+            "startdescription": "Talvez isso tenha sido pelo melhor.",
             "warmup": 60,
             "craftable": false
         },
         {
             "id": "scheme_expedition_debug",
-            "label": "FORCE EXP START",
+            "label": "FORÇAR EXP INICIAR",
             "actionid": "scheme",
             "slots": [
                 {
                     "id": "target",
-                    "label": "Actor",
+                    "label": "Ator",
                     "required": {
                         "independent": 1
                     }
@@ -114,7 +114,7 @@
         },
         {
             "id": "scheme_expedition_grab",
-            "label": "A Rival is Considering an Expedition...",
+            "label": "Um marfim está pensando em uma Expedição...",
             "actionid": "scheme",
             "requirements": {
                 "schemeexpedition": 1
@@ -130,7 +130,7 @@
                 }
             ],
             "effects": {},
-            "startdescription": "My Rival seeks tools and lore for their own ascension.",
+            "startdescription": "Meu Renascimento procura ferramentas e suavizações para a sua própria ascensão.",
             "warmup": 60,
             "craftable": false,
             "linked": [
@@ -142,12 +142,12 @@
         },
         {
             "id": "scheme_expedition_prep",
-            "label": "An Opportunity to Use a Snare",
+            "label": "Uma Oportunidade para Usar um Armadilha de Laço",
             "actionid": "scheme",
             "slots": [
                 {
                     "id": "snare",
-                    "label": "Ambush",
+                    "label": "Emboscada",
                     "required": {
                         "snare": 1
                     }
@@ -156,7 +156,7 @@
             "requirements": {
                 "vault": 1
             },
-            "startdescription": "If I've prepared a Snare, I can try to set an ambush for my Rival, to defeat their Expedition and even injure them...",
+            "startdescription": "Se eu preparei um Snare, posso tentar colocar uma emboscada para meu Raival, derrotar sua Expedição e até mesmo prejudicá-los...",
             "warmup": 60,
             "craftable": false,
             "linked": [
@@ -256,12 +256,12 @@
         },
         {
             "id": "scheme_expedition_snare_success",
-            "label": "Our Snare has succeeded!",
+            "label": "Nossas armadilhas foram bem-sucedidas!",
             "actionid": "scheme",
             "effects": {
                 "snare": -1
             },
-            "startdescription": "My Rival has fallen into our trap! They'll try to retreat to lick their wounds.",
+            "startdescription": "Meu marfim caiu em nossa armadilha! Eles vão tentar recuar para lamber suas feridas.",
             "mutations": [
                 {
                     "filter": "independent",
@@ -281,9 +281,9 @@
         },
         {
             "id": "scheme_expedition_snare_failure",
-            "label": "Our Snare has failed!",
+            "label": "Nossa armadilha falhou!",
             "actionid": "scheme",
-            "startdescription": "My Rival has evaded our trap...",
+            "startdescription": "Meu Rival escapou à nossa armadilha...",
             "mutations": [
                 {
                     "filter": "independent",
@@ -310,7 +310,7 @@
         },
         {
             "id": "scheme_expedition_success",
-            "label": "My Rival has ransacked this place...",
+            "label": "Meu Renascimento saqueou este lugar...",
             "actionid": "scheme",
             "requirements": {
                 "vault": 1
@@ -318,7 +318,7 @@
             "effects": {
                 "vault": -1
             },
-            "startdescription": "Whatever they sought here, they've found it.",
+            "startdescription": "O que procuraram aqui, eles o encontraram.",
             "warmup": 5,
             "craftable": false,
             "alt": [
@@ -356,19 +356,19 @@
         },
         {
             "id": "scheme_expedition_failure",
-            "label": "My Rival has failed in their Expedition.",
+            "label": "Meu Rival falhou na Expedição deles.",
             "actionid": "scheme",
             "requirements": {
                 "vault": 1
             },
             "effects": {},
-            "startdescription": "Whatever they sought here, they haven't found it. They've abandoned their expedition... for now.",
+            "startdescription": "Não importa o que procuraram aqui, não o encontraram. Eles abandonaram a expedição... por enquanto.",
             "warmup": 5,
             "craftable": false
         },
         {
             "id": "scheme_activities",
-            "label": "A Rival is at their business in the shadows.",
+            "label": "Um marfim está em seus negócios nas sombras.",
             "actionid": "scheme",
             "requirements": {
                 "schemeactivities": 1
@@ -376,8 +376,8 @@
             "effects": {
                 "mystique": 1
             },
-            "startdescription": "They're still in hiding. What exactly are they up to? [Almost always, this will end inconclusively, but occasionally a Rival will manage to increase their power in secret. Consider tempting them out from hiding by leaving an Expedition open.]",
-            "description": "My Rival has been up to some kind of mischief. The Suppression Bureau may take note.",
+            "startdescription": "Eles ainda estão se escondendo. O que é que eles estão a aprontar? [Quase sempre, isso acabará inconclusivamente, mas, ocasionalmente, um Rival conseguirá aumentar o seu poder em segredo. Considere tentá-los de se esconder, deixando uma Expedição aberta.]",
+            "description": "O meu marfim tem sido alvo de alguma espécie de mal-estar e a Mesa para a Repressão pode tomar nota.",
             "alt": [
                 {
                     "id": "scheme_calm",
@@ -393,12 +393,12 @@
         },
         {
             "id": "scheme_calm",
-            "label": "My Rival's mood has softened.",
+            "label": "O humor do meu rio amaciou.",
             "actionid": "scheme",
             "effects": {
                 "influenceheartc": 1
             },
-            "description": "My Rival is observing professional courtesies: I have received a cautiously civil letter, although it discusses nothing of consequence... might there, some day, be an opportunity for us to join our powers? [Occasionally, a Rival's Resentment may diminish.]",
+            "description": "O meu Raival está a observar cortesias profissionais: recebi uma carta cautelosamente civil, embora não fale em nada. . Talvez lá, um dia, seja uma oportunidade para nos juntarmos aos nossos poderes? [Ocasionalmente, o resentamento de um Rival pode diminuir.]",
             "mutations": [
                 {
                     "filter": "independent",
@@ -412,7 +412,7 @@
         },
         {
             "id": "scheme_promotion",
-            "label": "My Rival has advanced their cause.",
+            "label": "O meu marfim avançou com a sua causa.",
             "actionid": "scheme",
             "alt": [
                 {
@@ -426,13 +426,13 @@
             "aspects": {
                 "rival_promotion": 1
             },
-            "description": "My Rival has acquired more lore, more treasures, more connections... and in turn, they've become something more.",
+            "description": "Meu marfim ganhou mais amor, mais tesouros, mais conexões... e, por sua vez, eles se tornaram algo mais.",
             "warmup": 60,
             "craftable": false
         },
         {
             "id": "scheme_promotion_ascension",
-            "label": "My rival strives to pass the Tricuspid Gate, and become something greater.",
+            "label": "Meu rival luta para passar pelo Portão Tricuspid e se tornar algo maior.",
             "actionid": "scheme",
             "requirements": {
                 "exalted": 1
@@ -440,7 +440,7 @@
             "effects": {
                 "mystique": 1
             },
-            "startdescription": "One step closer to their goal. One degree higher in the great machinery of the House of the Sun. [Beware: if your Rival's Ascension reaches 7, they will win the game instead of you.]",
+            "startdescription": "Um passo mais próximo do seu objectivo: um grau mais alto no grande aparelho da Câmara do Sol. [Cuidado: se a Ascensão do seu Rival atingir 7, eles ganharão o jogo ao invés de você.]",
             "mutations": [
                 {
                     "filter": "independent",
@@ -454,8 +454,8 @@
         },
         {
             "id": "independent_scar",
-            "label": "A Rival has been Scarred",
-            "startdescription": "My Rival has met with a misfortune. They have been scarred by their defeat; they will be angry with me. [Three Scars of the same type will kill any mortal.]",
+            "label": "Um marfim foi Cicatriz",
+            "startdescription": "Meu Ruim se encontrou com um infortúnio. Foram marcados por sua derrota; ficarão zangados comigo. [Três carrinhos do mesmo tipo irão matar qualquer mortal.]",
             "actionid": "scheme",
             "linked": [
                 {
@@ -475,7 +475,7 @@
         {
             "id": "independent_givescar_edge",
             "actionid": "scheme",
-            "label": "A Setback for a Rival",
+            "label": "Um retorno para um Renascimento",
             "mutations": [
                 {
                     "filter": "mortal",
@@ -499,7 +499,7 @@
         },
         {
             "id": "independent_givescar_knock",
-            "label": "A Setback for a Rival",
+            "label": "Um retorno para um Renascimento",
             "actionid": "scheme",
             "mutations": [
                 {
@@ -525,7 +525,7 @@
         {
             "id": "independent_givescar_winter",
             "actionid": "scheme",
-            "label": "A Setback for a Rival",
+            "label": "Um retorno para um Renascimento",
             "mutations": [
                 {
                     "filter": "mortal",
@@ -550,11 +550,11 @@
         {
             "id": "independent_deathscar_edge",
             "actionid": "scheme",
-            "label": "Death: a Defeat",
+            "label": "Morte: Uma Derrota",
             "requirements": {
                 "follower_scar_edge": 3
             },
-            "description": "This one showed courage and endurance. In the end, that wasn't enough. [Your Rival acquired three Edge-Scars, and died.]",
+            "description": "Este mostrou coragem e resistência. No fim de contas, isso não era o suficiente. [Seu raival adquiriu três Cicatrizes e morreu.]",
             "aspects": {
                 "killmortal": 1
             }
@@ -562,11 +562,11 @@
         {
             "id": "independent_deathscar_knock",
             "actionid": "scheme",
-            "label": "Death: an Opening",
+            "label": "Morte: uma abertura",
             "requirements": {
                 "follower_scar_knock": 3
             },
-            "description": "To operate effectively, one must keep one's insides inside, and discourage what is outside from coming inside. When sufficient of one's insides pass outside, one is no longer a going concern. [Your Rival acquired three Knock-Scars, and died.]",
+            "description": "Para funcionarmos eficazmente, temos de manter as pessoas dentro do seu território e desencorajar o que está lá fora de entrada. Quando chega de entrada, não se trata mais de se preocupar. [Seu Renascimento adquiriu três Knock-Scarros, e morreu.]",
             "aspects": {
                 "killmortal": 1
             }
@@ -574,11 +574,11 @@
         {
             "id": "independent_deathscar_winter",
             "actionid": "scheme",
-            "label": "Death: an Ending",
+            "label": "Morte: um fim",
             "requirements": {
                 "follower_scar_winter": 3
             },
-            "description": "Snow falls softly. Sunset is a stain of light. [Your Rival acquired three Winter-Scars, and died.]",
+            "description": "Neve cai suavemente. O pôr do sol é uma mancha de luz. [Seu marfim adquiriu três Cicatrizes e morreu.]",
             "aspects": {
                 "killmortal": 1
             }

@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "explore_vaultfloating1_setup",
-            "label": "Beginning an Expedition: the 'Hebe Stanton'",
+            "label": "Começa uma Expedição: o 'Stanton de Calor'",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -14,7 +14,7 @@
                 "seal_wardeddoor": 1,
                 "peril_sea": 1
             },
-            "startdescription": "It is rare for passenger vessels to visit the grim island where the 'Hebe Stanton' is docking - but we can charter a fishing boat, and trust the sea behaves. The real work, of passing guards and doors, will begin if we get on board. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "É raro os navios de passageiros visitarem a ilha sinistra onde o \"Hebe Stanton\" está a acoplar - mas podemos fretar um barco de pesca, e confie no comportamento do mar. O verdadeiro trabalho, de passar guardas e portas, começará se entrarmos a bordo. [As expedições precisam de pelo menos um fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -46,8 +46,8 @@
                 "defaultcard": "compensationd",
                 "resetonexhaustion": false
             },
-            "startdescription": "There are few passengers on board - no wonder, if this cheerless icy isle was the ship's destination. But there's at least one passenger - someone who had protected their cabin door with more than physical locks. They must have gone ashore. They might return at any moment - ",
-            "description": "We empty the luggage, upend the books to shake them, turn pictures to check the backs. We find clothes, tickets, maps, nothing out of the ordinary... although there is a curious translucent material like a sheet of snakeskin draped over a chair-back. At last, when we slash the mattress to search its stuffing, we find a little collection of ivory scroll-cases.",
+            "startdescription": "Há poucos passageiros a bordo, não é de admirar, se esta ilha de gelo alegre era o destino do navio. Mas há pelo menos um passageiro - alguém que protegeu sua porta de cabina com mais do que fechaduras físicas. Eles devem ter saído e podem voltar a qualquer momento - ",
+            "description": "Esvaziamos a bagagem, upend os livros para sacudi-las, virar imagens para verificar as costas. Encontramos vestuário, bilhetes, mapas, nada fora do normal... embora haja um curioso material translucente como uma folha de snakeskin drenada sobre uma cadeira. Finalmente, quando cortamos o colchão para procurar o seu recheio, encontramos uma pequena coleção de casos de rolagem de marfim.",
             "warmup": 30,
             "craftable": false
         }

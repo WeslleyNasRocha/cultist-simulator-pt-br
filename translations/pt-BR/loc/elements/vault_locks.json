@@ -2,126 +2,126 @@
     "elements": [
         {
             "id": "peril_treacherousground",
-            "label": "Treacherous Ground",
+            "label": "Terreno Traiçoeiro",
             "aspects": {
                 "peril": 1
             },
-            "description": "Pits and quags and sudden tumbles. The earth here cannot be trusted. We will need strong hands or clear sight - Forge, or Lantern."
+            "description": "Sopradores e espinhos súbitos. Não se pode confiar na terra aqui. Precisamos de mãos fortes ou visão clara - Forja ou Lanterna."
         },
         {
             "id": "peril_forest",
-            "label": "Peril-Prowled Forest",
+            "label": "Floresta Peril-Profunda",
             "aspects": {
                 "peril": 1
             },
-            "description": "Long ago, the primal trees marched from sea to sea. Some traces of their reign still survive - like this dense and choking territory of root and thorn. The practicalities of Forge, or the mysteries of Moth, may see us through."
+            "description": "Há muito tempo, as árvores primárias marcharam do mar para o mar. Alguns traços do seu reinado ainda sobrevivem - como este território denso e sufocante de raízes e espinhos. Os aspectos práticos da Forge, ou os mistérios da Marie, podem nos levar até lá."
         },
         {
             "id": "peril_mountains",
-            "label": "The High Passes",
+            "label": "Os Passes Altos",
             "aspects": {
                 "peril": 1
             },
-            "description": "Bleak and grey-green slopes lift the eye to distant snow-edged sky-straining peaks... it'll be the devil of a job to find anything in there. Forge will sustain us, Winter will shield us."
+            "description": "Caramba e inclinações cinzas-verdes elevam os olhos para picos distantes de fininhos de neve com arestas no céu... será o diabo de um trabalho encontrar qualquer coisa lá dentro. A Forja vai nos sustentar, o inverno vai nos proteger."
         },
         {
             "id": "peril_desert",
-            "label": "Desolation",
+            "label": "Desolação",
             "aspects": {
                 "peril": 1
             },
-            "description": "An immense and tawny furnace barely contained by its horizons. At night, a chilly wilderness of stars. We must go carefully, with Forge to shape our way or Grail to secure us against thirst."
+            "description": "Uma fornalha imensa e ténue mal contida pelos seus horizontes. À noite, uma fria natureza das estrelas. Temos de ir com cuidado, com a Forja para moldar o nosso caminho ou o nosso Grail para nos protegermos contra a sede."
         },
         {
             "id": "peril_sea",
-            "label": "A Western Sea",
+            "label": "Um Mar Ocidental",
             "aspects": {
                 "peril": 1
             },
-            "description": "Most of these islands are well-known to the Histories, but our destination lies in wild uncharted reaches. We'll need Heart or Forge to survive."
+            "description": "A maioria dessas ilhas são bem conhecidas das Histórias, mas nosso destino encontra-se em zonas inexploradas selvagens. Nós precisaremos de Coração ou Forja para sobreviver."
         },
         {
             "id": "seal_hiddendoor",
-            "label": "A Hidden Door",
+            "label": "Uma porta escondida",
             "aspects": {
                 "seal": 1
             },
-            "description": "Hidden Doors can be found with Lantern or Knock."
+            "description": "Portas ocultas podem ser encontradas com Lanterna ou Knock."
         },
         {
             "id": "seal_wardeddoor",
-            "label": "A Warded Door",
+            "label": "Uma Porta Garantida",
             "aspects": {
                 "seal": 1
             },
-            "description": "An engineer, or an adept, has ensured this door will not open easily. Forge or Knock will defeat it."
+            "description": "Um engenheiro, ou um adepto, assegurou que esta porta não será aberta facilmente. Forja ou Batida o derrotará."
         },
         {
             "id": "guardian_serpent",
-            "label": "Younger Sister",
+            "label": "Irmã mais jovem",
             "aspects": {
                 "guardian": 1
             },
-            "description": "The Mother of Ants was born among serpents. She has so very many younger sisters. It can be defeated in battle; or it will respond to the Mother's power."
+            "description": "A mãe dos Ants nasceu entre os serpentes. Ela tem muitas irmãs mais novas. Ele pode ser derrotado na batalha; ou responderá ao poder da mãe."
         },
         {
             "id": "guardian_watchers",
-            "label": "Watchers",
+            "label": "Observadores",
             "aspects": {
                 "guardian": 1
             },
-            "description": "Mortals. Perhaps even ordinary mortals. But quite a number of them. They can be fought, seduced, or deceived."
+            "description": "Mortais. Talvez até os mortais comuns. Mas muitos deles. Eles podem ser combatidos, selados ou enganados."
         },
         {
             "id": "guardian_monks",
-            "label": "Monks",
+            "label": "Monstros",
             "aspects": {
                 "guardian": 1
             },
-            "description": "Contemplatives blessed or condemned to service here. They're bound by their curious vows. We can murder them, or deceive them, but they will not be seduced."
+            "description": "Contemplativos abençoados ou condenados a serviço aqui. Eles estão amarrados por suas ordens curiosas. Podemos assassiná-los, ou enganá-los, mas não serão seduzidos."
         },
         {
             "id": "guardian_dead",
-            "label": "The Fretful Dead",
+            "label": "A Esmagadora Morta",
             "aspects": {
                 "guardian": 1
             },
-            "description": "Not all the Dead rest easy. These ones dislike our intrusion. We can prevail against them with Edge; or they may obey one who comes in the name of Winter."
+            "description": "Nem todos os mortos descansam. Esses não gostam da nossa invasão. Podemos prevalecê-los com Edge, ou eles podem obedecer a quem vem em nome do Inverno."
         },
         {
             "id": "guardian_serpent_pre",
-            "label": "Younger Sister",
-            "description": "The Mother of Ants was born among serpents. She has so very many younger sisters. It can be defeated in battle; or it will respond to the Mother's power.",
+            "label": "Irmã mais jovem",
+            "description": "A mãe dos Ants nasceu entre os serpentes. Ela tem muitas irmãs mais novas. Ele pode ser derrotado na batalha; ou responderá ao poder da mãe.",
             "isAspect": true,
             "icon": "guardian"
         },
         {
             "id": "guardian_watchers_pre",
-            "label": "Watchers",
+            "label": "Observadores",
             "aspects": {
                 "guardian": 1
             },
-            "description": "Mortals. Perhaps even ordinary mortals. But quite a number of them. They can be fought, seduced, or deceived.",
+            "description": "Mortais. Talvez até os mortais comuns. Mas muitos deles. Eles podem ser combatidos, selados ou enganados.",
             "isAspect": true,
             "icon": "guardian"
         },
         {
             "id": "guardian_monks_pre",
-            "label": "Monks",
+            "label": "Monstros",
             "aspects": {
                 "guardian": 1
             },
-            "description": "Contemplatives blessed or condemned to service here. They're bound by their curious vows. We can murder them, or deceive them, but they will not be seduced.",
+            "description": "Contemplativos abençoados ou condenados a serviço aqui. Eles estão amarrados por suas ordens curiosas. Podemos assassiná-los, ou enganá-los, mas não serão seduzidos.",
             "isAspect": true,
             "icon": "guardian"
         },
         {
             "id": "guardian_dead_pre",
-            "label": "The Fretful Dead",
+            "label": "A Esmagadora Morta",
             "aspects": {
                 "guardian": 1
             },
-            "description": "Not all the Dead rest easy. These ones dislike our intrusion. We can prevail against them with Edge; or they may obey one who comes in the name of Winter.",
+            "description": "Nem todos os mortos descansam. Esses não gostam da nossa invasão. Podemos prevalecê-los com Edge, ou eles podem obedecer a quem vem em nome do Inverno.",
             "isAspect": true,
             "icon": "guardian"
         },
@@ -131,47 +131,47 @@
             "aspects": {
                 "guardian": 1
             },
-            "description": "One might mistake them for old women, until they discard their skins. The place is aswarm with them. They are strong as strangling roots, and at least half-Long, but they can be deceived, and they are very wary of light."
+            "description": "Pode-se enganá-las para as mulheres idosas, até que descartem as peles e o lugar é alheio a elas. São fortes como raízes estranguladoras, pelo menos meio longas, mas podem ser enganadas e são muito desconfiadas."
         },
         {
             "id": "guardian_long",
-            "label": "Long",
+            "label": "Longas",
             "aspects": {
                 "guardian": 1
             },
-            "description": "It is very hard to kill anyone who's passed the Tricuspid Door. And here are quite a lot of anyones. But perhaps we can deceive one, or prey upon someone's appetites."
+            "description": "É muito difícil matar alguém que tenha passado da porta Tricuspid. E aqui estão muitos outros. Mas talvez possamos enganar um, ou presas do apetite de alguém."
         },
         {
             "id": "curse_dread",
-            "label": "Dry Soul Curse",
+            "label": "Maldição de Alma Seca",
             "aspects": {
                 "curse": 1
             },
-            "description": "We need Heart or Lantern to suppress this curse. Otherwise, it will not keep us from our goal, but it may trouble us later."
+            "description": "Precisamos do Coração ou da Lanterna para suprimir esta maldição. Caso contrário, não nos manterá do nosso objetivo, mas poderá nos incomodar mais tarde."
         },
         {
             "id": "curse_visions",
-            "label": "The Fifth Eye Curse",
+            "label": "A Quinta Maldição Olhar",
             "aspects": {
                 "curse": 1
             },
-            "description": "We need Heart or Winter to suppress this curse. Otherwise, it will not keep us from our goal, but it may trouble us later."
+            "description": "Precisamos do Coração ou do Inverno para suprimir esta maldição. Caso contrário, não nos manterá do nosso objetivo, mas isso pode nos incomodar mais tarde."
         },
         {
             "id": "curse_affliction",
-            "label": "The Creeping Breath Curse",
+            "label": "A Maldição de Respiração Creeping",
             "aspects": {
                 "curse": 1
             },
-            "description": "We need Heart or Grail to suppress this curse. Otherwise, it will not keep us from our goal, but it may trouble us later."
+            "description": "Precisamos do Coração ou do Grão para suprimir esta maldição. Caso contrário, não nos manterá longe do nosso objectivo, mas isso poderá incomodar mais tarde."
         },
         {
             "id": "curse_nowhere",
-            "label": "The Worms in the World",
+            "label": "Os Vermes do Mundo",
             "aspects": {
                 "curse": 1
             },
-            "description": "We need Lantern or Moth to suppress this curse. Otherwise, it will not keep us from our goal, but it may trouble us later."
+            "description": "Precisamos da Lanterna ou Mariposa para suprimir esta maldição. Caso contrário, ela não nos manterá do nosso objetivo, mas isso pode nos incomodar mais tarde."
         }
     ]
 }

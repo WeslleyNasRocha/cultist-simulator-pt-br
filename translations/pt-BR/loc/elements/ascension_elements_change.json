@@ -2,12 +2,12 @@
     "elements": [
         {
             "id": "ascensionchangea",
-            "label": "Temptation: Change",
+            "label": "Tentativa: alterar",
             "aspects": {
                 "desire": 1,
                 "changemarks": 1
             },
-            "description": "On certain nights before the audience, there is the wing-lift of something more. What more could I become? [This card will allow you to win a Change victory, if you upgrade it far enough. Devote enough effort to your dances, and you'll find the next step.]",
+            "description": "Em certas noites antes da audiência, há a elevação de asas de algo mais. Em que mais eu poderia ficar? [Este cartão permitirá que você ganhe uma vitória de troca, caso você a melhore o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
             "xtriggers": {
                 "ascend": "ascensionchangeb"
             },
@@ -15,12 +15,12 @@
         },
         {
             "id": "ascensionchangeb",
-            "label": "Change: Leaf",
+            "label": "Alteração: Folha",
             "aspects": {
                 "desire": 1,
                 "changemarks": 2
             },
-            "description": "I tremble when the wind comes. The veins beneath my surface are apparent. I always carry a bead of malachite next to my skin. [This card will allow you to win a Change victory, if you upgrade it far enough. Devote enough effort to your dances, and you'll find the next step.]",
+            "description": "Eu tremo quando chega o vento. As veias abaixo da minha superfície são evidentes. Sempre carrego uma feixeira de malaquita ao lado da minha pele. [Este cartão permitirá que você ganhe uma vitória de troca, caso você a melhore longe o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
             "xtriggers": {
                 "ascend": "ascensionchangec"
             },
@@ -28,12 +28,12 @@
         },
         {
             "id": "ascensionchangec",
-            "label": "Change: Pearl",
+            "label": "Alteração: Pérola",
             "aspects": {
                 "desire": 1,
                 "changemarks": 3
             },
-            "description": "My skin is peeling in patches, and beneath it I am darker, but my eyes are brighter. I carry a sea-pearl in a secret place. Sometimes at night I hear the sea; sometimes in the morning my sheets are marked with blood. [This card will allow you to win a Change victory, if you upgrade it far enough. Devote enough effort to your dances, and you'll find the next step.]",
+            "description": "Minha pele está esfregando em remendos e, debaixo dela, eu estou mais escuro, mas meus olhos estão mais brilhantes. Eu levo uma pérola do mar em um lugar secreto. Por vezes à noite ouço o mar; por vezes, de manhã, os meus lençóis estão marcados com sangue. [Este cartão permitirá que você ganhe uma vitória de troca, caso você a melhore longe o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
             "xtriggers": {
                 "ascend": "ascensionchanged"
             },
@@ -41,12 +41,12 @@
         },
         {
             "id": "ascensionchanged",
-            "label": "Change: Antumbra",
+            "label": "Alteração: Antumbra",
             "aspects": {
                 "desire": 1,
                 "changemarks": 4
             },
-            "description": "I have grown as dark as I ever will. Shadows are my company, and my footfall is a whisper. I wear a ring set with jet, but I keep the stone turned inwards, in my palm invisible. [This card will allow you to win a Change victory, if you upgrade it far enough. Devote enough effort to your dances, and you'll find the next step.]",
+            "description": "Eu cresci tão escuro quanto vou. As sombras são minha empresa, e meu pé é um sussurro. Eu uso um anel com jato, mas mantenho a pedra virada para dentro, na minha palma de mão invisível. [Este cartão permitirá que você ganhe uma vitória de troca, caso você a melhore longe o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
             "xtriggers": {
                 "ascend": "ascensionchangee"
             },
@@ -54,12 +54,12 @@
         },
         {
             "id": "ascensionchangee",
-            "label": "Change: Stigma",
+            "label": "Mudança: Estigma",
             "aspects": {
                 "desire": 1,
                 "changemarks": 5
             },
-            "description": "My darkness has paled and all my colours are bleached. New lobes bud about my most receptive elements. I am dewed with secrets. I carry a scolecite prism tucked beneath my pale tongue. [This card will allow you to win a Change victory, if you upgrade it far enough. Devote enough effort to your dances, and you'll find the next step.]",
+            "description": "Minha escuridão diminuiu e todas as minhas cores estão sangradas. Novos lobos nascem sobre meus elementos mais receptivos. Eu sou deitado com segredos. Eu carrego um prisma de scolecite sob minha língua pálida. [Este cartão permitirá que você ganhe uma vitória de troca, caso você a melhore longe o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
             "xtriggers": {
                 "ascend": "ascensionchangef"
             },
@@ -72,7 +72,7 @@
                 "desire": 1,
                 "changemarks": 6
             },
-            "description": "The whites of my eyes are yellow, and a new integument has developed along my limbs to sheath me before the final change. In private, I wear a gold toe-ring, and ear-rings of gold and topaz, but they are not to be seen. [This card will allow you to win a Change victory, if you upgrade it far enough. Devote enough effort to your dances, and you'll find the next step.]",
+            "description": "O branco dos meus olhos é amarelo e desenvolveu-se um novo número inteiro ao longo dos meus membros para me lisonjear antes da mudança final. Em privado, uso um anel de ouro e de orelhas de ouro de ouro e de topaz, mas não se vê. [Este cartão permitirá que você ganhe uma vitória de troca, caso você a melhore longe o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
             "xtriggers": {
                 "ascend": "ascensionchangeg"
             },
@@ -80,12 +80,12 @@
         },
         {
             "id": "ascensionchangeg",
-            "label": "Change: Ivory",
+            "label": "Alteração: Marfim",
             "aspects": {
                 "desire": 1,
                 "changemarks": 6
             },
-            "description": "My bones are different. They carry the tale of what is lost. If I do not survive, they will be my tale, and someone will wear fragments of my ivory to warm against their skin. [This card will allow you to win a Change victory.]",
+            "description": "Meus ossos são diferentes. Eles carregam a história do que está perdido. Se eu não sobreviver, serão a minha história e alguém usará fragmentos do meu marfim para se aquecer contra a sua pele. [Este cartão permitirá que você ganhe uma mudança de vitória.]",
             "xtriggers": {
                 "ascend": "ascensionchangeg"
             },
@@ -98,47 +98,47 @@
                 "sending": 1,
                 "knock": 1
             },
-            "description": "The Viper coils where the sea folds itself against the land. I must find a place of power at the water's edge.  Perhaps Sulochana can help, if I bring her secrets about other places.  [Some part of you can roam in serpent-shape. Send it to accompany your followers to a place where it can perform the dance you must dance. If you have problems finding the place, talk to Sulochana about Secret Histories.]",
+            "description": "As bobinas Víbora onde o mar colide contra a terra. Preciso encontrar um lugar de energia na periferia da água. Talvez Sulochana possa ajudar, se eu trouxer os segredos dela sobre outros lugares. [Algumas partes de vocês podem vagar em forma de serpente. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingheartc",
-            "label": "Guise: Cat",
+            "label": "Guise: Gato",
             "aspects": {
                 "sending": 1,
                 "moth": 2
             },
-            "description": "The Cat walks in the night by the river where the black flax grows. [Some part of you can roam in cat-shape. Send it to accompany your followers to a place where it can perform the dance you must dance. If you have problems finding the place, talk to Sulochana about Secret Histories.]",
+            "description": "A Gata anda pela noite ao lado do rio onde o linho preto cresce. [Algumas partes de vocês podem passear em forma de gato. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingheartd",
-            "label": "Guise: Fox",
+            "label": "Guise: Raposa",
             "aspects": {
                 "sending": 1,
                 "grail": 3
             },
-            "description": "The Fox wanders the mountain meadows, seeking the flower-maker's touch. [Some part of you can roam in fox-shape. Send it to accompany your followers to a place where it can perform the dance you must dance. If you have problems finding the place, talk to Sulochana about Secret Histories.]",
+            "description": "A Raposa vagueia os prados da montanha, procurando o toque da flor. [Alguma parte de vocês pode vagar em forma de raposa. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendinghearte",
-            "label": "Guise: Eagle",
+            "label": "Guise: Águia",
             "aspects": {
                 "sending": 1,
                 "lantern": 4
             },
-            "description": "The Eagle travels the sky's road, and here is what it sees: in Miah was the first Roost, where the powers of the air first exchanged their secrets. [Some part of you can roam in eagle-shape. Send it to accompany your followers to a place where it can perform the dance you must dance. If you have problems finding the place, talk to Sulochana about Secret Histories.]",
+            "description": "A Águia viaja pelo céu e eis o que vê: em Miah foi o primeiro Roost, onde os poderes do ar pela primeira vez trocaram seus segredos. [Algumas partes de vocês podem vagar em forma áspera. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingheartf",
-            "label": "Guise: Dove",
+            "label": "Guista: Dobre",
             "aspects": {
                 "sending": 1,
                 "winter": 5
             },
-            "description": "The Dove remembers when all others forget. [Some part of you can roam as a pale bird. Send it to accompany your followers to a place where it can perform the dance you must dance. If you have problems finding the place, talk to Sulochana about Secret Histories.]",
+            "description": "O Povo se lembra de quando todos os outros esquecem. [Alguma parte de você pode vagar como um pássaro pálido. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
@@ -148,17 +148,17 @@
                 "sending": 1,
                 "way": 1
             },
-            "description": "In this form, I will surrender myself to one who holds the key of the Kingskin Gate. [Some part of you can roam as a wild black beast.]",
+            "description": "Nesta forma, eu me entregarei a alguém que segura a chave do Portão do Kingskin . [Algumas partes de vocês podem passar como uma besta negra selvagem.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingmothb",
-            "label": "Instar: Silent",
+            "label": "Instar: Silencioso",
             "aspects": {
                 "sending": 1,
                 "knock": 1
             },
-            "description": "In a silent house beside the sea, in a borrowed skin, we will seek the second change. I must find a place of power at the water's edge. Perhaps Sulochana can help, if I bring her secrets about other places. [Some part of you can roam in viper-shape. Send it to accompany your followers to a place where it can perform the dance you must dance. If you have problems finding the place, talk to Sulochana about Secret Histories.]",
+            "description": "Numa casa silenciosa ao lado do mar, numa pele emprestada, procuraremos a segunda mudança. Preciso encontrar um lugar de energia na periferia da água. Talvez Sulochana possa ajudar, se eu trouxer segredos dela sobre outros lugares. [Algumas partes de vocês podem passar pela forma. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
@@ -168,7 +168,7 @@
                 "sending": 1,
                 "moth": 2
             },
-            "description": "Among the stones where the black beast burrows, behind the mask of eyes, we will seek the third change. [Some part of you can roam in cat-shape. Send it to accompany your followers to a place where it can perform the dance you must dance. If you have problems finding the place, talk to Sulochana about Secret Histories.]",
+            "description": "Entre as pedras em que a besta negra cai, atrás da máscara dos olhos, procuraremos a terceira mudança. [Algumas partes de vocês podem vagar em forma de gato. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
@@ -178,27 +178,27 @@
                 "sending": 1,
                 "grail": 3
             },
-            "description": "In the high places where the air is temptation, we will seek the fourth change. [Some part of you can roam in fox-shape. Send it to accompany your followers to a place where it can perform the dance you must dance. If you have problems finding the place, talk to Sulochana about Secret Histories.]",
+            "description": "Nos lugares altos onde o ar é tentador, vamos procurar a quarta mudança. [Alguma parte de você pode vagar em forma de raposa. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingmothe",
-            "label": "Instar: Far-Travelling",
+            "label": "Instar: Viajante",
             "aspects": {
                 "sending": 1,
                 "lantern": 4
             },
-            "description": "In Miah, where the Centipede saw all that might yet come, we will seek the fifth change. [Some part of you can roam in eagle-shape. Send it to accompany your followers to a place where it can perform the dance you must dance. If you have problems finding the place, talk to Sulochana about Secret Histories.]",
+            "description": "Em Miah, onde o Centipede viu tudo o que pode vir ainda, vamos procurar a quinta mudança. [Algumas partes de vocês podem vagar em forma áspera. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingmothf",
-            "label": "Instar: Avid",
+            "label": "Instar: Aviar",
             "aspects": {
                 "sending": 1,
                 "winter": 5
             },
-            "description": "In the far place where they remember the Sun, I will bring my borrowed hate for the sixth change. [Some part of you can roam in wolf-shape. Send it to accompany your followers to a place where it can perform the dance you must dance. If you have problems finding the place, talk to Sulochana about Secret Histories.]",
+            "description": "No lugar distante onde eles se lembram do Sol, eu vou trazer o meu ódio emprestado pela sexta mudança. [Algumas partes de você podem vagar em forma de lobo. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
@@ -208,7 +208,7 @@
                 "sending": 1,
                 "way": 1
             },
-            "description": "For the final change, I will pass the Door in the Wood. Medusa's sacrifice is always a virgin red deer, and so I will pass the door as a hind. [Into night's circle you fly.]",
+            "description": "Para a mudança final, passarei a Porta na Madeira. O sacrifício de Medusa é sempre um cervo virgem vermelho, e assim eu vou passar a porta como um alento. [No círculo nocturno que você voa.]",
             "uniquenessgroup": "uqsending"
         },
         {
@@ -218,92 +218,92 @@
                 "sending": 1,
                 "way": 1
             },
-            "description": "My spirit will leave my body as a great horned beast. To be a sacrifice? [What is within, without; what is without, within.]",
+            "description": "Meu espírito deixará meu corpo como uma grande besta de chifres. Ser um sacrifício? [O que tem dentro, sem fora; o que não tem, dentro.]",
             "icon": "sendingmothg",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "ascensionlessonhearta",
-            "label": "Garments, Surrendered",
+            "label": "Garagens, renderizadas",
             "aspects": {},
-            "description": "The Malachite has taught me that the naked self is not the true self, but it is less of a lie. [In the Season of Ambitions, this can upgrade your Change desire.]",
+            "description": "A Malaquita me ensinou que a si mesma nua não é a verdadeira verdade, mas é menos mentira. [Na temporada de ambições, isso pode melhorar seu desejo de alteração.]",
             "unique": true
         },
         {
             "id": "ascensionlessonheartb",
-            "label": "Integument, Surrendered",
+            "label": "Integargumento, renderizado",
             "aspects": {},
-            "description": "The Twins and the Serpent war, and in that war I have learnt how pain can be a gate.",
+            "description": "Aprendi nessa guerra como a dor pode ser um portão. O triunfo e a guerra serpente.",
             "unique": true
         },
         {
             "id": "ascensionlessonheartc",
-            "label": "Steps, Surrendered",
+            "label": "Passos, renderizados",
             "aspects": {},
-            "description": "The Velvet has taught me that what is revealed must first be hidden, for its revelation to be of any consequence. I have given up my footsteps.",
+            "description": "O veludo ensinou-me que o que é revelado tem primeiro de ser ocultado, para que a sua revelação tenha quaisquer consequências. Desisti dos meus passos.",
             "unique": true
         },
         {
             "id": "ascensionlessonheartd",
-            "label": "Hues, Surrendered",
+            "label": "Tonalidades, Entregues",
             "aspects": {},
-            "description": "The Flowermaker has given me what all desire, and taken my colours from me.",
+            "description": "O Flowermaker deu-me tudo o que queria e tirou-me as minhas cores.",
             "unique": true
         },
         {
             "id": "ascensionlessonhearte",
-            "label": "Sight, Surrendered",
+            "label": "Este, Sobreposto",
             "aspects": {},
-            "description": "I have given my eyes to the Vagabond, and through them I shall see what she would see: the road to the red change.",
+            "description": "Dei os meus olhos ao Vagabond, e através deles vou ver o que a senhora deputada verá: o caminho para a mudança vermelha.",
             "unique": true
         },
         {
             "id": "ascensionlessonheartf",
-            "label": "Bones, Surrendered",
+            "label": "ossos, rendidos",
             "aspects": {},
-            "description": "The Elegiast has taught me to remember, in the last part of me to change. I'll carry that lesson past the Kingskin Gate.",
+            "description": "A Elegiast me ensinou a lembrar, na minha última parte de mim. Vou carregar essa lição através do Portão do Rei.",
             "unique": true
         },
         {
             "id": "ascensionlessonmotha",
-            "label": "Garments, Surrendered",
+            "label": "Garagens, renderizadas",
             "aspects": {},
-            "description": "The Ring-Yew commanded I bare my flesh, and I obeyed. I will not always obey the Ring-Yew. [In the Season of Ambitions, this can upgrade your Change desire.]",
+            "description": "O comando de Ring-Yew que eu passei meu carne, e obedeci. Eu nem sempre vou obedecer ao Ring-Yew. [Na temporada de ambições, isso pode melhorar seu desejo de alteração.]",
             "unique": true
         },
         {
             "id": "ascensionlessonmothb",
-            "label": "Integument, Surrendered",
+            "label": "Integargumento, renderizado",
             "aspects": {},
-            "description": "The Mother pierces, the Witch demands, the Sister dissolves. And so\n my skin\n is thin\n as rain",
+            "description": "A Mãe Perfura, a Bruxa exige, a Irmã dissolve. E\n a minha pele\n é fina\n como chuva",
             "unique": true
         },
         {
             "id": "ascensionlessonmothc",
-            "label": "Steps, Surrendered",
+            "label": "Passos, renderizados",
             "aspects": {},
-            "description": "I walked in the black-flax at the river's edge, and it tasted my feet with its hundred tongues until I could withstand the touch of it no longer, and then I was only shadow.",
+            "description": "Eu andei no sino-negro na borda do rio, e com o pé com as suas cem línguas até que eu não conseguisse resistir mais ao toque dele, e então eu era apenas sombra.",
             "unique": true
         },
         {
             "id": "ascensionlessonmothd",
-            "label": "Hues, Surrendered",
+            "label": "Tonalidades, Entregues",
             "aspects": {},
-            "description": "I came to the flowers the flower-maker made and that is what I became. He keeps my colours for me now.",
+            "description": "Vim até as flores que a criadora de flor fez e foi isso que eu fiz. Ele guarda minhas cores para mim agora.",
             "unique": true
         },
         {
             "id": "ascensionlessonmothe",
-            "label": "Sight, Surrendered",
+            "label": "Este, Sobreposto",
             "aspects": {},
-            "description": "The Centipede told me her jokes and in exchange I will let her carve me eyes of gold, until the ommatidia occur. ",
+            "description": "A Centipede me contou suas piadas e, em troca, vou deixá-la vislumbrar os olhos de ouro, até que ocorra a ommatidia. ",
             "unique": true
         },
         {
             "id": "ascensionlessonmothf",
-            "label": "Bones, Surrendered",
+            "label": "ossos, rendidos",
             "aspects": {},
-            "description": "The Sun was divided, and the Wolf will not let me forget the salt savour of its bones - not until the Mansus cracks. Now the Wolf requires that I carry that savour through the Door in the Wood.",
+            "description": "O Sol estava dividido, e o Lobo não me permite esquecer o sal saboroso dos seus ossos - só quando o Mansus quebrar. Agora o Lobo precisa que eu carregue esse sabor através da porta na Madeira.",
             "unique": true
         }
     ]

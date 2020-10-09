@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "explore_vaultshires1_setup",
-            "label": "Beginning an Expedition: Gladwyn Lake",
+            "label": "Começando uma Expedição: Lago Gladwyn",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -12,7 +12,7 @@
             "effects": {
                 "guardian_serpent": 1
             },
-            "startdescription": "Beneath the surface of the lake, or in some cliff-side nook, perhaps some relics remain for us yet. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Sob a superfície do lago, ou em alguma soneca penhasco, talvez algumas relíquias permaneçam para nós. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -25,7 +25,7 @@
         },
         {
             "id": "explore_vaultshires2_setup",
-            "label": "Beginning an Expedition: Lockwood Fen",
+            "label": "Começando uma Expedição: Trancar Fen",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -36,7 +36,7 @@
                 "peril_treacherousground": 1,
                 "guardian_watchers": 1
             },
-            "startdescription": "Out into the mudlands. Somewhere, we are certain, is a shrine bedecked with precious oddments. If the locals try to kill us, we are probably heading in the right direction. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Nas terras de capoeira; algures, temos a certeza de que se trata de um santuário cheio de estranhas preciosas. Se os habitantes locais nos tentarem matar-nos, estaremos provavelmente a ir na direcção certa. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -49,7 +49,7 @@
         },
         {
             "id": "explore_vaultshires3_setup",
-            "label": "Beginning an Expedition: Crowkiss Hill",
+            "label": "Começando uma Expedição: Colina de Crowkiss",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -59,7 +59,7 @@
             "effects": {
                 "seal_wardeddoor": 1
             },
-            "startdescription": "The one who came here before us had marked the door in the hillside. And here it may yet be, but it is sealed besides with stone and binding-spell. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "O que veio aqui diante de nós marcou a porta na colina. E aqui talvez ainda esteja, mas está selado além de pedra e feitiço vinculativo. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -72,7 +72,7 @@
         },
         {
             "id": "explore_vaultshires4_setup",
-            "label": "Beginning an Expedition: Keglin's Scratch",
+            "label": "Começando uma Expedição: Scratch de Keglin",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -83,7 +83,7 @@
                 "peril_treacherousground": 1,
                 "guardian_dead": 1
             },
-            "startdescription": "We prepare for the descent. We bring rope, tools, light; we arm ourselves against anything down there that may yet move. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Nós nos preparamos para a ascendência. Nós trazemos corda, ferramentas, luz; nos armamos contra qualquer coisa que ainda possa mudar. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -96,7 +96,7 @@
         },
         {
             "id": "explore_vaultshires5_setup",
-            "label": "Beginning an Expedition: the Gwaer Inn",
+            "label": "Começando uma Expedição: a Pousada Gwaer",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -107,7 +107,7 @@
                 "seal_wardeddoor": 1,
                 "guardian_watchers": 1
             },
-            "startdescription": "We can reserve rooms at the Inn easily enough, but we can expect the locals - if they divine our intentions - to turn nasty. And if the library is still there, it will be well-hidden. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Podemos reservar salas à pousada com facilidade, mas podemos esperar que os habitantes locais - se diferem das nossas intenções - fiquem desagradáveis. E se a biblioteca ainda estiver lá, estará bem escondida. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -120,7 +120,7 @@
         },
         {
             "id": "explore_vaultshiresdefault_setup",
-            "label": "Beginning an Expedition: Kerisham",
+            "label": "Começando uma Expedição: Kerisham",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -132,7 +132,7 @@
                 "guardian_watchers": 1,
                 "curse_visions": 1
             },
-            "startdescription": "Slink along the streets to a once-fine townhouse. Surreptitiously case the back garden. Odd stories circulate about the woman who lives here. She might be an adept, a collector, or even the rare thing called <i>empousa</i>. We must be watchful. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Monte nas ruas em uma única casa na cidade. Surriamente matem o jardim das traseiras. Histórias estranhas circulam sobre a mulher que mora aqui. Ela pode ser uma adepta, um colecionador, ou até mesmo a coisa rara chamada <i>empousa</i>. Devemos estar atentos. [As expedições precisam de pelo menos um fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -145,7 +145,7 @@
         },
         {
             "id": "explorevaultshires1_success",
-            "label": "The Chapel-Root",
+            "label": "O Chapel-Raiz",
             "actionid": "explore",
             "requirements": {
                 "vaultshires1": 1
@@ -163,14 +163,14 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "There are ruins beneath the water - just beneath, at wading depth. The lake has risen a little in all these years, but not enough to keep us out.",
-            "description": "The chapel crypt is flooded, and the water soupy with old corpse-matter, but at last we bring up a wax-sealed coffer. Eighteenth-century? No older than that. Let's see what's within.",
+            "startdescription": "Há ruínas debaixo da água - logo debaixo dela, na profundidade. O lago aumentou um pouco em todos estes anos, mas não o suficiente para nos impedir de o fazer.",
+            "description": "A cripta capela está inundada, e a sopa de água com uma velha matéria cadáver de corpo, mas finalmente criamos um caixão selado de cerca. O século XVIII? Não é mais antigo. Vamos ver o que tem dentro.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultshires2_success",
-            "label": "The Ring-Yew's Shrine",
+            "label": "O Santuário do Ring-Yew",
             "actionid": "explore",
             "requirements": {
                 "vaultshires2": 1
@@ -189,14 +189,14 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "Here on a flat rock, inches above the marsh-water, is a throne carved of yew-wood, ripe with fungus, ornamented with tarnished copper. This is the shrine we seek.",
-            "description": "Apple-green paint marks ritual circles on the rock. The remains of sacrifices past squelch beneath our feet as we search the shrine. In a little hollow in the throne rests an oiled bundle of treasures.",
+            "startdescription": "Aqui em uma rocha plana, polegadas acima da água do pântano, é um trono esculpido de madeira de pimenta, maduro com fungo, ornamentado com cobre manchado. É este o santuário que procuramos.",
+            "description": "A tinta da maçã-verde marca círculos rituais na rocha. Os restos de sacrifícios passados espreitam abaixo de nossos pés enquanto procuramos a santuária. Em um pouco de buraco no trono jaz um monte de tesouros.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultshires3_success",
-            "label": "The Warrior's End",
+            "label": "O fim do guerreiro",
             "actionid": "explore",
             "requirements": {
                 "vaultshires3": 1
@@ -217,8 +217,8 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "It is almost possible to stand upright in this place, but the air is foul and our lamps burn low. Here is the warrior-king staked out on the funeral-stone, his bones smashed to keep him from walking. The orbits of his skull are bound with bronze.",
-            "description": "Others have been here before us - power still lingers, and no doubt they used it in their ceremonies. They have taken some of the warrior-king's funeral treasures, but left something of their own.",
+            "startdescription": "É quase possível ficar de braços cruzados neste local, mas o ar está ruim e as nossas lâmpadas ardem baixo. Aqui está o rei guerreiro apostado na pedra funeral, seus ossos esmagaram para impedi-lo de andar. Os órbitos de seu crânio têm de bronze.",
+            "description": "Outros já estiveram aqui diante de nós - o poder continua a existir, e sem dúvida que o utilizaram nas suas cerimónias. Eles tomaram alguns dos tesouros funerários do rei guerreiro, mas deixaram algo próprio.",
             "warmup": 30,
             "craftable": false,
             "alt": [
@@ -230,7 +230,7 @@
         },
         {
             "id": "explorevaultshires4_success",
-            "label": "Once a Lady",
+            "label": "Uma vez por mulher",
             "actionid": "explore",
             "requirements": {
                 "vaultshires4": 1
@@ -248,8 +248,8 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "The air is stale, and dust sifts worryingly down from the rock above, but the dead lie still. This chamber, with its chalked figures and ancient stains, looks promising.",
-            "description": "In a lead-lined sarcophagus lies the skeleton of a woman. She wasn't buried here: it looks like she crawled in to die... something has happened to the shape of her skull, pushing out the jaw like the muzzle of a beast. Scraps of rotting linen swathe her bones. Treasures lie among the remains of her clutching hands between her ribs.",
+            "startdescription": "O ar está ruim, e poeira cai preocupantemente da pedra alta, mas os mortos continuam vivos. Esta Assembleia, com as suas figuras espantadas e manchas antigas, parece promissora.",
+            "description": "Em um sarcófago forrado em chumbo encontra-se o esqueleto de uma mulher. Ela não foi enterrada aqui: parece que se arrastou para morrer... algo aconteceu com a forma de seu crânio, empurrando o maxilar como o silvestre de uma besta. Restos de linho podre balançando os ossos. Os tesouros estão entre os restos de suas garras entre as costelas.",
             "warmup": 30,
             "craftable": false,
             "alt": [
@@ -261,7 +261,7 @@
         },
         {
             "id": "explorevaultshires5_success",
-            "label": "The White Library",
+            "label": "A Biblioteca Branca",
             "actionid": "explore",
             "requirements": {
                 "vaultshires5": 1
@@ -281,14 +281,14 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "The room is bleached and quiet. The chairs are pale wood; the table is topped with white marble. A low draught blows through the ill-fitting sea-facing casement. In winter, it must be insupportably cold. A white-painted glass case holds a shelf of books, wrapped oddly in coils of copper wire.",
-            "description": "Some of the books are exotic eighteenth-century pornography. Others are botanist's journals. Some, however, have value for our studies. A yellowing note tucked into the spine of one reads 'Watch for me. - JC.'",
+            "startdescription": "O quarto está sangrado e quieto. As cadeiras são pálidas; a mesa está coberta com mármore branco. Um baixo escoamento sopra através do caso mal ajustado da face do mar. No inverno, deve estar insuportavelmente frio. Uma caixa de vidro pintada segura uma prateleira de livros, envolta estranhamente em bobinas de fio de cobre.",
+            "description": "Alguns dos livros são pornografia exótica do século dezoito. Outros são revistas em botânico. Alguns, no entanto, têm valor para os nossos estudos, e uma nota amarelada na espinha de um lê: \"Assista por mim. - JC.\"",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultshiresdefault_success",
-            "label": "The Last Room",
+            "label": "A última sala",
             "actionid": "explore",
             "requirements": {
                 "vaultshiresdefault": 1
@@ -299,8 +299,8 @@
             "deckeffects": {
                 "vaultrewardsb": 3
             },
-            "startdescription": "Nothing remains to bar our way. Search the cellar first, then the upper rooms. We don't want to be trapped.",
-            "description": "On the topmost floor is an altar to the Sun Divided - which could be one of many Hours. Sweep the items there displayed into a carpet-bag, and let's make haste into the back streets.",
+            "startdescription": "Nada resta para barrar no nosso caminho. Procure no violoncelo primeiro, depois no topo. Nós não queremos ser presos.",
+            "description": "No topo, há um altar do Sun Dividido - que poderia ser uma de muitas horas. Varre os itens exibidos em uma sacola de carpete e vamos acelerar para as ruas das costas.",
             "warmup": 30,
             "craftable": false,
             "linked": [

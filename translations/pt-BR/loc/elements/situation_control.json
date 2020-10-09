@@ -2,43 +2,43 @@
     "elements": [
         {
             "id": "insight",
-            "label": "Insight",
-            "description": "An insight into this mystery.",
+            "label": "Intuições",
+            "description": "Uma visão deste mistério.",
             "lifetime": 1
         },
         {
             "id": "bid",
             "label": "Bid",
-            "description": "A bid placed in an auction house.",
+            "description": "Uma licitação colocada em uma casa de leilões.",
             "xtriggers": {
                 "restore": "funds"
             }
         },
         {
             "id": "abductioninprogress",
-            "label": "A Warded Cell",
-            "description": "Thought, they say, is free, but thought is chained to the body.",
+            "label": "Uma Célula Garantida",
+            "description": "Dizem que é livre, mas o pensamento está amarrado ao corpo.",
             "lifetime": 1,
             "icon": "seal_wardeddoor"
         },
         {
             "id": "assassinationinprogress.player",
-            "label": "An Assassination",
-            "description": "This will end in a death. It could be my death.",
+            "label": "Um Assassinato",
+            "description": "Isto terminará em uma morte. Pode ser a minha morte.",
             "lifetime": 1,
             "icon": "dread"
         },
         {
             "id": "assassinationinprogress.follower",
-            "label": "An Assassination",
-            "description": "This will end in a death - theirs, or ours.",
+            "label": "Um Assassinato",
+            "description": "Isto acabará numa morte - deles ou nossos.",
             "lifetime": 1,
             "icon": "dread"
         },
         {
             "id": "scandalinprogress",
-            "label": "Evil Gossip",
-            "description": "What they say is only a shadow of the truth, but by our shadows we are discovered.",
+            "label": "Gossip Mal",
+            "description": "O que dizem é apenas uma sombra da verdade, mas pelas nossas sombras somos descobertos.",
             "lifetime": 1,
             "icon": "notoriety"
         }

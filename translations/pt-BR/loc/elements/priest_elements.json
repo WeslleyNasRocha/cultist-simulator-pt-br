@@ -2,19 +2,19 @@
     "elements": [
         {
             "id": "fervour",
-            "label": "Fervour",
+            "label": "Fervor",
             "aspects": {
                 "influence": 1,
                 "heart": 2
             },
-            "description": "My congregation's passions run strong, if not deep. [Keep your congregation satisfied. Fervour, if unused, will decay to Dread.]",
+            "description": "As paixões da minha congregação se tornam fortes, se não profundas. [Mantenha sua congregação satisfeita. Fervor, se não usado, diminuirá para Dread.]",
             "lifetime": 180,
             "decayTo": "dread"
         },
         {
             "id": "lockscaredge",
-            "label": "Edge-Lock Scar",
-            "description": "When I am Threshold, this scar will open beneath a blade's touch.",
+            "label": "Ciclo de Acabamento",
+            "description": "Quando sou Threshold, esta cicatriz abrirá sob o toque de uma lâmina.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -27,8 +27,8 @@
         },
         {
             "id": "lockscarforge",
-            "label": "Forge-Lock Scar",
-            "description": "When I am Threshold, this scar will open to the touch of hot iron.",
+            "label": "Ciclo de Forja",
+            "description": "Quando estou em Threshold, esta cicatriz abrirá o toque de ferro quente.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -41,8 +41,8 @@
         },
         {
             "id": "lockscargrail",
-            "label": "Grail-Lock Scar",
-            "description": "When I am Threshold, this scar will open to a fervent kiss.",
+            "label": "Ciclo-Grail-Lock",
+            "description": "Quando estou em Threshold, esta cicatriz abrirá a um beijo fervoroso.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -55,8 +55,8 @@
         },
         {
             "id": "lockscarheart",
-            "label": "Heart-Lock Scar",
-            "description": "When I am Threshold, this scar will open at the beat of the drum.",
+            "label": "Ciclo de Coração",
+            "description": "Quando estou em Threshold, esta cicatriz abrirá na batida do tambor.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -69,8 +69,8 @@
         },
         {
             "id": "lockscarlantern",
-            "label": "Lantern-Lock Scar",
-            "description": "When I am Threshold, this scar will open at the flush of dawn.",
+            "label": "Ciclo da Lanterna",
+            "description": "Quando eu estou Threshold, esta cicatriz abrirá na enxurrada.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -83,8 +83,8 @@
         },
         {
             "id": "lockscarmoth",
-            "label": "Moth-Lock Scar",
-            "description": "When I am Threshold, this scar will answer to the scissors.",
+            "label": "Travar Mariposa",
+            "description": "Quando sou Threshold, esta cicatriz responderá à tesoura.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -97,8 +97,8 @@
         },
         {
             "id": "lockscarwinter",
-            "label": "Winter-Lock Scar",
-            "description": "When I am Threshold, this scar will open last.",
+            "label": "Cicatriz WinterLock",
+            "description": "Quando eu sou Threshold, esta cicatriz abrirá por último.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -111,8 +111,8 @@
         },
         {
             "id": "openedlockscaredge",
-            "label": "Edge-Lock Scar",
-            "description": "When I am Threshold, this scar will open beneath a blade's touch.",
+            "label": "Ciclo de Acabamento",
+            "description": "Quando sou Threshold, esta cicatriz abrirá sob o toque de uma lâmina.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -125,8 +125,8 @@
         },
         {
             "id": "openedlockscarforge",
-            "label": "Forge-Lock Scar",
-            "description": "When I am Threshold, this scar will open to the touch of hot iron.",
+            "label": "Ciclo de Forja",
+            "description": "Quando estou em Threshold, esta cicatriz abrirá o toque de ferro quente.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -139,8 +139,8 @@
         },
         {
             "id": "openedlockscargrail",
-            "label": "Grail-Lock Scar",
-            "description": "When I am Threshold, this scar will open to a fervent kiss.",
+            "label": "Ciclo-Grail-Lock",
+            "description": "Quando estou em Threshold, esta cicatriz abrirá a um beijo fervoroso.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -153,8 +153,8 @@
         },
         {
             "id": "openedlockscarheart",
-            "label": "Heart-Lock Scar",
-            "description": "When I am Threshold, this scar will open at the beat of the drum.",
+            "label": "Ciclo de Coração",
+            "description": "Quando estou em Threshold, esta cicatriz abrirá na batida do tambor.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -167,8 +167,8 @@
         },
         {
             "id": "openedlockscarlantern",
-            "label": "Lantern-Lock Scar",
-            "description": "When I am Threshold, this scar will open at the flush of dawn.",
+            "label": "Ciclo da Lanterna",
+            "description": "Quando eu estou Threshold, esta cicatriz abrirá na enxurrada.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -181,8 +181,8 @@
         },
         {
             "id": "openedlockscarmoth",
-            "label": "Moth-Lock Scar",
-            "description": "When I am Threshold, this scar will answer to the scissors.",
+            "label": "Travar Mariposa",
+            "description": "Quando sou Threshold, esta cicatriz responderá à tesoura.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -195,8 +195,8 @@
         },
         {
             "id": "openedlockscarwinter",
-            "label": "Winter-Lock Scar",
-            "description": "When I am Threshold, this scar will open last.",
+            "label": "Cicatriz WinterLock",
+            "description": "Quando eu sou Threshold, esta cicatriz abrirá por último.",
             "aspects": {
                 "tool": 1,
                 "knock": 2,
@@ -209,14 +209,14 @@
         },
         {
             "id": "devotee_edge",
-            "label": "A Sturdy Worshipper",
+            "label": "Um Adorador Robusto",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "devotee": 1,
                 "edge": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Por vezes, Fervour leva as pessoas a dedicar-se a obrigações mais incomuns. [Quando o entusiasmo deste alguém cai, elas voltarão à congregação.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -228,7 +228,7 @@
         },
         {
             "id": "devotee_forge",
-            "label": "A Practical Worshipper",
+            "label": "Um Adorador Prático",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -236,7 +236,7 @@
                 "edge": 1,
                 "forge": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Por vezes, Fervour leva as pessoas a dedicar-se a obrigações mais incomuns. [Quando o entusiasmo deste alguém cai, elas voltarão à congregação.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -248,7 +248,7 @@
         },
         {
             "id": "devotee_grail",
-            "label": "An Avid Worshipper",
+            "label": "Um Avid Adorador",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -256,7 +256,7 @@
                 "edge": 1,
                 "grail": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Por vezes, Fervour leva as pessoas a dedicar-se a obrigações mais incomuns. [Quando o entusiasmo deste alguém cai, elas voltarão à congregação.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -268,7 +268,7 @@
         },
         {
             "id": "devotee_heart",
-            "label": "A Lively Worshipper ",
+            "label": "Um Adorador Vivo ",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -276,7 +276,7 @@
                 "edge": 1,
                 "heart": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Por vezes, Fervour leva as pessoas a dedicar-se a obrigações mais incomuns. [Quando o entusiasmo deste alguém cai, elas voltarão à congregação.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -288,7 +288,7 @@
         },
         {
             "id": "devotee_knock",
-            "label": "A Dextrous Worshipper ",
+            "label": "Um Adorador Dextrous ",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -296,7 +296,7 @@
                 "edge": 1,
                 "knock": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Por vezes, Fervour leva as pessoas a dedicar-se a obrigações mais incomuns. [Quando o entusiasmo deste alguém cai, elas voltarão à congregação.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -308,7 +308,7 @@
         },
         {
             "id": "devotee_lantern",
-            "label": "A Percipient Worshipper",
+            "label": "Um Colorador Percipiente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -316,7 +316,7 @@
                 "edge": 1,
                 "lantern": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Por vezes, Fervour leva as pessoas a dedicar-se a obrigações mais incomuns. [Quando o entusiasmo deste alguém cai, elas voltarão à congregação.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -328,7 +328,7 @@
         },
         {
             "id": "devotee_moth",
-            "label": "An Erratic Worshipper",
+            "label": "Um Adorador Errado",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -336,7 +336,7 @@
                 "edge": 1,
                 "moth": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Por vezes, Fervour leva as pessoas a dedicar-se a obrigações mais incomuns. [Quando o entusiasmo deste alguém cai, elas voltarão à congregação.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -348,7 +348,7 @@
         },
         {
             "id": "devotee_winter",
-            "label": "A Silent Worshipper",
+            "label": "Um Silencioso Adorador",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -356,7 +356,7 @@
                 "edge": 1,
                 "winter": 2
             },
-            "description": "Sometimes, Fervour drives laypeople to devote themselves to more uncommon duties. [When this one's enthusiasm fades, they will return to the congregation.]",
+            "description": "Por vezes, Fervour leva as pessoas a dedicar-se a obrigações mais incomuns. [Quando o entusiasmo deste alguém cai, elas voltarão à congregação.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",

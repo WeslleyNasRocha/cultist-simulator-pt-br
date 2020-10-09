@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "conjurationpower",
-            "label": "The Key to My Heart",
+            "label": "A Chave para Meu Coração",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -11,8 +11,8 @@
                 "ascensionpowera": 1
             },
             "effects": {},
-            "startdescription": "I can use this rite to give an Hour entry to my body? Power comes with them like a scent. Of course... I don't know which Hour might come.",
-            "description": "The ritual is complete. The door is opening.",
+            "startdescription": "Posso usar esse ritual para dar uma entrada na Hora do Código? O poder vem com eles como um cheiro. Claro... Eu não sei qual hora poderia vir.",
+            "description": "O ritual está completo. A porta está se abrindo.",
             "warmup": 30,
             "craftable": false,
             "comments": "legacy",
@@ -20,7 +20,7 @@
         },
         {
             "id": "conjurationpowerclue",
-            "label": "The Key to My Heart?",
+            "label": "A chave do meu coração?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -29,8 +29,8 @@
             "effects": {
                 "mystique": 1
             },
-            "startdescription": "Can I use this rite to give an Hour entry to my body? Power comes with them like a scent.",
-            "description": "It didn't work. I need another invocation too - something to open the way. And I require a willing sacrifice.",
+            "startdescription": "Posso usar esse ritual para dar uma entrada na Hora do Código? O poder vem com eles como um cheiro.",
+            "description": "Não funcionou. Preciso de outra chamada também - algo para abrir o caminho. E preciso de um sacrifício querido.",
             "warmup": 30,
             "craftable": false,
             "comments": "legacy",
@@ -38,7 +38,7 @@
         },
         {
             "id": "conjurationenlightenment",
-            "label": "The Door in my Dreams",
+            "label": "A porta nos meus sonhos",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -47,8 +47,8 @@
                 "ascensionenlightenmenta": 1
             },
             "effects": {},
-            "startdescription": "I can use this rite to follow in the Watchman's footsteps, and learn of the house without walls.",
-            "description": "The ritual is complete. The door is opening.",
+            "startdescription": "Posso usar este rito para seguir os passos do Watchman e aprender a casa sem paredes.",
+            "description": "O ritual está completo. A porta está se abrindo.",
             "warmup": 30,
             "craftable": false,
             "comments": "legacy",
@@ -56,14 +56,14 @@
         },
         {
             "id": "conjurationenlightenmentclue",
-            "label": "The Door in my Dreams?",
+            "label": "A porta em meus sonhos?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
                 "ascensionenlightenmenta": 1
             },
-            "startdescription": "Can I use this rite to follow in the Watchman's footsteps, and learn of the house without walls?",
-            "description": "It didn't work. I need to call upon another power, too - a power of opening. And I'll need funds, to purchase the rare-wax candles that will light the Watchman's path.",
+            "startdescription": "Posso usar este rito para seguir os passos do Watchman e aprender a casa sem paredes?",
+            "description": "Isso não funcionou. Preciso chamar outra potência também - uma potência de abertura. E eu precisarei de fundos, para comprar as velas raras que acenderão o caminho do Watchman.",
             "warmup": 30,
             "craftable": false,
             "comments": "legacy",
@@ -71,20 +71,20 @@
         },
         {
             "id": "ascensionpowerapromotion",
-            "label": "THE RED GRAIL COMES",
+            "label": "OS COMES DE GRAIL VERMELHOS",
             "actionid": "grailminorpromotion",
             "requirements": {},
             "slots": [
                 {
                     "id": "Dedication",
-                    "label": "Dedication",
+                    "label": "Dedicação",
                     "required": {
                         "passion": 1
                     }
                 }
             ],
-            "startdescription": "My heart swells; my blood burns. I am very close. I must devote myself more fervently.",
-            "description": "The rite failed! I was close - as close as the flame to a candle, as the blood to a heart. I must try again.",
+            "startdescription": "Meu coração enche, meu sangue queima. Estou muito perto. Devo me dedicar mais ferozmente.",
+            "description": "O rito falhou! Eu estava por perto - tão perto quanto a chama de uma vela, quanto o sangue de um coração. Preciso tentar de novo.",
             "warmup": 60,
             "craftable": false,
             "comments": "legacy",
@@ -92,7 +92,7 @@
         },
         {
             "id": "ascensionenlightenmentapromotion",
-            "label": "I HEAR THE WATCHMAN'S FOOTSTEPS",
+            "label": "EQUIPE OS FÓRUNS DE WATCHMANS",
             "actionid": "watchmanminorpromotion",
             "requirements": {},
             "effects": {
@@ -101,14 +101,14 @@
             "slots": [
                 {
                     "id": "Dedication",
-                    "label": "Dedication",
+                    "label": "Dedicação",
                     "required": {
                         "reason": 1
                     }
                 }
             ],
-            "startdescription": "The walls of the world tremble like silk. I am very close. All my thoughts must converge.",
-            "description": "I touched it with my fingertips, the understanding I seek. So close. I must try again.",
+            "startdescription": "As paredes do mundo tremem como seda. Estou muito perto. Todos os meus pensamentos devem convergir.",
+            "description": "Fiz um toque com os dedos, o entendimento que procuro. Tão perto. Devo tentar de novo.",
             "warmup": 60,
             "craftable": false,
             "comments": "legacy",

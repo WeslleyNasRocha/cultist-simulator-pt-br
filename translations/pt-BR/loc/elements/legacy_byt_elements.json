@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "legacybytjob",
-            "description": "One dabbles with writing and one dabbles with painting but one lives, above all, in the certainty of one's allowance.",
-            "label": "This and That",
+            "description": "Dá-se o caso de escrever e de hesitar em pintar apenas uma vida, acima de tudo, na certeza dos subsídios.",
+            "label": "Isso e Aquilo",
             "aspects": {
                 "benign": 1,
                 "job": 1
@@ -11,8 +11,8 @@
         },
         {
             "id": "legacybytjobmatured",
-            "description": "One dabbles with writing and one dabbles with painting but one lives, above all, in the near-certainty of one's allowance.",
-            "label": "This and That",
+            "description": "Dá-se o caso de escrever e de hesitar em pintar apenas uma vida, acima de tudo, na quase certeza dos subsídios.",
+            "label": "Isso e Aquilo",
             "aspects": {
                 "benign": 1,
                 "job": 1
@@ -24,8 +24,8 @@
             "aspects": {
                 "legacyplotitem": 1
             },
-            "label": "A Ciphered Diary",
-            "description": "This details a growing obsession with an individual by the name of #PREVIOUSCHARACTERNAME#."
+            "label": "Um Diário Ciphered",
+            "description": "Isso detalha uma crescente obsessão com um indivíduo pelo nome de #PREVIOUSCHARACTERNAME#."
         }
     ]
 }

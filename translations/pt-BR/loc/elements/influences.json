@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "influenceedge",
-            "label": "A Thrilling Air",
+            "label": "Um Ar Emocionante",
             "aspects": {
                 "edge": 2,
                 "influence": 1
@@ -10,8 +10,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Edge influences to intensify them. Study how it's affected by Winter influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências do Edge para intensificá-las. Estude como é afetado pela influência do Inverno para subvertê-las.",
                     "required": {
                         "influenceedge": 1,
                         "influencewinter": 1,
@@ -21,8 +21,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentedgec": 1,
                         "fragmentedged": 1,
@@ -33,7 +33,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The senses are sharpened. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions.]",
+            "description": "Os sentidos são mais nítidos. [Uma influência de segunda orda: aparente para o perceptivo, instantaneamente reconhecível para um adepto. Isso pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceedgec"
@@ -41,7 +41,7 @@
         },
         {
             "id": "influenceedgec",
-            "label": "A Rousing Air",
+            "label": "Um Ar de Casa",
             "aspects": {
                 "edge": 6,
                 "influence": 1
@@ -49,8 +49,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Edge influences to intensify them. Study how it's affected by Winter influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências do Edge para intensificá-las. Estude como é afetado pela influência do Inverno para subvertê-las.",
                     "required": {
                         "influenceedgec": 1,
                         "influencewinterc": 1
@@ -59,8 +59,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentedgec": 1,
                         "fragmentedged": 1,
@@ -71,7 +71,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The passions are roused. [A sixth-order influence: the signs are unmistakable. This can be used in some Rites to summon minions.]",
+            "description": "As paixões estão ásperas. [Uma influência de sexto pedido: os sinais são inconfundíveis. Isto pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceedgee"
@@ -80,7 +80,7 @@
         },
         {
             "id": "influenceedgee",
-            "label": "A Furious Air",
+            "label": "Um Ar Furioso",
             "aspects": {
                 "edge": 10,
                 "influence": 1
@@ -88,8 +88,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Edge influences to intensify them. Study how it's affected by Winter influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências do Edge para intensificá-las. Estude como é afetado pela influência do Inverno para subvertê-las.",
                     "required": {
                         "influenceedgee": 1,
                         "influencewintere": 1
@@ -98,8 +98,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentedgec": 1,
                         "fragmentedged": 1,
@@ -110,7 +110,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Anger is implicit in every shape. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "Raiva está implícita em todas as formas. [Uma influência por décimo! Um nó coletivo de poder e perigo. Isso pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceedgeg"
@@ -119,18 +119,18 @@
         },
         {
             "id": "influenceedgeg",
-            "label": "A Resolution",
+            "label": "Uma Resolução",
             "aspects": {
                 "edge": 15,
                 "influence": 1
             },
-            "description": "Who can avert the finality of battle? [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "Quem pode evitar a finalidade da batalha? [Uma influência da ordem dos quinze! Esta pode ser a atenção pessoal de uma Câmara. Isso pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "decayTo": "influenceedgee"
         },
         {
             "id": "influenceforge",
-            "label": "A Rising Heat",
+            "label": "Um Calor Crescente",
             "aspects": {
                 "forge": 2,
                 "influence": 1
@@ -138,8 +138,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Forge influences to intensify them. Study how it's affected by Edge influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de dois Forge influências para intensificá-las. Estude como é afetado pela influência do Edge para subvertê-las.",
                     "required": {
                         "influenceforge": 1,
                         "influenceedge": 1
@@ -148,8 +148,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentforgec": 1,
                         "fragmentforged": 1,
@@ -160,7 +160,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "A haze and a shimmer. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]",
+            "description": "Um nevoeiro e um cintilante. [Uma influência de segunda orda: aparente para o visível, instantaneamente reconhecível para um adepto. Isto pode ser usado em alguns Rites para invocar lacaios, e alguns lacaios o deixarão persistente quando forem destruídos.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceforgec"
@@ -168,7 +168,7 @@
         },
         {
             "id": "influenceforgec",
-            "label": "A Trembling Heat",
+            "label": "Um Calor Trembling",
             "aspects": {
                 "forge": 6,
                 "influence": 1
@@ -176,8 +176,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Forge influences to intensify them. Study how it's affected by Edge influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de dois Forge influências para intensificá-las. Estude como é afetado pela influência do Edge para subvertê-las.",
                     "required": {
                         "influenceforgec": 1,
                         "influenceedgec": 1
@@ -186,8 +186,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentforgec": 1,
                         "fragmentforged": 1,
@@ -198,7 +198,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The possibility of sparks. [A sixth-order influence: the signs are unmistakable. This can be used in some Rites to summon minions.]",
+            "description": "A possibilidade de faíscas. [Uma influência na sexta ordem: os sinais são inconfundíveis. Isto pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceforgee"
@@ -207,7 +207,7 @@
         },
         {
             "id": "influenceforgee",
-            "label": "An Exalting Heat",
+            "label": "Um calor exaltante",
             "aspects": {
                 "forge": 10,
                 "influence": 1
@@ -215,8 +215,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Forge influences to intensify them. Study how it's affected by Edge influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de dois Forge influências para intensificá-las. Estude como é afetado pela influência do Edge para subvertê-las.",
                     "required": {
                         "influenceforgee": 1,
                         "influenceedgee": 1
@@ -225,8 +225,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentforgec": 1,
                         "fragmentforged": 1,
@@ -237,7 +237,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "This is the aura at the volcano's edge. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "Esta é a aura na borda do vulcão. [Uma influência por décimo! Um nó de poder coletivo e perigo. Isso pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceforgeg"
@@ -246,18 +246,18 @@
         },
         {
             "id": "influenceforgeg",
-            "label": "An Incandescence",
+            "label": "Uma Incandescência",
             "aspects": {
                 "forge": 15,
                 "influence": 1
             },
-            "description": "Change follows fire. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "Mude o fogo seguido. [Uma influência de quinze anos! Esta pode ser a atenção pessoal de uma Hour. Isto pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "decayTo": "influenceforgee"
         },
         {
             "id": "influencegrail",
-            "label": "An Awareness of Appetite",
+            "label": "Uma consciência de Appetite",
             "aspects": {
                 "grail": 2,
                 "influence": 1
@@ -265,8 +265,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Grail influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências de Grail para intensificá-las. Estude como é afetado pela influência de Mario para subvertê-las, em vez disso.",
                     "required": {
                         "influencegrail": 1,
                         "influencemoth": 1,
@@ -277,8 +277,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentgrailc": 1,
                         "fragmentgraild": 1,
@@ -289,7 +289,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Every sense is heightened; every sensation, deepened. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]",
+            "description": "Cada sentido é de altura; toda sensação, se aprofundou. [Uma influência de segunda oração: visível para o perceptivo, imediatamente reconhecível para um adepto. Isto pode ser usado em alguns Rites para invocar lacaios, e alguns lacaios o deixarão persistente quando forem destruídos.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencegrailc"
@@ -297,7 +297,7 @@
         },
         {
             "id": "influencegrailc",
-            "label": "An Urgency of Appetite",
+            "label": "Uma Urgência de Appetite",
             "aspects": {
                 "grail": 6,
                 "influence": 1
@@ -305,8 +305,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Grail influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências de Grail para intensificá-las. Estude como é afetado pela influência de Mario para subvertê-las, em vez disso.",
                     "required": {
                         "influencegrailc": 1,
                         "influencemothc": 1
@@ -315,8 +315,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentgrailc": 1,
                         "fragmentgraild": 1,
@@ -327,7 +327,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "It is difficult to control oneself. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "description": "É difícil de se controlar. [Uma influência na sexta ordem: ressonâncias ou correspondências significativas. Isto pode ser usado em alguns Rites para convocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencegraile"
@@ -336,7 +336,7 @@
         },
         {
             "id": "influencegraile",
-            "label": "An Imperative of Appetite",
+            "label": "Um Imperativo do Appetite",
             "aspects": {
                 "grail": 10,
                 "influence": 1
@@ -344,8 +344,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Grail influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências de Grail para intensificá-las. Estude como é afetado pela influência de Mario para subvertê-las, em vez disso.",
                     "required": {
                         "influencegraile": 1,
                         "influencemothe": 1
@@ -354,8 +354,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentgrailc": 1,
                         "fragmentgraild": 1,
@@ -366,7 +366,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The lips ache to savour; the fingers ache to clutch. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "Os lábios estão com dor para saborear; os dedos dóem para bater. [Uma influência de décimo pedido! Um nó de poder e risco coletivo. Isso pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencegrailg"
@@ -375,18 +375,18 @@
         },
         {
             "id": "influencegrailg",
-            "label": "An Incarnadescence",
+            "label": "Uma Incarnadescência",
             "aspects": {
                 "grail": 15,
                 "influence": 1
             },
-            "description": "The very air is succulent with possibility. Pierce it, and it might bleed. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "O próprio ar é suculento com a possibilidade. Pierre-o, e pode sangrar. [Uma influência de quinze pedidos! Esta pode ser a atenção pessoal de uma Hour. Isto pode ser usado em alguns Rites para convocar lacaios]",
             "lifetime": 60,
             "decayTo": "influencegraile"
         },
         {
             "id": "influenceheart",
-            "label": "Trembling Airs",
+            "label": "Aviões Trembling",
             "aspects": {
                 "heart": 2,
                 "influence": 1
@@ -394,8 +394,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Heart influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de dois corações correspondentes para intensificá-las. Estude como é afetado pela influência de Marie para subvertê-las, em vez disso.",
                     "required": {
                         "influenceheart": 1,
                         "influencegrail": 1,
@@ -407,8 +407,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentheartc": 1,
                         "fragmentheartd": 1,
@@ -419,7 +419,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The toes tap. All is brisk and all is well. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]",
+            "description": "O toque dos dedos dos pés. Tudo está pronto e tudo bem. [Uma influência de segunda orda: visível para o visível, instantaneamente reconhecível para um adepto. Isto pode ser usado em alguns Rites para invocar lacaios, e alguns lacaios o deixarão persistente quando forem destruídos.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceheartc"
@@ -428,7 +428,7 @@
         },
         {
             "id": "influenceheartc",
-            "label": "Pulsing Airs",
+            "label": "Pulsando Anos",
             "aspects": {
                 "heart": 6,
                 "influence": 1
@@ -436,8 +436,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Heart influences to intensify them. Study how it's affected by Grail influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de dois corações correspondentes para intensificá-las. Estude como é afetado pela influência de Grail para subvertê-las, em vez disso.",
                     "required": {
                         "influenceheartc": 1,
                         "influencegrailc": 1
@@ -446,8 +446,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentheartc": 1,
                         "fragmentheartd": 1,
@@ -458,7 +458,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "A rising power; a reassuring energy. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "description": "Um poder crescente, uma energia tranquilizadora. [Uma influência na sexta ordem: ressonâncias ou correspondências significativas. Isso pode ser usado em alguns Rites para convocar servos]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencehearte"
@@ -467,7 +467,7 @@
         },
         {
             "id": "influencehearte",
-            "label": "Pounding Airs",
+            "label": "Salões Saltitantes",
             "aspects": {
                 "heart": 10,
                 "influence": 1
@@ -475,8 +475,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Heart influences to intensify them. Study how it's affected by Moth influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de dois corações correspondentes para intensificá-las. Estude como é afetado pela influência de Marie para subvertê-las, em vez disso.",
                     "required": {
                         "influencehearte": 1,
                         "influencegraile": 1
@@ -485,8 +485,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentheartc": 1,
                         "fragmentheartd": 1,
@@ -497,7 +497,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The heart moves; the world moves. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "O coração se move; o mundo se move. [Uma influência de décimo! Um nó de poder e perigo. Isso pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceheartg"
@@ -506,25 +506,25 @@
         },
         {
             "id": "influenceheartg",
-            "label": "An Imminence",
+            "label": "Uma imeminência",
             "aspects": {
                 "heart": 15,
                 "influence": 1
             },
-            "description": "The sky is a drum; the earth is ready for its ecstasy. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "O céu é um tambor; a Terra está pronta para seu ecstasy. [Uma influência de quinze pedidos! Esta pode ser a atenção pessoal de uma Hour. Isto pode ser usado em alguns Rites para convocar lacaios]",
             "lifetime": 60,
             "decayTo": "influencehearte"
         },
         {
             "id": "sicknessprotection",
-            "label": "A Stay of Execution",
-            "description": "All flesh fails. But I've been promised that my flesh will fail a little later. [This is a final insurance against sickness, if no Health remains to you.]",
+            "label": "Uma permanência de execução",
+            "description": "Tudo de carne falha. Mas me foi prometido que minha carne vai falhar um pouco depois. [Este é um seguro final contra a doença, se não lhe restar nenhuma saúde.]",
             "lifetime": 600,
             "decayTo": "influenceheart"
         },
         {
             "id": "influenceknock",
-            "label": "Subtle Flaw",
+            "label": "Garra Sutil",
             "aspects": {
                 "knock": 2,
                 "influence": 1
@@ -532,8 +532,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "With enough pressure, the skin of the world will tear. Add any influence to subvert it to a higher level Knock influence.",
+                    "label": "com",
+                    "description": "Com suficiente pressão, a pele do mundo rasgará. Adicione qualquer influência para subvertê-la a uma influência nocautear de nível mais alto.",
                     "actionid": "study",
                     "required": {
                         "influenceedge": 1,
@@ -554,8 +554,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentknockc": 1,
                         "fragmentknockd": 1,
@@ -566,7 +566,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Laces uncoil -- windows swing open -- locks move as if oiled. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions.]",
+            "description": "Desbobina -- janelas balançando aberto -- fechaduras se movem como se estivesse enterrado. [Uma influência de segunda orda: visível para o perspicaz reconhecível instantaneamente para um adepto. Isso pode ser usado em alguns Rites para convocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceknockc"
@@ -574,7 +574,7 @@
         },
         {
             "id": "influenceknockc",
-            "label": "Subtle Fracture",
+            "label": "Fratura sutil",
             "aspects": {
                 "knock": 6,
                 "influence": 1
@@ -582,8 +582,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "With enough pressure, the skin of the world will tear. Add any matching influence to subvert it to a higher level Knock influence.",
+                    "label": "com",
+                    "description": "Com suficiente pressão, a pele do mundo rasgará. Adicione qualquer influência correspondente para subvertê-la a uma influência nocautear de nível mais alto.",
                     "actionid": "study",
                     "required": {
                         "influenceedgec": 1,
@@ -598,8 +598,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentknockc": 1,
                         "fragmentknockd": 1,
@@ -610,7 +610,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Clouds part -- walls creak -- old wounds ache. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "description": "A parte das nuvens - paredes cremadas - feridas antigas estão doloridas. [Uma influência na sexta ordem: ressonâncias ou correspondências significativas. Isso pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceknocke"
@@ -619,7 +619,7 @@
         },
         {
             "id": "influenceknocke",
-            "label": "Subtle Rupture",
+            "label": "Ruptura sutil",
             "aspects": {
                 "knock": 10,
                 "influence": 1
@@ -627,8 +627,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "With enough pressure, the skin of the world will tear. Add any matching influence to subvert it to a higher level Knock influence.",
+                    "label": "com",
+                    "description": "Com suficiente pressão, a pele do mundo rasgará. Adicione qualquer influência correspondente para subvertê-la a uma influência nocautear de nível mais alto.",
                     "actionid": "study",
                     "required": {
                         "influenceedgee": 1,
@@ -643,8 +643,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentknockc": 1,
                         "fragmentknockd": 1,
@@ -655,7 +655,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Geometry contorts -- doors burst open -- snakes boil from the earth! [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "Os contornos de geometria -- portas estouraram abertos -- cobra da terra! [Uma influência de ordem dez anos! Um nó de coleta de poder e perigo. Isso pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influenceknockg"
@@ -664,18 +664,18 @@
         },
         {
             "id": "influenceknockg",
-            "label": "Wrong Door",
+            "label": "Porta errada",
             "aspects": {
                 "knock": 15,
                 "influence": 1
             },
-            "description": "There is a Door that should not open, and even now its hinges are roused -- [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "Há uma porta que não deveria abrir, e mesmo agora suas dobradiças estão ásperas - [Uma influência de quinze pedidos! Poderá ser a atenção pessoal de uma das Presidências. Isso pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "decayTo": "influenceknocke"
         },
         {
             "id": "influencelantern",
-            "label": "A Consciousness of Radiance",
+            "label": "Consciência da Radiância",
             "aspects": {
                 "lantern": 2,
                 "influence": 1
@@ -683,8 +683,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Lantern influences to intensify them. Study how it's affected by Forge influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências correspondentes da lanterna para intensificá-las. Estude como é afetado pela influência do Forge para subvertê-las, em vez disso.",
                     "required": {
                         "influencelantern": 1,
                         "influenceforge": 1,
@@ -698,8 +698,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentlanternc": 1,
                         "fragmentlanternd": 1,
@@ -710,7 +710,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "There is a light behind the world, a light above the Mansus, a light that penetrates both glass and skin. It is present here. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.  If unused, it will become Fascination.]",
+            "description": "Há uma luz atrás do mundo, uma luz acima do Mansus, uma luz que penetra tanto vidro como pele. Está aqui presente. [Uma influência de segunda orda: visível para o perspicaz e imediatamente reconhecível para um adepto. Isso pode ser usado em alguns Rites para invocar lacaios, e alguns lacaios o deixarão persistente quando forem destruídos. Se não for utilizado, ele se tornará Fascinação.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencelanternc"
@@ -719,7 +719,7 @@
         },
         {
             "id": "influencelanternc",
-            "label": "An Intensity of Radiance",
+            "label": "Uma Intensidade da Radiância",
             "aspects": {
                 "lantern": 6,
                 "influence": 1
@@ -727,8 +727,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Lantern influences to intensify them. Study how it's affected by Forge influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências correspondentes da lanterna para intensificá-las. Estude como é afetado pela influência do Forge para subvertê-las, em vez disso.",
                     "required": {
                         "influencelanternc": 1,
                         "influenceforgec": 1
@@ -737,8 +737,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentlanternc": 1,
                         "fragmentlanternd": 1,
@@ -749,7 +749,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Light dews the skin and suffuses the air. [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "description": "A luz deita a pele e sufoca o ar. [Uma influência na sexta ordem: ressonâncias ou correspondências significativas. Isso pode ser usado em alguns Rites para invocar servos]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencelanterne"
@@ -758,7 +758,7 @@
         },
         {
             "id": "influencelanterne",
-            "label": "A Blaze of Radiance",
+            "label": "Um Blaze do Esplendor",
             "aspects": {
                 "lantern": 10,
                 "influence": 1
@@ -766,8 +766,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Lantern influences to intensify them. Study how it's affected by Forge influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências correspondentes da lanterna para intensificá-las. Estude como é afetado pela influência do Forge para subvertê-las, em vez disso.",
                     "required": {
                         "influencelanterne": 1,
                         "influenceforgee": 1
@@ -776,8 +776,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentlanternc": 1,
                         "fragmentlanternd": 1,
@@ -788,7 +788,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Every colour has grown bright as new dye, but now all of them begin to bleed towards white. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "Toda cor cresceu brilhante como um novo corante, mas agora todos eles começam a sangrar em direção ao branco. [Uma influência em décimo! Um nó de poder e perigo. Isso pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencelanterng"
@@ -797,18 +797,18 @@
         },
         {
             "id": "influencelanterng",
-            "label": "A Splendour",
+            "label": "Um Esplendor",
             "aspects": {
                 "lantern": 15,
                 "influence": 1
             },
             "lifetime": 60,
-            "description": "Cover your eyes, if you like. It will serve no purpose. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions.]",
+            "description": "Cubra os olhos, se quiser. Não serve para nada. [Uma influência de quinze pedidos! Esta pode ser a atenção pessoal de uma Hour. Isto pode ser usado em alguns Rites para convocar lacaios]",
             "decayTo": "influencelanterne"
         },
         {
             "id": "influencemoth",
-            "label": "A Buzzing in the Brain",
+            "label": "Um zumbido no cérebro",
             "aspects": {
                 "moth": 2,
                 "influence": 1
@@ -816,8 +816,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Moth influences to intensify them. Study how it's affected by Lantern influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências de Mariposa para intensificá-las. Estude como é afetado pela influência da Lanterna para subvertê-las, em vez disso.",
                     "required": {
                         "influencemoth": 1,
                         "influencelantern": 1,
@@ -832,8 +832,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentmothc": 1,
                         "fragmentmothd": 1,
@@ -844,7 +844,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "in gi rum imus noc te et con sumi <b>snip snip snip</b> [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]",
+            "description": "no gi rum imus não e com soma <b>snip snip</b> [Uma influência de segunda ordem: aparente à percepção, reconhecível instantaneamente para um adepto. Isto pode ser usado em alguns Rites para invocar lacaios, e alguns lacaios o deixarão persistente quando forem destruídos.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencemothc"
@@ -853,7 +853,7 @@
         },
         {
             "id": "influencemothc",
-            "label": "A Rattling in the Soul",
+            "label": "Um Barbeamento na Alma",
             "aspects": {
                 "moth": 6,
                 "influence": 1
@@ -861,8 +861,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Moth influences to intensify them. Study how it's affected by Lantern influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências de Mariposa para intensificá-las. Estude como é afetado pela influência da Lanterna para subvertê-las, em vez disso.",
                     "required": {
                         "influencemothc": 1,
                         "influencelanternc": 1
@@ -871,8 +871,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentmothc": 1,
                         "fragmentmothd": 1,
@@ -883,7 +883,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Oh the friends that we played and the skins that we made; still they drive us! [A sixth-order influence: significant resonances or correspondences. This can be used in some Rites to summon minions.]",
+            "description": "Ah os amigos que jogamos e as skins que fazemos; ainda assim nos levamos! [Uma sexta ordem influência: ressonâncias ou correspondências significativas. Isso pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencemothe"
@@ -892,7 +892,7 @@
         },
         {
             "id": "influencemothe",
-            "label": "A Howling in the Heart",
+            "label": "Um Uivante no Coração",
             "aspects": {
                 "moth": 10,
                 "influence": 1
@@ -900,8 +900,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Moth influences to intensify them. Study how it's affected by Lantern influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências de Mariposa para intensificá-las. Estude como é afetado pela influência da Lanterna para subvertê-las, em vez disso.",
                     "required": {
                         "influencemothe": 1,
                         "influencelanterne": 1
@@ -910,8 +910,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentmothc": 1,
                         "fragmentmothd": 1,
@@ -922,7 +922,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Emotions contort our thoughts. One passion yields to the next like leaves in the wind's grip! [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions.]",
+            "description": "As emoções contorcem nossos pensamentos. Uma paixão se rende para o próximo como folhas na aderência do vento! [Uma influência de dez pedidos! Um nó de poder e risco para coleta. Isso pode ser usado em alguns Rites para invocar lacaios]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencemothg"
@@ -931,18 +931,18 @@
         },
         {
             "id": "influencemothg",
-            "label": "That Old Yearning",
+            "label": "Esse Antigo Ano",
             "aspects": {
                 "moth": 15,
                 "influence": 1
             },
-            "description": "\"\r\n    please\"",
+            "description": "\"\r\n    por favor\"",
             "lifetime": 60,
             "decayTo": "influencemothe"
         },
         {
             "id": "influencewinter",
-            "label": "A Chilly Atmosphere",
+            "label": "Uma esfera fria",
             "aspects": {
                 "winter": 2,
                 "influence": 1
@@ -950,8 +950,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Winter influences to intensify them. Study how it's affected by Heart influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências combinadas de Inverno para intensificá-las. Estude como é afetado pela influência Heart para subvertê-las, em vez disso.",
                     "required": {
                         "influencewinter": 1,
                         "influenceheart": 1,
@@ -962,8 +962,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentwinterc": 1,
                         "fragmentwinterd": 1,
@@ -974,7 +974,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "A peculiar chill lingers in my rooms. [A second-order influence: apparent to the perceptive, instantly recognisable to an adept. This can be used in some Rites to summon minions, and some minions will leave it lingering when they are destroyed.]",
+            "description": "Um frio peculiar fica em meus quartos. [Uma influência de segunda orda: visível para o perceptivo, instantaneamente reconhecível para um adepto. Isto pode ser usado em alguns Rites para invocar lacaios, e alguns lacaios o deixarão persistente quando forem destruídos.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencewinterc"
@@ -983,7 +983,7 @@
         },
         {
             "id": "influencewinterc",
-            "label": "An Icy Atmosphere",
+            "label": "Um Ambiente Gélido",
             "aspects": {
                 "winter": 6,
                 "influence": 1
@@ -991,8 +991,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Winter influences to intensify them. Study how it's affected by Heart influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências combinadas de Inverno para intensificá-las. Estude como é afetado pela influência Heart para subvertê-las, em vez disso.",
                     "required": {
                         "influencewinterc": 1,
                         "influenceheartc": 1
@@ -1001,8 +1001,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentwinterc": 1,
                         "fragmentwinterd": 1,
@@ -1013,7 +1013,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The air crisps the skin. Frost marks the glass. [A sixth-order influence: the signs are unmistakable. This can be used in some Rites to summon minions. If unused, it will become Dread.]",
+            "description": "O ar belisca a pele. Gelo marca o vidro. [Uma sexta ordem de influência: os sinais são inconfundíveis. Isto pode ser usado em alguns Rites para invocar servos. Se não for utilizado, ele se tornará Apostado.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencewintere"
@@ -1022,7 +1022,7 @@
         },
         {
             "id": "influencewintere",
-            "label": "A Bitter Atmosphere",
+            "label": "Uma amarga esfera",
             "aspects": {
                 "winter": 10,
                 "influence": 1
@@ -1030,8 +1030,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study the correspondences of two matching Winter influences to intensify them. Study how it's affected by Heart influence to subvert it, instead.",
+                    "label": "com",
+                    "description": "Estude as correspondências de duas influências combinadas de Inverno para intensificá-las. Estude como é afetado pela influência Heart para subvertê-las, em vez disso.",
                     "required": {
                         "influencewintere": 1,
                         "influencehearte": 1
@@ -1040,8 +1040,8 @@
                 },
                 {
                     "id": "knowledge",
-                    "label": "Knowledge",
-                    "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
+                    "label": "Conhecimento",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
                     "required": {
                         "fragmentwinterc": 1,
                         "fragmentwinterd": 1,
@@ -1052,7 +1052,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Winter passes the clothes, passes the skin, nestles in the veins. [A tenth-order influence! A gathering knot of power and peril. This can be used in some Rites to summon minions. If unused, it will become Dread.]",
+            "description": "O inverno passa pelas roupas, passa pela pele, faz ninhos nas veias. [Uma influência de dez pedidos! Um nó de poder e risco reunido. Isto pode ser usado em alguns Rites para invocar servos. Se não for utilizado, ele se tornará Apostado.]",
             "lifetime": 60,
             "xtriggers": {
                 "upgradeinfluence": "influencewinterg"
@@ -1061,12 +1061,12 @@
         },
         {
             "id": "influencewinterg",
-            "label": "Perfect Frost",
+            "label": "Gelo Perfeito",
             "aspects": {
                 "winter": 15,
                 "influence": 1
             },
-            "description": "The world is still as ice. Each movement is a journey. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions. If unused, it will become Dread.]",
+            "description": "O mundo ainda está como gelo. Cada movimento é uma jornada. [Uma influência sob a ordem dos quinze! Esta pode ser a atenção pessoal de uma mão. Isto pode ser usado em alguns Rites para invocar servos. Se não for utilizado, ele se tornará Apostado.]",
             "lifetime": 60,
             "decayTo": "influencewintere"
         }
