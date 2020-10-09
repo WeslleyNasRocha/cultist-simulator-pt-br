@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "legacydetectivejob",
-            "label": "Inspector's Position",
-            "description": "I have a senior position in the capital's police force.",
+            "label": "Posição do Inspetor",
+            "description": "Tenho uma posição de primeiro plano na polícia da capital.",
             "aspects": {
                 "job": 1
             },
@@ -13,25 +13,25 @@
         },
         {
             "id": "legacydetectivejob_matured",
-            "label": "Inspector's Position",
-            "description": "I have a senior position in the capital's police force, although I have been seconded to the Suppression Bureau.",
+            "label": "Posição do Inspetor",
+            "description": "Tenho uma posição de destaque na polícia da capital, embora eu tenha sido destacado para a Mesa de Supressão.",
             "aspects": {
                 "job": 1
             },
             "slots": [
                 {
                     "id": "target",
-                    "label": "Subject",
+                    "label": "Cargo",
                     "required": {
                         "suspicious": 1
                     },
-                    "description": "Until I have evidence, I must start by observing my quarry directly.",
+                    "description": "Até ter provas, devo começar por observar a minha pedreira diretamente.",
                     "actionid": "work"
                 },
                 {
                     "id": "meticulous",
                     "label": "Meticulous",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "description": "Mais Reason dará à minha investigação uma melhor possibilidade de sucesso.",
                     "required": {
                         "reason": 1
                     },
@@ -40,7 +40,7 @@
                 {
                     "id": "vigilant",
                     "label": "Vigilant",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "description": "Mais Reason dará à minha investigação uma melhor possibilidade de sucesso.",
                     "required": {
                         "reason": 1
                     },
@@ -48,8 +48,8 @@
                 },
                 {
                     "id": "singleminded",
-                    "label": "Singleminded",
-                    "description": "More Reason will give my investigation a better chance of success.",
+                    "label": "Misturado",
+                    "description": "Mais Reason dará à minha investigação uma melhor possibilidade de sucesso.",
                     "required": {
                         "reason": 1
                     },
@@ -65,12 +65,12 @@
         },
         {
             "id": "legacydetectivejob_suspended",
-            "label": "Inspector of Police [Suspended]",
-            "description": "My absence has been noted. I've been suspended. [Plead your case soon, or lose your position forever.]",
+            "label": "Inspetor da Polícia [Suspended]",
+            "description": "Minha ausência foi anotada. Fui suspenso. [Plead your case breve ou perca sua posição para sempre.]",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "Passion",
+                    "label": "Paixão",
                     "required": {
                         "passion": 1
                     },
@@ -88,25 +88,25 @@
         },
         {
             "id": "legacydetectivejob_disgraced",
-            "label": "Inspector of Police [Disgraced]",
-            "description": "I've lost my position. I'm unlikely to regain it. I must find my own way in the civilian world.",
+            "label": "Inspetor da Polícia [Disgraced]",
+            "description": "Eu perdi meu cargo. É improvável que eu recupere. Eu devo encontrar meu próprio caminho no mundo civil.",
             "lifetime": 120,
             "decayTo": "mystique"
         },
         {
             "id": "legacydetective_plotitem",
-            "label": "Sealed Bureau File",
+            "label": "Arquivo da Mesa Selada",
             "aspects": {
                 "desire": 1,
                 "legacyplotitem": 1,
                 "detectivetemptation": 1
             },
-            "description": "A file on the enigmatic #PREVIOUSCHARACTERNAME#. I sealed it myself. I am all too familiar with its contents. If I were to revisit them, the dreams might begin again."
+            "description": "Um arquivo no enigmático #PREVIOUSCHARACTERNAME#. Eu mesmo o selei. Estou demasiado familiarizado com o seu conteúdo, se voltasse a vê-lo, os sonhos começariam de novo."
         },
         {
             "id": "myevidence",
-            "label": "Tentative Evidence",
-            "description": "I have some evidence of my quarry's activities.",
+            "label": "Evidência provisória",
+            "description": "Tenho algumas evidências das atividades da minha pedreira.",
             "lifetime": 300,
             "aspects": {
                 "suspicious": 1
@@ -117,8 +117,8 @@
         },
         {
             "id": "myevidenceb",
-            "label": "Damning Evidence",
-            "description": "I have compelling evidence of my quarry's activities.",
+            "label": "Evidência depreciativa",
+            "description": "Tenho provas convincentes das actividades da minha pedreira.",
             "lifetime": 300,
             "aspects": {
                 "suspicious": 1
@@ -126,8 +126,8 @@
         },
         {
             "id": "legacydetective_plotitem_burning",
-            "label": "Burning Bureau File",
-            "description": "It's almost gone! I could pluck it from the flames - ",
+            "label": "Armazendo Arquivo da Mesa",
+            "description": "Está quase desaparecido! Posso arrancá-lo das chamas - ",
             "lifetime": 10,
             "icon": "legacydetective_plotitem",
             "aspects": {
@@ -138,14 +138,14 @@
         },
         {
             "id": "legacydetective_plotitem_backup",
-            "label": "Troubling Bureau File",
+            "label": "Troubando arquivo da Mesa",
             "aspects": {
                 "desire": 1,
                 "legacyplotitem": 1,
                 "detectivetemptation": 1
             },
             "icon": "legacydetective_plotitem",
-            "description": "The evidence includes the kind of details that might make one lick one's lips, if one were interested in such things. I should not read it. The dreams might begin again."
+            "description": "As provas incluem o tipo de pormenores que podem fazer uns lábios, se nos interessarmos por essas coisas. Não deveria lê-lo. Os sonhos podem começar de novo."
         }
     ]
 }
