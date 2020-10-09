@@ -385,7 +385,7 @@
             "isHidden": true
         },
 
-        ({
+        {
             "id": "long.preference.assault",
             "isAspect": true,
             "isHidden": true
@@ -394,13 +394,13 @@
             "id": "long.preference.intrigue",
             "isAspect": true,
             "isHidden": true
-        }),
+        },
         {
             "id": "long.preference.dreamwork",
             "isAspect": true,
             "isHidden": true
         },
-        ({ "id": "long.preference.winter", "isAspect": true, "isHidden": true },
+        { "id": "long.preference.winter", "isAspect": true, "isHidden": true },
         {
             "id": "ascend",
             "label": "Ascending",
@@ -408,7 +408,7 @@
             "description": "To the next Mark.",
             "comments": "Recipe aspect",
             "noartneeded": true
-        }),
+        },
         {
             "id": "descend",
             "label": "Descending",
@@ -1057,7 +1057,7 @@
             "noartneeded": true
         },
 
-        ({
+        {
             "id": "raiseshattered",
             "label": "Transform eg a corpse to Shattered Risen",
             "isAspect": true,
@@ -1070,7 +1070,7 @@
             "isAspect": true,
             "comments": "Recipe aspect",
             "noartneeded": true
-        }),
+        },
         {
             "id": "renewshattered",
             "isAspect": true,
@@ -1189,7 +1189,7 @@
             "noartneeded": true
         },
 
-        ({
+        {
             "id": "glorify",
             "label": "A MOve toWards the GLory",
             "description": "Converts Dread to Fascination, and potential other elements to more Gloryful equivalents.",
@@ -1219,7 +1219,7 @@
             "isAspect": true,
             "comments": "Recipe aspect.",
             "noartneeded": true
-        }),
+        },
         {
             "id": "crackmirror",
             "label": "Crack Mirrors",
@@ -1514,7 +1514,7 @@
             "isAspect": true
         },
 
-        ({
+        {
             "id": "potentialbenefactorf",
             "label": "The Lady in the Box",
             "description": "A lady of means sometimes attends performances. She has been known to show a keen interest in chorus members.",
@@ -1525,7 +1525,7 @@
             "label": "A Bright-Eyed Watcher",
             "description": "Sometimes she sits in the second row, seeking new talent for her peculiar establishment. Those she employs are rarely seen about town.",
             "isAspect": true
-        }),
+        },
         {
             "id": "snarelevel",
             "label": "Snare Effectiveness",
