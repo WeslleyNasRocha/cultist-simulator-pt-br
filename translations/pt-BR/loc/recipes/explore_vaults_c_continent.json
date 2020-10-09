@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "explore_vaultcontinent1_setup",
-            "label": "Beginning an Expedition: Chateau Raveline",
+            "label": "Começando uma Expedição: Chateau Raveline",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -13,7 +13,7 @@
                 "seal_hiddendoor": 1,
                 "curse_dread": 1
             },
-            "startdescription": "The remote and rotting chateau of the Comtes des Raveline was looted long ago. We have found hints that it was not looted thoroughly enough. There may be a secret room. Equally, there may be a curse. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "O chateu remoto e podre do Comtes de Raveline foi saqueado há muito tempo. Encontrámos indícios de que não foi suficientemente saqueada. Poderá haver uma sala secreta. Da mesma forma, pode haver uma maldição. [As expedições precisam de pelo menos um fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 10,
             "craftable": true,
@@ -26,7 +26,7 @@
         },
         {
             "id": "explore_vaultcontinent2_setup",
-            "label": "Beginning an Expedition: Fermier Abbey",
+            "label": "Começando uma Expedição: Abelha de Fervorador",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -37,7 +37,7 @@
                 "peril_forest": 1,
                 "guardian_monks": 1
             },
-            "startdescription": "Fermier Abbey, folded into the forest like a jewel-box smuggled in a green robe. If we can make it through the forest, we'll still have to face the monks. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Abadia Fermier, entrou na floresta como uma caixa de jóias contrabandeada por uma varinha verde. Se pudermos atravessar a floresta, ainda teremos que enfrentar os monges. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 10,
             "craftable": true,
@@ -50,7 +50,7 @@
         },
         {
             "id": "explore_vaultcontinent3_setup",
-            "label": "Beginning an Expedition: Orthos Wood",
+            "label": "Começando uma Expedição: Madeira Orta",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -61,7 +61,7 @@
                 "peril_forest": 1,
                 "guardian_watchers": 1
             },
-            "startdescription": "In the black heart of Orthos Wood, we might find the tree where the masked Crow met its peers. But the forest itself is a peril, and the cannibal clans who live there are another. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "No coração preto da Madeira de Orthos, podemos encontrar a árvore onde o Corvo mascarado encontrou seus pares. Mas a floresta em si é um perigo, e os clãs canibais que ali vivem são outros. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 10,
             "craftable": true,
@@ -74,7 +74,7 @@
         },
         {
             "id": "explore_vaultcontinent4_setup",
-            "label": "Beginning an Expedition: the Vanderschaaf Collection",
+            "label": "Começando uma Expedição: a coleção de Vanderschaaf",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -85,7 +85,7 @@
                 "seal_wardeddoor": 1,
                 "curse_visions": 1
             },
-            "startdescription": "The door to the Painted Chamber of the Vanderschaaf Collection is locked and warded. The building is said to be 'haunted by flowers'. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "A porta da Câmara Pintada da Coleção de Vanderschaaf está trancada e prevenida. Dizem que o edifício é \"assombrado pelas flores\". [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 10,
             "craftable": true,
@@ -98,7 +98,7 @@
         },
         {
             "id": "explore_vaultcontinent5_setup",
-            "label": "Beginning an Expedition: Forman House",
+            "label": "Começando uma Expedição: Forman House",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -109,7 +109,7 @@
                 "guardian_dead": 1,
                 "curse_dread": 1
             },
-            "startdescription": "Unquestionably, this bleak mansion is haunted. The last visitor saw and fled the dead before they could touch him with their fraying hands. The visitor before that claimed she saw nothing, but she died of despair exactly one year later to the day. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "É indiscutível que esta mansão sombria é assombrada. O último visitante viu e fugiu dos mortos antes que pudesse tocá-lo com suas mãos debilitadas. O visitante afirmou que não viu nada, mas morreu de desespero exatamente um ano mais tarde. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -122,7 +122,7 @@
         },
         {
             "id": "explore_vaultcontinent6_setup",
-            "label": "Beginning an Expedition: the Key-Hunter's Garret",
+            "label": "Começando uma Expedição: o retrato do Caçador de Chaves",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -133,7 +133,7 @@
                 "guardian_serpent": 1,
                 "seal_hiddendoor": 1
             },
-            "startdescription": "Once in Vienna, we hear that the key-hunter has not been seen for many days. A local drunk insists that a great serpent entered the house to devour them. Certainly, the house is unlit and boarded up, and there is a reptile-house smell. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Uma vez em Viena, ouvimos dizer que o caçador de chaves não foi visto há muitos dias. Um bêbado local insiste que uma grande serpente entrou na casa para devorá-los. Certamente, a casa não está iluminada e se ergue, e há um cheiro de répteis. [As expedições precisam de pelo menos um fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -146,7 +146,7 @@
         },
         {
             "id": "explore_vaultcontinentdefault_setup",
-            "label": "Beginning an Expedition: the Unnumbered Stones",
+            "label": "Começando uma Expedição: as Pedras Sem Número",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -158,7 +158,7 @@
                 "seal_hiddendoor": 1,
                 "guardian_watchers": 1
             },
-            "startdescription": "Treasure-seekers visiting the Stones must penetrate the forest that conceals them; grapple with the locals who revere them; and finally be prepared to do some digging, even if they can find a hidden door. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Os caçadores de tesouros que visitam as Pedras devem penetrar a floresta que os esconde, agarrar com os moradores que os reverteram; e, finalmente, esteja preparado para cavar, mesmo que encontrem uma porta escondida. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 10,
             "craftable": true,
@@ -171,7 +171,7 @@
         },
         {
             "id": "explorevaultcontinent1_success",
-            "label": "Childhood's End",
+            "label": "Fim das Crianças",
             "actionid": "explore",
             "requirements": {
                 "vaultcontinent1": 1
@@ -191,14 +191,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "Behind a rotting tapestry of wolves hunting men, a panelled wall. In the panelled wall, a secret door. The spring is long gone, of course. We had to smash it in with hammers.",
-            "description": "The last treasures of the Comtes des Raveline lie here, in a surprisingly airy room. High skylight windows have long since broken, and the floor is lost underneath leaves and debris, but once the place was furnished as a nursery. Here is a cradle, with the skeleton of a puppy.",
+            "startdescription": "Atrás de uma tapeçaria podre de caçadores de lobos, uma parede de painéis. Na parede de painéis, uma porta secreta. A primavera já se foi, é claro. Tivemos de a esmagar com martelos.",
+            "description": "Os últimos tesouros dos Comtes de Raveline estão aqui, numa sala surpreendentemente de ar. Janelas de alto céu há muito que foram quebradas e o chão se perde debaixo de folhas e detritos, mas uma vez que o local foi movido como infantário. Aqui está um berço com o esqueleto de um cachorrinho.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcontinent2_success",
-            "label": "Beneath the Boughs",
+            "label": "Sob os Bughs",
             "actionid": "explore",
             "requirements": {
                 "vaultcontinent2": 1
@@ -219,14 +219,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "The monks and their miseries lie behind us. Here in their chapel-courtyard, a great yew rises beside a granite altar, lidded like a sarcophagus. What's within?",
-            "description": "The space inside the altar is filled with broken cups, every one painted red, every one scrawled with vile graffiti and otherwise befouled. The monks must have held great ceremonies of detestation, and kept the remains as trophies. Buried among the cup-corpses are other treasures.",
+            "startdescription": "Os monges e os seus disfuncionamentos estão atrás de nós. Aqui em seu pátio-capela, um grande queixo sobe ao lado de um altar de granito, disfarçado como um sarcófago. O que tem dentro?",
+            "description": "O espaço dentro do altar é preenchido com xícaras quebradas, cada um de vermelho pintado, cada um rastejado com graffiti malvado e, de outra forma, batido. Os monges devem ter realizado grandes cerimônias de detestação, e mantido as restas como troféus. Buried entre os copos são outros tesouros.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcontinent3_success",
-            "label": "The Memory of Crows",
+            "label": "A Memória dos Crows",
             "actionid": "explore",
             "requirements": {
                 "vaultcontinent3": 1
@@ -245,14 +245,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "This is the great oak where the masked Crow once roosted. Lightning has split it from head to heart, and the tree is charred and rotting. It squirms with finger-length worms. Something glints dully in the swarm of dead roots.",
-            "description": "A root coils around an egg of lead the size of a child. Perhaps it was plated with another metal, once, but the weather has removed all trace of any coating. After a struggle, the halves of the egg come apart to reveal its contents.",
+            "startdescription": "Este é o grande carvalho onde o corvo mascarado um dia rugiu. O relâmpago dividiu-o da cabeça ao coração, e a árvore é carbonizada e apodrecida. Ele se esquila com vermes do tempo dos dedos. Algo brilha completamente no enxame de raízes mortas.",
+            "description": "Uma bobina raiz em torno de um ovo de chumbo do tamanho de uma criança. Talvez tenha sido banhado com outro metal, uma vez, mas o tempo removeu todo o vestígio de qualquer revestimento. Depois de uma luta, as metades do ovo se desmoronam para revelar seu conteúdo.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcontinent4_success",
-            "label": "In the Painted Chamber",
+            "label": "Na Câmara Pintada",
             "actionid": "explore",
             "requirements": {
                 "vaultcontinent4": 1
@@ -274,14 +274,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "The walls of the Painted Chamber carry scenes of war from all the major histories - Vienna falling to the Worms, the Sovereigns of the Leashed Flame burning the martyr-soldiers of the Knot Sisterhood, the meeting of Alexander and the Shadowless King. Along one wall, a shelf is stuffed with junk and curiosities.",
-            "description": "A book of pressed flowers emanating a peculiar scent; three elderly Baedekers; a collection of butterflies painted black and white; and the real treasures. An oddity in a glass case and a  cloisonnéd coffer of rare books.",
+            "startdescription": "As paredes da Câmara Pintada trazem cenas de guerra de todas as principais histórias - Viena caindo para os Vermões, os Soberanos da Chama Laminada queimando os soldados mártires da Irmandade de Knot Sisterland, a reunião de Alexandre e o Rei sem Sombra. Em uma parede, uma prateleira é preenchida com lixo e curiosidades.",
+            "description": "Um livro de flores pressionadas que emana um cheiro peculiar; três baedeiros idosos; uma coleção de borboletas pintadas em preto e branco; e os verdadeiros tesouros. Uma curiosidade em um caso de vidro e um cofre de cloisonne├d de livros raros.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcontinent5_success",
-            "label": "The Casts",
+            "label": "O Lingotamento",
             "actionid": "explore",
             "requirements": {
                 "vaultcontinent5": 1
@@ -300,14 +300,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "In the room that overlooks the grimy glass of the broken conservatory, twisted shapes yellow-pale as maggots recline on slabs of wood. These are the plaster-casts that Forman made of the poor souls inhabited by the creatures he studied. In some of the figures, the entry-holes are visible in the relevant surface. In others, we might assume the creatures entered by ear, or mouth, or elsewhere. ",
-            "description": "The room is empty. But at last, when we chance to break one of the casts, we find Forman's library-treasures, cached in the figure's yellowing abdomen.",
+            "startdescription": "Na sala, que ignora o copo grisalho do conservador quebrado, formas torcidas pálidas de amêijoa como pomposas reclinam em placas de madeira. Estas são as jogadas de gesso que Forman fez das pobres almas habitadas pelas criaturas que ele estudou. Em alguns dos números, os buracos de entrada são visíveis na superfície relevante. Noutros, podemos assumir as criaturas que estão ouvindas, ou bocas, ou em qualquer outro lugar. ",
+            "description": "O quarto está vazio. Mas, finalmente, quando temos a oportunidade de quebrar um dos lençóis, encontramos os tesouros da biblioteca de Forman, guardados no abdômen de uma figura.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcontinent6_success",
-            "label": "Ashes Above",
+            "label": "Cinzas Acima",
             "actionid": "explore",
             "requirements": {
                 "vaultcontinent6": 1
@@ -326,14 +326,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "The room stinks of serpent-musk and burnt paper. Someone has comprehensively destroyed all the records they could find. They've even scrubbed the walls clean. Cold ashes choke the fireplace. No trace of the poor soul who rented this place remains.",
-            "description": "A single corner of fire-curled paper has survived the flames. In a shaky hand, it reads: 'Lady K. Green Chalcedony. Three-lobed. Spring leaves in fi -' But, unexpectedly,in a suitcase beside the flames, a little trove of books survives. Whoever destroyed the key-hunter's journals saw no need to burn these books.",
+            "startdescription": "Os cômodos fedem de músculo serpente e papel queimado. Alguém destruiu exaustivamente todos os registros que poderiam encontrar. Até mesmo esfregaram as paredes limpas. Cinzas frias estrangulam a lareira. Não há vestígios da pobre alma que alugou este lugar restante.",
+            "description": "Um único canto de papel com enrolamento de fogo sobreviveu às chamas. Em uma mão instável, diz: 'Dama K. Cansado verde. A primavera parte em cinco mas, inesperadamente, na mala ao lado das chamas, sobrevive um pouco de livros. Quem destruiu os jornalistas do caçador de chaves não viu necessidade de queimar estes livros.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcontinentdefault_success",
-            "label": "Beneath the Stone",
+            "label": "Sob a Pedra",
             "actionid": "explore",
             "requirements": {
                 "vaultcontinentdefault": 1
@@ -344,8 +344,8 @@
             "deckeffects": {
                 "vaultrewardsc": 3
             },
-            "startdescription": "The moonlight bleaches the grass to winter. All around, the stones loom. Here in the tumulus side beneath the turf is a stone that will rise like a trap-door. We must put our backs into it. ",
-            "description": "The chamber inside the tumulus has half-collapsed with the years. Fat white spiders crawl from the touch of our lamplight, insolently slow. The stone reliefs are cracked and dripping. But here is the offering-hole still, with its treasures.",
+            "startdescription": "O luar escorre a grama até o inverno. Em volta, as pedras estão a caminho. Aqui no lado tumulto sob o turf está uma pedra que se levantará como uma armadilha. Precisamos colocar as costas nela. ",
+            "description": "A câmara dentro do tumulus desabou pela metade com os anos. As aranhas gordas brancas rastejam pelo toque de nossa lâmpada, insolentemente lentas. Os relevos de pedra estão rachados e pingando. Mas aqui está ainda o buraco oferecido, com seus tesouros.",
             "warmup": 30,
             "craftable": false,
             "linked": [
