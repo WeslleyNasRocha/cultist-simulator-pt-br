@@ -2,15 +2,15 @@
     "recipes": [
         {
             "id": "deathofthebody",
-            "label": "No Health is left",
+            "label": "Não há saúde restante",
             "actionid": "healthend",
             "requirements": {
                 "health": -1,
                 "fatigue": -1
             },
             "effects": {},
-            "startdescription": "My life is slipping away -",
-            "description": "Where will they find me? I am not here.",
+            "startdescription": "Minha vida está deslizando -",
+            "description": "Onde eles vão me encontrar? Eu não estou aqui.",
             "warmup": 0,
             "craftable": false,
             "ending": "deathofthebody",
@@ -18,7 +18,7 @@
         },
         {
             "id": "forlornblooddeathofthebody",
-            "label": "No Health is left",
+            "label": "Não há saúde restante",
             "actionid": "healthend",
             "requirements": {
                 "health": -1,
@@ -26,8 +26,8 @@
                 "apostlegrail.pillar2": -1
             },
             "effects": {},
-            "startdescription": "The wrongness in my bones has overcome me. Unless I can muster my strength, or taste the blood of our Delight, it's over.",
-            "description": "Where will they find me? I am not here.",
+            "startdescription": "A injustiça em meus ossos me superou. A menos que eu possa mexer minha força ou provar o sangue da nossa satisfação, acabou.",
+            "description": "Onde eles vão me encontrar? Eu não estou aqui.",
             "warmup": 0,
             "craftable": false,
             "ending": "deathofthebody",
@@ -35,14 +35,14 @@
         },
         {
             "id": "workvictory",
-            "label": "I will settle into a comfortable existence",
+            "label": "Participarei numa existência confortável",
             "actionid": "workwin",
             "requirements": {
                 "passion": 1
             },
             "effects": {},
-            "startdescription": "I've given up my dreams; I'll live well enough.",
-            "description": "It is finished",
+            "startdescription": "Desisti de meus sonhos; vou viver bem o bastante.",
+            "description": "Está finalizado",
             "warmup": 0,
             "craftable": false,
             "ending": "workvictory",
