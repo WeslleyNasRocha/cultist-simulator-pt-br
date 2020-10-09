@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "worktemplatejob",
-            "label": "Start template Job",
+            "label": "Iniciar job modelo",
             "actionid": "work",
             "requirements": {
                 "legacytemplatejob": 1
@@ -60,7 +60,7 @@
         },
         {
             "id": "templateopendream",
-            "label": "OPEN DREAM",
+            "label": "DREAM ABERTO",
             "actionid": "dream",
             "startdescription": "",
             "description": "",
@@ -79,7 +79,7 @@
         },
         {
             "id": "templateopenstudy",
-            "label": "OPEN STUDY",
+            "label": "ABRIR ESTUDO",
             "actionid": "study",
             "startdescription": "",
             "description": "",
@@ -98,7 +98,7 @@
         },
         {
             "id": "templateopenexplore",
-            "label": "OPEN EXPLORE",
+            "label": "ABRIR EXPLORA",
             "actionid": "explore",
             "startdescription": "",
             "description": "",

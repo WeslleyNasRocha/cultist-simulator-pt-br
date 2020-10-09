@@ -9,8 +9,8 @@
         },
         {
             "id": "tooledgeb",
-            "label": "Meteoric Bullet",
-            "description": "Taenite-iron bullets are occasionally dug from the skeletons of unusual beasts, across Europe, the Middle East and India. Someone has been hunting monsters.",
+            "label": "Bala Meteórica",
+            "description": "Balas de ferro Taenid são ocasionalmente escavadas dos esqueletos das bestas incomuns, em toda a Europa, no Médio Oriente e na Índia. Alguém tem caçado monstros.",
             "aspects": {
                 "edge": 4,
                 "auctionable": 3,
@@ -21,7 +21,7 @@
         {
             "id": "tooledged",
             "label": "Biedde's Blade",
-            "description": "A cut from this blade will not cease bleeding until the wound is healed. One account has it that Biedde was a knife-collecting surgeon-highwayman in eighteenth-century Toulouse. Another claims Biedde is only the bastardisation of an Arabic word for 'mosquito'.",
+            "description": "Um corte desta lâmina não deixará de sangrar até que a ferida seja curada. Um deles diz que Biedde era um cirurgião que recolheu facas em Toulouse, no século XVIII. Outra alegação é que Biedde é apenas a desgraça de uma palavra árabe para \"mosquito\".",
             "aspects": {
                 "edge": 8,
                 "auctionable": 5,
@@ -32,7 +32,7 @@
         {
             "id": "tooledgef",
             "label": "Furious Sliver",
-            "description": "When the Lionsmith turned against the Colonel, he crushed his own sword in his fist. Each tiniest fragment of that weapon still thrills with rage.",
+            "description": "Quando o Ferreiro de Leão virou-se contra o Coronel, ele esmagou sua própria espada no punho. Cada fragmento ínfimo dessa arma ainda empola de fúria.",
             "aspects": {
                 "edge": 12,
                 "auctionable": 6,
@@ -43,7 +43,7 @@
         {
             "id": "toolforgeb",
             "label": "Cinnabar Amulet",
-            "description": "Scarlet is the colour of heat. Mercury holds one key to an ultimate dissolution.",
+            "description": "Escarlate é a cor do calor. Mercúrio contém uma chave para a dissolução final.",
             "aspects": {
                 "forge": 4,
                 "auctionable": 3,
@@ -53,8 +53,8 @@
         },
         {
             "id": "toolforged",
-            "label": "Malleus Imperative",
-            "description": "A tiny ear-bone, blackened by intense heat. Applied correctly, it can crack stone.",
+            "label": "Imperativo de Malleus",
+            "description": "Um pequeno osso de orelha, enegrecido pelo calor intenso. Aplicado corretamente, pode quebrar pedra.",
             "aspects": {
                 "forge": 8,
                 "auctionable": 5,
@@ -64,8 +64,8 @@
         },
         {
             "id": "toolforgef",
-            "label": "Carcass Spark",
-            "description": "A remnant of a greater radiance, glowing softly as decay. Just possibly, a mote of the divided Sun.",
+            "label": "Faísca de Carcaça",
+            "description": "Um remanescente de uma maior radiação, brilhando suavemente como decrescente. Possivelmente, um fardo do Sol dividido.",
             "aspects": {
                 "forge": 12,
                 "auctionable": 6,
@@ -75,8 +75,8 @@
         },
         {
             "id": "toolgrailmoth",
-            "label": "Whispering Amulet",
-            "description": "It knows what I desire; or I imagine that it does.",
+            "label": "Amuleto Sussurrante",
+            "description": "Sabe o que eu desejo; ou imagino que faça.",
             "aspects": {
                 "grail": 2,
                 "moth": 2,
@@ -87,8 +87,8 @@
         },
         {
             "id": "toolgrailb",
-            "label": "Stained Gloves",
-            "description": "What uses have these known? What lessons might they teach my hands?",
+            "label": "Luvas Coloridas",
+            "description": "O que as utilizações têm conhecidas? Que lições eles poderiam ensinar as minhas mãos?",
             "aspects": {
                 "grail": 4,
                 "auctionable": 3,
@@ -99,7 +99,7 @@
         {
             "id": "toolgraild",
             "label": "Hallowed Polos",
-            "description": "The ring-crown of a savage mother, stained with essence, woven with scraps of hair and blessed with flecks of skin.",
+            "description": "A coroa de anel de uma mãe selvagem, manchada com a essência, tecida com restos de cabelo e abençoada com lebres.",
             "aspects": {
                 "grail": 8,
                 "auctionable": 5,
@@ -110,7 +110,7 @@
         {
             "id": "toolgrailf",
             "label": "Chalice Murmurous",
-            "description": "On those nights when we drink from the chalice, we are not certain, afterwards, what we have done. But, we may be assured, it is what always has been done, and if we do not remember, our children will, in their redmost dreams.",
+            "description": "Nas noites em que bebemos do charco, não sabemos depois, depois, o que fizemos. Mas podemos estar seguros de que foi sempre o que se fez, e se não nos lembrarmos, os nossos filhos farão, nos seus sonhos mais rudimentares.",
             "aspects": {
                 "grail": 12,
                 "auctionable": 6,
@@ -120,8 +120,8 @@
         },
         {
             "id": "toolheartb",
-            "label": "Marruvine Idol",
-            "description": "The Marruvii would make little wooden idols to placate the witch-twins they feared in their lake. The lake is almost dry now, but the idols and the witch-twins yet remain, yet shadowed with the aspect of the Heart.",
+            "label": "Ídolo Marruvino",
+            "description": "Os Marruvii faziam pequenos ídolos de madeira para apaziguar os gêmeos bruxos que eles temiam no lago. O lago está quase seco agora, mas os ídolos e os gêmeos das bruxas ainda permanecem, mas sombrios com o aspecto do Coração.",
             "aspects": {
                 "heart": 4,
                 "auctionable": 3,
@@ -131,8 +131,8 @@
         },
         {
             "id": "toolheartd",
-            "label": "Wakeful Tympanum",
-            "description": "In the grove where they flayed the thunder, they rattled their instruments to rouse the frenzy. The power still clings, like scent.",
+            "label": "Tmpano Venenoso",
+            "description": "No bosque onde esfolaram o trovão, ralharam seus instrumentos para encher a frenesia. O poder ainda se agita, como cheiro.",
             "aspects": {
                 "heart": 8,
                 "auctionable": 5,
@@ -142,8 +142,8 @@
         },
         {
             "id": "toolheartf",
-            "label": "Kingskin Bodhrán",
-            "description": "In the deep forests, the monarch gave up the last thing they had to give, and so the tool was shaped to keep their land forever safe. Then, of course, an empire stole it, as empires do.",
+            "label": "Bodhran Kingskin",
+            "description": "Nas florestas profundas, o monarca desistiu da última coisa que teve que dar, e por isso a ferramenta foi moldada para manter a terra sempre segura. Então, é claro, um império roubou-o, como fazem os impérios.",
             "aspects": {
                 "heart": 12,
                 "auctionable": 6,
@@ -153,8 +153,8 @@
         },
         {
             "id": "toolknockb",
-            "label": "Icon of St Agnes",
-            "description": "St Agnes of Bohemia was renowned for her pious dedication to the mortification of the flesh. This icon makes for grisly viewing.",
+            "label": "Ícone de St Agnes",
+            "description": "St Agnes da Boémia foi famosa por sua piedosa dedicação à mortificação da carne. Este ícone faz para uma visualização desagradável.",
             "aspects": {
                 "knock": 4,
                 "auctionable": 3,
@@ -164,8 +164,8 @@
         },
         {
             "id": "toolknockd",
-            "label": "Consecrated Lintel",
-            "description": "This is the skull of a door through which power has passed.",
+            "label": "Lintel Consagrado",
+            "description": "Este é o crânio de uma porta pela qual a energia passou.",
             "aspects": {
                 "knock": 8,
                 "auctionable": 5,
@@ -176,7 +176,7 @@
         {
             "id": "toolknockf",
             "label": "Frangiclave",
-            "description": "There are keys that open doors; then there are keys that destroy them.",
+            "description": "Há chaves que abrem portas; depois há chaves que as destruem.",
             "aspects": {
                 "knock": 12,
                 "auctionable": 6,
@@ -186,8 +186,8 @@
         },
         {
             "id": "toollanternb",
-            "label": "Noonstone",
-            "description": "Noon, the saying goes, is not what it was; but this polished stone still retains a sunset glow.",
+            "label": "Pedra-de-noite",
+            "description": "Noon, o ditado diz que não é o que foi; mas esta pedra polida ainda mantém um brilho do pôr do sol.",
             "aspects": {
                 "lantern": 4,
                 "auctionable": 3,
@@ -200,8 +200,8 @@
         },
         {
             "id": "toollanternd",
-            "label": "Wildering Mirror",
-            "description": "A multiplicity of vistas! A bewilderment of views! Gaze upon me, and rejoice in the dissolution of your senses!",
+            "label": "Espelho Adormecido",
+            "description": "Uma multiplicidade de vistas! Uma perplexidade de opiniões! Olhem para mim e se alegre com a dissolução de seus sentidos!",
             "aspects": {
                 "lantern": 8,
                 "auctionable": 5,
@@ -215,8 +215,8 @@
         },
         {
             "id": "toollanternf",
-            "label": "Watchman's Glass",
-            "description": "This is the mirror into which one does not look twice.",
+            "label": "Vidro do Observador",
+            "description": "Este é o espelho para o qual não se olha duas vezes.",
             "aspects": {
                 "lantern": 12,
                 "auctionable": 6,
@@ -230,8 +230,8 @@
         },
         {
             "id": "toolmothb",
-            "label": "Wingèd Doll",
-            "description": "In an attic above a skeleton house there was a window. Beside the window there was a box. In the box there was a bandage. In the bandage was a twist of clotted hair. In the hair was wound a doll, because the window had never been opened.",
+            "label": "Boneca Alada",
+            "description": "Em um sótão acima da casa de um esqueleto havia uma janela. Ao lado da janela havia uma caixa. Na caixa havia uma bandagem. No banquete havia uma torção de cabelo coçado. No cabelo estava ferindo uma boneca, porque a janela nunca tinha sido aberta.",
             "aspects": {
                 "moth": 4,
                 "auctionable": 3,
@@ -240,8 +240,8 @@
         },
         {
             "id": "toolmothd",
-            "label": "Dappled Mask",
-            "description": "In the forest where the moon couldn't go, the boughs of the trees were woven together like bandages or lovers. The moon might change herself to an ant or to a bird or to her sister, but the forest would not yield to her penetrations, no matter her caresses. One day we came with our scissors, and we severed the branches until the moon and the blood dappled the rotting leaves on the forest floor.",
+            "label": "Máscara Atordoada",
+            "description": "Na floresta onde a lua não podia ir, os compradores das árvores estavam juntos como bandagens ou amantes. A lua pode mudar a si mesma para uma formiga ou para um pássaro ou para sua irmã, mas a floresta não cederia às suas penetrações, não importa as suas cuidados. Um dia viemos com a nossa tesoura, e cortámos os galhos até a lua e o sangue durou as folhas podres no chão da floresta.",
             "aspects": {
                 "moth": 8,
                 "auctionable": 5,
@@ -251,8 +251,8 @@
         },
         {
             "id": "toolmothf",
-            "label": "Alakapurine Shears",
-            "description": "In the North there is a city of great wealth where dwelt a protector of the world. One day he fell silent. These shears were used to take from him first his hair and then his fingers and then what remained.",
+            "label": "Tesoura de Alakapurine",
+            "description": "No Norte há uma cidade de grande riqueza onde habita um protetor do mundo. Um dia ele se calou. Estes toscos costumavam tirar dele primeiro o cabelo, depois os dedos e depois o que sobrava.",
             "aspects": {
                 "moth": 12,
                 "auctionable": 6,
@@ -262,8 +262,8 @@
         },
         {
             "id": "toolsecrethistoriesb",
-            "label": "Paradoxical Curio",
-            "description": "Sometimes, it is hard to be sure if an arrow slew the Empress Herodias, or the Empress Eudokia. Sometimes, it is possible that an ormolu clock was stolen in the sack of Vienna even as it rested safe in the vaults of Rome.",
+            "label": "Cubo Paradoxical",
+            "description": "Às vezes, é difícil ter certeza se uma flecha matou os Heróis Impressionantes ou a Eudokia. Por vezes, é possível que um relógio de ormolu tenha sido roubado no saco de Viena, mesmo quando descansava em segurança nos cofres de Roma.",
             "aspects": {
                 "secrethistories": 4,
                 "auctionable": 3,
@@ -273,8 +273,8 @@
         },
         {
             "id": "toolsecrethistoriesd",
-            "label": "Atlas of Dreams",
-            "description": "The shape of the world changes in each past, but the shape of the Mansus is reflected in all of them. One cannot map the Mansus, but one can make an attempt to map its reflections.",
+            "label": "Atlas dos Sonhos",
+            "description": "A forma do mundo muda em cada passado, mas a forma do Mansus reflecte-se em todos eles. Não se pode mapear os Mansus, mas se pode fazer uma tentativa de mapear suas reflexões.",
             "aspects": {
                 "secrethistories": 8,
                 "auctionable": 5,
@@ -284,8 +284,8 @@
         },
         {
             "id": "toolwinterb",
-            "label": "Bone Flute",
-            "description": "Its sound will cease.",
+            "label": "Flauta de Osso",
+            "description": "Seu som vai acabar.",
             "aspects": {
                 "winter": 4,
                 "auctionable": 3,
@@ -295,8 +295,8 @@
         },
         {
             "id": "toolwinterd",
-            "label": "Elagabaline Manacle",
-            "description": "It does not relinquish its grip.",
+            "label": "Mamãe Elagulha",
+            "description": "Não abdica da sua influência.",
             "aspects": {
                 "winter": 8,
                 "auctionable": 5,
@@ -306,8 +306,8 @@
         },
         {
             "id": "toolwinterf",
-            "label": "Division Bell",
-            "description": "First, its voice, and after, nothing.",
+            "label": "Sino de Divisão",
+            "description": "Em primeiro lugar, a sua voz, e depois, nada.",
             "aspects": {
                 "winter": 12,
                 "auctionable": 6,
@@ -317,8 +317,8 @@
         },
         {
             "id": "toollanternbcracked",
-            "label": "Cracked Noonstone",
-            "description": "Noon, the saying goes, is not what it was; but this stone still retains an embery glow. It has been cracked. A Forge-aspected follower could restore it, with sufficient resources - or I could use up what power remains in it.",
+            "label": "Pedra-Nove Rachada",
+            "description": "Não, o provérbio não é o que era; mas esta pedra continua a reter um brilho inflamado, mas foi rachada. Um seguidor inventado por Forge-Forge poderia restaurá-lo, com recursos suficientes - ou eu poderia usar o poder que resta.",
             "aspects": {
                 "lantern": 1,
                 "ingredient": 1
@@ -326,8 +326,8 @@
         },
         {
             "id": "toollanterndcracked",
-            "label": "Cracked Wildering Mirror",
-            "description": "A deep crack runs across the shimmering metal. A Forge-aspected follower could repair it, with sufficient resources - or I could use up what power remains in it.",
+            "label": "Espelho Selvagem Rachado",
+            "description": "Uma rachadura profunda atravessa o metal cintilante. Um seguidor falsificado poderia repará-lo, com recursos suficientes - ou eu poderia usar o poder que resta.",
             "aspects": {
                 "lantern": 2,
                 "ingredient": 1
@@ -335,8 +335,8 @@
         },
         {
             "id": "toollanternfcracked",
-            "label": "Cracked Watchman's Glass",
-            "description": " A Forge-aspected follower could repair it, but the cost would be high - or I could use up what power remains in it.",
+            "label": "Vidro de Vigia Rachado",
+            "description": " Um seguidor inventado por Forge poderia repará-lo, mas o custo seria elevado - ou eu poderia usar o poder que resta.",
             "aspects": {
                 "lantern": 3,
                 "ingredient": 1
@@ -344,8 +344,8 @@
         },
         {
             "id": "paintingmasteredge",
-            "label": "'Colonel and Lionsmith'",
-            "description": "Since Issus have they striven so.",
+            "label": "'Coronel e Ferreiro de Leão'",
+            "description": "Uma vez que as questões se esforçam nesse sentido.",
             "aspects": {
                 "edge": 8,
                 "auctionable": 5,
@@ -355,8 +355,8 @@
         },
         {
             "id": "paintingmasterforge",
-            "label": "'The Forge of Days'",
-            "description": "If the Forge could regret, it would regret the Intercalate, but in all its other work, it knows joy.",
+            "label": "\"A Forja de Dias'",
+            "description": "Se a Forja se arrependesse, lamentaria o Intercalado, mas em todo o seu outro trabalho, conhece alegria.",
             "aspects": {
                 "forge": 8,
                 "auctionable": 5,
@@ -366,8 +366,8 @@
         },
         {
             "id": "paintingmastergrail",
-            "label": "'The Red Grail'",
-            "description": "She did not split the Sun, but here we might imagine how she must have desired it.",
+            "label": "\"O trilho vermelho\"",
+            "description": "A senhora deputada não dividiu o Sol, mas neste caso podemos imaginar o que deveria ter desejado.",
             "aspects": {
                 "grail": 8,
                 "auctionable": 5,
@@ -377,8 +377,8 @@
         },
         {
             "id": "paintingmasterheart",
-            "label": "'The Sister-and-Witch'",
-            "description": "She has been a pair of funeral birds, but here she is as she would wish to drown.",
+            "label": "\"A Irmã e Bruxa\"",
+            "description": "Tem sido uma espécie de pássaros fúnebres, mas aqui está que gostaria de afogar.",
             "aspects": {
                 "heart": 8,
                 "auctionable": 5,
@@ -388,8 +388,8 @@
         },
         {
             "id": "paintingmasterknock",
-            "label": "'The Mother of Ants'",
-            "description": "Even in the days of Elam, she had begun to appear thus.",
+            "label": "'A Mãe das Bigornas'",
+            "description": "Mesmo nos dias de Elam, ela começou a aparecer assim.",
             "aspects": {
                 "knock": 8,
                 "auctionable": 5,
@@ -399,8 +399,8 @@
         },
         {
             "id": "paintingmasterlantern",
-            "label": "'The Door in the Eye'",
-            "description": "He came from the Glory. We cannot help but see.",
+            "label": "'A porta no olho'",
+            "description": "Ele veio do Glória. Não podemos deixar de ver.",
             "aspects": {
                 "lantern": 8,
                 "auctionable": 5,
@@ -410,8 +410,8 @@
         },
         {
             "id": "paintingmastermoth",
-            "label": "'The Moth'",
-            "description": "In the forests of the first continent, our ancestors cursed themselves with their own god.",
+            "label": "\"A Lua\"",
+            "description": "Nas florestas do primeiro continente, os nossos antepassados amaldiçoavam-se com o seu próprio deus.",
             "aspects": {
                 "moth": 8,
                 "auctionable": 5,
@@ -421,8 +421,8 @@
         },
         {
             "id": "paintingmastersecrethistories",
-            "label": "'Teresa and Christopher'",
-            "description": "Love, like the Mansus, defies boundaries.",
+            "label": "'Teresa e Christopher'",
+            "description": "O amor, tal como o Mansus, desafia fronteiras.",
             "aspects": {
                 "secrethistories": 8,
                 "auctionable": 5,
@@ -432,8 +432,8 @@
         },
         {
             "id": "paintingmasterwinter",
-            "label": "'The Wolf-Divided'",
-            "description": "CAPUT GERAT LUPINUM. The Sun was divided, and this is its wound.",
+            "label": "''O Lobo-Divide''",
+            "description": "GERAT CAPUT LUPINUM. O Sol foi dividido, e esta é sua ferida.",
             "aspects": {
                 "winter": 8,
                 "auctionable": 5,
@@ -443,14 +443,14 @@
         },
         {
             "id": "canvas.pale",
-            "label": "A Pale Canvas",
-            "description": "I must go very carefully. The memories that I need to convey will take flight from the canvas if I depict them too strongly. I will find those memories in the flesh of the dead... and perhaps even, if I must, in my own dying flesh.",
+            "label": "Uma tela pálida",
+            "description": "Tenho de ir muito atentamente: as memórias que preciso de transmitir levarão da tela se as retratar com demasiada veemência. Encontrarei essas memórias na carne dos mortos... e talvez mesmo, se assim o entender, na minha carne moribunda.",
             "aspects": {}
         },
         {
             "id": "painting.palest",
-            "label": "The Palest Painting",
-            "description": "'Six were lost, thirty remain.' The canvas is not white. Look closely, and see the hinted shapes of the Hours long lost, walking the winding path to the door into Nowhere. Look too closely, and find yourself lost to weeping.",
+            "label": "A pintura mais pálida",
+            "description": "'Perderam-se seis vezes, trinta restos.' A tela não é branca. Olhe de perto, e veja as formas sugeridas das Horas há muito perdidas, andando o caminho sinuoso até a porta para o nada. Olhe de perto demais e veja se perdeu para chorar.",
             "aspects": {
                 "ascension.remembrance.offering": 1
             }

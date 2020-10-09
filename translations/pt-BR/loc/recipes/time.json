@@ -16,7 +16,7 @@
         },
         {
             "id": "needs",
-            "label": "Time Passes",
+            "label": "Passes de Tempo",
             "actionid": "time",
             "requirements": {},
             "alt": [
@@ -66,19 +66,19 @@
                     "additional": true
                 }
             ],
-            "startdescription": "Time, the sundial's shadow, passes. I must have Funds to live, or I will become ill.",
+            "startdescription": "Hora, a sombra do sol passa. Preciso de Fundos para viver, ou me adoecerei.",
             "description": ".",
             "warmup": 60,
             "slots": [
                 {
                     "id": "Expenses",
-                    "label": "Expenses",
+                    "label": "Despesas",
                     "required": {
                         "funds": 1
                     },
                     "greedy": true,
                     "noanim": true,
-                    "description": "The shop-keepers will have their due. I must pay it or starve."
+                    "description": "Os comerciantes terão os seus devidos deveres. Tenho que pagá-la ou morrer."
                 }
             ],
             "linked": [
@@ -106,10 +106,10 @@
         },
         {
             "id": "presickness",
-            "label": "The Price of Joy",
+            "label": "O Preço da Alegria",
             "actionid": "illhealth",
             "comments": "to lead into actual sickness from opium abuse, which requires Season Of",
-            "startdescription": "My breathing has been laboured; my thoughts confused. Perhaps I should not have indulged so freely in that cure for pain.",
+            "startdescription": "A minha respiração foi trabalhada; a minha opinião confusa, talvez não devesse ter sido tão livre nessa cura de dor.",
             "effects": {
                 "seasonsickness": 1
             },
@@ -122,10 +122,10 @@
         },
         {
             "id": "sickness",
-            "label": "Sickness",
+            "label": "Doença",
             "actionid": "illhealth",
-            "startdescription": "I've become unwell!",
-            "description": "This illness has damaged my health. I'll need to rest before I am fully recovered. [Cure your Affliction with Funds or Vitality.]",
+            "startdescription": "Eu fiquei inbem!",
+            "description": "Esta doença danificou minha saúde. Vou precisar descansar antes de ser totalmente recuperado. [Cure sua Afeição com Fundos ou Vitalidade.]",
             "requirements": {
                 "seasonsickness": 1
             },
@@ -136,7 +136,7 @@
             "slots": [
                 {
                     "id": "Affliction",
-                    "label": "Health",
+                    "label": "Vida",
                     "required": {
                         "health": 1,
                         "follower_wound": 1,
@@ -171,12 +171,12 @@
         {
             "id": "signalupcomingsicknessdeath",
             "actionid": "sickness",
-            "label": "Sickness",
+            "label": "Doença",
             "requirements": {
                 "health": -1,
                 "fatigue": -1
             },
-            "startdescription": "I've become unwell! [If an illness cannot consume Health, it will kill you... unless you have special protection.]",
+            "startdescription": "Eu me incómodo! [Se uma doença não pode consumir saúde, ela vai te matar... a menos que você tenha proteção especial.]",
             "comments": "need this here so we can have a warning if there's no health; then we link to the stay of execution attempt so we can have a new slot.",
             "signalEndingFlavour": "Melancholy",
             "linked": [
@@ -189,18 +189,18 @@
         {
             "id": "sickness.nohealthavailable.tryforstayofexecution",
             "actionid": "illhealth",
-            "label": "Mortal Peril",
+            "label": "Perigo Mortal",
             "slots": [
                 {
                     "id": "sicknessprotection",
-                    "label": "Protection",
+                    "label": "Proteção",
                     "required": {
                         "sicknessprotection": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "The sickness will end me, unless I have made extraordinary arrangements to protect my health...",
+            "startdescription": "A doença acabará, a menos que eu tenha tomado medidas extraordinárias para proteger a minha saúde...",
             "requirements": {
                 "health": -1,
                 "fatigue": -1
@@ -212,11 +212,11 @@
                 {
                     "id": "protectedagainstsickness",
                     "actionid": "sickness",
-                    "label": "Not This Time",
+                    "label": "Não Desta vez",
                     "requirements": {
                         "sicknessprotection": 1
                     },
-                    "startdescription": "Flesh has limits, and now my flesh would fail: but a mark of mortal grace has been set upon me, and it will not fail today. [Your Stay of Execution has spared you from the ravages of sickness.]",
+                    "startdescription": "A carne tem limites, e agora minha carne falharia: mas uma marca de graça mortal foi definida para mim, e hoje não vai falhar. [Sua Manutenção na Execução o poupou dos danos causados pela doença.]",
                     "effects": {
                         "sicknessprotection": -1,
                         "influenceheart": 1
@@ -226,7 +226,7 @@
                     "id": "mareendingsickness",
                     "chance": 100,
                     "actionid": "sickness",
-                    "label": "The Mare In Me",
+                    "label": "A Madre em Mim",
                     "startdescription": "SHE COMES",
                     "description": "--",
                     "extantreqs": {
@@ -241,7 +241,7 @@
         },
         {
             "id": "forlornbloodsickness",
-            "label": "Sickness",
+            "label": "Doença",
             "actionid": "illhealth",
             "extantreqs": {
                 "apostlegrail.pillar2.dormant": 1
@@ -249,7 +249,7 @@
             "slots": [
                 {
                     "id": "Affliction",
-                    "label": "Affliction",
+                    "label": "Afeição",
                     "required": {
                         "health": 1,
                         "fatigue": 1,
@@ -271,29 +271,29 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "My illness has come for me. If I survive, I must taste the blood of our Delight, and soon. [If this illness cannot consume Health, or Savorous Blood, it will kill you.]",
-            "description": "I shrink and grow pale. Fatigue chokes my throat. I must ensure that my death serves a purpose.",
+            "startdescription": "Minha doença veio por mim. Se eu sobreviver, devo provar o sangue de nossa satisfação, e logo. [Se esta doença não puder consumir Vida ou Sangue Sábio, irá te matar.]",
+            "description": "Eu encolho e fico pálido. Fadiga minha garganta. Preciso garantir que minha morte sirva um propósito.",
             "warmup": 60
         },
         {
             "id": "savorousbloodrespite",
             "actionid": "illhealth",
-            "label": "A Respite",
+            "label": "Um novo espaço",
             "requirements": {
                 "apostlegrail.pillar2": 1
             },
-            "startdescription": "The blood of our Delight warms me. It makes red flowers in my cheeks; it pours out wine in my heart; it twitches my strings in the rhythm the Grail taught the Thunderskin. I shall live a little longer, I have decided.",
+            "startdescription": "O sangue do nosso prazer me aquece. Faz flores vermelhas nos meus bochechos; faz vinho no meu coração; isso enfeitiça minhas cordas no ritmo que o Grau ensinou o Thunderskin. Viverei um pouco mais de tempo, já decidi.",
             "warmup": 10
         },
         {
             "id": "deathofthewoundedfollower",
             "actionid": "time",
-            "label": "My Follower is dying!",
+            "label": "Meu seguidor está morrendo!",
             "requirements": {
                 "follower_wound": 1
             },
-            "startdescription": "Their wounds are mortal. There's nothing to be done.",
-            "description": "Perhaps their spirit walks the House. Perhaps it's lost in the Wood, to sink ever lower. Their mortal shell remains.",
+            "startdescription": "As feridas delas são mortais. Não há nada a ser feito.",
+            "description": "Talvez o espírito deles caminha pela casa. Talvez esteja perdido na Madeira, para afundar cada vez menor. Sua concha mortal permanece.",
             "aspects": {
                 "killmortal": 1
             },
@@ -303,7 +303,7 @@
         },
         {
             "id": "rosenext",
-            "label": "Trysts and Interludes",
+            "label": "Trícas e Interlúdios",
             "actionid": "rose",
             "requirements": {
                 "seasonardours": 1
@@ -311,8 +311,8 @@
             "slots": [
                 {
                     "id": "Who?",
-                    "label": "Who?",
-                    "description": "Palm to palm and eye to eye.",
+                    "label": "Quem?",
+                    "description": "Palma para palma e olho para olhar.",
                     "required": {
                         "romanticinterest": 1
                     },
@@ -322,7 +322,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "If I have a particular friend, now is the time to renew our connection.",
+            "startdescription": "Se eu tenho um amigo em particular, agora é a hora de renovar a nossa conexão.",
             "description": ".",
             "linked": [
                 {
@@ -342,7 +342,7 @@
         },
         {
             "id": "pleasantday",
-            "label": "A Pleasant Day",
+            "label": "Um dia agradável",
             "actionid": "pleasantday",
             "requirements": {
                 "seasonserenities": 1
@@ -351,8 +351,8 @@
                 "contentment": 1
             },
             "comments": "currently unused",
-            "startdescription": "This morning, there is a spring in my step. I'm not sure why.",
-            "description": "Some days are better than others. Sometimes the sky is nothing like a filthy sheet. Sometimes the river runs clear.",
+            "startdescription": "Hoje de manhã tenho uma primavera na minha etapa. Não sei o porquê.",
+            "description": "Alguns dias são melhores do que outros. Às vezes, o céu não é nada como uma folha imunda. Às vezes o rio fica claro.",
             "warmup": 30,
             "craftable": false
         },
@@ -390,7 +390,7 @@
         },
         {
             "id": "starvation",
-            "label": "Starvation",
+            "label": "Fantasia",
             "actionid": "illhealth",
             "requirements": {
                 "funds": -1
@@ -403,7 +403,7 @@
                 {
                     "id": "mareendingstarvation",
                     "actionid": "illhealth",
-                    "label": "The Mare In Me",
+                    "label": "A Madre em Mim",
                     "startdescription": "SHE COMES",
                     "description": "--",
                     "extantreqs": {
@@ -420,12 +420,12 @@
                 }
             ],
             "startdescription": ".",
-            "description": "Without money, I'll soon starve. [If an illness cannot consume Health, it will kill you.]",
+            "description": "Sem dinheiro, logo morrerei de fome. [Se uma doença não puder consumir saúde, vai te matar.]",
             "warmup": 60,
             "slots": [
                 {
                     "id": "starvation",
-                    "label": "Starvation",
+                    "label": "Fantasia",
                     "required": {
                         "health": 1
                     },

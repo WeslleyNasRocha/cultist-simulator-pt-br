@@ -2,13 +2,13 @@
     "elements": [
         {
             "id": "auclair_a",
-            "label": "Auclair, an acquaintance",
+            "label": "Aposentado, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "Auclair has a scholarly aspect and a morbid streak. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Auclair tem um aspecto acadêmico e um rastro de mordente. [Talvez você seja capaz de recrutar esta conhecida como seguidor.]",
             "xtriggers": {
                 "recruiting": "auclair_b",
                 "killmortal": "corpse",
@@ -19,14 +19,14 @@
         },
         {
             "id": "auclair_b",
-            "label": "Auclair, a believer",
+            "label": "Aposentado, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "winter": 2,
                 "follower_lustenlightenment": 1
             },
-            "description": "Auclair is quiet, meticulous and remorseless.",
+            "description": "Auclair é calmo, meticuloso e sem remorso.",
             "xtriggers": {
                 "promotiontodisciple": "auclair_c",
                 "killmortal": "corpse",
@@ -38,7 +38,7 @@
         },
         {
             "id": "auclair_c",
-            "label": "Auclair, a disciple",
+            "label": "Aclair, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -47,7 +47,7 @@
                 "winter": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "Auclair rarely speaks. She chooses her words with care. Even her movements have become economical. She is never seen to blink.",
+            "description": "Auclair raramente fala. Ela escolhe suas palavras com cuidado. Mesmo seus movimentos se tornaram econômicos. Nunca é vista como piscada.",
             "xtriggers": {
                 "promotionto_d_winter": "auclair_d",
                 "killmortal": "corpse",
@@ -59,7 +59,7 @@
         },
         {
             "id": "auclair_d",
-            "label": "A gaunt woman, who is silent",
+            "label": "Uma mulher presa, que está silenciosa",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -68,7 +68,7 @@
                 "winter": 10,
                 "follower_lustenlightenment": 1
             },
-            "description": "The air is frosty, the candles gutter, the street-sounds are hushed. Someone is here.",
+            "description": "O ar está gelado, as velas rasgam, os sons da rua são silenciados. Alguém está aqui.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -79,13 +79,13 @@
         },
         {
             "id": "cat_a",
-            "label": "Cat Caro, an acquaintance",
+            "label": "Gato Caro, conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "'Cat Caro', as she styles herself, earns a living as a stage medium and a fortune-teller. She may have deeper talents. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "\"Gato Caro\", como ela própria designa, ganha a vida como palco e vidro. Ela pode ter talentos mais profundos. [Talvez você possa recrutar este conhecido como seguidor.]",
             "xtriggers": {
                 "recruiting": "cat_b",
                 "killmortal": "corpse",
@@ -96,14 +96,14 @@
         },
         {
             "id": "cat_b",
-            "label": "Cat Caro, a believer",
+            "label": "Gato Caro, crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "lantern": 2,
                 "follower_lustenlightenment": 1
             },
-            "description": "A bright-eyed, watchful woman who recalls her dreams perfectly.",
+            "description": "Uma mulher brilhante e vigilante que se lembra perfeitamente dos seus sonhos.",
             "xtriggers": {
                 "promotiontodisciple": "cat_c",
                 "killmortal": "corpse",
@@ -115,7 +115,7 @@
         },
         {
             "id": "cat_c",
-            "label": "Cat Caro, a disciple",
+            "label": "Gato, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -124,7 +124,7 @@
                 "lantern": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "She still performs in the theatres sometimes. 'Cat Caro,' the posters say, 'finds the path; Cat Caro knows the way.'",
+            "description": "Ela ainda realiza por vezes nos teatros. \"É o carro do cartaz\", dizem os cartazes, \"encontra o caminho; o gato Caro sabe o caminho\".",
             "xtriggers": {
                 "promotionto_d_lantern": "cat_d",
                 "killmortal": "corpse",
@@ -145,7 +145,7 @@
                 "lantern": 10,
                 "follower_lustenlightenment": 1
             },
-            "description": "Archaeologists find treasures in tombs. Farmers bring harvest from the fields. What does Cat Caro unearth in dreams?",
+            "description": "Arqueólogos encontram tesouros nos túmulos. Os fazendeiros trazem colheita dos campos. O que o Gato Caro desplanta nos sonhos?",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -156,13 +156,13 @@
         },
         {
             "id": "clifton_a",
-            "label": "'Pope' Clifton, an acquaintance",
+            "label": "Clifton 'Papa', um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "A bellowing and unorthodox Catholic with a mystic streak and an untrimmed beard. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Um católico belíssimo e pouco ortodoxo com rajada mística e uma barba sem rasgar. [Talvez você possa recrutar este conhecido como seguidor.]",
             "xtriggers": {
                 "recruiting": "clifton_b",
                 "killmortal": "corpse",
@@ -172,14 +172,14 @@
         },
         {
             "id": "clifton_b",
-            "label": "'Pope' Clifton, a believer",
+            "label": "Clifton 'Papa', crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "lantern": 2,
                 "follower_lustenlightenment": 1
             },
-            "description": "Now Clifton improvises new prayers rich with solar metaphors. He still shouts like a soldier and drinks like a sailor.",
+            "description": "Agora o Clifton improvisa novas orações ricas em metáforas solares. Ele ainda grita como um soldado e bebe como um marinheiro.",
             "xtriggers": {
                 "promotiontodisciple": "clifton_c",
                 "killmortal": "corpse",
@@ -191,7 +191,7 @@
         },
         {
             "id": "clifton_c",
-            "label": "'Pope' Clifton, a disciple",
+            "label": "Clifton 'Pap', um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -200,7 +200,7 @@
                 "lantern": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "Clifton's devotions have grown complex. His eyes have grown wide and shining. His voice has become even louder.",
+            "description": "As devoções do Clima se tornaram complexas. Seus olhos se tornaram largos e brilhantes. Sua voz ficou ainda mais alta.",
             "xtriggers": {
                 "promotionto_d_lantern": "clifton_d",
                 "killmortal": "corpse",
@@ -212,7 +212,7 @@
         },
         {
             "id": "clifton_d",
-            "label": "Clifton, a Seer",
+            "label": "Clifton, um Procurador",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -221,7 +221,7 @@
                 "lantern": 10,
                 "follower_lustenlightenment": 1
             },
-            "description": "Clifton still recites his prayers, but they are grown strange as old mirrors. He rises every morning to greet the dawn. He looks it full in the face, and tells you exactly what he sees.",
+            "description": "Clifton ainda recita suas orações, mas elas se tornam estranhas como espelhos antigos. Ele levanta todas as manhãs para cumprimentar o amanhecer. Ele parece cheio no rosto e lhe diz exatamente o que ele vê.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -232,13 +232,13 @@
         },
         {
             "id": "clovette_a",
-            "label": "Clovette, an acquaintance",
+            "label": "Clovette, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
-            "description": "Clovette is happy in a way that brooks no counter-argument to happiness. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Clovette é feliz de uma maneira que não faz nenhum contra-argumento à felicidade. [Você pode recrutar este conhecimento como um seguidor.]",
             "xtriggers": {
                 "recruiting": "clovette_b",
                 "killmortal": "corpse",
@@ -248,14 +248,14 @@
         },
         {
             "id": "clovette_b",
-            "label": "Clovette, a believer",
+            "label": "Clovette, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "heart": 2,
                 "follower_lustchange": 1
             },
-            "description": "Clovette's determined happiness now borders on the fanatical.",
+            "description": "A felicidade determinada de Clovette confina agora com o fanático.",
             "xtriggers": {
                 "promotiontodisciple": "clovette_c",
                 "killmortal": "corpse",
@@ -267,7 +267,7 @@
         },
         {
             "id": "clovette_c",
-            "label": "Clovette, a disciple",
+            "label": "Clovette, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -276,7 +276,7 @@
                 "heart": 5,
                 "follower_lustchange": 1
             },
-            "description": "Clovette's optimism is daunting. She wields her joy like a hammer.",
+            "description": "O otimismo de Clovette é assustador. Ela empunha sua alegria como um martelo.",
             "xtriggers": {
                 "promotionto_d_heart": "clovette_d",
                 "killmortal": "corpse",
@@ -288,7 +288,7 @@
         },
         {
             "id": "clovette_d",
-            "label": "Clovette, a Tarantellist",
+            "label": "Clovette, um Tarantellist",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -297,7 +297,7 @@
                 "heart": 10,
                 "follower_lustchange": 1
             },
-            "description": "Clovette is always in motion. She laughs easily. Her smile is the crescent at the edge of the moon.",
+            "description": "Clovette está sempre em movimento. Ela ri facilmente. Seu sorriso é o crescente na borda da lua.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -308,7 +308,7 @@
         },
         {
             "id": "connie_c",
-            "label": "Connie, a disciple",
+            "label": "Connie, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -317,7 +317,7 @@
                 "edge": 5,
                 "grail": 4
             },
-            "description": "Connie's found one last gambit she couldn't resist... or perhaps she's just enjoying life.",
+            "description": "Connia encontrou uma última aposta que ela não pôde resistir... ou talvez esteja só gostando da vida.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "promotionto_d_edge": "connie_d",
@@ -330,7 +330,7 @@
         },
         {
             "id": "connie_d",
-            "label": "Connie, a Conqueress",
+            "label": "Conquista, uma Conquista",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -339,7 +339,7 @@
                 "edge": 10,
                 "grail": 7
             },
-            "description": "It's not in Connie's nature to serve. One day she'll rise as a river rises. But for now, she stoops to conquer.",
+            "description": "Não é da natureza de Connie servir. Um dia ela vai subir à medida que um rio sobe. Mas por enquanto, ela faz com que conquiste.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -351,13 +351,13 @@
         },
         {
             "id": "dorothy_a",
-            "label": "Dorothy, an acquaintance",
+            "label": "Doravante, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
-            "description": "Dorothy is an enthusiastic sort with an eclectic reading habit. She's fascinated by my hints about the shapes beneath the world's skin. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Dorothy é um tipo entusiástico com o hábito de ler eclética. Ela está fascinada com as minhas dicas sobre as formas sob a pele do mundo. [Você talvez possa recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "dorothy_b",
                 "killmortal": "corpse",
@@ -367,14 +367,14 @@
         },
         {
             "id": "dorothy_b",
-            "label": "Dorothy, a believer",
+            "label": "Doroteia, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "heart": 2,
                 "follower_lustchange": 1
             },
-            "description": "Dorothy is an enthusiastic sort, and I have turned her enthusiasm to our advantage.",
+            "description": "A senhora deputada Dorothy é uma pessoa entusiástica e eu virei o seu entusiasmo em nosso benefício.",
             "xtriggers": {
                 "promotiontodisciple": "dorothy_c",
                 "killmortal": "corpse",
@@ -386,7 +386,7 @@
         },
         {
             "id": "dorothy_c",
-            "label": "Dorothy, a disciple",
+            "label": "Doroteia, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -395,7 +395,7 @@
                 "heart": 5,
                 "follower_lustchange": 1
             },
-            "description": "Dorothy's enthusiasm has become obsession. She will not cease; and how she loves to dance.",
+            "description": "O entusiasmo de Dorothy tornou-se obsessão. Ela não vai cessar; e como ela adora dançar.",
             "xtriggers": {
                 "promotionto_d_heart": "dorothy_d",
                 "killmortal": "corpse",
@@ -407,7 +407,7 @@
         },
         {
             "id": "dorothy_d",
-            "label": "Dorothy, a Tarantellist",
+            "label": "Doroto, um Tarantelista",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -416,7 +416,7 @@
                 "heart": 10,
                 "follower_lustchange": 1
             },
-            "description": "When Dorothy moves, we hear the drum. When she speaks, we see the dance. Her determination is her shield and her weapon.",
+            "description": "Quando Dorothy se move, ouvimos o tambor. Quando ela fala, vemos a dança. Sua determinação é o escudo e a arma dela.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -427,13 +427,13 @@
         },
         {
             "id": "douglas_b",
-            "label": "Douglas, a believer",
+            "label": "Douglas, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "forge": 2
             },
-            "description": "Douglas has exchanged the Force for the Forge.",
+            "description": "Douglas trocou a Força pela Forge.",
             "xtriggers": {
                 "promotiontodisciple": "douglas_c",
                 "killmortal": "corpse",
@@ -446,7 +446,7 @@
         },
         {
             "id": "douglas_c",
-            "label": "Douglas, a disciple",
+            "label": "Douglas, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -454,7 +454,7 @@
                 "potential": 1,
                 "forge": 5
             },
-            "description": "Douglas doesn't like hammers. They remind him of an Incident. But he uses what instruments he must.",
+            "description": "Douglas não gosta de martelos. Eles o lembram de um incidente. Mas ele usa que instrumentos ele deve.",
             "xtriggers": {
                 "promotionto_d_forge": "douglas_d",
                 "killmortal": "corpse",
@@ -467,7 +467,7 @@
         },
         {
             "id": "douglas_d",
-            "label": "Douglas, a Reshaper",
+            "label": "Douglas, um Rebaixador",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -475,7 +475,7 @@
                 "exalted": 1,
                 "forge": 10
             },
-            "description": "Douglas has changed so much. His eyes glow like smithy windows in fog. His voice is the rattle of coal in the chute. His arm is long.",
+            "description": "Douglas mudou muito. Seus olhos brilham como janelas de ferreiro na neblina. Sua voz é o chacoalhado de carvão no chute. Seu braço é longo.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -487,13 +487,13 @@
         },
         {
             "id": "elridge_a",
-            "label": "Elridge, an acquaintance",
+            "label": "Elridge, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustpower": 1
             },
-            "description": "An elegant man of inelegant habits. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Um homem elegante de hábitos inelegantes. [Talvez você seja capaz de recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "elridge_b",
                 "killmortal": "corpse",
@@ -503,14 +503,14 @@
         },
         {
             "id": "elridge_b",
-            "label": "Elridge, a believer",
+            "label": "Elridge, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "edge": 2,
                 "follower_lustpower": 1
             },
-            "description": "Elridge has almost learnt not to pick his teeth with his knife in conversation. He has not yet learnt to leave his knife in his boot.",
+            "description": "Elridge quase aprendeu a não pegar os dentes com a faca em conversa. Ele ainda não aprendeu a deixar a faca na bota.",
             "xtriggers": {
                 "promotiontodisciple": "elridge_c",
                 "killmortal": "corpse",
@@ -522,7 +522,7 @@
         },
         {
             "id": "elridge_c",
-            "label": "Elridge, a disciple",
+            "label": "Elridge, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -531,7 +531,7 @@
                 "edge": 5,
                 "follower_lustpower": 1
             },
-            "description": "Elridge is waiting patiently until it's time to knife someone again.",
+            "description": "Elridge está esperando pacientemente até que seja hora de esfaquear alguém novamente.",
             "xtriggers": {
                 "promotionto_d_edge": "elridge_d",
                 "killmortal": "corpse",
@@ -543,7 +543,7 @@
         },
         {
             "id": "elridge_d",
-            "label": "Elridge, an Assassin",
+            "label": "Elridge, um assassino",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -552,7 +552,7 @@
                 "edge": 10,
                 "follower_lustpower": 1
             },
-            "description": "Elridge is never seen with a spot of blood upon his person. Not a spot.",
+            "description": "Elridge nunca é vista com um pouco de sangue sobre sua pessoa. Nem um lugar.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -563,13 +563,13 @@
         },
         {
             "id": "enid_a",
-            "label": "Enid, an acquaintance",
+            "label": "Anid, uma familiaridade",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. It may be that you've dreamed the same dreams. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Enid fala suavemente, e às vezes seu olhar não foca em nada visível. Pode ser que você sonhou os mesmos sonhos. [Talvez você consiga recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "enid_b",
                 "killmortal": "corpse",
@@ -579,14 +579,14 @@
         },
         {
             "id": "enid_b",
-            "label": "Enid, a believer",
+            "label": "Enid, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "knock": 2,
                 "follower_lustenlightenment": 1
             },
-            "description": "Enid speaks softly, and sometimes her gaze doesn't focus on anything visible. She sees things that others don't.",
+            "description": "Enid fala suavemente, e às vezes seu olhar não foca em nada visível. Ela vê coisas que os outros não.",
             "xtriggers": {
                 "promotiontodisciple": "enid_c",
                 "killmortal": "corpse",
@@ -598,7 +598,7 @@
         },
         {
             "id": "enid_c",
-            "label": "Enid, a disciple",
+            "label": "Enid, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -607,7 +607,7 @@
                 "knock": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "Enid sees what others do not. It is becoming difficult for her, but it is very useful.",
+            "description": "Enid vê o que os outros não vêem, está a tornar-se difícil para ela, mas é muito útil.",
             "xtriggers": {
                 "promotionto_d_knock": "enid_d",
                 "killmortal": "corpse",
@@ -619,7 +619,7 @@
         },
         {
             "id": "enid_d",
-            "label": "Enid, a Key",
+            "label": "Enid, uma chave",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -628,7 +628,7 @@
                 "knock": 10,
                 "follower_lustenlightenment": 1
             },
-            "description": "Enid sees the gaps between things, and the arts that she has learned permit her, sometimes, to place her fingers in that gap.",
+            "description": "Enid vê as diferenças entre as coisas e as artes que ela aprendeu permite-lhe, às vezes, colocar os dedos naquele espaço.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -639,13 +639,13 @@
         },
         {
             "id": "laidlaw_a",
-            "label": "Laidlaw, an acquaintance",
+            "label": "Laidlaw, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustpower": 1
             },
-            "description": "Laidlaw is a tinkerer and mechanic with an uncanny knack. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Laidlaw é um rastreador e mecânico com um doce estranho. [Talvez você consiga recrutar este conhecido como seguidor.]",
             "xtriggers": {
                 "recruiting": "laidlaw_b",
                 "killmortal": "corpse",
@@ -655,14 +655,14 @@
         },
         {
             "id": "laidlaw_b",
-            "label": "Laidlaw, a believer",
+            "label": "Laidlaw, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "forge": 2,
                 "follower_lustpower": 1
             },
-            "description": "Laidlaw has begun to understand the limitations of ingenuity, and the power of sacrifice.",
+            "description": "O Laidlaw começou a compreender as limitações da ingenuidade e o poder do sacrifício.",
             "xtriggers": {
                 "promotiontodisciple": "laidlaw_c",
                 "killmortal": "corpse",
@@ -674,7 +674,7 @@
         },
         {
             "id": "laidlaw_c",
-            "label": "Laidlaw, a disciple",
+            "label": "Laidlaw, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -683,7 +683,7 @@
                 "forge": 5,
                 "follower_lustpower": 1
             },
-            "description": "Laidlaw has learnt the cleverer uses of fire and copper, wax and acid.",
+            "description": "Laidlaw aprendeu as utilizações mais inteligentes do fogo e do cobre, da cera e do ácido.",
             "xtriggers": {
                 "promotionto_d_forge": "laidlaw_d",
                 "killmortal": "corpse",
@@ -695,7 +695,7 @@
         },
         {
             "id": "laidlaw_d",
-            "label": "Laidlaw, a Reshaper",
+            "label": "Laidlaw, um Revendedor",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -704,7 +704,7 @@
                 "forge": 10,
                 "follower_lustpower": 1
             },
-            "description": "Laidlaw can shape what is broken into what is necessary.",
+            "description": "A Laidlaw pode moldar o que é quebrado no que é necessário.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -715,13 +715,13 @@
         },
         {
             "id": "leo_a",
-            "label": "Leo, an acquaintance",
+            "label": "Leo, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
-            "description": "Leo is an earnest sort with an interest in the occult. He hangs on your hints about the invisible arts. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Leo é um tipo sério de interesse pelo occulto. Ele pende em suas dicas sobre as artes invisíveis. [Você talvez possa recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "leo_b",
                 "killmortal": "corpse",
@@ -731,14 +731,14 @@
         },
         {
             "id": "leo_b",
-            "label": "Leo, a believer",
+            "label": "Leo, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "heart": 2,
                 "follower_lustchange": 1
             },
-            "description": "Leo is an earnest sort, but he's prepared to do what he must.",
+            "description": "Leo é um tipo sério, mas está preparado para fazer o que deve.",
             "xtriggers": {
                 "promotiontodisciple": "leo_c",
                 "killmortal": "corpse",
@@ -750,7 +750,7 @@
         },
         {
             "id": "leo_c",
-            "label": "Leo, a disciple",
+            "label": "Leo, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -759,7 +759,7 @@
                 "heart": 5,
                 "follower_lustchange": 1
             },
-            "description": "Leo still yearns to preserve what is good and valuable; but he understands that to protect one's ideals, one must sometimes do questionable things.",
+            "description": "Leo ainda anseia por preservar o que é bom e valioso; mas entende que para proteger os nossos ideais, às vezes é necessário fazer coisas questionáveis.",
             "xtriggers": {
                 "promotionto_d_heart": "leo_d",
                 "killmortal": "corpse",
@@ -771,7 +771,7 @@
         },
         {
             "id": "leo_d",
-            "label": "Leo, a Tarantellist",
+            "label": "Leo, um Tarantellist",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -780,7 +780,7 @@
                 "heart": 10,
                 "follower_lustchange": 1
             },
-            "description": "Leo will preserve, at all costs. He will not cease.",
+            "description": "Leo vai preservar, a todo custo. Ele não vai cessar.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -791,7 +791,7 @@
         },
         {
             "id": "natalia_c",
-            "label": "Natalia, a disciple",
+            "label": "Natalia, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -800,7 +800,7 @@
                 "lantern": 5,
                 "forge": 4
             },
-            "description": "Natalia never follows unquestioningly - but for now, she follows.",
+            "description": "Natalia nunca se segue sem qualquer dúvida - mas, por enquanto, ela segue.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "promotionto_d_lantern": "natalia_d",
@@ -813,7 +813,7 @@
         },
         {
             "id": "natalia_d",
-            "label": "Natalia, a Sage",
+            "label": "Natalia, um Sábio",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -822,7 +822,7 @@
                 "lantern": 10,
                 "forge": 7
             },
-            "description": "Natalia has aligned herself with the brightest path she can find.",
+            "description": "Natalia alinhou-se com o caminho mais brilhante que pode encontrar.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -834,13 +834,13 @@
         },
         {
             "id": "neville_a",
-            "label": "Neville, an acquaintance",
+            "label": "Nevile, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "Neville pauses before he speaks, and flinches easily. He laughs whenever he thinks you've made a joke. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Neville pausa antes de falar, e pisca facilmente. Ele ri de sempre que pensa que você fez uma piada. [Você talvez possa recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "neville_b",
                 "killmortal": "corpse",
@@ -850,14 +850,14 @@
         },
         {
             "id": "neville_b",
-            "label": "Neville, a believer",
+            "label": "Neville, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "knock": 2,
                 "follower_lustenlightenment": 1
             },
-            "description": "Neville pauses before he speaks, and flinches easily. He's sensitive to deeper matters.",
+            "description": "Neville pausa antes de falar, e pisca facilmente. É sensível a assuntos mais profundos.",
             "xtriggers": {
                 "promotiontodisciple": "neville_c",
                 "killmortal": "corpse",
@@ -869,7 +869,7 @@
         },
         {
             "id": "neville_c",
-            "label": "Neville, a disciple",
+            "label": "Neville, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -878,7 +878,7 @@
                 "knock": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "Neville's gaze has grown furtive, and his voice is sometimes shrill. He speaks freely of his dreams.",
+            "description": "O olhar de Neville se tornou furtivo, e às vezes sua voz é estridente. Ele fala livremente de seus sonhos.",
             "xtriggers": {
                 "promotionto_d_knock": "neville_d",
                 "killmortal": "corpse",
@@ -890,7 +890,7 @@
         },
         {
             "id": "neville_d",
-            "label": "Neville, a Key",
+            "label": "Neville, uma chave",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -899,7 +899,7 @@
                 "knock": 10,
                 "follower_lustenlightenment": 1
             },
-            "description": "In his dreams, Neville sees the flaws where the world and its ways can be opened.",
+            "description": "Em seus sonhos, Neville vê as falhas onde o mundo e seus caminhos podem ser abertos.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -910,13 +910,13 @@
         },
         {
             "id": "porter_a",
-            "label": "Porter, an acquaintance",
+            "label": "Porto, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
-            "description": "Porter was a barber, until the court case. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Porter era um barbeiro, até o processo em tribunal. [Talvez você possa recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "porter_b",
                 "killmortal": "corpse",
@@ -926,14 +926,14 @@
         },
         {
             "id": "porter_b",
-            "label": "Porter, a believer",
+            "label": "Porto, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "moth": 2,
                 "follower_lustchange": 1
             },
-            "description": "Porter plies his razor and his scissors, to the great advantage of his friends.",
+            "description": "O papagaio atrapalha e sua tesoura, com grande vantagem de seus amigos.",
             "xtriggers": {
                 "promotiontodisciple": "porter_c",
                 "killmortal": "corpse",
@@ -945,7 +945,7 @@
         },
         {
             "id": "porter_c",
-            "label": "Porter, a disciple",
+            "label": "Porto, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -954,7 +954,7 @@
                 "moth": 5,
                 "follower_lustchange": 1
             },
-            "description": "Porter goes unnoticed, until he's ready.",
+            "description": "O portador passa despercebido, até que ele esteja pronto.",
             "xtriggers": {
                 "promotionto_d_moth": "porter_d",
                 "killmortal": "corpse",
@@ -966,7 +966,7 @@
         },
         {
             "id": "porter_d",
-            "label": "Porter, a Skintwister",
+            "label": "Portador, um Pergaminho de Design",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -975,7 +975,7 @@
                 "moth": 10,
                 "follower_lustchange": 1
             },
-            "description": "Porter, like a spider, is found in the most unexpected places.",
+            "description": "O portador, como uma aranha, é encontrado em lugares mais inesperados.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -986,13 +986,13 @@
         },
         {
             "id": "renira_a",
-            "label": "Renira, an acquaintance",
+            "label": "Renira, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustsensation": 1
             },
-            "description": "Renira has been found not guilty three times in three separate jurisdictions. She will likely never be found guilty of anything. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "A Renira não foi considerada culpada três vezes em três jurisdições separadas. Ela provavelmente nunca será considerada culpada de nada. [Talvez você seja capaz de recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "renira_b",
                 "killmortal": "corpse",
@@ -1002,14 +1002,14 @@
         },
         {
             "id": "renira_b",
-            "label": "Renira, a believer",
+            "label": "Renira, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "grail": 2,
                 "follower_lustsensation": 1
             },
-            "description": "Renira continues to pursue her appetites discreetly, although her ambitions have grown. ",
+            "description": "A Renira continua a acalentar o seu apetite discretamente, embora as suas ambições tenham crescido. ",
             "xtriggers": {
                 "promotiontodisciple": "renira_c",
                 "killmortal": "corpse",
@@ -1021,7 +1021,7 @@
         },
         {
             "id": "renira_c",
-            "label": "Renira, a disciple",
+            "label": "Renira, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1030,7 +1030,7 @@
                 "grail": 5,
                 "follower_lustsensation": 1
             },
-            "description": "Renira commands admiration wherever she goes. She reserves her attentions  for those who merit admiration in return.",
+            "description": "Renira comanda admiração aonde quer que vá. Ela reserva sua atenção para aqueles que merecem admiração em troca.",
             "xtriggers": {
                 "promotionto_d_grail": "renira_d",
                 "killmortal": "corpse",
@@ -1051,7 +1051,7 @@
                 "grail": 10,
                 "follower_lustsensation": 1
             },
-            "description": "Renira receives tokens from admirers almost daily. Some gifts are flowers, others poetry. Sometimes she receives jewels; sometimes, desperate gifts wrapped tightly in blood-stained crepe paper.",
+            "description": "Renira recebe tokens de admiradores quase diariamente. Alguns presentes são flores, outros poesiam. Às vezes ela recebe joias; às vezes, presentes desesperados embrulhados fortemente em papel de creme manchado a sangue.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1062,13 +1062,13 @@
         },
         {
             "id": "rose_a",
-            "label": "Rose, an acquaintance",
+            "label": "Rose, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustsensation": 1
             },
-            "description": "Rose is a sly miss, and she recognises you as someone uncommon. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Rosa é uma falha, e ela reconhece você como alguém incomum. [Talvez você seja capaz de recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "rose_b",
                 "killmortal": "corpse",
@@ -1078,14 +1078,14 @@
         },
         {
             "id": "rose_b",
-            "label": "Rose, a believer",
+            "label": "Rosa, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "edge": 2,
                 "follower_lustsensation": 1
             },
-            "description": "Rose is a sly miss, but loyal.",
+            "description": "Rosa é uma falta astuta, mas leal.",
             "xtriggers": {
                 "promotiontodisciple": "rose_c",
                 "killmortal": "corpse",
@@ -1097,7 +1097,7 @@
         },
         {
             "id": "rose_c",
-            "label": "Rose, a disciple",
+            "label": "Rose, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1106,7 +1106,7 @@
                 "edge": 5,
                 "follower_lustsensation": 1
             },
-            "description": "Rose has sharpened her cunning to a concentrated point.",
+            "description": "Rosa afiou sua astúcia a um ponto concentrado.",
             "xtriggers": {
                 "promotionto_d_edge": "rose_d",
                 "killmortal": "corpse",
@@ -1118,7 +1118,7 @@
         },
         {
             "id": "rose_d",
-            "label": "Rose, an Assassin",
+            "label": "Rosa, um assassino",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1127,7 +1127,7 @@
                 "edge": 10,
                 "follower_lustsensation": 1
             },
-            "description": "The night before Rose meets her subject, the subject will receive a package with a single yellow rose.",
+            "description": "Na noite que antecede a Rosa reúne o assunto, o assunto receberá um pacote com uma única rosa amarela.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1138,13 +1138,13 @@
         },
         {
             "id": "saliba_a",
-            "label": "Saliba, an acquaintance",
+            "label": "Saliba, um conhecimento",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustsensation": 1
             },
-            "description": "Saliba is a man of prodigious appetites. He is long past the point where their satisfaction has given him any pleasure; but he has learnt so very much. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Saliba é um homem de apetites prodigiosos. Há muito que ele ultrapassa o ponto em que a sua satisfação lhe deu algum prazer, mas ele aprendeu muito. [Você talvez possa recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "saliba_b",
                 "killmortal": "corpse",
@@ -1154,14 +1154,14 @@
         },
         {
             "id": "saliba_b",
-            "label": "Saliba, a believer",
+            "label": "Saliba, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "grail": 2,
                 "follower_lustsensation": 1
             },
-            "description": "Saliba understands blood. He does not yet understand birth.",
+            "description": "Saliba entende sangue. Ele ainda não entende nascimento.",
             "xtriggers": {
                 "promotiontodisciple": "saliba_c",
                 "killmortal": "corpse",
@@ -1173,7 +1173,7 @@
         },
         {
             "id": "saliba_c",
-            "label": "Saliba, a disciple",
+            "label": "Saliba, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1182,7 +1182,7 @@
                 "grail": 5,
                 "follower_lustsensation": 1
             },
-            "description": "Saliba's pleasures are taken in a room without windows. His companions return to him again and again, even though each time they are a little less.",
+            "description": "Os prazeres de Saliba são feitos num quarto sem janelas. Seus companheiros voltam sempre para ele, embora sempre sejam um pouco menos.",
             "xtriggers": {
                 "promotionto_d_grail": "saliba_d",
                 "killmortal": "corpse",
@@ -1203,7 +1203,7 @@
                 "grail": 10,
                 "follower_lustsensation": 1
             },
-            "description": "Saliba's charisma strikes with the force of a hammer. It is horribly difficult to refuse his desires.",
+            "description": "O carisma de Saliba ataca com a força de um martelo. É terrivelmente difícil recusar os seus desejos.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1214,13 +1214,13 @@
         },
         {
             "id": "slee_a",
-            "label": "Slee, an acquaintance",
+            "label": "Durma, uma familiaridade",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "Craig Slee, the astronomer and avant-garde poet, has developed an interest in the esoteric as his health wanes. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Craig Slee, o astrônomo e o poeta avant-garde, desenvolveu um interesse pelo esotérico à medida que a sua saúde diminui. [Você talvez possa recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "slee_b",
                 "killmortal": "corpse",
@@ -1230,14 +1230,14 @@
         },
         {
             "id": "slee_b",
-            "label": "Slee, a believer",
+            "label": "Durma, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "lantern": 2,
                 "follower_lustenlightenment": 1
             },
-            "description": "Slee speaks earnestly of his theories to all who will listen: the stars as tiny wounds, and the Sun as a haemorrhage of glory. His poetry is more eccentric than ever.",
+            "description": "O Slee fala seriamente de suas teorias a todos que irão ouvir: as estrelas como pequenas feridas, e o Sol como uma hemorragia de glória. Sua poesia está mais excêntrica do que nunca.",
             "xtriggers": {
                 "promotiontodisciple": "slee_c",
                 "killmortal": "corpse",
@@ -1249,7 +1249,7 @@
         },
         {
             "id": "slee_c",
-            "label": "Slee, a disciple",
+            "label": "Durma, discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1258,7 +1258,7 @@
                 "lantern": 5,
                 "follower_lustenlightenment": 1
             },
-            "description": "Slee's headaches have become crippling, but his theories grow more practical by the day. His poetry's getting better, too.",
+            "description": "As dores de cabeça do sono tornaram-se incapacitantes, mas suas teorias crescem mais práticas ao dia. Sua poesia também está melhorando.",
             "xtriggers": {
                 "promotionto_d_lantern": "slee_d",
                 "killmortal": "corpse",
@@ -1270,7 +1270,7 @@
         },
         {
             "id": "slee_d",
-            "label": "Slee, a Seer",
+            "label": "Durma, um Procurador",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1279,7 +1279,7 @@
                 "lantern": 10,
                 "follower_lustenlightenment": 1
             },
-            "description": "Slee speaks exclusively in mathematics and in poetry. Both are compelling: it is increasingly difficult to tell the difference.",
+            "description": "O sono fala exclusivamente em matemática e na poesia. Ambos são convincentes: é cada vez mais difícil contar a diferença.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1290,7 +1290,7 @@
         },
         {
             "id": "spencer_c",
-            "label": "Spencer, a disciple",
+            "label": "Pencer, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1299,7 +1299,7 @@
                 "knock": 5,
                 "moth": 4
             },
-            "description": "Spencer carries a tiny icon of St Agnes on a chain around his neck, to rest on the scar above his heart.",
+            "description": "Spencer carrega um pequeno ícone de St Agnes em uma corrente ao redor do pescoço, para descansar na cicatriz sobre seu coração.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "promotionto_d_lantern": "spencer_d",
@@ -1312,7 +1312,7 @@
         },
         {
             "id": "spencer_d",
-            "label": "Spencer, a Herald",
+            "label": "Pencer, um Arauto",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1321,7 +1321,7 @@
                 "knock": 10,
                 "moth": 7
             },
-            "description": "Some follow the Way, and some are the Way for others. Spencer no longer tells us he made a decision: instead, he suggests that the decision has made him.",
+            "description": "Alguns seguem o caminho e outros são o caminho para outros. Spencer já não nos diz que tomou uma decisão: em vez disso, sugere que a decisão o tenha tomado.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1333,13 +1333,13 @@
         },
         {
             "id": "sylvia_a",
-            "label": "Sylvia, an acquaintance",
+            "label": "Sylvia, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
-            "description": "Sylvia lost her eye in the woods when she was nine years old. Every year, at Candlemas, she returns to the place she buried it. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Sylvia perdeu o olho na floresta quando tinha nove anos de idade. Todos os anos, nas velas, ela volta para o lugar onde a enterrou. [Você talvez possa recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "sylvia_b",
                 "killmortal": "corpse",
@@ -1349,14 +1349,14 @@
         },
         {
             "id": "sylvia_b",
-            "label": "Sylvia, a believer",
+            "label": "Silvia, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "moth": 2,
                 "follower_lustchange": 1
             },
-            "description": "Sylvia has a detailed knowledge of roof-ridges, of the river at low tide, of Irish whiskey, and of conjuring tricks.",
+            "description": "A Sylvia tem conhecimento detalhado de telhados, do rio a baixa maré, do uísque irlandês e de truques de conjuração.",
             "xtriggers": {
                 "promotiontodisciple": "sylvia_c",
                 "killmortal": "corpse",
@@ -1368,7 +1368,7 @@
         },
         {
             "id": "sylvia_c",
-            "label": "Sylvia, a disciple",
+            "label": "Silvia, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1377,7 +1377,7 @@
                 "moth": 5,
                 "follower_lustchange": 1
             },
-            "description": "Sylvia's favourite tactic is to smile and close her eye. It is remarkable how often her interlocutor will blurt out exactly what they are thinking.",
+            "description": "A táctica favorita de Sylviana é sorrir e fechar os olhos. É notável a frequência com que o seu interlocutor desfoca exactamente o que está a pensar.",
             "xtriggers": {
                 "promotionto_d_moth": "sylvia_d",
                 "killmortal": "corpse",
@@ -1389,7 +1389,7 @@
         },
         {
             "id": "sylvia_d",
-            "label": "Sylvia, a Skintwister",
+            "label": "Silvia, uma Transformação de Personalização",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1398,7 +1398,7 @@
                 "moth": 10,
                 "follower_lustchange": 1
             },
-            "description": "Sylvia has learnt to get out of a place almost before she has gotten in. Sometimes, she leaves dead leaves beneath the window-sill. Sometimes, she writes her name where it won't be found.",
+            "description": "Sylvia aprendeu a sair de um lugar quase antes de entrar. Às vezes, ela sai de costas mortas debaixo da creche. Às vezes, ela escreve seu nome onde não será encontrado.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1409,13 +1409,13 @@
         },
         {
             "id": "tristan_a",
-            "label": "Tristan, an acquaintance",
+            "label": "Tristan, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustpower": 1
             },
-            "description": "Tristan dislikes distractions. Tristan gets things done. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Tristan não gosta de distrações. Tristan tem coisas feitas. [Você pode ser capaz de recrutar este conhecido como seguidor.]",
             "xtriggers": {
                 "recruiting": "tristan_b",
                 "killmortal": "corpse",
@@ -1425,14 +1425,14 @@
         },
         {
             "id": "tristan_b",
-            "label": "Tristan, a believer",
+            "label": "Tristan, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "forge": 2,
                 "follower_lustpower": 1
             },
-            "description": "Tristan dislikes distractions; Tristan likes results.",
+            "description": "Tristan não gosta de distrações; Tristan gosta de resultados.",
             "xtriggers": {
                 "promotiontodisciple": "tristan_c",
                 "killmortal": "corpse",
@@ -1444,7 +1444,7 @@
         },
         {
             "id": "tristan_c",
-            "label": "Tristan, a disciple",
+            "label": "Tristan, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1453,7 +1453,7 @@
                 "forge": 5,
                 "follower_lustpower": 1
             },
-            "description": "Tristan will do what is necessary. To create, sometimes one must first destroy.",
+            "description": "A Tristan fará o que for necessário. Para criar, às vezes é preciso destruir.",
             "xtriggers": {
                 "promotionto_d_forge": "tristan_d",
                 "killmortal": "corpse",
@@ -1465,7 +1465,7 @@
         },
         {
             "id": "tristan_d",
-            "label": "Tristan, a Reshaper",
+            "label": "Tristan, um Rebaixador",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1474,7 +1474,7 @@
                 "forge": 10,
                 "follower_lustpower": 1
             },
-            "description": "In another age, Tristan might have been a smith. In another life, he might have been a bomb-maker.",
+            "description": "Noutra época, Tristan poderia ter sido um ferreiro. Em outra vida, poderia ter sido um criador de bombas.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1485,13 +1485,13 @@
         },
         {
             "id": "valciane_a",
-            "label": "Valciane, an acquaintance",
+            "label": "Valentim, um Conhecimento",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustpower": 1
             },
-            "description": "Valciane has operated her establishment for almost twenty years. She has never employed an assistant. Her hands are terribly strong. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Valciane opera há quase vinte anos, e nunca empregou uma assistente. As mãos dela são terrivelmente fortes. [Talvez você seja capaz de recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "valciane_b",
                 "killmortal": "corpse",
@@ -1501,14 +1501,14 @@
         },
         {
             "id": "valciane_b",
-            "label": "Valciane, a believer",
+            "label": "Valciano, crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "forge": 2,
                 "follower_lustpower": 1
             },
-            "description": "Valciane's ingenuities are endless, and her grip is stronger than a blacksmith's.",
+            "description": "As ingenuidades de Valcio são intermináveis, e o seu aperto é mais forte do que o de um ferreiro.",
             "xtriggers": {
                 "promotiontodisciple": "valciane_c",
                 "killmortal": "corpse",
@@ -1520,7 +1520,7 @@
         },
         {
             "id": "valciane_c",
-            "label": "Valciane, a disciple",
+            "label": "Valciano, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1529,7 +1529,7 @@
                 "forge": 5,
                 "follower_lustpower": 1
             },
-            "description": "Valciane is not a machine. We are reasonably confident of that, because she has been observed, now and then, to commit quite human errors.",
+            "description": "Valciane não é uma máquina, e estamos razoavelmente confiantes, pois foi observada, de vez em quando, a cometer erros absolutamente humanos.",
             "xtriggers": {
                 "promotionto_d_forge": "valciane_d",
                 "killmortal": "corpse",
@@ -1541,7 +1541,7 @@
         },
         {
             "id": "valciane_d",
-            "label": "Valciane, a Reshaper",
+            "label": "Valciane, um Reshaper",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1550,7 +1550,7 @@
                 "forge": 10,
                 "follower_lustpower": 1
             },
-            "description": "Valciane has begun to work without tools. 'They get in the way,' she claims.",
+            "description": "Valciane começou a trabalhar sem ferramentas. \"Eles entram no caminho\", afirma ela.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1561,13 +1561,13 @@
         },
         {
             "id": "victor_a",
-            "label": "Victor, an acquaintance",
+            "label": "Vitorioso, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustsensation": 1
             },
-            "description": "Victor is a sly fellow, and he knows an unusual opportunity when he sees it. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Victor é um cara grosseiro, e conhece uma oportunidade incomum quando o vê. [Você talvez possa recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "victor_b",
                 "killmortal": "corpse",
@@ -1577,14 +1577,14 @@
         },
         {
             "id": "victor_b",
-            "label": "Victor, a believer",
+            "label": "Vitorioso, crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "edge": 2,
                 "follower_lustsensation": 1
             },
-            "description": "Victor is a sly fellow, but loyal.",
+            "description": "Victor é um companheiro, mas leal.",
             "xtriggers": {
                 "promotiontodisciple": "victor_c",
                 "killmortal": "corpse",
@@ -1596,7 +1596,7 @@
         },
         {
             "id": "victor_c",
-            "label": "Victor, a disciple",
+            "label": "Vitoriosa, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1605,7 +1605,7 @@
                 "edge": 5,
                 "follower_lustsensation": 1
             },
-            "description": "Victor has sharpened his cunning to a concentrated point.",
+            "description": "Victor afiou sua astúcia a um ponto concentrado.",
             "xtriggers": {
                 "promotionto_d_edge": "victor_d",
                 "killmortal": "corpse",
@@ -1617,7 +1617,7 @@
         },
         {
             "id": "victor_d",
-            "label": "Victor, an Assassin",
+            "label": "Vitorioso, um Assassino",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1626,7 +1626,7 @@
                 "edge": 10,
                 "follower_lustsensation": 1
             },
-            "description": "Victor likes to become acquainted with his subjects, so he can apologise to them personally, just before the end.",
+            "description": "Victor gosta de se familiarizar com seus assuntos, para que possa pedir desculpas a eles pessoalmente, pouco antes do fim.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1637,13 +1637,13 @@
         },
         {
             "id": "violet_a",
-            "label": "Violet, an acquaintance",
+            "label": "Violeta, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustsensation": 1
             },
-            "description": "Violet has always given unstintingly of her time, easing the pain of the dying. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Violeta sempre deu incrivelmente o tempo dela, aliviando a dor da morte. [Você pode ser capaz de recrutar este conhecido como seguidor.]",
             "xtriggers": {
                 "recruiting": "violet_b",
                 "killmortal": "corpse",
@@ -1653,14 +1653,14 @@
         },
         {
             "id": "violet_b",
-            "label": "Violet, a believer",
+            "label": "Violeta, crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "winter": 2,
                 "follower_lustsensation": 1
             },
-            "description": "Violet likes to paint. She has a gift, although she's always been very modest about it. She never puts human figures in her paintings. There are enough people in the world.",
+            "description": "Violeta gosta de pintar. Ela tem um presente, apesar de sempre ter sido muito modesta sobre isso. Ela nunca coloca figuras humanas em suas pinturas. Há pessoas suficientes no mundo.",
             "xtriggers": {
                 "promotiontodisciple": "violet_c",
                 "killmortal": "corpse",
@@ -1672,7 +1672,7 @@
         },
         {
             "id": "violet_c",
-            "label": "Violet, a disciple",
+            "label": "Violeta, discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1681,7 +1681,7 @@
                 "winter": 5,
                 "follower_lustsensation": 1
             },
-            "description": "Violet is always very careful.",
+            "description": "O Violeta é sempre muito cuidadoso.",
             "xtriggers": {
                 "promotionto_d_winter": "violet_d",
                 "killmortal": "corpse",
@@ -1693,7 +1693,7 @@
         },
         {
             "id": "violet_d",
-            "label": "A kindly-faced woman, who is silent",
+            "label": "Uma mulher bonitinha, que está calada",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1702,7 +1702,7 @@
                 "winter": 10,
                 "follower_lustsensation": 1
             },
-            "description": "Sleep, now. Don't worry about a thing.",
+            "description": "Durma! Agora não se preocupe com nada.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1713,13 +1713,13 @@
         },
         {
             "id": "ysabet_a",
-            "label": "Ysabet, an acquaintance",
+            "label": "Sabet, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
                 "follower_lustchange": 1
             },
-            "description": "Ysabet has always been most comfortable by moonlight. She has excellent night vision. She is often overlooked in daylight.[You might be able to recruit this acquaintance as a follower.]",
+            "description": "Ysabet sempre esteve muito confortável com a luz da lua. Ela tem uma excelente visão noturna. Muitas vezes é ignorada à luz do dia.[Talvez você consiga recrutar este conhecido como seguidor.]",
             "xtriggers": {
                 "recruiting": "ysabet_b",
                 "killmortal": "corpse",
@@ -1729,14 +1729,14 @@
         },
         {
             "id": "ysabet_b",
-            "label": "Ysabet, a believer",
+            "label": "Sabet, um crente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "moth": 2,
                 "follower_lustchange": 1
             },
-            "description": "Ysabet sleeps in fits and starts. She rises at dusk to do the things an Ysabet does.",
+            "description": "Ysabet dorme em cabines e começa. Ela resiste ao crepúsculo para fazer as coisas que um Ysabet faz.",
             "xtriggers": {
                 "promotiontodisciple": "ysabet_c",
                 "killmortal": "corpse",
@@ -1748,7 +1748,7 @@
         },
         {
             "id": "ysabet_c",
-            "label": "Ysabet, a disciple",
+            "label": "Sabet, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1757,7 +1757,7 @@
                 "moth": 5,
                 "follower_lustchange": 1
             },
-            "description": "Ysabet was just here, just a moment ago. Just here. Almost certainly.",
+            "description": "Ysabet estava bem aqui, há apenas alguns instantes. Quase com certeza.",
             "xtriggers": {
                 "promotionto_d_moth": "ysabet_d",
                 "killmortal": "corpse",
@@ -1778,7 +1778,7 @@
                 "moth": 10,
                 "follower_lustchange": 1
             },
-            "description": "Ysabet never lies, now. She doesn't need to.",
+            "description": "Ysabet não mente agora. Ela não precisa.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1789,7 +1789,7 @@
         },
         {
             "id": "zachary_c",
-            "label": "Zachary, a disciple",
+            "label": "Zacaire, um discípulo",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1798,7 +1798,7 @@
                 "winter": 5,
                 "lantern": 4
             },
-            "description": "Zachary's reasoning is as certain as ever, but now, it is chillier.",
+            "description": "O raciocínio da Zara é tão certo como nunca, mas agora é infantil.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "promotionto_d_winter": "zachary_d",
@@ -1811,7 +1811,7 @@
         },
         {
             "id": "zachary_d",
-            "label": "Zachary, a Conclusion",
+            "label": "Zacary, uma conclusão",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -1820,7 +1820,7 @@
                 "winter": 10,
                 "lantern": 7
             },
-            "description": "Zachary has chosen his ending.",
+            "description": "Zachary escolheu seu fim.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -1832,7 +1832,7 @@
         },
         {
             "id": "auclair_p",
-            "label": "Auclair, a prisoner",
+            "label": "Auclair, um prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1840,7 +1840,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "Auclair does not speak or eat.",
+            "description": "Auclair não fala nem come.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -1851,7 +1851,7 @@
         },
         {
             "id": "cat_p",
-            "label": "Cat Caro, a prisoner",
+            "label": "Gato Caro, prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1859,7 +1859,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "The woman who used to call herself 'Cat Caro' sleeps whenever she can.",
+            "description": "A mulher que se chamava \"Gato Caro\" dorme sempre que pode.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -1870,7 +1870,7 @@
         },
         {
             "id": "clifton_p",
-            "label": "'Pope' Clifton, a prisoner",
+            "label": "Papai Clifton, um prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1878,7 +1878,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "Clifton roars and curses, but the bars hold, and the walls are thick.",
+            "description": "O Clifton ruga e amaldiçoa, mas os bares seguem e as paredes são grossas.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -1889,7 +1889,7 @@
         },
         {
             "id": "clovette_p",
-            "label": "Clovette, a prisoner",
+            "label": "Clovette, um prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1897,7 +1897,7 @@
                 "grail": 3,
                 "heart": 5
             },
-            "description": "Clovette is waiting for things to turn around.",
+            "description": "A Clovette está à espera que as coisas se virem.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -1908,7 +1908,7 @@
         },
         {
             "id": "dorothy_p",
-            "label": "Dorothy, a prisoner",
+            "label": "Doroto, um prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1916,7 +1916,7 @@
                 "grail": 3,
                 "heart": 5
             },
-            "description": "Dorothy's constant expostulations wear on the nerves.",
+            "description": "Dorothy usa constantes expostulações nos nervos.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -1927,7 +1927,7 @@
         },
         {
             "id": "douglas_p",
-            "label": "Douglas, a prisoner",
+            "label": "Douglas, prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1936,7 +1936,7 @@
                 "heart": 3,
                 "forge": 5
             },
-            "description": "Douglas shakes his head sadly. 'Never thought I'd end on the wrong side of the bars. Should have listened to me old mum.'",
+            "description": "Douglas abala a cabeça com tristeza. 'Nunca pensei que eu terminaria no lado errado das barras. Deveria ter me ouvido a velha mamãe.'",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -1948,7 +1948,7 @@
         },
         {
             "id": "enid_p",
-            "label": "Enid, a prisoner",
+            "label": "Enid, um prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1957,7 +1957,7 @@
                 "heart": 3,
                 "knock": 5
             },
-            "description": "Enid doesn't speak any more.",
+            "description": "Enid não fala mais.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -1968,7 +1968,7 @@
         },
         {
             "id": "elridge_p",
-            "label": "Elridge, a prisoner",
+            "label": "Elridge, um prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1977,7 +1977,7 @@
                 "heart": 3,
                 "edge": 5
             },
-            "description": "Elridge is not permitted a spoon, or a plate. It is probably unwise to permit him even the sharper vegetables.",
+            "description": "Não se permite colher nem um prato, é imprudente permitir-lhe mesmo os legumes mais afiados.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -1988,7 +1988,7 @@
         },
         {
             "id": "laidlaw_p",
-            "label": "Laidlaw, a prisoner",
+            "label": "Laidlaw, um prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -1997,7 +1997,7 @@
                 "heart": 3,
                 "forge": 5
             },
-            "description": "Laidlaw's door is bolted, not locked. We know better than that.",
+            "description": "A porta de Laidlaw, não está trancada. Sabemos melhor do que isso.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2008,7 +2008,7 @@
         },
         {
             "id": "leo_p",
-            "label": "Leo, a prisoner",
+            "label": "Leo, prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2016,7 +2016,7 @@
                 "grail": 3,
                 "heart": 5
             },
-            "description": "Leo doesn't understand what he did wrong.",
+            "description": "Leo não entende o que ele fez de errado.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2027,7 +2027,7 @@
         },
         {
             "id": "neville_p",
-            "label": "Neville, a prisoner",
+            "label": "Neville, um prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2036,7 +2036,7 @@
                 "heart": 3,
                 "knock": 5
             },
-            "description": "Neville is weeping.",
+            "description": "Neville está varrendo.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2047,7 +2047,7 @@
         },
         {
             "id": "porter_p",
-            "label": "Porter, a prisoner",
+            "label": "Porto, prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2056,7 +2056,7 @@
                 "heart": 3,
                 "moth": 5
             },
-            "description": "Porter waits, still as a lizard.",
+            "description": "O portter espera, ainda assim como um lagarto.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2067,7 +2067,7 @@
         },
         {
             "id": "renira_p",
-            "label": "Renira, a prisoner",
+            "label": "Renira, prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2075,7 +2075,7 @@
                 "grail": 5,
                 "heart": 3
             },
-            "description": "Renira always finds ways to pass the time.",
+            "description": "Renira sempre encontra maneiras de passar o tempo.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2086,7 +2086,7 @@
         },
         {
             "id": "rose_p",
-            "label": "Rose, a prisoner",
+            "label": "Rose, um prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2095,7 +2095,7 @@
                 "heart": 3,
                 "edge": 5
             },
-            "description": "Rose has not given up. I suspect her of hiding cutlery.",
+            "description": "Rosa não desistiu. Suspeito que ela se esconda de cutrilha.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2106,7 +2106,7 @@
         },
         {
             "id": "slee_p",
-            "label": "Slee, a prisoner",
+            "label": "Durma, prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2114,7 +2114,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "Slee writes poetry on the walls, obsessively. If we don't provide ink, he uses what he can.",
+            "description": "Slee escreve poesia nas paredes, obsessivamente. Se não fornecermos tinta, ele usa o que pode.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2125,7 +2125,7 @@
         },
         {
             "id": "tristan_p",
-            "label": "Tristan, a prisoner",
+            "label": "Tristan, prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2134,7 +2134,7 @@
                 "heart": 3,
                 "forge": 5
             },
-            "description": "Tristan will make the best of his situation.",
+            "description": "O Tristan tirará o melhor partido da sua situação.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2145,7 +2145,7 @@
         },
         {
             "id": "saliba_p",
-            "label": "Saliba, a prisoner",
+            "label": "Saliba, prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2153,7 +2153,7 @@
                 "grail": 5,
                 "heart": 3
             },
-            "description": "Saliba's anger burns like buried lava.",
+            "description": "A raiva de Saliba queima como uma lava enterrada.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2164,7 +2164,7 @@
         },
         {
             "id": "sylvia_p",
-            "label": "Sylvia, a prisoner",
+            "label": "Sylvia, um prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2173,7 +2173,7 @@
                 "heart": 3,
                 "moth": 5
             },
-            "description": "We check on Sylvia every hour, just in case.",
+            "description": "Verificamos na Sylvia a cada hora, por precaução.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2184,7 +2184,7 @@
         },
         {
             "id": "valciane_p",
-            "label": "Valciane, a prisoner",
+            "label": "Valciane, prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2193,7 +2193,7 @@
                 "heart": 3,
                 "forge": 5
             },
-            "description": "It is very important never to get within arm's reach of Valciane.",
+            "description": "É muito importante que nunca nos vejamos ao alcance de Valciane.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2204,7 +2204,7 @@
         },
         {
             "id": "victor_p",
-            "label": "Victor, a prisoner",
+            "label": "Vencedor, um prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2213,7 +2213,7 @@
                 "heart": 3,
                 "edge": 5
             },
-            "description": "Victor's eyes are wells of rage.",
+            "description": "Os olhos de Victor são poços de raiva.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2224,7 +2224,7 @@
         },
         {
             "id": "violet_p",
-            "label": "Violet, a prisoner",
+            "label": "Violet, prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2233,7 +2233,7 @@
                 "heart": 3,
                 "winter": 5
             },
-            "description": "Violet insists that she's fine. She's fine.",
+            "description": "Violeta insiste que ela está bem. Está bem.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2244,7 +2244,7 @@
         },
         {
             "id": "ysabet_p",
-            "label": "Ysabet, a prisoner",
+            "label": "Sabet, prisioneiro",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2253,7 +2253,7 @@
                 "heart": 3,
                 "moth": 5
             },
-            "description": "If Ysabet is weeping, she does so with dry eyes.",
+            "description": "Se Ysabet estiver varrido, faça-o com olhos secos.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
@@ -2264,12 +2264,12 @@
         },
         {
             "id": "generic_a",
-            "label": "A Hanger-On",
+            "label": "Um Hanger-On",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
             },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Útil maleável, mas eles provavelmente nunca equivalerão a muito. [Você pode ser capaz de recrutar este conhecido como um seguidor.]",
             "comments": "legacy element to keep saves valid",
             "xtriggers": {
                 "recruiting": "generic_b",
@@ -2280,12 +2280,12 @@
         },
         {
             "id": "generic_a_edge",
-            "label": "A Hanger-On",
+            "label": "Um Hanger-On",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
             },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Útil maleável, mas eles provavelmente nunca equivalerão a muito. [Você pode ser capaz de recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2295,12 +2295,12 @@
         },
         {
             "id": "generic_a_forge",
-            "label": "A Hanger-On",
+            "label": "Um Hanger-On",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
             },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Útil maleável, mas eles provavelmente nunca equivalerão a muito. [Você pode ser capaz de recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2310,12 +2310,12 @@
         },
         {
             "id": "generic_a_grail",
-            "label": "A Hanger-On",
+            "label": "Um Hanger-On",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
             },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Útil maleável, mas eles provavelmente nunca equivalerão a muito. [Você pode ser capaz de recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2325,12 +2325,12 @@
         },
         {
             "id": "generic_a_heart",
-            "label": "A Hanger-On",
+            "label": "Um Hanger-On",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
             },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Útil maleável, mas eles provavelmente nunca equivalerão a muito. [Você pode ser capaz de recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2340,12 +2340,12 @@
         },
         {
             "id": "generic_a_knock",
-            "label": "A Hanger-On",
+            "label": "Um Hanger-On",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
             },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Útil maleável, mas eles provavelmente nunca equivalerão a muito. [Você pode ser capaz de recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2355,12 +2355,12 @@
         },
         {
             "id": "generic_a_lantern",
-            "label": "A Hanger-On",
+            "label": "Um Hanger-On",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
             },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Útil maleável, mas eles provavelmente nunca equivalerão a muito. [Você pode ser capaz de recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2370,12 +2370,12 @@
         },
         {
             "id": "generic_a_moth",
-            "label": "A Hanger-On",
+            "label": "Um Hanger-On",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
             },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Útil maleável, mas eles provavelmente nunca equivalerão a muito. [Você pode ser capaz de recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2386,12 +2386,12 @@
         },
         {
             "id": "generic_a_winter",
-            "label": "A Hanger-On",
+            "label": "Um Hanger-On",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
             },
-            "description": "Usefully malleable, but they'll probably never amount to much. [You might be able to recruit this acquaintance as a follower.]",
+            "description": "Útil maleável, mas eles provavelmente nunca equivalerão a muito. [Você pode ser capaz de recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2407,7 +2407,7 @@
                 "follower": 1,
                 "edge": 1
             },
-            "description": "This one is loyal, but lacks initiative.",
+            "description": "Este é leal, mas carece de iniciativa.",
             "comments": "This is a legacy element to support older saves.",
             "xtriggers": {
                 "killmortal": "corpse",
@@ -2425,7 +2425,7 @@
                 "follower": 1,
                 "edge": 1
             },
-            "description": "This one is loyal, but lacks initiative.",
+            "description": "Este é leal, mas carece de iniciativa.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2442,7 +2442,7 @@
                 "follower": 1,
                 "edge": 1
             },
-            "description": "This one is loyal, but lacks initiative.",
+            "description": "Este é leal, mas carece de iniciativa.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2459,7 +2459,7 @@
                 "follower": 1,
                 "edge": 1
             },
-            "description": "This one is loyal, but lacks initiative.",
+            "description": "Este é leal, mas carece de iniciativa.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2476,7 +2476,7 @@
                 "follower": 1,
                 "edge": 1
             },
-            "description": "This one is loyal, but lacks initiative.",
+            "description": "Este é leal, mas carece de iniciativa.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2493,7 +2493,7 @@
                 "follower": 1,
                 "edge": 1
             },
-            "description": "This one is loyal, but lacks initiative.",
+            "description": "Este é leal, mas carece de iniciativa.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2510,7 +2510,7 @@
                 "follower": 1,
                 "edge": 1
             },
-            "description": "This one is loyal, but lacks initiative.",
+            "description": "Este é leal, mas carece de iniciativa.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2527,7 +2527,7 @@
                 "follower": 1,
                 "edge": 1
             },
-            "description": "This one is loyal, but lacks initiative.",
+            "description": "Este é leal, mas carece de iniciativa.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2544,7 +2544,7 @@
                 "follower": 1,
                 "edge": 1
             },
-            "description": "This one is loyal, but lacks initiative.",
+            "description": "Este é leal, mas carece de iniciativa.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2555,14 +2555,14 @@
         },
         {
             "id": "generic_c_edge",
-            "label": "A Sturdy Disciple",
+            "label": "Um Discípulo Robusto",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
                 "disciple": 1,
                 "edge": 2
             },
-            "description": "Loyalty, and muscles.",
+            "description": "Fidelidade e músculos.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2572,7 +2572,7 @@
         },
         {
             "id": "generic_c_forge",
-            "label": "A Practical Disciple",
+            "label": "Um Discípulo Prático",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2580,7 +2580,7 @@
                 "edge": 1,
                 "forge": 2
             },
-            "description": "Loyal, and good with their hands.",
+            "description": "Leal e bom com as mãos.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2590,7 +2590,7 @@
         },
         {
             "id": "generic_c_grail",
-            "label": "An Avid Disciple",
+            "label": "Um Discípulo Avid",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2598,7 +2598,7 @@
                 "edge": 1,
                 "grail": 2
             },
-            "description": "Loyal, but greedy.",
+            "description": "Leal, mas ganancioso.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2608,7 +2608,7 @@
         },
         {
             "id": "generic_c_heart",
-            "label": "A Lively Disciple ",
+            "label": "Um Discípulo Animado ",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2616,7 +2616,7 @@
                 "edge": 1,
                 "heart": 2
             },
-            "description": "Loyal, and always ready with a song.",
+            "description": "Leal e sempre pronto com uma música.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2626,7 +2626,7 @@
         },
         {
             "id": "generic_c_knock",
-            "label": "A Dextrous Disciple ",
+            "label": "Um Discípulo de Dextrous ",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2634,7 +2634,7 @@
                 "edge": 1,
                 "knock": 2
             },
-            "description": "Loyal, and clever with locks.",
+            "description": "Leal e inteligente com bloqueios.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2644,7 +2644,7 @@
         },
         {
             "id": "generic_c_lantern",
-            "label": "A Percipient Disciple",
+            "label": "Um Discípulo Percipiente",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2652,7 +2652,7 @@
                 "edge": 1,
                 "lantern": 2
             },
-            "description": "Loyal, and keen-sighted.",
+            "description": "Leal e aguardado.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2662,7 +2662,7 @@
         },
         {
             "id": "generic_c_moth",
-            "label": "An Erratic Disciple",
+            "label": "Um Discípulo Errado",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2670,7 +2670,7 @@
                 "edge": 1,
                 "moth": 2
             },
-            "description": "Loyal, if peculiar; peculiar even for one of our kind.",
+            "description": "Loyal, se é peculiar; peculiar, até mesmo para um dos nossos tipos.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2682,7 +2682,7 @@
         },
         {
             "id": "generic_c_winter",
-            "label": "A Silent Disciple",
+            "label": "Um Discípulo Silencioso",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2690,7 +2690,7 @@
                 "edge": 1,
                 "winter": 2
             },
-            "description": "Loyal, and quiet as falling snow.",
+            "description": "Leal e quieto enquanto cai da neve.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic",
@@ -2700,7 +2700,7 @@
         },
         {
             "id": "generic_p",
-            "label": "A Follower Betrayed",
+            "label": "Um seguidor traído",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -2708,7 +2708,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "This one rails weakly against their fate.",
+            "description": "Este é um caminho fraco contra o seu destino.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"

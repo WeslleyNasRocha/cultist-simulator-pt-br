@@ -2,14 +2,14 @@
     "elements": [
         {
             "id": "thugedgeminor",
-            "label": "A Hulking Fellow",
+            "label": "Um Amarelo Hulking",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
                 "follower": 1,
                 "edge": 3
             },
-            "description": "'I get the job done.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
+            "description": "'Eu tenho o trabalho feito' [Este Hireling pode ser útil para algumas Expedições, e pode ajudar com Caçadores e Annoyances.]",
             "xtriggers": {
                 "hiring": "thugedgeminor",
                 "killmortal": "corpse",
@@ -20,14 +20,14 @@
         },
         {
             "id": "thugmothminor",
-            "label": "A Shifty Woman",
+            "label": "Uma mulher deslocada",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
                 "follower": 1,
                 "moth": 3
             },
-            "description": "'I get the job done.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
+            "description": "'Eu tenho o trabalho feito' [Este Hireling pode ser útil para algumas Expedições, e pode ajudar com Caçadores e Annoyances.]",
             "xtriggers": {
                 "hiring": "thugmothminor",
                 "killmortal": "corpse",
@@ -38,14 +38,14 @@
         },
         {
             "id": "thugedge",
-            "label": "Professional Muscle",
+            "label": "Musculatura Profissional",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
                 "follower": 1,
                 "edge": 5
             },
-            "description": "'I'll break them in half.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
+            "description": "'Eu vou quebrá-los a meio.' [Este Hireling pode ser útil para algumas Expedições, e pode ajudar com Caçadores e Annoyances.]",
             "xtriggers": {
                 "hiring": "thugedge",
                 "killmortal": "corpse",
@@ -56,7 +56,7 @@
         },
         {
             "id": "thugforgeedge",
-            "label": "A Bomb-Maker",
+            "label": "Um Criador de Bombas",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
@@ -64,7 +64,7 @@
                 "forge": 5,
                 "edge": 3
             },
-            "description": "'Perhaps we shouldn't discuss politics just yet.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
+            "description": "'Talvez não devêssemos discutir política ainda.' [Este Hireling pode ser útil para algumas Expedições, e pode ajudar com caçadores e Annoyances.]",
             "xtriggers": {
                 "hiring": "thugforgeedge",
                 "killmortal": "corpse",
@@ -75,14 +75,14 @@
         },
         {
             "id": "thugknock",
-            "label": "An Entry Consultant",
+            "label": "Um Consultor de entrada",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
                 "follower": 1,
                 "knock": 5
             },
-            "description": "'I'm good with doors. [This Hireling may be useful for some Expeditions.]'",
+            "description": "'Eu sou bom com portas. [Este Hireling pode ser útil para algumas Expedições]'",
             "xtriggers": {
                 "hiring": "thugknock",
                 "killmortal": "corpse",
@@ -93,7 +93,7 @@
         },
         {
             "id": "thuglanternmoth",
-            "label": "A Fortune-Teller",
+            "label": "Um Domador de Fortunas",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
@@ -101,7 +101,7 @@
                 "lantern": 5,
                 "moth": 3
             },
-            "description": "'I see things. I see that you're different.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
+            "description": "'Eu vejo coisas. Vejo que você é diferente.' [Este Hireling pode ser útil para algumas Expedições, e pode ajudar com Caçadores e Annoyances.]",
             "xtriggers": {
                 "hiring": "thuglanternmoth",
                 "killmortal": "corpse",
@@ -112,7 +112,7 @@
         },
         {
             "id": "thugmoth",
-            "label": "An Experienced Swindler",
+            "label": "Um Swindler Experiente",
             "aspects": {
                 "mortal": 1,
                 "hireling": 1,
@@ -120,7 +120,7 @@
                 "moth": 5,
                 "grail": 1
             },
-            "description": "'How delightful to be working with you!' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
+            "description": "'Que prazer estar trabalhando com você!' [Este Hireling pode ser útil para algumas Expedições, e pode ajudar com Caçadores e Annoyances.]",
             "xtriggers": {
                 "hiring": "thugmoth",
                 "killmortal": "corpse",

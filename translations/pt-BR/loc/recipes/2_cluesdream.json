@@ -2,12 +2,12 @@
     "recipes": [
         {
             "id": "temptationremembrancehintdream",
-            "label": "Temptations?",
+            "label": "Tentativas?",
             "actionid": "dream",
             "requirements": {
                 "temptation.remembrance": 1
             },
-            "startdescription": "There are colours in the world, there are colours in the Mansus, and then there are colours lost. Their absence is the knife I cannot release. [The Remembrance temptation has its teeth in you, and no other Temptation will touch you.]",
+            "startdescription": "Há cores no mundo, há cores nos Mansus, e depois há cores perdidas. A ausência deles é a faca que não posso liberar. [A tentação de lembrança tem os dentes em você, e nenhuma outra tentação irá te tocar.]",
             "craftable": false,
             "hintonly": true
         },
@@ -18,7 +18,7 @@
             "requirements": {
                 "vitality": 1
             },
-            "startdescription": "This provokes no dreams; but I could Study it to increase my Health.",
+            "startdescription": "Isso não provoca sonhos; mas eu poderia estudá-lo para aumentar minha Saúde.",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on Dream primary slot"
@@ -30,7 +30,7 @@
             "requirements": {
                 "erudition": 1
             },
-            "startdescription": "This provokes no dreams; but I could Study it to increase my Reason.",
+            "startdescription": "Isso não provoca sonhos; mas eu poderia estudá-lo para aumentar meu Reason.",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on Dream primary slot"
@@ -42,7 +42,7 @@
             "requirements": {
                 "glimmering": 1
             },
-            "startdescription": "This provokes no dreams, just now; but I could Study it to increase my Passion.",
+            "startdescription": "Isso não provoca sonhos, mas eu poderia estudá-lo para aumentar minha paixão.",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on Dream primary slot"
@@ -54,19 +54,19 @@
             "requirements": {
                 "contentment": 1
             },
-            "startdescription": "Contentment isn't a key to dreams, though dreams may sometimes make me content.",
+            "startdescription": "O conteúdo não é uma chave para sonhos, embora os sonhos às vezes possam me fazer contente.",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on Dream primary slot"
         },
         {
             "id": "dedicationtoobsession_power_hint",
-            "label": "The Next Step",
+            "label": "O próximo passo",
             "actionid": "dream",
             "requirements": {
                 "ascensionpowerb": 1
             },
-            "startdescription": "I've gone as far as I can in dream. I must perform the <b>Work</b>.",
+            "startdescription": "Eu fui tão longe quanto posso sonhar. Devo executar o <b>Trabalho</b>.",
             "craftable": false,
             "hintonly": true
         },
@@ -83,34 +83,34 @@
         },
         {
             "id": "tryreducefascination",
-            "label": "Seek Composure?",
+            "label": "Procurar Composição",
             "actionid": "dream",
             "requirements": {
                 "fascination": 1
             },
-            "startdescription": "The doors of vision swing wide. A little darkness will mellow my light. Even Dread has its uses.",
+            "startdescription": "As portas da visão balançando largas. Um pouco de escuridão vai derreter a minha luz. Até mesmo Dread tem seus usos.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "tryrecoverreason",
-            "label": "Clear my Mind?",
+            "label": "Limpar minha mente?",
             "actionid": "dream",
             "requirements": {
                 "dread": 1
             },
-            "startdescription": "I remember that I was different: but I can't yet remember how. [Dread can be quelled with the correct resource.]",
+            "startdescription": "Eu lembro que eu era diferente: mas ainda não consigo me lembrar como. [O traço pode ser esmagado com o recurso correto.]",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "tryrecoverillhealth",
-            "label": "Recover?",
+            "label": "Recuperar?",
             "actionid": "dream",
             "requirements": {
                 "illhealth": 1
             },
-            "startdescription": "Resting will restore me - if I have the necessary resources.",
+            "startdescription": "O repouso restaurar-me-á - se eu dispuser dos recursos necessários.",
             "craftable": false,
             "hintonly": true,
             "comments": "This one's generic."

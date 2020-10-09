@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "studybenefactorwill",
-            "label": "Study a Dearly Departed's Papers",
+            "label": "Estude um papel delicioso",
             "actionid": "study",
             "requirements": {
                 "benefactorwill": 1,
@@ -18,8 +18,8 @@
                 "funds": 49,
                 "benefactorwill": -1
             },
-            "startdescription": "This situation requires discretion. Society considered our association improper.",
-            "description": "Our relations were never formalised. It would be unthinkable that I would inherit a significant portion of the estate. Nevertheless, I have been well provided for.",
+            "startdescription": "Esta situação exige discricionariedade e a sociedade considerou a nossa associação inadequada.",
+            "description": "As nossas relações nunca foram formalizadas, e seria impensável que eu herdasse uma parte significativa do património. No entanto, estou bem previsto.",
             "warmup": 60,
             "craftable": true
         },
@@ -31,14 +31,14 @@
                 "notoriety": 1,
                 "benefactorwill": -1
             },
-            "description": "Something has gone awry. Our former acquaintances cross the street when I pass. A newspaper hints at foul play. The solicitor will not receive me. I can expect no bequest, and there may be worse to come."
+            "description": "Algo deu errado. Nossos antigos conhecidos atravessam a rua quando eu passei. Um jornal diz que está brincando. O requerente não me receberá; não estou à espera de uma missão e talvez venha a ser ainda pior."
         },
         {
             "id": "study.welland.defeated",
             "actionid": "study",
-            "label": "As At Issus",
-            "startdescription": "I have the opportunity to turn against our Shaper, as the Lionsmith did against the Colonel. [This will prevent your previous character from ever ascending, but give you the opportunity to win a standard Forge victory. It will have no other effect.]",
-            "description": "The chain of loyalty is shattered. My followers will suspect nothing. By the time our Shaper can return from their exile, I will be gone, or I will be forever.",
+            "label": "Como em Questões",
+            "startdescription": "Tenho a oportunidade de me dirigir contra o nosso Shaper, tal como o Lionsmith fez contra o Coronel. [Isto evitará que seu personagem anterior suba, mas lhe dará a oportunidade de ganhar uma vitória padrão da Forja. Não terá outro efeito.]",
+            "description": "A cadeia de lealdade está despedaçada. Meus seguidores não suspeitarão de nada. No momento em que o nosso Shaper regressar do exílio, terei desaparecido, caso contrário ficarei para sempre.",
             "requirements": {
                 "welland.defeated": 1,
                 "mentor": 1
@@ -54,9 +54,9 @@
         {
             "id": "study.tryphon.defeated",
             "actionid": "study",
-            "label": "The Selectest of Menus",
-            "startdescription": "If I consume what remains of Lady Tryphon, I will not be consumed. [This will prevent your previous character from ever ascending, but give you the opportunity to win a standard Grail victory. It will have no other effect.]",
-            "description": "The taste is bright on my tongue. There will be no Vitulation for our Delight. My followers will serve my desires. For now, I will devour; I will not be devoured.",
+            "label": "Selectest of Menus",
+            "startdescription": "Se eu consumir o que sobrou da Dama Tryphon, eu não vou ser consumido. [Isso evitará que seu personagem anterior suba, mas lhe dará a oportunidade de ganhar uma vitória padrão do Grail. Não terá outro efeito.]",
+            "description": "O sabor está brilhante na minha língua. Não haverá Vitulação para nosso Deus. Meus seguidores servirão meus desejos. Por enquanto, vou devorar; não serei devorado.",
             "requirements": {
                 "tryphon.defeated": 1,
                 "mentor": 1
@@ -72,9 +72,9 @@
         {
             "id": "study.diarist.defeated",
             "actionid": "study",
-            "label": "One Door Closes",
-            "startdescription": "The Diarist has given me the means to abandon our Illuminated One to the Mansus. [This will prevent your previous character from ever ascending, but give you the opportunity to win a standard Lantern victory. It will have no other effect.]",
-            "description": "I have closed the door in my eye. I have sealed it with wax. That eye is blind, but the other sees new horizons. Our organisation will serve a different end. Perhaps one day I will greet our Founder as a peer.",
+            "label": "Uma porta fecha",
+            "startdescription": "O Diarista me deu os meios para abandonar o nosso Iluminado ao Mansus. [Isto evitará que seu personagem anterior ascenda um dia, mas lhe dará a oportunidade de ganhar uma vitória padrão da Lanterna. Não terá outro efeito.]",
+            "description": "Eu fechei a porta nos meus olhos, selei-o com cera. Esse olho é cego, mas o outro vê novos horizontes. A nossa organização terá um fim diferente. Talvez um dia eu cumprimente a nossa Fundador como pares.",
             "requirements": {
                 "diarist.defeated": 1,
                 "mentor": 1
@@ -90,9 +90,9 @@
         {
             "id": "study.julian.defeated",
             "actionid": "study",
-            "label": "Empty and Alone",
-            "startdescription": "'One more stone in the Mansus-wall.' Is that all I am? Is there anything else? [This will prevent your previous character from ever ascending, and add Dread to the board. It will have no other effect.]",
-            "description": "I will live out my life according to my choices. What I am is what I will be, until I am nothing at all.",
+            "label": "Vazio e sozinho",
+            "startdescription": "\"Mais uma pedra na parede de Manso. É tudo isso? Há mais alguma coisa? [Isso impedirá que seu personagem anterior ascenda e adicione o Papai ao quadro. Não terá outro efeito.]",
+            "description": "Eu viverei minha vida fora de acordo com as minhas escolhas. O que sou o que serei, até não ser nada.",
             "requirements": {
                 "julian.defeated": 1,
                 "mentor": 1

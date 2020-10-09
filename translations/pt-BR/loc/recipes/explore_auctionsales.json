@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "auctionentry6",
-            "label": "Sell Something of Great Value",
+            "label": "Venda algo de grande valor",
             "actionid": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -21,13 +21,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Few of the customer at Oriflamme's are students of the invisible arts. But even laymen will recognise this as something extraordinary. [Sell with caution. There's no way to get it back.]",
+            "startdescription": "Poucos clientes da Oriflamme's são alunos das artes invisíveis. Mas até mesmo os leigos reconhecerão isso como algo extraordinário. [Venda com cuidado. Não há como recuperá-lo.]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "auctionentry5",
-            "label": "Sell Something of Rare Value",
+            "label": "Venda Algo de Valor Raro",
             "actionid": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -46,13 +46,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Few of the customer at Oriflamme's are students of the invisible arts. They'll buy tools of power as trophies or curiosities, without any idea of their true value. But this is obviously something rare. [Sell with caution. There's no way to get it back.]",
+            "startdescription": "Poucos clientes da Oriflamme's são alunos das artes invisíveis. Eles vão comprar ferramentas de poder como troféus ou curiosidades, sem qualquer ideia de seu verdadeiro valor. Mas isso é obviamente raro. [Vender com cuidado. Não há como recuperá-lo.]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "auctionentry4",
-            "label": "Sell Something of Significant Value",
+            "label": "Venda algo de valor significativo",
             "actionid": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -71,13 +71,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Few of the customer at Oriflamme's are students of the invisible arts. They'll buy tools of power as trophies or curiosities, without any idea of their true value. But this will get their attention. [Sell with caution. There's no way to get it back.]",
+            "startdescription": "Poucos clientes da Oriflamme's são alunos das artes invisíveis. Eles vão comprar ferramentas de poder como troféus ou curiosidades, sem qualquer ideia de seu verdadeiro valor. Mas isso vai chamar a sua atenção. [Vender com cuidado. Não há como recuperá-lo.]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "auctionentry3",
-            "label": "Sell Something of Real Value",
+            "label": "Venda algo de valor real",
             "actionid": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -96,13 +96,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "This unusual item will definitely earn you some funds. [Sell with caution. There's no way to get it back.]",
+            "startdescription": "Este item incomum definitivamente lhe dará algum dinheiro. [Venda com cuidado. Não há como recuperar.]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "auctionentry2",
-            "label": "Sell Something of Some Value",
+            "label": "Venda alguma coisa de algum valor",
             "actionid": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -121,13 +121,13 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "This curiosity will earn you some funds. [Sell with caution. There's no way to get it back.]",
+            "startdescription": "Esta curiosidade lhe dará algum dinheiro. [Venda com cuidado. Não há como recuperar.]",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "auctionentry1",
-            "label": "Sell Something of Minimal Value",
+            "label": "Venda algo de valor mínimo",
             "actionid": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -150,15 +150,15 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "This oddity is probably worth something, but it's hard to be sure.",
+            "startdescription": "Essa estranheza provavelmente vale algo, mas é difícil ter certeza.",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "auctionsell_worthless",
-            "label": "Auction: A Total Lack of Interest",
+            "label": "Leilão: Um total de falta de interesse",
             "actionid": "explore",
-            "startdescription": "No-one is impressed. The auctioneer's gavel bangs. My item has sold, but for a sum so trifling as not to be worth recording.",
+            "startdescription": "Ninguém está impressionado. Os bandos de martelo do leilão. Meu item vendeu, mas para um montante tão trivial que não vale a pena gravar.",
             "linked": [
                 {
                     "id": "auctioncleanup",
@@ -173,9 +173,9 @@
         },
         {
             "id": "auctionsell_increasepetty",
-            "label": "Auction: Murmurings in the Audience",
+            "label": "Leilão: Assassinatos na Audiência",
             "actionid": "explore",
-            "startdescription": "For whatever unlikely reason, my item has caught the fancy of the bidders.",
+            "startdescription": "Por qualquer razão improvável, meu item pegou o chique dos licitantes.",
             "linked": [
                 {
                     "id": "auctioncleanup",
@@ -189,9 +189,9 @@
         },
         {
             "id": "auctionsell_increaseminor",
-            "label": "Auction: Energetic Bidding",
+            "label": "Leilão: Abastecimento Energético",
             "actionid": "explore",
-            "startdescription": "Some of the audience are on their feet, now. Passions are rising.",
+            "startdescription": "Alguns dos públicos estão de pé, agora. Os passivos estão subindo.",
             "linked": [
                 {
                     "id": "auctioncleanup",
@@ -205,9 +205,9 @@
         },
         {
             "id": "auctionsell_increasemajor",
-            "label": "Auction: Shouts of Excitement",
+            "label": "Leilão: ombros de Exercícios",
             "actionid": "explore",
-            "startdescription": "The auctioneer has to raise his voice over the hubbub of the crowd.",
+            "startdescription": "O leilão tem de levantar a sua voz sobre o hubu da multidão.",
             "linked": [
                 {
                     "id": "auctioncleanup",
@@ -221,9 +221,9 @@
         },
         {
             "id": "auctionsell_increasegrand",
-            "label": "Auction: Duelling Bidders",
+            "label": "Leilão: Fazedores Duelling",
             "actionid": "explore",
-            "startdescription": "Two wealthy collectors lock eyes with the auctioneer, signalling their intentions with the slightest nods. Except for the auctioneer's grave tones, the room is utterly silent.",
+            "startdescription": "Dois coletores ricos fecham os olhos com o leilão, indicando as suas intenções com a mais pequena nota. Exceto pelos tons de sepultura do leilão, a sala está completamente calada.",
             "effects": {
                 "funds": 8
             },
@@ -237,9 +237,9 @@
         },
         {
             "id": "auctioncleanup",
-            "label": "The Auction is Complete",
+            "label": "O Leilão está completo",
             "actionid": "explore",
-            "description": "The auctioneer's gavel bangs. My item has sold.",
+            "description": "Bangadas do armário do leilão. Meu item vendiu.",
             "effects": {
                 "auctionable": -99
             },

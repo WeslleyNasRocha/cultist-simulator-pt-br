@@ -2,13 +2,13 @@
     "recipes": [
         {
             "id": "studyincreasehealthstarter",
-            "label": "Exercise the Body",
+            "label": "Exercício do corpo",
             "actionid": "study",
             "requirements": {
                 "vitality": 2
             },
-            "startdescription": "I am abrim with vitality. If I devote some time to exercise, I'll benefit.",
-            "description": "I've grown stronger. [I've gained Health, but it'll be more difficult to gain Health next time.]",
+            "startdescription": "Eu sou abóbado com vitalidade. Se eu dedicar algum tempo a me exercitar, eu me beneficio.",
+            "description": "Eu fiquei mais forte. [Conquistei Saúde, mas será mais difícil ganhar Saúde da próxima vez.]",
             "effects": {
                 "vitality": -2,
                 "health": 1,
@@ -20,13 +20,13 @@
         },
         {
             "id": "studyincreasevitalitytoplus",
-            "label": "Exercise the Body",
+            "label": "Exercício do corpo",
             "actionid": "study",
             "requirements": {
                 "vitality": 2
             },
-            "startdescription": "I am abrim with vitality. If I devote some time to exercise, I'll benefit.",
-            "description": "I'm ready to grow stronger. [Use this Lesson Learnt with your Strength skill.]",
+            "startdescription": "Eu sou abóbado com vitalidade. Se eu dedicar algum tempo a me exercitar, eu me beneficio.",
+            "description": "Estou pronto para crescer mais forte. [Use esta lição aprendida com a sua habilidade de força.]",
             "effects": {
                 "vitality": -2,
                 "vitalityplus": 1
@@ -36,15 +36,15 @@
         },
         {
             "id": "studyincreasevitalitywithinfluencehearttoplus",
-            "label": "Exercise the Body",
+            "label": "Exercício do corpo",
             "actionid": "study",
             "requirements": {
                 "vitality": 1,
                 "influenceheart": 1,
                 "lore": -1
             },
-            "startdescription": "I am abrim with vitality, and this is a brisk season. If I devote some time to exercise, I'll benefit. [If you add appropriate Lore, this will allow you to create a more powerful occult Influence instead.]",
-            "description": "I'm ready to grow stronger. [Use this Lesson Learnt with your Strength skill.]",
+            "startdescription": "Eu sou de abóbora com vitalidade e esta é uma estação bruta. Se eu dedicar algum tempo a exercitar, eu me beneficio. [Se você adicionar o Traço apropriado, isso permitirá que você crie uma Influência occulta mais poderosa.]",
+            "description": "Estou pronto para crescer mais forte. [Use esta lição aprendida com a sua habilidade de força.]",
             "effects": {
                 "influence": -2,
                 "vitalityplus": 1
@@ -54,7 +54,7 @@
         },
         {
             "id": "studyincreasehealthskilla",
-            "label": "Exercise the Body: Stronger...",
+            "label": "Exerça o Body: Forçado...",
             "actionid": "study",
             "requirements": {
                 "skillhealtha": 1,
@@ -63,8 +63,8 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "I will grow stronger still.",
-            "description": "The machine, my body, ripples with power.",
+            "startdescription": "Eu vou ficar ainda mais forte.",
+            "description": "A máquina, meu corpo, onduladas com poder.",
             "effects": {
                 "health": 1
             },
@@ -73,7 +73,7 @@
         },
         {
             "id": "studyincreasehealthskillb",
-            "label": "Exercise the Body:  Stronger Yet...",
+            "label": "Exerça o corpo: Ainda mais forte...",
             "actionid": "study",
             "requirements": {
                 "skillhealthb": 1,
@@ -82,8 +82,8 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "I will grow stronger yet.",
-            "description": "I could carry a man across a river, now; or strangle him.",
+            "startdescription": "Eu ainda vou ficar mais forte.",
+            "description": "Eu poderia carregar um homem através de um rio, agora; ou estrangulá-lo.",
             "effects": {
                 "health": 1
             },
@@ -92,7 +92,7 @@
         },
         {
             "id": "studyincreasehealthskill_to_d_edge",
-            "label": "Exercise the Body: A Higher Strength",
+            "label": "Exerça o Corpo: Uma Força Mais Forte",
             "actionid": "study",
             "requirements": {
                 "skillhealthc": 1,
@@ -100,8 +100,8 @@
                 "edge": 1,
                 "lore": 1
             },
-            "startdescription": "I will follow in the footsteps of the Lionsmith, who grows strong and stronger, and of the Colonel, who does not flinch from scars.",
-            "description": "My heart beats with the steadiness of a drum and the certainty of a judge's sentence.",
+            "startdescription": "Vou seguir as pegadas do Ferreiro de Leão, que cresce forte e mais forte, e do Coronel, que não flinja com cicatrizes.",
+            "description": "O meu coração bate com a firmeza de um tambor e a certeza da sentença de um juiz.",
             "effects": {
                 "health": 1,
                 "skillhealthc": -1,
@@ -112,7 +112,7 @@
         },
         {
             "id": "studyincreasehealthskill_to_d_forge",
-            "label": "Exercise the Body: A Higher Strength",
+            "label": "Exerça o Corpo: Uma Força Mais Forte",
             "actionid": "study",
             "requirements": {
                 "skillhealthc": 1,
@@ -120,8 +120,8 @@
                 "forge": 1,
                 "lore": 1
             },
-            "startdescription": "I will burn with the strength of the Forge of Days.",
-            "description": "My heart beats with the steadiness of a drum and the certainty of a judge's sentence.",
+            "startdescription": "Queimarei com a força da Forja de Dias.",
+            "description": "O meu coração bate com a firmeza de um tambor e a certeza da sentença de um juiz.",
             "effects": {
                 "health": 1,
                 "skillhealthc": -1,
@@ -132,7 +132,7 @@
         },
         {
             "id": "studyincreasehealthskill_to_d_grail",
-            "label": "Exercise the Body: A Deeper Grace",
+            "label": "Exercício do corpo: Uma Graça Certeira",
             "actionid": "study",
             "requirements": {
                 "skillhealthc": 1,
@@ -140,8 +140,8 @@
                 "grail": 1,
                 "lore": 1
             },
-            "startdescription": "I will taste what the Grail has prescribed. I will be lithe and thorned and sweet.",
-            "description": "No storm can break the tree that bends.",
+            "startdescription": "Eu vou saber o que o túmulo prescreveu. Serei lírio, espinho e doce.",
+            "description": "Nenhuma tempestade pode quebrar a árvore que aumenta.",
             "effects": {
                 "health": 1,
                 "skillhealthc": -1,
@@ -152,7 +152,7 @@
         },
         {
             "id": "studyincreasehealthskill_to_d_heart",
-            "label": "Exercise the Body: A Deeper Grace",
+            "label": "Exercício do corpo: Uma Graça Certeira",
             "actionid": "study",
             "requirements": {
                 "skillhealthc": 1,
@@ -161,8 +161,8 @@
                 "lore": 1
             },
             "comments": "ugh: heart influence from vitalityplus",
-            "startdescription": "I will follow the Thunderskin's voice.",
-            "description": "No storm can break the tree that bends.",
+            "startdescription": "Seguirei a voz do Thunderskin.",
+            "description": "Nenhuma tempestade pode quebrar a árvore que aumenta.",
             "effects": {
                 "health": 1,
                 "skillhealthc": -1,
@@ -173,7 +173,7 @@
         },
         {
             "id": "studyincreasehealthskill_to_d_moth",
-            "label": "Exercise the Body: A Deeper Grace",
+            "label": "Exercício do corpo: Uma Graça Certeira",
             "actionid": "study",
             "requirements": {
                 "skillhealthc": 1,
@@ -181,8 +181,8 @@
                 "moth": 1,
                 "lore": 1
             },
-            "startdescription": "Through the fire we fly, and it shall not consume us.",
-            "description": "No storm can break the tree that bends.",
+            "startdescription": "Através do fogo que voamos e que não nos consumirá.",
+            "description": "Nenhuma tempestade pode quebrar a árvore que aumenta.",
             "effects": {
                 "health": 1,
                 "skillhealthc": -1,
@@ -193,13 +193,13 @@
         },
         {
             "id": "studyincreasereasonstarter",
-            "label": "Exercise the Mind",
+            "label": "Exerça a Mente",
             "actionid": "study",
             "requirements": {
                 "erudition": 2
             },
-            "startdescription": "I have picked up odd facts, here and there. If I spend time studying what I've learnt, I could increase my Reason.",
-            "description": "My mind, the library. [I've gained Reason, but it'll be more difficult to gain Reason next time.]",
+            "startdescription": "Eu peguei fatos estranhos, aqui e ali. Se eu gastar tempo estudando o que aprendi, eu poderia aumentar o meu motivo.",
+            "description": "Minha mente, a biblioteca. [Ganhei o Reason, mas será mais difícil ganhar Reason da próxima vez.]",
             "effects": {
                 "erudition": -2,
                 "reason": 1,
@@ -211,13 +211,13 @@
         },
         {
             "id": "studyincreaseeruditiontoplus",
-            "label": "Exercise the Mind",
+            "label": "Exerça a Mente",
             "actionid": "study",
             "requirements": {
                 "erudition": 2
             },
-            "startdescription": "I have picked up odd facts, here and there. If I spend time studying what I've learnt, I could increase my Reason.",
-            "description": "My mind, the library. [Use this Lesson Learnt with your Scholarship skill.]",
+            "startdescription": "Eu peguei fatos estranhos, aqui e ali. Se eu gastar tempo estudando o que aprendi, eu poderia aumentar o meu motivo.",
+            "description": "Minha mente, a biblioteca. [Use esta lição de aprendizado com a sua habilidade de bolsa.]",
             "effects": {
                 "erudition": -2,
                 "eruditionplus": 1
@@ -227,15 +227,15 @@
         },
         {
             "id": "studyincreaseeruditionwithlanterninfluencetoplus",
-            "label": "The Light of the Mind",
+            "label": "A luz da mente",
             "actionid": "study",
             "requirements": {
                 "erudition": 1,
                 "influencelantern": 1,
                 "lore": -1
             },
-            "startdescription": "I have picked up odd facts, here and there... and in this season of peculiar luminosity, I could increase my Reason. [If you add appropriate Lore, this will allow you to create a more powerful occult Influence instead.]",
-            "description": "My mind, the library. [Use this Lesson Learnt with your Scholarship skill.]",
+            "startdescription": "Peguei fatos estranhos, aqui e ali... e nesta temporada de luminosidade peculiar, poderia aumentar minha razão. [Se você adicionar o Traço apropriado, isso permitirá que você crie uma Influência occulta mais poderosa.]",
+            "description": "Minha mente, a biblioteca. [Use esta lição de aprendizado com a sua habilidade de bolsa.]",
             "effects": {
                 "influence": -2,
                 "eruditionplus": 1
@@ -245,7 +245,7 @@
         },
         {
             "id": "studyincreasereasonskilla",
-            "label": "Exercise the Mind: Wiser...",
+            "label": "Exerça a mente: Sabedor...",
             "actionid": "study",
             "requirements": {
                 "skillreasona": 1,
@@ -254,8 +254,8 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "Knowledge is a city wall built stone by stone. But what waits in the darkness beyond the walls? Why would we need a fortress, except that we had something to fear?",
-            "description": "I have reordered the boundaries of my ignorance.",
+            "startdescription": "Conhecimento é um muro da cidade construído por pedra. Mas o que espera na escuridão para além das paredes? Por que precisaríamos de uma fortaleza, só que tínhamos algo a temer?",
+            "description": "Reordenei as fronteiras da minha ignorância.",
             "effects": {
                 "reason": 1
             },
@@ -264,7 +264,7 @@
         },
         {
             "id": "studyincreasereasonskillb",
-            "label": "Exercise the Mind:  Wisest...",
+            "label": "Exerça a mente: Wisest...",
             "actionid": "study",
             "requirements": {
                 "skillreasonb": 1,
@@ -273,8 +273,8 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "I will grow wiser yet.",
-            "description": "My mind is a paradise of mirrors, in which all things are clear, even those things I might prefer not to see.",
+            "startdescription": "Ainda vou ficar mais sábio.",
+            "description": "A minha mente é um paraíso de espelhos, em que tudo está claro, mesmo aquilo que eu preferiria não ver.",
             "effects": {
                 "reason": 1
             },
@@ -283,7 +283,7 @@
         },
         {
             "id": "studyincreasereasonskill_to_d_lantern",
-            "label": "Exercise the Mind: A Brighter Illumination",
+            "label": "Exercício da mente: Uma Iluminação mais brilhante",
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
@@ -291,8 +291,8 @@
                 "lantern": 9,
                 "lore": 1
             },
-            "startdescription": "I will follow in the footsteps of the Watchman.",
-            "description": "The higher I rise, the more I see.",
+            "startdescription": "Vou seguir as pegadas do Observador.",
+            "description": "Quanto mais alto eu subo, mais vejo.",
             "effects": {
                 "reason": 1,
                 "skillreasonc": -1,
@@ -303,7 +303,7 @@
         },
         {
             "id": "studyincreasereasonskill_to_d_winter",
-            "label": "Exercise the Mind: A Deeper Concentration",
+            "label": "Exercício da mente: Uma Concentração de Veículos",
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
@@ -311,8 +311,8 @@
                 "winter": 1,
                 "lore": 1
             },
-            "startdescription": "I will listen for the voice of the Madrugad.",
-            "description": "Stillness is the virtue.",
+            "startdescription": "Ouvirei a voz do Madrugad.",
+            "description": "A tildade é a virtude.",
             "effects": {
                 "reason": 1,
                 "skillreasonc": -1,
@@ -323,7 +323,7 @@
         },
         {
             "id": "studyincreasereasonskill_to_d_knock",
-            "label": "Exercise the Mind: A Brighter Illumination",
+            "label": "Exercício da mente: Uma Iluminação mais brilhante",
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
@@ -331,8 +331,8 @@
                 "knock": 1,
                 "lore": 1
             },
-            "startdescription": "I will cross the threshold where the Horned-Axe waits.",
-            "description": "The higher I rise, the more I see.",
+            "startdescription": "Vou atravessar o limiar de onde o Machado Horned-Axe espera.",
+            "description": "Quanto mais alto eu subo, mais vejo.",
             "effects": {
                 "reason": 1,
                 "skillreasonc": -1,
@@ -343,7 +343,7 @@
         },
         {
             "id": "studyincreasereasonskill_to_d_secrethistories",
-            "label": "Exercise the Mind: A Deeper Concentration",
+            "label": "Exercício da mente: Uma Concentração de Veículos",
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
@@ -351,8 +351,8 @@
                 "secrethistories": 1,
                 "lore": 1
             },
-            "startdescription": "No-one remembers all the Histories; in consequence, no-one can forget them all.",
-            "description": "Stillness is the virtue.",
+            "startdescription": "Ninguém se lembra de todas as histórias; consequentemente, ninguém pode esquecê-las a todas.",
+            "description": "A tildade é a virtude.",
             "effects": {
                 "reason": 1,
                 "skillreasonc": -1,
@@ -363,7 +363,7 @@
         },
         {
             "id": "studyincreasereasonskill_to_d_forge",
-            "label": "Exercise the Mind: A Brighter Illumination",
+            "label": "Exercício da mente: Uma Iluminação mais brilhante",
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
@@ -371,8 +371,8 @@
                 "forge": 1,
                 "lore": 1
             },
-            "startdescription": "I will remake myself, to illuminate the night of ignorance.",
-            "description": "The higher I rise, the more I see.",
+            "startdescription": "Limitar-me-ei a esclarecer a noite da ignorância.",
+            "description": "Quanto mais alto eu subo, mais vejo.",
             "effects": {
                 "reason": 1,
                 "skillreasonc": -1,
@@ -383,7 +383,7 @@
         },
         {
             "id": "studyincreasereasonskill_to_d_edge",
-            "label": "Exercise the Mind: A Deeper Concentration",
+            "label": "Exercício da mente: Uma Concentração de Veículos",
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
@@ -391,8 +391,8 @@
                 "edge": 1,
                 "lore": 1
             },
-            "startdescription": "I will be relentless; I will not be denied.",
-            "description": "Stillness is the virtue.",
+            "startdescription": "Vou ser implacável; não me negarei.",
+            "description": "A tildade é a virtude.",
             "effects": {
                 "reason": 1,
                 "skillreasonc": -1,
@@ -403,13 +403,13 @@
         },
         {
             "id": "studyincreasepassionstarter",
-            "label": "Feed my Imagination",
+            "label": "Alimentar minha imaginação",
             "actionid": "study",
             "requirements": {
                 "glimmering": 2
             },
-            "startdescription": "'The tigers of wrath are wiser than the horses of instruction.' If I spend time studying what I've learnt, I could increase my Passion, and gain a Skill.",
-            "description": "There are more windows in my soul; but sunlight is not the only thing that passes through a window. [I've gained Passion, but it'll be more difficult to gain Passion next time.]",
+            "startdescription": "\"Os tigres da ira são mais sábios que os cavalos de instrução. Se eu passar algum tempo estudando o que eu aprendi, eu poderia aumentar minha paixão e ganhar uma habilidade.",
+            "description": "Há mais janelas na minha alma; mas a luz solar não é a única coisa que passa por uma janela. [Ganhei Passion, mas será mais difícil ganhar paixão da próxima vez.]",
             "effects": {
                 "glimmering": -2,
                 "passion": 1,
@@ -421,13 +421,13 @@
         },
         {
             "id": "studyincreaseglimmeringtoplus",
-            "label": "Feed my Imagination",
+            "label": "Alimentar minha imaginação",
             "actionid": "study",
             "requirements": {
                 "glimmering": 2
             },
-            "startdescription": "'The tigers of wrath are wiser than the horses of instruction.' If I spend time studying what I've learnt, I could work towards increasing my Passion.",
-            "description": "There are more windows in my soul; but sunlight is not the only thing that passes through a window. [Use this Lesson Learnt with your Imagination skill.]",
+            "startdescription": "\"Os tigres da ira são mais sábios que os cavalos de instrução. Se eu passar algum tempo estudando o que aprendi, eu poderia trabalhar para aumentar a minha paixão.",
+            "description": "Há mais janelas na minha alma; mas a luz solar não é a única coisa que passa por uma janela. [Use esta Lição de Aprendizado com sua habilidade de imaginação.]",
             "effects": {
                 "glimmering": -2,
                 "glimmeringplus": 1
@@ -437,15 +437,15 @@
         },
         {
             "id": "studyincreaseglimmeringwithmothinfluencetoplus",
-            "label": "Feed my Imagination",
+            "label": "Alimentar minha imaginação",
             "actionid": "study",
             "requirements": {
                 "glimmering": 1,
                 "influencemoth": 1,
                 "lore": -1
             },
-            "startdescription": "'The tigers of wrath are wiser than the horses of instruction.' In this season of unheralded impulse, I could work towards increasing my Passion. [If you add appropriate Lore, this will allow you to create a more powerful occult Influence instead.]",
-            "description": "There are more windows in my soul; but sunlight is not the only thing that passes through a window. [Use this Lesson Learnt with your Imagination skill.]",
+            "startdescription": "'Os tigres da ira são mais sábios que os cavalos da instrução.' Nesta temporada de impulso não anunciado, eu poderia trabalhar para aumentar minha paixão. [Se você adicionar o Traço apropriado, isso permitirá que você crie uma Influência occulta mais poderosa.]",
+            "description": "Há mais janelas na minha alma; mas a luz solar não é a única coisa que passa por uma janela. [Use esta Lição de Aprendizado com sua habilidade de imaginação.]",
             "effects": {
                 "influence": -2,
                 "glimmeringplus": 1
@@ -455,7 +455,7 @@
         },
         {
             "id": "studyincreasepassionskilla",
-            "label": "Feed my Imagination: Fiercer...",
+            "label": "Alimentar a minha imagem: Fiercer...",
             "actionid": "study",
             "requirements": {
                 "skillpassiona": 1,
@@ -464,8 +464,8 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "'Who desires but acts not, breeds pestilence.'",
-            "description": "My desires grow in number. It may be that they will always outpace my actions.",
+            "startdescription": "Quem deseja mas não actua, cria pestildade.",
+            "description": "Os meus desejos crescem em número, talvez eles ultrapassem sempre as minhas acções.",
             "effects": {
                 "passion": 1
             },
@@ -474,7 +474,7 @@
         },
         {
             "id": "studyincreasepassionskillb",
-            "label": "Feed my Imagination:  Fiercest...",
+            "label": "Alimentar a minha imagem: Fiercest...",
             "actionid": "study",
             "requirements": {
                 "skillpassionb": 1,
@@ -483,8 +483,8 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "'Sooner murder an infant in its cradle than nurse unacted desires.'",
-            "description": "In another time, I would have been a seer, or a heretic.",
+            "startdescription": "(EN) \"Mais cedo assassina um bebé no seu berço do que enfermeiro de desejos não actuados\".",
+            "description": "Em outro tempo, eu teria sido um cerco, ou um herege.",
             "effects": {
                 "passion": 1
             },
@@ -493,7 +493,7 @@
         },
         {
             "id": "studyincreasepassionskill_to_d_moth",
-            "label": "Exercise the Imagination: Unreason",
+            "label": "Exercício da Imaginação: Desrazão",
             "actionid": "study",
             "requirements": {
                 "skillpassionc": 1,
@@ -501,8 +501,8 @@
                 "moth": 9,
                 "lore": 1
             },
-            "startdescription": "cut my hair, cut my bonds, cut my snip snip snip.",
-            "description": "Bring me your answers, and I shall defeat them with my questions...",
+            "startdescription": "corte meu cabelo, corte meus laços, corte meu tiro de fatia.",
+            "description": "Traga-me suas respostas, e eu as derrotarei com as minhas perguntas...",
             "effects": {
                 "passion": 1,
                 "skillpassionc": -1,
@@ -513,7 +513,7 @@
         },
         {
             "id": "studyincreasepassionskill_to_d_heart",
-            "label": "Exercise the Imagination: Unreason",
+            "label": "Exercício da Imaginação: Desrazão",
             "actionid": "study",
             "requirements": {
                 "skillpassionc": 1,
@@ -521,8 +521,8 @@
                 "heart": 1,
                 "lore": 1
             },
-            "startdescription": "The Thunderskin promised: we do not cease, that are not ceased.",
-            "description": "Bring me your answers, and I shall defeat them with my questions...",
+            "startdescription": "O Thunderskin prometeu: não cessamos de o fazer.",
+            "description": "Traga-me suas respostas, e eu as derrotarei com as minhas perguntas...",
             "effects": {
                 "passion": 1,
                 "skillpassionc": -1,
@@ -533,7 +533,7 @@
         },
         {
             "id": "studyincreasepassionskill_to_d_knock",
-            "label": "Exercise the Imagination: Folly",
+            "label": "Exercício da Imaginação: Folly",
             "actionid": "study",
             "requirements": {
                 "skillpassionc": 1,
@@ -541,8 +541,8 @@
                 "knock": 1,
                 "lore": 1
             },
-            "startdescription": "'The apple tree never asks the beech how he shall grow, nor the lion, the horse, how he shall take his prey.'",
-            "description": "And now my soul lies ready.",
+            "startdescription": "A macieira nunca pergunta à praia como crescerá, nem o leão, o cavalo, como ele vai pegar a sua presa.",
+            "description": "E agora minha alma está pronta.",
             "effects": {
                 "passion": 1,
                 "skillpassionc": -1,
@@ -553,7 +553,7 @@
         },
         {
             "id": "studyincreasepassionskill_to_d_grail",
-            "label": "Exercise the Imagination: Folly",
+            "label": "Exercício da Imaginação: Folly",
             "actionid": "study",
             "requirements": {
                 "skillpassionc": 1,
@@ -561,8 +561,8 @@
                 "grail": 1,
                 "lore": 1
             },
-            "startdescription": "'Who desires but acts not, breeds pestilence.'",
-            "description": "And now my soul lies ready.",
+            "startdescription": "Quem deseja mas não actua, cria pestildade.",
+            "description": "E agora minha alma está pronta.",
             "effects": {
                 "passion": 1,
                 "skillpassionc": -1,
@@ -573,7 +573,7 @@
         },
         {
             "id": "studyhealth",
-            "label": "Fresh Air and Exercise",
+            "label": "Ar e exercício fresco",
             "actionid": "study",
             "requirements": {
                 "health": 1,
@@ -583,14 +583,14 @@
             "effects": {
                 "vitality": 1
             },
-            "startdescription": "Long walks kill cobwebs.",
-            "description": "I've neglected my studies, but I stand a little straighter.",
+            "startdescription": "Caminhadas longas matam teias.",
+            "description": "Eu negligenciei os meus estudos, mas continuo um pouco recentemente.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyreason",
-            "label": "Read Whatever Is To Hand",
+            "label": "Ler tudo o que for à mão",
             "actionid": "study",
             "requirements": {
                 "reason": 1,
@@ -600,14 +600,14 @@
             "effects": {
                 "erudition": 1
             },
-            "startdescription": "The world is awash with printed words. Even the newspapers contain knowledge, sometimes.",
-            "description": "The words contained knowledge. Now I contain it. It is a little like theft and a little like feasting and a little like the progress of an infectious disease.",
+            "startdescription": "O mundo está eivado de palavras impressas e até os jornais contêm conhecimento, às vezes.",
+            "description": "As palavras continham conhecimento. Agora eu as contenho. É um pouco como roubo e um pouco como festejo, e um pouco como o progresso de uma doença infecciosa.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studypassion",
-            "label": "Read Sentimental Literature",
+            "label": "Lê Literatura Sentimental",
             "actionid": "study",
             "requirements": {
                 "passion": 1
@@ -616,8 +616,8 @@
             "effects": {
                 "glimmering": 1
             },
-            "startdescription": "If I proposed to learn anything, I wouldn't be reading this stuff.",
-            "description": "I've passed the time. I have been inclined to tears, and afterwards inclined to laughter. Meanwhile, the world continues.",
+            "startdescription": "Se eu me propusesse aprender alguma coisa, não estaria lendo estas coisas.",
+            "description": "Passei o tempo. Estive inclinado a chorar, e depois inclinado a rir. Enquanto isso, o mundo continua.",
             "warmup": 60,
             "craftable": true
         }

@@ -3,16 +3,16 @@
         {
             "id": "explorevaultperil_treacherousground_encounter",
             "actionid": "explore",
-            "label": "Treacherous Ground",
-            "startdescription": "Sucking mud, tricksy fissures: the earth is hungry. We need Lantern to show us a way, or Forge to make one.",
+            "label": "Terreno Traiçoeiro",
+            "startdescription": "Problemas agitados de lama e complicados: a terra está com fome. Precisamos do Lanterna para nos mostrar um jeito ou da Forja para fazer um.",
             "requirements": {
                 "peril_treacherousground": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -60,8 +60,8 @@
             "requirements": {
                 "lantern": 10
             },
-            "label": "We call upon the Watchman, who navigates",
-            "startdescription": "The Watchman will clear our sight, so that we can almost certainly pass without error.",
+            "label": "Chamamos o observador, que navega",
+            "startdescription": "O Watchman irá limpar a nossa visão, para que possamos quase certamente passar sem erro.",
             "description": ".",
             "linked": [
                 {
@@ -80,8 +80,8 @@
             "requirements": {
                 "lantern": 5
             },
-            "label": "We call upon the Watchman, who illuminates",
-            "startdescription": "The Watchman will lend virtue to our lamps, that they will show us the perils to avoid. Probably.",
+            "label": "Chamamos a atenção do Observador, que ilumina o",
+            "startdescription": "O Watchman dará virtude às nossas lâmpadas, que nos mostrarão os perigos para evitar. Provavelmente.",
             "description": ".",
             "linked": [
                 {
@@ -100,8 +100,8 @@
             "requirements": {
                 "lantern": 1
             },
-            "label": "We call upon the Watchman, who is not compassionate",
-            "startdescription": "The Watchman shows mercy neither to our obstacles nor to us. If we're lucky, we may make it through.",
+            "label": "Chamamos o Watchman, que não é comovente",
+            "startdescription": "O Watchman não mostra misericórdia nem com nossos obstáculos nem com a gente. Se tivermos sorte, podemos passar.",
             "description": ".",
             "linked": [
                 {
@@ -120,8 +120,8 @@
             "requirements": {
                 "forge": 10
             },
-            "label": "We call upon the Madrugad, who cannot be unbalanced",
-            "startdescription": "We invoke the Madrugad, an Hour of Forge as well as Winter. We'll make our own path through. Success is almost certain.",
+            "label": "Apelamos à Madrugad, que não pode ser desequilibrada",
+            "startdescription": "Invocamos a Madrugad, uma Hora da Forja bem como o Inverno. Faremos nosso próprio caminho. O sucesso é quase certo.",
             "description": ".",
             "linked": [
                 {
@@ -140,8 +140,8 @@
             "requirements": {
                 "forge": 5
             },
-            "label": "We call upon the Madrugad, who quells and quiets",
-            "startdescription": "The Madrugad is an Hour of Forge as well as Winter. Her power might quiet the unsteady earth. We'll probably be fine.",
+            "label": "Apelamos para Madrugad, que cala e quietas",
+            "startdescription": "Madrugad é uma Hora da Forja e também do Inverno. O seu poder pode silenciar a terra instável. Nós provavelmente estaremos bem.",
             "description": ".",
             "linked": [
                 {
@@ -160,8 +160,8 @@
             "requirements": {
                 "forge": 1
             },
-            "label": "We call upon the Madrugad, who comes before the Sun",
-            "startdescription": "The Madrugad is an Hour of Forge as well as Winter. Forge lends strength, but now the mists rise and cling. We might make it through.",
+            "label": "Apelamos à Madrugad, que vem perante o Sol",
+            "startdescription": "A Madrugad é uma Hora da Forja e também do Inverno. A Forja empresta força, mas agora as névoas se levantam e se combinam. Podemos atravessá-la.",
             "description": ".",
             "linked": [
                 {
@@ -177,8 +177,8 @@
         {
             "id": "explorevaultperil_treacherousground_success",
             "actionid": "explore",
-            "label": "Safe Across the Treacherous Ground",
-            "startdescription": "We're mud-spattered and thorn-scratched, but we've made it through.",
+            "label": "Em todo o solo traiçoeiro",
+            "startdescription": "Nós somos atrapalhados e espinhos, mas passamos por aqui.",
             "description": ".",
             "effects": {
                 "peril_treacherousground": -1
@@ -195,8 +195,8 @@
         {
             "id": "explorevaultperil_treacherousground_failure",
             "actionid": "explore",
-            "label": "The Earth is Hungry",
-            "startdescription": "A promising route reveals itself as a sucking snare. We'll have to go round and try again.",
+            "label": "A Terra está Faminto",
+            "startdescription": "Uma rota promissora revela-se como uma armadilha sacudida. Teremos de fazer o jogo e tentar de novo.",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -223,16 +223,16 @@
         {
             "id": "explorevaultperil_forest_encounter",
             "actionid": "explore",
-            "label": "Peril-Prowled Forest",
-            "startdescription": "The darkness under the trees is quiet, for now, but we're not alone in here. Moth aspect will guide us through, or Forge aspect will clear a path.",
+            "label": "Floresta Peril-Profunda",
+            "startdescription": "Por enquanto, a escuridão sob as árvores está quieta, mas não estamos sozinhos aqui. O aspecto de Mariposa nos guiará, ou aspecto da Forja irá limpar um caminho.",
             "requirements": {
                 "peril_forest": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -280,8 +280,8 @@
             "requirements": {
                 "moth": 10
             },
-            "label": "We call upon the Moth, who seeks among the trees of the Wood",
-            "startdescription": "The Wood beneath the Mansus is darker even than this place. The Moth will guide our footfalls. Success is very likely.",
+            "label": "Convocamos a Lua, que procura entre as árvores da Madeira",
+            "startdescription": "A madeira sob o Mansus é mais escura até mesmo que este lugar. A Mariposa vai guiar nossos pés. O sucesso é muito provável.",
             "description": ".",
             "linked": [
                 {
@@ -300,8 +300,8 @@
             "requirements": {
                 "moth": 5
             },
-            "label": "We call upon the Moth, who is dappled",
-            "startdescription": "Shadows dapple the path. Perhaps the path is one the Moth has given us. Probably it is. Probably we'll make it through.",
+            "label": "Apelamos para a lua, que é elegível",
+            "startdescription": "Sombras pisam o caminho. Talvez o caminho seja um que a Mariposa nos deu. Provavelmente é. Nós vamos atravessá-lo.",
             "description": ".",
             "linked": [
                 {
@@ -320,8 +320,8 @@
             "requirements": {
                 "moth": 1
             },
-            "label": "We call upon the Moth, who beats within the skull",
-            "startdescription": "We invoke the Moth at our peril. The forest pulses with beating wings, imagined eyes. We might make it through.",
+            "label": "Chamamos a lua, que bate dentro do crânio",
+            "startdescription": "Nós invocamos a Lua em nosso perigo. A floresta pulsa com asas batendo, olhos imaginados. Podemos passar por essa.",
             "description": ".",
             "linked": [
                 {
@@ -340,8 +340,8 @@
             "requirements": {
                 "forge": 10
             },
-            "label": "Steel and Fire",
-            "startdescription": "Forge is ingenious, Forge is ruthless. We'll almost certainly make it through.",
+            "label": "Aço e Fogo",
+            "startdescription": "A Forja é engenhosa, a Forja é implacável. Certamente a faremos passar.",
             "description": ".",
             "linked": [
                 {
@@ -360,8 +360,8 @@
             "requirements": {
                 "forge": 5
             },
-            "label": "Axe and Lamp",
-            "startdescription": "The forest enfolds us, but we are practical souls, strong in Forge. We'll probably be fine.",
+            "label": "Machado e Lâmpada",
+            "startdescription": "A floresta nos dobra, mas somos as almas práticas, fortes na Forge. Provavelmente estaremos bem.",
             "description": ".",
             "linked": [
                 {
@@ -380,8 +380,8 @@
             "requirements": {
                 "forge": 1
             },
-            "label": "Struggles in the Dusk",
-            "startdescription": "We invoke the powers of Forge and hack our way through the trees. It's tough going. We might make it.",
+            "label": "Esforços no Crepúsculo",
+            "startdescription": "Invocamos os poderes da Forja e hackeamos o nosso caminho através das árvores. É difícil fazer. Pode ser que isso aconteça.",
             "description": ".",
             "linked": [
                 {
@@ -397,8 +397,8 @@
         {
             "id": "explorevaultperil_forest_success",
             "actionid": "explore",
-            "label": "'A Light Through the Trees...'",
-            "startdescription": "There's something up ahead. We've made it through the forest.",
+            "label": "'Uma Luz Através das Árvores...'",
+            "startdescription": "Tem algo à frente. Nós conseguimos através da floresta.",
             "description": ".",
             "effects": {
                 "peril_forest": -1
@@ -415,8 +415,8 @@
         {
             "id": "explorevaultperil_forest_failure",
             "actionid": "explore",
-            "label": "The Deepening Silence",
-            "startdescription": "We've lost the path. The forest towers against the dusk sky. The beasts of the forest are silent, but now and then we see their eyes.",
+            "label": "O silêncio em profundidade",
+            "startdescription": "Perdemos o caminho. As torres de floresta contra o céu do crepúsculo. As feras da floresta são silenciosas, mas de vez em quando vemos os seus olhos.",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -443,16 +443,16 @@
         {
             "id": "explorevaultperil_mountains_encounter",
             "actionid": "explore",
-            "label": "The High Passes",
-            "startdescription": "Savage peaks scar the sky. Winter aspect may preserve us from chill, and Forge aspect may give us a path. If we have neither, our expedition will fail.",
+            "label": "Os Passes Altos",
+            "startdescription": "Picos selvagens assustam o céu. Os aspectos de inverno podem nos preservar do frio, e o aspecto Forja pode nos dar um caminho. Se não tivermos nenhuma, a nossa expedição fracassará.",
             "requirements": {
                 "peril_mountains": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -500,8 +500,8 @@
             "requirements": {
                 "winter": 10
             },
-            "label": "We call upon the Madrugad, who cannot be unbalanced",
-            "startdescription": "The Hour called the Madrugad is at home in the cold. She will almost certainly keep us from falling.",
+            "label": "Apelamos à Madrugad, que não pode ser desequilibrada",
+            "startdescription": "A Hora chamada Madrugad está em casa ao frio. Ela quase certeza nos impedirá de cair.",
             "description": ".",
             "linked": [
                 {
@@ -520,8 +520,8 @@
             "requirements": {
                 "winter": 5
             },
-            "label": "We call upon the Madrugad, who quells and quiets",
-            "startdescription": "The Madrugad is strong in Winter. Probably she will keep us from avalanches.",
+            "label": "Apelamos para Madrugad, que cala e quietas",
+            "startdescription": "A Madrugad é forte no inverno. Provavelmente ela nos manterá longe de avalanches.",
             "description": ".",
             "linked": [
                 {
@@ -540,8 +540,8 @@
             "requirements": {
                 "winter": 1
             },
-            "label": "We call upon the Madrugad, which goes before the Sun",
-            "startdescription": "The hours before dawn are sacred to the Hour called Madrugad, who knows Winter. If we rise then and invoke her, perhaps she will keep us safe.",
+            "label": "Apelamos ao Madrugad, que vai ao Sol",
+            "startdescription": "As horas antes do amanhecer são sagradas para a Hour chamada Madrugad, que conhece o Inverno. Se levantarmos a questão e a invocarmos, talvez ela nos mantenha seguros.",
             "description": ".",
             "linked": [
                 {
@@ -560,8 +560,8 @@
             "requirements": {
                 "forge": 10
             },
-            "label": "The Mountaineer's Road",
-            "startdescription": "Our Forge skills represent plenty of expertise. We'll almost certainly make it through.",
+            "label": "A Estrada da Montanha",
+            "startdescription": "Nossas habilidades de forja representam muita experiência. Certamente vamos passar por ela.",
             "description": ".",
             "linked": [
                 {
@@ -580,8 +580,8 @@
             "requirements": {
                 "forge": 5
             },
-            "label": "The Explorer's Road",
-            "startdescription": "We are practical souls, strong in Forge. We'll probably be fine.",
+            "label": "Estrada do Explorador",
+            "startdescription": "Somos uma alma prática, forte na Forge. Provavelmente estaremos bem.",
             "description": ".",
             "linked": [
                 {
@@ -600,8 +600,8 @@
             "requirements": {
                 "forge": 1
             },
-            "label": "The Wanderer's Road",
-            "startdescription": "Forge-aspected followers are competent and practical, but the mountains are miles of fanged and freezing rock. Our road is hard. We might be lucky.",
+            "label": "A Estrada do Viajante",
+            "startdescription": "Os seguidores perdidos são competentes e práticos, mas as montanhas são milhas de rocha perfurante e congelante. Nosso caminho é difícil. Talvez tenhamos sorte.",
             "description": ".",
             "linked": [
                 {
@@ -617,8 +617,8 @@
         {
             "id": "explorevaultperil_mountains_success",
             "actionid": "explore",
-            "label": "Through the High Passes",
-            "startdescription": "Frost-scarred and shivering, we've made it through the mountains.",
+            "label": "Através dos Passes Altos",
+            "startdescription": "Com cicatrizes e tremidas, passamos pelas montanhas.",
             "description": ".",
             "effects": {
                 "peril_mountains": -1
@@ -635,8 +635,8 @@
         {
             "id": "explorevaultperil_mountains_failure",
             "actionid": "explore",
-            "label": "Furious Echoes",
-            "startdescription": "Rock-slides and avalanches drive us back. We'll try another route, if we survive.",
+            "label": "Ecos Furiosos",
+            "startdescription": "Os slides de rocha e as avalanches nos fazem recuar. Tentaremos outra rota se sobrevivermos.",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -663,16 +663,16 @@
         {
             "id": "explorevaultperil_desert_encounter",
             "actionid": "explore",
-            "label": "Desolation",
-            "startdescription": "An immense and tawny furnace barely contained by its horizons. At night, a chilly wilderness of stars. We must go carefully, with Forge to shape our way or Grail to secure us against thirst.",
+            "label": "Desolação",
+            "startdescription": "Uma fornalha imensa e ténue mal contida pelos seus horizontes. À noite, uma fria natureza das estrelas. Temos de ir com cuidado, com a Forja para moldar o nosso caminho ou o nosso Grail para nos protegermos contra a sede.",
             "requirements": {
                 "peril_desert": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -720,8 +720,8 @@
             "requirements": {
                 "grail": 10
             },
-            "label": "We call upon the Sister-and-Witch, who are pearl",
-            "startdescription": "The Sister-and-Witch should see us safe through the dry places.",
+            "label": "Nós chamamos a Sister-and-Witch, que são pérolas",
+            "startdescription": "A Irmandade e Bruxa deve garantir-nos a segurança através dos lugares secos.",
             "description": ".",
             "linked": [
                 {
@@ -740,8 +740,8 @@
             "requirements": {
                 "grail": 5
             },
-            "label": "We call upon the Sister-and-Witch, who cannot be touched",
-            "startdescription": "We'll call upon the Sister-and-Witch to shield us from the scorching heat of the sun and the mirrors of the horizon. It should see us through.",
+            "label": "Nós chamamos a Sister-and-Witch, que não pode ser tocado",
+            "startdescription": "Vamos ligar para a Irmã e Bruxa para nos proteger do calor escaldante do sol e dos espelhos do horizonte. Deve levar-nos a bom porto.",
             "description": ".",
             "linked": [
                 {
@@ -760,8 +760,8 @@
             "requirements": {
                 "grail": 1
             },
-            "label": "We call upon the Sister-and-Witch, who cannot be separated",
-            "startdescription": "We'll call upon the Sister-and-Witch to keep us together through the dust storms of the dry land. It might be enough.",
+            "label": "Apelamos para o Sister-and-Witch, que não pode ser separado",
+            "startdescription": "Vamos apelar para a Irmandade e Bruxa para que nos mantenham juntos durante as tempestades de poeira da terra seca. Talvez seja o bastante.",
             "description": ".",
             "linked": [
                 {
@@ -780,8 +780,8 @@
             "requirements": {
                 "forge": 10
             },
-            "label": "The Sun-Scorched Road",
-            "startdescription": "Our Forge skills should keep us safe and lead us through the baking rocks to the green places. We'll almost certainly be fine.",
+            "label": "A Estrada Chamuscada",
+            "startdescription": "Nossas habilidades de Forja nos devem manter seguros e nos levar através das pedras assadas para os lugares verdes. Nós quase certamente ficaremos bem.",
             "description": ".",
             "linked": [
                 {
@@ -800,8 +800,8 @@
             "requirements": {
                 "forge": 5
             },
-            "label": "The Dry Road",
-            "startdescription": "We are practical souls, strong in Forge. We should be able to make it between the baking rocks to the green places.",
+            "label": "A Estrada Seca",
+            "startdescription": "Somos almas práticas, fortes na Forge; devemos ser capazes de fazer isso entre as pedras de cultivo para os lugares verdes.",
             "description": ".",
             "linked": [
                 {
@@ -820,8 +820,8 @@
             "requirements": {
                 "forge": 1
             },
-            "label": "The Pitiless Road",
-            "startdescription": "Forge-aspected followers are competent and practical, but this is a blighted place. We might make it through.",
+            "label": "A Estrada Impiedosa",
+            "startdescription": "Os seguidores entendidos por falsificados são competentes e práticos, mas este é um lugar arruinado. Poderíamos resolvê-lo.",
             "description": ".",
             "linked": [
                 {
@@ -837,8 +837,8 @@
         {
             "id": "explorevaultperil_desert_success",
             "actionid": "explore",
-            "label": "The Sun in Splendour",
-            "startdescription": "The sun is setting. We look back across the desolation we crossed, and at all the colours it assumes in the evening light. Night falls. Stars prickle. The wind presses cold hands to our faces. Onwards.",
+            "label": "O Sol no Esplendor",
+            "startdescription": "O sol está se pondo. Olhamos para trás através da desolação que atravessamos, e a todas as cores que ele assume na luz da noite. Noite cai. Estrelas espinhosas. O vento pressiona as mãos frias em nossos rostos. Avante.",
             "description": ".",
             "effects": {
                 "peril_desert": -1
@@ -855,8 +855,8 @@
         {
             "id": "explorevaultperil_desert_failure",
             "actionid": "explore",
-            "label": "The Sun in Wrath",
-            "startdescription": "Day after day, the sun tautens our skin, dries our mouths, floods our skulls with savage light. We might be lost. It's possible we're lost.",
+            "label": "O Sol na Ira",
+            "startdescription": "Dia após dia, o sol provoca nossa pele, seca nossa boca, inunda nossos crânios com luz selvagem. Podemos estar perdidos. É possível que estejamos perdidos.",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -883,16 +883,16 @@
         {
             "id": "explorevaultperil_sea_encounter",
             "actionid": "explore",
-            "label": "The Sea around the Evening Isles",
-            "startdescription": "The sea we sail is plagued by storms. The isles we seek are tucked in the corners of unmapped history. We will need Heart or Forge or both.",
+            "label": "O mar ao redor das Ilhas Noventas",
+            "startdescription": "O mar que navegamos é atormentado por tempestades. As ilhas que procuramos são tubaradas nos cantos da história não mapeada. Precisamos de Coração ou Forja ou ambos.",
             "requirements": {
                 "peril_sea": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -940,8 +940,8 @@
             "requirements": {
                 "heart": 10
             },
-            "label": "We call upon the Sister-and-Witch, who cannot be touched",
-            "startdescription": "Storms rise for the Thunderskin and subside for the Sister. The right words should carry us safe across the sea.",
+            "label": "Nós chamamos a Sister-and-Witch, que não pode ser tocado",
+            "startdescription": "Tempestades se elevam para a pele do Trovão e para o sublado para a irmã. As palavras certas devem nos transportar em segurança pelo mar.",
             "description": ".",
             "linked": [
                 {
@@ -960,8 +960,8 @@
             "requirements": {
                 "heart": 5
             },
-            "label": "We call upon the Sister-and-Witch, who cannot be separated",
-            "startdescription": "If storms strike, the Sister-and-Witch will keep our crew and our vessel in one piece. Probably.",
+            "label": "Apelamos para o Sister-and-Witch, que não pode ser separado",
+            "startdescription": "Se as tempestades atacarem, o Sister-and-Witch manterá nossa tripulação e nosso navio em pedaços. Provavelmente.",
             "description": ".",
             "linked": [
                 {
@@ -980,8 +980,8 @@
             "requirements": {
                 "heart": 1
             },
-            "label": "We call upon the Sister-and-Witch, who are pearl",
-            "startdescription": "The Sister-and-Witch are not of the sea, but they walk beside it. Perhaps their protection will be sufficient.",
+            "label": "Nós chamamos a Sister-and-Witch, que são pérolas",
+            "startdescription": "As Sister-and-Witch não são marítimas, mas andam ao seu lado, e talvez a sua protecção seja suficiente.",
             "description": ".",
             "linked": [
                 {
@@ -1000,8 +1000,8 @@
             "requirements": {
                 "forge": 10
             },
-            "label": "The Sailor's Surety",
-            "startdescription": "Our Forge skills represent plenty of expertise. We'll almost certainly make it through.",
+            "label": "A Doce do Marinheiro",
+            "startdescription": "Nossas habilidades de forja representam muita experiência. Certamente vamos passar por ela.",
             "description": ".",
             "linked": [
                 {
@@ -1020,8 +1020,8 @@
             "requirements": {
                 "forge": 5
             },
-            "label": "The Sailor's Strength",
-            "startdescription": "We are practical souls, strong in Forge. We'll probably be fine.",
+            "label": "A Força do Marinheiro",
+            "startdescription": "Somos uma alma prática, forte na Forge. Provavelmente estaremos bem.",
             "description": ".",
             "linked": [
                 {
@@ -1040,8 +1040,8 @@
             "requirements": {
                 "forge": 1
             },
-            "label": "The Sailor's Hope",
-            "startdescription": "Forge-aspected followers are competent and practical, but the sea is tricksy. We will struggle to stay on course.",
+            "label": "A esperança do marinheiro",
+            "startdescription": "Os seguidores entendidos por falsificados são competentes e práticos, mas o mar é complicado. Lutaremos por manter o rumo.",
             "description": ".",
             "linked": [
                 {
@@ -1057,8 +1057,8 @@
         {
             "id": "explorevaultperil_sea_success",
             "actionid": "explore",
-            "label": "Safe Across the Sea",
-            "startdescription": "Wave-lashed and sea-spattered, sun-scorched and salt-stained. But here.",
+            "label": "Seguro em todo o mar",
+            "startdescription": "Ondulado e spatrochado por mar, queimado de sol e sal manchado. Mas aqui.",
             "description": ".",
             "effects": {
                 "peril_sea": -1
@@ -1075,8 +1075,8 @@
         {
             "id": "explorevaultperil_sea_failure",
             "actionid": "explore",
-            "label": "Labyrinths of Salt and Basalt",
-            "startdescription": "Another day battered by storms. We must be close. But the isles are a maddening maze, and the places we seek lie on no published chart.",
+            "label": "Labirintos de Salt e Basalt",
+            "startdescription": "Outro dia atingido por tempestades. Temos de estar próximos. Mas as ilhas são um labirinto enlouquecedor e os lugares que procuramos situam-se em nenhum gráfico publicado.",
             "description": ".",
             "craftable": false,
             "alt": [

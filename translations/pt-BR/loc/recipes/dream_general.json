@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "dreamascensionpowera",
-            "label": "Meditate on my goal of unearthly power",
+            "label": "Meditar sobre meu objetivo de poder sobrenatural",
             "actionid": "dream",
             "requirements": {
                 "ascensionpowera": 1
@@ -10,18 +10,18 @@
             "slots": [
                 {
                     "id": "Calculation",
-                    "label": "Calculation",
+                    "label": "Cálculo",
                     "required": {
                         "lore": 1,
                         "health": 1,
                         "reason": 1,
                         "priestjob": 1
                     },
-                    "description": "Dedicate myself with the lore of the principle I seek; or focus my efforts elsewhere."
+                    "description": "Dedica-me com a história do princípio que procuro; ou concentre os meus esforços noutros lugares."
                 }
             ],
-            "startdescription": "Should I dedicate myself to my purpose? Or focus my efforts elsewhere?",
-            "description": "I have decided to remain as I am... for now.",
+            "startdescription": "Devo me dedicar ao meu propósito? Ou concentrar meus esforços em outro lugar?",
+            "description": "Eu decidi ficar como estou... por enquanto.",
             "alt": [
                 {
                     "id": "dreamascension_abandontemptation",
@@ -45,7 +45,7 @@
         },
         {
             "id": "dreamascensionsensationa",
-            "label": "Meditate on the pursuit of sensation",
+            "label": "Meditar na busca de sensibilidade",
             "actionid": "dream",
             "requirements": {
                 "ascensionsensationa": 1
@@ -53,18 +53,18 @@
             "slots": [
                 {
                     "id": "Musing",
-                    "label": "Musing",
+                    "label": "Maluco",
                     "required": {
                         "lore": 1,
                         "passion": 1,
                         "reason": 1,
                         "priestjob": 1
                     },
-                    "description": "Dedicate myself with the lore of the principle I seek; or focus my efforts elsewhere."
+                    "description": "Dedica-me com a história do princípio que procuro; ou concentre os meus esforços noutros lugares."
                 }
             ],
-            "startdescription": "Should I dedicate myself to my purpose? Or focus my efforts elsewhere?",
-            "description": "I have decided to remain as I am... for now.",
+            "startdescription": "Devo me dedicar ao meu propósito? Ou concentrar meus esforços em outro lugar?",
+            "description": "Eu decidi ficar como estou... por enquanto.",
             "alt": [
                 {
                     "id": "dreamascension_abandontemptation",
@@ -92,7 +92,7 @@
         },
         {
             "id": "dreamascensionenlightenmenta",
-            "label": "Meditate on my goal of unearthly knowledge",
+            "label": "Meditar meu objetivo de conhecimento sobrenatural",
             "actionid": "dream",
             "requirements": {
                 "ascensionenlightenmenta": 1
@@ -100,18 +100,18 @@
             "slots": [
                 {
                     "id": "Reflection",
-                    "label": "Reflection",
+                    "label": "Reflexão",
                     "required": {
                         "lore": 1,
                         "passion": 1,
                         "health": 1,
                         "priestjob": 1
                     },
-                    "description": "Dedicate myself with the lore of the principle I seek; or focus my efforts elsewhere."
+                    "description": "Dedica-me com a história do princípio que procuro; ou concentre os meus esforços noutros lugares."
                 }
             ],
-            "startdescription": "Should I dedicate myself to my purpose? Or focus my efforts elsewhere?",
-            "description": "I have decided to remain as I am... for now.",
+            "startdescription": "Devo me dedicar ao meu propósito? Ou concentrar meus esforços em outro lugar?",
+            "description": "Eu decidi ficar como estou... por enquanto.",
             "alt": [
                 {
                     "id": "dreamascension_abandontemptation",
@@ -136,9 +136,9 @@
         {
             "id": "dreamascension_abandontemptation",
             "actionid": "dream",
-            "label": "Purge myself of Temptation",
-            "startdescription": "My own desires are nothing. I am the Threshold. I am the road that my people will walk. I will set myself irrevocably to that purpose. [This will destroy your Temptation permanently. Be sure that's what you want.]",
-            "description": "I might say that I have chosen, but that is not quite true. I <i>have been</i> chosen.",
+            "label": "Purgar-me da tentação",
+            "startdescription": "Meus próprios desejos não são nada. Eu sou o Threshold. Eu sou o caminho que meu povo vai percorrer. Eu me serei irrevogavelmente a esse propósito. [Isto destruirá sua tentação permanentemente. Tenha certeza de que é o que você quer.]",
+            "description": "Eu poderia dizer que escolhi, mas isso não é verdade. Eu <i>fui</i> escolhido.",
             "requirements": {
                 "priestjob": 1
             },
@@ -149,7 +149,7 @@
         },
         {
             "id": "dreamascension_switchfromchange",
-            "label": "Pursue Sensation rather than Change",
+            "label": "Perseguição a Sensação em vez de Mudança",
             "requirements": {
                 "ascensionchangea": 1
             },
@@ -158,14 +158,14 @@
                 "desire": -1,
                 "ascensionsensationa": 1
             },
-            "startdescription": "Of all things, the desire for change is most susceptible to change. [It isn't straightforward to regain the desire for Change, once it's lost.]",
-            "description": "I have refocused my intentions. There are experiences tucked like veins beneath the world's skin. I will know the deepest of them, though the experience might devour me.",
+            "startdescription": "De todas as coisas, o desejo de mudança é muito suscetível a mudar. [Não é fácil recuperar o desejo de mudança, uma vez perdido.]",
+            "description": "Recentrei minhas intenções. Há experiências turvas como veias sob a pele do mundo. Conhecerei o mais profundo deles, embora a experiência possa me devorar.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "dreamascension_switchto_power",
-            "label": "My goal is Power, now.",
+            "label": "Meu objetivo é Poder, agora.",
             "actionid": "dream",
             "requirements": {
                 "passion": 1
@@ -174,12 +174,12 @@
                 "desire": -1,
                 "ascensionpowera": 1
             },
-            "startdescription": "Perhaps Power is the more compelling goal.",
-            "description": "I have refocused my intentions. My predecessors wielded the power of remaking: a power that empresses, generals, physicists could only dream of. So shall I, though the power might sear me."
+            "startdescription": "Talvez o poder seja o objectivo mais convincente.",
+            "description": "Reoritei minhas intenções. Meus antecessores usaram o poder de reproduzir: um poder com o qual empresários, generais, físicos só podiam sonhar. Eu também, embora o poder me pareça."
         },
         {
             "id": "dreamascension_switchto_sensation",
-            "label": "My goal is Sensation, now.",
+            "label": "Meu objetivo é o Sensação, agora.",
             "actionid": "dream",
             "requirements": {
                 "health": 1
@@ -188,12 +188,12 @@
                 "desire": -1,
                 "ascensionsensationa": 1
             },
-            "startdescription": "Perhaps Sensation is the sweeter goal.",
-            "description": "I have refocused my intentions. There are experiences tucked like veins beneath the world's skin. I will know the deepest of them, though the experience might devour me."
+            "startdescription": "Talvez o objectivo mais doce seja a sensação.",
+            "description": "Recentrei minhas intenções. Há experiências turvas como veias sob a pele do mundo. Conhecerei o mais profundo deles, embora a experiência possa me devorar."
         },
         {
             "id": "dreamascension_switchto_enlightenment",
-            "label": "My goal is Enlightenment, now.",
+            "label": "Meu objetivo é o iluminismo, agora.",
             "actionid": "dream",
             "requirements": {
                 "reason": 1
@@ -202,19 +202,19 @@
                 "desire": -1,
                 "ascensionenlightenmenta": 1
             },
-            "startdescription": "Perhaps knowledge is the finer goal.",
-            "description": "I have refocused my intentions. My predecessors understood the highest secrets, the searching secrets, the secrets that shone through bones like glass and skin like parchment. So shall I, though the knowledge might undo me."
+            "startdescription": "Talvez o conhecimento seja o objectivo mais fino.",
+            "description": "Eu reorientei as minhas intenções. Os meus antecessores entendiam os mais altos segredos, os segredos de busca, os segredos que brilham ossos como vidro e pele como pergaminho. Assim sendo, serei eu, embora o conhecimento me possa desfazer."
         },
         {
             "id": "dreamascension_upgrade_power_1to2",
-            "label": "Flame's Dedication",
+            "label": "Dedicação do Fogo",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "forge": 1
             },
-            "startdescription": "I will dedicate myself to the pursuit of power.",
-            "description": "I've whispered the words that the smith speaks to the iron, that the murderer speaks to their victims, that the fire speaks to its fuel. Only I know what I have done, but it has shaped my path now. [I have advanced a step towards a terrible ascension.]",
+            "startdescription": "Dedicar-me-ei à prossecução do poder.",
+            "description": "Eu sussurrei as palavras de que o ferreiro fala com o ferro, de que o assassino fala com suas vítimas, de que o fogo fala com o seu combustível. Só eu sei o que fiz, mas agora ele moldou meu caminho. [Eu avancei um passo em direção a uma ascensão terrível.]",
             "effects": {
                 "ascensionpowera": -1,
                 "ascensionpowerb": 1
@@ -223,14 +223,14 @@
         },
         {
             "id": "dreamascension_upgrade_sensation_1to2m",
-            "label": "Blood's Dedication",
+            "label": "Dedicação Sanguinária",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "grail": 1
             },
-            "startdescription": "I will dedicate myself to the pursuit of sensation.",
-            "description": "Some words are best heard. Some words are best tasted. That taste is on my tongue now, and I will never forget it. [I have advanced a step towards a terrible ascension.]",
+            "startdescription": "Vou dedicar-me à busca da sensação.",
+            "description": "Algumas palavras são melhor ouvidas; melhor se experimentam algumas palavras. Esse gosto está na minha língua agora, e nunca vou esquecê-las. [Eu dei um passo em direcção a uma ascensão terrível.]",
             "effects": {
                 "ascensionsensationa": -1,
                 "ascensionsensationbm": 1
@@ -239,14 +239,14 @@
         },
         {
             "id": "dreamascension_upgrade_sensation_1to2f",
-            "label": "Blood's Dedication",
+            "label": "Dedicação Sanguinária",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "grail": 1
             },
-            "startdescription": "I will dedicate myself to the pursuit of sensation.",
-            "description": "Some words are best heard. Some words are best tasted. That taste is on my tongue now, and I will never forget it. [I have advanced a step towards a terrible ascension.]",
+            "startdescription": "Vou dedicar-me à busca da sensação.",
+            "description": "Algumas palavras são melhor ouvidas; melhor se experimentam algumas palavras. Esse gosto está na minha língua agora, e nunca vou esquecê-las. [Eu dei um passo em direcção a uma ascensão terrível.]",
             "effects": {
                 "ascensionsensationa": -1,
                 "ascensionsensationbf": 1
@@ -255,14 +255,14 @@
         },
         {
             "id": "dreamascension_upgrade_enlightenment_1to2",
-            "label": "Light's Dedication",
+            "label": "Dedicação da Luz",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 1
             },
-            "startdescription": "I will dedicate myself to the pursuit of knowledge.",
-            "description": "I have spoken the words: 'Each Hour has its colour, but colour exists only where there is light.' I will go where there is light, though it bleach me to glass. [I have advanced a step towards a terrible ascension.]",
+            "startdescription": "Vou me dedicar à busca do conhecimento.",
+            "description": "Falei as palavras: \"Cada hora tem sua cor, mas a cor só existe onde há luz. Irei para onde há luz, embora esteja dando salgo. [Eu fiz um passo no sentido de uma ascensão terrível.]",
             "effects": {
                 "ascensionenlightenmenta": -1,
                 "ascensionenlightenmentb": 1
@@ -271,13 +271,13 @@
         },
         {
             "id": "dreamreason",
-            "label": "The Wandering Mind",
+            "label": "A mente Errante",
             "actionid": "dream",
             "requirements": {
                 "reason": 1
             },
             "effects": {},
-            "startdescription": "There was once a man who said that the sleep of reason produced monsters. Often it is healthy to let the mind wander in sleep. But if I keep dreaming, sooner or later, some sort of monster will rise from my own fears.",
+            "startdescription": "Houve uma vez um homem que disse que o sono da razão produzia monstros, muitas vezes é saudável deixar a mente andar dormindo. Mas se eu continuar a sonhar, mais cedo ou mais tarde, algum monstro surgirá dos meus próprios receios.",
             "description": ".",
             "warmup": 60,
             "craftable": true,
@@ -290,7 +290,7 @@
         },
         {
             "id": "dream_router",
-            "label": "The Crowds of Sleep",
+            "label": "As multidões do sono",
             "actionid": "dream",
             "deckeffects": {
                 "dreamreasonresults": 1
@@ -325,51 +325,51 @@
         },
         {
             "id": "dreamcontentment",
-            "label": "Dreams of the Rain",
+            "label": "Sonhos da Chuva",
             "actionid": "dream",
             "requirements": {
                 "contentment": 1
             },
-            "startdescription": "Rain is coming; but the right kind of rain.",
-            "description": "I dreamt of the rain, whispering in the eaves, tapping on windows like an old friend, hissing prankishly in the chimney. It is difficult to be unhappy in the right kind of rain.",
+            "startdescription": "A chuva está chegando; mas o tipo correto de chuva.",
+            "description": "Eu sonhei com a chuva, sussurrando nas folhas, tocando em janelas como um velho amigo, chicoteando brincadeiras na chaminé. É difícil ficar infeliz com o tipo de chuva certo.",
             "warmup": 10
         },
         {
             "id": "dreamrestlessness",
-            "label": "Dreams of Doors",
+            "label": "Sonhos de portas",
             "actionid": "dream",
             "requirements": {
                 "restlessness": 1
             },
-            "startdescription": "Tonight is the dream of the labyrinth of doors.",
-            "description": "I dreamt of opening doors. Red doors and gold doors and doors of glass and doors bound like books and railway-carriage doors and castle gates. Behind one was the something I seek. I woke with the slamming of doors still in my ears.",
+            "startdescription": "Esta noite é o sonho do labirinto das portas.",
+            "description": "Sonhei abrir portas. Portas vermelhas e portas de ouro e de vidro, portas de vidro e portas amarradas como livros e portas de carro de trem e portões de castelo. Atrás de um era o que eu procuro. Acordei com o bater de portas ainda nos ouvidos.",
             "warmup": 10
         },
         {
             "id": "dreamvitality",
-            "label": "A Profound and Restful Sleep",
+            "label": "Um Proencontrado e Restful Sleep",
             "actionid": "dream",
             "requirements": {
                 "vitality": 1
             },
-            "startdescription": "Tonight I will dream of -",
-            "description": "I dreamt of nothing at all. I woke and stretched and rose without haste. Those quiet hours have left me energised.",
+            "startdescription": "Hoje de noite eu vou sonhar com -",
+            "description": "Não sonhei nada de nada. Acordei e esticei e me coloquei sem pressa. Aquelas horas tranquilas me deixaram energizada.",
             "warmup": 10
         },
         {
             "id": "dreamglimmering",
-            "label": "Dreams of Curios behind Glass",
+            "label": "Sonhos de Curios atrás do Vidro",
             "actionid": "dream",
             "requirements": {
                 "glimmering": 1
             },
-            "startdescription": "Tonight I will dream of a museum.",
-            "description": "In the display cases of the impossible museum, I always see an apple white as snow and hard as marble. A golden beetle in a stern box. A coy geometry awaiting my touch. A black envelope bursting with spring. A brass opera-box for instruments of record and measure. A storm in a tin. I always wake before I see the aisle's end.",
+            "startdescription": "Hoje à noite vou sonhar com um museu.",
+            "description": "Nos casos de exposição do museu impossível, vejo sempre um branco de maçã como a neve e duro como o mármore. Um besouro dourado numa caixa esterlina. Uma geometria fresca esperando meu toque. Um envelope preto repleto de primavera. Uma caixa de ópera de latão para instrumentos recorde e medida. Uma tempestade em uma lata. Sempre acordo antes de ver o fim do corredor.",
             "warmup": 10
         },
         {
             "id": "nightmarecleansingdawn",
-            "label": "Nightmare: The Cleansing Dawn",
+            "label": "Pesadelo: O amanhecer limpador",
             "actionid": "dream",
             "requirements": {
                 "fascination": 1
@@ -380,8 +380,8 @@
                     "chance": 30
                 }
             ],
-            "startdescription": "The sun is rising. It won't spare me.",
-            "description": "Now I can slough off my flesh, patch by patch, tugging the tendons free like fibres picked from teeth. My skin lies like a shredded blanket. The sun heaves itself above the horizon with a triumphant battle-yell. The light falls like acid on my naked bones. Pain wakes me. My bones will throb for days.",
+            "startdescription": "O sol está nascendo. Não me poupará.",
+            "description": "Agora eu consigo sacar a carne, patchar fazendo um redemoinho livre como fibras escolhidas dos dentes. Minha pele mente mente como uma coberta de corte. O sol se aquece acima do horizonte com um grito triunfante de batalha. A luz cai como ácido nos meus ossos nus. Dor me acorda. Meus ossos sobem por dias.",
             "warmup": 10
         },
         {
@@ -390,11 +390,11 @@
             "effects": {
                 "influencelanternc": 1
             },
-            "description": "Now I can slough off my flesh, patch by patch, tugging the tendons free like fibres picked from teeth. My skin lies like a shredded blanket. The sun heaves itself above the horizon with a triumphant battle-yell. The light falls like acid on my naked bones. Pain will wake me, and my bones will ache for days, but the Sun's  words are etched on my bones."
+            "description": "Agora eu consigo sacar a carne, patchar fazendo um redemoinho livre como fibras escolhidas dos dentes. Minha pele é como uma coberta de corte. O sol se aquece acima do horizonte com um grito triunfante. A luz cai como ácido nos meus ossos nus. A dor vai me acordar, e os meus ossos vão doer durante dias, mas as palavras do Sol estão encharcadas nos meus ossos."
         },
         {
             "id": "nightmarehersault",
-            "label": "Hersault's Nightmare",
+            "label": "Pesadelo do Hersault,",
             "actionid": "dream",
             "requirements": {
                 "dread": 1
@@ -405,18 +405,18 @@
                     "chance": 30
                 }
             ],
-            "startdescription": "Down I go.",
-            "description": "I remember that Hersault wrote of this. I've levered up floor-boards, and wriggled down snugly. Now I am compressed beneath them like a hidden corpse. The air stinks of hot dust. My mouth is full of splinters. This time, I haven't learnt what I hoped to learn - whatever that was.",
+            "startdescription": "Eu vou lá fora.",
+            "description": "Eu me lembro de que Hersault escreveu isso. Eu alonguei tábuas de chão, e escorregei confortavelmente. Agora estou comprimido abaixo deles como um cadáver escondido. O ar fede de pó quente. Minha boca está cheia de lascas. Desta vez, não aprendi o que esperava aprender - não importa o que fosse.",
             "warmup": 10
         },
         {
             "id": "nightmarehersaultsuccess",
-            "label": "Hersault's Nightmare",
+            "label": "Pesadelo do Hersault,",
             "actionid": "dream",
             "effects": {
                 "influenceknockc": 1
             },
-            "description": "I've levered up floor-boards, and wriggled down snugly. Now I am compressed beneath them like a hidden corpse. The air stinks of hot dust. My mouth is full of splinters. But this is the space below."
+            "description": "Eu espreguei tábuas por chão, e escorregei espardamente abaixo. Agora estou comprimido sob elas como um cadáver escondido. O ar fede de pó quente. Minha boca está cheia de lascos. Mas este é o espaço abaixo."
         }
     ]
 }

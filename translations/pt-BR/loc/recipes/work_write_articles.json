@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "writeedgec",
-            "label": "Write an extensive treatise on the practices of the Edge, and the Hours that rule it",
+            "label": "Escreva um extenso tratado sobre as práticas do Edge, e as Horas que o regem",
             "actionid": "work",
             "requirements": {
                 "commissionarticleedgec": 1,
@@ -13,14 +13,14 @@
             "effects": {
                 "articleedgec": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeforgec",
-            "label": "Write an extensive treatise on the lore of the principle called Forge",
+            "label": "Escreva um extenso tratado na história do princípio chamado Forge",
             "actionid": "work",
             "requirements": {
                 "commissionarticleforgec": 1,
@@ -31,14 +31,14 @@
             "effects": {
                 "articleforgec": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writegrailc",
-            "label": "Write an extensive treatise on the lore of the Red Grail",
+            "label": "Escreva um extenso tratado sobre a história do Grau Vermelho",
             "actionid": "work",
             "requirements": {
                 "commissionarticlegrailc": 1,
@@ -50,14 +50,14 @@
             "effects": {
                 "articlegrailc": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeheartc",
-            "label": "Write an extensive treatise on Heart-lore",
+            "label": "Escreva um extenso tratado no Heart-lore",
             "actionid": "work",
             "requirements": {
                 "commissionarticleheartc": 1,
@@ -69,14 +69,14 @@
             "effects": {
                 "articleheartc": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeknockc",
-            "label": "Write an extensive treatise on the Knock-lore",
+            "label": "Escreva um extenso tratado na história do Knock-lore",
             "actionid": "work",
             "requirements": {
                 "commissionarticleknockc": 1,
@@ -87,14 +87,14 @@
             "effects": {
                 "articleknockc": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writelanternc",
-            "label": "Write an extensive treatise on the lore of the Lantern",
+            "label": "Escreva um extenso tratado na história da Lanterna",
             "actionid": "work",
             "requirements": {
                 "commissionarticlelanternc": 1,
@@ -105,14 +105,14 @@
             "effects": {
                 "articlelanternc": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writemothc",
-            "label": "Write an extensive treatise on the lore of the Moth",
+            "label": "Escreva um extenso tratado na história da Mariposa",
             "actionid": "work",
             "requirements": {
                 "commissionarticlemothc": 1,
@@ -124,14 +124,14 @@
             "effects": {
                 "articlemothc": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writesecrethistoriesc",
-            "label": "Write an extensive treatise on the Secret Histories",
+            "label": "Escreva um extenso tratado nas Histórias Secretas",
             "actionid": "work",
             "requirements": {
                 "commissionarticlesecrethistoriesc": 1,
@@ -142,14 +142,14 @@
             "effects": {
                 "articlesecrethistoriesc": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writewinterc",
-            "label": "Write an extensive treatise on the White Lore",
+            "label": "Escreva um extenso tratado na história branca",
             "actionid": "work",
             "requirements": {
                 "commissionarticlewinterc": 1,
@@ -160,14 +160,14 @@
             "effects": {
                 "articlewinterc": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeedgeb",
-            "label": "Write a substantial treatise on the lore of the practices of the Edge",
+            "label": "Escrever um tratado substancial sobre a história das práticas do Edge",
             "actionid": "work",
             "requirements": {
                 "commissionarticleedgeb": 1,
@@ -178,14 +178,14 @@
             "effects": {
                 "articleedgeb": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeforgeb",
-            "label": "Write a substantial treatise on the Forge-principle",
+            "label": "Escrever um tratado substancial sobre o princípio da Forge-Forge",
             "actionid": "work",
             "requirements": {
                 "commissionarticleforgeb": 1,
@@ -196,14 +196,14 @@
             "effects": {
                 "articleforgeb": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writegrailb",
-            "label": "Write a substantial treatise on the rites of the Red Grail",
+            "label": "Escreva um tratado substancial nos ritos do Grau Vermelho",
             "actionid": "work",
             "requirements": {
                 "commissionarticlegrailb": 1,
@@ -214,14 +214,14 @@
             "effects": {
                 "articlegrailb": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeheartb",
-            "label": "Write a substantial treatise on Heart-lore",
+            "label": "Escreva um substancial tratado no Coração",
             "actionid": "work",
             "requirements": {
                 "commissionarticleheartb": 1,
@@ -232,14 +232,14 @@
             "effects": {
                 "articleheartb": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeknockb",
-            "label": "Write a substantial treatise on the opening-rites of Knock",
+            "label": "Escreva um tratado substancial sobre as aberturas de Knock",
             "actionid": "work",
             "requirements": {
                 "commissionarticleknockb": 1,
@@ -250,14 +250,14 @@
             "effects": {
                 "articleknockb": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writelanternb",
-            "label": "Write a substantial treatise on the Lantern",
+            "label": "Escreva um substancial tratado na Lanterna",
             "actionid": "work",
             "requirements": {
                 "commissionarticlelanternb": 1,
@@ -268,14 +268,14 @@
             "effects": {
                 "articlelanternb": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writemothb",
-            "label": "Write a substantial treatise on the Moth",
+            "label": "Escreva um tratado substancial na Mariposa",
             "actionid": "work",
             "requirements": {
                 "commissionarticlemothb": 1,
@@ -286,14 +286,14 @@
             "effects": {
                 "articlemothb": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writesecrethistoriesb",
-            "label": "Write a substantial treatise on the Secret Histories",
+            "label": "Escreva um tratado substancial nas Histórias Secretas",
             "actionid": "work",
             "requirements": {
                 "commissionarticlesecrethistoriesb": 1,
@@ -304,14 +304,14 @@
             "effects": {
                 "articlesecrethistoriesb": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writewinterb",
-            "label": "Write a substantial treatise on the White Lore",
+            "label": "Escreva um tratado substancial sobre a história branca",
             "actionid": "work",
             "requirements": {
                 "commissionarticlewinterb": 1,
@@ -322,14 +322,14 @@
             "effects": {
                 "articlewinterb": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeedgea",
-            "label": "Write a brief treatise on the Edge-principle",
+            "label": "Escreva um breve tratado sobre o princípio da borda",
             "actionid": "work",
             "requirements": {
                 "commissionarticleedge": 1,
@@ -340,14 +340,14 @@
             "effects": {
                 "articleedgea": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeforgea",
-            "label": "Write a brief treatise on the Forge-principle",
+            "label": "Escreva um breve tratado sobre o princípio da Forge-Forge",
             "actionid": "work",
             "requirements": {
                 "commissionarticleforge": 1,
@@ -358,14 +358,14 @@
             "effects": {
                 "articleforgea": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writegraila",
-            "label": "Write a brief treatise on the lore of the Red Grail",
+            "label": "Escreva um breve tratado sobre a história do Grau Vermelho",
             "actionid": "work",
             "requirements": {
                 "commissionarticlegrail": 1,
@@ -376,14 +376,14 @@
             "effects": {
                 "articlegraila": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writehearta",
-            "label": "Write a brief treatise on the lore of the Heart",
+            "label": "Escreva um breve tratado sobre a história do Coração",
             "actionid": "work",
             "requirements": {
                 "commissionarticleheart": 1,
@@ -394,14 +394,14 @@
             "effects": {
                 "articlehearta": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writeknocka",
-            "label": "Write a brief treatise on the Knock-principle and the rites of opening",
+            "label": "Escreva um breve tratado sobre o princípio do nó e os ritos da abertura",
             "actionid": "work",
             "requirements": {
                 "commissionarticleknock": 1,
@@ -412,14 +412,14 @@
             "effects": {
                 "articleknocka": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writelanterna",
-            "label": "Write a brief treatise on the lore of the Lantern",
+            "label": "Escreva um breve tratado na história da Lanterna",
             "actionid": "work",
             "requirements": {
                 "commissionarticlelantern": 1,
@@ -430,14 +430,14 @@
             "effects": {
                 "articlelanterna": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writemotha",
-            "label": "Write a brief treatise on the Moth",
+            "label": "Escreva um breve tratado na Mariposa",
             "actionid": "work",
             "requirements": {
                 "commissionarticlemoth": 1,
@@ -448,14 +448,14 @@
             "effects": {
                 "articlemotha": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writesecrethistoriesa",
-            "label": "Write a brief treatise on the Secret Histories",
+            "label": "Escreva um breve tratado sobre as Histórias Secretas",
             "actionid": "work",
             "requirements": {
                 "commissionarticlesecrethistories": 1,
@@ -466,14 +466,14 @@
             "effects": {
                 "articlesecrethistoriesa": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "writewintera",
-            "label": "Write a brief treatise on the White Lore",
+            "label": "Escreva um breve tratado sobre a história branca",
             "actionid": "work",
             "requirements": {
                 "commissionarticlewinter": 1,
@@ -484,8 +484,8 @@
             "effects": {
                 "articlewintera": 1
             },
-            "startdescription": "This may be useful for a Commission.",
-            "description": "I've finished the manuscript.",
+            "startdescription": "Isto poderá ser útil para uma Comissão.",
+            "description": "Terminei o manuscrito.",
             "warmup": 60,
             "craftable": true
         }

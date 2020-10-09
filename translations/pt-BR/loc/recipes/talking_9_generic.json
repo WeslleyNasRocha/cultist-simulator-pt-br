@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "speakpublicly",
-            "label": "Speak of esoteric matters",
+            "label": "Falar de assuntos esotéricos",
             "actionid": "talk",
             "requirements": {
                 "society": -1,
@@ -11,7 +11,7 @@
             "effects": {
                 "mystique": 1
             },
-            "startdescription": "Talking publicly about the invisible arts will attract attention. Perhaps that's what I want.",
+            "startdescription": "Falar publicamente sobre as artes invisíveis irá atrair atenção. Talvez seja isso que eu quero.",
             "description": ".",
             "warmup": 60,
             "craftable": true,
@@ -31,7 +31,7 @@
         },
         {
             "id": "talkfindacquaintance",
-            "label": "An Acquaintance?",
+            "label": "Uma aquisição?",
             "actionid": "talk",
             "requirements": {
                 "dayacquaintances": 1
@@ -39,22 +39,22 @@
             "slots": [
                 {
                     "id": "escalation",
-                    "label": "Passion",
-                    "description": "I must be fervent and convincing.",
+                    "label": "Paixão",
+                    "description": "Tenho de ser fervoroso e convincente.",
                     "required": {
                         "passion": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "I've found someone who may be a kindred spirit - but I'll need to win them over. [Winning over an Acquaintance requires your Passion.]",
+            "startdescription": "Encontrei alguém que pode ser um espírito bonito - mas vou precisar convencê-los. [Ganhar por um Acervo requer a sua paixão.]",
             "alt": [
                 {
                     "id": "talkmeetacquaintance",
                     "chance": 100
                 }
             ],
-            "description": "I could not muster the Passion to bring them into my circle. Perhaps another time.",
+            "description": "Não consegui mexer a paixão para trazê-los para o meu círculo. Talvez outra vez.",
             "effects": {
                 "season": -1
             },
@@ -62,7 +62,7 @@
         },
         {
             "id": "talkfindpatron",
-            "label": "A Patron?",
+            "label": "Um Patrono?",
             "actionid": "talk",
             "requirements": {
                 "daypatrons": 1
@@ -70,22 +70,22 @@
             "slots": [
                 {
                     "id": "escalation",
-                    "label": "Reason",
-                    "description": "I must be articulate and credible.",
+                    "label": "Motivo",
+                    "description": "Tenho de ser articulado e credível.",
                     "required": {
                         "reason": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "I've found someone who may have resources of use to me - but I'll need to impress them. [Impressing a Patron demands your Reason.]",
+            "startdescription": "Encontrei alguém que pode ter recursos de uso para mim - mas vou precisar impressioná-los. [Imprimir um Patrono exige seu motivo.]",
             "alt": [
                 {
                     "id": "talkmeetpatron",
                     "chance": 100
                 }
             ],
-            "description": "I could not muster the mental energy to show them what I am. Perhaps another time.",
+            "description": "Não consegui reunir a energia mental para mostrar o que sou. Talvez outra hora.",
             "effects": {
                 "season": -1
             },
@@ -93,12 +93,12 @@
         },
         {
             "id": "talkmeetacquaintance",
-            "label": "An Acquaintance",
+            "label": "Um Conhecido",
             "actionid": "talk",
             "requirements": {
                 "passion": 1
             },
-            "startdescription": "'Come with me.'",
+            "startdescription": "Venha comigo!",
             "description": ".",
             "deckeffects": {
                 "acquaintances": 1
@@ -110,12 +110,12 @@
         },
         {
             "id": "talkmeetpatron",
-            "label": "A Patron",
+            "label": "Um Patrono",
             "actionid": "talk",
             "requirements": {
                 "reason": 1
             },
-            "startdescription": "'We can learn from each other.'",
+            "startdescription": "Podemos aprender uns com os outros.",
             "description": ".",
             "deckeffects": {
                 "scholarpatrons": 1
@@ -127,7 +127,7 @@
         },
         {
             "id": "talktotroublemaker",
-            "label": "Arrange a meeting on neutral ground.",
+            "label": "Organize uma reunião em solo neutro.",
             "actionid": "talk",
             "requirements": {
                 "independent": 1,
@@ -137,8 +137,8 @@
             "slots": [
                 {
                     "id": "Subject",
-                    "label": "Subject",
-                    "description": "A topic of conversation."
+                    "label": "Cargo",
+                    "description": "Um tópico de conversa."
                 }
             ],
             "alt": [
@@ -167,8 +167,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "'Are we enemies? Perhaps we don't have to  be.'",
-            "description": "A guarded conversation in an early-opening coffee-shop in the rain-swept wind-shivering after dawn. I've learnt nothing.",
+            "startdescription": "Somos inimigos? Talvez não tenhamos de ser.\"",
+            "description": "Uma conversa vigiada numa cafeteria precocemente aberta no vento, depois do amanhecer. Não aprendi nada.",
             "effects": {
                 "mystique": 1
             },
@@ -177,39 +177,39 @@
         },
         {
             "id": "independentloreconversation",
-            "label": "Arrange a meeting on neutral ground.",
+            "label": "Organize uma reunião em solo neutro.",
             "actionid": "talk",
             "requirements": {
                 "lore": 1
             },
             "startdescription": "'It seems we <i>do</i> have something to discuss...'",
-            "description": "A hushed and elliptical conversation by lamp-light, with glints of truth like gold in river-mud. Who knows? Perhaps, one day, we might speak less guardedly.",
+            "description": "Uma conversa oculta e elíptica feita por luz de iluminação, com brilhos de verdade como ouro na lama do rio. Quem sabe? Talvez um dia possamos falar menos cuidadosamente.",
             "deckeffects": {
                 "troublemakerconversations": 1
             }
         },
         {
             "id": "independentdesireconversation",
-            "label": "Arrange a meeting on neutral ground.",
+            "label": "Organize uma reunião em solo neutro.",
             "actionid": "talk",
             "requirements": {
                 "desire": 1
             },
-            "startdescription": "'Do you propose we make common cause? Are you serious?'",
-            "description": "'Perhaps. Eventually. Prove yourself to me. Let's talk...' [If you have a cult, it is possible, although difficult, to win a Troublemaker to your side.]",
+            "startdescription": "\"Propõe que façamos uma causa comum? É sério?\".",
+            "description": "'Talvez. Finalmente. Prove a si mesmo. Vamos falar...' [Se você tem um culto, é possível, embora difícil ganhar um Troublemaker ao seu lado.]",
             "deckeffects": {
                 "troublemakerconversations": 1
             }
         },
         {
             "id": "independentfitewithextraswole",
-            "label": "A Surprise Attack on a Rival",
+            "label": "Um Ataque Surpresa em um Renascimento",
             "actionid": "talk",
             "requirements": {
                 "murderskill": 1
             },
-            "startdescription": "We are meeting on neutral ground. They have taken all reasonable precautions. But there are no reasonable precautions against one such as I. A direct personal assault would be a considerable risk... but perhaps that's what we've come to. [This might succeed, against the odds.]",
-            "description": "I have their head between my hands. I snap their neck. I'm gone before the body hits the ground.",
+            "startdescription": "Reunimo-nos em terreno neutro, eles tomaram todas as precauções razoáveis, mas não há precauções razoáveis contra uma como eu. Um ataque pessoal direto seria um risco considerável... mas talvez seja isso que venhamos a fazer. [Isso pode ser bem-sucedido, contra as probabilidades.]",
+            "description": "Estou com a cabeça deles entre as mãos. Coloquei o pescoço. Fui antes que o corpo acerte o chão.",
             "alt": [
                 {
                     "id": "independentfitewithswole_failure",
@@ -226,13 +226,13 @@
         },
         {
             "id": "independentfitewithswole",
-            "label": "A Surprise Attack on a Rival",
+            "label": "Um Ataque Surpresa em um Renascimento",
             "actionid": "talk",
             "requirements": {
                 "healthskill": 1
             },
-            "startdescription": "We are meeting on neutral ground. They have taken all reasonable precautions, and a direct personal assault would be a considerable risk... but perhaps that's what we've come to. [This is a very long shot indeed.]",
-            "description": "I have their head between my hands. I snap their neck. I'm gone before the body hits the ground.",
+            "startdescription": "Reunimo-nos em terreno neutro, que tomou todas as precauções razoáveis, e um ataque pessoal directo constituiria um risco considerável. . mas talvez seja isso que vamos. [Isto é de facto um tiro muito longo.]",
+            "description": "Estou com a cabeça deles entre as mãos. Coloquei o pescoço. Fui antes que o corpo acerte o chão.",
             "alt": [
                 {
                     "id": "independentfitewithswole_failure",
@@ -249,10 +249,10 @@
         },
         {
             "id": "independentfitewithswole_failure",
-            "label": "A Surprise Attack has Failed!",
+            "label": "Um Ataque Surpresa falhou!",
             "actionid": "talk",
             "startdescription": ".",
-            "description": "With a cry, they leap back, kicking over the table! All around us, heads turn. No-one saw me move. The only real witness is my rival. But I must leave immediately.",
+            "description": "Com um choro, eles saltam para trás, chutando sobre a mesa! Todos ao nosso redor, as cabeças viram. Ninguém me viu se mexendo. A única testemunha verdadeira é meu rival. Mas devo sair imediatamente.",
             "craftable": false,
             "effects": {
                 "notoriety": 1
@@ -273,13 +273,13 @@
         },
         {
             "id": "independentspeakpoison",
-            "label": "Employ a Remarkable Poison against a Rival",
+            "label": "Empregar um veneno notável contra um marfim",
             "actionid": "talk",
             "requirements": {
                 "poison": 1
             },
-            "startdescription": "'Do you like tea?'",
-            "description": "Your rival shakes their head in disappointment. 'Really?' They leave without another word, leaving their tea untouched on the table.",
+            "startdescription": "Gostas de chá??",
+            "description": "Seu rival abana a cabeça em decepção. \"Verdade?\" Eles saem sem outra palavra, deixando o chá intacto.",
             "mutations": [
                 {
                     "filter": "independent",
@@ -297,7 +297,7 @@
         },
         {
             "id": "talktohunter",
-            "label": "Arrange a meeting with an adversary",
+            "label": "Organizar uma reunião com um adversário",
             "actionid": "talk",
             "requirements": {
                 "hunter": 1
@@ -305,8 +305,8 @@
             "slots": [
                 {
                     "id": "Subject",
-                    "label": "Subject",
-                    "description": "A topic of conversation... or a minion who will destroy them."
+                    "label": "Cargo",
+                    "description": "Um tópico de conversa... ou um lacaio que os destruirá."
                 }
             ],
             "alt": [
@@ -368,8 +368,8 @@
                     "id": "hunterattacknoedge"
                 }
             ],
-            "startdescription": "Perhaps we could parley. Or perhaps I could send something to ambush them.",
-            "description": "This was rash. Perhaps I shouldn't have exposed myself so.",
+            "startdescription": "Talvez pudéssemos esquartejar ou talvez eu pudesse mandar alguma coisa para os emboscar.",
+            "description": "Isso foi irregular. Talvez eu não devesse ter me exposto.",
             "effects": {
                 "notoriety": 1
             },
@@ -378,7 +378,7 @@
         },
         {
             "id": "talktospirit",
-            "label": "Speak to something I have summoned",
+            "label": "Fale com algo que invoquei",
             "actionid": "talk",
             "requirements": {
                 "society": -1,
@@ -388,8 +388,8 @@
             "slots": [
                 {
                     "id": "Subject",
-                    "label": "Subject",
-                    "description": "A topic of conversation... or a target."
+                    "label": "Cargo",
+                    "description": "Um tópico de conversa... ou um alvo."
                 }
             ],
             "comments": "We have clues upstream for recruitment/promotion, and we don't want this to override them, hence the society limitation.",
@@ -482,17 +482,17 @@
                     "id": "teresadiscusslocksmithsdream5"
                 }
             ],
-            "startdescription": "Not everything from the Mansus can speak, but everything can understand mortal speech, even once it has passed the White Door.",
-            "description": "Nothing; my words cease like sand in a glass.",
+            "startdescription": "Nem tudo do Mansus pode falar, mas tudo pode entender o discurso mortal, mesmo depois de ter passado a porta branca.",
+            "description": "Nada; as minhas palavras param de areia num copo.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "discusspassionsacrifice",
             "actionid": "talk",
-            "label": "Chilly Lessons",
-            "startdescription": "If I listen closely enough to the stories told by winter sun, I may learn something, at the cost of my soul's withering. [This will teach the Ecdysiast's Parable, but will convert Passion to Decrepitude... although even that might open a narrow door.]",
-            "description": "@#spirit_winterb_heart|'You look at me, and you see that I died. You might think that's what I lost. But if that's all, why would you ask me?' But I will ask it nothing. The dead do not usually speak.\n#spirit_winterd_edge|The Maid's voice is bright and sharp as fresh-cut gems. 'What may be lost? Every choice closes a door... and the Mansus has only seven.'\n#spirit_lanterne_secret|'What may be lost?' My childhood. My burdens. My illusions. My pride. My reputation. My shadow. My heart...'@",
+            "label": "Aulas Frias",
+            "startdescription": "Se eu escutar suficientemente atentamente as histórias contadas pelo sol de inverno, posso aprender alguma coisa, à custa da interior da minha alma. [Isto irá ensinar o Paráculo do Ecdysiast, mas converterá a Paixão ao Decrepitude... embora até mesmo isso possa abrir uma porta estreita.]",
+            "description": "@#spirit_winterb_heart.htm'Você olha para mim, e vê que eu morri. Você pode pensar que foi isso que eu perdi. Mas se isso é tudo, por que razão me pergunta?' Mas eu não perguntarei nada. Os mortos não falam normalmente.\n#spirit_winterd_edgect. A voz da Maid está brilhante e afiada como gemas cortadas frescas. \"O que pode ser perdido? Cada escolha fecha uma porta... e o Manso tem apenas sete.\n#Espiririt_lanterne_secret├'O que pode ser perdido?' Minha infância. Meus fardos. Meu orgulho. Meu orgulho. Minha reputação. Minha sombra. Meu coração...'@",
             "requirements": {
                 "passion": 1,
                 "spiriteatspassion": 1
@@ -507,9 +507,9 @@
         {
             "id": "discussreasonsacrifice",
             "actionid": "talk",
-            "label": "Wild Lessons",
-            "startdescription": "If I give myself to the frenzy, I will learn a wild lesson. [This will teach the Consent of Wounds, but will convert Reason to Decrepitude... although even that might open a narrow door.]",
-            "description": "@#spirit_grailc_moth|The Prophet will enact its prophecies upon my skin, and beneath its pronouncements, my thoughts will part like old cloth.\n#spirit_heartc_edge|The Percussigant will lead me in the movements my body will not support, and if I need to make both changes and amends, why then, my skin will bear the tale, the tale; o my skin, the bear, the tale.\n#spirit_graile_edge|'I knew her in the Wake. Her arms were fewer; her arms were warmer; but her mouth was always cold. Call me a liar. I dare you. Or come here, and I will kiss the Fifth History deep into you, where no one will see it, not even you - '@",
+            "label": "Aulas Selvagens",
+            "startdescription": "Se eu der à frenesia, aprenderei uma lição selvagem. [Isto ensinará o Consentimento de Feridos, mas converterá Reason em Decrepitude... embora até mesmo isso possa abrir uma porta estreita.]",
+            "description": "@#spirit_grailc_moth├O Profeta irá propagar suas profecias com base na minha pele, e abaixo das suas pronúncias, meus pensamentos irão partir como pano antigo.\n#spirit_heartc_edge├O percussente me levará nos movimentos que meu corpo não apoiará. e se preciso de introduzir alterações e alterações, porquê então a minha pele vai arcar com a história e a casa? o meu pele, o urso, a história.\n#spirit_graile_edgeë'Eu a conheci no Wake. Seus braços eram menos; seus braços estavam mais quentes; mas sua boca estava sempre fria. Me chame de mentiroso. Eu te desafio. Ou venha aqui, e eu vou beijar a Quinta História que vos acompanha, onde ninguém a vê, nem mesmo vocês, '@",
             "requirements": {
                 "reason": 1,
                 "spiriteatsreason": 1
@@ -523,15 +523,15 @@
         },
         {
             "id": "discusssicknessprotectionspirit",
-            "label": "Request a Stay of Execution",
+            "label": "Solicitar uma continuação da execução",
             "actionid": "talk",
             "requirements": {
                 "summoned": 1,
                 "spiritsicknessprotector": 1,
                 "health": 1
             },
-            "startdescription": "The residents of the Mansus are not subject to the ills of the flesh. Some of them, sometimes, can extend their protection to those of us trapped out here in the Wake.",
-            "description": "@#spirit_wintera_moth|I will place a lock of my hair in the hollow of this one's chest, and with luck, one day, the sickness will seek me there instead.#spirit_grailc_moth|The Raw Prophet will embrace me with all its arms and kiss me with its mouths or whatever else it might find suitable, and perhaps that will protect me from diseases, and perhaps it will simply outnumber them.#spirit_heartc_edge|The Percussigant will weave the beat of my heart into the steps of its dance unending, and that might be enough, enough, enough. #spirit_graile_edge|'Open your mouth. Tilt back your head. We shall let one drop fall. Swallow. Yes. You'll be better now.'#spirit_lanterne_secret|'I will speak with your shadow, and some time soon it might turn a greater shadow aside. That's all I can promise you now.'@",
+            "startdescription": "Os residentes do Mansus não estão sujeitos aos males da carne. Algumas delas, por vezes, podem estender a sua protecção àqueles de entre nós que foram apanhados aqui em Wake.",
+            "description": "@#spirit_wintera_moth➲ Eu colocarei uma grama do meu cabelo no peito oco, e com sorte, um dia, a doença procurar-me-á aí. espírito (grailc_moth). O Profeta Bruto vai me abraçar com todos os seus braços e me beijar com sua boca ou qualquer outra coisa que possa achar apropriada, e talvez isso me proteja das doenças, e talvez vá simplesmente ultrapassá-las. Espírito_heartc_edgeë. O percussente vai tecer a batida do meu coração nos passos de sua dança inacabando, e isso pode ser suficiente, o suficiente. #spirit_graile_edgeë'Abra a sua boca. Recupere a sua cabeça. Vamos deixar uma gota cair. Sim. Você estará melhor agora. #Espiririt_lanterne_secret➲ 'Eu vou falar com sua sombra, e em breve pode virar uma sombra maior. Isso é tudo o que posso lhe prometer agora.'@",
             "craftable": false,
             "effects": {
                 "sicknessprotection": 1
@@ -539,54 +539,54 @@
         },
         {
             "id": "discussfucinespirit",
-            "label": "The matter of learning Fucine",
+            "label": "A questão de aprender Fucine",
             "actionid": "talk",
             "requirements": {
                 "scholarlatin": 1,
                 "summoned": 1,
                 "spirittutorfucine": 1
             },
-            "startdescription": "'Fucine? Yes, I get by in Fucine. I can teach you, if you have Latin as a grounding. But if I hear one crack about the 'tongue of witches', it's off.' [Use <b>STUDY</b> with the Baldomerian to learn Fucine].",
+            "startdescription": "'Fogo? Sim, eu me dou por comer carne. Eu posso te ensinar, se você tiver latim como terra. Mas se eu ouvir uma rachadura sobre 'língua das bruxas', está desligada.' [Use <b>ESTUDY</b> com o Baldomerian para aprender Fucine].",
             "description": ".",
             "craftable": true
         },
         {
             "id": "discussphrygianspirit",
-            "label": "The matter of learning Phrygian",
+            "label": "A questão de aprender Phrygian",
             "actionid": "talk",
             "requirements": {
                 "scholargreek": 1,
                 "summoned": 1,
                 "spirittutorphrygian": 1
             },
-            "startdescription": "'Phrygian! The Great Mother's tongue! Of course. If you have enough Greek, I guarantee that the experience of learning Phrygian will be <i>very</i> pleasant.' [Use <b>STUDY</b> with Ezeem to learn Phrygian].'",
+            "startdescription": "'Phrygian! A língua da Grande Mãe! Claro. Se você tem grego suficiente, eu garanto que a experiência de aprender Phrygian será <i>muito</i> agradável. [Use <b>ESTUDY</b> com Ezeem para aprender Phrygian].'",
             "description": ".",
             "craftable": true
         },
         {
             "id": "discussmandaicspirit",
-            "label": "The matter of learning Deep Mandaic",
+            "label": "A questão de aprender o Deep Mandaic",
             "actionid": "talk",
             "requirements": {
                 "scholararamaic": 1,
                 "summoned": 1,
                 "spirittutormandaic": 1
             },
-            "startdescription": "'TOGETHER WE WILL COMMEMORATE THE TONGUE OF THE UNBURNT GOD.' [Use <b>STUDY</b> with King Crucible to learn Deep Mandaic].'",
+            "startdescription": "'O TOGETHER NÓS SERÁ COMMEMORTE O TONGUE DO DESBUSCADO.' [Use <b>ESTUDO</b> com o Rei Caldeirão para aprender sobre o Mandaic].'",
             "description": ".",
             "craftable": true
         },
         {
             "id": "teresadiscusslocksmithsdream1",
-            "label": "Discuss the Locksmith's Dream, Volume 1",
+            "label": "Discuta o Sonho do Ferreiro, Volume 1",
             "requirements": {
                 "spirit_lanterne_secret": 1,
                 "locksmithsdream1": 1,
                 "autographed": -1
             },
             "actionid": "talk",
-            "startdescription": "'Shall I autograph it? I think that would be rather fun, wouldn't it?'",
-            "description": "'I used to live by Camden Lock, when I started writing this stuff down. If that isn't a joke of the Hours, I don't know what is. Let me tell you of my sources -'",
+            "startdescription": "'Devo fazer a autografia? Acho que isso seria um pouco divertido, não é?",
+            "description": "\"Eu morava por Camden Lock, quando comecei a escrever essas coisas. Se isso não é uma piada das Horas, não sei o que é. Deixe-me te contar as minhas fontes -'",
             "effects": {
                 "erudition": 1
             },
@@ -600,15 +600,15 @@
         },
         {
             "id": "teresadiscusslocksmithsdream2",
-            "label": "Discuss the Locksmith's Dream, Volume 2",
+            "label": "Discuta o Sonho do Ferreiro, Volume 2",
             "requirements": {
                 "spirit_lanterne_secret": 1,
                 "locksmithsdream2": 1,
                 "autographed": -1
             },
             "actionid": "talk",
-            "startdescription": "'Shall I autograph it? Would that be a little precious? No-one will believe it's the real thing, anyway. I'm supposed to be dead.'",
-            "description": "'I still think the Doors have to do with artisans' work - with making. I think that's how we begun to find our way into the House. But of course our ascents were always limited, until we learnt to speak. I'll try to explain...'",
+            "startdescription": "Deverei autograficá-lo? Isso seria um pouco precioso? Ninguém acreditará que seja a coisa real, mesmo assim. Eu deveria estar morto.\"",
+            "description": "\"Penso que as portas ainda têm a ver com o trabalho dos artesãos” - com a elaboração. Acho que foi assim que começamos a achar nosso caminho para a Assembleia. Mas é claro que nossos ascendentes eram sempre limitados, até que aprendemos a falar. Vou tentar explicar...\"",
             "effects": {
                 "glimmering": 1
             },
@@ -622,15 +622,15 @@
         },
         {
             "id": "teresadiscusslocksmithsdream3",
-            "label": "Discuss the Locksmith's Dream, Volume 3",
+            "label": "Discuta o Sonho do Ferreiro, Volume 3",
             "requirements": {
                 "spirit_lanterne_secret": 1,
                 "locksmithsdream3": 1,
                 "autographed": -1
             },
             "actionid": "talk",
-            "startdescription": "'I'll write my name in it, shall I? Only the name that Christopher called me. Not the name I use in here.'",
-            "description": "'Oh, my, I was in a state when I wrote this, wasn't I? Sorry about that. But I was right that death is down. That's one of the reasons I usually stay pretty high in the Mansus. I'll try to explain what I mean, a little -'",
+            "startdescription": "Escreverei meu nome nele, será que eu? Só o nome que Christopher me chamou. Não é o nome que eu uso aqui.\"",
+            "description": "\"Ah, não, eu estava em um estado quando escrevi isso, não era? Desculpe por isso. Mas eu estava certo que a morte caiu. Essa é uma das razões pelas quais costumo me manter muito alto no Mansus. Vou tentar explicar o que quero dizer, um pouco -'",
             "effects": {
                 "glimmering": 1
             },
@@ -644,15 +644,15 @@
         },
         {
             "id": "teresadiscusslocksmithsdream4",
-            "label": "Discuss the Locksmith's Dream, Volume 4",
+            "label": "Discuta o Sonho do Ferreiro, Volume 4",
             "requirements": {
                 "spirit_lanterne_secret": 1,
                 "locksmithsdream4": 1,
                 "autographed": -1
             },
             "actionid": "talk",
-            "startdescription": "'I'll definitely sign that one. But I'm afraid no one will see the signature unless they're dreaming of the book.'",
-            "description": "'I got very excited about Janus, back then. Now I think that if Janus is anyone, that anyone must be the Watchman or the Meniscate. Riddles tend to expand, puzzles tend to resolve.'",
+            "startdescription": "\"Definitivamente, assinarei aquele. Mas temo que ninguém verá a assinatura a menos que eles estejam sonhando com o livro.\"",
+            "description": "\"Fiquei muito empolgado com Janus na época. Agora acho que se Janus é alguém, alguém deve ser o Watchman ou o Meniscate. Os rumores tendem a expandir-se, os quebra-cabeças tendem a resolver.”",
             "effects": {
                 "glimmering": 1
             },
@@ -666,15 +666,15 @@
         },
         {
             "id": "teresadiscusslocksmithsdream5",
-            "label": "Discuss the Locksmith's Dream, Volume 5",
+            "label": "Discuta o Sonho do Ferreiro, Volume 5",
             "requirements": {
                 "spirit_lanterne_secret": 1,
                 "locksmithsdream5": 1,
                 "autographed": -1
             },
             "actionid": "talk",
-            "startdescription": "'Now where exactly did you find this?'",
-            "description": "'I'll sign it. But not with my Name. Not yet, if ever.'",
+            "startdescription": "Agora onde é que se encontrou exactamente isto?",
+            "description": "'Vou assinar. Mas não com meu Nome. Ainda não, se nunca.'",
             "effects": {
                 "glimmering": 1
             },
@@ -688,7 +688,7 @@
         },
         {
             "id": "begincultfoundation",
-            "label": "A New Beginning?",
+            "label": "Um novo começo?",
             "actionid": "talk",
             "requirements": {
                 "acquaintance": 1,
@@ -699,7 +699,7 @@
                 "society": -1
             },
             "craftable": true,
-            "startdescription": "Together, we might be more.",
+            "startdescription": "Juntos, talvez sejamos mais.",
             "comments": "This is hijacked by links from the Apostle open-talk verbs, to prevent apostles founding a second cult. This is why all the content is in the followup recipe.",
             "linked": [
                 {
@@ -710,7 +710,7 @@
         },
         {
             "id": "begincultfoundation_createcult",
-            "label": "Found a Mystical Organisation",
+            "label": "Organização Mística encontrada",
             "extantreqs": {
                 "society": -1
             },
@@ -725,28 +725,28 @@
             "effects": {
                 "notoriety": 1
             },
-            "startdescription": "Here is someone I might work with. A companion, or a follower. But first, I must give them something to follow. A society; a sodality; an order; a cult.",
-            "description": "I have begun my true work. The authorities will take an interest in it. I must be ready for them. [You have begun to establish your cult. It will need a little more, before you can recruit followers.]",
+            "startdescription": "Aqui está alguém com quem posso trabalhar. Um companheiro ou um seguidor. Mas em primeiro lugar, tenho de lhes dar uma coisa: uma sociedade; uma sódia; uma ordem; um culto.",
+            "description": "Iniciei o meu verdadeiro trabalho, que as autoridades se interessarão por ele e que deverão estar preparadas. [Você começou a estabelecer o seu culto. Será necessário um pouco mais, para que você possa recrutar seguidores.]",
             "warmup": 10
         },
         {
             "id": "inspiremystique",
             "actionid": "talk",
-            "label": "Attracting Attention",
+            "label": "Acompanhando atenção",
             "effects": {
                 "mystique": 1
             },
-            "startdescription": "There are hours and there are hours. This hour is mine.",
-            "description": "Parted lips; glittering eyes.",
+            "startdescription": "Há horas e há horas. Esta hora é minha.",
+            "description": "Falas empilhadas; olhos brilhantes.",
             "warmup": 10,
             "craftable": false
         },
         {
             "id": "findacquaintanceopentalk",
-            "label": "An Acquaintance",
+            "label": "Um Conhecido",
             "actionid": "talk",
-            "startdescription": "I await an answer to a letter.",
-            "description": "The reply to your letter is courteous, if cautious. They are intrigued by how you found their name: intrigued enough to meet you.",
+            "startdescription": "Aguardo uma resposta a uma carta.",
+            "description": "A resposta à sua carta é cortês, se bem que cautelosas. Elas estão intrigadas com o modo como você achou seu nome: intrigado o suficiente para te conhecer.",
             "warmup": 30,
             "craftable": false,
             "comments": "this runs as an additional, and is how Talk is opened. I'd like to remove maxexecutions, but it's in here now for safety.",

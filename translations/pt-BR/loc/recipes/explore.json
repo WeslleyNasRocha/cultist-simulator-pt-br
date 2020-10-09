@@ -3,9 +3,9 @@
         {
             "id": "exploremovehq",
             "actionid": "explore",
-            "label": "A Change of Premises",
-            "startdescription": "Move our organisation's headquarters to a new location. [This will permanently relocate your headquarters. No return is possible. It can reduce Notoriety.]",
-            "description": "No address is really ever permanent. Like our bodies, we leave them all in the end. But for now, this is home.",
+            "label": "Uma mudança de premissas",
+            "startdescription": "Mova o quartel-general da nossa organização para uma nova localização. [Isto irá realocar o quartel general da sua empresa. Não há retorno. Pode reduzir a Notoriety.]",
+            "description": "Nenhum endereço é definitivo, tal como os nossos corpos, acabamos por deixá-los a todos. Mas, por enquanto, tudo está em casa.",
             "requirements": {
                 "hq": 1,
                 "hq.potential": 1
@@ -16,8 +16,8 @@
             "slots": [
                 {
                     "id": "coldtrail",
-                    "label": "A Cold Trail",
-                    "description": "When we move, the Suppression Bureau may waste time investigating our old location.",
+                    "label": "Uma Trilha Gélida",
+                    "description": "Quando nos deslocamos, a Mesa de Supressão pode perder tempo a investigar a nossa antiga localização.",
                     "greedy": true,
                     "required": {
                         "notoriety": 1
@@ -50,9 +50,9 @@
         {
             "id": "explorehq.hospital",
             "actionid": "explore",
-            "label": "Where It Opens",
-            "startdescription": "The first wardens of this place practised their incisions and their transections until the world parted like fruit-peel. Those openings have long since healed, but nothing ever heals completely.",
-            "description": "There is always discomfort, at first, but we have made sure that everything is done cleanly, and so we touch the bright skirts of the Mother-of-Ants.",
+            "label": "Onde ele abre",
+            "startdescription": "Os primeiros grupos deste lugar praticaram as suas incisões e as suas transsecções até que o mundo se separasse como casca de frutas. Essas aberturas há muito tempo foram curadas, mas nada jamais cura completamente.",
+            "description": "Em primeiro lugar, há sempre desconforto, mas garantimos que tudo é feito de forma limpa, e assim tocamos as saias brilhantes das Marias dos Ants.",
             "requirements": {
                 "hq.hospital": 1,
                 "funds": 1
@@ -67,9 +67,9 @@
         {
             "id": "explorehq.mithraeum",
             "actionid": "explore",
-            "label": "The Sun Beneath Us",
-            "startdescription": "This was a holy place of the Sun Unconquered, the Sun Undivided. With the purest of candles, we can touch the light that still swims in the stone.",
-            "description": "The lucent, the translucent, the memory of splendour. Much is lost, and much remains, of the Sun Invisible and Indivisible.",
+            "label": "O Beneath do Sol",
+            "startdescription": "Este era um lugar sagrado do Sun Unconqueed, o Sol Individido. Com as velas mais puras, podemos tocar a luz que ainda nada na pedra.",
+            "description": "O luto, o translucente, a memória do esplendor. Muito é perdido e muito permanece do Sol Invisível e indivisível.",
             "requirements": {
                 "hq.mithraeum": 1,
                 "funds": 1
@@ -84,9 +84,9 @@
         {
             "id": "explorehq.church",
             "actionid": "explore",
-            "label": "The Wounds of Wisdom",
-            "startdescription": "'Not all doors are wounds, but every wound is a door.' The history of this place is rich with both wounds and doors. With the right materials, we can soften the air where once the air opened.",
-            "description": "Tonight, no door in this church will close; no lock will require a key; and every heart will be opened.",
+            "label": "As Ferimentos da Sabedoria",
+            "startdescription": "'Nem todas as portas são feridas, mas cada ferida é uma porta.' A história deste lugar é rica com feridas e portas. Com os materiais adequados, podemos suavizar onde uma vez que o ar foi aberto.",
+            "description": "Esta noite, nenhuma porta desta igreja se fechará; nenhuma fechadura exigirá uma chave; e todos os corações serão abertos.",
             "requirements": {
                 "hq.church": 1,
                 "funds": 1
@@ -101,9 +101,9 @@
         {
             "id": "explorehq.bookshop",
             "actionid": "explore",
-            "label": "The Guarded Hearth",
-            "startdescription": "We will warm the spaces behind the shop with fire-light, enliven them with the kettle's whistle and the gramophone's hum. Not all our celebrations require the shedding of blood.",
-            "description": "Bookshops give solace to the anxious, the ignorant and the troubled in spirit. Even after Morland brought her curious wares here, this solace lingers. Tonight the Hour called Thunderskin steps softly.",
+            "label": "A Lareira Guardada",
+            "startdescription": "Vamos aquecer os espaços atrás da loja com luz de fogo, alimentá-los com o apito da cafeteira e o humilho da gramofone. Nem todas as nossas celebrações exigem o derramamento de sangue.",
+            "description": "As livrarias consolam-se com o espírito, ansioso, ignorante e agitado. Mesmo depois de Morland ter trazido seus curiosos negócios aqui, esse soldado persiste. Esta noite a Hora se chama passos de Thunderskin com ligeireza.",
             "requirements": {
                 "hq.bookshop": 1,
                 "funds": 1
@@ -118,9 +118,9 @@
         {
             "id": "explorehq.warehouse",
             "actionid": "explore",
-            "label": "In Memory of Engines",
-            "startdescription": "Before this was a warehouse, it was a mansion of machines: a house of steam and iron and, from time to time, torn flesh and screaming. We will pour the oils that commemorate that time. ",
-            "description": "Once more we have flames, once more we have iron, and once more flesh will know heat's kiss; though nowhere it will show, not by daylight. Far above, far below, the Forge of Days performs her purifications.",
+            "label": "Na memória dos motores",
+            "startdescription": "Antes que este fosse um armazém, era uma mansão de máquinas: uma casa de vapor e ferro e, De vez em quando, rasgam carne e gritam. Vamos despejar os óleos que comemoram essa época. ",
+            "description": "Uma vez mais temos chamas, uma vez mais temos ferro, e mais uma vez a carne saberá o beijo do calor; embora em parte alguma ela seja mostrada, não por dia. Muito acima e logo abaixo, a Forja de Dias executa suas purificações.",
             "requirements": {
                 "hq.warehouse": 1,
                 "funds": 1
@@ -134,7 +134,7 @@
         },
         {
             "id": "explorelocationbookdealer",
-            "label": "Add to your Library",
+            "label": "Adicionar à sua biblioteca",
             "actionid": "explore",
             "requirements": {
                 "locationbookdealer": 1,
@@ -144,8 +144,8 @@
             "deckeffects": {
                 "commontomes": 1
             },
-            "startdescription": "It takes time to sort the gold from the dross, the wheat from the chaff, the blood from the water. If I buy enough books, I'll find something interesting.",
-            "description": "I've found something noteworthy.",
+            "startdescription": "É preciso tempo para ordenar o ouro das raias do cavalo, o trigo do joão, o sangue da água. Se eu comprar livros o bastante, encontrarei algo interessante.",
+            "description": "Achei algo digno de nota.",
             "warmup": 30,
             "craftable": true,
             "linked": [
@@ -157,12 +157,12 @@
         },
         {
             "id": "explorelocationbookdealer_exhausted",
-            "label": "Morland's is Closing!",
+            "label": "Morland está Fechando!",
             "actionid": "explore",
             "requirements": {
                 "genericrubbishbook": 1
             },
-            "description": "'I'm moving on,' Miss Morland informs you. 'My stock is largely exhausted, and the Suppression Bureau are taking an interest. So it's goodbye. This last book is nonsense, but I've tucked some interesting papers into the back, as a thanks for your custom.'",
+            "description": "\"Estou em movimento\", a senhora Morland informa-lhe: \"O meu estoque está largamente exausto, e a Mesa de Supressão está interessada. Então é adeus. Este último livro é besteira, mas eu coloquei alguns papéis interessantes nas costas, como um agradecimento pelo seu costume.\"",
             "deckeffects": {
                 "oneoffrewards": 1
             },
@@ -173,7 +173,7 @@
         },
         {
             "id": "explorelocationauctionhouse",
-            "label": "Attend an Auction at Oriflamme's",
+            "label": "Participe de um Leilão nos Oriflamme's",
             "actionid": "explore",
             "requirements": {
                 "locationauctionhouse": 1,
@@ -183,7 +183,7 @@
             "deckeffects": {
                 "auctionedcommontomes": 1
             },
-            "startdescription": "We perch on alarming Rietveld chairs in a windowless auction room with vividly burnt orange walls, waiting for the auctioneer to announce what he's offering. The reek of new paint makes the brain spin. [Hit Start to see what's on offer; or add an item you'd like to sell.]",
+            "startdescription": "Nós buscamos cadeiras alarmantes Rietveld em um quarto de leilão sem janelas com paredes laranja queimadas vivas, esperando o leilão anunciar o que está oferecendo. A bebida de uma nova tinta gira o cérebro. [Hit Start para ver o que há na oferta; ou adicione um item que deseja vender.]",
             "description": ".",
             "warmup": 5,
             "craftable": true,
@@ -196,7 +196,7 @@
         },
         {
             "id": "explorelocationstreetsstrange",
-            "label": "Explore an uncanny tangle of streets by the light of the moon.",
+            "label": "Explore um misterioso emaranhado de ruas pela luz da lua.",
             "actionid": "explore",
             "requirements": {
                 "locationstreetsstrange": 1
@@ -204,14 +204,14 @@
             "deckeffects": {
                 "streetsstrangefinds": 1
             },
-            "startdescription": "Streets are strange in the hour called Meniscate.",
-            "description": "Visions pass me with pavane grace - a window over a wood, a garden of ice, a shivering sun, a woman of glass. I will return home, with reluctance.",
+            "startdescription": "As ruas são estranhas na hora chamada Meniscate.",
+            "description": "As visões me passam com graça de pinheiro - uma janela sobre uma madeira, um jardim de gelo, um sol tremendo, uma mulher de vidro. Voltarei para casa com relutância.",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "explorefollower",
-            "label": "Search the City",
+            "label": "Procure a cidade",
             "actionid": "explore",
             "requirements": {
                 "follower": 1,
@@ -230,14 +230,14 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Crowded thoroughfares by day, a fog-wrapped labyrinth by night. I'll set my minions to searching for opportunities.",
+            "startdescription": "Tráfego meticuloso por dia, um labirinto nevoeiro por noite. Vou colocar meus lacaios em busca de oportunidades.",
             "description": ".",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "explorerumour",
-            "label": "Track down a rumour",
+            "label": "Rastrear um boato",
             "actionid": "explore",
             "requirements": {
                 "rumour": 1
@@ -249,14 +249,14 @@
                 "rumour": -1,
                 "notoriety": 1
             },
-            "startdescription": "I suspect that, at the end of this story, I may find someone who will hear what I have to say.",
-            "description": "An unpromising address: but a promising resident.",
+            "startdescription": "Suspeito que, no final desta história, possa encontrar alguém que escute o que tenho a dizer.",
+            "description": "Um endereço não promissor: mas um residente promissor.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "explorehealth",
-            "label": "Search the City",
+            "label": "Procure a cidade",
             "actionid": "explore",
             "requirements": {
                 "health": 1,
@@ -278,14 +278,14 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Crowded thoroughfares by day, a fog-wrapped labyrinth by night. I'll walk the streets, seeking secrets, until I can walk no more.",
+            "startdescription": "Malditas e minuciosas por dia, um labirinto embrulhado de neblina de noite. Vou andar pelas ruas, procurando segredos, até que não possa mais andar.",
             "description": ".",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "explorefindcriminal",
-            "label": "A Hireling?",
+            "label": "Um Hireling?",
             "actionid": "explore",
             "requirements": {
                 "daycriminals": 1
@@ -306,13 +306,13 @@
         },
         {
             "id": "explorechoosepaycriminal",
-            "label": "A Hireling?",
+            "label": "Um Hireling?",
             "actionid": "explore",
-            "startdescription": "I've found someone whom I might pay to enact regrettable necessities. [Add Funds to hire them, for a limited time.]",
+            "startdescription": "Encontrei alguém que posso pagar para promulgar necessidades lamentáveis. [Adicione Fundos para contratá-los, por um tempo limitado.]",
             "slots": [
                 {
                     "id": "Payment",
-                    "label": "Payment",
+                    "label": "Pagamento",
                     "required": {
                         "funds": 1
                     },
@@ -328,29 +328,29 @@
             "effects": {
                 "hireling": -1
             },
-            "description": "Better not. I must be careful of the company I keep.",
+            "description": "Melhor não. Preciso ter cuidado com a companhia que eu mantenho.",
             "warmup": 60
         },
         {
             "id": "explorepaycriminal",
-            "label": "A Hireling",
+            "label": "Um Hireling",
             "requirements": {
                 "funds": 1
             },
             "actionid": "explore",
-            "startdescription": "This will buy their loyalty, for now.",
+            "startdescription": "Por enquanto, a sua lealdade será adquirida.",
             "effects": {
                 "funds": -1
             }
         },
         {
             "id": "explorefindplace",
-            "label": "An Overlooked Place?",
+            "label": "Um lugar ignorado?",
             "actionid": "explore",
             "requirements": {
                 "dayplaces": 1
             },
-            "startdescription": "I might have found somewhere unusual.",
+            "startdescription": "Talvez eu tenha encontrado algum lugar incomum.",
             "description": ".",
             "deckeffects": {
                 "citysecrets": 1
@@ -375,8 +375,8 @@
                 "fatiguing": 1
             },
             "label": "A Disinterment",
-            "startdescription": "Stealthy excavations by the soft light of a hooded lantern.",
-            "description": "The shovel strikes wood. That's a good sign. If the coffin is too far rotted, usually the remains are scant.",
+            "startdescription": "Escavações lúcidas pela luz suave de uma lanterna coberta.",
+            "description": "A pá bate na madeira. Isso é um bom sinal. Se o caixão estiver muito enrolado, geralmente os restos estão escaneados.",
             "warmup": 30,
             "craftable": true
         },
@@ -392,8 +392,8 @@
                 "mystique": 1
             },
             "label": "A Disinterment",
-            "startdescription": "Stealthy excavations by the soft light of a hooded lantern.",
-            "description": "The shovel strikes wood. That's a good sign. If the coffin is too far rotted, usually the remains are scant.",
+            "startdescription": "Escavações lúcidas pela luz suave de uma lanterna coberta.",
+            "description": "A pá bate na madeira. Isso é um bom sinal. Se o caixão estiver muito enrolado, geralmente os restos estão escaneados.",
             "warmup": 30,
             "craftable": true
         },
@@ -411,9 +411,9 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "label": "A Cautious Disinterment",
-            "startdescription": "Steal through the shuffling shadows. Light no lamp. Go warily.",
-            "description": "I dig in darkness, until I find enough to be going on with.",
+            "label": "Uma cautelosa desinterligação",
+            "startdescription": "Roube através das sombras embaralhantes. Iluminar sem lâmpada. Seja cauteloso.",
+            "description": "Eu caio na escuridão, até encontrar o suficiente para continuar.",
             "warmup": 60,
             "craftable": true
         },
@@ -428,9 +428,9 @@
                 "corpse": 1,
                 "notoriety": 1
             },
-            "label": "A Cautious Disinterment",
-            "startdescription": "Steal through the shuffling shadows. Light no lamp. Go warily.",
-            "description": "I dig in darkness, until I find enough to be going on with.",
+            "label": "Uma cautelosa desinterligação",
+            "startdescription": "Roube através das sombras embaralhantes. Iluminar sem lâmpada. Seja cauteloso.",
+            "description": "Eu caio na escuridão, até encontrar o suficiente para continuar.",
             "warmup": 60,
             "craftable": true
         },
@@ -440,15 +440,15 @@
             "requirements": {
                 "fleeting": 1
             },
-            "label": "Let memory guide my steps",
-            "startdescription": "My thoughts will wander and I will follow. Old emotions will come to roost.",
-            "description": "Memory is a maze, and at its heart a garden.",
+            "label": "Deixe a memória guiar meus passos",
+            "startdescription": "Os meus pensamentos vão desaparecer e eu seguirei e as velhas emoções vão enraizar-se.",
+            "description": "A memória é um labirinto e no seu coração um jardim.",
             "effects": {
                 "fleeting": -1
             },
             "internaldeck": {
-                "label": "Where We Go",
-                "description": "Where We Go",
+                "label": "Aonde vamos",
+                "description": "Aonde vamos",
                 "spec": [
                     "restlessness",
                     "dread",

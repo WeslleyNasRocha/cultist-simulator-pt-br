@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "auctionbuy",
-            "label": "Bid in an Auction",
+            "label": "Licitação em um Leilão",
             "actionid": "explore",
             "effects": {},
             "slots": [
@@ -14,7 +14,7 @@
                     }
                 }
             ],
-            "startdescription": "A crowd of pinched faces, glinting eyes. Who will bid? [The item at auction is visible on the right. It will be gone forever if the auction is lost.]",
+            "startdescription": "Uma multidão de rostos apertados, olhos brilhantes. Quem vai licitar? [O item em leilão é visível à direita. Se o leilão se perder para sempre.]",
             "description": ".",
             "warmup": 30,
             "craftable": false,
@@ -35,11 +35,11 @@
         {
             "id": "playerincreasedbid",
             "actionid": "explore",
-            "label": "I've bid!",
+            "label": "Eu lancei!",
             "requirements": {
                 "funds": 1
             },
-            "startdescription": "I've raised my hand. The auctioneer raps out an acknowledgement. Will anyone match me?",
+            "startdescription": "Eu ergui minha mão. O leilão faz um reconhecimento. Alguém vai combinar comigo?",
             "description": ".",
             "effects": {
                 "funds": -1,
@@ -75,9 +75,9 @@
         },
         {
             "id": "auctionbidmatched",
-            "label": "Another bidder!",
+            "label": "Outro lance!",
             "actionid": "explore",
-            "startdescription": "Someone else has matched my bid! I must match it with more funds, or forgo my prize.",
+            "startdescription": "Alguém combinou a minha oferta! Eu devo combiná-la com mais fundos ou abandonar meu prêmio.",
             "description": ".",
             "slots": [
                 {
@@ -121,24 +121,24 @@
         {
             "id": "auctionfailure",
             "actionid": "explore",
-            "label": "I haven't won the auction",
+            "label": "Eu não ganhei o leilão",
             "aspects": {
                 "restore": 1
             },
             "startdescription": ".",
-            "description": "The auction is over. The lot has gone on elsewhere. I retain my funds.",
+            "description": "O leilão acabou. O muito se passou em outros lugares, eu retenho os meus fundos.",
             "warmup": 0
         },
         {
             "id": "auctionsuccess",
-            "label": "I've won the auction!",
+            "label": "Ganhei o leilão!",
             "actionid": "explore",
             "effects": {
                 "funds": -100,
                 "bid": -100
             },
             "startdescription": ".",
-            "description": "The auctioneer makes a note of my name, and signals one of the attendants. I have my prize. I hope it's worth it.",
+            "description": "O leilão faz uma nota do meu nome e sinaliza um dos atendentes. Eu tenho o meu prêmio. Espero que valha a pena.",
             "warmup": 0,
             "craftable": false,
             "comments": "The auction item should be inherited from the linking recipe."
@@ -146,8 +146,8 @@
         {
             "id": "expedition.corpse.find.vaultshires3",
             "actionid": "expedition.corpse.find",
-            "label": "One More Treasure",
-            "startdescription": "The others who came here all overlooked the secrets locked within the warrior-king's corpse. I will not make the same mistake.",
+            "label": "Mais um Tesouro",
+            "startdescription": "Os outros que vieram aqui esqueceram todos os segredos fechados dentro do cadáver do rei dos guerreiros. Não cometerei o mesmo erro.",
             "extantreqs": {
                 "remembrancemarks": 1
             },
@@ -159,8 +159,8 @@
         {
             "id": "expedition.corpse.find.vaultcapital5",
             "actionid": "expedition.corpse.find",
-            "label": "One More Treasure",
-            "startdescription": "I should not neglect this last piece of priest. It will, no doubt, be chewy, but there is power and knowledge within.",
+            "label": "Mais um Tesouro",
+            "startdescription": "Não posso descurar esta última peça do padre, que será, sem dúvida, uma bochecha, mas dentro dela há poder e conhecimento.",
             "extantreqs": {
                 "remembrancemarks": 1
             },
@@ -172,8 +172,8 @@
         {
             "id": "expedition.corpse.find.vaultloneandlevelsands2",
             "actionid": "expedition.corpse.find",
-            "label": "One More Treasure",
-            "startdescription": "I will gather what I can of Lagun's remains. I will find a way to unlock the memories within. Even if I have to steep it in tea.",
+            "label": "Mais um Tesouro",
+            "startdescription": "Vou compreender o que resta do senhor deputado Lagon. Eu encontrarei uma maneira de desbloquear as memórias dentro. Mesmo que eu tenha que esfregar em chá.",
             "extantreqs": {
                 "remembrancemarks": 1
             },
@@ -185,8 +185,8 @@
         {
             "id": "expedition.corpse.find.vaultrendingmountainsdefault",
             "actionid": "expedition.corpse.find",
-            "label": "One More Treasure",
-            "startdescription": "I will keep what is left of the King to myself.",
+            "label": "Mais um Tesouro",
+            "startdescription": "Eu guardarei o que sobra do Rei para mim mesmo.",
             "extantreqs": {
                 "remembrancemarks": 1,
                 "corpse.horizon": -1,
@@ -201,8 +201,8 @@
         {
             "id": "expedition.corpse.find.vaultshires4",
             "actionid": "expedition.corpse.find",
-            "label": "One More Treasure",
-            "startdescription": "'Caput gerat lupinum'. When a human passes beyond the permissible, they were once considered to have become a wolf.",
+            "label": "Mais um Tesouro",
+            "startdescription": "'Caput gerat lupinum'. Quando um ser humano passa para além do admissível, foi considerado um lobo que se tornou um lobo.",
             "extantreqs": {
                 "remembrancemarks": 1
             },
@@ -214,8 +214,8 @@
         {
             "id": "expedition.corpse.find.vaultshires3.ransackedbyrival",
             "actionid": "expedition.corpse.find",
-            "label": "One More Treasure",
-            "startdescription": "My rival, like all the others who have come here, overlooked the secrets locked within the warrior-king's corpse. I will not make the same mistake.",
+            "label": "Mais um Tesouro",
+            "startdescription": "O meu rival, como todos os que aqui vieram, ignorou os segredos trancados no cadáver do rei guerreiro. Não cometerei o mesmo erro.",
             "requirements": {
                 "vaultshires3": 1
             },
@@ -230,8 +230,8 @@
         {
             "id": "expedition.corpse.find.vaultcapital5.ransackedbyrival",
             "actionid": "expedition.corpse.find",
-            "label": "One More Treasure",
-            "startdescription": "Now that my rival has gone, we can steal in and scavenge this last piece of priest. It will, no doubt, be chewy, but there is power and knowledge within.",
+            "label": "Mais um Tesouro",
+            "startdescription": "Agora que meu rival se foi, nós podemos roubar e roubar essa última peça de padre. Será, sem dúvida, uma bochecha, mas o poder e o conhecimento internamente.",
             "requirements": {
                 "vaultcapital5": 1
             },
@@ -246,8 +246,8 @@
         {
             "id": "expedition.corpse.find.vaultloneandlevelsands2.ransackedbyrival",
             "actionid": "expedition.corpse.find",
-            "label": "One More Treasure",
-            "startdescription": "Now that my rival has gone, we can steal in and scavenge the once-immortal remains I require. I will gather what I can of Lagun's remains. I will find a way to unlock the memories within. Even if I have to steep it in tea.",
+            "label": "Mais um Tesouro",
+            "startdescription": "Agora que o meu rival se foi, nós podemos roubar e recolher o único imortal que eu preciso. Vou compreender o que resta do senhor deputado Lagon. Eu encontrarei uma maneira de desbloquear as memórias dentro. Mesmo que eu tenha que esfregar em chá.",
             "requirements": {
                 "vaultloneandlevelsands2": 1
             },
@@ -262,8 +262,8 @@
         {
             "id": "expedition.corpse.find.vaultrendingmountainsdefault.ransackedbyrival",
             "actionid": "expedition.corpse.find",
-            "label": "One More Treasure",
-            "startdescription": "Now that my rival has gone, we can steal in and scavenge the half-mortal remains I require. I will keep what is left of the King to myself.",
+            "label": "Mais um Tesouro",
+            "startdescription": "Agora que meu rival se foi, nós podemos roubar e retirar a meia mortal que eu preciso. Eu guardarei o que sobra do Rei para mim mesmo.",
             "requirements": {
                 "vaultrendingmountainsdefault": 1
             },
@@ -281,8 +281,8 @@
         {
             "id": "expedition.corpse.find.vaultshires4.ransackedbyrival",
             "actionid": "expedition.corpse.find",
-            "label": "One More Treasure",
-            "startdescription": "Now that my rival has gone, we can steal in and scavenge the mortal remains we require.",
+            "label": "Mais um Tesouro",
+            "startdescription": "Agora que meu rival se foi, nós podemos roubar e retirar os mortais que precisamos.",
             "requirements": {
                 "vaultshires4": 1
             },

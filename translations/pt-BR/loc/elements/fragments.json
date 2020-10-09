@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "fragmentedge",
-            "label": "A Knife's Secret",
+            "label": "Segredo de uma Faca",
             "aspects": {
                 "edge": 2,
                 "lore": 1,
@@ -12,8 +12,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with an Edge lore fragment of the same level to upgrade to the next level. Study with Winter lore of the same level to subvert it, and get Winter lore instead.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de borda do mesmo nível para atualizar para o próximo nível. Estude com a história de inverno com o mesmo nível para subvertê-la e obter história de inverno.",
                     "required": {
                         "fragmentedge": 1,
                         "fragmentwinter": 1
@@ -21,14 +21,14 @@
                     "actionid": "study"
                 }
             ],
-            "description": "When our ancestors forged swords, taught the arts of martial movement, spoke curses on the eve of battle - all these things shared certain patterns. [Use this in a Rite with a corpse and Winter power, and the corpse will rise.]",
+            "description": "Quando os nossos antepassados forjaram espadas, ensinaram as artes do movimento marcial, falavam maldições nas vésperas da batalha - todas essas coisas compartilhavam certos padrões. [Use isso em Rite com um cadáver e poder de inverno, e o cadáver aumentará.]",
             "xtriggers": {
                 "epiphany": "fragmentedgeb"
             }
         },
         {
             "id": "fragmentedgeb",
-            "label": "Chiliarch's Lesson",
+            "label": "Aula do Chiliarca",
             "aspects": {
                 "edge": 4,
                 "lore": 1,
@@ -38,8 +38,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with an Edge lore fragment of the same level to upgrade to the next level. Study with Winter lore of the same level to subvert it, and get Winter lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de borda do mesmo nível para atualizar para o próximo nível. Estude com a história de inverno com o mesmo nível para subvertê-la e obter história de inverno. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentedgeb": 1,
                         "fragmentwinterb": 1,
@@ -48,14 +48,14 @@
                     "actionid": "study"
                 }
             ],
-            "description": "This is the bone-deep story the thousandman learnt in antiquity, of blood and its exits. To speak it aloud is to hear the sword hiss. [Use this in a Rite with a corpse and Winter power, and the corpse will rise.]",
+            "description": "Esta é a história profunda de ossos que o milhar aprendeu na antiguidade, no sangue e nas suas saídas. Falar em voz alta é ouvir a espada dele. [Use isso em Rite com um cadáver e poder de inverno, e o cadáver aumentará.]",
             "xtriggers": {
                 "epiphany": "fragmentedgec"
             }
         },
         {
             "id": "fragmentedgec",
-            "label": "An Operation of the Labhite",
+            "label": "Uma operação do Labhite",
             "aspects": {
                 "edge": 6,
                 "lore": 1,
@@ -66,8 +66,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with an Edge lore fragment of the same level to upgrade to the next level. Study with Winter lore of the same level to subvert it, and get Winter lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de borda do mesmo nível para atualizar para o próximo nível. Estude com a história de inverno com o mesmo nível para subvertê-la e obter história de inverno. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentedgec": 1,
                         "fragmentwinterc": 1,
@@ -76,14 +76,14 @@
                     "actionid": "study"
                 }
             ],
-            "description": "A series of mystic exercises that requires both dedication and terror. [Use this in a Rite with a corpse and Winter power, and the corpse will rise.]",
+            "description": "Uma série de exercícios místicos que requerem dedicação e terror. [Use isso em Rite com um cadáver e poder de inverno, e o cadáver aumentará.]",
             "xtriggers": {
                 "epiphany": "fragmentedged"
             }
         },
         {
             "id": "fragmentedged",
-            "label": "The Colonel's Names",
+            "label": "Os Nomes do Colonel",
             "aspects": {
                 "edge": 8,
                 "lore": 1,
@@ -94,8 +94,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with an Edge lore fragment of the same level to upgrade to the next level. Study with Winter lore of the same level to subvert it, and get Winter lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de borda do mesmo nível para atualizar para o próximo nível. Estude com a história de inverno com o mesmo nível para subvertê-la e obter história de inverno. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentedged": 1,
                         "fragmentwinterd": 1,
@@ -104,14 +104,14 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The Colonel has been many things in many ages. He is blind; he is deaf; he cannot be wounded; he cannot be denied. His Names are cunning as only the very old can be.",
+            "description": "O coronel tem sido muitas coisas em muitas idades. Ele é cego; é surdo; não pode ficar ferido; é inegável. Seus Nomes são astutos como o único velho pode ser.",
             "xtriggers": {
                 "epiphany": "fragmentedgee"
             }
         },
         {
             "id": "fragmentedgee",
-            "label": "The Lionsmith's Names",
+            "label": "Os Nomes do Ferreiro",
             "aspects": {
                 "edge": 10,
                 "lore": 1,
@@ -123,8 +123,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with an Edge lore fragment of the same level to upgrade to the next level. Study with Winter lore of the same level to subvert it, and get Winter lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de borda do mesmo nível para atualizar para o próximo nível. Estude com a história de inverno com o mesmo nível para subvertê-la e obter história de inverno. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentedgee": 1,
                         "fragmentwintere": 1,
@@ -133,14 +133,14 @@
                     "actionid": "study"
                 }
             ],
-            "description": "The Lionsmith is young by the standards of the Hours, but old by the standards of war. His Names are recent recruits, and their recitation has a savage power.",
+            "description": "O ferreiro é jovem de acordo com os padrões das horas, mas velho de acordo com os padrões da guerra. Seus nomes são recrutas recentes, e sua recitação tem um poder selvagem.",
             "xtriggers": {
                 "epiphany": "fragmentedgef"
             }
         },
         {
             "id": "fragmentedgef",
-            "label": "The Alignments of Murder",
+            "label": "Os Alinhamentos do Assassinato",
             "aspects": {
                 "edge": 12,
                 "lore": 1,
@@ -152,8 +152,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with an Edge lore fragment of the same level to upgrade to the next level. Study with Winter lore of the same level to subvert it, and get Winter lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de borda do mesmo nível para atualizar para o próximo nível. Estude com a história de inverno com o mesmo nível para subvertê-la e obter história de inverno. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentedgef": 1,
                         "fragmentwinterf": 1,
@@ -162,25 +162,25 @@
                     "actionid": "study"
                 }
             ],
-            "description": "These are the arts that ensure an ending.",
+            "description": "Estas são as artes que garantem o seu fim.",
             "xtriggers": {
                 "epiphany": "fragmentedgeg"
             }
         },
         {
             "id": "fragmentedgeg",
-            "label": "The Mysteries of Force",
+            "label": "Os Mistérios da Força",
             "aspects": {
                 "edge": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
-            "description": "The Colonel and the Lionsmith are gods-who-were-flesh, but the Wolf-Divided is a god-who-was-blood. Cunning, Strength and Agony are the three roots of victory, and here is their secret doctrine...",
+            "description": "O coronel e o ferreiro são deuses, mas o Wolf-Divided é um deus que dá sangue. Astúcio, Força e Agônia são as três raízes da vitória, e aqui está a sua doutrina secreta...",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "reason": 1
                     },
@@ -191,19 +191,19 @@
         },
         {
             "id": "fragmentforge",
-            "label": "A Smith's Secret",
+            "label": "Segredo de um Smith",
             "aspects": {
                 "forge": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
             },
-            "description": "In five continents, smiths have whispered the same words to the iron. Murderers have been known to whisper these words, too. And adepts, of course. These words are spoken in ritual to inspire an unmerciful Change.",
+            "description": "Em cinco continentes, os ferreiros sussurraram as mesmas palavras ao ferro, sabe-se que também os assassinos sussurram estas palavras. E adeptos, é claro. Essas palavras são faladas em ritual para inspirar uma mudança sem misericórdia.",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Forge lore fragment of the same level to upgrade to the next level. Study with Edge lore of the same level to subvert it, and get Edge lore instead.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de Forja do mesmo nível para melhorar para o próximo nível. Estude com o minério de Borda do mesmo nível para subvertê-lo e obter minério de borda.",
                     "required": {
                         "fragmentforge": 1,
                         "fragmentedge": 1
@@ -217,19 +217,19 @@
         },
         {
             "id": "fragmentforgeb",
-            "label": "An Ardent Orison",
+            "label": "Um Orisão de Ardente",
             "aspects": {
                 "forge": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
             },
-            "description": "When we watch a fire, what are we watching for? When we find it, these are the words it will speak: a word that sanctifies the change that comes when the seared skin peels.",
+            "description": "Quando vemos uma fogueira, para que estamos de olho? São estas as palavras que irão falar: uma palavra que sanciona a mudança que ocorre quando as cascas de pele criadas.",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Forge lore fragment of the same level to upgrade to the next level. Study with Edge lore of the same level to subvert it, and get Edge lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de Forja do mesmo nível para melhorar para o próximo nível. Estude com o minério de Borda do mesmo nível para subvertê-lo e obter minério de borda. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentforgeb": 1,
                         "fragmentedgeb": 1,
@@ -244,7 +244,7 @@
         },
         {
             "id": "fragmentforgec",
-            "label": "A Shaping Chant",
+            "label": "Uma Cante de Moldagem",
             "aspects": {
                 "forge": 6,
                 "lore": 1,
@@ -252,12 +252,12 @@
                 "challenge.knowledge": 1,
                 "challenge.practical": 1
             },
-            "description": "The proper words must be employed when the Change comes. [Use this in a Rite with a Knock influence and a Bone Flute - or other resources of equal power - to summon a Caligine.]",
+            "description": "As palavras adequadas devem ser utilizadas quando a mudança chegar. [Use isto em Rite com influência de nock e a Flauta de Osso - ou outros recursos de igual poder - para invocar um Caligine.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Forge lore fragment of the same level to upgrade to the next level. Study with Edge lore of the same level to subvert it, and get Edge lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de Forja do mesmo nível para melhorar para o próximo nível. Estude com o minério de Borda do mesmo nível para subvertê-lo e obter minério de borda. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentforgec": 1,
                         "fragmentedgec": 1,
@@ -272,7 +272,7 @@
         },
         {
             "id": "fragmentforged",
-            "label": "Callidate Invocation",
+            "label": "Chamada de Callidate",
             "aspects": {
                 "forge": 8,
                 "lore": 1,
@@ -280,12 +280,12 @@
                 "challenge.knowledge": 1,
                 "challenge.practical": 1
             },
-            "description": "The Names of the Forge have all spoken these words. [Use this in a Rite with a Knock influence and a Bone Flute - or other resources of equal power - to summon a Caligine.]",
+            "description": "Os nomes da Forja falaram todas estas palavras. [Use isto em Rite com influência de nock e a Flauta de Osso - ou outros recursos de igual poder - para invocar um Caligine.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Forge lore fragment of the same level to upgrade to the next level. Study with Edge lore of the same level to subvert it, and get Edge lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de Forja do mesmo nível para melhorar para o próximo nível. Estude com o minério de Borda do mesmo nível para subvertê-lo e obter minério de borda. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentforged": 1,
                         "fragmentedged": 1,
@@ -300,7 +300,7 @@
         },
         {
             "id": "fragmentforgee",
-            "label": "Formula Fissive",
+            "label": "Fórmula Fissiva",
             "aspects": {
                 "forge": 10,
                 "lore": 1,
@@ -309,12 +309,12 @@
                 "challenge.practical": 1,
                 "challenge.illumination": 1
             },
-            "description": "Break a thing, and you have fragments. Break those fragments, and you have dust. Break the dust, and then break what remains. Here is fire. [Use this in a Rite with a Consecrated Lintel and a little Refulgin - or other resources of equal power - to summon King Crucible.]",
+            "description": "Quebre uma coisa, e você tem fragmentos. Quebre esses fragmentos e você tem poeira. Quebre a poeira, e então quebre o que resta. Aqui está o fogo. [Use isto em Rite com um Lintel Consagrado e um pouco Refulgin - ou outros recursos de igual poder - para invocar o Rei Crucible.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Forge lore fragment of the same level to upgrade to the next level. Study with Edge lore of the same level to subvert it, and get Edge lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de Forja do mesmo nível para melhorar para o próximo nível. Estude com o minério de Borda do mesmo nível para subvertê-lo e obter minério de borda. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentforgee": 1,
                         "fragmentedgee": 1,
@@ -329,7 +329,7 @@
         },
         {
             "id": "fragmentforgef",
-            "label": "Furnace Paean",
+            "label": "Paean de Fornalha",
             "aspects": {
                 "forge": 12,
                 "lore": 1,
@@ -338,12 +338,12 @@
                 "challenge.practical": 1,
                 "challenge.illumination": 1
             },
-            "description": "This is the hymn the heat sings to the iron. If we imitate it faithfully enough we will parch our lips and crisp our tongue, but O, the rewards. [Use this in a Rite with a Consecrated Lintel and a little Refulgin - or other resources of equal power - to summon King Crucible.]",
+            "description": "Este é o hino que o calor canta ao ferro. Se o imitarmos de forma suficientemente fiel, vamos acalmar nossos lábios e batalhar nossa língua, mas O, as recompensas. [Use isto em Rite com um Lintel Consagrado e um pouco Refulgin - ou outros recursos de igual poder - para invocar o Rei Crucible.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Forge lore fragment of the same level to upgrade to the next level. Study with Edge lore of the same level to subvert it, and get Edge lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de Forja do mesmo nível para melhorar para o próximo nível. Estude com o minério de Borda do mesmo nível para subvertê-lo e obter minério de borda. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentforgef": 1,
                         "fragmentedgef": 1,
@@ -358,18 +358,18 @@
         },
         {
             "id": "fragmentforgeg",
-            "label": "Mysteries of Making",
+            "label": "Mistérios de Fabricação",
             "aspects": {
                 "forge": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
-            "description": "The Forge of Days, the Meniscate and the Madrugad are gods-from-Light. Mercury, silver and gold are the seeds of the Work, and here is their secret doctrine... [Use this in a Rite with a Consecrated Lintel and a little Refulgin - or other resources of equal power - to summon King Crucible.]",
+            "description": "A Forja dos Dias, o Menisco e a Madrugada são deuses da Luz. Mercúrio, prata e ouro são as sementes da obra e aqui está sua doutrina secreta. . [Use isto em um Rite com um Lintel Consagrado e um pouco Refulgin - ou outros recursos de igual poder - para invocar o Rei Crucible.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "reason": 1
                     },
@@ -380,19 +380,19 @@
         },
         {
             "id": "fragmentgrail",
-            "label": "A Red Secret",
+            "label": "Um segredo vermelho",
             "aspects": {
                 "grail": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
             },
-            "description": "Some words are spelt correctly only when the proper ink is used.",
+            "description": "Algumas palavras são feitiçadas corretamente somente quando a tinta correta é usada.",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Grail lore fragment of the same level to upgrade to the next level. Study with Moth lore of the same level to subvert it, and get Moth lore instead.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de gaiola do mesmo nível para melhorar para o próximo nível. Estude com a história da Mariposa com o mesmo nível para subvertê-la e obter minério de Mariposa.",
                     "required": {
                         "fragmentgrail": 1,
                         "fragmentmoth": 1
@@ -406,19 +406,19 @@
         },
         {
             "id": "fragmentgrailb",
-            "label": "A Megalesian Incantation",
+            "label": "Uma Encantação Megalesiana",
             "aspects": {
                 "grail": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
             },
-            "description": "The Great Mother remembers.",
+            "description": "A Grande Mãe lembra-se.",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Grail lore fragment of the same level to upgrade to the next level. Study with Moth lore of the same level to subvert it, and get Moth lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de gaiola do mesmo nível para melhorar para o próximo nível. Estude com a história da Mariposa com o mesmo nível para subvertê-la e obter minério de Mariposa. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentgrailb": 1,
                         "fragmentmothb": 1,
@@ -433,7 +433,7 @@
         },
         {
             "id": "fragmentgrailc",
-            "label": "A Delightful Sacrament",
+            "label": "Um Sacramento delicioso",
             "aspects": {
                 "grail": 6,
                 "lore": 1,
@@ -441,12 +441,12 @@
                 "challenge.intuition": 1,
                 "challenge.practical": 1
             },
-            "description": "So pleasant upon the ear. One could listen over and over. These are the words that make sacrifice sweet. [Use this with Byzantine Tinct and a Moth influence - or other resources of equal power - to summon a Raw Prophet.]",
+            "description": "Tão agradável no ouvido. Era possível ouvir várias vezes, estas são as palavras que fazem o sacrifício doce. [Use isto com o Bizantine Tinct e uma influência de Mariposa - ou outros recursos de igual poder - para convocar um Profeta Cru.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Grail lore fragment of the same level to upgrade to the next level. Study with Moth lore of the same level to subvert it, and get Moth lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de gaiola do mesmo nível para melhorar para o próximo nível. Estude com a história da Mariposa com o mesmo nível para subvertê-la e obter minério de Mariposa. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentgrailc": 1,
                         "fragmentmothc": 1,
@@ -461,7 +461,7 @@
         },
         {
             "id": "fragmentgraild",
-            "label": "Thiatic Invocation",
+            "label": "Invocação Thiática",
             "aspects": {
                 "grail": 8,
                 "lore": 1,
@@ -469,12 +469,12 @@
                 "challenge.intuition": 1,
                 "challenge.practical": 1
             },
-            "description": "Raucous shrieks attend the passage of the Names of the Grail. We reproduce them as best we can, for the pulsing power they lend. [Use this with Byzantine Tinct and a Moth influence - or other resources of equal power - to summon a Raw Prophet.]",
+            "description": "Raucous shrieks frequentam a passagem dos Nomes dos Graus. Nós os reproduzimos o melhor que pudermos, pelo poder pulsante que eles emprestam. [Use isto com o Bizantine Tinct e uma influência de Mariposa - ou outros recursos de igual poder - para convocar um Profeta Cru.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Grail lore fragment of the same level to upgrade to the next level. Study with Moth lore of the same level to subvert it, and get Moth lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de gaiola do mesmo nível para melhorar para o próximo nível. Estude com a história da Mariposa com o mesmo nível para subvertê-la e obter minério de Mariposa. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentgraild": 1,
                         "fragmentmothd": 1,
@@ -498,12 +498,12 @@
                 "challenge.practical": 1,
                 "challenge.paradox": 1
             },
-            "description": "There exist some pleasures intense enough to corrupt the laws of the physical world. [This formula can be used in a Rite with Bitterblack Salts and a Subtle Rupture - or similar sources of power - to summon Ezeem itself.]",
+            "description": "Existem alguns prazeres suficientemente intensos para corromper as leis do mundo físico. [Esta fórmula pode ser usada em uma ruína com sais Bitterblack e uma Sutle Ruptura - ou fontes de poder similares - para invocar o próprio Ezeit.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Grail lore fragment of the same level to upgrade to the next level. Study with Moth lore of the same level to subvert it, and get Moth lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de gaiola do mesmo nível para melhorar para o próximo nível. Estude com a história da Mariposa com o mesmo nível para subvertê-la e obter minério de Mariposa. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentgraile": 1,
                         "fragmentmothe": 1,
@@ -518,7 +518,7 @@
         },
         {
             "id": "fragmentgrailf",
-            "label": "Anthic Elaboration",
+            "label": "Elaboração Anítica",
             "aspects": {
                 "grail": 12,
                 "lore": 1,
@@ -527,12 +527,12 @@
                 "challenge.practical": 1,
                 "challenge.paradox": 1
             },
-            "description": "The Flowermaker cannot touch you; he cannot find you; he always has what you desire. Even an elaboration of the properties of his works can draw the attention of Hours. [This formula can be used in a Rite with Bitterblack Salts and a Subtle Rupture - or similar sources of power - to summon Ezeem itself.]",
+            "description": "O Flowermaker não pode te tocar; ele não pode te encontrar; ele sempre tem o que você deseja. Até mesmo uma elaboração das propriedades de suas obras pode chamar a atenção das Horas. [Esta fórmula pode ser usada em uma ruína com sais Bitterblack e uma Sutle Ruptura - ou fontes de poder similares - para invocar o próprio Ezeit.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Grail lore fragment of the same level to upgrade to the next level. Study with Moth lore of the same level to subvert it, and get Moth lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de gaiola do mesmo nível para melhorar para o próximo nível. Estude com a história da Mariposa com o mesmo nível para subvertê-la e obter minério de Mariposa. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentgrailf": 1,
                         "fragmentmothf": 1,
@@ -547,18 +547,18 @@
         },
         {
             "id": "fragmentgrailg",
-            "label": "Devouring Mysteries",
+            "label": "Devomando Mistérios",
             "aspects": {
                 "grail": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
-            "description": "The Grail was the first god-who-was-blood. The Flowermaker came from Light. The Beach-Crow was flesh. Hunger and Greed and Yearning are the matrix of appetite, and here is their secret doctrine...  [Use this formula in Rite with Bitterblack Salts and a Subtle Rupture - or similar sources of power - to summon Ezeem itself.]",
+            "description": "O Grail foi o primeiro deus-who-was-blood. O Flowermaker veio da Luz. O Beach-Crow era de carne. Fome e Ganância e Ano são a matriz do apetite, e esta é a sua doutrina secreta. . [Use esta fórmula em Rite com sais Bitterblack e uma sutil Ruptura - ou fontes de poder semelhantes - para invocar o próprio Ezeit.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "reason": 1
                     },
@@ -569,19 +569,19 @@
         },
         {
             "id": "fragmentheart",
-            "label": "A Thunderous Secret",
+            "label": "Um Segredo Trovejante",
             "aspects": {
                 "heart": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
             },
-            "description": "There are common sentiments in every thunderclap. Let us acknowledge them.",
+            "description": "Há sentimentos comuns em todas as bacias hidrográficas que temos de reconhecer.",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Heart lore fragment of the same level to upgrade to the next level. Study with Grail lore of the same level to subvert it, and get Grail lore instead.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de coração do mesmo nível para melhorar para o próximo nível. Estude com a história de Grail com o mesmo nível para subvertê-la e obter minério de Grail.",
                     "required": {
                         "fragmentheart": 1,
                         "fragmentgrail": 1
@@ -595,19 +595,19 @@
         },
         {
             "id": "fragmentheartb",
-            "label": "Words that Walk",
+            "label": "Palavras que andam",
             "aspects": {
                 "heart": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
             },
-            "description": "The syllables of this formula are compelling. I find myself snapping my fingers to its rhythm. It desires not to cease.",
+            "description": "Os sílabas desta fórmula são convincentes. Encaro os meus dedos ao seu ritmo. Ele quer não cessar.",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Heart lore fragment of the same level to upgrade to the next level. Study with Grail lore of the same level to subvert it, and get Grail lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de coração do mesmo nível para melhorar para o próximo nível. Estude com a história de Grail com o mesmo nível para subvertê-la e obter minério de Grail. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentheartb": 1,
                         "fragmentgrailb": 1,
@@ -622,7 +622,7 @@
         },
         {
             "id": "fragmentheartc",
-            "label": "A Waking Chant",
+            "label": "Um Calor de Fábrica",
             "aspects": {
                 "heart": 6,
                 "lore": 1,
@@ -630,12 +630,12 @@
                 "challenge.intuition": 1,
                 "challenge.practical": 1
             },
-            "description": "Who could hear this and remain unmoved? The sleeping? The dead? The earth and the sky? [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
+            "description": "Quem podia ouvir isto e permanecer solteiro? O sono? Os mortos? A terra e o céu? [Use isto em Rite com Tinct Bizantino e um Bala Meteórico - ou outros recursos de igual poder - para invocar um Percussor.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Heart lore fragment of the same level to upgrade to the next level. Study with Grail lore of the same level to subvert it, and get Grail lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de coração do mesmo nível para melhorar para o próximo nível. Estude com a história de Grail com o mesmo nível para subvertê-la e obter minério de Grail. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentheartc": 1,
                         "fragmentgrailc": 1,
@@ -650,7 +650,7 @@
         },
         {
             "id": "fragmentheartd",
-            "label": "Geminate Invocation",
+            "label": "Invocação Geminada",
             "aspects": {
                 "heart": 8,
                 "lore": 1,
@@ -658,12 +658,12 @@
                 "challenge.intuition": 1,
                 "challenge.practical": 1
             },
-            "description": "The Sister-and-Witch has always been invoked for protection, at crossroads and at moonrise and where the land shelters the sea. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
+            "description": "A Irmã e a Bruxa sempre foram invocadas para protecção, na encruzilhada e na insurreição e onde a terra abriga o mar. [Use isto em Rite com Tinct Bizantino e um Bala Meteórico - ou outros recursos de igual poder - para invocar um Percussor.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Heart lore fragment of the same level to upgrade to the next level. Study with Grail lore of the same level to subvert it, and get Grail lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de coração do mesmo nível para melhorar para o próximo nível. Estude com a história de Grail com o mesmo nível para subvertê-la e obter minério de Grail. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentheartd": 1,
                         "fragmentgraild": 1,
@@ -687,12 +687,12 @@
                 "challenge.practical": 1,
                 "challenge.obsessive": 1
             },
-            "description": "One who watches does not sleep, one who sleeps watches not. <b>One who watches does not sleep, one who sleeps watches not.</b> [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
+            "description": "Quem observa não dorme, quem dorme não dorme. <b>Quem assiste não dorme, quem dorme não vigia.</b> [Use isso em Rite com Tinct Bizantino e um projétil Meteórico - ou outros recursos de igual poder - para invocar um percusso.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Heart lore fragment of the same level to upgrade to the next level. Study with Grail lore of the same level to subvert it, and get Grail lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de coração do mesmo nível para melhorar para o próximo nível. Estude com a história de Grail com o mesmo nível para subvertê-la e obter minério de Grail. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmenthearte": 1,
                         "fragmentgraile": 1,
@@ -707,7 +707,7 @@
         },
         {
             "id": "fragmentheartf",
-            "label": "Velvet Charm",
+            "label": "Encanto Aveludado",
             "aspects": {
                 "heart": 12,
                 "lore": 1,
@@ -716,12 +716,12 @@
                 "challenge.practical": 1,
                 "challenge.obsessive": 1
             },
-            "description": "The Velvet always answers 'No', but we can shelter in that 'No' like beasts in the crook of a tree. [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
+            "description": "O Aveludado sempre responde \"não\", mas podemos abrigar-nos nesse \"não\" como se fossem animais do torto de uma árvore. [Use isto em Rite com Tinct Bizantino e um Bala Meteórico - ou outros recursos de igual poder - para invocar um Percussor.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Heart lore fragment of the same level to upgrade to the next level. Study with Grail lore of the same level to subvert it, and get Grail lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de coração do mesmo nível para melhorar para o próximo nível. Estude com a história de Grail com o mesmo nível para subvertê-la e obter minério de Grail. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentheartf": 1,
                         "fragmentgrailf": 1,
@@ -736,18 +736,18 @@
         },
         {
             "id": "fragmentheartg",
-            "label": "Unceasing Mysteries",
+            "label": "Descendente de Mysteries",
             "aspects": {
                 "heart": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
-            "description": "The Grail ripped the Thunderskin from flesh. The Sister-and-Witch was born from two wombs. The Velvet woke when the Wood-roots tasted blood. The Heart is Blood's Drum, and here is its secret doctrine... [Use this in a Rite with Byzantine Tinct and a Meteoric Bullet - or other resources of equal power - to summon a Percussigant.]",
+            "description": "O túmulo rasgou o Thunderskin com a carne. O Sister-and-Witch nasceu de duas mulheres. O veludo acordou quando as raízes da floresta experimentavam sangue. O Coração é o Tambor de Blood, e aqui está sua doutrina secreta... [Use isto em Rite com Tinct Bizantino e um Bala Meteórico - ou outros recursos de igual poder - para invocar um Percussor.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "reason": 1
                     },
@@ -758,18 +758,18 @@
         },
         {
             "id": "fragmentknock",
-            "label": "A Locksmith's Secret",
+            "label": "Um Locksmith's Secret",
             "aspects": {
                 "knock": 2,
                 "lore": 1,
                 "challenge.knowledge": 1
             },
-            "description": "Sooner or later, every locksmith has the Dream. Now we recite its seven phases... [Nearly every summoning Rite requires Knock influence. This lore will provide it.]",
+            "description": "Mais cedo ou mais tarde, todo armeiro tem o Sonho. Agora recitamos suas sete fases... [Quase todo conjunto de convocações de Rite requer influência de tocos. Esta minério irá fornecê-lo.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with any lore fragment of the same level (except Secret Histories) to upgrade to the higher level Knock lore.",
+                    "label": "com",
+                    "description": "Estude com qualquer fragmento de lore do mesmo nível (exceto Histórias Secretas) para atualizar para o nível mais alto do jogo de barco.",
                     "required": {
                         "fragmentedge": 1,
                         "fragmentforge": 1,
@@ -795,12 +795,12 @@
                 "lore": 1,
                 "challenge.knowledge": 1
             },
-            "description": "Every door in the Mansus requires its sacrifice before it will open. The Iguvine Rites prescribe the manner of the sacrifice. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]",
+            "description": "Todas as portas do Mansus requerem seu sacrifício antes de abrir. Os Iguvine Rites prescrevem o tipo de sacrifício. [Quase todo conjunto de convocações de Rite requer influência de tocos. Esta minério irá fornecê-lo.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with any lore fragment of the same level (except Secret Histories) to upgrade to the higher level Knock lore. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com qualquer fragmento de lore do mesmo nível (exceto Histórias Secretas) para atualizar para o nível mais alto do jogo de barco. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentedgeb": 1,
                         "fragmentforgeb": 1,
@@ -821,19 +821,19 @@
         },
         {
             "id": "fragmentknockc",
-            "label": "A Consent of Wounds",
+            "label": "Um Consentimento de Ferimentos",
             "aspects": {
                 "knock": 6,
                 "lore": 1,
                 "challenge.knowledge": 1,
                 "challenge.grim": 1
             },
-            "description": "To open certain Ways, one must first open oneself. This practice outlines that opening, in the name of the Mother of Ants. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]",
+            "description": "Para abrir certas vias, primeiro você deve se abrir. Essa prática delineia que abre, em nome da Mãe das Ants. [Quase todo conjunto de convocações de Rite requer influência de tocos. Esta minério irá fornecê-lo.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with any lore fragment of the same level (except Secret Histories) to upgrade to the higher level Knock lore. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com qualquer fragmento de lore do mesmo nível (exceto Histórias Secretas) para atualizar para o nível mais alto do jogo de barco. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentedgec": 1,
                         "fragmentforgec": 1,
@@ -854,19 +854,19 @@
         },
         {
             "id": "fragmentknockd",
-            "label": "Meniscate Invocation",
+            "label": "Invocação Meniscate",
             "aspects": {
                 "knock": 8,
                 "lore": 1,
                 "challenge.knowledge": 1,
                 "challenge.grim": 1
             },
-            "description": "When the moon's face was wounded, these words appeared. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]",
+            "description": "Quando o rosto da lua estava ferido, estas palavras apareceram. [Quase cada réplica de Rite requer influência de Dinheiro. Esta história o fornecerá.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with any lore fragment of the same level (except Secret Histories) to upgrade to the higher level Knock lore. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com qualquer fragmento de lore do mesmo nível (exceto Histórias Secretas) para atualizar para o nível mais alto do jogo de barco. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentedged": 1,
                         "fragmentforged": 1,
@@ -895,12 +895,12 @@
                 "challenge.grim": 1,
                 "challenge.paradox": 1
             },
-            "description": "Serpents are the visitors which may not be denied. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]",
+            "description": "Serpentes são os visitantes que não podem ser negados. [Quase todo conjunto de chamamentos Rite requer influência de quilômetro. Este minério irá fornecê-lo.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with any lore fragment of the same level (except Secret Histories) to upgrade to the higher level Knock lore. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com qualquer fragmento de lore do mesmo nível (exceto Histórias Secretas) para atualizar para o nível mais alto do jogo de barco. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentedgee": 1,
                         "fragmentforgee": 1,
@@ -921,7 +921,7 @@
         },
         {
             "id": "fragmentknockf",
-            "label": "Liminal Evocation",
+            "label": "Evocação Liminal",
             "aspects": {
                 "knock": 12,
                 "lore": 1,
@@ -929,12 +929,12 @@
                 "challenge.grim": 1,
                 "challenge.paradox": 1
             },
-            "description": "One god-who-was-stone remains, and she watches all thresholds. [Nearly every summoning Rite requires Knock influence. This lore will provide it.]",
+            "description": "Um deus-balo-was-pedra resta, e ela observa todos os limites. [Quase todo Roto convocando requer influência de chicote. Esta história o fornecerá.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with any lore fragment of the same level (except Secret Histories) to upgrade to the higher level Knock lore. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com qualquer fragmento de lore do mesmo nível (exceto Histórias Secretas) para atualizar para o nível mais alto do jogo de barco. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentedgef": 1,
                         "fragmentforgef": 1,
@@ -955,17 +955,17 @@
         },
         {
             "id": "fragmentknockg",
-            "label": "Mysteries of Opening",
+            "label": "Mistérios de Abertura",
             "aspects": {
                 "knock": 14,
                 "lore": 1
             },
-            "description": "The Mother of Ants is the child of two rivers. The Horned-Axe is the last god-from-Stone. The Meniscate was born in the Moon from Light. The Wound and the Threshold and the Revelation are all the Gate's aspects, and here is their secret doctrine... [Nearly every summoning Rite requires Knock influence. This lore will provide it.]",
+            "description": "A mãe das formigas é filho de dois rios. O Machado de Hornado é o último deus de Pedra. O Meniscate nasceu na Lua da Luz. A ferida e o Limite e a Revelação são todos os aspectos do Portal, e aqui está sua doutrina secreta. . [Quase todo Rite de invocação requer influência de grosso. Esta história o fornecerá.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "reason": 1
                     },
@@ -976,19 +976,19 @@
         },
         {
             "id": "fragmentlantern",
-            "label": "A Watchman's Secret",
+            "label": "Segredo de um Observador",
             "aspects": {
                 "lantern": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
             },
-            "description": "It has been expressed like this: 'Each Hour has its colour, but colour exists only where there is light.'",
+            "description": "Ela foi expressa assim: 'Cada Hora tem sua cor, mas a cor só existe quando há luz.'",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Lantern lore fragment of the same level to upgrade to the next level. Study with Forge lore of the same level to subvert it, and get Forge lore instead.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de história de lanterna do mesmo nível para melhorar para o próximo nível. Estude com a história da Forja do mesmo nível para subvertê-la e obter a história da Forja.",
                     "required": {
                         "fragmentlantern": 1,
                         "fragmentforge": 1
@@ -1002,19 +1002,19 @@
         },
         {
             "id": "fragmentlanternb",
-            "label": "A Mansus-Glimpse",
+            "label": "Um vislumbre",
             "aspects": {
                 "lantern": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
             },
-            "description": "A snatch of poetry; a single memory of a certain house that all of us visit at least twice in our lives. For one's first visit to the Mansus, this lore is almost essential.",
+            "description": "Um golpe de poesia, uma única memória de uma determinada casa que todos nós visitamos pelo menos duas vezes na nossa vida. Para uma primeira visita ao Mansus, esta história é quase essencial.",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Lantern lore fragment of the same level to upgrade to the next level. Study with Forge lore of the same level to subvert it, and get Forge lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de história de lanterna do mesmo nível para melhorar para o próximo nível. Estude com a história da Forja do mesmo nível para subvertê-la e obter a história da Forja. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentlanternb": 1,
                         "fragmentforgeb": 1,
@@ -1029,7 +1029,7 @@
         },
         {
             "id": "fragmentlanternc",
-            "label": "An Unmerciful Mantra",
+            "label": "Um Mantra sem misericórdia",
             "aspects": {
                 "lantern": 6,
                 "lore": 1,
@@ -1037,12 +1037,12 @@
                 "challenge.knowledge": 1,
                 "challenge.illumination": 1
             },
-            "description": "'Mercy', saith the Watchman, 'is found only in shadow.'",
+            "description": "'Misericórdia', saith the Watchman, 'só é encontrado na sombra'.",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Lantern lore fragment of the same level to upgrade to the next level. Study with Forge lore of the same level to subvert it, and get Forge lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de história de lanterna do mesmo nível para melhorar para o próximo nível. Estude com a história da Forja do mesmo nível para subvertê-la e obter a história da Forja. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentlanternc": 1,
                         "fragmentforgec": 1,
@@ -1057,7 +1057,7 @@
         },
         {
             "id": "fragmentlanternd",
-            "label": "Phanaean Invocation",
+            "label": "format@@0 Phanaean Invocation",
             "aspects": {
                 "lantern": 8,
                 "lore": 1,
@@ -1065,12 +1065,12 @@
                 "challenge.knowledge": 1,
                 "challenge.illumination": 1
             },
-            "description": "The Door-in-the-Eye navigates; he is not merciful; but first and always, he illuminates. [Use this in a Rite with a Knock tool and a Thrilling Air - or other resources of equal power - to summon a Hint from behind mirrors.]",
+            "description": "O Olho navega; ele não é misericordioso, mas primeiro e sempre, ele ilumina. [Use isso em Rite com uma ferramenta de toco e um Ar Emocionante - ou outros recursos de igual poder - para invocar uma Dica de trás dos espelhos.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Lantern lore fragment of the same level to upgrade to the next level. Study with Forge lore of the same level to subvert it, and get Forge lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de história de lanterna do mesmo nível para melhorar para o próximo nível. Estude com a história da Forja do mesmo nível para subvertê-la e obter a história da Forja. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentlanternd": 1,
                         "fragmentforged": 1,
@@ -1085,7 +1085,7 @@
         },
         {
             "id": "fragmentlanterne",
-            "label": "Formulae Concursate",
+            "label": "Concurso de fórmula",
             "aspects": {
                 "lantern": 10,
                 "lore": 1,
@@ -1094,12 +1094,12 @@
                 "challenge.illumination": 1,
                 "challenge.paradox": 1
             },
-            "description": "The Concursum waits at the Lantern of the Mansus. It has been called the Chamber of Ways and also the Chamber of Endings. Its intricacies are probably beyond human comprehension, but these formulae are a first approximation. [Use this in a Rite with a Knock tool and a Thrilling Air - or other resources of equal power - to summon a Hint from behind mirrors.]",
+            "description": "O Concorsum aguarda na Lanterna do Mansus, chamando-lhe a Câmara dos Caminhos e também a Câmara dos Finais. As suas complexidades ultrapassam provavelmente a compreensão humana, mas estas fórmulas são uma primeira aproximação. [Use isso em Rite com uma ferramenta de toco e um Ar Emocionante - ou outros recursos de igual poder - para invocar uma Dica de trás dos espelhos.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Lantern lore fragment of the same level to upgrade to the next level. Study with Forge lore of the same level to subvert it, and get Forge lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de história de lanterna do mesmo nível para melhorar para o próximo nível. Estude com a história da Forja do mesmo nível para subvertê-la e obter a história da Forja. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentlanterne": 1,
                         "fragmentforgee": 1,
@@ -1114,7 +1114,7 @@
         },
         {
             "id": "fragmentlanternf",
-            "label": "Mantra of Ascent",
+            "label": "Mantra de Ascensão",
             "aspects": {
                 "lantern": 12,
                 "lore": 1,
@@ -1123,12 +1123,12 @@
                 "challenge.illumination": 1,
                 "challenge.paradox": 1
             },
-            "description": "The Ascent of Knives is the bloodiest of the Watchman's tests. Those who pass it and are dead enter the service of the Sun-in-Rags. Those living who pass it are a little closer to the Glory. [Use this in a Rite with a Knock tool and a Thrilling Air - or other resources of equal power - to summon a Hint from behind mirrors.]",
+            "description": "A Ascensão dos Cnives é a mais sangrenta das provas de Watchman. Aqueles que passam por ele e estão mortos entram ao serviço dos Sun-Rags. Aqueles que o passam estão um pouco mais próximos do Glória. [Use isso em Rite com uma ferramenta de toco e um Ar Emocionante - ou outros recursos de igual poder - para invocar uma Dica de trás dos espelhos.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Lantern lore fragment of the same level to upgrade to the next level. Study with Forge lore of the same level to subvert it, and get Forge lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de história de lanterna do mesmo nível para melhorar para o próximo nível. Estude com a história da Forja do mesmo nível para subvertê-la e obter a história da Forja. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentlanternf": 1,
                         "fragmentforgef": 1,
@@ -1143,18 +1143,18 @@
         },
         {
             "id": "fragmentlanterng",
-            "label": "Illuminate Mysteries",
+            "label": "Iluminar Mistérios",
             "aspects": {
                 "lantern": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
-            "description": "The Meniscate, the Madrugad, the Flowermaker and the Forge of Days are the gods-from-Light. There is a fifth, but now we know it is not the Watchman. Yet the Watchman shares a secret doctrine with those five, and here is that doctrine... [Use this in a Rite with a Subtle Rupture and a Paradoxical Curio, and someone will come. Speak it to a Hunter, and it might drive them insane on the spot.]",
+            "description": "O Meniscate, o Madrugad, o Flowermaker e a Forja dos Dias são os deuses da Luz. Há um quinto, mas agora sabemos que não é o observador. No entanto, o Watchman partilha uma doutrina secreta com essas cinco, e aqui está essa doutrina. . [Use isso em Rite com uma Sutle Rupture e um Paradoxical Curio, e alguém virá. Fale com um Caçador e pode empurrá-los loucos no local.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "reason": 1
                     },
@@ -1165,19 +1165,19 @@
         },
         {
             "id": "fragmentmoth",
-            "label": "A Barber's Warning",
+            "label": "Um aviso de barbeiro",
             "aspects": {
                 "moth": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
             },
-            "description": "A power of the Wood enjoys the separation of the lock from the scalp. For attention, burn it. For opportunity, bury it. [Speak this over a corpse in a Rite, with a Winter influence present, and the corpse will rise.]",
+            "description": "Um poder da Madeira desfruta da separação da fechadura da escama. Por atenção, queime-a. Por oportunidade, enterre-a. [Fale isto sobre um cadáver num Rite, com presença de influência no inverno, e o cadáver aumentará]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Moth lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de história de Mariposa com o mesmo nível para melhorar para o próximo nível. Estude com a história da lanterna com o mesmo nível para subvertê-la e obter a história da Lanterna.",
                     "required": {
                         "fragmentmoth": 1,
                         "fragmentlantern": 1
@@ -1191,19 +1191,19 @@
         },
         {
             "id": "fragmentmothb",
-            "label": "A Wood-Whisper",
+            "label": "Um Lenhador-Sussurro",
             "aspects": {
                 "moth": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
             },
-            "description": "Lie awake, and listen. The wind speaks in the branches. The house cries out in its sleep. These are the roads that chaos ride. [Speak this over a corpse in a Rite, with a Winter influence present, and the corpse will rise.]",
+            "description": "Mentira acordada e ouça. O vento fala nos galhos. A casa chora enquanto dorme. Estas são as estradas que caem. [Fale isto sobre um cadáver num Rite, com presença de influência no inverno, e o cadáver aumentará]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Moth lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de história de Mariposa com o mesmo nível para melhorar para o próximo nível. Estude com a história da lanterna com o mesmo nível para subvertê-la e obter a história da Lanterna. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentmothb": 1,
                         "fragmentlanternb": 1,
@@ -1218,7 +1218,7 @@
         },
         {
             "id": "fragmentmothc",
-            "label": "An Ecdysiast's Parable",
+            "label": "Paradigma de um Ecdysiast's",
             "aspects": {
                 "moth": 6,
                 "lore": 1,
@@ -1226,12 +1226,12 @@
                 "challenge.intuition": 1,
                 "challenge.illumination": 1
             },
-            "description": "The Ecdysiast's Riddle is 'What may be lost?' Each Ecdysiast's Parable is an attempt to answer the Riddle. ",
+            "description": "O Ecdysiast's Riddle é \"O que pode ser perdido?” Cada Parque do Ecdysiast's é uma tentativa de responder ao Riddle. ",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Moth lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de história de Mariposa com o mesmo nível para melhorar para o próximo nível. Estude com a história da lanterna com o mesmo nível para subvertê-la e obter a história da Lanterna. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentmothc": 1,
                         "fragmentlanternc": 1,
@@ -1246,7 +1246,7 @@
         },
         {
             "id": "fragmentmothd",
-            "label": "Moldywarp Admonitions",
+            "label": "Amizade Moldywarp",
             "aspects": {
                 "moth": 8,
                 "lore": 1,
@@ -1254,12 +1254,12 @@
                 "challenge.intuition": 1,
                 "challenge.illumination": 1
             },
-            "description": "Moldywarp keeps her crowns in the moss and her feet in the dirt and the trees locked jaw-tight. Moldywarp has these warnings for you.",
+            "description": "Moldywarp mantém suas coroas no musgo e seus pés na terra e as árvores travam com aperto de mandíbula. Moldywarp tem esses avisos para você.",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Moth lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de história de Mariposa com o mesmo nível para melhorar para o próximo nível. Estude com a história da lanterna com o mesmo nível para subvertê-la e obter a história da Lanterna. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentmothd": 1,
                         "fragmentlanternd": 1,
@@ -1274,7 +1274,7 @@
         },
         {
             "id": "fragmentmothe",
-            "label": "Centipede Testament",
+            "label": "Testamento Centipede",
             "aspects": {
                 "moth": 10,
                 "lore": 1,
@@ -1283,12 +1283,12 @@
                 "challenge.illumination": 1,
                 "challenge.obsessive": 1
             },
-            "description": "The Centipede came up out of the sands and went in under the roots. She found a new home but now she can't go home. She creeps in everywhere else: keyholes and histories and the channels of birth and sight and hearing. Here's what she has to say.",
+            "description": "A Centipede saiu das areias e entrou sob as raízes. Ela encontrou uma nova casa, mas agora não pode ir para casa. Ela se diverte em todos os outros lugares: buracos chave, histórias e canais de nascimento, visão e audição. Aqui está o que ela tem a dizer.",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Moth lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de história de Mariposa com o mesmo nível para melhorar para o próximo nível. Estude com a história da lanterna com o mesmo nível para subvertê-la e obter a história da Lanterna. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentmothe": 1,
                         "fragmentlanterne": 1,
@@ -1303,7 +1303,7 @@
         },
         {
             "id": "fragmentmothf",
-            "label": "Thigh-born Thorax-Sweet",
+            "label": "Thorax-doce do coxinho",
             "aspects": {
                 "moth": 12,
                 "lore": 1,
@@ -1312,12 +1312,12 @@
                 "challenge.illumination": 1,
                 "challenge.obsessive": 1
             },
-            "description": "Vine-crowned moth-king hatched in the thigh of the thunder-king who's dead. Drink up his belly-lymph. These are the sights you'll see.",
+            "description": "Um redemoinho de luvas coroado eclodiu na coxa do rei trovado que está morto. Beba sua barriga linme. Estas são as miras que você verá.",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Moth lore fragment of the same level to upgrade to the next level. Study with Lantern lore of the same level to subvert it, and get Lantern lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de história de Mariposa com o mesmo nível para melhorar para o próximo nível. Estude com a história da lanterna com o mesmo nível para subvertê-la e obter a história da Lanterna. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentmothf": 1,
                         "fragmentlanternf": 1,
@@ -1332,18 +1332,18 @@
         },
         {
             "id": "fragmentmothg",
-            "label": "Mare-in-the-Yew",
+            "label": "Marei-Yew",
             "aspects": {
                 "moth": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
-            "description": "The real Hours don't meet the gods-from-Nowhere, but the Ring-Yew meets the Mare-in-the-Tree in where the Wood grows lush. Their couplings are forbidden, and forbidden things have power, and this is the story of their couplings.",
+            "description": "Os verdadeiros Horas não se encontram com os deuses do nada, mas o Anel de Yew encontra a Armeira onde a Madeira cresce. Os casais são proibidos e as coisas proibidas têm poder, e é esta a história dos casais.",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "reason": 1
                     },
@@ -1354,18 +1354,18 @@
         },
         {
             "id": "fragmentsecrethistories",
-            "label": "An Occult Scrap",
+            "label": "Um Fragmento Oculto",
             "aspects": {
                 "secrethistories": 2,
                 "lore": 1,
                 "challenge.knowledge": 1
             },
-            "description": "Secret histories are layered beneath the one we know, like the notes in rare wine. This is a detail from one of those histories. [Exploring with this scrap of knowledge may uncover secret locations in the Capital.]",
+            "description": "Histórias secretas são preguiçadas por baixo do que sabemos, como as notas em vinhos raros. Este é um pormenor de uma dessas histórias. [Explorar com esta sucata de conhecimento pode descobrir locais secretos na Capital.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Secret Histories lore fragment of the same level to upgrade to the next level.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de tarefas secretas do mesmo nível para atualizar para o próximo nível.",
                     "required": {
                         "fragmentsecrethistories": 1
                     },
@@ -1378,18 +1378,18 @@
         },
         {
             "id": "fragmentsecrethistoriesb",
-            "label": "A Furtive Truth",
+            "label": "Uma Verdade Furtiva",
             "aspects": {
                 "secrethistories": 4,
                 "lore": 1,
                 "challenge.knowledge": 1
             },
-            "description": "A detail smuggled in from an adjacent narrative. Don't speak this where you may be overheard. [Exploring with this scrap of knowledge may uncover secret locations in the Shires.]",
+            "description": "Um detalhe contrabandeado de uma narrativa adjacente. Não fale isso onde você pode ser ouvido em excesso. [Explorar com esta sucata de conhecimento pode descobrir locais secretos nos navios.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Secret Histories lore fragment of the same level to upgrade to the next level. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de tarefas secretas do mesmo nível para atualizar para o próximo nível. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentsecrethistoriesb": 1,
                         "reason": 1
@@ -1403,19 +1403,19 @@
         },
         {
             "id": "fragmentsecrethistoriesc",
-            "label": "A Forgotten Chronicle",
+            "label": "Uma Crônica Esquecida",
             "aspects": {
                 "secrethistories": 6,
                 "lore": 1,
                 "challenge.knowledge": 1,
                 "challenge.intuition": 1
             },
-            "description": "A story of a city without a gate, of a queen who was not born, of a war which was not fought. [Exploring with this scrap of knowledge may uncover secret locations on the Continent.]",
+            "description": "Uma história de uma cidade sem portão, de uma rainha que não nasceu, de uma guerra que não foi travada. [Explorar com esta sucata de conhecimento pode descobrir locais secretos no continente.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Secret Histories lore fragment of the same level to upgrade to the next level. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de tarefas secretas do mesmo nível para atualizar para o próximo nível. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentsecrethistoriesc": 1,
                         "reason": 1
@@ -1429,19 +1429,19 @@
         },
         {
             "id": "fragmentsecrethistoriesd",
-            "label": "Forbidden Epic",
+            "label": "Proibido Épico",
             "aspects": {
                 "secrethistories": 8,
                 "lore": 1,
                 "challenge.knowledge": 1,
                 "challenge.intuition": 1
             },
-            "description": "The attention of the Hours is drawn to the bloodiest wars. Afterwards, the Histories are braided like hair. [Exploring with this scrap of knowledge may uncover secret locations in the Land Beyond the Forest, across the Continent.]",
+            "description": "A atenção das Horas é chamada para as guerras mais sangrentas. Depois, as Histórias são trançadas como cabelo. [Explorar com este pedaço de conhecimento pode descobrir locais secretos na Terra além da Floresta, através do continente.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Secret Histories lore fragment of the same level to upgrade to the next level. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de tarefas secretas do mesmo nível para atualizar para o próximo nível. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentsecrethistoriesd": 1,
                         "reason": 1
@@ -1455,7 +1455,7 @@
         },
         {
             "id": "fragmentsecrethistoriese",
-            "label": "Unresolved Ambiguity",
+            "label": "Ambiguidade não resolvida",
             "aspects": {
                 "secrethistories": 10,
                 "lore": 1,
@@ -1463,12 +1463,12 @@
                 "challenge.intuition": 1,
                 "challenge.illumination": 1
             },
-            "description": "In the Mansus, the Hours strive one against another. As the struggles are resolved, they iron out the impossible, exalt the possible, tie the fraying braids of what has been into one golden ribbon of future. Everything is resolved. History becomes the past. There are, however, exceptions. [Exploring with this scrap of knowledge may uncover secret locations in the Rending Mountains, three thousand miles away among the wreck of the oldest empires.]",
+            "description": "Nas Mansus, as horas lutam umas contra as outras. À medida que as lutas são resolvidas, eles apanham o impossível, exaltam o possível, amarre os tranços daquilo que foi para uma fita dourada do futuro. Tudo está resolvido. A história passa ao passado, mas há excepções. [Explorar com esta sucata de conhecimento pode descobrir locais secretos nas Montanhas de Descanso, três mil milhas de distância entre os destroços dos impérios mais antigos.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Secret Histories lore fragment of the same level to upgrade to the next level. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de tarefas secretas do mesmo nível para atualizar para o próximo nível. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentsecrethistoriese": 1,
                         "reason": 1
@@ -1482,7 +1482,7 @@
         },
         {
             "id": "fragmentsecrethistoriesf",
-            "label": "Vagabond's Map",
+            "label": "Mapa de Vagabond",
             "aspects": {
                 "secrethistories": 12,
                 "lore": 1,
@@ -1494,8 +1494,8 @@
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Secret Histories lore fragment of the same level to upgrade to the next level. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de tarefas secretas do mesmo nível para atualizar para o próximo nível. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentsecrethistoriesf": 1,
                         "reason": 1
@@ -1509,17 +1509,17 @@
         },
         {
             "id": "fragmentsecrethistoriesg",
-            "label": "Port Noon Anecdote",
+            "label": "Porta Noon Anecdote",
             "aspects": {
                 "secrethistories": 14,
                 "lore": 1
             },
-            "description": "Port Noon is where the Long go to enjoy the sea and the sun, to drink from the Spring that makes them forgotten, and to stay out of trouble. Mostly out of trouble. The stories you can hear in the Hotel Ciervo are golden-dewed, quintuple-distilled toasts to memory, served straight up. [Exploring with this scrap of knowledge may uncover secret locations in the Evening Isles, where Port Noon is located, across the great ocean.]",
+            "description": "Porto Noon é para onde o longo vai para desfrutar o mar e o sol, beber da primavera que os faz esquecer, e não se incomodar. Quase sem problemas. As histórias que você pode ouvir no Hotel Ciervo são torradas douradas, quintuplas destiladas para memória, servidas diretamente para cima. [Explorar com esta sucata de conhecimento pode descobrir locais secretos nas Ilhas Noventas, onde o Porto Noon está localizado, através do grande oceano.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "reason": 1
                     },
@@ -1530,19 +1530,19 @@
         },
         {
             "id": "fragmentwinter",
-            "label": "A Sexton's Secret",
+            "label": "Segredo de um Sexton",
             "aspects": {
                 "winter": 2,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
             },
-            "description": "Certain knowledge, it is said, can be expressed only through the particular quality of a silence. It has been suggested that one can only read such knowledge with one's eyes closed, but only by mischievous commentators. [Use this in a Rite with a corpse and Edge aspect, and the corpse will rise.]",
+            "description": "Diz-se que certos conhecimentos, só podem ser expressos através da qualidade particular de um silêncio. Foi sugerido que só se pode ler esse conhecimento com os olhos fechados, mas apenas com comentadores maliciosos. [Use isto em Rite com um aspecto cadáver e borda e o cadáver aumentará]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Winter lore fragment of the same level to upgrade to the next level. Study with Heart lore of the same level to subvert it, and get Heart lore instead.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de inverno do mesmo nível para melhorar para o próximo nível. Estude com o minério de Coração do mesmo nível para subvertê-lo e obter minério de Coração em vez disso.",
                     "required": {
                         "fragmentwinter": 1,
                         "fragmentheart": 1
@@ -1556,19 +1556,19 @@
         },
         {
             "id": "fragmentwinterb",
-            "label": "A White Ceremony",
+            "label": "Uma Cerimônia Branca",
             "aspects": {
                 "winter": 4,
                 "lore": 1,
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
             },
-            "description": "When I speak it, my lips don't crisp with frost. Each time, this is surprising. [Use this in a Rite with a Heart influence and Byzantine Tinct to summon the Voiceless Dead.]",
+            "description": "Quando eu falo, meus lábios não brilham com geada. Cada vez que isso é surpreendente. [Use isto em Rite com influência de Coração e Tinct Bizantino para convocar os Mortos sem Voi.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Winter lore fragment of the same level to upgrade to the next level. Study with Heart lore of the same level to subvert it, and get Heart lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de inverno do mesmo nível para melhorar para o próximo nível. Estude com o minério de Coração do mesmo nível para subvertê-lo e obter minério de Coração em vez disso. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentwinterb": 1,
                         "fragmentheartb": 1,
@@ -1583,7 +1583,7 @@
         },
         {
             "id": "fragmentwinterc",
-            "label": "An Operation of the Declining Sun",
+            "label": "Uma operação do Sol Declinado",
             "aspects": {
                 "winter": 6,
                 "lore": 1,
@@ -1591,12 +1591,12 @@
                 "challenge.knowledge": 1,
                 "challenge.grim": 1
             },
-            "description": "This invokes, acknowledges and welcomes the passage to silence. [Use this in a Rite with a Heart influence and Byzantine Tinct to summon the Voiceless Dead.]",
+            "description": "Isto invoca, reconhece e saúda a passagem ao silêncio. [Use isto em Rite com influência de Coração e Tinct Bizantino para convocar os Mortos sem Voi.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Winter lore fragment of the same level to upgrade to the next level. Study with Heart lore of the same level to subvert it, and get Heart lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de inverno do mesmo nível para melhorar para o próximo nível. Estude com o minério de Coração do mesmo nível para subvertê-lo e obter minério de Coração em vez disso. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentwinterc": 1,
                         "fragmentheartc": 1,
@@ -1611,7 +1611,7 @@
         },
         {
             "id": "fragmentwinterd",
-            "label": "Invocation of the Ivory Dove",
+            "label": "Invocação da pomba da marfim",
             "aspects": {
                 "winter": 8,
                 "lore": 1,
@@ -1619,12 +1619,12 @@
                 "challenge.knowledge": 1,
                 "challenge.grim": 1
             },
-            "description": "There is a power that commemorates and grieves, from whom nothing is taken, but who cannot be deceived. You might expect to be able to crush him in your hand, into bird-bone fragments. [Use this in a Rite with Martensite Paste and an assistant dedicated to Knock - or other resources of equal power - to summon a Maid-in-the-Mirror.]",
+            "description": "Há um poder que comemora e lamenta, do qual nada é tirado, mas que não pode ser enganado. Seria de esperar poder esmagá-lo na sua mão, em fragmentos de ossos de pássaros. [Use isso em Rite com Colar Martensite e um assistente dedicado a Tocar - ou outros recursos de igual poder - para convocar uma Maid-in-the-Mirror.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Winter lore fragment of the same level to upgrade to the next level. Study with Heart lore of the same level to subvert it, and get Heart lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de inverno do mesmo nível para melhorar para o próximo nível. Estude com o minério de Coração do mesmo nível para subvertê-lo e obter minério de Coração em vez disso. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentwinterd": 1,
                         "fragmentheartd": 1,
@@ -1639,7 +1639,7 @@
         },
         {
             "id": "fragmentwintere",
-            "label": "Recitation of Lost Hours",
+            "label": "Recitação de Horas Perdidas",
             "aspects": {
                 "winter": 10,
                 "lore": 1,
@@ -1648,12 +1648,12 @@
                 "challenge.grim": 1,
                 "challenge.obsessive": 1
             },
-            "description": "Six are gone. Five came from Stone and one from Light. All went to Nowhere. Still their memories have power, and now we call upon it. [Use this in a Rite with Martensite Paste and an assistant dedicated to Knock - or other resources of equal power - to summon a Maid-in-the-Mirror.]",
+            "description": "Seis se foram. Cinco vieram da Pedra e uma da Luz. Tudo foi para o nada. Ainda assim, as suas memórias têm poder, e agora recorremos. [Use isso em Rite com Colar Martensite e um assistente dedicado a Tocar - ou outros recursos de igual poder - para convocar uma Maid-in-the-Mirror.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Winter lore fragment of the same level to upgrade to the next level. Study with Heart lore of the same level to subvert it, and get Heart lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de inverno do mesmo nível para melhorar para o próximo nível. Estude com o minério de Coração do mesmo nível para subvertê-lo e obter minério de Coração em vez disso. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentwintere": 1,
                         "fragmenthearte": 1,
@@ -1668,7 +1668,7 @@
         },
         {
             "id": "fragmentwinterf",
-            "label": "The Divisions of the Names",
+            "label": "As divisões dos Nomes",
             "aspects": {
                 "winter": 12,
                 "lore": 1,
@@ -1677,12 +1677,12 @@
                 "challenge.grim": 1,
                 "challenge.obsessive": 1
             },
-            "description": "When the Sun-in-Splendour was divided, its Names fractured too. Here are the shards of their names which once were whole. [Use this in a Rite with Martensite Paste and an assistant dedicated to Knock - or other resources of equal power - to summon a Maid-in-the-Mirror.]",
+            "description": "Quando o Sol em Esplendor estava dividido, seus Nomes também fraturavam. Aqui estão os fragmentos de seus nomes que uma vez eram globais. [Use isso em Rite com Colar Martensite e um assistente dedicado a Tocar - ou outros recursos de igual poder - para convocar uma Maid-in-the-Mirror.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with a Winter lore fragment of the same level to upgrade to the next level. Study with Heart lore of the same level to subvert it, and get Heart lore instead. Or study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com um fragmento de minério de inverno do mesmo nível para melhorar para o próximo nível. Estude com o minério de Coração do mesmo nível para subvertê-lo e obter minério de Coração em vez disso. Ou estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "fragmentwinterf": 1,
                         "fragmentheartf": 1,
@@ -1697,18 +1697,18 @@
         },
         {
             "id": "fragmentwinterg",
-            "label": "Wolf-Word",
+            "label": "Palavra-Lobo",
             "aspects": {
                 "winter": 14,
                 "lore": 1,
                 "subvertable_lore": 1
             },
-            "description": "When the Forge is cold and the Glory is dark and the Wood is dust, perhaps the Wolf Divided will rest, but only until it can devour itself. This Word almost expresses the Divided One's hatred. [Speak this to a Hunter, and it might drive them insane on the spot.]",
+            "description": "Quando a Forja é fria e a Glória é escura e a Madeira é poeira, Talvez o Lobo Dividido descanse, mas apenas até poder devorar-se. Esta palavra quase exprime o ódio da pessoa dividida. [Fale isto a um caçador, e pode levá-los a loucos no local.]",
             "slots": [
                 {
                     "id": "with",
-                    "label": "With",
-                    "description": "Study with Reason to break the lore into lower-level fragments.",
+                    "label": "com",
+                    "description": "Estude com Reason para dividir a história em fragmentos de nível inferior.",
                     "required": {
                         "reason": 1
                     },
@@ -1719,7 +1719,7 @@
         },
         {
             "id": "fragmentglory",
-            "label": "A Recollection of Glory",
+            "label": "Uma coleção de Glória",
             "aspects": {
                 "lantern": 6,
                 "forge": 6,
@@ -1735,15 +1735,15 @@
         {
             "id": "prealzabo",
             "label": "Formula: Elixir Zeboim?",
-            "description": "I have here a secret - a recipe of honey, asphodel, powdered ivory, and a mottled fungus that grows only where the dead are buried.",
+            "description": "Tenho aqui um segredo - uma receita de mel, asfólio, marfim em pó, e um fungo aleijado que só cresce onde os mortos são enterrados.",
             "aspects": {
                 "lore": 1
             },
             "slots": [
                 {
                     "id": "desire",
-                    "label": "Temptation",
-                    "description": "Old memories go into the earth, and there they cannot be found - but they dwell in another place, first, before they go too deep.",
+                    "label": "Tentação",
+                    "description": "Há memórias velhas que vão para a terra e não podem ser encontradas - mas permanecem noutro local, primeiro, antes de serem demasiado profundas.",
                     "actionid": "study",
                     "required": {
                         "remembrancemarks": 1
@@ -1751,8 +1751,8 @@
                 },
                 {
                     "id": "taste",
-                    "label": "Taste",
-                    "description": "There is no turning back.",
+                    "label": "Experimentar",
+                    "description": "Não há volta.",
                     "actionid": "study",
                     "required": {
                         "remnant": 1
@@ -1760,7 +1760,7 @@
                 },
                 {
                     "id": "materials",
-                    "label": "Materials",
+                    "label": "Materiais",
                     "required": {
                         "funds": 1
                     },
@@ -1771,7 +1771,7 @@
         {
             "id": "alzabo",
             "label": "Formula: Elixir Zeboim",
-            "description": "That formula which quickens the memories of decaying flesh in the bellies of the living. Such a thing could not exist without the consent of both the Flowermaker and the Elegiast... and with the assistance of one more Hour besides.",
+            "description": "Essa fórmula que faz com que as memórias do declínio se tornem mais rápidas nas prateleiras dos vivos. Tal coisa não poderia existir sem o consentimento do Flowermaker e do Elegiast... e com o apoio de mais uma hora.",
             "comments": "RIP Gene Wolfe, 1931-2019. 'Some are haunted by ghosts. I am haunted by stories.'",
             "aspects": {
                 "lore": 1
@@ -1779,8 +1779,8 @@
             "slots": [
                 {
                     "id": "desire",
-                    "label": "Desire",
-                    "description": "Old memories go into the earth, and there they cannot be found - but they dwell in another place, first, before they go too deep.",
+                    "label": "Deslocar-se",
+                    "description": "Há memórias velhas que vão para a terra e não podem ser encontradas - mas permanecem noutro local, primeiro, antes de serem demasiado profundas.",
                     "actionid": "study",
                     "required": {
                         "remembrancemarks": 1
@@ -1788,8 +1788,8 @@
                 },
                 {
                     "id": "feast",
-                    "label": "Feast",
-                    "description": "When the Elixir is consumed, the enzymes of digestion become the messengers of resurrection. The Dead live again - if only in my memories.",
+                    "label": "Banquete",
+                    "description": "Quando o Elixir é consumido, as enzimas da digestão se tornam os mensageiros da ressurreição. Os mortos vivem novamente - nem que seja apenas nas minhas memórias.",
                     "actionid": "study",
                     "required": {
                         "remnant": 1

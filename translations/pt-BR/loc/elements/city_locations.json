@@ -2,14 +2,14 @@
     "elements": [
         {
             "id": "locationbookdealer",
-            "label": "Morland's Shop",
+            "label": "Loja de Morland",
             "aspects": {
                 "location": 1
             },
             "slots": [
                 {
                     "id": "Cost",
-                    "label": "Cost",
+                    "label": "Custo",
                     "required": {
                         "funds": 1
                     },
@@ -17,7 +17,7 @@
                     "actionid": "explore"
                 }
             ],
-            "description": "The dim premises of Miss Morland, who deals in rare and sometimes dangerous books.",
+            "description": "As instalações obscuras de Miss Morland, que lida com livros raros e, por vezes, perigosos.",
             "unique": true,
             "xtriggers": {
                 "exhaustlocation": "locationbookdealer_exhausted"
@@ -25,16 +25,16 @@
         },
         {
             "id": "locationbookdealer_exhausted",
-            "label": "Morland's Shop [Closed]",
-            "description": "This used to be the address of Morland's, the book dealer, but I'll have to look elsewhere for knowledge, now.",
+            "label": "Loja da Moradia [Closed]",
+            "description": "Este era o endereço da Morland, a concessionária do livro, mas agora terei de procurar o conhecimento em outro lugar.",
             "aspects": {
                 "location": 1,
                 "hq.potential": 1
             },
             "slots": [
                 {
-                    "id": "Old HQ",
-                    "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
+                    "id": "QG Velho",
+                    "description": "Coloque um antigo QG aqui para abandoná-lo e mover para este novo local. Nenhuma devolução será possível.",
                     "actionid": "explore",
                     "required": {
                         "hq": 1
@@ -48,16 +48,16 @@
         },
         {
             "id": "locationauctionhouse",
-            "label": "Oriflamme's Auction House",
+            "label": "Casa de Leilões do Oriflamme",
             "aspects": {
                 "location": 1
             },
-            "description": "Oriflamme's specialises in curios, perfumes, taxidermy specimens, and rare texts. It operates from cramped new premises, now, since the destruction of the old by an unexplained fire. [You can buy or sell items at Oriflamme's.]",
+            "description": "A especialidade do Oriflamme em curios, perfumes, espécimes de táxi e textos raros. Ele opera a partir de novas instalações, agora, desde a destruição do velho por um fogo não explicado. [Você pode comprar ou vender itens no Oriflamme.]",
             "slots": [
                 {
                     "id": "Sell",
                     "label": "Sell",
-                    "description": "Add an item here to auction it off.",
+                    "description": "Adicione um item aqui para leiloá-lo.",
                     "required": {
                         "auctionable": 1
                     },
@@ -68,8 +68,8 @@
         },
         {
             "id": "locationcabaretclosed",
-            "label": "The Ecdysis Club [Closed]",
-            "description": "A cabaret with an occult reputation. It opens only certain nights of the week; it'll re-open soon.",
+            "label": "O Clube Ecdisis [Closed]",
+            "description": "Um cabo com uma reputação oculta. Só abre certas noites da semana; reabrirá em breve.",
             "unique": true,
             "lifetime": 30,
             "decayTo": "locationcabaret",
@@ -78,18 +78,18 @@
         },
         {
             "id": "locationcabaret",
-            "label": "The Ecdysis Club",
+            "label": "O Clube Ecdisis",
             "aspects": {
                 "location": 1,
                 "moth": 1,
                 "grail": 1,
                 "heart": 1
             },
-            "description": "A cabaret with an occult reputation.",
+            "description": "Um cabo com uma reputação oculta.",
             "slots": [
                 {
                     "id": "Entry",
-                    "label": "Entry",
+                    "label": "Postagem",
                     "actionid": "explore",
                     "required": {
                         "funds": 1,
@@ -105,32 +105,32 @@
         },
         {
             "id": "hq.abandoned",
-            "label": "Abandoned Headquarters",
-            "description": "Forget it, J.N.",
+            "label": "Quartel General Abandonado",
+            "description": "Esqueça isso, J.N.",
             "lifetime": 1
         },
         {
             "id": "generichq",
-            "label": "Headquarters?",
+            "label": "Quartel-General?",
             "aspects": {
                 "hq": 1
             },
-            "description": "[Headquarters mechanics have changed.]",
+            "description": "[Mecânica do quartel general mudou.]",
             "unique": true
         },
         {
             "id": "hq.temporary",
-            "label": "Temporary Headquarters",
+            "label": "Quartel General Temporário",
             "aspects": {
                 "hq": 1,
                 "location": 1
             },
-            "description": "Our business is private. We could use somewhere more secret.",
+            "description": "Nosso negócio é privado. Nós poderíamos usar mais segredo.",
             "slots": [
                 {
                     "id": "Cupboard",
-                    "label": "Cupboard",
-                    "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
+                    "label": "Armário",
+                    "description": "Coloque aqui um Seguidor para convertê-los, permanentemente, em um Prisão.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -148,17 +148,17 @@
         },
         {
             "id": "hq.townhouse",
-            "label": "Opulent Townhouse",
+            "label": "Moradia Opulente",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "library": 1
             },
-            "description": "We always close the curtains tight before we roll back the rugs and mark the floor with chalk.",
+            "description": "Sempre fechamos as cortinas apertadas antes de andar os tapetes e marcar o chão com calma.",
             "slots": [
                 {
                     "id": "Attic",
-                    "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
+                    "description": "Coloque aqui um Seguidor para convertê-los, permanentemente, em um Prisão.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -169,8 +169,8 @@
                 },
                 {
                     "id": "funds",
-                    "label": "Funds",
-                    "description": "Place Funds in here to raise Grail-influence.",
+                    "label": "Fundos",
+                    "description": "Coloque fundos aqui para aumentar a influência do Grail.",
                     "actionid": "explore",
                     "required": {
                         "funds": 1
@@ -190,11 +190,11 @@
                 "location": 1,
                 "sanctuary": 1
             },
-            "description": "Even on Sunday morning, there are quirks in the order of service, but most outsiders don't notice. Outsiders are not invited to the ceremonies we hold at chillier hours.",
+            "description": "Mesmo no domingo de manhã, há peculiaridades na ordem de serviço, mas a maioria dos estranhos não percebe. Os estrangeiros não são convidados para as cerimónias que realizamos em horas mais infantis.",
             "slots": [
                 {
                     "id": "Vestry",
-                    "description": "Lock a Follower in here to convert them, permanently, into a Prisoner.",
+                    "description": "Bloqueie um seguidor aqui para convertê-los, permanentemente, em um prisioneiro.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -205,8 +205,8 @@
                 },
                 {
                     "id": "funds",
-                    "label": "Funds",
-                    "description": "Place Funds in here to raise Knock-influence.",
+                    "label": "Fundos",
+                    "description": "Coloque fundos aqui para aumentar a influência em Knock.",
                     "actionid": "explore",
                     "required": {
                         "funds": 1
@@ -220,18 +220,18 @@
         },
         {
             "id": "hq.mithraeum",
-            "label": "Candle-lit Mithraeum",
+            "label": "Mithraeum iluminado por velas",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "sanctuary": 1,
                 "secret": 1
             },
-            "description": "Initiates have celebrated the Mysteries here for almost two thousand years. The words change, the gods change, but always, eventually, there is blood.",
+            "description": "Iniciais comemoraram os Mistérios aqui por quase dois mil anos. As palavras mudam, os deuses mudam, mas sempre, finalmente, há sangue.",
             "slots": [
                 {
                     "id": "Chains",
-                    "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
+                    "description": "Coloque aqui um Seguidor para convertê-los, permanentemente, em um Prisão.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -242,8 +242,8 @@
                 },
                 {
                     "id": "funds",
-                    "label": "Funds",
-                    "description": "Place Funds in here to raise Lantern-influence.",
+                    "label": "Fundos",
+                    "description": "Coloque fundos aqui para aumentar a influência da Lanterna.",
                     "actionid": "explore",
                     "required": {
                         "funds": 1
@@ -257,18 +257,18 @@
         },
         {
             "id": "hq.hospital",
-            "label": "House Violet",
+            "label": "Violeta da Casa",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "pit": 1,
                 "secret": 1
             },
-            "description": "We've painted the walls within the rich colour of the Violet Chamber. We've cleaned the cobwebs and placed unobtrusive shutters behind all the windows. And we've replaced all the locks.",
+            "description": "Nós pintamos as paredes da rica cor da Câmara Violeta. Nós limpamos as teias de aranha e colocamos janelas discretas atrás de todas as janelas. E substituímos todos os trancas.",
             "slots": [
                 {
                     "id": "Cell",
-                    "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
+                    "description": "Coloque aqui um Seguidor para convertê-los, permanentemente, em um Prisão.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -279,8 +279,8 @@
                 },
                 {
                     "id": "funds",
-                    "label": "Funds",
-                    "description": "Place Funds in here to raise Knock-influence.",
+                    "label": "Fundos",
+                    "description": "Coloque fundos aqui para aumentar a influência em Knock.",
                     "actionid": "explore",
                     "required": {
                         "funds": 1
@@ -294,17 +294,17 @@
         },
         {
             "id": "hq.bookshop",
-            "label": "Rooms Behind a Bookshop",
+            "label": "Atrás de uma Livraria",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "library": 1
             },
-            "description": "The lesser elements of Miss Morland's stock yet remain. Over time, strangers drift in with books to sell, and sometimes we indulge them.",
+            "description": "Os menores elementos do estoque de Miss Morland permanecem. Com o tempo, os estranhos caem com livros para vender, e às vezes os indultemos.",
             "slots": [
                 {
                     "id": "Cellar",
-                    "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
+                    "description": "Coloque aqui um Seguidor para convertê-los, permanentemente, em um Prisão.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -315,8 +315,8 @@
                 },
                 {
                     "id": "funds",
-                    "label": "Funds",
-                    "description": "Place Funds in here to raise Heart-influence.",
+                    "label": "Fundos",
+                    "description": "Coloque fundos aqui para aumentar a influência do coração.",
                     "actionid": "explore",
                     "required": {
                         "funds": 1
@@ -330,18 +330,18 @@
         },
         {
             "id": "hq.warehouse",
-            "label": "A Darkened Warehouse",
+            "label": "Um Armazém Sombrio",
             "aspects": {
                 "hq": 1,
                 "location": 1,
                 "pit": 1,
                 "secret": 1
             },
-            "description": "The rafters are rank with rats. Their smell is almost lost beneath the reek of the river. It's a long way from anywhere anyone would want to go. All these things are, in their way, advantages.",
+            "description": "As jóias são classificadas com ratos. Seu cheiro está quase perdido debaixo da beira do rio. Está muito longe de onde alguém gostaria de ir. Todas essas coisas são, no caminho, vantagens.",
             "slots": [
                 {
                     "id": "Shed",
-                    "description": "Place a Follower in here to convert them, permanently, into a Prisoner.",
+                    "description": "Coloque aqui um Seguidor para convertê-los, permanentemente, em um Prisão.",
                     "actionid": "talk",
                     "required": {
                         "follower": 1
@@ -352,8 +352,8 @@
                 },
                 {
                     "id": "funds",
-                    "label": "Funds",
-                    "description": "Place Funds in here to raise Forge-influence.",
+                    "label": "Fundos",
+                    "description": "Coloque fundos aqui para aumentar a influência de Forja.",
                     "actionid": "explore",
                     "required": {
                         "funds": 1
@@ -367,16 +367,16 @@
         },
         {
             "id": "hq.church.potential",
-            "label": "Unattended Church",
+            "label": "Igreja Absoluta",
             "aspects": {
                 "location": 1,
                 "hq.potential": 1
             },
-            "description": "The minister disappeared, one night, quite abruptly, with his inner circle and the church's chiefest treasures. He is widely assumed to have gone to a better place: possibly a sunny place beside a shining sea. We could recruit his leaderless flock, and make this our base of operations.",
+            "description": "O Ministro desapareceu, uma noite, de forma bastante abrupta, com o seu círculo interno e os tesouros mais importantes da igreja. É geralmente suposto ter ido para um lugar melhor: possivelmente um lugar ensolarado ao lado de um mar brilhante. Poderíamos recrutar o seu floco sem liderança, e fazer disso a nossa base de operações.",
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
+                    "description": "Coloque um antigo QG aqui para abandoná-lo e mover para este novo local. Nenhuma devolução será possível.",
                     "actionid": "explore",
                     "required": {
                         "hq": 1
@@ -396,11 +396,11 @@
                 "location": 1,
                 "hq.potential": 1
             },
-            "description": "This was a place of worship, once. We could make it so again.",
+            "description": "Este era um lugar de adoração, uma vez. Nós poderíamos fazer isso de novo.",
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
+                    "description": "Coloque um antigo QG aqui para abandoná-lo e mover para este novo local. Nenhuma devolução será possível.",
                     "actionid": "explore",
                     "required": {
                         "hq": 1
@@ -415,16 +415,16 @@
         },
         {
             "id": "hq.hospital.potential",
-            "label": "Empty Hospital",
+            "label": "Hospital vazio",
             "aspects": {
                 "location": 1,
                 "hq.potential": 1
             },
-            "description": "Phantoms - the neighbours say - still walk the echoing halls here. If we take possession, of course, they will leave, or we'll turn them to our use.",
+            "description": "Os fantasmas - dizem os vizinhos - continuam a fazer aqui os ecoamentos. Se nós tomarmos posse, é claro, eles vão partir, ou vamos utilizá-los.",
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
+                    "description": "Coloque um antigo QG aqui para abandoná-lo e mover para este novo local. Nenhuma devolução será possível.",
                     "actionid": "explore",
                     "required": {
                         "hq": 1
@@ -439,16 +439,16 @@
         },
         {
             "id": "hq.warehouse.potential",
-            "label": "An Abandoned Warehouse",
+            "label": "Um Armazém Abandonado",
             "aspects": {
                 "location": 1,
                 "hq.potential": 1
             },
-            "description": "A rotting shell beside a rotting river. Who would follow us here?",
+            "description": "Uma concha apodrecida ao lado de um rio apodrecido. Quem nos seguiria aqui?",
             "slots": [
                 {
                     "id": "Old HQ",
-                    "description": "Place an old HQ here to abandon it and move to this new location. No return will be possible.",
+                    "description": "Coloque um antigo QG aqui para abandoná-lo e mover para este novo local. Nenhuma devolução será possível.",
                     "actionid": "explore",
                     "required": {
                         "hq": 1
@@ -463,30 +463,30 @@
         },
         {
             "id": "locationstreetsstrange",
-            "label": "Streets Strange by Moonlight",
+            "label": "Ruas estranhas por Luar",
             "aspects": {
                 "location": 1
             },
-            "description": "Sometimes, the light of the moon is a key to other spaces. I've found a place where, for a night or two, the streets curve in unfamiliar ways. If I walk here, I might find insight, or I might be touched by madness.",
+            "description": "Às vezes, a luz da lua é uma chave para outros espaços. Eu encontrei um lugar onde, por uma noite ou duas, a curva de ruas de formas desconhecidas. Se eu for até aqui, poderei encontrar uma ideia, ou poderei ser tocado pela loucura.",
             "lifetime": 120
         },
         {
             "id": "location.gallery",
-            "label": "The Montmerenzi-McDonald Gallery",
-            "comments": "currently just used for early Ghoul flavour, but we could do more.",
+            "label": "A Montmerenzi-McDonald Galeria",
+            "comments": "atualmente usado para o sabor inicial de Ghoul, mas poderíamos fazer mais.",
             "aspects": {
                 "location": 1
             },
-            "description": "Alistair Montmerenzi, third and last of the Montmerenzi cartographers, and his enigmatic benefactor Timothy McDonald, collected this small but striking miscellany. After their loss on their final polar expedition, the collection was made available to the public in a blank-faced grey building beside a quiet park... on condition that no piece of art therein was ever to be photographed, nor exposed to daylight."
+            "description": "Alistair Montmerenzi, terceiro e último dos cartógrafos de Montmerenzi e o seu benfeitor enigmático Timothy McDonald recolheu este pequeno mas impressionante problema. Após a sua perda na sua derradeira expedição polar, a recolha foi disponibilizada ao público num edifício cinzento em branco, ao lado de um parque silencioso. . na condição de que nenhum pedaço de arte aí jamais fosse fotografado, nem fosse exposto à luz do dia."
         },
         {
             "id": "location.cemetery",
-            "label": "Cemetery",
+            "label": "Cemitério",
             "slots": [
                 {
                     "id": "muscle",
-                    "label": "Muscle",
-                    "description": "I can employ a helper, or do the digging myself.",
+                    "label": "Musculoso",
+                    "description": "Eu posso contratar um ajudante ou fazer a minha escavação.",
                     "actionid": "explore",
                     "required": {
                         "health": 1,
@@ -494,7 +494,7 @@
                     }
                 }
             ],
-            "description": "In the waking world, as in dreams, the dead are most often found below.",
+            "description": "No mundo acordado, como em sonhos, os mortos são encontrados mais frequentemente abaixo.",
             "aspects": {
                 "location": 1
             },
@@ -503,13 +503,13 @@
         },
         {
             "id": "location.cemetery.closing",
-            "label": "Closely Watched Cemetery",
-            "description": "The authorities have noticed peculiar activity in this place. They have set a watch upon it. Visits will take longer, and very soon they will no longer be possible at all.",
+            "label": "Cemitério Recentemente Assistido",
+            "description": "As autoridades observaram uma actividade peculiar neste local, que exerceram uma vigilância sobre o mesmo. As visitas irão demorar mais tempo e, muito em breve, deixarão de ser possíveis.",
             "slots": [
                 {
                     "id": "muscle",
-                    "label": "Muscle",
-                    "description": "I can employ a helper, or do the digging myself.",
+                    "label": "Musculoso",
+                    "description": "Eu posso contratar um ajudante ou fazer a minha escavação.",
                     "actionid": "explore",
                     "required": {
                         "health": 1,
