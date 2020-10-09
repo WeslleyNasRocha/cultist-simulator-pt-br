@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "workbytjobstart",
-            "label": "A Golden Day of Occasional Work",
+            "label": "Um Dia Dourado de Trabalho Ocasional",
             "actionid": "work",
             "requirements": {
                 "legacybytjob": 1
@@ -19,14 +19,14 @@
                     "additional": true
                 }
             ],
-            "startdescription": "Possibly I'll get something done today.",
-            "description": "It's all going swimmingly. Although Papa's health is not improving. [<b>Explore</b> unlocked.]",
+            "startdescription": "Possivelmente vou fazer alguma coisa hoje.",
+            "description": "Está indo tudo nadando. Embora a saúde do Papai não esteja melhorando. [<b>Explore</b> desbloqueado.]",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "workbytjob",
-            "label": "A Golden Day of Occasional Work",
+            "label": "Um Dia Dourado de Trabalho Ocasional",
             "actionid": "work",
             "requirements": {
                 "legacybytjobmatured": 1
@@ -40,16 +40,16 @@
                     "chance": 30
                 }
             ],
-            "startdescription": "Possibly I'll get something done today.",
-            "description": "It's all going swimmingly. Although Papa's health is still not improving.",
+            "startdescription": "Possivelmente vou fazer alguma coisa hoje.",
+            "description": "Tudo está indo nadando. Embora a saúde do Papai ainda não esteja melhorando.",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "workbytjobend",
-            "label": "A Cloud on the Horizon",
+            "label": "Uma Nuvem no Horizonte",
             "actionid": "work",
-            "startdescription": "Papa has summoned me! I must race to his bedside. All the family affairs are suspended, for now - ",
+            "startdescription": "Papa chamou-me a atenção! Tenho de ir até à cama, todos os assuntos da família estão suspensos, por enquanto. ",
             "craftable": false,
             "effects": {
                 "legacybytjobmatured": -1,
@@ -65,7 +65,7 @@
         },
         {
             "id": "workbytjobepilogue",
-            "label": "Ghastly News",
+            "label": "Notícias Ghasstly",
             "actionid": "legacyeventbad",
             "alt": [
                 {
@@ -78,17 +78,17 @@
                 "health": 2,
                 "funds": 20
             },
-            "startdescription": "Papa is dead! No-one will tell me exactly how. But the estate is in a state. My allowance is tied up in probate and so forth. One can only hope it's resolved before the bills come due. ",
-            "description": "The business of the will has been settled... but Papa's business affairs have been eaten up with debts like woodworm. No-one seems to know exactly what he spent the money on. But the solicitor is sending me some papers, apparently.",
+            "startdescription": "Papa está morto! Ninguém me dirá exatamente como. Mas a propriedade está em Estado. Minha permissão está associada a testes e assim por diante. Só podemos esperar que seja resolvida antes que as contas cheguem. ",
+            "description": "O negócio da vontade foi resolvido... mas os negócios do Papai foram devorados com dívidas como lenha. Parece que ninguém sabe exactamente em que é que gastou o dinheiro, mas o advogado envia-me alguns jornais, aparentemente.",
             "warmup": 60,
             "craftable": false
         },
         {
             "id": "bytopenexplore",
-            "label": "A World of Possibilities!",
+            "label": "Um mundo de Possibilidades!",
             "actionid": "explore",
-            "startdescription": "Some ripping sorts are introducing me to some ripping sorts of places.",
-            "description": "If I ever have trouble deciding how to spend my money, the good people at these spots can certainly be of assistance!",
+            "startdescription": "Alguns tipos de ruptura estão a proporcionar-me alguns tipos de locais de ruptura.",
+            "description": "Se eu tiver dificuldade em decidir como gastar o meu dinheiro, as boas pessoas nestes locais podem certamente ajudar!",
             "warmup": 10,
             "effects": {
                 "locationauctionhouse": 1,
@@ -98,9 +98,9 @@
         },
         {
             "id": "bytopenstudy",
-            "label": "Puzzling Papers",
+            "label": "Papéis Deslumbrantes",
             "actionid": "study",
-            "startdescription": "I am to receive papers found among Papa's belongings, which might perhaps shed some sort of light on where exactly the hell all the money has gone.",
+            "startdescription": "Estou para receber documentos encontrados entre os pertences do Papa, que talvez pudesse lançar uma espécie de luz sobre onde foi exactamente o inferno todo o dinheiro.",
             "alt": [
                 {
                     "id": "bytopendream",
@@ -108,7 +108,7 @@
                     "additional": true
                 }
             ],
-            "description": "I have received the papers. Poor Papa. Page after page after page of desperate scrawl on an invisible house and the colours of sleep and the invisible gods behind the world... but do you know, the more I read, the more it - well, not 'makes sense'. It doesn't make sense. But it does hang together. And here is Papa's diary.",
+            "description": "Recebi os jornais. Pobre Papa. Página após a primeira página sobre um desesperado rastejão numa casa invisível e sobre as cores do sono e os deuses invisíveis atrás do mundo. Mas saibam, quanto mais eu leio, mais - bem, não \"faz sentido\". Não faz sentido. Mas ela se pendura juntos. E aqui está o diário do Papa.",
             "effects": {
                 "legacydiarylastcharacter": 1,
                 "lever_LastBook": 1
@@ -118,7 +118,7 @@
         },
         {
             "id": "bytstudydiary",
-            "label": "Studying a Troubling Diary",
+            "label": "Estudando um Diário de Atordoamento",
             "actionid": "study",
             "requirements": {
                 "legacydiarylastcharacter": 1
@@ -135,14 +135,14 @@
                 "reason": 1,
                 "fragmentgrail": 1
             },
-            "startdescription": "Papa's diary. It's a catalogue of obsessions. But perhaps it will make some sort of sense of recent events?",
-            "description": "The name of #PREVIOUSCHARACTERNAME# appears again and again in these pages. They were 'a locus for impossibility', a 'fount of the future'...'one who has cut the eye.' And, on the last page, there is a correspondence address, and a name.",
+            "startdescription": "Diário do Papa. É um catálogo de obsessões. Mas talvez faça algum tipo de sentido dos recentes eventos?",
+            "description": "O nome de #PREVIOUSCHARACTERNAME# aparece várias vezes nessas páginas. Eles eram 'um local para impossibilidade', um 'fundador do futuro'. .'alguém que tenha cortado o olho' e, na última página, há um endereço de correspondência e um nome.",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "bytopendream",
-            "label": "The House without Walls",
+            "label": "A Casa sem Muros",
             "actionid": "dream",
             "alt": [
                 {
@@ -151,8 +151,8 @@
                     "additional": true
                 }
             ],
-            "startdescription": "The dreams begin. Papa spoke of them, and he said that his father before him had been so troubled. Something in our blood; a biting melancholy that kills the soul.",
-            "description": "I dream of a shrivelling light, a sun that crisps snow but does not melt it. When I wake, my room is always cold.",
+            "startdescription": "Os sonhos começam. O Papa falou deles, e disse que o seu pai antes dele estava tão perturbado. Algo no nosso sangue, uma melancolia rosa que mata a alma.",
+            "description": "Eu sonho com uma luz tremerda, um sol que bebe neve mas não a derrete. Quando eu acordo, meu quarto está sempre frio.",
             "warmup": 30,
             "effects": {
                 "passion": 1,
@@ -162,10 +162,10 @@
         },
         {
             "id": "bytopentalk",
-            "label": "Summoning a Stranger",
+            "label": "Invocando um estranho",
             "actionid": "talk",
-            "startdescription": "I've contacted the individual named in this troubling document. I have little reason to believe they will be able to enlighten me on the nature of what went before. But perhaps they can help with what is to come.",
-            "description": "My new acquaintance speaks authoritatively of Papa. He knew he was dying. He had hoped to taste unknown pleasures before his end - pleasures denied to healthy society. My new acquaintance suggests that I might finish what he began - that if I do so, I might save myself from the despair which haunts my family.",
+            "startdescription": "Eu entrei em contato com a pessoa nomeada nesse documento preocupante. Tenho poucas razões para acreditar que poderão esclarecer-me sobre a natureza do que aconteceu anteriormente. Mas talvez possam ajudar com o que está para vir.",
+            "description": "Minha nova familiaridade fala autoritariamente do papai. Ele sabia que estava morrendo. Esperava provar prazeres desconhecidos antes do fim - prazeres negados a uma sociedade saudável. Minha nova familiaridade sugere que eu poderia terminar o que ele começou - que, se eu fizer isso, Eu posso evitar o desespero que assombra a minha família.",
             "effects": {
                 "poppyready": 1,
                 "ascensionsensationa": 1
