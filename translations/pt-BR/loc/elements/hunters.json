@@ -2,14 +2,14 @@
     "elements": [
         {
             "id": "investigator1",
-            "label": "Inspector Wakefield",
+            "label": "Inspetor Wakefield",
             "aspects": {
                 "hunter": 1,
                 "mortal": 1,
                 "meticulous": 1,
                 "grim": 1
             },
-            "description": "Zachary Wakefield: a melancholy, but remorseless, inspector of police. He has recently been seconded to the Suppression Bureau.",
+            "description": "Zachary Wakefield: uma melancolia, mas sem remorso inspector da polícia. Recentemente, ele foi enviado para a Mesa de Supressão.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -28,7 +28,7 @@
                 "mystic": 1,
                 "erratic": 1
             },
-            "description": "Hobson has been a journalist, a private detective and, rather briefly, a priest. Now he's an agent of the Suppression Bureau.",
+            "description": "Hobson tem sido jornalista, um detetive privado e, muito rapidamente, um padre. Agora ele é um agente da Mesa de Supressão.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -47,7 +47,7 @@
                 "tenacious": 1,
                 "mystic": 1
             },
-            "description": "The heiress, suffragist and adventurer. She's recently put her quixotic enthusiasms and considerable wealth at the service of the Suppression Bureau.",
+            "description": "A novilha, sufragista e aventureira. Recentemente, ela colocou seus entusiasmos quixóticos e uma riqueza considerável ao serviço da Mesa de Supressão.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -59,14 +59,14 @@
         },
         {
             "id": "investigator4",
-            "label": "Doctor Natalia Dragon",
+            "label": "Dragão da Doutora Natalia",
             "aspects": {
                 "hunter": 1,
                 "mortal": 1,
                 "idealist": 1,
                 "meticulous": 1
             },
-            "description": "She was laughed out of academia for her analyses of alternate histories, and it only made her more resolute. Now she works with the Suppression Bureau.",
+            "description": "Ela riu-se da academia por suas análises de histórias alternativas e isso só a tornou mais resolvida. Agora, trabalha com a Mesa de Supressão.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -78,12 +78,12 @@
         },
         {
             "id": "defaulthunter",
-            "label": "Weary Detective",
+            "label": "Detetive Weary",
             "aspects": {
                 "hunter": 1,
                 "mortal": 1
             },
-            "description": "This gentleman would much rather be left alone with his pipe and his Illustrated London News, but no, <i>apparently</i> some conjuror of abominations has to be hunted down like a mad dog, and <i>apparently</i> no-one else can find the time.",
+            "description": "Este cavalheiro preferiria ser deixado em paz com o seu tubo e a sua Notícia Illustrada de Londres, mas não, <i>aparentemente</i> um pouco de abominações tem que ser caçado como um cão louco, e <i>aparentemente,</i> ninguém mais pode encontrar o tempo.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "killhunter": "corpse",
@@ -94,7 +94,7 @@
         },
         {
             "id": "investigator1prisoner",
-            "label": "Inspector Wakefield: Captured!",
+            "label": "Inspetor Wakefield: Capturado!",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -103,7 +103,7 @@
                 "heart": 3,
                 "winter": 4
             },
-            "description": "Zachary Wakefield: a melancholy, but remorseless, inspector of police. Let us be sure he dies in captivity.",
+            "description": "Zachary Wakefield: uma melancolia, mas sem remorso, inspector da polícia. Vamos ter certeza de que ele morre em cativeiro.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -115,7 +115,7 @@
         },
         {
             "id": "investigator2prisoner",
-            "label": "Spencer Hobson: Captured!",
+            "label": "Spencer Hobson: Capturado!",
             "aspects": {
                 "prisoner": 1,
                 "mortal": 1,
@@ -124,7 +124,7 @@
                 "heart": 3,
                 "knock": 3
             },
-            "description": "Hobson has been a journalist, a private detective and, rather briefly, a priest. Let us be sure he dies in captivity.",
+            "description": "Hobson tem sido jornalista, detetive privado e, muito brevemente, padre. Vamos ter certeza de que ele morre em cativeiro.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -136,7 +136,7 @@
         },
         {
             "id": "investigator3prisoner",
-            "label": "Connie Lee: Captured!",
+            "label": "Connie Lee: Capturado!",
             "aspects": {
                 "prisoner": 1,
                 "mortal": 1,
@@ -145,7 +145,7 @@
                 "heart": 3,
                 "edge": 3
             },
-            "description": "The heiress, suffragist and adventurer. Let us be sure she dies in captivity.",
+            "description": "Os herdeiros, sufragistas e aventureiros. Vamos ter certeza de que ela morre em cativeiro.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -157,7 +157,7 @@
         },
         {
             "id": "investigator4prisoner",
-            "label": "Doctor Natalia Dragon: Captured!",
+            "label": "Doutora Natalia Dragão: Capturado!",
             "aspects": {
                 "prisoner": 1,
                 "mortal": 1,
@@ -165,7 +165,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "She was laughed out of academia for her analyses of alternate histories, and it only made her more resolute.  Let us be sure she dies in captivity.",
+            "description": "Ela riu-se da academia por suas análises de histórias alternativas e isso só a tornou mais resolvida. Temos de ter a certeza de que morre em cativeiro.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -177,7 +177,7 @@
         },
         {
             "id": "defaulthunterprisoner",
-            "label": "Weary Detective Captured!",
+            "label": "Detetive Weary Capturado!",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -185,7 +185,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "This gentleman would much rather be left alone with his pipe and his Illustrated London News, but now he is mewed up in some wretched hole in the ground.",
+            "description": "Esse cavalheiro preferiria ser deixado em paz com o seu tubo e a sua Notícia Illustrated Londres, mas agora ele está metido em algum buraco miserável no chão.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "douglas_r",
