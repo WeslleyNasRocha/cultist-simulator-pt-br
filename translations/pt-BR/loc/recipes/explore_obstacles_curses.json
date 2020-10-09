@@ -3,16 +3,16 @@
         {
             "id": "explorevaultcurse_dread_encounter",
             "actionid": "explore",
-            "label": "The Dry Soul Curse",
-            "startdescription": "The treasures ahead lie under a Dry Soul Curse. Without Lantern or Heart, it may follow us back home and dessicate the spirit.",
+            "label": "A Maldição de Alma Seca",
+            "startdescription": "Os tesouros à frente estão sob a Maldição das Almas Secas. Sem Lanterna ou Coração, pode nos seguir de volta para casa e dessemear o espírito.",
             "requirements": {
                 "curse_dread": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -60,8 +60,8 @@
             "requirements": {
                 "heart": 10
             },
-            "label": "We call upon the Ring-Yew, who is renewed",
-            "startdescription": "We are strong enough in Heart to be almost entirely secure against the Curse.",
+            "label": "Apelamos para o Ring-Yew, que é renovado",
+            "startdescription": "Somos suficientemente fortes em Coração para sermos quase seguros contra a Maldição.",
             "description": ".",
             "linked": [
                 {
@@ -80,8 +80,8 @@
             "requirements": {
                 "heart": 5
             },
-            "label": "We call upon the Ring-Yew, who encompasseth",
-            "startdescription": "We carry enough Heart aspect to quell the Curse... probably.",
+            "label": "Apelamos para o Ring-Yew, que engloba o",
+            "startdescription": "Nós carregamos aspecto de Coração suficiente para esmagar a Maldição ... provavelmente.",
             "description": ".",
             "linked": [
                 {
@@ -100,8 +100,8 @@
             "requirements": {
                 "heart": 1
             },
-            "label": "We call upon the Ring-Yew, who is succulent",
-            "startdescription": "Perhaps the power of that old and fecund Hour, the Ring-Yew, can protect us from the Curse. Perhaps not.",
+            "label": "Apelamos para o Ring-Yew, que é suculento",
+            "startdescription": "Talvez o poder daquela velha e feida Hour, o anel Yew, nos possa proteger da Maldição. Talvez não.",
             "description": ".",
             "linked": [
                 {
@@ -120,8 +120,8 @@
             "requirements": {
                 "lantern": 10
             },
-            "label": "We call upon the Colonel, who cannot be denied",
-            "startdescription": "The Colonel is a fierce Hour, but a power which knows Light, and he has survived worse. His power will almost certainly protect us.",
+            "label": "Apelamos ao Coronel, que não pode ser negado",
+            "startdescription": "O coronel é uma mão feroz, mas é um poder que conhece a Luz, que sobreviveu pior.",
             "description": ".",
             "linked": [
                 {
@@ -140,8 +140,8 @@
             "requirements": {
                 "lantern": 5
             },
-            "label": "We call upon the Colonel, who is scarred",
-            "startdescription": "The Colonel is a scarred Hour, but a power which knows Light, and he has survived worse. His power should protect us.",
+            "label": "Apelamos ao coronel, que está marcado como uma cicatrização",
+            "startdescription": "O Coronel é um Muro marcado, mas um poder que sabe a Luz, e sobreviveu pior. Seu poder deve nos proteger.",
             "description": ".",
             "linked": [
                 {
@@ -160,8 +160,8 @@
             "requirements": {
                 "lantern": 1
             },
-            "label": "We call upon the Colonel, who is blind",
-            "startdescription": "The Colonel is an Hour which knows Light, but does he remember it? His power might yet protect us.",
+            "label": "Apelamos para o Coronel, que é cego",
+            "startdescription": "O coronel é uma Hora que sabe luz, mas se lembra dela? O seu poder ainda pode nos proteger.",
             "description": ".",
             "linked": [
                 {
@@ -177,8 +177,8 @@
         {
             "id": "explorevaultcurse_dread_success",
             "actionid": "explore",
-            "label": "The Curse Shrivels",
-            "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
+            "label": "Os Shrivels Malditos",
+            "startdescription": "Nosso poder é mais forte do que o poder que estava aqui. A maldição não nos tocará.",
             "description": ".",
             "effects": {
                 "curse_dread": -1
@@ -195,8 +195,8 @@
         {
             "id": "explorevaultcurse_dread_failure",
             "actionid": "explore",
-            "label": "The Curse Clings",
-            "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the curse will tighten around us.",
+            "label": "As Aulas da Maldição",
+            "startdescription": "Há um preço a ser pago quando um destes países se encontra num lugar como este. Em breve, a maldição vai apertar-nos.",
             "description": ".",
             "effects": {
                 "curse_dread": -1
@@ -220,16 +220,16 @@
         {
             "id": "explorevaultcurse_visions_encounter",
             "actionid": "explore",
-            "label": "The Fifth Eye Curse",
-            "startdescription": "The treasures ahead lie under a Fifth Eye Curse. Without Winter or Heart, it may follow us back home and tear open the eye of the soul.",
+            "label": "A Quinta Maldição Olhar",
+            "startdescription": "Os tesouros à frente estão sob uma Quinta Maldição Olho. Sem Inverno ou Coração, pode nos seguir de volta para casa e rasgar o olho da alma.",
             "requirements": {
                 "curse_visions": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -277,8 +277,8 @@
             "requirements": {
                 "heart": 10
             },
-            "label": "We call upon the Ring-Yew, who is renewed",
-            "startdescription": "We are strong enough in Heart to be almost entirely secure against the Curse.",
+            "label": "Apelamos para o Ring-Yew, que é renovado",
+            "startdescription": "Somos suficientemente fortes em Coração para sermos quase seguros contra a Maldição.",
             "description": ".",
             "linked": [
                 {
@@ -297,8 +297,8 @@
             "requirements": {
                 "heart": 5
             },
-            "label": "We call upon the Ring-Yew, who encompasseth",
-            "startdescription": "We carry enough Heart aspect to quell the Curse... probably.",
+            "label": "Apelamos para o Ring-Yew, que engloba o",
+            "startdescription": "Nós carregamos aspecto de Coração suficiente para esmagar a Maldição ... provavelmente.",
             "description": ".",
             "linked": [
                 {
@@ -317,8 +317,8 @@
             "requirements": {
                 "heart": 1
             },
-            "label": "We call upon the Ring-Yew, who is succulent",
-            "startdescription": "Perhaps the power of that old and fecund Hour, the Ring-Yew, can protect us from the Curse. Perhaps not.",
+            "label": "Apelamos para o Ring-Yew, que é suculento",
+            "startdescription": "Talvez o poder daquela velha e feida Hour, o anel Yew, nos possa proteger da Maldição. Talvez não.",
             "description": ".",
             "linked": [
                 {
@@ -337,8 +337,8 @@
             "requirements": {
                 "winter": 10
             },
-            "label": "We call upon the Elegiast, from whom nothing more can be taken",
-            "startdescription": "The Elegiast knows what is already lost. His power will almost certainly protect us.",
+            "label": "Apelamos para a Elegiast, de quem nada mais pode ser retirado",
+            "startdescription": "O Elegiast sabe o que já está perdido. Seu poder vai quase certamente nos proteger.",
             "description": ".",
             "linked": [
                 {
@@ -357,8 +357,8 @@
             "requirements": {
                 "winter": 5
             },
-            "label": "We call upon the Elegiast, who cannot be deceived",
-            "startdescription": "The Elegiast separates the remembered from the true. His power should protect us.",
+            "label": "Apelamos ao Elegiast, que não pode ser enganado",
+            "startdescription": "O Elegiast separa o memorizado do verdadeiro. Seu poder deve nos proteger.",
             "description": ".",
             "linked": [
                 {
@@ -377,8 +377,8 @@
             "requirements": {
                 "winter": 1
             },
-            "label": "We call upon the Elegiast, who calls each of the Dead by name",
-            "startdescription": "The Elegiast's irony and sorrow might yet quell the visions. Who knows?",
+            "label": "Nós chamamos o Elegiast, que chama cada um dos mortos pelo nome",
+            "startdescription": "A ironia e a tristeza da Elegiesta talvez acalmem as visões. Quem sabe?",
             "description": ".",
             "linked": [
                 {
@@ -394,8 +394,8 @@
         {
             "id": "explorevaultcurse_visions_success",
             "actionid": "explore",
-            "label": "The Curse Shrivels",
-            "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
+            "label": "Os Shrivels Malditos",
+            "startdescription": "Nosso poder é mais forte do que o poder que estava aqui. A maldição não nos tocará.",
             "description": ".",
             "effects": {
                 "curse_visions": -1
@@ -412,8 +412,8 @@
         {
             "id": "explorevaultcurse_visions_failure",
             "actionid": "explore",
-            "label": "The Curse Clings",
-            "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the curse will tighten around us.",
+            "label": "As Aulas da Maldição",
+            "startdescription": "Há um preço a ser pago quando um destes países se encontra num lugar como este. Em breve, a maldição vai apertar-nos.",
             "description": ".",
             "effects": {
                 "curse_visions": -1
@@ -437,16 +437,16 @@
         {
             "id": "explorevaultcurse_affliction_encounter",
             "actionid": "explore",
-            "label": "The Creeping Breath",
-            "startdescription": "The treasures ahead lie under a Creeping Breath Curse. Without Grail or Heart, it may follow us back home, and settle like spores into our lungs.",
+            "label": "A Respiração Creeping",
+            "startdescription": "Os tesouros à frente encontram-se sob uma Maldição de Respiração Creeping. Sem Grail ou Coração, pode fazer-nos seguir no nosso país e ficar como esporos nos nossos pulmões.",
             "requirements": {
                 "curse_affliction": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -494,8 +494,8 @@
             "requirements": {
                 "heart": 10
             },
-            "label": "We call upon the Ring-Yew, who is renewed",
-            "startdescription": "We are almost certainly  strong enough in Heart to be secure against the Curse.",
+            "label": "Apelamos para o Ring-Yew, que é renovado",
+            "startdescription": "Temos quase certeza de que somos suficientemente fortes em Coração para sermos seguros contra a Maldição.",
             "description": ".",
             "linked": [
                 {
@@ -514,8 +514,8 @@
             "requirements": {
                 "heart": 5
             },
-            "label": "We call upon the Ring-Yew, who encompasseth",
-            "startdescription": "We carry enough Heart aspect to quell the Curse... probably.",
+            "label": "Apelamos para o Ring-Yew, que engloba o",
+            "startdescription": "Nós carregamos aspecto de Coração suficiente para esmagar a Maldição ... provavelmente.",
             "description": ".",
             "linked": [
                 {
@@ -534,8 +534,8 @@
             "requirements": {
                 "heart": 1
             },
-            "label": "We call upon the Ring-Yew, who is succulent",
-            "startdescription": "Perhaps the power of that old and fecund Hour, the Ring-Yew, can protect us from the Curse. Perhaps not.",
+            "label": "Apelamos para o Ring-Yew, que é suculento",
+            "startdescription": "Talvez o poder daquela velha e feida Hour, o anel Yew, nos possa proteger da Maldição. Talvez não.",
             "description": ".",
             "linked": [
                 {
@@ -554,8 +554,8 @@
             "requirements": {
                 "grail": 10
             },
-            "label": "We call upon the Red Grail, which gives life",
-            "startdescription": "The Red Grail's vigour will almost certainly preserve us from the Curse.",
+            "label": "Apelamos ao Grau Vermelho, que dá vida",
+            "startdescription": "O vigor do Grau Vermelho irá quase certamente preservar-nos da Maldição.",
             "description": ".",
             "linked": [
                 {
@@ -574,8 +574,8 @@
             "requirements": {
                 "grail": 5
             },
-            "label": "We call upon the Red Grail, which takes life",
-            "startdescription": "The Red Grail's hungers should preserve us from the Curse.",
+            "label": "Chamamos a atenção para o Grau Vermelho, que tira vida",
+            "startdescription": "A fome do vidro vermelho deve nos preservar da Maldição.",
             "description": ".",
             "linked": [
                 {
@@ -594,8 +594,8 @@
             "requirements": {
                 "grail": 1
             },
-            "label": "We call upon the Red Grail, which is not sated",
-            "startdescription": "The Red Grail might preserve us from the Curse. It is a fickle Hour.",
+            "label": "Apelamos ao Grau Vermelho, que não é sagrado",
+            "startdescription": "O Grau Vermelho pode preservar-nos da Maldição. É uma dor instável.",
             "description": ".",
             "linked": [
                 {
@@ -611,8 +611,8 @@
         {
             "id": "explorevaultcurse_affliction_success",
             "actionid": "explore",
-            "label": "The Curse Shrivels",
-            "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
+            "label": "Os Shrivels Malditos",
+            "startdescription": "Nosso poder é mais forte do que o poder que estava aqui. A maldição não nos tocará.",
             "description": ".",
             "effects": {
                 "curse_affliction": -1
@@ -629,8 +629,8 @@
         {
             "id": "explorevaultcurse_affliction_failure",
             "actionid": "explore",
-            "label": "The Curse Clings",
-            "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the curse will tighten around us.",
+            "label": "As Aulas da Maldição",
+            "startdescription": "Há um preço a ser pago quando um destes países se encontra num lugar como este. Em breve, a maldição vai apertar-nos.",
             "description": ".",
             "effects": {
                 "curse_affliction": -1
@@ -654,16 +654,16 @@
         {
             "id": "explorevaultcurse_nowhere_encounter",
             "actionid": "explore",
-            "label": "Curse-from-Nowhere",
-            "startdescription": "Here is a place where the world's skin yellowed with fever. Lantern or Moth might protect us. Nothing else will. ",
+            "label": "Maldição-de-nenhum",
+            "startdescription": "Aqui é um lugar onde a pele do mundo amarelada com febre. Lanterna ou Mariposa podem nos proteger. Nada mais serve. ",
             "requirements": {
                 "curse_nowhere": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -711,8 +711,8 @@
             "requirements": {
                 "moth": 10
             },
-            "label": "We call upon the Laughingthrush, who cannot be exhausted",
-            "startdescription": "We are almost certainly strong enough in Moth to be secure against the Curse.",
+            "label": "Apelamos à Laughingthrush, que não pode estar exausta.",
+            "startdescription": "Em mãos, somos quase certamente suficientemente fortes para sermos seguros contra a Maldição.",
             "description": ".",
             "linked": [
                 {
@@ -731,8 +731,8 @@
             "requirements": {
                 "moth": 5
             },
-            "label": "We call upon the Laughingthrush, who cannot be stayed",
-            "startdescription": "The Hour called the Laughingthrush may be implored to carry this Curse away. We will probably be safe.",
+            "label": "Apelamos para a Risonha, que não pode ser mantida",
+            "startdescription": "A Hora chamou a Risinha pode estar impregnada para transportar esta Maldição fora. Nós provavelmente estaremos seguros.",
             "description": ".",
             "linked": [
                 {
@@ -751,8 +751,8 @@
             "requirements": {
                 "moth": 1
             },
-            "label": "We call upon the Laughingthrush, who tells her tale to the willing and the unwilling",
-            "startdescription": "The Laughingthrush is a Moth-power, and is not reliable. Perhaps she will protect us.",
+            "label": "Apelamos à Laughingthrush, que conta a sua história para os que estão dispostos e os que estão relutantes",
+            "startdescription": "A risonha é uma potência de lua, e não é confiável. Talvez ela nos proteja.",
             "description": ".",
             "linked": [
                 {
@@ -771,8 +771,8 @@
             "requirements": {
                 "lantern": 10
             },
-            "label": "We call upon the Sun-in-Rags, which burns still",
-            "startdescription": "The Sun-in-Rags lends Lantern-light. It will almost certainly end this Curse here.",
+            "label": "Apelamos para o Sun-in-Rags, que queima ainda",
+            "startdescription": "O Pôr-do-Sol empresta luz de Lanterna. Certamente acabará com esta Maldição aqui.",
             "description": ".",
             "linked": [
                 {
@@ -791,8 +791,8 @@
             "requirements": {
                 "lantern": 5
             },
-            "label": "We call upon the Sun-in-Rags, which is not as it was",
-            "startdescription": "The Sun-in-Rags, that weary chilly power, can lend us Lantern. It will conclude this curse... probably.",
+            "label": "Apelamos para o Sun-in-Rags, que não é o que era",
+            "startdescription": "O Sol em Carlos, esse cansado poder frio, pode nos emprestar Lanterna. Concluirá esta maldição... provavelmente.",
             "description": ".",
             "linked": [
                 {
@@ -811,8 +811,8 @@
             "requirements": {
                 "lantern": 1
             },
-            "label": "We call upon the Sun-in-Rags, which is distant",
-            "startdescription": "We need Lantern to end the Curse, but the Sun-in-Rags can lend us only a little.",
+            "label": "Apelamos para os Ensolarados, que são distantes",
+            "startdescription": "Nós precisamos da Lanterna para acabar com a Maldição, mas os sacos de Sol podem nos emprestar um pouco.",
             "description": ".",
             "linked": [
                 {
@@ -828,8 +828,8 @@
         {
             "id": "explorevaultcurse_nowhere_success",
             "actionid": "explore",
-            "label": "The Curse Shrivels",
-            "startdescription": "Our power is stronger than the power that was here. The Curse won't touch us.",
+            "label": "Os Shrivels Malditos",
+            "startdescription": "Nosso poder é mais forte do que o poder que estava aqui. A maldição não nos tocará.",
             "description": ".",
             "effects": {
                 "curse_nowhere": -1
@@ -846,8 +846,8 @@
         {
             "id": "explorevaultcurse_nowhere_failure",
             "actionid": "explore",
-            "label": "The Curse Clings",
-            "startdescription": "There is a price to be paid when one trespasses in a place like this. Some day soon, the Curse will tighten around us.",
+            "label": "As Aulas da Maldição",
+            "startdescription": "Há um preço a ser pago quando um invadir um lugar como este. Em breve, a Maldição vai apertar-nos.",
             "description": ".",
             "effects": {
                 "curse_nowhere": -1
