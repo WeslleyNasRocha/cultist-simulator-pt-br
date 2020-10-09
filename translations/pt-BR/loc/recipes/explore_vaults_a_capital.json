@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "explore_vaultcapital1_setup",
-            "label": "Beginning an Expedition: Strathcoyne's Collection",
+            "label": "Começando uma Expedição: Coleção de Strathcoyne",
             "actionid": "explore",
             "requirements": {
                 "vaultcapital1": 1,
@@ -12,7 +12,7 @@
             "effects": {
                 "guardian_watchers": 1
             },
-            "startdescription": "Mr Strathcoyne has forbidden entry to his library. Unfortunate. Let's see what we can do. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "O Sr. Strathcoyne proibiu o acesso à sua biblioteca. Infelizmente. Vamos ver o que podemos fazer. [Expedições precisam de pelo menos um fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -25,7 +25,7 @@
         },
         {
             "id": "explore_vaultcapital2_setup",
-            "label": "Beginning an Expedition: the Forgotten Mithraeum",
+            "label": "Começando uma Expedição: o Mithraeum Esquecido",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -35,7 +35,7 @@
             "effects": {
                 "seal_hiddendoor": 1
             },
-            "startdescription": "I'm convinced the Mithraeum still holds secrets that its discoverers never found. It's unlikely to be dangerous, but the search will require funds. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Estou convencido de que o Mithraeum ainda mantém segredos que seus descobridores nunca encontraram. É improvável que seja perigoso, mas a busca exigirá fundos. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -48,7 +48,7 @@
         },
         {
             "id": "explore_vaultcapital3_setup",
-            "label": "Beginning an Expedition: Cater & Hero Limited",
+            "label": "Começa uma Expedição: Gato e Herói Limitado",
             "actionid": "explore",
             "requirements": {
                 "vaultcapital3": 1,
@@ -58,7 +58,7 @@
             "effects": {
                 "peril_treacherousground": 1
             },
-            "startdescription": "The remaining factory walls could topple at any moment. Blackened timbers creak in pain. We must equip ourselves properly and move with dreadful care. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "As paredes de fábrica restantes poderiam derrubar a qualquer momento. Os madeireiros enegrecidos crebram de dor. Temos de nos equipar adequadamente e seguir com um terrível cuidado. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -71,7 +71,7 @@
         },
         {
             "id": "explore_vaultcapital4_setup",
-            "label": "Beginning an Expedition: St Agnes Hospital",
+            "label": "Começando uma Expedição: Hospital de São Agnes",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -81,7 +81,7 @@
             "effects": {
                 "curse_dread": 1
             },
-            "startdescription": "Only echoes walk the hospital halls now, but malice lingers in the air. We must search meticulously, room by room. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Só ecoa nos salões dos hospitais agora, mas os males permanecem no ar. Temos de procurar meticulosamente, quarto por quarto. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -94,7 +94,7 @@
         },
         {
             "id": "explore_vaultcapital5_setup",
-            "label": "Beginning an Expedition: the Congregation of St Felix of Schüren",
+            "label": "Começando uma Expedição: a congregação de St Felix de Schu├ren",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -104,7 +104,7 @@
             "effects": {
                 "guardian_monks": 1
             },
-            "startdescription": "Membership of the Congregation is strictly controlled. It may even be inherited. The safest approach is to burgle the minister's residence while he's conducting a service - but the sworn mothers of the Congregation guard the place in shifts, and they are not easily distracted. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "A adesão à Congregação é rigorosamente controlada, podendo até ser herdada. A abordagem mais segura é contrair a residência do ministro enquanto ele está dirigindo um serviço - mas as mães juradas da Congregação guardam o lugar em turnos, e não se distraem facilmente. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -117,7 +117,7 @@
         },
         {
             "id": "explore_vaultcapitaldefault_setup",
-            "label": "Beginning an Expedition: The Forsaken Reach",
+            "label": "Começando uma Expedição: O Alcance Abandonado",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -128,7 +128,7 @@
                 "peril_treacherousground": 1,
                 "guardian_watchers": 1
             },
-            "startdescription": "The law does not touch this decaying fringe of the city. The mud here has claimed many lives, and there will, no doubt, be some wretched criminals or other lairing in the warehouse. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "A lei não toca nesta periferia decadente da cidade. A lama aqui ceifou muitas vidas e haverá, sem dúvida, alguns criminosos miseráveis ou outros retardatários no centro de distribuição. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -141,7 +141,7 @@
         },
         {
             "id": "explorevaultcapital1_success",
-            "label": "Strathcoyne's Treasures",
+            "label": "Tesouros de Strathcoyne",
             "actionid": "explore",
             "requirements": {
                 "vaultcapital1": 1
@@ -161,14 +161,14 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "Strathcoyne's cosy sanctum. A fire smoulders in the grate. Glass cases display hard-won trinkets. We must seize what we can, quickly! Strathcoyne may already have telephoned the police.",
-            "description": "Out into the night! We escape unseen, but the next day there are reports of a fire at Strathcoyne's. Did someone knock a live coal on to the hearth-rug? Or did Strathcoyne destroy the place himself, as part of some larger scheme?",
+            "startdescription": "Cosmo confortável de Strathcoyne. Um flamejante esmaga em grão. Castelos de vidro exibem trinkets. Temos de agarrar o que pudermos, rapidamente! O Strathcoyne pode já ter telefonado para a polícia.",
+            "description": "Para a noite! Nós escapamos despercebido, mas no dia seguinte há relatos de um incêndio contra Strathcoyne. Alguém bateu carvão vivo no mato-rug? Ou Strathcoyne destruiu o próprio lugar, como parte de um esquema maior?",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcapital2_success",
-            "label": "The Deeper Sanctuary",
+            "label": "O Santuário Eterno",
             "actionid": "explore",
             "requirements": {
                 "vaultcapital2": 1
@@ -187,14 +187,14 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "A lonely space, musty with the memory of blood. We have found the hidden door that the highest grades of initiate used.",
-            "description": "The altar tilts back like a jaw. Behind it is the pyramid-space where only the Sun-hunters and Dawn-givers might go... but others have been here too, much more recently. They have left their treasures.",
+            "startdescription": "Um espaço solitário, muto com a memória de sangue. Nós descobrimos a porta escondida que as maiores notas de iniciação usaram.",
+            "description": "O altar volta como uma mandíbula. Por trás disso está o espaço da pirâmide onde só os caçadores de sol e Dawn-givers poderiam ir. Houve outros que estiveram também aqui, muito mais recentemente, e que deixaram os seus tesouros.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcapital3_success",
-            "label": "Cater's Office",
+            "label": "Escritório do gato",
             "actionid": "explore",
             "requirements": {
                 "vaultcapital3": 1
@@ -214,14 +214,14 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "Here is the capacious room where Mr Cater once watched his workers on the factory floor. The window-glass is long gone, and rats and crows have made this place their battle-ground, but perhaps there is still something of use here...",
-            "description": "Two floorboards lift away to reveal a hollow beneath Cater's desk! The rats have made free with the biscuits he stored there against the peckishness which haunts the entrepreneur, but they could not penetrate this iron lock-box. A moment with a crowbar will open it.",
+            "startdescription": "Aqui está a sala capacitada em que o senhor deputado Cater observou os seus trabalhadores na fábrica. O vidro de janelas já se foi há muito tempo, e ratos e corvos fizeram este lugar da sua batalha, mas talvez ainda haja algo de útil aqui...",
+            "description": "Dois andares para longe para revelar uma mesa vazia sob a mesa de gato! Os ratos libertaram-se com os biscoitos que lá armazenava contra os espinhos que assombram o empreendedor, mas eles não conseguiram penetrar nesta caixa de bloqueio. Um momento com um cabbar vai abri-lo.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcapital4_success",
-            "label": "The Violet Chamber",
+            "label": "A Câmara Violeta",
             "actionid": "explore",
             "requirements": {
                 "vaultcapital4": 1
@@ -241,14 +241,14 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "What was this place? The door bore no sign. There were no windows. The walls were painted a rich violet - rich even now after the ravages of rain through the leaking ceiling. A rotting chair has leather straps on the arms. The floor is porcelain, and runnelled.",
-            "description": "There is a padlocked cupboard in the wall: it does not long resist our strength. It contains instruments tipped with flint and glass - instruments one would not expect a surgeon to use. It contains other matters of more interest to us too...",
+            "startdescription": "O que era este lugar? A porta não tinha placa. Não havia janelas. As paredes foram pintadas por um violeta rico - rico mesmo agora, depois dos danos da chuva através do teto de fugas de água. Uma cadeira podre tem correias de couro nos braços. O chão é porcelana e corredo.",
+            "description": "Há um armário enlatado na parede: não resiste durante muito tempo à nossa força. Contém instrumentos de ponta de sílex e vidro - instrumentos que não se pode esperar que um cirurgião utilize. Inclui outras questões que também nos interessam mais...",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultcapital5_success",
-            "label": "Secret Devotions",
+            "label": "Devoções Secretas",
             "actionid": "explore",
             "requirements": {
                 "vaultcapital5": 1
@@ -269,8 +269,8 @@
                 "defaultcard": "compensationb",
                 "resetonexhaustion": false
             },
-            "startdescription": "The minister's bed-chamber is grand in proportion, but sparsely furnished. Beneath the window, a feathered ornamental axe rests besides an enameled chalice-drum on a little altar of yew-wood.",
-            "description": "Beneath the altar, in a box secured with a complicated triple knot, we find a trove of books - and more besides - a knife rank with old blood, a twist of cloth, a leathery remnant of something the minister must have surrendered at his ordination.",
+            "startdescription": "A câmara de cama do ministro é proporcional mas pouco mobiliada. Sob a janela, um machado ornamental pendurado jaz além de um tambor enampejado em um pequeno altar de madeira tingida.",
+            "description": "Sob o altar, numa caixa garantida com um complicado nó triplo, encontramos um tesouro de livros - e mais do que isso - um rank de faca com sangue velho, uma torção de tecido, um resquício de couro de algo que o ministro deve ter renunciado à sua coordenação.",
             "warmup": 30,
             "craftable": false,
             "alt": [
@@ -282,7 +282,7 @@
         },
         {
             "id": "explorevaultcapitaldefault_success",
-            "label": "A Delayed Delivery",
+            "label": "Uma entrega atrasada",
             "actionid": "explore",
             "requirements": {
                 "vaultcapitaldefault": 1
@@ -294,8 +294,8 @@
             "deckeffects": {
                 "vaultrewardsa": 3
             },
-            "startdescription": "A barred door, a cramped space, a hidden cargo.",
-            "description": "The watchers here were guarding crates sealed with thief-signed ribbons. This was not a lawful operation: the owners of the cargo may not be pleased with our meddling.",
+            "startdescription": "Uma porta fechada, um espaço estampado, uma carga escondida.",
+            "description": "Os observadores aqui estavam guardando caixas seladas com tiras assinadas pelo ladrão. Não se tratava de uma operação legal: os proprietários da carga podem não estar satisfeitos com a nossa intromissão.",
             "warmup": 30,
             "craftable": false
         }
