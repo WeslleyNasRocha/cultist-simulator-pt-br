@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "waywood",
-            "label": "Way: The Wood",
-            "description": "I've learnt the path to the Wood, the tangled darkness that grows around the walls of the Mansus (though the Mansus has no walls). I can Dream with this to return to the Wood.",
+            "label": "Caminho: A Floresta",
+            "description": "Eu aprendí o caminho para a Floresta, a emaranhada escuridão que cresce em volta das paredes do Mansus (Embora o Mansus não tenha paredes). Eu posso Sonhar com isso para retornar à Foresta.",
             "aspects": {
                 "way": 1
             },
@@ -11,8 +11,8 @@
         },
         {
             "id": "waywhite",
-            "label": "Way: The White Door",
-            "description": "In my dreams, I've passed the White Door, which has been called the Bone Door and the Gate of Ivory. My voice remains outside the House each time I enter.",
+            "label": "Caminho: A Porta Branca",
+            "description": "Em meus sonhos, passei pela Porta Branca, que já foi chamada de Porta Óssea e Porta de Marfim. Minha voz continua fora da Casa toda vez que eu entro.",
             "aspects": {
                 "way": 1
             },
@@ -20,8 +20,8 @@
         },
         {
             "id": "waystagbefore_1",
-            "label": "Stag Door's Riddle",
-            "description": "'What may be lost?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
+            "label": "O Enigma da Porta do Veado",
+            "description": "'O que pode ser perdido?' Responda esse enigma para passar a Porta do Veado, e ser considerado um Conhecer.",
             "aspects": {
                 "riddle": 1,
                 "way": 1
@@ -30,8 +30,8 @@
         },
         {
             "id": "waystagbefore_2",
-            "label": "Stag Door's Riddle",
-            "description": "'Where is mercy found?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
+            "label": "O Enigma da Porta do Veado",
+            "description": "'Onde que a misericórdia é encontrada?' Responda esse enigma para passar a Porta do Veado, e ser considerado um Conhecer.",
             "aspects": {
                 "riddle": 1,
                 "way": 1
@@ -40,8 +40,8 @@
         },
         {
             "id": "waystagbefore_3",
-            "label": "Stag Door's Riddle",
-            "description": "'What are the words that make sacrifice sweet?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
+            "label": "O Enigma da Porta do Veado",
+            "description": "'Quais são as palavras que deixam o sacrifício doce?' Responda esse enigma para passar a Porta do Veado, e ser considerado um Conhecer.",
             "aspects": {
                 "riddle": 1,
                 "way": 1
@@ -50,8 +50,8 @@
         },
         {
             "id": "waystagbefore_4",
-            "label": "Stag Door's Riddle",
-            "description": "'What must open, before this Way opens?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
+            "label": "O Enigma da Porta do Veado",
+            "description": "'O que deve abrir, antes que esse Caminho abra?' Responda esse enigma para passar a Porta do Veado, e ser considerado um Conhecer.",
             "aspects": {
                 "riddle": 1,
                 "way": 1
@@ -60,8 +60,8 @@
         },
         {
             "id": "waystagbefore_5",
-            "label": "Stag Door's Riddle",
-            "description": "'Where is the queen who was not born?' Answer this riddle to pass the Stag Door, and be accounted a Know.",
+            "label": "O Enigma da Porta do Veado",
+            "description": "'Onde está a rainha que não nasceu?' Responda esse enigma para passar a Porta do Veado, e ser considerado um Conhecer.",
             "aspects": {
                 "riddle": 1,
                 "way": 1
@@ -70,8 +70,8 @@
         },
         {
             "id": "waystag_after",
-            "label": "Way: Through the Stag Door",
-            "description": "In my dreams, I've found the way to the Stag Door, sometimes called the Horn Gate or the Adept's Door. I have answered its riddle, and am counted among the Know.",
+            "label": "Caminho: Pela Porta do Veado",
+            "description": "Em meus sonhos, eu encontrei o caminho para a Porta do Veado, algumas vezes chamado de o Portão do Chifre ou a Porta do Adepto. Eu respondí a seu enigma, e sou considerado entre os Conhecer.",
             "aspects": {
                 "way": 1
             },
@@ -79,8 +79,8 @@
         },
         {
             "id": "wayspider",
-            "label": "Way: The Spider's Door",
-            "description": "In my dreams, I've found the way to the Spider's Door, sometimes called the Bloody Gate or, more informally, the Wrong Door.",
+            "label": "Caminho: A Porta da Aranha",
+            "description": "Em meus sonhos, eu encontrei o caminho para a Porta da Aranha, as vezes chamada de Portão Sangrento ou, mais informalmente, da Porta Errada.",
             "aspects": {
                 "way": 1
             },
@@ -88,8 +88,8 @@
         },
         {
             "id": "waypeacock",
-            "label": "Way: The Peacock's Door",
-            "description": "In my dreams, I've found the way to the Peacock's Door, sometimes called the Gate of Eyes, or Pride's Dismay.",
+            "label": "Caminho: A Porta do Pavão",
+            "description": "Em meus sonhos, eu encontrei o caminho para a Porta do Pavão, as vezes chamado de Portão dos Olhos, ou Desalento do Orgulho.",
             "aspects": {
                 "way": 1
             },
