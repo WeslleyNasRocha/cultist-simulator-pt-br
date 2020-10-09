@@ -1097,7 +1097,7 @@
         },
         {
             "id": "dreamusepeacockway",
-            "label": "O Caminho até a Porta do Pavão",
+            "label": "O Caminho à Porta do Pavão",
             "actionid": "dream",
             "requirements": {
                 "waypeacock": 1
@@ -1106,13 +1106,13 @@
                 {
                     "id": "Ascent",
                     "label": "Ascensão",
-                    "description": "A porta do pavão não está aberta, exatamente.",
+                    "description": "A Porta do Pavão não está, exatamente, aberta.",
                     "required": {
                         "tool": 1
                     }
                 }
             ],
-            "startdescription": "Nos meus sonhos, conheço o caminho através do jardim de Glass, até à porta do Pavão: a mais admirável das portas, a porta que brilha como um espelho. Talvez, com os recursos adequados, eu possa passar. ",
+            "startdescription": "Nos meus sonhos, eu conheço o caminho pelo Jardim-de-Vidro até à Porta do Pavão: a mais admirável das Portas, a Porta que brilha como um espelho. Talvez, como os recursos corretos, eu possa atravessá-la. ",
             "description": "A Porta do pavão é roxa como a gema mais doce, como a fruta mais madura, como a mais profunda. Leva meu reflexo e não retorna nada. Quando eu acordar, não me lembrarei do meu sonho.",
             "craftable": true,
             "aspects": {
@@ -1140,14 +1140,14 @@
         },
         {
             "id": "dreamenterpeacockmirror",
-            "label": "Passando a Porta da Parede",
+            "label": "Passando a Porta do Pavão",
             "actionid": "dream",
             "craftable": false,
             "requirements": {
                 "waypeacock": 1,
                 "mirror": 1
             },
-            "startdescription": "A Porta do Pavão reflete o espelho que guardo no meu sono, e o espelho reflete a Porta do Pavão. Já é uma sensação de arrepio que corta sua superfície. Dói-me por fratura, e quando encontra essa satisfação, vou entrar.",
+            "startdescription": "A Porta do Pavão reflete o espelho que seguro em meu sonho, e o espelho reflete a Porta do Pavão. Já um sensível tremer ondula em sua superfície. Ele cobiça pela fratura, e quando encontrar essa satisfação, eu entrarei.",
             "description": ".",
             "alt": [
                 {
@@ -1163,7 +1163,7 @@
         },
         {
             "id": "dreamenterpeacockfrangiclave",
-            "label": "Passando a Porta da Parede",
+            "label": "Passando a Porta do Pavão",
             "actionid": "dream",
             "craftable": false,
             "requirements": {
@@ -1184,8 +1184,8 @@
         {
             "id": "poison.long.way.trap",
             "actionid": "poison.long.way.trap",
-            "label": "O relógio no caminho",
-            "startdescription": "O longo tempo colocou cartógrafos invisíveis no portão, para me observar enquanto passei e me mapeia como um país semiconhecido.",
+            "label": "O Assistir sobre o Caminho",
+            "startdescription": "O Longo colocou cartógrafos invisíveis no portão, para observar-me enquanto passo e mapear-me como um semi-conhecido país.",
             "requirements": {
                 "poison.way.long": 1
             },
@@ -1201,7 +1201,7 @@
             "requirements": {
                 "sendingheartg": 1
             },
-            "startdescription": "O vento sobe e o telhado chacota enquanto eu me estabeleço para dormir. Há uma erva amarga que vai me ajudar a passar do meu corpo. A Madeira abre ao meu redor, mas com meus olhos novos, vejo outro caminho agora. O chamado Marinette aguarda por esse caminho, com a chave que me terminará e me começará.",
+            "startdescription": "O vento sobe e o telhado crepita enquanto eu coloco-me para dormir. Há uma amarga erva que ajudar-me-á a passar de meu corpo. A Floresta abre-se em minha volta, mas com meus novos olhos, eu vejo um outro caminho. Aquele chamado Marinette espera pelo caminho, com a Chave que encerrar-me-á e iniciar-me-á.",
             "warmup": 30,
             "craftable": true,
             "signalEndingFlavour": "Grand",
@@ -1236,24 +1236,24 @@
         },
         {
             "id": "dreamheartvictory",
-            "label": "O Portão Kingskin",
+            "label": "O Portão da Pele-Real",
             "actionid": "dream",
             "requirements": {
                 "sendingheartg": 1
             },
-            "startdescription": "Marinette espera na sombra de uma árvore de pinheiro, brilho da pele escura, cintilação de osso branco, garras brilhantes como latão. Ela carrega uma chave vermelha que pode ser uma faca sangrenta ou uma ferida enferrujada. Quando ela diminui, a dor é vermelha.",
+            "startdescription": "Marinette espera nas sombras de uma araucária, sua negra pela brilhando, seus brancos ossos tremeluzindo, garras brilhantes como latão. Ela carrega a rubra Chave que talvez seja uma sangrenta faca ou uma ferida rubí. Quando ela traz-a para baixo, a dor dela é toda vermelha.",
             "ending": "minorheartvictory",
             "warmup": 30
         },
         {
             "id": "dreamheartvictory_withrisen",
-            "label": "O Portão Kingskin",
+            "label": "O Portão da Pele-Real",
             "actionid": "dream",
             "requirements": {
                 "sendingheartg": 1,
                 "summoned": 1
             },
-            "startdescription": "Marinette espera na sombra de uma árvore de pinheiro, brilho da pele escura, cintilação de osso branco, garras brilhantes como latão. Ela carrega uma chave vermelha que pode ser uma faca sangrenta ou uma ferida enferrujada. Quando ela diminui, a dor é vermelha.\n\nNo lugar escuro debaixo das árvores, minha amada morta vigia com sua pele que é machada, seus olhos que são lâmpadas.",
+            "startdescription": "Marinette espera nas sombras de uma araucária, sua negra pela brilhando, seus brancos ossos tremeluzindo, garras brilhantes como latão. Ela carrega a rubra Chave que talvez seja uma sangrenta faca ou uma ferida rubí. Quando ela traz-a para baixo, a dor dela é toda vermelha.\n\nNo obscuro lugar debaixo das árvores, minha defunta amada assiste, com sua pele que é manchada, seus olhos que são lámpadas.",
             "ending": "minorheartvictorywithrisen",
             "warmup": 10
         },
@@ -1264,7 +1264,7 @@
             "requirements": {
                 "sendingmothg": 1
             },
-            "startdescription": "Eu descendo o caminho bem conhecido do sono, até que a Madeira fique clara antes de mim com suas árvores resplandecentes e caminhos com borda sombria. A porta na madeira está debaixo das águas do poço. Eu sei que agora. Não posso passar ele vivo e não posso passar ele morto. Medusa, que não está vivendo nem morto, irá limpar o caminho. Eu entro em uma troca.",
+            "startdescription": "Eu descendo nos familiares caminhos do sonho, até que a Floresta torna-se clara defronte de mim com suas agarrantes árvores e franjados-e-escurecidos caminhos. A Porta da Floresta está debaixo das águas do poço. Eu disso agora. Eu não posso passá-la vivo e não posso passá-la morto. Medusa, que não está viva nem morta, limpará o caminho. Eu começarei a trotear.",
             "warmup": 30,
             "craftable": true,
             "signalEndingFlavour": "Grand",
@@ -1299,35 +1299,35 @@
         },
         {
             "id": "dreammothvictory",
-            "label": "A porta na madeira",
+            "label": "A Porta na Floresta",
             "actionid": "dream",
             "requirements": {
                 "sendingmothg": 1
             },
-            "startdescription": "O luar faz com que as árvores sejam pregadas pelo povo, para enclausurar as raízes, para tocar os membros gêmeos da Medusa onde espera pelo poço. Ela levanta os braços que pingam, que têm um Key pálido, torcendo como um verme curvado. Eu me joelhei, uma veada vermelha e ofereço o pescoço. Um gusa de sangue derrama no poço; e então a Medusa começa a entalhar minha nova forma.",
+            "startdescription": "O luar cisa as árvores para enegrecer aquilo que o poço contém, para retratar as raízes-das-árvores, para tocar os gêmeos membros da Medusa, que espera pelo peço. Ela levanta seus pingantes braços, que seguram uma pálida Chave, girando como uma minhoca com presas. Eu me ajoelho, um rubro veado, e ofereço meu pescoço. Uma gota de sangue derrama-se no poço; e então Medusa começa a entalhar minha nova forma.",
             "ending": "minormothvictory",
             "warmup": 30
         },
         {
             "id": "dreammothvictory_withrisen",
-            "label": "A porta na madeira",
+            "label": "A Porta na Floresta",
             "actionid": "dream",
             "requirements": {
                 "sendingmothg": 1,
                 "summoned": 1
             },
-            "startdescription": "O luar faz com que as árvores sejam pregadas pelo povo, para enclausurar as raízes, para tocar os membros gêmeos da Medusa onde espera pelo poço. Ela levanta os braços que pingam, que têm um Key pálido, torcendo como um verme preso. Eu me ajoelhei, uma veada vermelha, e ofereço o meu pescoço. Um gusa de sangue derrama no poço; e então a Medusa começa a entalhar minha nova forma. \n\nNo lugar escuro debaixo das árvores, minha amada morta vigia com sua pele que é machada, seus olhos que são lâmpadas.",
+            "startdescription": "O luar cisa as árvores para enegrecer aquilo que o poço contém, para retratar as raízes-das-árvores, para tocar os gêmeos membros da Medusa, que espera pelo peço. Ela levanta seus pingantes braços, que seguram uma pálida Chave, girando como uma minhoca com presas. Eu me ajoelho, um rubro veado, e ofereço meu pescoço. Uma gota de sangue derrama-se no poço; e então Medusa começa a entalhar minha nova forma.\n\nNo obscuro lugar debaixo das árvores, minha defunta amada assiste, com sua pele que é manchada, seus olhos que são lámpadas.",
             "ending": "minormothvictorywithrisen",
             "warmup": 10
         },
         {
             "id": "dreammeniscatevictoryintro",
-            "label": "Sem as paredes",
+            "label": "Fora das Paredes",
             "actionid": "dream",
             "requirements": {
                 "sendingmothheartg": 1
             },
-            "startdescription": "Eu descendo o caminho bem conhecido do sono, até que a Madeira fique clara antes de mim com suas árvores resplandecentes e caminhos com borda sombria. Mas esta não é a Madeira que conheço. São todas árvores de vidoeiro, brancas como lua e o luar é preto como tinta. Sob sua pressão, as peles brancas começam a brilhar e depois a sangrar. Quebro uma troca, então uma galopa. Tenho de chegar até o povo, antes de acordar, ou antes de algo pior, ",
+            "startdescription": "Eu descendo nos familiares caminhos do sonho, até que a Floresta torna-se clara defronte de mim com suas agarrantes árvores e franjados-e-escurecidos caminhos. Mas essa não é a Floresta que conheço. Ela é inteira de bétulas árvores, branca como o luar, e o luar é preto como tinta. Debaixo de sua pressão, as brancas peles das árvores começam a brilhar, e depois a sangrar. Eu começo a trotar, e depois a galopar. Eu devo chegar ao Poço, antes que acorde ou antes de algo pior - ",
             "warmup": 30,
             "craftable": true,
             "signalEndingFlavour": "Grand",
@@ -1379,23 +1379,23 @@
                 "sendingmothheartg": 1,
                 "summoned": 1
             },
-            "startdescription": "Minha pele está triturando agora. O poço está à frente, mas a lua está mudando, é preta, é ouro, é pérola. O sangue do poço é um espelho vermelho, e três deles se erguem, e seus rostos são meus, são chifres como a Lua, a maior segura uma chave de safira preta e quando separa meu corpo é alugado como um relâmpago, e O QUE É COM, SEM SEM QUE ESTÁ SEM SEM SIM, SEM SEM -",
+            "startdescription": "Minha pele rasga-se agora. O poço está a frente, mas o luar está mudando-se, é negro, é dourado, é pérola. O sangue do Poço é um rubro espelho, e três deles levantam-se, e suas faças são minhas, chifrudos como a lua, o maior tem a chave da negra safira e quando parte minha pele de meu corpo é dilacerado como um raio, e O Q UE É DENTRO, FORA, O QUE É FORA, DENTRO",
             "ending": "minormeniscatevictorywithrisen",
             "warmup": 30
         },
         {
             "id": "belovedfarewelldream",
-            "label": "A escolha de limite",
+            "label": "A Escolha do Limiar",
             "actionid": "dream",
             "requirements": {
                 "romanticinterest": 1
             },
-            "startdescription": "O fim do despedimento, eles permanecerão, e eu vou subir.",
+            "startdescription": "O último despedir. Eles ficaram, eu ascenderei.",
             "slots": [
                 {
                     "id": "decision",
                     "label": "Decisão",
-                    "description": "[Adicione paixão para se afastar do seu ascensão... e viver como um mortal com o seu amado. Não faça nada para continuar.]",
+                    "description": "[Adicione Paixão para afastar-se de sua ascensão... e viver como um mortal com o sua amada. Não faça nada para continuar.]",
                     "required": {
                         "passion": 1
                     }
