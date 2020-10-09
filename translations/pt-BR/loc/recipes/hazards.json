@@ -2,21 +2,21 @@
     "recipes": [
         {
             "id": "despairrisk",
-            "label": "Bleak Thoughts",
+            "label": "Pensamentos vazados",
             "actionid": "despair",
             "requirements": {},
             "effects": {},
             "slots": [
                 {
                     "id": "Shadows",
-                    "label": "Shadows",
+                    "label": "Sombras",
                     "required": {
                         "inducesdespair": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "Dark days. I must be careful not to let doubts creep in. [Dread may provoke full-fledged Despair.]",
+            "startdescription": "Dias sombrios. Preciso ter cuidado para não deixar dúvidas assustarem. [O Pavimento pode provocar o Desespero completo.]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -33,18 +33,18 @@
         },
         {
             "id": "despairactive",
-            "label": "DESPAIR",
+            "label": "DESPAR",
             "actionid": "despair",
             "requirements": {
                 "inducesdespair": 1
             },
-            "startdescription": "Despair is the wolf that devours thought. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+            "startdescription": "O desespero é o lobo que devora pensava. [Você pode derrotar o Desespero alimentando-se de Conteúdo; caso contrário, ele irá te destruir quando chegar a 3 Dread.]",
             "description": ".",
             "warmup": 60,
             "slots": [
                 {
                     "id": "Thoughts",
-                    "label": "Thoughts",
+                    "label": "Pensamentos",
                     "required": {
                         "contentment": 1,
                         "inducesdespair": 1
@@ -77,13 +77,13 @@
         },
         {
             "id": "despairwarning",
-            "label": "DESPAIR",
+            "label": "DESPAR",
             "actionid": "despair",
             "requirements": {
                 "dread": 2,
                 "contentment": -1
             },
-            "startdescription": "Despair pads close at my heels. The world is leached of light. [You can defeat Despair by feeding it Contentment; otherwise, it will destroy you when it reaches 3 Dread.]",
+            "startdescription": "Desespero fecham os calcanhares. O mundo fica com luz. [Você pode derrotar o Desespero alimentando o Conteúdo; caso contrário, ele irá destruí-lo quando chegar a 3 Dread.]",
             "description": ".",
             "comments": "This exists specifically for the burn image at 2 Dread.",
             "burnimage": "despair",
@@ -104,7 +104,7 @@
         },
         {
             "id": "despairabate",
-            "label": "Despair Abates",
+            "label": "Despertar descontos",
             "actionid": "despair",
             "requirements": {
                 "contentment": 1
@@ -113,7 +113,7 @@
                 "inducesdespair": -1,
                 "contentment": -1
             },
-            "startdescription": "Memories of better times keep the wolf from the door. [Each Contentment destroys one Dread.]",
+            "startdescription": "Memórias de melhores tempos mantêm o lobo da porta. [Cada Conteúdo destrói um Dread.]",
             "description": ".",
             "warmup": 10,
             "craftable": false,
@@ -130,7 +130,7 @@
         },
         {
             "id": "despairdeath",
-            "label": "DESPAIR OVERWHELMS ME",
+            "label": "DESPAR SOPRADORES ME",
             "actionid": "despair",
             "requirements": {
                 "inducesdespair": 3
@@ -138,7 +138,7 @@
             "slots": [
                 {
                     "id": "Thoughts",
-                    "label": "Thoughts",
+                    "label": "Pensamentos",
                     "required": {
                         "contentment": 1
                     },
@@ -146,8 +146,8 @@
                 }
             ],
             "effects": {},
-            "startdescription": "This is almost the end - [Find Contentment now, or it's over.]",
-            "description": "Where will they find me? I am not here.",
+            "startdescription": "Este é quase o fim - [Encontrar conteúdo agora, ou acabou.]",
+            "description": "Onde eles vão me encontrar? Eu não estou aqui.",
             "warmup": 60,
             "craftable": false,
             "alt": [
@@ -162,31 +162,31 @@
         },
         {
             "id": "despairdefeated",
-            "label": "The Clouds Part",
+            "label": "A Parte das Nuvens",
             "actionid": "despair",
             "effects": {
                 "fleeting": 1
             },
             "startdescription": ".",
-            "description": "The wolf Despair prowls elsewhere. [No Dread empowers this Despair. It's over, for now.]",
+            "description": "Os lobos desespero de lobo em outros lugares. [Nenhum pau alimenta este desespero. Finalizou, por enquanto.]",
             "craftable": false
         },
         {
             "id": "visionsrisk",
-            "label": "A Trembling in the Air",
+            "label": "Uma Trembling no Ar",
             "actionid": "visions",
             "requirements": {},
             "slots": [
                 {
                     "id": "Shadows",
-                    "label": "Shadows",
+                    "label": "Sombras",
                     "required": {
                         "fascination": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "The sun flickers like a shadow. Dreams ripple behind the surface of mirrors. I must be careful not to drift from the waking world. [Fascination may provoke Visions]",
+            "startdescription": "O sol treme como uma sombra. Sonhos ondulam atrás da superfície dos espelhos. Preciso ter cuidado para não sair do mundo acordar. [A fascinação pode provocar Visions]",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -203,18 +203,18 @@
         },
         {
             "id": "visionsactive",
-            "label": "I Am Seeing Things",
+            "label": "Eu estou vendo coisas",
             "actionid": "visions",
             "requirements": {
                 "fascination": 1
             },
-            "startdescription": "Paintings whisper. Windows wink. I know these things are not true, but how can I be certain? [You can defeat Visions with Dread or a Fleeting Memory; otherwise, you will lose yourself completely at Fascination 3.]",
+            "startdescription": "Sussurro de pinturas. Windows pisca. Eu sei que estas coisas não são verdadeiras, mas como posso ter certeza? [Você pode derrotar Visões com Pavoroso ou uma Memória Flutuante; caso contrário, você perderá completamente em Fascinação 3.]",
             "description": ".",
             "warmup": 60,
             "slots": [
                 {
                     "id": "Thoughts",
-                    "label": "Thoughts",
+                    "label": "Pensamentos",
                     "required": {
                         "dread": 1,
                         "fascination": 1,
@@ -252,14 +252,14 @@
         },
         {
             "id": "visionswarning",
-            "label": "I Am Seeing Things!",
+            "label": "Eu estou vendo coisas!",
             "actionid": "visions",
             "requirements": {
                 "fascination": 2,
                 "dread": -1,
                 "fleeting": -1
             },
-            "startdescription": "The world is dangerously bright. [You can defeat Visions with Dread or a Fleeting Memory; otherwise, you will lose yourself completely at Fascination 3.]",
+            "startdescription": "O mundo é perigosamente brilhante. [Você pode derrotar Visões com Pavorosos ou Memória Flandres; caso contrário, você perderá completamente em Fascinação 3.]",
             "description": ".",
             "comments": "This exists specifically for the burn image at 2 Fascination.",
             "burnimage": "visions",
@@ -284,7 +284,7 @@
         },
         {
             "id": "visionsdeath",
-            "label": "Help Me - ",
+            "label": "Me ajude - ",
             "actionid": "visions",
             "requirements": {
                 "fascination": 3
@@ -292,7 +292,7 @@
             "slots": [
                 {
                     "id": "Thoughts",
-                    "label": "Thoughts",
+                    "label": "Pensamentos",
                     "required": {
                         "dread": 1,
                         "fleeting": 1
@@ -301,8 +301,8 @@
                 }
             ],
             "effects": {},
-            "startdescription": "What is the light that brims the surface of everything? The Glory is coming, but I cannot be here to see it - [If you don't find Dread or a Fleeting Memory now, it's over.]",
-            "description": "Where will they find me? I am not here.",
+            "startdescription": "Qual é a luz que borra a superfície de tudo? A Glória está chegando, mas eu não posso estar aqui para vê-la - [Se você não encontrar o Pão ou uma memória Fajosa agora, acabou.]",
+            "description": "Onde eles vão me encontrar? Eu não estou aqui.",
             "warmup": 60,
             "craftable": false,
             "alt": [
@@ -320,7 +320,7 @@
         },
         {
             "id": "visionsabate",
-            "label": "Visions Abate",
+            "label": "Visões Abatidas",
             "actionid": "visions",
             "requirements": {
                 "dread": 1
@@ -329,7 +329,7 @@
                 "fascination": -1,
                 "dread": -1
             },
-            "startdescription": "Shadows are shelter from light. Despair is ballast. Even misery has its uses. [Each Dread quells one Fascination.]",
+            "startdescription": "Sombras são um abrigo da luz. O desespero é morro. Até mesmo a miséria tem seus usos. [Cada Dread pinga uma Fascinação.]",
             "description": ".",
             "warmup": 10,
             "craftable": false,
@@ -346,7 +346,7 @@
         },
         {
             "id": "visionsabatefleeting",
-            "label": "Visions Abate",
+            "label": "Visões Abatidas",
             "actionid": "visions",
             "requirements": {
                 "fleeting": 1
@@ -355,7 +355,7 @@
                 "fascination": -1,
                 "fleeting": -1
             },
-            "startdescription": "The solidity of the everyday banishes phantoms. I tether myself to the everyday. [Each Fleeting Memory quells one Fascination.]",
+            "startdescription": "A solidez do dia a dia elimina os fantasmas. Me adapto todos os dias. [Cada Memória Flamejante diminui uma Fascinação.]",
             "description": ".",
             "warmup": 10,
             "craftable": false,
@@ -372,20 +372,20 @@
         },
         {
             "id": "visionsdefeated",
-            "label": "The World as it Is",
+            "label": "O Mundo tal como está",
             "actionid": "visions",
             "effects": {
                 "fleeting": 1
             },
             "startdescription": ".",
-            "description": "Mirrors are calm. The sun is steady. The Glory recedes. I am sane, if that means anything. [No Fascination drives your Visions. It's over, for now.]",
+            "description": "Espelhos estão calmos. O sol está fixo. A Glória se ergue. Eu sou santo, se isso significa alguma coisa. [Nenhuma Fascinação dirige suas Visões. Já acabou.]",
             "craftable": false
         },
         {
             "id": "curse_dread_dormant",
-            "label": "Dormant Dry Soul Curse",
+            "label": "Maldição de alma seca Adormecida",
             "actionid": "curse_dread",
-            "startdescription": "The Dry Soul Curse has not yet taken effect.",
+            "startdescription": "A Maldição da Alma Seca ainda não entrou em vigor.",
             "alt": [
                 {
                     "id": "curse_dread_active",
@@ -403,16 +403,16 @@
         },
         {
             "id": "curse_dread_active",
-            "label": "Dry Soul Curse",
+            "label": "Maldição de Alma Seca",
             "requirements": {
                 "reason": -1
             },
             "actionid": "curse_dread",
-            "startdescription": "The Dry Soul Curse settles softly, like a withered hand on the shoulder.",
+            "startdescription": "A Maldição de Alma Seca se lança suavemente, como uma mão murchada no ombro.",
             "slots": [
                 {
                     "id": "Reason",
-                    "label": "Reason",
+                    "label": "Motivo",
                     "greedy": true,
                     "required": {
                         "reason": 1
@@ -433,12 +433,12 @@
         },
         {
             "id": "curse_dread_attempt_mitigation",
-            "label": "The Dry Soul Curse: A Last Chance",
+            "label": "Maldição de alma seca: uma última chance",
             "actionid": "curse_dread",
             "slots": [
                 {
                     "id": "Protection",
-                    "label": "Protection",
+                    "label": "Proteção",
                     "required": {
                         "influencehearte": 1,
                         "influenceheartg": 1
@@ -451,8 +451,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "The Curse has taken hold. Now the tunnel tightens around all I see. [Only if you have enough Heart influence will it be possible to turn aside the Curse.]",
-            "description": "My skull creaks. The light greys.",
+            "startdescription": "A Maldição se segurou. Agora o túnel aperta em torno de tudo o que eu vejo. [Só se você tiver influência cardíaca suficiente será possível deixar de lado a Maldição.]",
+            "description": "Meu crânio racha. Cinza a luz.",
             "aspects": {
                 "damagereason": 1
             },
@@ -460,7 +460,7 @@
         },
         {
             "id": "curse_dread_mitigation_successful",
-            "label": "The Thunderskin's Favour",
+            "label": "Favor do Thunderskin",
             "actionid": "curse_dread",
             "requirements": {
                 "influence": 1
@@ -468,14 +468,14 @@
             "effects": {
                 "influence": -1
             },
-            "startdescription": "Tap the drum and speak the words. Keep hope alive until the chant is done.",
-            "description": "My soul swells again. The Curse has passed. Far off, on the horizon, the storm moves like a watchful beast."
+            "startdescription": "Toque no tambor e fale as palavras. Mantenha a esperança viva até que o canto seja feito.",
+            "description": "Minha alma incha de novo. A Maldição passou. Muito longe, no horizonte, a tempestade se move como uma besta vigilante."
         },
         {
             "id": "curse_visions_dormant",
-            "label": "Dormant Fifth Eye Curse",
+            "label": "Adormecido Quinto Olho Maldição",
             "actionid": "curse_visions",
-            "startdescription": "The Fifth Eye Curse has not yet taken effect.",
+            "startdescription": "A Quinta Maldição dos Olhos ainda não entrou em vigor.",
             "alt": [
                 {
                     "id": "curse_visions_active",
@@ -493,16 +493,16 @@
         },
         {
             "id": "curse_visions_active",
-            "label": "Fifth Eye Curse",
+            "label": "Quinto Olho Maldição",
             "actionid": "curse_visions",
             "requirements": {
                 "passion": -1
             },
-            "startdescription": "The Third Eye is a myth, or the pineal gland. The Fourth Eye is a Mark in certain processes of ascension. The Fifth Eye now opens before me.",
+            "startdescription": "O Terceiro Olho é um mito, ou a glândula pinal. O Quarto Olho é um marco em certos processos de ascensão e o Quinto Olho abre agora à minha frente.",
             "slots": [
                 {
                     "id": "Passion",
-                    "label": "Passion",
+                    "label": "Paixão",
                     "greedy": true,
                     "required": {
                         "passion": 1
@@ -523,12 +523,12 @@
         },
         {
             "id": "curse_visions_attempt_mitigation",
-            "label": "The Fifth Eye Curse: A Last Chance",
+            "label": "O Quinto Olho Maldito: Uma Última Chance",
             "actionid": "curse_visions",
             "slots": [
                 {
                     "id": "Protection",
-                    "label": "Protection",
+                    "label": "Proteção",
                     "required": {
                         "influencehearte": 1,
                         "influenceheartg": 1
@@ -541,8 +541,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "The Curse has taken hold. Now the world, rotting, leaks light. [With enough Heart influence, it will be possible to turn aside the Curse.]",
-            "description": "I cannot stop seeing. If I look long enough, I will not wish to.",
+            "startdescription": "A Maldição ficou firme. Agora o mundo, apodrece, vaza luz. [Com influência suficiente do coração, será possível deixar de lado a Maldição.]",
+            "description": "Não consigo parar de ver; se olhar para o tempo suficiente, não vou querer.",
             "aspects": {
                 "damagepassion": 1
             },
@@ -550,7 +550,7 @@
         },
         {
             "id": "curse_visions_mitigation_successful",
-            "label": "The Thunderskin's Favour",
+            "label": "Favor do Thunderskin",
             "actionid": "curse_visions",
             "requirements": {
                 "influence": 1
@@ -558,14 +558,14 @@
             "effects": {
                 "influence": -1
             },
-            "startdescription": "Tap the drum and speak the words. I will close all my eyes until the chant is done.",
-            "description": "My eyes are clear. The Curse has passed. Far off, on the horizon, the storm moves like a watchful beast."
+            "startdescription": "Toque no tambor e fale as palavras. Vou fechar os olhos até que o canto termine.",
+            "description": "Os meus olhos estão limpos. A Maldição passou. Distantemente, no horizonte, a tempestade se move como uma besta vigilante."
         },
         {
             "id": "curse_affliction_dormant",
-            "label": "Dormant Creeping Breath Curse",
+            "label": "Maldição Adormecida de Respiração",
             "actionid": "curse_affliction",
-            "startdescription": "The Creeping Breath curse has not yet come due.",
+            "startdescription": "A maldição do Respiração Creeping ainda não chegou.",
             "alt": [
                 {
                     "id": "curse_affliction_active",
@@ -583,16 +583,16 @@
         },
         {
             "id": "curse_affliction_active",
-            "label": "Creeping Breath Curse",
+            "label": "Maldição de Respiração",
             "actionid": "curse_affliction",
             "requirements": {
                 "health": -1
             },
-            "startdescription": "The Creeping Breath Curse begins with a cough - a cough that loiters in one's throat like a debt-collector.",
+            "startdescription": "A Maldição de Respiração Creeping começa com uma tosse - uma tosse que se deita na garganta como um cobrador de dívidas.",
             "slots": [
                 {
                     "id": "Health",
-                    "label": "Health",
+                    "label": "Vida",
                     "greedy": true,
                     "required": {
                         "health": 1
@@ -613,12 +613,12 @@
         },
         {
             "id": "curse_affliction_attempt_mitigation",
-            "label": "The Creeping Breath Curse: A Last Chance",
+            "label": "A Maldição de Respiração Respiração: Uma última chance",
             "actionid": "curse_affliction",
             "slots": [
                 {
                     "id": "Protection",
-                    "label": "Protection",
+                    "label": "Proteção",
                     "required": {
                         "influencehearte": 1,
                         "influenceheartg": 1
@@ -631,8 +631,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "The Curse has taken hold. Now the life-pulse slows. [The Curse is no ordinary sickness, but with enough Heart influence, it will be possible to turn it aside.]",
-            "description": "Each breath we take in this life is weaker than the last, until we come to the final breath of all. The process is so slow as to be imperceptible... until one is touched by the Creeping Breath Curse.",
+            "startdescription": "A Maldição espreitou. Agora o pulso de vida diminui. [A Maldição não é uma doença comum, mas com influência suficiente no coração, será possível colocá-la de lado. ]",
+            "description": "Cada respiração que damos a esta vida é mais fraca do que a anterior, até chegarmos ao último fôlego de todos. O processo é tão lento que é imperceptível... até que seja tocado pela Fruta de Respiração de Creeping.",
             "aspects": {
                 "destroyhealth": 1
             },
@@ -640,7 +640,7 @@
         },
         {
             "id": "curse_affliction_mitigation_successful",
-            "label": "The Thunderskin's Favour",
+            "label": "Favor do Thunderskin",
             "actionid": "curse_affliction",
             "requirements": {
                 "influence": 1
@@ -648,14 +648,14 @@
             "effects": {
                 "influence": -1
             },
-            "startdescription": "Tap the drum and speak the words. Suppress the cough until the chant is done.",
-            "description": "My lungs are clear. The Curse has passed. Far off, on the horizon, the storm moves like a watchful beast."
+            "startdescription": "Toque no tambor e fale as palavras. Suprima a tosse até que o canto termine.",
+            "description": "Os meus pulmões estão claros. A maldição passou. Longe disso, no horizonte, a tempestade se move como um animal vigilante."
         },
         {
             "id": "curse_nowhere_dormant",
-            "label": "Something's Come Back With Us",
+            "label": "Alguma coisa está voltando conosco",
             "actionid": "curse_nowhere",
-            "startdescription": "I glimpse subtle movement in the world - like the floaters which sometimes move through the eye, but slyer. Sometimes, too, I hear them.",
+            "startdescription": "Vejo um movimento subtil no mundo - como os flutuadores que por vezes passam pelos olhos, mas que por vezes também os ouço.",
             "alt": [
                 {
                     "id": "curse_nowhere_active",
@@ -673,16 +673,16 @@
         },
         {
             "id": "curse_nowhere_active",
-            "label": "The Worms in the World",
+            "label": "Os Vermes do Mundo",
             "actionid": "curse_nowhere",
             "requirements": {
                 "mortal": -1
             },
-            "startdescription": "There are Worms in the city. One does not see Worms, but neither does one forget them. They will search until they find someone they can enter through the spaces in the skin, and then do what Worms will.",
+            "startdescription": "Há Vermes na cidade. Não se vê Vermão, mas também não se esquece deles. Eles buscarão até encontrarem alguém que possa entrar pelos espaços na pele e então fazer o que os vermes irão.",
             "slots": [
                 {
                     "id": "Someone",
-                    "label": "Someone",
+                    "label": "Alguém",
                     "greedy": true,
                     "required": {
                         "mortal": 1
@@ -703,12 +703,12 @@
         },
         {
             "id": "curse_nowhere_attempt_mitigation",
-            "label": "The Worms in the World: A Last Chance",
+            "label": "Vermes no Mundo: Última Chance",
             "actionid": "curse_nowhere",
             "slots": [
                 {
                     "id": "Protection",
-                    "label": "Protection",
+                    "label": "Proteção",
                     "required": {
                         "influenceheartg": 1
                     }
@@ -720,8 +720,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "The Worms have found their way beneath the skin. This is the end. [It's possible to save this one only if you have a tremendous degree of Heart influence at your disposal.]",
-            "description": "When Worms take flesh, there is nothing to be done except destroy what remains - burn and sift with the utmost care.",
+            "startdescription": "Os Vermes encontraram seu caminho embaixo da pele. Este é o fim. [É possível salvar este apenas se você tiver um tremendo grau de influência do Coração à sua disposição.]",
+            "description": "Quando os vermes tomam corpo, nada há a fazer a não ser destruir o que resta - queimar e penetrar com o máximo cuidado.",
             "effects": {
                 "mortal": -1,
                 "notoriety": 1,
@@ -731,7 +731,7 @@
         },
         {
             "id": "curse_nowhere_mitigation_successful",
-            "label": "The Thunderskin's Favour",
+            "label": "Favor do Thunderskin",
             "actionid": "curse_nowhere",
             "requirements": {
                 "influence": 1
@@ -739,8 +739,8 @@
             "effects": {
                 "influence": -1
             },
-            "startdescription": "Implore the lightning. Only the storm's own breath can save this one now.",
-            "description": "The absence of the Worms is like a curtain flung open. The air is rain-scent and ozone. Our fingers still tap to the Thunderskin's rhythms."
+            "startdescription": "Lamentamos o relâmpago. Somente o sopro próprio da tempestade pode salvar este agora.",
+            "description": "A ausência dos Vermes é como uma cortina estourou. O ar é chumbo e ozono. Nossos dedos ainda tocam nos ritmos do Thunderskin."
         }
     ]
 }
