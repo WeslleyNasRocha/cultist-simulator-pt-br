@@ -14,32 +14,32 @@
         },
         {
             "id": "benefactor",
-            "label": "Benefício",
+            "label": "Benfeitor",
             "description": "Um aficionado do meu trabalho, com o qual me aproximei.",
             "isAspect": true
         },
         {
             "id": "follower",
             "label": "Seguidor",
-            "description": "Aluno, ajude,defensores, campeão, duc, sacrifício... companheiro.",
+            "description": "Aluno, ajudante, defensor, campeão, bobo, sacrifício... companheiro.",
             "isAspect": true
         },
         {
             "id": "hireling",
-            "label": "Contratando",
+            "label": "Contratado",
             "description": "Há algum tempo que negocio o serviço desta pessoa.",
             "isAspect": true
         },
         {
             "id": "disciple",
             "label": "Discípulo",
-            "description": "Uma verdadeira iniciação dos mistérios.",
+            "description": "Um verdadeiro iniciado nos mistérios.",
             "isAspect": true
         },
         {
             "id": "devotee",
-            "label": "Devotee",
-            "description": "Há pouco, a dedicação desta pessoa é excessiva. Mas em breve poderá desvanecer-se e então poderá questionar-se sobre o que fizeram.",
+            "label": "Devoto",
+            "description": "A dedicação deste tudo consome. Mas em breve poderá desaparecer, e então este questionar-se-á sobre que fez.",
             "isAspect": true
         },
         {
@@ -51,24 +51,24 @@
         {
             "id": "prisoner",
             "label": "Prisioneiro",
-            "description": "Tenho esta na palma da minha mão.",
+            "description": "Tenho este na palma da minha mão.",
             "isAspect": true
         },
         {
             "id": "hunter",
             "label": "Caçador",
-            "description": "As leis da civilização são mais novas do que as leis dos horários, mas também elas, por vezes, exigem um sacrifício. Este é um agente da lei.",
+            "description": "As leis da civilização são mais novas do que as leis das Horas, mas elas, também, por vezes exigem um sacrifício. Este é um agente da lei.",
             "isAspect": true
         },
         {
             "id": "patron",
             "label": "Patrono",
-            "description": "Uma figura de nota nos círculos em que me mudo.",
+            "description": "Uma figura de nota nos círculos em que me movo.",
             "isAspect": true
         },
         {
             "id": "approval",
-            "label": "Aprovacao",
+            "label": "Aprovação",
             "description": "Alguém me olha cada vez mais com aprovação.",
             "isAspect": true
         },
@@ -80,7 +80,7 @@
         },
         {
             "id": "annoyance",
-            "label": "Annoyance",
+            "label": "Irritação",
             "description": "Aqui está um espinho do meu lado. Talvez eu encontre uma maneira de removê-lo.",
             "isAspect": true
         },
@@ -92,21 +92,21 @@
         },
         {
             "id": "edge",
-            "label": "EDGE",
-            "description": "Toda conquista ocorre na borda. Aquele que habita lá é cego, e não pode ser ferido. Outro é forte e torna-se mais forte. [Concorrente é o princípio da batalha e da luta.]",
+            "label": "Fio",
+            "description": "Toda conquista ocorre na Fio. Aquele que habita lá é cego, e não pode ser ferido. Outro é forte e torna-se mais forte. [O Fio é o princípio da batalha e da luta.]",
             "isAspect": true,
             "noartneeded": true
         },
         {
             "id": "forge",
-            "label": "Forjar",
-            "description": "\"Fogo\", li uma vez, \"é o Inverno que aquece e a Primavera que consomem.\" [O princípio da Forja transforma e destrói.]",
+            "label": "Forja",
+            "description": "'Fogo', li uma vez, 'é o Inverno que aquece e a primavera que consome.' [O princípio da Forja transforma e destrói.]",
             "isAspect": true
         },
         {
             "id": "grail",
-            "label": "Grau",
-            "description": "A Hungria, luz, as águas que se afogam. [O princípio do Grau honra tanto o nascimento como o festejo.]",
+            "label": "Graal",
+            "description": "A fome, a luxuria, as águas que se afogam. [O princípio do Graal honra tanto o nascimento como o festejo.]",
             "isAspect": true,
             "induces": [
                 {
@@ -118,7 +118,7 @@
         {
             "id": "heart",
             "label": "Coração",
-            "description": "O Coração Implacável bate para proteger a pele do mundo que conhecemos. [O Coração é o princípio que continua e preserva.]",
+            "description": "O Coração Desassossegado bate para proteger a pele do mundo que conhecemos. [O Coração é o princípio que continua e preserva.]",
             "isAspect": true,
             "induces": [
                 {
@@ -130,13 +130,13 @@
         {
             "id": "knock",
             "label": "Tocar",
-            "description": "O Nocaute não permite qualquer foca nem isolamento. Ela nos tira alegremente da segurança da ignorância. [O Dobro é o princípio que abre portas e liberta barreiras.]",
+            "description": "O Golpe não permite nenhum selo e nenhuma isolação. Ela nos perfura-nos alegremente para fora da segurança da ignorância. [O Dobro é o princípio que abre portas e liberta barreiras.]",
             "isAspect": true
         },
         {
             "id": "lantern",
             "label": "Lanterna",
-            "description": "\"A vida é uma chama pura, e vivemos por um Sol invisível dentro de nós.” - Thomas Browne. [Lanterna é o princípio do local secreto, às vezes chamado de Casa do Sol, e da luz acima dele.]",
+            "description": "'A vida é uma chama pura, e vivemos por um Sol invisível dentro de nós.' - Thomas Browne. [Lanterna é o princípio do local secreto, às vezes chamado de Casa do Sol, e da luz acima dele.]",
             "isAspect": true,
             "induces": [
                 {
@@ -149,7 +149,7 @@
             "id": "moth",
             "label": "Mariposa",
             "isAspect": true,
-            "description": "Eu conheci um homem que capturou mariposas num pote de sino. Nas noites como esta, ele os libertaria um a um para morrer na vela. [A Marie é o princípio selvagem e perigoso do caos e do ano.]",
+            "description": "Eu conheci um homem que capturou mariposas num pote de sino. Em noites como esse, ele as liberaria uma por uma para morrerem no chama da vela. [A Mariposa é o princípio selvagem e perigoso do caos e do almejar.]",
             "induces": [
                 {
                     "id": "mothinduction",
@@ -159,14 +159,14 @@
         },
         {
             "id": "secrethistories",
-            "label": "Histórias secretas",
-            "description": "A história é a cicatriz na pele do mundo. [As Histórias Secretas descrevem as complexidades desconhecidas do mundo e os seus muitos passados]",
+            "label": "Histórias Secretas",
+            "description": "A História é a cicatriz na pele do mundo. [As Histórias Secretas descrevem as complexidades desconhecidas do mundo, e muitos de seus passados]",
             "isAspect": true
         },
         {
             "id": "winter",
             "label": "Inverno",
-            "description": "... [O inverno é o princípio do silêncio, dos finais, e daqueles que não estão muito mortos.]",
+            "description": "... [O inverno é o princípio do silêncio, dos finais, e daqueles que não estão bem mortos.]",
             "isAspect": true
         },
         {
@@ -185,11 +185,11 @@
             "id": "advancement",
             "label": "Avanço",
             "isAspect": true,
-            "description": "Um gosto do que pode ser. [Com bastante desses cartões, você pode crescer com Habilidade.]"
+            "description": "Um gosto do que pode ser. [Com cartas suficientes, você pode crescer uma Habilidade.]"
         },
         {
             "id": "potential",
-            "label": "Oportunidade",
+            "label": "Potencial",
             "isAspect": true,
             "description": "A marca da grandeza? [Nas circunstâncias certas, este seguidor pode se tornar ainda mais poderoso.]"
         },
@@ -197,7 +197,7 @@
             "id": "job",
             "label": "Trabalho",
             "isAspect": true,
-            "description": "Estabelecimento para trocar a vida de alguém por dinheiro.",
+            "description": "Um arranjo para trocar a vida por dinheiro.",
             "induces": [
                 {
                     "id": "needs",
@@ -225,7 +225,7 @@
             "id": "ecdysijob",
             "label": "Um lugar no Clube de Ecdisis",
             "isAspect": true,
-            "description": "Eu ganhei um lugar no palco do Clube de Ecdisis."
+            "description": "Ganhei um lugar no palco do Clube de Ecdisis."
         },
         {
             "id": "demotion",
@@ -235,9 +235,9 @@
         },
         {
             "id": "ritual",
-            "label": "Corte",
+            "label": "Rito",
             "isAspect": true,
-            "description": "(EN) \"As coisas certas, da forma adequada, da melhor maneira possível, e Deus nos ajude a todos. - atribuído a Hersault. [Um Rite permite que você combine aspectos para executar uma invocação.]"
+            "description": "\"As coisas próprias, da forma adequada, da melhor maneira possível, e Deus nos ajude a todos. - atribuído à Hersault. [Um Rito permite que você combine aspectos para executar uma invocação.]"
         },
         {
             "id": "society",
@@ -248,14 +248,14 @@
         {
             "id": "rededicable",
             "label": "Incerto",
-            "description": "Esta organização começou a pôr em causa os seus princípios e eu poderia exercer pressão para alterar a sua orientação.",
+            "description": "Esta organização começou a pôr em cheque seus princípios. Eu poderia exercer pressão para alterar a sua direção.",
             "isAspect": true
         },
         {
             "id": "ingredient",
             "label": "Ingrediente",
             "isAspect": true,
-            "description": "Combustível, poção de pigmento, paciência: tudo é consumido a tempo.",
+            "description": "Combustível, unguento, pigmento, paciência: tudo é consumido no tempo.",
             "induces": [
                 {
                     "id": "needs",
@@ -268,13 +268,13 @@
             "id": "pigment",
             "label": "Pigmento",
             "isAspect": true,
-            "description": "Talvez seja possível aplicar isto ao canvas."
+            "description": "Talvez seja possível aplicar isto à tela."
         },
         {
             "id": "poison",
             "label": "Veneno Letal",
             "isAspect": true,
-            "description": "Em circunstância alguma você deve colocar isso em alguém que você queira manter."
+            "description": "Em circunstância alguma você deveria colocar isso em alguém que você queira manter."
         },
         {
             "id": "influence",
@@ -286,31 +286,31 @@
             "id": "tool",
             "label": "Ferramenta",
             "isAspect": true,
-            "description": "\"Uma espada não mata; é um instrumento na mão do assassino.\" - Seneca, o Jovem"
+            "description": "'Uma espada não mata; é um instrumento na mão do assassino.' - Seneca, o Jovem"
         },
         {
             "id": "mirror",
-            "label": "Um espelho",
+            "label": "Um Espelho",
             "isAspect": true,
-            "description": "Pele de luz, e a luz sangrará."
+            "description": "Rache a pele da luz e a luz sangrará."
         },
         {
             "id": "riddle",
             "label": "Enigma",
             "isAspect": true,
-            "description": "Algumas perguntas só têm uma resposta. Algumas não têm qualquer resposta."
+            "description": "Algumas perguntas só têm uma resposta. Algumas não têm nenhuma."
         },
         {
             "id": "reputation",
             "label": "Reputação",
             "isAspect": true,
-            "description": "\"Muitos temem a sua reputação, poucos a sua consciência.\" - Plínio."
+            "description": "\"Muitos temem a sua reputação, poucos a sua consciência.\" - Plínio"
         },
         {
             "id": "evidencelevel",
-            "label": "Prova de Nível",
+            "label": "Nível da Evidência",
             "isAspect": true,
-            "description": "Algumas formas de prova são mais fortes do que outras."
+            "description": "Algumas formas de demonstração são mais fortes do que outras."
         },
         {
             "id": "suspicious",
@@ -320,7 +320,7 @@
         },
         {
             "id": "healthskill",
-            "label": "Intensidade",
+            "label": "Força",
             "isAspect": true,
             "description": "Sou forte tanto ao dia quanto à noite. [Isto pode permitir que você tenha um desempenho melhor como trabalhadora manual, ou como dançarina.]"
         },
@@ -334,23 +334,23 @@
             "id": "passionskill",
             "label": "Imaginação",
             "isAspect": true,
-            "description": "Meus caveiras com visões. [Isto pode permitir que você crie pinturas mais ambiciosas]"
+            "description": "Minha caveira revira-se com visões. [Isto pode permitir que você crie pinturas mais ambiciosas]"
         },
         {
             "id": "reasonskill",
-            "label": "Estudante",
+            "label": "Escolástico",
             "isAspect": true,
-            "description": "Eu sou um pilar de sabedoria. [Isto atualmente só permite que você aumente o Reason ainda mais.]"
+            "description": "Sou um pilar de sabedoria. [Isto atualmente só permite que você aumente o Reason ainda mais.]"
         },
         {
             "id": "way",
-            "label": "Um caminho de volta através de Dream",
+            "label": "Um Caminho de Volta Através do Sonho",
             "isAspect": true,
-            "description": "Algumas memórias são mapas de esboço do sonho. Alguns até passam pelos Limões do sonho, até a Madeira e a Casa que se levantam por cima."
+            "description": "Algumas memórias são esboços de mapas de sonho. Alguns até passam pelos Limites do sonho, até a Floresta e a Casa que se levantam acima."
         },
         {
             "id": "desire",
-            "label": "Deslocar-se",
+            "label": "Desejo",
             "isAspect": true,
             "description": "Meu objetivo final. Haverá um preço."
         },
@@ -358,37 +358,37 @@
             "id": "promise",
             "label": "Promessa",
             "isAspect": true,
-            "description": "Um compromisso para uma conclusão."
+            "description": "Um compromisso a uma conclusão."
         },
         {
             "id": "rivalmarks",
-            "label": "Uma Ascensão de Rival",
+            "label": "Uma Ascensão de um Rival",
             "isAspect": true,
-            "description": "As oportunidades de chegar à Câmara do Sol são raras, se outro o conseguir, posso perder a minha oportunidade. [Se atingir sete, o marfim tem a chance de ganhar o jogo em vez de você na próxima Temporada de Ambições.]"
+            "description": "As oportunidades de ascender à Câmara do Sol são raras, se outro o conseguir, posso perder a minha oportunidade. [Se atingir sete, o Rival tem a chance de ganhar o jogo em vez de você na próxima Temporada de Ambições.]"
         },
         {
             "id": "changemarks",
-            "label": "As formas de mudança",
+            "label": "As Formas de Mudança",
             "isAspect": true,
             "description": "Sempre que mudo, deixo algo para trás."
         },
         {
             "id": "powermarks",
-            "label": "As Marcas da Moldagem",
+            "label": "As Marcas da Formação",
             "isAspect": true,
-            "description": "Posso procurar imortalidade e poder na Hora do Código, chamada Forja de Dias. O seu toque traz apetites e Marcas particulares."
+            "description": "Posso procurar imortalidade e poder na Hora chamada de Forja dos Dias. O seu toque traz apetites e Marcas."
         },
         {
             "id": "sensationmarks",
-            "label": "As notas do prazer",
+            "label": "As Marcas do Prazer",
             "isAspect": true,
-            "description": "Posso procurar imortalidade e prazer na Hora chamada de \"Grau Vermelho\". Seu toque traz apetites e Marcas particulares."
+            "description": "Posso procurar imortalidade e prazer na Hora chamada de Graal Vermelho\". Seu toque traz apetites e Marcas."
         },
         {
             "id": "enlightenmentmarks",
             "label": "As Marcas da Luz",
             "isAspect": true,
-            "description": "Posso procurar imortalidade e esclarecimento na Hora chamada de Observador. Seu toque traz apetites e Marcas particulares."
+            "description": "Posso procurar imortalidade e esclarecimento na Hora chamada de O Vigia. Seu toque traz apetites e Marcas."
         },
         {
             "id": "remembrancemarks",
@@ -445,7 +445,7 @@
         },
         {
             "id": "ascend",
-            "label": "Ascendente",
+            "label": "Ascendendo",
             "isAspect": true,
             "description": "Para a próxima Marca.",
             "comments": "Aspecto da receita",
@@ -453,21 +453,21 @@
         },
         {
             "id": "descend",
-            "label": "Descendente",
+            "label": "Descendendo",
             "isAspect": true,
-            "description": "Se eu não alimentar meus apelidos novos, minhas Marcas vão desaparecer.",
+            "description": "Se eu não alimentar meus novos apetites, minhas Marcas vão desaparecer.",
             "noartneeded": true,
             "comments": "Aspecto da receita"
         },
         {
             "id": "article",
-            "label": "artigo",
+            "label": "Artigo",
             "isAspect": true,
             "description": "Um trabalho original sobre um tópico específico."
         },
         {
             "id": "text",
-            "label": "texto",
+            "label": "Texto",
             "isAspect": true,
             "description": "Livros são a memória que não morre."
         },
@@ -482,7 +482,7 @@
             "id": "autographed",
             "label": "Autografado",
             "isAspect": true,
-            "description": "Marcado por seu fabricante."
+            "description": "Marcado por seu criador."
         },
         {
             "id": "lore",
@@ -492,7 +492,7 @@
         },
         {
             "id": "subvertable_lore",
-            "label": "História Subverível",
+            "label": "Sabedoria Subvertível",
             "isAspect": true,
             "isHidden": true,
             "noartneeded": true
@@ -501,43 +501,43 @@
             "id": "memory",
             "label": "Memória",
             "isAspect": true,
-            "description": "Lembramo-nos dos mortos, até os esquecermos."
+            "description": "Lembramo-nos dos mortos, até esquecê-los."
         },
         {
             "id": "language",
-            "label": "Um idioma",
+            "label": "Um Idioma",
             "isAspect": true,
             "description": "Isso é útil para traduzir textos."
         },
         {
             "id": "tutorlatin",
-            "label": "Estudante latino",
+            "label": "Escolástico de Latin",
             "isAspect": true,
-            "description": "Um erudito de latim que talvez esteja preparado para o professor se você estudar com eles."
+            "description": "Um erudito de Latim que talvez esteja preparado para te orientar se estudas com ele."
         },
         {
             "id": "tutorgreek",
-            "label": "Estudioso Grego",
+            "label": "Escolástico em Grego",
             "isAspect": true,
-            "description": "Um erudito de grego que pode estar preparado para professor, se você estudar com eles."
+            "description": "Um erudito de Grego que pode estar preparado para te orientar se estudas com ele."
         },
         {
             "id": "tutoraramaic",
-            "label": "Acadêmico aramaico",
+            "label": "Escolástico de Aramaico",
             "isAspect": true,
-            "description": "Um erudito de Aramaico que poderia estar preparado para você estudar com eles."
+            "description": "Um erudito de Aramaico que talvez esteja preparado para te orientar se estudas com ele."
         },
         {
             "id": "tutorsanskrit",
-            "label": "Sanskrit Scholar",
+            "label": "Escolástico de Sánscrito",
             "isAspect": true,
-            "description": "Um erudito de Sanskrit que poderia estar preparado para treinar você se você estudasse com eles."
+            "description": "Um erudito de Sánscrito que talvez esteja preparado para te orientar se estudas com ele."
         },
         {
             "id": "spirittutorfucine",
-            "label": "Alto-falante Fucine",
+            "label": "Falante de Fucine",
             "isAspect": true,
-            "description": "Este espírito pode ser capaz de lhe ensinar a carne, se você sabe uma língua relacionada."
+            "description": "Este espírito pode ser capaz de lhe ensinar a Fucine, se você conhece uma língua relacionada."
         },
         {
             "id": "spirittutorphrygian",
