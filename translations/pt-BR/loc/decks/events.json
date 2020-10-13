@@ -308,7 +308,7 @@
         {
             "id": "forgelong",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos divinar - mas nunca saberemos os detalhes de seu plano até que o execute.",
+            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que o execute.",
             "spec": [
                 "julian_unknown",
                 "welland_unknown",
@@ -319,7 +319,7 @@
         {
             "id": "graillong",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos divinar- mas nunca saberemos os detalhes de seu plano até que o execute.",
+            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que o execute.",
             "spec": [
                 "tryphon_unknown",
                 "tryphon_unknown",
@@ -330,7 +330,7 @@
         {
             "id": "lanternlong",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos divinar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
             "spec": [
                 "julian_unknown",
                 "diarist_unknown",
@@ -341,7 +341,7 @@
         {
             "id": "long.strategies",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos divinar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
@@ -354,7 +354,7 @@
         {
             "id": "long.strategies.preference.assault",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.assault.concealed",
@@ -368,7 +368,7 @@
         {
             "id": "long.strategies.preference.intrigue",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
@@ -382,7 +382,7 @@
         {
             "id": "long.strategies.preference.dreamwork",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que até podemos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
@@ -396,7 +396,7 @@
         {
             "id": "priest.repevent",
             "label": "As Paixões da Congregação",
-            "description": "O que sairá disso?",
+            "description": "Qual será o resultado disto?",
             "spec": [
                 "notoriety",
                 "notoriety",
@@ -416,7 +416,7 @@
         {
             "id": "ghoul.memory",
             "label": "Memórias",
-            "description": "Vou lembrar o que todos os outros esqueceram",
+            "description": "Eu me lembrarei do que todos os outros esqueceram",
             "spec": [
                 "memory.unexpected",
                 "memory.joyful",
