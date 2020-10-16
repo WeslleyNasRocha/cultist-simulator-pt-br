@@ -304,13 +304,13 @@
             "id": "reputation",
             "label": "Reputação",
             "isAspect": true,
-            "description": "\"Muitos temem a sua reputação, poucos a sua consciência.\" - Plínio"
+            "description": "'Muitos temem a sua reputação, poucos a sua consciência.' - Pliny"
         },
         {
             "id": "evidencelevel",
             "label": "Nível da Evidência",
             "isAspect": true,
-            "description": "Algumas formas de demonstração são mais fortes do que outras."
+            "description": "Algumas formas de prova são mais fortes do que outras."
         },
         {
             "id": "suspicious",
@@ -322,25 +322,25 @@
             "id": "healthskill",
             "label": "Força",
             "isAspect": true,
-            "description": "Sou forte tanto ao dia quanto à noite. [Isto pode permitir que você tenha um desempenho melhor como trabalhadora manual, ou como dançarina.]"
+            "description": "Sou forte tanto ao dia quanto à noite. [Isto pode permitir que você tenha um desempenho melhor como trabalhador manual, ou como dançarino.]"
         },
         {
             "id": "murderskill",
             "label": "Perigoso",
             "isAspect": true,
-            "description": "O confronto directo é sempre imprudente, mas, em última instância, quando se trata de luta, sou muito perigoso."
+            "description": "O confronto direto é sempre imprudente. Mas, em último caso, quando se trata de luta, sou muito perigoso."
         },
         {
             "id": "passionskill",
             "label": "Imaginação",
             "isAspect": true,
-            "description": "Minha caveira revira-se com visões. [Isto pode permitir que você crie pinturas mais ambiciosas]"
+            "description": "Meu crânio revira-se com visões. [Isto pode permitir que você crie pinturas mais ambiciosas]"
         },
         {
             "id": "reasonskill",
-            "label": "Escolástico",
+            "label": "Estudante",
             "isAspect": true,
-            "description": "Sou um pilar de sabedoria. [Isto atualmente só permite que você aumente o Reason ainda mais.]"
+            "description": "Sou um pilar de sabedoria. [Isto atualmente só permite que você aumente o Razão ainda mais.]"
         },
         {
             "id": "way",
@@ -364,7 +364,7 @@
             "id": "rivalmarks",
             "label": "Uma Ascensão de um Rival",
             "isAspect": true,
-            "description": "As oportunidades de ascender à Câmara do Sol são raras, se outro o conseguir, posso perder a minha oportunidade. [Se atingir sete, o Rival tem a chance de ganhar o jogo em vez de você na próxima Temporada de Ambições.]"
+            "description": "As oportunidades de ascender à Casa do Sol são raras. Se outro o conseguir, posso perder a minha oportunidade. [Se atingir sete, seu Rival tem a chance de ganhar o jogo em vez de você na próxima Temporada de Ambições.]"
         },
         {
             "id": "changemarks",
