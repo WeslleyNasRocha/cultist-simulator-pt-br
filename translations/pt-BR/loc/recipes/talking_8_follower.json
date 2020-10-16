@@ -195,7 +195,7 @@
             },
             "slots": [
                 {
-                    "id": "Subject",
+                    "id": "Cargo",
                     "label": "Cargo",
                     "description": "Nosso culto, como culto, um alvo; ou outro tópico.",
                     "required": {
@@ -1638,7 +1638,7 @@
             "actionid": "talk",
             "slots": [
                 {
-                    "id": "Materials",
+                    "id": "Materiais",
                     "label": "Materiais",
                     "description": "Combustíveis raros e pólvoras",
                     "required": {
@@ -1695,7 +1695,7 @@
             "actionid": "talk",
             "slots": [
                 {
-                    "id": "Materials",
+                    "id": "Materiais",
                     "label": "Materiais",
                     "description": "Metais raros e tinturas improváveis",
                     "required": {
@@ -1752,7 +1752,7 @@
             "actionid": "talk",
             "slots": [
                 {
-                    "id": "Materials",
+                    "id": "Materiais",
                     "label": "Materiais",
                     "description": "Músicas brilhantes e ligas exóticas",
                     "required": {
@@ -1809,7 +1809,7 @@
             "actionid": "talk",
             "slots": [
                 {
-                    "id": "Materials",
+                    "id": "Materiais",
                     "label": "Materiais",
                     "description": "Metais e fusões",
                     "required": {
@@ -2821,7 +2821,7 @@
             "actionid": "talk",
             "slots": [
                 {
-                    "id": "Reputation",
+                    "id": "Reputação",
                     "label": "Reputação",
                     "required": {
                         "reputation": 1
@@ -2842,7 +2842,7 @@
             "actionid": "talk",
             "slots": [
                 {
-                    "id": "Reputation",
+                    "id": "Reputação",
                     "label": "Reputação",
                     "required": {
                         "reputation": 1

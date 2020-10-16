@@ -27,7 +27,7 @@
         {
             "id": "hireling",
             "label": "Contratado",
-            "description": "Há algum tempo que negocio o serviço desta pessoa.",
+            "description": "Eu negociei os serviços dessa pessoa, por algum tempo.",
             "isAspect": true
         },
         {
@@ -45,7 +45,7 @@
         {
             "id": "exalted",
             "label": "Exaltado",
-            "description": "Este não pode subir mais alto... pelo menos enquanto eu lidero.",
+            "description": "Este não pode subir mais alto... pelo menos, não enquanto eu lidero.",
             "isAspect": true
         },
         {
@@ -74,8 +74,8 @@
         },
         {
             "id": "tutor",
-            "label": "Professor",
-            "description": "Este tem conhecimento de valor.",
+            "label": "Tutor",
+            "description": "Este tem conhecimento valioso.",
             "isAspect": true
         },
         {
@@ -87,26 +87,26 @@
         {
             "id": "sending",
             "label": "Enviando",
-            "description": "Não exactamente eu, mas não exactamente outra coisa.",
+            "description": "Não exatamente eu, mas não exatamente outra coisa.",
             "isAspect": true
         },
         {
             "id": "edge",
             "label": "Fio",
-            "description": "Toda conquista ocorre na Fio. Aquele que habita lá é cego, e não pode ser ferido. Outro é forte e torna-se mais forte. [O Fio é o princípio da batalha e da luta.]",
+            "description": "Toda conquista ocorre no Fio. Aquele que habita lá é cego, e não pode ser ferido. Outro é forte e torna-se mais forte. [O Fio é o princípio da batalha e da luta.]",
             "isAspect": true,
             "noartneeded": true
         },
         {
             "id": "forge",
             "label": "Forja",
-            "description": "'Fogo', li uma vez, 'é o Inverno que aquece e a primavera que consome.' [O princípio da Forja transforma e destrói.]",
+            "description": "'Fogo', li uma vez, 'é o inverno que aquece e a primavera que consome.' [O princípio da Forja transforma e destrói.]",
             "isAspect": true
         },
         {
             "id": "grail",
             "label": "Graal",
-            "description": "A fome, a luxuria, as águas que se afogam. [O princípio do Graal honra tanto o nascimento como o festejo.]",
+            "description": "A fome, a luxuria, as águas que afogam. [O princípio do Graal honra tanto o nascimento como o festejo.]",
             "isAspect": true,
             "induces": [
                 {
@@ -118,7 +118,7 @@
         {
             "id": "heart",
             "label": "Coração",
-            "description": "O Coração Desassossegado bate para proteger a pele do mundo que conhecemos. [O Coração é o princípio que continua e preserva.]",
+            "description": "O Coração Implacável bate para proteger a pele do mundo que conhecemos. [O Coração é o princípio que continua e preserva.]",
             "isAspect": true,
             "induces": [
                 {
@@ -129,8 +129,8 @@
         },
         {
             "id": "knock",
-            "label": "Tocar",
-            "description": "O Golpe não permite nenhum selo e nenhuma isolação. Ela nos perfura-nos alegremente para fora da segurança da ignorância. [O Dobro é o princípio que abre portas e liberta barreiras.]",
+            "label": "Batida",
+            "description": "A Batida não permite nenhum selo e nenhuma isolação. Ela nos tira alegremente da segurança da ignorância. [A Batida é o princípio que abre portas e liberta barreiras.]",
             "isAspect": true
         },
         {
@@ -149,7 +149,7 @@
             "id": "moth",
             "label": "Mariposa",
             "isAspect": true,
-            "description": "Eu conheci um homem que capturou mariposas num pote de sino. Em noites como esse, ele as liberaria uma por uma para morrerem no chama da vela. [A Mariposa é o princípio selvagem e perigoso do caos e do almejar.]",
+            "description": "Eu conheci um homem que capturava mariposas em um pote. Em noites como esse, ele as liberaria uma por uma para morrerem na chama da vela. [A Mariposa é o selvagem e perigoso princípio do caos e do desejo.]",
             "induces": [
                 {
                     "id": "mothinduction",
@@ -160,13 +160,13 @@
         {
             "id": "secrethistories",
             "label": "Histórias Secretas",
-            "description": "A História é a cicatriz na pele do mundo. [As Histórias Secretas descrevem as complexidades desconhecidas do mundo, e muitos de seus passados]",
+            "description": "A História é a cicatriz na pele do mundo. [As Histórias Secretas descrevem as complexidades desconhecidas do mundo, e seus muitos passados]",
             "isAspect": true
         },
         {
             "id": "winter",
             "label": "Inverno",
-            "description": "... [O inverno é o princípio do silêncio, dos finais, e daqueles que não estão bem mortos.]",
+            "description": "... [O Inverno é o princípio do silêncio, dos finais, e daqueles que não estão bem mortos.]",
             "isAspect": true
         },
         {
@@ -304,13 +304,13 @@
             "id": "reputation",
             "label": "Reputação",
             "isAspect": true,
-            "description": "\"Muitos temem a sua reputação, poucos a sua consciência.\" - Plínio"
+            "description": "'Muitos temem a sua reputação, poucos a sua consciência.' - Pliny"
         },
         {
             "id": "evidencelevel",
             "label": "Nível da Evidência",
             "isAspect": true,
-            "description": "Algumas formas de demonstração são mais fortes do que outras."
+            "description": "Algumas formas de prova são mais fortes do que outras."
         },
         {
             "id": "suspicious",
@@ -322,25 +322,25 @@
             "id": "healthskill",
             "label": "Força",
             "isAspect": true,
-            "description": "Sou forte tanto ao dia quanto à noite. [Isto pode permitir que você tenha um desempenho melhor como trabalhadora manual, ou como dançarina.]"
+            "description": "Sou forte tanto ao dia quanto à noite. [Isto pode permitir que você tenha um desempenho melhor como trabalhador manual, ou como dançarino.]"
         },
         {
             "id": "murderskill",
             "label": "Perigoso",
             "isAspect": true,
-            "description": "O confronto directo é sempre imprudente, mas, em última instância, quando se trata de luta, sou muito perigoso."
+            "description": "O confronto direto é sempre imprudente. Mas, em último caso, quando se trata de luta, sou muito perigoso."
         },
         {
             "id": "passionskill",
             "label": "Imaginação",
             "isAspect": true,
-            "description": "Minha caveira revira-se com visões. [Isto pode permitir que você crie pinturas mais ambiciosas]"
+            "description": "Meu crânio revira-se com visões. [Isto pode permitir que você crie pinturas mais ambiciosas]"
         },
         {
             "id": "reasonskill",
-            "label": "Escolástico",
+            "label": "Estudante",
             "isAspect": true,
-            "description": "Sou um pilar de sabedoria. [Isto atualmente só permite que você aumente o Reason ainda mais.]"
+            "description": "Sou um pilar de sabedoria. [Isto atualmente só permite que você aumente o Razão ainda mais.]"
         },
         {
             "id": "way",
@@ -364,7 +364,7 @@
             "id": "rivalmarks",
             "label": "Uma Ascensão de um Rival",
             "isAspect": true,
-            "description": "As oportunidades de ascender à Câmara do Sol são raras, se outro o conseguir, posso perder a minha oportunidade. [Se atingir sete, o Rival tem a chance de ganhar o jogo em vez de você na próxima Temporada de Ambições.]"
+            "description": "As oportunidades de ascender à Casa do Sol são raras. Se outro o conseguir, posso perder a minha oportunidade. [Se atingir sete, seu Rival tem a chance de ganhar o jogo em vez de você na próxima Temporada de Ambições.]"
         },
         {
             "id": "changemarks",
