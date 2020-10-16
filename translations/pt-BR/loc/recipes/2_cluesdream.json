@@ -49,12 +49,12 @@
         },
         {
             "id": "contentmenthintdream",
-            "label": "Conteúdo",
+            "label": "Contentamento",
             "actionid": "dream",
             "requirements": {
                 "contentment": 1
             },
-            "startdescription": "O conteúdo não é uma chave para sonhos, embora os sonhos às vezes possam me fazer contente.",
+            "startdescription": "Contentamento não é uma chave para sonhos, embora os sonhos às vezes possam me fazer contente.",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on Dream primary slot"
