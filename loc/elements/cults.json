@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "cultedge_1",
-            "label": "Church of the Bright Edge",
+            "label": "Igreja da Borda Brilhante",
             "aspects": {
                 "society": 1,
                 "venerationedge": 1
@@ -10,7 +10,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "Associate",
+                    "label": "Associado",
                     "actionid": "talk",
                     "required": {
                         "mortal": 1
@@ -20,35 +20,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "A new recruit, or a hardened disciple."
+                    "description": "Um novo recruta, ou um discípulo endurecido."
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Ceremony",
+                    "label": "Cerimônia",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
+                    "description": "Para recrutar um novato, eu só preciso de um pequeno segredo. Os mistérios mais altos requerem ovelhas mais profundas."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Trappings",
+                    "label": "Armadilhas",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "For a proper sense of occasion. Consumes Ingredients and Influences; uses, but does not consume, Tools."
+                    "description": "Para um bom senso de ocasião. Consome Ingredientes e Influências; usa, mas não consome, ferramentas."
                 }
             ],
-            "description": "An occult society dedicated to the Hours of struggle and conquest. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Assassins.]",
+            "description": "Uma sociedade oculta dedicada às horas de luta e de conquista. [Você pode usar adultos com o verbo de Conversa para recrutar ou promover seguidores, e para enviá-los sobre errantes para coletar recursos. Um Crente pode ser promovido a um Disciple; alguns talentosos Discípulos podem ser exaltados ainda mais, para Assassinos]",
             "unique": true
         },
         {
             "id": "cultforge_1",
-            "label": "Unflinching Order",
+            "label": "Liberando o Pedido",
             "aspects": {
                 "society": 1,
                 "venerationforge": 1
@@ -56,7 +56,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "Associate",
+                    "label": "Associado",
                     "actionid": "talk",
                     "required": {
                         "mortal": 1
@@ -66,35 +66,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "A new recruit, or a hardened disciple."
+                    "description": "Um novo recruta, ou um discípulo endurecido."
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Ceremony",
+                    "label": "Cerimônia",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
+                    "description": "Para recrutar um novato, eu só preciso de um pequeno segredo. Os mistérios mais altos requerem ovelhas mais profundas."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Trappings",
+                    "label": "Armadilhas",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "For a proper sense of occasion. Consumes Ingredients and Influences; uses, but does not consume, Tools."
+                    "description": "Para um bom senso de ocasião. Consome Ingredientes e Influências; usa, mas não consome, ferramentas."
                 }
             ],
-            "description": "An occult society dedicated to the fire that changes and remakes. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Reshapers.]",
+            "description": "Uma sociedade oculta dedicada ao fogo que muda e refaz. [Você pode usar adultos com o verbo de Conversa para recrutar ou promover seguidores, e para enviá-los sobre errantes para coletar recursos. Um Crente pode ser promovido a um Disciple; alguns Discípulos talentosos podem ser exaltados ainda mais, para Reshapers.]",
             "unique": true
         },
         {
             "id": "cultgrail_1",
-            "label": "Order of the Bloody Cup",
+            "label": "Ordem da Copa Sangrenta",
             "aspects": {
                 "society": 1,
                 "venerationgrail": 1
@@ -102,7 +102,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "Associate",
+                    "label": "Associado",
                     "actionid": "talk",
                     "required": {
                         "mortal": 1
@@ -112,35 +112,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "A new recruit, or a hardened disciple."
+                    "description": "Um novo recruta, ou um discípulo endurecido."
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Ceremony",
+                    "label": "Cerimônia",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
+                    "description": "Para recrutar um novato, eu só preciso de um pequeno segredo. Os mistérios mais altos requerem ovelhas mais profundas."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Trappings",
+                    "label": "Armadilhas",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "For a proper sense of occasion. Consumes Ingredients and Influences; uses, but does not consume, Tools."
+                    "description": "Para um bom senso de ocasião. Consome Ingredientes e Influências; usa, mas não consome, ferramentas."
                 }
             ],
-            "description": "An occult society dedicated to the mysteries of birth, blood and appetite. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Cyprians.]",
+            "description": "Uma sociedade oculta dedicada aos mistérios do nascimento, sangue e apetite. [Você pode usar adultos com o verbo de Conversa para recrutar ou promover seguidores, e para enviá-los sobre errantes para coletar recursos. Um crente pode ser promovido a um Discípulo; alguns talentosos Discípulos podem ser exaltados ainda mais, para os cipriotas.]",
             "unique": true
         },
         {
             "id": "cultheart_1",
-            "label": "Temple Unceasing",
+            "label": "Templo Descessando",
             "aspects": {
                 "society": 1,
                 "venerationheart": 1
@@ -148,7 +148,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "Associate",
+                    "label": "Associado",
                     "actionid": "talk",
                     "required": {
                         "mortal": 1
@@ -158,35 +158,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "A new recruit, or a hardened disciple."
+                    "description": "Um novo recruta, ou um discípulo endurecido."
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Ceremony",
+                    "label": "Cerimônia",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
+                    "description": "Para recrutar um novato, eu só preciso de um pequeno segredo. Os mistérios mais altos requerem ovelhas mais profundas."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Trappings",
+                    "label": "Armadilhas",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "For a proper sense of occasion. Consumes Ingredients and Influences; uses, but does not consume, Tools."
+                    "description": "Para um bom senso de ocasião. Consome Ingredientes e Influências; usa, mas não consome, ferramentas."
                 }
             ],
-            "description": "An occult society dedicated to the drumbeat which can never end. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Tarantellists.]",
+            "description": "Uma sociedade oculta dedicada ao tambor que nunca consegue acabar. [Você pode usar adultos com o verbo de Conversa para recrutar ou promover seguidores, e para enviá-los sobre errantes para coletar recursos. Um Crente pode ser promovido a um Disciple; alguns Discípulos talentosos podem ser exaltados ainda mais, para os Tarantellists.]",
             "unique": true
         },
         {
             "id": "cultknock_1",
-            "label": "Society of the Holy Wound",
+            "label": "Sociedade da Santa Ferida",
             "aspects": {
                 "society": 1,
                 "venerationknock": 1
@@ -194,7 +194,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "Associate",
+                    "label": "Associado",
                     "actionid": "talk",
                     "required": {
                         "mortal": 1
@@ -204,35 +204,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "A new recruit, or a hardened disciple."
+                    "description": "Um novo recruta, ou um discípulo endurecido."
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Ceremony",
+                    "label": "Cerimônia",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
+                    "description": "Para recrutar um novato, eu só preciso de um pequeno segredo. Os mistérios mais altos requerem ovelhas mais profundas."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Trappings",
+                    "label": "Armadilhas",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "For a proper sense of occasion. Consumes Ingredients and Influences; uses, but does not consume, Tools."
+                    "description": "Para um bom senso de ocasião. Consome Ingredientes e Influências; usa, mas não consome, ferramentas."
                 }
             ],
-            "description": "An occult society dedicated to the Hours which open doors. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Keys.]",
+            "description": "Uma sociedade oculta dedicada às Horas que abrem portas. [Você pode usar adultos com o verbo de Conversa para recrutar ou promover seguidores, e para enviá-los sobre errantes para coletar recursos. Um Crente pode ser promovido a um Disciple; alguns Discípulos talentosos podem ser exaltados ainda mais, para Keys.]",
             "unique": true
         },
         {
             "id": "cultlantern_1",
-            "label": "Mirror of Glory",
+            "label": "Espelho da Glória",
             "aspects": {
                 "society": 1,
                 "venerationlantern": 1
@@ -240,7 +240,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "Associate",
+                    "label": "Associado",
                     "actionid": "talk",
                     "required": {
                         "mortal": 1
@@ -250,35 +250,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "A new recruit, or a hardened disciple."
+                    "description": "Um novo recruta, ou um discípulo endurecido."
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Ceremony",
+                    "label": "Cerimônia",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
+                    "description": "Para recrutar um novato, eu só preciso de um pequeno segredo. Os mistérios mais altos requerem ovelhas mais profundas."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Trappings",
+                    "label": "Armadilhas",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "For a proper sense of occasion. Consumes Ingredients and Influences; uses, but does not consume, Tools."
+                    "description": "Para um bom senso de ocasião. Consome Ingredientes e Influências; usa, mas não consome, ferramentas."
                 }
             ],
-            "description": "An occult society dedicated to the understanding of the Light that leaks from a fiercer place. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Seers.]",
+            "description": "Uma sociedade oculta dedicada à compreensão da luz que vaza de um lugar mais feroz. [Você pode usar adultos com o verbo de Conversa para recrutar ou promover seguidores, e para enviá-los sobre errantes para coletar recursos. Um Crente pode ser promovido a um Disciple; alguns Discípulos talentosos podem ser exaltados ainda mais alto, para os costas.]",
             "unique": true
         },
         {
             "id": "cultmoth_1",
-            "label": "Wildwood Club",
+            "label": "Clava de Madeira Selvagem",
             "aspects": {
                 "society": 1,
                 "venerationmoth": 1
@@ -286,7 +286,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "Associate",
+                    "label": "Associado",
                     "actionid": "talk",
                     "required": {
                         "mortal": 1
@@ -296,35 +296,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "A new recruit, or a hardened disciple."
+                    "description": "Um novo recruta, ou um discípulo endurecido."
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Ceremony",
+                    "label": "Cerimônia",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
+                    "description": "Para recrutar um novato, eu só preciso de um pequeno segredo. Os mistérios mais altos requerem ovelhas mais profundas."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Trappings",
+                    "label": "Armadilhas",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "For a proper sense of occasion. Consumes Ingredients and Influences; uses, but does not consume, Tools."
+                    "description": "Para um bom senso de ocasião. Consome Ingredientes e Influências; usa, mas não consome, ferramentas."
                 }
             ],
-            "description": "An occult society dedicated to chaos, and the unexpected Hours. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to Skintwisters.]",
+            "description": "Uma sociedade oculta dedicada ao caos, e às inesperadas Horas. [Você pode usar adultos com o verbo de Conversa para recrutar ou promover seguidores, e para enviá-los sobre errantes para coletar recursos. Um Crente pode ser promovido a um Discípulo; alguns talentosos Discípulos podem ser exaltados ainda mais, aos Arsenais]",
             "unique": true
         },
         {
             "id": "cultsecrethistories_1",
-            "label": "Society of St Hydra",
+            "label": "Sociedade de São Hydra",
             "aspects": {
                 "society": 1,
                 "venerationedge": 1,
@@ -339,7 +339,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "Associate",
+                    "label": "Associado",
                     "actionid": "talk",
                     "required": {
                         "mortal": 1
@@ -349,35 +349,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "A new recruit, or a hardened disciple."
+                    "description": "Um novo recruta, ou um discípulo endurecido."
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Ceremony",
+                    "label": "Cerimônia",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "For the higher mysteries, deeper oaths are needed."
+                    "description": "Para os mistérios mais elevados, são necessários juramentos mais profundos."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Trappings",
+                    "label": "Armadilhas",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "For a proper sense of occasion. Consumes Ingredients and Influences; uses, but does not consume, Tools."
+                    "description": "Para um bom senso de ocasião. Consome Ingredientes e Influências; usa, mas não consome, ferramentas."
                 }
             ],
-            "description": "An occult society dedicated to the study of the five Histories and their thousand demi-real branches. [St Hydra, unusually, allows you to use any aspect to promote Believers; but it has no Exalted specialists.]",
+            "description": "Uma sociedade oculta dedicada ao estudo das cinco Histórias e dos seus mil ramos de demência reais. [St Hydra, estranhamente, permite que você utilize qualquer aspecto para promover crentes, mas não tem especialistas exaltados]",
             "unique": true
         },
         {
             "id": "cultwinter_1",
-            "label": "Children of Silence",
+            "label": "Filhos de silêncio",
             "aspects": {
                 "society": 1,
                 "venerationwinter": 1
@@ -385,7 +385,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "Associate",
+                    "label": "Associado",
                     "actionid": "talk",
                     "required": {
                         "mortal": 1
@@ -395,35 +395,35 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "A new recruit, or a hardened disciple."
+                    "description": "Um novo recruta, ou um discípulo endurecido."
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Ceremony",
+                    "label": "Cerimônia",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
+                    "description": "Para recrutar um novato, eu só preciso de um pequeno segredo. Os mistérios mais altos requerem ovelhas mais profundas."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Trappings",
+                    "label": "Armadilhas",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "For a proper sense of occasion. Consumes Ingredients and Influences; uses, but does not consume, Tools."
+                    "description": "Para um bom senso de ocasião. Consome Ingredientes e Influências; usa, mas não consome, ferramentas."
                 }
             ],
-            "description": "An occult society dedicated to the silence that comes and the cold that ends. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to a condition of lethal silence.]",
+            "description": "Uma sociedade oculta dedicada ao silêncio que vem e ao frio que acaba. [Você pode usar adultos com o verbo de Conversa para recrutar ou promover seguidores, e para enviá-los sobre errantes para coletar recursos. Um Crente pode ser promovido a um Discípulo; alguns talentosos podem ser exaltados ainda mais, como uma condição de silêncio letal.]",
             "unique": true
         },
         {
             "id": "cultwinter_2",
-            "label": "Towers of the Dove",
+            "label": "Torres das Dovas",
             "aspects": {
                 "society": 1,
                 "venerationwinter": 1
@@ -431,7 +431,7 @@
             "slots": [
                 {
                     "id": "Associate",
-                    "label": "Associate",
+                    "label": "Associado",
                     "actionid": "talk",
                     "required": {
                         "mortal": 1
@@ -441,30 +441,30 @@
                         "hireling": 1,
                         "prisoner": 1
                     },
-                    "description": "A new recruit, or a hardened disciple."
+                    "description": "Um novo recruta, ou um discípulo endurecido."
                 },
                 {
                     "id": "Ceremony",
-                    "label": "Ceremony",
+                    "label": "Cerimônia",
                     "actionid": "talk",
                     "required": {
                         "lore": 1
                     },
-                    "description": "To recruit a novice, I only need a small secret. The higher mysteries require deeper oaths."
+                    "description": "Para recrutar um novato, eu só preciso de um pequeno segredo. Os mistérios mais altos requerem ovelhas mais profundas."
                 },
                 {
                     "id": "Trappings",
-                    "label": "Trappings",
+                    "label": "Armadilhas",
                     "actionid": "talk",
                     "required": {
                         "tool": 1,
                         "ingredient": 1,
                         "influence": 1
                     },
-                    "description": "For a proper sense of occasion. Consumes Ingredients and Influences; uses, but does not consume, Tools."
+                    "description": "Para um bom senso de ocasião. Consome Ingredientes e Influências; usa, mas não consome, ferramentas."
                 }
             ],
-            "description": "An occult society dedicated to all that has been lost, and what may yet return. [You can use Cults with the Talk verb to recruit or promote followers, and to send them out on errands to gather resources. A Believer can be promoted to a Disciple; a few gifted Disciples can be exalted even higher, to a condition of lethal silence.]",
+            "description": "Uma sociedade oculta dedicada a tudo o que se perdeu e o que ainda pode voltar. [Você pode usar adultos com o verbo de Conversa para recrutar ou promover seguidores, e para enviá-los sobre errantes para coletar recursos. Um Crente pode ser promovido a um Discípulo; alguns talentosos podem ser exaltados ainda mais, como uma condição de silêncio letal.]",
             "unique": true,
             "icon": "cultwinter_1"
         }

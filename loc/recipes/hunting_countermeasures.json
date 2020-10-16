@@ -3,12 +3,12 @@
         {
             "id": "huntermysticsurvives",
             "actionid": "talk",
-            "label": "Wards and Seals",
+            "label": "Sentinelas e Selos",
             "requirements": {
                 "mystic": 1,
                 "summoned": 1
             },
-            "description": "'Our enemy possesses the most dangerous weapon of all: knowledge.'\nYour summoning has fallen prey to your adversary's countermeasures. Mystic Hunters know the proper protections, and will usually survive attacks from summoned Minions. But sooner or later, they'll make a mistake.",
+            "description": "'Nosso inimigo possui a arma mais perigosa de todos: conhecimento'\nSua invocação foi presa das contramedidas de seu adversário. Os Caçadores Místicos conhecem as proteções adequadas, e geralmente sobreviverão ataques de Minions invocados. Mas mais cedo ou mais tarde, eles cometerão um erro.",
             "effects": {
                 "notoriety": 1
             },
@@ -19,11 +19,11 @@
         {
             "id": "huntertenacioussurvives",
             "actionid": "talk",
-            "label": "Tenacity",
+            "label": "Tenacidade",
             "requirements": {
                 "tenacious": 1
             },
-            "description": "'But - no-one could have survived that!'\nNow and then, Tenacious Hunters somehow survive attacks that should have killed them. But their luck always runs out in the end; and there are other ways to destroy a Hunter beside physical assault.",
+            "description": "'Mas - Ninguém poderia ter sobrevivido aquilo!'\nAgora, Tenacious Hunters de alguma forma sobrevive a ataques que os teriam matado. Mas a sorte deles sempre se esgota; e há outras formas de destruir um caçador ao lado do ataque físico.",
             "effects": {
                 "notoriety": 1
             }
@@ -31,11 +31,11 @@
         {
             "id": "huntersurvives_becomestenacious",
             "actionid": "talk",
-            "label": "Scars",
+            "label": "Cicatrizes",
             "requirements": {
                 "tenacious": -1
             },
-            "description": "'They're tougher than they look.'\nA Hunter who survives a physical attack may sometimes become Tenacious. Tenacious Hunters are harder to kill.",
+            "description": "'Eles são mais difíceis do que parecem.'\nUm caçador que sobrevive a um ataque físico pode se tornar Tenaz. Os Caçadores Tenazes são mais difíceis de matar.",
             "mutations": [
                 {
                     "filter": "hunter",
@@ -51,12 +51,12 @@
         {
             "id": "huntersurvives_becomesmystic",
             "actionid": "talk",
-            "label": "Harsh Lessons",
+            "label": "Aulas severas",
             "requirements": {
                 "summoned": 1,
                 "mystic": -1
             },
-            "description": "'What does not kill them sometimes makes them stranger.'\nWhen a Hunter survives an attack by a summoned creature, occasionally they'll be inspired to learn countermeasures against Mansus-things, becoming Mystic. Mystic Hunters usually survive further attacks by summoned creatures.",
+            "description": "\"O que não os mata, por vezes, os torna estranhos.\nQuando um Caçador sobrevive a um ataque de uma criatura invocada, ocasionalmente eles serão inspirados a aprender contra-medidas contra a transformação de Manse, tornando-se Mística. Os Caçadores Místicos normalmente sobrevivem a ataques através de criaturas invocadas.",
             "mutations": [
                 {
                     "filter": "hunter",
@@ -73,13 +73,13 @@
         },
         {
             "id": "hunterfitewithextraswole",
-            "label": "A Surprise Attack on an Adversary",
+            "label": "Um Ataque Surpresa em um Adversário",
             "actionid": "talk",
             "requirements": {
                 "murderskill": 1
             },
-            "startdescription": "My adversary insists on a public meeting-place. They have taken all reasonable precautions. But there are no reasonable precautions against one such as I. A direct personal assault would be a considerable risk... but perhaps that's what we've come to. [This might succeed, against the odds.]",
-            "description": "I have their head between my hands. I snap their neck. I'm gone before the body hits the ground.",
+            "startdescription": "O meu adversário insiste num local de reunião público, que tomou todas as precauções razoáveis, mas não existem precauções razoáveis contra uma como eu. Um ataque pessoal direto seria um risco considerável... mas talvez seja isso que venhamos a fazer. [Isso pode ser bem-sucedido, contra as probabilidades.]",
+            "description": "Estou com a cabeça deles entre as mãos. Coloquei o pescoço. Fui antes que o corpo acerte o chão.",
             "alt": [
                 {
                     "id": "hunterfitewithswole_failure",
@@ -100,13 +100,13 @@
         },
         {
             "id": "hunterfitewithswole",
-            "label": "A Surprise Attack on an Adversary",
+            "label": "Um Ataque Surpresa em um Adversário",
             "actionid": "talk",
             "requirements": {
                 "healthskill": 1
             },
-            "startdescription": "My adversary insists on a public meeting-place. They have taken all reasonable precautions, and a direct personal assault would be a considerable risk... but perhaps that's what we've come to. [This is a very long shot indeed.]",
-            "description": "I have their head between my hands. I snap their neck. I'm gone before the body hits the ground.",
+            "startdescription": "O meu adversário insiste numa reunião pública, que tomou todas as precauções razoáveis e que um ataque pessoal directo representaria um risco considerável. . mas talvez seja isso que vamos. [Isto é de facto um tiro muito longo.]",
+            "description": "Estou com a cabeça deles entre as mãos. Coloquei o pescoço. Fui antes que o corpo acerte o chão.",
             "alt": [
                 {
                     "id": "hunterfitewithswole_failure",
@@ -127,10 +127,10 @@
         },
         {
             "id": "hunterfitewithswole_failure",
-            "label": "A Surprise Attack has Failed!",
+            "label": "Um Ataque Surpresa falhou!",
             "actionid": "talk",
             "startdescription": ".",
-            "description": "With a cry, my adversary leaps back, kicking over the table! All around us, heads turn. No-one saw me move. The only real witness is my adversary. But I must leave immediately.",
+            "description": "Com um grito, meu adversário salta para trás, chutando pela mesa! Todos nós, as caras viram. Ninguém me viu se mexendo. A única testemunha verdadeira é meu adversário. Mas eu devo sair imediatamente.",
             "craftable": false,
             "effects": {
                 "notoriety": 1
@@ -145,13 +145,13 @@
         },
         {
             "id": "hunterspeakpoison_glassfinger",
-            "label": "Employ Glassfinger Toxin against a Hunter",
+            "label": "Toxina de Vidro de uso contra um Caçador",
             "actionid": "talk",
             "requirements": {
                 "ingredientlanternd": 1
             },
-            "startdescription": "'Enjoying your tea?'",
-            "description": "The end is not pretty, but it's quick and almost painless. When the dissolution is complete, nothing visible remains.",
+            "startdescription": "'Aproveitando o seu chá?'",
+            "description": "O fim não é bonito, mas é rápido e quase indolor. Quando a dissolução estiver completa, nada visível permanece.",
             "alt": [
                 {
                     "id": "huntertenacioussurvives",
@@ -168,13 +168,13 @@
         },
         {
             "id": "hunterspeakpoison",
-            "label": "Employ a Remarkable Poison against a Hunter",
+            "label": "Empregar um veneno notável contra um Caçador",
             "actionid": "talk",
             "requirements": {
                 "poison": 1
             },
-            "startdescription": "'Enjoying your tea?'",
-            "description": "The end is not pretty, but it's quick and almost painless. There are much worse ways to die.",
+            "startdescription": "'Aproveitando o seu chá?'",
+            "description": "O fim não é bonito, mas é rápido e quase indolor. Há maneiras muito piores de morrer.",
             "alt": [
                 {
                     "id": "huntertenacioussurvives",
@@ -192,9 +192,9 @@
         },
         {
             "id": "hunterattackhighwinter",
-            "label": "Send a silent Minion to resolve the problem of a Hunter",
+            "label": "Envie um Minion silencioso para resolver o problema de um Caçador",
             "actionid": "talk",
-            "startdescription": "This will probably ensure the Hunter ceases to trouble us. [This is less likely to succeed than an Edge attack, and success or failure will both draw attention, but the minion will usually survive.]",
+            "startdescription": "Isso provavelmente garantirá que o Caçador deixe de nos preocupar. [Esta é menos provável de sucesso do que um ataque da Edge, e o sucesso ou fracasso ambos chamarão atenção, mas o minion normalmente sobreviverá.]",
             "requirements": {
                 "hunter": 1,
                 "winter": 10,
@@ -214,9 +214,9 @@
         },
         {
             "id": "hunterattackmidwinter",
-            "label": "Send a quiet Minion to resolve the problem of a Hunter",
+            "label": "Envie um Minion quieto para resolver o problema de um Caçador",
             "actionid": "talk",
-            "startdescription": "My Minion will watch and wait. If we're lucky, they may have an opportunity to dispose of our enemy. [This is less likely to succeed than an Edge attack, and success or failure will both draw attention, but the minion will usually survive.]",
+            "startdescription": "Meu Minion irá assistir e esperar. Se tivermos sorte, pode ser que tenha a oportunidade de se livrar do nosso inimigo. [Esta é menos provável de sucesso do que um ataque da Edge, e o sucesso ou fracasso ambos chamarão atenção, mas o minion normalmente sobreviverá.]",
             "description": ".",
             "requirements": {
                 "hunter": 1,
@@ -236,9 +236,9 @@
         },
         {
             "id": "hunterattacklowwinter",
-            "label": "Send a cautious Minion to resolve the problem of a Hunter",
+            "label": "Envie um Minion cauteloso para resolver o problema de um Caçador",
             "actionid": "talk",
-            "startdescription": "My Minion will wait for the right moment, though most likely that moment will never come. [This is less likely to succeed than an Edge attack, and success or failure will both draw attention, but the minion will usually survive.]",
+            "startdescription": "Meu Minion vai esperar o momento certo, embora mais provável que aquele momento nunca virá. [Esta é menos provável de sucesso do que um ataque da Edge, e o sucesso ou fracasso ambos chamarão atenção, mas o minion normalmente sobreviverá.]",
             "description": ".",
             "requirements": {
                 "hunter": 1,
@@ -258,10 +258,10 @@
         },
         {
             "id": "hunterstealthattacksuccess",
-            "label": "Patience...",
+            "label": "Paciência...",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has returned, with a trophy.",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou, com um troféu.",
             "effects": {
                 "notoriety": 1
             },
@@ -283,10 +283,10 @@
         },
         {
             "id": "hunterstealthattackfailure",
-            "label": "Patience...",
+            "label": "Paciência...",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has returned. There was no opportunity to end the Hunter's life; and the Hunter may now be aware of danger.",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou. Não havia a oportunidade de acabar com a vida do caçador, e o caçador pode estar ciente de perigo.",
             "effects": {
                 "notoriety": 1
             },
@@ -294,9 +294,9 @@
         },
         {
             "id": "hunterattackhighedge",
-            "label": "Send an Unstoppable Force to murder a Hunter",
+            "label": "Envie uma Força Imparável para matar um Caçador",
             "actionid": "talk",
-            "startdescription": "Unless this Hunter has some unusual protection, they're already dead. But their demise will attract attention.",
+            "startdescription": "A menos que este Caçador tenha alguma proteção incomum, eles já estão mortos. Mas sua morte atrairá atenção.",
             "description": ".",
             "requirements": {
                 "hunter": 1,
@@ -312,9 +312,9 @@
         },
         {
             "id": "hunterattackmidedge",
-            "label": "Send a Potent Minion to murder a Hunter",
+            "label": "Envie um Minion de Potente para matar um Caçador",
             "actionid": "talk",
-            "startdescription": "My minion is powerful. This Hunter is unlikely to survive. But the attempt will draw attention. [Failure will kill your minion.]",
+            "startdescription": "Meu lacaio é poderoso. É improvável que o caçador sobreviva. Mas a tentativa vai chamar a atenção. [Falhar irá matar seu lacaio.]",
             "description": ".",
             "requirements": {
                 "hunter": 1,
@@ -334,9 +334,9 @@
         },
         {
             "id": "hunterattacklowedge",
-            "label": "Send a Minion to murder a Hunter",
+            "label": "Envie um Minion para matar um Caçador",
             "actionid": "talk",
-            "startdescription": "My minion's skills are limited. This Hunter will probably survive, and the attempt will draw attention. [Failure will kill your minion.]",
+            "startdescription": "As habilidades de meu minion são limitadas. O caçador provavelmente sobreviverá, e a tentativa de chamar a atenção. [Falhar matará seu minion.]",
             "description": ".",
             "requirements": {
                 "hunter": 1,
@@ -356,9 +356,9 @@
         },
         {
             "id": "hunterattacknoedge",
-            "label": "Send Someone Unsuitable to Murder a Hunter",
+            "label": "Enviar alguém Inadequado para assassinar um caçador",
             "actionid": "talk",
-            "startdescription": "My minion lacks the Edge aspect, and is woefully unsuited to attacking the hunter. There's a small chance they might succeed. [Failure will kill your minion.]",
+            "startdescription": "Meu lacaio não tem o aspecto da borda, e é lamentavelmente inadequado para atacar o caçador. Há uma pequena chance de eles serem bem-sucedidos. [Falhar irá matar seu minion.]",
             "description": ".",
             "requirements": {
                 "hunter": 1,
@@ -377,10 +377,10 @@
         },
         {
             "id": "hunterattacksuccess",
-            "label": "Hunting a Hunter...",
+            "label": "Caçando um Caçador...",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has returned, with a trophy.",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou, com um troféu.",
             "effects": {
                 "hunter": -1,
                 "corpse": 1,
@@ -404,10 +404,10 @@
         },
         {
             "id": "huntercapturesuccess",
-            "label": "Hunting a Hunter...",
+            "label": "Caçando um Caçador...",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has returned, with a prisoner!",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou, com um prisioneiro!",
             "effects": {
                 "notoriety": 1
             },
@@ -418,10 +418,10 @@
         },
         {
             "id": "hunterattackfailure",
-            "label": "Hunting a Hunter...",
+            "label": "Caçando um Caçador...",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has not returned. They must have failed.",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio não voltou. Ele deve ter falhado.",
             "effects": {
                 "follower": -1,
                 "notoriety": 1
@@ -440,9 +440,9 @@
         },
         {
             "id": "evidencedestroymidmoth",
-            "label": "Send a Devious Minion to destroy Evidence",
+            "label": "Envie um Minion Deviesso para destruir Evidências",
             "actionid": "talk",
-            "startdescription": "My scheme will most likely succeed. There is always a chance that something will go awry.",
+            "startdescription": "Meu esquema provavelmente será bem sucedido. Sempre há a possibilidade de algo falhar.",
             "description": ".",
             "requirements": {
                 "follower": 1,
@@ -467,9 +467,9 @@
         },
         {
             "id": "evidencedestroylowmoth",
-            "label": "Send a Minion to destroy Evidence",
+            "label": "Envie um Minion para destruir Evidência",
             "actionid": "talk",
-            "startdescription": "My minion's talent for deceit is limited, and this is a difficult task. They will likely fail.",
+            "startdescription": "O talento do meu minion para enganar é limitado, e essa é uma tarefa difícil. Eles provavelmente falharão.",
             "description": ".",
             "requirements": {
                 "follower": 1,
@@ -493,9 +493,9 @@
         },
         {
             "id": "evidencedestroynomoth",
-            "label": "Send Someone Unsuitable to Destroy Evidence",
+            "label": "Enviar Alguém Inadequado para Destruir Evidências",
             "actionid": "talk",
-            "startdescription": "My minion lacks the Moth aspect, and will be out of their depth. There's a small chance they might succeed.",
+            "startdescription": "Meu lacaio tem falta de lua, e estará fora de sua profundidade. Há uma pequena chance de eles serem bem sucedidos.",
             "description": ".",
             "requirements": {
                 "evidencelevel": 1
@@ -517,10 +517,10 @@
         },
         {
             "id": "evidencedestroysuccess",
-            "label": "Tampering with Records...",
+            "label": "Domando com registros...",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has returned. The evidence has been destroyed. I am a little safer.",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio retornou. As provas foram destruídas. Estou um pouco mais seguro.",
             "effects": {
                 "evidencelevel": -1
             },
@@ -528,10 +528,10 @@
         },
         {
             "id": "evidencedestroyfailure",
-            "label": "Tampering with Records...",
+            "label": "Domando com registros...",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has not returned. They have failed, and their blundering may have attracted attention...",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio não voltou. Eles falharam, e a gafe deles pode ter atraído atenção...",
             "effects": {
                 "follower": -1,
                 "notoriety": 1
@@ -540,13 +540,13 @@
         },
         {
             "id": "evidencedestroyfailure_mortalfollower",
-            "label": "Tampering with Records...",
+            "label": "Domando com registros...",
             "actionid": "talk",
             "requirements": {
                 "summoned": -1
             },
-            "startdescription": "I await word....",
-            "description": "My minion has returned, stumbling, mumbling, clumsily bandaged. They were caught in the coils of their own plan. [Heal a fallen Follower with Talk.]",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou, tropeçando, malogro, desajeitado. Eles foram pegos nas bobas do próprio plano. [Curar um seguidor caído com o Talk.]",
             "effects": {
                 "notoriety": 1
             },
@@ -569,8 +569,8 @@
         {
             "id": "hunterspeakwinterg",
             "actionid": "talk",
-            "label": "Share a terrible mystery of the Ragged Lore",
-            "startdescription": "'When the Forge is cold and the Glory is dark and the Wood is dust, perhaps the Wolf Divided will rest, but only until it can devour itself. Hear me now...'  [This will likely sway the Hunter from their path, but it will always increase your own Dread.]",
+            "label": "Compartilhe um terrível mistério da História Ragged Lore",
+            "startdescription": "\"Quando a Forja é fria e a Glória é escura e a Madeira é poeira, Talvez o Lobo Dividido descanse, mas apenas até poder devorar-se. Ouça-me agora...' [Isto provavelmente irá desviar o Caçador do caminho deles, mas sempre aumentará sua própria Dread.]",
             "requirements": {
                 "winter": 14,
                 "lore": 1
@@ -604,8 +604,8 @@
         {
             "id": "hunterspeakwinterd",
             "actionid": "talk",
-            "label": "Share the colder invocations of the Ragged Lore",
-            "startdescription": "'There is a power that commemorates and grieves, from whom nothing is taken, but who cannot be deceived. I will tell you that power's name. Listen to me...' [This might sway the Hunter from their path, especially if they're already Grim, but it will always increase your own Dread.]",
+            "label": "Compartilhe as invocações mais frias da História Enfurecida",
+            "startdescription": "\"Há um poder que comemora e lamenta, de quem nada é tirado, mas que não pode ser enganado, e dir-vos-ei o nome dessa potência. Ouça-me...' [Isto pode desviar o Caçador do seu caminho, especialmente se eles já são Grim, mas isso sempre aumentará sua própria trama.]",
             "requirements": {
                 "winter": 8,
                 "lore": 1
@@ -632,8 +632,8 @@
         {
             "id": "hunterspeakwinter",
             "actionid": "talk",
-            "label": "Hint at the Ragged Lore",
-            "startdescription": "'Let's speak of endings. Let's speak of the declining sun. Let's speak of things that aren't quite dead, and won't quite die...' [This might sway the Hunter from their path, but it will always increase your own Dread.]",
+            "label": "Dica na História Enfurecida",
+            "startdescription": "'Vamos falar de pontas. Vamos falar do sol que está em declínio. Vamos falar de coisas que não estão bem mortas e não vamos sequer morrer. .' [Isso pode desviar o Caçador do caminho deles, mas sempre aumentará a sua própria Apare.]",
             "requirements": {
                 "winter": 1,
                 "lore": 1
@@ -660,11 +660,11 @@
         {
             "id": "hunterspeakdread",
             "actionid": "talk",
-            "label": "Describe the horrors awaiting an adversary",
+            "label": "Descreva os horrores que aguardam um adversário",
             "requirements": {
                 "dread": 1
             },
-            "startdescription": "'Something to think about, every time you close your eyes.' [This might sway the Hunter from their path, but it will always increase your own Dread.]",
+            "startdescription": "\"Algo sobre o que pensar, cada vez que fechamos os olhos. [Isso pode desviar o Caçador do caminho deles, mas sempre aumentará a sua própria Enxixe.]",
             "description": "",
             "linked": [
                 {
@@ -691,8 +691,8 @@
             "requirements": {
                 "idealist": 1
             },
-            "label": "The Horrors Beneath the World's Skin",
-            "startdescription": "'All right, it might end badly for me, but it's worth the sacrifice. And others will carry on the struggle. We'll meet again. [Idealists cannot be demoralised.]",
+            "label": "Horrores Sob a Pele do Mundo",
+            "startdescription": "'Certo, pode terminar mal para mim, mas vale o sacrifício. E outros continuarão lutando. Nos encontraremos novamente. [Idealistas não podem ser desmoralizados.]",
             "effects": {
                 "notoriety": 1,
                 "dread": 1
@@ -704,8 +704,8 @@
             "requirements": {
                 "grim": 1
             },
-            "label": "The Horrors Beneath the World's Skin",
-            "startdescription": "Your account is too much for the Hunter. Their eyes bulge. Their jaw tightens. In the days to come, they will sink inexorably into despair... unless they can find a new truth to cling to.",
+            "label": "Horrores Sob a Pele do Mundo",
+            "startdescription": "Sua conta é demais para o caçador. Os olhos deles são bons. Os apertos das mandíbulas deles. Nos próximos dias, eles mergulharão inexoravelmente no desespero... a menos que encontrem uma nova verdade à qual se agarrem.",
             "description": "",
             "effects": {
                 "dread": 1
@@ -720,8 +720,8 @@
             "requirements": {
                 "grim": -1
             },
-            "label": "The Horrors Beneath the World's Skin",
-            "startdescription": "The Hunter growls defiance, but you can see that your words have found their mark. [This Hunter has become Grim.] ",
+            "label": "Horrores Sob a Pele do Mundo",
+            "startdescription": "O Caçador assusta a desafio, mas você pode ver que suas palavras encontraram a sua marca. [Este Caçador se tornou Grim.] ",
             "description": "",
             "mutations": [
                 {
@@ -738,7 +738,7 @@
         {
             "id": "hunterspeakdread_survives",
             "actionid": "talk",
-            "label": "The Horrors Beneath the World's Skin",
+            "label": "Horrores Sob a Pele do Mundo",
             "alt": [
                 {
                     "id": "hunterspeakdread_survives_becometenacious",
@@ -746,7 +746,7 @@
                 }
             ],
             "startdescription": "",
-            "description": "'Yes, there are terrible things in the world, but that's all the more reason to resist them. I should thank you. You've shown me what I must do.' [This Hunter has become an Idealist.]",
+            "description": "\"Sim, há coisas terríveis no mundo, mas essa é mais uma razão para resistir a elas. Eu devo agradecer. Você me mostrou o que devo fazer.\" [Este caçador se tornou um Idealistão.]",
             "mutations": [
                 {
                     "filter": "hunter",
@@ -762,12 +762,12 @@
         {
             "id": "hunterspeakdread_survives_becometenacious",
             "actionid": "talk",
-            "label": "The Horrors Beneath the World's Skin",
+            "label": "Horrores Sob a Pele do Mundo",
             "requirements": {
                 "tenacious": -1
             },
             "startdescription": "",
-            "description": "'Yes, there are terrible things in the world, but that's all the more reason to resist them. I should thank you. You've shown me what I must do.' [This Hunter has become Tenacious, and an Idealist.]",
+            "description": "\"Sim, há coisas terríveis no mundo, mas essa é mais uma razão para resistir a elas. Eu deveria agradecer. Você me mostrou o que devo fazer.\" [Este caçador se tornou Tenaz e um Idealista.]",
             "mutations": [
                 {
                     "filter": "hunter",
@@ -788,8 +788,8 @@
         {
             "id": "hunterspeaklanterng",
             "actionid": "talk",
-            "label": "Share a terrible mystery of the Glorious Lore",
-            "startdescription": "'This is the secret doctrine of the Door-in-the-Eye. Open your ears...' [This is likely to tempt the Hunter from their path, but will always increase your own Fascination.]",
+            "label": "Compartilhe um terrível mistério do Lore Glorioso",
+            "startdescription": "'Esta é a doutrina secreta da porta do olho. Abra suas orelhas... [É provável que isso tente o Caçador a partir do seu caminho, mas sempre aumentará sua própria Fascinação.]",
             "requirements": {
                 "lantern": 14,
                 "lore": 1
@@ -823,8 +823,8 @@
         {
             "id": "hunterspeaklanternd",
             "actionid": "talk",
-            "label": "Share the brighter invocations of the Glorious Lore",
-            "startdescription": "'The Door-in-the-Eye navigates; he is not merciful; but first and always, he illuminates. Listen, and be illuminated...' [This may tempt the Hunter from their path, especially if they're already an Idealist, but will always increase your own Fascination.]",
+            "label": "Compartilhe as invocações mais brilhantes do Amante Glorioso",
+            "startdescription": "\"O Olho navega; ele não é misericordioso, mas primeiro e sempre, ele ilumina. Ouça e seja iluminado... [Isto pode tentar o Caçador pelo seu caminho, especialmente se já são um Idealista, mas sempre aumentarão sua própria Fascinação.]",
             "requirements": {
                 "lantern": 8,
                 "lore": 1
@@ -851,8 +851,8 @@
         {
             "id": "hunterspeaklantern",
             "actionid": "talk",
-            "label": "Hint at the Glorious Lore",
-            "startdescription": "'There are finer things than we see. You must have felt it. Consider the possibilities of eternity...' [This might tempt the Hunter from their path, but will always increase your own Fascination.]",
+            "label": "Dica na História Gloriosa",
+            "startdescription": "\"Existem coisas melhores do que nós. Você deve ter percebido. Considere as possibilidades da eternidade. .' [Isto pode tentar o Caçador pelo seu caminho, mas sempre aumentará sua própria Fascinação.]",
             "requirements": {
                 "lantern": 1,
                 "lore": 1
@@ -879,11 +879,11 @@
         {
             "id": "hunterspeakfascination",
             "actionid": "talk",
-            "label": "Describe your visions to your adversary",
+            "label": "Descreva suas visões para o seu adversário",
             "requirements": {
                 "fascination": 1
             },
-            "startdescription": "The higher you rise, the more you'll see.' [This might tempt the Hunter from their path, but will always increase your own Fascination.]",
+            "startdescription": "Quanto mais alto você aumentar, mais você verá.' [Isto pode tentar o Caçador pelo seu caminho, mas sempre aumentará sua própria Fascinação.]",
             "description": "",
             "linked": [
                 {
@@ -910,8 +910,8 @@
             "requirements": {
                 "grim": 1
             },
-            "label": "Visions of Glory",
-            "startdescription": "'That sounds pretty. But I've got a job to do. You'll hear from me again. [Grim Hunters cannot be Fascinated.]",
+            "label": "Visões da Glória",
+            "startdescription": "'Isso parece bonito. Mas eu tenho um trabalho para fazer. Você vai me ouvir de novo. [Caçadores Sombrios não podem ser Fascinados.]",
             "effects": {
                 "notoriety": 1,
                 "fascination": 1
@@ -923,8 +923,8 @@
             "requirements": {
                 "idealist": 1
             },
-            "label": "Visions of Glory",
-            "startdescription": "Your account is too much for the Hunter. Their eyes grow wide and bright. Their smile becomes dreamy. In the days to come, they will forsake everything they once knew.",
+            "label": "Visões da Glória",
+            "startdescription": "Sua conta é demais para o caçador. Os olhos deles crescem de forma brilhante. O sorriso deles se torna sonhador. Nos próximos dias, eles abandonarão tudo o que já sabiam.",
             "description": "",
             "effects": {
                 "fascination": 1
@@ -939,8 +939,8 @@
             "requirements": {
                 "idealist": -1
             },
-            "label": "Visions of Glory",
-            "startdescription": "The Hunter scoffs, but you can see that the urgency of your account has struck a spark. [This Hunter has become an Idealist.] ",
+            "label": "Visões da Glória",
+            "startdescription": "O scoff do Caçador, mas você pode ver que a urgência da sua conta atingiu uma faísca. [Este caçador se tornou um Idealista.] ",
             "description": "",
             "mutations": [
                 {
@@ -957,14 +957,14 @@
         {
             "id": "hunterspeakfascination_survives",
             "actionid": "talk",
-            "label": "Visions of Glory",
+            "label": "Visões da Glória",
             "alt": [
                 {
                     "id": "hunterspeakfascination_survives_becometenacious",
                     "chance": 100
                 }
             ],
-            "description": "'Yes, I could be something finer, but what we are is less important than what we do. The world is where we live, and I will defend it till I die. You can keep your visions.' [This Hunter has become Grim.]",
+            "description": "\"Sim, eu poderia ser algo mais bonito, mas o que somos é menos importante do que o que fazemos. O mundo é onde vivemos, e eu defenderei até que eu morra. Você pode manter suas visões.' [Este caçador se tornou Grim.]",
             "mutations": [
                 {
                     "filter": "hunter",
@@ -980,11 +980,11 @@
         {
             "id": "hunterspeakfascination_survives_becometenacious",
             "actionid": "talk",
-            "label": "Visions of Glory",
+            "label": "Visões da Glória",
             "requirements": {
                 "tenacious": -1
             },
-            "description": "'Yes, I could be something finer, but what we are is less important than what we do. The world is where we live, and I will defend it till I die. You can keep your visions.' [This Hunter has become Grim and Tenacious.]",
+            "description": "\"Sim, eu poderia ser algo mais bonito, mas o que somos é menos importante do que o que fazemos. O mundo é onde vivemos, e eu defenderei até morrer. Você pode manter suas visões.' [Este Caçador se tornou sombrio e Tenaciosos.]",
             "mutations": [
                 {
                     "filter": "hunter",

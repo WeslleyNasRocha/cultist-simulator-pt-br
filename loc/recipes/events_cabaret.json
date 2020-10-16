@@ -3,12 +3,12 @@
         {
             "id": "explorecabaret",
             "actionid": "explore",
-            "label": "Visit the Ecdysis Club",
+            "label": "Visite o Ecdysis Club",
             "requirements": {
                 "locationcabaret": 1,
                 "funds": 1
             },
-            "startdescription": "The entrance is lost beneath soft drapes of crimson, cinnabar and incarnadine. Above the door, the club motto: 'IN GI RUM IMUS NOC TE ET CON SUMI MUR IGNI'. It has been rendered as 'into night's circle we fly, until the fire enjoys us'.",
+            "startdescription": "A entrada é perdida sob descargas suaves de carmesim, cinábrio e incarnada. Acima da porta, o lema do clube: 'IN GI RUM NOC IMUS E ET CON SUMI MUR IGNI (MAI). Tornou-se \"num círculo nocturno em que voamos, até que o fogo nos aproveite\".",
             "description": ".",
             "effects": {
                 "funds": -1
@@ -54,25 +54,25 @@
         },
         {
             "id": "cabaretpleasure",
-            "label": "Nightly Pleasures at the Cabaret Club",
+            "label": "Por Prato Noturno no Clube do Cabaret",
             "actionid": "explore",
             "requirements": {
                 "contentment": 1
             },
-            "startdescription": "The drinks, the songs, the light; the arching walls, the smoke-blue haze, the press and sway of clothed and unclothed flesh.",
-            "description": "I have purchased pleasure. I reel home in the ungodly hours and collapse into bed.",
+            "startdescription": "As bebidas, as canções, a luz; as paredes de arco, a lâmina azul-fumaça, a imprensa e o estilo de carne vestida e sem roupa.",
+            "description": "Comprei prazer. Faço-o para casa nas horas descabidas e cai na cama.",
             "warmup": 15,
             "craftable": false
         },
         {
             "id": "cabaretallure",
-            "label": "Allure at the Ecdysis Club",
+            "label": "Allure no Clube de Ecdisis",
             "actionid": "explore",
             "requirements": {
                 "fascination": 1
             },
-            "startdescription": "In tonight's performance, 'Amethyst', a net-wielding hunter pursues a veil-winged woman through a murmuring maze of leaf-clad dancers. Each movement is underwater-slow.",
-            "description": "The lights go down, very gradually, as the performance ends. There is no applause. We each drift into the street, alone with our dream.",
+            "startdescription": "No desempenho desta noite, \"Amethyst\", um caçador que empunha a rede persegue uma mulher com asas à rede através de um labirinto murmúrio de bailarinos de folha. Cada movimento é lento.",
+            "description": "As luzes caem, muito gradualmente, à medida que o desempenho termina. Não há nenhum aplauso. Cada um de nós deriva na rua, sozinha com nosso sonho.",
             "effects": {
                 "contentment": 1
             },
@@ -81,13 +81,13 @@
         },
         {
             "id": "cabareteducation",
-            "label": "The Educations of the Cabaret Club",
+            "label": "As Educações do Clube Cabaret",
             "actionid": "explore",
             "requirements": {
                 "erudition": 1
             },
-            "startdescription": "Tonight's performance is a desultory affair of flapping scarves and earnest flesh. The audience turns to conversation.",
-            "description": "I've spent the evening swapping theories with a tableful of charlatans, poseurs and - perhaps - initiates. Some of these theories may be true.",
+            "startdescription": "O desempenho de hoje à noite é um caso desultório de escavações e carne mais séria. O público se vira para a conversa.",
+            "description": "Passei a noite trocando teorias com uma mesa de charlatãs, supostos e - talvez - iniciantes. Algumas dessas teorias podem ser verdadeiras.",
             "effects": {
                 "contentment": 1
             },
@@ -96,25 +96,25 @@
         },
         {
             "id": "cabaretglimpse",
-            "label": "A Glimpse of Something More at the Ecdysis Club",
+            "label": "Um vislumbre de algo mais no Clube de Ecdisis",
             "actionid": "explore",
             "requirements": {
                 "glimmering": 1
             },
-            "startdescription": "The backdrops for tonight's performances are painted with nightmare images out of Piranesi - vast impossible subterranean prisons. The dancers are monster-masked, sudden as fire, each movement snapping with wicked intent.",
-            "description": "The dancers pass beyond the backdrops, cross them, seem to move upon their staircases and drawbridges. Their bodies become smudged with backdrop-paint. A growl arises from the audience. 'The walls of the House...'",
+            "startdescription": "Os cenários para o desempenho desta noite são pintados com imagens de pesadelo de Piranesi - enormes prisões subterrâneas impossíveis. Os dançarinos são máscaras de monstros, repentinamente como fogo, cada movimento encaixando com intenções perversas.",
+            "description": "Os dançarinos atravessam os cenários, cruzam-os, parecem se mover em suas escadas e levantar pontes. Os corpos deles ficam abafados com pintura de pano de fundo. Um crescimento surge da audiência. \"As paredes da Câmara...\"",
             "warmup": 15,
             "craftable": false
         },
         {
             "id": "cabaretharm",
-            "label": "A Wounding Consummation at the Ecdysis Club",
+            "label": "Um Consumo de Ferimentos no Clube Ecdisis",
             "actionid": "explore",
             "requirements": {
                 "vitality": 1
             },
-            "startdescription": "Tonight, the performers pass among the audience, juggling knives or bottles of red glass, bending to bestow whispers or other gifts.",
-            "description": "A dancer pressed a red glass cup to my mouth. Its lip was sharp. My mouth is bleeding. But the wine within was a strong wine -",
+            "startdescription": "Esta noite, os artistas passam entre o público, misturando facas ou garrafas de vidro vermelho, curvando-se para dar sussurros ou outros presentes.",
+            "description": "Um dançarino pressionou um copo de vidro vermelho na minha boca. Ele era afiado. Minha boca está sangrando. Mas o vinho de dentro era um vinho forte -",
             "effects": {
                 "contentment": 1
             },
@@ -123,37 +123,37 @@
         },
         {
             "id": "cabaretexposure",
-            "label": "An Interruption at the Ecdysis Club",
+            "label": "Uma Interrupção no Clube Ecdisis",
             "actionid": "explore",
             "requirements": {
                 "notoriety": 1
             },
-            "startdescription": "The performance has hardly begun when a moan of terror arises from the audience!",
-            "description": "The performance ends immediately; the lights come up; we are ushered from our seats and urged into the street. It's never clear what has happened, but the Club staff seem prepared, as if this has happened before. Lights bloom in nearby windows, and passersby gawp at the crowd of guests dispersing into the night.",
+            "startdescription": "O desempenho quase não começou quando uma lua de terror surge do público!",
+            "description": "O desempenho termina imediatamente; as luzes nascem; somos trazidos dos nossos assentos e instados a entrar na rua. Nunca está claro o que aconteceu, mas a equipe do Clube parece preparada, como se isso tivesse acontecido antes. As luzes florescem em janelas próximas e a mandíbula de passersby na multidão de convidados se espalhando pela noite.",
             "warmup": 15,
             "craftable": false
         },
         {
             "id": "cabarethunger",
-            "label": "The Hungers of the Ecdysis Club",
+            "label": "Os Húngaros do Clube Ecdisis",
             "actionid": "explore",
             "requirements": {
                 "influencegrail": 1
             },
-            "startdescription": "A dancer enters from stage left, swathed in red bandages tight as tendons. She peels one away. Another. Another. Another - ",
-            "description": "This must be a trick. One cannot remove garments so softly that the bones beneath the skin are visible. Bone pink as peach-flesh. Organs nestled like grapes. The lights dim, gutter, go out, and the stage's red star with them. All our lips are dry.",
+            "startdescription": "Um dançarino entra do palco esquerdo, balançado em fadas vermelhas apertadas como tendões. Ela descasca um. Another. Outro - ",
+            "description": "Isto deve ser um truque. Não se pode remover as roupas de forma tão suave que os ossos sob a pele estão visíveis. Rosa osso como carne de pêssego. Organizadas pareciam uvas. As luzes apagam, apagam-se, e a estrela vermelha do palco com elas. Todos os nossos lábios estão secos.",
             "warmup": 15,
             "craftable": false
         },
         {
             "id": "cabaretfey",
-            "label": "The Mysteries of the Ecdysis Club",
+            "label": "Os Mistérios do Clube Ecdisis",
             "actionid": "explore",
             "requirements": {
                 "influencemoth": 1
             },
-            "startdescription": "'The Wreath!' announces the master of ceremonies. A dancer undulates on to the stage, unfolding her arms. Live moths spill in a stream from her mouth!",
-            "description": "White moths eddy through the hall. They perch on the brims of wine-glasses and sip. The audience applauds. The woman on stage moves as if she has too many limbs. Moths crowd my arms, nestle against my shoulder. In a little while, I'll step outside and look at the clear cold stars: assume I dreamt the whole thing. The smokes of the Club are treacherous.",
+            "startdescription": "\"O Caldeirão!\" anuncia o mestre das cerimónias. Um dançarino ignora no palco, desdobrando seus braços. As mariposas vivas se espalham em uma corrente da boca dela!",
+            "description": "As luas brancas encostam pelo salão. Elas pomem nas bordas dos óculos e gotas. A audiência aplaude. A mulher no palco se move como se ela tivesse demasiados membros. As luas cruzam os meus braços, ninho contra o meu ombro. Em um pouco de tempo, vou deitar fora e ver as estrelas frias claras: suponha que eu sonhei toda a coisa. As fumaças do Clube são traiçoeiras.",
             "effects": {
                 "contentment": 1
             },

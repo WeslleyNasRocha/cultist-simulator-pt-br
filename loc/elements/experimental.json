@@ -2,16 +2,16 @@
     "elements": [
         {
             "id": "owl",
-            "label": "The Owl Without a Hat",
+            "label": "A Coruja Sem Chapéu",
             "aspects": {
                 "job": 1
             },
-            "description": "The Owl says that our last character was #PREVIOUSCHARACTERNAME#, our last desire was #LAST_DESIRE#, our last best follower was #LAST_FOLLOWER# and our last book was #LAST_BOOK#.",
+            "description": "A Coruja diz que nosso último caractere era #PREVIOUSCHARACTERNAME#, nosso último desejo era #LAST_DESIRE#, nosso último seguidor foi #LAST_FOLLOWER# e nosso último livro foi #LAST_BOOK#.",
             "noartneeded": true
         },
         {
             "id": "wolfatthedoor",
-            "label": "T H  E  WO L  F  W  H  O   L  I  V  E  S IN THE BIG HOUSE",
+            "label": "T E M P O R A D A D A L I V E S NO GRANDE HOURA",
             "aspects": {
                 "ability": 1,
                 "location": 1,
@@ -25,7 +25,7 @@
                 }
             ],
             "icon": "violet_p",
-            "description": "The Wolf will accept anything, and then devour everything, no matter what.",
+            "description": "O Lobo vai aceitar qualquer coisa e devorar tudo, não importa o quê.",
             "noartneeded": true
         },
         {
@@ -37,28 +37,28 @@
         },
         {
             "id": "lionweb",
-            "label": "The Lion in the Web",
+            "label": "O Leão na Web",
             "comments": "Information lives in the sky.",
             "icon": "valciane_p",
             "noartneeded": true
         },
         {
             "id": "boarwords",
-            "label": "The Boar in the Words",
+            "label": "O Javali nas Palavras",
             "comments": "Titles are criminal.",
             "icon": "victor_p",
             "noartneeded": true
         },
         {
             "id": "worldbull",
-            "label": "The World in the Bull",
+            "label": "O Mundo no Touro",
             "comments": "The crime At the beginning",
             "icon": "clifton_p",
             "noartneeded": true
         },
         {
             "id": "notaworm",
-            "label": "Possibly a Bird",
+            "label": "Possivelmente um Pássaro",
             "comments": "We Await S.T.E.",
             "icon": "clovette_p",
             "noartneeded": true

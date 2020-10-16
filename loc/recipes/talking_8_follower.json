@@ -2,10 +2,10 @@
     "recipes": [
         {
             "id": "talktofollower_attemptheal",
-            "label": "Attempt the healing of a Follower",
+            "label": "Tentar curar um seguidor",
             "actionid": "talk",
-            "startdescription": "Compassion, or convenience?",
-            "description": "I could not or would not provide medical assistance.",
+            "startdescription": "Compatibilidade ou conveniência?",
+            "description": "Não podia ou não iria prestar assistência médica.",
             "requirements": {
                 "follower_wound": 1,
                 "mortal": 1,
@@ -14,8 +14,8 @@
             "slots": [
                 {
                     "id": "Healing",
-                    "label": "Healing",
-                    "description": "Funds will buy medicine.",
+                    "label": "Curar",
+                    "description": "Fundos vão comprar remédios.",
                     "required": {
                         "funds": 1
                     }
@@ -32,8 +32,8 @@
         },
         {
             "id": "talktofollower_heal",
-            "label": "Complete the healing of a Follower",
-            "startdescription": "Perhaps, now, they'll survive. But there are limits to what the human body can sustain.",
+            "label": "Complete a cura de um seguidor",
+            "startdescription": "Talvez, agora, eles sobrevivam. Mas há limites para o que o corpo humano pode sustentar.",
             "actionid": "talk",
             "requirements": {
                 "funds": 1
@@ -73,8 +73,8 @@
         {
             "id": "givescar_edge",
             "actionid": "talk",
-            "label": "The Lessons of Experience",
-            "description": "The wound is healed. The scar remains. But each scar, as the scholar Shulga once observed, is a lesson.",
+            "label": "As Lições da Experiência",
+            "description": "A ferida foi curada. A cicatriz permanece. Mas cada cicatriz, como observou o estudioso Shulga em tempos, é uma lição.",
             "mutations": [
                 {
                     "filter": "follower",
@@ -98,9 +98,9 @@
         },
         {
             "id": "givescar_knock",
-            "label": "Pain's Gate",
+            "label": "Portão da Dente",
             "actionid": "talk",
-            "description": "The wound is healed - as much as it will ever be. A gate of pain and possibility remains.",
+            "description": "A ferida está curada - por mais que ela alguma vez esteja. Mantém-se um portão de dor e possibilidade.",
             "mutations": [
                 {
                     "filter": "follower",
@@ -125,8 +125,8 @@
         {
             "id": "givescar_winter",
             "actionid": "talk",
-            "label": "The Beginning of an Ending",
-            "description": "The wound is healed, but this one came very close to death. Silence has touched them, like snow.",
+            "label": "O Início de uma Final",
+            "description": "A ferida foi curada, mas este chegou muito perto da morte. O silêncio os tocou, como a neve.",
             "mutations": [
                 {
                     "filter": "follower",
@@ -151,11 +151,11 @@
         {
             "id": "deathscar_edge",
             "actionid": "talk",
-            "label": "Death: a Defeat",
+            "label": "Morte: Uma Derrota",
             "requirements": {
                 "follower_scar_edge": 3
             },
-            "description": "This one showed courage and endurance. In the end, that wasn't enough.[Your Follower acquired three Edge-Scars, and died.]",
+            "description": "Este mostrou coragem e resistência. No final, isso não era suficiente. [Seu seguidor adquiriu três Cicatrizes de Bravura e morreu.]",
             "aspects": {
                 "killmortal": 1
             }
@@ -163,11 +163,11 @@
         {
             "id": "deathscar_knock",
             "actionid": "talk",
-            "label": "Death: an Opening",
+            "label": "Morte: uma abertura",
             "requirements": {
                 "follower_scar_knock": 3
             },
-            "description": "To operate effectively, one must keep one's insides inside, and discourage what is outside from coming inside. When sufficient of one's insides pass outside, one is no longer a going concern. [Your Follower acquired three Knock-Scars, and died.]",
+            "description": "Para funcionarmos eficazmente, temos de manter as pessoas dentro do seu território e desencorajar o que está lá fora de entrada. Quando chega de entrada, não se trata mais de se preocupar. [O seu seguidor adquiriu três abates e morreu.]",
             "aspects": {
                 "killmortal": 1
             }
@@ -175,18 +175,18 @@
         {
             "id": "deathscar_winter",
             "actionid": "talk",
-            "label": "Death: an Ending",
+            "label": "Morte: um fim",
             "requirements": {
                 "follower_scar_winter": 3
             },
-            "description": "The year turns Westwards, towards Winter. This one has chosen to close their eyes. [Your Follower acquired three Winter-Scars, and died.]",
+            "description": "O ano gira o Ocidente, em direção ao inverno. Este optou por fechar os olhos. [O seguidor adquiriu três carros Winter-Scars, e morreu.]",
             "aspects": {
                 "killmortal": 1
             }
         },
         {
             "id": "talktofollower",
-            "label": "Discuss occult business with a Follower",
+            "label": "Discuta negócios ocultos com um seguidor",
             "actionid": "talk",
             "requirements": {
                 "society": -1,
@@ -196,8 +196,8 @@
             "slots": [
                 {
                     "id": "Subject",
-                    "label": "Subject",
-                    "description": "Our cult, for cult business; a target; or another topic.",
+                    "label": "Cargo",
+                    "description": "Nosso culto, como culto, um alvo; ou outro tópico.",
                     "required": {
                         "society": 1,
                         "evidencelevel": 1,
@@ -452,21 +452,21 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Significant conversations in a smoky meeting-room. What do I need from my follower? [Add your cult, to send them out on cult business; send them after enemies; or raise another matter.]",
-            "description": "Nothing, then.",
+            "startdescription": "Conversas significativas numa sala de reuniões limpa. De que preciso meu seguidor? [Adicione o seu culto, para mandá-los culto; mandá-los após inimigos; ou criar outra questão.]",
+            "description": "Nada, então.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "talktohireling_rehire",
             "actionid": "talk",
-            "label": "Offer this hireling another payment.",
+            "label": "Oferecer isto contratando outro pagamento.",
             "requirements": {
                 "hireling": 1,
                 "funds": 1
             },
-            "startdescription": "I could pay to extend this hireling's period of service.",
-            "description": "'All right. Same terms as before.'",
+            "startdescription": "Poderia pagar o prolongamento do período de serviço desta bancada de aluguel.",
+            "description": "'Tudo bem. O mesmo termo que antes.'",
             "aspects": {
                 "hiring": 1
             },
@@ -479,13 +479,13 @@
         {
             "id": "talktodevotee_refire",
             "actionid": "talk",
-            "label": "Fire this Devotee with faith again.",
+            "label": "Dispare este Devoto com fé novamente.",
             "requirements": {
                 "devotee": 1,
                 "fervour": 1
             },
-            "startdescription": "If my devotee's faith is wavering, I can use Fervour to fire their enthusiasm again.",
-            "description": "'Would you forget your dreams so quickly?'",
+            "startdescription": "Se a fé de meu devoto está vacilando, posso usar Fervour para atear seu entusiasmo novamente.",
+            "description": "Esqueceis os sonhos com tanta rapidez?",
             "effects": {
                 "refiring": 1
             },
@@ -494,7 +494,7 @@
         },
         {
             "id": "A_talktofollower_cantgivetool",
-            "label": "Not Wise, or Not Permitted?",
+            "label": "Não deseja ou não permitido?",
             "actionid": "talk",
             "requirements": {
                 "follower": 1,
@@ -502,11 +502,11 @@
                 "summoned": -1,
                 "follower_honoured": 1
             },
-            "startdescription": "I have already given this follower a gift. [A follower cannot receive a second gift.]"
+            "startdescription": "Já dei um presente a este seguidor. [Um seguidor não pode receber um segundo presente.]"
         },
         {
             "id": "A_talktofollower_givetool_router",
-            "label": "Gift a Tool to a Follower",
+            "label": "Dê uma ferramenta para um Seguidor",
             "actionid": "talk",
             "requirements": {
                 "follower": 1,
@@ -516,7 +516,7 @@
                 "greatwork": -1,
                 "greatwork.sabotaged": -1
             },
-            "startdescription": "Power will pass from my hands to theirs. [This will increase a follower's relevant Aspect, but you can never reclaim the tool, nor gift them a second tool. A Gift will reduce Resentment.]",
+            "startdescription": "O poder passará das minhas mãos para as delas. [Isto aumentará o Aspectos relevantes, mas você nunca poderá recuperar a ferramenta, nem presenteá-los com uma segunda ferramenta. Um Presente reduzirá o Ressuscitamento.]",
             "description": ".",
             "linked": [
                 {
@@ -635,9 +635,9 @@
         },
         {
             "id": "L_give_tool_edgeb",
-            "label": "A minor gift of Edge",
+            "label": "Um presente menor de aresta",
             "actionid": "talk",
-            "description": "Around the neck, on a length of dried tiger-sinew.",
+            "description": "Ao redor do pescoço, em um comprimento de tendão-do-tigre seco.",
             "requirements": {
                 "tooledgeb": 1
             },
@@ -667,9 +667,9 @@
         },
         {
             "id": "L_give_tool_edged",
-            "label": "A significant gift of Edge",
+            "label": "Um presente significativo da Borda",
             "actionid": "talk",
-            "description": "Close to the hand, but wrapped against the touch of blood which may excite it.",
+            "description": "Perto da mão, mas envolto com o toque de sangue que pode excitá-lo.",
             "requirements": {
                 "tooledged": 1
             },
@@ -699,9 +699,9 @@
         },
         {
             "id": "L_give_tool_edgef",
-            "label": "A great gift of Edge",
+            "label": "Um grande presente da Borda",
             "actionid": "talk",
-            "description": "Buried somewhere it cannot incite rebellion.",
+            "description": "Enterrado em algum lugar que não pode incitar a rebelião.",
             "requirements": {
                 "tooledgef": 1
             },
@@ -731,9 +731,9 @@
         },
         {
             "id": "L_give_tool_forgeb",
-            "label": "A minor gift of Forge",
+            "label": "Um menor presente da Forja",
             "actionid": "talk",
-            "description": "To be kept: around the neck, on a chain of fine steel links.",
+            "description": "A ser mantido: ao redor do pescoço, em uma cadeia de links de aço fino.",
             "requirements": {
                 "toolforgeb": 1
             },
@@ -763,9 +763,9 @@
         },
         {
             "id": "L_give_tool_forged",
-            "label": "A significant gift of Forge",
+            "label": "Um presente significativo da Forja",
             "actionid": "talk",
-            "description": "To be kept: in a hoop of iron, fixed fast to the flesh.",
+            "description": "Para ser mantido: em um giro de ferro, fixo rápido na carne.",
             "requirements": {
                 "toolforged": 1
             },
@@ -795,9 +795,9 @@
         },
         {
             "id": "L_give_tool_forgef",
-            "label": "A great gift of Forge",
+            "label": "Um grande presente da Forja",
             "actionid": "talk",
-            "description": "To be kept: in the lamp of a private shrine.",
+            "description": "A ser mantida: na lâmpada de um santuário privado.",
             "requirements": {
                 "toolforgef": 1
             },
@@ -827,9 +827,9 @@
         },
         {
             "id": "L_give_tool_grailmoth",
-            "label": "A minor gift of Grail and Moth",
+            "label": "Um menor presente de Galho e Mariposa",
             "actionid": "talk",
-            "description": "To be kept: below the neck, above the waist, in the central hollow of the chest.",
+            "description": "Para ser mantido: abaixo do pescoço, acima da cintura, no centro oco do baú.",
             "requirements": {
                 "toolgrailmoth": 1
             },
@@ -865,9 +865,9 @@
         },
         {
             "id": "L_give_tool_grailb",
-            "label": "A minor gift of Grail",
+            "label": "Um menor presente de Grail",
             "actionid": "talk",
-            "description": "To be kept: never to be worn in daylight, and in moonlight, only with utmost caution.",
+            "description": "Para ser mantido: nunca ser usado à luz do dia, e à lua, apenas com o máximo cuidado.",
             "requirements": {
                 "toolgrailb": 1
             },
@@ -897,9 +897,9 @@
         },
         {
             "id": "L_give_tool_graild",
-            "label": "A significant gift of Grail",
+            "label": "Um presente significativo de Grail",
             "actionid": "talk",
-            "description": "To be kept: into this ring will my servant weave their own hair, for its next owner to burn.",
+            "description": "Para ser mantido: nesse anel meu servo vai tecer seu próprio cabelo, para que seu próximo proprietário queime.",
             "requirements": {
                 "toolgraild": 1
             },
@@ -929,9 +929,9 @@
         },
         {
             "id": "L_give_tool_grailf",
-            "label": "A great gift of Grail",
+            "label": "Um grande dom de Grail",
             "actionid": "talk",
-            "description": "To be kept: in the cellar, beside the rarer sort of wine.",
+            "description": "A ser mantida: na clula, ao lado do tipo de vinho mais raro.",
             "requirements": {
                 "toolgrailf": 1
             },
@@ -961,9 +961,9 @@
         },
         {
             "id": "L_give_tool_heartb",
-            "label": "A minor gift of Heart",
+            "label": "Um menor presente do Coração",
             "actionid": "talk",
-            "description": "To be carried: in a bandage-sling, like a well-behaved infant.",
+            "description": "A ser transportado: num estilingue de bandida, como uma criança bem comportada.",
             "requirements": {
                 "toolheartb": 1
             },
@@ -993,9 +993,9 @@
         },
         {
             "id": "L_give_tool_heartd",
-            "label": "A significant gift of Heart",
+            "label": "Um presente significativo do Coração",
             "actionid": "talk",
-            "description": "To be kept: wrapped tight, so it will not shiver untimely.",
+            "description": "Para ser mantido: cochilado apertado, então não tremerá sem tempo.",
             "requirements": {
                 "toolheartd": 1
             },
@@ -1025,9 +1025,9 @@
         },
         {
             "id": "L_give_tool_heartf",
-            "label": "A great gift of Heart",
+            "label": "Um grande presente do Coração",
             "actionid": "talk",
-            "description": "To be kept: above the mantel, or before the threshold.",
+            "description": "Para ser mantido: acima da manobra, ou antes do limiar.",
             "requirements": {
                 "toolheartf": 1
             },
@@ -1057,9 +1057,9 @@
         },
         {
             "id": "L_give_tool_knockb",
-            "label": "A minor gift of Knock",
+            "label": "Um pequeno presente de Batida",
             "actionid": "talk",
-            "description": "To be kept: around the neck, on a length of dried serpent-gut.",
+            "description": "A ser mantido: em torno do pescoço, em um comprimento de serpente seco.",
             "requirements": {
                 "toolknockb": 1
             },
@@ -1089,9 +1089,9 @@
         },
         {
             "id": "L_give_tool_knockd",
-            "label": "A significant gift of Knock",
+            "label": "Um presente significativo de Batida",
             "actionid": "talk",
-            "description": "To be kept: at the door which is not to be opened.",
+            "description": "A ser mantida: à porta que não deve ser aberta.",
             "requirements": {
                 "toolknockd": 1
             },
@@ -1121,9 +1121,9 @@
         },
         {
             "id": "L_give_tool_knockf",
-            "label": "A great gift of Knock",
+            "label": "Um grande presente de Batida",
             "actionid": "talk",
-            "description": "It cannot be locked away. Keep it in the hand or beneath the tongue.",
+            "description": "Não pode ser bloqueado. Mantenha na mão ou debaixo da língua.",
             "requirements": {
                 "toolknockf": 1
             },
@@ -1153,9 +1153,9 @@
         },
         {
             "id": "L_give_tool_lanternb",
-            "label": "A minor gift of Lantern",
+            "label": "Um pequeno presente do Lanterna",
             "actionid": "talk",
-            "description": "To be kept: around the neck, on a twist of golden wire.",
+            "description": "Para ser mantido: em torno do pescoço, em um torto de arame dourado.",
             "requirements": {
                 "toollanternb": 1
             },
@@ -1185,9 +1185,9 @@
         },
         {
             "id": "L_give_tool_lanternd",
-            "label": "A significant gift of Lantern",
+            "label": "Um presente significativo do Lanterna",
             "actionid": "talk",
-            "description": "Wherever it's kept, it will be visible in the splintered reflections of the pupils.",
+            "description": "Onde quer que ele seja mantido, ele ficará visível nas reflexões divididas dos alunos.",
             "requirements": {
                 "toollanternd": 1
             },
@@ -1217,9 +1217,9 @@
         },
         {
             "id": "L_give_tool_lanternf",
-            "label": "A great gift of Lantern",
+            "label": "Um ótimo presente do Lanterna",
             "actionid": "talk",
-            "description": "To be kept: in a room without windows, to which no light is ever admitted.",
+            "description": "Para ser mantido: num cômodo sem janelas, para o qual nenhuma luz é jamais admitida.",
             "requirements": {
                 "toollanternf": 1
             },
@@ -1249,9 +1249,9 @@
         },
         {
             "id": "L_give_tool_mothb",
-            "label": "A minor gift of Moth",
+            "label": "Um menor presente de Mariposa",
             "actionid": "talk",
-            "description": "To be kept: in a clot of hair, in a bandage, in a box, in a place we visit only when we are ready.",
+            "description": "Para ser mantido: num cozimento de cabelo, numa bandida, numa caixa, num lugar só visitamos quando estamos prontos.",
             "requirements": {
                 "toolmothb": 1
             },
@@ -1281,9 +1281,9 @@
         },
         {
             "id": "L_give_tool_mothd",
-            "label": "A significant gift of Moth",
+            "label": "Um presente significativo de Mariposa",
             "actionid": "talk",
-            "description": "To be kept: upon the blank face of a mannequin-head, always facing the wall.",
+            "description": "A ser mantida: sobre o rosto em branco de uma cabeça de mannequine, sempre enfrentando o muro.",
             "requirements": {
                 "toolmothd": 1
             },
@@ -1313,9 +1313,9 @@
         },
         {
             "id": "L_give_tool_mothf",
-            "label": "A great gift of Moth",
+            "label": "Um grande dom de Mariposa",
             "actionid": "talk",
-            "description": "To be kept: in a copper bowl of water, mixed with three drops of blood and three strands of hair, freshened weekly; and an iron needle, so they may always be aligned to the North.",
+            "description": "Para ser mantido: numa tigela de cobre de água, misturada com três gotas de sangue e três linhas de cabelo, frescas semanalmente; e uma agulha de ferro, pelo que podem sempre ser alinhados com o Norte.",
             "requirements": {
                 "toolmothf": 1
             },
@@ -1345,9 +1345,9 @@
         },
         {
             "id": "L_give_tool_secrethistoriesb",
-            "label": "A minor gift in commemoration of the Secret Histories",
+            "label": "Um pequeno presente em comemoração das Histórias Secretas",
             "actionid": "talk",
-            "description": "Sometimes, one object can be kept in more than one place.",
+            "description": "Às vezes, um objeto pode ser mantido em mais de um lugar.",
             "requirements": {
                 "toolsecrethistoriesb": 1
             },
@@ -1377,9 +1377,9 @@
         },
         {
             "id": "L_give_tool_secrethistoriesd",
-            "label": "A significant gift in commemoration of the Secret Histories",
+            "label": "Um presente significativo na comemoração das Histórias Secretas",
             "actionid": "talk",
-            "description": "To be kept: between two mirrors, beneath a light that is not to be extinguished.",
+            "description": "Para ser mantido: entre dois espelhos, debaixo de uma luz que não deve ser extinta.",
             "requirements": {
                 "toolsecrethistoriesd": 1
             },
@@ -1409,9 +1409,9 @@
         },
         {
             "id": "L_give_tool_winterb",
-            "label": "A minor gift of Winter",
+            "label": "Um pequeno presente do Inverno",
             "actionid": "talk",
-            "description": "Kept in a silent place.",
+            "description": "Mante-se em um lugar silencioso.",
             "requirements": {
                 "toolwinterb": 1
             },
@@ -1441,9 +1441,9 @@
         },
         {
             "id": "L_give_tool_winterd",
-            "label": "A significant gift of Winter",
+            "label": "Um presente significativo do Inverno",
             "actionid": "talk",
-            "description": "Kept in an empty place.",
+            "description": "Mante-se em um lugar vazio.",
             "requirements": {
                 "toolwinterd": 1
             },
@@ -1473,9 +1473,9 @@
         },
         {
             "id": "L_give_tool_winterf",
-            "label": "A great gift of Winter",
+            "label": "Um grande presente do Inverno",
             "actionid": "talk",
-            "description": "Kept in an empty, silent place.",
+            "description": "Mante-se num lugar vazio e silencioso.",
             "requirements": {
                 "toolwinterf": 1
             },
@@ -1505,21 +1505,21 @@
         },
         {
             "id": "L_give_tool_other",
-            "label": "Not all gifts are suitable",
+            "label": "Nem todos os presentes são adequados",
             "actionid": "talk",
-            "description": "This is something that cannot be given away; or something that no-one would accept."
+            "description": "Isto é algo que não pode ser ignorado; ou algo que ninguém aceitaria."
         },
         {
             "id": "A_talktofollower_locationcabaret_lustsensation",
-            "label": "Invite them to an evening at the Ecdysis Club",
+            "label": "Convide-os para uma noite no Clube Ecdisis",
             "actionid": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "follower_lustsensation": 1,
                 "locationcabaret": 1
             },
-            "startdescription": "@#uqrose|Rose grins. 'Thank you. I'm very fond of the Club. My brother used to take me there.'\n#uqsaliba|Saliba examines me, toe to head. He curls his fingers into the palms of his hands, into fists, and then smooths them out. 'Good,' he agrees.\n#uqvictor|Victor winks. 'Yes, let's. My sister used to like the Club. I've been looking for a chance to go back.'\n#uqviolet|Violet chuckles. The chuckle becomes a delighted cackle, which ends in coughs. She recovers, and places a finger under my chin, to look directly into my eyes. 'Oh, yes,' she says.\n#uqrenira|Renira doesn't say a word. She only stretches splendidly and rises to stalk from the room. But she sends me a long glance back over her shoulder as she goes.@",
-            "description": "If I'm thinking of beginning a dalliance, then really, this is the place. If I and my companion share the same sensibilities. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "startdescription": "@#uqrose├Rose grinha. 'Obrigado. Eu gosto muito do Clube. Meu irmão costumava me levar lá.'\n#uqsaliba├Saliba me examina, dedo do pé à cabeça. Ele enrola os dedos nas palmas das mãos, nos punhos e depois os suaviza. \"Bom\", concorda.\n#uqvictor➲ Vitória pisca. 'Sim, vamos. Minha irmã costumava gostar do Clube. Estou procurando uma chance de voltar.\n#uqviolet├Fios de violeta. O tolo se torna uma cachoeira encantada, que termina em tossas. Ela se recupera e coloca um dedo debaixo do meu queixo, para olhar directamente para os meus olhos. \"Oh, sim\", diz ela.\n#uqrenira├Renira não diz uma palavra. Ela se estende apenas de forma esplêndida e se levanta para o talo da sala. Mas ela me manda um longo olhar de volta pelos ombros enquanto vai.@",
+            "description": "Se eu estou pensando em começar uma daliança, então esse é o lugar. Se eu e meu companheiro compartilhamos as mesmas sensibilidades. [Para começar um caso com este personagem, mostre a eles que seus desejos mais profundos estão alinhados.]",
             "linked": [
                 {
                     "id": "L_talk_roseopportunity",
@@ -1529,15 +1529,15 @@
         },
         {
             "id": "A_talktofollower_locationcabaret_lustchange",
-            "label": "Invite them to an evening at the Ecdysis Club",
+            "label": "Convide-os para uma noite no Clube Ecdisis",
             "actionid": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "follower_lustchange": 1,
                 "locationcabaret": 1
             },
-            "startdescription": "@#uqporter|Porter hunches his shoulders and chews on a piece of liquorice root. 'Right,' he says.\n#uqysabet|Ysabet tilts her head reflectively. 'I might do,' she says. She hesitates for a batwing's beat. 'That would be gorgeous,' she adds.\n#uqclovette|Clovette claps her hands. 'I thought you'd never ask!'\n#uqdorothy|Dorothy nods decisively, twice, thrice. 'It's time,' she says softly.\n#uqsylvia|Sylvia yawns. She lifts her eye-patch edge to scratch an itch in the hollow beneath. 'Ripping,' she drawls.\n#uqleo|Leo ducks his head. He glances up at me and then at the ground. 'I would be delighted,' he says, very formally, to the ground.@",
-            "description": "My companion's breath comes short as they watch the display on the stage; not particularly when the bodies of the performers are unsheathed, but most of all when certain transformations are manifested. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "startdescription": "@#uqporter├Porter picou os ombros e mastiga em um pedaço de raiz de litro. 'Certo,' ele diz.\n#uqysabet├Ysabet a inclina refletivamente. 'Posso fazer,' ela diz. Ela hesita em batida de um morcego. 'Isso seria lindo,' ela acrescenta.\n#uqclovette^\\\\Clovette aplaude as mãos. 'Eu pensei que você nunca iria pedir!'\n#uqdorothy├Dorothy acena decididamente, duas vezes, thrice. 'É hora,' ela diz suavemente.\n#uqsylvia├Sylvia boceja. Ela levanta a vantagem de fazer um trecho na campainha oca abaixo.\n#uqleo├Leo esconde a cabeça. Ele olha para mim e então para o chão. \"Ficaria muito satisfeito\", diz ele, formalmente, ao terreno.@",
+            "description": "A respiração do meu companheiro é curta enquanto olha a tela no palco; Não em particular quando os corpos dos artistas intérpretes ou executantes são desembocados, mas, sobretudo, quando se manifestam certas transformações. [Para começar um caso com este personagem, mostre a eles que seus desejos mais profundos estão alinhados.]",
             "linked": [
                 {
                     "id": "L_talk_roseopportunity",
@@ -1547,15 +1547,15 @@
         },
         {
             "id": "A_talktofollower_locationstreetsstrange_lustenlightenment",
-            "label": "Invite them for a walk in strange streets",
+            "label": "Convide-os para uma caminhada em ruas estranhas",
             "actionid": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "follower_lustenlightenment": 1,
                 "locationstreetsstrange": 1
             },
-            "startdescription": "@#uqauclair|Auclair elevates her face and orients her mouth into a bright, clear smile. 'Delighted,' she says.\n#uqcat|Cat lifts her teacup, drains it to the dregs, tilts the cup to study it critically. 'Why not,' she says. 'Why not indeed.'\n#uqclifton|Clifton belches and wipes his mouth. 'All bloody right,' he says approvingly.\n#uqenid|Enid looks up, directly into my eyes, a sudden dragonfly brightness. 'Yes,' she says.\n#uqneville|Neville swallows. 'Truly? Thank you. I mean, yes, of course!'\n#uqslee|For a moment Slee looks as alarmed as if I'd suggested a surgical intervention. Then he nods, earnestly. 'I wonder what will happen,' he says. @",
-            "description": "The light is silver; the breeze is cool; the night's silence invites words as dark velvet invites a finger's touch. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "startdescription": "@#uqauclair├Auclair eleva seu rosto e orienta a boca em um sorriso claro e claro. Ela diz, 'Iluminado'.\n#uqcat├Cat levanta sua tecida, drena-a aos dreges, inclina a xícara para estudá-la criticamente. 'Por que não,' ela diz. 'Por que não mesmo.'\n#uqclifton├Clifton banhados e limpa a boca. 'Tudo sangrento direita,' ele diz aprovação.\n#uqenid├Enid olha para cima, diretamente para meus olhos, uma súbita brilho de libélula. 'Sim,' ela diz.\n#uqneville├Neville engole. 'Verdade? Obrigado. Quer dizer, sim, é claro!\n#uqsleect. Por um momento o Slee parece tão alarmado como se eu tivesse sugerido uma intervenção cirúrgica. E seguidamente acha, com toda a seriedade: \"Pergunto-me o que é que vai acontecer\", diz @",
+            "description": "A luz é prata; a brisa é legal; o silêncio da noite convida palavras como veludo sombrio convida o toque de um dedo. [Para começar um caso com este personagem, mostre a eles que seus desejos mais profundos estão alinhados.]",
             "linked": [
                 {
                     "id": "L_talk_roseopportunity",
@@ -1565,15 +1565,15 @@
         },
         {
             "id": "A_talktofollower_locationauctionhouse_lustpower",
-            "label": "Invite them to an evening at Oriflamme's",
+            "label": "Convide-os para uma noite dos Oriflamme's",
             "actionid": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "follower_lustpower": 1,
                 "locationauctionhouse": 1
             },
-            "startdescription": "@#uqtristan|Tristan nods emphatically, without speaking.\n#uqvalciane|Valciane nods curtly, but her eyes glow as coals do when a furnace door is opened.\n#uqelridge|Elridge folds his knife shut with a click, and focuses his whole attention on me. 'Yes, please,' he says.\n#uqlaidlaw|Laidlaw beams. 'That sounds pretty!'@",
-            "description": "Some prefer moonlit walks. Some prefer soft music. But there are those whose enjoy shining opulence, high company, and the soft click of the operations of power. [To begin an affair with this character, show them that your deepest desires are aligned.]",
+            "startdescription": "@#uqtristan├Tristan acena enfaticamente, sem falar.\n#uqvalcianeane nods curtamente, mas seus olhos brilham como os carvões fazem quando uma porta da fornalha é aberta.\n#uqelridge├Elridge dobra sua faca fechada com um clique e foca sua atenção em mim. 'Sim, por favor,' ele diz.\n#uqlaidlaw feixes. 'Isso parece ser bonito!'@",
+            "description": "Alguns preferem passeios ao luar. Alguns preferem música suave. Mas há aqueles a quem é permitido brilhar opulência, alta empresa, e o clique suave das operações do poder. [Para começar um caso com este personagem, mostre a eles que seus desejos mais profundos estão alinhados.]",
             "linked": [
                 {
                     "id": "L_talk_roseopportunity",
@@ -1583,47 +1583,47 @@
         },
         {
             "id": "A_talktofollower_locationcabaret_notinterested",
-            "label": "Invite them to an evening at the Ecdysis Club",
+            "label": "Convide-os para uma noite no Clube Ecdisis",
             "actionid": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "locationcabaret": 1
             },
-            "startdescription": "'I... don't think that's for me.'",
-            "description": "[Your follower has no especial interest in this place.]"
+            "startdescription": "'Eu... Não acho que isso seja para mim.'",
+            "description": "[Seu seguidor não tem nenhum interesse especial neste lugar.]"
         },
         {
             "id": "A_talktofollower_locationauctionhouse_notinterested",
-            "label": "Invite them to an evening at Oriflamme's",
+            "label": "Convide-os para uma noite dos Oriflamme's",
             "actionid": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "locationauctionhouse": 1
             },
-            "startdescription": "'I... don't think that's for me.'",
-            "description": "[Your follower has no especial interest in this place.]"
+            "startdescription": "'Eu... Não acho que isso seja para mim.'",
+            "description": "[Seu seguidor não tem nenhum interesse especial neste lugar.]"
         },
         {
             "id": "A_talktofollower_locationstreetsstrange_notinterested",
-            "label": "Invite them to take a walk in an uncanny place.",
+            "label": "Convide-os a dar uma caminhada num lugar estranho.",
             "actionid": "talk",
             "requirements": {
                 "romanticinterest": -1,
                 "locationstreetsstrange": 1
             },
-            "startdescription": "'I... don't think that's for me.'",
-            "description": "[Your follower has no especial interest in this place.]"
+            "startdescription": "'Eu... Não acho que isso seja para mim.'",
+            "description": "[Seu seguidor não tem nenhum interesse especial neste lugar.]"
         },
         {
             "id": "followeraction_repairtoollanternbcracked",
-            "label": "Repair a Cracked Noonstone",
+            "label": "Conserte uma Pedra Noica Rachada",
             "actionid": "talk",
             "requirements": {
                 "follower": 1,
                 "forge": 1,
                 "toollanternbcracked": 1
             },
-            "startdescription": "We can begin to repair this, but it will take Funds to purchase the necessary materials.",
+            "startdescription": "Podemos começar a reparar esta situação, mas serão necessários fundos para comprar os materiais necessários.",
             "description": ".",
             "linked": [
                 {
@@ -1634,20 +1634,20 @@
         },
         {
             "id": "followeraction_repairtoollanternbcracked_attempt",
-            "label": "Repairing a Cracked Noonstone",
+            "label": "Reparando uma Pedra Noonpedra Rachada",
             "actionid": "talk",
             "slots": [
                 {
                     "id": "Materials",
-                    "label": "Materials",
-                    "description": "Rare fuels and odd powders",
+                    "label": "Materiais",
+                    "description": "Combustíveis raros e pólvoras",
                     "required": {
                         "funds": 1
                     }
                 }
             ],
-            "startdescription": "My follower needs Funds to complete their task.",
-            "description": "I couldn't provide the materials my follower needed. The stone is unredeemed.",
+            "startdescription": "Meu seguidor precisa de fundos para concluir sua tarefa.",
+            "description": "Não consegui fornecer os materiais que meu seguidor precisava. A pedra não foi resgatada.",
             "warmup": 30,
             "alt": [
                 {
@@ -1658,13 +1658,13 @@
         },
         {
             "id": "followeraction_repairtoollanternbcracked_succeed",
-            "label": "Repairing a Cracked Noonstone",
+            "label": "Reparando uma Pedra Noonpedra Rachada",
             "actionid": "talk",
             "requirements": {
                 "funds": 1
             },
-            "startdescription": "My follower is at work on the stone.",
-            "description": "The stone is repaired! It shines again as it did once before.",
+            "startdescription": "Meu seguidor está trabalhando na pedra.",
+            "description": "A pedra está reparada! Ela brilha de novo como antes uma vez.",
             "effects": {
                 "funds": -1,
                 "toollanternbcracked": -1,
@@ -1673,14 +1673,14 @@
         },
         {
             "id": "followeraction_repairtoollanterndcracked",
-            "label": "Repair a Cracked Wildering Mirror",
+            "label": "Repare um Espelho Selvagem Rachado",
             "actionid": "talk",
             "requirements": {
                 "follower": 1,
                 "forge": 1,
                 "toollanterndcracked": 1
             },
-            "startdescription": "We can begin to repair this, but it will take at least a Bronze Spintria to purchase the necessary materials.",
+            "startdescription": "Nós podemos começar a consertar isso, mas será preciso pelo menos um Spintria de Bronze para comprar os materiais necessários.",
             "description": ".",
             "linked": [
                 {
@@ -1691,20 +1691,20 @@
         },
         {
             "id": "followeraction_repairtoollanterndcracked_attempt",
-            "label": "Repairing a Cracked Wildering Mirror",
+            "label": "Reparando um Espelho Selvagem Rachado",
             "actionid": "talk",
             "slots": [
                 {
                     "id": "Materials",
-                    "label": "Materials",
-                    "description": "Rare metals and improbable tints",
+                    "label": "Materiais",
+                    "description": "Metais raros e tinturas improváveis",
                     "required": {
                         "compensationvalue": 4
                     }
                 }
             ],
-            "startdescription": "My follower needs a Bronze Spintria, or better, to complete their task.",
-            "description": "I couldn't provide the materials my follower needed. The mirror is unredeemed.",
+            "startdescription": "Meu seguidor precisa de um Bronze Spintria, ou melhor, para concluir sua tarefa.",
+            "description": "Não consegui fornecer os materiais que meu seguidor precisava. O espelho não foi resgatado.",
             "warmup": 30,
             "alt": [
                 {
@@ -1715,13 +1715,13 @@
         },
         {
             "id": "followeraction_repairtoollanterndcracked_succeed",
-            "label": "Repairing a Cracked Wildering Mirror",
+            "label": "Reparando um Espelho Selvagem Rachado",
             "actionid": "talk",
             "requirements": {
                 "compensationvalue": 4
             },
-            "startdescription": "My follower is at work on the mirror.",
-            "description": "The mirror is repaired! It shines again as it did once before.",
+            "startdescription": "Meu seguidor está trabalhando no espelho.",
+            "description": "O espelho foi reparado! Ele brilha de novo como antes.",
             "effects": {
                 "compensationvalue": -1,
                 "toollanterndcracked": -1,
@@ -1730,14 +1730,14 @@
         },
         {
             "id": "followeraction_repairtoollanternfcracked",
-            "label": "Repair a Cracked Watchman's Glass",
+            "label": "Repare o Vidro de um Vigia Rachado",
             "actionid": "talk",
             "requirements": {
                 "follower": 1,
                 "forge": 1,
                 "toollanternfcracked": 1
             },
-            "startdescription": "We can begin to repair this, but it will take at least a Silver Spintria to purchase the necessary materials.",
+            "startdescription": "Podemos começar a reparar isto, mas será preciso pelo menos um Spintria de Prata para comprar os materiais necessários.",
             "description": ".",
             "linked": [
                 {
@@ -1748,20 +1748,20 @@
         },
         {
             "id": "followeraction_repairtoollanternfcracked_attempt",
-            "label": "Repairing a Cracked Watchman's Glass",
+            "label": "Reparando um Vidro do Vigia Rachado",
             "actionid": "talk",
             "slots": [
                 {
                     "id": "Materials",
-                    "label": "Materials",
-                    "description": "Shining songs and exotic alloys",
+                    "label": "Materiais",
+                    "description": "Músicas brilhantes e ligas exóticas",
                     "required": {
                         "compensationvalue": 8
                     }
                 }
             ],
-            "startdescription": "My follower needs a Silver Spintria, or better, to complete their task.",
-            "description": "I couldn't provide the materials my follower needed. The mirror is unredeemed.",
+            "startdescription": "Meu seguidor precisa de um Spintria de Prata, ou melhor, para concluir sua tarefa.",
+            "description": "Não consegui fornecer os materiais que meu seguidor precisava. O espelho não foi resgatado.",
             "warmup": 30,
             "alt": [
                 {
@@ -1772,13 +1772,13 @@
         },
         {
             "id": "followeraction_repairtoollanternfcracked_succeed",
-            "label": "Repairing a Cracked Watchman's Glass",
+            "label": "Reparando um Vidro do Vigia Rachado",
             "actionid": "talk",
             "requirements": {
                 "compensationvalue": 8
             },
-            "startdescription": "My follower is at work on the mirror.",
-            "description": "The mirror is repaired! It shines again as it did once before.",
+            "startdescription": "Meu seguidor está trabalhando no espelho.",
+            "description": "O espelho foi reparado! Ele brilha de novo como antes.",
             "effects": {
                 "compensationvalue": -1,
                 "toollanternfcracked": -1,
@@ -1787,14 +1787,14 @@
         },
         {
             "id": "followeraction.repair.greatwork.sabotaged",
-            "label": "Repair a Sabotaged Element of the Great Work",
+            "label": "Conserte um Elemento Sabotagado do Grande Trabalho",
             "actionid": "talk",
             "requirements": {
                 "follower": 1,
                 "forge": 1,
                 "greatwork.sabotaged": 1
             },
-            "startdescription": "We can begin to repair this, but it will take a Silver Spintria to purchase the necessary materials.",
+            "startdescription": "Nós podemos começar a consertar isso, mas será preciso um Spintria de Prata para comprar os materiais necessários.",
             "description": ".",
             "linked": [
                 {
@@ -1805,20 +1805,20 @@
         },
         {
             "id": "followeraction.repair.greatwork.sabotaged.attempt",
-            "label": "Repairing a Sabotaged Element of the Great Work",
+            "label": "Reparando um Elemento Sabotagado do Grande Trabalho",
             "actionid": "talk",
             "slots": [
                 {
                     "id": "Materials",
-                    "label": "Materials",
-                    "description": "Metals and mercies",
+                    "label": "Materiais",
+                    "description": "Metais e fusões",
                     "required": {
                         "compensationvalue": 8
                     }
                 }
             ],
-            "startdescription": "My follower needs a Silver Spintria to complete their task.",
-            "description": "I couldn't provide the materials my follower needed. The Work remains imperilled.",
+            "startdescription": "Meu seguidor precisa de um Spintria de Prata para concluir sua tarefa.",
+            "description": "Não consegui fornecer os materiais que meu seguidor precisava. O trabalho continua em perigo.",
             "warmup": 30,
             "alt": [
                 {
@@ -1829,13 +1829,13 @@
         },
         {
             "id": "followeraction.repair.greatwork.sabotaged.succeed",
-            "label": "Repairing a Sabotaged Element of the Great Work",
+            "label": "Reparando um Elemento Sabotagado do Grande Trabalho",
             "actionid": "talk",
             "requirements": {
                 "compensationvalue": 8
             },
-            "startdescription": "My follower is at work,",
-            "description": "The Great Work will continue!",
+            "startdescription": "Meu seguidor está no trabalho.",
+            "description": "O grande trabalho vai continuar!",
             "aspects": {
                 "sabotage.repair": 1
             }
@@ -1843,8 +1843,8 @@
         {
             "id": "A_follower_settrap_independent",
             "actionid": "talk",
-            "label": "Create a Snare to delay or defeat a Rival",
-            "startdescription": "Rivals don't prowl the streets like Hunters. They will only meet us on neutral ground. To defeat one, we must prepare a trap they may stumble into. [Edge, Forge, Moth or Winter are useful for creating Snares. Once created, a Snare can be used when an Independent makes an attempt on any Vault.]",
+            "label": "Crie uma Armadilha para atrasar ou derrotar um Renascimento",
+            "startdescription": "Os rivais não vangloriam as ruas como os Caçadores. Eles só nos encontrarão em terra neutra. Para derrotar um, temos de preparar uma armadilha em que eles podem tropeçar. [Borda, Forja, Mariposa ou Inverno são úteis para criar Armadilhas. Uma vez criado, um Laço pode ser usado quando um Independente faz uma tentativa de qualquer Cofre.]",
             "requirements": {
                 "independent": 1,
                 "follower": 1,
@@ -1874,8 +1874,8 @@
         {
             "id": "A_follower_settrap_vault",
             "actionid": "talk",
-            "label": "Create a Snare to delay or defeat a Rival",
-            "startdescription": "Rivals are cautious: they don't prowl the streets like Hunters. To defeat one, we must prepare a trap, and await our opportunity. [Edge, Forge, Moth or Winter are useful for creating Snares. Once created, a Snare can be used when an Independent makes an attempt on any Vault.]",
+            "label": "Crie uma Armadilha para atrasar ou derrotar um Renascimento",
+            "startdescription": "Os rivais são cautelosos: eles não saem das ruas como os caçadores. Para derrotar um, precisamos preparar uma armadilha e esperar pela oportunidade. [Borda, Forja, Mariposa ou Inverno são úteis para criar Armadilhas. Uma vez criado, um Laço pode ser usado quando um Independente faz uma tentativa de qualquer Cofre.]",
             "requirements": {
                 "vault": 1
             },
@@ -2107,7 +2107,7 @@
             "id": "L_createsnare_great",
             "actionid": "talk",
             "label": "A Perilous Snare",
-            "description": "My follower has set a perilously cunning ambuscade - one that will almost certainly succeed.",
+            "description": "O meu seguidor estabeleceu uma ambuscade perigosamente astutamente astuta, uma ambuscada que irá quase certamente ser bem sucedida.",
             "mutations": [
                 {
                     "filter": "snare",
@@ -2122,7 +2122,7 @@
             "id": "L_createsnare_good",
             "actionid": "talk",
             "label": "A Cunning Snare",
-            "description": "My follower has set a cunning ambuscade - one that will likely succeed.",
+            "description": "Meu seguidor estabeleceu uma ambuscade esperta - uma que provavelmente será bem sucedida.",
             "mutations": [
                 {
                     "filter": "snare",
@@ -2136,8 +2136,8 @@
         {
             "id": "L_createsnare_poor",
             "actionid": "talk",
-            "label": "An Adequate Snare",
-            "description": "My follower has prepared a stratagem which - with considerable luck - might defeat a rival's plans.",
+            "label": "Um Armadilha Adequada",
+            "description": "O meu seguidor preparou um estratagema que - com muita sorte - pode derrotar os planos de um rival.",
             "mutations": [
                 {
                     "filter": "snare",
@@ -2151,15 +2151,15 @@
         {
             "id": "L_createsnare_rubbish",
             "actionid": "talk",
-            "label": "A Desperate Attempt",
-            "description": "My follower's plan is eccentric at best and incompetent at worst, but perhaps an enemy will stumble into it.",
+            "label": "Uma tentativa desesperada",
+            "description": "O plano do meu seguidor é, na melhor das hipóteses, excêntrico e incompetente na pior das hipóteses, mas talvez um inimigo se atrapalhe nele.",
             "warmup": 30
         },
         {
             "id": "followeraction_abducthighedge",
-            "label": "Cult Business: Abduct a Stranger",
+            "label": "Negócio culto: Abduque um estranho",
             "actionid": "talk",
-            "startdescription": "An Assassin can snatch a victim off the streets with ease.",
+            "startdescription": "Um Assassino pode tirar uma vítima das ruas com facilidade.",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2179,9 +2179,9 @@
         },
         {
             "id": "followeraction_abductmidedge",
-            "label": "Cult Business: Abduct a Stranger",
+            "label": "Negócio culto: Abduque um estranho",
             "actionid": "talk",
-            "startdescription": "A skilled Disciple can probably abduct an unwary victim.",
+            "startdescription": "Um Discípulo habilidoso pode provavelmente raptar uma vítima desprevenida.",
             "requirements": {
                 "society": 1,
                 "edge": 5,
@@ -2200,9 +2200,9 @@
         },
         {
             "id": "followeraction_abductlowedge",
-            "label": "Cult Business: Abduct a Stranger",
+            "label": "Negócio culto: Abduque um estranho",
             "actionid": "talk",
-            "startdescription": "My Believer will struggle to abduct a victim, but they may be lucky.",
+            "startdescription": "Meu crente lutará para raptar uma vítima, mas eles podem ter sorte.",
             "requirements": {
                 "society": 1,
                 "edge": 1,
@@ -2221,10 +2221,10 @@
         },
         {
             "id": "followeraction_abductsuccess",
-            "label": "Attempting an Abduction",
+            "label": "Tentando um rapto",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has returned, with a carefully packaged prisoner.",
+            "startdescription": "Aguardo a palavra....",
+            "description": "O meu lacaio voltou, com um prisioneiro cuidadosamente embalado.",
             "effects": {
                 "notoriety": 1,
                 "funds": 1
@@ -2236,10 +2236,10 @@
         },
         {
             "id": "followeraction_abductfailure",
-            "label": "Attempting an Abduction",
+            "label": "Tentando um rapto",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has returned, empty-handed.",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou, de mãos vazias.",
             "effects": {
                 "notoriety": 1
             },
@@ -2253,10 +2253,10 @@
         },
         {
             "id": "followeraction_abductfailure_losefollower",
-            "label": "Attempting an Abduction",
+            "label": "Tentando um rapto",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has returned, empty-handed and grievously wounded. Their victim showed pluck. [Heal a fallen Follower with Talk.]",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou, de mãos vazias e dolorosamente ferido. Sua vítima mostrou alheio. [Cure um seguidor caído com a conversa.]",
             "effects": {
                 "notoriety": 1
             },
@@ -2278,9 +2278,9 @@
         },
         {
             "id": "followeraction_murderhighwinter",
-            "label": "Cult Business: Murder a Stranger",
+            "label": "Negócio culto: Assassine um estranho",
             "actionid": "talk",
-            "startdescription": "This one nearly always returns with a death in their pocket.",
+            "startdescription": "Esta volta quase sempre com uma morte no bolso.",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2300,9 +2300,9 @@
         },
         {
             "id": "followeraction_murdermidwinter",
-            "label": "Cult Business: Murder a Stranger",
+            "label": "Negócio culto: Assassine um estranho",
             "actionid": "talk",
-            "startdescription": "A skilled Disciple can probably bring back a fresh corpse.",
+            "startdescription": "Um Discípulo habilidoso pode trazer de volta um cadáver fresco.",
             "requirements": {
                 "society": 1,
                 "winter": 5,
@@ -2321,9 +2321,9 @@
         },
         {
             "id": "followeraction_murderlowwinter",
-            "label": "Cult Business: Murder a Stranger",
+            "label": "Negócio culto: Assassine um estranho",
             "actionid": "talk",
-            "startdescription": "My Believer may very easily fail.",
+            "startdescription": "Minha crença pode falhar muito facilmente.",
             "requirements": {
                 "society": 1,
                 "winter": 1,
@@ -2342,10 +2342,10 @@
         },
         {
             "id": "followeraction_murdersuccess",
-            "label": "Attempting a Murder...",
+            "label": "Tentando um Assassino...",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has returned, with a fresh corpse and its former belongings.",
+            "startdescription": "Aguardo a palavra....",
+            "description": "O meu lacaio voltou, com um novo cadáver e os seus antigos pertencem.",
             "effects": {
                 "notoriety": 1,
                 "corpse": 1
@@ -2357,10 +2357,10 @@
         },
         {
             "id": "followeraction_murderfailure",
-            "label": "Attempting a Murder...",
+            "label": "Tentando um Assassino...",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has returned, empty-handed.",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou, de mãos vazias.",
             "effects": {
                 "notoriety": 1
             },
@@ -2374,10 +2374,10 @@
         },
         {
             "id": "followeraction_murderfailure_losefollower",
-            "label": "Attempting a Murder...",
+            "label": "Tentando um Assassino...",
             "actionid": "talk",
-            "startdescription": "I await word....",
-            "description": "My minion has returned to report failure. They can barely stand. Their victim put up a fight. [Heal a fallen Follower with Talk.]",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou para relatar um fracasso. Eles mal podem aguentar. A vítima pôs uma briga. [Cure um seguidor caído com a conversa.]",
             "effects": {
                 "notoriety": 1
             },
@@ -2399,9 +2399,9 @@
         },
         {
             "id": "followeraction_craftworkhighforge",
-            "label": "Cult Business: Craftsmanship",
+            "label": "Negócio Culto: Fabricação",
             "actionid": "talk",
-            "startdescription": "My Reshaper can earn funds in illegal laboratories and shadowy manufactories. Occasionally, something may go awry.",
+            "startdescription": "Meu Reshaper pode ganhar dinheiro em laboratórios ilegais e em manuais sombrios. Ocasionalmente, algo pode correr mal.",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2421,9 +2421,9 @@
         },
         {
             "id": "followeraction_craftworkmidforge",
-            "label": "Cult Business: Craftsmanship",
+            "label": "Negócio Culto: Fabricação",
             "actionid": "talk",
-            "startdescription": "My Disciple can probably earn funds in illegal laboratories and shadowy manufactories - but there is a risk of accidents.",
+            "startdescription": "O meu Discípulo pode provavelmente ganhar fundos em laboratórios ilegais e em fábricas sombrias - mas há um risco de acidentes.",
             "requirements": {
                 "society": 1,
                 "forge": 5,
@@ -2442,9 +2442,9 @@
         },
         {
             "id": "followeraction_craftworklowforge",
-            "label": "Cult Business: Craftsmanship",
+            "label": "Negócio Culto: Fabricação",
             "actionid": "talk",
-            "startdescription": "My Believer might be able to earn funds in illegal laboratories and shadowy manufactories... if they're lucky.",
+            "startdescription": "Minha crença pode ser capaz de ganhar dinheiro em laboratórios e fábricas sombrias ilegais... se tiverem sorte.",
             "requirements": {
                 "society": 1,
                 "forge": 1,
@@ -2463,10 +2463,10 @@
         },
         {
             "id": "followeraction_craftworksuccess",
-            "label": "Working under Contract...",
+            "label": "Trabalhando em Contrato...",
             "actionid": "talk",
-            "startdescription": "There are devices in this city that defy the law of the land. There are a few that defy the laws of nature. Some are very dangerous.",
-            "description": "My follower has returned with the rewards of their labour.",
+            "startdescription": "Existem dispositivos nesta cidade que desafiam a lei da terra. Há alguns que desafiam as leis da natureza. Alguns são muito perigosos.",
+            "description": "Meu seguidor retornou com as recompensas do trabalho deles.",
             "deckeffects": {
                 "robberyrewards": 2
             },
@@ -2474,10 +2474,10 @@
         },
         {
             "id": "followeraction_craftworkfailure",
-            "label": "Working under Contract...",
+            "label": "Trabalhando em Contrato...",
             "actionid": "talk",
-            "startdescription": "There are devices in this city that defy the law of the land. There are a few that defy the laws of nature. Some are very dangerous.",
-            "description": "My follower has returned empty-handed. Today's tasks were beyond them.",
+            "startdescription": "Existem dispositivos nesta cidade que desafiam a lei da terra. Há alguns que desafiam as leis da natureza. Alguns são muito perigosos.",
+            "description": "Meu seguidor voltou de mãos vazias. As tarefas de hoje estavam além delas.",
             "effects": {},
             "alt": [
                 {
@@ -2489,10 +2489,10 @@
         },
         {
             "id": "followeraction_craftworkfailure_losefollower",
-            "label": "Working under Contract...",
+            "label": "Trabalhando em Contrato...",
             "actionid": "talk",
-            "startdescription": "There are devices in this city that defy the law of the land. There are a few that defy the laws of nature. Some are very dangerous.",
-            "description": "There has been an accident. [Heal a fallen Follower with Talk.]",
+            "startdescription": "Existem dispositivos nesta cidade que desafiam a lei da terra. Há alguns que desafiam as leis da natureza. Alguns são muito perigosos.",
+            "description": "Houve um acidente. [Curar um seguidor caído com o Talk.]",
             "mutations": [
                 {
                     "filter": "mortal",
@@ -2511,9 +2511,9 @@
         },
         {
             "id": "followeraction_seducehighgrail",
-            "label": "Cult Business: Seduce a Stranger",
+            "label": "Negócio culto: eduque um estranho",
             "actionid": "talk",
-            "startdescription": "No-one refuses a Cyprian. Almost no-one.",
+            "startdescription": "Ninguém recusa um cipriota. Quase ninguém recusa.",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2533,9 +2533,9 @@
         },
         {
             "id": "followeraction_seducemidgrail",
-            "label": "Cult Business: Seduce a Stranger",
+            "label": "Negócio culto: eduque um estranho",
             "actionid": "talk",
-            "startdescription": "A sufficiently persuasive Disciple can probably lure a susceptible companion back to us.",
+            "startdescription": "Um Discípulo suficientemente persuasivo pode provavelmente atrair um companheiro suscetível de volta para nós.",
             "requirements": {
                 "society": 1,
                 "grail": 5,
@@ -2554,9 +2554,9 @@
         },
         {
             "id": "followeraction_seducelowgrail",
-            "label": "Cult Business: Seduce a Stranger",
+            "label": "Negócio culto: eduque um estranho",
             "actionid": "talk",
-            "startdescription": "My Believer might be able to lure a victim back to us.",
+            "startdescription": "Talvez meu crente consiga atrair uma vítima de volta para nós.",
             "requirements": {
                 "society": 1,
                 "grail": 1,
@@ -2575,10 +2575,10 @@
         },
         {
             "id": "followeraction_seducesuccess",
-            "label": "Attempting a Seduction",
+            "label": "Tentando educar",
             "actionid": "talk",
-            "startdescription": "Out in the night, my follower is whispering words that sometimes they might mean. Even if their victim knows the words are lies, they might not care.",
-            "description": "My minion has returned, attended by a prisoner rendered docile with delight.",
+            "startdescription": "Ao fim da noite, o meu seguidor sussurra palavras que às vezes poderiam significar. Mesmo que sua vítima saiba que as palavras são mentiras, pode não se importar.",
+            "description": "O meu lacaio voltou, assistido por um prisioneiro que entregou dócil com alegria.",
             "effects": {
                 "notoriety": 1,
                 "funds": 1
@@ -2590,10 +2590,10 @@
         },
         {
             "id": "followeraction_seducefailure",
-            "label": "Attempting a Seduction",
+            "label": "Tentando educar",
             "actionid": "talk",
-            "startdescription": "Out in the night, my follower is whispering words that sometimes they might mean. Even if their victim knows the words are lies, they might not care.",
-            "description": "My minion has returned, empty-handed.",
+            "startdescription": "Ao fim da noite, o meu seguidor sussurra palavras que às vezes poderiam significar. Mesmo que sua vítima saiba que as palavras são mentiras, pode não se importar.",
+            "description": "Meu lacaio voltou, de mãos vazias.",
             "effects": {
                 "notoriety": 1
             },
@@ -2607,10 +2607,10 @@
         },
         {
             "id": "followeraction_seducefailure_losefollower",
-            "label": "Attempting a Seduction",
+            "label": "Tentando educar",
             "actionid": "talk",
-            "startdescription": "Out in the night, my follower is whispering words that sometimes they might mean. Even if their victim knows the words are lies, they might not care.",
-            "description": "My minion has returned, half-conscious, bleeding badly. It seems a rival suitor took exception to their efforts. [Heal a fallen Follower with Talk.]",
+            "startdescription": "Ao fim da noite, o meu seguidor sussurra palavras que às vezes poderiam significar. Mesmo que sua vítima saiba que as palavras são mentiras, pode não se importar.",
+            "description": "Meu lacaio retornou, meio consciente, sangrando mal. Parece que um vestido rival se exaltou de seus esforços. [Curar um seguidor caído com o Talk.]",
             "effects": {
                 "notoriety": 1
             },
@@ -2632,9 +2632,9 @@
         },
         {
             "id": "followeraction_burglehighknock",
-            "label": "Cult Business: Burglary",
+            "label": "Negócio culto: burglário",
             "actionid": "talk",
-            "startdescription": "My Key should be capable of defeating any lock in this city.",
+            "startdescription": "Minha chave deveria ser capaz de derrotar qualquer fechamento nesta cidade.",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2654,9 +2654,9 @@
         },
         {
             "id": "followeraction_burglemidknock",
-            "label": "Cult Business: Burglary",
+            "label": "Negócio culto: burglário",
             "actionid": "talk",
-            "startdescription": "My Disciple can probably use their talents to harvest treasures from the unsuspecting.",
+            "startdescription": "Meu Discípulo provavelmente pode usar seus talentos para colher tesouros dos desavisados.",
             "requirements": {
                 "society": 1,
                 "knock": 5,
@@ -2675,9 +2675,9 @@
         },
         {
             "id": "followeraction_burglelowknock",
-            "label": "Cult Business: Burglary",
+            "label": "Negócio culto: burglário",
             "actionid": "talk",
-            "startdescription": "My Believer might be able to harvest treasures from the unsuspecting... if they're lucky.",
+            "startdescription": "Talvez meu crente seja capaz de colher tesouros dos desavisados... se tiverem sorte.",
             "requirements": {
                 "society": 1,
                 "knock": 1,
@@ -2696,10 +2696,10 @@
         },
         {
             "id": "followeraction_burglesuccess",
-            "label": "Breaking, Entering, Returning...",
+            "label": "Breaking, Entering, Retornando...",
             "actionid": "talk",
-            "startdescription": "In cellars and in attics, in secret compartments and sealed closets, the rich and not-so-rich conceal their treasures.",
-            "description": "My follower has returned with their haul.",
+            "startdescription": "Nas celas e nos atóticos, nos compartimentos secretos e nos fechamentos fechados, os ricos e não os ricos escondem os seus tesouros.",
+            "description": "Meu seguidor voltou com o pão.",
             "effects": {
                 "notoriety": 1,
                 "funds": 1
@@ -2711,10 +2711,10 @@
         },
         {
             "id": "followeraction_burglefailure",
-            "label": "Breaking, Entering, Returning...",
+            "label": "Breaking, Entering, Retornando...",
             "actionid": "talk",
-            "startdescription": "In cellars and in attics, in secret compartments and sealed closets, the rich and not-so-rich conceal their treasures.",
-            "description": "My follower has returned empty-handed. Today's tasks were beyond them.",
+            "startdescription": "Nas celas e nos atóticos, nos compartimentos secretos e nos fechamentos fechados, os ricos e não os ricos escondem os seus tesouros.",
+            "description": "Meu seguidor voltou de mãos vazias. As tarefas de hoje estavam além delas.",
             "effects": {
                 "notoriety": 1
             },
@@ -2728,10 +2728,10 @@
         },
         {
             "id": "followeraction_burglefailure_losefollower",
-            "label": "Breaking, Entering, Returning...",
+            "label": "Breaking, Entering, Retornando...",
             "actionid": "talk",
-            "startdescription": "In cellars and in attics, in secret compartments and sealed closets, the rich and not-so-rich conceal their treasures.",
-            "description": "There has been an accident. [Heal a fallen Follower with Talk.]",
+            "startdescription": "Nas celas e nos atóticos, nos compartimentos secretos e nos fechamentos fechados, os ricos e não os ricos escondem os seus tesouros.",
+            "description": "Houve um acidente. [Curar um seguidor caído com o Talk.]",
             "effects": {
                 "notoriety": 1
             },
@@ -2753,9 +2753,9 @@
         },
         {
             "id": "followeraction_charmhighheart",
-            "label": "Cult Business: Charm",
+            "label": "Negócio de Culto: Encanto",
             "actionid": "talk",
-            "startdescription": "Not everyone is sympathetic to our aims, but my Tarantellist is popular everywhere. If we have problems with our reputation, they can almost certainly smooth them over.",
+            "startdescription": "Nem todos simpatizam com os nossos objectivos, mas o meu Tarantellist é popular em toda a parte. Se tivermos problemas com a nossa reputação, eles podem quase certamente ajudá-los.",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2775,9 +2775,9 @@
         },
         {
             "id": "followeraction_charmmidheart",
-            "label": "Cult Business: Charm",
+            "label": "Negócio de Culto: Encanto",
             "actionid": "talk",
-            "startdescription": "Not everyone is sympathetic to our aims, but if we have problems with our reputation, our Disciple can probably smooth them over.",
+            "startdescription": "Nem todos simpatizam com os nossos objectivos, mas se tivermos problemas com a nossa reputação, o nosso Discípulo poderá provavelmente ajudá-los a superá-los.",
             "requirements": {
                 "society": 1,
                 "heart": 5,
@@ -2796,9 +2796,9 @@
         },
         {
             "id": "followeraction_charmlowheart",
-            "label": "Cult Business: Charm",
+            "label": "Negócio de Culto: Encanto",
             "actionid": "talk",
-            "startdescription": "Not everyone is sympathetic to our aims, but if we have problems with our reputation, our Believer might be able to smooth them over. ",
+            "startdescription": "Nem todos simpatizam com os nossos objectivos, mas se tivermos problemas com a nossa reputação, o nosso Crente poderá talvez conseguir melhorá-los. ",
             "requirements": {
                 "society": 1,
                 "heart": 1,
@@ -2817,20 +2817,20 @@
         },
         {
             "id": "followeraction_charmsuccess",
-            "label": "Earnest Speeches, Affable Conversation",
+            "label": "Falas mais antigas, Conversas Affable",
             "actionid": "talk",
             "slots": [
                 {
                     "id": "Reputation",
-                    "label": "Reputation",
+                    "label": "Reputação",
                     "required": {
                         "reputation": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "The standards of daylight society cannot apply to us. But perhaps we won't emphasise that point. Perhaps we'll rely on charm and good humour.  I have supplied elegant platitudes about the high principles of our organisation.",
-            "description": "Optimism is the spice which saves.",
+            "startdescription": "Os padrões da sociedade do dia não podem aplicar-se a nós, mas talvez não salientemos esse aspecto. Talvez confiemos no charme e no bom humor. Indiquei banalidades elegantes sobre os altos princípios de nossa organização.",
+            "description": "Otimizar é o tempero que economiza.",
             "effects": {
                 "reputation": -1
             },
@@ -2838,20 +2838,20 @@
         },
         {
             "id": "followeraction_charmfailure",
-            "label": "Earnest Speeches, Affable Conversation",
+            "label": "Falas mais antigas, Conversas Affable",
             "actionid": "talk",
             "slots": [
                 {
                     "id": "Reputation",
-                    "label": "Reputation",
+                    "label": "Reputação",
                     "required": {
                         "reputation": 1
                     },
                     "greedy": true
                 }
             ],
-            "startdescription": "The standards of daylight society cannot apply to us. But perhaps we won't emphasise that point. Perhaps we'll rely on charm and good humour.  I have supplied elegant platitudes about the high principles of our organisation.",
-            "description": "No-one understands us, or else they understand us too well.",
+            "startdescription": "Os padrões da sociedade do dia não podem aplicar-se a nós, mas talvez não salientemos esse aspecto. Talvez confiemos no charme e no bom humor. Indiquei banalidades elegantes sobre os altos princípios de nossa organização.",
+            "description": "Ninguém nos compreende, ou compreendeu-nos demasiado bem.",
             "effects": {
                 "rumour": 1
             },
@@ -2859,9 +2859,9 @@
         },
         {
             "id": "followeraction_auguryhighlantern",
-            "label": "Cult Business: Augury",
+            "label": "Negócio de Culto: Augury",
             "actionid": "talk",
-            "startdescription": "My Seer can determine times and places where power will be available for our uses. There is a small risk.",
+            "startdescription": "Meu Fauno pode determinar horários e lugares onde o poder estará disponível para nossos usos. Há um pequeno risco.",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -2881,9 +2881,9 @@
         },
         {
             "id": "followeraction_augurymidlantern",
-            "label": "Cult Business: Augury",
+            "label": "Negócio de Culto: Augury",
             "actionid": "talk",
-            "startdescription": "My Disciple can probably determine times and places where power will be available for our uses: but in matters of the Mansus, there is always danger.",
+            "startdescription": "Meu Discípulo pode provavelmente determinar horários e lugares onde a energia estará disponível para nosso uso: mas em questões de Mansus, sempre há perigo.",
             "requirements": {
                 "society": 1,
                 "lantern": 5,
@@ -2902,9 +2902,9 @@
         },
         {
             "id": "followeraction_augurylowlantern",
-            "label": "Cult Business: Augury",
+            "label": "Negócio de Culto: Augury",
             "actionid": "talk",
-            "startdescription": "My Believer might be able to determine times and places where power will be available for our uses: but in matters of the Mansus, there is always danger.",
+            "startdescription": "O meu Crente pode ser capaz de determinar horários e lugares onde o poder estará disponível para nosso uso: mas em questões de Mansus, sempre há perigo.",
             "requirements": {
                 "society": 1,
                 "lantern": 1,
@@ -2923,10 +2923,10 @@
         },
         {
             "id": "followeraction_augurysuccess",
-            "label": "Beneath the World's Skin",
+            "label": "Sob a aparência mundial",
             "actionid": "talk",
-            "startdescription": "Hours of scholarship and meditation...",
-            "description": "My follower has found one more way to align our work with the greater work of the Hours.",
+            "startdescription": "Horas de bolsa de estudos e meditação...",
+            "description": "Meu seguidor encontrou mais um jeito de alinhar o nosso trabalho com o maior trabalho das Horas.",
             "effects": {
                 "erudition": 1
             },
@@ -2937,10 +2937,10 @@
         },
         {
             "id": "followeraction_auguryfailure",
-            "label": "Beneath the World's Skin",
+            "label": "Sob a aparência mundial",
             "actionid": "talk",
-            "startdescription": "Hours of scholarship and meditation...",
-            "description": "My follower has committed a dangerous error. Their mind is still intact, but the light of the Mansus has touched the world here.",
+            "startdescription": "Horas de bolsa de estudos e meditação...",
+            "description": "Meu seguidor cometeu um erro perigoso. Sua mente ainda está intacta, mas a luz do Mansus tocou o mundo aqui.",
             "effects": {
                 "fascination": 1
             },
@@ -2954,10 +2954,10 @@
         },
         {
             "id": "followeraction_auguryfailure_losefollower",
-            "label": "Beneath the World's Skin",
+            "label": "Sob a aparência mundial",
             "actionid": "talk",
-            "startdescription": "Hours of scholarship and meditation...",
-            "description": "My follower has committed a dangerous error. The light of the Mansus has touched the world here. Their psychic defences crumble to chaos, and we had to restrain them before they could do themself further harm. They will recover their senses in time, but they are badly hurt. [Heal a fallen Follower with Talk.]",
+            "startdescription": "Horas de bolsa de estudos e meditação...",
+            "description": "Meu seguidor cometeu um erro perigoso. A luz do Mansus tocou o mundo aqui. As suas defesas psíquicas desmoronam-se no caos, e tivemos de as conter antes de poderem prejudicar ainda mais. Eles vão recuperar o sentido a tempo, mas estão gravemente machucados. [Curar um seguidor caído com conversas.]",
             "effects": {
                 "fascination": 1
             },
@@ -2979,9 +2979,9 @@
         },
         {
             "id": "followeraction_hoodwinkhighmoth",
-            "label": "Cult Business: Hoodwink",
+            "label": "Negócio culto: Hoodwink",
             "actionid": "talk",
-            "startdescription": "My Skintwister's cunning is enough to part fools from their treasure as easily as picking pears in an orchard. (Although even a pear orchard has the occasional hazard. Wasps, perhaps.)",
+            "startdescription": "A astúcia de minha Skintwister é o suficiente para separar os tolos do tesouro tão facilmente quanto pegar peras em um pomar. (Embora até mesmo uma porcaria tenha um risco ocasional. Wasps, talvez.)",
             "description": ".",
             "requirements": {
                 "society": 1,
@@ -3001,9 +3001,9 @@
         },
         {
             "id": "followeraction_hoodwinkmidmoth",
-            "label": "Cult Business: Hoodwink",
+            "label": "Negócio culto: Hoodwink",
             "actionid": "talk",
-            "startdescription": "My Disciple can probably use their talents to part fools from their treasures.",
+            "startdescription": "Meu Discípulo pode usar seus talentos para separar os tolos de seus tesouros.",
             "requirements": {
                 "society": 1,
                 "moth": 5,
@@ -3022,9 +3022,9 @@
         },
         {
             "id": "followeraction_hoodwinklowmoth",
-            "label": "Cult Business: Hoodwink",
+            "label": "Negócio culto: Hoodwink",
             "actionid": "talk",
-            "startdescription": "My Believer might be able to part fools from their treasures... if they're lucky.",
+            "startdescription": "Talvez meu Crente seja capaz de se separar de tolos de seus tesouros... se tiverem sorte.",
             "requirements": {
                 "society": 1,
                 "moth": 1,
@@ -3043,10 +3043,10 @@
         },
         {
             "id": "followeraction_hoodwinksuccess",
-            "label": "Deceit and Confusion",
+            "label": "Engolir e Confusão",
             "actionid": "talk",
-            "startdescription": "My follower is attempting a profitable deception.",
-            "description": "A successful deception! Here are the rewards.",
+            "startdescription": "Meu seguidor está tentando um engano lucrativo.",
+            "description": "Uma decepção bem sucedida! Aqui estão as recompensas.",
             "effects": {
                 "notoriety": 1,
                 "funds": 1
@@ -3058,10 +3058,10 @@
         },
         {
             "id": "followeraction_hoodwinkfailure",
-            "label": "Deceit and Confusion",
+            "label": "Engolir e Confusão",
             "actionid": "talk",
-            "startdescription": "My follower is attempting a profitable deception.",
-            "description": "My follower has returned empty-handed. Their scheme came unravelled.",
+            "startdescription": "Meu seguidor está tentando um engano lucrativo.",
+            "description": "Meu seguidor voltou de mãos vazias. O seu esquema foi desfeito.",
             "effects": {
                 "notoriety": 1
             },
@@ -3075,10 +3075,10 @@
         },
         {
             "id": "followeraction_hoodwinkfailure_losefollower",
-            "label": "Deceit and Confusion",
+            "label": "Engolir e Confusão",
             "actionid": "talk",
-            "startdescription": "My follower is attempting a profitable deception.",
-            "description": "I was beginning to worry that my follower had arranged their own disappearance. But it seems their deception was detected. The victim was outraged, and my follower barely escaped alive. [Heal a fallen Follower with Talk.]",
+            "startdescription": "Meu seguidor está tentando um engano lucrativo.",
+            "description": "Estava a começar a preocupar-me com o facto de o meu seguidor ter organizado o seu próprio desaparecimento, mas parece que o seu engano foi detectado. A vítima ficou indignada, e meu seguidor mal escapou vivo. [Curar um seguidor caído com o Talk.]",
             "mutations": [
                 {
                     "filter": "mortal",

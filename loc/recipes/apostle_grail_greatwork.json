@@ -3,11 +3,11 @@
         {
             "id": "ambition.apostlegrail.emitfuel",
             "actionid": "work",
-            "label": "Guidance from our Delight",
+            "label": "Guia do nosso prazer",
             "requirements": {
                 "apostlegrail.mentor": 1
             },
-            "startdescription": "A courier has arrived from our Delight, with a single vial of their most holy blood.",
+            "startdescription": "Um mensageiro chegou do nosso Delício, com uma única frasca de seu sangue mais sagrado.",
             "effects": {
                 "apostlegrail.pillarfuel": 1
             }
@@ -15,11 +15,11 @@
         {
             "id": "work.apostlegrail.majorvictory.postbetrayal",
             "actionid": "work",
-            "label": "Nevertheless, the Vitulation",
+            "label": "No entanto, a vitulação",
             "extantreqs": {
                 "apostlegrail.mentor": -1
             },
-            "startdescription": "To join with the Grail, our Delight must give life and take life and be not sated. So it is that I am the centrepiece of the Vitulation. A child of the Delight's body would fulfil the requirement, but one cannot enter the Mansus in triumph when one has committed the Crime of the Sky. So it is me, and after all despite Tryphon's temptations I will submit to the binding and to Marinette's marinations, and the Seven Graces and the Three Savours overwhelm me, and when the first mouthful is taken, almost I do not feel it; almost I do not feel it at all.",
+            "startdescription": "Para se juntar ao Grail, o nosso prazer deve dar vida e tirar vida e não ser saciado. Portanto, sou o elemento central da Vitulação. Um filho do corpo do delírio preencheria o requisito, mas não se pode entrar no Mansus em triunfo quando se comete o crime do céu. Por isso, sou eu, e apesar das tentações de Tryphon, submeterei ao vínculo e às marinhas de Marinette, e os Sete Graces e os Três Sábios impressionam-me, e quando a primeira boca é levada, quase não a sinto. quase não sinto nada disso.",
             "requirements": {
                 "fragmentheartg": 1,
                 "influencegrailg": 1,
@@ -38,11 +38,11 @@
         {
             "id": "work.apostlegrail.majorvictory",
             "actionid": "work",
-            "label": "The Last Elements of the Vitulation",
+            "label": "Os Últimos Elementos da Vitulação",
             "extantreqs": {
                 "apostlegrail.mentor": 1
             },
-            "startdescription": "To join with the Grail, our Delight must give life and take life and be not sated. So it is that I am the centrepiece of the Vitulation. A child of the Delight's body would fulfil the requirement, but one cannot enter the Mansus in triumph when one has committed the Crime of the Sky. So it is me, and I submit to the binding and to Marinette's marinations, and the Seven Graces and the Three Savours overwhelm me, and when the first mouthful is taken, almost I do not feel it; almost I do not feel it at all.",
+            "startdescription": "Para se juntar ao Grail, o nosso prazer deve dar vida e tirar vida e não ser saciado. Portanto, sou o elemento central da Vitulação. Um filho do corpo do delírio preencheria o requisito, mas não se pode entrar no Mansus em triunfo quando se comete o crime do céu. Sou eu, e submeto-me, portanto, às marinhas de Marineta e às marinhas de Marinette, e os Sete Graces e os Três Sábios impressionam-me, e quando a primeira boca é levada, quase não a sinto. quase não sinto nada disso.",
             "requirements": {
                 "fragmentheartg": 1,
                 "influencegrailg": 1,
@@ -61,8 +61,8 @@
         {
             "id": "explore.apostlegrail.purchase.apostlegrail.pillar3",
             "actionid": "explore",
-            "label": "Bid for Rare Spices",
-            "startdescription": "Our Delight's blood is a payment towards certain special goods for particular connoisseurs. Everything must be just right for the Vitulation.",
+            "label": "Licitação para Fotos Raras",
+            "startdescription": "O sangue do nosso Delight é um pagamento para certas mercadorias especiais para alguns apreciadores particulares. Tudo deve estar certo para a Vitulação.",
             "requirements": {
                 "locationauctionhouse": 1,
                 "apostlegrail.pillarfuel": 1
@@ -82,8 +82,8 @@
         {
             "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.finished",
             "actionid": "work",
-            "label": "The Seven Graces are Prepared",
-            "startdescription": "The Seven Graces and the Three Savours: the Salt, the Sweet, the Sweetest. We who are the choicest of the Host shall so annoint ourselves.",
+            "label": "As Sete Graces são Comparadas",
+            "startdescription": "Os Sete Graças, os Três Sábios: o Sal, os Doces, os Doces. Nós que escolhemos o Anfitrião nos irritamos tanto.",
             "requirements": {
                 "apostlegrail.pillar3": 1,
                 "grailflavour": 1,
@@ -97,18 +97,18 @@
         {
             "id": "work.apostlegrail.upgrade.apostlegrail.pillar3",
             "actionid": "work",
-            "label": "Prepare the Seven Graces",
-            "startdescription": "The scents and savours must be precisely as the Recipe dictates. Only so can I, and my colleagues, be sufficiently appetising - appetising enough to arouse a pitch of appetite not seen in the waking world.",
+            "label": "Prepare as Sete Graces",
+            "startdescription": "O tesouro e o sabor devem ser exactamente como a receita dita. Só assim eu e os meus colegas podemos estar suficientemente apetitosos - suficientemente apetitosos para despertar um pato de apetite que não se vê no mundo em que vivemos.",
             "requirements": {
                 "apostlegrail.pillar3": 1,
                 "ritual": -1
             },
-            "description": "I couldn't find a scent or savour I needed to add.",
+            "description": "Não consegui achar um cheiro ou um sabor que precisava adicionar.",
             "slots": [
                 {
                     "id": "enhancement",
-                    "label": "Enhancement",
-                    "description": "Very special additives to ensure the Vitulation goes just right.",
+                    "label": "Aprimoramento",
+                    "description": "Aditivos muito especiais para garantir que a Vitulação vai muito bem.",
                     "required": {
                         "ingredientgraild": 1,
                         "ingredientmothd": 1,
@@ -136,8 +136,8 @@
         {
             "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.grail",
             "actionid": "work",
-            "label": "The Flowermaker's Gift",
-            "startdescription": "If we die, yet shall we live on in those who slew us.",
+            "label": "Presente do Artesanato",
+            "startdescription": "Se morrermos, mas viveremos naqueles que nos mataram.",
             "requirements": {
                 "ingredientgraild": 1,
                 "grailflavour": -1
@@ -162,7 +162,7 @@
             "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.heart",
             "actionid": "work",
             "label": "Janus' Savour",
-            "startdescription": "Janus is the god that rose not, but reigns. Janus is the saint that died not, but is dead. Janus is the door between what cannot be, and what must be.",
+            "startdescription": "Janus é o deus que levantou, mas reina. Janus é o santo que morreu não, mas está morto. Janus é a porta entre o que não pode ser, e o que tem de ser.",
             "requirements": {
                 "ingredientheartf": 1,
                 "heartflavour": -1
@@ -186,8 +186,8 @@
         {
             "id": "work.apostlegrail.upgrade.apostlegrail.pillar3.flavourwith.moth",
             "actionid": "work",
-            "label": "The Black-Flax's Savour",
-            "startdescription": "It is necessary that we forget what we were.",
+            "label": "A Sabor do Linho Preto",
+            "startdescription": "É necessário que nos esqueçamos do que éramos.",
             "requirements": {
                 "ingredientmothd": 1,
                 "mothflavour": -1
@@ -211,9 +211,9 @@
         {
             "id": "talk.apostlegrail.createpillar4",
             "actionid": "talk",
-            "label": "Begin Preparations for the Vitulation",
-            "startdescription": "There will be a great celebration when our Delight proves their appetite.",
-            "description": "We cannot know the final date, until we know the time of the Grail's greatest influence. But we can, we must, begin to select those who will comprise the Host.",
+            "label": "Comece a Preparação para a Vitulação",
+            "startdescription": "Haverá uma grande celebração quando nosso prazer provar o seu apetite.",
+            "description": "Não podemos conhecer a data final, enquanto não conhecermos o momento da maior influência do Grail. Mas podemos, temos de começar a seleccionar aqueles que constituirão o anfitrião.",
             "requirements": {
                 "apostlegrail.pillar1": 1
             },
@@ -226,16 +226,16 @@
         {
             "id": "talk.apostlegrail.upgradepillar4.attempt",
             "actionid": "talk",
-            "label": "Invite our Final Guest",
-            "startdescription": "Without the Key-Holder, all this preparation will be in vain.",
-            "description": "We do not yet have our Key-Holder",
+            "label": "Convidar nosso convidado final",
+            "startdescription": "Sem a Key-Holder, toda esta preparação será em vão.",
+            "description": "Ainda não temos nosso Titular da Chave",
             "requirements": {
                 "apostlegrail.pillar4.inprogress7": 1
             },
             "slots": [
                 {
                     "id": "finalguest",
-                    "label": "The Key-Holder",
+                    "label": "O Guardião da Chave",
                     "required": {
                         "marinette": 1
                     }
@@ -255,16 +255,16 @@
         {
             "id": "talk.apostlegrail.upgradepillar4.inprogress.attempt",
             "actionid": "talk",
-            "label": "Augment the Host",
-            "startdescription": "We seek more attendees. Our allies: greed; curiosity; prurience; unalloyed idleness.",
-            "description": "We could not stoke excitement's oven sufficiently.",
+            "label": "Aumento do Anfitrião",
+            "startdescription": "Procuramos mais participantes. Nossos aliados: ganância; curiosidade; expansão; ociosidade imparcial.",
+            "description": "Não podíamos alimentar o forno com suficiente entusiasmo.",
             "requirements": {
                 "uqvitulation": 1
             },
             "slots": [
                 {
                     "id": "more",
-                    "label": "More",
+                    "label": "MAIS",
                     "required": {
                         "mystique": 1
                     }
@@ -281,7 +281,7 @@
         {
             "id": "talk.apostlegrail.upgradepillar4.marinetteready",
             "actionid": "talk",
-            "label": "The Key-Holder",
+            "label": "O Guardião da Chave",
             "startdescription": "'<sprite name=winter>.'",
             "requirements": {
                 "marinette": 1,
@@ -298,8 +298,8 @@
         {
             "id": "talk.apostlegrail.upgradepillar4.marinettenotready",
             "actionid": "talk",
-            "label": "Not Yet Enough",
-            "startdescription": "'...<sprite name=grail>.' [Marinette is not yet sated.]",
+            "label": "Ainda não é suficiente",
+            "startdescription": "'...<sprite name=grail>.' [Marinette ainda não é sagrado.]",
             "requirements": {
                 "marinette": 1
             },
@@ -308,8 +308,8 @@
         {
             "id": "talk.apostlegrail.upgradepillar4.succeed",
             "actionid": "talk",
-            "label": "The Host Grows",
-            "startdescription": "More names for the list which is equal parts sacred and secret; more faces for the great night.",
+            "label": "O Host Grows",
+            "startdescription": "Mais nomes para a lista que é igual são sagrados e secretos; mais rostos para a grande noite.",
             "requirements": {
                 "mystique": 1,
                 "uqvitulation": 1
@@ -325,8 +325,8 @@
         {
             "id": "talk.apostlegrail.sulochanamarinette",
             "actionid": "talk",
-            "label": "An Introduction to Our Lady of Wires",
-            "startdescription": "'You're really going to do it?' Sulochana meditatively rocks the sole of one booted foot over the wreck of her cigarette. 'Then I'm leaving, now. Don't worry. I'll send your message to the necessary sister. I'm sure she'll come... if there's blood enough.'",
+            "label": "Uma Introdução a Nossa Dama de Fios",
+            "startdescription": "'Você realmente vai fazer isso?' Sulochana estraga meditadamente a sola de um pé soprado sobre o naufrágio do cigarro. Então eu vou embora, agora. Não se preocupe. Vou enviar sua mensagem para a irmã necessária. Tenho certeza de que ela virá... se tiver sangue o suficiente.\"",
             "description": "",
             "requirements": {
                 "apostlegrail.pillar1": 1
@@ -340,8 +340,8 @@
         {
             "id": "talk.apostlegrail.marinette.ready.hint",
             "actionid": "talk",
-            "label": "Marinette is Sated",
-            "startdescription": "'<sprite name=heart>'. [You can now add Marinette to your Guests.]",
+            "label": "Marinette está sentado",
+            "startdescription": "'<sprite name=heart>'. [Agora você pode adicionar o Marinette aos seus convidados.]",
             "requirements": {
                 "marinette": 1,
                 "approval": 7
@@ -352,7 +352,7 @@
         {
             "id": "talk.apostlegrail.marinette",
             "actionid": "talk",
-            "label": "Petitioning Marinette of the Wires",
+            "label": "Peticionando Marinette dos Cabos",
             "startdescription": "'<sprite name=grail>?'",
             "description": "'<sprite name=grail>. <sprite name=grail>. <sprite name=grail>!'",
             "requirements": {
@@ -362,7 +362,7 @@
             "slots": [
                 {
                     "id": "sacrifice",
-                    "label": "Blood",
+                    "label": "Sangue",
                     "required": {
                         "follower": 1
                     },
@@ -385,8 +385,8 @@
         {
             "id": "talk.apostlegrail.marinettenext.hireling",
             "actionid": "talk",
-            "label": "Blood",
-            "startdescription": "Marinette always leaves the skin. Sometimes she leaves the bones. She'll consume the hired help eagerly enough, but the hired help generally objects, and then there is generally a fuss.",
+            "label": "Sangue",
+            "startdescription": "Marinette sempre sai da pele. Às vezes ela sai dos ossos. Ela vai consumir a contratada ajuda ansiosamente mas a ajuda contratada geralmente tem objetos, e então geralmente há um barulho.",
             "requirements": {
                 "marinette": 1,
                 "hireling": 1
@@ -408,8 +408,8 @@
         {
             "id": "talk.apostlegrail.marinettenext.follower",
             "actionid": "talk",
-            "label": "Blood",
-            "startdescription": "Marinette always leaves the skin. Sometimes she leaves the bones. If we tell our loyal followers to close their eyes, it's over very quickly.",
+            "label": "Sangue",
+            "startdescription": "Marinette sempre sai da pele. Às vezes ela sai dos ossos. Se dizemos aos nossos fiéis seguidores para fecharem os olhos, é tudo muito rápido.",
             "mutations": [
                 {
                     "filter": "marinette",

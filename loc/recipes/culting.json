@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "recruitindependentedge",
-            "label": "Recruit a Troublemaker, by invoking a great power of Edge",
+            "label": "Recrute um Troublemaker, invocando um grande poder de Edge",
             "actionid": "talk",
             "requirements": {
                 "venerationedge": 1,
@@ -20,15 +20,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready to join me... if I give up a Tool as a mark of my respect. [You must include one Tool, which will be permanently lost.]",
-            "description": "We have prepared a knife for this moment.",
+            "startdescription": "Este aqui está pronto para se juntar a mim... se eu desistir de uma Ferramenta como uma marca de meu respeito. [Você deve incluir uma ferramenta, que será perdida permanentemente.]",
+            "description": "Nós preparamos uma faca para este momento.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitindependentforge",
-            "label": "Recruit a Troublemaker, by invoking a great power of Forge",
+            "label": "Recrute um Troublemaker, invocando um grande poder de Forja",
             "actionid": "talk",
             "requirements": {
                 "venerationforge": 1,
@@ -46,15 +46,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready to join me... if I give up a Tool as a mark of my respect. [You must include one Tool, which will be permanently lost.]",
-            "description": "The fire must blaze, strong enough to scorch the skin of the watchers.",
+            "startdescription": "Este aqui está pronto para se juntar a mim... se eu desistir de uma Ferramenta como uma marca de meu respeito. [Você deve incluir uma ferramenta, que será perdida permanentemente.]",
+            "description": "O fogo deve ígneo, forte o suficiente para queimar a pele dos observadores.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitindependentgrail",
-            "label": "Recruit a Troublemaker, by invoking a great power of Grail",
+            "label": "Recrute um Troublemaker, invocando um grande poder de Grau",
             "actionid": "talk",
             "requirements": {
                 "venerationgrail": 1,
@@ -72,15 +72,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready to join me... if I give up a Tool as a mark of my respect. [You must include one Tool, which will be permanently lost.]",
-            "description": "We will be joined; oh yes, we will be joined.",
+            "startdescription": "Este aqui está pronto para se juntar a mim... se eu desistir de uma Ferramenta como uma marca de meu respeito. [Você deve incluir uma ferramenta, que será perdida permanentemente.]",
+            "description": "Vamos aderir; sim, vamos aderir.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitindependentheart",
-            "label": "Recruit a Troublemaker, by invoking a great power of Heart",
+            "label": "Recrute um Troublemaker, invocando um grande poder de Coração",
             "actionid": "talk",
             "requirements": {
                 "venerationheart": 1,
@@ -98,15 +98,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready to join me... if I give up a Tool as a mark of my respect. [You must include one Tool, which will be permanently lost.]",
-            "description": "Now we begin what will not end.",
+            "startdescription": "Este aqui está pronto para se juntar a mim... se eu desistir de uma Ferramenta como uma marca de meu respeito. [Você deve incluir uma ferramenta, que será perdida permanentemente.]",
+            "description": "Agora começamos o que não vai acabar.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitindependentknock",
-            "label": "Recruit a Troublemaker, by invoking a great power of Knock",
+            "label": "Recrute um Troublemaker, invocando um grande poder de Knock",
             "actionid": "talk",
             "requirements": {
                 "venerationknock": 1,
@@ -124,15 +124,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready to join me... if I give up a Tool as a mark of my respect. [You must include one Tool, which will be permanently lost.]",
-            "description": "This is an opening we will all remember.",
+            "startdescription": "Este aqui está pronto para se juntar a mim... se eu desistir de uma Ferramenta como uma marca de meu respeito. [Você deve incluir uma ferramenta, que será perdida permanentemente.]",
+            "description": "Esta é uma abertura que todos recordaremos.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitindependentlantern",
-            "label": "Recruit a Troublemaker, by invoking a great power of Lantern",
+            "label": "Recrute um Troublemaker, invocando um grande poder de Lanterna",
             "actionid": "talk",
             "requirements": {
                 "venerationlantern": 1,
@@ -150,15 +150,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready to join me... if I give up a Tool as a mark of my respect. [You must include one Tool, which will be permanently lost.]",
-            "description": "A great light, and then a great darkness.",
+            "startdescription": "Este aqui está pronto para se juntar a mim... se eu desistir de uma Ferramenta como uma marca de meu respeito. [Você deve incluir uma ferramenta, que será perdida permanentemente.]",
+            "description": "Uma grande luz, e depois uma grande escuridão.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitindependentmoth",
-            "label": "Recruit a Troublemaker, by invoking a great power of Moth",
+            "label": "Recrute um Troublemaker, invocando um grande poder de Mariposa",
             "actionid": "talk",
             "requirements": {
                 "venerationmoth": 1,
@@ -176,15 +176,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready to join me... if I give up a Tool as a mark of my respect. [You must include one Tool, which will be permanently lost.]",
-            "description": "We have both shed our skins.",
+            "startdescription": "Este aqui está pronto para se juntar a mim... se eu desistir de uma Ferramenta como uma marca de meu respeito. [Você deve incluir uma ferramenta, que será perdida permanentemente.]",
+            "description": "Nós dois derramamos a nossa pele.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitindependentwinter",
-            "label": "Recruit a Troublemaker, by invoking a great power of Winter",
+            "label": "Recrute um Arremessador, invocando um grande poder de Inverno",
             "actionid": "talk",
             "requirements": {
                 "venerationwinter": 1,
@@ -202,15 +202,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready to join me... if I give up a Tool as a mark of my respect. [You must include one Tool, which will be permanently lost.]",
-            "description": "This ceremony needs no words.",
+            "startdescription": "Este aqui está pronto para se juntar a mim... se eu desistir de uma Ferramenta como uma marca de meu respeito. [Você deve incluir uma ferramenta, que será perdida permanentemente.]",
+            "description": "Esta cerimónia não precisa de palavras.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitacquaintanceedge",
-            "label": "Recruit an Acquaintance, by invoking Edge",
+            "label": "Recrute um acentamento, invocando o Edge",
             "actionid": "talk",
             "requirements": {
                 "venerationedge": 1,
@@ -226,15 +226,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready.",
-            "description": "Before they speak the words, the novice must sharpen a knife so it can separate a drifting thread. An it be not sharp enough, it will be the worse for them.",
+            "startdescription": "Esta está pronta.",
+            "description": "Antes de falarem as palavras, o novato deve afiar uma faca para que possa separar um fio de deriva. Se não for suficientemente afiada, será pior para eles.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitacquaintanceforge",
-            "label": "Recruit an Acquaintance, by invoking Forge",
+            "label": "Recrute uma aquisição, invocando Forja",
             "actionid": "talk",
             "requirements": {
                 "venerationforge": 1,
@@ -250,15 +250,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready.",
-            "description": "The ceremony requires a searing. Only a little one; but they will carry the mark all their life.",
+            "startdescription": "Esta está pronta.",
+            "description": "A cerimônia requer uma busca. Só um pouco; mas eles vão carregar a marca por toda a sua vida.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitacquaintancegrail",
-            "label": "Recruit an Acquaintance, by invoking Grail",
+            "label": "Recrute um acentamento, invocando Grau",
             "actionid": "talk",
             "requirements": {
                 "venerationgrail": 1,
@@ -274,15 +274,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready.",
-            "description": "They will not forget the savour I have given them.",
+            "startdescription": "Esta está pronta.",
+            "description": "Não esquecerão o sabor que lhes dei.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitacquaintanceheart",
-            "label": "Recruit an Acquaintance, by invoking Heart",
+            "label": "Recrute uma aquisição, invocando Coração",
             "actionid": "talk",
             "requirements": {
                 "venerationheart": 1,
@@ -298,15 +298,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready.",
-            "description": "The ceremony is resonant as thunder in a church. I know it well. I wrote it myself.",
+            "startdescription": "Esta está pronta.",
+            "description": "A cerimônia é ressonante como trovão em uma igreja. Eu sei que está bem. Escrevi você mesmo.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitacquaintanceknock",
-            "label": "Recruit an Acquaintance, by invoking Knock",
+            "label": "Recrute uma Precisão, invocando o Toc!",
             "actionid": "talk",
             "requirements": {
                 "venerationknock": 1,
@@ -322,15 +322,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready.",
-            "description": "Only a little wound. Just enough to give homage to the powers that open.",
+            "startdescription": "Esta está pronta.",
+            "description": "Só um pouco de ferimento. O suficiente para prestar homenagem aos poderes que se abrem.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitacquaintancelantern",
-            "label": "Recruit an Acquaintance, by invoking Lantern",
+            "label": "Recrute um acentamento, invocando a Lanterna",
             "actionid": "talk",
             "requirements": {
                 "venerationlantern": 1,
@@ -346,15 +346,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready.",
-            "description": "A dozen lights blaze. There is no place for shadow in these rites, and no place for mercy.",
+            "startdescription": "Esta está pronta.",
+            "description": "Uma dúzia de luzes ígneas. Não há lugar para sombra nestes ritos, nem lugar para piedade.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitacquaintancemoth",
-            "label": "Recruit an Acquaintance, by invoking Moth",
+            "label": "Recrute um acentamento, invocando Mariposa",
             "actionid": "talk",
             "requirements": {
                 "venerationmoth": 1,
@@ -370,15 +370,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready.",
-            "description": "Moth sheds its skin. The novice must only shed their clothes, and their past.",
+            "startdescription": "Esta está pronta.",
+            "description": "Mariposa rasga sua pele. O novato só deve derramar suas roupas e seu passado.",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "recruitacquaintancewinter",
-            "label": "Recruit an Acquaintance, by invoking Winter",
+            "label": "Recrute uma aquisição, invocando o Inverno",
             "actionid": "talk",
             "requirements": {
                 "venerationwinter": 1,
@@ -394,15 +394,15 @@
             "aspects": {
                 "recruiting": 1
             },
-            "startdescription": "This one is ready.",
-            "description": "I will speak only and exactly nine words. The novice will speak none at all. ",
+            "startdescription": "Esta está pronta.",
+            "description": "Eu só falarei exatamente nove palavras. O novato não falará nada. ",
             "warmup": 30,
             "craftable": true,
             "burnimage": "freemasons"
         },
         {
             "id": "promotetodiscipleedge",
-            "label": "Promote a Believer by invoking Edge",
+            "label": "Promover um Crente invocando Edge",
             "actionid": "talk",
             "requirements": {
                 "venerationedge": 1,
@@ -419,14 +419,14 @@
             "aspects": {
                 "promotiontodisciple": 1
             },
-            "startdescription": "My follower will kneel as a novice, and rise as an initiate. I will administer the necessary oaths myself.",
-            "description": "'My scars are weapons. Through striving I rise to victory. There is no defeat but annihilation. In the light of the Bright Edge we know ourselves. I pledge myself to the service of the strongest.'",
+            "startdescription": "Meu seguidor vai ajoelhar-se como um novato e levantar como uma iniciativa. Eu mesmo administrarei os juramentos necessários.",
+            "description": "'As minhas cicatrizes são armas. Através do meu esforço em me erguer à vitória. Não há derrota senão aniquilação. À luz do compromisso que assumimos e que assumimos perante o serviço dos mais fortes.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promotetodiscipleforge",
-            "label": "Promote a Believer by invoking Forge",
+            "label": "Promova um Crente invocando o Forge",
             "actionid": "talk",
             "requirements": {
                 "venerationforge": 1,
@@ -443,14 +443,14 @@
             "aspects": {
                 "promotiontodisciple": 1
             },
-            "startdescription": "My follower will kneel as a novice, and rise as an initiate. I will administer the necessary oaths myself.",
-            "description": "'I am destroyed. I am remade. Now I sear my skin, and by these marks shall I be known. I pledge myself to the flame, and I shall not flinch from any remaking.'",
+            "startdescription": "Meu seguidor vai ajoelhar-se como um novato e levantar como uma iniciativa. Eu mesmo administrarei os juramentos necessários.",
+            "description": "'Estou destruído. Estou remoto. Agora costumo costurar minha pele, e com estas marcas serei conhecido. Prometo-me ao fogo e não vou vacilar de qualquer tipo de remate».",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promotetodisciplegrail",
-            "label": "Promote a Believer by invoking Grail",
+            "label": "Promova um Crente invocando Grail",
             "actionid": "talk",
             "requirements": {
                 "venerationgrail": 1,
@@ -467,14 +467,14 @@
             "aspects": {
                 "promotiontodisciple": 1
             },
-            "startdescription": "My follower will kneel as a novice, and rise as an initiate. I will administer the necessary oaths myself.",
-            "description": "In pain are we born. In hunger are we embraced. In delight are we devoured. These are the gates of the body, and this is Her promise: not all that is born decays. In remembrance of that promise, we give ourselves to the Feast.",
+            "startdescription": "Meu seguidor vai ajoelhar-se como um novato e levantar como uma iniciativa. Eu mesmo administrarei os juramentos necessários.",
+            "description": "Nascemos em dor. Na fome somos abraçados. Nosso prazer é devorado. Estes são os portões do corpo, e esta é a sua promessa: nem tudo o que nasce em decadência. Em memória dessa promessa, cedemos ao Banquete.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promotetodiscipleheart",
-            "label": "Promote a Believer by invoking Heart",
+            "label": "Promover um Crente invocando Coração",
             "actionid": "talk",
             "requirements": {
                 "venerationheart": 1,
@@ -491,14 +491,14 @@
             "aspects": {
                 "promotiontodisciple": 1
             },
-            "startdescription": "My follower will kneel as a novice, and rise as an initiate. I will administer the necessary oaths myself.",
-            "description": "'We cede our mouths to the thunder. We cede our feet to the dance. We cede our skins to the night. We do not cease; we do not cease; we do not cease.'",
+            "startdescription": "Meu seguidor vai ajoelhar-se como um novato e levantar como uma iniciativa. Eu mesmo administrarei os juramentos necessários.",
+            "description": "\"cedemos a boca ao trovão e cedemos os pés à dança. Abandonamos a noite e não cessamos; não cessamos; não cessamos; não cessamos.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promotetodiscipleknock",
-            "label": "Promote a Believer by invoking Knock",
+            "label": "Promova um crente invocando o nock",
             "actionid": "talk",
             "requirements": {
                 "venerationknock": 1,
@@ -515,14 +515,14 @@
             "aspects": {
                 "promotiontodisciple": 1
             },
-            "startdescription": "My follower will kneel as a novice, and rise as an initiate. I will administer the necessary oaths myself.",
-            "description": "'To she who was flesh, I offer my wounds. To she who was stone, I offer this moment, where my old self divides from my new. To she who came from Light, I offer my secrets. The door is opened.'",
+            "startdescription": "Meu seguidor vai ajoelhar-se como um novato e levantar como uma iniciativa. Eu mesmo administrarei os juramentos necessários.",
+            "description": "\"A ela que foi carne, eu ofereço as minhas feridas. A ela que foi pedra, eu ofereço este momento, onde o meu velho senhor se divide do meu novo. A ela que veio da Luz, apresento os meus segredos e a porta está aberta.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promotetodisciplelantern",
-            "label": "Promote a Believer by invoking Lantern",
+            "label": "Promover um Crente invocando a Lanterna",
             "actionid": "talk",
             "requirements": {
                 "venerationlantern": 1,
@@ -539,14 +539,14 @@
             "aspects": {
                 "promotiontodisciple": 1
             },
-            "startdescription": "My follower will kneel as a novice, and rise as an initiate. I will administer the necessary oaths myself.",
-            "description": "'He navigates. Now you are the map. He illuminates. You were the darkness. He is not compassionate. You will not show compassion. Our compass is Knowledge and our course is Glory.'",
+            "startdescription": "Meu seguidor vai ajoelhar-se como um novato e levantar como uma iniciativa. Eu mesmo administrarei os juramentos necessários.",
+            "description": "Ele navega. Agora você é o mapa. Ele ilumina. Você foi a escuridão. Ele não é compaixão. Você não vai mostrar compaixão. Nossa bússola é Conhecimento e nosso curso é Glória.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promotetodisciplemoth",
-            "label": "Promote a Believer by invoking Moth",
+            "label": "Promover uma crença invocando Mariposa",
             "actionid": "talk",
             "requirements": {
                 "venerationmoth": 1,
@@ -563,14 +563,14 @@
             "aspects": {
                 "promotiontodisciple": 1
             },
-            "startdescription": "My follower will kneel as a novice, and rise as an initiate. I will administer the necessary oaths myself.",
-            "description": "'Now the scissors, and then the knife. Now the wood, and then the bones. Now the flutter of the moon, and then the dappling of the soul. He was blood, and so will we be.'",
+            "startdescription": "Meu seguidor vai ajoelhar-se como um novato e levantar como uma iniciativa. Eu mesmo administrarei os juramentos necessários.",
+            "description": "'Agora a tesoura, e depois a faca. Agora a madeira e depois os ossos. Agora o flageiro da lua, e depois o amontoado da alma. Ele estava com sangue e nós também estamos».",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promotetodisciplewinter",
-            "label": "Promote a Believer by invoking Winter",
+            "label": "Promova um Crente invocando o Inverno",
             "actionid": "talk",
             "requirements": {
                 "venerationwinter": 1,
@@ -587,14 +587,14 @@
             "aspects": {
                 "promotiontodisciple": 1
             },
-            "startdescription": "My follower will kneel as a novice, and rise as an initiate. I will administer the necessary oaths myself.",
-            "description": "'Now you shed your blood, as the Sun's blood was shed. Now your past is divided from your future, as the Wolf was divided. You were not born. Your service ends only in dissolution. Arise, in silence.'",
+            "startdescription": "Meu seguidor vai ajoelhar-se como um novato e levantar como uma iniciativa. Eu mesmo administrarei os juramentos necessários.",
+            "description": "\"Agora você derramou seu sangue, quando o sangue do Sol estava derramado. Agora seu passado está dividido de seu futuro, enquanto o Lobo estava dividido. Você não nasceu. O seu serviço termina apenas em dissolução. Arrise, em silêncio.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promoteto_d_edge",
-            "label": "Attempt to Exalt a Disciple to an Assassin",
+            "label": "Tentativa de extrair um Discípulo a um Assassino",
             "actionid": "talk",
             "requirements": {
                 "cultedge_1": 1,
@@ -610,14 +610,14 @@
             "aspects": {
                 "promotionto_d_edge": 1
             },
-            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
-            "description": "'As the Lionsmith knelt to the Colonel, so now I kneel. My service ends in death, or in the resolution of strengths.'",
+            "startdescription": "Apenas alguns raros - os mais adequados ao serviço dos nossos mistérios - podem alcançar este rank.",
+            "description": "\"Sendo o joelho do ferreiro para o coronel, o meu serviço acaba na morte ou na resolução dos pontos fortes.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promoteto_d_forge",
-            "label": "Attempt to Exalt a Disciple to a Reshaper",
+            "label": "Tentativa de extrair um Discípulo para um Rebaixador",
             "actionid": "talk",
             "requirements": {
                 "cultforge_1": 1,
@@ -633,14 +633,14 @@
             "aspects": {
                 "promotionto_d_forge": 1
             },
-            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
-            "description": "'I am the hammer and the anvil; I am the fire's touch and the iron's blessing. I pledge myself to the final conflagration.'",
+            "startdescription": "Apenas alguns raros - os mais adequados ao serviço dos nossos mistérios - podem alcançar este rank.",
+            "description": "\"Sou o martelo e a bigorna; sou o toque do fogo e a bênção do ferro; prometo o conflito final.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promoteto_d_grail",
-            "label": "Attempt to Exalt a Disciple to a Cyprian",
+            "label": "Tentar exaltar uma discípula a um cipriota",
             "actionid": "talk",
             "requirements": {
                 "cultgrail_1": 1,
@@ -656,14 +656,14 @@
             "aspects": {
                 "promotionto_d_grail": 1
             },
-            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
-            "description": "'By the Copper and the Crow, by She for whom we Hunger and She who Hungers for us, I pledge myself to be the Feaster and the Feast. I will be devoured and I will devour.'",
+            "startdescription": "Apenas alguns raros - os mais adequados ao serviço dos nossos mistérios - podem alcançar este rank.",
+            "description": "'Pelo Cobre e pela Coroa, por ela para quem somos famintos e Ela que húngaro para nós, Prometo ser o Feaster e o Banquete. Eu serei devorado e vou devorar.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promoteto_d_heart",
-            "label": "Attempt to Exalt a Disciple to a Tarantellist",
+            "label": "Tentar Exaltar um Discípulo a um Tarantellist",
             "actionid": "talk",
             "requirements": {
                 "cultheart_1": 1,
@@ -679,14 +679,14 @@
             "aspects": {
                 "promotionto_d_heart": 1
             },
-            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
-            "description": "'By the Pine and the Knife, by the Drum and the Circle, I pledge myself to lead the Dance that does not end. This is my service, but in the end, it is only the Dance that I serve. '",
+            "startdescription": "Apenas alguns raros - os mais adequados ao serviço dos nossos mistérios - podem alcançar este rank.",
+            "description": "\"Pelo Pinho e pelo Knife, pelo Drum e pelo Círculo, comprometo-me a liderar a dança que não termina. Este é o meu serviço, mas no fim de contas é apenas a dança que eu servo.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promoteto_d_knock",
-            "label": "Attempt to Exalt a Disciple to a Key",
+            "label": "Tentar extrair um Discípulo para uma Chave",
             "actionid": "talk",
             "requirements": {
                 "cultknock_1": 1,
@@ -702,14 +702,14 @@
             "aspects": {
                 "promotionto_d_knock": 1
             },
-            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
-            "description": "'No lock remains. No door remains. No gate remains. No wall remains. No fortress is closed against me. No country forbids me. No law binds but the law of the Mother. I am a Key, and this is my use.'",
+            "startdescription": "Apenas alguns raros - os mais adequados ao serviço dos nossos mistérios - podem alcançar este rank.",
+            "description": "'Sem fechaduras. Nenhuma porta resta. Nenhum portão resta. Nenhuma parede resta. Nenhuma fortaleza está fechada contra mim. Nenhum país me proíbe e não me vincula a lei da mãe. Eu sou uma chave e é esse o meu uso.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promoteto_d_lantern",
-            "label": "Attempt to Exalt a Disciple to a Seer",
+            "label": "Tentar extrair um Discípulo a um Procurador",
             "actionid": "talk",
             "requirements": {
                 "cultlantern_1": 1,
@@ -725,14 +725,14 @@
             "aspects": {
                 "promotionto_d_lantern": 1
             },
-            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
-            "description": "'I pledge myself to light the way for the willing and for the unwilling. I pledge myself to navigate. I pledge myself to illuminate. I pledge myself against mercy. I will walk the path that is shown, no matter the price.'",
+            "startdescription": "Apenas alguns raros - os mais adequados ao serviço dos nossos mistérios - podem alcançar este rank.",
+            "description": "\"Prometo que acenarei o caminho para os que estiverem dispostos e para os que não quiserem. Eu me comprometo a navegar. Comprometo-me a esclarecer, comprometo-me contra a misericórdia, e percorrerei o caminho que se mostra, seja qual for o preço.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promoteto_d_moth",
-            "label": "Attempt to Exalt a Disciple to a Skintwister",
+            "label": "Tentar Exaltar uma Discípula a uma Tensão de Design",
             "actionid": "talk",
             "requirements": {
                 "cultmoth_1": 1,
@@ -748,14 +748,14 @@
             "aspects": {
                 "promotionto_d_moth": 1
             },
-            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
-            "description": "'This was my past, but now I am changed. These are my garments, which I set aside. Here is my skin, but it is loaned to me. Here is my name, which is only a blindfold. Here is the Wood, where we strangle the light. Here I was, and here I am not.'",
+            "startdescription": "Apenas alguns raros - os mais adequados ao serviço dos nossos mistérios - podem alcançar este rank.",
+            "description": "\"Este foi o meu passado, mas agora estou alterada, são estas as minhas roupas, que deixei de lado. Aqui está minha pele, mas me está emprestada. Aqui está o meu nome, que é apenas uma cega. Aqui está a Madeira, onde estrangulamos a luz. Aqui estou, e aqui não estou.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "promoteto_d_winter",
-            "label": "Attempt to Exalt a Disciple",
+            "label": "Tentar extrair um Discípulo",
             "actionid": "talk",
             "requirements": {
                 "venerationwinter": 1,
@@ -778,27 +778,27 @@
             "aspects": {
                 "promotionto_d_winter": 1
             },
-            "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
-            "description": "\"'...?' '...?' '...?'\r\n\t\t\r\n\t\t'...'\"",
+            "startdescription": "Apenas alguns raros - os mais adequados ao serviço dos nossos mistérios - podem alcançar este rank.",
+            "description": "\"...?' '...?' '...' '...'\r\n\t\t£\t\t\r\n\t\t'y'...'\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "recruitacquaintanceclue",
-            "label": "Recruit an Acquaintance,?",
+            "label": "Recrute uma aquisição,?",
             "actionid": "talk",
             "requirements": {
                 "society": 1,
                 "mortal": 1,
                 "follower": -1
             },
-            "startdescription": "This one might be ready to achieve the next level, if I can supply something more.",
+            "startdescription": "Este poderá estar pronto para atingir o próximo nível, se puder fornecer algo mais.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "cultfoundation",
-            "label": "Choose Founding Principles",
+            "label": "Escolha Princípios de Origem",
             "alt": [
                 {
                     "id": "cultfoundationedge",
@@ -851,14 +851,14 @@
             "slots": [
                 {
                     "id": "Doctrine",
-                    "label": "Doctrine",
+                    "label": "Doutrina",
                     "required": {
                         "lore": 1
                     },
-                    "description": "What do we seek?"
+                    "description": "O que procuramos?"
                 }
             ],
-            "startdescription": "Tradition and compulsion - old, new, or both together. [Add Lore to determine your cult's founding principles.]",
+            "startdescription": "Tradição e compulsão - antiga, nova ou ambas juntas. [Adicionar História para determinar os princípios fundadores do seu culto.]",
             "description": "",
             "warmup": 30,
             "craftable": false,
@@ -871,7 +871,7 @@
         },
         {
             "id": "cultfoundationedge",
-            "label": "Establish the Church of the Bright Edge",
+            "label": "Estabeleça a Igreja do Bordo Brilhante",
             "actionid": "establishcult",
             "requirements": {
                 "edge": 1
@@ -879,7 +879,7 @@
             "effects": {
                 "cultedge_1": 1
             },
-            "startdescription": "An occult society dedicated to the Hours of struggle and conquest.",
+            "startdescription": "Uma sociedade oculta dedicada às horas de luta e de conquista.",
             "linked": [
                 {
                     "id": "cultfoundation_health",
@@ -889,7 +889,7 @@
         },
         {
             "id": "cultfoundationforge",
-            "label": "Establish the Unflinching Order",
+            "label": "Estabeleça a Ordem Inabalável",
             "actionid": "establishcult",
             "requirements": {
                 "forge": 1
@@ -897,7 +897,7 @@
             "effects": {
                 "cultforge_1": 1
             },
-            "startdescription": "An occult society dedicated to the fire that changes and remakes.",
+            "startdescription": "Uma sociedade oculta dedicada ao fogo que muda e refaz.",
             "linked": [
                 {
                     "id": "cultfoundation_health",
@@ -907,7 +907,7 @@
         },
         {
             "id": "cultfoundationgrail",
-            "label": "Establish the Order of the Bloody Cup",
+            "label": "Estabeleça a Ordem da Copa Sangrenta",
             "actionid": "establishcult",
             "requirements": {
                 "grail": 1
@@ -915,7 +915,7 @@
             "effects": {
                 "cultgrail_1": 1
             },
-            "startdescription": "An occult society dedicated to the mysteries of birth, blood and appetite.",
+            "startdescription": "Uma sociedade oculta dedicada aos mistérios do nascimento, sangue e apetite.",
             "linked": [
                 {
                     "id": "cultfoundation_passion",
@@ -925,7 +925,7 @@
         },
         {
             "id": "cultfoundationheart",
-            "label": "Establish the Temple Unceasing",
+            "label": "Estabeleça o Templo Desbloqueando",
             "actionid": "establishcult",
             "requirements": {
                 "heart": 1
@@ -933,7 +933,7 @@
             "effects": {
                 "cultheart_1": 1
             },
-            "startdescription": "An occult society dedicated to the drumbeat which can never end.",
+            "startdescription": "Uma sociedade oculta dedicada ao tambor que nunca consegue acabar.",
             "linked": [
                 {
                     "id": "cultfoundation_passion",
@@ -943,7 +943,7 @@
         },
         {
             "id": "cultfoundationknock",
-            "label": "Establish the Society of the Holy Wound",
+            "label": "Estabeleça a Sociedade da Sagrada ferida",
             "actionid": "establishcult",
             "requirements": {
                 "knock": 1
@@ -951,7 +951,7 @@
             "effects": {
                 "cultknock_1": 1
             },
-            "startdescription": "An occult society dedicated to the Hours which open doors.",
+            "startdescription": "Uma sociedade oculta dedicada às Horas que abrem portas.",
             "linked": [
                 {
                     "id": "cultfoundation_health",
@@ -961,7 +961,7 @@
         },
         {
             "id": "cultfoundationlantern",
-            "label": "Establish the Mirror of Glory ",
+            "label": "Estabeleça o espelho da Glória ",
             "actionid": "establishcult",
             "requirements": {
                 "lantern": 1
@@ -969,7 +969,7 @@
             "effects": {
                 "cultlantern_1": 1
             },
-            "startdescription": "An occult society dedicated to the understanding of the Light that leaks from a fiercer place.",
+            "startdescription": "Uma sociedade oculta dedicada à compreensão da luz que vaza de um lugar mais feroz.",
             "linked": [
                 {
                     "id": "cultfoundation_reason",
@@ -979,7 +979,7 @@
         },
         {
             "id": "cultfoundationmoth",
-            "label": "Establish the Wildwood Club",
+            "label": "Defina o Clube de Madeira Selvagem",
             "actionid": "establishcult",
             "requirements": {
                 "moth": 1
@@ -987,7 +987,7 @@
             "effects": {
                 "cultmoth_1": 1
             },
-            "startdescription": "An occult society dedicated to chaos, and the unexpected Hours.",
+            "startdescription": "Uma sociedade oculta dedicada ao caos, e às inesperadas Horas.",
             "linked": [
                 {
                     "id": "cultfoundation_passion",
@@ -997,7 +997,7 @@
         },
         {
             "id": "cultfoundationsecrethistories",
-            "label": "Establish the Society of St Hydra",
+            "label": "Estabeleça a Sociedade de St Hydra",
             "actionid": "establishcult",
             "requirements": {
                 "secrethistories": 1
@@ -1005,7 +1005,7 @@
             "effects": {
                 "cultsecrethistories_1": 1
             },
-            "startdescription": "An occult society dedicated to the study of the five Histories and their thousand demi-real branches.",
+            "startdescription": "Uma sociedade oculta dedicada ao estudo das cinco Histórias e dos seus mil ramos de demência reais.",
             "linked": [
                 {
                     "id": "cultfoundation_reason",
@@ -1015,7 +1015,7 @@
         },
         {
             "id": "cultfoundationwinter",
-            "label": "Establish the Children of Silence ",
+            "label": "Estabeleça os filhos de silêncio ",
             "actionid": "establishcult",
             "requirements": {
                 "winter": 1
@@ -1023,7 +1023,7 @@
             "effects": {
                 "cultwinter_1": 1
             },
-            "startdescription": "An occult society dedicated to the silence that comes and the cold that ends.",
+            "startdescription": "Uma sociedade oculta dedicada ao silêncio que vem e ao frio que acaba.",
             "linked": [
                 {
                     "id": "cultfoundation_reason",
@@ -1033,7 +1033,7 @@
         },
         {
             "id": "cultfoundationwinter.prealzabo",
-            "label": "Establish the Towers of the Dove",
+            "label": "Estabeleça as torres da pomba",
             "actionid": "establishcult",
             "requirements": {
                 "prealzabo": 1
@@ -1041,7 +1041,7 @@
             "effects": {
                 "cultwinter_2": 1
             },
-            "startdescription": "An occult society dedicated to all that has been lost, and what may yet return.",
+            "startdescription": "Uma sociedade oculta dedicada a tudo o que se perdeu e o que ainda pode voltar.",
             "linked": [
                 {
                     "id": "cultfoundation_reason",
@@ -1051,7 +1051,7 @@
         },
         {
             "id": "cultfoundationwinter.alzabo",
-            "label": "Establish the Towers of the Dove",
+            "label": "Estabeleça as torres da pomba",
             "actionid": "establishcult",
             "requirements": {
                 "alzabo": 1
@@ -1059,7 +1059,7 @@
             "effects": {
                 "cultwinter_2": 1
             },
-            "startdescription": "An occult society dedicated to all that has been lost, and what may yet return.",
+            "startdescription": "Uma sociedade oculta dedicada a tudo o que se perdeu e o que ainda pode voltar.",
             "linked": [
                 {
                     "id": "cultfoundation_reason",
@@ -1069,7 +1069,7 @@
         },
         {
             "id": "cultfoundation_health",
-            "label": "A Sacrifice of Pain",
+            "label": "Um Sacrifício de Dor",
             "actionid": "establishcult",
             "requirements": {
                 "injury": -1
@@ -1077,18 +1077,18 @@
             "slots": [
                 {
                     "id": "Health",
-                    "label": "My Health",
+                    "label": "Minha Saúde",
                     "required": {
                         "health": 1
                     },
-                    "description": "I must give of myself to honour the power we will serve."
+                    "description": "Tenho de me dar para honrar o poder que iremos servir."
                 }
             ],
             "aspects": {
                 "damagehealth": 1
             },
             "warmup": 30,
-            "startdescription": "The Hour we will serve requires pain. I must give of myself.",
+            "startdescription": "A Hora que cumprimos exigirá dor. Tenho de me preocupar.",
             "description": "",
             "linked": [
                 {
@@ -1107,7 +1107,7 @@
         },
         {
             "id": "cultfoundation_fatigue",
-            "label": "A Sacrifice of Pain",
+            "label": "Um Sacrifício de Dor",
             "requirements": {
                 "fatigue": 1
             },
@@ -1125,7 +1125,7 @@
         },
         {
             "id": "cultfoundation_reason",
-            "label": "A Terrible Clarity",
+            "label": "Uma Claridade Terrível",
             "actionid": "establishcult",
             "requirements": {
                 "concentration": -1
@@ -1133,18 +1133,18 @@
             "slots": [
                 {
                     "id": "Reason",
-                    "label": "My Reason",
+                    "label": "Meu Motivo",
                     "required": {
                         "reason": 1
                     },
-                    "description": "I must give of myself to honour the power we will serve."
+                    "description": "Tenho de me dar para honrar o poder que iremos servir."
                 }
             ],
             "aspects": {
                 "fatiguing": 1
             },
             "warmup": 30,
-            "startdescription": "Our purpose demands we recognise truths that chill the spirit. I must give of myself.",
+            "startdescription": "A nossa finalidade exige que reconheçamos verdades que acalmam o espírito, e devo dar a mim próprio.",
             "description": "",
             "linked": [
                 {
@@ -1159,7 +1159,7 @@
         },
         {
             "id": "cultfoundation_passion",
-            "label": "A Pledge of Devotion",
+            "label": "Um Compromisso de Devoção",
             "actionid": "establishcult",
             "requirements": {
                 "passionexhausted": -1
@@ -1167,18 +1167,18 @@
             "slots": [
                 {
                     "id": "Passion",
-                    "label": "My Passion",
+                    "label": "Minha paixão",
                     "required": {
                         "passion": 1
                     },
-                    "description": "I must give of myself to honour the power we will serve."
+                    "description": "Tenho de me dar para honrar o poder que iremos servir."
                 }
             ],
             "aspects": {
                 "fatiguing": 1
             },
             "warmup": 30,
-            "startdescription": "The Hour we will serve demands that our passions are devoted to its purpose. I must give of myself.",
+            "startdescription": "A Hora que vamos servir exigências que nossas paixões se dedicam ao seu propósito. Tenho de me oferecer.",
             "description": "",
             "linked": [
                 {
@@ -1193,7 +1193,7 @@
         },
         {
             "id": "cultfoundation_firstrecruit",
-            "label": "My First Recruit",
+            "label": "Meu Primeiro Recrutamento",
             "actionid": "establishcult",
             "requirements": {
                 "follower": -1
@@ -1201,7 +1201,7 @@
             "slots": [
                 {
                     "id": "Recruit",
-                    "label": "My First Recruit",
+                    "label": "Meu Primeiro Recrutamento",
                     "required": {
                         "acquaintance": 1
                     },
@@ -1212,11 +1212,11 @@
                         "patron": 1,
                         "hireling": 1
                     },
-                    "description": "One who is ready."
+                    "description": "Aquele que está pronto."
                 }
             ],
             "warmup": 30,
-            "startdescription": "A cult with one member is only an unusual habit. I must have a recruit.",
+            "startdescription": "O culto com um membro é apenas um hábito incomum. Eu preciso ter um recruta.",
             "aspects": {
                 "recruiting": 1
             },
@@ -1233,12 +1233,12 @@
         },
         {
             "id": "cultfoundation_complete",
-            "label": "OUR RISE BEGINS.",
+            "label": "NOSSO RISCO COMEÇAR.",
             "actionid": "establishcult",
             "effects": {
                 "hq.temporary": 1
             },
-            "description": "I have founded my cult. This is a step to greater power. [Use your cult to recruit and promote followers. Talk with followers about your cult to send them out on cult business.]"
+            "description": "Fundi meu culto. Isso é um passo para aumentar o poder. [Use seu culto para recrutar e promover seguidores. Converse com seguidores sobre o seu culto para enviá-los para sequestro.]"
         }
     ]
 }

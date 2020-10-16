@@ -3,13 +3,13 @@
         {
             "id": "dehoris1latin",
             "unique": true,
-            "label": "De Horis (Book 1)",
+            "label": "De Horis (Livro 1)",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "In Latin. A nineteenth-century reprint (by the indefatigable Nathaniel Darcy-Evers) of a fourteenth-century Latin translation of a fourth-century work.",
+            "description": "Em latim. Uma reformulação do século XIX (pela incansável Nathaniel Darcy-Evers) de uma tradução latina do século XIV de um trabalho do século XIV.",
             "xtriggers": {
                 "scholarlatin": "dehoris1"
             }
@@ -23,7 +23,7 @@
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "In Latin. A nineteenth-century reprint (by the indefatigable Nathaniel Darcy-Evers) of a fourteenth-century Latin translation of a fourth-century work.",
+            "description": "Em latim. Uma reformulação do século XIX (pela incansável Nathaniel Darcy-Evers) de uma tradução latina do século XIV de um trabalho do século XIV.",
             "xtriggers": {
                 "scholarlatin": "dehoris2"
             }
@@ -37,7 +37,7 @@
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "In Latin. An eighteenth-century epic poem by the pseudonymous 'Solipsistos'.",
+            "description": "Em latim. Um poema épico do século XVIII por um pseudônimo de 'Solipsisos'.",
             "xtriggers": {
                 "scholarlatin": "debellismurorum"
             }
@@ -45,13 +45,13 @@
         {
             "id": "onwhatiscontainedbysilvergreek",
             "unique": true,
-            "label": "On What Is Contained By Silver",
+            "label": "No que é Contido por Prata",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
                 "textgreek": 1
             },
-            "description": "A bestiary by 'Poemander'. In Greek.",
+            "description": "Um bestiário por 'Poemander'. Em grego.",
             "xtriggers": {
                 "scholargreek": "onwhatiscontainedbysilver"
             }
@@ -59,13 +59,13 @@
         {
             "id": "truecompleteasclepiangreek",
             "unique": true,
-            "label": "A True and Complete Accounting of the Asclepian Mysteries of the Roots of the House",
+            "label": "Uma Contabilidade Verdadeira e Completa dos Mistérios Asclepianos das Rootas da Casa",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
                 "textgreek": 1
             },
-            "description": "Reproduced by one 'Rylee Grese' from - supposedly - a much older text. In Greek.",
+            "description": "Reproduzido por um 'Rylee Grese' de - supostamente - um texto muito mais antigo. Em grego.",
             "xtriggers": {
                 "scholargreek": "truecompleteasclepian"
             }
@@ -73,13 +73,13 @@
         {
             "id": "orchidtransfigurations1latin",
             "unique": true,
-            "label": "The Orchid Transfigurations, Vol 1",
+            "label": "As transfigurações Orquídeas, Vol 1",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "A sixteenth-century alchemical fever-dream, attributed to Robert Fludd, frequently banned for the disturbing allure of its illustrations. This is in the original Latin.",
+            "description": "Um sonho de febre alquímica do século XVI, atribuído a Robert Fludd, frequentemente banido pelo perturbador encanto de suas ilustrações. Isso é no latim original.",
             "xtriggers": {
                 "scholarlatin": "orchidtransfigurations1"
             }
@@ -87,13 +87,13 @@
         {
             "id": "orchidtransfigurations2latin",
             "unique": true,
-            "label": "The Orchid Transfigurations, Vol 2",
+            "label": "As transfigurações Orquídeas, Vol 2",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "A sixteenth-century alchemical fever-dream, attributed to Robert Fludd, frequently banned for the disturbing allure of its illustrations. This is in the original Latin.",
+            "description": "Um sonho de febre alquímica do século XVI, atribuído a Robert Fludd, frequentemente banido pelo perturbador encanto de suas ilustrações. Isso é no latim original.",
             "xtriggers": {
                 "scholarlatin": "orchidtransfigurations2"
             }
@@ -101,13 +101,13 @@
         {
             "id": "orchidtransfigurations3latin",
             "unique": true,
-            "label": "The Orchid Transfigurations, Vol 3",
+            "label": "As transfigurações Orquídeas, Vol 3",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "A sixteenth-century alchemical fever-dream, attributed to Robert Fludd, frequently banned for the disturbing allure of its illustrations. This is in the original Latin.",
+            "description": "Um sonho de febre alquímica do século XVI, atribuído a Robert Fludd, frequentemente banido pelo perturbador encanto de suas ilustrações. Isso é no latim original.",
             "xtriggers": {
                 "scholarlatin": "orchidtransfigurations3"
             }
@@ -115,7 +115,7 @@
         {
             "id": "geminiadfucine",
             "unique": true,
-            "label": "The Geminiad",
+            "label": "A Geminiada",
             "aspects": {
                 "knock": 2,
                 "tool": 1,
@@ -126,18 +126,18 @@
             "xtriggers": {
                 "scholarfucine": "geminiad"
             },
-            "description": "A fragile manuscript, illuminated with twinned shapes of sad and luminous beauty, and with all the phases of the moon. It might be as old as the seventh century, but the language - Fucine - is much older. Coral decorates its cover, and its page-edges are sharp enough to slash a throat."
+            "description": "Um manuscrito frágil, iluminado com formas geminadas de beleza triste e luminosa, e com todas as fases da lua. Pode ser tão velho quanto o século, mas a língua - Fucine - é muito mais velha. Coral decora sua capa, e suas bordas de página são afiadas o suficiente para cortar a garganta."
         },
         {
             "id": "textbookfucinelatin",
             "unique": true,
-            "label": "The Ciphered Journal of Alessandro LaCroce",
+            "label": "O Jornal Ciphered de Alessandro LaCroce",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "Prince Alessandro LaCroce spent years in secret study of the tablets taken from the Fucine Marshes in central Italy. His work will allow you to read Fucine texts... but it's written in a simple Latin cipher. You'll need to decipher it first.",
+            "description": "O príncipe Alessandro LaCroce passou anos a estudar em segredo os comprimidos retirados dos Marés Fucina, na Itália Central. O trabalho dele permitirá que você leia textos Fucinos... mas está escrito em uma simples cifra latina. Você precisará decifrá-la primeiro.",
             "xtriggers": {
                 "scholarlatin": "textbookfucine"
             }
@@ -145,13 +145,13 @@
         {
             "id": "textbookphrygiangreek",
             "unique": true,
-            "label": "The Velshorn Inscriptions",
+            "label": "As Inscrições do Velho",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
                 "textgreek": 1
             },
-            "description": "Hundreds of matching lines in Greek and Phrygian poetry, copied from a wall. Similar - or identical - to the inscriptions Cal Velshorn discovered in Halicarnassus. [If you speak Greek, you can use this as a key to Phrygian.]",
+            "description": "Centenas de linhas de correspondência na poesia grega e Phrygian, copiadas de uma parede. Semelhante - ou idêntica - às inscrições Cal Velshorn descobertas em Halicarnassus. [Se falar grego, você pode usar isso como uma chave para o Phrygian.]",
             "xtriggers": {
                 "scholargreek": "textbookphrygian"
             }
@@ -159,13 +159,13 @@
         {
             "id": "textbookmandaicaramaic",
             "unique": true,
-            "label": "The August Stone",
+            "label": "Pedra de Agosto",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
                 "textaramaic": 1
             },
-            "description": "A tremendous bowl, big as a gong, carved from black basalt, with matching incantations in Aramaic and Mandaic. [If you speak Aramaic, you can use this as a key to Mandaic.]",
+            "description": "Uma tigela formidável, grande como um bronzeado, esculpida de basal negro, com encantamentos combinados em Aramaico e Mandaica. [Se você fala Aramaico, você pode usar isto como uma chave para o Mandaic.]",
             "xtriggers": {
                 "scholararamaic": "textbookmandaic"
             }
@@ -173,13 +173,13 @@
         {
             "id": "textbookvaksanskrit",
             "unique": true,
-            "label": "An Enigmatic Sculpture",
+            "label": "Uma Escultura Enigmática",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
                 "textsanskrit": 1
             },
-            "description": "An elaborate ivory sculpture of impossible intricacy. Around and across its surfaces, Sanskrit inscriptions spiral against matching lines of Vak. [If you speak Sanskrit, you can use this to learn Vak, the first language of the world.]",
+            "description": "Uma escultura elaborada de marfim de intrusão impossível. Ao redor e através de suas superfícies, Sanskrit inscrições espirais contra linhas combinadas de Vak. [Se você fala Sanskrit, você pode usá-lo para aprender Vak, a primeira língua do mundo.]",
             "xtriggers": {
                 "scholarsanskrit": "textbookvak"
             }
@@ -187,13 +187,13 @@
         {
             "id": "irreproachabletraditionssocietynobleendeavourlatin",
             "unique": true,
-            "label": "The Irreproachable Traditions...",
+            "label": "As Tradições Irrepreensíveis...",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textlatin": 1
             },
-            "description": "The Irreproachable Traditions of the Society of the Noble Endeavour. In Latin.",
+            "description": "As Tradições Irrepreensíveis da Sociedade dos Esforços Nobres. Em latim.",
             "xtriggers": {
                 "scholarlatin": "irreproachabletraditionssocietynobleendeavour"
             }
@@ -201,13 +201,13 @@
         {
             "id": "roseofnurielgreek",
             "unique": true,
-            "label": "The Rose of Nuriel",
+            "label": "A Rosa de Nuriel",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textgreek": 1
             },
-            "description": "Marked with the tripled sign of the arcane-contemplative order known as the Sisterhood of the Knot. In Greek.",
+            "description": "Marcado com o sinal triplo da ordem arcana contemplativa conhecida como a Irmandade do Knot. Em grego.",
             "xtriggers": {
                 "scholargreek": "roseofnuriel"
             }
@@ -215,13 +215,13 @@
         {
             "id": "roseofhypatiagreek",
             "unique": true,
-            "label": "The Rose of Hypatia",
+            "label": "A Rosa da Hypatia",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textgreek": 1
             },
-            "description": "Marked with the tripled sign of the arcane-contemplative order known as the Sisterhood of the Knot. In Greek.",
+            "description": "Marcado com o sinal triplo da ordem arcana contemplativa conhecida como a Irmandade do Knot. Em grego.",
             "xtriggers": {
                 "scholargreek": "roseofhypatia"
             }
@@ -229,13 +229,13 @@
         {
             "id": "roseofwazneigreek",
             "unique": true,
-            "label": "The Rose of Waznei",
+            "label": "A Rosa de Waznei",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textgreek": 1
             },
-            "description": "Marked with the tripled sign of the arcane-contemplative order known as the Sisterhood of the Knot... but a fourth leaf has been added, disfiguring the sign. In Greek.",
+            "description": "Marcado com o sinal triplo da ordem arcana contemplativa conhecida como a Irmandade do Knot. Mas foi acrescentada uma quarta folha, desfigurando o sinal. Em grego.",
             "xtriggers": {
                 "scholargreek": "roseofwaznei"
             }
@@ -243,13 +243,13 @@
         {
             "id": "sunsetpassageslatin",
             "unique": true,
-            "label": "Sunset Passages",
+            "label": "Passagens Pôr-do-Sol",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textlatin": 1
             },
-            "description": "A holy text of the Church of the Unconquered Sun, which in many histories was driven underground. In Latin.",
+            "description": "Um texto sagrado da Igreja do Sol Inconquistado, que em muitas histórias foi conduzido no subsolo. Em latim.",
             "xtriggers": {
                 "scholarlatin": "sunsetpassages"
             }
@@ -257,13 +257,13 @@
         {
             "id": "gospelzacchaeusgreek",
             "unique": true,
-            "label": "The Gospel of Zacchaeus",
+            "label": "O Evangelho do Zacaeus",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textgreek": 1
             },
-            "description": "A lost early Christian text? It's in Greek.",
+            "description": "Um texto cristão perdido cedo? Está em grego.",
             "xtriggers": {
                 "scholargreek": "gospelzacchaeus"
             }
@@ -271,13 +271,13 @@
         {
             "id": "matthiasamethystlossaramaic",
             "unique": true,
-            "label": "On Matthias and the Amethyst Imago: Loss",
+            "label": "Em Matthias e na imagem de Ametista: Perda",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textaramaic": 1
             },
-            "description": "The diagrams and illustrations, even across the centuries, are elegant, hypnotic, occasionally erotic. In Aramaic.",
+            "description": "Os diagramas e ilustrações, mesmo ao longo dos séculos, são elegantes, hipnoticiosas, ocasionalmente eróticas. Em Aramaico.",
             "xtriggers": {
                 "scholararamaic": "matthiasamethystloss"
             }
@@ -285,13 +285,13 @@
         {
             "id": "matthiasamethysttransformationaramaic",
             "unique": true,
-            "label": "On Matthias and the Amethyst Imago: Transformation",
+            "label": "Em Matthias e na imagem de Ametista: Transformação",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textaramaic": 1
             },
-            "description": "The diagrams and illustrations, even across the centuries, are elegant, hypnotic, occasionally erotic. In Aramaic.",
+            "description": "Os diagramas e ilustrações, mesmo ao longo dos séculos, são elegantes, hipnoticiosas, ocasionalmente eróticas. Em Aramaico.",
             "xtriggers": {
                 "scholararamaic": "matthiasamethysttransformation"
             }
@@ -299,13 +299,13 @@
         {
             "id": "matthiasamethystpursuitaramaic",
             "unique": true,
-            "label": "On Matthias and the Amethyst Imago: Pursuit",
+            "label": "Em Matthias e na imagem de Ametista: Perseguição",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textaramaic": 1
             },
-            "description": "The diagrams and illustrations, even across the centuries, are elegant, hypnotic, occasionally erotic. In Aramaic.",
+            "description": "Os diagramas e ilustrações, mesmo ao longo dos séculos, são elegantes, hipnoticiosas, ocasionalmente eróticas. Em Aramaico.",
             "xtriggers": {
                 "scholararamaic": "matthiasamethystpursuit"
             }
@@ -313,13 +313,13 @@
         {
             "id": "franklinbancroftdiarieslatin",
             "unique": true,
-            "label": "Lord Franklin Bancroft: Diaries, 1750-1790",
+            "label": "Lorde Franklin Bancroft: Diários, 1750-1790",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textlatin": 1
             },
-            "description": "The notorious journal of a notorious gentleman, written in Latin, no doubt for the sake of safety.",
+            "description": "O famoso jornal de um famoso cavalheiro, escrito em latim, sem dúvida por razões de segurança.",
             "xtriggers": {
                 "scholarlatin": "franklinbancroftdiaries"
             }
@@ -327,13 +327,13 @@
         {
             "id": "indignitiesobliviatelatin",
             "unique": true,
-            "label": "Those Indignities Perpetrated By the Deceitful Fraternity of Obliviates",
+            "label": "Essas indignidades perfuradas pela fraternidade decrescente de esquecimentos",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textlatin": 1
             },
-            "description": "This book is as famous for the near-incoherent fury of its tone, as for the knowledge it contains. In Latin.",
+            "description": "Este livro é tão famoso pela fúria quase incoerente de seu tom, quanto pelo conhecimento que contém. Em latim.",
             "xtriggers": {
                 "scholarlatin": "indignitiesobliviate"
             }
@@ -341,13 +341,13 @@
         {
             "id": "furioustantrasanskrit",
             "unique": true,
-            "label": "The Furious Tantra",
+            "label": "O Tantra Furioso",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "As later transcribed by the medium and pyrotechnician Jacob Oliver Topp-Mugglestone. Tradition has it that he found it seared in the bark of an oak by lightning.",
+            "description": "Mais tarde, transcrito pelo médio-técnico de Jacob Oliver Topp-Mugglestone. Diz a tradição que ele encontrou na casca de um carvalho por um raio.",
             "xtriggers": {
                 "scholarsanskrit": "furioustantra"
             }
@@ -355,13 +355,13 @@
         {
             "id": "devouredtantrasanskrit",
             "unique": true,
-            "label": "The Devoured Tantra",
+            "label": "O Tantra Envidado",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "The diplomat-priest Stanislav John Schaller transcribed this from the library of a Red Long, but his manuscript remains in a private collection in Kerisham.",
+            "description": "O sacerdote diplomata Stanislav John Schaller transcreveu isso da biblioteca de um Longo Vermelho, mas o seu manuscrito permanece numa coleção privada de Kerisham.",
             "xtriggers": {
                 "scholarsanskrit": "devouredtantra"
             }
@@ -369,13 +369,13 @@
         {
             "id": "ceaselesstantrasanskrit",
             "unique": true,
-            "label": "The Ceaseless Tantra",
+            "label": "O Tantra sem César",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "The avant-garde choreographer Nicholas Keirle supposedly incorporated this tantra into his menacing ballets.",
+            "description": "O archoreógrafo avante-garde, Nicholas Keirle, supostamente, incorporou este tantra nos seus ameaçadores escrutínios.",
             "xtriggers": {
                 "scholarsanskrit": "ceaselesstantra"
             }
@@ -383,13 +383,13 @@
         {
             "id": "knownunknowntantrasanskrit",
             "unique": true,
-            "label": "The Known-Unknown Tantra",
+            "label": "O Tantra Desconhecido",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "Carlos Garcia Sauri, the ecstatic mystic of the Pyrenees, was known to recite this in three languages, though he had never visited the Subcontinent.",
+            "description": "Carlos Garcia Sauri, a mística ecestática dos Pirinéus, era conhecido por recitar isto em três línguas, embora nunca tivesse visitado o Subcontinente.",
             "xtriggers": {
                 "scholarsanskrit": "knownunknowntantra"
             }
@@ -397,13 +397,13 @@
         {
             "id": "encirclingtantrasanskrit",
             "unique": true,
-            "label": "The Encircling Tantra",
+            "label": "O Tantra Encirante",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "The explorer and entrepreneur T. Everett Duplantis once attempted to plunder the temple where this text was held. His fate is recorded in an appendix.",
+            "description": "O explorador e o empreendedor T. Everett Duplantis tentaram saquear o templo onde este texto foi detido. O destino dele está registrado num apêndice.",
             "xtriggers": {
                 "scholarsanskrit": "encirclingtantra"
             }
@@ -411,13 +411,13 @@
         {
             "id": "shavenlocktantrasanskrit",
             "unique": true,
-            "label": "The Shaven Lock Tantra",
+            "label": "Tantra da Trava Forja",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "Also known as 'The One Who Has Shaven His Hair'. This, the story goes, is the lore that even the shapechanging Vanaras rejected.",
+            "description": "Também conhecido como 'The One Quem Shaven His Cabe?, esta história é a história que até mesmo as formas de Vanaras rejeitaram.",
             "xtriggers": {
                 "scholarsanskrit": "shavenlocktantra"
             }
@@ -425,13 +425,13 @@
         {
             "id": "tantrawormssanskrit",
             "unique": true,
-            "label": "The Tantra of Worms",
+            "label": "O Tantra de Vermes",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "The entomologist Juliana Zawistowski eventually came to insist that this text was written by insects inhabiting a human skin. She never presented evidence for her claim.",
+            "description": "O entomólogo Juliana Zawistowski acabou por insistir que este texto foi escrito por insetos que habitavam uma pele humana. Nunca apresentou provas da sua alegação.",
             "xtriggers": {
                 "scholarsanskrit": "tantraworms"
             }
@@ -439,13 +439,13 @@
         {
             "id": "bookofcentipedegreek",
             "unique": true,
-            "label": "The Book of the Centipede",
+            "label": "O Livro do Centipede",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textgreek": 1
             },
-            "description": "In the mid 1860s one 'Madam Yi' presented an entertainment based, she claimed, on this book.",
+            "description": "No meio da década de 1860, uma \"Sra. Yi\" apresentava um entretenimento com base neste livro.",
             "xtriggers": {
                 "scholargreek": "bookofcentipede"
             }
@@ -453,13 +453,13 @@
         {
             "id": "accountkanishkspidersdooraramaic",
             "unique": true,
-            "label": "The Account of Kanishk at the Spider's Door",
+            "label": "O Contrato de Kanishk na Porta das Aranhas",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textaramaic": 1
             },
-            "description": "Lok Kahuli, Kanishk's victim and lover, wrote this account, perhaps posthumously.",
+            "description": "A vítima e amante de Lok Kahuli, Kanishk, escreveu esta conta, talvez póstumamente.",
             "xtriggers": {
                 "scholararamaic": "accountkanishkspidersdoor"
             }
@@ -467,13 +467,13 @@
         {
             "id": "vinzantinscriptionsphrygian",
             "unique": true,
-            "label": "The Vinzant Inscriptions",
+            "label": "As Incrições de Vinzant",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textphrygian": 1
             },
-            "description": "Everett Vinzant transcribed these Phrygian incriptions from a cliff in Anatolia, where he famously survived a lightning-strike. He died seven years later to the day. His bones, the legend has it, were hot to the touch.",
+            "description": "Everett Vinzant transcreveu estas incriminações Phrygian de um penhasco na Anatólia, onde ele sobreviveu famosamente a um ataque elétrico. Ele morreu sete anos depois até o dia. Seus ossos, a lenda diz, estavam quentes ao toque.",
             "xtriggers": {
                 "scholarphrygian": "vinzantinscriptions"
             }
@@ -481,13 +481,13 @@
         {
             "id": "larquebinecodexphrygian",
             "unique": true,
-            "label": "The Larquebine Codex",
+            "label": "O Códice Larquebine",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textphrygian": 1
             },
-            "description": "Christoph Larquebus claimed to have purchased two hand-written copies of the Codex, in the supposedly-extinct Phrygian tongue, from a family of witches on the shores of the Sea of Marmara. A third was 'given to the Sea'.",
+            "description": "Christoph Larquebus afirmou ter comprado duas cópias manualmente escritas do Codex, na língua Phrygian supostamente extinta, de uma família de bruxas nas costas do mar de Marmara. Um terço era \"dado ao Mar\".",
             "xtriggers": {
                 "scholarphrygian": "larquebinecodex"
             }
@@ -495,13 +495,13 @@
         {
             "id": "againstsisterhoodknotgreek",
             "unique": true,
-            "label": "Against the Sisterhood of the Knot and...",
+            "label": "Contra a Irmandade do Knot e...",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textgreek": 1
             },
-            "description": "'Against the Sisterhood of the Knot and the Foulness of their Depraved Customs'. Hieronymus Pseudo-Hypnerotomachus wrote this furious screed about the sinister influence of the Sisterhood on his own Church of the Unconquered Sun.",
+            "description": "(EN) \"Contra a Irmandade dos Knot e a Foulness dos seus Alfândegas Depreciadas\". Hieronymus Pseudo-Hypnerotomachus escreveu este furioso grito sobre a influência sinistra da Irmandade na sua própria Igreja do Sol Inconquistado.",
             "xtriggers": {
                 "scholargreek": "againstsisterhoodknot"
             }
@@ -509,13 +509,13 @@
         {
             "id": "morphycodexaramaic",
             "unique": true,
-            "label": "The Morphy Codex",
+            "label": "O Códice Morphy",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textaramaic": 1
             },
-            "description": "A text of the Sisterhood of the Knot, unearthed by Evan Morphy.",
+            "description": "Um texto da Irmandade do Knot, desenterrado por Evan Morphy.",
             "xtriggers": {
                 "scholararamaic": "morphycodex"
             }
@@ -523,13 +523,13 @@
         {
             "id": "leoninetantrasanskrit",
             "unique": true,
-            "label": "The Leonine Tantra",
+            "label": "O Leonine Tantra",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "In the most notorious translation of the Leonine Tantra, Ashley Phillips is listed as the translator, but their existence is explicitly denied in the prologue. This confusion is characteristic of books which mention the Great Hooded Princes.",
+            "description": "Na mais notória tradução do Leonine Tantra, Ashley Phillips está listado como tradutor, mas a sua existência é explicitamente negada no prólogo. Esta confusão é característica dos livros que fazem referência aos Grandes Princípios Hooted.",
             "xtriggers": {
                 "scholarsanskrit": "leoninetantra"
             }
@@ -537,13 +537,13 @@
         {
             "id": "incandescenttantrasanskrit",
             "unique": true,
-            "label": "The Incandescent Tantra",
+            "label": "O Tantra Incandescente",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "Michael Blockley, the eccentric iron magnate, was fond of quoting from this tantra. Blockley died in a factory fire.",
+            "description": "Michael Blockley, o excêntrico magata de ferro, gostava de citar este tantra. Blockley morreu em um incêndio de fábrica.",
             "xtriggers": {
                 "scholarsanskrit": "incandescenttantra"
             }
@@ -551,13 +551,13 @@
         {
             "id": "thirstingtantrasanskrit",
             "unique": true,
-            "label": "The Thirsting Tantra",
+            "label": "A Sede de Tantra",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "C.G. Burial, the temperance campaigner, published elements of this in a pamphlet, which had to be withdrawn and destroyed after it became too popular.",
+            "description": "C.G. Burial, o lutador de temperamento, publicou elementos disso em um panfleto, que teve de ser retirado e destruído após se tornar muito popular.",
             "xtriggers": {
                 "scholarsanskrit": "thirstingtantra"
             }
@@ -565,13 +565,13 @@
         {
             "id": "flayedtantrasanskrit",
             "unique": true,
-            "label": "The Flayed Tantra",
+            "label": "O Tantra Matado",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "This Tantra is recorded as being spoken by an enigmatic individual identified as 'Peel', with many of the qualities of the mythological naga. The Flayed Tantra played a notable part in Alexander Sparrow's paranoid pamphleteering.",
+            "description": "Este tantra é registado como sendo falado por um indivíduo enigmático identificado como \"Peel\", com muitas das qualidades da naga mitológica. A Flayed Tantra desempenhou um papel notável na panfleta paranóica de Alexander Sparrow.",
             "xtriggers": {
                 "scholarsanskrit": "flayedtantra"
             }
@@ -579,13 +579,13 @@
         {
             "id": "watchfultantrasanskrit",
             "unique": true,
-            "label": "The Watchful Tantra",
+            "label": "O Tantra Vigilante",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "Notorious for its involvement in the deaths of Dafyd Jones and Meredith Blaine, two early physicists who each claimed to have the only copy and who ultimately fought a duel over it in 1840.",
+            "description": "Notória pelo seu envolvimento na morte de Dafyd Jones e Meredith Blaine, dois físicos iniciais que cada um alegava ter o único exemplar e que acabaram por lutar com um duelo em 1840.",
             "xtriggers": {
                 "scholarsanskrit": "watchfultantra"
             }
@@ -593,13 +593,13 @@
         {
             "id": "twinserpenttantrasanskrit",
             "unique": true,
-            "label": "The Twin-Serpent Tantra",
+            "label": "O Twin-Serpente Tantra",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "A tantra shrouded in particular obscurity.",
+            "description": "Um tantra envolto em particular obscurecimento.",
             "xtriggers": {
                 "scholarsanskrit": "twinserpenttantra"
             }
@@ -607,13 +607,13 @@
         {
             "id": "firecircletantrasanskrit",
             "unique": true,
-            "label": "The Fire-Circle Tantra",
+            "label": "O Círculo de Fogo Tantra",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textsanskrit": 1
             },
-            "description": "The one known extant copy of this in Western Europe was stolen from the British Library in 1892. One Harvey Hattington confessed to the crime and claimed to have eaten it, with butter and garlic, in a moment of ungovernable whimsy.",
+            "description": "Na Europa Ocidental, a antiga cópia foi roubada da Biblioteca Britânica em 1892. Um Harvey Hattington confessou o crime e afirmou tê-lo comido com manteiga e alho, num momento de capricho ingovernável.",
             "xtriggers": {
                 "scholarsanskrit": "firecircletantra"
             }
@@ -621,13 +621,13 @@
         {
             "id": "asthesunhiscoursearamaic",
             "unique": true,
-            "label": "As The Sun His Course",
+            "label": "Como o Sol Seu Curso",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textaramaic": 1
             },
-            "description": "Joel of the Bridge, a retired soldier and sometime tollkeeper, wrote this epic poem about Alexander's famously inexplicable decision at Issus to withdraw from the war with the Achaemenids, and his subsequent return to Macedonia.",
+            "description": "Joel da Ponte, soldado aposentado e portador de portões, escreveu este poema épico sobre a famosa inexplicável decisão de Alexandre em emissão de se retirar da guerra com os Aquemenitas e o seu subsequente regresso à Macedónia.",
             "xtriggers": {
                 "scholararamaic": "asthesunhiscourse"
             }
@@ -635,13 +635,13 @@
         {
             "id": "concursumdiariesphrygian",
             "unique": true,
-            "label": "The Concursum Diaries",
+            "label": "Os Diários de Concurso",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textphrygian": 1
             },
-            "description": "The diaries of the explorer and murderer Lars Westergren. He's unhelpfully translated them into Phrygian, for privacy.",
+            "description": "Os diários do explorador e assassino Lars Westergren. Ele os traduziu indevidamente para Phrygian, por privacidade.",
             "xtriggers": {
                 "scholarphrygian": "concursumdiaries"
             }
@@ -649,13 +649,13 @@
         {
             "id": "ironbookfucine",
             "unique": true,
-            "label": "The Iron Book",
+            "label": "O Livro de Ferro",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textfucine": 1
             },
-            "description": "A manual of the Ordo Limiae, an order of quasi-immortals who maintained a secret enclave at the source of the river Limia, in the Roman province of Hispania Gallaecia.",
+            "description": "Um manual do Ordo Limiae, uma ordem de quase-imortais que mantinha um enclave secreto na origem do rio Limia, na província romana de Hispânia Gallaecia.",
             "xtriggers": {
                 "scholarfucine": "ironbook"
             }
@@ -663,13 +663,13 @@
         {
             "id": "silverbookfucine",
             "unique": true,
-            "label": "The Silver Book",
+            "label": "O Livro de Prata",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textfucine": 1
             },
-            "description": "A manual of the Ordo Limiae, an order of quasi-immortals who maintained a secret enclave at the source of the river Limia, in the Roman province of Hispania Gallaecia.",
+            "description": "Um manual do Ordo Limiae, uma ordem de quase-imortais que mantinha um enclave secreto na origem do rio Limia, na província romana de Hispânia Gallaecia.",
             "xtriggers": {
                 "scholarfucine": "silverbook"
             }
@@ -677,13 +677,13 @@
         {
             "id": "ivorybookfucine",
             "unique": true,
-            "label": "The Ivory Book",
+            "label": "O Livro de Marfim",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textfucine": 1
             },
-            "description": "A manual of the Ordo Limiae, an order of quasi-immortals who maintained a secret enclave at the source of the river Limia, in the Roman province of Hispania Gallaecia.",
+            "description": "Um manual do Ordo Limiae, uma ordem de quase-imortais que mantinha um enclave secreto na origem do rio Limia, na província romana de Hispânia Gallaecia.",
             "xtriggers": {
                 "scholarfucine": "ivorybook"
             }
@@ -691,13 +691,13 @@
         {
             "id": "worlddoesnotweeparamaic",
             "unique": true,
-            "label": "The World Does Not Weep",
+            "label": "O mundo não pesa",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textaramaic": 1
             },
-            "description": "'Brown' Joshua found this in a well in Hamath. There's an unlikely story that it was abandoned by Alexander during his retreat from Issus.",
+            "description": "Joshua 'Brown' encontrou isso num poço no Hamas. Há uma história improvável de que foi abandonada por Alexander durante a sua retirada de problemas.",
             "xtriggers": {
                 "scholararamaic": "worlddoesnotweep"
             }
@@ -705,13 +705,13 @@
         {
             "id": "deedsofthescarredcaptaingreek",
             "unique": true,
-            "label": "The Deeds of the Scarred Captain",
+            "label": "As Deeds do Capitão Cicatriz",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textgreek": 1
             },
-            "description": "Painstakingly assembled by the soldier of fortune and sometime remittance man, Pavel Shulga, during his years in Greece.",
+            "description": "Foi dolorosamente reunido pelo soldado da fortuna e do homem das remessas, Pavel Shulga, durante os seus anos na Grécia.",
             "xtriggers": {
                 "scholargreek": "deedsofthescarredcaptain"
             }
@@ -719,13 +719,13 @@
         {
             "id": "bookofdissolutionmandaic",
             "unique": true,
-            "label": "The Book of Dissolution",
+            "label": "O Livro da Dissolução",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textmandaic": 1
             },
-            "description": "Alexander Probst, following the foundational work of Hosty Moor, recovered a copy of this work from a mountain-temple in Persia. Other copies surface now and then, usually seared on rock.",
+            "description": "Alexander Probst, seguindo o trabalho fundamental da Hosty Moor, recuperou uma cópia deste trabalho de um templo de montanha na Pérsia. Outras cópias são superficiais de vez em quando, geralmente gravadas em rocha.",
             "xtriggers": {
                 "scholarmandaic": "bookofdissolution"
             }
@@ -733,13 +733,13 @@
         {
             "id": "catalogueofunchartedpleasuresphrygian",
             "unique": true,
-            "label": "A Catalogue of Uncharted Pleasures",
+            "label": "Um catálogo de Pleasures Inexplorados",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textphrygian": 1
             },
-            "description": "'The Dark Gentleman' is the only, and rather grandiosely, identified author of this often-copied work.",
+            "description": "O \"Senhor Negro Gentleman\" é o único, e bastante grandioso, autor deste trabalho muitas vezes copiado.",
             "xtriggers": {
                 "scholarphrygian": "catalogueofunchartedpleasures"
             }
@@ -747,13 +747,13 @@
         {
             "id": "thosewhodonotsleepfucine",
             "unique": true,
-            "label": "Those Who Do Not Sleep",
+            "label": "Aqueles que não dormem",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textfucine": 1
             },
-            "description": "A Fucine text attributed to the mystic, Brodnax.",
+            "description": "Um texto de fundição atribuído ao místico Brodnax.",
             "xtriggers": {
                 "scholarfucine": "thosewhodonotsleep"
             }
@@ -761,13 +761,13 @@
         {
             "id": "theskythesoularamaic",
             "unique": true,
-            "label": "The Sky, the Soul",
+            "label": "O Céu, a Alma",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textaramaic": 1
             },
-            "description": "The grand labour of Kalle, an ascetic poet writing at the court of the Shadowless Kings.",
+            "description": "O grande trabalho de Kalle, um poeta assético escrevendo na corte dos Reis sem Sombra.",
             "xtriggers": {
                 "scholararamaic": "theskythesoul"
             }
@@ -775,13 +775,13 @@
         {
             "id": "onthematterandthedeedsofserpentsvak",
             "unique": true,
-            "label": "On the Matter and the Deeds of Serpents",
+            "label": "Na matéria e nas noções de serpentes",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textvak": 1
             },
-            "description": "This was probably the 'Prophecies of the Naga' rendered into English, and illustrated, by 'William Midnight' in Paris in the 1880s; but it shows a number of divergences from that text. It's certainly quite recent by the standards of Vak texts.",
+            "description": "Esta foi provavelmente a \"Profecias de Naga\" transformada em inglês e ilustrada por \"William Midnight\" em Paris, em 1880; mas mostra uma série de divergências em relação a esse texto. É certamente bastante recente pelas normas dos textos de Vak.",
             "xtriggers": {
                 "scholarvak": "onthematterandthedeedsofserpents"
             }
@@ -789,13 +789,13 @@
         {
             "id": "serenityofblackwoodgreek",
             "unique": true,
-            "label": "The Serenity of the Black Wood",
+            "label": "A Serenidade da Madeira Negra",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textgreek": 1
             },
-            "description": "An allegorical history of the House of Lethe, who it is here implied were inspired by the Centipede. 'Sereno Blackwood' is an occult alias to this day.",
+            "description": "Uma história alegórica da Câmara de Lethe, que está aqui implícita, foi inspirada pelo Centipede. Sereno Blackwood\" é um apelido oculto até hoje.",
             "xtriggers": {
                 "scholargreek": "serenityofblackwood"
             }
@@ -803,13 +803,13 @@
         {
             "id": "bookofthronesphrygian",
             "unique": true,
-            "label": "The Book of Thrones",
+            "label": "O Livro dos Tronos",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textphrygian": 1
             },
-            "description": "A legend of the Shadowless Empire, transcribed by Alexander Peterhans from annals at a secret shrine in Anatolia.",
+            "description": "Uma lenda do Império sem sombra, transcrito por Alexander Peterhans de anais de um santuário secreto na Anatólia.",
             "xtriggers": {
                 "scholarphrygian": "bookofthrones"
             }
@@ -817,13 +817,13 @@
         {
             "id": "secondglorymandaic",
             "unique": true,
-            "label": "A Second Glory",
+            "label": "Uma Segunda Glória",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textmandaic": 1
             },
-            "description": "A work by Juceh, the priest and hermit scholar.",
+            "description": "Um trabalho de Juceh, o padre e herdeiro académico.",
             "xtriggers": {
                 "scholarmandaic": "secondglory"
             }
@@ -831,13 +831,13 @@
         {
             "id": "bookoftruebloodlatin",
             "unique": true,
-            "label": "Book of True Blood",
+            "label": "Livro do Verdadeiro Sangue",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textlatin": 1
             },
-            "description": "A work by Cassius the Thoman.",
+            "description": "Um trabalho de Cassius, o Thoman.",
             "xtriggers": {
                 "scholarlatin": "bookoftrueblood"
             }
@@ -845,13 +845,13 @@
         {
             "id": "burningwomanphrygian",
             "unique": true,
-            "label": "The Burning Woman",
+            "label": "A mulher em chamas",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textphrygian": 1
             },
-            "description": "A transcription of the play by Menander the Victor, possibly the dramatist of that name, into Phrygian, with commentaries.",
+            "description": "Uma transcrição da peça de Menander do vitorioso, possivelmente o dramatista desse nome, em Phrygian, com comentários.",
             "xtriggers": {
                 "scholarphrygian": "burningwoman"
             }
@@ -859,13 +859,13 @@
         {
             "id": "twentysixenticementsseventormentsfucine",
             "unique": true,
-            "label": "Twenty-Six Enticements, Seven Torments",
+            "label": "Vinte e seis adesões, sete Tormentos",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textfucine": 1
             },
-            "description": "The painter Niels Frederik Malskær, notoriously, attempted a series of paintings based on the Torments. By the Fifth Torment, the demands of the painting had grown so dire that he died of blood loss. The diagrams in this text are thankfully less detailed.",
+            "description": "O pintor Niels Frederik Malskær, notoriamente, tentou uma série de pinturas com base na Torments. No Quinto Tormento, as exigências do quadro cresceram de tal forma que ele morreu de perda de sangue. Os diagramas contidos neste texto são felizmente menos pormenorizados.",
             "xtriggers": {
                 "scholarfucine": "twentysixenticementsseventorments"
             }
@@ -873,13 +873,13 @@
         {
             "id": "historyofshadowlesskingsaramaic",
             "unique": true,
-            "label": "A True and Accurate History of the Shadowless Kings",
+            "label": "Um verdadeiro e preciso histórico dos sombrios reis",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textaramaic": 1
             },
-            "description": "Isaac of Karth's history of the Shadowless Empire.",
+            "description": "Isaac da história de Karth's do Império sem sombra.",
             "xtriggers": {
                 "scholararamaic": "historyofshadowlesskings"
             }
@@ -887,13 +887,13 @@
         {
             "id": "highmysterieschurchsolarfucine",
             "unique": true,
-            "label": "The High Mysteries of the Innermost...",
+            "label": "Os Altos Mistérios da Mesquita...",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textfucine": 1
             },
-            "description": "'The High Mysteries of the Innermost Chamber of our Church Solar'. Secret rites of the Church of the Unconquered Sun, which held power in at least two Histories.",
+            "description": "(EN) \"Os Mistérios Altos da Câmara mais Interna do nosso Solar da Igreja\". Graus Secretos da Igreja do Sol Inconquistado, que ocupavam o poder em pelo menos duas Histórias.",
             "xtriggers": {
                 "scholarfucine": "highmysterieschurchsolar"
             }
@@ -901,13 +901,13 @@
         {
             "id": "medusaslamentgreek",
             "unique": true,
-            "label": "Medusa's Lament",
+            "label": "Lamento da Medusa",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textgreek": 1
             },
-            "description": "On the death of the Hour called Seven-Coils, 'the Father of the Mother'.",
+            "description": "Na morte da Hora denominada Sete Coils, \"o Pai da Mãe\".",
             "xtriggers": {
                 "scholargreek": "medusaslament"
             }
@@ -915,13 +915,13 @@
         {
             "id": "bookofmasksphrygian",
             "unique": true,
-            "label": "The Book of Masks",
+            "label": "O Livro das Máscaras",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textphrygian": 1
             },
-            "description": "Athena Vana's work on the rogue Hour called the Vagabond.",
+            "description": "O trabalho de Athena Vana na Hora Inicial chamada de Vagabond.",
             "xtriggers": {
                 "scholarphrygian": "bookofmasks"
             }
@@ -929,13 +929,13 @@
         {
             "id": "inthemountainsasupontheplainvak",
             "unique": true,
-            "label": "In The Mountains As Upon The Plain...",
+            "label": "Nas Montanhas Como Nas Plantas...",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textvak": 1
             },
-            "description": "'In The Mountains As Upon The Plain There May Not Be A Path Where None Has Passed.' A work by Ninegala of Lagash.",
+            "description": "'Nas Montanhas Como Na Planície Pode Não Ser Um Caminho Onde Nenhum Foi Aprovado.' Um Trabalho de Ninegala de Lagash.",
             "xtriggers": {
                 "scholarvak": "inthemountainsasupontheplain"
             }
@@ -943,13 +943,13 @@
         {
             "id": "memoryofgodsfucine",
             "unique": true,
-            "label": "In Memory of Gods",
+            "label": "Na memória dos Deuses",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textfucine": 1
             },
-            "description": "A work by 'the Barrowchild', a nameless Gaulish adept who joined an organisation known as the Ordo Limiae.",
+            "description": "Um trabalho de \"Barrowchild\", um adepto Gaulish sem nome que se juntou a uma organização conhecida como Ordo Limiae.",
             "xtriggers": {
                 "scholarfucine": "memoryofgods"
             }
@@ -957,13 +957,13 @@
         {
             "id": "sevenfoldslayingsevencoiledfucine",
             "unique": true,
-            "label": "The Sevenfold Slaying of the Seven-Coiled",
+            "label": "A Sete Abissal da Sete Cavada",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textfucine": 1
             },
-            "description": "An account of the destruction of a primaeval Hour, a god-who-was-Stone.",
+            "description": "Um relato da destruição de um Hour primaeval, um deus who-was-Stone.",
             "xtriggers": {
                 "scholarfucine": "sevenfoldslayingsevencoiled"
             }
@@ -971,13 +971,13 @@
         {
             "id": "bighufffucine",
             "unique": true,
-            "label": "My Deeds, My Powers, My Achievements...",
+            "label": "Minhas ações, meus poderes, minhas conquistas...",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textfucine": 1
             },
-            "description": "'My Deeds, My Powers, My Achievements and the Injustices Perpetrated Against Me'",
+            "description": "'Minhas atividades, meus poderes, minhas conquistas e as injustiças perpétuas contra mim'",
             "xtriggers": {
                 "scholarfucine": "bighuff"
             }
@@ -985,13 +985,13 @@
         {
             "id": "dreamconspiracyskiesphrygian",
             "unique": true,
-            "label": "The Dream of the Conspiracy of the Lower Skies",
+            "label": "O Sonho da Conspiração dos Céus Inferiores",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textphrygian": 1
             },
-            "description": "Siftings of the disgraced oracle Damaon Azenaten.",
+            "description": "Presenteamentos do infeliz oráculo Damaon Azenaten.",
             "xtriggers": {
                 "scholarphrygian": "dreamconspiracyskies"
             }
@@ -999,13 +999,13 @@
         {
             "id": "bookwhitecatphrygian",
             "unique": true,
-            "label": "The Book of the White Cat",
+            "label": "O Livro do Gato Branco",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textphrygian": 1
             },
-            "description": "Stories brought to Penelope of Gordion by a blind white cat.",
+            "description": "Histórias trazidas para Penélope de Gordion por um gato branco cego.",
             "xtriggers": {
                 "scholarphrygian": "bookwhitecat"
             }
@@ -1013,13 +1013,13 @@
         {
             "id": "focusambermandaic",
             "unique": true,
-            "label": "The Focus of Amber",
+            "label": "O Foco do Âmbar",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textmandaic": 1
             },
-            "description": "The penance-work of Omar, the Blaze.",
+            "description": "A obra de Omar, o Blaze.",
             "xtriggers": {
                 "scholarmandaic": "focusamber"
             }
@@ -1027,13 +1027,13 @@
         {
             "id": "songscarapacecrossmandaic",
             "unique": true,
-            "label": "The Songs of the Carapace Cross",
+            "label": "As músicas da Cruz de Carapaça",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textmandaic": 1
             },
-            "description": "Micah Xi's often-destroyed work.",
+            "description": "O trabalho frequentemente destruído de Micah Xi.",
             "xtriggers": {
                 "scholarmandaic": "songscarapacecross"
             }
@@ -1041,13 +1041,13 @@
         {
             "id": "originsofhoursvak",
             "unique": true,
-            "label": "The Origins of Hours",
+            "label": "As origens das horas",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textvak": 1
             },
-            "description": "A Vak work that may contain gossip about the various origins of the secret gods.",
+            "description": "Um trabalho de Vak que pode conter fofocas sobre as várias origens dos deuses secretos.",
             "xtriggers": {
                 "scholarvak": "originsofhours"
             }
@@ -1055,13 +1055,13 @@
         {
             "id": "wherehasshegonevak",
             "unique": true,
-            "label": "Where Has She Gone?",
+            "label": "Para onde ela foi?",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textvak": 1
             },
-            "description": "A discussion in Vak of the Vagabond's travels.",
+            "description": "Uma discussão em Vak das viagens do Vagabond.",
             "xtriggers": {
                 "scholarvak": "wherehasshegone"
             }
@@ -1069,13 +1069,13 @@
         {
             "id": "bookextinguishedheartmandaic",
             "unique": true,
-            "label": "The Book of the Extinguished Heart",
+            "label": "O Livro do Coração Extinto",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textmandaic": 1
             },
-            "description": "A book of melancholy prophecy.",
+            "description": "Um livro de profecia melancólica.",
             "xtriggers": {
                 "scholarmandaic": "bookextinguishedheart"
             }
@@ -1083,13 +1083,13 @@
         {
             "id": "howendwillbeginvak",
             "unique": true,
-            "label": "How the End will Begin",
+            "label": "Como o The End começará",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textvak": 1
             },
-            "description": "A book of bleak prophecy.",
+            "description": "Um livro de profecia sombria.",
             "xtriggers": {
                 "scholarvak": "howendwillbegin"
             }
@@ -1097,13 +1097,13 @@
         {
             "id": "manneralchemistsparedvak",
             "unique": true,
-            "label": "The Manner in which the Alchemist was Spared",
+            "label": "O Manner em que o Alquimista foi poupado",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textvak": 1
             },
-            "description": "A quasi-alchemical text, in Vak.",
+            "description": "Um texto quase-alquímico, em Vak.",
             "xtriggers": {
                 "scholarvak": "manneralchemistspared"
             }
@@ -1111,13 +1111,13 @@
         {
             "id": "fivecreationsvak",
             "unique": true,
-            "label": "Five Creations",
+            "label": "Cinco Criações",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textvak": 1
             },
-            "description": "The itinerant scholar Shohei debated five possible origins for humanity with a hooded figure since claimed to be the Beach-Crow. Shohei later claimed that all these accounts had proven false, but the debate was, nevertheless, recorded.",
+            "description": "O estudioso itinerante Shohei debateu cinco possíveis origens para a humanidade com uma figura coberta desde então declarada ser a Beach-Crow. Posteriormente, Shohei afirmou que todas estas contas se tinham revelado falsas, mas o debate foi, no entanto, registado.",
             "xtriggers": {
                 "scholarvak": "fivecreations"
             }
@@ -1125,13 +1125,13 @@
         {
             "id": "commandspreservationallexistsmandaic",
             "unique": true,
-            "label": "Commandments For the Preservation...",
+            "label": "Comandos da Reserva...",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textmandaic": 1
             },
-            "description": "'Commandments For the Preservation of All That Exists'. Black Elie, Damascene Matriarch of the Sisterhood of the Knot, was imprisoned by the emperor Didius Julianus. She reportedly instructed that these secret doctrines be recorded in writing to preserve against their loss. Regrettably, the story goes, Didius Julianus ordered that the work be entombed with her in an unmarked sepulcher.",
+            "description": "'Comandos para a Preservação de Todos Que Existentes'. A Elie Negra, a Matriarca de Damascensão da Irmandade do Knot, foi detida pelo imperador Didius Julianus. Dizia ela instruiu que essas doutrinas secretas eram gravadas por escrito para preservar contra sua perda. Lamentavelmente, a história vai, Didius Julianus ordenou que o trabalho fosse articulado com ela num sepulcrão sem marca.",
             "xtriggers": {
                 "scholarmandaic": "commandspreservationallexists"
             }
@@ -1139,13 +1139,13 @@
         {
             "id": "timedivisionmandaic",
             "unique": true,
-            "label": "The Time of Division",
+            "label": "O Hora da Divisão",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textmandaic": 1
             },
-            "description": "In which Amira Zahra prophesies the events later known as the Intercalate, when the Hour called Sun-in-Splendour will be divided.",
+            "description": "Em que Amira Zahra profetiza os eventos mais tarde conhecidos como Intercalate, quando a Hora do Sol no Esplendor será dividida.",
             "xtriggers": {
                 "scholarmandaic": "timedivision"
             }
@@ -1153,13 +1153,13 @@
         {
             "id": "manualdeparturevak",
             "unique": true,
-            "label": "A Manual for Departure",
+            "label": "Um manual para a partida",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textvak": 1
             },
-            "description": "The author, who identifies itself as the Jekadu, claims to be one of the Great Hooded Princes of the Land of the River.",
+            "description": "O autor, que se identifica como o Jekadu, afirma ser uma das Grandes Princesas Hooded da Terra do rio.",
             "xtriggers": {
                 "scholarvak": "manualdeparture"
             }
@@ -1173,7 +1173,7 @@
                 "auctionable": 2,
                 "textphrygian": 1
             },
-            "description": "In which four enigmatic figures tell the stories they've heard over the years at the Roost, the secret location where the aviform Hours congregate.",
+            "description": "Em que quatro figuras enigmáticas contam as histórias que ouviram ao longo dos anos no Roost, o local secreto onde as aves Horas congregam.",
             "xtriggers": {
                 "scholarphrygian": "birdsong"
             }
@@ -1181,13 +1181,13 @@
         {
             "id": "voyagesfofucine",
             "unique": true,
-            "label": "The Voyages of Ferninshun of Oreol",
+            "label": "As Vozes de Ferninshun de Oreol",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textfucine": 1
             },
-            "description": "The impossible travels of a sea-captain of the late Phoenician era. Suppressed throughout recorded history: those who read it were said to disappear.",
+            "description": "As viagens impossíveis de um capitão do mar da última era feniciana. Suprimiu ao longo da história registada: alegadamente aqueles que leram o acidente desapareceram.",
             "xtriggers": {
                 "scholarfucine": "voyagesfo"
             }
@@ -1195,13 +1195,13 @@
         {
             "id": "scarskyfucine",
             "unique": true,
-            "label": "The Scar in the Sky",
+            "label": "O Cicatriz no Céu",
             "aspects": {
                 "text": 1,
                 "auctionable": 2,
                 "textfucine": 1
             },
-            "description": "Nyn wrote this, and came to regret it.",
+            "description": "Nyn escreveu isto e acabou por lamentá-lo.",
             "xtriggers": {
                 "scholarfucine": "scarsky"
             }

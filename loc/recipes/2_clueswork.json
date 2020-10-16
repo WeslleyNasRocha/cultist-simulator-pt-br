@@ -3,8 +3,8 @@
         {
             "id": "work.apostleforge.majorvictory.hint5",
             "actionid": "work",
-            "label": "The Last Pieces of the Great Work?",
-            "startdescription": "We have the Core, its fuel, the Compass, the Key, the Mysteries of Opening. Now we require only the season of the Forge's most furious incandescence.",
+            "label": "As últimas peças do grande trabalho?",
+            "startdescription": "Temos o núcleo, seu combustível, o Compass, a Chave, os Mistérios de Abertura. Agora só precisamos da estação da incandescência mais furiosa da Forja.",
             "requirements": {
                 "apostleforge.pillar2": 1,
                 "apostleforge.pillar3": 1,
@@ -20,8 +20,8 @@
         {
             "id": "work.apostleforge.majorvictory.hint4",
             "actionid": "work",
-            "label": "The Last Pieces of the Great Work?",
-            "startdescription": "We have the Core, its fuel, the Compass, the Key. Even all these will not be enough. We must prepare the way for our Shaper with the Mysteries of Opening. ",
+            "label": "As últimas peças do grande trabalho?",
+            "startdescription": "Temos o núcleo, o combustível, a Compasse, a chave, mesmo que tudo isso não seja suficiente. Temos de preparar o caminho para o nosso Shaper com os Mistérios da Abertura. ",
             "requirements": {
                 "apostleforge.pillar2": 1,
                 "apostleforge.pillar3": 1,
@@ -36,8 +36,8 @@
         {
             "id": "work.apostleforge.majorvictory.hint3",
             "actionid": "work",
-            "label": "The Last Pieces of the Great Work?",
-            "startdescription": "We have the Core, its fuel, the Compass. We still need the Biting Key.",
+            "label": "As últimas peças do grande trabalho?",
+            "startdescription": "Temos a Núcleo, seu combustível, a Compasse. Ainda precisamos da Chave de Bônus.",
             "requirements": {
                 "apostleforge.pillar2": 1,
                 "apostleforge.pillar3": 1,
@@ -51,8 +51,8 @@
         {
             "id": "work.apostleforge.majorvictory.hint2",
             "actionid": "work",
-            "label": "The Last Pieces of the Great Work?",
-            "startdescription": "We have the Core and its fuel. We need our blinded Compass, to find the flaw in the world.",
+            "label": "As últimas peças do grande trabalho?",
+            "startdescription": "Temos o Núcleo e seu combustível. Precisamos de nossas bússolas cegas, para encontrar as falhas no mundo.",
             "requirements": {
                 "apostleforge.pillar2": 1,
                 "apostleforge.pillar3": 1
@@ -65,8 +65,8 @@
         {
             "id": "work.apostleforge.majorvictory.hint1",
             "actionid": "work",
-            "label": "The Last Pieces of the Great Work?",
-            "startdescription": "We have the Core: we must have blue gold to feed it.",
+            "label": "As últimas peças do grande trabalho?",
+            "startdescription": "Temos o Coreia: temos de ter ouro azul para o alimentar.",
             "requirements": {
                 "apostleforge.pillar2": 1
             },
@@ -78,8 +78,8 @@
         {
             "id": "work.apostlelantern.majorvictory.hint5",
             "actionid": "work",
-            "label": "The Gate Opens Outwards?",
-            "startdescription": "We need our noble guest's co-operation.",
+            "label": "O Portão Abre Outwards?",
+            "startdescription": "Precisamos da nossa nobre cooperação de convidados.",
             "requirements": {
                 "apostlelantern.pillar3": 1,
                 "apostlelantern.pillar4": 1,
@@ -93,8 +93,8 @@
         {
             "id": "work.apostlelantern.majorvictory.hint4",
             "actionid": "work",
-            "label": "The Gate Opens Outwards?",
-            "startdescription": "The Gate will not open Outwards without its unlawed Key.",
+            "label": "O Portão Abre Outwards?",
+            "startdescription": "O Portão não abrirá para o exterior sem a sua chave ilegítima.",
             "requirements": {
                 "apostlelantern.pillar3": 1,
                 "apostlelantern.pillar4": 1,
@@ -107,8 +107,8 @@
         {
             "id": "work.apostlelantern.majorvictory.hint3",
             "actionid": "work",
-            "label": "The Gate Opens Outwards?",
-            "startdescription": "We'll need a Watchman's Glass for our Illuminated One to enact the utmost illumination.",
+            "label": "O Portão Abre Outwards?",
+            "startdescription": "Precisaremos de um Vidro do Watchman para nossa Iluminação Illuminada para promulgar a maior iluminação.",
             "requirements": {
                 "apostlelantern.pillar3": 1,
                 "apostlelantern.pillar4": 1,
@@ -120,8 +120,8 @@
         {
             "id": "work.apostlelantern.majorvictory.hint2",
             "actionid": "work",
-            "label": "The Gate Opens Outwards?",
-            "startdescription": "Centipede always knows the way. We'll need her secrets.",
+            "label": "O Portão Abre Outwards?",
+            "startdescription": "Centipede sempre sabe o caminho. Nós precisaremos de seus segredos.",
             "requirements": {
                 "apostlelantern.pillar3": 1,
                 "apostlelantern.pillar4": 1,
@@ -132,8 +132,8 @@
         {
             "id": "work.apostlelantern.majorvictory.hint1",
             "actionid": "work",
-            "label": "The Gate Opens Outwards?",
-            "startdescription": "The Watchman's Eye was opened, not in the usual way, but with a knife. We will need what it bled.",
+            "label": "O Portão Abre Outwards?",
+            "startdescription": "O Olho do Watchman estava aberto, não da maneira habitual, mas com uma faca. Precisamos do que sangrou.",
             "requirements": {
                 "apostlelantern.pillar3": 1,
                 "apostlelantern.pillar4": 1
@@ -143,8 +143,8 @@
         {
             "id": "work.apostlelantern.majorvictory.hint0",
             "actionid": "work",
-            "label": "The Gate Opens Outwards?",
-            "startdescription": "Certainly the Gate might open without Witnesses, but without Witnesses to be illuminated, how can we fulfil the Watchman's enactment? The Watchman is not compassionate.",
+            "label": "O Portão Abre Outwards?",
+            "startdescription": "Certamente que o Portão poderia abrir sem testemunhas, mas sem as testemunhas para serem iluminadas, como podemos cumprir a aprovação do Observador? O Observador não é compaixão?",
             "requirements": {
                 "apostlelantern.pillar3": 1
             },
@@ -153,8 +153,8 @@
         {
             "id": "work.apostlegrail.majorvictory.hint5",
             "actionid": "work",
-            "label": "The Last Elements of the Vitulation?",
-            "startdescription": "Our particular spices must be particularly prepared. All else is ready.",
+            "label": "Os últimos elementos da vitulação?",
+            "startdescription": "As nossas especiarias têm de estar particularmente preparadas, e tudo o resto está pronto.",
             "requirements": {
                 "fragmentheartg": 1,
                 "influencegrailg": 1,
@@ -168,8 +168,8 @@
         {
             "id": "work.apostlegrail.majorvictory.hint4",
             "actionid": "work",
-            "label": "The Last Elements of the Vitulation?",
-            "startdescription": "Without the Unceasing Mysteries, the Vitulation will not reach the intensity we require.",
+            "label": "Os últimos elementos da vitulação?",
+            "startdescription": "Sem os Mistérios Descessantes, a Vitulação não atingirá a intensidade que exigimos.",
             "requirements": {
                 "influencegrailg": 1,
                 "apostlegrail.pillar2": 1,
@@ -182,8 +182,8 @@
         {
             "id": "work.apostlegrail.majorvictory.hint3",
             "actionid": "work",
-            "label": "The Last Elements of the Vitulation?",
-            "startdescription": "We need the most powerful Grail influence we can muster.",
+            "label": "Os últimos elementos da vitulação?",
+            "startdescription": "Precisamos da mais poderosa influência de Grail que possamos reunir.",
             "requirements": {
                 "apostlegrail.pillar2": 1,
                 "apostlegrail.pillar3": 1,
@@ -195,8 +195,8 @@
         {
             "id": "work.apostlegrail.majorvictory.hint2",
             "actionid": "work",
-            "label": "The Last Elements of the Vitulation?",
-            "startdescription": "No Vitulation would be a Vitulation without the Chalice Murmurous.",
+            "label": "Os últimos elementos da vitulação?",
+            "startdescription": "Nenhuma vitulação seria uma Vitulação sem o Murmurous do Cáspio.",
             "requirements": {
                 "apostlegrail.pillar2": 1,
                 "apostlegrail.pillar3": 1,
@@ -207,8 +207,8 @@
         {
             "id": "work.apostlegrail.majorvictory.hint1",
             "actionid": "work",
-            "label": "The Last Elements of the Vitulation?",
-            "startdescription": "We cannot begin the Vitulation without sufficient guests. Our Delight cannot go hungry.",
+            "label": "Os últimos elementos da vitulação?",
+            "startdescription": "Não podemos começar a Vitulação sem convidados suficientes. Nosso prazer não pode passar fome.",
             "requirements": {
                 "apostlegrail.pillar2": 1,
                 "apostlegrail.pillar3": 1
@@ -218,8 +218,8 @@
         {
             "id": "work.apostlegrail.majorvictory.hint0",
             "actionid": "work",
-            "label": "The Last Elements of the Vitulation?",
-            "startdescription": "We cannot begin the Vitulation without the correct flavouring, for myself and for the others of the Host.",
+            "label": "Os últimos elementos da vitulação?",
+            "startdescription": "Não podemos dar início à Vitulação sem o aroma correcto, para mim e para os outros do Host.",
             "requirements": {
                 "apostlegrail.pillar2": 1
             },
@@ -227,58 +227,58 @@
         },
         {
             "id": "workbenefactorhint",
-            "label": "Private Performances?",
+            "label": "Desempenho Privado?",
             "actionid": "work",
             "requirements": {
                 "benefactor": 1
             },
-            "startdescription": "To satisfy my benefactor, I'll need to exert my abilities, and ensure I look my best. That always has a cost.",
+            "startdescription": "Para satisfazer minha benfeitora, precisarei exercer minhas habilidades e garantir que procurarei meu melhor. Isso sempre tem um custo.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "workfundshint",
-            "label": "Money",
+            "label": "Dinheiro",
             "actionid": "work",
             "requirements": {
                 "funds": 1
             },
-            "startdescription": "This does nothing; but perhaps I might eventually find another way to invest my funds in my future. If I have a future.",
+            "startdescription": "Isso não faz nada; mas talvez eu possa encontrar outra maneira de investir os meus fundos no meu futuro. Se tiver um futuro.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "skillhealthhintwork",
-            "label": "Health",
+            "label": "Vida",
             "actionid": "work",
             "requirements": {
                 "healthskill": 1,
                 "job": -1
             },
-            "startdescription": "I have grown strong, but I must still devote my Health to a day's work.",
+            "startdescription": "Tenho-me tornado forte, mas ainda tenho de dedicar minha Saúde ao trabalho de um dia.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "vitalityhintwork",
-            "label": "Vitality",
+            "label": "Vitalidade",
             "actionid": "work",
             "requirements": {
                 "vitality": 1
             },
-            "startdescription": "This isn't a matter for work; but I could Study it to increase my Health.",
+            "startdescription": "Isto não é um assunto para trabalhar; mas eu poderia estudá-lo para aumentar minha Saúde.",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on work primary slot"
         },
         {
             "id": "eruditionhintwork",
-            "label": "Erudition",
+            "label": "Erudição",
             "actionid": "work",
             "requirements": {
                 "erudition": 1
             },
-            "startdescription": "This isn't a matter for work; but I could Study it to increase my Reason.",
+            "startdescription": "Isso não é um assunto para funcionar; mas eu poderia estudá-lo para aumentar meu Reason.",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on work primary slot"
@@ -290,73 +290,73 @@
             "requirements": {
                 "glimmering": 1
             },
-            "startdescription": "This isn't a matter for work; but I could Study it to increase my Passion.",
+            "startdescription": "Isso não é um assunto para trabalhar; mas eu poderia estudá-lo para aumentar minha Passion.",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on work primary slot"
         },
         {
             "id": "contentmenthintwork",
-            "label": "Contentment",
+            "label": "Conteúdo",
             "actionid": "work",
             "requirements": {
                 "contentment": 1
             },
-            "startdescription": "One cannot earn a living by being happy. But happiness may be something to cling to, when the night closes round me.",
+            "startdescription": "Não se pode ganhar a vida sendo feliz. Mas a felicidade pode ser algo a se agarrar, quando a noite me fecha.",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on work primary slot"
         },
         {
             "id": "commissionhint_wronglore",
-            "label": "Fulfilling a Commission",
+            "label": "Cumprir uma Comissão",
             "actionid": "work",
             "requirements": {
                 "commission": 1,
                 "lore": 1
             },
-            "startdescription": "I need the right Lore, and I need to dedicate my abilities to the work. [The Commission description will remind you what Lore you need.]",
+            "startdescription": "Preciso do Lore, e preciso dedicar as minhas habilidades ao trabalho. [A descrição da Comissão lembrará o que você precisa.]",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "commissionhint",
-            "label": "Fulfilling a Commission?",
+            "label": "Cumprir uma Comissão?",
             "actionid": "work",
             "requirements": {
                 "commission": 1
             },
-            "startdescription": "If I use Work with the right Lore fragment, I can create a manuscript to fulfil this Commission. I'll need to Talk to my Patron about this Commission when it's finished.",
+            "startdescription": "Se eu usar o trabalho com o fragmento do Ar Lunar, posso criar um manuscrito para cumprir esta Comissão. Precisarei falar com o meu Patrono sobre essa Comissão quando ela terminar.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "minorforgevictory_hint_sixth",
-            "label": "The Seventh Mark?",
+            "label": "O Sétimo Marco?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
                 "powermarks": 6
             },
             "effects": {},
-            "startdescription": "The Seventh Mark is the Conflagration of the Heart. I am close: close as the flame is to the candle. I will need all the power of the Forge I can muster, to at least the thirty-sixth degree of intensity.",
+            "startdescription": "O Sétimo Marco é a violação do Coração, e estou para terminar: feche a chama para a vela. Vou precisar de todo o poder da Forja que posso fornecer, pelo menos aos trinta e seis graus de intensidade.",
             "hintonly": true
         },
         {
             "id": "minorforgevictory_hint",
-            "label": "The Seventh Mark?",
+            "label": "O Sétimo Marco?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
                 "powermarks": 1
             },
             "effects": {},
-            "startdescription": "The Seventh Mark is the Conflagration of the Heart. I will first need to achieve the Sixth Mark.",
+            "startdescription": "O Sétimo Marco é a Conflagração do Coração. Primeiro terei de alcançar a Sexta Marca.",
             "hintonly": true
         },
         {
             "id": "minorgrailvictory_hint_sixth_with_romantic",
-            "label": "A quicker way to the Seventh Mark?",
+            "label": "Um caminho mais rápido para o Sétimo Marco?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -364,60 +364,60 @@
                 "romanticinterest": 1
             },
             "effects": {},
-            "startdescription": "The Seventh Mark is the Feast of the True Birth. I am close: close as blood to the heart. I will need more... but the Grail once sacrificed one she had loved, and those sacrifices are precious to her. If I am willing to sacrifice a lover, I will need power to only the twenty-seventh degree of intensity.",
+            "startdescription": "O Sétimo Marca é a Festa do Verdadeiro. Estou perto: perto como sangue ao coração. Vou precisar de mais... mas o Grail uma vez sacrificou aquele que amava, e esses sacrifícios são preciosos para ela. Se estou disposto a sacrificar um amante, precisarei de poder apenas para o vigésimo sétimo grau de intensidade.",
             "hintonly": true
         },
         {
             "id": "minorgrailvictory_hint_sixth",
-            "label": "The Seventh Mark?",
+            "label": "O Sétimo Marco?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
                 "sensationmarks": 6
             },
             "effects": {},
-            "startdescription": "The Seventh Mark is the Feast of the True Birth. I am close: close as blood to the heart. I will need all the power of the Grail I can muster, to at least the thirty-sixth degree of intensity.",
+            "startdescription": "O Sétimo Marca é o Banquete do verdadeiro nascimento. Estou perto: perto do coração. Precisarei de toda a força do Grail que puder, pelo menos aos trinta e seis graus de intensidade.",
             "hintonly": true
         },
         {
             "id": "minorgrailvictory_hint",
-            "label": "The Seventh Mark?",
+            "label": "O Sétimo Marco?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
                 "sensationmarks": 1
             },
             "effects": {},
-            "startdescription": "The Seventh Mark is the Feast of the True Birth. I will first need to achieve the Sixth Mark.",
+            "startdescription": "O Sétimo Marca é o Banquete do Verdadeiro. Primeiro terei de alcançar o Sexto Marco.",
             "hintonly": true
         },
         {
             "id": "minorlanternvictory_hint_sixth",
-            "label": "The Seventh Mark?",
+            "label": "O Sétimo Marco?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
                 "enlightenmentmarks": 6
             },
             "effects": {},
-            "startdescription": "The Seventh Mark is the Incursus. I am close: close as the light to the shadow's edge. I will need all the power of the Lantern I can muster, to at least the thirty-sixth degree of intensity.",
+            "startdescription": "O Sétimo Marca é o Incursus. Estou perto: perto da luz à borda da sombra. Eu vou precisar de todo o poder da Lanterna que eu posso fornecer, pelo menos aos trinta e seis graus de intensidade.",
             "hintonly": true
         },
         {
             "id": "minorlanternvictory_hint",
-            "label": "The Seventh Mark?",
+            "label": "O Sétimo Marco?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
                 "enlightenmentmarks": 1
             },
             "effects": {},
-            "startdescription": "The Seventh Mark is the Incursus. I will first need to achieve the Sixth Mark.",
+            "startdescription": "O Sétimo Marco é o Incursus. Primeiro terei de alcançar a Sexta Marca.",
             "hintonly": true
         },
         {
             "id": "hint_summon_spirit_forgee_edge",
-            "label": "Summon a mighty creature of the Forge of Days?",
+            "label": "Invocar uma poderosa criatura da Forja dos Dias?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -431,13 +431,13 @@
                 "spirit_forgee_edge.defunct": -1,
                 "spirit_forgee_edge.consumed": -1
             },
-            "startdescription": "I've found a useful conjunction of aspects, but I need more. To conjure a thing of fire and Glory, I'll need a great power of Forge; a significant power of Knock; and some Lantern.",
+            "startdescription": "Encontrei uma combinação útil de aspectos, mas preciso de mais. Para conjurar uma coisa de fogo e Glória, precisarei de um grande poder de Forja; um poder significativo de Toc; e um pouco de Lanterna.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_forgee_edge_exists",
-            "label": "King Crucible, again?",
+            "label": "Rei Caldeira, de novo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -449,13 +449,13 @@
             "extantreqs": {
                 "spirit_forgee_edge": 1
             },
-            "startdescription": "Am I considering summoning King Crucible? King Crucible is already in the world.",
+            "startdescription": "Estou pensando em convocar o Rei Caldeiro? O Crisol já está no mundo.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_forgee_edge_dayd",
-            "label": "King Crucible, already?",
+            "label": "O rei cadinho já?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -467,13 +467,13 @@
             "extantreqs": {
                 "spirit_forgee_edge.defunct": 1
             },
-            "startdescription": "Am I considering summoning King Crucible? He's still stoking his fires in the Mansus.",
+            "startdescription": "Estou pensando em convocar o Rei Crucible? Ele ainda está alimentando seus incêndios no Mansus.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_forgee_edge_nom",
-            "label": "King Crucible? Really?",
+            "label": "Rei Crucible? Sério?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -485,13 +485,13 @@
             "extantreqs": {
                 "spirit_forgee_edge.consumed": 1
             },
-            "startdescription": "I consumed King Crucible's cindered remains. He will be wroth with me. It does not to do summon a Name of the Forge who is wroth with you.",
+            "startdescription": "Eu consumi restos inibidos do Rei Crucible. Ele vai roncar comigo. Não se invoca o nome da Forja que está com você.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_graile_edge",
-            "label": "Summon a mighty creature of the Red Grail?",
+            "label": "Invocar uma poderosa criatura do trilho vermelho?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -504,13 +504,13 @@
                 "spirit_graile_edge": -1,
                 "spirit_graile_edge.defunct": -1
             },
-            "startdescription": "I've found a useful conjunction of aspects, but I need more power. To conjure a thing of blood and change, I'll need a great power of Grail; a significant power of Knock; and some Forge.",
+            "startdescription": "Encontrei uma combinação útil de aspectos, mas preciso de mais poder. Para conjurar uma coisa de sangue e mudança, precisarei de um grande poder de Grail; um poder significativo de nock; e uma certa Forja.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_graile_edge_exists",
-            "label": "Ezeem, again?",
+            "label": "Ezeem, de novo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -522,13 +522,13 @@
             "extantreqs": {
                 "spirit_graile_edge": 1
             },
-            "startdescription": "Am I considering summoning Ezeem? Ezeem is already in the world.",
+            "startdescription": "Estou pensando em invocar Ezeu? Ezeem já está no mundo.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_graile_edge_dayd",
-            "label": "Ezeem, already?",
+            "label": "Já é?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -540,13 +540,13 @@
             "extantreqs": {
                 "spirit_graile_edge.defunct": 1
             },
-            "startdescription": "Am I considering summoning Ezeem? Ezeem is still sulking in the Mansus.",
+            "startdescription": "Estou pensando em invocar Ezeu? Ezeem ainda está enxaquecendo nos Mansus.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_lanterne_secret",
-            "label": "Summon something unusual?",
+            "label": "Invocar algo fora do comum?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -559,13 +559,13 @@
                 "spirit_lanterne_secret": -1,
                 "spirit_lanterne_secret.defunct": -1
             },
-            "startdescription": "I've found a useful conjunction of aspects, but I need more power. With enough Lantern, a significant degree of Knock, and a teasing taste of secrets, perhaps I can conjure someone interesting.",
+            "startdescription": "Encontrei uma combinação útil de aspectos, mas preciso de mais poder. Com suficiente Lanterna, um grau significativo de Knock, e um sabor rasgante de segredos, talvez eu possa misturar alguém interessante.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_lanterne_secret_exists",
-            "label": "The Baldomerian, again?",
+            "label": "O Baldomeriano de novo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -577,13 +577,13 @@
             "extantreqs": {
                 "spirit_lanterne_secret": 1
             },
-            "startdescription": "Am I considering summoning the Baldomerian? She's already in the world.",
+            "startdescription": "Estou pensando em convocar o Baldomeriano? Ela já está no mundo.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_lanterne_secret_dayd",
-            "label": "The Baldomerian, already?",
+            "label": "Já é o Baldomeriano?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -595,13 +595,13 @@
             "extantreqs": {
                 "spirit_lanterne_secret.defunct": 1
             },
-            "startdescription": "Am I considering summoning the Baldomerian? She's still resting in the Mansus.",
+            "startdescription": "Estou pensando em convocar o Baldomeriano? Ela ainda está descansando no Mansus.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_forgec_winter",
-            "label": "Summon a creature of the Forge of Days?",
+            "label": "Invocar uma criatura da Forja dos Dias?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -610,13 +610,13 @@
                 "winter": 1,
                 "desire": -1
             },
-            "startdescription": "I've found a useful conjunction of aspects, but I need more power. To call forth this smoky, tricksy entity, I'll need a significant power of Forge, as well as a little Winter and Knock.",
+            "startdescription": "Encontrei uma combinação útil de aspectos, mas preciso de mais poder. Para chamar essa entidade fumaça e complicada, eu vou precisar de um poder significativo de Forge, bem como um pouco de Inverno e Nock.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_grailc_moth",
-            "label": "Summon a creature of the Red Grail?",
+            "label": "Invocar uma criatura do trilho vermelho?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -625,13 +625,13 @@
                 "moth": 1,
                 "desire": -1
             },
-            "startdescription": "I've found a useful conjunction of aspects, but I need more power. To call forth this monstrous, if affectionate, entity, I'll need a significant intensity of Grail, and a little Moth and Knock.",
+            "startdescription": "Encontrei uma combinação útil de aspectos, mas preciso de mais poder. Para chamar essa monstruosidade, se afectuosa, entidade, vou precisar de uma intensidade significativa de Grail, e um pouco de Mariposa e Knock.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_lanternc_edge",
-            "label": "Summon a thing from behind mirrors?",
+            "label": "Invocar uma coisa de trás dos espelhos?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -640,13 +640,13 @@
                 "edge": 1,
                 "desire": -1
             },
-            "startdescription": "I've found a useful conjunction of aspects, but I need more power. To call forth this subtle, fragile, murderous thing, I'll need a significant intensity of Lantern, and a little Knock and Edge.",
+            "startdescription": "Encontrei uma combinação útil de aspectos, mas preciso de mais poder. Para chamar essa coisa subtil, frágil, assassina, vou precisar de uma intensidade significativa de Lanterna, e um pouco de Batida e Borda.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_heartc_edge",
-            "label": "Summon a creature of the Thunderskin?",
+            "label": "Invoca uma criatura do Thunderskin?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -655,13 +655,13 @@
                 "edge": 1,
                 "desire": -1
             },
-            "startdescription": "I've found a useful conjunction of aspects, but I need more power. To call forth this merry, ceaseless, merciless thing, I'll need a significant intensity of Heart, and a little Knock and Edge.",
+            "startdescription": "Encontrei uma combinação útil de aspectos, mas preciso de mais poder. Para chamar essa misericórdia, sem piedade, vou precisar de uma intensidade significativa do Coração, e um pouco de Batida e Borda.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_winterd_edge",
-            "label": "Summon a creature of the Sun-in-Rags?",
+            "label": "Invocar uma criatura do Sol em Rags?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -670,13 +670,13 @@
                 "edge": 1,
                 "desire": -1
             },
-            "startdescription": "I've found a useful conjunction of aspects, but I need more power. To call forth this chilly and shining thing, I'll need a very significant intensity of Winter, and a little Knock and Edge.",
+            "startdescription": "Encontrei uma combinação útil de aspectos, mas preciso de mais poder. Para chamar esta coisa fria e brilhante, eu vou precisar de uma intensidade muito significativa do inverno, e um pouco de Batida e Borda.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_winterb_heart",
-            "label": "Summon one of the throng of the Dead?",
+            "label": "Invocar um dos tronos dos mortos?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -685,39 +685,39 @@
                 "heart": 1,
                 "desire": -1
             },
-            "startdescription": "I've found a useful conjunction of aspects, but I need more power. To call forth this wretched, voiceless thing, I'll need Winter at the fourth intensity, and a little Knock and Heart.",
+            "startdescription": "Encontrei uma combinação útil de aspectos, mas preciso de mais poder. Para chamar essa coisa miserável, sem voz, eu vou precisar de inverno na quarta intensidade, e um pouco de toco e coração.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_renew_spirit_wintera_edge",
-            "label": "Renew a Shattered Risen with the power of the Cartographer of Scars?",
+            "label": "Renovar um ressurgimento Estilhaçado com o poder do Cartógrafo dos Cicres?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
                 "spirit_wintera_edge": 1,
                 "desire": -1
             },
-            "startdescription": "It is harder to maintain a Shattered Risen than it is to raise one. But with enough Winter aspect, and enough Edge, I might keep my Shattered Risen moving. Or I might employ it to summon a greater spirit.",
+            "startdescription": "É mais difícil manter uma explosão quebrada do que criar uma. Mas com o suficiente aspecto de Inverno e bastante aresta eu posso deixar meu ressurgimento em movimento. Ou posso usá-lo para invocar um espírito maior.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_renew_spirit_wintera_moth",
-            "label": "Renew a Burgeoning Risen with the power of the Ring-Yew?",
+            "label": "Renovar um incêndio emergente com o poder do anel para o anel?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
                 "spirit_wintera_moth": 1,
                 "desire": -1
             },
-            "startdescription": "A Burgeoning Risen will not stay contained for long. But with enough Winter aspect, and enough Moth, I might keep my work stable a little longer. Or I might employ it to summon a greater spirit.",
+            "startdescription": "Um incêndio emergente não ficará contido por muito tempo. Mas com o suficiente aspecto de Inverno e a Lua suficiente, posso manter o meu trabalho estável um pouco mais. Ou poderia utilizá-lo para invocar mais espírito.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_wintera_edge",
-            "label": "Infuse a corpse with the power of the Cartographer of Scars?",
+            "label": "Infunda um cadáver com o poder do Cartógrafo de Cicatriz?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -725,13 +725,13 @@
                 "edge": 1,
                 "desire": -1
             },
-            "startdescription": "I've found a useful conjunction of aspects, but I need more. With some Winter aspect, a little Edge, and a Corpse, I might create a brutal servant.",
+            "startdescription": "Encontrei uma combinação útil de aspectos, mas preciso de mais. Com algum aspecto de Inverno, um pouco de aresta e um cadáver, posso criar um servo brutal.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "hint_summon_spirit_wintera_moth",
-            "label": "Infuse a corpse with the power of the Ring-Yew?",
+            "label": "Infunde um cadáver com o poder do Ring-Yew?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -739,15 +739,15 @@
                 "moth": 1,
                 "desire": -1
             },
-            "startdescription": "With some Winter aspect, a little Moth, and a Corpse, I might create a cunning servant.",
+            "startdescription": "Com algum aspecto de inverno, um pouco de lua e um cadáver, eu posso criar um servo astuto.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "work.openscar.hint",
             "actionid": "work",
-            "label": "A Threshold ascension?",
-            "startdescription": "A Threshold ascension requires seven Lock-scars, and Knock aspect to the twenty-fourth intensity.",
+            "label": "Um limite de ascensão?",
+            "startdescription": "Uma ascensão de Limite requer sete Ciclos Lock, e o aspecto Bico é da vinte e quatro intensidades.",
             "requirements": {
                 "ritual": 1,
                 "lockscar": 1,
@@ -760,7 +760,7 @@
         },
         {
             "id": "ritehinthasknockedge",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -774,13 +774,13 @@
                 "secrethistories": -1,
                 "winter": -1
             },
-            "startdescription": "There are possibilities here, if I add Lantern, or Heart, or Winter.",
+            "startdescription": "Há aqui possibilidades, se eu adicionar Lanterna, Coração ou Inverno.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasknockforge",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -794,13 +794,13 @@
                 "secrethistories": -1,
                 "winter": -1
             },
-            "startdescription": "There are possibilities here. If I add Winter, I might contact something smoky; if I add Lantern, I might contact an incandescent power.",
+            "startdescription": "Se eu acrescentar o Inverno, posso contactar uma coisa de fumo; se eu acrescentar o Lanterna, poderei contactar uma força incandescente.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasknockgrail",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -814,13 +814,13 @@
                 "secrethistories": -1,
                 "winter": -1
             },
-            "startdescription": "There are possibilities here. If I add Moth, I might contact something shapeless; if I add Forge, I might contact a seductive, savage power.",
+            "startdescription": "Existem possibilidades aqui. Se eu adicionar a Lua, posso contatar algo sem formato; se eu adicionar Forge, posso contactar um poder sedutor e selvagem.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasknockheart",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -834,13 +834,13 @@
                 "secrethistories": -1,
                 "winter": -1
             },
-            "startdescription": "There are possibilities here. If I add Edge, I might contact something irrepressible; if I add Winter, I might summon up one of the Dead.",
+            "startdescription": "Se acrescentar o Edge, poderei contactar algo de irrepressivo; se acrescentar o Inverno, talvez possa convocar um dos mortos.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasknocklantern",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -854,13 +854,13 @@
                 "secrethistories": -1,
                 "winter": -1
             },
-            "startdescription": "There are possibilities here. If I add Edge, I might bring something out from behind mirrors; if I add Forge, I might contact something incandescent.",
+            "startdescription": "Há aqui possibilidades. Se eu acrescentar o Edge, posso trazer algo de trás para trás dos espelhos; se eu acrescentar a Forge, poderei contatar algo incandescente.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasknockmoth",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -874,13 +874,13 @@
                 "secrethistories": -1,
                 "winter": -1
             },
-            "startdescription": "There are possibilities here. If I add Grail, I might contact something shapeless.",
+            "startdescription": "Existem possibilidades aqui. Se eu adicionar o Grail, posso entrar em contato com algo sem forma.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasknocksecrethistories",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -894,13 +894,13 @@
                 "moth": -1,
                 "winter": -1
             },
-            "startdescription": "There are possibilities here. If I add enough Lantern, who knows what I could attract?",
+            "startdescription": "Há possibilidades aqui. Se eu adicionar suficiente Lanterna, quem sabe o que eu poderia atrair?",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasknockwinter",
-            "label": "Winter",
+            "label": "Inverno",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -914,12 +914,12 @@
                 "moth": -1,
                 "secrethistories": -1
             },
-            "startdescription": "There are possibilities here, if I add Edge, or Heart, or Forge.",
+            "startdescription": "Existem possibilidades aqui, se eu adicionar uma aresta ou um coração, ou Forja.",
             "craftable": false,
             "hintonly": true
         },
         {
-            "label": "Reason's Glory?",
+            "label": "Glória do Reason?",
             "id": "arcane_lantern_edge_hint",
             "requirements": {
                 "ritual": 1,
@@ -929,12 +929,12 @@
                 "edge": 1
             },
             "actionid": "work",
-            "startdescription": "With at least 5 Lantern and 1 Edge, I could use the mystic discipline called Reason's Glory to transform my Passion to Reason.",
+            "startdescription": "Com pelo menos 5 Lanterna e 1 Borda, eu poderia usar a disciplina mística chamada Glória de Reason para transformar minha paixão a Reason.",
             "craftable": false,
             "hintonly": true
         },
         {
-            "label": "Passion's Gyre?",
+            "label": "Ginásio de Passion?",
             "id": "arcane_moth_edge_hint",
             "requirements": {
                 "ritual": 1,
@@ -944,12 +944,12 @@
                 "edge": 1
             },
             "actionid": "work",
-            "startdescription": "With at least 5 Moth and 1 Edge, I could use the ecstatic practice called Passion's Gyre to transform my Reason to Passion.",
+            "startdescription": "Com pelo menos 5 Mariposas e 1 Borda, eu poderia usar a prática ecstática chamada Passion Gyre para transformar minha Reason em Passion.",
             "craftable": false,
             "hintonly": true
         },
         {
-            "label": "Forge's Redemption?",
+            "label": "Resgate do Forge?",
             "id": "arcane_forge_grail_hint",
             "actionid": "work",
             "requirements": {
@@ -959,12 +959,12 @@
                 "forge": 1,
                 "grail": 1
             },
-            "startdescription": "With at least 5 Forge and 1 Grail, I could use the forbidden procedure known as Forge's Redemption to return Decrepitude to Health.",
+            "startdescription": "Com pelo menos 5 Forjas e 1 Grail, poderia usar o procedimento proibido conhecido como Redenção de Forge para devolver Decrepitude à Saúde.",
             "craftable": false,
             "hintonly": true
         },
         {
-            "label": "The End is Beautiful?",
+            "label": "O The End é lindo?",
             "id": "arcane_winter_lantern_hint",
             "actionid": "work",
             "requirements": {
@@ -974,13 +974,13 @@
                 "winter": 1,
                 "lantern": 1
             },
-            "startdescription": "With at least 5 Winter and 1 Lantern, I could beseech the Hour of endings, the Sun-in-Rags, to destroy someone... but not someone in particular. The Sun-in-Rags alone will choose.",
+            "startdescription": "Com pelo menos 5 de Inverno e 1 Lanterna, eu poderia suplicar a Hora dos Fins, o Sol em Rags, para destruir alguém. . mas não alguém em particular, os Sun-in-Rags serão os únicos a escolher.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasedge",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -994,13 +994,13 @@
                 "secrethistories": -1,
                 "winter": -1
             },
-            "startdescription": "Edge is the aspect of battle and of struggle. If I add Knock, I might be able to attempt a summoning; if I add Lantern or Moth, I could enact a battle in my own soul.",
+            "startdescription": "A fronteira é o aspecto da batalha e da luta. Se eu acrescentar \"Toc\", talvez possa tentar chamar a atenção; Se eu adicionar Lanterna ou Mãe, eu poderia realizar uma batalha na minha própria alma.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasforge",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -1014,13 +1014,13 @@
                 "secrethistories": -1,
                 "winter": -1
             },
-            "startdescription": "Forge is the aspect that transforms and destroys. If I add Knock, I might be able to attempt a summoning; or if I have grown decrepit, then if I add Grail, perhaps I could renew my body.",
+            "startdescription": "A Forja é o aspecto que se transforma e destrói. Se eu acrescentar \"Toc\", talvez possa tentar chamar a atenção; ou se eu tiver crescido decrépito, então se eu acrescentar o Grail, talvez eu pudesse renovar o meu corpo.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasgrail",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -1034,13 +1034,13 @@
                 "secrethistories": -1,
                 "winter": -1
             },
-            "startdescription": "Grail is the aspect of appetite, blood, and birth. If I add Knock, I might be able to attempt a summoning; or if I have grown decrepit, then if I add Forge, perhaps I could renew my body.",
+            "startdescription": "O grão é o aspecto do apetite, do sangue e do nascimento. Se eu acrescentar \"Toc\", talvez possa tentar chamar a atenção; ou se eu tiver crescido decrépito, então se eu acrescentar Forge, talvez pudesse renovar o meu corpo.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasheart",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -1054,13 +1054,13 @@
                 "secrethistories": -1,
                 "winter": -1
             },
-            "startdescription": "Heart is the aspect of preservation, but also of ceaseless motion. If I add Knock, I might be able to attempt a summoning.",
+            "startdescription": "Coração é o aspecto da preservação, mas também do movimento incessante. Se eu acrescentar Knock, talvez possa tentar convocar.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasknock",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -1074,13 +1074,13 @@
                 "secrethistories": -1,
                 "winter": 1
             },
-            "startdescription": "A summoning begins with Knock, but it usually requires two other aspects besides. If I don't use Knock, I might find other occult operations besides summoning.",
+            "startdescription": "Uma chamada começa com Knock, mas geralmente exige outros dois aspectos. Se eu não usar Knock, talvez encontre outras operações ocultas além de convocar.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasmicroknock",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -1094,13 +1094,13 @@
                 "secrethistories": -1,
                 "winter": 1
             },
-            "startdescription": "A summoning begins with Knock; but I will need at least a little more Knock.",
+            "startdescription": "Uma invocação começa com Toc; mas precisarei de pelo menos um pouco mais de nock.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthaslantern",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -1116,13 +1116,13 @@
                 "apostlelantern.pillar4": -1
             },
             "comments": "extremely specific and probably unnecessary exclusion with the pillar, but it caught one person once",
-            "startdescription": "Lantern is the principle of the secret place sometimes called the House of the Sun, and of the light above it. If I add Knock, I might be able to attempt a summoning. If I add Edge, I can try to conquer my Passion with Reason. If I add Winter, I can attempt a foolish, beautiful magic.",
+            "startdescription": "A lanterna é o princípio do local secreto às vezes chamado a Casa do Sol, e da luz acima dele. Se eu acrescentar \"Knock, talvez possa tentar chamar a atenção para o facto. Se eu adicionar Edge, posso tentar conquistar a minha paixão com Reason. Se eu adicionar o inverno, posso tentar uma bela e tola mágica.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthasmoth",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -1136,13 +1136,13 @@
                 "secrethistories": -1,
                 "winter": -1
             },
-            "startdescription": "Moth is the wild and perilous aspect of chaos and yearning. If I add Knock, I might be able to attempt a summoning. If I add Edge, I can try to drown my Reason in Passion.",
+            "startdescription": "A Marie é o aspecto selvagem e perigoso do caos e do ânimo. Se eu adicionar Toc, talvez eu possa tentar invocar. Se eu adicionar Edge, posso tentar afogar minha razão em Passion.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthassecrethistories",
-            "label": "Summoning Something?",
+            "label": "Invocando algo?",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -1156,13 +1156,13 @@
                 "moth": -1,
                 "winter": -1
             },
-            "startdescription": "Secret Histories describe the unknown complexities of the world, and its many pasts. They're not usually used directly in the invisible arts, but if I add Knock, who knows what might be possible?",
+            "startdescription": "Histórias secretas descrevem as complexidades desconhecidas do mundo e seus muitos passados. Normalmente não são usados diretamente nas artes invisíveis, mas se eu adicionar Knock, quem sabe o que pode ser possível?",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehinthaswinter",
-            "label": "Winter",
+            "label": "Inverno",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -1176,13 +1176,13 @@
                 "moth": -1,
                 "secrethistories": -1
             },
-            "startdescription": "Winter is the aspect of silence, of endings, and of those things that are not entirely dead. If I add Knock, I might be able to attempt a summoning. If I add Lantern, I can attempt a foolish, beautiful magic.",
+            "startdescription": "O Inverno é o aspecto do silêncio, dos fins e das coisas que não estão completamente mortas. Se eu adicionar Toc, talvez possa fazer uma invocação. Se eu adicionar Lanterna, posso tentar uma bela e tola mágica.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ritehint",
-            "label": "Rites",
+            "label": "Ritos",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -1193,60 +1193,60 @@
                 "tool": -1,
                 "desire": -1
             },
-            "startdescription": "Each rite can be used for many purposes. For a summoning, I must begin by calling upon the power of the Knock, which will open the way.",
+            "startdescription": "Cada rito pode ser utilizado para muitos fins. Para uma convocação, devo começar por apelar ao poder do Knock, que abrirá o caminho.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ascensionpower_upgradetoobsession_hint",
-            "label": "Not Enough, Not Yet",
+            "label": "Não é suficiente, ainda não",
             "actionid": "work",
             "requirements": {
                 "ascensionpowerb": 1,
                 "waystag_after": 1,
                 "forge": 1
             },
-            "startdescription": "Not yet enough. The Forge of Days will not attend unless I can merit her attention. I need Forge power of at least the sixth intensity.",
+            "startdescription": "Ainda não é o suficiente. A Forja dos Dias não comparecerá a menos que eu possa merecer atenção dela. Eu preciso do poder de forja de pelo menos a sexta intensidade.",
             "description": ".",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "ascensionsensation_upgradetoobsession_hint_m",
-            "label": "Not Enough, Not Yet",
+            "label": "Não é suficiente, ainda não",
             "actionid": "work",
             "requirements": {
                 "ascensionsensationbm": 1,
                 "waystag_after": 1,
                 "grail": 1
             },
-            "startdescription": "Not yet enough. The Red Grail will not attend unless I can merit her attention. I need Grail power of at least the sixth intensity.",
+            "startdescription": "Ainda não é o bastante. O Grau Vermelho não vai comparecer a menos que eu possa merecer a sua atenção. Preciso do poder Grail de pelo menos a sexta intensidade.",
             "description": ".",
             "hintonly": true
         },
         {
             "id": "ascensionsensation_upgradetoobsession_hint_f",
-            "label": "Not Enough, Not Yet",
+            "label": "Não é suficiente, ainda não",
             "actionid": "work",
             "requirements": {
                 "ascensionsensationbf": 1,
                 "waystag_after": 1,
                 "grail": 1
             },
-            "startdescription": "Not yet enough. The Red Grail will not attend unless I can merit her attention. I need Grail power of at least the sixth intensity.",
+            "startdescription": "Ainda não é o bastante. O Grau Vermelho não vai comparecer a menos que eu possa merecer a sua atenção. Preciso do poder Grail de pelo menos a sexta intensidade.",
             "description": ".",
             "hintonly": true
         },
         {
             "id": "ascensionenlightenment_upgradetoobsession_hint",
-            "label": "Not Enough, Not Yet",
+            "label": "Não é suficiente, ainda não",
             "actionid": "work",
             "requirements": {
                 "ascensionenlightenmentb": 1,
                 "waystag_after": 1,
                 "lantern": 1
             },
-            "startdescription": "Not yet enough. The Watchman will not attend unless I can merit his attention. I need Lantern power of at least the sixth intensity.",
+            "startdescription": "Ainda não é o bastante. O observador não comparecerá a menos que eu mereça a sua atenção. Preciso do poder da lanterna de pelo menos a sexta intensidade.",
             "description": ".",
             "craftable": false,
             "hintonly": true
@@ -1254,8 +1254,8 @@
         {
             "id": "work.temptation.remembrance.hint",
             "actionid": "work",
-            "label": "Lost Colours?",
-            "startdescription": "I hunger for what is lost. The way to that lies through another hunger. There is a secret I must study.",
+            "label": "Cores perdidas?",
+            "startdescription": "Eu tenho fome pelo que está perdido. O caminho para isso está por meio de outra fome. Há um segredo que eu devo estudar.",
             "requirements": {
                 "temptation.remembrance": 1
             },
@@ -1265,8 +1265,8 @@
         {
             "id": "detectivework_plotitem_burning_hint",
             "actionid": "work",
-            "label": "Second Thoughts?",
-            "startdescription": "It was the right decision. And yet... [There may still be time enough to Study the file before it is gone forever.]",
+            "label": "Segunda reflexão?",
+            "startdescription": "Foi a decisão certa. E ainda... [Ainda pode haver tempo suficiente para estudar o arquivo antes que ele acabe para sempre.]",
             "requirements": {
                 "legacydetective_plotitem_burning": 1
             },
@@ -1276,8 +1276,8 @@
         {
             "id": "work.generaldesire.hint",
             "actionid": "work",
-            "label": "A Great Work?",
-            "startdescription": "The final fulfilment of a Desire is often a conclusion. It is not enough to hope. I stand or fail on my deeds. [Desires are often the means to winning a game. The Desire for Sensation or Power or Enlightenment will require a great ritual. But there are other, even rarer, Desires, especially in the Ghoul, Priest and Dancer expansions. ]",
+            "label": "Um bom trabalho?",
+            "startdescription": "O cumprimento final de um desespero é muitas vezes uma conclusão, não basta esperar. Estou de pé ou falhando nas minhas acções. [Desires são frequentemente os meios para ganhar um jogo. O Desvio para Sensação ou Poder ou Iluminação exigirá um grande ritual. Mas há outras, ainda mais raras, Desires, especialmente nas expansões de Ghoul, Sacerdote e Dancer.",
             "requirements": {
                 "desire": 1
             },

@@ -3,8 +3,8 @@
         {
             "id": "studyresearch.entrypoint",
             "actionid": "study",
-            "label": "Into the Night",
-            "startdescription": "Wisdom is a country, and these are its maps. [Solve all the challenges on both fragments of lore to complete a research task. You can return to a task later, if you fail.]",
+            "label": "No período noturno",
+            "startdescription": "A sabedoria é um país, e estes são os seus mapas. [Resolva todos os desafios em ambos os fragmentos da história para concluir uma tarefa de pesquisa. Você pode retornar a uma tarefa depois, se você falhar.]",
             "description": ".",
             "requirements": {
                 "lore": 2
@@ -22,8 +22,8 @@
         {
             "id": "studyresearch.attemptsolve",
             "actionid": "study",
-            "label": "Into the Night",
-            "startdescription": "Wisdom is a country, and these are its maps. [Solve all the challenges on both fragments of lore to complete a research task. You can return to a task later, if you fail.]",
+            "label": "No período noturno",
+            "startdescription": "A sabedoria é um país, e estes são os seus mapas. [Resolva todos os desafios em ambos os fragmentos da história para concluir uma tarefa de pesquisa. Você pode retornar a uma tarefa depois, se você falhar.]",
             "linked": [
                 {
                     "id": "studyresearch.nochallengesremaining"
@@ -54,15 +54,15 @@
         {
             "id": "studyresearch.attemptsolve.challenge.knowledge",
             "actionid": "study",
-            "label": "A Challenge: Knowledge",
+            "label": "Um Desafio: Conhecimento",
             "requirements": {
                 "challenge.knowledge": 1
             },
-            "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Provide Erudition, or use a Library.]",
+            "startdescription": "Este é um quebra-cabeça com peças faltantes. Talvez eu encontre essas peças em cantos ímpares de bolsa. [Forneça Erudição, ou use uma Biblioteca.]",
             "slots": [
                 {
                     "id": "solvechallenge",
-                    "label": "Solution",
+                    "label": "Soluções",
                     "required": {
                         "erudition": 1,
                         "library": 1
@@ -83,8 +83,8 @@
         {
             "id": "studyresearch.failed.challenge.knowledge",
             "actionid": "study",
-            "label": "Balked!",
-            "startdescription": "My studies have been stymied, for now.",
+            "label": "Juro!",
+            "startdescription": "Os meus estudos têm sido, por enquanto, menos rigorosos.",
             "requirements": {
                 "erudition": -1,
                 "library": -1
@@ -95,7 +95,7 @@
             "id": "studyresearch.solved.challenge.knowledge",
             "actionid": "study",
             "label": "Aha - !",
-            "startdescription": " - there it is. Is that it? [You have resolved a Knowlege challenge.]",
+            "startdescription": " - É isso? [Você resolveu um desafio do conhecimento]",
             "mutations": [
                 {
                     "filter": "lore",
@@ -117,15 +117,15 @@
         {
             "id": "studyresearch.attemptsolve.challenge.intuition",
             "actionid": "study",
-            "label": "A Challenge: Intuition",
+            "label": "Desafio : Intuição",
             "requirements": {
                 "challenge.intuition": 1
             },
-            "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Provide Glimmering, or use a Sanctuary.]",
+            "startdescription": "Este é um quebra-cabeça com peças faltantes. Talvez eu encontre essas peças de bolsas de estudo. [Forneça um Brilhante ou use um Santuário.]",
             "slots": [
                 {
                     "id": "solvechallenge",
-                    "label": "Solution",
+                    "label": "Soluções",
                     "required": {
                         "glimmering": 1,
                         "sanctuary": 1
@@ -146,8 +146,8 @@
         {
             "id": "studyresearch.failed.challenge.intuition",
             "actionid": "study",
-            "label": "Balked!",
-            "startdescription": "My studies have been stymied, for now.",
+            "label": "Juro!",
+            "startdescription": "Os meus estudos têm sido, por enquanto, menos rigorosos.",
             "requirements": {
                 "glimmering": -1,
                 "sanctuary": -1
@@ -158,7 +158,7 @@
             "id": "studyresearch.solved.challenge.intuition",
             "actionid": "study",
             "label": "Aha - !",
-            "startdescription": " - there it is. Is that it? [You have resolved an Intuition challenge.]",
+            "startdescription": " - Aí está. É isso? [Você resolveu um desafio de Intuição.]",
             "mutations": [
                 {
                     "filter": "lore",
@@ -180,15 +180,15 @@
         {
             "id": "studyresearch.attemptsolve.challenge.grim",
             "actionid": "study",
-            "label": "A Challenge: Grim Lessons",
+            "label": "Desafio - Aulas Sinistras",
             "requirements": {
                 "challenge.grim": 1
             },
-            "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Provide Dread, use a Pit, or use the Silent Intensity skill. Dread may breed.]",
+            "startdescription": "Este é um quebra-cabeça com peças faltantes. Talvez eu encontre essas peças em cantos estranhos de bolsa. [Forneça trás, use um poço ou use a habilidade Intensidade Silenciosa. O traço pode ser criado.]",
             "slots": [
                 {
                     "id": "solvechallenge",
-                    "label": "Solution",
+                    "label": "Soluções",
                     "required": {
                         "dread": 1,
                         "pit": 1,
@@ -210,8 +210,8 @@
         {
             "id": "studyresearch.failed.challenge.grim",
             "actionid": "study",
-            "label": "Balked!",
-            "startdescription": "My studies have been stymied, for now.",
+            "label": "Juro!",
+            "startdescription": "Os meus estudos têm sido, por enquanto, menos rigorosos.",
             "requirements": {
                 "dread": -1,
                 "pit": -1,
@@ -223,7 +223,7 @@
             "id": "studyresearch.solved.challenge.grim",
             "actionid": "study",
             "label": "Aha - !",
-            "startdescription": " - there it is. Is that it? [You have resolved a Grim challenge.]",
+            "startdescription": " - Aí está. É isso? [Você resolveu um desafio Grimoso.]",
             "mutations": [
                 {
                     "filter": "lore",
@@ -249,15 +249,15 @@
         {
             "id": "studyresearch.attemptsolve.challenge.obsessive",
             "actionid": "study",
-            "label": "A Challenge: Obsessive Research",
+            "label": "Um Desafio: Pesquisa Obsessiva",
             "requirements": {
                 "challenge.obsessive": 1
             },
-            "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Surrender your Reason, which may occasionally be permanently damaged; or use a Library; or use Never-No skill.]",
+            "startdescription": "Este é um quebra-cabeça com peças faltantes. Talvez eu encontre essas peças em cantos estranhos de bolsa. [Render-se seu Reason, que pode ocasionalmente ser danificado permanentemente; ou use uma Biblioteca; ou use a habilidade Nunca.]",
             "slots": [
                 {
                     "id": "solvechallenge",
-                    "label": "Solution",
+                    "label": "Soluções",
                     "required": {
                         "reason": 1,
                         "library": 1,
@@ -279,8 +279,8 @@
         {
             "id": "studyresearch.failed.challenge.obsessive",
             "actionid": "study",
-            "label": "Balked!",
-            "startdescription": "My studies have been stymied, for now.",
+            "label": "Juro!",
+            "startdescription": "Os meus estudos têm sido, por enquanto, menos rigorosos.",
             "requirements": {
                 "reason": -1,
                 "library": -1,
@@ -292,7 +292,7 @@
             "id": "studyresearch.solved.challenge.obsessive",
             "actionid": "study",
             "label": "Aha - !",
-            "startdescription": " - there it is. Is that it? [You have resolved an Obsessive challenge.]",
+            "startdescription": " - Aí está. É isso? [Você resolveu um desafio obsessivo.]",
             "aspects": {
                 "fatiguing": 1
             },
@@ -318,8 +318,8 @@
         {
             "id": "studyresearch.damagereason",
             "actionid": "study",
-            "label": "Obsession's Burden",
-            "startdescription": "I have sharpened my thoughts like a blade. Now the point of that blade has snapped. [Reason has been permanently damaged.]",
+            "label": "Fardo de Obsessão",
+            "startdescription": "Afiei meus pensamentos como uma lâmina. Agora o ponto dessa lâmina está se encaixando. [Reason foi permanentemente danificado.]",
             "requirements": {
                 "concentration": 1
             },
@@ -337,15 +337,15 @@
         {
             "id": "studyresearch.attemptsolve.challenge.paradox",
             "actionid": "study",
-            "label": "A Challenge: Paradoxical Resolution",
+            "label": "Um Desafio: Resolução Paradoxal",
             "requirements": {
                 "challenge.paradox": 1
             },
-            "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Surrender Passion, which might occasionally be damaged; use a Sanctuary; or use an Open Soul skill.]",
+            "startdescription": "Este é um quebra-cabeça com peças faltantes. Talvez eu encontre essas peças em cantos estranhos de bolsa. [Passião de rendimento, que pode ocasionalmente ser danificado; use um Santuário; ou use uma habilidade Open Soul .]",
             "slots": [
                 {
                     "id": "solvechallenge",
-                    "label": "Solution",
+                    "label": "Soluções",
                     "required": {
                         "passion": 1,
                         "sanctuary": 1,
@@ -367,8 +367,8 @@
         {
             "id": "studyresearch.failed.challenge.paradox",
             "actionid": "study",
-            "label": "Balked!",
-            "startdescription": "My studies have been stymied, for now.",
+            "label": "Juro!",
+            "startdescription": "Os meus estudos têm sido, por enquanto, menos rigorosos.",
             "requirements": {
                 "passion": -1,
                 "sanctuary": -1,
@@ -380,7 +380,7 @@
             "id": "studyresearch.solved.challenge.paradox",
             "actionid": "study",
             "label": "Aha - !",
-            "startdescription": " - there it is. Is that it? [You have resolved a Paradoxical challenge.]",
+            "startdescription": " - É isso? [Você resolveu um desafio paradoxe.]",
             "aspects": {
                 "fatiguing": 1
             },
@@ -406,8 +406,8 @@
         {
             "id": "studyresearch.damagepassion",
             "actionid": "study",
-            "label": "The Labyrinth's Heart",
-            "startdescription": "I followed my passions through the labyrinth, and here I am at its heart. The heart of the labyrinth is a black and hollow place, charred like wood. [Passion has been permanently damaged.]",
+            "label": "O Coração do Labirinto",
+            "startdescription": "Acompanhei as minhas paixões pelo labirinto, e aqui estou no seu coração. O coração do labirinto é um lugar preto e oco, carregado como madeira. [A paixão está permanentemente danificada.]",
             "requirements": {
                 "passionexhausted": 1
             },
@@ -425,15 +425,15 @@
         {
             "id": "studyresearch.attemptsolve.challenge.illumination",
             "actionid": "study",
-            "label": "A Challenge: Illumination",
+            "label": "Desafio : Iluminação",
             "requirements": {
                 "challenge.illumination": 1
             },
-            "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Provide Fascination, which may breed; use a Library; or employ a Rarefied Mind skill.]",
+            "startdescription": "Este é um quebra-cabeça com peças faltantes. Talvez eu encontre essas peças em cantos estranhos de bolsa. [Proporcionar a Fascinação, que poderá criar; use uma Biblioteca; ou utilize uma habilidade da Mente Rarada.]",
             "slots": [
                 {
                     "id": "solvechallenge",
-                    "label": "Solution",
+                    "label": "Soluções",
                     "required": {
                         "fascination": 1,
                         "library": 1,
@@ -455,8 +455,8 @@
         {
             "id": "studyresearch.failed.challenge.illumination",
             "actionid": "study",
-            "label": "Balked!",
-            "startdescription": "My studies have been stymied, for now.",
+            "label": "Juro!",
+            "startdescription": "Os meus estudos têm sido, por enquanto, menos rigorosos.",
             "requirements": {
                 "fascination": -1,
                 "library": -1,
@@ -468,7 +468,7 @@
             "id": "studyresearch.solved.challenge.illumination",
             "actionid": "study",
             "label": "Aha - !",
-            "startdescription": " - there it is. Is that it? [You have resolved an Illumination challenge.]",
+            "startdescription": " - Aí está. É isso? [Você resolveu um desafio de iluminação.]",
             "mutations": [
                 {
                     "filter": "lore",
@@ -494,15 +494,15 @@
         {
             "id": "studyresearch.attemptsolve.challenge.practical",
             "actionid": "study",
-            "label": "A Challenge: Practical Experimentation",
+            "label": "Um Desafio: Experimentação Prática",
             "requirements": {
                 "challenge.practical": 1
             },
-            "startdescription": "This is a puzzle with missing pieces. I might find those pieces in odd corners of scholarship. [Risk your Health, or use a Prisoner.]",
+            "startdescription": "Este é um quebra-cabeça com peças faltantes. Posso achar essas peças em cantos ímpares de bolsa. [Risque sua Saúde, ou use um Prisioneiro.]",
             "slots": [
                 {
                     "id": "solvechallenge",
-                    "label": "Solution",
+                    "label": "Soluções",
                     "required": {
                         "health": 1,
                         "prisoner": 1
@@ -523,8 +523,8 @@
         {
             "id": "studyresearch.failed.challenge.practical",
             "actionid": "study",
-            "label": "Balked!",
-            "startdescription": "My studies have been stymied, for now.",
+            "label": "Juro!",
+            "startdescription": "Os meus estudos têm sido, por enquanto, menos rigorosos.",
             "requirements": {
                 "health": -1,
                 "prisoner": -1
@@ -535,7 +535,7 @@
             "id": "studyresearch.solved.challenge.practical",
             "actionid": "study",
             "label": "Aha - !",
-            "startdescription": " - there it is. Is that it? [You have resolved a Practical challenge.]",
+            "startdescription": " - Aí está. É isso? [Você resolveu um desafio prático.]",
             "aspects": {
                 "fatiguing": 1
             },
@@ -561,8 +561,8 @@
         {
             "id": "studyresearch.damagehealth",
             "actionid": "study",
-            "label": "The Damage",
-            "startdescription": "Pain is a teacher, they say, especially if they aren't in pain. [Health has been injured.]",
+            "label": "O Dano",
+            "startdescription": "A dor é um professor, dizem, especialmente se não estão com dor. [A saúde está ferida.]",
             "requirements": {
                 "fatigue": 1
             },
@@ -580,8 +580,8 @@
         {
             "id": "studyresearch.nochallengesremaining",
             "actionid": "study",
-            "label": "Blinking in the Light",
-            "startdescription": "Now - now I understand!",
+            "label": "Piscando na Luz",
+            "startdescription": "Agora - agora eu entendi!",
             "description": "",
             "warmup": 30,
             "requirements": {
@@ -700,12 +700,12 @@
         {
             "id": "studyresearchtick",
             "comments": "The lore 2 requirement means this is only available when someone has paired two lore fragments with an earlier recipe. This routes to opportunities to increase Insight.",
-            "label": "Promising Research",
+            "label": "Pesquisa Promissora",
             "actionid": "study",
             "requirements": {
                 "lore": 2
             },
-            "startdescription": "This project has possibilities. When research requirements appear, I must fulfil them to gain Insight. If I gain three Insight, I will succeed; otherwise, I may fail.",
+            "startdescription": "Este projecto tem possibilidades. Quando as necessidades de investigação aparecem, tenho de as cumprir para ter percepção. Se eu tiver três pontos de vista, terei sucesso; caso contrário, posso falhar.",
             "description": ".",
             "warmup": 30,
             "linked": [
@@ -729,7 +729,7 @@
         },
         {
             "id": "studyresearchneedsreason",
-            "label": "Confusion's Shadow",
+            "label": "Sombra da Confusão",
             "actionid": "study",
             "requirements": {},
             "effects": {},
@@ -748,8 +748,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Confusion shrouds the path. I must use more of my Reason.",
-            "description": "I need to use my Reason to help my research.",
+            "startdescription": "Confusão envolve o caminho. Eu devo usar mais do meu Reason.",
+            "description": "Eu preciso usar meu motivo para ajudar com a minha pesquisa.",
             "warmup": 30,
             "craftable": false,
             "linked": [
@@ -761,7 +761,7 @@
         },
         {
             "id": "studyresearchreasonsuccess",
-            "label": "The Intellect's Light!",
+            "label": "A Luz Intelecta!",
             "actionid": "study",
             "requirements": {
                 "reason": 1
@@ -770,7 +770,7 @@
                 "insight": 1
             },
             "craftable": false,
-            "startdescription": "The task occupies ever more of my attention. But my efforts are paying off. [Gained Insight.].",
+            "startdescription": "A tarefa me ocupa cada vez mais da minha atenção. Mas os meus esforços estão valendo. [Insight adquirida.].",
             "linked": [
                 {
                     "id": "studyresearchtick",
@@ -783,7 +783,7 @@
         },
         {
             "id": "studyresearchneedserudition",
-            "label": "The Pieces of the Puzzle",
+            "label": "As Pedaços do Desafio",
             "actionid": "study",
             "requirements": {},
             "effects": {},
@@ -803,8 +803,8 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "My research needs Erudition.",
-            "description": "My research needs Erudition.",
+            "startdescription": "Minha pesquisa precisa de Erudição.",
+            "description": "Minha pesquisa precisa de Erudição.",
             "warmup": 30,
             "craftable": false,
             "linked": [
@@ -816,7 +816,7 @@
         },
         {
             "id": "studyresearcheruditionsuccess",
-            "label": "The Pieces Fit!",
+            "label": "As Peças Encaixam!",
             "actionid": "study",
             "requirements": {
                 "erudition": 1
@@ -825,7 +825,7 @@
                 "insight": 1
             },
             "craftable": false,
-            "startdescription": "Knowledge breeds knowledge. [Gained Insight.]",
+            "startdescription": "O conhecimento gera conhecimento. [Insight adquirida.]",
             "linked": [
                 {
                     "id": "studyresearchtick",
@@ -835,7 +835,7 @@
         },
         {
             "id": "studyresearchneedsglimmering",
-            "label": "The Gates of Intuition",
+            "label": "Os Portões de Intuição",
             "actionid": "study",
             "requirements": {},
             "effects": {},
@@ -855,7 +855,7 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "My research needs a Glimmering. ",
+            "startdescription": "Minha pesquisa precisa de um Glimmering. ",
             "description": ".",
             "warmup": 30,
             "craftable": false,
@@ -868,7 +868,7 @@
         },
         {
             "id": "studyresearchglimmeringsuccess",
-            "label": "The Gates of Intuition are opened!",
+            "label": "Os Portões de Intuição estão abertos!",
             "actionid": "study",
             "requirements": {
                 "glimmering": 1
@@ -876,7 +876,7 @@
             "effects": {
                 "insight": 1
             },
-            "startdescription": "Sometimes, Insights are found in unexpected places. [Gained Insight.]",
+            "startdescription": "Às vezes, as idéias são encontradas em locais inesperados. [Obtida Insight.]",
             "craftable": false,
             "linked": [
                 {
@@ -924,7 +924,7 @@
         },
         {
             "id": "studyresearchmaxinsight",
-            "label": "Research complete, max insight",
+            "label": "Pesquisa concluída, visão máxima",
             "alt": [
                 {
                     "id": "studyresearchsuccess",
@@ -936,14 +936,14 @@
                 "insight": 3
             },
             "effects": {},
-            "startdescription": "BEGIN studyresearchmaxinsight",
-            "description": "COMPLETE studyresearchmaxinsight",
+            "startdescription": "COMEÇAR estudo",
+            "description": "COMPLETE estudopesquisa_maxinsight",
             "warmup": 0,
             "comments": "This is currently a pass-through only; including for consistency."
         },
         {
             "id": "studyresearchmoderateinsight",
-            "label": "Research complete, some insight",
+            "label": "Pesquisa completa, algumas dicas",
             "alt": [
                 {
                     "id": "studyresearchsuccess",
@@ -959,13 +959,13 @@
                 "insight": 2
             },
             "effects": {},
-            "startdescription": "BEGIN studyresearchsomeinsight",
-            "description": "COMPLETE studyresearchsomeinsight",
+            "startdescription": "MELHOR estudo",
+            "description": "COMPLETE estudopesquisapesquisa",
             "warmup": 0
         },
         {
             "id": "studyresearchminimalinsight",
-            "label": "Research complete, minimal insight",
+            "label": "Pesquisa completa, mínimo de visão",
             "actionid": "study",
             "requirements": {},
             "alt": [
@@ -979,13 +979,13 @@
                 }
             ],
             "effects": {},
-            "startdescription": "BEGIN studyresearchnoinsight",
-            "description": "COMPLETE studyresearchnoinsight",
+            "startdescription": "COMEÇAR estudo",
+            "description": "COMPLETE estudo",
             "warmup": 0
         },
         {
             "id": "studyresearchsuccess",
-            "label": "Success!",
+            "label": "Sucesso!",
             "actionid": "study",
             "requirements": {},
             "aspects": {
@@ -995,7 +995,7 @@
                 "insight": -100
             },
             "startdescription": ".",
-            "description": "I've learnt something new.",
+            "description": "Eu aprendi algo novo.",
             "warmup": 0,
             "craftable": false,
             "linked": [

@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "studydehoris1",
-            "label": "Read De Horis, vol 1",
+            "label": "Leia de Horis, vol 1",
             "actionid": "study",
             "requirements": {
                 "dehoris1": 1
@@ -12,14 +12,14 @@
                 "fragmentmoth": 1,
                 "erudition": 1
             },
-            "startdescription": "This volume deals mostly with the Hours of the Wood: the Moth, the Black-Flax, the Ring-Yew, among others.",
-            "description": "'The Glory is a question, and the Moth always answers Yes. The Black-Flax's answer is No, and that is always its answer.'",
+            "startdescription": "Esse volume lida principalmente com as Horas da Madeira: a Lua, o Linho Negro, o Ring-Yew, entre outros.",
+            "description": "\"A Glória é uma pergunta, e a Mariposa sempre responde Sim. A resposta do Linho Negro é Não, e essa é sempre a sua resposta.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studydehoris2",
-            "label": "Read De Horis, vol 2",
+            "label": "Leia de Horis, vol 2",
             "actionid": "study",
             "requirements": {
                 "dehoris2": 1
@@ -29,14 +29,14 @@
                 "fragmentedge": 1,
                 "erudition": 1
             },
-            "startdescription": "This volume deals mostly with the Lionsmith, the Tribune of Scars, and their enmity.",
-            "description": "'The Lionsmith makes monsters to defeat the Tribune; but the scars of the Tribune are each a weapon.'",
+            "startdescription": "Esse volume lida principalmente com o Ferreiro, o Tribune dos Ciclos e sua imitação.",
+            "description": "\"O Ferreiro de Leão faz monstros para derrotar o Tribunal; mas as cicatrizes do Tribune são cada uma arma\".",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytravellingatnight1",
-            "label": "Read this volume of Travelling at Night",
+            "label": "Leia este volume de Viagens à Noite",
             "actionid": "study",
             "requirements": {
                 "travellingatnight1": 1
@@ -46,14 +46,14 @@
                 "fragmentmoth": 1,
                 "erudition": 1
             },
-            "startdescription": "'The Wood lies outside the walls of the Mansus. As any student of Histories knows, the Mansus has no walls.'",
-            "description": "Illopoly describes how he came to make repeated visits to a dream-Wood via what he calls silver dreams. 'Trying to think your way to the Wood,' he explains, 'is like thinking your way to being in love. But I did find a Secret that helped.'",
+            "startdescription": "\"A madeira está fora das paredes dos Mansus. Como qualquer estudante de Histórias sabe, o Mansus não tem paredes.\"",
+            "description": "Ilopoly descreve como ele veio fazer visitas repetidas a uma Madeira do sonho através do que ele chama sonhos de prata. \"Tentando pensar no teu caminho para a Madeira\", ele explica, \"é como pensar no teu jeito de ficar apaixonado. Mas encontrei um segredo que ajudou.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytravellingatnight2",
-            "label": "Read this volume of Travelling at Night",
+            "label": "Leia este volume de Viagens à Noite",
             "actionid": "study",
             "requirements": {
                 "travellingatnight2": 1
@@ -63,14 +63,14 @@
                 "fragmentwinter": 1,
                 "erudition": 1
             },
-            "startdescription": "There is an extensive discussion of the similarities between Illopoly's own dreams and those of the Emperor Elagabalus, who Illopoly regards as a dupe or avatar of the Sun-in-Rags. 'The White is west of the world,' Illopoly remarks, 'and Winter does not wait forever.'",
-            "description": "'Elagabalus found his way to the White Door at last, thankfully. Speech can't pass the White Door, and honestly, Elagabalus never had anything very interesting to say. I tried to follow in his footsteps, but I never learnt enough of the White. I suppose I'm thankful for that, too. But here's what I do know...'",
+            "startdescription": "Há uma ampla discussão sobre as semelhanças entre os sonhos do próprio Illopoly e os sonhos do Imperador Elagabalus, quem Illopoly encara como um buraco ou um avatar do Sol em Rags. \"Os brancos são o oeste do mundo\", diz Illopoly que \"e o Inverno não espera para sempre\".",
+            "description": "\"Elagabalus finalmente encontrou o caminho para a Porta Branca, graças a Deus. A fala não passa da Porta Branca e, honestamente, Elagabalus nunca teve nada muito interessante a dizer. Tentei seguir os passos dele, mas nunca aprendi o suficiente com os brancos. Suponho que também estou grato por isso. Mas aqui está o que eu sei...",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytravellingatnight3",
-            "label": "Read this volume of Travelling at Night",
+            "label": "Leia este volume de Viagens à Noite",
             "actionid": "study",
             "requirements": {
                 "travellingatnight3": 1
@@ -80,14 +80,14 @@
                 "fragmentforge": 1,
                 "erudition": 1
             },
-            "startdescription": "Illopoly's disquisitions on fire and the Unburnt God are interrupted by passages of distractingly erotic poetry addressed to 'Baldomera'.'",
-            "description": "'To reach the Stag Door, I believe that all you really need is to want something enough. But I've never wanted anything that much, except of course Baldomera, and I'm very much afraid that the knot in the story is this: what Baldomera wants is the Stag Door. But here's something I learnt in Persia. Perhaps it'll teach you what <i>you</i> want.'",
+            "startdescription": "As disquisições de Illopoly no fogo e o Deus Inburnto são interrompidos por passagens de poesia distrasivamente erótica dirigida ao \"Baldomera”.",
+            "description": "\"Para chegar à porta de Stag, penso que tudo o que é necessário é querer algo suficiente. Mas nunca quis algo assim, exceto claro Baldomera, e eu temo muito que o nó da história seja isso: o que Baldomera quer é a porta de Stag. Mas aqui está algo que eu aprendi na Pérsia. Talvez ele te ensine o que <i>você</i> quer.'",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studysixlettersonnecessity",
-            "label": "Read the Six Letters on Necessity",
+            "label": "Leia as seis letras sobre a necessidade",
             "actionid": "study",
             "requirements": {
                 "sixlettersonnecessity": 1
@@ -97,14 +97,14 @@
                 "fragmentforge": 1,
                 "erudition": 1
             },
-            "startdescription": "Coseley's tone is urgent - as if he suspected he might have little time left.",
-            "description": "'Even the Sunne can be divided, though it require the Forge of Dayes for its division.'",
+            "startdescription": "O tom de cozinha é urgente - como se ele suspeitasse que lhe restava pouco tempo.",
+            "description": "\"Mesmo o Sol pode ficar dividido, embora exija a Forja de Anos para a sua divisão\".",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studylocksmithsdream1",
-            "label": "Read this volume of the Locksmith's Dream",
+            "label": "Leia este volume do Sonho do Ferreiro",
             "actionid": "study",
             "requirements": {
                 "locksmithsdream1": 1
@@ -114,14 +114,14 @@
                 "fragmentlantern": 1,
                 "erudition": 1
             },
-            "startdescription": "The parallels in mystic dreams experienced by carpenters, masons and other artisans, and what they purport to reveal about the architecture of the world. Sometimes mordant, sometimes funny. No-one has ever explained why Galmier devoted herself to this quixotic exploration of artisan's dreams.",
-            "description": "'Time and again we hear of the Wood, which rises from the world's foundation. All trees reach for light. What does the Wood reach for? Is there a difference between light and Light? I think the key to dreams of the Wood might be one of these - the one that isn't exactly real.'",
+            "startdescription": "Os paralelos em sonhos místicos vividos por carpinteiros, máscaras e outros artesãos e o que eles pretendem revelar sobre a arquitetura do mundo. Às vezes morder, às vezes engraçada. Ninguém já explicou o motivo de Galmier se dedicar a essa exploração quixótica dos sonhos do artesão.",
+            "description": "\"Ouvimos falar constantemente da Madeira, que nasce da fundação do mundo. Todas as árvores chegam à luz. Para que serve a Madeira? Há uma diferença entre luz e luz? Acho que a chave para sonhar com a Madeira pode ser uma dessas - aquela que não é exatamente real.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studylocksmithsdream2",
-            "label": "Read this volume of the Locksmith's Dream",
+            "label": "Leia este volume do Sonho do Ferreiro",
             "actionid": "study",
             "requirements": {
                 "locksmithsdream2": 1
@@ -131,14 +131,14 @@
                 "fragmentknock": 1,
                 "erudition": 1
             },
-            "startdescription": "In this volume, Galmier records fewer dreams, and explicates more of her own elaborate theories. 'We see this again and again: what is below can't escape what is above.'",
-            "description": "'The finest artisans all dream of the White Door in the end. I'm no artisan, only a scholar. I think there's a Secret that all these artisans know, but I think that Secret is only half the story.'",
+            "startdescription": "Neste volume, Galmier regista menos sonhos e explica mais de suas próprias teorias elaboradas. 'Nós vemos isso de novo e de novo: o que está abaixo não pode escapar do que está acima.'",
+            "description": "'Os melhores artesãos que sonham com a Porta Branca no final. Eu não sou nenhum artesão, só um estudioso. Penso que existe um segredo que todos esses artesãos conhecem, mas acho que Segredo é apenas metade da história.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studylocksmithsdream3",
-            "label": "Read this volume of the Locksmith's Dream",
+            "label": "Leia este volume do Sonho do Ferreiro",
             "actionid": "study",
             "requirements": {
                 "locksmithsdream3": 1
@@ -148,14 +148,14 @@
                 "fragmentmothb": 1,
                 "glimmering": 1
             },
-            "startdescription": "In this volume, notoriously, Galmier's prose begins to disintegrate, and it is not clear which dreams are in fact her own.",
-            "description": "'The woman in the sand-coloured robe has told me: the stairways of the Mansus go ever up. Death is down. The Mother of Ants guards both directions with each of her heads, and so the passage must always be through a wound. I think the White Door might be a wound. That's one reason the Dead sometimes pass it. I think I have the other half of the Secret now, and I hope my reader can put both halves together.'",
+            "startdescription": "Neste volume, notoriamente, a prosa de Galmier começa a desintegrar-se, e não é claro quais são os sonhos que lhe pertencem.",
+            "description": "\"A mulher do manto de cor de areia disse-me que as escadas do Mansus subiram. A morte caiu. A mãe das formigas guarda as duas direções com cada uma de suas cabeças, e então a passagem deve sempre ser por uma ferida. Acho que a porta branca pode ser uma ferida. Essa é uma das razões pelas quais os mortos passam. Penso que tenho agora a outra metade do segredo, e espero que o meu leitor consiga juntar as duas metades.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studylocksmithsdream4",
-            "label": "Read this volume of the Locksmith's Dream",
+            "label": "Leia este volume do Sonho do Ferreiro",
             "actionid": "study",
             "requirements": {
                 "locksmithsdream4": 1
@@ -166,14 +166,14 @@
                 "fragmentlanternc": 1,
                 "fascination": 1
             },
-            "startdescription": "'Janus is the Gatekeeper, the twin-god, the god that wounds, the presager of changes, the sun, the moon. So we identify him with the Watchman, the Twins, with the Mother, with the Forge, with the Meniscate and the Madrugad. He cannot be all these. Can he? The <i>flamines</i> knew the Church, knew the Dry Land, knew Elagabalus. Is he then synthesis? Or is he something else? In Gallaecia they called him Ianus Lamius, but the Obliviates are notorious for their slanders.'",
-            "description": "'Janus has, they say, not one face but two. To which I reply: why only one? Why only two? Hersault and Coseley - according to Thomas Love Denman - once agreed that Janus was 'all the gods and none'. But later, Hersault insisted he was 'all the gods', and Coseley favoured simply 'none'. Denman was a sinister dilettante, but this rings true of them both.'",
+            "startdescription": "Janus é o guardião, o deus, o deus que fere, o pressor de mudanças, o sol, a lua. Assim, identificamo-lo com o Watchman, o Twins, com a mãe, com a Forge, com o Meniscate e com o Madrugad. Ele não pode ser tudo isto. Será que pode? As <i>chamas</i> sabia a Igreja, conhecia a Terra Seca, sabia Elagabalus. Será que ele então se sintetiza? Ou será que ele tem outra coisa? Em Gallaecia, chamaram-no de Ianus Lamius, mas os esquecidos são conhecidos pelas calúnias deles.»",
+            "description": "\"Janus tem, dizem, não um rosto, mas dois. A que respondo: por que só um? Por que apenas dois? Hersault e Coseley - de acordo com Thomas Love Denman - uma vez concordou que Janus era \"todos os deuses e nenhum\". Mas mais tarde, Hersault insistiu que ele era \"todos os deuses\", e a Coseley favoreceu simplesmente \"nenhum\". Denman era uma sinistra dilettante, mas isto é verdade em relação a ambos.»",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyorchidtransfigurations1",
-            "label": "Read this volume of the Orchid Transfigurations",
+            "label": "Leia este volume das transfigurações da Orchid",
             "actionid": "study",
             "requirements": {
                 "orchidtransfigurations1": 1
@@ -183,14 +183,14 @@
                 "fragmentgrail": 1,
                 "glimmering": 1
             },
-            "startdescription": "The illustrations are certainly striking. They flush the skin and glow beneath the eyelids after the book is closed.",
-            "description": "'We must devour to be devoured. We cannot be undevoured, as we cannot be unborn.'",
+            "startdescription": "As ilustrações são sem dúvida impressionantes. Eles esparram a pele e o brilho debaixo das pálpebras depois do fechamento do livro.",
+            "description": "\"Temos de devorar para sermos devorados, não podemos ser desdevorados, pois não podemos ser desnatados\".",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyorchidtransfigurations2",
-            "label": "Read this volume of the Orchid Transfigurations",
+            "label": "Leia este volume das transfigurações da Orchid",
             "actionid": "study",
             "requirements": {
                 "orchidtransfigurations2": 1
@@ -199,14 +199,14 @@
                 "orchidtransfigurations2": -1,
                 "fragmentgrailb": 1
             },
-            "startdescription": "Fludd, or pseudo-Fludd, suggests alignments between the alchemical tradition of rubedo and the older Grail traditions, through the Pine-Knight's quest for the Cinnabar Cup.",
-            "description": "'Seek the Cup in the birthing-bed,' the Pine-Knight is told. The Midwife at the birthing-bed, to his amazement, is the Mountain-Mother. In a fit of awe, he both gelds and flays himself. The Vigilant Storm bursts joyfully from the remains.'",
+            "startdescription": "Fluído, ou pseudo-fludido, sugere alinhamentos entre a tradição alquímica do rubedo e as antigas tradições do túmulo, através da busca do Cavaleiro Pino-Pinheiro para a Taça Cinnabar.",
+            "description": "'Procure a Copa no cama de aniversário,' o Cavaleiro Pinheiro. A Meia-Noite na cama de nascimento, no seu espanto, é a Mãe-Montanha. Em uma forma de capa, ele mesmo tanto gelados quanto sinaliza. A Tempestade Vigilante explode alegremente dos restos.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyorchidtransfigurations3",
-            "label": "Read this volume of the Orchid Transfigurations",
+            "label": "Leia este volume das transfigurações da Orchid",
             "actionid": "study",
             "requirements": {
                 "orchidtransfigurations3": 1
@@ -215,14 +215,14 @@
                 "orchidtransfigurations3": -1,
                 "fragmentheart": 1
             },
-            "startdescription": "A long dialogue between the Mountain-Mother and the Vigilant Storm describes the ways in which both mountains and storms end, and the protections they use against those ends.",
-            "description": "'But we must use the knife,' said the Lion-Throned One, 'the noose, the flame, the Waking Word, against those who have passed the Three-Valved Door. And so none may pass: that is our Law, and the Law of the Sun.'",
+            "startdescription": "Um longo diálogo entre a Montanha-Mãe e a Tempestade Vigilante descreve como as montanhas e as tempestades terminam. e as proteções que eles usam contra esses fins.",
+            "description": "'Mas temos de usar a faca?, disse o Linho do Trono, 'o alto, a chama, a Waking Word, contra aqueles que passaram pela tripla Porta Valentil. E assim ninguém pode passar: essa é a nossa lei e a Lei do Sol».",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyhumoursofagentleman",
-            "label": "Peruse Savage's 'Humours of a Gentleman'",
+            "label": "Peruse o 'Humor de um cavalheiro' de Savage",
             "actionid": "study",
             "requirements": {
                 "humoursofagentleman": 1
@@ -231,14 +231,14 @@
                 "humoursofagentleman": -1,
                 "fragmentlantern": 1
             },
-            "startdescription": "By the end of the first act, Maevelin has revealed a secret door in the walls of the House to Leo, and Corvino has taken to consuming Worms.",
-            "description": "The play is scabrous and occasionally hilarious. The characters are contrary and capricious. Many of the more resonant lines might well be formulae of power, disguised in plain sight.",
+            "startdescription": "No final do primeiro acto, Maevelin revelou uma porta secreta nas paredes da Casa a Leo, e o Corvino optaram pelo consumo de vermes.",
+            "description": "A peça é ridícula e ocasionalmente hilária. Os personagens são contrários e caprichosos. Muitas das linhas mais ressonantes podem muito bem ser fórmulas de poder, disfarçadas de vista.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyvictoryofcrowns",
-            "label": "Study the 'Victory of Crowns', by 'Arun'",
+            "label": "Estude a \"Vitória das Coroas\", por \"Arun\"",
             "actionid": "study",
             "requirements": {
                 "victoryofcrowns": 1
@@ -247,14 +247,14 @@
                 "victoryofcrowns": -1,
                 "fragmentedge": 1
             },
-            "startdescription": "The assassins are, according to 'Arun', the agents of a power called the Coronel, a 'soldier of the Secret Masters'. The accounts go all the way back to Roman times.",
-            "description": " Arun's scholarship is dubious, but he (she?) writes pithily. Incidents of sudden and violent death are interspersed with aphorisms: 'Hours don't dream. Long try not to.'",
+            "startdescription": "De acordo com \"Arun\", os agentes de um poder denominado Coronel, \"soldado dos mestres secretos\". As contas remontam ao tempo romano.",
+            "description": " A bolsa de Arun é duvidosa, mas ele (ela?) escreve piedosamente. Incidentes de uma morte súbita e violenta são interpelados por aforismos: \"Horas não sonham. Longo tente não sonhar.\"",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyintroductiontohistories",
-            "label": "Study Hersault's 'Introduction to Histories'",
+            "label": "'Introdução às Histórias do Estudo Hersault'",
             "actionid": "study",
             "requirements": {
                 "introductiontohistories": 1
@@ -263,14 +263,14 @@
                 "introductiontohistories": -1,
                 "fragmentsecrethistories": 1
             },
-            "startdescription": "The prologue warns at length of the iniquities of one Julian Coseley, a former colleague who Hersault now describes darkly as 'a Worm of Worms'. It seems Coseley advised Hersault early in the writing of the book, but Hersault later became suspicious.",
-            "description": "Hersault identifies Blood, Silver, Design and the Worms as the central axes of each of the Histories, and claims that the so-called Second History is the true one. ",
+            "startdescription": "O prólogo alerta bastante contra as iniquidades de um Julian Coseley, um antigo colega que Hersault agora descreve de forma obscura como \"um verme de verms\". Parece que Coseley aconselhou Hersault cedo ao escrever o livro, mas Hersault mais tarde se tornou suspeito.",
+            "description": "Hersault identifica sangue, prata, design e vermes como os eixos centrais de cada uma das histórias, e afirma que a chamada Segunda História é a verdadeira. ",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytreatiseonunderplaces",
-            "label": "Study Hersault's Treatise on Underplaces",
+            "label": "Estudar o Tratado de Hersault, em Sub-Lugares",
             "actionid": "study",
             "requirements": {
                 "treatiseonunderplaces": 1
@@ -279,14 +279,14 @@
                 "treatiseonunderplaces": -1,
                 "fragmentknockb": 1
             },
-            "startdescription": "'The walls of the Mansus,' Hersault begins, 'are the size of starlight.' Many of his directions are equally unhelpful, but common relationships do emerge.",
-            "description": "A picaresque account of a journey through nightmare, interspersed with what might be partial rites. 'On the eighteenth Ascent is the bud. On the thirty-sixth Ascent, the blossom.'",
+            "startdescription": "\"As paredes do Mãe\", Hersault começa, \"são o tamanho da estrela da estrela\". Muitas das suas direcções são igualmente inúteis, mas nascem relações comuns.",
+            "description": "Um relato picaresque de uma jornada através de um pesadelo, entrelaçado com o que poderia ser um rito parcial. \"No décimo oitavo ascendente está a nascença, nos trinta e seis Ascentes, a flor\".",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyonthewhite",
-            "label": "Study 'On the White'",
+            "label": "Estude 'Em branco'",
             "actionid": "study",
             "requirements": {
                 "onthewhite": 1
@@ -295,14 +295,14 @@
                 "onthewhite": -1,
                 "fragmentwinter": 1
             },
-            "startdescription": "On closer investigation, the work seems to be a theory of aesthetics, or perhaps a set of warnings about the dangers of painting.",
-            "description": "Husher writes distractedly of his hatred of colours and his yearning for death. He hints at a Great Work he has envisaged, or begun, where the 'palest of paintings' will enthral the world. He returns again and again to certain compelling phrases which he claims are the 'secret words of Winter'.",
+            "startdescription": "Ao investigar mais de perto, o trabalho parece ser uma teoria da estética, ou talvez um conjunto de avisos sobre os perigos da pintura.",
+            "description": "Husher escreve dissimuladamente o seu ódio às cores e o seu anseio pela morte. Sugeriu numa grande obra que previa, ou começou, onde os \"meros pinturas\" vão apaixonar o mundo. Volta vezes sem conta a certas frases convincentes que afirma serem as \"palavras secretas do Inverno\".",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studywaroftheroadscensored",
-            "label": "Study a censored edition of 'The War of the Roads, 1450-1580'",
+            "label": "Estude uma edição censurada de \"A Guerra das Estradas, 1450-1580\"",
             "actionid": "study",
             "requirements": {
                 "waroftheroadscensored": 1
@@ -311,14 +311,14 @@
                 "waroftheroadscensored": -1,
                 "fragmentsecrethistoriesb": 1
             },
-            "startdescription": "'In this past, a score or more of Longs were made. They brokered peace with the Forge of Days, long enough to set England on a path of early conquest and eventual destruction. The Forge itself devoured the greatest among them.'",
-            "description": "The royalty of England, according to Willis-Ford, became the Sovereigns of the Leashed Flame, destroying or transforming their enemies, conquering Europe, establishing grand cathedrals to St Spark. The alliance with the Forge begins to take its toll. The last few chapters are missing entirely.",
+            "startdescription": "\"Neste passado, foi feita uma pontuação ou mais de Longs. Eles mediaram a paz com a Forja de Dias, tempo suficiente para colocar a Inglaterra numa via de conquista precoce e de destruição. A própria Forja devorou a maior deles.\"",
+            "description": "A realeza da Inglaterra, de acordo com Willis-Ford, se tornou os Soberanos da Chama Lascada destruindo ou transformando os seus inimigos, conquistando a Europa, estabelecendo grandes catedrais para St. A aliança com a Forja começa a atingir o seu valor. Os últimos capítulos estão perdendo por completo.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyqueensoftherivers",
-            "label": "Study 'The Queens of the Rivers'",
+            "label": "Estude as 'Rainhas dos Rios'",
             "actionid": "study",
             "requirements": {
                 "queensoftherivers": 1
@@ -327,14 +327,14 @@
                 "queensoftherivers": -1,
                 "fragmentsecrethistories": 1
             },
-            "startdescription": "The Queen of the Vistula is poisoned. The Queen of the Dnieper chokes on a fish-hook. The Queen of the Tagus is burnt alive...",
-            "description": "The culprit, it transpires, is the audience. The surviving Queens are directed to execute whatever audience members do not escape. A surprisingly lucid epilogue suggests that the correspondence of river-names with historical events does provide clues to secret histories behind our own.",
+            "startdescription": "A Rainha da Vistula é envenenada. A Rainha do Dnieper engasga um gancho. A Rainha do Tejo é queimada viva...",
+            "description": "O culpado, revela-se, é o público. As Rainhas sobreviventes são direcionadas a executar quaisquer membros do público que não escapem. Um epílogo surpreendentemente lúcido sugere que a correspondência de nomes de rios com eventos históricos fornece pistas para histórias secretas por trás das nossas.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyapolloandmarsyas",
-            "label": "Study 'Apollo and Marsyas'",
+            "label": "Estudar 'Apollo e Marsyas'",
             "actionid": "study",
             "requirements": {
                 "apolloandmarsyas": 1
@@ -343,14 +343,14 @@
                 "apolloandmarsyas": -1,
                 "fragmentheart": 1
             },
-            "startdescription": "In the original myth, Marsyas lost a musical contest and was flayed by Apollo, who later regretted it. In this version, Marsyas' skin has a further history...",
-            "description": "The Skin of Marsyas gives oracles, and is later smuggled to Phrygia, where the priestesses of Cybele use it for a drumhead. At the opera's climax, the pounding of the drum drives would-be violators of the priestess to suicidal madness. The opera ends with a wistful hymn from the youngest priestess on the beauty of mountain pines.",
+            "startdescription": "No mito original, Marsyas perdeu um concurso musical e foi esmagado por Apollo, que mais tarde lamentou. Nesta versão, a pele Marsyas tem mais um histórico...",
+            "description": "A Pele de Marsyas dá oráculos e mais tarde é contrabandeada para Phrygia, onde os sacerdotes de Ciclo a usam para uma briga. No clima da ópera, o ataque ao tambor conduz os pretensos violadores do padre à loucura suicida. A ópera termina com um hino pulverizado do mais novo padre sobre a beleza dos pinos de montanha.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyskeletonsongs",
-            "label": "Study the Skeleton Songs",
+            "label": "Estude as músicas esqueleto",
             "actionid": "study",
             "requirements": {
                 "skeletonsongs": 1
@@ -359,14 +359,14 @@
                 "skeletonsongs": -1,
                 "fragmentgrail": 1
             },
-            "startdescription": "In Arabella's introduction, she explains that the book was to be illustrated, but that the Suppression Bureau would not permit it. She hints that the illustrations still exist somewhere. The book is dedicated to 'Sir Parsival of the Red Cup'.",
-            "description": "The Twenty-Six Delightful Fruits; the Seven Chastisements; the Nine Gardens; the Four Regrets.",
+            "startdescription": "Na introdução da língua árabe, ela explica que o livro foi ilustrado, mas que o Gabinete de Repressão não o permitiria. Ela sugere que as ilustrações ainda existem em algum lugar. O livro é dedicado a 'Sir Parsival da Copa Vermelha'.",
+            "description": "As Vinte e Seis Frutas deliciosas; os Sete Chastises; os Setes Gardens; os Quatro Lamentam.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyburningofunburntgod",
-            "label": "Study Tasmane's 'The Burning of the Unburnt God'",
+            "label": "Estude o 'Queimando do Deus Desqueimado' de Tasja",
             "actionid": "study",
             "requirements": {
                 "burningofunburntgod": 1
@@ -376,14 +376,14 @@
                 "fragmentforgeb": 1,
                 "ritetoolconsumefollower": 1
             },
-            "startdescription": "Tasmane hypothesises a pre-Zoroastrian fire deity, whose rites were the rites of smiths.",
-            "description": "Tasmane ultimately concludes, with apparent reluctance, that the deity was a goddess. He suggests that its gender may have been the cause of its suppression. The rites described are often eerie, sometimes grisly.",
+            "startdescription": "Tasmane cria uma divindade de fogo pré-zoroastriano, cujos ritos eram ritos de ferreiros.",
+            "description": "Tasmane conclui, no final, com aparente relutância, que a divindade era uma deusa. Ele sugere que seu gênero pode ter sido a causa da sua supressão. Os ritos descritos são frequentemente estranhos, às vezes famosos.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studydebellismurorum",
-            "label": "Study 'De Bellis Murorum', by 'Solipsistos'",
+            "label": "Estudo 'De Bellis Murorum', por 'Solipsistas'",
             "actionid": "study",
             "requirements": {
                 "debellismurorum": 1
@@ -392,14 +392,14 @@
                 "debellismurorum": -1,
                 "fragmentedgeb": 1
             },
-            "startdescription": "The poem elliptically describes a war between beasts, weather phenomena, and arcane concepts. It's quite specific about their tactics.",
-            "description": "'The Two-One joined, and the Horned distinguished. Consequently, blood.'",
+            "startdescription": "O poema descreve elípticamente uma guerra entre feras, fenômenos meteorológicos e conceitos arcanos. É bastante específico sobre as táticas.",
+            "description": "\"A dois juntaram-se e os Cornos distinguiram, por conseguinte, o sangue\".",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studyonwhatiscontainedbysilver",
-            "label": "Read Poemander's 'On What is Contained by Silver'",
+            "label": "Lê Poemander 'Sobre o que é Contido pela Prata'",
             "actionid": "study",
             "requirements": {
                 "onwhatiscontainedbysilver": 1
@@ -409,14 +409,14 @@
                 "fragmentlanternb": 1,
                 "ritetoolfollowerconsumelore": 1
             },
-            "startdescription": "A dire bestiary of the horrors to be found in mirrors. This is a recent edition of a third century text by 'Poemander'.",
-            "description": "'The virgins/maidens of the mirror favour orchids. The [behindlings?] favour the rhododendron. Cut flowers of either nature should not be placed before polished bronze.' An appendix contains a rite which might be used to summon some of these entities, although the details of its use are not made clear.",
+            "startdescription": "Um terrível testemunho dos horrores que se encontram nos espelhos, uma edição recente de um texto de um terceiro século intitulado \"Poemander\".",
+            "description": "\"Os virgins/donzelas do espelho a favor das orquídeas. Os [atrasados?] favorecem o rhododendron. As flores cortadas de qualquer das duas natureza não devem ser colocadas antes do bronze polido. Um apêndice contém um ritual que pode ser usado para invocar algumas destas entidades, embora os pormenores da sua utilização não sejam clarificados.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytruecompleteasclepian",
-            "label": "Read Grese's 'A True and Complete Accounting of the Asclepian Mysteries of the Roots of the House'",
+            "label": "Leia a contabilidade de Greé 'A Verue and Complete das Missteries Asclepian of the Roots of the House'",
             "actionid": "study",
             "requirements": {
                 "truecompleteasclepian": 1
@@ -426,14 +426,14 @@
                 "fragmentheartb": 1,
                 "ritetoolconsumeinfluence": 1
             },
-            "startdescription": "This is very obviously not an antique text. At the very least, it has been badly mutilated. But it contains substantial intriguing material: especially, a persuasive comparison of the many-portalled House without Walls, to the human body.",
-            "description": "'The direction of Death is down,' the book explains. 'The Peacock Door has been considered a rent, or an abrasion, but in some respects is more like a mouth - if not a more treasured point of entry.' Discussions of the Doors include a rite which may conjure creatures through those doors, although key incantations are missing.",
+            "startdescription": "É evidente que não se trata de um texto antiquado, no mínimo dos mínimos, muito mutilado. Mas contém material intrigante substancial: em especial, uma comparação persuasiva da multiplicidade de portais da Casa sem Muros, ao corpo humano.",
+            "description": "\"A direção da Morte está para baixo\", o livro explica. \"A porta do pavão foi considerada um aluguel, ou uma abreviação, mas em alguns aspectos parece mais uma boca - se não um ponto de entrada mais apreciado. As discussões das portas incluem um ritual que pode conjurar criaturas através dessas portas, embora os encantamentos importantes estejam faltando.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studywainscothistories",
-            "label": "Read Gore's 'Wainscot Histories'",
+            "label": "Leia as 'Histórias Vitórias' de Gore",
             "actionid": "study",
             "requirements": {
                 "wainscothistories": 1
@@ -442,14 +442,14 @@
                 "wainscothistories": -1,
                 "fragmentsecrethistoriesb": 1
             },
-            "startdescription": "Gore does not mention the Mansus directly, but constant coy metaphorical references to 'Ascending the Staircase of Years', to 'the Doors of Sleep', and to 'the Blue Light of Dawn' suggest he had commerce with the unseen world.",
-            "description": "'It was common in that time to speak of the Division of the Sun; by which Contemporaries understood, the irruption of Barbarian Forces, and of their uncouth Gods.'",
+            "startdescription": "Feita não menciona directamente o Mansus mas menciona constantes menções à \"Escada dos Anos\", \"Ascendendo a Escadaria dos Anos\", às \"Portas de Durma\" e à \"Luz Azul de Dawn\" sugerem que ele tinha comércio com o mundo invisível.",
+            "description": "\"Era comum nesse momento falar da divisão do Sol; que a contemporânea compreendeu, a irrupção das Forças Barbárias e dos seus deuses incontidos”.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studygeminiad",
-            "label": "Read the Geminiad",
+            "label": "Leia as Geminias",
             "actionid": "study",
             "requirements": {
                 "geminiad": 1
@@ -462,14 +462,14 @@
                 "fragmentmothd": 1,
                 "riteinfluenceconsumeingredient": 1
             },
-            "startdescription": "These pages outline the nature, and the doctrines, of an Hour that demands the union of what is at rest, an Hour that is sought at the water's edge and beneath the moon: the Witch-and-Sister. The language is knotty, poetic, wilful. It'll take some untangling.",
-            "description": "The Geminiad reminds us that the Witch-and-Sister has been known to manifest as the Sister-and-Witch - and that this face may heal, while the other face is always hungry. It implies connections between the Witch-and-Sister and the Hours of the Wood - especially the secret-keeper called the Velvet - but it is ambiguous on whether the Witch-and-Sister is a Wood-hour proper. And it speaks at length about the sadness of the two-who-are-one, the sadness that remains from their time as flesh.",
+            "startdescription": "Essas páginas descrevem a natureza e as doutrinas de uma Hora que exige a união do que está em repouso. uma Hora que se procura na beira da água e debaixo da lua: Witch-and-Sister. A linguagem é nobre, poética e selvagem. Vai precisar de uma caçadora.",
+            "description": "A Geminiada lembra-nos que se sabe que a Witch-and-Sister se manifesta como o Sister-and-Witch - e que este rosto pode ser curado, enquanto o outro rosto está sempre com fome. Implica ligações entre a Witch-and-Sister e as Horas da Madeira - especialmente o guardião secreto chamado Velvet -, mas é ambíguo saber se a Witch-and-Sister é uma hora de pau. E fala longamente da tristeza de dois quem, a tristeza que ressalta do seu tempo como carne de bovino.",
             "warmup": 90,
             "craftable": true
         },
         {
             "id": "studychioneatabydos",
-            "label": "Read 'Chione at Abydos'",
+            "label": "Ler 'Chione em Abydos'",
             "actionid": "study",
             "requirements": {
                 "chioneatabydos": 1
@@ -479,13 +479,13 @@
                 "fragmentwinterb": 1
             },
             "warmup": 60,
-            "startdescription": "The entity called 'Chione' arrives in a blizzard and demands the city gates are barred. As Abydos falls under her spell, the dead return, but do not speak...",
-            "description": "For eight years the city is a place of slow death, frosty ecstasy and silent beauty, but in the ninth year a Conspiracy of Shouts is mounted against the quiet that Chione demands. The conspirators open the city gates, and a scarred man comes to drag Chione out by the hair. Summer returns, but the conspirators die of remorse.",
+            "startdescription": "A entidade chamada 'Chione' chega a uma nevasca e exige que os portões da cidade sejam impedidos. À medida que Abydos cai sob o seu feitiço, os mortos voltaram, mas não falem...",
+            "description": "Durante oito anos, a cidade é um lugar de morte lenta, ecstasy gelado e beleza silenciosa, mas no nono ano é montada uma Conspirada de Shouts contra o silêncio que Chione exige. Os conspiradores abrem os portões da cidade, e um homem citado vem arrastar Chione pelo cabelo. O verão retorna, mas os conspiradores morrem de arrependimento.",
             "craftable": true
         },
         {
             "id": "studyirreproachabletraditionssocietynobleendeavour",
-            "label": "Read 'The Irreproachable Traditions of the Society of the Noble Endeavour'",
+            "label": "Leia \"As Tradições Irrepreensíveis da Sociedade dos Esforços Nobres\"",
             "actionid": "study",
             "requirements": {
                 "irreproachabletraditionssocietynobleendeavour": 1
@@ -495,13 +495,13 @@
                 "fragmentforgeb": 1
             },
             "warmup": 60,
-            "startdescription": "Their 'Endeavour' was no less noble - a furious arcane conflagration which would refine them into something more than human.  But such transformations are rare, and they often ended, less nobly, in ashes.",
-            "description": "Partridge claims to have identified consistent features among those who ascended. All of them had passed the Stag Door, and were accounted Know. All of them spoke the Callidate Invocation, or a greater rite, at the start of their ascension. And all of them were rich.",
+            "startdescription": "O seu \"Endavour\" não era menos nobre - uma conflagração arcana furiosa que os limitaria a algo mais do que humano. Mas essas transformações são raras, e muitas vezes acabam, menos nobres, em cinzas.",
+            "description": "As afirmações da Partridge identificaram características consistentes entre aqueles que ascenderam. Todas elas haviam passado pela porta Stag e foram contabilizadas pelo Know. Todos eles falaram a Invocação Callidate ou um círculo maior, no início de sua ascensão. E todos eles eram ricos.",
             "craftable": true
         },
         {
             "id": "studyroseofnuriel",
-            "label": "Read 'The Rose of Nuriel'",
+            "label": "Leia \"A Rosa de Nuriel\"",
             "actionid": "study",
             "requirements": {
                 "roseofnuriel": 1
@@ -512,13 +512,13 @@
                 "fragmentknockb": 1
             },
             "warmup": 60,
-            "startdescription": "St Tryphon, Nuriel explains, performed secret miracles in the name of 'She who Bleeds and Bears' and 'She who Opens'. Thus St Tryphon opened the way to the House of the Sun; thus St Tryphon underwent the Great Birth, an ascension to immortality.",
-            "description": "St Tryphon began his ascension by passing the 'Horned Door'. He continued it by learning the 'Invocation Thiatic' - which Nuriel does not here record, on account of its extreme holiness. And, Nuriel explains grimly, to achieve the Seven Marks of the Great Birth, St Tryphon consumed 'both those whose soul had left them, and even those in whom the soul remained.'",
+            "startdescription": "St Tryphon, Nuriel explicou, realizaram milagres secretos em nome de \"Ela que dormiu e Ursos\" e \"Ela que desiste\". Desta forma, St Tryphon abriu o caminho para a Casa do Sol; assim São Tryphon passou pelo Grande Nascimento, uma ascensão à imortalidade.",
+            "description": "St Tryphon começou a sua ascensão ao passar a 'porta com Chifres. Prosseguiu-o, aprendendo a \"Invocação Thiática\" - que Nuriel não refere aqui, devido à sua extrema santidade. E, Nuriel explica cruamente, para conseguir as sete notas do Grande Nascimento, St Tryphon consumiu \"tanto aqueles cuja alma os deixara como aqueles em quem a alma permanecera.\"",
             "craftable": true
         },
         {
             "id": "studyroseofhypatia",
-            "label": "Read 'The Rose of Hypatia'",
+            "label": "Leia \"A Rosa da Hypatia\"",
             "actionid": "study",
             "requirements": {
                 "roseofhypatia": 1
@@ -529,13 +529,13 @@
                 "fragmentmothb": 1
             },
             "warmup": 60,
-            "startdescription": "St Nympha is described as 'not born, but cultivated'. The sentience that became the saint, 'Hypatia' indicates, inhabited a sinner's corpse in order to enable that sinner's redemption.",
-            "description": "'Not all the Dead enter the Mansus by the Winter Door. Not all the Dead enter the Mansus at all.'",
+            "startdescription": "St Nympha é descrito como \"não nascido, mas cultivado\". O sentimento que se tornou o santo, \"Hypatia\", indica, habitou um cadáver de pecador para permitir a redenção desse pecador.",
+            "description": "'Nem todos os Mortos entram no Manso pela porta de Inverno. Nem todos os Mortos entram no Manso.'",
             "craftable": true
         },
         {
             "id": "studyroseofwaznei",
-            "label": "Read 'The Rose of Waznei'",
+            "label": "Leia \"A Rosa do Waznei\"",
             "actionid": "study",
             "requirements": {
                 "roseofwaznei": 1
@@ -546,13 +546,13 @@
                 "fragmentedgeb": 1
             },
             "warmup": 60,
-            "startdescription": "The offshoot favoured by Waznei - 'the True Sisterhood' - followed St Respicius in pursuing ascension in the name of the Door-in-the-Eye, the merciless Hour of light. St Respicius failed, perhaps because the larger Sisterhood tracked him down and ritually strangled him, but Waznei outlines steps for those who hope to succeed.",
-            "description": "'Seek in dreams; seek the Mansus. The Third Mark can be achieved only when one has passed the Stag Door. One must pass the Wood. One must rise to the White Door. The Stag Door awaits the light-bearer, in the sight of Ghirbi.'",
+            "startdescription": "O exercício favorecido por Waznei - \"A Irmandade Verdade\" - seguiu St Respicius na prossecução da ascensão em nome do Porto no Olho, a impiedosa Hora da Luz. St Respicius falhou, talvez porque a maior Irmandade o rastreou e o estrangulou ritualmente, mas Waznei delineia os passos para aqueles que esperam ter sucesso.",
+            "description": "\"Procure nos sonhos; procure o Mansus. O terceiro Marco só pode ser alcançado quando alguém passar pela porta da escada. Deve-se passar a Madeira. É preciso se erguer na porta branca. O portão de Stag aguarda o portão leve, ao ver Ghirbi.\"",
             "craftable": true
         },
         {
             "id": "studysunsetpassages",
-            "label": "Read 'Sunset Passages'",
+            "label": "Leia 'Passagens de Pôr-do-sol'",
             "actionid": "study",
             "requirements": {
                 "sunsetpassages": 1
@@ -562,13 +562,13 @@
                 "fragmentwinterb": 1
             },
             "warmup": 60,
-            "startdescription": "The Church revered the Sun-in-Splendour before it was divided -but even while it was still whole, its later selves were recognised as its Names. The Madrugad, of course, presided over death and the passage into the House.",
-            "description": "The White Ceremony was spoken to honour the Madrugad, at funerals held in the chilly space before dawn. The text cautions that all blades should remain sheathed while the Ceremony is spoken, 'lest the corpse be not quiet.'",
+            "startdescription": "A Igreja reverteu o Sun-in-Splendour antes de se encontrar dividida, mas mesmo enquanto ainda era inteiro, o seu próprio nome foi reconhecido posteriormente como os seus nomes. Naturalmente, a Madrugad presidiu à morte e à passagem para o hemiciclo.",
+            "description": "Falou-se da Cerimônia Branca para honrar a Madrugad, em funerais mantidos no espaço frio, antes do amanhecer. O texto alerta para que todas as lâminas permaneçam embainhadas enquanto a Cerimônia é falada, para que não se cale o cadáver.\"",
             "craftable": true
         },
         {
             "id": "studygospelzacchaeus",
-            "label": "Read 'The Gospel of Zacchaeus'",
+            "label": "Leia 'O Evangelho de Zacaeus'",
             "actionid": "study",
             "requirements": {
                 "gospelzacchaeus": 1
@@ -579,13 +579,13 @@
                 "ritefollowerconsumeingredient": 1
             },
             "warmup": 60,
-            "startdescription": "'Seven were the wounds of His body, seven the doors of the House. Seven the lesser aspects of the Hours, and Knock the aspect above all, for the Mother of Ants is the Mother of Salvation.'",
-            "description": "The book includes a description of a Rite which can be used to raise a corpse to half-life, 'in memory of He who bled for the Wood'. It requires a corpse and sufficient power - the author suggests an invocation of Winter-lore, and an assistant touched by the powers of the Wood.",
+            "startdescription": "\"Sete foram as feridas do seu corpo, sete das portas da Assembleia. Sete os aspectos menores das horas e empurre o aspecto acima de tudo, porque a Mãe das Ants é a Mãe da Salvação.\"",
+            "description": "O livro inclui uma descrição de Rite que pode ser usada para criar um cadáver à metade da vida, \"em memória de quem sangrou pela Madeira\". Exige um cadáver e um poder suficiente - o autor sugere uma invocação de Winterlore, e um assistente tocado pelos poderes da Madeira.",
             "craftable": true
         },
         {
             "id": "studymatthiasamethystloss",
-            "label": "Read 'On Matthias and the Amethyst Imago: Loss'",
+            "label": "Leia 'Em Matthias e Imagem de Ametista: Perdas'",
             "actionid": "study",
             "requirements": {
                 "matthiasamethystloss": 1
@@ -596,13 +596,13 @@
                 "ritetoolconsumeinfluence": 1
             },
             "warmup": 60,
-            "startdescription": "'The laws of the House forbade Matthias to love. The customs of the Wood forbade the Imago to remain. So he conjured her a final time, when she had uncovered the Shears of Alakapura; and she suffered him to cut the wings from her back, so that she might remain; and he suffered her to cut the parts which hold man's seed, to keep them from the Detestable Act. This was love in all its blood and joy. We have cast out Matthias from the House.'",
-            "description": "'The Rite of the Map's Edge was given to us by the Vagabond. It is the rite that Matthias used to summon the Amethyst Imago, but like many summoning rites, it could be used to conjure almost any entity - given the appropriate tool, and the appropriate influence. Use it gently, in memory of the Name and the Long who suffered these agonies that they might be joined.'",
+            "startdescription": "'As leis da Casa proibiram Matthias de amar. Os costumes da Madeira proibiram o Imago de permanecer. Então ele a conjurou uma última vez, quando ela tinha descoberto os tesouros de Alakapura; e ela sofreu com ele para cortar as asas das costas para poder permanecer; e sofreu com ela que cortou as partes que detinham a semente do homem, para as manter afastadas da Lei Detestável. Foi uma atitude de amor em todo o seu sangue e alegria, que exprimiu Matthias do hemiciclo.\"",
+            "description": "O Vagabond ofereceu-nos o Corte do Mapa. É o rito que Matthias usava para invocar a Ametista Imago, mas como muitos ritos invocadores, poderia ser utilizada para conjurar quase qualquer entidade - dada a ferramenta apropriada e a influência adequada. Use-o suavemente, em memória do Nome e do Longo que sofreu com essas agonias em que poderiam aderir.”",
             "craftable": true
         },
         {
             "id": "studymatthiasamethysttransformation",
-            "label": "Read 'On Matthias and the Amethyst Imago: Transformation'",
+            "label": "Leia 'Em Matthias e na imagem de ametista: Transformação'",
             "actionid": "study",
             "requirements": {
                 "matthiasamethysttransformation": 1
@@ -612,13 +612,13 @@
                 "fragmentforgec": 1
             },
             "warmup": 60,
-            "startdescription": "'We cast Matthias out, and we pronounced a curse upon the Amethyst Imago, but we watched them in dreams. We saw them pledge themselves to the Forge, to change themselves and ascend anew. Into the fire they fly.'",
-            "description": "This is the first of the practices that the Imago and Matthias used, to begin their ascent to power. They have risen beyond our sight, but their flames may yet burn in the Malleary.'",
+            "startdescription": "\"Lançamos Matthias e pronunciámos uma maldição sobre a Imago dos Ametistas, mas observámo-las nos sonhos. Vimo-los comprometer-se com a Forge, a mudar-se e a subir de novo. No fogo que voaram.\"",
+            "description": "Esta é a primeira das práticas utilizadas pelos senhores de Imago e Matthias para iniciar a sua ascensão ao poder. Levantaram-se para além da nossa visão, mas as suas chamas podem ainda queimar na Maládia.”",
             "craftable": true
         },
         {
             "id": "studymatthiasamethystpursuit",
-            "label": "Read 'On Matthias and the Amethyst Imago: Pursuit'",
+            "label": "Leia \"Em Matthias e na imagem de Ametista: Perseguição\"",
             "actionid": "study",
             "requirements": {
                 "matthiasamethystpursuit": 1
@@ -628,13 +628,13 @@
                 "fragmentgrailc": 1
             },
             "warmup": 60,
-            "startdescription": "'Matthias defied us to hunt the Names of the Moth in the Wood, to populate his pinned collection. The Amethyst Imago had dallied with the Witch-and-Sister, but she'd returned to the Wood to plead the Moth's pardon. The Moth, as a whim or a penance, sent her out to lure the Long to a slough of nightmares.'",
-            "description": "'Matthias loved the Imago. (Did he? Can Long love, or has that organ of their soul desiccated beyond repair?) The Imago loved Matthias. (Did she? Or did she only enact a whim?) He pursued her through the Wood, but at the last she turned aside from the nightmare-slough, and they lay together where the Bounds grow bright. So they learnt the Grail's pleasures, and this is the lore they won.'",
+            "startdescription": "\"Matthias nos desafiou a caçar os Nomes da Mariposa na Madeira, para encher sua coleção fixa. O Ametista Imago havia se aliado à Bruxa-e-Sister, mas ela voltou à Madeira para pedir o perdão da Má. A Maria, como um capricho, enviou-a para atrair o Longo para um ruido de pesadelo».",
+            "description": "'Matthias amavam o Imago. (Você era? Há muito amor, ou aquele órgão de sua alma tem dedicado sem reparo?) O Imago amava Matthias. (Ela é? Ou ela só aprovou um capricho? Ele a perseguiu na Madeira, mas, pela última vez, ela se afastou do pesadelo louco, e eles se posicionam juntos onde as ondas crescem. Assim, aprenderam os prazeres do Grail, e esta é a história que ganharam.\"",
             "craftable": true
         },
         {
             "id": "studyfranklinbancroftdiaries",
-            "label": "Read 'Lord Franklin Bancroft: Diaries, 1750-1790'",
+            "label": "Leia 'Lorde Franklin Bancroft: Diaries, 1750-1790'",
             "actionid": "study",
             "requirements": {
                 "franklinbancroftdiaries": 1
@@ -644,13 +644,13 @@
                 "fragmentlanternc": 1
             },
             "warmup": 60,
-            "startdescription": "Bancroft seems to have been a talented adept, but devoted his energies to frustratingly whimsical projects: arranging 'grape-fetching races' between Mansus-spirits, teaching Percussigants to juggle, and conjuring storms of imaginary blossoms for the rose-witch Ayrshire, who resolutely refused ever to couple with him. Bancroft spends twenty pages bemoaning this last.",
-            "description": "The Mantra here recorded is a high and exacting magic which can be used to pledge one's spirit to the Watchman, beginning an ascent to the House. Bancroft boasts of his ability to recite it when in his cups. He also had it set to music for a performance with fireworks at Vauxhall Gardens.",
+            "startdescription": "Bancroft parece ter sido um adepto talentoso, mas dedicou as suas energias a projectos frustrantes e caprichosos: organizar \"raças de uva\" entre os espíritos de Manse, ensinar Percussigantes a fazer malabarismo e conjurar tempestades de flores imaginárias para a rose-witch Ayrshire, que se recusou resolutamente a casar com ele. Bancroft passa vinte páginas emocionando esta última.",
+            "description": "O Mantra aqui registrado é uma magia alta e exigente que pode ser usada para prometer o espírito de um observador começando uma ascensão a esta Assembleia. Bancroft gaba-se da sua capacidade de recitá-lo em seus copos. Também tinha começado a música para um desempenho com fogo-de-artifício em Vauxhall Gardens.",
             "craftable": true
         },
         {
             "id": "studyindignitiesobliviate",
-            "label": "Read 'Those Indignities Perpetrated By the Deceitful Fraternity of Obliviates'",
+            "label": "Leia 'Aquelas incógnitas perpétuas Por Fraternidade Deceitada dos Esquecidos'",
             "actionid": "study",
             "requirements": {
                 "indignitiesobliviate": 1
@@ -661,13 +661,13 @@
                 "ritetoolfollowerconsumelore": 1
             },
             "warmup": 60,
-            "startdescription": "'FIFTY-EIGHT. That they did claim inheritance of the traditions of the House of Lethe, but that they have DISREGARDED both its most sacred and its most beautiful ceremonies where they are not found CONVENIENT. FIFTY-NINE...'",
-            "description": "'Now I share the Rite that the Order used to summon a Caligine spirit. In CLEAR DEFIANCE of the Lethean tradition they did not offer Knock-Lore with a Winter Initiate and a Malleus Imperative, BUT RATHER Winter-Lore with a Knock Initiate and the Malleus!! It is not to be borne -'",
+            "startdescription": "'FIFTY-EIGHT. Eles reivindicaram a herança das tradições da Casa de Lete, mas que descartaram tanto o seu mais sagrado como as suas mais belas cerimónias onde não são encontrados CONVENIENT. IFTY-NINE...'",
+            "description": "'Agora partilho do Rite de que a ordem costumava invocar um espírito caligrado. No CLEAR DEFIANCE da tradição Lethean não ofereceram Knock-Lore com uma Iniciativa de Inverno e um Imperativo de Malleus, MAS RATHER Winter-Lore com uma Iniciação de Knock e o Malleus! Não deve ser transmitido -'",
             "craftable": true
         },
         {
             "id": "studyfurioustantra",
-            "label": "Read 'The Furious Tantra'",
+            "label": "Leia \"O Tantra Furioso\"",
             "actionid": "study",
             "requirements": {
                 "furioustantra": 1
@@ -678,13 +678,13 @@
                 "ritefollowerconsumetool": 1
             },
             "warmup": 60,
-            "startdescription": "This tantra describes the uses and dangers of anger. It cautions that anger does not always survive transformations.",
-            "description": "'A full moon appears, creatures are reborn and even a lizard should not be slain, for it could be you.'",
+            "startdescription": "Este tantra descreve os usos e perigos de raiva. Cuidado que a raiva nem sempre sobrevive às transformações.",
+            "description": "\"Uma lua cheia aparece, criaturas resnascem e nem mesmo um lagarto deve ser morto, pois pode ser você.\"",
             "craftable": true
         },
         {
             "id": "studydevouredtantra",
-            "label": "Read 'The Devoured Tantra'",
+            "label": "Leia \"The Devoured Tantra\"",
             "actionid": "study",
             "requirements": {
                 "devouredtantra": 1
@@ -694,13 +694,13 @@
                 "fragmentgrailc": 1
             },
             "warmup": 60,
-            "startdescription": "The Devoured Tantra warns of the uses and dangers of appetite, but devotes an entire passage to the 'star-limbed hunger-bringers', who it describes with obvious affection.",
-            "description": "'A million blazing fires in the belly engulf what has been swallowed by the multiform mouths.'",
+            "startdescription": "O Adormecido Tantra avisa sobre os usos e perigos do apetite, mas dedica uma passagem inteira aos \"amontoados da fome\", que descreve com um afecto óbvio.",
+            "description": "\"Um milhão de incêndios incendiados no ventre engolir o que foi engolido pelos multiforme bocas\".",
             "craftable": true
         },
         {
             "id": "studyceaselesstantra",
-            "label": "Read 'The Ceaseless Tantra'",
+            "label": "Leia \"O Tantra sem Certeza",
             "actionid": "study",
             "requirements": {
                 "ceaselesstantra": 1
@@ -710,13 +710,13 @@
                 "fragmentheartc": 1
             },
             "warmup": 60,
-            "startdescription": "The Ceaseless Tantra is devoted mostly to warnings about the lively creatures called Percussigants, but concludes with a chant which can be used to summon them. It observes that Percussigants can be taught any dance, but they prefer only one.",
-            "description": "'That which does not cease, is not ceased.'",
+            "startdescription": "O sem César Tantra é dedicado principalmente a avisos sobre criaturas vivas chamadas Percussigants, mas conclui com um câncer que pode ser usado para invocá-los. Ele observa que percussigantes podem ser ensinados a qualquer dança, mas eles preferem apenas uma.",
+            "description": "O que não cessa, não cessa.",
             "craftable": true
         },
         {
             "id": "studyknownunknowntantra",
-            "label": "Read 'The Known-Unknown Tantra'",
+            "label": "Leia \"The Known-Unknown Tantra\"",
             "actionid": "study",
             "requirements": {
                 "knownunknowntantra": 1
@@ -726,13 +726,13 @@
                 "fragmentlanternc": 1
             },
             "warmup": 60,
-            "startdescription": "The Known-Unknown Tantra describes a journey to the White Door of the Mansus, beyond which speech ceases. It describes a mantra which can be used, at the right place and time, to achieve that door.",
-            "description": "'The light of a lantern can only ever reveal the space between the forest shadows.'",
+            "startdescription": "A conhecida Tantra Desconhecida descreve uma jornada para a Porta Branca do Mansus, para além da qual o discurso termina. Descreve um mantra que pode ser utilizado, no local e no momento certos, para conseguir essa porta.",
+            "description": "\"A luz de uma lanterna só pode revelar o espaço entre as sombras da floresta.\"",
             "craftable": true
         },
         {
             "id": "studyencirclingtantra",
-            "label": "Read 'The Encircling Tantra'",
+            "label": "Leia \"O Tango Encircling",
             "actionid": "study",
             "requirements": {
                 "encirclingtantra": 1
@@ -742,13 +742,13 @@
                 "fragmentknockc": 1
             },
             "warmup": 60,
-            "startdescription": "The Encircling Tantra speaks of the Serpent Gate, that hungry portal sometimes known as the Spider's Door, which is sacred to the Mother of Ants, through which the Great Hooded Princes pass. ",
-            "description": "The tantra includes an invocation but cautions, helpfully, that the invocation is of insufficient power to reach the Serpent Gate from the Hunter's Gate. 'A road which has no destination is itself a destination,' it adds helpfully.",
+            "startdescription": "O Encirling Tantra fala do Portão Serpente, aquele portal faminto conhecido às vezes como porta da Aranha, que é sagrado para a mãe das formigas, pela qual passam os Grandes Gananciosos Princes. ",
+            "description": "O tantra inclui uma invocação mas cautelosa, felizmente que a invocação não tem poder suficiente para chegar ao Portão Serpente do Portão do Caçador. \"Uma estrada que não tem destino é, em si mesma, um destino\", acrescenta de forma útil.",
             "craftable": true
         },
         {
             "id": "studyshavenlocktantra",
-            "label": "Read 'The Shaven Lock Tantra'/ 'The One Who Has Shaven His Hair'",
+            "label": "Leia 'The Shaven Lock Tantra'/ 'O One Quem Criou o Seu Penteado'",
             "actionid": "study",
             "requirements": {
                 "shavenlocktantra": 1
@@ -758,13 +758,13 @@
                 "fragmentmothc": 1
             },
             "warmup": 60,
-            "startdescription": "The Tantra speaks glowingly of those who are prepared to abandon their old self to seek a new and higher self. It warns that once the change has truly begun - 'past the Third Mark' - a return to the old self is dangerous and painful.",
-            "description": "'Whisper your secrets into the earth, burn them in fire, scatter them in the sea. Still they will cling to your hair,' the Tantra cautions. It provides an occult riddle that it claims is sometimes the answer to the Riddle of the Hunter's Gate.",
+            "startdescription": "O senhor deputado Tantra fala brilhantemente daqueles que estão dispostos a abandonar o seu velho para procurar um novo e mais alto. O relatório adverte que quando a mudança tiver verdadeiramente começado - \"depois do Terceiro Marco\" - o regresso ao velho é perigoso e doloroso.",
+            "description": "'Sussurrem os seus segredos na terra, queime-os em fogo, espalha-os no mar. Ainda eles se agarram ao teu cabelo,' as cauções Tantra. Ele proporciona uma charada oculta que afirma ser às vezes a resposta para a raquete do portão do caçador.",
             "craftable": true
         },
         {
             "id": "studytantraworms",
-            "label": "Read 'The Tantra of Worms'",
+            "label": "Leia \"O Tantra dos Vermes\"",
             "actionid": "study",
             "requirements": {
                 "tantraworms": 1
@@ -774,13 +774,13 @@
                 "fragmentwinterc": 1
             },
             "warmup": 60,
-            "startdescription": "The Tantra explains various less than practical countermeasures against the Worms, the 'Serpents Which Are Not Serpents'. Moth and Winter are closest to them, and so understand their weaknesses, but both have their own perils. The Lionsmith crushes them, but that's not recommended for mortals.",
-            "description": "The Worms have always been eager to inhabit us. Here are the practices which make us inhospitable to them.' There are diagrams. The diagrams are not good to look upon, and none of the practices they depict would allow the subject to survive.",
+            "startdescription": "O deputado Tantra explica várias medidas que não são práticas contra os Vermões, os \"Serpentes Que Não são Serpentes\". Mariposa e Inverno estão mais próximos deles, e assim entendem suas fraquezas, mas ambos têm seus próprios riscos. O ferreiro de leão esmaga-os, mas isso não é recomendado para mortais.",
+            "description": "Os Vermes sempre se mostraram desejosos de nos habitar. Aqui estão as práticas que nos tornam inócuos para eles». Os diagramas não são bons para analisar, e nenhuma das práticas que descrevem permitiria que o sujeito sobrevivesse.",
             "craftable": true
         },
         {
             "id": "studybookofcentipede",
-            "label": "Read 'The Book of the Centipede'",
+            "label": "Leia \"O Livro do Centipede\"",
             "actionid": "study",
             "requirements": {
                 "bookofcentipede": 1
@@ -790,13 +790,13 @@
                 "fragmentsecrethistoriesc": 1
             },
             "warmup": 60,
-            "startdescription": "'The Centipede always found her way into the dark places. When she was punished for it, she reacted badly, in the Mansus as in Miah.'",
-            "description": "'The River runs through the sands out of myth and into legend. The Painted River runs the other way. One is barred to the Centipede now, but she finds ways back in, sometimes.'",
+            "startdescription": "\"O Centipede sempre encontrou seu caminho para os lugares negros. Quando foi punido, ela reagiu mal, no Mansus como na Miah\".",
+            "description": "\"O rio atravessa as areias do mito e a lenda. O rio pintado corre do outro modo. Neste momento, estamos proibidos de entrar no Centipede mas ela encontra, por vezes, outra via.\"",
             "craftable": true
         },
         {
             "id": "studyaccountkanishkspidersdoor",
-            "label": "Read 'The Account of Kanishk at the Spider's Door'",
+            "label": "Leia \"A Conta de Kanishk na Porta das Aranhas\"",
             "actionid": "study",
             "requirements": {
                 "accountkanishkspidersdoor": 1
@@ -806,13 +806,13 @@
                 "fragmentedgec": 1
             },
             "warmup": 60,
-            "startdescription": "Kanishk sought to become a Name. In pursuit of that end, he made Lok Kahuli the vessel of his appetites, promising Lok that they would ascend together. At the Spider's Door, he betrayed his lover...",
-            "description": "The Chiliarch listened to the betrayal, and then forced Kanishk into his service. The Chiliarch cannot be denied. Lok Kahuli remained to write this work, and to describe the outer magics of struggle and contest.",
+            "startdescription": "Kanishk procurou se tornar um Name. Na busca desse fim, ele fez de Lok Kahuli o navio dos seus apetites, prometendo Lok que eles iriam ascender juntos. Na porta da aranha, ele traiu o seu amante...",
+            "description": "A Chiliarca ouviu o traidor e forçou o Kanishk ao seu serviço. Lok Kahuli permaneceu para escrever este trabalho e para descrever a magia externa da luta e competição.",
             "craftable": true
         },
         {
             "id": "studystumm",
-            "label": "Watch 'STUMM'",
+            "label": "Observar 'STUMM'",
             "actionid": "study",
             "requirements": {
                 "stumm": 1,
@@ -826,13 +826,13 @@
                 "funds": -1
             },
             "warmup": 60,
-            "startdescription": "The film rattles through the projector, glows silently on the wall. It is the story of a foolish student of forbidden sciences, who recruits a dancer to entice the Dead back into the world through a flaw in its skin. It's a fiction, but here on a title card is laid out the Operation of the Declining Sun...",
-            "description": "The Rite is depicted in chilling detail. Here is the flaw in the world, an Influence shimmering in luminous paint. Here is the dancer establishing an irresistible rhythm. Here the scholar recites the Operation; and now the misty dead whirls through the flaw to consume him! The film closes on the dancer's watchful eyes. Had she intended it all from the start?",
+            "startdescription": "O filme chacoalha através do projetor, brilha silenciosamente na parede. É a história de um estudante tolo de ciências proibidas, que recruta um dançarino para atrair os mortos de volta ao mundo através de uma falha em sua pele. É uma ficção, mas aqui em um título é definida a operação do Sol Declinado...",
+            "description": "O Rite é retratado em detalhes arrepiantes. Aqui está a imperfeição do mundo, uma Influência cintilando em tinta luminosa. Aqui está o dançarino que estabelece um ritmo irresistível. Aqui, o estudioso reciba a Operação; e agora os malvados mortos rodopiam através do vício para o consumir! O filme fecha os olhos vigilantes da bailarina. Ela tinha pretendido tudo desde o início?",
             "craftable": true
         },
         {
             "id": "studyvinzantinscriptions",
-            "label": "Read 'The Vinzant Inscriptions'",
+            "label": "Leia \"As Inscrições de Vinzant\"",
             "actionid": "study",
             "requirements": {
                 "vinzantinscriptions": 1
@@ -842,13 +842,13 @@
                 "fragmentforgec": 1
             },
             "warmup": 60,
-            "startdescription": "Long ago, the Sisterhood of the Knot recounted, the Forge loved the Hour called the Sun-in-Splendour. The Red Grail long anticipated their union, and the Grail-priestesses prophesied it...",
-            "description": "The remainder of the text consists of gloating remarks by the Grail-priestesses of the Shaping that will come, interpolated with warnings and laments from those of the Sisterhood who serve the Ring-Yew and especially the Horned Axe. Nevertheless, an invocation to the Forge is included as part of an attempt to urge it onwards.",
+            "startdescription": "Há muito tempo, a Irmandade do Knot recontou, a Forja amou a Hora chamada Sun-in-Splendour. O Grau Vermelho antecipou há muito sua união, e os sacerdotes Grail-profetizou...",
+            "description": "O resto do texto é composto por observações vangloriantes feitas pelos Sacerdotes Grail-Shaping que virão a seguir. interpolado com avisos e reclamações de Irmandade que servem o anel e, especialmente, o Machado de Chifres. Não obstante, é incluída uma invocação à Forja como parte de uma tentativa de a encorajar.",
             "craftable": true
         },
         {
             "id": "studylarquebinecodex",
-            "label": "Read 'The Larquebine Codex'",
+            "label": "Leia \"O código de Larquebina\"",
             "actionid": "study",
             "requirements": {
                 "larquebinecodex": 1
@@ -858,13 +858,13 @@
                 "fragmentheartc": 1
             },
             "warmup": 60,
-            "startdescription": "The Sister-and-Witch came from the West, where they were born in two wombs, one a princess, one a monster. Nevertheless they loved each other from birth, and met in secret 'to seek union'.",
-            "description": "When the great drought came, the kings of that land tried to sacrifice the princess and the witch, so they sailed across the Sea. When despair took them, they flung themselves into the drowning waters... and so found the Painted River, where they entered the Mansus through the offices of the Red Grail. Nevertheless, the Codex ends with a condemnation of the Grail.",
+            "startdescription": "A Irmandade e Bruxa veio do Ocidente, onde nasceram em dois lençóis, uma princesa, uma monstro. No entanto, se amavam desde o nascimento e encontravam-se em segredo \"para procurar união\".",
+            "description": "Quando chegou a grande seca, os reis daquela terra tentaram sacrificar a princesa e a bruxa, então eles navegaram pelo mar. Quando o desespero os levou, lançaram-se nas águas que se afogaram. . e assim encontrou o Rio Pintado, onde eles entraram no Mansus através dos escritórios do Grau Vermelho. No entanto, o Codex termina com uma condenação do Grail.",
             "craftable": true
         },
         {
             "id": "studyagainstsisterhoodknot",
-            "label": "Read 'Against the Sisterhood of the Knot and the Foulness of their Depraved Customs'",
+            "label": "Leia \"Contra a Irmandade do Knot e a Alma dos seus Alfândegas Depreciadas\"",
             "actionid": "study",
             "requirements": {
                 "againstsisterhoodknot": 1
@@ -874,13 +874,13 @@
                 "fragmentsecrethistoriesd": 1
             },
             "warmup": 60,
-            "startdescription": "Hieronymus claims that the powers served by the Sisterhood of the Knot made an arrangement: the Thunderskin loved the Yew, and the Grail destroyed him, as restitution for the destruction of the Axe's loved ones. Hieronymus' writing becomes incoherent with rage at this point.",
-            "description": "Hieronymus recovers his composure, eventually, to describe how the Thunderskin entered the Mansus through the Peacock Door. This, Hieronymus insists, is 'abomination upon abomination: but then that most abominable of Doors has always been an abomination.'",
+            "startdescription": "Hieronymus afirma que os poderes servidos pela Irmandade do Knot estabeleceram um acordo: o Thunderskin amava o Yew, e o Grau o destruiu, como restituição à destruição dos entes queridos do Machado. A escrita de Hieronym' se torna incoerente com a raiva neste momento.",
+            "description": "Hieronymus recupera a sua composição, um dia para descrever como o Thunderskin entrou no Mansus através da Porta de Pavão. Isto, a hierarquia insiste, é \"abominação sobre a abominação: mas então a mais abominável das portas sempre foi uma abominação.\"",
             "craftable": true
         },
         {
             "id": "studymorphycodex",
-            "label": "Read 'The Morphy Codex'",
+            "label": "Ler \"O código de troféu\"",
             "actionid": "study",
             "requirements": {
                 "morphycodex": 1
@@ -890,13 +890,13 @@
                 "fragmentsecrethistoriesd": 1
             },
             "warmup": 60,
-            "startdescription": "The writer credits the Red Grail, the Ring-Yew and the Horned-Axe - the powers the Sisterhood reveres - with agreeing a final treaty between the Hours of the House and the Hours they'd displaced: the Thunderskin loved the Yew, and the Grail destroyed him, as restitution for the slaying of the Horned-Axe's sisters and brothers.",
-            "description": "The Thunderskin entered the Mansus through the Peacock Door, 'a privilege never given to the Witch-and-Sister: but then their merit was much less'. The writer admits that entry through the Peacock Door is unseemly, but insists that under the circumstances, there was no other way.",
+            "startdescription": "O escritor credita o Grau Vermelho, o Ring-Yew e o Horned-Axe - os poderes que a Irmandade revela - em chegar a acordo sobre um tratado final entre as horas da Assembleia e as horas que tinham deslocado: a Thunderskin amava o Yew, e o Grail o destruiu, como restituição pela caça às irmãs e irmãos Horned-Mache.",
+            "description": "O Thunderskin entrou no Mansus através da Porta de Pavão, \"um privilégio nunca foi dado ao Witch-and-Sister: mas o seu mérito era muito menor\". O escritor admite que a entrada através da Porta de Pau é inadequada, mas insiste que nas circunstâncias não havia outra maneira.",
             "craftable": true
         },
         {
             "id": "studyleoninetantra",
-            "label": "Read 'The Leonine Tantra'",
+            "label": "Leia \"The Leonine Tantra\"",
             "actionid": "study",
             "requirements": {
                 "leoninetantra": 1
@@ -906,13 +906,13 @@
                 "fragmentedged": 1
             },
             "warmup": 60,
-            "startdescription": "The Tantra describes, elliptically, the Great Hooded Princes and the multitudinous ways in which they influenced wars against foreign invaders of the Land of the Great River, 'although in a sense they were also invaders'.",
-            "description": "'Lions can be created, not as children are created, nor as words are created, but as weapons are created. The Great Hooded Princes learnt to create lions from their spyings on the affairs of the Hours, and not all lions now serve the Golden General.'",
+            "startdescription": "O Tantra descreve, elípticamente, os Grandes Príncipes caprichados e as formas multitudinosas como influenciaram as guerras contra invasores estrangeiros da Terra do Grande Rio, \"embora, de certa forma, também tenham sido invasores\".",
+            "description": "'Os leões podem ser criados, não como são criadas crianças, nem como são criadas as palavras, mas como são criadas armas. Os Grandes Hooded Princes aprenderam a criar leões de seus espiões nos assuntos das horas, e nem todos os leões servem agora o General Dourado.”",
             "craftable": true
         },
         {
             "id": "studyincandescenttantra",
-            "label": "Read 'The Incandescent Tantra'",
+            "label": "Leia \"O Tantra Incandescente",
             "actionid": "study",
             "requirements": {
                 "incandescenttantra": 1
@@ -922,13 +922,13 @@
                 "fragmentforged": 1
             },
             "warmup": 60,
-            "startdescription": "Dialogues with an entity called the Crucible Prince. The Prince warns about the appetites of his mistress, the Burning Queen, and the peril of the naked desire she shares with the Sun, but professes his loyalty nevertheless.",
-            "description": "'A rite which changes is necessarily a rite which destroys. But a great change requires a destruction of savage extent.'",
+            "startdescription": "Diálogos com uma entidade chamada Príncipe Caldeira. O príncipe avisa sobre o apetite de sua névoa, a Rainha Ardente, e o perigo do desejo nu que ela compartilha com o Sol, mas apesar disso professa sua lealdade.",
+            "description": "'Um rito que muda é necessariamente um ritual que destrói. Mas uma grande mudança requer uma destruição de uma extensão selvagem?.",
             "craftable": true
         },
         {
             "id": "studythirstingtantra",
-            "label": "Read 'The Thirsting Tantra'",
+            "label": "Leia \"O Tango em Sede\"",
             "actionid": "study",
             "requirements": {
                 "thirstingtantra": 1
@@ -939,13 +939,13 @@
                 "ritetoolconsumeingredient": 1
             },
             "warmup": 60,
-            "startdescription": "A disquisition on the many varieties of thirst, their uses and their effects.",
-            "description": "The tantra describes how the satisfaction of thirsts may allow a mortal to rise into the service of the Thirsting Power, but warns of the consequences of rejecting those rarer thirsts for common ones. 'A man who thirsts, O Mighty One, whose mind clings to actions in this world, will return to this world of action from that other place.'",
+            "startdescription": "Uma disquisição sobre as muitas variedades de sede, suas utilizações e seus efeitos.",
+            "description": "O tantra descreve como a satisfação das sedes pode permitir que um mortal se levante ao serviço do Poder Sedeiro, mas adverte para as consequências da rejeição dessas sedes mais raras de sedes comuns. 'Um homem que sede, O Poderoso One, cujo espírito se agarra às ações neste mundo regressará a este mundo de acção a partir desse outro lugar.\"",
             "craftable": true
         },
         {
             "id": "studyflayedtantra",
-            "label": "Read 'The Flayed Tantra'",
+            "label": "Leia \"O Cachorro de Tantra\"",
             "actionid": "study",
             "requirements": {
                 "flayedtantra": 1
@@ -955,13 +955,13 @@
                 "fragmentheartd": 1
             },
             "warmup": 60,
-            "startdescription": "'Peel' was numbered among the Great Hooded Princes, but it breaks with its brethren and followed the Thunderskin in the endless dance.",
-            "description": "Once Peel had peeled itself, it had the ink it needed to write the Tantra. It had to face the wrath of its fellows. Here is the invocation it used to fend them off.",
+            "startdescription": "'Peel' estava entre os Grandes Princípios Hooted, mas ele se rompe com os seus irmãos e seguiu o Thunderskin na dança interminável.",
+            "description": "Uma vez que Peel se descascou, teve a tinta de que precisava para escrever a Tantra. Tinha que enfrentar a ira de seus companheiros. Eis a invocação que costumava defendê-los.",
             "craftable": true
         },
         {
             "id": "studywatchfultantra",
-            "label": "Read 'The Watchful Tantra'",
+            "label": "Leia 'O Tantra Vigiante'",
             "actionid": "study",
             "requirements": {
                 "watchfultantra": 1
@@ -972,13 +972,13 @@
                 "ritetoolfollowerconsumelore": 1
             },
             "warmup": 60,
-            "startdescription": "The Tantra describes processes of occult illumination, including a formula which may show the way from the 'Hunter's Gate' to the 'Serpent Gate' - which in the West is usually called the Spider's Door.",
-            "description": "'The Sun passes through the House at the appointed time. Since the Sun's division, the time has become uncertain.'",
+            "startdescription": "O Tantra descreve processos de iluminação oculta, incluindo uma fórmula que pode mostrar o caminho do 'Portal de Caçador' para o 'Portal Serpente' - que no Ocidente é geralmente chamado de Porta de Aranha.",
+            "description": "\"O Sol passa por esta Assembleia na altura designada\". Desde a divisão do Sol, o tempo tornou-se incerto\".",
             "craftable": true
         },
         {
             "id": "studytwinserpenttantra",
-            "label": "Read 'The Twin-Serpent Tantra'",
+            "label": "Leia 'The Twin-Serpent Tantra'",
             "actionid": "study",
             "requirements": {
                 "twinserpenttantra": 1
@@ -989,13 +989,13 @@
                 "ritefollowerconsumeingredient": 1
             },
             "warmup": 60,
-            "startdescription": "The Tantra describes the Great Hooded Princes - a dynasty of princes of unclear origin - engaging in prayers, sacrifices and poetry in honour of the Key-Serpent, the Crossroads-Twins and the Mirror-Queen. 'Nagi encircles; Nagi arises from wounds; Nagi spares those who are already harmed.'",
-            "description": "The Great Hooded Princes are described as having 'escaped from the history of their death to a history where they yet live'. The text claims that there are now one hundred and eight of them, but - in one of many instances of twinnedness - before they crossed from their death chronicle, there were only fifty-four.",
+            "startdescription": "O Tantra descreve os Grandes Gananciosos - uma dinastia de príncipes de origem pouco clara - envolvendo-se em orações, Os sacrifícios e a poesia em honra da Key-Serpent, da Crossroads-Twins e da Mirror-Queen. 'Inclinação de Nagi; Nagi nasce de feridas; Nagi poupa aqueles que já são prejudicados?.",
+            "description": "Os Grandes Princípios Capturados são descritos como tendo \"escapado da história da sua morte para uma história em que ainda vivem\". O texto afirma que existem agora cento e oito, mas - num dos muitos exemplos de geminações - antes de passarem da sua crónica de morte, havia apenas cinquenta e quatro anos.",
             "craftable": true
         },
         {
             "id": "studyfirecircletantra",
-            "label": "Read 'The Fire-Circle Tantra'",
+            "label": "Leia 'O Círculo Ardente Tantra'",
             "actionid": "study",
             "requirements": {
                 "firecircletantra": 1
@@ -1005,13 +1005,13 @@
                 "fragmentmothd": 1
             },
             "warmup": 60,
-            "startdescription": "Herein the Great Hooded Princes are shown beseeching the Wood to rise and devour an invading Timurid army. The 'Dapple-King', the 'Honey-Tree' and the 'Sea-Twins' all deny their request, until they enlist the help of a burrowing secret-keeper...",
-            "description": "Armed with blackmail material from the 'burrowing secret-keeper', the Great Hooded Princes petition the powers of the Wood for a second time, and are successful. One quarter of the Timurid army is devoured by bees, one quarter drowns themselves, and one quarter 'disrobe themselves until nothing remains.'",
+            "startdescription": "Aqui nos Grandes Ganhos são mostrados que cercam a Madeira para se erguer e devorar um exército invasor Timurid. O \"Dapple-King\", o \"Trevo-Mel\" e os \"Se-Gêmeos\" negam o seu pedido, até que eles convoquem a ajuda de um guardião de segredo...",
+            "description": "Armado com material de chantagem do \"guardião secreto\", os Grandes Princeses Hooides peticionaram pela segunda vez as potências da Madeira e obtiveram êxito. Um quarto do exército de Timurid é devorado por abelhas, um quarto afoga-se e um quarto \"disrobe por si só até que nada fique.",
             "craftable": true
         },
         {
             "id": "studyasthesunhiscourse",
-            "label": "Read 'As The Sun His Course'",
+            "label": "Leia 'Como o curso do sol'",
             "actionid": "study",
             "requirements": {
                 "asthesunhiscourse": 1
@@ -1022,13 +1022,13 @@
                 "ritefollowerconsumetool": 1
             },
             "warmup": 60,
-            "startdescription": "Alexander meets at Issus with Darius, King of Kings, for three days and three nights. On the first day, the two men trade threats; on the second, promises; on the third, secrets. Darius tells Alexander something so shattering that he retires to his tent to consider 'matters of strength and matters of mastery'.",
-            "description": "At dawn on the fourth day, Alexander announces: 'the Sun has his course, upon which he returns; and so do I'. He returns to Macedonia, executing two of his captains when they dispute his decision. He brings with him the 'names of a blind God', and a 'rite of sacred betrayal': for, Joel opines, without betrayal there would be an end to war.",
+            "startdescription": "Alexandre se encontra em problemas com Darius, Rei dos Reis, durante três dias e três noites. No primeiro dia, os dois homens ameaçam comercialmente; na segunda, prometerem; na terceira, segredos. Darius diz a Alexandre algo de tão estilhaçado que se aposenta na sua tenda de considerar \"questões de força e de mestre\".",
+            "description": "No amanhecer no quarto dia, Alexandre anuncia: \"o Sol tem o seu curso, sobre o qual ele volta; e eu também. Ele volta para a Macedónia, executando dois de seus capitães quando discutem sua decisão. Ele traz consigo os \"nomes de um Deus cego\" e um \"rito de traição sagrada\": para Joel opina, sem traição, haveria fim à guerra.",
             "craftable": true
         },
         {
             "id": "studyconcursumdiaries",
-            "label": "Read 'The Concursum Diaries'",
+            "label": "Leia \"Os Diários da Concursão\"",
             "actionid": "study",
             "requirements": {
                 "concursumdiaries": 1
@@ -1038,13 +1038,13 @@
                 "fragmentlanternd": 1
             },
             "warmup": 60,
-            "startdescription": "'There are map-legends, there are maps of legends, and there are legends of maps. Aspects of the Mansus subsist in all of these, in much the same way that you find water in a swamp and in a cup and in the sky.'",
-            "description": "Westergren describes a series of expeditions into the Mansus. He focuses on the details of the experience - the colours, the vistas, the textures - rather than the practicalities. He does warn that the Mansus changes each year, although he assures the reader that the Doors have been the same. 'Doors may close, but they never disappear. At least not while there have been mortals in the Mansus. We're like mice.'",
+            "startdescription": "\"Existem lendas de mapa, existem mapas de legendas, e há legendas de mapas. Aspectos do Mansus subsistem em todos estes aspectos, da mesma forma que se encontra água num pântano e numa xícara e no céu.\"",
+            "description": "Westergren descreve uma série de expedições para o Mansus. Centra-se nos detalhes da experiência - as cores, os vistas, as texturas - e não nos aspectos práticos. Ele avisa que o Mansus muda todos os anos, embora garanta ao leitor que as portas são as mesmas. 'Portas podem fechar, mas elas nunca desaparecem. Pelo menos enquanto houver mortais nos Mansus. Nós somos como mices.'",
             "craftable": true
         },
         {
             "id": "studyironbook",
-            "label": "Read 'The Iron Book'",
+            "label": "Leia \"O Livro de Ferro\"",
             "actionid": "study",
             "requirements": {
                 "ironbook": 1
@@ -1054,13 +1054,13 @@
                 "fragmentforged": 1
             },
             "warmup": 60,
-            "startdescription": "Members of the Ordo took an oath, the Iron Chain, that required them to remain hidden from the world. This manual includes presumably long-obsolete addresses and pass-phrases that could have been used to find the Ordo's contact in the town of Iria.",
-            "description": "The final part of the manual describes the punishments for Ordo members who break their oath of secrecy. This includes an invocation used to summon the spirit called King Crucible as an agent of vengeance. Yivni cautions that this must be a last resort when the oathbreaker would otherwise go unpunished: summoning King Crucible might draw the personal attention of the Forge of Days.",
+            "startdescription": "Os membros do Ordo levaram um juramento, a Corrente de Ferro, que os exigia que permanecessem escondidos do mundo. Este manual inclui endereços presumivelmente obsoletos e frases secretas que poderiam ter sido usadas para encontrar o contato da Ordo na cidade de Iria.",
+            "description": "A última parte do manual descreve as punições para os membros Ordo que quebram seu juramento de segredo. Isto inclui uma invocação usada para invocar o espírito chamado Rei Crisol como agente de vingança. As advertências de Yivni de que isto deve ser um último recurso quando o desbravador de oásis ficaria impune: convocar o Caldeirão do Rei poderia chamar a atenção pessoal da Forja de Dias.",
             "craftable": true
         },
         {
             "id": "studysilverbook",
-            "label": "Read 'The Silver Book'",
+            "label": "Leia 'O Livro Prateado'",
             "actionid": "study",
             "requirements": {
                 "silverbook": 1
@@ -1070,13 +1070,13 @@
                 "fragmentknockd": 1
             },
             "warmup": 60,
-            "startdescription": "Members of the Ordo took an oath, the Silver Chain, that forbade men to lie with woman, or women with men: 'for what may come is not always the Crime of the Sky, yet that is a furious danger.' It was apparently permissible for men to lie with men, and women with women - in fact, Burzghash suggests that should be encouraged, to distract from other temptations.",
-            "description": "The manual prescribes potential countermeasures to protect those who might be tempted to go against the oath: masks, disfigurement, severe poetic disciplines. Those who do break it are to be punished with death, although there are lesser punishments prescribed for various acts that don't involve actual coitus. An invocation is included which was used to incorporate these punishments into summoning rites.",
+            "startdescription": "Os membros do Ordo levaram um juramento, a Corrente de Prata, que proibiram os homens de deitarem com as mulheres, ou mulheres com homens: \"pelo que pode vir nem sempre é o crime do Céu e, no entanto, esse é um perigo furioso. Ao que parece, os homens tinham a possibilidade de residir entre homens e mulheres - de facto, entre as mulheres. Burzghash sugere que isso deve ser encorajado, para distrair outras tentações.",
+            "description": "Os manuais prescrevem potenciais contra-medidas para proteger aqueles que possam ser tentados a ir contra o juramento: máscaras, desfigurações, severas disciplinas poéticas. Aqueles que o quebram devem ser punidos com a morte, embora haja penas menores prescritas por vários atos que não envolvem coito real. Foi incluída uma invocação que foi utilizada para incorporar essas punições nos ritos de invocação.",
             "craftable": true
         },
         {
             "id": "studyivorybook",
-            "label": "Read 'The Ivory Book'",
+            "label": "Ler \"O Livro Marfim\"",
             "actionid": "study",
             "requirements": {
                 "ivorybook": 1
@@ -1087,13 +1087,13 @@
                 "ritefollowerconsumeinfluence": 1
             },
             "warmup": 60,
-            "startdescription": "Members of the Ordo took an oath, the Ivory Chain, not to have commerce with the Hours. Followed literally, this would be almost impossible for an adept, so the manual contains numerous clarifications, exceptions and processes of indulgence.",
-            "description": "Kurenai describes the Order's burial rites, which include spells to ensure - in theory - that the souls of dead Long are not given to the Hours. The Hour called the Ivory Dove, who memorialises and commemorates, is to be invoked, in secret, in these rites, 'for with that Hour we have made an understanding'.",
+            "startdescription": "Membros do Ordo tomaram um juramento, a Cadeia da Marfim, para não terem comércio com as Horas. Acompanhado literalmente, isso seria quase impossível para um adepto, pelo que o manual contém inúmeras clarificações, excepções e processos de indulgência.",
+            "description": "Kurenai descreve os ritos enterrados do Order, que incluem feitiços para garantir - em teoria - que as almas de Longo morto não sejam dadas às Horas. A Hora do Dia da Costa do Marfim, que memoriza e comemora, deve ser invocada. em segredo, nesses ritos \"para aquela Hora do Código, fizemos um entendimento\".",
             "craftable": true
         },
         {
             "id": "studyworlddoesnotweep",
-            "label": "Read 'The World Does Not Weep'",
+            "label": "Leia \"O Mundo Não Tem Tempo\"",
             "actionid": "study",
             "requirements": {
                 "worlddoesnotweep": 1
@@ -1104,13 +1104,13 @@
                 "riteinfluenceconsumefollower": 1
             },
             "warmup": 60,
-            "startdescription": "The unknown adept who wrote this proclaims: the world forgets, but the Ivory Dove does not. The text contains a number of prescriptions for ensuring that certain acts are remembered, including a rite which requires a sacrifice in a particularly monstrous mode...",
-            "description": "The Hours tried to bury the memory of what happened to the Wheel, the Flint, the Tide, and the Seven-Coiled, but the Dove won't permit it. Nor will he permit what happened to the First Egg to be forgotten, although it is perhaps the one thing that the Watchman might ever forgive...",
+            "startdescription": "O adepto desconhecido que escreveu estas proclamações: o mundo esquece, mas a Costa do Marfim não. O texto contém uma série de prescrições para assegurar que certos actos sejam recordados, incluir um rito que requer sacrifício em um modo particularmente monstruoso...",
+            "description": "As horas tentaram enterrar a memória do que aconteceu com a Roda o Sílex, a Lareira e os Sete Cozinhados, mas a Dova não permitirá isso. Também não permitirá que se esqueça o que aconteceu ao Primeiro Ovo, embora talvez seja uma coisa que o Watchman possa alguma vez perdoar...",
             "craftable": true
         },
         {
             "id": "studydeedsofthescarredcaptain",
-            "label": "Read 'The Deeds of the Scarred Captain'",
+            "label": "Leia \"As Acidentes do Capitão Cicatricido\"",
             "actionid": "study",
             "requirements": {
                 "deedsofthescarredcaptain": 1
@@ -1120,13 +1120,13 @@
                 "fragmentedged": 1
             },
             "warmup": 60,
-            "startdescription": "An account of the founding of Mycenae by a 'Scarred Captain' who first slew seven monsters to make the land safe.",
-            "description": "As the Captain destroys each monster, a flood of blood rises higher, until at last a priestess drowns and is reborn as a serpent-goddess. She blesses the Captain, and he departs for the 'House above the Forest', leaving Mycenae to reign supreme after the flood of blood subsides.",
+            "startdescription": "Um relato da fundação de Micenas por um 'Capitão Cicatriz' que matou pela primeira vez sete monstros para tornar a terra segura.",
+            "description": "À medida que o Capitão destrói cada monstro, uma enchente de sangue sobe mais alta, até finalmente uma sacerdote se afoga e renasce como uma serpente-deusa. Ela abençoa o Capitão e ele desvia para a \"Casa acima da Floresta\", deixando a Micenas soberana após a inundação de sublados sanguíneos.",
             "craftable": true
         },
         {
             "id": "studybookofdissolution",
-            "label": "Read 'The Book of Dissolution'",
+            "label": "Leia 'O Livro da Dissolução'",
             "actionid": "study",
             "requirements": {
                 "bookofdissolution": 1
@@ -1137,13 +1137,13 @@
                 "ritetoolconsumefollower": 1
             },
             "warmup": 60,
-            "startdescription": "The Book consists mostly of prayers to the Unburnt God, the Forge of Days which consumes and transforms. It suggests the Forge's power arises partly from its nature, and partly from its tools.",
-            "description": "The Book describes an earlier House of the Sun, whose doors and ways were different. It praises the Forge of Days for opening the ways into the house, and for transforming that which was to that which is, despite the screams of stone...",
+            "startdescription": "O livro consiste principalmente em orações ao deus Desqueimado, a Forja de Dias que consome e se transforma. Sugere que o poder do Forge resulte em parte da sua natureza e, em parte, dos seus instrumentos.",
+            "description": "O Livro descreve uma casa do Sol anterior, cujas portas e maneiras eram diferentes. Ele elogia a Forja de Dias para abrir as portas para a casa, e por transformar aquilo que estava no que está, apesar dos gritos de pedra...",
             "craftable": true
         },
         {
             "id": "studycatalogueofunchartedpleasures",
-            "label": "Read 'A Catalogue of Uncharted Pleasures'",
+            "label": "Leia \"Um Catálogo de Pleasures Inexplorados\"",
             "actionid": "study",
             "requirements": {
                 "catalogueofunchartedpleasures": 1
@@ -1153,13 +1153,13 @@
                 "fragmentgraile": 1
             },
             "warmup": 60,
-            "startdescription": "'Some pleasures,' the Formulae Voluptuous attest, 'are so intense they can corrupt the laws of the physical world'. This text catalogues some of those instances.",
-            "description": "Birth occurs at the conjunction of pleasure and torment. So the first Forbidden Acts of the Forge birthed sparks of delight which took root in the Glory or in Nowhere: who can say? So the seeds of the Flowermaker were planted, though for long years he was nothing but an unfulfilled ache.",
+            "startdescription": "\"Alguns prazers\", os atestos de fórmula Volutuosa, \"são tão intensos que podem corromper as leis do mundo físico\", e este texto cataloga alguns desses casos.",
+            "description": "O nascimento ocorre na conjugação do prazer e do tormento. Então, os primeiros Atos Proibidos da Forja nascidos com faíscas de prazer que enraizaram a Glória ou em nenhum lugar: quem sabe dizer? Portanto, as sementes do Flowermaker foram plantadas, embora durante longos anos não fosse mais do que uma dor não cumprida.",
             "craftable": true
         },
         {
             "id": "studythosewhodonotsleep",
-            "label": "Read 'Those Who Do Not Sleep'",
+            "label": "Leia \"Aqueles que Não Dormem\"",
             "actionid": "study",
             "requirements": {
                 "thosewhodonotsleep": 1
@@ -1170,13 +1170,13 @@
                 "ritetoolconsumeingredient": 1
             },
             "warmup": 60,
-            "startdescription": "'The Sister-and-Witch were born in two wombs, one poor one rich, across the sea. The Sister was stronger in the aspect of Heart, and so their survival was assured; the Witch was stronger in the aspect of Grail, and so they were not satisfied...'",
-            "description": "'When the Sister and Witch came from the West, the Red Grail permitted their ascension, but then grew jealous of their power. It lured a great musician into the ranks of its Names, and caused him to be reborn from blood as a Heart-hour, so that the Grail might maintain dominion there also. But its victory is not assured.'",
+            "startdescription": "\"A Irmandade e Bruxa nasceram em duas mulheres, uma pobre e outra do outro lado do mar. A Irmã era mais forte no que respeita ao Coração e, portanto, a sua sobrevivência foi assegurada; a Bruxa era mais forte no aspecto do Grail, pelo que não estavam satisfeitos...\"",
+            "description": "\"Quando a Irmã e a Bruxa vieram do Ocidente, o Grau Vermelho permitiu a sua ascensão, mas depois ficou com inveja do seu poder. Ele atraiu um grande músico para os ranks de seus Nomes, e fez com que ele renascesse do sangue como uma hora de coração, para que o Grail também aí mantenha o seu domínio. Mas a sua vitória não está assegurada.”",
             "craftable": true
         },
         {
             "id": "studytheskythesoul",
-            "label": "Read 'The Sky, the Soul'",
+            "label": "Leia \"O céu, a alma\"",
             "actionid": "study",
             "requirements": {
                 "theskythesoul": 1
@@ -1187,13 +1187,13 @@
                 "fascination": 1
             },
             "warmup": 60,
-            "startdescription": "Kalle's verses are brief, obscure, and often dominated by images of violence. 'A star is a pin-prick, but the Sun is a wound.'",
-            "description": "'It's always possible to be deader,' Kalle states. 'The Watchman goes before; none but seven may go after.' 'Yet surely we are born to the Glory as the sparks fly upwards.'",
+            "startdescription": "Os versículos de Kalle são curtos, obscuros e muitas vezes dominados por imagens de violência. 'Uma estrela é um pin-preço, mas o Sol é uma ferida.'",
+            "description": "'É sempre possível ser demitido,' Kalle diz. 'O observador vai antes; nenhum(a) sete poderá ir mais longe. No entanto, não há dúvida de que nascemos para a Glória enquanto as faíscas voam para cima.",
             "craftable": true
         },
         {
             "id": "studyonthematterandthedeedsofserpents",
-            "label": "Read 'On the Matter and the Deeds of Serpents'",
+            "label": "Leia 'Na matéria e nas Providas dos Serpentes'",
             "actionid": "study",
             "requirements": {
                 "onthematterandthedeedsofserpents": 1
@@ -1204,13 +1204,13 @@
                 "dread": 1
             },
             "warmup": 60,
-            "startdescription": "The serpent-folk called the Great Hooded Princes came to know the order called the House of Lethe, and warred across the miles with them. They made an alliance with the Mother of Ants, 'whose children they had been'...",
-            "description": "The text describes how the Great Hooded Princes escaped (or will escape) from the Fifth History, where they had died (or were doomed to die). They engaged in a secret conquest of 'the land of the Great River', called India in some histories, and have ensured that all other conquests of that land are false conquests.",
+            "startdescription": "A serpente chamou os Grandes Príncipes Hooded veio a conhecer a ordem chamada Casa de Lethe, e cruzou as milhas com eles. Eles fizeram uma aliança com a Mãe dos Antes, \"cujos filhos eles tinham sido\"...",
+            "description": "O texto descreve como os Grandes Princípios Hooded escaparão (ou escapará) da Quinta História, onde eles morreram (ou estavam condenados a morrer). Eles se envolveram numa conquista secreta da \"a terra do Grande Rio\", chamada Índia em algumas histórias, e asseguraram que todas as outras conquistas daquela terra sejam falsas conquistas.",
             "craftable": true
         },
         {
             "id": "studyserenityofblackwood",
-            "label": "Read 'The Serenity of the Black Wood'",
+            "label": "Leia \"A Serenidade da Madeira Negra\"",
             "actionid": "study",
             "requirements": {
                 "serenityofblackwood": 1
@@ -1221,13 +1221,13 @@
                 "fascination": 1
             },
             "warmup": 60,
-            "startdescription": "The 'Proverbial Footloose' gathers travellers in a wood, and leads them through, but abandons them part-way. They find themselves beset by 'glorious monsters'.",
-            "description": "The travellers discover they can survive if they close their eyes (they adopt a closed eye as their sign) and that they can go unnoticed if they drink from the clear cold streams. They never forget 'that proverbial footloose, the Centipede', but they never forgive her either.",
+            "startdescription": "O \"Proverbial Footloose\" reúne os viajantes numa madeira e os leva a melhor, mas abandona-os parcialmente, e vêem-se atormentados por \"monges gloriosos\".",
+            "description": "Os viajantes descobrem que podem sobreviver se fecharem os olhos (adotam um olho fechado como sinal) e que podem passar despercebidos se bebem dos fluxos de frio claros. Nunca se esquecem de \"calçado provérbio, Centipede\", mas também nunca a perdoam.",
             "craftable": true
         },
         {
             "id": "studybookofthrones",
-            "label": "Read 'The Book of Thrones'",
+            "label": "Leia 'O Livro dos Tronos'",
             "actionid": "study",
             "requirements": {
                 "bookofthrones": 1
@@ -1238,13 +1238,13 @@
                 "fragmentedgee": 1
             },
             "warmup": 60,
-            "startdescription": "In 'the first and greatest history', a subject of the Shadowless Empire of Persia travels to the West, to the kingdom of the Perseids. There he becomes a protégé of the tutelary Perseid deity, the Scarred Man who lives in the dark. He returns after seven years to put his skills at the service of the Shadowless Empire, becoming their Golden General...        ",
-            "description": "After many years of peace, the heirs of the Perseids move against the King of Kings and the Shadowless Empire. The Golden General will not take arms against the blood of his mentor, until the King of Kings whispers 'a great secret of betrayal' in his ear. He breaks his sword, forswears his oath to both the Empire and the Scarred Man, and enters 'the Temple behind the World', leaving his life behind.",
+            "startdescription": "Na 'primeira e maior história', um assunto do Império sem sombras da Pérsia viaja para o Ocidente, para o reino dos Perseides. Aí ele se torna um proteico da divindade tutelar em Perseid, o Homem Cicatriz que vive no escuro. Ele volta sete anos depois de colocar suas habilidades ao serviço do Império sem sombra, tornando-se seu General Dourado. .        ",
+            "description": "Depois de muitos anos de paz, os herdeiros do Perseids se movem contra o Rei dos Reis e o Império sem sombra. O General Dourado não tomará armas contra o sangue de seu mentor, até que o Rei dos Reis sussurre 'um grande segredo de traição' em sua orelha. Ele quebra sua espada, evita o juramento tanto ao Império quanto ao Cicatriz, e entra no 'Templo atrás do Mundo', deixando sua vida para trás.",
             "craftable": true
         },
         {
             "id": "studysecondglory",
-            "label": "Read 'A Second Glory'",
+            "label": "Ler \"A Segunda Glória\"",
             "actionid": "study",
             "requirements": {
                 "secondglory": 1
@@ -1256,13 +1256,13 @@
                 "riteinfluenceconsumefollower": 1
             },
             "warmup": 60,
-            "startdescription": "Juceh engages in an apologia for the destruction of the Hours: they were old, they were cowardly, they were vile, their time had passed, and it was the shining destiny of humankind to seize the House through glorious battle.",
-            "description": "Juceh recounts how the Hour called Seven-Coils was slain in battle by the Colonel, how the Grail devoured the Hour called Tide, and how the Egg Unhatching 'fled like a coward'. He's quite vituperative about the Egg Unhatching. He warns darkly against its return.",
+            "startdescription": "Juceh toma conta de uma apologia para a destruição das Horas: eram velhos, eram covardes, eram cruéis, eram cruéis, O seu tempo passou, e foi o brilhante destino da humanidade que agarrou a Assembleia através de uma batalha gloriosa.",
+            "description": "Juceh reconta como a Hora de se chamar Sete Coils foi morto em batalha pelo coronel, como o Grão devorou a Hora chamada de Ladrão, e como o Ovo desenfreadamente 'fugiu como um covarde'. Ele é muito vituperativo quanto ao Ovo. Ele avisa escuro contra seu retorno.",
             "craftable": true
         },
         {
             "id": "studybookoftrueblood",
-            "label": "Read 'Book of True Blood'",
+            "label": "Leia 'Livro do Verdadeiro Sangue.'",
             "actionid": "study",
             "requirements": {
                 "bookoftrueblood": 1
@@ -1273,13 +1273,13 @@
                 "dread": 1
             },
             "warmup": 60,
-            "startdescription": "The Legion's Legate answered directly to the Hour called the Tribune of Scars, and was promised immortality if he died in battle...",
-            "description": "In the final part, Cassius confesses to being a former Legate. He recounts his terror of the Tribune, and divulges the secret lore of the Golden General, the champion of the Shadowless Empire, the enemy of the Tribune, in the hope that the Tribune will some day be undone.",
+            "startdescription": "A Legada da Legião respondeu diretamente à Hora chamando Tribuna dos Carros, e lhe prometeram imortalidade se ele morreu em batalha...",
+            "description": "Na última parte, Cassius confessa ser um antigo legado. Ele reconta o seu terror no Tribunal, e divulga a história secreta do General Dourado, o campeão do império sem sombra, o inimigo da Tribuna, na esperança de que a Tribuna algum dia seja desfeita.",
             "craftable": true
         },
         {
             "id": "studyburningwoman",
-            "label": "Read 'The Burning Woman'",
+            "label": "Leia \"A Mulher Ardente\".",
             "actionid": "study",
             "requirements": {
                 "burningwoman": 1
@@ -1290,13 +1290,13 @@
                 "fascination": 1
             },
             "warmup": 60,
-            "startdescription": "The play describes a pilgrimage of smiths and adepts following the trail of the Burning Woman, who has appeared in all their dreams and given each a Wound and a Word.",
-            "description": "The smiths and adepts give up on finding the Burning Woman, and resolve to build their own kingdom, 'where our strength will be sufficient to shatter the world.'",
+            "startdescription": "A peça descreve uma peregrinação de ferreiros e adeptos que seguem o rasto da Mulher Ardente, que apareceu em todos os seus sonhos e deu uma Ferida e uma Palavra.",
+            "description": "Os ferreiros e adeptos desistem de encontrar a Mulher Ardente, e resolvam construir seu próprio reino, \"onde a nossa força será suficiente para despedaçar o mundo\".",
             "craftable": true
         },
         {
             "id": "studytwentysixenticementsseventorments",
-            "label": "Read 'Twenty-Six Enticements, Seven Torments'",
+            "label": "Leia 'Vinte e Seis, Encaixes, Sete Tormentos'",
             "actionid": "study",
             "requirements": {
                 "twentysixenticementsseventorments": 1
@@ -1307,13 +1307,13 @@
                 "dread": 1
             },
             "warmup": 60,
-            "startdescription": "'The Enticements of the Grail outnumber its Torments, but its Torments are its final nature. Birth is the First Torment, and Thirst the Seventh'.",
-            "description": "Through the enumeration of the Grail's enticements and torments winds the sorrowful history of the Witches of the Dry Land: the ordeal of birth from two wombs, their struggle from and supplication of the Grail, the yearning for union which drives them all.",
+            "startdescription": "'Os Enticings do Grail ultrapassam seus Tormentos, mas seus Tormentos são a sua natureza final. Nascimento é o Primeiro Tormento e Terceira dos Setem'.",
+            "description": "Através da enumeração dos aprendizados e tormentos do Grail, a triste história das Witches do Dry Land: a provação de nascimento de duas vias, a sua luta contra o \"Grail\", o desejo de união que os anima a todos.",
             "craftable": true
         },
         {
             "id": "studyhistoryofshadowlesskings",
-            "label": "Read 'A True and Accurate History of the Shadowless Kings'",
+            "label": "Leia 'Uma história verdadeira e precisa dos Reis sem sombra'",
             "actionid": "study",
             "requirements": {
                 "historyofshadowlesskings": 1
@@ -1324,13 +1324,13 @@
                 "fragmenthearte": 1
             },
             "warmup": 60,
-            "startdescription": " 'The first and greatest history' is described herein. The Persian Empire - 'the sons of Achaemenes', 'the Shadowless Kings', 'the most Glorious Empire' - survives the assaults of Alexander the Great and flourishes as late as the fifth century. ",
-            "description": "After the fall of Rome, the Shadowless Empire takes Byzantium under its wing, and moves East against the Land of the Great River. Isaac begins to recount the invasion struggling against 'the unskinned armies of the hooded serpents', but ends abruptly with a series of incantations that he claims allowed the Shadowless Empire to persist.",
+            "startdescription": " 'A primeira e a maior história' está descrita aqui. O Império Persa - \"filhos de Aquemenes\", \"Reis sem sombra\", \"Império mais Glorioso\" - sobrevive aos ataques de Alexandre, o Grande, e floresce já no século V (Quinto século). ",
+            "description": "Após a queda de Roma, o Império Sombrio assume o Bizâncio sob sua asa, e move para o leste contra a Terra do Rio Grande. Isaac começa a recontar a invasão lutando contra os \"exércitos sem pele das serpentes encapsuladas\", mas termina bruscamente com uma série de encantamentos que ele afirma ter permitido que o Império Sem Sombra persistisse.",
             "craftable": true
         },
         {
             "id": "studyhighmysterieschurchsolar",
-            "label": "Read 'The High Mysteries of the Innermost Chamber of our Church Solar'",
+            "label": "Leia \"Os Altos Mistérios da Câmara mais Interna de nosso Solar da Igreja\"",
             "actionid": "study",
             "requirements": {
                 "highmysterieschurchsolar": 1
@@ -1341,13 +1341,13 @@
                 "fascination": 1
             },
             "warmup": 60,
-            "startdescription": "The Church chiefly worshipped the Sun-in-Splendour, the original undivided sun; but this text also includes the devotions of its aspects as the chilly winter dawn and the departing sunset, as well as the Meniscate, the Sun's 'night-self'. Priests of the Church were all male, but rites are also included which allowed women to cross ceremonially to manhood.",
-            "description": "The Church's highest rites were performed in the Concursum, the chamber at the Mansus' heart where the Hours were known to pass. These rites include salutations to non-solar Hours: the Grail, the Ring-Yew, the Horned Axe and the Thunderskin.",
+            "startdescription": "A Igreja adorava principalmente o Sol Esplendor, o sol original undividido; mas este texto inclui também as devoções dos seus aspectos como o amanhecer frio do inverno e o pôr do sol que partiu. bem como o Meniscate, o Sol \"à noite\". Os padres da Igreja eram todos do sexo masculino, mas foram também incluídos ritos que permitiram às mulheres atravessar cerimonialmente até à infância.",
+            "description": "Os ritos mais altos da Igreja foram realizados na Concursal, a câmara no coração de Manso, onde se sabia que as horas passavam. Estes ritos incluem saudações para horários não-solares: o Grail, o anel Yew, o machado com chifres e o Thunderskin.",
             "craftable": true
         },
         {
             "id": "studymedusaslament",
-            "label": "Read 'Medusa's Lament'",
+            "label": "Leia \"Lamentação da Medus\"",
             "actionid": "study",
             "requirements": {
                 "medusaslament": 1
@@ -1358,13 +1358,13 @@
                 "dread": 1
             },
             "warmup": 60,
-            "startdescription": "The first part of the poem describes the ambush of the Seven-Coils by a warrior 'scarred all over by the traitor gods, scarred even unto his eyes, so that the sight of the great coils would not destroy him'.",
-            "description": "The battle rages on until the Seven-Coils drowns in its own blood, at which point the narrative turns mystical and allusive. A seven-titled goddess arises from the foam of its blood: she is an armoured queen, a serpent-daughter, a key, a healer, a murderess, an oracle, but her seventh title is not to be revealed.",
+            "startdescription": "A primeira parte do poema descreve a emboscada das Sete Bobas por um guerreiro 'marcado pelos deuses de traição, marcou até aos seus olhos, para que a visão das grandes bobinas não o destruíssem\".",
+            "description": "A batalha arrasta-se até que os Sete Carolinas se afoguem no seu próprio sangue, o que faz com que a narrativa se vire mística e alucinante. Uma deusa de sete títulos surge da espuma de seu sangue: ela é uma rainha blindada, uma serpente filha, uma chave, um curandeiro, um assassino, um oráculo, mas o seu sétimo título não deve ser revelado.",
             "craftable": true
         },
         {
             "id": "studybookofmasks",
-            "label": "Read 'The Book of Masks'",
+            "label": "Leia o Livro das Máscaras",
             "actionid": "study",
             "requirements": {
                 "bookofmasks": 1
@@ -1374,13 +1374,13 @@
                 "fragmentmothe": 1
             },
             "warmup": 60,
-            "startdescription": "The Mask of the Laughingthrush, says Athena Vana, had a great friendship with the Sun-in-Splendour, the highmost Hour of the Mansus (now divided and departed). The Mask of the Sight-Thief painted the river in the Mansus. The Mask of the Vagabond was forbidden the Mansus, not for what she had done, but for what would occur...",
-            "description": "The Mask of the Centipede recalled her birth-place, Miah, which had punished her for creeping into the temple precinct. This Mask cursed Miah to drink only dust and to be remembered only by the wind - 'for not beneath any Mask does she forgive, and the Centipede's hunger is not to be forgotten.'",
+            "startdescription": "A máscara da Risonha, disse Athena Vana, teve uma grande amizade com o Sunin Splendour, a maior Hora do Mansus (agora dividida e partida). A máscara do Sight-Thief pintou o rio no Mansus. A máscara do Vagabond era proibida aos Mansus, não pelo que ela tinha feito, mas pelo que aconteceria...",
+            "description": "A máscara da Centipede lembrou o seu local de nascimento, Miah, que a puniu por ter entrado no recinto do templo. Esta máscara amaldiçoou Miah a beber apenas pó e a ser lembrada apenas pelo vento - \"por não debaixo de nenhuma máscara ela perdoa, e a fome do Centipede não deve ser esquecida.\"",
             "craftable": true
         },
         {
             "id": "studyinthemountainsasupontheplain",
-            "label": "Read 'In The Mountains As Upon The Plain There May Not Be A Path Where None Has Passed'",
+            "label": "Leia 'Nas Montanhas Como Após o Planalto Pode Não Ser Um Caminho Onde Nenhum Passeu'",
             "actionid": "study",
             "requirements": {
                 "inthemountainsasupontheplain": 1
@@ -1391,13 +1391,13 @@
                 "fragmentmothe": 1
             },
             "warmup": 60,
-            "startdescription": "Ninegala tells a number of lively stories about riddling ogres and wars between mountain tribes, but turns sombre in the tale of the Empty-Handed Hunter: a lover of the Grail who sought to match her appetites and join her as an Hour, but in the end rent and devoured himself, giving his name to the mountains he had once roamed.",
-            "description": "Ninegala claims that the Hours who sometimes manifest as birds - the Laughingthrush, the Ivory Dove, the Beachcrow and the Witch-and-Sister - meet at a secret location on a mountaintop to exchange gossip unheard by their peers. Now and then a mortal overhears them. The mortal is always obliterated, and the meeting-place always changed.",
+            "startdescription": "Ninegala conta uma série de histórias animadas sobre ovos encharcados e guerras entre tribos montanhosas, mas se torna sombrio na história do Caçador de Empty-Hand: um amante do Grail que procurava combinar com seu apetite e se juntar a ela como uma Hour, mas, no final, o aluguel e o devoraram, dando o seu nome às montanhas que um dia tinha vagado.",
+            "description": "Ninegala alega que as Horas que às vezes se manifestam como aves - a Risonha, a Costa do Marfim, o Beachcrow e o Witch-and-Sister - encontrem-se em um local secreto no topo da montanha para trocar boatos sem ouvido por seus pares. De vez em quando, um mortal os ouve. O mortal sempre foi destruído e o local de reunião sempre mudou.",
             "craftable": true
         },
         {
             "id": "studymemoryofgods",
-            "label": "Read 'In Memory of Gods'",
+            "label": "Leia \"Em Memória dos Deuses\"",
             "actionid": "study",
             "requirements": {
                 "memoryofgods": 1
@@ -1408,13 +1408,13 @@
                 "dread": 1
             },
             "warmup": 60,
-            "startdescription": "The Barrowchild singles out the Scarred Tribune, the Red Grail, the Forge and the Moth for especial condemnation as murderers of the first gods. 'We live in the shadow of their crime', she writes, 'and we must evade it or repeat it.'",
-            "description": "The Barrowchild describes how the Grail drained the Hour called Tide, how the Moth 'usurped the Wheel from within', stealing its skin, and how the Forge first eclipsed then shattered Flint. 'Perhaps these are glories,' she observes, 'but then it cannot be that Glory is merciful.'",
+            "startdescription": "O Barrowchild destaca a Tribuna Cicatriz, o Grau Vermelho, a Forja e a Mariposa para uma condenação especial como assassinos dos primeiros deuses. \"Vivemos na sombra do seu crime\", escreve ela, \"e temos de fugir ou repeti-lo\".",
+            "description": "A churrasqueira descreve como o Grau drenou a Hora chamada de Lixo, como a Marionete 'usurpou a Roda de dentro', roubando sua skin, e como a Forja eclipsou primeiro, então quebrou Sílex. \"Talvez estas sejam glórias\", diz ela, \"mas não pode ser que Glória seja misericordiosa\".",
             "craftable": true
         },
         {
             "id": "studysevenfoldslayingsevencoiled",
-            "label": "Read 'The Sevenfold Slaying of the Seven-Coiled'",
+            "label": "Leia \"A Sete Svenfold da Sete Codificada\"",
             "actionid": "study",
             "requirements": {
                 "sevenfoldslayingsevencoiled": 1
@@ -1425,13 +1425,13 @@
                 "dread": 1
             },
             "warmup": 60,
-            "startdescription": "There are twelve verses. In the first, an ascendant Hour identified as the Scarred One enumerates his justifications for destroying the Seven-Coiled: its appetites, its growth, its enmity to humanity. In the second, a priestess puts out his eyes and scars his skin to protect him against the Seven-Coiled's magics. In each of the next seven verses, he destroys one aspect of the Seven-Coiled...",
-            "description": "In the tenth verse, the Scarred One bathes his priestess-patron in the blood of the Seven-Coiled, to lend her power. In the eleventh, they assault the 'temple behind the world', entering it by force. In the twelfth, they swear a tripartite oath to protect their ancestors, their descendants, and themselves.",
+            "startdescription": "Há doze versos. Na primeira, uma Hora Crescente identificada como a Cicatriz (Um Cicatriz) enumerou suas justificações para destruir o Sete Coid: seus apelidos, o seu crescimento, a sua inimidade para com a humanidade. Na segunda, um sacerdote coloca os olhos e cicatriza a pele para protegê-lo contra a magia dos Sete Cozidos. Em cada um dos próximos sete versículos, destrói um aspecto dos Sete Codificados...",
+            "description": "No décimo versículo, o Cicatriz Um banha o seu padre-patrono no sangue dos Sete Codificados, para dar o seu poder. No décimo primeiro, eles atacam o 'templo atrás do mundo', entrando por força. No décimo segundo ano, juram um juramento tripartido para proteger os seus antepassados, os seus descendentes e eles próprios.",
             "craftable": true
         },
         {
             "id": "studybighuff",
-            "label": "Read 'My Deeds, My Powers, My Achievements and the Injustices Perpetrated Against Me'",
+            "label": "Leia \"Meus Deuses, Meus Poderes e minhas Conquistas e as Injustiças Perpetradas contra mim\"",
             "actionid": "study",
             "requirements": {
                 "bighuff": 1
@@ -1441,13 +1441,13 @@
                 "fragmentforgef": 1
             },
             "warmup": 60,
-            "startdescription": "Hokobald boasts of his royal descent, and insists that the magics of the Forge are more effective when practised by those of noble blood.",
-            "description": "Pocsind complains of his condemnation by the Ordo Limiae. He acknowledges that he has 'undergone alterations' after the 'consummation of that particular delight', but insists that these changes are both elegant and inevitable. 'Who is the fire, and who the fuel?' he asks rhetorically.",
+            "startdescription": "Hokobald vangloria-se do seu ascendente real e insiste que as magias da Forja são mais eficazes quando praticadas por aquelas de sangue nobre.",
+            "description": "Pocsind queixa-se da sua condenação pelo Ordo Limiae. Ele reconhece ter \"sofrido alterações\" após a \"consumação dessa alegação específica\", mas insiste em que estas mudanças são elegantes e inevitáveis. \"Quem é o incêndio e quem é o combustível?\" ele pergunta retórica.",
             "craftable": true
         },
         {
             "id": "studydreamconspiracyskies",
-            "label": "Read 'The Dream of the Conspiracy of the Lower Skies'",
+            "label": "Leia \"O Sonho da Conspiração dos Céus Inferiores\"",
             "actionid": "study",
             "requirements": {
                 "dreamconspiracyskies": 1
@@ -1458,13 +1458,13 @@
                 "fascination": 1
             },
             "warmup": 60,
-            "startdescription": "Damaon insists that the Hours, far more than mortals, are subject to their passions - to hatred, and even to love. 'The seasons of famine and plenty, the turn of the Earth, the transformations of the furnace - all these are only the results of the enactment of the lesser passions of the Hours.'",
-            "description": "Damaon suggests that the Hours have constrained their rivalry to avoid a war within the House of the Sun. He identifies the 'Fear of the Crime of the Sky' as the reason that Hours do not satisfy other passions. He speculates on the horrifying possibility of Hours turned alukite. 'What then would they devour?'",
+            "startdescription": "Damaon insiste que as horas, muito mais do que os mortais, estão sujeitas às suas paixões - ao ódio, e até mesmo ao amor. \"A estação da fome e da abundância, a virada da Terra, as transformações do forno - todas essas são apenas os resultados da promulgação das menor paixões das horas.\"",
+            "description": "Damaon sugere que as Horas limitaram a sua rivalidade para evitar uma guerra no seio da Assembleia do Sol. Ele identifica o \"medo do crime do céu\" como a razão pela qual as horas não satisfazem outras paixões. Ele especula com a terrível possibilidade de as Horas se transformarem em ratazanas, \"O que é que iriam devorar?”",
             "craftable": true
         },
         {
             "id": "studybookwhitecat",
-            "label": "Read 'The Book of the White Cat'",
+            "label": "Leia \"O Livro da Gata Branca\"",
             "actionid": "study",
             "requirements": {
                 "bookwhitecat": 1
@@ -1474,13 +1474,13 @@
                 "fragmentheartf": 1
             },
             "warmup": 60,
-            "startdescription": "The aviform Hours - the Crow, the Laughingthrush, the Dove, and the twin Kites - have been known to meet in the mountains north of Gordion, at a place called the Roost, to exchange gossip. Penelope indicates that mortals who hear their words directly are obliterated, but claims that her cat goes unnoticed and returns to her with rumours from the Hours' meetings.",
-            "description": "The stories that Penelope claims as Hour-gossip are fragmentary and confusing: accounts of contests where Hope and Dread and the Shadowless Empire are used as game-pieces, agendas of ruin and remembrance from no known history. The most interesting element is the protective incantation she records at the end of the book, after she worries that the Hours might in fact learn of her spying.",
+            "startdescription": "As horas aviárias - a coroa, o Riso, a Dova, e os gémeos Kites - sabe-se que se encontram nas montanhas a norte de Gordion, num lugar chamado Roost, para trocar fofocas. Penélope indica que mortais que ouvem suas palavras diretamente são apagados, mas afirma que o gato fica despercebido e volta para ela com rumores das reuniões das Horas.",
+            "description": "As histórias que Penelope diz como Hour-gossip são fragmentárias e confusas: concursos onde a esperança e o Dread e o império sem sombra são usados como peças-jogos, agendas de ruína e de memória de nenhuma história conhecida. O elemento mais interessante é o encantamento de proteção que ela registra no final do livro, Depois de se preocupar com a possibilidade de as horas aprenderem de facto a fazer espionagem.",
             "craftable": true
         },
         {
             "id": "studyfocusamber",
-            "label": "Read 'The Focus of Amber'",
+            "label": "Leia 'O Foco da Âmbar'",
             "actionid": "study",
             "requirements": {
                 "focusamber": 1
@@ -1491,13 +1491,13 @@
                 "fascination": 1
             },
             "warmup": 60,
-            "startdescription": "Omar claims that the Hour called Watchman is both a god-who-was-flesh - an Hour who was mortal - and also a god-from-Light - an Hour who descended from the Glory - but adds, finally, that the Watchman's origin is triple, and that 'in essence, he is Amber.'",
-            "description": "The Watchman, according to Omar, was once another Hour entirely, who ascended into the Glory to escape efforts by other Hours to send him to Nowhere. It may be that Omar's sense of persecution creeps into the narrative at this point: certainly it grows less coherent, and the last part is devoted to attempts to prove that eyes, eggs and the Sun are all in some sense conjunct.",
+            "startdescription": "Omar afirma que a Hora chamada Watchman é uma hora de deuses - uma hora que era mortal - e também uma hora de deuses da Luz - uma hora que desceu da Glória - mas acrescenta, Por último, que a origem de Watchman é tripla e que 'na essência, ele é Amber?.",
+            "description": "Segundo Omar, o Watchman, de acordo com Omar, foi uma vez mais uma hora inteira, que se deslocou à Glória para escapar aos esforços de outras horas para o mandar para o nada. É possível que o sentimento de perseguição de Omar se transforme na narrativa neste momento: certamente que é cada vez menos coerente, e a última parte é dedicada às tentativas de provar que os olhos, os ovos e o Sol são, em certa medida, conjuntos.",
             "craftable": true
         },
         {
             "id": "studysongscarapacecross",
-            "label": "Read 'The Songs of the Carapace Cross'",
+            "label": "Leia 'As Músicas da Carapaça Cruzada'",
             "actionid": "study",
             "requirements": {
                 "songscarapacecross": 1
@@ -1508,13 +1508,13 @@
                 "dread": 1
             },
             "warmup": 60,
-            "startdescription": "Xi describes the rites of the gods-who-were-stone, the first Hours, as practiced before the existence of human civilisation by the 'Carapace Cross'. He claims a final survivor of the Cross shared the information with him.",
-            "description": "The rites are largely obsolete now. Few have been observed, in the last thousand years at least, to have any effect at all. Nevertheless, Xi identifies at least one invocation of particular power. He warns that it should be used with caution, lest the gods-who-were-stone might find their way back from Nowhere.",
+            "startdescription": "Xi descreve os ritos dos deuses-who-were-stone, as primeiras horas, como é praticado antes da existência da civilização humana pela \"Corte de Carapácia\". Ele reclama um sobrevivente final da Cruz que partilhou com ele a informação.",
+            "description": "Os ritos estão em grande medida obsoletos agora. Poucos foram observados, pelo menos nos últimos mil anos, para terem qualquer efeito. No entanto, Xi identifica pelo menos uma invocação de um poder específico. Ele avisa que ele deve ser usado com cautela, para que os deuses-quem-tossa possam encontrar o caminho de volta ao nada.",
             "craftable": true
         },
         {
             "id": "studyoriginsofhours",
-            "label": "Read 'The Origins of Hours'",
+            "label": "Leia 'As Origens das Horas'",
             "actionid": "study",
             "requirements": {
                 "originsofhours": 1
@@ -1525,13 +1525,13 @@
                 "dread": 1
             },
             "warmup": 60,
-            "startdescription": "Soham's writings veer from poetry to confession. He identifies gods from flesh (those who were mortal), from blood (those who arose from sacrifice), from Light (entry from the Glory) and from stone (those who arose before his knowledge.) He insists that the Moth was the first god-who-was-blood, but later contradicts himself and claims it was the Red Grail.",
-            "description": "'The Mansus was different before the first god came from Light, but never doubt it existed, even then.'",
+            "startdescription": "Os escritos de Sohu vejam da poesia à confissão. Ele identifica os deuses da carne (aqueles que eram morta), do sangue (aqueles que nasceram do sacrifício), do Luz (entrada da Glória) e da pedra (aqueles que surgiram antes de seu conhecimento. Ele insiste que a Marie foi o primeiro deus a sangue-quem, mas mais tarde se contradiz e afirma que foi o Grau Vermelho.",
+            "description": "\"O Mansus era diferente antes de o primeiro deus vir da Luz, mas nunca duvidava da sua existência, nem então.\"",
             "craftable": true
         },
         {
             "id": "studywherehasshegone",
-            "label": "Read 'Where Has She Gone?'",
+            "label": "Leia \"Onde ela foi?\".",
             "actionid": "study",
             "requirements": {
                 "wherehasshegone": 1
@@ -1541,13 +1541,13 @@
                 "fragmentsecrethistoriesf": 1
             },
             "warmup": 60,
-            "startdescription": "The Vagabond is recorded to have travelled not only the Mansus and the Wood, not only all nine continents, but also places forbidden to other Hours...",
-            "description": "From Hour-gossip and invisible lore, Speeth deduces that the Vagabond has visited Nowhere, but that she will not return. He also asserts that she has yet to visit the Glory, but that inevitably, this must be her goal.",
+            "startdescription": "O Vagabond está registrado para não ter viajado apenas o Mansus e a Madeira, não apenas todos os nove continentes, mas também lugares proibidos em outras horas...",
+            "description": "Da hora e amor invisível, Speeth deduz que o Vagabond não visitou nenhum lugar, mas que ela não retornará. Afirma também que ela ainda tem de visitar a Clora, mas que, inevitavelmente, esse tem de ser o seu objectivo.",
             "craftable": true
         },
         {
             "id": "studybookextinguishedheart",
-            "label": "Read 'The Book of the Extinguished Heart'",
+            "label": "Leia 'O Livro do Coração Extinto'",
             "actionid": "study",
             "requirements": {
                 "bookextinguishedheart": 1
@@ -1559,13 +1559,13 @@
                 "riteconsumetoolingredientfollowerinfluence": 1
             },
             "warmup": 60,
-            "startdescription": "Lazali indicates that the Sun will be divided in the Malleary, by the Forge of Days, armed with the love in her heart.",
-            "description": "'Love will not be the cause of the Sun's death, but rather envy. Envy will not be the cause of the Sun's death, but rather thirst. Thirst shall not be the cause of his death, but curiosity. Curiosity shall not be his end; rather will it be love.'",
+            "startdescription": "Lazali indica que o Sol será dividido na Maládia, pela Forja dos Dias, armado com o amor no coração.",
+            "description": "\"O amor não será a causa da morte do sol, mas sim a inveja. A inveja não será a causa da morte do Sol, mas sim a sede. Terceira não será a causa da sua morte, mas a curiosidade. A curiosidade não será o seu fim, mas será o amor.\"",
             "craftable": true
         },
         {
             "id": "studyhowendwillbegin",
-            "label": "Read 'How the End will Begin'",
+            "label": "Leia 'Como o Fim começará'",
             "actionid": "study",
             "requirements": {
                 "howendwillbegin": 1
@@ -1576,13 +1576,13 @@
                 "dread": 1
             },
             "warmup": 60,
-            "startdescription": "In the foretold war, the Children of the Leashed Flame march on the cities of the Continent, but the 'Enactors of Solar Law' and the 'Triple Sisterhood' join forces to hold them back... at tremendous cost.",
-            "description": "'In that battle between the Imperishable Legions and the Leashed Flame, the Legions will perish and the Flame will be unleashed.'",
+            "startdescription": "Na guerra anunciada, as Crianças da Chama Levada marcham nas cidades do Continente, mas a \"Enatores da Lei Solar\" e a \"Irmã Tripla\" unem forças para os segurar. . a um custo enorme.",
+            "description": "'Nessa batalha entre as Legiões Impeíveis e a Chama Assombrada, as Legiões morrerão e as Chamas serão liberadas.'",
             "craftable": true
         },
         {
             "id": "studymanneralchemistspared",
-            "label": "Read 'The Manner in which the Alchemist was Spared'",
+            "label": "Leia \"O Manner, em que foi gerado o alquimisto\".",
             "actionid": "study",
             "requirements": {
                 "manneralchemistspared": 1
@@ -1593,13 +1593,13 @@
                 "fascination": 1
             },
             "warmup": 60,
-            "startdescription": "In the days of the Carapace Cross, when humanity lived in the dark and ate on its knees, humans could enter the Mansus like vermin. One learnt the arts of Flint, the arts of shaping and remaking...",
-            "description": "'Through the Black, the Yellow, the Red, the Unwise Mortal ascended to the shadow of the Egg Unhatching, and remained in his service. He may be there to this day.'",
+            "startdescription": "Nos tempos da Cruz de Carapaça, em que a humanidade vivia no escuro e comeu de joelhos, os seres humanos poderiam entrar no Mansus como vermin. Aprendemos as artes de Sílex, as artes de modelar e refazer...",
+            "description": "\"Através do negro, do amarelo, o Vermelho, o Mortal Insábio ascendeu à sombra do Ovo, e permaneceu ao seu serviço. Talvez ele esteja lá até hoje.",
             "craftable": true
         },
         {
             "id": "studyfivecreations",
-            "label": "Read 'Five Creations'",
+            "label": "Ler 'Cinco Criações'",
             "actionid": "study",
             "requirements": {
                 "fivecreations": 1
@@ -1610,13 +1610,13 @@
                 "dread": 1
             },
             "warmup": 60,
-            "startdescription": "'THE CARAPACE ORIGIN: we were born from shell, like the children of the wasp from the spider. THE GLORIOUS ORIGIN: our life-motes descended from Light. THE ORIGIN BEFOULED: we were found naked and smeared with muck in the roots of the Wood...'",
-            "description": "Shohei's preferred theories are that we are the children of apes who walked upright, although his tone here is satirical; or that we consumed not only our parents, 'which is not the Crime of the Sky', but also our origin, so that we came from Nowhere.",
+            "startdescription": "\"O CARAPACE ORIGIN: nascemos da concha, como os filhos da vespa da aranha. O ORIGEM GLORIOUS: nossos modos de vida descenderam da Luz. O ORIGIN BEFOULED: fomos encontrados nus e espetados com lama nas raízes da Madeira...'",
+            "description": "As teorias preferidas de Shohei são que somos filhos de macacos que andaram sacerdotes, embora o tom dele aqui seja sático; ou que consumimos não apenas os nossos pais, \"que não é o crime do céu\", mas também a nossa origem, para que viéssemos do nada.",
             "craftable": true
         },
         {
             "id": "studycommandspreservationallexists",
-            "label": "Read 'Commandments For the Preservation of All That Exists'",
+            "label": "Leia 'Comandos Para a Preservação de Tudo Que Existente'",
             "actionid": "study",
             "requirements": {
                 "commandspreservationallexists": 1
@@ -1626,13 +1626,13 @@
                 "fragmentheartg": 1
             },
             "warmup": 60,
-            "startdescription": "Elie describes powerful protective incantations to be used in a variety of circumstances.",
-            "description": "'It is essential that these Protections be completed every fourth year, to defend against the entry of the Worms and against the avidity of the Wave and the Wound.' In the current History at least, there is no indication that these Protections have been performed regularly for at least the last thousand years.",
+            "startdescription": "Elie descreve poderosos encantamentos de proteção a serem utilizados em diversas circunstâncias.",
+            "description": "\"É essencial que estas protecções sejam concluídas de quatro em quatro anos. para defender contra a entrada de Vermes e contra a avidência da Onda e do Ferimento. Pelo menos na actual História, não há qualquer indicação de que estas protecções tenham sido feitas regularmente há pelo menos mil anos.",
             "craftable": true
         },
         {
             "id": "studytimedivision",
-            "label": "Read 'The Time of Division'",
+            "label": "Leia \"O tempo da divisão\"",
             "actionid": "study",
             "requirements": {
                 "timedivision": 1
@@ -1645,13 +1645,13 @@
                 "riteconsumetoolingredientfollowerinfluence": 1
             },
             "warmup": 60,
-            "startdescription": "The Sun will be divided that it might not sire children. Still its children shall be Four in number and its children shall be Seven in number and its children shall also be Numberless. The Numberless shall open the way for the Seven, and the Seven shall consume the Four...'",
-            "description": "Amira prophesies four great wars before the Second Dawn, when the Sun-in-Splendour shall rise again. She cautions: 'Sunrise is blood, and I foretell now that the Sun shall rise from blood, yet not the colour of the blood, nor the hour of Night.' She includes a rite that she speculates will be necessary for the Second Dawn.",
+            "startdescription": "O Sol será dividido por não ser capaz de semear crianças. Ainda assim, os seus filhos serão de quatro em número e os seus filhos serão de sete em número e os seus filhos serão também numerosos. O número abrirá o caminho para os Sete, e os Sete consumirão os Quatro...'",
+            "description": "Amira profetiza quatro grandes guerras antes do Segundo Dawn, quando o Sol em Esplendor voltará a levantar-se. Ela cautela: \"Sunrise é sangue, e eu prevejo agora que o Sol se levantará do sangue, ainda não é a cor do sangue, nem a hora da noite. Ela inclui um rito que especula que será necessário para o segundo Dawn.",
             "craftable": true
         },
         {
             "id": "studymanualdeparture",
-            "label": "Read 'A Manual for Departure'",
+            "label": "Leia 'Manual para Deparação'",
             "actionid": "study",
             "requirements": {
                 "manualdeparture": 1
@@ -1662,13 +1662,13 @@
                 "dread": 1
             },
             "warmup": 60,
-            "startdescription": "No, these doors shouldn't be recorded, but if we had only recorded things before we'd had to leave the Fifth History, we would be in a much better state. So here I am writing it down, and if you don't like it you can sanction me.'",
-            "description": "The 'Manual for Departure' lists a number of strategies - occult, martial and political - for quick escapes. Many are irrelevant, obsolete or enigmatic, but the Manual does include a number of powerful techniques for opening portals.",
+            "startdescription": "Não, essas portas não devem ser gravadas, mas se tivéssemos apenas gravado as coisas antes de termos de deixar a Quinta História, estaríamos em um estado muito melhor. Portanto, aqui estou a escrevê-la e se não gostarem de me sancionará\".",
+            "description": "O \"Manual de Deparação\" lista uma série de estratégias - occulto, marcial e política - para escapar rapidamente. Muitos são irrelevantes, obsoletos ou enigmáticos, mas o Manual inclui uma série de técnicas poderosas para a abertura de portais.",
             "craftable": true
         },
         {
             "id": "studybirdsong",
-            "label": "Read 'Birdsong'",
+            "label": "Ler 'música de pássaro'",
             "actionid": "study",
             "requirements": {
                 "birdsong": 1
@@ -1680,13 +1680,13 @@
                 "dread": 1
             },
             "warmup": 60,
-            "startdescription": "INAAM: Has not the Beach-Crow shared his treasures? GARKIE: Not the rarest. He takes those things most precious, which he claims found, not stolen.",
-            "description": "The Beach-Crow, Kapigiginlupir suggests, is not only a thief, but also a spy and even a voyeur. He has hidden the memory of secret couplings among the Hours and their Names in the corners of the House, as treasures to gloat over. There is particularly fevered speculation on a liaison between the Ring-Yew, that fervent Hour of the Wood, and the Mare-in-the-Tree, who sometimes has been the Witch's Sister.",
+            "startdescription": "INAAM: Não tem o Beach-Crow compartilhado seus tesouros? GARKIE: Não é o mais raro. Ele pega aquelas coisas mais preciosas, que ele afirma terem encontrado, não roubado.",
+            "description": "A Baqua-Coroa, Kapiginlupir sugere, não é apenas um ladrão, é também um espião e até mesmo um voyeur. Escamoteou a memória de casamentos secretos entre as Horas e os seus Nomes nos cantos do Parlamento, como tesouros para mascarar. Existe uma especulação particularmente febril sobre uma ligação entre o Ring-Yew, aquela Hora feroz da Madeira, e a Montaria na Árvore, que às vezes tem sido a Irmã da Bruxa.",
             "craftable": true
         },
         {
             "id": "studyvoyagesfo",
-            "label": "Read 'The Voyages of Ferninshun of Oreol'",
+            "label": "Leia \"As Vozes de Ferninshun de Oreol\"",
             "actionid": "study",
             "requirements": {
                 "voyagesfo": 1
@@ -1696,13 +1696,13 @@
                 "fragmentsecrethistoriesg": 1
             },
             "warmup": 60,
-            "startdescription": "Ferninshun clearly visited the Mansus, sailing the length of the Painted River. He also claims to have traversed a sea of finest sand, to have dared the blazing waves of the Sun's surface, and to have descended to an underworld ocean lit by lamps of black nephrite...",
-            "description": "Ferninshun's final voyage is to retirement on a peaceful island across an evening sea, where he identifies a spring whose waters will keep him safe. 'I will be forgotten,' he declares, 'and this work my only trace.'",
+            "startdescription": "Ferninshun visitou claramente os Mansus, navegando no comprimento do rio Pintado. Ele também afirma ter atravessado um mar de areia mais bonita, ousado as ondas em chamas da superfície do Sol, e ter descendido para um oceano submundo aceso por lâmpadas de nephrito negro...",
+            "description": "A última viagem de Ferninshun é aposentar-se numa ilha pacífica ao longo de um mar nocturno, onde identifica uma Primavera cujas águas o manterão em segurança. \"Vou ser esquecido\", ele declara, \"e este trabalho é o meu único rastreio\".",
             "craftable": true
         },
         {
             "id": "studyscarsky",
-            "label": "Read 'The Scar in the Sky'",
+            "label": "Leia 'A Cicatriz no céu'",
             "actionid": "study",
             "requirements": {
                 "scarsky": 1
@@ -1714,13 +1714,13 @@
                 "riteconsumetoolingredientfollowerinfluence": 1
             },
             "warmup": 60,
-            "startdescription": "Each page of this book contains one word only, but as each page is turned, a knowledge creeps in.",
-            "description": "The final page is crowded. Each reader of the book records the same word. Now it is my turn.",
+            "startdescription": "Cada página deste livro contém apenas uma palavra, mas como cada página é virada, um conhecimento aparece.",
+            "description": "A última página está lotada. Cada leitor do livro registra a mesma palavra. Agora é minha vez.",
             "craftable": true
         },
         {
             "id": "studykitlingripe",
-            "label": "Read 'Kitling Ripe and the Moldywarp's Grave (and Other Stories)'",
+            "label": "Leia 'Gitling Ripe e o túmulo de Moldywarp (e outras histórias)'",
             "actionid": "study",
             "requirements": {
                 "kitlingripe": 1
@@ -1731,13 +1731,13 @@
                 "glimmering": 1
             },
             "warmup": 60,
-            "startdescription": "The protagonist, a speechless cat-thing called Kitling Ripe, performs a series of elaborate rites to rescue members of her extended family, culminating in the resurrection of her 'other grandmother', Moldywarp.",
-            "description": "'When the Snake-Witch killed the stag, Kitling snatched one of its eyes. When the Dry-Witch killed the sow, Kitling stole a cup of its blood. Then she took them to the place Moldywarp lay buried, and she shook out her hair, and she began to dance...'",
+            "startdescription": "O protagonista, uma coisa sem palavras chamada Kitling Ripe, faz uma série de elaborados ritos para resgatar membros da sua família prolongada. culminando na ressurreição de sua \"outra avó\", Moldywarp.",
+            "description": "'Quando a serpente-Bruxa matou o atordoamento, o Gatinho colheu um de seus olhos. Quando a Bruxa Dry matou a semea, o Gatinho roubou uma xícara de seu sangue. Então ela os levou ao lugar onde Moldywarp enterrou, e sacudiu o cabelo e começou a dançar...'",
             "craftable": true
         },
         {
             "id": "studyraptintheking",
-            "label": "Read 'Rapt in the King'",
+            "label": "Leia \"Rapto no rei\"",
             "actionid": "study",
             "requirements": {
                 "raptintheking": 1
@@ -1748,13 +1748,13 @@
                 "vitality": 1
             },
             "warmup": 60,
-            "startdescription": "The dances draw from the traditions of the Mysteries, of the cults of Isis and of Cybele, but include both symbolic and literal flayings, and the human heart is always central in the rites. The author punctuates his accounts with queasily sensuous descriptions of his own interrupted feasts.",
-            "description": "'At these greater Feasts a Black Pig is always crowned as King before its Slaying. On this Occasion, its Heart was weighed in the Balance against a Knot of Feathers, and its Skin became a Cape for the Officiant. Its Flesh was left for the Crows, but I must confess my Interest was not in its Carcass but in the Perfumed Flesh of the Milliner laid fresh in the Earth.'",
+            "startdescription": "As danças extraem das tradições dos Mistérios, dos cultos de Isis e de Cybele, mas incluem as camadas simbólicas e literais, e o coração humano está sempre no centro dos ritos. O autor pontua as suas contas com descrições vagamente sensuosas de seus próprios banquetes interrompidos.",
+            "description": "'Nessas festas, um Porco Negro é sempre coroado como Rei antes de sua caça. Nessa Ocorrência, seu Coração era pesado no Balanço contra um Knot of Penas, e sua Skin tornou-se um Cabo para o Oficial. Sua carne foi deixada para os corvos, Mas devo confessar que o meu interesse não foi na Carcasa, mas sim na carne perfumada de Miliner colocada fresca na Terra.\"",
             "craftable": true
         },
         {
             "id": "studyvienneseconundra",
-            "label": "Read 'The Viennese Conundra'",
+            "label": "Leia \"O Conundra de Viena\"",
             "actionid": "study",
             "requirements": {
                 "vienneseconundra": 1
@@ -1765,13 +1765,13 @@
                 "glimmering": 1
             },
             "warmup": 60,
-            "startdescription": "'When the individual K. attends the meetings, black dogs are sacrificed and quartered. When the individual M. is in attendance, black mares are found with their throats slashed. I propose that these sacrifices are not necessary, but that our Ligeian friends may consider them 'fitting'. Herewith diagrams of the mutilations -'",
-            "description": "'Medusa's Riddle, then, I choose to render as 'What is Not Seen?' There is another riddle, one I have heard rendered as 'What may be Lost?' I will delineate some historic attempts to answer it- these are in themselves, in some sense, sacrifices - '",
+            "startdescription": "\"Quando cada um dos K. assiste às reuniões, os cães negros são sacrificados e quarteirados. Quando o indivíduo M está presente, os senhores negros são encontrados com sua garganta cortada. Proponho que estes sacrifícios não sejam necessários, mas que os nossos amigos Ligeianos possam considerá-los \"adequados\", e aqui estão os diagramas das mutilações -\".",
+            "description": "O Riddle da Medusa opta então por apresentar o seguinte: \"O que não é visto? Há outro enigma, um que eu ouvi que era o de \"O que pode ser perdido? Vou delinear algumas tentativas históricas para lhe responder - estas são, em certa medida, sacrifícios - '",
             "craftable": true
         },
         {
             "id": "studytextbooklatin",
-            "label": "Improve my Latin",
+            "label": "Melhorar meu Latim",
             "actionid": "study",
             "requirements": {
                 "textbooklatin": 1
@@ -1780,14 +1780,14 @@
                 "textbooklatin": -1,
                 "scholarlatin": 1
             },
-            "startdescription": "I recall a certain amount from my school-days, but I need to brush up.",
-            "description": "The doors of the palace of memory are opened.",
+            "startdescription": "Eu me lembro de alguma coisa de meus dias de escola, mas preciso refrescar.",
+            "description": "As portas do palácio da memória estão abertas.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytextbookgreek",
-            "label": "Improve my Greek",
+            "label": "Melhorar meu grego",
             "actionid": "study",
             "requirements": {
                 "textbookgreek": 1
@@ -1796,14 +1796,14 @@
                 "textbookgreek": -1,
                 "scholargreek": 1
             },
-            "startdescription": "Of course I have a little Greek already. But I'll need more than a little.",
-            "description": "A determined and distinctive tongue. But I have the measure of it.",
+            "startdescription": "É claro que já tenho um pouco de grego. Mas vou precisar de mais de um pouco.",
+            "description": "Uma língua determinada e distinta, mas eu tenho a meta.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytextbookaramaic",
-            "label": "Improve my Aramaic",
+            "label": "Melhorar meu Aramaico",
             "actionid": "study",
             "requirements": {
                 "textbookaramaic": 1
@@ -1812,14 +1812,14 @@
                 "textbookaramaic": -1,
                 "scholararamaic": 1
             },
-            "startdescription": "There is, of course, no single 'Aramaic', but I will learn what I can.",
-            "description": "I have achieved a basic understanding.",
+            "startdescription": "É claro que não existe um único \"Aramai”, mas aprenderei o que puder.",
+            "description": "Consegui um entendimento básico.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytextbooksanskrit",
-            "label": "Improve my Sanskrit",
+            "label": "Melhorar minha sânscrita",
             "actionid": "study",
             "requirements": {
                 "textbooksanskrit": 1
@@ -1828,14 +1828,14 @@
                 "textbooksanskrit": -1,
                 "scholarsanskrit": 1
             },
-            "startdescription": "The name has been translated as 'the refined language'.",
-            "description": "So many words, such little time. I will keep my reference works close at hand.",
+            "startdescription": "O nome foi traduzido como \"a linguagem refinada\".",
+            "description": "São tantas as palavras, tão pouco tempo, e vou manter as minhas referências muito próximas.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytextbookfucine",
-            "label": "Develop an understanding of the long-dead Fucine language",
+            "label": "Desenvolva compreensão da linguagem de preciosidade, morta por tanto tempo",
             "actionid": "study",
             "requirements": {
                 "textbookfucine": 1
@@ -1844,14 +1844,14 @@
                 "textbookfucine": -1,
                 "scholarfucine": 1
             },
-            "startdescription": "It has something in common with Latin and something else in common with the scratchings of maddened rats.",
-            "description": "In places it overlaps with languages I know. In other places... well, I can see why they call it 'the tongue of witches'. But I can understand it well enough, now.",
+            "startdescription": "Tem algo em comum com o latim e tem algo em comum com os arranhões de ratos-loucos.",
+            "description": "Em lugares se sobrepõe a idiomas que eu sei. Em outros lugares... Pois bem, compreendo porque é que eles lhe chamam 'a língua das bruxas?, mas agora consigo entender suficientemente bem.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytextbookphrygian",
-            "label": "Learn basic Phrygian",
+            "label": "Aprenda Phrygian básico",
             "actionid": "study",
             "requirements": {
                 "textbookphrygian": 1
@@ -1860,14 +1860,14 @@
                 "textbookphrygian": -1,
                 "scholarphrygian": 1
             },
-            "startdescription": "Phrygian, the language of Midas, of Tecmessa, of the priests of Cybele.",
-            "description": "Something about this language stirs the blood. Perhaps it is fortunate that none now remembers its lost sounds.",
+            "startdescription": "Phrygian, a língua da Midas, da Tecmessa, dos padres de Cybele.",
+            "description": "Alguma coisa sobre esta linguagem agita o sangue, talvez não se recorde agora do som perdido.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytextbookmandaic",
-            "label": "Learn something of the Deep Mandaic",
+            "label": "Aprenda alguma coisa do Deep Mandaic",
             "actionid": "study",
             "requirements": {
                 "textbookmandaic": 1
@@ -1876,14 +1876,14 @@
                 "textbookmandaic": -1,
                 "scholarmandaic": 1
             },
-            "startdescription": "Mandaic is the language of a Gnostic sect in the remotest part of Persia. Deep Mandaic remains the language of a sect within that sect, but once it was spoken by adepts.",
-            "description": "This tongue has just enough in common with Aramaic to make my studies possible; but not to make them easy.",
+            "startdescription": "O homem é a língua de um sete gnóstico na parte mais remota da Pérsia. Deep Mandaic continua a ser a língua de um setor dentro dessa seita, mas uma vez que foi falada por adeptos.",
+            "description": "Esta língua tem o suficiente em comum com o Aramaico para tornar possíveis os meus estudos; mas não para facilitá-los.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytextbookvak",
-            "label": "Acquire some knowledge of Vak",
+            "label": "Adquira algum conhecimento de Vak",
             "actionid": "study",
             "requirements": {
                 "textbookvak": 1
@@ -1892,14 +1892,14 @@
                 "textbookvak": -1,
                 "scholarvak": 1
             },
-            "startdescription": "Do the Hours speak? If they do, this may be the language they use.",
-            "description": "It has been said that one does not learn Vak, so much as come to know her. Well, now she and I are a little better acquainted.",
+            "startdescription": "O Horas fala? Se o fizerem, talvez seja a língua que usam.",
+            "description": "Foi dito que não se aprende Vak, por muito que a conheça. Pois bem, agora ela e eu estamos um pouco mais familiarizados.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytextbookreason",
-            "label": "Improve my Reason",
+            "label": "Melhorar minha razão",
             "actionid": "study",
             "requirements": {
                 "textbookreason": 1
@@ -1908,14 +1908,14 @@
                 "textbookreason": -1,
                 "eruditionplus": 1
             },
-            "startdescription": "Exercise for the intellect.",
-            "description": "Possibilities - ",
+            "startdescription": "Exercício por intelecto.",
+            "description": "Possibilidades - ",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studytextbookpassion",
-            "label": "Read Poetry",
+            "label": "Ler Poesia",
             "actionid": "study",
             "requirements": {
                 "textbookpassion": 1
@@ -1924,7 +1924,7 @@
                 "textbookpassion": -1,
                 "glimmeringplus": 1
             },
-            "startdescription": "I'll stoke the fires of my imagination.",
+            "startdescription": "Vou alimentar as chamas da minha imaginação.",
             "description": "Glimpses -",
             "warmup": 60,
             "craftable": true

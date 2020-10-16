@@ -2,10 +2,10 @@
     "recipes": [
         {
             "id": "health_expel_to_scar",
-            "label": "Health: Scarred",
+            "label": "Vida: Cicatriz",
             "actionid": "scar_ability",
-            "startdescription": "My body is changing...",
-            "description": "Some movements leave a deeper mark than others. [Health has permanently changed to a Scar. Be careful: Sickness and Starvation are not satisfied by Scars.]",
+            "startdescription": "Meu corpo está mudando...",
+            "description": "Alguns movimentos deixam um ponto mais profundo do que outros. [A saúde mudou permanentemente para um carrinho. Tenha cuidado: doença e fome não estão satisfeitos com Ciclos.]",
             "requirements": {
                 "health": 1
             },
@@ -16,10 +16,10 @@
         },
         {
             "id": "passion_expel_to_scar",
-            "label": "Passion: Scarred",
+            "label": "Passição: Cicatriz",
             "actionid": "scar_ability",
-            "startdescription": "My sentiments are changing me...",
-            "description": "My thoughts bind my flesh and my spirit more tightly than is safe. [Passion has permanently changed to a Scar.]",
+            "startdescription": "Meus sentimentos estão me mudando...",
+            "description": "Meus pensamentos ligam minha carne e meu espírito de forma mais rigorosa do que segura. [A paixão mudou permanentemente para um Ciclo.]",
             "requirements": {
                 "passion": 1
             },
@@ -30,9 +30,9 @@
         },
         {
             "id": "expel_independent",
-            "label": "Safely Unaware",
+            "label": "Unaware com segurança",
             "actionid": "expel_independent",
-            "startdescription": "My Rival cannot know what awaits them.",
+            "startdescription": "O meu Rival não sabe o que os espera.",
             "warmup": 1
         },
         {
@@ -42,17 +42,17 @@
             "requirements": {
                 "corpse": 1
             },
-            "startdescription": "There it lies.",
+            "startdescription": "Aí jaz.",
             "warmup": 1
         },
         {
             "id": "expel_injury",
-            "label": "A Trail of Blood",
+            "label": "Uma Trilha de Sangue",
             "actionid": "expel_injury",
             "requirements": {
                 "injury": 1
             },
-            "startdescription": "Pain is the last gift.",
+            "startdescription": "Dor é o último presente.",
             "warmup": 1
         }
     ]

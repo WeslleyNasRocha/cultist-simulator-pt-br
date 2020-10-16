@@ -3,7 +3,7 @@
         {
             "id": "acquaintances",
             "label": "Conhecidos",
-            "description": "Tantas pessoas no mundo, e tão poucas realmente valem a pena conhecer.",
+            "description": "Tantas pessoas no mundo, e tão poucas são dignas de serem conhecidas.",
             "spec": [
                 "auclair_a",
                 "cat_a",
@@ -39,7 +39,7 @@
         },
         {
             "id": "hirelings",
-            "label": "O Brutal e o Astuto",
+            "label": "O Bruto e o Astuto",
             "description": "Algumas ferramentas são adequadas para alguns fins.",
             "spec": [
                 "thugedge",
@@ -106,7 +106,7 @@
         },
         {
             "id": "bechetcommissions",
-            "label": "Interesses de Bechet",
+            "label": "Os Interesses de Bechet",
             "description": "",
             "spec": [
                 "commissionarticleforge",
@@ -124,7 +124,7 @@
         },
         {
             "id": "janningscommissions",
-            "label": "Interesses de Jannings",
+            "label": "Os Interesses de Jannings",
             "description": "",
             "spec": [
                 "commissionarticleedge",
@@ -153,8 +153,11 @@
         {
             "id": "randomvictim",
             "label": "O Imprudente e O Desavisado",
-            "description": "Faremos deles o que devemos.",
-            "spec": ["genericprisonerm", "genericprisonerf"],
+            "description": "Vamos fazer deles o que devemos.",
+            "spec": [
+                "genericprisonerm",
+                "genericprisonerf"
+            ],
             "defaultcard": "genericprisonerm",
             "resetonexhaustion": true
         }

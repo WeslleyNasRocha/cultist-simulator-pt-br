@@ -2,103 +2,103 @@
     "elements": [
         {
             "id": "ritetoolconsumeingredient",
-            "label": "Rite of the Sea's Feasting",
+            "label": "Rite do Banqueiro do Mar",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "Invocation",
+                    "label": "Invocação",
                     "actionid": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "What are the words?"
+                    "description": "Quais são as palavras?"
                 },
                 {
                     "id": "Instrument",
-                    "label": "Instrument",
+                    "label": "Instrumento",
                     "actionid": "work",
                     "required": {
                         "tool": 1
                     },
-                    "description": "What is our instrument?"
+                    "description": "Qual é o nosso instrumento?"
                 },
                 {
                     "id": "Offering",
-                    "label": "Offering",
+                    "label": "Oferta",
                     "actionid": "work",
                     "required": {
                         "ingredient": 1
                     },
                     "consumes": true,
-                    "description": "What will we give up?"
+                    "description": "Do que iremos nós desistir?"
                 },
                 {
                     "id": "Desire",
-                    "label": "Desire",
+                    "label": "Deslocar-se",
                     "actionid": "work",
                     "required": {
                         "desire": 6
                     },
-                    "description": "What might I become? [This slot only accepts the final stage of Ascension. If you have achieved the Sixth Mark, add your Ascension to this slot to complete a Great Work.]"
+                    "description": "O que eu posso ficar? [Este slot só aceita a fase final da Ascensão. Se você alcançou a Sexta Marca, adicione sua Ascensão a este slot para completar um Grande Trabalho.]"
                 }
             ],
-            "description": "This rite calls on the Witch-and-Sister to close the gap between what is and what might be. The adept pours, or hurls, an offering into water: preferably, but not essentially, the sea.",
+            "description": "Este ritual apela a que a Bruxa e a Irmã fechem o fosso entre o que é e o que pode ser. Os penhores adeptos, ou lançam, uma oferta na água: preferencialmente, mas não essencialmente, o mar.",
             "unique": true
         },
         {
             "id": "ritetoolconsumeinfluence",
-            "label": "Rite of the Map's Edge",
+            "label": "Rite da borda do mapa",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "Invocation",
+                    "label": "Invocação",
                     "actionid": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "What are the words?"
+                    "description": "Quais são as palavras?"
                 },
                 {
                     "id": "Offering",
-                    "label": "Offering",
+                    "label": "Oferta",
                     "actionid": "work",
                     "required": {
                         "influence": 1
                     },
-                    "description": "What influence will be taken?",
+                    "description": "Que influência será exercida?",
                     "consumes": true
                 },
                 {
                     "id": "Instrument",
-                    "label": "Instrument",
+                    "label": "Instrumento",
                     "actionid": "work",
                     "required": {
                         "tool": 1
                     },
-                    "description": "What is our instrument?"
+                    "description": "Qual é o nosso instrumento?"
                 },
                 {
                     "id": "Desire",
-                    "label": "Desire",
+                    "label": "Deslocar-se",
                     "actionid": "work",
                     "required": {
                         "desire": 6
                     },
-                    "description": "What might I become? [This slot only accepts the final stage of Ascension. If you have achieved the Sixth Mark, add your Ascension to this slot to complete a Great Work.]"
+                    "description": "O que eu posso ficar? [Este slot só aceita a fase final da Ascensão. Se você alcançou a Sexta Marca, adicione sua Ascensão a este slot para completar um Grande Trabalho.]"
                 }
             ],
-            "description": "The Vagabond is the only Hour that never enters the Mansus. This rite must be performed in the right place, in the right time, and the Vagabond will take that rightness for her own.",
+            "description": "O Vagabond é a única Hora que nunca entra em Mansus. Este rito deve ser realizado no lugar certo, no momento certo, e o Vagabond tomará por sua conta esse brilho.",
             "unique": true
         },
         {
             "id": "ritetoolconsumefollower",
-            "label": "Rite of the Crucible Soul",
+            "label": "Rite da Alma do Caldeirão",
             "comments": "endgame rite",
             "aspects": {
                 "ritual": 1
@@ -106,49 +106,49 @@
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "Invocation",
+                    "label": "Invocação",
                     "actionid": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "What are the words?"
+                    "description": "Quais são as palavras?"
                 },
                 {
                     "id": "Victim",
-                    "label": "Victim",
+                    "label": "Vitória",
                     "actionid": "work",
                     "required": {
                         "follower": 1,
                         "prisoner": 1
                     },
                     "consumes": true,
-                    "description": "There must always be willing blood."
+                    "description": "Deve haver sempre sangue querido."
                 },
                 {
                     "id": "Instrument",
-                    "label": "Instrument",
+                    "label": "Instrumento",
                     "actionid": "work",
                     "required": {
                         "tool": 1
                     },
-                    "description": "On what will blood be shed?"
+                    "description": "Qual será o sangue derramado?"
                 },
                 {
                     "id": "Desire",
-                    "label": "Desire",
+                    "label": "Deslocar-se",
                     "actionid": "work",
                     "required": {
                         "desire": 6
                     },
-                    "description": "What might I become? [This slot only accepts the final stage of Ascension. If you have achieved the Sixth Mark, add your Ascension to this slot to complete a Great Work.]"
+                    "description": "O que eu posso ficar? [Este slot só aceita a fase final da Ascensão. Se você alcançou a Sexta Marca, adicione sua Ascensão a este slot para completar um Grande Trabalho.]"
                 }
             ],
-            "description": "This rite uses an instrument of power to set the blood afire: fire is the lesion in the skin of the world. The assistant rarely survives unharmed.",
+            "description": "Este ritual usa um instrumento de poder para acalmar o sangue: o fogo é a lesão na pele do mundo. O assistente raramente sobrevive ileso.",
             "unique": true
         },
         {
             "id": "ritetoolfollowerconsumelore",
-            "label": "Rite of the Watchman's Sorrow",
+            "label": "Rite da tristeza do observador",
             "comments": "endgame rite",
             "aspects": {
                 "ritual": 1
@@ -162,287 +162,287 @@
                         "lore": 1
                     },
                     "consumes": true,
-                    "description": "What will we forget?"
+                    "description": "Que esqueceremos?"
                 },
                 {
                     "id": "Assistant",
-                    "label": "Assistant",
+                    "label": "Assistente",
                     "actionid": "work",
                     "required": {
                         "follower": 1,
                         "prisoner": 1
                     },
-                    "description": "Who will speak the words?"
+                    "description": "Quem falará as palavras?"
                 },
                 {
                     "id": "Instrument",
-                    "label": "Instrument",
+                    "label": "Instrumento",
                     "actionid": "work",
                     "required": {
                         "tool": 1
                     },
-                    "description": "What is our instrument?"
+                    "description": "Qual é o nosso instrumento?"
                 },
                 {
                     "id": "Desire",
-                    "label": "Desire",
+                    "label": "Deslocar-se",
                     "actionid": "work",
                     "required": {
                         "desire": 6
                     },
-                    "description": "What might I become? [This slot only accepts the final stage of Ascension. If you have achieved the Sixth Mark, add your Ascension to this slot to complete a Great Work.]"
+                    "description": "O que eu posso ficar? [Este slot só aceita a fase final da Ascensão. Se você alcançou a Sexta Marca, adicione sua Ascensão a este slot para completar um Grande Trabalho.]"
                 }
             ],
-            "description": "This rite recalls the loss of the Watchman, who walks the house which has no walls. (Light goes before him and shadow behind. He must not see you.) The instrument of power is used to summon him to take his sacrifice: precious knowledge from the root of your thoughts. The assistant must speak the words that anchor your sanity, so choose someone you trust.",
+            "description": "Este ritual lembra a perda do Watchman, que caminha pela casa que não tem paredes. (A luz vem antes dele e da sombra para trás. Ele não deve ver você. O instrumento do poder é utilizado para o invocar para levar a cabo o seu sacrifício: o precioso conhecimento da raiz do vosso pensamento. O assistente deve falar as palavras que ancoram a sua sanidade, então escolha alguém em quem você confia.",
             "unique": true
         },
         {
             "id": "ritefollowerconsumetool",
-            "label": "Rite of the Rebel Striving",
+            "label": "Rite do Striving Rebelde",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "Invocation",
+                    "label": "Invocação",
                     "actionid": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "What are the words?"
+                    "description": "Quais são as palavras?"
                 },
                 {
                     "id": "Assistant",
-                    "label": "Assistant",
+                    "label": "Assistente",
                     "actionid": "work",
                     "required": {
                         "follower": 1,
                         "prisoner": 1
                     },
-                    "description": "Who will speak the words?"
+                    "description": "Quem falará as palavras?"
                 },
                 {
                     "id": "Offering",
-                    "label": "Offering",
+                    "label": "Oferta",
                     "actionid": "work",
                     "required": {
                         "tool": 1
                     },
                     "consumes": true,
-                    "description": "What will we give up?"
+                    "description": "Do que iremos nós desistir?"
                 },
                 {
                     "id": "Desire",
-                    "label": "Desire",
+                    "label": "Deslocar-se",
                     "actionid": "work",
                     "required": {
                         "desire": 6
                     },
-                    "description": "What might I become? [This slot only accepts the final stage of Ascension. If you have achieved the Sixth Mark, add your Ascension to this slot to complete a Great Work.]"
+                    "description": "O que eu posso ficar? [Este slot só aceita a fase final da Ascensão. Se você alcançou a Sexta Marca, adicione sua Ascensão a este slot para completar um Grande Trabalho.]"
                 }
             ],
-            "description": "This rite enacts a teaching of the Forge of Days: the artisan may achieve their highest goal only by destroying their most precious tool. The Lionsmith knew this when he shattered his sword before the Colonel. So my assistant must destroy a chosen instrument.",
+            "description": "Este rito promulga um ensino da Forja dos Dias: o artesão só pode alcançar o seu objetivo mais alto destruindo a sua ferramenta mais preciosa. O Ferreiro de Leão sabia disso quando estilhaçou a espada perante o Coronel. Assim, meu assistente tem de destruir um instrumento escolhido.",
             "unique": true
         },
         {
             "id": "ritefollowerconsumeingredient",
-            "label": "Rite of the Mother's Mercy",
+            "label": "Rite da Misericórdia das Mães",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "Invocation",
+                    "label": "Invocação",
                     "actionid": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "What are the words?"
+                    "description": "Quais são as palavras?"
                 },
                 {
                     "id": "Assistant",
-                    "label": "Assistant",
+                    "label": "Assistente",
                     "actionid": "work",
                     "required": {
                         "follower": 1,
                         "prisoner": 1
                     },
-                    "description": "Who will speak the words?"
+                    "description": "Quem falará as palavras?"
                 },
                 {
                     "id": "Offering",
-                    "label": "Offering",
+                    "label": "Oferta",
                     "actionid": "work",
                     "required": {
                         "ingredient": 1
                     },
-                    "description": "What will be offered?",
+                    "description": "O que será oferecido?",
                     "consumes": true
                 },
                 {
                     "id": "Desire",
-                    "label": "Desire",
+                    "label": "Deslocar-se",
                     "actionid": "work",
                     "required": {
                         "desire": 6
                     },
-                    "description": "What might I become? [This slot only accepts the final stage of Ascension. If you have achieved the Sixth Mark, add your Ascension to this slot to complete a Great Work.]"
+                    "description": "O que eu posso ficar? [Este slot só aceita a fase final da Ascensão. Se você alcançou a Sexta Marca, adicione sua Ascensão a este slot para completar um Grande Trabalho.]"
                 }
             ],
-            "description": "The assistant is offered in sacrifice to the Mother of Ants. But the Mother knows healing as well as poison, and she will be merciful, accepting the substitute of a lesser offering. Usually. The experience is not reassuring for the assistant.",
+            "description": "A assistente é oferecida em sacrifício à mãe das formigas. Mas a mãe sabe curar tão bem como veneno, e ela será misericordiosa, aceitando o substituto de uma oferta menor. Geralmente, a experiência não é tranquilizadora para o assistente.",
             "unique": true
         },
         {
             "id": "riteinfluenceconsumeingredient",
-            "label": "The Rite of the Crow's Quenching",
+            "label": "O Rite dos Quenks da Coroa",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "Invocation",
+                    "label": "Invocação",
                     "actionid": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "What are the words?"
+                    "description": "Quais são as palavras?"
                 },
                 {
                     "id": "Influence",
-                    "label": "Influence",
+                    "label": "Influência",
                     "actionid": "work",
                     "required": {
                         "influence": 1
                     },
-                    "description": "What power is present?"
+                    "description": "Qual é o poder presente?"
                 },
                 {
                     "id": "Offering",
-                    "label": "Offering",
+                    "label": "Oferta",
                     "actionid": "work",
                     "required": {
                         "ingredient": 1
                     },
-                    "description": "What will be offered?",
+                    "description": "O que será oferecido?",
                     "consumes": true
                 },
                 {
                     "id": "Desire",
-                    "label": "Desire",
+                    "label": "Deslocar-se",
                     "actionid": "work",
                     "required": {
                         "desire": 6
                     },
-                    "description": "What might I become? [This slot only accepts the final stage of Ascension. If you have achieved the Sixth Mark, add your Ascension to this slot to complete a Great Work.]"
+                    "description": "O que eu posso ficar? [Este slot só aceita a fase final da Ascensão. Se você alcançou a Sexta Marca, adicione sua Ascensão a este slot para completar um Grande Trabalho.]"
                 }
             ],
-            "description": "This rite calls on the Beach-Crow at sunrise or moonrise. The Crow accepts the sacrifice, and returns the gifts of the earth.",
+            "description": "Este ritual chama Beach-Crow ao nascer do sol ou ao nascer da lua. O Crow aceita o sacrifício e retorna os presentes da terra.",
             "unique": true
         },
         {
             "id": "ritefollowerconsumeinfluence",
-            "label": "Sunset Rite",
+            "label": "Ritmo do Sol",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "Invocation",
+                    "label": "Invocação",
                     "actionid": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "What are the words?"
+                    "description": "Quais são as palavras?"
                 },
                 {
                     "id": "Assistant",
-                    "label": "Assistant",
+                    "label": "Assistente",
                     "actionid": "work",
                     "required": {
                         "follower": 1,
                         "prisoner": 1
                     },
-                    "description": "Who will speak the words?"
+                    "description": "Quem falará as palavras?"
                 },
                 {
                     "id": "Offering",
-                    "label": "Offering",
+                    "label": "Oferta",
                     "actionid": "work",
                     "required": {
                         "influence": 1
                     },
                     "consumes": true,
-                    "description": "What influence will be consumed?"
+                    "description": "Que influência irá ser usada?"
                 },
                 {
                     "id": "Desire",
-                    "label": "Desire",
+                    "label": "Deslocar-se",
                     "actionid": "work",
                     "required": {
                         "desire": 6
                     },
-                    "description": "What might I become? [This slot only accepts the final stage of Ascension. If you have achieved the Sixth Mark, add your Ascension to this slot to complete a Great Work.]"
+                    "description": "O que eu posso ficar? [Este slot só aceita a fase final da Ascensão. Se você alcançou a Sexta Marca, adicione sua Ascensão a este slot para completar um Grande Trabalho.]"
                 }
             ],
-            "description": "The assistant must cry tears of genuine emotion, which are asperged in the place where the influence lies. If all is done well, the Sun-in-Rags will consume the influence, acknowledge an ending, and lend its assistance.",
+            "description": "O assistente tem de chorar lágrimas de verdadeira emoção, que são postas em causa no lugar onde se encontra a influência. Se tudo for bem feito, os sacos de Sol consumirão a influência, reconhecerão um fim e prestarão a sua ajuda.",
             "unique": true
         },
         {
             "id": "riteinfluenceconsumefollower",
-            "label": "Rite of the Beast's Division",
+            "label": "Redação da Divisão da Besta",
             "aspects": {
                 "ritual": 1
             },
             "slots": [
                 {
                     "id": "Invocation",
-                    "label": "Invocation",
+                    "label": "Invocação",
                     "actionid": "work",
                     "required": {
                         "lore": 1
                     },
-                    "description": "What are the words?"
+                    "description": "Quais são as palavras?"
                 },
                 {
                     "id": "Victim",
-                    "label": "Victim",
+                    "label": "Vitória",
                     "actionid": "work",
                     "required": {
                         "follower": 1,
                         "prisoner": 1
                     },
-                    "description": "Who will be divided?",
+                    "description": "Quem será dividido?",
                     "consumes": true
                 },
                 {
                     "id": "Influence",
-                    "label": "Influence",
+                    "label": "Influência",
                     "actionid": "work",
                     "required": {
                         "influence": 1
                     },
-                    "description": "What power is present?"
+                    "description": "Qual é o poder presente?"
                 },
                 {
                     "id": "Desire",
-                    "label": "Desire",
+                    "label": "Deslocar-se",
                     "actionid": "work",
                     "required": {
                         "desire": 6
                     },
-                    "description": "What might I become? [This slot only accepts the final stage of Ascension. If you have achieved the Sixth Mark, add your Ascension to this slot to complete a Great Work.]"
+                    "description": "O que eu posso ficar? [Este slot só aceita a fase final da Ascensão. Se você alcançou a Sexta Marca, adicione sua Ascensão a este slot para completar um Grande Trabalho.]"
                 }
             ],
-            "description": "The assistant's name is taken from them in a place, or on an occasion, of power; and they are divided into nine parts. They used to be hunted like an animal, too, but times changed.",
+            "description": "O nome do assistente é retirado dos mesmos num local, ou numa ocasião, de poder; e eles são divididos em nove partes. Eles também eram caçados como um animal, mas os tempos mudaram.",
             "unique": true
         },
         {
             "id": "riteconsumetoolingredientfollowerinfluence",
-            "label": "Rite Intercalate",
+            "label": "Intercalar Rite",
             "aspects": {
                 "ritual": 1
             },
@@ -454,63 +454,63 @@
                     "required": {
                         "lore": 1
                     },
-                    "description": "Something to be lost.",
+                    "description": "Algo a se perder.",
                     "consumes": true
                 },
                 {
                     "id": "Offering",
-                    "label": "Offering",
+                    "label": "Oferta",
                     "actionid": "work",
                     "required": {
                         "follower": 1,
                         "prisoner": 1,
                         "summoned": 1
                     },
-                    "description": "Something to be lost.",
+                    "description": "Algo a se perder.",
                     "consumes": true
                 },
                 {
                     "id": "Surrender",
-                    "label": "Surrender",
+                    "label": "Render-se",
                     "actionid": "work",
                     "required": {
                         "tool": 1
                     },
-                    "description": "Something to be lost.",
+                    "description": "Algo a se perder.",
                     "consumes": true
                 },
                 {
                     "id": "Dissolution",
-                    "label": "Dissolution",
+                    "label": "Dissolução",
                     "actionid": "work",
                     "required": {
                         "influence": 1
                     },
-                    "description": "Something to be lost.",
+                    "description": "Algo a se perder.",
                     "consumes": true
                 },
                 {
                     "id": "Grief",
-                    "label": "Grief",
+                    "label": "Griefe",
                     "actionid": "work",
                     "required": {
                         "ingredient": 1
                     },
-                    "description": "Something to be lost.",
+                    "description": "Algo a se perder.",
                     "consumes": true
                 },
                 {
                     "id": "Desire",
-                    "label": "Desire",
+                    "label": "Deslocar-se",
                     "actionid": "work",
                     "required": {
                         "desire": 6,
                         "promise": 1
                     },
-                    "description": "What might I become? [This slot only accepts the final stage of Ascension. If you have achieved the Sixth Mark, add your Ascension to this slot to complete a Great Work.]"
+                    "description": "O que eu posso ficar? [Este slot só aceita a fase final da Ascensão. Se você alcançou a Sexta Marca, adicione sua Ascensão a este slot para completar um Grande Trabalho.]"
                 }
             ],
-            "description": "This rite recapitulates the Sun's abominable fate. It is used in extreme times by foolish adepts.",
+            "description": "Este rito recapitula o destino abominável do Sol. É usado em tempos extremos por adeptos tolos.",
             "unique": true
         }
     ]

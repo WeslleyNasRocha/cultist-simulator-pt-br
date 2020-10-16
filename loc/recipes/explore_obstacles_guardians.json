@@ -3,16 +3,16 @@
         {
             "id": "explorevaultguardian_serpent_encounter",
             "actionid": "explore",
-            "label": "A Younger Sister: a Serpent",
-            "startdescription": "The Serpent watches us closely, swaying its great head. WIthout Edge or Knock, we cannot prevail against it.",
+            "label": "Uma Irmã mais Novo: uma Serpente",
+            "startdescription": "A Serpente nos observa de perto, balançando sua grande cabeça. WIthout Edge ou Knock, não podemos prevalecer.",
             "requirements": {
                 "guardian_serpent": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -60,8 +60,8 @@
             "requirements": {
                 "edge": 10
             },
-            "label": "Our strength is matchless.",
-            "startdescription": "Eyes like gas-lamps; scales like black jade. A Serpent is a powerful foe, but it's nothing before us.",
+            "label": "A nossa força é incomparável.",
+            "startdescription": "Olhos como lâmpadas de gás; balança como jade negra. Uma serpente é um inimigo poderoso, mas não é nada diante de nós.",
             "description": ".",
             "linked": [
                 {
@@ -80,8 +80,8 @@
             "requirements": {
                 "edge": 5
             },
-            "label": "Our strength is considerable.",
-            "startdescription": "Eyes like gas-lamps; fangs like stalactites. A great Serpent is a powerful foe, but so are we.",
+            "label": "A nossa força é considerável.",
+            "startdescription": "Olhos gostam de luz do gás; presas como estalactites. Uma grande Serpente é um inimigo poderoso, mas nós também.",
             "description": ".",
             "linked": [
                 {
@@ -100,8 +100,8 @@
             "requirements": {
                 "edge": 1
             },
-            "label": "Our strength may not be enough.",
-            "startdescription": "Eyes like gas-lamps; a mouth one could crouch in. We might defeat this Serpent. We might regret trying.",
+            "label": "A nossa força pode não ser suficiente.",
+            "startdescription": "Olhos como lâmpadas de gás; uma boca que podíamos esgueirar-nos. Podemos derrotar este serpente. Podemos lamentar tentar.",
             "description": ".",
             "linked": [
                 {
@@ -120,8 +120,8 @@
             "requirements": {
                 "knock": 10
             },
-            "label": "We call upon the Mother of Ants, which ariseth from wounds",
-            "startdescription": "The Serpent's mouth is large enough to crouch in. Its tongue is the thickness of a man's shoulders. But almost certainly it will respect the power we bear.",
+            "label": "Nós apelamos para a Mãe das formigas, que surgiu de feridas",
+            "startdescription": "A boca da Serpente é grande o bastante para entrar. Sua língua é a espessura de um homem. Mas respeitará quase certamente o poder que suportamos.",
             "description": ".",
             "linked": [
                 {
@@ -140,8 +140,8 @@
             "requirements": {
                 "knock": 5
             },
-            "label": "We call upon the Mother of Ants, which encircleth",
-            "startdescription": "The Serpent is long enough to coil round a cottage. Its fangs glisten like ice. Probably it will respect the power we bear.",
+            "label": "Apelamos para a Mãe das Ants, que cercam o cerco",
+            "startdescription": "A serpente é comprida o suficiente para bobinar um algodão. Seus presos escutam como gelo. Provavelmente ele respeitará a força que nós suportamos.",
             "description": ".",
             "linked": [
                 {
@@ -160,8 +160,8 @@
             "requirements": {
                 "knock": 1
             },
-            "label": "We call upon the Mother of Ants, which openeth",
-            "startdescription": "The Serpent rears up like swelling river. Its eyes are slitted pits of hunger. Perhaps the Serpent will respect the power we bear.",
+            "label": "Apelamos para a Mãe das formigas, que abrem",
+            "startdescription": "A Serpente costuma vir como um rio inchado. Seus olhos são pregados de fome. Talvez a Serpente respeite o poder que suportamos.",
             "description": ".",
             "linked": [
                 {
@@ -177,8 +177,8 @@
         {
             "id": "explorevaultguardian_serpent_success_edge",
             "actionid": "explore",
-            "label": "The Serpent's Struggles",
-            "startdescription": "The Serpent rolls and roars! Its death throes shake the earth! But it's dying. We will pass.",
+            "label": "As Esforços da Serpente",
+            "startdescription": "A serpente rola e rugido! Sua morte estremeceu a terra! Mas está morrendo. Nós passaremos.",
             "description": ".",
             "effects": {
                 "guardian_serpent": -1
@@ -195,8 +195,8 @@
         {
             "id": "explorevaultguardian_serpent_success_knock",
             "actionid": "explore",
-            "label": "The Serpent's Sorrow",
-            "startdescription": "It lowers its great head. Moisture seeps from its lidless eyes. Is it weeping? What does it remember of its eldest sister, whose power we call upon?",
+            "label": "A tristeza da Serpente",
+            "startdescription": "Ela abaixa sua grande cabeça. A umidade vira de seus olhos desalentados. Está chorando? Qual é a lembrança de sua irmã mais velha, para a qual chamamos o poder?",
             "description": ".",
             "effects": {
                 "guardian_serpent": -1
@@ -213,8 +213,8 @@
         {
             "id": "explorevaultguardian_serpent_failure",
             "actionid": "explore",
-            "label": "The Serpent's Strength",
-            "startdescription": "Back. Back! It's too much for us!",
+            "label": "A Força da Serpente",
+            "startdescription": "Voltar! É muito para nós!",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -241,16 +241,16 @@
         {
             "id": "explorevaultguardian_watchers_encounter",
             "actionid": "explore",
-            "label": "Watchers",
-            "startdescription": "Locals with a grudge or a duty or a mercenary contract. We might trick them with Moth, seduce them with Grail, or battle them with Edge.",
+            "label": "Observadores",
+            "startdescription": "Locais com relutância ou dever ou contrato mercenário. Podemos enganá-los com Mãe, seduzi-los com Grail, ou combatê-los com Edge.",
             "requirements": {
                 "guardian_watchers": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -310,8 +310,8 @@
             "requirements": {
                 "edge": 10
             },
-            "label": "Our strength is matchless.",
-            "startdescription": "The Watchers will almost certainly regret standing against us.",
+            "label": "A nossa força é incomparável.",
+            "startdescription": "Os observadores lamentarão quase certamente estar contra nós.",
             "description": ".",
             "linked": [
                 {
@@ -330,8 +330,8 @@
             "requirements": {
                 "edge": 5
             },
-            "label": "Our strength is considerable.",
-            "startdescription": "The Watchers aren't ready for us. We should be able to bring them down.",
+            "label": "A nossa força é considerável.",
+            "startdescription": "Os observadores não estão prontos para nós. Nós devemos ser capazes de derrotá-los.",
             "description": ".",
             "linked": [
                 {
@@ -350,8 +350,8 @@
             "requirements": {
                 "edge": 1
             },
-            "label": "Our strength may not be enough.",
-            "startdescription": "The Watchers may be too much for us - but we still have a chance.",
+            "label": "A nossa força pode não ser suficiente.",
+            "startdescription": "Os observadores podem ser demasiado para nós - mas ainda temos uma oportunidade.",
             "description": ".",
             "linked": [
                 {
@@ -370,8 +370,8 @@
             "requirements": {
                 "grail": 10
             },
-            "label": "Against the Watchers: The Grail's Seductions",
-            "startdescription": "'Come closer, dear ones. We have something special for you.'",
+            "label": "Contra os Observadores: As Eseducções do Grail.",
+            "startdescription": "Venha perto, queridos que temos algo especial para você.\"",
             "description": ".",
             "linked": [
                 {
@@ -390,8 +390,8 @@
             "requirements": {
                 "grail": 5
             },
-            "label": "Against the Watchers: The Grail's Temptations",
-            "startdescription": "Our allures should sway the Watchers' minds.",
+            "label": "Contra os Observadores: As Tempestades do Grail.",
+            "startdescription": "Nossas alusões deveriam dissipar a mente dos Observadores.",
             "description": ".",
             "linked": [
                 {
@@ -410,8 +410,8 @@
             "requirements": {
                 "grail": 1
             },
-            "label": "Against the Watchers: The Grail's Distractions",
-            "startdescription": "Perhaps we can sway the Watchers from their purpose.",
+            "label": "Contra os Observadores: As Distrações do Grail.",
+            "startdescription": "Talvez possamos afastar os observadores do seu objectivo.",
             "description": ".",
             "linked": [
                 {
@@ -430,8 +430,8 @@
             "requirements": {
                 "moth": 10
             },
-            "label": "Against the Watchers: A Powerful Deception",
-            "startdescription": "'Look closer. Closer still. Closer! Keep looking. Closer. Now close your eyes...'",
+            "label": "Contra os Observadores: Uma Poderosa Dilusão",
+            "startdescription": "'Fique mais perto. Mais perto ainda. Continue procurando. Aproxime-se. Feche seus olhos...'",
             "description": ".",
             "linked": [
                 {
@@ -450,8 +450,8 @@
             "requirements": {
                 "moth": 5
             },
-            "label": "Against the Watchers: A Likely Deception",
-            "startdescription": "'Awake! Awake! They're upon us! That way, quickly!'",
+            "label": "Contra os Observadores: Uma Deceção Igual",
+            "startdescription": "'Ah! Acorde! Estamos em cima de nós! Dessa forma, rapidamente!'",
             "description": ".",
             "linked": [
                 {
@@ -470,8 +470,8 @@
             "requirements": {
                 "moth": 1
             },
-            "label": "Against the Watchers: A Desperate Deception",
-            "startdescription": "'They went... that way?'",
+            "label": "Contra os Observadores: Uma DERROTA Pistola",
+            "startdescription": "“Eles foram... assim?”",
             "description": ".",
             "linked": [
                 {
@@ -487,8 +487,8 @@
         {
             "id": "explorevaultguardian_watchers_success_edge",
             "actionid": "explore",
-            "label": "The Watchers' End",
-            "startdescription": "Their blood pumps bright, then dark. They should not have opposed us. We move on.",
+            "label": "O The Watchers End",
+            "startdescription": "Suas bombas de sangue brilham, depois escurecem. Eles não deveriam ter se oposto a nós. Nós avançamos.",
             "description": ".",
             "effects": {
                 "guardian_watchers": -1
@@ -505,8 +505,8 @@
         {
             "id": "explorevaultguardian_watchers_success_grail",
             "actionid": "explore",
-            "label": "The Watchers' Fall",
-            "startdescription": "Their present pleasures will end ill for them. Perhaps they'll think it's worth it. Meanwhile, we can pass.",
+            "label": "A Queda dos Observadores",
+            "startdescription": "Seus prazeres presentes vão acabar doente para eles. Talvez eles vão pensar que vale a pena. Enquanto isso, podemos passar.",
             "description": ".",
             "effects": {
                 "guardian_watchers": -1
@@ -523,8 +523,8 @@
         {
             "id": "explorevaultguardian_watchers_success_moth",
             "actionid": "explore",
-            "label": "The Watchers' Confusion",
-            "startdescription": "Their bewilderment is our opportunity. We'll pass in silent secrecy.",
+            "label": "A Confusão dos Observadores",
+            "startdescription": "A perplexidade deles é a nossa oportunidade. Nós passaremos em sigilo silencioso.",
             "description": ".",
             "effects": {
                 "guardian_watchers": -1
@@ -541,8 +541,8 @@
         {
             "id": "explorevaultguardian_watchers_failure",
             "actionid": "explore",
-            "label": "The Watchers' Victory",
-            "startdescription": "They are more cunning and more numerous than we'd expected! This will end in blood for us -",
+            "label": "A Vitória dos Observadores",
+            "startdescription": "Eles são mais espertos e mais numerosos do que esperávamos! Isso vai acabar com sangue para nós -",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -569,16 +569,16 @@
         {
             "id": "explorevaultguardian_monks_encounter",
             "actionid": "explore",
-            "label": "Monks",
-            "startdescription": "An order of guardians bound by oath and custom. They are too steadfast for the Grail's seductions - we must defeat them with Edge or bedazzle them with Moth.",
+            "label": "Monstros",
+            "startdescription": "Uma ordem de guardiões vinculados ao juramento e ao costume. São demasiado firmes para as sedutoras do Grail. Temos de as derrotar com Edge ou de os adormecer com Mario.",
             "requirements": {
                 "guardian_monks": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -626,8 +626,8 @@
             "requirements": {
                 "edge": 10
             },
-            "label": "Our strength is all but irresistible.",
-            "startdescription": "We will dapple the earth with holy blood.",
+            "label": "A nossa força é quase irresistível.",
+            "startdescription": "Abordaremos a Terra com sangue sagrado.",
             "description": ".",
             "linked": [
                 {
@@ -646,8 +646,8 @@
             "requirements": {
                 "edge": 5
             },
-            "label": "Our strength is considerable.",
-            "startdescription": "We should be more than enough for these holy fools.",
+            "label": "A nossa força é considerável.",
+            "startdescription": "Deveríamos ser mais que suficientes para estes tolos sagrados.",
             "description": ".",
             "linked": [
                 {
@@ -666,8 +666,8 @@
             "requirements": {
                 "edge": 1
             },
-            "label": "Our strength may not be enough.",
-            "startdescription": "They are only monks. But they are many, many monks. We might prevail, if we're lucky.",
+            "label": "A nossa força pode não ser suficiente.",
+            "startdescription": "São apenas monges. Mas são muitos, muitos monges. Podemos prevalecer, se tivermos sorte.",
             "description": ".",
             "linked": [
                 {
@@ -686,8 +686,8 @@
             "requirements": {
                 "moth": 10
             },
-            "label": "The Monks: a Potent Deception",
-            "startdescription": "'We have brought here with us certain sacred texts, whose meaning is apparent only in moonlight - '",
+            "label": "Os Monges: Uma Potente Desilusão",
+            "startdescription": "\"Apresentámos aqui connosco alguns textos sagrados, cujo significado só é visível à luz da lua - \".",
             "description": ".",
             "linked": [
                 {
@@ -706,8 +706,8 @@
             "requirements": {
                 "moth": 5
             },
-            "label": "The Monks: a Likely Deception",
-            "startdescription": "'This writ of entry bears the seal of the highest authority. Do not stand in our way -'",
+            "label": "As Mongas: Uma Deceção Igual",
+            "startdescription": "'Esta escrita de entrada tem o selo da mais alta autoridade. Não nos impeça - '",
             "description": ".",
             "linked": [
                 {
@@ -726,8 +726,8 @@
             "requirements": {
                 "moth": 1
             },
-            "label": "The Monks: a Desperate Deception",
-            "startdescription": "'We have... relics. *Ancient* relics.'",
+            "label": "As Mongas: uma DERROTA DESperada",
+            "startdescription": "'Nós temos... relíquias. *Ancião* relíquias'.",
             "description": ".",
             "linked": [
                 {
@@ -743,8 +743,8 @@
         {
             "id": "explorevaultguardian_monks_success_edge",
             "actionid": "explore",
-            "label": "The Monks' Silence",
-            "startdescription": "Their bodies lie in robed huddles, each indistinguishable from the next. Step over, move on.",
+            "label": "O Silêncio dos Monges",
+            "startdescription": "Seus corpos estão em huddles enrodados, cada um deles indistinguível do próximo; passe, siga em frente.",
             "description": ".",
             "effects": {
                 "guardian_monks": -1
@@ -761,8 +761,8 @@
         {
             "id": "explorevaultguardian_monks_success_moth",
             "actionid": "explore",
-            "label": "The Monks' Delusion",
-            "startdescription": "Faith is a double-edged weapon. These monks have great talent in the matter of believing, and so they have believed our lies.",
+            "label": "A Delusion dos Monges",
+            "startdescription": "A fé é uma arma de dois gumes. Estes monges têm grande talento em questão de acreditar e, portanto, acreditam em nossas mentiras.",
             "description": ".",
             "effects": {
                 "guardian_monks": -1
@@ -779,8 +779,8 @@
         {
             "id": "explorevaultguardian_monks_failure",
             "actionid": "explore",
-            "label": "The Monks' Wrath",
-            "startdescription": "They're stronger and wiser than we had supposed. And now their blows have found a mark - ",
+            "label": "A Ira dos Monges",
+            "startdescription": "Eles são mais fortes e mais sábios do que teríamos presumido. E agora seus golpes encontraram uma marca - ",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -807,16 +807,16 @@
         {
             "id": "explorevaultguardian_dead_encounter",
             "actionid": "explore",
-            "label": "The Fretful Dead",
-            "startdescription": "The Dead clot in the air around us like stale corpse-light. Without Edge or Winter, we have no chance against them.",
+            "label": "A Esmagadora Morta",
+            "startdescription": "O colo morto no ar ao nosso redor como um corpse-light obsoleto. Sem Borda ou Inverno, não temos qualquer hipótese contra eles.",
             "requirements": {
                 "guardian_dead": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -864,8 +864,8 @@
             "requirements": {
                 "edge": 10
             },
-            "label": "Our strength is matchless.",
-            "startdescription": "The Dead are pale as inverse shadows. They move like cobwebs in a breeze. Almost certainly, they can't stand before us. We'll send them mumbling back into the shadows of the Wood.",
+            "label": "A nossa força é incomparável.",
+            "startdescription": "Os mortos estão pálidos como sombras inversas. Movem-se como teias de aranha em uma brisa. Quase com certeza, eles não estão à nossa frente. Vamos mandá-los de volta para as sombras da Madeira.",
             "description": ".",
             "linked": [
                 {
@@ -884,8 +884,8 @@
             "requirements": {
                 "edge": 5
             },
-            "label": "Our strength is considerable.",
-            "startdescription": "These Dead, with their avid, pitiful eyes, have died once already. Their hold on the waking world is weak. We should be able to send them down into darkness, but we must take care.",
+            "label": "A nossa força é considerável.",
+            "startdescription": "Estes mortos, com seus velhos e lamentáveis olhos, já morreram uma vez. Seu tempo no mundo de acordar é fraco. Devemos ser capazes de os atirar para a escuridão, mas temos de ter cuidado.",
             "description": ".",
             "linked": [
                 {
@@ -904,8 +904,8 @@
             "requirements": {
                 "edge": 1
             },
-            "label": "Our strength may not be enough.",
-            "startdescription": "The Dead are slow as the movement of a sundial's shadow - slow, but ceaseless. They remember pain and fear, but not clearly. We know both sensations too well. They may be too much for us.",
+            "label": "A nossa força pode não ser suficiente.",
+            "startdescription": "Os mortos são lentos como o movimento da sombra de um sol - lento, mas incessante. Eles lembram de dor e medo, mas não claramente. Conhecemos ambas as sensações muito bem. Elas podem ser demais para nós.",
             "description": ".",
             "linked": [
                 {
@@ -924,8 +924,8 @@
             "requirements": {
                 "winter": 10
             },
-            "label": "We call upon the Ivory Dove, who knows the names of all the dead",
-            "startdescription": "The Dead circle the edge of our vision like frayed dreams. The very air around us is chill with Winter's shadow. They must recognise that.",
+            "label": "Apelamos para o Davi da Marfim, que sabe o nome de todos os mortos",
+            "startdescription": "O círculo morto é a borda de nossa visão como sonhos desgastados. O próprio ar à nossa volta está frio com a sombra do inverno. Eles devem reconhecê-lo.",
             "description": ".",
             "linked": [
                 {
@@ -944,8 +944,8 @@
             "requirements": {
                 "winter": 5
             },
-            "label": "We call upon the Ivory Dove, who cannot be deceived",
-            "startdescription": "The Dead watch us closely, expressionless as saint-statues. But we are invested with the power of Winter. Probably the Dead will recognise that.",
+            "label": "Apelamos à Costa do Marfim, que não pode ser enganada",
+            "startdescription": "Os Mortos nos observam de perto, sem expressão como estátuas de santo, mas nós somos investidos com o poder do Inverno. Provavelmente os Mortos reconhecerão isso.",
             "description": ".",
             "linked": [
                 {
@@ -964,8 +964,8 @@
             "requirements": {
                 "winter": 1
             },
-            "label": "We call upon the Ivory Dove, from whom nothing more may be taken",
-            "startdescription": "The Dead boil and rattle in the darkness, but we have been touched by the Hours of Winter. Perhaps they will recognise that.",
+            "label": "Apelamos para a Costa do Marfim, da qual nada mais pode ser retirado",
+            "startdescription": "O abismo e o chacota na escuridão, mas as horas do Inverno já nos tocaram e talvez reconheçam isso.",
             "description": ".",
             "linked": [
                 {
@@ -981,8 +981,8 @@
         {
             "id": "explorevaultguardian_dead_success_edge",
             "actionid": "explore",
-            "label": "The Wretched Dead",
-            "startdescription": "When the Dead return to us, they use what matter they can if their bodies are gone: dust, rust, cobwebs, scraps and tatters. Now that we have broken them, these tatters are all that remain.",
+            "label": "O Mal Morto",
+            "startdescription": "Quando os Mortos regressam, usam o que for possível se os seus corpos se desaparecerem: poeira, enferrujos, teias de cobres, sucatas e tatuagens. Agora que os quebrámos, estas tatuagens são tudo o que resta.",
             "description": ".",
             "effects": {
                 "guardian_dead": -1
@@ -999,8 +999,8 @@
         {
             "id": "explorevaultguardian_dead_success_winter",
             "actionid": "explore",
-            "label": "The Wary Dead",
-            "startdescription": "The Dead draw back, their almost-faces flat and watchful. They will not trouble us.",
+            "label": "A Wary Dead",
+            "startdescription": "Os mortos puxam de volta, seus rostos planos e vigilantes. Eles não nos incomodarão.",
             "description": ".",
             "effects": {
                 "guardian_dead": -1
@@ -1017,8 +1017,8 @@
         {
             "id": "explorevaultguardian_dead_failure",
             "actionid": "explore",
-            "label": "The Wrath of the Dead",
-            "startdescription": "The Dead are more like wind than flesh, but it doesn't do to underestimate the wind. Just now, they are a terror-fanged hurricane of pale shadow. Fall back. Fall back!",
+            "label": "A ira dos mortos",
+            "startdescription": "Os mortos são mais como o vento do que a carne, mas não subestima o vento. Há pouco, eles são um furacão de sombra pálida por terroristas. Recue. Recuar!",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -1046,15 +1046,15 @@
             "id": "explorevaultguardian_soucouyants_encounter",
             "actionid": "explore",
             "label": "Soucouyants in the Dark",
-            "startdescription": "The night air rattles with them. Duck low. They are much too strong to be fought, but we may be able to deceive them, or drive them off with Mansus-light.",
+            "startdescription": "O ar noturno chacoalha com eles. Portão baixo. São demasiado fortes para serem combatidos, mas talvez possamos enganá-los ou expulsá-los da luz do Manso.",
             "requirements": {
                 "guardian_soucouyants": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -1102,8 +1102,8 @@
             "requirements": {
                 "lantern": 10
             },
-            "label": "We call upon the Watchman, who illuminates",
-            "startdescription": "We most likely have power enough to keep them at a distance.",
+            "label": "Chamamos a atenção do Observador, que ilumina o",
+            "startdescription": "Nós provavelmente temos poder o suficiente para mantê-los a distância.",
             "description": ".",
             "linked": [
                 {
@@ -1122,8 +1122,8 @@
             "requirements": {
                 "lantern": 5
             },
-            "label": "We call upon the Watchman, who is not compassionate",
-            "startdescription": "Our power should be enough to hold them at bay - but they are ready for any lapse in vigilance.",
+            "label": "Chamamos o Watchman, que não é comovente",
+            "startdescription": "O nosso poder deve ser suficiente para os manter afastados - mas eles estão prontos para qualquer lapso de vigilância.",
             "description": ".",
             "linked": [
                 {
@@ -1142,8 +1142,8 @@
             "requirements": {
                 "lantern": 1
             },
-            "label": "We call upon the Watchman, who navigates",
-            "startdescription": "It is possible the power we carry will see us safe through the crowded night. It's definitely possible.",
+            "label": "Chamamos o observador, que navega",
+            "startdescription": "É possível que o poder que carregamos nos veja seguro pela noite cheia. Definitivamente é possível.",
             "description": ".",
             "linked": [
                 {
@@ -1162,8 +1162,8 @@
             "requirements": {
                 "moth": 10
             },
-            "label": "We call upon the Moth, who seeks among the trees of the Wood",
-            "startdescription": "The Moth has power in this close-crowded forest night. We will pass secretly and safely... unless we are very unlucky.",
+            "label": "Convocamos a Lua, que procura entre as árvores da Madeira",
+            "startdescription": "A Mariposa tem poder nesta noite de floresta cheia de perto. Nós passaremos secretamente e em segurança... a menos que sejamos muito azarados.",
             "description": ".",
             "linked": [
                 {
@@ -1182,8 +1182,8 @@
             "requirements": {
                 "moth": 5
             },
-            "label": "We call upon the Moth, who beats in the skull",
-            "startdescription": "We should have power enough to deceive and dismay these night-winged thirsty ones.",
+            "label": "Chamamos a Lua, que bate no crânio",
+            "startdescription": "Deveríamos ter poder suficiente para enganar e desanimar estes sedes nocturnos.",
             "description": ".",
             "linked": [
                 {
@@ -1202,8 +1202,8 @@
             "requirements": {
                 "moth": 1
             },
-            "label": "We call upon the Moth, who is dappled",
-            "startdescription": "The Moth will give us a chance in the dappled shadows of the forest - but only a chance.",
+            "label": "Apelamos para a lua, que é elegível",
+            "startdescription": "A Mariposa dar-nos-á uma oportunidade nas sombras da floresta - mas apenas uma oportunidade.",
             "description": ".",
             "linked": [
                 {
@@ -1219,8 +1219,8 @@
         {
             "id": "explorevaultguardian_soucouyants_success_lantern",
             "actionid": "explore",
-            "label": "The Soucouyants' Retreat",
-            "startdescription": "They won't come close. They call out taunts in the voices of carrion birds and children; they rattle the tree-tops; they fling stones from the dark. But they won't come close. We will pass.",
+            "label": "Retirada dos Soucouyantes",
+            "startdescription": "Eles não virão perto. Apelam para os arruaceiros das vozes das aves e das crianças; tocam os topo da árvore; atiram pedras do escuro. Mas eles não virão perto. Nós passaremos.",
             "description": ".",
             "effects": {
                 "guardian_soucouyants": -1
@@ -1237,8 +1237,8 @@
         {
             "id": "explorevaultguardian_soucouyants_success_moth",
             "actionid": "explore",
-            "label": "The Soucouyants' Frustrations",
-            "startdescription": "Hurry from the shadow to deeper shadow. Press faces into the spongy earth. They know we're here, but they don't know where. Their cries fade behind us.",
+            "label": "Frustrações dos Soucouyants",
+            "startdescription": "Apresse-se da sombra para uma sombra mais profunda. Pressione os rostos na terra da esponja. Eles sabem que estamos aqui, mas não sabem onde. Seus gritos desvanecem-se atrás de nós.",
             "description": ".",
             "effects": {
                 "guardian_soucouyants": -1
@@ -1255,8 +1255,8 @@
         {
             "id": "explorevaultguardian_soucouyants_failure",
             "actionid": "explore",
-            "label": "The Soucouyants' Hungers",
-            "startdescription": "They're on us! With a leathery crack of wings, and a body is borne shrieking up into the dark - ",
+            "label": "Fome dos Soucouyants",
+            "startdescription": "Eles estão sobre nós! Com uma coelha de asas, e um corpo é arrastado para a escuridão - ",
             "description": ".",
             "craftable": false,
             "alt": [
@@ -1283,16 +1283,16 @@
         {
             "id": "explorevaultguardian_long_encounter",
             "actionid": "explore",
-            "label": "The Long",
-            "startdescription": "Port Noon was founded on the site of a notorious Spring: drink from it, and the world will forget you. Some among the Long have retired there from the affairs of the greater world. They don't treat trespassers kindly, and it would be foolish to assault them. But they may be susceptible to the amusements of Moth, or the seductions of Grail.",
+            "label": "A Longa",
+            "startdescription": "O Porto Noon foi fundado no local de uma tristemente célebre Primavera: beba dele, e o mundo vai esquecê-lo. Algumas pessoas de entre as longas reformaram-se dos assuntos do mundo maior. Não tratam os invasores gentilmente, e seria insensato atacá-los. Mas podem ser suscetíveis ao aproveitamento da Lua, ou às seduções de Grail.",
             "requirements": {
                 "guardian_long": 1
             },
             "slots": [
                 {
                     "id": "Assistance",
-                    "label": "Assistance",
-                    "description": "Funds are essential for expeditions. Followers will allow me to pass obstacles.",
+                    "label": "Assistência",
+                    "description": "Fundos são essenciais para expedições. Seguidores me permitirão passar obstáculos.",
                     "required": {
                         "follower": 1,
                         "funds": 1
@@ -1340,8 +1340,8 @@
             "requirements": {
                 "grail": 10
             },
-            "label": "'We are here for your pleasure.'",
-            "startdescription": "Even the Long know desire; perhaps especially the Long. This one will almost certainly yield willingly to our attentions.",
+            "label": "\"Estamos aqui pelo seu prazer”.",
+            "startdescription": "Até mesmo os longos anseios, talvez em especial os de longa duração, que quase certamente cederemos de bom grado às nossas atenções.",
             "description": ".",
             "linked": [
                 {
@@ -1360,8 +1360,8 @@
             "requirements": {
                 "grail": 5
             },
-            "label": "'We are here for your diversion.'",
-            "startdescription": "This Long one welcomes our enticements, but they're still suspicious. We'll probably succeed.",
+            "label": "\"Estamos aqui para o vosso divertimento\".",
+            "startdescription": "Este longo se congratula com nossos aprendizados, mas ainda assim são suspeitos. Provavelmente seremos bem-sucedidos.",
             "description": ".",
             "linked": [
                 {
@@ -1380,8 +1380,8 @@
             "requirements": {
                 "grail": 1
             },
-            "label": "'We... hope we may amuse you?",
-            "startdescription": "The Long have the appetites of any mortal, but they are jaded by a thousand experiences. Perhaps we might yet entertain one enough, if we're lucky.",
+            "label": "'Nós esperamos... que possamos divertir você?",
+            "startdescription": "O longo tempo tem o apetite de qualquer moral, mas está espantado com mil experiências. Talvez ainda tenhamos entretenimento suficiente, se tivermos sorte.",
             "description": ".",
             "linked": [
                 {
@@ -1400,8 +1400,8 @@
             "requirements": {
                 "moth": 10
             },
-            "label": "'News! News from the Old Country! From all the Old Countries!'",
-            "startdescription": "The Long are desperate for novelty. We'll take advantage of that, and if all goes well we'll be gone before they know it.",
+            "label": "'Notícias! Notícias do Velho País! De todos os Antigos países!'",
+            "startdescription": "O quanto tempo está desesperado por novidade. Nós vamos tirar proveito disso, e se tudo correr bem, nós vamos desaparecer antes que eles saibam disso.",
             "description": ".",
             "linked": [
                 {
@@ -1420,8 +1420,8 @@
             "requirements": {
                 "moth": 5
             },
-            "label": "'Very well: a wager.'",
-            "startdescription": "Is this one toying with us? It's hard to be sure. But even if this is a game, they may permit us to leave. All will probably be well. ",
+            "label": "'Muito bem: uma aposta.?",
+            "startdescription": "É este um brinquedo conosco? É difícil ter certeza. Mas mesmo que se trate de um jogo, podem permitir-nos sair, provavelmente tudo ficará bem. ",
             "description": ".",
             "linked": [
                 {
@@ -1440,8 +1440,8 @@
             "requirements": {
                 "moth": 1
             },
-            "label": "'It's, ah, er, a funny story, actually...'",
-            "startdescription": "The eyes of this Long are steady and distant as the line of the horizon. Their whole body is lizard-still. Are they even listening?",
+            "label": "É 's, ah, er, uma história engraçada, na verdade...'",
+            "startdescription": "Os olhos deste longo são estáveis e distantes como a linha do horizonte. O corpo inteiro deles é de lagarto. Eles estão até ouvindo?",
             "description": ".",
             "linked": [
                 {
@@ -1457,8 +1457,8 @@
         {
             "id": "explorevaultguardian_long_success_grail",
             "actionid": "explore",
-            "label": "A Long and Golden Afternoon",
-            "startdescription": "Did this Long really fall prey to the Grail's seductions? Or did they know exactly what they were doing? In any case, we have won both space and time enough -",
+            "label": "Um longo e dourado Tarde",
+            "startdescription": "Será que esse longo tempo foi realmente vítima dos sequestros do tril? Ou sabiam exactamente o que estavam a fazer? Em todo o caso, ganhámos espaço e tempo suficientes -",
             "description": ".",
             "effects": {
                 "guardian_long": -1
@@ -1475,8 +1475,8 @@
         {
             "id": "explorevaultguardian_long_success_moth",
             "actionid": "explore",
-            "label": "The Long Deception",
-            "startdescription": "The immortal denizens of Noon are deceived, or amused, or caught up in the knots of a greater scheme yet. They won't interfere, this time.",
+            "label": "A Desilusão Longa",
+            "startdescription": "Os habitantes imortais de Noon são enganados, ou divertidos, ou presos nos nós de um esquema maior ainda. Eles não vão interferir, desta vez.",
             "description": ".",
             "effects": {
                 "guardian_long": -1
@@ -1493,8 +1493,8 @@
         {
             "id": "explorevaultguardian_long_failure",
             "actionid": "explore",
-            "label": "The Long Agony",
-            "startdescription": "An immortal is angry. They may choose to strike someone down, or they may withhold their anger. It's very difficult to tell, with immortals - ",
+            "label": "A Longa Agônia",
+            "startdescription": "Um imortal está bravo. Eles podem optar por atacar alguém, ou eles podem reter sua raiva. É muito difícil dizer, com imortais - ",
             "description": ".",
             "craftable": false,
             "alt": [

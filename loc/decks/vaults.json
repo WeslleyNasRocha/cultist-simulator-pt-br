@@ -2,8 +2,8 @@
     "decks": [
         {
             "id": "locationscapital",
-            "label": "Hidden Locations in the Capital",
-            "description": "Places close at hand.",
+            "label": "Locais Ocultos na Capital",
+            "description": "Lugares próximos às mãos.",
             "spec": [
                 "vaultcapital1",
                 "vaultcapital2",
@@ -16,8 +16,8 @@
         },
         {
             "id": "vaultsshires",
-            "label": "Hidden Locations in the Shires",
-            "description": "An opportunity for a day out in the country, perhaps.",
+            "label": "Lugares escondidos na Costa",
+            "description": "Uma oportunidade para um dia no campo, talvez.",
             "spec": [
                 "vaultshires1",
                 "vaultshires2",
@@ -30,8 +30,8 @@
         },
         {
             "id": "vaultscontinent",
-            "label": "Hidden Locations on the Continent",
-            "description": "A wider world lies across the narrow sea.",
+            "label": "Locais Ocultos no Continente",
+            "description": "Um mundo mais amplo encontra-se através do mar estreito.",
             "spec": [
                 "vaultcontinent1",
                 "vaultcontinent2",
@@ -45,8 +45,8 @@
         },
         {
             "id": "vaultslandbeyondforest",
-            "label": "Hidden Locations in the Land beyond the Forest",
-            "description": "A patchwork of possibilities in a mountain-haunted land.",
+            "label": "Locais Ocultos na Terra além da Floresta",
+            "description": "Uma manta de retalhos de possibilidades em uma terra assombrada de montanha.",
             "spec": [
                 "vaultlandbeyondforest1",
                 "vaultlandbeyondforest2",
@@ -59,8 +59,8 @@
         },
         {
             "id": "vaultsrendingmountains",
-            "label": "Hidden Locations in the Rending Mountains",
-            "description": "Remote and dangerous vaults and temples.",
+            "label": "Lugares escondidos nas Montanhas Rasgantes",
+            "description": "Abóbadas e templos remotos e perigosos.",
             "spec": [
                 "vaultrendingmountains1",
                 "vaultrendingmountains2",
@@ -72,8 +72,8 @@
         },
         {
             "id": "vaultsloneandlevelsands",
-            "label": "Hidden Locations in the Lone and Level Sands",
-            "description": "Here lie the treasures of antiquity, for those who can seize them.",
+            "label": "Locais Ocultos nas Areias Niveladas e Solitárias",
+            "description": "Aqui estão os tesouros da antiguidade, para aqueles que podem pegá-los.",
             "spec": [
                 "vaultloneandlevelsands1",
                 "vaultloneandlevelsands2",
@@ -85,8 +85,8 @@
         },
         {
             "id": "vaultseveningisles",
-            "label": "Hidden Locations in the Evening Isles",
-            "description": "Unmapped islands in the ambit of Port Noon.",
+            "label": "Locais Ocultos nas Ilhas Tardias",
+            "description": "Ilhas não mapeadas no âmbito do Porto do Meio-Dia.",
             "spec": [
                 "vaulteveningisles1",
                 "vaulteveningisles2",

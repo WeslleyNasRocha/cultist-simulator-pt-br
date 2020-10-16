@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "legacydancerjob",
-            "label": "A Contract at the Gaiety",
-            "description": "I have a position in the chorus at the Gaiety. It's mine until my luck or my looks run out... or until I find something better.",
+            "label": "Um Contrato na Gaiedade",
+            "description": "Tenho uma posição no coro do Gaiety. É minha até minha sorte ou meu olhar acabar... ou até encontrar algo melhor.",
             "aspects": {
                 "job": 1,
                 "dance": 1,
@@ -19,7 +19,7 @@
             "slots": [
                 {
                     "id": "health",
-                    "label": "Health",
+                    "label": "Vida",
                     "actionid": "work",
                     "required": {
                         "health": 1
@@ -29,8 +29,8 @@
         },
         {
             "id": "legacydancerjob_suspended",
-            "label": "A Contract at the Gaiety: Suspended",
-            "description": "I've missed too many performances. If I plead convincingly enough, I might get my job back.",
+            "label": "Um Contrato na Gaiey: Suspenso",
+            "description": "Perdi muitas performances. Se me desculpar de forma convincente, posso recuperar meu trabalho.",
             "aspects": {
                 "job": 1
             },
@@ -41,7 +41,7 @@
             "slots": [
                 {
                     "id": "passion",
-                    "label": "Passion",
+                    "label": "Paixão",
                     "actionid": "work",
                     "required": {
                         "passion": 1
@@ -51,14 +51,14 @@
         },
         {
             "id": "dancerlegacy_plotitem_a",
-            "label": "A Crumpled Poem",
-            "description": "It's addressed to another dancer and signed by someone named #LAST_FOLLOWER#. The writer describes how they met the dancer in a dream, in a dark wood. Their dream featured drum-beats, wing-beats, the skin of shadows, the blood of the moon. No wonder the poem was discarded. But already I can see that there are layers of meaning to unpeel.",
+            "label": "Um Poema Desmoronado",
+            "description": "É endereçado a outro dançarino e assinado por alguém chamado #LAST_FOLLOWER#. O escritor descreve como eles conheceram o dançarino em um sonho, numa madeira escura. O sonho deles apresentava batidas de tambor, batidas de asa, a pele das sombras, o sangue da lua. Não admira que o poema tenha sido descartado. Mas já vejo que há camadas de significado para despejar.",
             "slots": [
                 {
                     "id": "Approach",
-                    "label": "Approach",
+                    "label": "Abordagem",
                     "actionid": "study",
-                    "description": "The heart's throb, or the violin's cry?",
+                    "description": "O covô do coração, ou o grito do violino?",
                     "required": {
                         "heart": 1,
                         "moth": 1
@@ -71,13 +71,13 @@
         },
         {
             "id": "dancerjobecdysisa",
-            "label": "A Contract at the Ecdysis Club",
-            "description": "I perform at the Ecdysis Club, on the nights when it's open.",
+            "label": "Um Contrato no Clube de Ecdisis",
+            "description": "Eu efetuo no Clube Ecdysis, às noites quando está aberto.",
             "slots": [
                 {
                     "id": "location",
-                    "label": "The Ecdysis Club",
-                    "description": "The Ecdysis Club, where I enact revelations before witnesses",
+                    "label": "O Clube Ecdisis",
+                    "description": "O Clube Ecdysis, onde eu faço revelações antes das testemunhas",
                     "actionid": "work",
                     "required": {
                         "locationcabaret": 1
@@ -85,18 +85,18 @@
                 },
                 {
                     "id": "purpose",
-                    "label": "Purpose",
+                    "label": "Objetivo",
                     "actionid": "work",
                     "required": {
                         "changemarks": 1,
                         "healthskill": 1
                     },
-                    "description": "Show my Skill to gain access to more complex dances; or use my Desire to pursue Change; or leave empty if I'm just earning money."
+                    "description": "Mostre a minha habilidade para ter acesso a danças mais complexas; ou use o meu Desejo para seguir a Mudança; ou deixe vazio se eu estou apenas ganhando dinheiro."
                 },
                 {
                     "id": "abilityfirst",
-                    "label": "Ability, or Scar",
-                    "description": "What of myself shall I commit?",
+                    "label": "Ágil ou Cicatriz",
+                    "description": "O que de mim devo cometer?",
                     "actionid": "work",
                     "required": {
                         "health": 1,
@@ -106,8 +106,8 @@
                 },
                 {
                     "id": "influence",
-                    "label": "Influence",
-                    "description": "What stirs me today?",
+                    "label": "Influência",
+                    "description": "O que me emociona hoje?",
                     "actionid": "work",
                     "required": {
                         "influence": 1
@@ -123,13 +123,13 @@
         },
         {
             "id": "dancerjobecdysisb",
-            "label": "A Superior Contract at the Ecdysis Club",
-            "description": "I perform the more exacting dances at the Ecdysis Club.",
+            "label": "Um Contrato Superior no Clube de Ecdisis",
+            "description": "Eu realizo as danças mais precisas no Clube de Ecdisis.",
             "slots": [
                 {
                     "id": "location",
-                    "label": "The Ecdysis Club",
-                    "description": "The Ecdysis Club, where I enact revelations before witnesses",
+                    "label": "O Clube Ecdisis",
+                    "description": "O Clube Ecdysis, onde eu faço revelações antes das testemunhas",
                     "actionid": "work",
                     "required": {
                         "locationcabaret": 1
@@ -137,18 +137,18 @@
                 },
                 {
                     "id": "purpose",
-                    "label": "Purpose",
+                    "label": "Objetivo",
                     "actionid": "work",
                     "required": {
                         "changemarks": 1,
                         "healthskill": 1
                     },
-                    "description": "Show my Skill to gain access to more complex dances; or use my Desire to pursue Change; or leave empty if I'm just earning money."
+                    "description": "Mostre a minha habilidade para ter acesso a danças mais complexas; ou use o meu Desejo para seguir a Mudança; ou deixe vazio se eu estou apenas ganhando dinheiro."
                 },
                 {
                     "id": "abilityfirst",
-                    "label": "Ability, or Scar",
-                    "description": "What of myself shall I commit?",
+                    "label": "Ágil ou Cicatriz",
+                    "description": "O que de mim devo cometer?",
                     "actionid": "work",
                     "required": {
                         "health": 1,
@@ -158,8 +158,8 @@
                 },
                 {
                     "id": "abilitysecond",
-                    "label": "Ability, or Scar",
-                    "description": "What of myself shall I commit?",
+                    "label": "Ágil ou Cicatriz",
+                    "description": "O que de mim devo cometer?",
                     "actionid": "work",
                     "required": {
                         "health": 1,
@@ -169,8 +169,8 @@
                 },
                 {
                     "id": "influence",
-                    "label": "Influence",
-                    "description": "What stirs me today?",
+                    "label": "Influência",
+                    "description": "O que me emociona hoje?",
                     "actionid": "work",
                     "required": {
                         "influence": 1
@@ -186,13 +186,13 @@
         },
         {
             "id": "dancerjobecdysisc",
-            "label": "A Particular Arrangement with the Ecdysis Club",
-            "description": "I am occasionally paid a generous consideration to perform very specific dances for very particular connoisseurs.",
+            "label": "Um acordo particular com o Clube Ecdisis",
+            "description": "Por vezes, tenho uma consideração generosa para fazer danças muito específicas para apreciadores muito particulares.",
             "slots": [
                 {
                     "id": "location",
-                    "label": "The Ecdysis Club",
-                    "description": "The Ecdysis Club, where I enact revelations before witnesses",
+                    "label": "O Clube Ecdisis",
+                    "description": "O Clube Ecdysis, onde eu faço revelações antes das testemunhas",
                     "actionid": "work",
                     "required": {
                         "locationcabaret": 1
@@ -200,18 +200,18 @@
                 },
                 {
                     "id": "purpose",
-                    "label": "Purpose",
+                    "label": "Objetivo",
                     "actionid": "work",
                     "required": {
                         "changemarks": 1,
                         "healthskill": 1
                     },
-                    "description": "Use my Desire to pursue Change; or leave empty if I'm just earning money."
+                    "description": "Use meu Desejo para seguir o Mudança; ou deixe vazio se eu estou apenas ganhando dinheiro."
                 },
                 {
                     "id": "abilityfirst",
-                    "label": "Ability, or Scar",
-                    "description": "What of myself shall I commit?",
+                    "label": "Ágil ou Cicatriz",
+                    "description": "O que de mim devo cometer?",
                     "actionid": "work",
                     "required": {
                         "health": 1,
@@ -221,8 +221,8 @@
                 },
                 {
                     "id": "abilitysecond",
-                    "label": "Ability, or Scar",
-                    "description": "What of myself shall I commit?",
+                    "label": "Ágil ou Cicatriz",
+                    "description": "O que de mim devo cometer?",
                     "actionid": "work",
                     "required": {
                         "health": 1,
@@ -232,8 +232,8 @@
                 },
                 {
                     "id": "abilitythird",
-                    "label": "Ability, or Scar",
-                    "description": "What of myself shall I commit?",
+                    "label": "Ágil ou Cicatriz",
+                    "description": "O que de mim devo cometer?",
                     "actionid": "work",
                     "required": {
                         "health": 1,
@@ -243,8 +243,8 @@
                 },
                 {
                     "id": "influence",
-                    "label": "Influence",
-                    "description": "What stirs me today?",
+                    "label": "Influência",
+                    "description": "O que me emociona hoje?",
                     "actionid": "work",
                     "required": {
                         "influence": 1

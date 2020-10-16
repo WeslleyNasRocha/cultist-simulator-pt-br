@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "legacyphysicianwork",
-            "label": "Work at the Institute",
+            "label": "Trabalhe no Instituto",
             "actionid": "work",
             "requirements": {
                 "legacyphysicianjob": 1
@@ -21,17 +21,17 @@
                     "additional": true
                 }
             ],
-            "startdescription": "#PREVIOUSCHARACTERNAME# was a - a difficult patient. I had to take some time away, after that business ended.",
-            "description": "I've finished early. The Director has been sympathetic. But I must return to work full-time, now.",
+            "startdescription": "#PREVIOUSCHARACTERNAME# era um - um paciente difícil. Tive que tirar algum tempo, depois que o negócio acabou.",
+            "description": "Terminei cedo. O diretor tem sido simpático. Mas devo voltar ao trabalho por tempo integral, agora.",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "legacyphysicianopenstudy",
             "actionid": "study",
-            "label": "Notes in the Case of #PREVIOUSCHARACTERNAME#",
-            "startdescription": "My notes spill from the desk drawer where I had thrust them.",
-            "description": "The patient spoke of things that could have no meaning. The house without walls. The divided sun. The invisible light. But when I recall how they spoke of that invisible light, my heart surges. I can ignore the notes no longer.\n[<b>Time</b> is now passing.]",
+            "label": "Notas no caso de #PREVIOUSCHARACTERNAME#",
+            "startdescription": "Minhas notas se derramam na gaveta da mesa onde eu tinha empurrado.",
+            "description": "O paciente falava de coisas que não poderiam ter significado. A casa sem paredes. O sol dividido. A luz invisível. Mas quando me recordo de como falavam dessa luz invisível, o meu coração aumenta. Eu posso ignorar as notas não mais.\n[<b>O tempo</b> já passou.]",
             "effects": {
                 "legacyphysiciannotes": 1
             },
@@ -50,9 +50,9 @@
             "requirements": {
                 "legacyphysiciannotes": 1
             },
-            "label": "Studying my Notes in the Case of #PREVIOUSCHARACTERNAME#",
-            "startdescription": "As I begin to read, I recall the delight in the patient's eyes, the music in their voice ; but also, the smell of the room where they lay.",
-            "description": "Odd moments of sense emerge. I had almost forgotten that curious discursion on 'the Way of Morland' - but now, I realise, it was 'the way <i>to</i> Morland'. I've heard of this Morland - a dealer in troublesome books. \n The rest of their raving - it means no more than it did before. How can a house lack walls? What is the Glory they yearned for? But I can already sense the dreams, waiting for me in sleep.",
+            "label": "Estudando minhas Anotações no caso de #PREVIOUSCHARACTERNAME#",
+            "startdescription": "Como começo a ler, recordo a alegria dos olhos do paciente, a música à sua voz; mas também, o cheiro do quarto onde eles preguiçam.",
+            "description": "Surgem momentos ímpares de sentido. Quase me tinha esquecido da curiosa discursão sobre o \"Caminho da Morte\" - mas agora, Eu sei que foi 'o caminho <i>para</i> Morland'. Ouvi falar desta Morland - um crupiê em livros problemáticos. \n O resto da chuva - não significa mais do que antes. Como uma casa pode não ter paredes? Qual é a Glória que eles anseiam? Mas eu já consigo sentir os sonhos, esperando por mim durante o sonho.",
             "effects": {
                 "legacyphysiciannotes": -1,
                 "mapbookdealer": 1
@@ -71,9 +71,9 @@
         {
             "id": "legacyphysicianopendream",
             "actionid": "dream",
-            "label": "The Invisible Light",
-            "startdescription": "In sleep, I am a crooked tree. Moths crawl my bark. Dawn begins, although the light is invisible. At its touch, I straighten, to reach for the sun.",
-            "description": "When I wake, my face is wracked with tears of joy. That light! cleaner than anything I touch in waking life. But I saw what these dreams did to #PREVIOUSCHARACTERNAME# at the end. It would not be wise or safe to follow them.",
+            "label": "A Luz Invisível",
+            "startdescription": "Com sono, sou uma árvore torta. As mariposas rastejam a minha casca. Amanhecer começa, embora a luz seja invisível. Ao seu toque, eu endireio, para chegar ao sol.",
+            "description": "Quando acordo, meu rosto está cheio de lágrimas de alegria. Aquela luz! mais limpo do que qualquer coisa que toque em acordar vida. Mas eu vi o que esses sonhos fizeram ao #PREVIOUSCHARACTERNAME# no final. Não seria sensato nem seguro segui-los.",
             "effects": {
                 "contentment": 1
             },
@@ -89,8 +89,8 @@
         {
             "id": "legacyphysicianhook",
             "actionid": "hookplot",
-            "label": "Belief?",
-            "startdescription": "I could give in to the dreams. But they <i>will</i> devour my Reason.",
+            "label": "Crença?",
+            "startdescription": "Eu poderia ceder aos sonhos. Mas eles <i>irão</i> devorar meu Reason.",
             "description": ".",
             "alt": [
                 {
@@ -101,7 +101,7 @@
             "slots": [
                 {
                     "id": "Temptation",
-                    "label": "Temptation",
+                    "label": "Tentação",
                     "required": {
                         "reason": 1
                     },
@@ -119,12 +119,12 @@
         {
             "id": "legacyphysicianhookfulfilment",
             "actionid": "hookplot",
-            "label": "The Watchman's Eye",
+            "label": "Olho do Observador",
             "requirements": {
                 "reason": 1
             },
-            "startdescription": "The Watchman is the Door in the Eye. To unlock my own eye, there must be a tiny sacrifice.",
-            "description": "I wielded the knife in sleep. There is pain, but even the pain is a signpost. I have bound the wound. I'll tell them it was an accident. In the dream, I saw the Door. Some day soon, I'll pass it.",
+            "startdescription": "O observador é a porta do Olho. Para desbloquear meu olho, deve haver um sacrifício pequeno.",
+            "description": "Eu empunhei a faca dormindo. Está com dor, mas até mesmo a dor é um sinal. Eu fiquei a ferida. Eu direi a eles que foi um acidente. No sonho, vi a porta. Algum dia em breve, eu passarei isso.",
             "effects": {
                 "ascensionenlightenmenta": 1,
                 "passion": 1,
@@ -141,10 +141,10 @@
         },
         {
             "id": "legacyphysicianopentalk",
-            "label": "Kindred Spirits",
+            "label": "Espíritos Bondosos",
             "actionid": "talk",
-            "startdescription": "One of the patients at the Institute also has a bandaged eye. A self-inflicted wound, they say. Perhaps we'll speak soon.",
-            "description": "My wound has healed, and so has theirs. They don't understand why they did it. But they dreamt of me, that night. We are connected.",
+            "startdescription": "Um dos pacientes do Instituto também tem um olho bandido. Um ferimento auto-infligido, dizem. Talvez falaremos em breve.",
+            "description": "Minha ferida se curou, e também os deles. Eles não entendem por que fizeram isso. Mas sonharam comigo, naquela noite. Estamos ligados.",
             "deckeffects": {
                 "acquaintances": 1
             },

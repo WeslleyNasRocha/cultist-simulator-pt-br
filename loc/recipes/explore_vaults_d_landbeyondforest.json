@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "explore_vaultlandbeyondforest1_setup",
-            "label": "Beginning an Expedition: the Cave of Candles",
+            "label": "Começando uma Expedição: a Caverna das Velas",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -13,7 +13,7 @@
                 "peril_mountains": 1,
                 "guardian_serpent": 1
             },
-            "startdescription": "The ascent to the cave through the high passes will be dangerous. Whatever waits in the darkness below is probably more dangerous still. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "A ascensão à caverna através dos passes altos será perigosa. Qualquer coisa que espere na escuridão abaixo é provavelmente ainda mais perigosa. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -26,7 +26,7 @@
         },
         {
             "id": "explore_vaultlandbeyondforest2_setup",
-            "label": "Beginning an Expedition: the Voivode's Citadel",
+            "label": "Começando uma Expedição: a Cidade do Voivode",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -37,7 +37,7 @@
                 "seal_hiddendoor": 1,
                 "guardian_dead": 1
             },
-            "startdescription": "The Voivode's vault will be hidden well, and if the stories are true, his victims may not rest peacefully in the dark behind the citadel's walls. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "O cofre do Voivode ficará escondido bem, e se as histórias forem verdadeiras, suas vítimas não podem descansar pacificamente nas trevas atrás dos muros da cidadela. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -50,7 +50,7 @@
         },
         {
             "id": "explore_vaultlandbeyondforest3_setup",
-            "label": "Beginning an Expedition: Grunewald's Permanent Circus",
+            "label": "Começando uma Expedição: Círculo Permanente de Grunewald",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -61,7 +61,7 @@
                 "guardian_watchers": 1,
                 "curse_nowhere": 1
             },
-            "startdescription": "The circus folk will be ready to take up arms against us, and the power in the Circus, we fear, may be Worm-touched. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "O povo do circo estará pronto para pegar armas contra nós, e o poder no Circo, receamos, pode ser tocado no Verme. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -74,7 +74,7 @@
         },
         {
             "id": "explore_vaultlandbeyondforest4_setup",
-            "label": "Beginning an Expedition: Tower Revek",
+            "label": "Começando uma Expedição: Torre Revek",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -85,7 +85,7 @@
                 "seal_hiddendoor": 1,
                 "curse_affliction": 1
             },
-            "startdescription": "We will have to search assiduously to find whatever treasures might remain; and if the tower was truly destroyed in a battle between adepts, dangerous influences may still cling to it. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "Teremos de procurar assiduamente para encontrar quaisquer tesouros que possam subsistir; e se a torre foi verdadeiramente destruída numa batalha entre adeptos, as influências perigosas ainda podem agarrar-se a ela. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -98,7 +98,7 @@
         },
         {
             "id": "explore_vaultlandbeyondforest5_setup",
-            "label": "Beginning an Expedition: the Kusnetsov Endowment",
+            "label": "Começando uma Expedição: a Doação Kusnetsov",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -110,7 +110,7 @@
                 "guardian_watchers": 1,
                 "peril_treacherousground": 1
             },
-            "startdescription": "The journey to the Endowment buildings is not long, but the ground is difficult. We have sent three times for permission to visit, and received a less friendly answer each time. No doubt the staff will attempt to forbid our entry. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "A viagem para os edifícios da Dotação não é longa, mas o chão é difícil. Enviamos três vezes para permissão para visitar, e recebemos uma resposta menos amigável a cada vez. Sem dúvida que o pessoal tentará proibir nossa entrada. [Expedições precisam de pelo menos um fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -123,7 +123,7 @@
         },
         {
             "id": "explore_vaultlandbeyondforestdefault_setup",
-            "label": "Beginning an Expedition: Foxlily Meadows",
+            "label": "Começando uma Expedição: Foxlily Doadows",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -135,7 +135,7 @@
                 "guardian_watchers": 1,
                 "curse_visions": 1
             },
-            "startdescription": "The path through the mountains to the high meadow will be hard. The peasants of the mountains will seek to drive us away. If we return home safe, we may struggle to shake off the visions of the place. [Expeditions need at least one Funds per obstacle. Followers will defeat obstacles. If you run out of Funds or Followers, the Expedition ends.]",
+            "startdescription": "O caminho através das montanhas até o prado alto será difícil. Os camponeses das montanhas vão tentar nos expulsar. Se voltarmos a casa em segurança, poderemos ter dificuldades em sacudir as visões do lugar. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,
@@ -148,7 +148,7 @@
         },
         {
             "id": "explorevaultlandbeyondforest1_success",
-            "label": "A Nest of Lights",
+            "label": "Um ninho de luzes",
             "actionid": "explore",
             "requirements": {
                 "vaultlandbeyondforest1": 1
@@ -167,14 +167,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "The tunnels beneath the cave are smooth with the great serpent's passage, and chokingly dark until we come with our lanterns. But the chamber where it nested is surprisingly bright. Luminescent fungi flood the place with ersatz moonlight. Perhaps the candles drew it, not repelled it.",
-            "description": "A little cache of treasures, culled over the years from the serpent's meals. It has nosed them into a glinting pile.",
+            "startdescription": "Os túneis abaixo da caverna estão suaves com a passagem da grande serpente e escuras antes de virmos com nossas lanternas. Mas a câmara onde aninhou está surpreendentemente brilhante. Luminescente fungos inundam o lugar com luz cintilante. Talvez as velas o desenhem, não o repeliam.",
+            "description": "Um pequeno cache de tesouros, abatido ao longo dos anos a partir das refeições da serpente. Ele os acariciou em uma pilha cintilante.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultlandbeyondforest2_success",
-            "label": "The Empty Tomb",
+            "label": "A Tumba Vazia",
             "actionid": "explore",
             "requirements": {
                 "vaultlandbeyondforest2": 1
@@ -195,14 +195,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "Here is the Voivode's mausoleum. Swagged cobwebs hang like soft grey drapes. A great sandstone sarcophagus stands upright at the far end. It's empty.",
-            "description": "Someone has left a little heap of treasures before the sarcophagus, like an offering. There are no footprints in the dust. Whoever left them came here long ago, or else has no need to touch the ground when they pass.",
+            "startdescription": "Aqui está o mausoléu de Voivode. Chuviscos sacudidos ficam pendurados como panos cinzentos. Um grande sarcófago de arenito fica de pé no final final. Está vazio.",
+            "description": "Alguém deixou um pequeno monte de tesouros antes do sarcófago, como uma oferenda. Não há pegadas no pó. Quem quer que os tenha deixado há muito tempo, veio aqui ou não tem de tocar o chão quando passam.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultlandbeyondforest3_success",
-            "label": "After the Circus",
+            "label": "Após o Circo",
             "actionid": "explore",
             "requirements": {
                 "vaultlandbeyondforest3": 1
@@ -224,14 +224,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "In the striped tent, coiling teratologies behind smeared and murky glass. In the grey tent, dripping fog that nuzzles us like a hunting cat - fog rank as an animal. In the black-and-starred tent, wonderful meshes of orrery and sculpture spangled with costume gems. In the red tent, the waxen priest in the glass coffin, and the books clasped to his chest -",
-            "description": "In the red tent, a madness of paper. The circus folk have pasted diagram-crowded paper to every surface: the anatomies of time, the dissections of old weather. The place stinks of Nowhere. We should burn it when we leave. A trestle table holds an unceremonious muddle of trophies and keepsakes.",
+            "startdescription": "Na tenda listrada, teratologias de briga atrás de vidro perfurado e escuro. Na tenda cinza, pingando o nevoeiro que nos zomba como um gato de caça - o nevoeiro é um animal. Na tenda de estrela e preta, maravilhosa malha de orrery e escultura escorregada com gemas de fantasias. Na tenda vermelha, o padre de cera no cofre de vidro e os livros agaralhados em seu baú -",
+            "description": "Na tenda vermelha, uma loucura de papel. O povo do circo colou papel cheio de diagrama em todas as superfícies: as anatomias do tempo, as dissecções do tempo velho. O lugar fede ao nada. Deveríamos queimá-lo quando partimos. Uma mesa de trela realiza uma barraca sem cerimônia de troféus e guardas.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultlandbeyondforest4_success",
-            "label": "A Long-Delayed Conclusion",
+            "label": "Uma longa conclusão atrasada",
             "actionid": "explore",
             "requirements": {
                 "vaultlandbeyondforest4": 1
@@ -250,14 +250,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "Beneath the tower is a cramped cellar with cracked slate walls. The proportions - it should be a perfect cube, but somehow there are too many corners. Blue light festers at the junction of ceiling and wall. The floor flexes, slowly, like the skin of a bubble. It echoes to a stamped foot. What spaces open beneath?",
-            "description": "Bundle the books into a sack. Hurry up the handholds to the tower-stump. The sky above ripples with cobalt aurorae. The hills around are washed with shudders of blue light. There is a high and singing sound from the stones of the tower as we leave. Lightning cracks from the sky, and suddenly everything is silent. The tower-stump is gone.",
+            "startdescription": "Sob a torre está uma lareira estourada com paredes rachadas. As proporções - deve ser um cubo perfeito, mas de alguma forma há demasiados cantos. Cestidores de luz azul na parte do teto e parede. O chão flexo, lentamente, como a pele de uma bolha. Faz eco de um pé carimbado. Que espaços abertos abaixo?",
+            "description": "Junte os livros num saco. Corra nas mãos para o toco da torre. O céu acima das ondulações com aura cobalta. As colinas em volta são lavadas com shudders de luz azul. À medida que vamos saindo da torre, há um som alto e canto. Raiar rachaduras do céu, e de repente tudo está silencioso. O toco da torre se foi.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultlandbeyondforest5_success",
-            "label": "Words' End",
+            "label": "Fim da Palavra",
             "actionid": "explore",
             "requirements": {
                 "vaultlandbeyondforest5": 1
@@ -278,14 +278,14 @@
                 "defaultcard": "compensationc",
                 "resetonexhaustion": false
             },
-            "startdescription": "The library ceiling collapsed years ago. Many of the books have been reduced to swollen pulp by dripping water. Something must remain. ",
-            "description": "A portrait of a genially smiling man - dark skin, bright eyes, neither hair nor eyebrows - watches over the ruined library. It is titled 'Don't Mind Me', and signed with an indecipherable serpentine scrawl. The paint is peeling. It watches us with its benevolent smile as we find intact treasures among the swollen books on the shelves.",
+            "startdescription": "Há anos, o tecto das bibliotecas desmoronou-se, muitos dos livros foram reduzidos a uma polpa inchada, com água a gotejar. ",
+            "description": "Um retrato de um homem genialmente sorridente - pele escura, olhos brilhantes, nem cabelo nem sobrancelhas - vigia a biblioteca arruinada. Tem o título de \"Não me importe\" e assinou com um crawl de serpentina indecifrável. A tinta está descascando. Ele nos observa com seu sorriso benevolente enquanto encontramos tesouros intactos entre os livros inchados nas prateleiras.",
             "warmup": 30,
             "craftable": false
         },
         {
             "id": "explorevaultlandbeyondforestdefault_success",
-            "label": "The Nourishment of Blossoms",
+            "label": "A nutrição de flores",
             "actionid": "explore",
             "requirements": {
                 "vaultlandbeyondforestdefault": 1
@@ -296,8 +296,8 @@
             "deckeffects": {
                 "vaultrewardsd": 3
             },
-            "startdescription": "We've dipped cloths in ammonia, and bound them round our faces, to deaden the foxlily scent. Even so, our heads swim, our bodies respond to a half-dozen contradictory desires. Here are the bones we sought. Loot them and get out.",
-            "description": "The foxlilies are white as cave-skin, white as frost, white as unsullied sheets. It is hard to look away. We will close our eyes and struggle away with our treasures.",
+            "startdescription": "Nós mergulhamos panos no amoníaco, e os amarramos em nossos rostos, para matar o cheiro raposa. Mesmo assim, as nossas cabeças nadam, os nossos corpos respondem a meia dúzia de desejos contraditórios. Aqui estão os ossos que nós procuramos. Saquee-os e saia.",
+            "description": "As raposas são brancas como peles de caverna, brancas como geladas, brancas como folhas não enxurradas. É difícil olhar para trás, fecharemos os olhos e lutaremos com os nossos tesouros.",
             "warmup": 30,
             "craftable": false,
             "linked": [

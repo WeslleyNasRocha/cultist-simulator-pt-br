@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "workapostleforgejob",
-            "label": "Consider my Resources",
+            "label": "Considere meus recursos",
             "actionid": "work",
             "requirements": {
                 "legacyapostleforgejob": 1
@@ -18,17 +18,17 @@
                     "additional": true
                 }
             ],
-            "startdescription": "Our organisation has some resources...",
-            "description": "...enough for a while, but I will need to find other means of support.",
+            "startdescription": "A nossa organização tem alguns recursos...",
+            "description": "...o suficiente durante algum tempo, mas precisarei de encontrar outros meios de apoio.",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "apostleforgeopentalk",
-            "label": "Our Cause",
+            "label": "Nossa Causa",
             "actionid": "talk",
             "requirements": {},
-            "startdescription": "I am not alone.",
+            "startdescription": "Não estou sozinho.",
             "alt": [
                 {
                     "id": "apostleforgeopenstudy",
@@ -36,7 +36,7 @@
                     "additional": true
                 }
             ],
-            "description": "My allies; my Shaper.",
+            "description": "Meus aliados; meu Shaper.",
             "effects": {
                 "lever_LastCult": 1,
                 "lever_LastFollower": 1,
@@ -53,9 +53,9 @@
         },
         {
             "id": "apostleforgeopenstudy",
-            "label": "What do I recall?",
+            "label": "O que eu me lembro?",
             "actionid": "study",
-            "startdescription": "I have been vouchsafed secrets.",
+            "startdescription": "Fui um segredo de vouchsafed .",
             "alt": [
                 {
                     "id": "apostleforgeopenexplore",
@@ -75,10 +75,10 @@
         },
         {
             "id": "apostleforgeopenexplore",
-            "label": "A Place to Begin",
+            "label": "Um Local para Começar",
             "actionid": "explore",
-            "startdescription": "Where were we?",
-            "description": "In our meeting-place, I shall consider the commands I was given.",
+            "startdescription": "Onde nós estamos?",
+            "description": "No nosso local de reunião, terei em conta as instruções que me foram dadas.",
             "alt": [
                 {
                     "id": "apostleforgeopendream",
@@ -95,10 +95,10 @@
         },
         {
             "id": "apostleforgeopendream",
-            "label": "Distant Thunder",
+            "label": "Trovão Distante",
             "actionid": "dream",
-            "startdescription": "What is coming? Who is coming?",
-            "description": "Our Shaper wishes to change the order of the world, and even of the Mansus. There will be opposition.",
+            "startdescription": "O que está vindo? Quem está chegando?",
+            "description": "O nosso Shaper deseja alterar a ordem do mundo e até mesmo dos Mansus. Haverá oposição.",
             "warmup": 60,
             "effects": {
                 "passion": 1
@@ -114,7 +114,7 @@
         },
         {
             "id": "workapostlegrailjob",
-            "label": "Consider my Resources",
+            "label": "Considere meus recursos",
             "actionid": "work",
             "requirements": {
                 "legacyapostlegrailjob": 1
@@ -132,17 +132,17 @@
                     "additional": true
                 }
             ],
-            "startdescription": "Our organisation has some resources...",
-            "description": "...enough for a while, but I will need to find other means of support. And my health is now very poor. I can only hope our Delight will sustain me.",
+            "startdescription": "A nossa organização tem alguns recursos...",
+            "description": "...o suficiente durante algum tempo, mas precisarei de encontrar outros meios de apoio. E minha saúde agora é muito pobre. Só posso esperar que nosso prazer me sustente.",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "apostlegrailopentalk",
-            "label": "Our Cause",
+            "label": "Nossa Causa",
             "actionid": "talk",
             "requirements": {},
-            "startdescription": "I am not alone.",
+            "startdescription": "Não estou sozinho.",
             "alt": [
                 {
                     "id": "apostlegrailopenstudy",
@@ -150,7 +150,7 @@
                     "additional": true
                 }
             ],
-            "description": "My allies; my Delight.",
+            "description": "Meus aliados; meu prazer.",
             "effects": {
                 "lever_LastCult": 1,
                 "lever_LastFollower": 1,
@@ -167,9 +167,9 @@
         },
         {
             "id": "apostlegrailopenstudy",
-            "label": "What do I recall?",
+            "label": "O que eu me lembro?",
             "actionid": "study",
-            "startdescription": "I have been vouchsafed secrets.",
+            "startdescription": "Fui um segredo de vouchsafed .",
             "alt": [
                 {
                     "id": "apostlegrailopenexplore",
@@ -189,10 +189,10 @@
         },
         {
             "id": "apostlegrailopenexplore",
-            "label": "A Place to Begin",
+            "label": "Um Local para Começar",
             "actionid": "explore",
-            "startdescription": "Where were we?",
-            "description": "In our meeting-place, I shall consider the commands I was given.",
+            "startdescription": "Onde nós estamos?",
+            "description": "No nosso local de reunião, terei em conta as instruções que me foram dadas.",
             "alt": [
                 {
                     "id": "apostlegrailopendream",
@@ -209,10 +209,10 @@
         },
         {
             "id": "apostlegrailopendream",
-            "label": "Distant Light",
+            "label": "Luz Distante",
             "actionid": "dream",
-            "startdescription": "What is coming? Who is coming?",
-            "description": "Our Delight wishes to change the order of the world, and even of the Mansus. There will be opposition.",
+            "startdescription": "O que está vindo? Quem está chegando?",
+            "description": "O nosso prazer deseja alterar a ordem do mundo, e até mesmo dos Mansus. Haverá oposição.",
             "warmup": 60,
             "effects": {
                 "passion": 1
@@ -228,7 +228,7 @@
         },
         {
             "id": "workapostlelanternjob",
-            "label": "What I Must Do",
+            "label": "O que devo fazer",
             "actionid": "work",
             "requirements": {
                 "legacyapostlelanternjob": 1
@@ -245,17 +245,17 @@
                     "additional": true
                 }
             ],
-            "startdescription": "I return to myself with a start. Was I daydreaming?",
-            "description": "Here is a package, with funds. Here are my instructions, in a slender envelope of skymost blue. It's enough. My other memories are not relevant just now.",
+            "startdescription": "Eu volto a mim mesmo com um começo. Eu estava sonhando?",
+            "description": "Aqui está um pacote, com fundos. Aqui estão minhas instruções, num envelope magro de azul-céu. É suficiente. Minhas outras memórias não são relevantes agora.",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "apostlelanternopentalk",
-            "label": "Our Cause",
+            "label": "Nossa Causa",
             "actionid": "talk",
             "requirements": {},
-            "startdescription": "I remember these names, though I have never heard them spoken.",
+            "startdescription": "Lembro-me destes nomes, embora nunca os tenha ouvido falar.",
             "alt": [
                 {
                     "id": "apostlelanternopenstudy",
@@ -263,7 +263,7 @@
                     "additional": true
                 }
             ],
-            "description": "My allies; my Illuminated One.",
+            "description": "Meus aliados; meu Iluminado One.",
             "effects": {
                 "lever_LastCult": 1,
                 "lever_LastFollower": 1,
@@ -280,9 +280,9 @@
         },
         {
             "id": "apostlelanternopenstudy",
-            "label": "What do I recall?",
+            "label": "O que eu me lembro?",
             "actionid": "study",
-            "startdescription": "I have been vouchsafed secrets.",
+            "startdescription": "Fui um segredo de vouchsafed .",
             "alt": [
                 {
                     "id": "apostlelanternopenexplore",
@@ -302,10 +302,10 @@
         },
         {
             "id": "apostlelanternopenexplore",
-            "label": "A Place to Begin",
+            "label": "Um Local para Começar",
             "actionid": "explore",
-            "startdescription": "Where were we?",
-            "description": "This is the place I saw, in the light at sleep's edge.",
+            "startdescription": "Onde nós estamos?",
+            "description": "Este é o lugar que eu vi, na luz do canto do sono.",
             "alt": [
                 {
                     "id": "apostlelanternopendream",
@@ -321,10 +321,10 @@
         },
         {
             "id": "apostlelanternopendream",
-            "label": "Distant Light",
+            "label": "Luz Distante",
             "actionid": "dream",
-            "startdescription": "What is coming? Who is coming?",
-            "description": "My dreams warned that there would be opposition to the Illuminated One. All the dreams I am sent are true.",
+            "startdescription": "O que está vindo? Quem está chegando?",
+            "description": "Os meus sonhos avisaram que haveria oposição ao Iluminado Único, e todos os sonhos que me são enviados são verdadeiros.",
             "warmup": 60,
             "effects": {
                 "passion": 1

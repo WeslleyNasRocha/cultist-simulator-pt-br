@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "studyupgrade_downgrade_lore_hint",
-            "label": "Improve my Knowledge of the invisible arts?",
+            "label": "Melhorar meu conhecimento das artes invisíveis?",
             "actionid": "study",
             "requirements": {
                 "lore": 1,
@@ -18,13 +18,13 @@
                 "alzabo": -1,
                 "prealzabo": -1
             },
-            "startdescription": "If I have two lore fragments of the same level and aspect, I can study them together to improve my understanding. If I use Reason, I can analyse the lore, breaking it down into lower-level fragments. Or I can use another type of lore to subvert it...",
+            "startdescription": "Se eu tiver dois fragmentos de minérios do mesmo nível e aspecto, posso estudá-los juntos para melhorar minha compreensão. Se eu usar Reason, eu posso analisar o amor, dividindo-o em fragmentos de nível inferior. Ou eu posso usar outro tipo de história para subvertê-lo...",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "studyupgradelore_hint",
-            "label": "Improve my Knowledge of the invisible arts?",
+            "label": "Melhorar meu conhecimento das artes invisíveis?",
             "actionid": "study",
             "requirements": {
                 "lore": 1,
@@ -32,180 +32,180 @@
                 "alzabo": -1,
                 "prealzabo": -1
             },
-            "startdescription": "If I have two lore fragments of the same level and aspect, I can study them together to improve my understanding. Or I can use another type of lore to subvert it...",
+            "startdescription": "Se eu tiver dois fragmentos de minérios do mesmo nível e aspecto, posso estudá-los juntos para melhorar minha compreensão. Ou eu posso usar outro tipo de história para subvertê-lo...",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "studyprealzabo_hint",
-            "label": "A Bold Experiment",
+            "label": "Um experimento em negrito",
             "actionid": "study",
             "requirements": {
                 "prealzabo": 1
             },
-            "startdescription": "I need only purchase a few final ingredients, and then I can prepare the mixture. I must summon my courage... and find a suitable meal.",
+            "startdescription": "Só preciso comprar alguns ingredientes finais e então posso preparar a mistura. Devo convocar minha coragem... e encontrar uma refeição adequada.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "studyalzabo_hint",
-            "label": "The Feast of the Honeyed Dove",
+            "label": "O Banquete da pomba com Melhores",
             "actionid": "study",
             "requirements": {
                 "alzabo": 1
             },
-            "startdescription": "I can consume Remnants, to preserve a little of their knowledge from dust. I may yet have to.",
+            "startdescription": "Posso consumir Resnantes para preservar um pouco do seu conhecimento a partir da poeira. Ainda tenho de o fazer.",
             "craftable": false,
             "hintonly": true
         },
         {
             "id": "translatelatinhint",
-            "label": "Translate from Latin?",
+            "label": "Traduzir do latim?",
             "actionid": "study",
             "requirements": {
                 "textlatin": 1
             },
-            "startdescription": "My Latin skills are too limited to read this. I might be able to find a textbook, or hire a tutor.",
+            "startdescription": "Minhas habilidades em latim são muito limitadas para ler isso. Talvez eu consiga encontrar um livro, ou contratar um professor.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "translategreekhint",
-            "label": "Translate from Greek?",
+            "label": "Traduzir do grego?",
             "actionid": "study",
             "requirements": {
                 "textgreek": 1
             },
-            "startdescription": "My Greek skills are too limited to read this. I might be able to find a textbook, or hire a tutor.",
+            "startdescription": "Minhas habilidades em grego são muito limitadas para ler isso. Talvez eu consiga encontrar um livro, ou contratar um professor.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "translatearamaichint",
-            "label": "Translate from Aramaic?",
+            "label": "Traduzir do Aramaico?",
             "actionid": "study",
             "requirements": {
                 "textaramaic": 1
             },
-            "startdescription": "My Aramaic skills are too limited to read this. I might be able to find a textbook, or hire a tutor.",
+            "startdescription": "Minhas habilidades Aramaicas são muito limitadas para ler isso. Talvez eu consiga encontrar um livro, ou contratar um professor.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "translatesanskrithint",
-            "label": "Translate from Sanskrit?",
+            "label": "Traduzir do Sanskrit?",
             "actionid": "study",
             "requirements": {
                 "textsanskrit": 1
             },
-            "startdescription": "My Sanskrit skills are too limited to read this. I might be able to find a textbook, or hire a tutor.",
+            "startdescription": "Minhas habilidades Sanskrit são muito limitadas para ler isso. Talvez eu consiga encontrar um livro, ou contratar um professor.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "translatefucinehint",
-            "label": "Translate from Fucine?",
+            "label": "Traduzir do Fucine?",
             "actionid": "study",
             "requirements": {
                 "textfucine": 1
             },
-            "startdescription": "I don't know Fucine; perhaps no-one living does. There might be a Rosetta Stone somewhere... or I might find a tutor who is not living, not exactly.",
+            "startdescription": "Eu não conheço caramba; talvez ninguém viva o faz. Deve haver uma pedra de Rosetta em algum lugar. . ou eu posso encontrar um professor que não está a viver, não exatamente.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "translatephrygianhint",
-            "label": "Translate from Phrygian?",
+            "label": "Traduzir do Phrygian?",
             "actionid": "study",
             "requirements": {
                 "textphrygian": 1
             },
-            "startdescription": "I don't know Phrygian; perhaps no-one living does. There might be a Rosetta Stone somewhere... or I might find a tutor who is not living, not exactly.",
+            "startdescription": "Não sei Phrygian; talvez ninguém viva o faça. Deve haver uma Pedra de Rosetta em algum lugar. . ou eu posso encontrar um professor que não está a viver, não exatamente.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "translatemandaichint",
-            "label": "Translate from Deep Mandaic?",
+            "label": "Traduzir do Deep Mandaic?",
             "actionid": "study",
             "requirements": {
                 "textmandaic": 1
             },
-            "startdescription": "I don't know Deep Mandaic; perhaps no-one living does. There might be a Rosetta Stone somewhere... or I might find a tutor who is not living, not exactly.",
+            "startdescription": "Eu não conheço Deep Mandaic; talvez ninguém viva. Pode haver uma Pedra de Rosetta em algum lugar. . ou eu posso encontrar um professor que não está a viver, não exatamente.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "translatevakhint",
-            "label": "Translate from Vak?",
+            "label": "Traduzir do Vak?",
             "actionid": "study",
             "requirements": {
                 "textvak": 1
             },
-            "startdescription": "I don't know Vak; perhaps no-one living does. There might be a Rosetta Stone somewhere... or I might find a tutor who is not living, not exactly.",
+            "startdescription": "Eu não conheço Vak; talvez ninguém viva consigo. Deve haver uma Pedra Rosetta em algum lugar. . ou eu posso encontrar um professor que não está a viver, não exatamente.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "studyincreasehealthskilld_wronglore",
-            "label": "Exercise the Body: Secret Techniques?",
+            "label": "Exercício do Corpo: Técnicas Secretas?",
             "actionid": "study",
             "requirements": {
                 "skillhealthc": 1,
                 "vitalityplus": 4,
                 "lore": 1
             },
-            "startdescription": "Nothing in this lore will be of use here. I must choose something else.",
+            "startdescription": "Nada nesta história será útil aqui. Eu tenho que escolher outra coisa.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "increasehealthfurtherhint",
-            "label": "Increase my Health?",
+            "label": "Aumentar minha Saúde?",
             "actionid": "study",
             "requirements": {
                 "vitality": 2
             },
-            "startdescription": "The more Health I gain, the more Vitality I'll need. [Use Skill: Physique to increase Health further.]",
+            "startdescription": "Quanto mais Saúde eu ganho, mais vitalidade eu preciso. [Usar habilidade: Físico para aumentar ainda mais a saúde.]",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "increasereasonfurtherhint",
-            "label": "Increase my Reason?",
+            "label": "Aumentar meu Reason?",
             "actionid": "study",
             "requirements": {
                 "erudition": 2
             },
-            "startdescription": "The more Reason I gain, the more Erudition I'll need. [Use Skill: Scholarship to increase Reason further.]",
+            "startdescription": "Quanto mais razão eu ganho, mais Erudição eu preciso. [Usar habilidade: Escoteca para aumentar ainda mais a Reason.]",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "increasepassionfurtherhint",
-            "label": "Increase my Passion?",
+            "label": "Aumentar minha Pássia?",
             "actionid": "study",
             "requirements": {
                 "glimmering": 2
             },
-            "startdescription": "The more Passion I gain, the more Glimmering I'll need. [Use Skill: Imagination to increase Passion further.]",
+            "startdescription": "Quanto mais paixão eu ganho, mais brilho eu preciso. [Use habilidade: Imaginação para aumentar ainda mais a paixão.]",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "studyupgradeinfluences.apostlelanternhint",
-            "label": "Maintaining a Marvel",
+            "label": "Mantendo uma Maravilha",
             "actionid": "study",
             "requirements": {
                 "apostlelantern.pillar3": 1
             },
-            "startdescription": "Even the greatest allure, over time, will flicker and grey. I must stoke it with the colours of obsession.",
+            "startdescription": "Mesmo a maior alusão ao longo do tempo oscila e cinzento, e devo abafá-la com a cor da obsessão.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "studyupgradeinfluenceshint2",
-            "label": "Upgrade Influences?",
+            "label": "Melhorar as Influências?",
             "actionid": "study",
             "requirements": {
                 "influence": 2,
@@ -214,19 +214,19 @@
                 "reasonskill": -1,
                 "passionskill": -1
             },
-            "startdescription": "It might be possible, with the right combination of Influences, to raise more power... but only if I have the necessary knowledge of the invisible arts.",
+            "startdescription": "Poderá ser possível, com a combinação certa das Influências, aumentar o poder. . mas apenas se eu tiver o conhecimento necessário das artes invisíveis.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "increasehealthfurtherhintpluswithskillneedslore",
-            "label": "Increase my Skill to something extraordinary?",
+            "label": "Aumentar minha Habilidade para algo extraordinário?",
             "actionid": "study",
             "requirements": {
                 "vitalityplus": 1,
                 "skillhealthc": 1
             },
-            "startdescription": "I'll need enough Lessons Learnt... and something more.",
+            "startdescription": "Precisarei de lições suficientes... e algo mais.",
             "hintonly": true,
             "craftable": false
         },
@@ -238,7 +238,7 @@
                 "vitalityplus": 1,
                 "healthskill": 1
             },
-            "startdescription": "I'll need more Lessons Learnt.",
+            "startdescription": "Precisarei de mais lições aprendidas.",
             "hintonly": true,
             "craftable": false
         },
@@ -249,7 +249,7 @@
             "requirements": {
                 "vitalityplus": 1
             },
-            "startdescription": "I'll need to use this with my Strength skill.",
+            "startdescription": "Eu precisarei usar isto com a minha habilidade de Força.",
             "hintonly": true,
             "craftable": false
         },
@@ -260,7 +260,7 @@
             "requirements": {
                 "vitality": 1
             },
-            "startdescription": "I'll need more.",
+            "startdescription": "Eu vou precisar de mais.",
             "hintonly": true,
             "craftable": false
         },
@@ -295,7 +295,7 @@
             "requirements": {
                 "eruditionplus": 1
             },
-            "startdescription": "I'll need to use this with my Scholarship skill.",
+            "startdescription": "Precisarei de usar isto com minha habilidade de acadêmico.",
             "hintonly": true,
             "craftable": false
         },
@@ -306,7 +306,7 @@
             "requirements": {
                 "erudition": 1
             },
-            "startdescription": "I'll need more than one.",
+            "startdescription": "Precisarei de mais de uma.",
             "hintonly": true,
             "craftable": false
         },
@@ -324,7 +324,7 @@
         },
         {
             "id": "increasepassionfurtherhintpluswithskill",
-            "label": "Increase my passion?",
+            "label": "Aumentar minha paixão?",
             "actionid": "study",
             "requirements": {
                 "glimmeringplus": 1,
@@ -341,7 +341,7 @@
             "requirements": {
                 "glimmeringplus": 1
             },
-            "startdescription": "I'll need to use this with my Imagination skill.",
+            "startdescription": "Eu vou precisar usar isso com minha habilidade de imaginação.",
             "hintonly": true,
             "craftable": false
         },
@@ -358,12 +358,12 @@
         },
         {
             "id": "studyrestlessnesshint",
-            "label": "Study Restlessness?",
+            "label": "Estudar Inquieto?",
             "actionid": "study",
             "requirements": {
                 "restlessness": 1
             },
-            "startdescription": "To study, one must generally sit quite still. Restlessness is rarely the ally of scholarship.",
+            "startdescription": "De um modo geral, é preciso ficar sentado quieto, pois a inércia raramente é aliada da bolsa.",
             "hintonly": true,
             "craftable": false
         },
@@ -374,7 +374,7 @@
             "requirements": {
                 "influence": 1
             },
-            "startdescription": "It might be possible, with the right combination of Influences, to raise more power...",
+            "startdescription": "Poderá ser possível, com a combinação certa das Influências, aumentar o poder...",
             "hintonly": true,
             "craftable": false
         }

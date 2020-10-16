@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "apostleforge.mentor",
-            "label": "#PREVIOUSCHARACTERNAME#, our Shaper",
-            "description": "The one who raised us; the one who made us what we are; the one who waits in exile, and will rise when we bring the Dawn.",
+            "label": "#PREVIOUSCHARACTERNAME#, nosso Shaper",
+            "description": "Quem nos levantou; quem nos fez o que somos; aquele que espera no exílio e se levantará quando trazermos o Amanhecer.",
             "comments": "Is an acquaintance so we can hijack the cult foundation recipe.",
             "aspects": {
                 "mentor": 1
@@ -11,8 +11,8 @@
         },
         {
             "id": "legacyapostleforgejob",
-            "label": "A Favoured Place",
-            "description": "For so long I waited at the left hand of our Shaper. Now the time has come for me to lead the Great Work.",
+            "label": "Um lugar favorito",
+            "description": "Por tanto tempo esperei na mão esquerda de nossa Shaper. Agora chegou a hora de eu liderar a Grande Trabalho.",
             "aspects": {
                 "job": 1
             },
@@ -20,8 +20,8 @@
         },
         {
             "id": "apostleforge.pillarfuel",
-            "label": "Shaper's Guidance",
-            "description": "We will need our Shaper's guidance to forge the Dawnbreaker Core from a Carcass Spark; to refine Forge ingredients to their final form; to make of a follower the Shaper's Compass; to learn of the Key from the Ligeian, Sulochana; and to complete the Work. But if we do not do their bidding swiftly, Dread will follow.",
+            "label": "Orientação do Criador",
+            "description": "Vamos precisar da orientação do nosso Criador para forjar o Núcleo Dawnbreaker a partir de um Carcass Spark; para refinar a forja de ingredientes até sua forma final; para fazer um seguidor da Bússola de Shaper; para aprender com a chave do Ligeiano, Sulochana; e para completar o trabalho. Mas se não fizermos rapidamente a sua oferta, seguir-nos-á o dia!",
             "aspects": {
                 "influence": 1
             },
@@ -31,13 +31,13 @@
         },
         {
             "id": "apostleforge.pillar1",
-            "label": "Dawnbreaker Technique",
-            "description": "THE SHAPER SPEAKS: 'I must enact the Forge. Set a Carcass Spark at the engine's heart. Awaken it with the highest mysteries. Prepare the fiercest alchemy to fuel it. Find the flaw in the place at the land's edge that has the same name in every History. Bring the device there, with the Biting Key that Sulochana the Ligeian knows. Evoke the Forge's greatest heat; employ the most potent Mysteries of Opening; and I will attend your dissolution.'"
+            "label": "Técnica Quebra-terra",
+            "description": "A VELOCIDADE DE SHAPER ESPECS: 'Eu devo implementar a Forge. Configure uma Carcaça no coração do motor. Desperte-a com os mistérios mais altos. Prepare a alquimia mais feroz para alimentá-la. Encontre a falha no lugar na borda da terra que tem o mesmo nome em cada História. Traga o dispositivo para lá, com a chave de banho que Sulochana, o Ligeian, sabe. Evoca o maior calor da Forge; emprega os mais potentes Mistérios da Abertura; e eu estarei presente na vossa dissolução.\""
         },
         {
             "id": "apostleforge.pillar2.dormant",
-            "label": "Dormant Dawnbreaker Core",
-            "description": "A shining cage of curved metal, enclosing a softly glowing fragment of ancient light. It might begin our Dawn, if we can rekindle it and purify it with the fiercest alchemy.",
+            "label": "Núcleo Dormant Dawnbreaker",
+            "description": "Uma gaiola brilhante de metal curvo, incluindo um fragmento suave de luz antiga. Pode começar a nossa aurora, se conseguirmos reanimá-la e purificá-la com a mais feroz alquimia.",
             "aspects": {
                 "tool": 1,
                 "greatwork": 1
@@ -46,7 +46,7 @@
         {
             "id": "apostleforge.pillar2",
             "label": "Dawnbreaker Core",
-            "description": "A radiant cage of curved metal, imprisoning a blazing mote of solar fire. If we can carry it to the place where the world's flaw colours the air, we can bring the Dawn.",
+            "description": "Uma gaiola radiante de metal curvo, aprisionando um manto ígneo de fogo solar. Se pudermos levá-la ao lugar onde as falhas do mundo cortam o ar, podemos trazer o Dawn.",
             "aspects": {
                 "tool": 1,
                 "greatwork": 1
@@ -57,8 +57,8 @@
         },
         {
             "id": "apostleforge.pillar3",
-            "label": "Blue Gold",
-            "description": "This is alchemy's savage summit: the deadly blue of fire outpacing light. Touch it and die.",
+            "label": "Ouro Azul",
+            "description": "Esta é a cimeira selvagem da alquimia: o azul mortal de luz flamejante. Toque nela e morra.",
             "aspects": {
                 "ingredient": 1,
                 "greatwork": 1
@@ -69,8 +69,8 @@
         },
         {
             "id": "apostleforge.pillar5",
-            "label": "Mrs E.'s Assistance",
-            "description": "A little brass chimaera-head given by Mrs E. as a token. When we have prepared the proper rite, she'll bear her Key to the flaw in the world, so that when I bring the Dawn, the Mansus will open for our Shaper. But she won't wait forever.",
+            "label": "Assistência da senhora deputada E.'s",
+            "description": "Uma pequena cabeça de latão dada pela senhora deputada E. Quando prepararmos a verdadeira carona, ela vai levar sua chave para a falha do mundo para que, quando eu trazer o Dawn, o Mansus se abra para nosso Shaper. Mas ela não vai esperar para sempre.",
             "aspects": {
                 "promise": 1
             },
@@ -79,8 +79,8 @@
         },
         {
             "id": "apostleforge.pillar2.dormant.sabotaged",
-            "label": "Sabotaged Dormant Dawnbreaker Core",
-            "description": "A battered tangle of bent metal, enclosing a mote of drunkenly bobbing light. We must repair it before it collapses altogether!",
+            "label": "Núcleo Dormant Dawnbreaker Sabotaged",
+            "description": "Um emaranhado de metal dobrado, encapsando um esfregão de luz bêbada. Temos que consertá-lo antes que ele desmorone completamente!",
             "aspects": {
                 "tool": 1,
                 "greatwork.sabotaged": 1
@@ -91,8 +91,8 @@
         },
         {
             "id": "apostleforge.pillar2.sabotaged",
-            "label": "Sabotaged Dawnbreaker Core",
-            "description": "A flaring tangle of bent metal. A blazing mote of solar fire quivers fitfully within. We must repair it before it collapses altogether!",
+            "label": "Núcleo Sabotaged Dawnbreaker",
+            "description": "Um emaranhado deslumbrante de metal dobrado. Um cartucho ardente de bombeiros solares bem dentro. Temos que consertá-lo antes que ele desmorone completamente!",
             "aspects": {
                 "tool": 1,
                 "greatwork.sabotaged": 1
@@ -103,8 +103,8 @@
         },
         {
             "id": "apostleforge.pillar3.sabotaged",
-            "label": "Unstable Blue Gold",
-            "description": "A poisoned, stuttering ingot of energetic alchemy. We must soothe its rage, and quickly!",
+            "label": "Ouro Azul Instável",
+            "description": "Uma barra envenenada e gaguejante de alquimia enérgica. Precisamos acalmar a raiva e rapidamente!",
             "aspects": {
                 "ingredient": 1,
                 "greatwork.sabotaged": 1
@@ -115,8 +115,8 @@
         },
         {
             "id": "apostlegrail.mentor",
-            "label": "#PREVIOUSCHARACTERNAME#, our Delight",
-            "description": "Our fountain, our joy, who rests in exile until the greatest of Feasts, the Vitulation.",
+            "label": "#PREVIOUSCHARACTERNAME#, nossa satisfação",
+            "description": "Nossa fonte, nossa alegria, que permanece no exílio até o maior dos Bancos, a Vitulação.",
             "comments": "Is an acquaintance so we can hijack the cult foundation recipe.",
             "aspects": {
                 "mentor": 1
@@ -124,8 +124,8 @@
         },
         {
             "id": "legacyapostlegrailjob",
-            "label": "Duty and Delight",
-            "description": "Our Delight saved me from death, and also from boredom. We shall give them everything.",
+            "label": "Obrigação e prazer",
+            "description": "Nosso prazer me salvou da morte e também de tédio. Nós lhes daremos tudo.",
             "aspects": {
                 "job": 1
             },
@@ -133,8 +133,8 @@
         },
         {
             "id": "apostlegrail.pillarfuel",
-            "label": "Delightful Blood",
-            "description": "I have received a little vial of our Delight's blood, via courier. Our Delight's instructions are written herein, in the tiny tangles of cellular script. We can taste them, as they will taste us. If we waste it, our Delight will wax wroth.",
+            "label": "Sangue delicioso",
+            "description": "Eu recebi um pouco frasco do sangue do nosso Iluminado, através de correio eletrônico. As instruções de nosso iluminado estão escritas neste documento, nas minúsculas tangas do script celular. Nós podemos sabê-los, como eles vão nos saborear. Se desperdiçarmos, nossa luz vai cerrar a corda.",
             "aspects": {
                 "ingredient": 1,
                 "grail": 3,
@@ -146,16 +146,16 @@
         },
         {
             "id": "apostlegrail.pillar1",
-            "label": "Vitulation Recipe",
-            "description": "'The Delight shall give life; the Delight shall take life; the Delight shall not be sated. We must purchase the secret savours and infuse them with the Hours' gifts; assemble the Host; at the most auspicious time, raise the resistless cry of the Unceasing Mysteries and share from the Chalice Murmurous.'",
+            "label": "Receita de vitulação",
+            "description": "\"O prazer deve dar vida, o prazer deve viver; o prazer não deve ser saciado. Temos de adquirir os sabores secretos e infundi-los com os presentes das horas; montar o Anfitrião; No momento mais auspicioso, levantem o grito de resistência dos Descessantes Mistérios e partilham do Chalice Murmurous.\"",
             "aspects": {
                 "lore": 1
             }
         },
         {
             "id": "apostlegrail.pillar2.dormant",
-            "label": "Forlorn Blood",
-            "description": "I have a disease. My blood is wrong. My bones are sick. I'll die. But perhaps I can preserve myself, long enough, with the holy blood of our Delight.",
+            "label": "Sangue Forlorn",
+            "description": "Estou com uma doença. Meu sangue está errado. Meus ossos estão doentes. Vou morrer. Mas talvez eu possa preservar-me durante bastante tempo, com o sangue sagrado da nossa Delícia.",
             "aspects": {
                 "illhealth": 1
             },
@@ -163,7 +163,7 @@
                 {
                     "id": "blood",
                     "actionid": "dream",
-                    "label": "Blood",
+                    "label": "Sangue",
                     "required": {
                         "apostlegrail.pillarfuel": 1
                     }
@@ -172,8 +172,8 @@
         },
         {
             "id": "apostlegrail.pillar2",
-            "label": "Savorous Blood",
-            "description": "I am of the same blood as the Delightful, now. As long as their savour graces my veins, my disease cannot touch me. Without their blessing, I'll die.",
+            "label": "Sangue Selvagem",
+            "description": "Agora sou do mesmo sangue que o delicioso. Enquanto eles saborearem minhas veias, minha doença não me tocará sem a bênção deles. Vou morrer.",
             "aspects": {
                 "promise": 1
             },
@@ -182,8 +182,8 @@
         },
         {
             "id": "apostlegrail.pillar3",
-            "label": "The Seven Graces",
-            "description": "The Spices and Savouries department of the eccentric firm of T.R.N. Ltd caters to endeavours such as ours. They have supplied these tempting adornments, with which we shall bedizen and prepare ourselves... once they have been correctly prepared in a sealed and darkened kitchen.",
+            "label": "As Sete Graças,",
+            "description": "O departamento de Spices e Savouries da empresa excêntrica da T.R.N. A Ltd atende a esforços como os nossos. Ofereceram esses adornos tentadores, com os quais nos vamos desvendar e nos preparar. Uma vez correctamente preparados, numa cozinha selada e escura.",
             "aspects": {
                 "ingredient": 1,
                 "job": 1,
@@ -192,8 +192,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress1",
-            "label": "The First Fragments of the Host",
-            "description": "We have attracted a few gourmands and perverts. They will expect a feast of the senses.",
+            "label": "Os Primeiros Fragmentos do Anfitrião",
+            "description": "Nós atraímos alguns gourmands e perversos. Eles vão esperar um banquete dos sentidos.",
             "aspects": {
                 "summoned": 1
             },
@@ -206,8 +206,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress2",
-            "label": "The Second Fragments of the Host",
-            "description": "Word spreads. Curiosity and appetite will drive strangers to attend our Vitulation.",
+            "label": "Os Segundo Fragmentos do Anfitrião",
+            "description": "Surpresa de palavras. Curiosidades e apetite irão conduzir estranhos para participar da nossa Vitulação.",
             "aspects": {
                 "summoned": 1
             },
@@ -221,8 +221,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress3",
-            "label": "The Third Fragments of the Host",
-            "description": "Filthy draggles of the morbid and the inquisitive.",
+            "label": "Os Terceiro Fragmentos do Anfitrião",
+            "description": "Dragões abundantes da mordaria e do inquisitivo.",
             "aspects": {
                 "summoned": 1
             },
@@ -236,8 +236,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress4",
-            "label": "The Fourth Fragments of the Host",
-            "description": "The hungry, the greedy, the curious: all these have received our invitation.",
+            "label": "Os Quartos Fragmentos do Anfitrião",
+            "description": "Os famintos, a ganância, os curiosos: todos eles receberam o nosso convite.",
             "aspects": {
                 "summoned": 1
             },
@@ -251,8 +251,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress5",
-            "label": "The Fifth Fragments of the Host",
-            "description": "Now the name of the Vitulation is whispered wherever mouths embrace meat.",
+            "label": "Os Quinto Fragmentos do Anfitrião",
+            "description": "Agora, o nome da Vitulação é sussurrado onde quer que a boca abranja a carne.",
             "aspects": {
                 "summoned": 1
             },
@@ -266,8 +266,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress6",
-            "label": "The Sixth Fragments of the Host",
-            "description": "When the time comes, our guests will throng like rats.",
+            "label": "Os Sextos Fragmentos do Anfitrião",
+            "description": "Quando chegar a hora, nossos convidados vão jogar ratos.",
             "aspects": {
                 "summoned": 1
             },
@@ -281,8 +281,8 @@
         },
         {
             "id": "apostlegrail.pillar4.inprogress7",
-            "label": "The Host, Assembled",
-            "description": "We await only the Key-holder, who must open the Kingskin Gate when our Delight enacts the Grail.",
+            "label": "O Anfitrião, Montado",
+            "description": "Esperamos apenas o detentor da chave, que tem de abrir o Portão Kingskin quando o nosso Delight promulgar o Grail.",
             "aspects": {
                 "summoned": 1
             },
@@ -295,16 +295,16 @@
         },
         {
             "id": "apostlegrail.pillar4",
-            "label": "The Host and the Guests",
-            "description": "When the signal is given, a great Host will assemble, their eyes so wide - their mouths so wide - to feast and be feasted upon - to draw from me the blood of our Delight. Our very Delight shall lead them in their feasting, and the Lady of Wires shall turn her Key.",
+            "label": "O anfitrião e os convidados",
+            "description": "Quando o sinal é dado, um grande anfitrião se montará, os seus olhos tão largos - as suas bocas tão largas - para se festejar e se alimentar - para retirar de mim o sangue das nossas mortes. Nosso prazer deve guiá-los no banquete, e a Dama de Wires vai virar sua Chave.",
             "aspects": {
                 "summoned": 1
             }
         },
         {
             "id": "apostlelantern.mentor",
-            "label": "#PREVIOUSCHARACTERNAME#, our Illuminated One",
-            "description": "Our source, our inspiration, who dwells now in the Mansus.",
+            "label": "#PREVIOUSCHARACTERNAME#, nosso Iluminado Um",
+            "description": "Nossa fonte, nossa inspiração, que reside agora nos Mansus.",
             "comments": "Is an acquaintance so we can hijack the cult foundation recipe.",
             "aspects": {
                 "mentor": 1
@@ -312,8 +312,8 @@
         },
         {
             "id": "legacyapostlelanternjob",
-            "label": "The First Dream",
-            "description": "The dreams have hollowed me out like a withered oak, and now I am almost ready.",
+            "label": "O Primeiro Sonho",
+            "description": "Os sonhos me espreitaram como um carvalho apodrecido, e agora estou quase pronto.",
             "aspects": {
                 "job": 1
             },
@@ -321,8 +321,8 @@
         },
         {
             "id": "apostlelantern.pillarfuel",
-            "label": "A Dream of a Key",
-            "description": "The dream, again. Instructions for me, and for someone else, if I can find them. It will guide me into the Mansus. It will show me what I need to do. It is a presentiment of the true Key, for those who know something of the Glory.",
+            "label": "Um sonho de uma chave",
+            "description": "O sonho, de novo. Instruções para mim e para outra pessoa, se eu puder encontrá-los. Ele me guiará para o Mansus. Isso vai me mostrar o que preciso de fazer. É um presentimento da verdadeira chave, para aqueles que sabem alguma coisa do cloro.",
             "lifetime": 60,
             "aspects": {
                 "tool": 1
@@ -332,19 +332,19 @@
         },
         {
             "id": "apostlelantern.pillar1",
-            "label": "The Third Mode",
-            "description": "'We shall navigate; we shall illuminate; we shall not be compassionate. Seek the Crossroads behind the Door of Eyes. Raise there the Allure. Send the silvered dead to bring the sleeping souls of mortals. When there are sufficient Witnesses, send for the Key of Days, to open the three-lobed gate Outwards, in its third mode.'",
+            "label": "O Terceiro Modo",
+            "description": "\"Vamos navegar; vamos iluminar; não vamos ser compassivos. Procure a encruzilhada atrás da porta de Olhos. Levante lá o Allure. Envie os mortos prateados para trazer almas adormecidas de mortais. Quando há testemunhas suficientes, envie para o Centro das Dias, para abrir o triplo do portão para fora, no seu terceiro modo.\"",
             "aspects": {
                 "tool": 1
             }
         },
         {
             "id": "apostlelantern.pillar2",
-            "label": "The Lesser Crossroads",
+            "label": "A encruzilhada menor",
             "slots": [
                 {
                     "id": "keydream",
-                    "label": "A Dream of a Key",
+                    "label": "Um sonho de uma chave",
                     "required": {
                         "apostlelantern.pillarfuel": 1
                     },
@@ -352,14 +352,14 @@
                 },
                 {
                     "id": "lanterninfluence",
-                    "label": "A Dream of Light",
+                    "label": "Um Sonho de Luz",
                     "required": {
                         "influencelanterng": 1
                     },
                     "actionid": "dream"
                 }
             ],
-            "description": "A pair of knotted roads beneath the shadow of a tree, and the eye of the Tricuspid Gate, close to the head of the Ascent of Knives. The Concursum's shadow? Its reflection? Its sister?",
+            "description": "Um par de estradas notadas sob a sombra de uma árvore, e o olho do Portão Tricuspid, perto da cabeça da Ascensão de Factos. A sombra da concursão? Sua reflexão? Sua irmã?",
             "aspects": {
                 "way": 1
             },
@@ -367,18 +367,18 @@
         },
         {
             "id": "apostlelantern.pillar3",
-            "label": "The Allure",
+            "label": "A Atraição",
             "slots": [
                 {
                     "id": "fascination",
-                    "label": "The Bait",
+                    "label": "A Isca",
                     "required": {
                         "fascination": 1
                     },
                     "actionid": "study"
                 }
             ],
-            "description": "Once seen, the Allure clings. Few living souls will ever venture this far into the Mansus. I must employ a Maid-in-the-Mirror and show her the Allure, so that she will know to bring them here.",
+            "description": "Uma vez visto, o Allure se agarra. Poucas almas vivas jamais aventurarão até aqui para os Mansus. Tenho de empregar uma Maid-in-the-Mirror e mostrar-lhe o Allure, para que saiba trazê-la para cá.",
             "aspects": {
                 "influence": 1
             },
@@ -389,8 +389,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress1",
-            "label": "The Witnesses: One of Seven",
-            "description": "A solitary figure, swaying at the Crossroads in the golden light of the Allure, the blue of the Mansus.",
+            "label": "As Testemunhas: Um dos Sete",
+            "description": "Uma figura solitária, balançando na encruzilhada à luz dourada do Allure, o azul do Mansus.",
             "aspects": {
                 "summoned": 1
             },
@@ -404,8 +404,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress2",
-            "label": "The Witnesses: Two of Seven",
-            "description": "A Witness-pair, swaying at the Crossroads in the golden light of the Allure, the blue of the Mansus.",
+            "label": "As Testemunhas: Dois de sete",
+            "description": "Um par de testemunhas, balançando na encruzilhada na luz dourada do Allure, o azul do Mansus.",
             "aspects": {
                 "summoned": 1
             },
@@ -420,8 +420,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress3",
-            "label": "The Witnesses: Three of Seven",
-            "description": "Their faces are blanker than ever, but they have taken each others' hands.",
+            "label": "As Testemunhas: Três de sete",
+            "description": "Os seus rostos estão mais cobertos do que nunca, mas eles tomaram as mãos uns dos outros.",
             "aspects": {
                 "summoned": 1
             },
@@ -436,8 +436,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress4",
-            "label": "The Witnesses: Four of Seven",
-            "description": "The light bleaches them, but by their nature they will dapple as the moment draws near.",
+            "label": "As Testemunhas: Quatro dos Sete",
+            "description": "A luz os ensanguenta, mas pela sua natureza eles vão se inflamar quando o momento se aproximar.",
             "aspects": {
                 "summoned": 1
             },
@@ -452,8 +452,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress5",
-            "label": "The Witnesses: Five of Seven",
-            "description": "Five witnesses wait for the fruit that will swell, but never ripen.",
+            "label": "As Testemunhas: Cinco de Sete",
+            "description": "Cinco testemunhas aguardam a fruta que vai afundar-se, mas nunca amadurece.",
             "aspects": {
                 "summoned": 1
             },
@@ -468,8 +468,8 @@
         },
         {
             "id": "apostlelantern.pillar4.inprogress6",
-            "label": "The Witnesses: Six of Seven",
-            "description": "The air is agony. They cannot look away.",
+            "label": "Testemunhas: Seis de Sete",
+            "description": "O ar é agonia. Eles não podem desviar o olhar.",
             "aspects": {
                 "summoned": 1
             },
@@ -484,8 +484,8 @@
         },
         {
             "id": "apostlelantern.pillar4",
-            "label": "The Cloud of Witnesses",
-            "description": "Seven silent souls softly supplicate shining source.",
+            "label": "A Nuvem de Testemunhas",
+            "description": "Sete almas silenciosas suplicam suavemente a fonte brilhante.",
             "aspects": {
                 "summoned": 1
             }

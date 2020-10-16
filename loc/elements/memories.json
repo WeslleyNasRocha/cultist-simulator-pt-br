@@ -2,8 +2,8 @@
     "elements": [
         {
             "id": "memorybittersweet",
-            "label": "Bittersweet Memory",
-            "description": "I could recall a complex time.",
+            "label": "Memória Bittersweet",
+            "description": "Poderia lembrar-me de um período complexo.",
             "aspects": {
                 "way": 1,
                 "memory": 1
@@ -12,8 +12,8 @@
         },
         {
             "id": "memorypleasant",
-            "label": "Pleasant Memory",
-            "description": "I could recall a happier time.",
+            "label": "Memória Agradável",
+            "description": "Poderia recordar-me de um momento mais feliz.",
             "aspects": {
                 "way": 1,
                 "memory": 1
@@ -22,8 +22,8 @@
         },
         {
             "id": "memorypassionate",
-            "label": "Passionate Memory",
-            "description": "I could recall a warmer time.",
+            "label": "Memória Passiva",
+            "description": "Eu podia me lembrar de um tempo mais quente.",
             "aspects": {
                 "way": 1,
                 "memory": 1
@@ -32,120 +32,120 @@
         },
         {
             "id": "memory.shameful",
-            "label": "Something Shameful",
+            "label": "Algo Xamuoso",
             "aspects": {
                 "memory": 1
             },
-            "description": "Not all private pleasures are suitable for public discussion.",
+            "description": "Nem todos os prazeres privados são adequados para discussão pública.",
             "lifetime": 300
         },
         {
             "id": "memory.profitable",
-            "label": "Something Profitable",
+            "label": "Algo lucrativo",
             "aspects": {
                 "memory": 1
             },
-            "description": "A ray of commercial light; a miniature opportunity; a figurative five-pound note on the pavement.",
+            "description": "Um raio de luz comercial; uma oportunidade de miniatura; uma nota figurativa de cinco libras na calçada.",
             "lifetime": 300
         },
         {
             "id": "memory.joyful",
-            "label": "Something Joyful",
+            "label": "Algo alegre",
             "aspects": {
                 "memory": 1
             },
-            "description": "Delight does not endure for long, but sometimes, it endures longer than do we.",
+            "description": "O prazer não vive por muito tempo, mas às vezes vive mais tempo do que nós.",
             "lifetime": 300
         },
         {
             "id": "memory.menacing",
-            "label": "Something Menacing",
+            "label": "Algo Miquerinando",
             "aspects": {
                 "memory": 1
             },
-            "description": "The great mercy of dreams is that they do not often intrude into waking life.",
+            "description": "A grande misericórdia dos sonhos é que não se intrometem frequentemente na vida acordada.",
             "lifetime": 300
         },
         {
             "id": "memory.unexpected",
-            "label": "Something Unexpected",
+            "label": "Algo Inesperado",
             "aspects": {
                 "memory": 1
             },
-            "description": "Every life has its impossible corners.",
+            "description": "Toda vida tem os seus cantos impossíveis.",
             "lifetime": 300
         },
         {
             "id": "memory.furious",
-            "label": "Furious Memory",
+            "label": "Memória Furiosa",
             "aspects": {
                 "memory": 5
             },
-            "description": "Long after the cause for rage has passed, the rage endures. Here is a memory of a wrong done before ever iron was tamed. [Paint with this Memory to bring it to full awareness.]"
+            "description": "Muito depois do fim da raiva, a raiva perdura. Aqui está uma memória errada feita antes que o ferro seja domesticado. [Pinte com esta memória para trazê-la a plena consciência.]"
         },
         {
             "id": "memory.luxurious",
-            "label": "Luxurious Memory",
+            "label": "Memória Luxosa",
             "aspects": {
                 "memory": 5
             },
-            "description": "Pleasure, like the sea, is ancient; pleasure, like the sea, precedes the conscious human soul; but like the sea, pleasure is different in every age and every hour. [Paint with this Memory to bring it to full awareness.]"
+            "description": "O prazer, tal como o mar, é antigo; o prazer, tal como o mar, precede a alma humana consciente; mas como o mar, o prazer é diferente em cada idade e a cada hora. [Pinte com esta memória para levá-la a uma plena consciência.]"
         },
         {
             "id": "memory.liminal",
-            "label": "Liminal Memory",
+            "label": "Memória Liminal",
             "aspects": {
                 "memory": 5
             },
-            "description": "'We each of us have a memory of a moment when things changed forever, though at the time we never knew it. Perhaps the world also has those memories.' [Paint with this Memory to bring it to full awareness.]"
+            "description": "\"Cada um de nós tem memória de um momento em que as coisas mudaram para sempre, mas na altura nunca o sabemos. Talvez o mundo também tenha essas memórias.' [Pinte com esta memória para a sensibilizar plenamente.]"
         },
         {
             "id": "memory.horizon",
-            "label": "Glorious Memory",
+            "label": "Memória Gloriosa",
             "aspects": {
                 "memory": 5
             },
-            "description": "The Sun was warmer once - no brighter, but its touch was a kind of mercy. [Paint with this Memory to bring it to full awareness.]"
+            "description": "O Sol estava mais quente uma vez - sem brilho, mas seu toque era uma espécie de misericórdia. [Pinte com esta memória para levá-la a uma plena consciência.]"
         },
         {
             "id": "memory.splendid",
-            "label": "Splendid Memory",
+            "label": "Memória Esplêndida",
             "aspects": {
                 "memory": 5
             },
-            "description": "The Sun was brighter once - no warmer, but its light held colours we no longer see. [Paint with this Memory to bring it to full awareness.]"
+            "description": "O Sol estava mais brilhante uma vez - sem aquecedor, mas sua luz mantém as cores que já não vemos. [Pinte com esta memória para levá-la a uma plena consciência.]"
         },
         {
             "id": "memory.endless",
-            "label": "Endless Memory",
+            "label": "Memória sem fim",
             "aspects": {
                 "memory": 5
             },
-            "description": "There is a Wheel that only turns beneath the Moon, where once it turned beneath the Sun. But why only one? Why only two? [Paint with this Memory to bring it to full awareness.]"
+            "description": "Há uma Roda que só se vira debaixo da Lua, onde uma vez se mudou debaixo do Sol. Mas por que só um? Por que apenas dois? [Pinte com esta memória para trazê-la a plena consciência.]"
         },
         {
             "id": "memory.wildering",
-            "label": "Wildering Memory",
+            "label": "Memória Livre",
             "aspects": {
                 "memory": 5
             },
-            "description": "Sometimes we remember what was lost even when we have forgotten that it is gone. [Paint with this Memory to bring it to full awareness.]"
+            "description": "Às vezes, lembramos o que se perdeu mesmo quando esquecemos que ele sumiu. [Pint com esta memória para torná-la plenamente consciente.]"
         },
         {
             "id": "memory.golden",
-            "label": "Golden Memory",
+            "label": "Memória dourada",
             "aspects": {
                 "memory": 5
             },
-            "description": "In fire are all the treasures of the earth revealed. [Paint with this Memory to bring it to full awareness.]"
+            "description": "Em chamas são todos os tesouros da terra revelados. [Pinte com esta memória para levá-la à plena consciência.]"
         },
         {
             "id": "memory.honeyed",
-            "label": "Honeyed Memory",
+            "label": "Memória com Melhores",
             "aspects": {
                 "memory": 5
             },
-            "description": "When we walked in the ways of the wood we were winged and watchful, and we had no need of nectar. [Paint with this Memory to bring it to full awareness.]"
+            "description": "Quando andamos pelos caminhos da madeira, estávamos alados e vigilantes, e não precisávamos de néctar. [Pinte com esta memória para levá-la a uma plena consciência.]"
         }
     ]
 }

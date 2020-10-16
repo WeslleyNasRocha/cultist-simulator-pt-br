@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "expeditionascensionmothb",
-            "label": "Name of the Mother, Name of the Moon",
+            "label": "Nome da mãe, nome da lua",
             "actionid": "explore",
             "requirements": {
                 "sendingmothb": 1
@@ -12,11 +12,11 @@
                 "ascensionlessonmothb": 1,
                 "sending": -1
             },
-            "description": "Integument, Surrendered: In a dry attic above the grey roofs of Kerisham, in view of the grey sea, in the dreams of the murderer child, Old Mother Anguish once met with Ahad her son. The murderer child's bones still lie there. Now my serpent-self couples with what remains so fiercely that its outer self comes free."
+            "description": "Inteiro, Sobrenaturado: Em um sótão seco acima dos telhados cinza de Kerisham, tendo em conta o mar cinzento, nos sonhos da criança assassina, a Velha Anguish se encontrou com Ahad seu filho. Os ossos da criança assassina ainda lá estão. Agora meu próprio serpente casal com o que continua a ser tão feroz que o seu próprio exterior é livre."
         },
         {
             "id": "expeditionascensionmothc",
-            "label": "The Name of the Black-Flax",
+            "label": "O Nome do Linho Negro",
             "actionid": "explore",
             "requirements": {
                 "sendingmothc": 1
@@ -26,11 +26,11 @@
                 "ascensionlessonmothc": 1,
                 "sending": -1
             },
-            "description": "Steps, Surrendered: Kitling Ripe was born in the black flax at the river's edge. She will bring me the answer which is always no, and when my cat-self dances for her, she will eat the sound of my steps."
+            "description": "Passos, renderizados: Ripe Kitling nasceu no linho preto na borda do rio. Dar-me-á a resposta que é sempre negativa, e quando a minha gata dançar para ela irá comer o som dos meus passos."
         },
         {
             "id": "expeditionascensionmothd",
-            "label": "The Lilyking's Name",
+            "label": "Nome do Lilyking",
             "actionid": "explore",
             "requirements": {
                 "sendingmothd": 1
@@ -40,11 +40,11 @@
                 "ascensionlessonmothd": 1,
                 "sending": -1
             },
-            "description": "Hues, Surrendered: Up in the mountains waits Karpellus the Flowermaker's Name, crushing the scent from the flowers with the weight of his self, as he will crush the changes from my fox-self, like new wine from grapes."
+            "description": "Toneladas, Sobrenaturadas: Nas montanhas espera Karpellus o Nome da Flor, esmagando o cheiro das flores com o peso de si mesmo pois ele irá esmagar as mudanças do meu próprio fox, como vinho novo da uva."
         },
         {
             "id": "expeditionascensionmothe",
-            "label": "A Dance with Centipede",
+            "label": "Uma dança com Centipede",
             "actionid": "explore",
             "requirements": {
                 "sendingmothe": 1
@@ -54,11 +54,11 @@
                 "ascensionlessonmothe": 1,
                 "sending": -1
             },
-            "description": "Sight, Surrendered: Centipede coils round my eagle-self's foot when I land. Centipede's claws tangle in my feathers when I rise. Centipede's bite takes the sun from my eyes, and primes them for the final change which is to come."
+            "description": "Mistura, Sobrenaturada: Bobinas Centipede rodeiam os pés da minha águia quando entorno. As garras do Centipede encolhem em minhas penas quando eu subo. A mordida de Centipede tira o sol dos meus olhos e os prima pela mudança final que está para vir."
         },
         {
             "id": "expeditionascensionmothf",
-            "label": "The Wolf's Name",
+            "label": "Nome do Lobo",
             "actionid": "explore",
             "requirements": {
                 "sendingmothf": 1
@@ -68,7 +68,7 @@
                 "sending": -1
             },
             "warmup": 30,
-            "description": "Bones, Surrendered: In the harbour of Port Noon, an unknown hand has jammed a lump of cinnabar into the very end of the breakwater. It is a memorial to Coelle the flower-girl, whose body washed up there after she drowned herself. She was not the first and she will not be the last. My wolf-self will curl here to sleep, and the Wolf-Divided will come to me and thrill me with his hatred."
+            "description": "Os ossos, o Surrendo: No porto de Port Noon, uma mão desconhecida atirou um pedaço de cinnabar até ao fundo da água quebrada. É um monumento para Coelho a florista, cujo corpo se lavou lá depois de ela se afogar. Não foi a primeira e não será a última. Meu lobo vai sonolar aqui para dormir, e o Wolf-Divided virá até mim emocionar-me com o ódio."
         }
     ]
 }

@@ -3,8 +3,8 @@
         {
             "id": "work.poison.fascination.longlesson.trap",
             "actionid": "work",
-            "label": "An Enemy Ever Vigilant",
-            "startdescription": "Our enemy watches our operations from a high window of the Mansus. They have learnt more of us.",
+            "label": "Um Vigilante Eterno Inimigo",
+            "startdescription": "Nosso inimigo assiste às nossas operações com uma alta janela do Mansus. Eles aprenderam mais de nós.",
             "requirements": {
                 "poison.fascination.longlesson": 1,
                 "fascination": 1
@@ -23,7 +23,7 @@
             "craftable": true
         },
         {
-            "label": "Reason's Glory [Grand]",
+            "label": "Glória do Reason [Grand]",
             "id": "arcane_lantern_edge_grand",
             "actionid": "work",
             "requirements": {
@@ -34,12 +34,12 @@
                 "edge": 1
             },
             "effects": {},
-            "startdescription": "As above, so below: Reason and Passion contend in the human soul, as the Glory lights the darkness of the Wood. This mystic discipline will transform Passion to Reason. [You are calling on a Grand degree of Lantern, and this will almost certainly succeed, but there are always risks.] ",
-            "description": "My mind is sluiced with light. I have grown calmer and sharper.  I have changed. [Passion has been transformed to Reason.]",
+            "startdescription": "Como acima, abaixo: Reason e paixão lutam na alma humana, pois a Glória acende a escuridão da Madeira. Esta disciplina mística transformará a Paixão em Reason. [Você está pedindo um Grande grau de Lanterna, e isso quase certamente será bem-sucedido, mas existem sempre riscos] ",
+            "description": "Minha mente está cheia de luz. Fiquei mais calma e mais afiada. Mudei. [A paixão foi transformada em Reason.]",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "Give up my Passion",
+                    "label": "Desista da minha paixão",
                     "required": {
                         "passion": 1
                     },
@@ -60,7 +60,7 @@
             "craftable": true
         },
         {
-            "label": "Reason's Glory [Major]",
+            "label": "Glória do Reason [Major]",
             "id": "arcane_lantern_edge_major",
             "actionid": "work",
             "requirements": {
@@ -71,12 +71,12 @@
                 "edge": 1
             },
             "effects": {},
-            "startdescription": "As above, so below: Reason and Passion contend in the human soul, as the Glory lights the darkness of the Wood. This mystic discipline will transform Passion to Reason. [You are calling on a Major degree of Lantern, so the rite will probably succeed. Increase Lantern to at least 15 to improve your chances further.] ",
-            "description": "My mind is sluiced with light. I have grown calmer and sharper.  I have changed. [Passion has been transformed to Reason.]",
+            "startdescription": "Como acima, abaixo: Reason e paixão lutam na alma humana, pois a Glória acende a escuridão da Madeira. Esta disciplina mística transformará a Paixão em Reason. [Você está apelando a um grande grau de Lanterna, por isso o ritual provavelmente terá sucesso. Aumente a Lanterna em pelo menos 15 para melhorar suas chances ainda mais.] ",
+            "description": "Minha mente está cheia de luz. Fiquei mais calma e mais afiada. Mudei. [A paixão foi transformada em Reason.]",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "Give up my Passion",
+                    "label": "Desista da minha paixão",
                     "required": {
                         "passion": 1
                     },
@@ -97,7 +97,7 @@
             "craftable": true
         },
         {
-            "label": "Reason's Glory [Minor]",
+            "label": "Glória do Reason [Minor]",
             "id": "arcane_lantern_edge_minor",
             "actionid": "work",
             "requirements": {
@@ -108,12 +108,12 @@
                 "edge": 1
             },
             "effects": {},
-            "startdescription": "As above, so below: Reason and Passion contend in the human soul, as the Glory lights the darkness of the Wood. This mystic discipline will transform Passion to Reason. [You are calling on only a Minor degree of Lantern, so the rite will often fail. Increase Lantern to at least 10 to improve your chances.] ",
-            "description": "My mind is sluiced with light. I have grown calmer and sharper.  I have changed. [Passion has been transformed to Reason.]",
+            "startdescription": "Como acima, abaixo: Reason e paixão lutam na alma humana, pois a Glória acende a escuridão da Madeira. Esta disciplina mística transformará a Paixão em Reason. [Você só pede um pequeno grau de Lanterna, portanto o ritual muitas vezes falha. Aumente a Lanterna em pelo menos 10 para melhorar suas chances.] ",
+            "description": "Minha mente está cheia de luz. Fiquei mais calma e mais afiada. Mudei. [A paixão foi transformada em Reason.]",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "Give up my Passion",
+                    "label": "Desista da minha paixão",
                     "required": {
                         "passion": 1
                     },
@@ -135,15 +135,15 @@
         },
         {
             "id": "arcane_lantern_edge_failure",
-            "label": "Reason's Glory [Failure!]",
+            "label": "Glória do Reason [Falhou!]",
             "actionid": "work",
-            "description": "This magic has gone awry. An invisible light has ensnared me.",
+            "description": "Esta magia se desentrou. Uma luz invisível me enfiou.",
             "effects": {
                 "fascination": 1
             }
         },
         {
-            "label": "Passion's Gyre [Grand]",
+            "label": "Gyre de Passion [Grand]",
             "id": "arcane_moth_edge_grand",
             "actionid": "work",
             "requirements": {
@@ -154,12 +154,12 @@
                 "edge": 1
             },
             "effects": {},
-            "startdescription": "As below, so above: Passion and Reason contend in the human soul, as the Wood engulfs the Glory's light. This ecstatic practice will transform Reason to Passion... but it may get out of hand.  [You are calling on a Grand degree of Moth, and this will almost certainly succeed, but there are always risks.] ",
-            "description": "My passions rise like wind, like tide, like flood. It is difficult to think clearly. I have changed. [Reason has been transformed to Passion.]",
+            "startdescription": "Tão logo abaixo, acima: Paixão e Reason disputam na alma humana, já que a madeira engoli a luz do Glória. Essa prática ecestática transformará Reason em Passion. , mas isso pode ficar fora de controlo. [Você está pedindo um Grande grau de Lua, e isso quase certamente será bem-sucedido, mas existem sempre riscos] ",
+            "description": "Minhas paixões se levantam como vento, como maré, como enchente. É difícil pensar claramente. [Reason foi transformado em Passion.]",
             "slots": [
                 {
                     "id": "reason",
-                    "label": "Give up my Reason",
+                    "label": "Desista do meu motivo",
                     "required": {
                         "reason": 1
                     },
@@ -186,7 +186,7 @@
             ]
         },
         {
-            "label": "Passion's Gyre [Major]",
+            "label": "Gyre de Passion [Major]",
             "id": "arcane_moth_edge_major",
             "actionid": "work",
             "requirements": {
@@ -197,12 +197,12 @@
                 "edge": 1
             },
             "effects": {},
-            "startdescription": "As below, so above: Passion and Reason contend in the human soul, as the Wood engulfs the Glory's light. This ecstatic practice will transform Reason to Passion... but it may get out of hand.[You are calling on a Major degree of Moth, so the rite will probably succeed. Increase Moth to at least 15 to improve your chances further.] ",
-            "description": "My passions rise like wind, like tide, like flood. It is difficult to think clearly. I have changed. [Reason has been transformed to Passion.]",
+            "startdescription": "Tão logo abaixo, acima: Paixão e Reason disputam na alma humana, já que a madeira engoli a luz do Glória. Essa prática ecestática transformará Reason em paixão... mas pode ficar fora de controle.[Você está chamando um grande grau de luz, por isso o ritual provavelmente será bem sucedido. Aumente a Mariposa para pelo menos 15 para melhorar ainda mais suas oportunidades.] ",
+            "description": "Minhas paixões se levantam como vento, como maré, como enchente. É difícil pensar claramente. [Reason foi transformado em Passion.]",
             "slots": [
                 {
                     "id": "reason",
-                    "label": "Give up my reason",
+                    "label": "Desista do meu motivo",
                     "required": {
                         "reason": 1
                     },
@@ -229,7 +229,7 @@
             ]
         },
         {
-            "label": "Passion's Gyre [Minor]",
+            "label": "Gyre de Passion [Minor]",
             "id": "arcane_moth_edge_minor",
             "actionid": "work",
             "requirements": {
@@ -240,12 +240,12 @@
                 "edge": 1
             },
             "effects": {},
-            "startdescription": "As below, so above: Passion and Reason contend in the human soul, as the Wood engulfs the Glory's light. This ecstatic practice will transform Reason to Passion... but it may get out of hand. [You are calling on only a Minor degree of Moth, so the rite will often fail. Increase Moth to at least 10 to improve your chances.] ",
-            "description": "My passions rise like wind, like tide, like flood. It is difficult to think clearly. I have changed. [Reason has been transformed to Passion.]",
+            "startdescription": "Tão logo abaixo, acima: Paixão e Reason disputam na alma humana, já que a madeira engoli a luz do Glória. Essa prática ecestática transformará Reason em paixão... mas pode ficar fora de controle. [Você só está chamando um grau de lua menor, então o ritual muitas vezes vai falhar. Aumente a Mariposa para, pelo menos, 10 para melhorar suas chances.] ",
+            "description": "Minhas paixões se levantam como vento, como maré, como enchente. É difícil pensar claramente. [Reason foi transformado em Passion.]",
             "slots": [
                 {
                     "id": "reason",
-                    "label": "Give up my reason",
+                    "label": "Desista do meu motivo",
                     "required": {
                         "reason": 1
                     },
@@ -273,16 +273,16 @@
         },
         {
             "id": "arcane_moth_edge_failure",
-            "label": "Passion's Gyre [Failure!]",
+            "label": "Gyre de Passion [Falhou!]",
             "actionid": "work",
-            "description": "This magic has gone askew. Dread has drowned my delight.",
+            "description": "Esta magia desapareceu. Meu prazer foi afogar.",
             "effects": {
                 "dread": 1
             }
         },
         {
             "id": "arcane_moth_edge_runaway_link",
-            "label": "Passion's Gyre [UNCEASING!]",
+            "label": "Gyre de Passion [CEASANDO!]",
             "actionid": "work",
             "warmup": 2,
             "linked": [
@@ -294,7 +294,7 @@
         },
         {
             "id": "arcane_moth_edge_runaway",
-            "label": "Passion's Gyre [UNCEASING!]",
+            "label": "Gyre de Passion [CEASANDO!]",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -303,12 +303,12 @@
                 "moth": 15,
                 "edge": 1
             },
-            "startdescription": "The Moth has me! The Gyre widens! My Reason may be drowned entirely!",
-            "description": "At last the Gyre has drawn to its close, but It is difficult to think straight. I have changed. [Reason has been transformed to Passion.]",
+            "startdescription": "A Mariposa me interessa! As larguras de Gyre! Minha razão pode estar se afogada completamente!",
+            "description": "Finalmente, o Gyre chegou ao seu fim, mas é difícil pensar direito. Eu mudei. [Reason foi transformado em Passion.]",
             "slots": [
                 {
                     "id": "reason",
-                    "label": "Give up my Reason",
+                    "label": "Desista do meu motivo",
                     "required": {
                         "reason": 1
                     },
@@ -338,7 +338,7 @@
             ]
         },
         {
-            "label": "Forge's Redemption [Grand]",
+            "label": "Resgate de Forja [Grand]",
             "id": "arcane_forge_grail_grand",
             "actionid": "work",
             "requirements": {
@@ -352,8 +352,8 @@
                 "notoriety": 1,
                 "fascination": 1
             },
-            "startdescription": "The Forge of Days destroys and renews. I will invoke it with the Grail to renew my failing flesh with forbidden magics. [You are calling on a Grand degree of Forge, and this will almost certainly succeed, but there are always risks.] ",
-            "description": "I have been renewed with flame, tempered with blood. My flesh is strong again, but the Forge's radiance has dazzled my soul... and people will talk. [Decrepitude has been transformed back to Health, but you've gained Fascination and Notoriety.]",
+            "startdescription": "A Forja de Dias destrói e renova. Vou invocá-la com o Grail para renovar minha carne fracassada com magias proibidas. [Você está apelando para uma Grande Forja, e isso vai quase certamente ser bem-sucedido, mas há sempre riscos.] ",
+            "description": "Fui renovado com chamas, temperado com sangue. A minha carne é forte novamente, mas o esplendor da Forja desviou a minha alma. . e as pessoas falarão. [Decrepitude foi transformada de volta à Saúde, mas você ganhou Fascinação e Notoriety.]",
             "slots": [
                 {
                     "id": "decrepitude",
@@ -378,7 +378,7 @@
             "craftable": true
         },
         {
-            "label": "Forge's Redemption [Major]",
+            "label": "Resgate de Forja [Major]",
             "id": "arcane_forge_grail_major",
             "actionid": "work",
             "requirements": {
@@ -392,8 +392,8 @@
                 "notoriety": 1,
                 "fascination": 1
             },
-            "startdescription": "The Forge of Days destroys and renews. I will invoke it with the Grail to renew my failing flesh with forbidden magics. [You are calling on a Major degree of Forge, so the rite will probably succeed. Increase Forge to at least 15 to improve your chances further.] ",
-            "description": "I have been renewed with flame, tempered with blood. My flesh is strong again, but the Forge's radiance has dazzled my soul... and people will talk. [Decrepitude has been transformed back to Health, but you've gained Fascination and Notoriety.]",
+            "startdescription": "A Forja de Dias destrói e renova. Vou invocá-la com o Grail para renovar minha carne fracassada com magias proibidas. [Você está apelando a uma grande Forge, então o rito provavelmente terá sucesso. Aumente a Forja em pelo menos 15 para aumentar suas chances ainda mais.] ",
+            "description": "Fui renovado com chamas, temperado com sangue. A minha carne é forte novamente, mas o esplendor da Forja desviou a minha alma. . e as pessoas falarão. [Decrepitude foi transformada de volta à Saúde, mas você ganhou Fascinação e Notoriety.]",
             "slots": [
                 {
                     "id": "decrepitude",
@@ -418,7 +418,7 @@
             "craftable": true
         },
         {
-            "label": "Forge's Redemption [Minor]",
+            "label": "Resgate de Forja [Minor]",
             "id": "arcane_forge_grail_minor",
             "actionid": "work",
             "requirements": {
@@ -432,8 +432,8 @@
                 "notoriety": 1,
                 "fascination": 1
             },
-            "startdescription": "The Forge of Days destroys and renews. I will invoke it with the Grail to renew my failing flesh with forbidden magics. [You are calling only a Minor degree of Forge, and this will often fail. Increase Forge to at least 10 to improve your chances further.] ",
-            "description": "I have been renewed with flame, tempered with blood. My flesh is strong again, but the Forge's radiance has dazzled my soul... and people will talk. [Decrepitude has been transformed back to Health, but you've gained Fascination and Notoriety.]",
+            "startdescription": "A Forja de Dias destrói e renova. Vou invocá-la com o Grail para renovar minha carne fracassada com magias proibidas. [Está a chamar apenas um grau menor de Forge, o que muitas vezes falhará. Aumente Forja em pelo menos 10 para melhorar suas chances ainda mais.] ",
+            "description": "Fui renovado com chamas, temperado com sangue. A minha carne é forte novamente, mas o esplendor da Forja desviou a minha alma. . e as pessoas falarão. [Decrepitude foi transformada de volta à Saúde, mas você ganhou Fascinação e Notoriety.]",
             "slots": [
                 {
                     "id": "decrepitude",
@@ -458,16 +458,16 @@
         },
         {
             "id": "arcane_forge_grail_failure",
-            "label": "Forge's Redemption [Failure!]",
+            "label": "Resgate da Forja [Falhou!]",
             "actionid": "work",
-            "description": "The Forge of Days has failed me, or I have failed it. This magic has brought me only nightmares, and peril.",
+            "description": "A Forja dos Dias me falhou, ou eu falhei. Esta magia me trouxe apenas pesadelos e perigo.",
             "effects": {
                 "dread": 1,
                 "mystique": 1
             }
         },
         {
-            "label": "The End is Beautiful [Grand]",
+            "label": "O End é lindo [Grand]",
             "id": "arcane_winter_lantern_grand",
             "actionid": "work",
             "requirements": {
@@ -477,12 +477,12 @@
                 "winter": 15,
                 "lantern": 1
             },
-            "startdescription": "The Sun-in-Rags brings beautiful endings. This sudden and perilous magic will end someone or something, but it's impossible to know what. It will also kill any mortal or spirit that assists with the ritual. [You are calling on a Grand degree of Winter, and this will almost certainly succeed, although it might be safer if it fails.] ",
-            "description": "Snow has settled on every surface in my work-chamber. The fire gives no heat, but I cannot extinguish it, nor can I extinguish the candles, which burn with a red nimbus and a gold flame and a heart of black. As the ritual reaches its climax, someone, somewhere, will conclude.",
+            "startdescription": "O Sun-in-Rags traz belos finais. Esta magia repentina e perigosa vai acabar com alguém ou alguma coisa, mas é impossível saber o quê. Também matará qualquer mortal ou espírito que ajude o ritual. [Está a pedir um Grande grau de Inverno, e isso será quase certamente bem sucedido, embora possa ser mais seguro se falhar.] ",
+            "description": "A neve afundou-se em todas as superfícies na minha sala de trabalho. O fogo não dá calor, mas eu não posso extinguí-lo, nem posso extinguir as velas, que queima com um nimbo vermelho e uma chama de ouro e um coração preto. Uma vez que o ritual atinge o clima, alguém, concluir-se-á alguém.",
             "slots": [
                 {
                     "id": "conclusion",
-                    "label": "A Conclusion",
+                    "label": "Uma conclusão",
                     "required": {
                         "mortal": 1,
                         "summoned": 1
@@ -510,7 +510,7 @@
             "craftable": true
         },
         {
-            "label": "The End is Beautiful [Major]",
+            "label": "O End é lindo [Major]",
             "id": "arcane_winter_lantern_major",
             "actionid": "work",
             "requirements": {
@@ -520,12 +520,12 @@
                 "winter": 10,
                 "lantern": 1
             },
-            "startdescription": "The Sun-in-Rags brings beautiful endings. This sudden and perilous magic will end someone or something, but it's impossible to know what. It will also kill any mortal or spirit that assists with the ritual. [You are calling on a Major degree of Winter, so this will probably succeed. Call on at least 15 Winter to increase your chances further, although it might in fact be safer if it fails.] ",
-            "description": "Snow has settled on every surface in my work-chamber. The fire gives no heat, but I cannot extinguish it, nor can I extinguish the candles, which burn with a red nimbus and a gold flame and a heart of black. As the ritual reaches its climax, someone, somewhere, will conclude.",
+            "startdescription": "O Sun-in-Rags traz belos finais. Esta magia repentina e perigosa vai acabar com alguém ou alguma coisa, mas é impossível saber o quê. Também matará qualquer mortal ou espírito que ajude o ritual. [Você está apelando para um maior grau de Inverno, então isso provavelmente será bem-sucedido. Chame pelo menos 15 Invernos para aumentar suas chances mais, embora possa de fato ser mais seguro se ele falhar.] ",
+            "description": "A neve afundou-se em todas as superfícies na minha sala de trabalho. O fogo não dá calor, mas eu não posso extinguí-lo, nem posso extinguir as velas, que queima com um nimbo vermelho e uma chama de ouro e um coração preto. Uma vez que o ritual atinge o clima, alguém, concluir-se-á alguém.",
             "slots": [
                 {
                     "id": "conclusion",
-                    "label": "A Conclusion",
+                    "label": "Uma conclusão",
                     "required": {
                         "mortal": 1,
                         "summoned": 1
@@ -553,7 +553,7 @@
             "craftable": true
         },
         {
-            "label": "The End is Beautiful [Minor]",
+            "label": "O End é lindo [Minor]",
             "id": "arcane_winter_lantern_minor",
             "actionid": "work",
             "requirements": {
@@ -563,12 +563,12 @@
                 "winter": 5,
                 "lantern": 1
             },
-            "startdescription": "The Sun-in-Rags brings beautiful endings. This sudden and perilous magic will end someone or something, but it's impossible to know what. It will also kill any mortal or spirit that assists with the ritual. [You are calling only a Minor degree of Winter, so this will often fail. Call on at least 10 Winter to increase your chances, although it might in fact be safer if it does fail.] ",
-            "description": "Snow has settled on every surface in my work-chamber. The fire gives no heat, but I cannot extinguish it, nor can I extinguish the candles, which burn with a red nimbus and a gold flame and a heart of black. As the ritual reaches its climax, someone, somewhere, will conclude.",
+            "startdescription": "O Sun-in-Rags traz belos finais. Esta magia repentina e perigosa vai acabar com alguém ou alguma coisa, mas é impossível saber o quê. Também matará qualquer mortal ou espírito que ajude o ritual. [Está a chamar apenas um grau menor de Inverno, portanto isso muitas vezes vai falhar. Chame pelo menos 10 Invernos para aumentar suas chances, embora possa de fato ser mais seguro se ele falhar.] ",
+            "description": "A neve afundou-se em todas as superfícies na minha sala de trabalho. O fogo não dá calor, mas eu não posso extinguí-lo, nem posso extinguir as velas, que queima com um nimbo vermelho e uma chama de ouro e um coração preto. Uma vez que o ritual atinge o clima, alguém, concluir-se-á alguém.",
             "slots": [
                 {
                     "id": "conclusion",
-                    "label": "A Conclusion",
+                    "label": "Uma conclusão",
                     "required": {
                         "mortal": 1,
                         "summoned": 1
@@ -597,9 +597,9 @@
         },
         {
             "id": "arcane_winter_lantern_failure",
-            "label": "The End is Beautiful [Failure!]",
+            "label": "O The End é lindo [Falhou!]",
             "actionid": "work",
-            "description": "The Sun-in-Rags will not answer my call. This magic has brought me only the foreknowledge of winter.",
+            "description": "O Sun-in-Rags não me atenderá a chamada. Esta magia me trouxe apenas o conhecimento prévio do inverno.",
             "effects": {
                 "dread": 1,
                 "mystique": 1

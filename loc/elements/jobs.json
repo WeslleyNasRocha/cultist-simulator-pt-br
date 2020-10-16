@@ -2,11 +2,11 @@
     "elements": [
         {
             "id": "gloverandgloverjuniorjob",
-            "label": "Junior Position at Glover & Glover",
+            "label": "Posição Júnior no Glover & Glover",
             "aspects": {
                 "job": 1
             },
-            "description": "My intellect should be put to better use! But the pay is better than labourer's work. [If you don't attend this job regularly, you might suffer a demotion.]",
+            "description": "Meu intelecto deve ser mais bem utilizado! Mas o salário é melhor do que o trabalho do trabalhador. [Se você não participa deste trabalho regularmente, você pode sofrer uma demoção.]",
             "xtriggers": {
                 "careeradvancement": "gloverandglover_difficultbossa_job",
                 "employment": "gloverandgloverjuniorjob"
@@ -16,11 +16,11 @@
         },
         {
             "id": "gloverandgloverjuniorjob_nodifficultbossa",
-            "label": "Junior Position at Glover & Glover",
+            "label": "Posição Júnior no Glover & Glover",
             "aspects": {
                 "job": 1
             },
-            "description": "My intellect should be put to better use! But the pay is better than labourer's work. [If you don't attend this job regularly, you might suffer a demotion.]",
+            "description": "Meu intelecto deve ser mais bem utilizado! Mas o salário é melhor do que o trabalho do trabalhador. [Se você não participa deste trabalho regularmente, você pode sofrer uma demoção.]",
             "xtriggers": {
                 "careeradvancement": "gloverandgloverjob",
                 "employment": "gloverandgloverjuniorjob_nodifficultbossa"
@@ -30,12 +30,12 @@
         },
         {
             "id": "gloverandglover_difficultbossa_job",
-            "label": "A Position at Glover and Glover",
+            "label": "Posição no Glover e Glover",
             "aspects": {
                 "annoyance": 1,
                 "job": 1
             },
-            "description": "A position in Records under Mr Alden. I earn a little more; I stay a little later. Mr Alden always watches me closely. [If you don't attend this job regularly, you might suffer a demotion.]",
+            "description": "Uma posição nos Registos sob a égide do senhor deputado Alden. Ganho um pouco mais; ficarei um pouco mais tarde. O senhor deputado Alden sempre me assiste de perto. [Se você não participa deste trabalho regularmente, pode sofrer uma demoção.]",
             "xtriggers": {
                 "endannoyance": "gloverandglover_difficultbossa_gone_job",
                 "careeradvancement": "gloverandgloverseniorjob",
@@ -46,16 +46,16 @@
         },
         {
             "id": "gloverandglover_difficultbossa_gone_job",
-            "label": "Position at Glover & Glover",
+            "label": "Posição no Glover & Glover",
             "aspects": {
                 "job": 1
             },
-            "description": "The man called Alden is gone. I may find matters easier when I return to work.",
+            "description": "O homem chamado Alden se foi. Talvez eu tenha mais facilidade quando volto ao trabalho.",
             "comments": "interim job that immediately changes to standard one."
         },
         {
             "id": "gloverandgloverjob",
-            "label": "Position at Glover & Glover",
+            "label": "Posição no Glover & Glover",
             "aspects": {
                 "job": 1
             },
@@ -67,10 +67,10 @@
                     "required": {
                         "reason": 1
                     },
-                    "description": "Extra effort. It might help, if I'm very lucky."
+                    "description": "Faça um esforço extra. Pode ajudar, se eu tiver muita sorte."
                 }
             ],
-            "description": "I earn a little more; I stay a little later. Envy glints in the eye of the junior clerk who occupies my old desk. [If you don't attend this job regularly, you might suffer a demotion.]",
+            "description": "Ganho um pouco mais; fico um pouco mais tarde. Inveja brilha nos olhos do pessoal subalterno que ocupa a minha velha secretária. [Se você não participa deste trabalho regularmente, você pode sofrer uma demoção.]",
             "xtriggers": {
                 "careeradvancement": "gloverandgloverseniorjob",
                 "employment": "gloverandgloverjob"
@@ -80,7 +80,7 @@
         },
         {
             "id": "gloverandgloverjob_youngerglovergone",
-            "label": "Position at Glover & Glover",
+            "label": "Posição no Glover & Glover",
             "aspects": {
                 "job": 1
             },
@@ -92,10 +92,10 @@
                     "required": {
                         "reason": 1
                     },
-                    "description": "Extra effort. It might help, if I'm very lucky."
+                    "description": "Faça um esforço extra. Pode ajudar, se eu tiver muita sorte."
                 }
             ],
-            "description": "I earn a little more; I stay a little later. Envy glints in the eye of the junior clerk who occupies my old desk. [If you don't attend this job regularly, you might suffer a demotion.]",
+            "description": "Ganho um pouco mais; fico um pouco mais tarde. Inveja brilha nos olhos do pessoal subalterno que ocupa a minha velha secretária. [Se você não participa deste trabalho regularmente, você pode sofrer uma demoção.]",
             "xtriggers": {
                 "careeradvancement": "gloverandgloverseniorjob_youngerglovergone",
                 "employment": "gloverandgloverjob_youngerglovergone"
@@ -105,7 +105,7 @@
         },
         {
             "id": "gloverandgloverseniorjob",
-            "label": "Senior Position at Glover & Glover",
+            "label": "Posição Sênior no Glover & Glover",
             "aspects": {
                 "annoyance": 1,
                 "job": 1
@@ -113,15 +113,15 @@
             "slots": [
                 {
                     "id": "Devotion",
-                    "label": "Devotion",
+                    "label": "Devoção",
                     "required": {
                         "reason": 1
                     },
                     "actionid": "work",
-                    "description": "My position is demanding. I must concentrate my mind."
+                    "description": "A minha posição é exigente, e tenho de concentrar a minha atenção."
                 }
             ],
-            "description": "I suppose, theoretically, I could rise higher, if someone died. [If you don't attend this job regularly, you might suffer a demotion.]",
+            "description": "Suponho que teoricamente eu poderia subir mais alto se alguém morresse. [Se você não participa deste trabalho regularmente, você pode sofrer uma demoção.]",
             "xtriggers": {
                 "endannoyance": "gloverandgloverseniorjob_youngerglovergone",
                 "employment": "gloverandgloverseniorjob"
@@ -131,22 +131,22 @@
         },
         {
             "id": "gloverandgloverseniorjob_youngerglovergone",
-            "label": "Senior Position at Glover & Glover",
+            "label": "Posição Sênior no Glover & Glover",
             "aspects": {
                 "job": 1
             },
             "slots": [
                 {
                     "id": "Devotion",
-                    "label": "Devotion",
+                    "label": "Devoção",
                     "required": {
                         "reason": 1
                     },
                     "actionid": "work",
-                    "description": "My position is demanding. I must concentrate my mind."
+                    "description": "A minha posição é exigente, e tenho de concentrar a minha atenção."
                 }
             ],
-            "description": "With the younger Glover gone, I might rise even higher. [If you don't attend this job regularly, you might suffer a demotion.]",
+            "description": "Com a perda de Glover mais nova, posso me levantar ainda mais alto. [Se você não comparece a este trabalho regularmente, pode sofrer uma demoção.]",
             "xtriggers": {
                 "careeradvancement": "gloverandglovertopjob",
                 "employment": "gloverandgloverseniorjob_youngerglovergone"
@@ -159,8 +159,8 @@
             "aspects": {
                 "job": 1
             },
-            "label": "Board Seat at Glover & Glover",
-            "description": "The younger Glover's disappearance left a board seat empty. I now occupy it. [If you don't attend this job regularly, you might suffer a demotion.]",
+            "label": "Montar no Assento em Globo & Glover",
+            "description": "O desaparecimento do globo mais novo deixou um assento de tabuleiro vazio. Agora eu o ocupo. [Se você não participa deste trabalho regularmente, você pode sofrer uma demoção.]",
             "lifetime": 100,
             "decayTo": "gloverandglovertopjob_tainted_demotion",
             "xtriggers": {
@@ -172,8 +172,8 @@
             "aspects": {
                 "job": 1
             },
-            "label": "Board Seat at Glover & Glover",
-            "description": "Rumours of my esoteric interests have reached the ears of the elder Glover. This has left my position uncertain. [If you don't attend this job regularly, you might suffer a demotion.]",
+            "label": "Montar no Assento em Globo & Glover",
+            "description": "Os rumores dos meus interesses esotéricos chegaram às orelhas da Glover mais velha. Isso deixou minha posição incerta. [Se você não participa deste trabalho regularmente, você pode sofrer uma demoção.]",
             "lifetime": 100,
             "decayTo": "gloverandglovertopjob_tainted_demotion",
             "xtriggers": {
@@ -186,18 +186,18 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "A Difficulty at Work: Demotion to a Junior Position",
+            "label": "Dificuldade no Trabalho: Demoção a uma Posição Júnior",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "Persuasion",
+                    "label": "Persuasão",
                     "required": {
                         "passion": 1
                     },
                     "actionid": "work"
                 }
             ],
-            "description": "My absence from the office has been noted. I've been demoted, and I'll need to argue persuasively to keep my job.",
+            "description": "Minha ausência do escritório foi anotada. Fui rebaixado, e precisarei de discutir persuasivamente para manter meu trabalho.",
             "xtriggers": {
                 "plead": "gloverandgloverjuniorjob"
             }
@@ -208,18 +208,18 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "A Difficulty at Work: Demotion to a Junior Position",
+            "label": "Dificuldade no Trabalho: Demoção a uma Posição Júnior",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "Persuasion",
+                    "label": "Persuasão",
                     "required": {
                         "passion": 1
                     },
                     "actionid": "work"
                 }
             ],
-            "description": "My absence from the office has been noted. I've been demoted, and I'll need to argue persuasively to keep my job.",
+            "description": "Minha ausência do escritório foi anotada. Fui rebaixado, e precisarei de discutir persuasivamente para manter meu trabalho.",
             "xtriggers": {
                 "plead": "gloverandgloverjuniorjob_nodifficultbossa"
             }
@@ -230,18 +230,18 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "A Difficulty at Work: Demotion",
+            "label": "Dificuldade no Trabalho: Demoção",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "Persuasion",
+                    "label": "Persuasão",
                     "required": {
                         "passion": 1
                     },
                     "actionid": "work"
                 }
             ],
-            "description": "My absence from the office has been noted. I've been demoted, and I'll need to argue persuasively to keep my job.",
+            "description": "Minha ausência do escritório foi anotada. Fui rebaixado, e precisarei de discutir persuasivamente para manter meu trabalho.",
             "xtriggers": {
                 "plead": "gloverandgloverjob"
             }
@@ -252,18 +252,18 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "A Difficulty at Work: Demotion",
+            "label": "Dificuldade no Trabalho: Demoção",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "Persuasion",
+                    "label": "Persuasão",
                     "required": {
                         "passion": 1
                     },
                     "actionid": "work"
                 }
             ],
-            "description": "My absence from the office has been noted. I've been demoted, and I'll need to argue persuasively to keep my job.",
+            "description": "Minha ausência do escritório foi anotada. Fui rebaixado, e precisarei de discutir persuasivamente para manter meu trabalho.",
             "xtriggers": {
                 "plead": "gloverandgloverjob_youngerglovergone"
             }
@@ -274,18 +274,18 @@
                 "job": 1,
                 "demotion": 1
             },
-            "label": "A Difficulty at Work: A Risk of Demotion",
+            "label": "Dificuldade no trabalho: Um Risco de Demoção",
             "slots": [
                 {
                     "id": "passion",
-                    "label": "Persuasion",
+                    "label": "Persuasão",
                     "required": {
                         "passion": 1
                     },
                     "actionid": "work"
                 }
             ],
-            "description": "Considerable latitude is allowed to someone in my position, but my absence has been noted. I will have to charm the elder Glover.",
+            "description": "Uma latitude considerável é permitida a alguém na minha posição, mas a minha ausência foi registada. Terei de encantar o ancião Glover.",
             "xtriggers": {
                 "plead": "gloverandglovertopjob_tainted"
             }
@@ -295,16 +295,16 @@
             "aspects": {
                 "job": 1
             },
-            "description": "Long hours; but good pay.",
-            "label": "A Position at the Institute"
+            "description": "Horas longas, mas um bom salário.",
+            "label": "Posição do Instituto"
         },
         {
             "id": "investmentsjobc",
             "aspects": {
                 "benign": 1
             },
-            "label": "A Generous Private Income",
-            "description": "I am well provided for.",
+            "label": "Uma renda privada generosa",
+            "description": "Estou bem previsto.",
             "xtriggers": {
                 "decline": "investmentsjobb"
             },
@@ -312,8 +312,8 @@
         },
         {
             "id": "investmentsjobb",
-            "label": "A Substantial Private Income",
-            "description": "Enough of an income to live in comfort.",
+            "label": "Uma Renda Privada substancial",
+            "description": "Basta de um rendimento para viver com conforto.",
             "aspects": {
                 "benign": 1
             },
@@ -327,8 +327,8 @@
             "aspects": {
                 "benign": 1
             },
-            "label": "A Modest Private Income",
-            "description": "My investments provide more than enough to live on.",
+            "label": "Uma renda privada modesta",
+            "description": "Os meus investimentos fornecem mais do que o suficiente para viver.",
             "xtriggers": {
                 "decline": "jumble"
             },
@@ -339,12 +339,12 @@
             "aspects": {
                 "job": 1
             },
-            "label": "A Convincing Spiritualist Routine",
-            "description": "Sometimes, when I am particularly effective, the front row faints.",
+            "label": "Uma Rota Espiritualista convincente",
+            "description": "Por vezes, quando sou particularmente eficaz, os desmaios da primeira fila.",
             "slots": [
                 {
                     "id": "memory",
-                    "label": "Information",
+                    "label": "Informacao",
                     "actionid": "work",
                     "required": {
                         "memory": 1
@@ -360,12 +360,12 @@
             "aspects": {
                 "job": 1
             },
-            "label": "A Reputation as a Medium",
-            "description": "Sometimes I speak in voices that even I do not expect.",
+            "label": "Uma reputação como um médio",
+            "description": "Às vezes falo em vozes que até mesmo eu não espero.",
             "slots": [
                 {
                     "id": "memory",
-                    "label": "Information",
+                    "label": "Informacao",
                     "actionid": "work",
                     "required": {
                         "memory": 1
@@ -378,7 +378,7 @@
             "aspects": {
                 "job": 1
             },
-            "label": "A Position at Oriflamme's Auction House",
+            "label": "Uma Posição na Casa de Leilão do Oriflamme",
             "description": "",
             "noartneeded": true
         },
@@ -390,7 +390,7 @@
             "slots": [
                 {
                     "id": "ability",
-                    "label": "Ability",
+                    "label": "Habilidade",
                     "required": {
                         "passion": 1,
                         "reason": 1,
@@ -400,7 +400,7 @@
                 },
                 {
                     "id": "doctrine",
-                    "label": "Doctrine",
+                    "label": "Doutrina",
                     "required": {
                         "lore": 1
                     },
@@ -408,15 +408,15 @@
                 },
                 {
                     "id": "fervour",
-                    "label": "Fervour",
+                    "label": "Fervor",
                     "required": {
                         "fervour": 1
                     },
                     "actionid": "work"
                 }
             ],
-            "label": "An Appointment to a Quiet Parish",
-            "description": "As long as I do not draw the attention of the Bishop through dereliction or scandal, I can draw a living here."
+            "label": "Um Compromisso para uma Parque Silenciosa",
+            "description": "Desde que não chame a atenção do Bispo por depreciação ou escândalo, posso viver aqui."
         }
     ]
 }

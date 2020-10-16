@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "expeditionascensionheartb",
-            "label": "Name of the Serpent, Name of the Sister",
+            "label": "Nome da Serpente, Nome da Irmã",
             "actionid": "explore",
             "requirements": {
                 "sendingheartb": 1
@@ -12,11 +12,11 @@
                 "ascensionlessonheartb": 1,
                 "sending": -1
             },
-            "description": "The Name of the Serpent: My serpent-self has found the old dream where the Name of the Mother of Ants, called Old Mother Anguish, met with her daughter Daha, who had a twin. Their parley is long ended but I can still learn their lesson. "
+            "description": "O nome da serpente: Meu serpente encontrou o sonho antigo onde o nome da mãe das formigas, chamado Old Mãe Anguish, se encontrou com a filha Daha, que tinha um gêmeo. Há muito que o seu paraíso termina, mas ainda posso aprender a lição. "
         },
         {
             "id": "expeditionascensionheartc",
-            "label": "The Name of the Velvet",
+            "label": "O nome do Aveludado",
             "actionid": "explore",
             "requirements": {
                 "sendingheartc": 1
@@ -26,26 +26,26 @@
                 "ascensionlessonheartc": 1,
                 "sending": -1
             },
-            "description": "Blood will bring the creature they call Kitling Ripe, out of the roots of the House to dance in the night of the Stones. My cat-self will join it here, until it has taught me the end of all footsteps."
+            "description": "O sangue trará a criatura que chamam de Ripe Gitling, das raízes da casa para dançar na noite das Pedras. Meu gato se juntará a ele aqui, até que me tenha ensinado o fim de todos os passos."
         },
         {
             "id": "expeditionascensionheartd",
-            "label": "The Name of the Flowermaker",
+            "label": "O nome do Flowermaker",
             "actionid": "explore",
             "requirements": {
                 "sendingheartd": 1
             },
             "warmup": 30,
-            "startdescription": "Hues, Surrendered",
+            "startdescription": "Tonalidades, Entregues",
             "effects": {
                 "ascensionlessonheartd": 1,
                 "sending": -1
             },
-            "description": "My fox-self will pad ever deeper into the lilies. Karpellus, the Flowermaker's Name, awaits me by the stream with his gift-honed body and his crown of reeds. There he will unlock the places in me that have not yet seen daylight. "
+            "description": "Minha conta raposa vai deixar cada vez mais fundo as mentiras. Karpellus, o Nome do Flowermaker, aguarda-me pelo fluxo com seu corpo de presente e sua coroa de rosas. Aí vai desbloquear os lugares em mim que ainda não viram a luz do dia. "
         },
         {
             "id": "expeditionascensionhearte",
-            "label": "A Dance with the Vagabond",
+            "label": "Uma dança com o vagabond",
             "actionid": "explore",
             "requirements": {
                 "sendinghearte": 1
@@ -55,11 +55,11 @@
                 "ascensionlessonhearte": 1,
                 "sending": -1
             },
-            "description": "Sight, Surrendered: At first the old woman is just a speck on the sands, but my eagle-self follows that speck unerringly down, to perch on her arm and accept her touch. I can't quite look her in the eyes. She scratches me under the chin and shakes me off to rise in her own bird-form. Higher and higher we go, until my vision fades to gold.'"
+            "description": "Mistura, Entregue: No começo, a velha mulher é apenas uma vara nas areias, mas a minha águia segue-se a esse disparo infalível que paira sobre o braço e aceite o seu toque. Não posso olhar para ela nos olhos. Ela arranha-me debaixo do queixo e me sacude para me levantar em sua própria forma de pássaro. Mais alto e mais alto vamos até que a minha visão caia para o ouro.\""
         },
         {
             "id": "expeditionascensionheartf",
-            "label": "The Elegiast's Name",
+            "label": "Nome do Elegiast",
             "actionid": "explore",
             "requirements": {
                 "sendingheartf": 1
@@ -69,7 +69,7 @@
                 "ascensionlessonheartf": 1,
                 "sending": -1
             },
-            "description": "Bones, Surrendered: In the Toussaint Road cemetery, there's a white marble tomb the locals keep clean. Madame Rogier sleeps in there every third night, so that Miss Naenia, gentlest of the Elegiast's Names, can walk in her dreams. My bird-form will roost at the head of the tomb, until Miss Naenia is close enough for her breath to touch me."
+            "description": "Osos, Sobrenaturados: No cemitério da Estrada de Toussaint há uma tumba branca de mármore os moradores se mantêm limpos. Madame Rogier dorme lá a cada três noites, para que a senhorita Naenia, gentil dos Nomes da Elegista, possa andar nos seus sonhos. Minha forma de pássaros rugirá à cabeça da tumba, até que a senhorita Naenia esteja perto o suficiente para que ela me toque."
         }
     ]
 }

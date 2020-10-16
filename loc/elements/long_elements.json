@@ -3,7 +3,7 @@
         {
             "id": "welland_unknown",
             "label": "A Shadowy Presence",
-            "description": "Their power is formidable; their identity, as yet unknown. [Once the Long's Might, Connections or Starlight reaches 3, it may be possible to unmask them.]",
+            "description": "O seu poder é formidável; a sua identidade, como ainda não foi conhecida. [Uma vez que o comprimento, as Conexões ou o Starlight atinjam 3, pode ser possível desmascará-los.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.assault": 1
@@ -15,7 +15,7 @@
         {
             "id": "tryphon_unknown",
             "label": "A Shadowy Presence",
-            "description": "Their power is formidable; their identity, as yet unknown. [Once the Long's Might, Connections or Starlight reaches 3, it may be possible to unmask them.]",
+            "description": "O seu poder é formidável; a sua identidade, como ainda não foi conhecida. [Uma vez que o comprimento, as Conexões ou o Starlight atinjam 3, pode ser possível desmascará-los.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.intrigue": 1
@@ -27,7 +27,7 @@
         {
             "id": "diarist_unknown",
             "label": "A Shadowy Presence",
-            "description": "Their power is formidable; their identity, as yet unknown. [Once the Long's Might, Connections or Starlight reaches 3, it may be possible to unmask them.]",
+            "description": "O seu poder é formidável; a sua identidade, como ainda não foi conhecida. [Uma vez que o comprimento, as Conexões ou o Starlight atinjam 3, pode ser possível desmascará-los.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.dreamwork": 1
@@ -39,7 +39,7 @@
         {
             "id": "julian_unknown",
             "label": "A Shadowy Presence",
-            "description": "Their power is formidable; their identity, as yet unknown. [Once the Long's Might, Connections or Starlight reaches 3, it may be possible to unmask them.]",
+            "description": "O seu poder é formidável; a sua identidade, como ainda não foi conhecida. [Uma vez que o comprimento, as Conexões ou o Starlight atinjam 3, pode ser possível desmascará-los.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.winter": 1
@@ -50,8 +50,8 @@
         },
         {
             "id": "welland",
-            "label": "Captain Welland",
-            "description": "'This is no Noble Endeavour. We'll have no Jack-come-quickly jumping up the House ranks.' [Welland is more likely to use Assault attacks.]",
+            "label": "Capitão Welland",
+            "description": "'Isso não é Alavanca Nobre. Não teremos nenhum Jack-come-rapidamente saltando na patente da Casa.' [É mais provável que a Welland use ataques de Assalto.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.assault": 1
@@ -64,7 +64,7 @@
         {
             "id": "tryphon",
             "label": "Lady Tryphon",
-            "description": "'No, He cannot harm you; He cannot find you. But I suffer no such circumscription.' [Tryphon is more likely to use Intrigue attacks.]",
+            "description": "'Não, ele não pode te prejudicar; Ele não consegue encontrá-lo. Mas eu não sofro tal circunspecção.' [Tryphon tem mais probabilidade de usar ataques intrigantes.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.intrigue": 1
@@ -76,8 +76,8 @@
         },
         {
             "id": "diarist",
-            "label": "The Diarist",
-            "description": "'Your pretender is going to make a damned good footnote. But I wouldn't expect anything more than that.' [The Diarist is more likely to use Starlight attacks.]",
+            "label": "O Diarista",
+            "description": "\"Seu pretender vai fazer um péssimo rodapé. Mas eu não esperaria mais do que isso. [O Diarista tem mais probabilidade de usar ataques Starlight.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.dreamwork": 1
@@ -90,7 +90,7 @@
         {
             "id": "julian",
             "label": "J.C.",
-            "description": "'No more Names. That's it; I'm sorry; I don't have time to make conversation.' [Julian will more frequently use downtime to increase his abilities.]",
+            "description": "'Sem mais nomes. É isso; eu lamento, mas não tenho tempo para conversar.' [Julian usará mais frequentemente tempo de inatividade para aumentar suas habilidades.]",
             "aspects": {
                 "long.enemy": 1,
                 "long.preference.winter": 1
@@ -102,12 +102,12 @@
         },
         {
             "id": "welland.defeated",
-            "label": "A Letter from Welland",
-            "description": "'SIR - (It does not seem to have occurred to Welland that he might have been defeated by anyone but a 'sir')\nI am the most dangerous enemy you will ever face, and I have defeated far greater than you. You deserve better than to be pyre-fuel. I urge you to shatter your chains, as the Lionsmith did so long ago, and rise to take your own place as Long.\nI attach the secret that Darius told Alexander at Issus. Use it wisely.\nRegards,\nW. '\n[The secret is attached. You can use it to break free of your Mentor.]",
+            "label": "Uma carta da Welland",
+            "description": "'SIR - (parece não ter acontecido na Welland que ele pode ter sido derrotado por alguém além de um 'senho')\nSou o inimigo mais perigoso que você vai enfrentar. e eu derrotei muito mais que você. Você merece melhor do que ser combustível piro. Exorto-o a quebrar as correntes, como o ferreiro fez há muito tempo, e a erguer-se para ocupar o seu lugar como Long.\nAnexo o segredo de que Darius contou a Alexander em problemas. Use-o com sabedoria.\nAtenciosamente,\nW. '\n[O segredo está anexado. Você pode usá-lo para se libertar do seu Mentor.]",
             "slots": [
                 {
                     "id": "mentor",
-                    "label": "Shaper",
+                    "label": "Modelador",
                     "required": {
                         "apostleforge.mentor": 1
                     },
@@ -120,12 +120,12 @@
         },
         {
             "id": "tryphon.defeated",
-            "label": "A Letter from Lady Tryphon",
-            "description": "'My love,\nI am defeated, and you my vanquisher have won my devotion. I enclose a remaining scrap of myself, and go forth to meet my demise.\nConsume what remains of me, and we shall be one, as the Flowermaker has always intended. Reject your 'Delight'. Your destiny is far greater.\nYou will ask: is this a last trick? A desperate stratagem to assure your betrayal? I can only answer: taste me, and see.\nI remain,\nyour delicious friend,\nT.E.'\n[If you consume the enclosed morsel of Lady Tryphon, you can break free of your Mentor.]",
+            "label": "Uma carta da Dama Tryphon",
+            "description": "'Meu amor,\nEu sou derrotado, e você minha derrota ganhou minha devoção. Envolvo ainda um pedaço de sucata e vou para a minha morte.\nConsuma o que resta de mim, e seremos um, como o Flowermaker sempre pretendia. Rejeite o seu 'Devo'. Seu destino é muito maior.\nVocê vai perguntar: isso é o último truque? Uma estratagem desesperada para garantir sua traição? Eu só posso responder: me provar e ver.\nResto,\nseu delicioso amigo,\nT.E.\n[Se você consumir o morteiro fechado da Dama do Tryphon, você pode se libertar de seu mentor.]",
             "slots": [
                 {
                     "id": "mentor",
-                    "label": "Delight",
+                    "label": "Enorme",
                     "required": {
                         "apostlegrail.mentor": 1
                     },
@@ -138,12 +138,12 @@
         },
         {
             "id": "diarist.defeated",
-            "label": "A Dream of the Diarist",
-            "description": "The sunlight through the western window in the Scriptorium is failing. As the Diarist writes his last entry, the chamber chills from gold towards grey. He closes his little book with a snap. 'Death is down,' he explains, 'and I am already losing altitude. I don't bear you any grudge. I tell you what, though, I hope your Illuminated One trips and falls down the Ascent.' The Diarist's face is erasing itself, like a man unwriting, and his eyes are already gone. He hands you his little book. 'This is your last chance. You can go where I was, or where you're going. I know which is better.' His mouth spools itself up like the undrawing of a zip, and he is blank white paper.\n\n[If you consider the dream of the diary, you can break free of your Mentor.]",
+            "label": "Um Sonho do Diarista",
+            "description": "A luz do sol através da janela ocidental no Scriptório está falhando. Enquanto o Diarista escreve sua última entrada, a câmara acorre de ouro a cinza. Ele fecha seu pequeno livro com um piscar de olhos. \"Morte baixou\", ele explica, \"e eu já estou perdendo altitude; eu não te suporto má vontade. Mas digo-lhe o que espero que tenha sido feito de uma viagem iluminada e que caia de Ascente. O rosto do Diarista está se apagando, como um homem que não escreve, e os olhos já se foram. Ele te manda a mão do pequeno livro dele. \"Esta é a sua última chance. Você pode ir aonde eu estava, ou aonde você vai. Eu sei o que é melhor: a sua boca fala-se como a desmontagem de um zip, e ele não tem papel branco em branco.\n\n[Se você considerar o sonho do diário, você pode se libertar do seu Mentor.]",
             "slots": [
                 {
                     "id": "mentor",
-                    "label": "Illuminated One",
+                    "label": "Iluminado Um",
                     "required": {
                         "apostlelantern.mentor": 1
                     },
@@ -157,12 +157,12 @@
         },
         {
             "id": "julian.defeated",
-            "label": "A Letter from Julian Coseley",
-            "description": "'Enemy,\n\nI am not so easily destroyed. But I will acknowledge that you have defeated me, and so I will reward you with my counsel.\n\nYou are a fool, cozened by a fool to emplace one more stone in the walls of the Mansus. You may, if you choose, cast that stone away into night.\n\nShould you so cast it, you will die empty and alone, as do all, even the Long. You might die free.\n\n- Julian'\n\n[If you take Julian's lesson to heart, you can break free of your Mentor.]",
+            "label": "Uma carta do seletor de Julian",
+            "description": "'Inimigo,\n\nNão sou tão facilmente destruído. Mas reconheço que me derrotaram e, por isso, recompensa-vos com o meu conselho.\n\nVocê é um tolo, cozido por um tolo para colocar mais uma pedra nas paredes dos Mansus. Você pode, se escolher, atirar aquela pedra para a noite.\n\nSe assim o transmitir, morrerá vazio e sozinho, como todos morrerão, até mesmo o Long. Você pode morrer livre.\n\n- Juliano\n\n[Se você levar a lição de Júlio ao coração, você pode se libertar do seu Mentor.]",
             "slots": [
                 {
                     "id": "mentor",
-                    "label": "Founder",
+                    "label": "Fundador",
                     "required": {
                         "apostleforge.mentor": 1,
                         "apostlegrail.mentor": 1,
@@ -177,20 +177,20 @@
         },
         {
             "id": "strategy.prep",
-            "label": "Preparations Ongoing",
-            "description": "Our immortal enemy is preparing another action. [The Long needs three Preparations to launch another action.]",
+            "label": "Preparações em andamento",
+            "description": "Nosso inimigo imortal está preparando outra ação. [O longo precisa de três preparativos para lançar outra ação.]",
             "lifetime": 1
         },
         {
             "id": "strategy.prep.delayed",
-            "label": "Preparations Spoiled!",
-            "description": "Our spy has upset some element of our enemy's preparations. [The Long has lost one Preparation token to your sabotage.]",
+            "label": "Local de Preparações!",
+            "description": "Nosso espião chateou alguns elementos da preparação do nosso inimigo. [O longo perdeu uma ficha de preparação para sua sabotagem.]",
             "lifetime": 1
         },
         {
             "id": "strategy.assault.concealed",
-            "label": "The Long's Plans",
-            "description": "The Long is planning their next action against us. If we send a spy, we might be able to discover something of their intentions.",
+            "label": "Os Planos de Longa",
+            "description": "O quanto tempo é planejar a próxima ação contra nós. Se enviarmos um espião, talvez possamos descobrir algumas das suas intenções.",
             "aspects": {
                 "intention.assault": 1
             },
@@ -202,8 +202,8 @@
         },
         {
             "id": "strategy.intrigue.concealed",
-            "label": "The Long's Plans",
-            "description": "The Long is planning their next action against us. If we send a spy, we might be able to discover something of their intentions.",
+            "label": "Os Planos de Longa",
+            "description": "O quanto tempo é planejar a próxima ação contra nós. Se enviarmos um espião, talvez possamos descobrir algumas das suas intenções.",
             "aspects": {
                 "intention.intrigue": 1
             },
@@ -215,8 +215,8 @@
         },
         {
             "id": "strategy.dreams.concealed",
-            "label": "The Long's Plans",
-            "description": "The Long is planning their next action against us. If we send a spy, we might be able to discover something of their intentions.",
+            "label": "Os Planos de Longa",
+            "description": "O quanto tempo é planejar a próxima ação contra nós. Se enviarmos um espião, talvez possamos descobrir algumas das suas intenções.",
             "aspects": {
                 "intention.dreams": 1
             },
@@ -228,8 +228,8 @@
         },
         {
             "id": "strategy.downtime.concealed",
-            "label": "The Long's Plans",
-            "description": "The Long is planning their next action against us. If we send a spy, we might be able to discover something of their intentions.",
+            "label": "Os Planos de Longa",
+            "description": "O quanto tempo é planejar a próxima ação contra nós. Se enviarmos um espião, talvez possamos descobrir algumas das suas intenções.",
             "aspects": {
                 "intention.downtime": 1
             },
@@ -241,8 +241,8 @@
         },
         {
             "id": "strategy.assault.revealed",
-            "label": "The Long's Plans Revealed: Assault",
-            "description": "Our enemy intends a direct attack of some kind, this time.",
+            "label": "Os Planos de Longa Revelação: Assalto",
+            "description": "Nosso inimigo pretende um ataque direto de algum tipo, dessa vez.",
             "aspects": {
                 "intention.assault": 1,
                 "strategy.revealed": 1
@@ -254,8 +254,8 @@
         },
         {
             "id": "strategy.intrigue.revealed",
-            "label": "The Long's Plans Revealed: Intrigue",
-            "description": "Our enemy intends to use trickery against us, this time.",
+            "label": "Os Planos de Longa Revelado: Intriga",
+            "description": "Nosso inimigo pretende usar truque contra nós, dessa vez.",
             "aspects": {
                 "intention.intrigue": 1,
                 "strategy.revealed": 1
@@ -267,8 +267,8 @@
         },
         {
             "id": "strategy.dreams.revealed",
-            "label": "The Long's Plans Revealed: Dreams",
-            "description": "Our enemy will find us through the Mansus, this time.",
+            "label": "Planos de Longo Revelados: Sonhos",
+            "description": "Nosso inimigo nos encontrará através dos Mansus, desta vez.",
             "aspects": {
                 "intention.dreams": 1,
                 "strategy.revealed": 1
@@ -280,8 +280,8 @@
         },
         {
             "id": "strategy.downtime.revealed",
-            "label": "The Long's Plans Revealed: A Respite",
-            "description": "Our enemy will not move against us, this time. They will rest... and perhaps in resting they will grow stronger.",
+            "label": "Os Planos de Long's Revelados: Um Respite",
+            "description": "Nosso inimigo não se moverá contra nós, desta vez. Eles descansarão... e talvez em descansar, eles ficarão mais fortes.",
             "aspects": {
                 "intention.downtime": 1,
                 "strategy.revealed": 1
@@ -293,35 +293,35 @@
         },
         {
             "id": "strategy.dreams.preference",
-            "label": "A Presentiment: the Lessons of the Soul",
-            "description": "For their next action, this Long will probably try to learn from our weaknesses in dreams - even if their plans would usually dictate otherwise.",
+            "label": "Um Presentidade: Aulas da Alma",
+            "description": "Para a sua próxima acção, esta Longa tentará provavelmente aprender com as nossas fraquezas dos sonhos - mesmo que os seus planos normalmente ditassem o contrário.",
             "comments": "This is currently unused - it became less relevant once tablereqs came in.",
             "lifetime": 1,
             "noartneeded": true
         },
         {
             "id": "long.lesson.might",
-            "label": "Increased Might",
+            "label": "Maior Força",
             "aspects": {
                 "long.lesson": 1
             },
-            "description": "Our immortal enemy is taking us more seriously, and has brought more resources to bear. [An enemy Long's Might will increase, allowing them to conduct more powerful assaults.]"
+            "description": "Nosso inimigo imortal está nos levando mais a sério e nos trouxe mais recursos para suportar. [Poder de um longo inimigo aumentará, permitindo-lhes levar a cabo ataques mais poderosos.]"
         },
         {
             "id": "long.lesson.connections",
-            "label": "More Connections",
+            "label": "Mais conexões",
             "aspects": {
                 "long.lesson": 1
             },
-            "description": "Our immortal enemy is taking us more seriously, and has brought more resources to bear. [An enemy Long's Connections will increase, allowing them to conduct more devious intrigues.]"
+            "description": "Nosso inimigo imortal está nos levando mais a sério e nos trouxe mais recursos para suportar. [As Conexões de Long's inimigas aumentarão, permitindo-lhes conduzir intrigos mais perversos.]"
         },
         {
             "id": "long.lesson.dreamwork",
-            "label": "Glimpses of the Soul",
+            "label": "vislumbres da Alma",
             "aspects": {
                 "long.lesson": 1
             },
-            "description": "Our immortal enemy has learnt something of us. [An enemy Long's Starlight will increase, giving them greater power in our dreams.]"
+            "description": "Nosso inimigo imortal aprendeu algo de nós. [Uma Luz Estelar de Longos inimigos irá aumentar, dando-lhes maior poder em nossos sonhos]"
         }
     ]
 }

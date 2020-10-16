@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "dreampleasantmemory",
-            "label": "Dwell on a Pleasant Memory",
+            "label": "Habitar uma Memória Agradável",
             "actionid": "dream",
             "requirements": {
                 "memorypleasant": 1
@@ -12,14 +12,14 @@
                 "contentment": 1,
                 "fleeting": 1
             },
-            "startdescription": "The sweet stillness of a common understanding? A moment in winter light?",
-            "description": "This might sustain me.",
+            "startdescription": "A doce quietude de um entendimento comum? Um momento na luz de inverno?",
+            "description": "Isto pode me sustentar.",
             "craftable": true,
             "warmup": 10
         },
         {
             "id": "dreampassionatememory",
-            "label": "Dwell on a Passionate Memory",
+            "label": "Habitar uma Memória Apaixonante",
             "actionid": "dream",
             "requirements": {
                 "memorypassionate": 1
@@ -30,14 +30,14 @@
                 "contentment": 1,
                 "vitality": 1
             },
-            "startdescription": "Shared gasps, tangled limbs? Heat in secret dark?",
-            "description": "This might distract me.",
+            "startdescription": "Suspiros compartilhados, membros emaranhados? Calor no escuro secreto?",
+            "description": "Isso poderia me distrair.",
             "craftable": true,
             "warmup": 10
         },
         {
             "id": "dreambittersweetmemory",
-            "label": "Dwell on a Bittersweet Memory",
+            "label": "Habitar uma Memória Amargamente Doce",
             "actionid": "dream",
             "requirements": {
                 "memorybittersweet": 1
@@ -48,8 +48,8 @@
                 "contentment": 1,
                 "glimmering": 1
             },
-            "startdescription": "An understanding neither dare speak aloud? A quarrel, and its aftermath?",
-            "description": "This might permit me to hesitate.",
+            "startdescription": "Um entendimento que nenhum se atreve a dizer em voz alta? Um a briga e seus resultados?",
+            "description": "Isso talvez permita-me hesitar.",
             "craftable": true,
             "warmup": 10
         }
