@@ -27,7 +27,7 @@
         {
             "id": "hireling",
             "label": "Contratado",
-            "description": "Há algum tempo que negocio o serviço desta pessoa.",
+            "description": "Eu negociei os serviços dessa pessoa, por algum tempo.",
             "isAspect": true
         },
         {
@@ -45,7 +45,7 @@
         {
             "id": "exalted",
             "label": "Exaltado",
-            "description": "Este não pode subir mais alto... pelo menos enquanto eu lidero.",
+            "description": "Este não pode subir mais alto... pelo menos, não enquanto eu lidero.",
             "isAspect": true
         },
         {
@@ -74,8 +74,8 @@
         },
         {
             "id": "tutor",
-            "label": "Professor",
-            "description": "Este tem conhecimento de valor.",
+            "label": "Tutor",
+            "description": "Este tem conhecimento valioso.",
             "isAspect": true
         },
         {
@@ -87,26 +87,26 @@
         {
             "id": "sending",
             "label": "Enviando",
-            "description": "Não exactamente eu, mas não exactamente outra coisa.",
+            "description": "Não exatamente eu, mas não exatamente outra coisa.",
             "isAspect": true
         },
         {
             "id": "edge",
             "label": "Fio",
-            "description": "Toda conquista ocorre na Fio. Aquele que habita lá é cego, e não pode ser ferido. Outro é forte e torna-se mais forte. [O Fio é o princípio da batalha e da luta.]",
+            "description": "Toda conquista ocorre no Fio. Aquele que habita lá é cego, e não pode ser ferido. Outro é forte e torna-se mais forte. [O Fio é o princípio da batalha e da luta.]",
             "isAspect": true,
             "noartneeded": true
         },
         {
             "id": "forge",
             "label": "Forja",
-            "description": "'Fogo', li uma vez, 'é o Inverno que aquece e a primavera que consome.' [O princípio da Forja transforma e destrói.]",
+            "description": "'Fogo', li uma vez, 'é o inverno que aquece e a primavera que consome.' [O princípio da Forja transforma e destrói.]",
             "isAspect": true
         },
         {
             "id": "grail",
             "label": "Graal",
-            "description": "A fome, a luxuria, as águas que se afogam. [O princípio do Graal honra tanto o nascimento como o festejo.]",
+            "description": "A fome, a luxuria, as águas que afogam. [O princípio do Graal honra tanto o nascimento como o festejo.]",
             "isAspect": true,
             "induces": [
                 {
@@ -118,7 +118,7 @@
         {
             "id": "heart",
             "label": "Coração",
-            "description": "O Coração Desassossegado bate para proteger a pele do mundo que conhecemos. [O Coração é o princípio que continua e preserva.]",
+            "description": "O Coração Implacável bate para proteger a pele do mundo que conhecemos. [O Coração é o princípio que continua e preserva.]",
             "isAspect": true,
             "induces": [
                 {
@@ -129,8 +129,8 @@
         },
         {
             "id": "knock",
-            "label": "Tocar",
-            "description": "O Golpe não permite nenhum selo e nenhuma isolação. Ela nos perfura-nos alegremente para fora da segurança da ignorância. [O Dobro é o princípio que abre portas e liberta barreiras.]",
+            "label": "Batida",
+            "description": "A Batida não permite nenhum selo e nenhuma isolação. Ela nos tira alegremente da segurança da ignorância. [A Batida é o princípio que abre portas e liberta barreiras.]",
             "isAspect": true
         },
         {
@@ -149,7 +149,7 @@
             "id": "moth",
             "label": "Mariposa",
             "isAspect": true,
-            "description": "Eu conheci um homem que capturou mariposas num pote de sino. Em noites como esse, ele as liberaria uma por uma para morrerem no chama da vela. [A Mariposa é o princípio selvagem e perigoso do caos e do almejar.]",
+            "description": "Eu conheci um homem que capturava mariposas em um pote. Em noites como esse, ele as liberaria uma por uma para morrerem na chama da vela. [A Mariposa é o selvagem e perigoso princípio do caos e do desejo.]",
             "induces": [
                 {
                     "id": "mothinduction",
@@ -160,13 +160,13 @@
         {
             "id": "secrethistories",
             "label": "Histórias Secretas",
-            "description": "A História é a cicatriz na pele do mundo. [As Histórias Secretas descrevem as complexidades desconhecidas do mundo, e muitos de seus passados]",
+            "description": "A História é a cicatriz na pele do mundo. [As Histórias Secretas descrevem as complexidades desconhecidas do mundo, e seus muitos passados]",
             "isAspect": true
         },
         {
             "id": "winter",
             "label": "Inverno",
-            "description": "... [O inverno é o princípio do silêncio, dos finais, e daqueles que não estão bem mortos.]",
+            "description": "... [O Inverno é o princípio do silêncio, dos finais, e daqueles que não estão bem mortos.]",
             "isAspect": true
         },
         {
