@@ -3,7 +3,7 @@
         {
             "id": "oneoffrewards",
             "label": "Um Pedaço Útil",
-            "description": "Algo de notas.",
+            "description": "Algo notável.",
             "spec": [
                 "fragmentedgeb",
                 "fragmentforgeb",
@@ -18,8 +18,8 @@
         },
         {
             "id": "commontomes",
-            "label": "Funciona em Circulação",
-            "description": "Eu posso encontrar livros em venda para me ensinar alguma coisa das artes invisíveis.",
+            "label": "Trabalhos em Circulação",
+            "description": "Eu posso encontrar livros a venda para ensinar-me algo das artes invisíveis.",
             "spec": [
                 "dehoris1latin",
                 "travellingatnight1",
@@ -56,8 +56,8 @@
         },
         {
             "id": "auctionedcommontomes",
-            "label": "Obras de coleções",
-            "description": "Talvez eu encontre aqui uma colecção um pouco mais escolhida de livros.",
+            "label": "Trabalhos de Coleções",
+            "description": "Talvez eu encontre aqui uma coleção um pouco mais escolhida de livros.",
             "spec": [
                 "dehoris1latin",
                 "travellingatnight1",

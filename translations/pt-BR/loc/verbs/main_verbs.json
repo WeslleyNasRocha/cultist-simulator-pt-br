@@ -7,7 +7,7 @@
             "slot": {
                 "id": "work",
                 "label": "Trabalhar",
-                "description": "Algo que possa fazer; algo que eu saiba; ou algo que sou.",
+                "description": "Algo que eu posso fazer; algo sei; ou algo que eu sou.",
                 "required": {
                     "ability": 1,
                     "job": 1,
@@ -23,7 +23,7 @@
         {
             "id": "dream",
             "label": "Sonhar",
-            "description": "Descanse; reconsidere suas prioridades; ou arrisque-se na exploração do reino do sono.",
+            "description": "Descanse; reconsidere suas prioridades; ou arrisque-se na exploração dos reinos do sono.",
             "slot": {
                 "id": "dream",
                 "label": "Sonhar",
@@ -40,7 +40,7 @@
         {
             "id": "study",
             "label": "Estudar",
-            "description": "Abra livros e outros tesouros.",
+            "description": "Desbloqueie livros e outros tesouros.",
             "slot": {
                 "id": "study",
                 "label": "Estudar",
@@ -80,7 +80,7 @@
         {
             "id": "explore",
             "label": "Explorar",
-            "description": "Explore a cidade com Vida ou Seguidores; Explore locais; ou investigue as possibilidades de sabedoria.",
+            "description": "Explore a cidade com Saúde ou Seguidores; explore locais; ou investigue as possibilidades de sabedoria. Exploração é muitas vezes imprevisível.",
             "slot": {
                 "id": "explore",
                 "label": "Explorar",
@@ -100,7 +100,7 @@
         {
             "id": "time",
             "label": "Tempo",
-            "description": "A sombra do relógio solar.",
+            "description": "A sombra do relógio de sol.",
             "slot": {
                 "id": "time",
                 "label": "Tempo"

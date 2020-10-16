@@ -459,7 +459,7 @@
                 "desire": 1
             },
             "startdescription": "Já fiz essa ascendência antes. Não me trará lucros. Eu deveria responder a Charada se precisar, ou usar o Caminho à Porta do Veado se puder.",
-            "description": "A Porta de Stag: uma barreira repleta de chifres cortados de sangue, suficientemente grande para que um navio passe. Há muito tempo que foi quebrado, e mesmo agora as cicatrizes não estão bem cicatrizadas. Numa decvidência ao lado da porta está o vasto e ferido Cabeça dourada, Ghirbi. Deu-me o seu enigma, ao qual tenho de responder se quiser entrar na porta de Stag. [Sonhe na Orelha para respondê-la, ou Way: a Porta Stag se você já tiver respondido.]",
+            "description": "\"A Porta do Veado: uma barreira sulcada de um chifre manchado-de-sangue, gigantesca o suficiente para permitir a passagem de um navio. Há muito, fora quebrada, e até hoje suas cicatrizes não curaram-se completamente. Em um declive ao lado da porta, descansa a vasta e ferida Cabeça Dourada, Ghirbi. Deu-me sua charada, que eu devo responder se eu for entrar na Porta do Veado. [Sonhe com a Charada para respondê-lam ou Caminho: A Porta do Veado se já tiveres respondido-a.]",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -481,14 +481,14 @@
             "slots": [
                 {
                     "id": "Answer",
-                    "label": "Responder",
+                    "label": "Resposta",
                     "required": {
                         "lore": 1
                     }
                 }
             ],
-            "startdescription": "No meu sonho, voltarei a estar perante a porta de Stag: uma barreira repleta de cordão de sangue, quebrada há muito tempo, ainda não completamente curada. Esse vasto e dourado Head, Ghirbi, aguardará a resposta ao meu enigma.",
-            "description": "A cabeça está em silêncio. A porta permanece fechada. Agora eu entro em outros sonhos.",
+            "startdescription": "Em meu sonho, eu ficarei novamente defronte à Porta do Veado: uma barreira sulcada de um chifre manchado-de-sangue, quebrado há muito, ainda não totalmente curado. A vasta e dourada Cabeça, Ghirbi, esperará a resposta para minha charada.",
+            "description": "A cabeça está silente. A porta, fechada. Agora, eu flutuo à outros sonhos.",
             "aspects": {
                 "fatiguing": 1
             },
@@ -534,14 +534,14 @@
         },
         {
             "id": "dream_answerstagriddle_1",
-            "label": "Uma Thread em um Labirinto",
+            "label": "Um Fio em um Labirinto",
             "actionid": "dream",
             "requirements": {
                 "waystagbefore_1": 1,
                 "fragmentmothc": 1
             },
-            "startdescription": "\"Há muitas respostas para esta pergunta, como sabem os despejos da pele. Aqui está a minha...\".",
-            "description": "A porta se desfaz. As luzes do observador enchem o corredor de dentro. Há uma lua moinha mochila do cabelo, Ghirbi. Lágrimas de massa de lata derretida de seus olhos e rolam suas bochechas, escaldando o chão embaixo. Posso entrar!",
+            "startdescription": "'Existem muitas respostas para essa questão, como os ecdisadores de pele sabem. Aqui está a minha...'",
+            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lagrimas de bronze derretido protuberam-se de seus olhos e rolam bocheca abaixo, abrasando o chão abaixo. Eu poderei entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -556,14 +556,14 @@
         },
         {
             "id": "dream_answerstagriddle_2",
-            "label": "Uma resposta implacável",
+            "label": "Uma Resposta Implacável",
             "actionid": "dream",
             "requirements": {
                 "waystagbefore_2": 1,
                 "fragmentlanternc": 1
             },
-            "startdescription": "\"Só na sombra\".",
-            "description": "A porta se desfaz. As luzes do observador enchem o corredor de dentro. Há uma lua moinha mochila do cabelo, Ghirbi. Lágrimas de massa de lata derretida de seus olhos e rolam suas bochechas, escaldando o chão embaixo. Posso entrar!",
+            "startdescription": "'Apenas na sombra.'",
+            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lagrimas de bronze derretido protuberam-se de seus olhos e rolam bocheca abaixo, abrasando o chão abaixo. Eu poderei entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -579,13 +579,13 @@
         {
             "id": "dream_answerstagriddle_3",
             "actionid": "dream",
-            "label": "Uma resposta desejável",
+            "label": "Uma Resposta Desejável",
             "requirements": {
                 "waystagbefore_3": 1,
                 "fragmentgrailc": 1
             },
-            "startdescription": "Aqui estão essas palavras....",
-            "description": "A porta se desfaz. As luzes do observador enchem o corredor de dentro. Há uma lua moinha mochila do cabelo, Ghirbi. Lágrimas de massa de lata derretida de seus olhos e rolam suas bochechas, escaldando o chão embaixo. Posso entrar!",
+            "startdescription": "Aqui estão aquelas palavras",
+            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lagrimas de bronze derretido protuberam-se de seus olhos e rolam bocheca abaixo, abrasando o chão abaixo. Eu poderei entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -606,8 +606,8 @@
                 "waystagbefore_4": 1,
                 "fragmentknockc": 1
             },
-            "startdescription": "Eu próprio tenho de ser aberto: mande o sangue que está derramado.",
-            "description": "A porta se desfaz. As luzes do observador enchem o corredor de dentro. Há uma lua moinha mochila do cabelo, Ghirbi. Lágrimas de massa de lata derretida de seus olhos e rolam suas bochechas, escaldando o chão embaixo. Posso entrar!",
+            "startdescription": "'Eu, eu mesmo, devo ser aberto. Contemple o sangue que é derramado.'",
+            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lagrimas de bronze derretido protuberam-se de seus olhos e rolam bocheca abaixo, abrasando o chão abaixo. Eu poderei entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -623,13 +623,13 @@
         {
             "id": "dream_answerstagriddle_5",
             "actionid": "dream",
-            "label": "Uma resposta do histórico",
+            "label": "Uma Resposta da História",
             "requirements": {
                 "waystagbefore_5": 1,
                 "fragmentsecrethistoriesc": 1
             },
-            "startdescription": "\"O coração dela está enterrado numa outra História\".",
-            "description": "A porta se desfaz. As luzes do observador enchem o corredor de dentro. Há uma lua moinha mochila do cabelo, Ghirbi. Lágrimas de massa de lata derretida de seus olhos e rolam suas bochechas, escaldando o chão embaixo. Posso entrar!",
+            "startdescription": "'Seu coração está enterrado em uma outra História.'",
+            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lagrimas de bronze derretido protuberam-se de seus olhos e rolam bocheca abaixo, abrasando o chão abaixo. Eu poderei entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -645,12 +645,12 @@
         {
             "id": "dream_wronganswerstagriddle",
             "actionid": "dream",
-            "label": "Esta não é a resposta",
+            "label": "Essa Não é a Resposta",
             "requirements": {
                 "lore": 1
             },
-            "startdescription": "O Ghirbi foi muito longe, pode não entrar no Hemiciclo, e uma das suas poucas satisfações é negar a entrada. É com demasiada honra que me ridicularizo, mas vejo a satisfação nos seus olhos dourados. \"Isso não é\", diz com toda a franqueza \"resposta\".",
-            "description": "Estou acordado. Meus olhos estão abertos, e o Portão de Stag continua fechado. Agora entro em outros sonhos.",
+            "startdescription": "Ghirbi decaiu bastante. Não pode entrar na Casa, uma de suas poucas satisfações e negar a entrada. Tem honra demais para zombar de mim, mas vejo a satisfação em seus dourados olhos. 'Isso não é', ele diz, com gosto, 'a resposta.'",
+            "description": "Estou acordado. Meus olhos estão abertos; a Porta do Veado, fechada. Agora eu flutuo à outros sonhos.",
             "linked": [
                 {
                     "id": "dream_router",
@@ -660,7 +660,7 @@
         },
         {
             "id": "dreamusestagway",
-            "label": "O Caminho até a Porta Stag",
+            "label": "O Caminho até a Porta do Veado",
             "actionid": "dream",
             "requirements": {
                 "waystag_after": 1
@@ -669,15 +669,15 @@
                 {
                     "id": "Ascent",
                     "label": "Ascensão",
-                    "description": "Invista Reason para passar a Porta Stag - ou, com o amor certo, encontre o caminho para a porta das Aranhas, a porta onde o sangue é derramado.",
+                    "description": "Invista Razão para passar da Porta do Veado - ou, com a sabedoria certa, encontrar o caminho à Porta da Aranha, a porta onde o sangue é derramado.",
                     "required": {
                         "reason": 1,
                         "lore": 1
                     }
                 }
             ],
-            "startdescription": "Nos meus sonhos, conheço o caminho até a porta de Stag, pelo labirinto dos Limes. Ghirbi vai me deixar passar, mas o caminho é sempre um quebra-cabeça. Vou precisar de Reason.",
-            "description": "Aqui, nas altas escuras dos canios, estão as fissuras intrincadas e as caracoes de dez mil anos de tempo. Meu Reason está faltando. Acordarei sem ver a porta. Agora vou entrar em outros sonhos.",
+            "startdescription": "Nos meus sonhos, eu conheço o caminho à Porta do Veado, pelos labirintos dos Limites. Ghirbi me deixará passar, mas o caminho é sempre um quebra-cabeça. Precisarei de Razão.",
+            "description": "Aqui, nos altos e secos atalhos dos Limites, estão as embrulhadas fissuras e ardis de dezenas de milhares de anos. Minha Razão é deficiente. Acordarei sem ver a vista da Porta. Agora flutuo à outros sonhos.",
             "linked": [
                 {
                     "id": "dream_router",
@@ -723,7 +723,7 @@
         },
         {
             "id": "dreamenterstag",
-            "label": "Entrando na Porta de Stag",
+            "label": "Entrando na Porta do Veado",
             "actionid": "dream",
             "craftable": false,
             "requirements": {
@@ -733,7 +733,7 @@
             "aspects": {
                 "fatiguing": 1
             },
-            "startdescription": "O Portão de Stag é o Portão de Adept. Passá-lo vai ser iniciado no primeiro verdadeiro mistério da Casa do Sol. O cabelo, Ghirbi, varre pra me ver entrar onde não pode: mas isso deve me deixar. As válvulas marcadas da porta se movem abertamente.",
+            "startdescription": "A Porta do Veado é o Portão do Adepto. Passá-la é ter sido iniciado no primeiro real mistério da Casa do Sol. A Cabeça, Ghirbi, chora ao ver-me entrar onde ela não pode: mas tem de deixar-me passar. As cicatrizadas válvulas da Porta moem-se abertas.",
             "description": ".",
             "alt": [
                 {
@@ -746,14 +746,14 @@
         },
         {
             "id": "dreamnotquitereachspiderlantern",
-            "label": "Sandres Silenciosas: Não é o suficiente!",
+            "label": "As Areias Sedosas: Insuficientes!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 1
             },
-            "startdescription": "Nos sonhos, as Areias Sopas são o lugar que sussurra. Cinza os grãos tortos, cinza as ervas daninhas. Li as vias angulares a que temos de seguir os moradores arcados, incisivos e morosos dos Sandros - ",
-            "description": "As Areias engoliram meus passos. Elas se apressam para calar a boca e encher os meus olhos. Vou acordar com a minha língua inchada e a minha garganta foi seca. Esta é a abordagem correcta, mas devo saber mais do que isso, e passo agora para outros sonhos.",
+            "startdescription": "Nos sonhos, as Areias Sedosas é o lugar que sussurra. Os cinzentos grãos peneiram-se, as cinzentas ervas tremem-se. Eu li sobre as angulares vias que um deve seguir, dos arqueados, despercebidos e vagarosos residentes - ",
+            "description": "As Areias engoliram meus passos. Elas correram para entupir minha boca e encher meus olhos... Acordarei com minha língua inchada e minha garganta rachada de secura. Essa é a abordagem correta, mas eu preciso saber mais para ir além. Agora eu flutuo à outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -770,14 +770,14 @@
         },
         {
             "id": "dreamreachspiderlantern",
-            "label": "Aproximando-se da porta das aranhas",
+            "label": "Aproximando-se da Porta da Aranha",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 8
             },
-            "startdescription": "Nos sonhos, as Areias Sopas são o lugar que sussurra. Cinza os grãos tortos, cinza as ervas daninhas. Li as vias angulares a que temos de seguir os moradores arcados, incisivos e morosos dos Sandros - ",
-            "description": "As Areias drenam como água, e abaixo está a pedra da qual os deuses saíram há muito tempo. À frente é a porta, brilhando como chuva, sua superfície preta inchada com sangue, cada gota curva pesada como um cartucho inchado.",
+            "startdescription": "Nos sonhos, as Areias Sedosas é o lugar que sussurra. Os cinzentos grãos peneiram-se, as cinzentas ervas tremem-se. Eu li sobre as angulares vias que um deve seguir, dos arqueados, despercebidos e vagarosos residentes - ",
+            "description": "As areias drenam-se como água, e abaixo está a pedra sobre a qual os deuses ergueram-se há tanto tempo. A frente está a Porta, brilhando como a chuva, sua negra superfície está coberta com sangue, cada gota fortemente curvada, como um inchado carrapato.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -790,14 +790,14 @@
         },
         {
             "id": "dreamnotquitereachspiderknock",
-            "label": "Sandres Silenciosas: Não é o suficiente!",
+            "label": "As Areias Sedosas: Insuficientes!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "knock": 1
             },
-            "startdescription": "Nos sonhos, as Areias Silenciadas são o lugar que sussurra. Cinza grão esfregado, cinza seduz a quieta. Sei das palavras que abrem o vento - ",
-            "description": "As Areias engoliram meus passos. Elas se apressam para calar a boca e encher os meus olhos. Vou acordar com a minha língua inchada e a minha garganta foi seca. Esta é a abordagem correcta, mas devo saber mais do que isso, e passo agora para outros sonhos.",
+            "startdescription": "Nos sonhos, as Areias Sedosas é o lugar que sussurra. Os cinzentos grãos peneiram-se, as cinzentas ervas tremem-se. Eu conheço as palavras que abrem o vento - ",
+            "description": "As Areias engoliram meus passos. Elas correram para entupir minha boca e encher meus olhos... Acordarei com minha língua inchada e minha garganta rachada de secura. Essa é a abordagem correta, mas eu preciso saber mais para ir além. Agora eu flutuo à outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -814,14 +814,14 @@
         },
         {
             "id": "dreamreachspiderknock",
-            "label": "Aproximando-se da porta das aranhas",
+            "label": "Aproximando-se da Porta das Aranhas",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "knock": 8
             },
-            "startdescription": "Nos sonhos, as Areias Sopas são o lugar que sussurra. Cinza os grãos tortos, cinza as ervas daninhas. Conheço as palavras que abrem o vento, pelo que as areias me permitirão passar - ",
-            "description": "As Areias drenam como água, e abaixo está a pedra da qual os deuses saíram há muito tempo. À frente é a porta, brilhando como chuva, sua superfície preta inchada com sangue, cada gota curva pesada como um cartucho inchado.",
+            "startdescription": "Nos sonhos, as Areias Sedosas são o lugar que sussurra. Os cinzentos grãos peneiram-se, as cinzentas ervas tremem-se. Eu conheço as palavras que abrem o vento, de tal forma que as Areias permitirão minha passagem - ",
+            "description": "As areias drenam-se como água, e abaixo está a pedra sobre a qual os deuses ergueram-se há tanto tempo. A frente está a Porta, brilhando como a chuva, sua negra superfície está coberta com sangue, cada gota fortemente curvada, como um inchado carrapato.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -834,14 +834,14 @@
         },
         {
             "id": "dreamnotquitereachspidergrail",
-            "label": "Sandres Silenciosas: Não é o suficiente!",
+            "label": "As Areias Sedosas: Insuficientes!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "grail": 1
             },
-            "startdescription": "Nos sonhos, as Areias Sopas são o lugar que sussurra. Cinza os grãos tortos, cinza as ervas daninhas. TERCEIRO é o único guia através das areias - meu THIRST, ou THIRST da porta da Aranha -",
-            "description": "As Areias engoliram meus passos. Elas se apressam para calar a boca e encher os meus olhos. Vou acordar com a minha língua inchada e a minha garganta foi seca. Esta é a abordagem correcta, mas devo saber mais do que isso, e passo agora para outros sonhos.",
+            "startdescription": "Nos sonhos, as Areias Sedosas são o lugar que sussurra. Os cinzentos grãos peneiram-se, as cinzentas ervas tremem-se. SEDE é o único guia pelas Areias - minha SEDE, ou a SEDE da Porta da Aranha -",
+            "description": "As Areias engoliram meus passos. Elas correram para entupir minha boca e encher meus olhos... Acordarei com minha língua inchada e minha garganta rachada de secura. Essa é a abordagem correta, mas eu preciso saber mais para ir além. Agora eu flutuo à outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -858,14 +858,14 @@
         },
         {
             "id": "dreamreachspidergrail",
-            "label": "Aproximando-se da porta das aranhas",
+            "label": "Aproximando-se da Porta da Aranha",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "grail": 8
             },
-            "startdescription": "Nos sonhos, as Areias Sopas são o lugar que sussurra. Cinza os grãos tortos, cinza as ervas daninhas. TERCEIRO é o único guia através das areias - meu THIRST, ou THIRST da porta da Aranha -",
-            "description": "As Areias drenam como água, e abaixo está a pedra da qual os deuses saíram há muito tempo. À frente é a porta, brilhando como chuva, sua superfície preta inchada com sangue, cada gota curva pesada como um cartucho inchado.",
+            "startdescription": "Nos sonhos, as Areias Sedosas são o lugar que sussurra. Os cinzentos grãos peneiram-se, as cinzentas ervas tremem-se. SEDE é o único guia pelas Areias - minha SEDE, ou a SEDE da Porta da Aranha -",
+            "description": "As areias drenam-se como água, e abaixo está a pedra sobre a qual os deuses ergueram-se há tanto tempo. A frente está a Porta, brilhando como a chuva, sua negra superfície está coberta com sangue, cada gota fortemente curvada, como um inchado carrapato.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -878,7 +878,7 @@
         },
         {
             "id": "dreamusespiderway",
-            "label": "A Porta do Caminho das Aranhas",
+            "label": "O Caminho à Porta da Aranha",
             "actionid": "dream",
             "requirements": {
                 "wayspider": 1
@@ -887,15 +887,15 @@
                 {
                     "id": "Ascent",
                     "label": "Ascensão",
-                    "description": "Conceda um sacrifício de sangue para satisfazer o TERCEIRO da porta da Aranha - ou, com o amor certo, encontre o caminho para a porta do pavão, a porta onde a luz é derramada como sangue.",
+                    "description": "Providencie um sacrificio de sangue para satisfazer a SEDE da Porta da Aranha - ou, com a sabedoria certa, encontre o caminho até a Porta do Pavão, a porta em que a luz é derramada como sangue.",
                     "required": {
                         "prisoner": 1,
                         "lore": 1
                     }
                 }
             ],
-            "startdescription": "Em meus sonhos, conheço o caminho entre as areias Silken até a porta das Aranhas. Se eu abater sua TERRA derramando sangue fresco antes de dormir, abrirá para mim.",
-            "description": "Aqui nas dobras dos sonhos é a porta, o cintilante preto como o abdômen de uma vespa de um sangrio, sempre marcada com pontos de sangue cada vez mais encolhidos. Não fiquei satisfeito com o seu THIRST, que não vai abrir. Agora vou entrar noutros sonhos.",
+            "startdescription": "Em meus sonhos, eu conheço o caminho pelas Areias Sedosas à Porta da Aranha. Se eu abrandar sua SEDE derrubando sangue fresco antes de dormir, ela se abrirá para mim.",
+            "description": "Aqui nas dobras do sono está a porta, brilhando negra como o abdômen de uma esquólida vespa, sempre marcada com sempre-encolhendo manchas de sangue. Eu não satisfiz sua SEDE, e ela não se entreabrirá. Agora, eu flutuo à outros sonhos.",
             "linked": [
                 {
                     "id": "dream_router",
@@ -944,14 +944,14 @@
         },
         {
             "id": "dreamenterspider",
-            "label": "Entrando na porta das aranhas",
+            "label": "Entrando na Porta da Aranha",
             "actionid": "dream",
             "craftable": false,
             "requirements": {
                 "wayspider": 1,
                 "prisoner": 1
             },
-            "startdescription": "A Porta da Aranha é sempre THIRSTY. Sempre. O sangue que dei vazamentos em fios e derrama pela pele do mundo e a porta o bebe e a satisfação de um momento enche a abertura até que eu possa passar.",
+            "startdescription": "A Porta da Aranha sempre tem SEDE. Sempre. O sangue que obsequiei-a vaza nos fios e derrama-se através da pele do mundo, e a Porta bebe-o e um momento de satisfação incha sua abertura até que eu possa passar.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -967,14 +967,14 @@
         },
         {
             "id": "dreamnotquitereachpeacocklantern",
-            "label": "Glassgarden: Não basta!",
+            "label": "O Jardim-de-Vidro: Insuficiente!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 1
             },
-            "startdescription": "A luz do Sol dividido penetra no meu sonho, mas não o suficiente para derrubar as flores gélidas há muito mortas do jardim de vidro. Cada passo que dou esmaga outra planta para pó. Foi assim que as horas mais brilhantes apareceram, mas agora está em silêncio, aqui nas nuvens - ",
-            "description": "O frio do jardim de vidro me perfura em cada pote. Vou acordar em azul branco com frio. Esta é a abordagem correcta, mas devo saber mais do que isso, e passo agora para outros sonhos.",
+            "startdescription": "A luz do Sol divido penetra meu sonho, mas não é suficiente para descongelar as há-muito-defuntas congeladas-flores do Jardim-de-Vidro. Cada passo que dou esmaga outra planta. Esse é o caminho que as mais brilhantes Horas outrora viram, mas agora ela é silente, aqui nas nuvens- ",
+            "description": "O calafrio do Jardim-de-Vidro perfura-me em cada poro. Eu acordarei-me brancamente-azulado com frio. Essa é a abordagem correta, mas preciso saber mais para ir além. Agora, eu flutuo à outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -990,14 +990,14 @@
         },
         {
             "id": "dreamreachpeacocklantern",
-            "label": "Glassgarden: Aproximando-se da porta do pavão",
+            "label": "O Jardim-de-Vidro: Aproximando-se da Porta do Pavão",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "lantern": 10
             },
-            "startdescription": "A luz do Sol dividido penetra no meu sonho, mas não o suficiente para derrubar as flores gélidas há muito mortas do jardim de vidro. Cada passo que dou esmaga outra planta para pó. Foi assim que as horas mais brilhantes apareceram, mas agora está em silêncio, aqui nas nuvens - ",
-            "description": "A Porta Pavão - orgulhosa e vergonhosa, seu brilho tingindo as formas pálidas de neve do jardim de vidro. Este é o ponto mais alto em que os mortais podem penetrar nos Mansus. Não há rachaduras em sua superfície. Não se trata de uma porta que se abra, se bem que se diga que pode sangrar a luz.",
+            "startdescription": "A luz do Sol divido penetra meu sonho, mas não é suficiente para descongelar as há-muito-defuntas congeladas-flores do Jardim-de-Vidro. Cada passo que dou esmaga outra planta. Esse é o caminho que as mais brilhantes Horas outrora viram, mas agora ela é silente, aqui nas nuvens- ",
+            "description": "A Porta do Pavão: Orgulhosa e brilhante ametista, seu brilhar tintilando pálidas-como-neve formas do Jardim-de-Vidro. Esse é o ponto mais elevado que mortais podem penetrar no Mansus. Nenhuma cisão estraga sua superfície, contudo, é dito, ela pode sangrar luz.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -1010,14 +1010,14 @@
         },
         {
             "id": "dreamnotquitereachpeacockknock",
-            "label": "Glassgarden: Não basta!",
+            "label": "O Jardim-de-Vidro: Insuficiente!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "knock": 1
             },
-            "startdescription": "A luz do Sol dividido penetra no meu sonho, mas não o suficiente para derrubar as flores gélidas há muito mortas do jardim de vidro. Cada passo que dou mata outra planta para pó. Quase sei o caminho - ",
-            "description": "O frio do jardim de vidro me perfura em cada pote. Vou acordar em azul branco com frio. Esta é a abordagem correcta, mas devo saber mais do que isso, e passo agora para outros sonhos.",
+            "startdescription": "A luz do Sol divido penetra meu sonho, mas não é suficiente para descongelar as há-muito-defuntas congeladas-flores do Jardim-de-Vidro. Cada passo que dou esmaga outra planta. Eu quase conheço o caminho - ",
+            "description": "O calafrio do Jardim-de-Vidro perfura-me em cada poro. Eu acordarei-me brancamente-azulado com frio. Essa é a abordagem correta, mas preciso saber mais para ir além. Agora, eu flutuo à outros sonhos.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -1033,14 +1033,14 @@
         },
         {
             "id": "dreamreachpeacockknock",
-            "label": "Glassgarden: Aproximando-se da porta do pavão",
+            "label": "O Jardim-de-Vidro: Aproximando-se da Porta do Pavão",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "knock": 10
             },
-            "startdescription": "A luz do Sol dividido penetra no meu sonho, mas não o suficiente para derrubar as flores gélidas há muito mortas do jardim de vidro. Cada passo que dou é que dizima outra planta para pó. Vou tomar medidas cuidadosamente. Aprendi o caminho - ",
-            "description": "A Porta Pavão - orgulhosa e vergonhosa, seu brilho tingindo as formas pálidas de neve do jardim de vidro. Este é o ponto mais alto em que os mortais podem penetrar nos Mansus. Não há rachaduras em sua superfície. Não se trata de uma porta que se abra, se bem que se diga que pode sangrar a luz.",
+            "startdescription": "A luz do Sol divido penetra meu sonho, mas não é suficiente para descongelar as há-muito-defuntas congeladas-flores do Jardim-de-Vidro. Cada passo que dou esmaga outra planta. Eu pisarei cautelosamente. Eu aprendí o caminho - ",
+            "description": "A Porta do Pavão: Orgulhosa e brilhante ametista, seu brilhar tintilando pálidas-como-neve formas do Jardim-de-Vidro. Esse é o ponto mais elevado que mortais podem penetrar no Mansus. Nenhuma cisão estraga sua superfície, contudo, é dito, ela pode sangrar luz.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -1053,14 +1053,14 @@
         },
         {
             "id": "dreamnotquitereachpeacockedge",
-            "label": "Glassgarden: Não basta!",
+            "label": "O Jardim-de-Vidro: Insuficiente!",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "edge": 1
             },
-            "startdescription": "A luz do Sol dividido penetra no meu sonho, mas não o suficiente para derrubar as flores gélidas há muito mortas do jardim de vidro. Cada passo que dou conduz a outra planta para pó, tal como tem de acontecer - ",
-            "description": "A Porta Pavão - orgulhosa e vergonhosa, seu brilho tingindo as formas pálidas de neve do jardim de vidro. Este é o ponto mais alto em que os mortais podem penetrar no Mansus. Nenhuma rachadura marca a sua superfície. Esta não é uma porta que se abra, embora, como se diz, ela possa sangrar a luz. Agora vou entrar noutros sonhos.",
+            "startdescription": "A luz do Sol divido penetra meu sonho, mas não é suficiente para descongelar as há-muito-defuntas congeladas-flores do Jardim-de-Vidro. Cada passo que dou esmaga outra planta. Isso é como deve ser - ",
+            "description": "A Porta do Pavão: Orgulhosa e brilhante ametista, seu brilhar tintilando pálidas-como-neve formas do Jardim-de-Vidro. Esse é o ponto mais elevado que mortais podem penetrar no Mansus. Nenhuma cisão estraga sua superfície, contudo, é dito, ela pode sangrar luz. Agora, flutuo à outros sonhos.",
             "linked": [
                 {
                     "id": "dream_router",
@@ -1077,14 +1077,14 @@
         },
         {
             "id": "dreamreachpeacockedge",
-            "label": "Glassgarden: Aproximando-se da porta do pavão",
+            "label": "O Jardim-de-Vidro: Aproximando-se da Porta do Pavão",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
                 "edge": 10
             },
-            "startdescription": "A luz do Sol dividido penetra no meu sonho, mas não o suficiente para derrubar as flores gélidas há muito mortas do jardim de vidro. Cada passo que dou conduz a outra planta para pó, e é assim que deve ser. Escolherei meus passos com cuidado, conforme prescrever a história -",
-            "description": "A Porta Pavão - orgulhosa e vergonhosa, seu brilho tingindo as formas pálidas de neve do jardim de vidro. Este é o ponto mais alto em que os mortais podem penetrar nos Mansus. Não há rachaduras em sua superfície. Não se trata de uma porta que se abra, se bem que se diga que pode sangrar a luz.",
+            "startdescription": "A luz do Sol divido penetra meu sonho, mas não é suficiente para descongelar as há-muito-defuntas congeladas-flores do Jardim-de-Vidro. Cada passo que dou esmaga outra planta. Isso é como deve ser. Eu escolherei meus passos cautelosamente, como a sabedoria prescreve-o -",
+            "description": "A Porta do Pavão: Orgulhosa e brilhante ametista, seu brilhar tintilando pálidas-como-neve formas do Jardim-de-Vidro. Esse é o ponto mais elevado que mortais podem penetrar no Mansus. Nenhuma cisão estraga sua superfície, contudo, é dito, ela pode sangrar luz.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -1097,7 +1097,7 @@
         },
         {
             "id": "dreamusepeacockway",
-            "label": "O Caminho até a Porta do Pavão",
+            "label": "O Caminho à Porta do Pavão",
             "actionid": "dream",
             "requirements": {
                 "waypeacock": 1
@@ -1106,13 +1106,13 @@
                 {
                     "id": "Ascent",
                     "label": "Ascensão",
-                    "description": "A porta do pavão não está aberta, exatamente.",
+                    "description": "A Porta do Pavão não está, exatamente, aberta.",
                     "required": {
                         "tool": 1
                     }
                 }
             ],
-            "startdescription": "Nos meus sonhos, conheço o caminho através do jardim de Glass, até à porta do Pavão: a mais admirável das portas, a porta que brilha como um espelho. Talvez, com os recursos adequados, eu possa passar. ",
+            "startdescription": "Nos meus sonhos, eu conheço o caminho pelo Jardim-de-Vidro até à Porta do Pavão: a mais admirável das Portas, a Porta que brilha como um espelho. Talvez, como os recursos corretos, eu possa atravessá-la. ",
             "description": "A Porta do pavão é roxa como a gema mais doce, como a fruta mais madura, como a mais profunda. Leva meu reflexo e não retorna nada. Quando eu acordar, não me lembrarei do meu sonho.",
             "craftable": true,
             "aspects": {
@@ -1140,14 +1140,14 @@
         },
         {
             "id": "dreamenterpeacockmirror",
-            "label": "Passando a Porta da Parede",
+            "label": "Passando a Porta do Pavão",
             "actionid": "dream",
             "craftable": false,
             "requirements": {
                 "waypeacock": 1,
                 "mirror": 1
             },
-            "startdescription": "A Porta do Pavão reflete o espelho que guardo no meu sono, e o espelho reflete a Porta do Pavão. Já é uma sensação de arrepio que corta sua superfície. Dói-me por fratura, e quando encontra essa satisfação, vou entrar.",
+            "startdescription": "A Porta do Pavão reflete o espelho que seguro em meu sonho, e o espelho reflete a Porta do Pavão. Já um sensível tremer ondula em sua superfície. Ele cobiça pela fratura, e quando encontrar essa satisfação, eu entrarei.",
             "description": ".",
             "alt": [
                 {
@@ -1163,7 +1163,7 @@
         },
         {
             "id": "dreamenterpeacockfrangiclave",
-            "label": "Passando a Porta da Parede",
+            "label": "Passando a Porta do Pavão",
             "actionid": "dream",
             "craftable": false,
             "requirements": {
@@ -1184,8 +1184,8 @@
         {
             "id": "poison.long.way.trap",
             "actionid": "poison.long.way.trap",
-            "label": "O relógio no caminho",
-            "startdescription": "O longo tempo colocou cartógrafos invisíveis no portão, para me observar enquanto passei e me mapeia como um país semiconhecido.",
+            "label": "O Assistir sobre o Caminho",
+            "startdescription": "O Longo colocou cartógrafos invisíveis no portão, para observar-me enquanto passo e mapear-me como um semi-conhecido país.",
             "requirements": {
                 "poison.way.long": 1
             },
@@ -1201,7 +1201,7 @@
             "requirements": {
                 "sendingheartg": 1
             },
-            "startdescription": "O vento sobe e o telhado chacota enquanto eu me estabeleço para dormir. Há uma erva amarga que vai me ajudar a passar do meu corpo. A Madeira abre ao meu redor, mas com meus olhos novos, vejo outro caminho agora. O chamado Marinette aguarda por esse caminho, com a chave que me terminará e me começará.",
+            "startdescription": "O vento sobe e o telhado crepita enquanto eu coloco-me para dormir. Há uma amarga erva que ajudar-me-á a passar de meu corpo. A Floresta abre-se em minha volta, mas com meus novos olhos, eu vejo um outro caminho. Aquele chamado Marinette espera pelo caminho, com a Chave que encerrar-me-á e iniciar-me-á.",
             "warmup": 30,
             "craftable": true,
             "signalEndingFlavour": "Grand",
@@ -1236,24 +1236,24 @@
         },
         {
             "id": "dreamheartvictory",
-            "label": "O Portão Kingskin",
+            "label": "O Portão da Pele-Real",
             "actionid": "dream",
             "requirements": {
                 "sendingheartg": 1
             },
-            "startdescription": "Marinette espera na sombra de uma árvore de pinheiro, brilho da pele escura, cintilação de osso branco, garras brilhantes como latão. Ela carrega uma chave vermelha que pode ser uma faca sangrenta ou uma ferida enferrujada. Quando ela diminui, a dor é vermelha.",
+            "startdescription": "Marinette espera nas sombras de uma araucária, sua negra pela brilhando, seus brancos ossos tremeluzindo, garras brilhantes como latão. Ela carrega a rubra Chave que talvez seja uma sangrenta faca ou uma ferida rubí. Quando ela traz-a para baixo, a dor dela é toda vermelha.",
             "ending": "minorheartvictory",
             "warmup": 30
         },
         {
             "id": "dreamheartvictory_withrisen",
-            "label": "O Portão Kingskin",
+            "label": "O Portão da Pele-Real",
             "actionid": "dream",
             "requirements": {
                 "sendingheartg": 1,
                 "summoned": 1
             },
-            "startdescription": "Marinette espera na sombra de uma árvore de pinheiro, brilho da pele escura, cintilação de osso branco, garras brilhantes como latão. Ela carrega uma chave vermelha que pode ser uma faca sangrenta ou uma ferida enferrujada. Quando ela diminui, a dor é vermelha.\n\nNo lugar escuro debaixo das árvores, minha amada morta vigia com sua pele que é machada, seus olhos que são lâmpadas.",
+            "startdescription": "Marinette espera nas sombras de uma araucária, sua negra pela brilhando, seus brancos ossos tremeluzindo, garras brilhantes como latão. Ela carrega a rubra Chave que talvez seja uma sangrenta faca ou uma ferida rubí. Quando ela traz-a para baixo, a dor dela é toda vermelha.\n\nNo obscuro lugar debaixo das árvores, minha defunta amada assiste, com sua pele que é manchada, seus olhos que são lámpadas.",
             "ending": "minorheartvictorywithrisen",
             "warmup": 10
         },
@@ -1264,7 +1264,7 @@
             "requirements": {
                 "sendingmothg": 1
             },
-            "startdescription": "Eu descendo o caminho bem conhecido do sono, até que a Madeira fique clara antes de mim com suas árvores resplandecentes e caminhos com borda sombria. A porta na madeira está debaixo das águas do poço. Eu sei que agora. Não posso passar ele vivo e não posso passar ele morto. Medusa, que não está vivendo nem morto, irá limpar o caminho. Eu entro em uma troca.",
+            "startdescription": "Eu descendo nos familiares caminhos do sonho, até que a Floresta torna-se clara defronte de mim com suas agarrantes árvores e franjados-e-escurecidos caminhos. A Porta da Floresta está debaixo das águas do poço. Eu disso agora. Eu não posso passá-la vivo e não posso passá-la morto. Medusa, que não está viva nem morta, limpará o caminho. Eu começarei a trotear.",
             "warmup": 30,
             "craftable": true,
             "signalEndingFlavour": "Grand",
@@ -1299,35 +1299,35 @@
         },
         {
             "id": "dreammothvictory",
-            "label": "A porta na madeira",
+            "label": "A Porta na Floresta",
             "actionid": "dream",
             "requirements": {
                 "sendingmothg": 1
             },
-            "startdescription": "O luar faz com que as árvores sejam pregadas pelo povo, para enclausurar as raízes, para tocar os membros gêmeos da Medusa onde espera pelo poço. Ela levanta os braços que pingam, que têm um Key pálido, torcendo como um verme curvado. Eu me joelhei, uma veada vermelha e ofereço o pescoço. Um gusa de sangue derrama no poço; e então a Medusa começa a entalhar minha nova forma.",
+            "startdescription": "O luar cisa as árvores para enegrecer aquilo que o poço contém, para retratar as raízes-das-árvores, para tocar os gêmeos membros da Medusa, que espera pelo peço. Ela levanta seus pingantes braços, que seguram uma pálida Chave, girando como uma minhoca com presas. Eu me ajoelho, um rubro veado, e ofereço meu pescoço. Uma gota de sangue derrama-se no poço; e então Medusa começa a entalhar minha nova forma.",
             "ending": "minormothvictory",
             "warmup": 30
         },
         {
             "id": "dreammothvictory_withrisen",
-            "label": "A porta na madeira",
+            "label": "A Porta na Floresta",
             "actionid": "dream",
             "requirements": {
                 "sendingmothg": 1,
                 "summoned": 1
             },
-            "startdescription": "O luar faz com que as árvores sejam pregadas pelo povo, para enclausurar as raízes, para tocar os membros gêmeos da Medusa onde espera pelo poço. Ela levanta os braços que pingam, que têm um Key pálido, torcendo como um verme preso. Eu me ajoelhei, uma veada vermelha, e ofereço o meu pescoço. Um gusa de sangue derrama no poço; e então a Medusa começa a entalhar minha nova forma. \n\nNo lugar escuro debaixo das árvores, minha amada morta vigia com sua pele que é machada, seus olhos que são lâmpadas.",
+            "startdescription": "O luar cisa as árvores para enegrecer aquilo que o poço contém, para retratar as raízes-das-árvores, para tocar os gêmeos membros da Medusa, que espera pelo peço. Ela levanta seus pingantes braços, que seguram uma pálida Chave, girando como uma minhoca com presas. Eu me ajoelho, um rubro veado, e ofereço meu pescoço. Uma gota de sangue derrama-se no poço; e então Medusa começa a entalhar minha nova forma.\n\nNo obscuro lugar debaixo das árvores, minha defunta amada assiste, com sua pele que é manchada, seus olhos que são lámpadas.",
             "ending": "minormothvictorywithrisen",
             "warmup": 10
         },
         {
             "id": "dreammeniscatevictoryintro",
-            "label": "Sem as paredes",
+            "label": "Fora das Paredes",
             "actionid": "dream",
             "requirements": {
                 "sendingmothheartg": 1
             },
-            "startdescription": "Eu descendo o caminho bem conhecido do sono, até que a Madeira fique clara antes de mim com suas árvores resplandecentes e caminhos com borda sombria. Mas esta não é a Madeira que conheço. São todas árvores de vidoeiro, brancas como lua e o luar é preto como tinta. Sob sua pressão, as peles brancas começam a brilhar e depois a sangrar. Quebro uma troca, então uma galopa. Tenho de chegar até o povo, antes de acordar, ou antes de algo pior, ",
+            "startdescription": "Eu descendo nos familiares caminhos do sonho, até que a Floresta torna-se clara defronte de mim com suas agarrantes árvores e franjados-e-escurecidos caminhos. Mas essa não é a Floresta que conheço. Ela é inteira de bétulas árvores, branca como o luar, e o luar é preto como tinta. Debaixo de sua pressão, as brancas peles das árvores começam a brilhar, e depois a sangrar. Eu começo a trotar, e depois a galopar. Eu devo chegar ao Poço, antes que acorde ou antes de algo pior - ",
             "warmup": 30,
             "craftable": true,
             "signalEndingFlavour": "Grand",
@@ -1379,23 +1379,23 @@
                 "sendingmothheartg": 1,
                 "summoned": 1
             },
-            "startdescription": "Minha pele está triturando agora. O poço está à frente, mas a lua está mudando, é preta, é ouro, é pérola. O sangue do poço é um espelho vermelho, e três deles se erguem, e seus rostos são meus, são chifres como a Lua, a maior segura uma chave de safira preta e quando separa meu corpo é alugado como um relâmpago, e O QUE É COM, SEM SEM QUE ESTÁ SEM SEM SIM, SEM SEM -",
+            "startdescription": "Minha pele rasga-se agora. O poço está a frente, mas o luar está mudando-se, é negro, é dourado, é pérola. O sangue do Poço é um rubro espelho, e três deles levantam-se, e suas faças são minhas, chifrudos como a lua, o maior tem a chave da negra safira e quando parte minha pele de meu corpo é dilacerado como um raio, e O Q UE É DENTRO, FORA, O QUE É FORA, DENTRO",
             "ending": "minormeniscatevictorywithrisen",
             "warmup": 30
         },
         {
             "id": "belovedfarewelldream",
-            "label": "A escolha de limite",
+            "label": "A Escolha do Limiar",
             "actionid": "dream",
             "requirements": {
                 "romanticinterest": 1
             },
-            "startdescription": "O fim do despedimento, eles permanecerão, e eu vou subir.",
+            "startdescription": "O último despedir. Eles ficaram, eu ascenderei.",
             "slots": [
                 {
                     "id": "decision",
                     "label": "Decisão",
-                    "description": "[Adicione paixão para se afastar do seu ascensão... e viver como um mortal com o seu amado. Não faça nada para continuar.]",
+                    "description": "[Adicione Paixão para afastar-se de sua ascensão... e viver como um mortal com o sua amada. Não faça nada para continuar.]",
                     "required": {
                         "passion": 1
                     }

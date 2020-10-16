@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "dreampleasantmemory",
-            "label": "Dwell em uma Memória Agradável",
+            "label": "Habitar uma Memória Agradável",
             "actionid": "dream",
             "requirements": {
                 "memorypleasant": 1
@@ -12,14 +12,14 @@
                 "contentment": 1,
                 "fleeting": 1
             },
-            "startdescription": "A doce enfermidade de uma compreensão comum? Um momento na luz do inverno?",
+            "startdescription": "A doce quietude de um entendimento comum? Um momento na luz de inverno?",
             "description": "Isto pode me sustentar.",
             "craftable": true,
             "warmup": 10
         },
         {
             "id": "dreampassionatememory",
-            "label": "Dwell em uma Memória Passiva",
+            "label": "Habitar uma Memória Apaixonante",
             "actionid": "dream",
             "requirements": {
                 "memorypassionate": 1
@@ -30,14 +30,14 @@
                 "contentment": 1,
                 "vitality": 1
             },
-            "startdescription": "Gás compartilhado, membros emaranhados? Calor no escuro secreto?",
+            "startdescription": "Suspiros compartilhados, membros emaranhados? Calor no escuro secreto?",
             "description": "Isso poderia me distrair.",
             "craftable": true,
             "warmup": 10
         },
         {
             "id": "dreambittersweetmemory",
-            "label": "Dwell em uma Memória Bittersweet",
+            "label": "Habitar uma Memória Amargamente Doce",
             "actionid": "dream",
             "requirements": {
                 "memorybittersweet": 1
@@ -48,8 +48,8 @@
                 "contentment": 1,
                 "glimmering": 1
             },
-            "startdescription": "Compreender nenhum deles se atreve a falar em voz alta? Uma querela e suas consequências?",
-            "description": "Isso poderia permitir-me hesitar.",
+            "startdescription": "Um entendimento que nenhum se atreve a dizer em voz alta? Um a briga e seus resultados?",
+            "description": "Isso talvez permita-me hesitar.",
             "craftable": true,
             "warmup": 10
         }
