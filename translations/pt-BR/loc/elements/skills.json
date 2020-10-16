@@ -10,7 +10,7 @@
             "description": "Beneficiei do exercício. [Use isto com duas Lições de Aprendizado para obter mais saúde.]",
             "slots": [
                 {
-                    "id": "Vida",
+                    "id": "Health",
                     "actionid": "work",
                     "description": "Tenho de dedicar toda a minha energia a esta questão.",
                     "required": {
@@ -55,7 +55,7 @@
             },
             "slots": [
                 {
-                    "id": "Vida",
+                    "id": "Health",
                     "actionid": "work",
                     "description": "Tenho de dedicar toda a minha energia a esta questão.",
                     "required": {
@@ -104,7 +104,7 @@
             },
             "slots": [
                 {
-                    "id": "Vida",
+                    "id": "Health",
                     "actionid": "work",
                     "description": "Tenho de dedicar toda a minha energia a esta questão.",
                     "required": {
@@ -173,7 +173,7 @@
             },
             "slots": [
                 {
-                    "id": "Vida",
+                    "id": "Health",
                     "actionid": "work",
                     "description": "Tenho de dedicar toda a minha energia a esta questão.",
                     "required": {
@@ -192,7 +192,7 @@
             },
             "slots": [
                 {
-                    "id": "Vida",
+                    "id": "Health",
                     "actionid": "work",
                     "description": "Tenho de dedicar toda a minha energia a esta questão.",
                     "required": {

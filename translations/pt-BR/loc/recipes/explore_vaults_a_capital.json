@@ -71,7 +71,7 @@
         },
         {
             "id": "explore_vaultcapital4_setup",
-            "label": "Começando uma Expedição: Hospital de São Agnes",
+            "label": "Começando uma Expedição: Hospital de Santa Agnes",
             "actionid": "explore",
             "requirements": {
                 "funds": 1,
@@ -81,7 +81,7 @@
             "effects": {
                 "curse_dread": 1
             },
-            "startdescription": "Só ecoa nos salões dos hospitais agora, mas os males permanecem no ar. Temos de procurar meticulosamente, quarto por quarto. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
+            "startdescription": "Somente ecos andam nos salões do hospital agora, mas os males permanecem no ar. Temos de procurar meticulosamente, quarto por quarto. [Expedições precisam de pelo menos um Fundo por obstáculo. Seguidores irão derrotar obstáculos. Se você ficar sem Fundos ou Seguidores, a Expedição terminar.]",
             "description": ".",
             "warmup": 30,
             "craftable": true,

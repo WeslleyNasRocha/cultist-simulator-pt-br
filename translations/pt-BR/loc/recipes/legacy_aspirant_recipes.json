@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "workintrojob",
-            "label": "Outro turno no Hospital",
+            "label": "Outro Turno no Hospital",
             "actionid": "work",
             "requirements": {
                 "introjob": 1
@@ -19,14 +19,14 @@
                     "additional": true
                 }
             ],
-            "startdescription": "Outro turno: espremer os corredores mais escuros, entregando post para inválidos ocos, rastejando borregos carregados de cadáver até o porão.",
-            "description": "No meio do seu turno, o portador de cabeça te chama de lado. \"Nós não precisaremos mais de seus serviços\", diz ele. 'Aqui: seu último pagamento. Fomos enviados para você até o final do mês.\nPerdi meu emprego. Pelo menos agora tenho um pouco de tempo para descansar, e minha Saúde melhora.\n[<b>Sonho</b> está desbloqueado.]",
+            "startdescription": "Outro turno: esfregar os corredores escurecidos, entregando cartas para inválidos com olhos vazios, conduzindo macas carregados de cadáveres até o porão.",
+            "description": "No meio do seu turno, o porteiro chefe te chama de lado. 'Nós não precisaremos mais de seus serviços', diz ele. 'Aqui: seu último pagamento. Nós pagamos até o final do mês.\nPerdi meu emprego. Pelo menos agora tenho um pouco de tempo para descansar, e minha Saúde melhora.\n[<b>Sonhar</b> está desbloqueado.]",
             "warmup": 10,
             "craftable": true
         },
         {
             "id": "introdream",
-            "label": "Lembrar dos meus sonhos",
+            "label": "Lembrar dos meus Sonhos",
             "actionid": "dream",
             "requirements": {},
             "effects": {
@@ -41,17 +41,17 @@
                 }
             ],
             "startdescription": "Mais uma vez, sonho com um brilho debaixo da imunda pele do mundo. A luz através da madeira preta. A porta pálida. O velho - ",
-            "description": "Começou quando eu falei com o velho do hospital. Ele sabia o meu nome. Mas ele está morto agora. A pneumonia. Por que eu sonho com ele ainda? Qual é a luz cobalta em meus sonhos?\n[O tempo está passando.]",
+            "description": "Começou quando eu falei com o velho do hospital. Ele sabia o meu nome. Mas ele está morto agora. Pneumonia. Por que eu sonho com ele ainda? Qual é a luz cobalta em meus sonhos?\n[O tempo agora está passando.]",
             "warmup": 30,
             "craftable": false,
             "comments": "This is triggered from the intro work recipe only."
         },
         {
             "id": "bequestcountdown",
-            "label": "Uma mudança no ar",
+            "label": "Uma Mudança no Ar",
             "actionid": "study",
             "requirements": {},
-            "startdescription": "Preciso de fundos para viver, mas talvez esta agitação recente, nas minhas circunstâncias, seja uma bênção secreta. Os meus sonhos têm alguma coisa? Há uma mudança no ar.",
+            "startdescription": "Preciso de Fundos para viver. Mas talvez esta agitação recente nas minhas circunstâncias seja uma bênção secreta. Tem algo em meus sonhos? Há uma mudança no ar.",
             "description": ".",
             "warmup": 60,
             "craftable": false,
@@ -64,7 +64,7 @@
         },
         {
             "id": "bequestarrives",
-            "label": "Um Chegada de Bequest",
+            "label": "Um Legado Chega",
             "actionid": "study",
             "requirements": {},
             "effects": {
@@ -72,8 +72,8 @@
                 "funds": 9,
                 "bequestintro": 1
             },
-            "startdescription": "Uma carta de um solicitante. O velho do hospital - aquele com o qual eu sonho - me nomeou na sua vontade. Vou ouvir mais logo.",
-            "description": "O velho legou-me uma soma de dinheiro e um pacote de papéis peculiares - poesia, enigmas e especulações metafísicas Pela primeira vez em meses, aqui está um pouco de combustível para meu Reason.\n[<b>Estudo</b> está desbloqueado.]",
+            "startdescription": "Uma carta de um solicitante. O velho do hospital - aquele com o qual eu sonho - me nomeou em seu testamento. Vou ouvir mais em breve.",
+            "description": "O velho me deixou uma soma de dinheiro, e um pacote de papéis peculiares - poesia, enigmas e especulações metafísicas. Pela primeira vez em meses, aqui está um pouco de combustível para a minha Razão.\n[<b>Estudar</b> está desbloqueado.]",
             "warmup": 30,
             "craftable": false,
             "maxexecutions": 1,
@@ -81,7 +81,7 @@
         },
         {
             "id": "studybequestreason",
-            "label": "Examinar o Bequest, empregando Reason",
+            "label": "Examinar o Legado, empregando Razão",
             "actionid": "study",
             "requirements": {
                 "bequestintro": 1,
@@ -95,13 +95,13 @@
                 "contactintro": 1
             },
             "startdescription": "Analisarei cada item com cuidado meticuloso. ",
-            "description": "O meu correspondente descreve exactamente os meus sonhos! Eles usam nomes que são imediatamente familiares - a Assembleia, a Madeira, as horas, o Glory. Sabiam segredos sob o tempo e a pele do mundo. <b>Uma nova curiosidade queima em mim</b>.\nHá uma nota aqui - direções para uma loja de livros que não anuncia seus produtos -\n",
+            "description": "O meu correspondente descreve exatamente os meus sonhos! Eles usam nomes que são imediatamente familiares - a Casa, a Floresta, as Hora, a Glória. Eles sabiam segredos sob o tempo e a pele do mundo. <b>Uma nova curiosidade queima em mim</b>.\nHá uma nota aqui - direções para uma loja de livros que não anuncia seus produtos -\n",
             "warmup": 30,
             "craftable": true
         },
         {
             "id": "studybequestpassion",
-            "label": "Examinar meu Bequest, empregando paixão",
+            "label": "Examinar meu Legado, empregando Paixão",
             "actionid": "study",
             "requirements": {
                 "bequestintro": 1,
@@ -114,8 +114,8 @@
                 "fragmentforge": 1,
                 "contactintro": 1
             },
-            "startdescription": "Vou ler, teoria, ritmo, esboço, agarrar-se ao meu cabelo em maravilha, subir na elgia, cair no desespero.",
-            "description": "O meu correspondente descreve exactamente os meus sonhos! Eles usam nomes que são imediatamente familiares - a Assembleia, a Madeira, as horas, o Glory. Sinto aqui um poder que os generais e os reis invejariam. <b>Um novo desejo queima em mim.</b>\nHá uma nota aqui - direções para uma loja de livros que não anuncia seus produtos -\n",
+            "startdescription": "Vou ler, teorizar, ritmar, esboçar, agarrar-me ao meu cabelo em maravilha, subir na euforia, cair no desespero.",
+            "description": "O meu correspondente descreve exatamente os meus sonhos! Eles usam nomes que são imediatamente familiares - a Casa, a Floresta, as Hora, o Glória. Sinto aqui um poder que os generais e os reis invejariam. <b>Um novo desejo queima em mim.</b>\nHá uma nota aqui - direções para uma loja de livros que não anuncia seus produtos -\n",
             "warmup": 30,
             "craftable": true
         },
@@ -137,8 +137,8 @@
                     "additional": true
                 }
             ],
-            "startdescription": "Tenho um nome, uma descrição, alguns pormenores que se aproximam... mas há milhares de rostos nesta cidade.",
-            "description": "E agora eu tenho um endereço! Eu enviarei uma carta e proporei uma reunião. [ <b>Falar</b> está desbloqueado.",
+            "startdescription": "Tenho um nome, uma descrição, alguns detalhes tentadores... mas há milhares de rostos nesta cidade.",
+            "description": "E agora eu tenho um endereço! Eu enviarei uma carta e proporei uma reunião. [ <b>Falar</b> está desbloqueado].",
             "warmup": 30,
             "craftable": true,
             "comments": "This is one way the Talk verb may be opened."

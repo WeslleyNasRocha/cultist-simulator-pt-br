@@ -411,7 +411,7 @@
             "startdescription": "A Maldição de Alma Seca se lança suavemente, como uma mão murchada no ombro.",
             "slots": [
                 {
-                    "id": "Motivo",
+                    "id": "Reason",
                     "label": "Motivo",
                     "greedy": true,
                     "required": {
@@ -501,7 +501,7 @@
             "startdescription": "O Terceiro Olho é um mito, ou a glândula pinal. O Quarto Olho é um marco em certos processos de ascensão e o Quinto Olho abre agora à minha frente.",
             "slots": [
                 {
-                    "id": "Paixão",
+                    "id": "Passion",
                     "label": "Paixão",
                     "greedy": true,
                     "required": {
@@ -591,7 +591,7 @@
             "startdescription": "A Maldição de Respiração Creeping começa com uma tosse - uma tosse que se deita na garganta como um cobrador de dívidas.",
             "slots": [
                 {
-                    "id": "Vida",
+                    "id": "Health",
                     "label": "Vida",
                     "greedy": true,
                     "required": {

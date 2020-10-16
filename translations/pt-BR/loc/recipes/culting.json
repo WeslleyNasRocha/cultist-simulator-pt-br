@@ -850,7 +850,7 @@
             "effects": {},
             "slots": [
                 {
-                    "id": "Doutrina",
+                    "id": "Doctrine",
                     "label": "Doutrina",
                     "required": {
                         "lore": 1
@@ -1076,7 +1076,7 @@
             },
             "slots": [
                 {
-                    "id": "Vida",
+                    "id": "Health",
                     "label": "Minha Saúde",
                     "required": {
                         "health": 1
@@ -1132,7 +1132,7 @@
             },
             "slots": [
                 {
-                    "id": "Motivo",
+                    "id": "Reason",
                     "label": "Meu Motivo",
                     "required": {
                         "reason": 1
@@ -1166,7 +1166,7 @@
             },
             "slots": [
                 {
-                    "id": "Paixão",
+                    "id": "Passion",
                     "label": "Minha paixão",
                     "required": {
                         "passion": 1
