@@ -38,7 +38,7 @@
             "requirements": {
                 "inducesdespair": 1
             },
-            "startdescription": "O desespero é o lobo que devora pensava. [Você pode derrotar o Desespero alimentando-se de Conteúdo; caso contrário, ele irá te destruir quando chegar a 3 Dread.]",
+            "startdescription": "Desespero é o lobo que devora pensava. [Você pode derrotar o Desespero alimentando-se de Contentamento; caso contrário, ele irá te destruir quando chegar a 3 Pavor.]",
             "description": ".",
             "warmup": 60,
             "slots": [
@@ -83,7 +83,7 @@
                 "dread": 2,
                 "contentment": -1
             },
-            "startdescription": "Desespero fecham os calcanhares. O mundo fica com luz. [Você pode derrotar o Desespero alimentando o Conteúdo; caso contrário, ele irá destruí-lo quando chegar a 3 Dread.]",
+            "startdescription": "Desespero fecham os calcanhares. O mundo fica com luz. [Você pode derrotar o Desespero alimentando o Contentamento; caso contrário, ele irá destruí-lo quando chegar a 3 Pavor.]",
             "description": ".",
             "comments": "This exists specifically for the burn image at 2 Dread.",
             "burnimage": "despair",
@@ -113,7 +113,7 @@
                 "inducesdespair": -1,
                 "contentment": -1
             },
-            "startdescription": "Memórias de melhores tempos mantêm o lobo da porta. [Cada Conteúdo destrói um Dread.]",
+            "startdescription": "Memórias de melhores tempos mantêm o lobo na porta. [Cada Contentamento destrói um Pavor.]",
             "description": ".",
             "warmup": 10,
             "craftable": false,
@@ -146,7 +146,7 @@
                 }
             ],
             "effects": {},
-            "startdescription": "Este é quase o fim - [Encontrar conteúdo agora, ou acabou.]",
+            "startdescription": "Este é quase o fim - [Encontre Contentamento agora, ou é o fim.]",
             "description": "Onde eles vão me encontrar? Eu não estou aqui.",
             "warmup": 60,
             "craftable": false,
