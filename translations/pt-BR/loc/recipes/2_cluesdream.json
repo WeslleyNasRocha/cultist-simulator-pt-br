@@ -13,7 +13,7 @@
         },
         {
             "id": "vitalityhintdream",
-            "label": "Vitality",
+            "label": "Vitalidade",
             "actionid": "dream",
             "requirements": {
                 "vitality": 1
@@ -25,7 +25,7 @@
         },
         {
             "id": "eruditionhintdream",
-            "label": "Erudition",
+            "label": "Erudição",
             "actionid": "dream",
             "requirements": {
                 "erudition": 1
@@ -49,12 +49,12 @@
         },
         {
             "id": "contentmenthintdream",
-            "label": "Contentment",
+            "label": "Contentamento",
             "actionid": "dream",
             "requirements": {
                 "contentment": 1
             },
-            "startdescription": "O conteúdo não é uma chave para sonhos, embora os sonhos às vezes possam me fazer contente.",
+            "startdescription": "Contentamento não é uma chave para sonhos, embora os sonhos às vezes possam me fazer contente.",
             "craftable": false,
             "hintonly": true,
             "comments": "Not currently possible with restrictions on Dream primary slot"
@@ -72,12 +72,12 @@
         },
         {
             "id": "dedicationtoobsession_enlightenment_hint",
-            "label": "The Next Step",
+            "label": "O próximo passo",
             "actionid": "dream",
             "requirements": {
                 "ascensionenlightenmentb": 1
             },
-            "startdescription": "I've gone as far as I can in dream. I must perform the <b>Work</b>.",
+            "startdescription": "Eu fui tão longe quanto posso sonhar. Devo executar o <b>Trabalho</b>.",
             "craftable": false,
             "hintonly": true
         },

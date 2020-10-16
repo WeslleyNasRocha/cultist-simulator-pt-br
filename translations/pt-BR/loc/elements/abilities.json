@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "hunger",
-            "label": "Hunger",
+            "label": "Fome",
             "aspects": {
                 "illhealth": 1,
                 "grail": 2,
@@ -13,7 +13,7 @@
                     "id": "nourishment",
                     "label": "Nutrição",
                     "actionid": "dream",
-                    "description": "Para recuperar, eu devo comer.",
+                    "description": "Para me recuperar, eu devo comer.",
                     "required": {
                         "funds": 1
                     }
@@ -107,8 +107,8 @@
         },
         {
             "id": "bloodshed",
-            "label": "Bloodshed",
-            "description": "O sangue foi derramado.",
+            "label": "Derramamento de sangue",
+            "description": "Sangue foi derramado.",
             "lifetime": 1
         },
         {
@@ -324,7 +324,7 @@
                     "required": {
                         "contentment": 1
                     },
-                    "description": "Preciso de um pouco de paz, ou um momento de felicidade. [Tenda demais irá destruí-lo. O conteúdo pode curá-lo.]"
+                    "description": "Preciso de um pouco de paz, ou um momento de felicidade. [Pavor demais irá destruí-lo. O Contentamento pode curá-lo.]"
                 },
                 {
                     "id": "with",
@@ -689,18 +689,18 @@
         },
         {
             "id": "contentment",
-            "label": "Conteúdo",
+            "label": "Contentamento",
             "aspects": {
                 "lantern": 2,
                 "heart": 2,
                 "influence": 1
             },
-            "description": "Eu estou feliz, eu acho. [Contentment defende contra Dread; mas Contentment não dura.]",
+            "description": "Eu estou feliz, eu acho. [Contentamento defende contra Pavor; mas Contentamento não dura.]",
             "slots": [
                 {
                     "id": "with",
                     "label": "com",
-                    "description": "Talvez possa utilizar o meu conteúdo para reforçar uma influência positiva.",
+                    "description": "Talvez possa utilizar o meu Contentamento para reforçar uma influência positiva.",
                     "required": {
                         "influencelantern": 1,
                         "influenceheart": 1,

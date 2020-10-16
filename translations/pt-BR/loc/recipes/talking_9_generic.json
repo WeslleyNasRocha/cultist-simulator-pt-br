@@ -136,7 +136,7 @@
             },
             "slots": [
                 {
-                    "id": "Subject",
+                    "id": "Cargo",
                     "label": "Cargo",
                     "description": "Um tópico de conversa."
                 }
@@ -304,7 +304,7 @@
             },
             "slots": [
                 {
-                    "id": "Subject",
+                    "id": "Cargo",
                     "label": "Cargo",
                     "description": "Um tópico de conversa... ou um lacaio que os destruirá."
                 }
@@ -387,7 +387,7 @@
             },
             "slots": [
                 {
-                    "id": "Subject",
+                    "id": "Cargo",
                     "label": "Cargo",
                     "description": "Um tópico de conversa... ou um alvo."
                 }
