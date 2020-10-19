@@ -19,7 +19,7 @@
                     }
                 }
             ],
-            "description": "Preciso de descanso e nutrição, se quiser se recuperar. Mas quando a minha boca navega, quando a minha visão nada, vejo a taça vermelha; e agora e depois ela falará comigo. [Sonhar com a Fome antes de as cartas se desvanecerem irá permitir que você recupere Saúde.]",
+            "description": "Preciso de descanso e nutrição, se quiser me recuperar. Mas quando a minha boca inunda, quando a minha visão nada, vejo a taça vermelha; e de vez em quando ela fala comigo. [Sonhar com a Fome antes de as cartas se desvanecerem irá permitir que você recupere Saúde.]",
             "xtriggers": {
                 "restorehealth": "health",
                 "scar_ability": "scar_heart"
@@ -29,7 +29,7 @@
         },
         {
             "id": "health",
-            "label": "Vida",
+            "label": "Saúde",
             "aspects": {
                 "heart": 2,
                 "ingredient": 1,
@@ -46,7 +46,7 @@
                 "society": "fatigue",
                 "scar_ability": "scar_heart"
             },
-            "description": "Este é meu corpo. Existem outros corpos, mas este é meu, e minha mente precisa dele, pois um fungo precisa de solo. [Com vitalidade suficiente, você pode ganhar mais saúde.]"
+            "description": "Este é meu corpo. Existem outros corpos, mas este é meu, e minha mente precisa dele como um fungo precisa de solo. [Com Vitalidade suficiente, você pode ganhar mais Saúde.]"
         },
         {
             "id": "vitality",
@@ -54,9 +54,9 @@
             "slots": [
                 {
                     "id": "morevitality",
-                    "label": "Mais vitalidade",
+                    "label": "Mais Vitalidade",
                     "actionid": "study",
-                    "description": "Com vitalidade suficiente - ou, às vezes, algo mais exótico - posso aumentar a minha Saúde.",
+                    "description": "Com Vitalidade suficiente - ou, às vezes, algo mais exótico - posso aumentar a minha Saúde.",
                     "required": {
                         "vitality": 1,
                         "influenceheart": 1
@@ -68,7 +68,7 @@
                 "heart": 1,
                 "influence": 1
             },
-            "description": "Exercício, ou algo mais raro, me revigorou. [Use com outra vitalidade para melhorar suas habilidades. Dura apenas três minutos, se não for usado.]",
+            "description": "Exercício, ou algo mais raro, me revigorou. [Use com outra Vitalidade para melhorar suas habilidades. Dura apenas três minutos, se não for usado.]",
             "xtriggers": {
                 "upgradeinfluence": "influenceheartc"
             },
@@ -365,7 +365,7 @@
                 "ingredient": 1,
                 "ability": 1
             },
-            "description": "'As mentes foscas nunca são nem intuitivas nem matemáticas.' - Pascal Blaise\n\n[Com o suficiente brilhante, você pode estudar para ganhar mais paixão.]",
+            "description": "'As mentes foscas nunca são nem intuitivas nem matemáticas.' - Pascal Blaise\n\n[Com o suficiente Vislumbre, você pode estudar para ganhar mais Paixão.]",
             "xtriggers": {
                 "damagepassion": "fascination",
                 "plead": "disillusionment",
