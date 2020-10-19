@@ -554,7 +554,7 @@
         {
             "id": "spiritsicknessprotector",
             "label": "Phylaxian",
-            "description": "Se falo com esta sobre a minha saúde, ela pode oferecer protecção contra a doença.",
+            "description": "Se falo com este sobre a minha Saúde, ela pode oferecer proteção contra doença.",
             "isAspect": true
         },
         {
@@ -759,7 +759,7 @@
         },
         {
             "id": "illhealth",
-            "label": "Saúde Ill",
+            "label": "Saúde Doente",
             "description": "Talvez eu possa descansar e recuperar.",
             "isAspect": true
         },
@@ -951,15 +951,15 @@
         {
             "id": "restorehealth",
             "label": "Recuperar Vida",
-            "description": "A saúde retornará.",
+            "description": "Saúde retornará.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "damagehealth",
-            "label": "Vida do Dano",
-            "description": "A saúde ficará ferida.",
+            "label": "Saúde Danificada",
+            "description": "A Saúde ficará ferida.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
@@ -967,15 +967,15 @@
         {
             "id": "fallsick",
             "label": "Doente do Outono",
-            "description": "A saúde se tornará afectada; isto pode também afectar pessoas potencialmente",
+            "description": "A Saúde se tornará aflição; isto também pode, potencialmente, afetar pessoas",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "destroyhealth",
-            "label": "Destruir Vida",
-            "description": "A saúde será destruída.",
+            "label": "Destruir Saúde",
+            "description": "Saúde será destruída.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
