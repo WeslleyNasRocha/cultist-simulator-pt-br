@@ -18,8 +18,8 @@
                     }
                 }
             ],
-            "startdescription": "Eu conheço esse sonho. A estrada alcança o cume do topo da colina, e o ar é brilhantemente prateado-",
-            "description": "Campos armafanhados, o piscar de um rio. Um frio arrepiante.",
+            "startdescription": "Eu conheço esse sonho. A estrada alcança o cume da colina, e o ar é brilhantemente prateado-",
+            "description": "Campos amarrotados, o piscar de um rio. Um frio arrepiante.",
             "alt": [
                 {
                     "id": "dreamreachwoodknock",
@@ -125,7 +125,7 @@
                 }
             ],
             "startdescription": "Se eu tiver Paixão suficiente, posso caminhar na onírica-estrada à Floresta. Se tivesse a sabedoria certa, talvez poderia encontrar um caminho além dela.",
-            "description": "As águas da Floresta são frias e profundas, mas nunca claras. A memória mecânia só não consiguirá levar-me até lá. Eu devo engajar minha Paixão. Agora eu flutuo até outros sonhos.",
+            "description": "As águas da Floresta são frias e profundas, mas nunca claras. A memória mecânica só não conseguirá levar-me até lá. Eu devo engajar minha Paixão. Agora eu flutuo até outros sonhos.",
             "aspects": {
                 "fatiguing": 1
             },
@@ -230,8 +230,8 @@
                 "lore": 1,
                 "lantern": 4
             },
-            "startdescription": "Há uma Casa na Floresta. Eu sei algo sobre aquela Casa. Será isso suficiente para encontrar o caminho até sua luz?",
-            "description": "Esses são os Limites sobre a Casa, com suas névoas e seus rastros. Essa pedra é chamada de Templo da Roda, tão alto quanto o pináculo de uma igreja, manchada por negros líquens e coberta com signos-de-olhos. Eu circundo-a, e aí, na minha frente, está a Porta Branca. A luz da casa brilha em volta de suas arestas.",
+            "startdescription": "Há uma Casa na Floresta. Eu sei algo sobre aquela Casa. Será suficiente para encontrar o caminho até sua luz?",
+            "description": "Esses são os Limites sobre a Casa, com suas névoas e seus rastros. Essa pedra é chamada de Templo da Roda, tão alto quanto o pináculo de uma igreja, manchada por líquens negros e coberta com signos-de-olhos. Eu circundo-a, e aí, na minha frente, está a Porta Branca. A luz da casa brilha em volta de suas arestas.",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -274,7 +274,7 @@
         },
         {
             "id": "dreamreachwhiteknock",
-            "label": "Aproximando-se da porta branca",
+            "label": "Aproximando-se: A Porta Branca",
             "actionid": "dream",
             "requirements": {
                 "lore": 1,
@@ -459,7 +459,7 @@
                 "desire": 1
             },
             "startdescription": "Já fiz essa ascendência antes. Não me trará lucros. Eu deveria responder a Charada se precisar, ou usar o Caminho à Porta do Veado se puder.",
-            "description": "\"A Porta do Veado: uma barreira sulcada de um chifre manchado-de-sangue, gigantesca o suficiente para permitir a passagem de um navio. Há muito, fora quebrada, e até hoje suas cicatrizes não curaram-se completamente. Em um declive ao lado da porta, descansa a vasta e ferida Cabeça Dourada, Ghirbi. Deu-me sua charada, que eu devo responder se eu for entrar na Porta do Veado. [Sonhe com a Charada para respondê-lam ou Caminho: A Porta do Veado se já tiveres respondido-a.]",
+            "description": "\"A Porta do Veado: uma barreira sulcada de um chifre manchado-de-sangue, gigantesca o suficiente para permitir a passagem de um navio. Há muito, fora quebrada, e até hoje suas cicatrizes não curaram-se completamente. Em um declive ao lado da porta, descansa a vasta e ferida Cabeça Dourada, Ghirbi. Deu-me sua charada, que eu devo responder se eu for entrar na Porta do Veado. [Sonhe com a Charada para respondê-la ou Caminho: A Porta do Veado se já tiveres respondido-a.]",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -474,7 +474,7 @@
         {
             "id": "dream_answerstagriddle_router",
             "actionid": "dream",
-            "label": "Enigma de Ghirbi",
+            "label": "Charada de Ghirbi",
             "requirements": {
                 "riddle": 1
             },
@@ -488,7 +488,7 @@
                 }
             ],
             "startdescription": "Em meu sonho, eu ficarei novamente defronte à Porta do Veado: uma barreira sulcada de um chifre manchado-de-sangue, quebrado há muito, ainda não totalmente curado. A vasta e dourada Cabeça, Ghirbi, esperará a resposta para minha charada.",
-            "description": "A cabeça está silente. A porta, fechada. Agora, eu flutuo à outros sonhos.",
+            "description": "A Cabeça está silenciosa. A Porta, fechada. Agora, eu flutuo à outros sonhos.",
             "aspects": {
                 "fatiguing": 1
             },
@@ -541,7 +541,7 @@
                 "fragmentmothc": 1
             },
             "startdescription": "'Existem muitas respostas para essa questão, como os ecdisadores de pele sabem. Aqui está a minha...'",
-            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lagrimas de bronze derretido protuberam-se de seus olhos e rolam bocheca abaixo, abrasando o chão abaixo. Eu poderei entrar!",
+            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lágrimas de bronze derretido protuberam-se de seus olhos e rolam bochecha abaixo, abrasando o chão abaixo. Eu poderei entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -563,7 +563,7 @@
                 "fragmentlanternc": 1
             },
             "startdescription": "'Apenas na sombra.'",
-            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lagrimas de bronze derretido protuberam-se de seus olhos e rolam bocheca abaixo, abrasando o chão abaixo. Eu poderei entrar!",
+            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lágrimas de bronze derretido protuberam-se de seus olhos e rolam bochecha abaixo, abrasando o chão abaixo. Eu poderei entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -584,8 +584,8 @@
                 "waystagbefore_3": 1,
                 "fragmentgrailc": 1
             },
-            "startdescription": "Aqui estão aquelas palavras",
-            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lagrimas de bronze derretido protuberam-se de seus olhos e rolam bocheca abaixo, abrasando o chão abaixo. Eu poderei entrar!",
+            "startdescription": "\"Aqui estão aquelas palavras...\"",
+            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lágrimas de bronze derretido protuberam-se de seus olhos e rolam bochecha abaixo, abrasando o chão abaixo. Eu poderei entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
@@ -607,7 +607,7 @@
                 "fragmentknockc": 1
             },
             "startdescription": "'Eu, eu mesmo, devo ser aberto. Contemple o sangue que é derramado.'",
-            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lagrimas de bronze derretido protuberam-se de seus olhos e rolam bocheca abaixo, abrasando o chão abaixo. Eu poderei entrar!",
+            "description": "A Porta mói-se em dois pedaços. A luz do Vigia inunda os corredores de dentro. Um gemido moedor vem da Cabeça, Ghirbi. Lágrimas de bronze derretido protuberam-se de seus olhos e rolam bochecha abaixo, abrasando o chão abaixo. Eu poderei entrar!",
             "effects": {
                 "riddle": -1,
                 "waystag_after": 1,
