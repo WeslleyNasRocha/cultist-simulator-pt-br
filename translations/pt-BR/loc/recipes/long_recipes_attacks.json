@@ -555,7 +555,7 @@
             "slots": [
                 {
                     "id": "health",
-                    "label": "Vida",
+                    "label": "Saúde",
                     "required": {
                         "health": 1,
                         "fatigue": 1
@@ -755,7 +755,7 @@
             "slots": [
                 {
                     "id": "health",
-                    "label": "Vida",
+                    "label": "Saúde",
                     "required": {
                         "health": 1
                     },
