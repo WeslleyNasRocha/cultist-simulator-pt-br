@@ -121,7 +121,7 @@
             "requirements": {
                 "challenge.intuition": 1
             },
-            "startdescription": "Este é um quebra-cabeça com peças faltantes. Talvez eu encontre essas peças de bolsas de estudo. [Forneça um Brilhante ou use um Santuário.]",
+            "startdescription": "Este é um quebra-cabeça com peças faltantes. Talvez eu encontre essas peças de bolsas de estudo. [Forneça um Vislumbre ou use um Santuário.]",
             "slots": [
                 {
                     "id": "solvechallenge",
@@ -855,7 +855,7 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "Minha pesquisa precisa de um Glimmering. ",
+            "startdescription": "Minha pesquisa precisa de um Vislumbre. ",
             "description": ".",
             "warmup": 30,
             "craftable": false,
