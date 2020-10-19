@@ -592,7 +592,7 @@
             "slots": [
                 {
                     "id": "Health",
-                    "label": "Vida",
+                    "label": "Saúde",
                     "greedy": true,
                     "required": {
                         "health": 1
