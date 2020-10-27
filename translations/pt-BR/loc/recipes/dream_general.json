@@ -271,13 +271,13 @@
         },
         {
             "id": "dreamreason",
-            "label": "A mente Errante",
+            "label": "A Mente Errante",
             "actionid": "dream",
             "requirements": {
                 "reason": 1
             },
             "effects": {},
-            "startdescription": "Houve uma vez um homem que disse que o sono da razão produzia monstros, muitas vezes é saudável deixar a mente andar dormindo. Mas se eu continuar a sonhar, mais cedo ou mais tarde, algum monstro surgirá dos meus próprios receios.",
+            "startdescription": "Era uma vez um homem que disse que o sono da razão produzia monstros. Frequentemente, é saudável deixar a mente vagar durante o sono. Mas se eu continuar sonhando, mais cedo ou mais tarde, algum tipo de monstro surgirá de meus próprios medos.",
             "description": ".",
             "warmup": 60,
             "craftable": true,

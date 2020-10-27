@@ -19,7 +19,7 @@
             "slots": [
                 {
                     "id": "health",
-                    "label": "Vida",
+                    "label": "Saúde",
                     "actionid": "work",
                     "required": {
                         "health": 1
@@ -29,7 +29,7 @@
         },
         {
             "id": "legacydancerjob_suspended",
-            "label": "Um Contrato na Gaiey: Suspenso",
+            "label": "Um Contrato na Gaiety: Suspenso",
             "description": "Perdi muitas performances. Se me desculpar de forma convincente, posso recuperar meu trabalho.",
             "aspects": {
                 "job": 1

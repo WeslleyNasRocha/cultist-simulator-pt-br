@@ -19,7 +19,7 @@
                     }
                 }
             ],
-            "description": "Preciso de descanso e nutrição, se quiser se recuperar. Mas quando a minha boca navega, quando a minha visão nada, vejo a taça vermelha; e agora e depois ela falará comigo. [Sonhar com a Fome antes de as cartas se desvanecerem irá permitir que você recupere Saúde.]",
+            "description": "Preciso de descanso e nutrição, se quiser me recuperar. Mas quando a minha boca inunda, quando a minha visão nada, vejo a taça vermelha; e de vez em quando ela fala comigo. [Sonhar com a Fome antes de as cartas se desvanecerem irá permitir que você recupere Saúde.]",
             "xtriggers": {
                 "restorehealth": "health",
                 "scar_ability": "scar_heart"
@@ -29,7 +29,7 @@
         },
         {
             "id": "health",
-            "label": "Vida",
+            "label": "Saúde",
             "aspects": {
                 "heart": 2,
                 "ingredient": 1,
@@ -46,7 +46,7 @@
                 "society": "fatigue",
                 "scar_ability": "scar_heart"
             },
-            "description": "Este é meu corpo. Existem outros corpos, mas este é meu, e minha mente precisa dele, pois um fungo precisa de solo. [Com vitalidade suficiente, você pode ganhar mais saúde.]"
+            "description": "Este é meu corpo. Existem outros corpos, mas este é meu, e minha mente precisa dele como um fungo precisa de solo. [Com Vitalidade suficiente, você pode ganhar mais Saúde.]"
         },
         {
             "id": "vitality",
@@ -54,9 +54,9 @@
             "slots": [
                 {
                     "id": "morevitality",
-                    "label": "Mais vitalidade",
+                    "label": "Mais Vitalidade",
                     "actionid": "study",
-                    "description": "Com vitalidade suficiente - ou, às vezes, algo mais exótico - posso aumentar a minha Saúde.",
+                    "description": "Com Vitalidade suficiente - ou, às vezes, algo mais exótico - posso aumentar a minha Saúde.",
                     "required": {
                         "vitality": 1,
                         "influenceheart": 1
@@ -68,7 +68,7 @@
                 "heart": 1,
                 "influence": 1
             },
-            "description": "Exercício, ou algo mais raro, me revigorou. [Use com outra vitalidade para melhorar suas habilidades. Dura apenas três minutos, se não for usado.]",
+            "description": "Exercício, ou algo mais raro, me revigorou. [Use com outra Vitalidade para melhorar suas habilidades. Dura apenas três minutos, se não for usado.]",
             "xtriggers": {
                 "upgradeinfluence": "influenceheartc"
             },
@@ -82,7 +82,7 @@
                 "heart": 2,
                 "influence": 1
             },
-            "description": "Estou pronto para melhorar. [Use isso com sua habilidade de Força para melhorar a habilidade e ganhar Saúde. Dura até cinco minutos antes de se decompor de volta a uma vitalidade.]",
+            "description": "Estou pronto para melhorar. [Use isso com sua habilidade de Força para melhorar a habilidade e ganhar Saúde. Dura até cinco minutos antes de se decompor de volta a uma Vitalidade.]",
             "xtriggers": {
                 "upgradeinfluence": "influenceheartc"
             },
@@ -91,7 +91,7 @@
         },
         {
             "id": "restlessness",
-            "label": "Inquieto",
+            "label": "Inquietude",
             "aspects": {
                 "influence": 1,
                 "forge": 2,
@@ -113,7 +113,7 @@
         },
         {
             "id": "injury",
-            "label": "Uma lesão",
+            "label": "Uma Lesão",
             "aspects": {
                 "illhealth": 1,
                 "knock": 2,
@@ -139,7 +139,7 @@
                     "actionid": "dream"
                 }
             ],
-            "description": "Preciso de descanso e nutrição, se for para recuperar. Mas a mãe das formigas parece gentilmente em feridas. [Sonhar com uma lesão antes do desaparecimento da carta também permitirá que você recupere Saúde.]",
+            "description": "Preciso de descanso e nutrição, se for para me recuperar. Mas a Mãe das Formigas vê com bons olhos as feridas. [Sonhar com uma lesão antes do desaparecimento da carta também permitirá que você recupere Saúde.]",
             "xtriggers": {
                 "restorehealth": "health",
                 "scar_ability": "scar_heart"
@@ -163,8 +163,8 @@
         },
         {
             "id": "passionexhausted",
-            "label": "Paixão (Exausto)",
-            "description": "Minhas paixões queimam. [Este cartão não pode ser usado, mas vai se recuperar após sessenta segundos]",
+            "label": "Paixão (Exaustada)",
+            "description": "Minhas paixões se diminuem. [Este cartão não pode ser usado, mas vai se recuperar após sessenta segundos]",
             "lifetime": 60,
             "decayTo": "passion",
             "icon": "passion",
@@ -177,7 +177,7 @@
         },
         {
             "id": "fatigue",
-            "label": "Saúde (Fácil)",
+            "label": "Saúde (Fatigada)",
             "aspects": {
                 "illhealth": 1,
                 "heart": 1
@@ -197,7 +197,7 @@
         },
         {
             "id": "affliction",
-            "label": "Uma Afeição",
+            "label": "Uma Aflição",
             "aspects": {
                 "illhealth": 1,
                 "winter": 2,
@@ -227,19 +227,19 @@
                     }
                 }
             ],
-            "description": "A doença me deixou fraco. Preciso de descanso e nutrição, para me recuperar. [Sonhe em uma Afeição para transformá-la de volta à Saúde, antes do cartão cair.]",
+            "description": "A doença me deixou fraco. Preciso de descanso e nutrição, para me recuperar. [Sonhe em uma Aflição para transformá-la de volta à Saúde, antes do cartão se apagar.]",
             "lifetime": 180,
             "decayTo": "decrepitude"
         },
         {
             "id": "reason",
-            "label": "Motivo",
+            "label": "Razão",
             "aspects": {
                 "lantern": 2,
                 "ingredient": 1,
                 "ability": 1
             },
-            "description": "\"Nenhum organismo vivo pode continuar a existir subitamente em condições de uma realidade absoluta. - Shirley Jackson\n\n[Com Erudição, você pode estudar para ganhar mais Reason.]",
+            "description": "\"Nenhum organismo vivo pode continuar a existir sãmente sob condições de uma realidade absoluta. - Shirley Jackson\n\n[Com Erudição, você pode Estudar para ganhar mais Razão.]",
             "xtriggers": {
                 "damagereason": "dread",
                 "fatiguing": "concentration",
@@ -253,8 +253,8 @@
         },
         {
             "id": "concentration",
-            "label": "Motivo [Dimmed]",
-            "description": "Minha mente está usada. [Este cartão não pode ser usado, mas vai recuperar após \n\nsessenta segundos]",
+            "label": "Razão [Ofuscada]",
+            "description": "Minha mente está cansada. [Este cartão não pode ser usado, mas vai recuperar após \n\nsessenta segundos]",
             "lifetime": 60,
             "decayTo": "reason",
             "icon": "reason",
@@ -273,7 +273,7 @@
                     "id": "moreerudition",
                     "label": "Mais Erudição",
                     "actionid": "study",
-                    "description": "Com Erudição suficiente - ou às vezes algo mais exótico - eu posso aumentar minha razão.",
+                    "description": "Com Erudição suficiente - ou às vezes algo mais exótico - eu posso aumentar minha Razão.",
                     "required": {
                         "erudition": 1,
                         "influencelantern": 1
@@ -285,7 +285,7 @@
                 "lantern": 1,
                 "influence": 1
             },
-            "description": "Eu engolido conhecimento enquanto uma sombra embeleza a luz. Eu posso estar perto de avançar. [Erudição pode ser usada com o Estudo para ganhar o Reason. Dura apenas três minutos, se não for usado.]",
+            "description": "Eu engulo conhecimento enquanto uma sombra engole a luz. Eu posso estar perto de avançar. [Erudição pode ser usada com o Estudo para ganhar o Razão. Dura apenas três minutos, se não for usado.]",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influencelanternc"
@@ -293,13 +293,13 @@
         },
         {
             "id": "eruditionplus",
-            "label": "Erudição: uma lição aprendida",
+            "label": "Erudição: uma Lição Aprendida",
             "aspects": {
                 "advancement": 1,
                 "lantern": 2,
                 "influence": 1
             },
-            "description": "Eu estou pronto para melhorar. [Use isso com sua habilidade Espirituosa para melhorar a habilidade e ganhar Reason. Dura até cinco minutos antes de se decompor de volta a uma Erudição.]",
+            "description": "Eu estou pronto para melhorar. [Use isso com sua habilidade Bolsa de Estudos para melhorar a habilidade e ganhar Razão. Dura até cinco minutos antes de se decompor de volta a uma Erudição.]",
             "lifetime": 300,
             "xtriggers": {
                 "upgradeinfluence": "influencelanternc"
@@ -308,7 +308,7 @@
         },
         {
             "id": "dread",
-            "label": "Terrível",
+            "label": "Pavor",
             "aspects": {
                 "edge": 2,
                 "inducesdespair": 1,
@@ -319,7 +319,7 @@
             "slots": [
                 {
                     "id": "reminders",
-                    "label": "Lembrete",
+                    "label": "Lembretes",
                     "actionid": "dream",
                     "required": {
                         "contentment": 1
@@ -328,8 +328,8 @@
                 },
                 {
                     "id": "with",
-                    "label": "com",
-                    "description": "Talvez eu possa usar o meu Papai para reforçar uma influência perigosa.",
+                    "label": "Com",
+                    "description": "Talvez eu possa usar o meu Pavor para reforçar uma influência perigosa.",
                     "required": {
                         "influenceedge": 1,
                         "influencewinter": 1
@@ -339,7 +339,7 @@
                 {
                     "id": "knowledge",
                     "label": "Conhecimento",
-                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma fundação significativa na tradição relevante.]",
                     "required": {
                         "fragmentedgec": 1,
                         "fragmentedged": 1,
@@ -350,7 +350,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Já vi muita coisa. O medo de uma enfermidade sem nome está em minhas esperanças; um horror existencial.",
+            "description": "Já vi muita coisa. O medo de uma enfermidade sem nome está com as presas em minhas esperanças; um horror existencial.",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influenceedgec",
@@ -365,7 +365,7 @@
                 "ingredient": 1,
                 "ability": 1
             },
-            "description": "'As mentes foscas nunca são nem intuitivas nem matemáticas.' - Pascal Blaise\n\n[Com o suficiente brilhante, você pode estudar para ganhar mais paixão.]",
+            "description": "'As mentes foscas nunca são nem intuitivas nem matemáticas.' - Pascal Blaise\n\n[Com o suficiente Vislumbre, você pode estudar para ganhar mais Paixão.]",
             "xtriggers": {
                 "damagepassion": "fascination",
                 "plead": "disillusionment",
@@ -380,7 +380,7 @@
         {
             "id": "decrepitude",
             "label": "Decrepitude",
-            "description": "Algumas feridas nunca são bem curadas. [Injúrios e Fome não tratados tornam-se Decrenitude, o que não retorna à Saúde. Débito permanece até você morrer.]",
+            "description": "Algumas feridas nunca são bem curadas. [Lesões Não Tratadas e Fome tornam-se Decrepitude, o que não retorna à Saúde. Decrepitude permanece até você morrer.]",
             "aspects": {
                 "ability": 1,
                 "winter": 1,
@@ -406,13 +406,13 @@
         },
         {
             "id": "glimmering",
-            "label": "Glimmering",
+            "label": "Vislumbre",
             "slots": [
                 {
                     "id": "moreglimmering",
-                    "label": "Mais Brilhante",
+                    "label": "Mais Vislumbre",
                     "actionid": "study",
-                    "description": "Com o suficiente brilho - ou às vezes algo mais exótico - posso aumentar minha paixão.",
+                    "description": "Com Vislumbre suficiente - ou às vezes algo mais exótico - posso aumentar minha Paixão.",
                     "required": {
                         "glimmering": 1,
                         "influencemoth": 1
@@ -424,7 +424,7 @@
                 "moth": 1,
                 "influence": 1
             },
-            "description": "As minhas emoções correm mais alto do que o normal. Há coisas que eu nunca vou entender, e essas coisas serão sempre preciosas, mas agora eu estou mais perto delas. [A Glimmering pode ser usada com Estudo para ganhar Passion. Dura apenas três minutos, se não for usado.]",
+            "description": "As minhas emoções estão mais alto do que o normal. Há coisas que eu nunca vou entender, e essas coisas serão sempre preciosas, mas agora eu estou mais perto delas. [Vislumbre pode ser usada com Estudo para ganhar Paixão. Dura apenas três minutos, se não for usado.]",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influencemothc"
@@ -432,13 +432,13 @@
         },
         {
             "id": "glimmeringplus",
-            "label": "Brilhando: uma Lição de Aprendizado",
+            "label": "Vislumbre: uma Lição Aprendida",
             "aspects": {
                 "advancement": 1,
                 "moth": 2,
                 "influence": 1
             },
-            "description": "Estou pronto para melhorar. [Use isso com sua habilidade de imaginação para melhorar a habilidade e ganhar paixão. Dura até cinco minutos antes de se decompor de volta a um Glimmering.]",
+            "description": "Estou pronto para melhorar. [Use isso com sua habilidade de imaginação para melhorar a habilidade e ganhar Paixão. Dura até cinco minutos antes de se decompor de volta a um Vislumbre.]",
             "lifetime": 300,
             "xtriggers": {
                 "upgradeinfluence": "influencemothc"
@@ -467,7 +467,7 @@
                 },
                 {
                     "id": "with",
-                    "label": "com",
+                    "label": "Com",
                     "description": "Talvez eu possa usar minha Fascinação para reforçar uma influência tentadora.",
                     "required": {
                         "influencemoth": 1,
@@ -478,7 +478,7 @@
                 {
                     "id": "knowledge",
                     "label": "Conhecimento",
-                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma aterragem significativa no amante relevante.]",
+                    "description": "Tenho que entender as influências no trabalho, se quiser reforçá-las ou subvertê-las. [Você precisará de uma fundação significativa na tradição relevante.]",
                     "required": {
                         "fragmentmothc": 1,
                         "fragmentmothd": 1,
@@ -489,7 +489,7 @@
                     "actionid": "study"
                 }
             ],
-            "description": "MENOS CARREGADOS através do CRACKS. Minha mente é MAIS BRIGADOR do que EQUIPAMENTO É. A ALGULAR EU TENHO MAIS ESTO.",
+            "description": "Luzes VAZAM por entre as RACHADURAS. Minha mente está mais BRILHANTE do que NUNCA foi. QUANTO MAIS EU SUBO MAIS EU VEJO.",
             "lifetime": 180,
             "xtriggers": {
                 "upgradeinfluence": "influencemothc"
@@ -497,7 +497,7 @@
         },
         {
             "id": "scholarlatin",
-            "label": "Estudioso: latim",
+            "label": "Estudioso: Latim",
             "aspects": {
                 "language": 1
             },
@@ -516,7 +516,7 @@
         },
         {
             "id": "scholarfucine",
-            "label": "Scholar: Fucine",
+            "label": "Estudioso: Fucine",
             "aspects": {
                 "language": 1
             },
@@ -530,12 +530,12 @@
                     "actionid": "study"
                 }
             ],
-            "description": "Um povo viveu a leste do lago perdido Fucino. Horace avisou que a sua era a terra das bruxas. Esta era a sua língua, designada por \"língua seca\" e por outros \"língua das bruxas\". Alguns livros devem ser traduzidos antes de serem lidos.]",
+            "description": "Um povo viveu a leste do lago perdido Fucino. Horace avisou que a esta era a terra das bruxas. Esta era a sua língua, designada por \"língua seca\", e por outros, \"língua das bruxas\". Alguns livros devem ser traduzidos antes de serem lidos.]",
             "unique": true
         },
         {
             "id": "scholargreek",
-            "label": "Estudioso: grego",
+            "label": "Estudioso: Grego",
             "aspects": {
                 "language": 1
             },
@@ -806,8 +806,8 @@
         },
         {
             "id": "scar_lantern",
-            "label": "Ciclo: Uma Transparência",
-            "description": "Às vezes eu estou lindo debaixo da pele. Quando me curvo ao ângulo certo - quando as minhas roupas são postas de lado - quando os olhos estão interessados -, o meu formato é uma revelação perfeita. [Você fez um sacrifício permanente para o poder.]",
+            "label": "Cicatriz: Uma Transparência",
+            "description": "Às vezes agora eu estou lindo debaixo da pele. Quando me curvo ao ângulo certo - quando as minhas roupas são postas de lado - quando os olhos estão interessados - as minhas formas são uma revelação perfeita. [Você fez um sacrifício permanente por poder.]",
             "aspects": {
                 "tool": 1,
                 "lantern": 4,
