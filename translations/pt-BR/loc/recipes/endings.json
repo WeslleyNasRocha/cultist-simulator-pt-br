@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "deathofthebody",
-            "label": "Não há saúde restante",
+            "label": "Não há Saúde restante",
             "actionid": "healthend",
             "requirements": {
                 "health": -1,
@@ -18,7 +18,7 @@
         },
         {
             "id": "forlornblooddeathofthebody",
-            "label": "Não há saúde restante",
+            "label": "Não há Saúde restante",
             "actionid": "healthend",
             "requirements": {
                 "health": -1,

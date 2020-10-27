@@ -11,7 +11,7 @@
                 "passionskill": -1
             },
             "startdescription": "Eu costumava pintar. Poderia pintar essas figuras que não me lembro dos meus sonhos. Posso vender algo. Provavelmente não vou.",
-            "description": "Eu terminei uma pintura, com a emoção de ninguém absolutamente: ninguém além de mim. [Às vezes, a pintura ganhará Glimmerings. <b>Estude</b> elas para desbloquear opções mais avançadas de pintura.]",
+            "description": "Eu terminei uma pintura, para a felicidade de absolutamente ninguém: ninguém além de mim. [Às vezes, a pintura ganhará Vislumbres. <b>Estude</b> elas para desbloquear opções mais avançadas de pintura.]",
             "slots": [
                 {
                     "id": "Yearning",
@@ -42,7 +42,7 @@
             "id": "paintbasicsuccess",
             "label": "Eu vendi uma pintura!",
             "actionid": "work",
-            "description": "Encontrei um cliente! Ela provavelmente vai pendurá-lo em seu quarto de repouso e nunca mais olhou. Mas o dinheiro dela é bom. [Às vezes, a pintura ganhará Glimmerings. <b>Estude</b> elas para desbloquear opções mais avançadas de pintura.]",
+            "description": "Encontrei um cliente! Ela provavelmente vai pendurá-lo em seu quarto reserva e nunca mais olhara de novo. Mas o dinheiro dela é bom. [Às vezes, a pintura ganhará Vislumbres. <b>Estude</b> elas para desbloquear opções mais avançadas de pintura.]",
             "deckeffects": {
                 "paintingresultsbasic": 2
             },
