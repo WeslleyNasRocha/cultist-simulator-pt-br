@@ -39,7 +39,7 @@
         {
             "id": "devotee",
             "label": "Devoto",
-            "description": "A dedicação deste tudo consome. Mas em breve poderá desaparecer, e então este questionar-se-á sobre que fez.",
+            "description": "Neste momento, a devoção deste aqui é avassaladora. Mas logo ela poderá empalidecer, e então as perguntas sobre o que foi feito virão.",
             "isAspect": true
         },
         {
@@ -63,7 +63,7 @@
         {
             "id": "patron",
             "label": "Patrono",
-            "description": "Uma figura de nota nos círculos em que me movo.",
+            "description": "Uma figura notável nos círculos em que opero.",
             "isAspect": true
         },
         {
@@ -81,7 +81,7 @@
         {
             "id": "annoyance",
             "label": "Irritação",
-            "description": "Aqui está um espinho do meu lado. Talvez eu encontre uma maneira de removê-lo.",
+            "description": "Aqui está uma pedra no meu sapato. Talvez eu encontre uma maneira de removê-la.",
             "isAspect": true
         },
         {
@@ -149,7 +149,7 @@
             "id": "moth",
             "label": "Mariposa",
             "isAspect": true,
-            "description": "Eu conheci um homem que capturava mariposas em um pote. Em noites como esse, ele as liberaria uma por uma para morrerem na chama da vela. [A Mariposa é o selvagem e perigoso princípio do caos e do desejo.]",
+            "description": "Eu conheci um homem que capturava mariposas em um pote. Em noites como esse, ele as liberaria uma por uma para morrerem na chama da vela. [A Mariposa é o selvagem e perigoso princípio do caos e do anseio.]",
             "induces": [
                 {
                     "id": "mothinduction",
@@ -166,7 +166,7 @@
         {
             "id": "winter",
             "label": "Inverno",
-            "description": "... [O Inverno é o princípio do silêncio, dos finais, e daqueles que não estão bem mortos.]",
+            "description": "... [O Inverno é o princípio do silêncio, dos finais, e daqueles que não estão exatamente mortos.]",
             "isAspect": true
         },
         {

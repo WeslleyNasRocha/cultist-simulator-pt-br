@@ -188,7 +188,7 @@
             "requirements": {
                 "glimmering": 2
             },
-            "startdescription": "Quanto mais paixão eu ganho, mais brilho eu preciso. [Use habilidade: Imaginação para aumentar ainda mais a paixão.]",
+            "startdescription": "Quanto mais Paixão eu ganho, mais Vislumbre eu preciso. [Use Habilidade: Imaginação para aumentar ainda mais a Paixão.]",
             "hintonly": true,
             "craftable": false
         },
@@ -232,7 +232,7 @@
         },
         {
             "id": "increasehealthfurtherhintpluswithskill",
-            "label": "Aumentar minha Saúde?",
+            "label": "Increase my Health?",
             "actionid": "study",
             "requirements": {
                 "vitalityplus": 1,
@@ -244,7 +244,7 @@
         },
         {
             "id": "increasehealthfurtherhintplus",
-            "label": "Aumentar minha Saúde?",
+            "label": "Increase my Health?",
             "actionid": "study",
             "requirements": {
                 "vitalityplus": 1
@@ -255,7 +255,7 @@
         },
         {
             "id": "increasehealthfurtherhint1",
-            "label": "Aumentar minha Saúde?",
+            "label": "Increase my Health?",
             "actionid": "study",
             "requirements": {
                 "vitality": 1
@@ -266,31 +266,31 @@
         },
         {
             "id": "increasereasonfurtherhintpluswithskillneedslore",
-            "label": "Aumentar minha Habilidade para algo extraordinário?",
+            "label": "Increase my Skill to something extraordinary?",
             "actionid": "study",
             "requirements": {
                 "eruditionplus": 1,
                 "skillreasonc": 1
             },
-            "startdescription": "Precisarei de lições suficientes... e algo mais.",
+            "startdescription": "I'll need enough Lessons Learnt... and something more.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "increasereasonfurtherhintpluswithskill",
-            "label": "Aumentar meu Reason?",
+            "label": "Increase my Reason?",
             "actionid": "study",
             "requirements": {
                 "eruditionplus": 1,
                 "reasonskill": 1
             },
-            "startdescription": "Precisarei de mais lições aprendidas.",
+            "startdescription": "I'll need more Lessons Learnt.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "increasereasonfurtherhintplus",
-            "label": "Aumentar meu Reason?",
+            "label": "Increase my Reason?",
             "actionid": "study",
             "requirements": {
                 "eruditionplus": 1
@@ -301,7 +301,7 @@
         },
         {
             "id": "increasereasonfurtherhint1",
-            "label": "Aumentar meu Reason?",
+            "label": "Increase my Reason?",
             "actionid": "study",
             "requirements": {
                 "erudition": 1
@@ -312,13 +312,13 @@
         },
         {
             "id": "increasepassionfurtherhintpluswithskillneedslore",
-            "label": "Aumentar minha Habilidade para algo extraordinário?",
+            "label": "Increase my Skill to something extraordinary?",
             "actionid": "study",
             "requirements": {
                 "glimmeringplus": 1,
                 "skillpassionc": 1
             },
-            "startdescription": "Precisarei de lições suficientes... e algo mais.",
+            "startdescription": "I'll need enough Lessons Learnt... and something more.",
             "hintonly": true,
             "craftable": false
         },
@@ -330,13 +330,13 @@
                 "glimmeringplus": 1,
                 "passionskill": 1
             },
-            "startdescription": "Precisarei de mais lições aprendidas.",
+            "startdescription": "I'll need more Lessons Learnt.",
             "hintonly": true,
             "craftable": false
         },
         {
             "id": "increasepassionfurtherhintplus",
-            "label": "Aumentar minha paixão?",
+            "label": "Increase my passion?",
             "actionid": "study",
             "requirements": {
                 "glimmeringplus": 1
@@ -347,12 +347,12 @@
         },
         {
             "id": "increasepassionfurtherhint1",
-            "label": "Aumentar minha Pássia?",
+            "label": "Increase my Passion?",
             "actionid": "study",
             "requirements": {
                 "glimmering": 1
             },
-            "startdescription": "Precisarei de mais de uma.",
+            "startdescription": "I'll need more than one.",
             "hintonly": true,
             "craftable": false
         },
@@ -369,7 +369,7 @@
         },
         {
             "id": "studyupgradeinfluenceshint1",
-            "label": "Melhorar as Influências?",
+            "label": "Upgrade Influences?",
             "actionid": "study",
             "requirements": {
                 "influence": 1

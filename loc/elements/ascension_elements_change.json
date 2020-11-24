@@ -2,12 +2,12 @@
     "elements": [
         {
             "id": "ascensionchangea",
-            "label": "Tentativa: alterar",
+            "label": "Tentação: Mudança",
             "aspects": {
                 "desire": 1,
                 "changemarks": 1
             },
-            "description": "Em certas noites antes da audiência, há a elevação de asas de algo mais. Em que mais eu poderia ficar? [Este cartão permitirá que você ganhe uma vitória de troca, caso você a melhore o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
+            "description": "Certas noites, ante à platéia, existe o empuxo de asas de algo a mais. O que mais posso me tornar? [Esta carta permitirá que você ganhe uma vitória de Mudança, se você a melhorar o suficiente. Devote esforços o suficiente a suas danças e você descobrirá o próximo passo]",
             "xtriggers": {
                 "ascend": "ascensionchangeb"
             },
@@ -15,12 +15,12 @@
         },
         {
             "id": "ascensionchangeb",
-            "label": "Alteração: Folha",
+            "label": "Mudança: Folha",
             "aspects": {
                 "desire": 1,
                 "changemarks": 2
             },
-            "description": "Eu tremo quando chega o vento. As veias abaixo da minha superfície são evidentes. Sempre carrego uma feixeira de malaquita ao lado da minha pele. [Este cartão permitirá que você ganhe uma vitória de troca, caso você a melhore longe o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
+            "description": "Eu tremo quando chega o vento. As veias abaixo da minha superfície são evidentes. Sempre carrego uma conta de malaquita junto à minha pele. [Esta carta permitirá que você ganhe uma vitória de Mudança, se você a melhorar o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
             "xtriggers": {
                 "ascend": "ascensionchangec"
             },
@@ -28,12 +28,12 @@
         },
         {
             "id": "ascensionchangec",
-            "label": "Alteração: Pérola",
+            "label": "Mudança: Pérola",
             "aspects": {
                 "desire": 1,
                 "changemarks": 3
             },
-            "description": "Minha pele está esfregando em remendos e, debaixo dela, eu estou mais escuro, mas meus olhos estão mais brilhantes. Eu levo uma pérola do mar em um lugar secreto. Por vezes à noite ouço o mar; por vezes, de manhã, os meus lençóis estão marcados com sangue. [Este cartão permitirá que você ganhe uma vitória de troca, caso você a melhore longe o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
+            "description": "Minha pele se solta, em pedaços e sob ela eu sou mais escura, mas meus olhos são mais brilhosos. Eu carrego uma pérola marinha em um local secreto. As vezes, a noite, eu ouço o mar; as vezes, de manhã, meus lençóis estão marcados de sangue. [Esta carta permitirá uma vitória de Mudança, se você a melhorar o suficiente. Devote tempo para suas danças, e você encontrará o próximo passo.]",
             "xtriggers": {
                 "ascend": "ascensionchanged"
             },
@@ -46,7 +46,7 @@
                 "desire": 1,
                 "changemarks": 4
             },
-            "description": "Eu cresci tão escuro quanto vou. As sombras são minha empresa, e meu pé é um sussurro. Eu uso um anel com jato, mas mantenho a pedra virada para dentro, na minha palma de mão invisível. [Este cartão permitirá que você ganhe uma vitória de troca, caso você a melhore longe o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
+            "description": "Escureci tanto quanto possível. Sombras são minha companhia, e minha passada é um sussurro. Eu uso um anel de azeviche, mas a pedra está na direção da minha palma, invisível. [Esta carta permitirá uma vitória de mudança, se você a melhorar o suficiente. Devote esforço o suficiente para suas danças e você encontrará o próximo passo]",
             "xtriggers": {
                 "ascend": "ascensionchangee"
             },
@@ -59,7 +59,7 @@
                 "desire": 1,
                 "changemarks": 5
             },
-            "description": "Minha escuridão diminuiu e todas as minhas cores estão sangradas. Novos lobos nascem sobre meus elementos mais receptivos. Eu sou deitado com segredos. Eu carrego um prisma de scolecite sob minha língua pálida. [Este cartão permitirá que você ganhe uma vitória de troca, caso você a melhore longe o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
+            "description": "Minha escuridão empalideceu e todas as minhas cores foram alvejadas. Novos lóbulos nascem sobre meus elementos mais receptivos. Eu estou respingada de segredos. Eu carrego comigo um prisma de escolecita sob minha pálida língua. [Esta carta permitirá uma vitória por Mudança, se você a melhorar o suficiente. Devote esforço o suficiente par suas danças e você encontrará o próximo passo.]",
             "xtriggers": {
                 "ascend": "ascensionchangef"
             },
@@ -67,12 +67,12 @@
         },
         {
             "id": "ascensionchangef",
-            "label": "Change: Pupil",
+            "label": "Mudança: Pupila",
             "aspects": {
                 "desire": 1,
                 "changemarks": 6
             },
-            "description": "O branco dos meus olhos é amarelo e desenvolveu-se um novo número inteiro ao longo dos meus membros para me lisonjear antes da mudança final. Em privado, uso um anel de ouro e de orelhas de ouro de ouro e de topaz, mas não se vê. [Este cartão permitirá que você ganhe uma vitória de troca, caso você a melhore longe o suficiente. Devote esforço suficiente para suas danças e você encontrará o próximo passo.]",
+            "description": "O branco dos meus olhos é amarelado e uma nova carapaça se desenvolveu ao longo dos meus membros para me proteger antes da mudança final. Privadamente, uso um anel polegar de ouro e brincos áureos e de topázio, mas eles não devem ser vistos [Esta carta permite que você ganhe uma Vitória de mudança, se você a melhorar o suficiente. Devote esforço o suficiente para suas danças e você encontrará o próximo passo.]",
             "xtriggers": {
                 "ascend": "ascensionchangeg"
             },
@@ -80,12 +80,12 @@
         },
         {
             "id": "ascensionchangeg",
-            "label": "Alteração: Marfim",
+            "label": "Mudança: Marfim",
             "aspects": {
                 "desire": 1,
                 "changemarks": 6
             },
-            "description": "Meus ossos são diferentes. Eles carregam a história do que está perdido. Se eu não sobreviver, serão a minha história e alguém usará fragmentos do meu marfim para se aquecer contra a sua pele. [Este cartão permitirá que você ganhe uma mudança de vitória.]",
+            "description": "Meus ossos são diferentes, eles carregam contos sobre o que se perdera. Se eu não sobreviver, eles serão meu conto, e alguém se vestirá com fragmentos de meu marfim para aquecer sua pele. [Esta carta permitirá uma vitória de Mudança.]",
             "xtriggers": {
                 "ascend": "ascensionchangeg"
             },
@@ -93,92 +93,92 @@
         },
         {
             "id": "sendingheartb",
-            "label": "Guise: Viper",
+            "label": "Disfarce: Víbora",
             "aspects": {
                 "sending": 1,
                 "knock": 1
             },
-            "description": "As bobinas Víbora onde o mar colide contra a terra. Preciso encontrar um lugar de energia na periferia da água. Talvez Sulochana possa ajudar, se eu trouxer os segredos dela sobre outros lugares. [Algumas partes de vocês podem vagar em forma de serpente. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
+            "description": "A Víbora se enrola onde o mar colide com a terra. Eu devo encontrar um lugar de poder no limiar da água. Talvez Sulochana possa ajudar, se eu trouxer a ela segredos de outros lugares. [Alguma parte de você pode vagar ofídeoforme, Envie-na para acompanhar seus seguidores em um lugar onde ela possa executar uma dança que deve ser dançada. Se você tiver dificuldades em achar tal lugar, fale com Sulochana sobre Histórias Secretas]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingheartc",
-            "label": "Guise: Gato",
+            "label": "Disfarce: Gata",
             "aspects": {
                 "sending": 1,
                 "moth": 2
             },
-            "description": "A Gata anda pela noite ao lado do rio onde o linho preto cresce. [Algumas partes de vocês podem passear em forma de gato. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
+            "description": "A Gata anda pela noite pelo rio onde o linho negro cresce. [Alguma parte de você pode vagar catiforme. Envie-na para acompanhar seus seguidores em um lugar onde ela possa executar uma dança que deve ser dançada. Se você tiver dificuldades em achar tal lugar, fale com Sulochana sobre Histórias Secretas]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingheartd",
-            "label": "Guise: Raposa",
+            "label": "Difarce: Raposa",
             "aspects": {
                 "sending": 1,
                 "grail": 3
             },
-            "description": "A Raposa vagueia os prados da montanha, procurando o toque da flor. [Alguma parte de vocês pode vagar em forma de raposa. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
+            "description": "A Raposa vagueia os prados da montanha, procurando o toque do Floreador. [Alguma parte de vocês pode vagar em vulpiforme. Envie-na para acompanhar seus seguidores para um lugar onde ela pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendinghearte",
-            "label": "Guise: Águia",
+            "label": "Disfarce: Águia",
             "aspects": {
                 "sending": 1,
                 "lantern": 4
             },
-            "description": "A Águia viaja pelo céu e eis o que vê: em Miah foi o primeiro Roost, onde os poderes do ar pela primeira vez trocaram seus segredos. [Algumas partes de vocês podem vagar em forma áspera. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
+            "description": "A Águia viaja nas estradas celestes e eis o que ela vê: em Miah foi a primeira Ninhada, onde os poderes do ar trocaram seus segredos pela primeira vez. [Alguma parte de você pode vagar aquiloforme. Envie-na para acompanhar seus seguidores num local onde você possa executar uma dança que precisa ser dançada. Se você tiver problemas em achar tal lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingheartf",
-            "label": "Guista: Dobre",
+            "label": "Disfarce: Pomba",
             "aspects": {
                 "sending": 1,
                 "winter": 5
             },
-            "description": "O Povo se lembra de quando todos os outros esquecem. [Alguma parte de você pode vagar como um pássaro pálido. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
+            "description": "A Pomba se lembra quando todos os outros se esquecem. [Alguma parte de você pode vagar como um pássaro pálido. Envie-na para acompanhar seus seguidores para um local onde ela possa executar uma dança que você deve dançar. Se você tiver problemas em achar o lugar, fale com Sulochana sobre as Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingheartg",
-            "label": "Guise: Boar",
+            "label": "Disfarce: Javali",
             "aspects": {
                 "sending": 1,
                 "way": 1
             },
-            "description": "Nesta forma, eu me entregarei a alguém que segura a chave do Portão do Kingskin . [Algumas partes de vocês podem passar como uma besta negra selvagem.]",
+            "description": "Nesta forma, eu me entregarei a alguém que segura a chave do Portão de Pele Real. [Alguma parte de você pode vagar como uma besta negra selvagem.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingmothb",
-            "label": "Instar: Silencioso",
+            "label": "Ínstar: Silencioso",
             "aspects": {
                 "sending": 1,
                 "knock": 1
             },
-            "description": "Numa casa silenciosa ao lado do mar, numa pele emprestada, procuraremos a segunda mudança. Preciso encontrar um lugar de energia na periferia da água. Talvez Sulochana possa ajudar, se eu trouxer segredos dela sobre outros lugares. [Algumas partes de vocês podem passar pela forma. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
+            "description": "Numa casa silenciosa ao lado do mar, numa pele emprestada, procuraremos a segunda mudança. Preciso encontrar um lugar de energia na periferia da água. Talvez Sulochana possa ajudar, se eu trouxer segredos dela sobre outros lugares. [Alguma partes de você pode vagar ofídeoforme. Envie-na para acompanhar seus seguidores para um lugar onde ela pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingmothc",
-            "label": "Instar: Creeping",
+            "label": "Ínstar: Furtivo",
             "aspects": {
                 "sending": 1,
                 "moth": 2
             },
-            "description": "Entre as pedras em que a besta negra cai, atrás da máscara dos olhos, procuraremos a terceira mudança. [Algumas partes de vocês podem vagar em forma de gato. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
+            "description": "Entre as pedras em que a besta negra se entoca, atrás da máscara de olhos, procuraremos a terceira mudança. [Alguma parte de você pode vagar em catiforme. Envie-na para acompanhar seus seguidores para um lugar onde ela possa realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingmothd",
-            "label": "Instar: Russet",
+            "label": "Ínstar: Avermelhado",
             "aspects": {
                 "sending": 1,
                 "grail": 3
             },
-            "description": "Nos lugares altos onde o ar é tentador, vamos procurar a quarta mudança. [Alguma parte de você pode vagar em forma de raposa. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
+            "description": "Nos lugares altos onde o ar é tentador, vamos procurar a quarta mudança. [Alguma parte de você pode vagar em vulpiforme. Envie-na para acompanhar seus seguidores para um lugar onde ela pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
@@ -188,17 +188,17 @@
                 "sending": 1,
                 "lantern": 4
             },
-            "description": "Em Miah, onde o Centipede viu tudo o que pode vir ainda, vamos procurar a quinta mudança. [Algumas partes de vocês podem vagar em forma áspera. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
+            "description": "Em Miah, onde a Centopéia viu tudo o que poderia advir, vamos procurar a quinta mudança. [Alguma parte de você pode vagar aquiloforme. Envie-na para acompanhar seus seguidores para um lugar onde ela possa realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingmothf",
-            "label": "Instar: Aviar",
+            "label": "Ínstar: Ávido",
             "aspects": {
                 "sending": 1,
                 "winter": 5
             },
-            "description": "No lugar distante onde eles se lembram do Sol, eu vou trazer o meu ódio emprestado pela sexta mudança. [Algumas partes de você podem vagar em forma de lobo. Envie-o para acompanhar seus seguidores para um lugar onde ele pode realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
+            "description": "No lugar distante onde eles se lembram do Sol, eu vou trazer o meu ódio emprestado para a sexta mudança. [Alguma parte de você pode vagar em lupinoforme. Envie-na para acompanhar seus seguidores para um lugar onde ela possa realizar a dança que você precisa dançar. Se você tiver problemas para encontrar o lugar, fale com Sulochana sobre Histórias Secretas.]",
             "uniquenessgroup": "uqsending"
         },
         {
@@ -208,102 +208,102 @@
                 "sending": 1,
                 "way": 1
             },
-            "description": "Para a mudança final, passarei a Porta na Madeira. O sacrifício de Medusa é sempre um cervo virgem vermelho, e assim eu vou passar a porta como um alento. [No círculo nocturno que você voa.]",
+            "description": "Para a mudança final, passarei a Porta na Floresta. O sacrifício de Medusa é sempre um cervo virgem vermelho, e assim eu vou passar a porta como uma corça. [Para dentro do círculo noturno, voe.]",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "sendingmothheartg",
-            "label": "Guise: Imago",
+            "label": "Disfarce: Imago",
             "aspects": {
                 "sending": 1,
                 "way": 1
             },
-            "description": "Meu espírito deixará meu corpo como uma grande besta de chifres. Ser um sacrifício? [O que tem dentro, sem fora; o que não tem, dentro.]",
+            "description": "Meu espírito deixará meu corpo como uma grande besta de chifres. Para ser um sacrifício? [O que tem dentro, fora; o que tem fora, dentro.]",
             "icon": "sendingmothg",
             "uniquenessgroup": "uqsending"
         },
         {
             "id": "ascensionlessonhearta",
-            "label": "Garagens, renderizadas",
+            "label": "Vestuários, entregues",
             "aspects": {},
-            "description": "A Malaquita me ensinou que a si mesma nua não é a verdadeira verdade, mas é menos mentira. [Na temporada de ambições, isso pode melhorar seu desejo de alteração.]",
+            "description": "A Malaquita me ensinou que estar despido não é o seu \"eu\" verdadeiro, mas é uma mentira menor. [Na temporada de ambições, isso pode melhorar seu desejo de Mudança.]",
             "unique": true
         },
         {
             "id": "ascensionlessonheartb",
-            "label": "Integargumento, renderizado",
+            "label": "Carapaça, Entregue",
             "aspects": {},
-            "description": "Aprendi nessa guerra como a dor pode ser um portão. O triunfo e a guerra serpente.",
+            "description": "As Gêmeas e a Serpente guerreiam, e nessa guerra eu aprendi como a dor pode ser um portal.",
             "unique": true
         },
         {
             "id": "ascensionlessonheartc",
-            "label": "Passos, renderizados",
+            "label": "Passos, Entregues",
             "aspects": {},
-            "description": "O veludo ensinou-me que o que é revelado tem primeiro de ser ocultado, para que a sua revelação tenha quaisquer consequências. Desisti dos meus passos.",
+            "description": "O Veludo me ensinou que o que é revelado tem de ser ocultado primeiro, para que a sua revelação tenha alguma consequência. Eu cedi meus passos.",
             "unique": true
         },
         {
             "id": "ascensionlessonheartd",
             "label": "Tonalidades, Entregues",
             "aspects": {},
-            "description": "O Flowermaker deu-me tudo o que queria e tirou-me as minhas cores.",
+            "description": "O Floreador deu-me tudo o que eu desejava e tirou-me as minhas cores.",
             "unique": true
         },
         {
             "id": "ascensionlessonhearte",
-            "label": "Este, Sobreposto",
+            "label": "Visão, Entregue",
             "aspects": {},
-            "description": "Dei os meus olhos ao Vagabond, e através deles vou ver o que a senhora deputada verá: o caminho para a mudança vermelha.",
+            "description": "Dei os meus olhos a Vagante, e através deles verei o ela veria: a estrada para a Mudança Vermelha.",
             "unique": true
         },
         {
             "id": "ascensionlessonheartf",
-            "label": "ossos, rendidos",
+            "label": "Ossos, Entregues",
             "aspects": {},
-            "description": "A Elegiast me ensinou a lembrar, na minha última parte de mim. Vou carregar essa lição através do Portão do Rei.",
+            "description": "O Elegiasta me ensinou a lembrar na última parte de mim a mudar. Eu carregarei este ensinamento para além do Portão de Pele Real.",
             "unique": true
         },
         {
             "id": "ascensionlessonmotha",
-            "label": "Garagens, renderizadas",
+            "label": "Vestuário, Entregue",
             "aspects": {},
-            "description": "O comando de Ring-Yew que eu passei meu carne, e obedeci. Eu nem sempre vou obedecer ao Ring-Yew. [Na temporada de ambições, isso pode melhorar seu desejo de alteração.]",
+            "description": "O Teixoanel mandou-me expor minha pele, e eu obedeci. Eu nem sempre obedecerei ao Teixoanel. [Na Temporada de Ambições, isso pode ser usado para melhorar seu desejo de Mudança]",
             "unique": true
         },
         {
             "id": "ascensionlessonmothb",
-            "label": "Integargumento, renderizado",
+            "label": "Carapaça, Entregue",
             "aspects": {},
-            "description": "A Mãe Perfura, a Bruxa exige, a Irmã dissolve. E\n a minha pele\n é fina\n como chuva",
+            "description": "A Mãe perfura, a Bruxa exige, a Irmã dissolve. E\n a minha pele\n é fina\n como chuva",
             "unique": true
         },
         {
             "id": "ascensionlessonmothc",
-            "label": "Passos, renderizados",
+            "label": "Passos, Entregues",
             "aspects": {},
-            "description": "Eu andei no sino-negro na borda do rio, e com o pé com as suas cem línguas até que eu não conseguisse resistir mais ao toque dele, e então eu era apenas sombra.",
+            "description": "Eu andei no Linho-Negro, na borda do rio, ele saboreou meu pé com sua centena de línguas até eu não aguentar mais seu toque. Então eu era apenas sombra.",
             "unique": true
         },
         {
             "id": "ascensionlessonmothd",
             "label": "Tonalidades, Entregues",
             "aspects": {},
-            "description": "Vim até as flores que a criadora de flor fez e foi isso que eu fiz. Ele guarda minhas cores para mim agora.",
+            "description": "Eu vim até as flores que o Floreador criou e foi isso que me tornei. Ele guarda minhas cores para mim, agora.",
             "unique": true
         },
         {
             "id": "ascensionlessonmothe",
-            "label": "Este, Sobreposto",
+            "label": "Visão, Entregue",
             "aspects": {},
-            "description": "A Centipede me contou suas piadas e, em troca, vou deixá-la vislumbrar os olhos de ouro, até que ocorra a ommatidia. ",
+            "description": "A Centopeia me contou suas piadas e, em troca, deixar-la-ei entalhar olhos de ouro até que meus omatídeos ocorram. ",
             "unique": true
         },
         {
             "id": "ascensionlessonmothf",
-            "label": "ossos, rendidos",
+            "label": "Ossos, entregues",
             "aspects": {},
-            "description": "O Sol estava dividido, e o Lobo não me permite esquecer o sal saboroso dos seus ossos - só quando o Mansus quebrar. Agora o Lobo precisa que eu carregue esse sabor através da porta na Madeira.",
+            "description": "O Sol fora dividido, e o Lobo não me permitirá esquecer o sabor salíneo dos seus ossos - não até que o Mansus colapse. Agora o Lobo precisa que eu carregue esse sabor para além da porta na Floresta.",
             "unique": true
         }
     ]

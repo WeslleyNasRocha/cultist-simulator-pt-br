@@ -16,7 +16,7 @@
         },
         {
             "id": "needs",
-            "label": "Passes de Tempo",
+            "label": "O Tempo Passa",
             "actionid": "time",
             "requirements": {},
             "alt": [
@@ -136,7 +136,7 @@
             "slots": [
                 {
                     "id": "Affliction",
-                    "label": "Vida",
+                    "label": "Saúde",
                     "required": {
                         "health": 1,
                         "follower_wound": 1,

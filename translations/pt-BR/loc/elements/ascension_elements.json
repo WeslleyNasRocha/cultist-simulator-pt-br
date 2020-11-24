@@ -2,32 +2,32 @@
     "elements": [
         {
             "id": "ascensionpowera",
-            "label": "Temptação: Poder",
+            "label": "Tentação: Poder",
             "aspects": {
                 "desire": 1,
                 "powermarks": 1
             },
-            "description": "Ocorreu-me que tenho a chave do poder. [Este cartão permitirá que você ganhe uma vitória de força, se você a melhorar o suficiente. Sonhar sobre isso pode avançar ou mudá-lo.]",
+            "description": "Ocorreu-me que tenho a chave do poder. [Esta carta permitirá que você ganhe uma vitória de Poder, se você a melhorar o suficiente. Sonhar sobre isso poderá avança-la ou a mudar.]",
             "uniquenessgroup": "uqdesire"
         },
         {
             "id": "ascensionsensationa",
-            "label": "Temptação: Sensibilidade",
+            "label": "Tentação: Sensações",
             "aspects": {
                 "desire": 1,
                 "sensationmarks": 1
             },
-            "description": "Poderia conseguir experiências de intensidade que poucos poderiam imaginar. [Este cartão permitirá que você ganhe uma vitória de Sensação, caso você a melhore o suficiente. Sonhar sobre isso pode avançar ou mudá-lo.]",
+            "description": "Eu poderia atingir experiências de tal intensidade que poucos podem imaginar [Esta carta permitirá ganhar uma vitória Sensorial, se você a melhorar o suficiente. Sonhar com ela poderá avança-la ou a mudar]",
             "uniquenessgroup": "uqdesire"
         },
         {
             "id": "ascensionenlightenmenta",
-            "label": "Tempestade: Iluminação",
+            "label": "Tentação: Iluminação",
             "aspects": {
                 "desire": 1,
                 "enlightenmentmarks": 1
             },
-            "description": "Ocorreu-me que tenho a chave da sabedoria. [Este cartão permitirá que você ganhe uma vitória do Iluminismo, caso você o melhore o suficiente. Sonhar sobre isso pode avançar ou mudá-lo.]",
+            "description": "Ocorreu-me que tenho a chave da sabedoria. [Esta carta permitirá que você ganhe uma vitória de Iluminação, se você a melhorar o suficiente. Sonhar sobre ela poderá avança-la ou a mudar.]",
             "uniquenessgroup": "uqdesire"
         },
         {
@@ -37,25 +37,25 @@
                 "desire": 2,
                 "powermarks": 2
             },
-            "description": "Dediquei-me à aquisição de poder imortal, a qualquer custo. [Melhore este cartão para tornar possível a vitória do poder. Devo ser um verdadeiro iniciante do Manso; Vou precisar trabalhar com aspecto Forge para invocar a Forja de Dias e começar a mudança.]",
+            "description": "Dediquei-me à aquisição de poder imortal, a qualquer custo. [Melhore este cartão para tornar possível a vitória do poder. Devo ser um verdadeiro iniciante do Mansus; vou precisar trabalhar com aspectos de Forja para invocar a Forja dos Dias e começar a mudança.]",
             "slots": [
                 {
                     "id": "Know",
-                    "label": "Saiba",
+                    "label": "Ciente",
                     "actionid": "work",
                     "required": {
                         "waystag_after": 1
                     },
-                    "description": "Apenas um verdadeiro adepto, um Know pode dar este passo. Conheçam aqueles que passaram pela porta de Stag, em sonhos."
+                    "description": "Apenas um verdadeiro adepto, um Ciente, pode dar este passo. Os Cientes são aqueles que passaram pela Porta do Cervo, em sonhos."
                 },
                 {
                     "id": "Power",
-                    "label": "Liga/Desliga",
+                    "label": "Poder",
                     "actionid": "work",
                     "required": {
                         "forge": 1
                     },
-                    "description": "Vou requerer o suficiente da furiosa incandescência da Forja."
+                    "description": "Necessitarei de o suficiente da incandescência furiosa da Forja."
                 }
             ],
             "uniquenessgroup": "uqdesire"
@@ -67,25 +67,25 @@
                 "desire": 2,
                 "sensationmarks": 2
             },
-            "description": "Dediquei-me à busca imortal da sensação. [Melhore ainda mais este cartão para tornar possível a vitória da Sensação. Devo ser um verdadeiro iniciador do Manso; vou precisar trabalhar com aspecto do Grail-para me tornar apreciável para o Red Grail.]",
+            "description": "Dediquei-me à busca imortal da sensação. [Melhore ainda mais esta carta para tornar possível a vitória da Sensação. Devo ser um verdadeiro iniciado do Mansus; vou precisar trabalhar com aspectos do Gral me tornar palatável ao Graal Rubro.]",
             "slots": [
                 {
                     "id": "Know",
-                    "label": "Saiba",
+                    "label": "Ciente",
                     "actionid": "work",
                     "required": {
                         "waystag_after": 1
                     },
-                    "description": "Apenas um verdadeiro adepto, um Know pode dar este passo. Conheçam aqueles que passaram pela porta de Stag, em sonhos."
+                    "description": "Apenas um verdadeiro adepto, um Ciente, pode dar este passo. Cientes são aqueles que passaram pela Porta do Cervo, em sonhos."
                 },
                 {
                     "id": "Power",
-                    "label": "Liga/Desliga",
+                    "label": "Poder",
                     "actionid": "work",
                     "required": {
                         "grail": 1
                     },
-                    "description": "Vou necessitar de recursos suficientes das crescentes intensificações do Grail."
+                    "description": "Necessitarei o suficiente da intensidades aguçantes do Graal."
                 }
             ],
             "uniquenessgroup": "uqdesire"
@@ -97,25 +97,25 @@
                 "desire": 2,
                 "sensationmarks": 2
             },
-            "description": "Dediquei-me à busca imortal da sensação. [Melhore ainda mais este cartão para tornar possível a vitória da Sensação. Devo ser um verdadeiro iniciador do Manso; vou precisar trabalhar com aspecto do Grail-para me tornar apreciável para o Red Grail.]",
+            "description": "Dediquei-me à busca imortal da sensação. [Melhore ainda mais esta carta para tornar possível a vitória da Sensação. Devo ser um verdadeiro iniciado do Mansus; vou precisar trabalhar com aspectos do Graal para me tornar palatável ao Graal Vermelho.]",
             "slots": [
                 {
                     "id": "Know",
-                    "label": "Saiba",
+                    "label": "Ciente",
                     "actionid": "work",
                     "required": {
                         "waystag_after": 1
                     },
-                    "description": "Apenas um verdadeiro adepto, um Know pode dar este passo. Conheçam aqueles que passaram pela porta de Stag, em sonhos."
+                    "description": "Apenas um verdadeiro adepto, um Ciente, pode dar este passo. Cientes são os que passaram pela Porta do Cervo, em sonhos."
                 },
                 {
                     "id": "Power",
-                    "label": "Liga/Desliga",
+                    "label": "Poder",
                     "actionid": "work",
                     "required": {
                         "grail": 1
                     },
-                    "description": "Vou necessitar de recursos suficientes das crescentes intensificações do Grail."
+                    "description": "Necessitarei de o suficiente das intensidades agudas do Graal."
                 }
             ],
             "uniquenessgroup": "uqdesire"
@@ -127,7 +127,7 @@
                 "desire": 2,
                 "enlightenmentmarks": 2
             },
-            "description": "Dediquei-me à busca de maior compreensão. Devo ver sob a pele, custe o que custar. [Isto torna possível uma vitória do Iluminismo. Devo ser uma verdadeira iniciativa do Manso; Vou precisar trabalhar com o aspecto Lanterna para permitir que o Watchman me veja.]",
+            "description": "Dediquei-me à busca de uma compreensão maior. Devo ver sob a pele, custe o que custar. [Isto torna possível uma vitória de Iluminação. Devo ser um verdadeiro iniciado no Mansus; Vou precisar trabalhar com o aspecto Lanterna para permitir que o Vigilante me veja.]",
             "slots": [
                 {
                     "id": "Know",
@@ -135,23 +135,23 @@
                     "required": {
                         "waystag_after": 1
                     },
-                    "description": "Apenas um verdadeiro adepto, um Know pode dar este passo. Conheçam aqueles que passaram pela porta de Stag, em sonhos."
+                    "description": "Apenas um verdadeiro adepto, um Ciente, pode dar este passo. Cientes são os que passaram pela Porta do Cervo, nos sonhos."
                 },
                 {
                     "id": "Power",
-                    "label": "Liga/Desliga",
+                    "label": "Poder",
                     "actionid": "work",
                     "required": {
                         "lantern": 1
                     },
-                    "description": "Vou requerer um sinal da luz impiedosa dos Mansus."
+                    "description": "Necessitarei de um sinal da luz impiedosa dos Mansus."
                 }
             ],
             "uniquenessgroup": "uqdesire"
         },
         {
             "id": "ascensionpowerc",
-            "label": "Ascensão: Energia",
+            "label": "Ascensão: Poder",
             "aspects": {
                 "desire": 3,
                 "powermarks": 3
@@ -159,12 +159,12 @@
             "xtriggers": {
                 "ascend": "ascensionpowerd"
             },
-            "description": "A Forja abriu uma faísca para responder em minha carne. Estou desesperado pelo calor dos incêndios. Penso que muito em breve poderei começar a pô-las no sono. Trata-se de uma necessidade urgente, como a necessidade de água, e sei que isto é o Terceiro Marco.",
+            "description": "A Forja alimentou uma faísca de resposta em minha carne. Eu anseio em desespero pelo calor das chamas. Penso que em breve as verei em sonhos. É um anseio urgente, como o pelo água. Eu sei que essa é a Terceira Marca.",
             "uniquenessgroup": "uqdesire"
         },
         {
             "id": "ascensionpowerd",
-            "label": "Ascensão: Energia",
+            "label": "Ascensão: Poder",
             "aspects": {
                 "desire": 4,
                 "powermarks": 4
@@ -173,12 +173,12 @@
                 "ascend": "ascensionpowere",
                 "descend": "ascensionpowerc"
             },
-            "description": "Eu suporto cicatriz agora devido aos fogos, mas é mais difícil cantar a carne a cada vez. Estou começando a ficar acostumado a chamas, como um dragão ou uma pedra. Esta é a Quarta Marca.",
+            "description": "Me revesti de cicatrizes por todas as partes, graças às chamas, mas é cada vez mais difícil chamuscar minha pele. Eu começo a me acostumar com as chamas, como um dragão ou como as rochas. Essa é a Quarta Marca.",
             "uniquenessgroup": "uqdesire"
         },
         {
             "id": "ascensionpowere",
-            "label": "Ascensão: Energia",
+            "label": "Ascensão: Poder",
             "aspects": {
                 "desire": 5,
                 "powermarks": 5,
@@ -188,12 +188,12 @@
                 "ascend": "ascensionpowerf",
                 "descend": "ascensionpowerd"
             },
-            "description": "Quinto Marco: não há cabelos no meu corpo. Sou forte e diabólico. Estou sempre a tremer, a cada momento que estou longe do lado do fogo.",
+            "description": "Quinta Marca: Não há cabelos em meu corpo. Eu tenho força, demasiada até. Eu tenho sempre calafrios, em cada momento que estou longe da lareira.",
             "uniquenessgroup": "uqdesire"
         },
         {
             "id": "ascensionpowerf",
-            "label": "Ascensão: Energia",
+            "label": "Ascensão: Poder",
             "aspects": {
                 "desire": 6,
                 "powermarks": 6,
@@ -202,7 +202,7 @@
             "xtriggers": {
                 "descend": "ascensionpowere"
             },
-            "description": "É difícil dobrar meus membros. Tenho tantas cicatrizes. Prefiro não expor minha cara ao olhar público. Posso segurar na minha mão um carvão quente e não sinto nada, embora haja o cheiro mais leve e o zumbido mais suave. Esta é a Sexta Marca. ",
+            "description": "É difícil dobrar meus membros. Tenho tantas cicatrizes. Prefiro não expor minha cara ao olhar público. Posso segurar na minha mão um carvão quente e não sinto nada, embora haja o mais leve dos cheiros e um crepitar quase inaudível. Esta é a Sexta Marca. ",
             "uniquenessgroup": "uqdesire"
         },
         {
@@ -215,7 +215,7 @@
             "xtriggers": {
                 "ascend": "ascensionsensationd"
             },
-            "description": "O Grau Vermelho me aqueceu; suas sedes começaram a secar a minha boca e a erguer as minhas mãos. Sei que esta é a Terceira Marca.",
+            "description": "O Graal Rubro me aqueceu. Suas sedes começaram a secar minha boca e comichar minhas mãos. Eu sei que esta é a Terceira Marca.",
             "uniquenessgroup": "uqdesire"
         },
         {
@@ -229,7 +229,7 @@
                 "ascend": "ascensionsensatione",
                 "descend": "ascensionsensationc"
             },
-            "description": "O Quarto Marca são as melhorias intermitentes na minha pele. Nas mantas, ao longo dos meus braços ou das minhas coxas, é claro, suave, brilhante, como a pele de uma criança recém-saltada da água da primavera. Mas apenas em retalhos.",
+            "description": "A Quarta Marca são melhorias dispersas na minha pele. Em certas zonas, ao longo dos meus braços ou das coxas, é limpa, macia, brilhante, como a pele de crianças recém tiradas da água da fonte. Mas apenas em certas áreas.",
             "uniquenessgroup": "uqdesire"
         },
         {
@@ -243,7 +243,7 @@
                 "ascend": "ascensionsensationf",
                 "descend": "ascensionsensationd"
             },
-            "description": "\"Extensões e erupções\" é o apelido para a Quinta Marca. Desenvolvi dois novos dedos e só um está na minha mão. Tenho um punho de punho no joelho. A pressão sobre suas bordas é um brilho suave de prazer. Penso que o bulge das minhas costas é um novo órgão.",
+            "description": "\"Extensões e erupções\" é o apelido para a Quinta Marca. Desenvolvi dois novos dedos e só um está na minha mão. Tenho uma fístula na dobra do meu joelho. Pressionar suas bordas é um brilho suave de prazer. Penso que o bolsão ao fim de minha coluna é um novo órgão.",
             "uniquenessgroup": "uqdesire"
         },
         {
@@ -256,7 +256,7 @@
             "xtriggers": {
                 "descend": "ascensionsensatione"
             },
-            "description": "O sexto marco é identificado como sendo o ponto em que eu sou um pintor de mão alta, o que me alegra em todos os deputados e direcções. Minha pele é um veludo radiante. Poços de almofada de carne almofando meus olhos. Estou com muita sede.",
+            "description": "A Sexta Marca é o ponto onde eu estou um palmo mais alto. Eu me alongo em cada membro e direção. Minha pele é um veludo radiante. Poços de carne amortecem meus olhos. Eu estou tão sedento.",
             "uniquenessgroup": "uqdesire"
         },
         {
@@ -269,7 +269,7 @@
             "xtriggers": {
                 "ascend": "ascensionenlightenmentd"
             },
-            "description": "O Watchman, que é o Portão do Eye, tocou-me a mim. Todos os dias, a minha curiosidade é cada vez mais acentuada: uma necessidade física urgente, como a fome asfixia, e sei que isto é o Terceiro Marco.",
+            "description": "O Vigilante, que é o Porta-no-Olho, tocou-me. Todos os dias, a minha curiosidade é cada vez mais acentuada: uma necessidade física urgente, como a fome sufocante, e sei que isto é a Terceira Marca.",
             "uniquenessgroup": "uqdesire"
         },
         {
@@ -283,7 +283,7 @@
                 "ascend": "ascensionenlightenmente",
                 "descend": "ascensionenlightenmentc"
             },
-            "description": "O quarto marco é a luz que se encontra nos olhos, mas é muito subtil. A maioria só pode ver quando as lâmpadas são apagadas ou a noite é muito escura; embora quando eu abram meus olhos muito largos, há mais luz vazando. Estou crescendo mais magra.",
+            "description": "A Quarta Marca é a luz que se encontra nos olhos, mas é bem sutil. A maioria consegue percebera apenas co o apagar das lâmpadas ou em noites bem escuras; embora, quando eu abra meus olhos demais, a luz vaze mais. Eu tenho emagrecido.",
             "uniquenessgroup": "uqdesire"
         },
         {
@@ -297,7 +297,7 @@
                 "ascend": "ascensionenlightenmentf",
                 "descend": "ascensionenlightenmentd"
             },
-            "description": "No Quinto Marco, a luz pode sair onde a pele estiver ferida ou vergada. E agora a pele está a começar a pendurar-se no meu corpo como o processo não me dá carne. Eu sou muito magro agora. Estou sempre com fome.",
+            "description": "Na Quinta Marca, a luz pode vazar onde a pele estiver ferida ou desgastada. E agora minha pele começa a ficar larga e meu corpo enquanto o processo devora minha carne. Eu estou muito magro, agora. Eu estou sempre faminto.",
             "uniquenessgroup": "uqdesire"
         },
         {
@@ -310,13 +310,13 @@
             "xtriggers": {
                 "descend": "ascensionenlightenmente"
             },
-            "description": "Diz-se que o sexto marco ocorre quando a carne entre o dedo e o polegar pode ser puxada para a junção final do dedo. Minha pele está muito solta. Eu acho que meus ossos estão começando a suavizar. Meus olhos não são uma cor humana.",
+            "description": "Diz-se que a Sexta Marca ocorre quando a carne entre o polegar e o indicador pode ser puxada até a última falange do dedo. Minha pele está bem solta, agora. Eu acho que meus ossos estão amolecendo. Meus olhos não são mais de cor humana.",
             "uniquenessgroup": "uqdesire"
         },
         {
             "id": "temptation.remembrance",
-            "label": "Tempestade: Memória",
-            "description": "O vento frio que soprou quando o sol era vermelho e baixo. A voz que as ondas usavam uma vez. As formas que estavam ao nosso lado na neve. Tudo esmagado por trás do copo de tempo plano do tempo. Eu preciso revisitar o que está perdido. ",
+            "label": "Tentação: Lembrança",
+            "description": "O vento gélido que soprava quando o sol estava vermelho e baixo. A voz que as ondas outrora usaram. As formas que jaziam ao nosso lado na neve. Tudo amassado atrás do vidro flácido do tempo. Eu devo revisitar o que foi perdido. ",
             "aspects": {
                 "desire": 1,
                 "remembrancemarks": 1
@@ -328,7 +328,7 @@
         {
             "id": "dedication.remembrance",
             "label": "Dedicação: Lembrança",
-            "description": "O vento frio que soprou quando o sol era vermelho e baixo. A voz que as ondas usavam uma vez. As formas que estavam perdendo ao nosso lado na neve. Todos esmagados por trás do copo de tempo plano do tempo. Tenho de voltar ao que foi perdido... embora o gosto dele seja maduro e estranho.",
+            "description": "O vento gélido que soprava quando o sol estava vermelho e baixo. A voz que as ondas outrora usaram. As formas que jaziam ao nosso lado na neve. Tudo amassado atrás do vidro flácido do tempo. Eu devo revisitar o que foi perdido... embora o gosto disso seja sazonado e estranho.",
             "aspects": {
                 "desire": 1,
                 "remembrancemarks": 2

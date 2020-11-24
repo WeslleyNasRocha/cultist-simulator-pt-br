@@ -8,7 +8,7 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Um catálogo ocasionalmente coerente dos deuses secretos. Esta é uma tradução inglesa de um volume que lida com os poderes da Madeira."
+            "description": "Um catálogo ocasionalmente coerente dos deuses secretos. Esta é uma tradução inglesa de um volume que lida com os poderes da Floresta."
         },
         {
             "id": "dehoris2",
@@ -18,52 +18,52 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Um catálogo ocasionalmente coerente dos deuses secretos. Esta é uma tradução inglesa de um volume que descreve a inimizade entre o Ferreiro de Lionsmith e o Tribune dos Carros."
+            "description": "Um catálogo ocasionalmente coerente dos deuses secretos. Esta é uma tradução inglesa de um volume que descreve a inimizade entre o Leoneiro e o Tribuno des Cicatrizes."
         },
         {
             "id": "travellingatnight1",
             "unique": true,
-            "label": "Viajar à Noite(Vol. 1)",
+            "label": "Viajando pela Noite(Vol. 1)",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Os anotados sonhos de Christopher Illopoly, às vezes chamavam \"o único occultismo legível\": literário, divertido, perplexo."
+            "description": "O diário de sonhos, com anotações, de Christopher Illopoly, às vezes chamavam \"o único ocultista legível\": bem escrito, divertido, desconcertante."
         },
         {
             "id": "travellingatnight2",
             "unique": true,
-            "label": "Viajar à Noite(Vol. 2)",
+            "label": "Viajando pela Noite(Vol. 2)",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Os aborrecidos sonhos de Christopher Illopoly, às vezes chamavam \"o único occultismo legível\": literado, divertido e perplexo. Este é o segundo volume."
+            "description": "O diário de sonhos, com anotações, de Christopher Illopoly, às vezes chamavam \"o único ocultista legível\": bem escrito, divertido, desconcertante. Este é o segundo volume."
         },
         {
             "id": "travellingatnight3",
             "unique": true,
-            "label": "Viajar à noite (Vol. 3)",
+            "label": "Viajando pela Noite (Vol. 3)",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Os aborrecidos sonhos de Christopher Illopoly, às vezes chamavam \"o único occultismo legível\": literado, divertido e perplexo. Este é o terceiro volume."
+            "description": "O diário de sonhos, com anotações, de Christopher Illopoly, às vezes chamavam \"o único ocultista legível\": bem escrito, divertido, desconcertante.. Este é o terceiro volume."
         },
         {
             "id": "sixlettersonnecessity",
             "unique": true,
-            "label": "As Seis Letras da Necessidade",
+            "label": "As Seis Cartas sobre a Necessidade",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Avisos e confissões sobre o custo das artes invisíveis, dirigidos a um estudante pelo magus do século dezessete (e famosa imortal) Seleção Juliana."
+            "description": "Avisos e confissões sobre o custo das artes invisíveis, enviados a um estudante pelo mago, e alegadamente imortal, Julian Coseley, do século XVII."
         },
         {
             "id": "locksmithsdream1",
             "unique": true,
-            "label": "O Sonho do Ferreiro: uma luz através do Buraco do Teclado",
+            "label": "O Sonho do Chaveiro: uma Luz através da Fechadura",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
@@ -73,17 +73,17 @@
         {
             "id": "locksmithsdream2",
             "unique": true,
-            "label": "O Sonho do Ferreiro: Porções e Proporções",
+            "label": "O Sonho do Chaveiro: Porções e Proporções",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "O segundo volume do exame de Teresa Galmier de paralelos nos sonhos místicos dos artesãos. O frontispiece foi cortado com um braseiro."
+            "description": "O segundo volume da análise de Teresa Galmier de paralelos nos sonhos místicos dos artesãos. O frontispício fora cortado com uma lâmina."
         },
         {
             "id": "locksmithsdream3",
             "unique": true,
-            "label": "Sonho do Locksmit: Passos",
+            "label": "O Sonho do Chaveiro: Invasões",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
@@ -93,12 +93,12 @@
         {
             "id": "locksmithsdream4",
             "unique": true,
-            "label": "O Sonho do Ferreiro: Reflexões Roubadas",
+            "label": "O Sonho do Chaveiro: Reflexões Roubadas",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Quarto volume de trabalho expansivo de Teresa Galmier, deixou de ser uma discussão sobre os sonhos dos artesãos, passando a ser um estudo valioso sobre outras obras. O tom é mais calmo do que o das \"travessias\", mas ocasionalmente assustador, ou mesmo paranóico. Este volume foi publicado em 1926, mas foi imediatamente revogado e puxado pelo editor - a pedido do autor ou possivelmente das autoridades. dependendo da história que você acreditar. Sobrevivem algumas cópias. "
+            "description": "Quarto volume de trabalho expansivo de Teresa Galmier, deixou de ser uma discussão sobre os sonhos dos artesãos, passando a ser um estudo valioso sobre outras obras. O tom é mais calmo do que o das \"Invasões\", mas é ocasionalmente assustado, ou mesmo paranoico. Este volume foi publicado em 1926, mas foi imediatamente cancelado e extinguido pelo editor - a pedido da autora ou possivelmente das autoridades. dependendo da história que você acreditar. Sobrevivem algumas cópias. "
         },
         {
             "id": "locksmithsdream5",
@@ -108,67 +108,67 @@
                 "text": 1,
                 "lantern": 1
             },
-            "description": "O quinto (e final? volume de trabalho notório de Teresa Galmier, que começou como uma análise de paralelos nos sonhos místicos dos artesãos, mas se tornou um relato de sua própria jornada oculta. Este volume nunca foi publicado nem, aparentemente, até mesmo escrito."
+            "description": "O quinto (e último?) volume da obra notória de Teresa Galmier, que começou como uma análise de paralelos nos sonhos místicos dos artesãos, mas se tornou um relato de sua própria jornada oculta. Este volume nunca foi publicado nem, aparentemente, até mesmo escrito."
         },
         {
             "id": "humoursofagentleman",
             "unique": true,
-            "label": "As Humanas de um Cavalheiro",
+            "label": "Os Humores de um Cavalheiro",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "A comédia satírica de Samuel Savage, nos intrigos da vela, mas astuto John Sonne, a sua amante Maevelin, o seu amante Leo, e o começo da Corvino."
+            "description": "A comédia satírica de Samuel Savage, sobre as intrigas do doente, mas sagaz John Sonne, sua amante Maevelin, o amante dela, Leo e o arrivista Corvino."
         },
         {
             "id": "victoryofcrowns",
             "unique": true,
-            "label": "A vitória dos corvos",
+            "label": "A vitória dos Soberanos",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Responsabilidades erradas, por um 'Arun', da caça e consumo de pretensos imortais, por cultos sombrios de assassinos. Publicado em finais do século XIX."
+            "description": "Relatos erráticos, por um 'Arun', da caça e consumo de pretensos imortais, por cultos furtivos de assassinos. Publicado no final do século XIX."
         },
         {
             "id": "introductiontohistories",
             "unique": true,
-            "label": "Uma introdução às tarefas",
+            "label": "Uma Introdução às Histórias",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "O místico e antiquado do século dezassete Claude Hersault descreve incidentes divergentes em cinco grandes histórias."
+            "description": "O místico e antiquário do século XVII, Claude Hersault descreve incidentes divergente nas cinco maiores Histórias."
         },
         {
             "id": "treatiseonunderplaces",
             "unique": true,
-            "label": "O Tratado nos Países Baixos",
+            "label": "A Dissertação sobre Subvias",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Aqui o místico e antiquado do século XVII, Claude Hersault descreve os \"Bound\" ou os \"Sublinhas\" nas fronteiras do sonho. Ele avisa que eles se mudam com o tempo."
+            "description": "Aqui o místico e antiquário do século XVII, Claude Hersault descreve os \"Bordas\" ou os \"Subvias\" nas fronteiras do sonho. Ele avisa que elas se mudam com o tempo."
         },
         {
             "id": "onthewhite",
             "unique": true,
-            "label": "No Branco",
+            "label": "Sobre o Branco",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Salomão Husher escreveu, talvez alegadamente, do Inverno, e o seu longo e lento romance condenado ao Sol. A epigrama é \"Pôr-do-So\"."
+            "description": "Solomon Husher escreveu, talvez alegoricamente, sobre o Inverno, e o seu longo e lento romance condenado com o Sol. A epígrafe é \"Poente ao Meio-dia\"."
         },
         {
             "id": "waroftheroadscensored",
             "unique": true,
-            "label": "A Guerra dos Roteiros, 1450-1580, EDIÇÃO CENSOVA",
+            "label": "A Guerra das Estradas, 1450-1580, EDIÇÃO CENSURADA",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Willis-Ford descreve pormenorizadamente a Guerra das Estradas, um evento numa História diferente do nosso. Mas numerosas páginas foram removidas; o nome do editor é apagado; e um deslizamento sinistro condecorado até à cobertura explica que Willis-Ford foi \"fiscalizado\"."
+            "description": "Willis-Ford descreve pormenorizadamente a Guerra das Estradas, um evento numa História diferente da nossa. Mas numerosas páginas foram removidas; o nome do editor foi apagado; e um papel sinistro grampeado na capa explica que Willis-Ford foi \"extirpado\"."
         },
         {
             "id": "queensoftherivers",
@@ -183,27 +183,27 @@
         {
             "id": "apolloandmarsyas",
             "unique": true,
-            "label": "Apolo e Marsyas",
+            "label": "Apolo e Marsias",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "O librete de uma ópera perdida no que respeita ao concurso entre Apollo e Marsíe e o seu trágico resultado. O librettista é identificado apenas por suas iniciais: RKNJL."
+            "description": "O libreto de uma ópera perdida, sobre o concurso entre Apolo e Marsias e o seu trágico resultado. O libretista é identificado apenas por suas iniciais: RKNJL."
         },
         {
             "id": "skeletonsongs",
             "unique": true,
-            "label": "As músicas do esqueleto",
+            "label": "As Canções dos Esqueletos",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Poemas de alegria gananciosa compostos pelo possivelmente pseudônimo Arabella Dusk, o rumor herança virada para madam-por-poeta."
+            "description": "Poemas de deleite ganancioso compostos por, possivelmente pseudônimo, Arabella Dusk, a fofocada herdeira, que virou cafetina, que virou poetisa."
         },
         {
             "id": "burningofunburntgod",
             "unique": true,
-            "label": "A Queima do Deus Incandescente",
+            "label": "A Ardência do Deus Inqueimável",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
@@ -218,27 +218,27 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Um poema épico do século XVIII por um pseudônimo de \"Solipsistos\"."
+            "description": "Um poema épico do século XVIII sob pseudônimo \"Solipsistos\"."
         },
         {
             "id": "onwhatiscontainedbysilver",
             "unique": true,
-            "label": "No que é Contido por Prata",
+            "label": "Sobre o Que é Contido pela Prata",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Um terrível testemunho dos horrores que se encontram nos espelhos, uma edição recente de um texto de um terceiro século intitulado \"Poemander\"."
+            "description": "Um terrível bestiário dos horrores que se encontram nos espelhos. Esta é uma edição recente de um texto do século III, escrito por 'Poemander'."
         },
         {
             "id": "truecompleteasclepian",
             "unique": true,
-            "label": "Uma Contabilidade Verdadeira e Completa dos Mistérios Asclepianos das Rootas da Casa",
+            "label": "Um Relato Verdadeiro e Completo dos Mistérios Asclepianos das Raízes da Mansão",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Descrições dos \"Mistérios Asclepianos\", reproduzidas por um \"Rylee Grese\" de - supostamente - um texto muito mais antigo. É pouco provável que seja genuíno, mas faz uma referência a \"A Casa sem Muros e a Madeira\", mesmo lá no prólogo."
+            "description": "Descrições dos \"Mistérios Asclepianos\", reproduzidas por um tal \"Rylee Grese\" - supostamente - de um texto muito mais antigo. É pouco provável que seja genuíno, mas faz uma referência a \"A Mansão sem Muros e sua Foresta\", já bem no prólogo."
         },
         {
             "id": "geminiad",
@@ -250,74 +250,74 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Um manuscrito frágil, iluminado com formas geminadas de beleza triste e luminosa, e com todas as fases da lua. Pode ser tão velho quanto o século, mas a língua - Fucine - é muito mais velha. Coral decora sua capa, e suas bordas de página são afiadas o suficiente para cortar a garganta. [Fiz anotações para uma tradução. Agora posso estudá-la.]"
+            "description": "Um manuscrito frágil, iluminado com figuras espelhadas de beleza triste e luminosa, e com todas as fases da lua. Pode ser datado do século VII, mas a língua - Fucino- é muito mais velha. Coral decora sua capa, e suas bordas de página são afiadas o suficiente para cortar uma garganta. [Fiz anotações para uma tradução. Agora posso estudá-lo.]"
         },
         {
             "id": "geminiadread",
             "unique": true,
-            "label": "As Gemas [Read]",
+            "label": "A Geminíada [Lida]",
             "aspects": {
                 "knock": 2,
                 "tool": 1,
                 "auctionable": 2
             },
-            "description": "Um manuscrito frágil, iluminado com formas geminadas de beleza triste e luminosa, e com todas as fases da lua. Coral decora sua capa, e suas bordas de página são afiadas o suficiente para cortar a garganta. [Eu aprendi tudo o que puder com isso, mas o próprio livro ainda tem poder.]"
+            "description": "Um manuscrito frágil, iluminado com formas espelhadas de beleza triste e luminosa, e com todas as fases da lua. Coral decora sua capa, e suas bordas de página são afiadas o suficiente para cortar a garganta. [Eu aprendi tudo o que pude com isso, mas o próprio livro ainda tem poder.]"
         },
         {
             "id": "orchidtransfigurations1",
             "unique": true,
-            "label": "As transfigurações Orquídeas, Vol 1: um Banquete",
+            "label": "As Transfigurações Orquídeas, Vol 1: um Banquete",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "O primeiro volume de uma compilação de alegações quase-Rosicrucian, supostamente por Robert Fludd. Esta é uma tradução em inglês mais tarde."
+            "description": "O primeiro volume de uma compilação de alegorias quase-Rosicrucianas, supostamente por Robert Fludd. Esta é uma tradução em inglês tardia."
         },
         {
             "id": "orchidtransfigurations2",
             "unique": true,
-            "label": "As transfigurações Orquídeas, Vol 2: Um Aniversário",
+            "label": "As Transfigurações Orquídeas, Vol 2: Um Nascimento",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "O segundo volume de uma compilação de alegações quase-Rosicrucian, supostamente por Robert Fludd. Esta é uma tradução em inglês mais tarde."
+            "description": "O segundo volume de uma compilação de alegorias quase-Rosicrucianas, supostamente por Robert Fludd. Esta é uma tradução em inglês tardia."
         },
         {
             "id": "orchidtransfigurations3",
             "unique": true,
-            "label": "As transfigurações Orquídeas, Vol 3: Meios",
+            "label": "As transfigurações Orquídeas, Vol 3: Meio dia",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "O terceiro volume de uma compilação de alegações quase-Rosicrucian, supostamente por Robert Fludd. Esta é uma tradução em inglês mais tarde."
+            "description": "O terceiro volume de uma compilação de alegorias quase-Rosicrucianas, supostamente por Robert Fludd. Esta é uma tradução em inglês tardia."
         },
         {
             "id": "wainscothistories",
             "unique": true,
-            "label": "As Histórias Wainscot",
+            "label": "As Histórias do Apainelamento",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "\"Histórias de Behind the Walls\": uma miscellany of non-traditional histories compiladas por William Gore, incluindo batalhas que não são geralmente reconhecidas e países que não aparecem em nenhum mapa, contaram de uma forma brincalhinha e aparentemente fictícia."
+            "description": "Subtitulado \"Histórias de Além dos Muros\", uma miscelânea de histórias não tradicionais, compiladas por Wiliam Gore, incluindo batalhas que não são geralmente reconhecidas e países que aparecem em mapa algum. Contada de forma brincalhona, aparentemente ficcional."
         },
         {
             "id": "chioneatabydos",
             "unique": true,
-            "label": "Chione em Abydos",
+            "label": "Quíone em Ábidos",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Uma peça que lida com o adiamento de nove anos de uma deusa da neve na cidade da Trácia de Abydos, por \"Apollo Fireweaver\". Foi um sucesso em Londres na sua edição de 1892, quando foi republicada de um texto grego mais antigo."
+            "description": "Uma peça que lida com a estadia de nove anos de uma deusa nívea na cidade trácia de Ábidos, por Apolo Tecefogo\". Teve sucesso em Londres, em sua edição de 1892, quando ela foi republicada, aparentemente, de um texto grego mais antigo."
         },
         {
             "id": "irreproachabletraditionssocietynobleendeavour",
             "unique": true,
             "label": "As Tradições Irrepreensíveis...",
-            "description": "As Tradições Irrepreensíveis da Sociedade dos Esforços Nobres. Os membros da Sociedade dos Alagamentos Nobres adoptaram nomes nobres na sua iniciação: \"Parsival\", \"Rolar\", \"OisiPortugn\". Tiveram a sua inspiração no Flama Lasheado, que deu à ilha do Reino Unido um poder tão terrível em algumas histórias. Um Samuel Partridge sincronizou os seus esforços.",
+            "description": "As Tradições Irrepreensíveis da Sociedade do Nobre Empenho. Os membros da Sociedade do Nobre Empenho adotaram nomes nobres na sua iniciação: \"Parsival\", \"Roland\", \"Oisín\". Tiveram a sua inspiração no Chama Aprisionada, que deu à ilha do Reino Unido um poder tão terrível em algumas histórias. Um tal Samuel Partridge posterizou os seus esforços.",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
@@ -331,17 +331,17 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Um volume de ensinamentos coletados da Irmandade do nó, essa ordem arcano-contemplativa que existia em todas as histórias, mas em alguns era realmente muito poderosa. Isso foi gravado por \"Nuriel\" e dedicado a St. Tryphon."
+            "description": "Um volume de ensinamentos coletados da Irmandade do Nó, essa ordem arcano-contemplativa que existiu em todas as histórias, mas em alguns era realmente muito poderosa. Isso foi relatado por \"Nuriel\" e dedicado a São Trifão."
         },
         {
             "id": "roseofhypatia",
             "unique": true,
-            "label": "A Rosa da Hypatia",
+            "label": "A Rosa de Hipácia",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Um volume de ensinamentos coletados da Irmandade do nó, essa ordem arcano-contemplativa que existia em todas as histórias, mas em alguns era realmente muito poderosa. Isto foi registado pela \"Hypatia\" e dedicado a St Nympha."
+            "description": "Um volume de ensinamentos coletados da Irmandade do Nó, essa ordem arcano-contemplativa que existia em todas as histórias, mas em alguns era realmente muito poderosa. Isto foi registado pela \"Hipácia\" e dedicado a Santa Nympha."
         },
         {
             "id": "roseofwaznei",
@@ -351,57 +351,57 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Os ensinamentos heteróticos de um ramo vergonhoso da Irmandade do Knot, essa ordem contemplativa que existia em todas as histórias. Isto foi registado pelo 'Waznei? e dedicado a St Respicius."
+            "description": "Os ensinamentos heréticos de um ramo vergonhoso da Irmandade do Nó, essa ordem contemplativa que existia em todas as histórias. Isto foi registado pelo 'Waznei\" e dedicado a São Respício."
         },
         {
             "id": "sunsetpassages",
             "unique": true,
-            "label": "Passagens Pôr-do-Sol",
+            "label": "Passagens do Poente",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Uma miscelânea das orações funerárias, cerimónias e hinos da Igreja do Sol Inconquistado, ascendente na Terceira e Quarta Histórias. Mostrou-se durante o Intercalate, quando o Sol estava dividido, e não sobreviveu como uma força significativa."
+            "description": "Uma miscelânea de orações funerárias, cerimônias e hinos da Igreja do Sol Inconquistado, ascendente na Terceira e Quarta Histórias. Cismou-se durante o Intercalado, quando o Sol fora dividido, e não sobreviveu como uma força significativa."
         },
         {
             "id": "gospelzacchaeus",
             "unique": true,
-            "label": "O Evangelho do Zacaeus",
+            "label": "O Evangelho de Zaqueu",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Um relato extremamente heterodoxo da Messiá Nazarene e das suas obras, descrevendo a sua ascensão ao Mansus através da abertura do seu corpo."
+            "description": "Um relato extremamente heterodoxo da Messias Nazareno e das suas obras, descrevendo a sua ascensão ao Mansus através da abertura do seu corpo."
         },
         {
             "id": "matthiasamethystloss",
             "unique": true,
-            "label": "Em Matthias e na imagem de Ametista: Perda",
+            "label": "Sobre Matias e a Imago Ametista: Perda",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Um relato de um romance oculto. Uma certa Para, filho de Aaron, A afirmação de ter escrito isto num único dia e numa única noite como parte da sua entrada no ramo de Damascene da Câmara de Lethe - essa ordem rígida de imortais que rejeitam o seu passado e o seu futuro."
+            "description": "Um relato de um romance oculto. Um certa Para, filho de Aarão, afirmaa de ter escrito isto num único dia e numa única noite como parte da sua entrada no ramo de Damasceno da Casa de Lete - essa ordem rígida de imortais que rejeitam o seu passado e o seu futuro."
         },
         {
             "id": "matthiasamethysttransformation",
             "unique": true,
-            "label": "Em Matthias e na imagem de Ametista: Transformação",
+            "label": "Sobre Matias e a Imago Ametista: Transformação",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Um relato de um romance oculto. Um certo Iyavogos afirma ter escrito isto numa única noite como parte da sua iniciativa para o ramo Aleppine da Câmara de Lethe - essa ordem de imortais que não se comprometeria com nenhum Hour."
+            "description": "Um relato de um romance oculto. Um certo Iyavogos afirma ter escrito isto numa única noite como parte da sua iniciativa para o ramo Alepino da Casa de Lete- essa ordem de imortais que não se comprometeria com nenhuma Hora."
         },
         {
             "id": "matthiasamethystpursuit",
             "unique": true,
-            "label": "Em Matthias e na imagem de Ametista: Perseguição",
+            "label": "Sobre Matias e a Imago Ametista: Caça",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Um relato de um romance oculto. Um certo Mek afirma ter escrito isto numa única noite como parte da sua iniciativa no ramo de Theban da Câmara de Lethe - essa ordem de imortais que usaram as artes da água para se esconderem."
+            "description": "Um relato de um romance oculto. Um certo Mek afirma ter escrito isto numa única noite como parte da sua iniciativa no ramo de Tebano da Casa de Lete- essa ordem de imortais que usaram as artes da água para se esconderem."
         },
         {
             "id": "franklinbancroftdiaries",
@@ -411,17 +411,17 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "O Lord Franklin Bancroft foi lançado nas artes do Flowermaker pela \"bruxa\" Fionna Ayrshire. Levantou-se para se tornar um prestador de serviços ocultos e de prazeres secretos, antes do seu abrupto desaparecimento em 1790."
+            "description": "O Lord Franklin Bancroft foi iniciado nas artes do Floreador pela \"bruxa-rosa\" Fionna Ayrshire. Ascendeu até se tornar um provedor de serviços ocultos e prazeres secretos da Sociedade, antes de seu abrupto desaparecimento em 1790."
         },
         {
             "id": "indignitiesobliviate",
             "unique": true,
-            "label": "Essas indignidades perfuradas pela fraternidade decrescente de esquecimentos",
+            "label": "Dessas Indignações Perpetradas Pela Enganosa Fraternidade dos Obliviatas",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Não está claro se 'C.R.O.D', que é identificado apenas por suas iniciais, foi de fato uma entrada na ordem esquecida dos adeptos imortais. Escreveu no século XVI, depois de a ordem - se é que se pode acreditar - ter passado a altura do seu poder."
+            "description": "Não está claro se 'C.R.O.D', que é identificado apenas por suas iniciais, foi de fato uma iniciado na ordem Obliviata dos adeptos imortais. Escreveu no século XVI, depois de a ordem - se é que se pode acreditar - ter deixado seu ápice para trás."
         },
         {
             "id": "furioustantra",
@@ -431,27 +431,27 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Mais tarde, transcrito pelo médio-técnico de Jacob Oliver Topp-Mugglestone. Diz a tradição que ele encontrou na casca de um carvalho por um raio."
+            "description": "Como posteriormente transcrito pelo médium e pirotecnista Jacob Oliver Topp-Mugglestone. Diz a lenda que ele o encontrou marcado à fogo na casca de um carvalho, por um trovão."
         },
         {
             "id": "devouredtantra",
             "unique": true,
-            "label": "O Tantra Envidado",
+            "label": "O Tantra Devorado",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "O sacerdote diplomata Stanislav John Schaller transcreveu isso da biblioteca de um Longo Vermelho, mas o seu manuscrito permanece numa coleção privada de Kerisham."
+            "description": "O sacerdote diplomata Stanislav John Schaller transcreveu isso da biblioteca de um Longo Vermelho, mas o seu manuscrito permanece numa coleção privada em Kerisham."
         },
         {
             "id": "ceaselesstantra",
             "unique": true,
-            "label": "O Tantra sem César",
+            "label": "O Tantra Incessável",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "O archoreógrafo avante-garde, Nicholas Keirle, supostamente, incorporou esta Tantra nos seus ameaçadores escrutínios."
+            "description": "O coreógrafo avante-garde Nicholas Keirle, supostamente, incorporou esta Tantra nos seus agressivos ballets."
         },
         {
             "id": "knownunknowntantra",
@@ -461,57 +461,57 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Carlos Garcia Sauri, a mística ecestática dos Pirinéus, era conhecido por recitar isto em três línguas, embora nunca tivesse visitado o Subcontinente."
+            "description": "Carlos Garcia Sauri, o extático mistico dos Pirineus, era conhecido por saber recitar isso em três idiomas, embora ele nunca tenha ido ao Subcontinente."
         },
         {
             "id": "encirclingtantra",
             "unique": true,
-            "label": "O Tantra Encirante",
+            "label": "O Tantra Cercante",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "O explorador e o empreendedor T. Everett Duplantis tentaram saquear o templo onde este texto foi detido. O destino dele está registrado num apêndice."
+            "description": "O explorador e o empreendedor T. Everett Duplantis tentou uma vez saquear o templo onde este texto era mantido. O destino dele está registrado num apêndice."
         },
         {
             "id": "shavenlocktantra",
             "unique": true,
-            "label": "Tantra da Trava Forja",
+            "label": "O Tantra da Mecha Raspada",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Também conhecido como 'The One Quem Shaven His Cabe?, esta história é a história que até mesmo as formas de Vanaras rejeitaram."
+            "description": "Também conhecido como \"aquele que raspou sua cabeça\". Isso, a lenda conta, é a tradição que até mesmo o metamorfo Vanaras rejeitou."
         },
         {
             "id": "tantraworms",
             "unique": true,
-            "label": "O Tantra de Vermes",
+            "label": "O Tantra dos Vermes",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "O entomólogo Juliana Zawistowski acabou por insistir que este texto foi escrito por insetos que habitavam uma pele humana. Nunca apresentou provas da sua alegação."
+            "description": "A entomóloga Juliana Zawistowski eventualmente começou a insistir que este texto foi escrito por insetos habitando uma pele humana. Ela nunca apresentou evidencias de sua alegação."
         },
         {
             "id": "bookofcentipede",
             "unique": true,
-            "label": "O Livro do Centipede",
+            "label": "O Livro da Centopeia",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "No meio da década de 1860, uma \"Sra. Yi\" apresentava um entretenimento com base neste livro."
+            "description": "No meio da década de 1860, uma \"Madame Yi\" apresentou entretenimento baseado, ela dizia, neste livro."
         },
         {
             "id": "accountkanishkspidersdoor",
             "unique": true,
-            "label": "O Contrato de Kanishk na Porta das Aranhas",
+            "label": "O Relato de Kanishk na Porta da Aranhas",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "A vítima e amante de Lok Kahuli, Kanishk, escreveu esta conta, talvez póstumamente."
+            "description": "Lok Kahuli, a vitima e amante de Kanishk, escreveu este relato, talvez postumoniamente."
         },
         {
             "id": "stumm",
@@ -532,37 +532,37 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Uma lata de filmagem de nitrato rotulada de STUMM! - 'Silêncio' ou, talvez, 'Mute'. O nome do diretor, 'Jernik Krosse', é shakamente anexado."
+            "description": "Uma lata de filmagem de nitrato rotulada de STUMM! - 'Silêncio' ou, talvez, 'Mudo'. O nome do diretor, 'Jernik Krosse', fora anexado precariamente."
         },
         {
             "id": "vinzantinscriptions",
             "unique": true,
-            "label": "As Incrições de Vinzant",
+            "label": "As Inscrições de Vinzant",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Everett Vinzant transcreveu estes de um penhasco na Anatlia, onde ele sobreviveu famosamente a um ataque elétrico. Ele morreu sete anos depois até o dia. Seus ossos, a lenda diz, estavam quentes ao toque."
+            "description": "Everett Vinzant transcreveu estes de um penhasco em Anatólia, onde ele famosamente sobreviveu a um ataque elétrico. Ele morreu sete anos exatamente. Seus ossos, a lenda diz, estavam quentes ao toque."
         },
         {
             "id": "larquebinecodex",
             "unique": true,
-            "label": "O Códice Larquebine",
+            "label": "O Códice Larquebino",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Christoph Larquebus afirmou ter comprado duas cópias manuais do Codex a partir de uma família de bruxas nas costas do mar de Marmara. Um terço era \"dado ao Mar\"."
+            "description": "Christoph Larquebus afirmou ter comprado duas cópias manuais do Códice de uma família de bruxas nas costas do mar de Marmara. Uma terceira foi 'dada ao mar'."
         },
         {
             "id": "againstsisterhoodknot",
             "unique": true,
-            "label": "Contra a Irmandade do Knot e...",
+            "label": "Contra a Irmandade do Nó e...",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "(EN) \"Contra a Irmandade dos Knot e a Foulness dos seus Alfândegas Depreciadas\". Hieronymus Pseudo-Hypnerotomachus escreveu este furioso grito sobre a influência sinistra da Irmandade na sua própria Igreja do Sol Inconquistado."
+            "description": "\"Contra a Irmandade dos Knot e a Obscenidade de seus Costumes Depravados\". Hiernônimo Pseudo-Hipnerotômaco escreveu esta furiosa arenga sobre a influência sinistra da Irmandade na sua própria Igreja do Sol Inconquistado."
         },
         {
             "id": "morphycodex",
@@ -572,17 +572,17 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Em que uma sacerdote da Irmandade de Knot afirma ter descoberto o verdadeiro significado do nascimento do Thunderskin."
+            "description": "No qual uma sacerdotisa da Irmandade do Nó afirma ter descoberto o verdadeiro significado do nascimento do Troarderme."
         },
         {
             "id": "leoninetantra",
             "unique": true,
-            "label": "O Leonine Tantra",
+            "label": "O Tantra Leonino",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Na mais notória tradução do Leonine Tantra, Ashley Phillips está listado como tradutor, mas a sua existência é explicitamente negada no prólogo. Esta confusão é característica dos livros que fazem referência aos Grandes Princípios Hooted."
+            "description": "Na mais notória tradução do Tantra Leonino, Ashley Phillips está listado como tradutor, mas a sua existência é explicitamente negada no prólogo. Esta confusão é característica dos livros que fazem referência aos Grandes Príncipes Encapuzados."
         },
         {
             "id": "incandescenttantra",
@@ -592,27 +592,27 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Michael Blockley, o excêntrico magata de ferro, gostava de citar este tantra. Blockley morreu em um incêndio de fábrica."
+            "description": "Michael Blockley, o excêntrico magnata do ferro, gostava de citar este tantra. Blockley morreu em um incêndio de fábrica."
         },
         {
             "id": "thirstingtantra",
             "unique": true,
-            "label": "A Sede de Tantra",
+            "label": "O Tantra Sedento",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "C.G. Burial, o lutador de temperamento, publicou elementos disso em um panfleto, que teve de ser retirado e destruído após se tornar muito popular."
+            "description": "C.G. Burial, o defensor da temperança, publicou elementos disto em um panfleto, que tiveram que ser recolhidos e destruídos após se tornarem muito populares."
         },
         {
             "id": "flayedtantra",
             "unique": true,
-            "label": "O Tantra Matado",
+            "label": "O Tantra Esfolado",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Este tantra é registado como sendo falado por um indivíduo enigmático identificado como \"Peel\", com muitas das qualidades da naga mitológica. A Flayed Tantra desempenhou um papel notável na panfleta paranóica de Alexander Sparrow."
+            "description": "Este tantra é registado como sendo falado por um indivíduo enigmático identificado como \"Casquinha\", com muitas das qualidades da naga mitológica. O Tantra Esfolado foi parte notável da campanha paranóica de Alexander Sparrow."
         },
         {
             "id": "watchfultantra",
@@ -622,27 +622,27 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Notória pelo seu envolvimento na morte de Dafyd Jones e Meredith Blaine, dois físicos iniciais que cada um alegava ter o único exemplar e que acabaram por lutar com um duelo em 1840."
+            "description": "Notório por sua participação nas mortes de Dafyd Jones e Meredith Blaine, dois físicos antigos, ambos alegando que tinham a única cópia e, ao fim, acabaram duelando sobre a discordância em 1840."
         },
         {
             "id": "twinserpenttantra",
             "unique": true,
-            "label": "O Twin-Serpente Tantra",
+            "label": "O Tantra da Serpente Gêmea",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Pouco antes do início da Grande Guerra, \"Alexander Sparrow\" - quase certamente um pseudodonym - publicou folhetos que reivindicam a influência de \"Snake Princes\" nos assuntos mundiais. O texto chamado Twin-Serpent Tantra foi a sua principal inspiração."
+            "description": "Pouco antes do início da Grande Guerra, \"Alexander Sparrow\" - quase certamente um pseudônimo- publicou folhetos que alegavam haver a influência de \"Príncipes Ofídios\" nos assuntos mundiais. O texto chamado Tantra das Serpentes Gêmeas foi sua inspiração principal."
         },
         {
             "id": "firecircletantra",
             "unique": true,
-            "label": "O Círculo de Fogo Tantra",
+            "label": "O Tantra do Círculo Ígneo",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Na Europa Ocidental, a antiga cópia foi roubada da Biblioteca Britânica em 1892. Um Harvey Hattington confessou o crime e afirmou tê-lo comido com manteiga e alho, num momento de capricho ingovernável."
+            "description": "A unica cópia conhecida existente na Europa Ocidental foi roubada da Biblioteca Britânica em 1892. Um tal Harvey Hattington confessou o crime e alegou ter comido o texto, com manteiga e alho, num momento de impulso ingovernável."
         },
         {
             "id": "asthesunhiscourse",
@@ -652,17 +652,17 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Joel da Ponte, soldado aposentado e portador de portões, escreveu este poema épico sobre a famosa inexplicável decisão de Alexandre em emissão de se retirar da guerra com os Aquemenitas e o seu subsequente regresso à Macedónia."
+            "description": "Joel da Ponte, soldado aposentado e, as vezes, pedagista, escreveu este poema épico sobre a famosa e inexplicável decisão de Alexandre de bater em retirada em Isso, na guerra contra os Aquemênidas, e sua subsequente volta para a Macedônia."
         },
         {
             "id": "concursumdiaries",
             "unique": true,
-            "label": "Os Diários de Concurso",
+            "label": "Os Diários do Concursum",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Os diários do explorador e assassino Lars Westergren. Ele os traduziu indevidamente para Phrygian, por privacidade."
+            "description": "Os diários do explorador e assassino Lars Westergren. Ele os traduziu, absurdamente, para o Frígio, por questão de privacidade."
         },
         {
             "id": "ironbook",
@@ -672,7 +672,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Um manual do Ordo Limiae, uma ordem de quase-imortais que mantinha um enclave secreto na origem do rio Limia, na província romana de Hispânia Gallaecia. Este manual foi compilado por um Melerai Yivni, que afirma ter viajado para se juntar ao Ordo pela \"encruzilhada das águas\"."
+            "description": "Um manual da Ordo Limiae, uma ordem de quase-imortais que mantinha um enclave secreto na nascente do rio Limia, na província romana de Galícia Hispânica. Este manual foi compilado por um Melerai Yivni, que afirma ter viajado para se juntar a Ordo pela \"encruzilhada das águas\"."
         },
         {
             "id": "silverbook",
@@ -682,7 +682,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Um manual do Ordo Limiae, uma ordem de quase-imortais que mantinha um enclave secreto na origem do rio Limia, na província romana de Hispânia Gallaecia. Este manual foi compilado por um Burzghash, que explica que veio juntar-se à Ordo da \"cidade de mensageiros\" depois de ter abandonado o serviço da Costa do Marfim."
+            "description": "Um manual da Ordo Limiae, uma ordem de quase-imortais que mantinha um enclave secreto na nascente do rio Limia, na província romana da Galícia Hispânica. Este manual foi compilado por um tal Burzghash, que explica que veio juntar-se à Ordo da \"cidade de águias mensageiras\" depois de ter abandonado o serviço da Columba de Marfim."
         },
         {
             "id": "ivorybook",
@@ -692,27 +692,27 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Um manual do Ordo Limiae, uma ordem de quase-imortais que mantinha um enclave secreto na origem do rio Limia, na província romana de Hispânia Gallaecia. Este manual foi compilado por um Kurenai, que afirma ter fugido da \"tirania do Trono de Crisantema\" para atravessar o mundo e aderir à Ordo."
+            "description": "Um manual da Ordo Limiae, uma ordem de quase-imortais que mantinha um enclave secreto na nascente do rio Limia, na província romana de Galícia Hispânica. Este manual foi compilado por um Kurenai, que afirma ter fugido da \"tirania do Trono Crisântemo\" para atravessar o mundo e aderir à Ordo."
         },
         {
             "id": "worlddoesnotweep",
             "unique": true,
-            "label": "O mundo não pesa",
+            "label": "O Mundo Não Pranteia",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Joshua 'Brown' encontrou isso num poço no Hamas. Há uma história improvável de que foi abandonada por Alexander durante a sua retirada de problemas."
+            "description": "Joshua 'Marrom' encontrou isso num poço em Hamate. Há uma história improvável de que foi abandonada por Alexander durante a sua retirada de Isso."
         },
         {
             "id": "deedsofthescarredcaptain",
             "unique": true,
-            "label": "As Deeds do Capitão Cicatriz",
+            "label": "Os Feitos do Capitão das Cicatrizes",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Foi dolorosamente reunido pelo soldado da fortuna e do homem das remessas, Pavel Shulga, durante os seus anos na Grécia."
+            "description": "Detalhadamente montado por um mercenário e às vezes remetente, Pavel Shulga, durante seus anos na Grécia."
         },
         {
             "id": "bookofdissolution",
@@ -722,27 +722,27 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Alexander Probst, seguindo o trabalho fundamental da Hosty Moor, recuperou uma cópia deste trabalho de um templo de montanha na Pérsia. Outras cópias são superficiais de vez em quando, geralmente gravadas em rocha."
+            "description": "Alexander Probst, seguindo o trabalho fundamental de Hosty Moor, recuperou uma cópia deste trabalho de um templo montanhoso na Pérsia. Outras cópias vêm a tona de vez em quando, geralmente marcadas à fogo em rocha."
         },
         {
             "id": "catalogueofunchartedpleasures",
             "unique": true,
-            "label": "Um catálogo de Pleasures Inexplorados",
+            "label": "Um Catálogo de Prazeres Inexplorados",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "O \"Senhor Negro Gentleman\" é o único, e bastante grandioso, autor deste trabalho muitas vezes copiado."
+            "description": "O \"Cavalheiro Negro\" é o único, e bastante pomposo, autor deste trabalho muitas vezes copiado."
         },
         {
             "id": "thosewhodonotsleep",
             "unique": true,
-            "label": "Aqueles que não dormem",
+            "label": "Aqueles que não Dormem",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "O místico Brodnax fala das origens da Irmã e da Bruxa, e do Thunderskin."
+            "description": "O místico Brodnax fala das origens da Irmãebruxa, e do Troarderme."
         },
         {
             "id": "theskythesoul",
@@ -752,27 +752,27 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "O grande trabalho de Kalle, um poeta assético escrevendo na corte dos Reis sem Sombra."
+            "description": "O grande trabalho de Kalle, um poeta ascético, escritor na corte dos Reis sem Sombra."
         },
         {
             "id": "onthematterandthedeedsofserpents",
             "unique": true,
-            "label": "Na matéria e nas noções de serpentes",
+            "label": "Sobre a Questão e Feitos das Serpentes",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Esta foi provavelmente a \"Profecias de Naga\" transformada em inglês e ilustrada por \"William Midnight\" em Paris, em 1880; mas mostra uma série de divergências em relação a esse texto. É certamente bastante recente pelas normas dos textos de Vak."
+            "description": "Isso era provavelmente o \"Profecias dos Naga\", passado para o Inglês e ilustrado por \"William Midnight\", em Paris, em nos anos 1880; mas contêm uma série de divergência daquele texto. Certamente é bem recente para o que é normal de textos em Vak."
         },
         {
             "id": "serenityofblackwood",
             "unique": true,
-            "label": "A Serenidade da Madeira Negra",
+            "label": "A Serenidade da Floresta Negra",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Uma história alegórica da Câmara de Lethe, que está aqui implícita, foi inspirada pelo Centipede. Sereno Blackwood\" é um apelido oculto até hoje."
+            "description": "Uma história alegórica da Casa de Lete, que, aqui está subentendido, foi inspirada pela Centopeia. Sereno Blackwood\" é um pseudônimo oculto até hoje."
         },
         {
             "id": "bookofthrones",
@@ -792,7 +792,7 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "O padre Juceh comemora a extirpação dos deuses-who-were-stone , aqueles Horas que precederam a humanidade."
+            "description": "O sacerdote Juceh comemora a extirpação dos Deuses-Que-Eram-Pedra, aqueles Horas que precederam a humanidade."
         },
         {
             "id": "bookoftrueblood",
@@ -802,22 +802,22 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Cassiano, o Thoman, revela as ações da Legião Innumerada, o exército secreto que protegia Roma contra o Império sem sombra."
+            "description": "Cassiano, o Tomano, revela as ações da Legião Incontável, o exército secreto que protegia Roma contra o Império sem sombra."
         },
         {
             "id": "burningwoman",
             "unique": true,
-            "label": "A mulher em chamas",
+            "label": "A Mulher Ardente",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Uma transcrição da peça de Menander do vitorioso, possivelmente o dramatista desse nome, em Phrygian, com comentários."
+            "description": "Uma transcrição da peça de Menander, o Vitorioso, possivelmente o dramaturgo desse nome, em Frígio, com comentários."
         },
         {
             "id": "twentysixenticementsseventorments",
             "unique": true,
-            "label": "Vinte e seis adesões, sete Tormentos",
+            "label": "Vinte e Seis Seduções, Sete Tormentos",
             "aspects": {
                 "text": 1,
                 "auctionable": 2

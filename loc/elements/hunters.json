@@ -9,7 +9,7 @@
                 "meticulous": 1,
                 "grim": 1
             },
-            "description": "Zachary Wakefield: uma melancolia, mas sem remorso inspector da polícia. Recentemente, ele foi enviado para a Mesa de Supressão.",
+            "description": "Zachary Wakefield: um melancólico, porém implacável, inspetor da polícia. Recentemente, ele foi enviado para o departamento de Supressão.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -28,7 +28,7 @@
                 "mystic": 1,
                 "erratic": 1
             },
-            "description": "Hobson tem sido jornalista, um detetive privado e, muito rapidamente, um padre. Agora ele é um agente da Mesa de Supressão.",
+            "description": "Hobson já fora um jornalista, um detetive privado e, brevemente, um padre. Agora ele é um agente do departamento de Supressão.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -47,7 +47,7 @@
                 "tenacious": 1,
                 "mystic": 1
             },
-            "description": "A novilha, sufragista e aventureira. Recentemente, ela colocou seus entusiasmos quixóticos e uma riqueza considerável ao serviço da Mesa de Supressão.",
+            "description": "A herdeira, sufragista e aventureira. Recentemente, ela colocou seus entusiasmos quixotesco e uma riqueza considerável a serviço do departamento de Supressão.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -59,14 +59,14 @@
         },
         {
             "id": "investigator4",
-            "label": "Dragão da Doutora Natalia",
+            "label": "Doutora Natalia Dragon",
             "aspects": {
                 "hunter": 1,
                 "mortal": 1,
                 "idealist": 1,
                 "meticulous": 1
             },
-            "description": "Ela riu-se da academia por suas análises de histórias alternativas e isso só a tornou mais resolvida. Agora, trabalha com a Mesa de Supressão.",
+            "description": "Ela foi ridicularizada na academia por suas análises de histórias alternativas, e isso apenas a tornou mais decidida. Agora ela trabalha no Departamento de Supressão.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -78,12 +78,12 @@
         },
         {
             "id": "defaulthunter",
-            "label": "Detetive Weary",
+            "label": "Detetive Cansado",
             "aspects": {
                 "hunter": 1,
                 "mortal": 1
             },
-            "description": "Este cavalheiro preferiria ser deixado em paz com o seu tubo e a sua Notícia Illustrada de Londres, mas não, <i>aparentemente</i> um pouco de abominações tem que ser caçado como um cão louco, e <i>aparentemente,</i> ninguém mais pode encontrar o tempo.",
+            "description": "Este cavalheiro preferiria ser deixado em paz com o seu cachimbo e seu Jornal Ilustrado de Londres, mas não, <i>aparentemente</i> um conjurador de abominações tem que ser caçado como um cão louco, e <i>aparentemente,</i> ninguém mais tem tempo pra isso.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "killhunter": "corpse",
@@ -103,7 +103,7 @@
                 "heart": 3,
                 "winter": 4
             },
-            "description": "Zachary Wakefield: uma melancolia, mas sem remorso, inspector da polícia. Vamos ter certeza de que ele morre em cativeiro.",
+            "description": "Zachary Wakefield: uma melancolia, mas sem remorsos, inspetor da polícia. Vamos ter certeza de que ele morra em cativeiro.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -124,7 +124,7 @@
                 "heart": 3,
                 "knock": 3
             },
-            "description": "Hobson tem sido jornalista, detetive privado e, muito brevemente, padre. Vamos ter certeza de que ele morre em cativeiro.",
+            "description": "Hobson tem sido jornalista, um detetive privado e, brevemente, um padre. Vamos ter certeza de que ele morra em cativeiro.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -145,7 +145,7 @@
                 "heart": 3,
                 "edge": 3
             },
-            "description": "Os herdeiros, sufragistas e aventureiros. Vamos ter certeza de que ela morre em cativeiro.",
+            "description": "A herdeira, sufragista e aventureira. Vamos ter certeza de que ela morra em cativeiro.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -157,7 +157,7 @@
         },
         {
             "id": "investigator4prisoner",
-            "label": "Doutora Natalia Dragão: Capturado!",
+            "label": "Doutora Natalia Dragon: Capturada!",
             "aspects": {
                 "prisoner": 1,
                 "mortal": 1,
@@ -165,7 +165,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "Ela riu-se da academia por suas análises de histórias alternativas e isso só a tornou mais resolvida. Temos de ter a certeza de que morre em cativeiro.",
+            "description": "Ela foi ridicularizada na academia por suas análises de histórias alternativas, e isso apenas a tornou mais decidida. Vamos ter certeza de que ela morra em cativeiro.",
             "unique": true,
             "xtriggers": {
                 "killmortal": "corpse",
@@ -177,7 +177,7 @@
         },
         {
             "id": "defaulthunterprisoner",
-            "label": "Detetive Weary Capturado!",
+            "label": "Detetive Cansado Capturado!",
             "aspects": {
                 "mortal": 1,
                 "prisoner": 1,
@@ -185,7 +185,7 @@
                 "grail": 3,
                 "heart": 3
             },
-            "description": "Esse cavalheiro preferiria ser deixado em paz com o seu tubo e a sua Notícia Illustrated Londres, mas agora ele está metido em algum buraco miserável no chão.",
+            "description": "Este cavalheiro preferiria ser deixado em paz com o seu cachimbo e suas noticias ilustradas de Londres, mas agora ele está metido em algum buraco miserável no chão.",
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "douglas_r",

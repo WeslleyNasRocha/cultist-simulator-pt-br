@@ -15,9 +15,9 @@
         },
         {
             "id": "brightyoungthing",
-            "label": "A Brilhante Jovem Coisa",
+            "label": "Brilhante Jovenzinho",
             "description": "Dotada do berço com riquezas e talento. Uma vida fácil, confortável e deliciosa estende-se na sua frente como um ambarino tapete.",
-            "startdescription": "Senti falta do alvorecer. Geralmente sinto. Terão muitos mais.",
+            "startdescription": "Eu não vi o alvorecer. Eu geralmente não o vejo. Haverão muitos outros mais.",
             "effects": {
                 "legacybytjob": 1,
                 "health": 1
@@ -30,8 +30,8 @@
         {
             "id": "physician",
             "label": "O Médico",
-            "description": "À medida que o paciente descendeu a seus estágios finais do delírio, eu fiz abundantes anotações. No aquecido zumbido da noite, eu reli todas essas anotações, e elas começaram, por fim a fazer algum tipo de sentido.",
-            "startdescription": "Hoje é o dia que retorno a meu posto no Instituto. Tenho uma posição e uma reputação. Isso deve significar algo; mas começo agora a sonhar de algo outro.",
+            "description": "À medida que o paciente descendeu a seus estágios finais do delírio, eu fiz abundantes anotações. No calor enxameante da noite, eu reli todas essas anotações, e elas começaram, por fim a fazer algum tipo de sentido.",
+            "startdescription": "Hoje é o dia que retorno a meu posto no Instituto. Tenho uma posição e uma reputação. Isso deve significar algo; mas começo agora a sonhar sobre outras coisas.",
             "effects": {
                 "legacyphysicianjob": 1,
                 "reason": 1
@@ -45,7 +45,7 @@
             "id": "detective",
             "label": "O Detetive",
             "description": "Sou um Inspetor na polícia da capital, encarregado de investigar as mais vís e miseráveis coisas que um humano faz com outro.",
-            "startdescription": "Acabei com a carreira de ladrões, assassinos, chantagistas, incendiários... alguns criminosos ainda piores; e, em algumas manhãs, sabe-se que trêmulas são minhas mãos.",
+            "startdescription": "Acabei com a carreira de ladrões, assassinos, chantagistas, incendiários. Alguns criminosos fazem coisas ainda piores; e, em algumas manhãs, têm fama as minhas mãos por tremerem.",
             "effects": {
                 "legacydetectivejob": 1,
                 "reason": 1,
@@ -77,7 +77,7 @@
         {
             "id": "apostleforge",
             "label": "Apóstolo Ardente",
-            "startdescription": "Aquele que nos formou ascendeu a um estado mais elevado... em uma história, ao menos. O passado é incerto. Porém, eu cuidarei do cadinho para sua próxima ascensão.",
+            "startdescription": "Aquele que nos formou ascendeu a um estado mais elevado... em uma história, ao menos. O passado é incerto. Porém, eu cuidarei do cadinho para sua próxima ascenção.",
             "description": "O nosso Grão Formador cresceu em poder - e tem inimigos poderosos. Ele continuará escondendo-se, enquanto eu o servirei como seu instrumento.",
             "effects": {
                 "health": 2,
@@ -92,7 +92,7 @@
             "id": "apostlegrail",
             "label": "Apóstolo Obsonato",
             "startdescription": "Aquele que nos nutriu ascendeu a um estado mais elevado... em uma história, ao menos. O passado é incerto. Porém, eu preparei o banquete para sua próxima ascensão.",
-            "description": "Nosso Deleite cresceu em poder - e tem inimigos poderosos. Ele continuará escondendo-se, enquanto eu o servirei como seu recipiente.",
+            "description": "Nosso Deleite cresceu em poder - e tem inimigos poderosos. Ele continuará escondido enquanto eu sirvo como seu recipiente.",
             "effects": {
                 "passion": 1,
                 "health": 1,
@@ -105,7 +105,7 @@
         },
         {
             "id": "apostlelantern",
-            "label": "Apóstolo Entheato",
+            "label": "Apóstolo Inspirado",
             "startdescription": "O Iluminado aguarda na Casa do Sol - aguarda para ascender mais. Eu sou sua mão.",
             "description": "Não me lembro do que ocorreu. Não me lembro de quem sou. Mas os sonhos me ensinaram que fazer.",
             "effects": {

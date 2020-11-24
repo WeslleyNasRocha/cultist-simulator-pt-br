@@ -590,7 +590,7 @@
         },
         {
             "id": "studyreason",
-            "label": "Ler tudo o que for à mão",
+            "label": "Ler o Que Estiver à Mão",
             "actionid": "study",
             "requirements": {
                 "reason": 1,
@@ -600,7 +600,7 @@
             "effects": {
                 "erudition": 1
             },
-            "startdescription": "O mundo está eivado de palavras impressas e até os jornais contêm conhecimento, às vezes.",
+            "startdescription": "O mundo está inundado de palavras impressas. Até os jornais contêm conhecimento, às vezes.",
             "description": "As palavras continham conhecimento. Agora eu as contenho. É um pouco como roubo e um pouco como festejo, e um pouco como o progresso de uma doença infecciosa.",
             "warmup": 60,
             "craftable": true

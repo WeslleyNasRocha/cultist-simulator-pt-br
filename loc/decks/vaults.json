@@ -3,7 +3,7 @@
         {
             "id": "locationscapital",
             "label": "Locais Ocultos na Capital",
-            "description": "Lugares próximos às mãos.",
+            "description": "Lugares próximos à mão.",
             "spec": [
                 "vaultcapital1",
                 "vaultcapital2",
@@ -45,8 +45,8 @@
         },
         {
             "id": "vaultslandbeyondforest",
-            "label": "Locais Ocultos na Terra além da Floresta",
-            "description": "Uma manta de retalhos de possibilidades em uma terra assombrada de montanha.",
+            "label": "Locais Ocultos na Terra Além da Floresta",
+            "description": "Uma colcha de retalhos de possibilidades em uma terra assombrada por montanhas.",
             "spec": [
                 "vaultlandbeyondforest1",
                 "vaultlandbeyondforest2",
@@ -86,7 +86,7 @@
         {
             "id": "vaultseveningisles",
             "label": "Locais Ocultos nas Ilhas Tardias",
-            "description": "Ilhas não mapeadas no âmbito do Porto do Meio-Dia.",
+            "description": "Ilhas não mapeadas no limar de Porto do Meio-Dia.",
             "spec": [
                 "vaulteveningisles1",
                 "vaulteveningisles2",

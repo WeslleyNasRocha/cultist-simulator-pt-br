@@ -226,7 +226,7 @@
             "actionid": "roseextra",
             "comments": "allows us to have only one of a jealous lover break up with the player",
             "label": "Consequências!",
-            "startdescription": "@#uqauclair|Auclair#uqcat|Cat#uqclovette|Clovette#uqclifton|Clifton#uqdorothy|Dorothy#uqelridge|Elridge\n#uqenid|Enid#uqlaidlaw|Laidlaw#uqleo|Leo#uqneville|Neville#uqporter|Porter#uqrenira|Renira#uqrose|Rose\n#uqsaliba|Saliba#uqslee|Slee#uqsylvia|Sylvia#uqtristan|Tristan\n#uqvalciane|Valciane#uqvictor|Victor#uqviolet|Violet#uqysabet|Ysabet#|My lover@ will tolerate my neglect no longer.",
+            "startdescription": "Meu amado@ não irá mais tolerar minha negligência.",
             "description": "Nenhum de nós se recorda deste momento.",
             "slots": [
                 {
@@ -377,7 +377,7 @@
             "slots": [
                 {
                     "id": "What?",
-                    "label": "Vida",
+                    "label": "Saúde",
                     "description": "Os pontos fortes do corpo",
                     "required": {
                         "health": 1,

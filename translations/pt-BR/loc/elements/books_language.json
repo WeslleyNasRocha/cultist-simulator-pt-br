@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "textbooklatin",
-            "label": "Gildersleeve's Latin Grammar",
+            "label": "Gramática Latina de Gildersleeve",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
@@ -16,55 +16,55 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "O príncipe Alessandro LaCroce passou anos a estudar em segredo os comprimidos retirados dos Marés Fucina, na Itália Central. O trabalho dele lhe permitirá decifrar textos Fucine.",
+            "description": "O príncipe Alessandro LaCroce passou anos a estudar em segredo as placas retiradas dos Pântanos Fucinos, na Itália Central. O trabalho dele lhe permitirá decifrar textos Fucinos.",
             "unique": true
         },
         {
             "id": "textbookgreek",
-            "label": "Hner e Gerth do Kudit",
+            "label": "Kühner e Gerth",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Uma gramática grega e uma arma essencial para uma luta feroz com uma língua de desafio, o Ku├hrliche Grammatik der griechischen Sprache."
+            "description": "Kühner and Gerth's 'Ausführliche Grammatik der griechischen Sprache' - Um livro de gramática grega. Uma arma essencial para uma luta feroz contra uma língua desafiadora."
         },
         {
             "id": "textbookphrygian",
-            "label": "As Inscrições do Velho",
+            "label": "As Inscrições de Velshorn",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Um poema épico e particularmente erótico que descreve os casais de um músico mal formado com e eventualmente soar pelo Mãe Vermelho - tanto em grego como em Phrígio. O intrepid Cal Velshorn encontrou estas inscrições em uma parede do templo no Halicarnassus, mas a mesma inscrição surgiu num número surpreendente de outros lugares. [Se falar grego, você pode usar isto para aprender Phrygian.]",
+            "description": "Um poema épico e particularmente erótico que descreve os encontros de um músico impulsivo com a Mãe Vermelha, e seu eventual esfolamento - tanto em grego como em Frígio. O intrépido Carl Velshorn encontrou estas inscrições em uma parede do templo no Halicarnasso, mas a mesma inscrição tem aparecido num número surpreendente de outros lugares. [Se falar grego, você pode usar isto para aprender Frígio.]",
             "unique": true
         },
         {
             "id": "textbookaramaic",
-            "label": "A VENDA DE MAGUS BRANDT E A CONTA ÚNICA DO TÓRIO VERMELHO DO TÓRIO DA LIGA DE ALGUIDA DA VERIFICAÇÃO",
+            "label": "O AUTENTICO E ÚNICO PARECER DA VERDADEIRA LÍNGUA DA DA TERRA SANTA DO ALTÍSSIMO DE MAGNUS VON BRANDT",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Escrito de forma empolgante e apressada por um cavalheiro dominado por um entusiasmo Transcendente, mas ainda assim um guia útil para o Aramai."
+            "description": "Escrito de forma empolgante e apressada por um cavalheiro dominado por um entusiasmo Transcendentalista, mas ainda assim um guia útil para o Aramaico."
         },
         {
             "id": "textbookmandaic",
-            "label": "Pedra de Agosto",
+            "label": "A Pedra Augusta",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Uma tigela tremenda, grande como um gong, esculpida de basalto negro, com um encantamento contra demônios na Profunda Mandaica. O fundo carrega o mesmo encantamento em Aramai. [Se você fala Aramaico, pode usar isso para aprender Mandaic.]",
+            "description": "Uma tigela enorme, do tamanho de um gongo, esculpida embasalto negro, com um encantamento contra demônios em Mandeu Antigo. O fundo carrega o mesmo encantamento em Aramaico. [Se você fala Aramaico, pode usar isso para aprender Mandeu.]",
             "unique": true
         },
         {
             "id": "textbooksanskrit",
-            "label": "Leitor Sanguinário do Gartside",
+            "label": "Leitor de Sânscrito do Gartside",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Um livro lúcido que delineia um caminho cuidadoso através dos doces de uma vasta e complexa língua."
+            "description": "Um livro lúcido que delineia um caminho cuidadoso através das dificuldades de uma vasta e complexa língua."
         },
         {
             "id": "textbookvak",
@@ -73,7 +73,7 @@
                 "text": 1,
                 "auctionable": 3
             },
-            "description": "Uma escultura elaborada de marfim de intrusão impossível. Ao redor e através de suas superfícies, Sanskrit inscrições espirais contra linhas combinadas de Vak. [Se você fala Sanskrit, você pode usá-lo para aprender Vak, a primeira língua do mundo.]",
+            "description": "Uma escultura elaborada de marfim de complexidade impossível. Ao redor e através de suas superfícies, inscrições em sânscrito espiralam contra linhas idênticas de Vak. [Se você fala sânscrito, você pode o usar para aprender Vak, a primeira língua do mundo.]",
             "unique": true
         }
     ]

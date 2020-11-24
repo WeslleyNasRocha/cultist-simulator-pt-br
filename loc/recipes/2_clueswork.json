@@ -249,7 +249,7 @@
         },
         {
             "id": "skillhealthhintwork",
-            "label": "Vida",
+            "label": "Saúde",
             "actionid": "work",
             "requirements": {
                 "healthskill": 1,
@@ -285,7 +285,7 @@
         },
         {
             "id": "glimmeringhintwork",
-            "label": "Glimmering",
+            "label": "Vislumbre",
             "actionid": "work",
             "requirements": {
                 "glimmering": 1

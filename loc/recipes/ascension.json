@@ -112,7 +112,7 @@
         },
         {
             "id": "majorforgevictory",
-            "label": "O AMANHO É COMO",
+            "label": "O AMANHECER CHEGOU",
             "actionid": "work",
             "requirements": {
                 "ritual": 1,
@@ -885,7 +885,7 @@
             "requirements": {
                 "seasonambitions": 1
             },
-            "label": "Saudações Exóticas?",
+            "label": "Desejos Exóticos?",
             "actionid": "craving",
             "slots": [
                 {
@@ -905,7 +905,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "Que fome nos conduzem?",
+            "startdescription": "Que fomes nos conduzem?",
             "description": "",
             "effects": {},
             "warmup": 10,
@@ -1154,7 +1154,7 @@
                     "greedy": true
                 }
             ],
-            "startdescription": "Que fome me dirige?",
+            "startdescription": "Que fomes me conduzem?",
             "effects": {
                 "restlessness": 1
             },
