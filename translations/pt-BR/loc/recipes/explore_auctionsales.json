@@ -189,9 +189,9 @@
         },
         {
             "id": "auctionsell_increaseminor",
-            "label": "Leilão: Abastecimento Energético",
+            "label": "Leilão: Lances Enérgicos",
             "actionid": "explore",
-            "startdescription": "Alguns dos públicos estão de pé, agora. Os passivos estão subindo.",
+            "startdescription": "Alguns na audiência estão em pé, agora. Paixões estão subindo.",
             "linked": [
                 {
                     "id": "auctioncleanup",
@@ -239,7 +239,7 @@
             "id": "auctioncleanup",
             "label": "O Leilão está completo",
             "actionid": "explore",
-            "description": "Bangadas do armário do leilão. Meu item vendiu.",
+            "description": "O martelo do leioloeiro bate. Meu item foi vendido.",
             "effects": {
                 "auctionable": -99
             },

@@ -15,7 +15,7 @@
             "slots": [
                 {
                     "id": "Yearning",
-                    "label": "Ano",
+                    "label": "Anseio",
                     "required": {
                         "restlessness": 1
                     },
@@ -76,7 +76,7 @@
                     "description": "Um assunto digno não é essencial, mas é útil. Alguns assuntos chamam a atenção das autoridades, mas não são esses os interessantes?"
                 }
             ],
-            "startdescription": "Nunca se sabe. Pode ser uma vida viva. [Adicione paixão para fazer pinturas distintas. Adicione Mystique e especialmente Notoriety para atrair atenção e fazer mais dinheiro. Cuidado: se você usar Notoriety, a exibição de pinturas irá mantê-lo no olho público.]",
+            "startdescription": "Nunca se sabe. Eu poderia viver disso. [Adicione Paixão para fazer pinturas distintas. Adicione Mystique e especialmente Notoriety para atrair atenção e fazer mais dinheiro. Cuidado: se você usar Notoriety, a exibição de pinturas irá mantê-lo no olho público.]",
             "warmup": 20,
             "craftable": true,
             "alt": [
@@ -767,7 +767,7 @@
             "slots": [
                 {
                     "id": "Paints",
-                    "label": "Pinturas",
+                    "label": "Tintas",
                     "required": {
                         "pigment": 1,
                         "funds": 1
@@ -865,7 +865,7 @@
         {
             "id": "paintthreepassion",
             "actionid": "work",
-            "label": "Todos os Convictos",
+            "label": "Toda a Convicção",
             "startdescription": "O mundo vai embora.",
             "warmup": 10,
             "requirements": {
@@ -931,8 +931,8 @@
         {
             "id": "paintnopassion",
             "actionid": "work",
-            "label": "Um Esforço de Rota",
-            "startdescription": "Honestamente, eu só estou passando pelas propostas. A qualidade do meu trabalho vai certamente sofrer.",
+            "label": "Um Esforço Mecânico",
+            "startdescription": "Honestamente, eu só estou passando pelos movimentos. A qualidade do meu trabalho vai certamente sofrer.",
             "warmup": 5,
             "requirements": {
                 "passion": -1
@@ -1585,7 +1585,7 @@
             "actionid": "work",
             "warmup": 5,
             "label": "Sem valor!",
-            "startdescription": "Não produzi nada de útil ou significativo. Eu deveria ter vergonha de mim mesmo. Ainda assim, se eu tiver uma reputação, ela ainda pode vender...",
+            "startdescription": "Não produzi nada de útil ou significativo. Eu deveria ter vergonha de mim mesmo. Ainda assim, se eu tiver uma reputação, eu ainda consiga vender...",
             "requirements": {
                 "insight": -1
             },

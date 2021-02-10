@@ -8,7 +8,7 @@
         },
         {
             "id": "bid",
-            "label": "Bid",
+            "label": "Lance",
             "description": "Uma licitação colocada em uma casa de leilões.",
             "xtriggers": {
                 "restore": "funds"

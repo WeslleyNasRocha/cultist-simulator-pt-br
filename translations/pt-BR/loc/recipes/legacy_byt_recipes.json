@@ -20,7 +20,7 @@
                 }
             ],
             "startdescription": "Possivelmente vou fazer alguma coisa hoje.",
-            "description": "Está indo tudo nadando. Embora a saúde do Papai não esteja melhorando. [<b>Explore</b> desbloqueado.]",
+            "description": "Está indo tudo bem. Embora a saúde do Papai não esteja melhorando. [<b>Explore</b> desbloqueado.]",
             "warmup": 10,
             "craftable": true
         },
@@ -41,7 +41,7 @@
                 }
             ],
             "startdescription": "Possivelmente vou fazer alguma coisa hoje.",
-            "description": "Tudo está indo nadando. Embora a saúde do Papai ainda não esteja melhorando.",
+            "description": "Está indo tudo bem. Embora a saúde do Papai não esteja melhorando.",
             "warmup": 30,
             "craftable": true
         },
@@ -65,7 +65,7 @@
         },
         {
             "id": "workbytjobepilogue",
-            "label": "Notícias Ghasstly",
+            "label": "Notícias Medonhas",
             "actionid": "legacyeventbad",
             "alt": [
                 {
@@ -78,8 +78,8 @@
                 "health": 2,
                 "funds": 20
             },
-            "startdescription": "Papa está morto! Ninguém me dirá exatamente como. Mas a propriedade está em Estado. Minha permissão está associada a testes e assim por diante. Só podemos esperar que seja resolvida antes que as contas cheguem. ",
-            "description": "O negócio da vontade foi resolvido... mas os negócios do Papai foram devorados com dívidas como lenha. Parece que ninguém sabe exactamente em que é que gastou o dinheiro, mas o advogado envia-me alguns jornais, aparentemente.",
+            "startdescription": "Papa está morto! Ninguém me diz exatamente como. Mas a propriedade está em testamento. Minha mesada está presa em condicionais e assim por diante. Só podemos esperar que se resolva antes que as contas cheguem. ",
+            "description": "O negócio da testamento foi resolvido... mas os negócios do Papai foram devorados pelas dívidas como lenha. Ninguém parece saber exatamente no que ele gastou o dinheiro. Mas o advogado vai me enviar alguns papéis, aparentemente.",
             "warmup": 60,
             "craftable": false
         },
@@ -100,7 +100,7 @@
             "id": "bytopenstudy",
             "label": "Papéis Deslumbrantes",
             "actionid": "study",
-            "startdescription": "Estou para receber documentos encontrados entre os pertences do Papa, que talvez pudesse lançar uma espécie de luz sobre onde foi exactamente o inferno todo o dinheiro.",
+            "startdescription": "Estou para receber documentos encontrados entre os pertences do Papa, que talvez possam lançar uma espécie de luz sobre exatamente onde diabos foi todo o dinheiro.",
             "alt": [
                 {
                     "id": "bytopendream",
@@ -108,7 +108,7 @@
                     "additional": true
                 }
             ],
-            "description": "Recebi os jornais. Pobre Papa. Página após a primeira página sobre um desesperado rastejão numa casa invisível e sobre as cores do sono e os deuses invisíveis atrás do mundo. Mas saibam, quanto mais eu leio, mais - bem, não \"faz sentido\". Não faz sentido. Mas ela se pendura juntos. E aqui está o diário do Papa.",
+            "description": "Recebi os papéis. Pobre Papa. Página após página após página de rabiscos desesperados sobre uma casa invisível e sobre as cores do sono e os deuses invisíveis atrás do mundo. Mas sabe, quanto mais eu leio, mais - bem, não é que \"faz sentido\". Não faz sentido. Mas ela se sustenta. E aqui está o diário do Papa.",
             "effects": {
                 "legacydiarylastcharacter": 1,
                 "lever_LastBook": 1
@@ -152,7 +152,7 @@
                 }
             ],
             "startdescription": "Os sonhos começam. O Papa falou deles, e disse que o seu pai antes dele estava tão perturbado. Algo no nosso sangue, uma melancolia rosa que mata a alma.",
-            "description": "Eu sonho com uma luz tremerda, um sol que bebe neve mas não a derrete. Quando eu acordo, meu quarto está sempre frio.",
+            "description": "Eu sonho com uma luz trêmula, um sol que tosta a neve mas não a derrete. Quando eu acordo, meu quarto está sempre frio.",
             "warmup": 30,
             "effects": {
                 "passion": 1,

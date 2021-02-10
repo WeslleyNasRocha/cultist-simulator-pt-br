@@ -168,7 +168,7 @@
                 "fleeting": 1
             },
             "startdescription": ".",
-            "description": "Os lobos desespero de lobo em outros lugares. [Nenhum pau alimenta este desespero. Finalizou, por enquanto.]",
+            "description": "O lobo Desespero ronda outros lugares. [Nenhum Pavor alimenta este Desespero. Acabou, por enquanto.]",
             "craftable": false
         },
         {
@@ -329,7 +329,7 @@
                 "fascination": -1,
                 "dread": -1
             },
-            "startdescription": "Sombras são um abrigo da luz. O desespero é morro. Até mesmo a miséria tem seus usos. [Cada Dread pinga uma Fascinação.]",
+            "startdescription": "Sombras são um abrigo da luz. O desespero é um lastro. Até mesmo a miséria tem seus usos. [Cada Pavor suprime uma Fascinação.]",
             "description": ".",
             "warmup": 10,
             "craftable": false,
@@ -412,7 +412,7 @@
             "slots": [
                 {
                     "id": "Reason",
-                    "label": "Motivo",
+                    "label": "Razão",
                     "greedy": true,
                     "required": {
                         "reason": 1

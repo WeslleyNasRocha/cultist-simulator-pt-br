@@ -7,7 +7,7 @@
             "requirements": {
                 "vitality": 2
             },
-            "startdescription": "Eu sou abóbado com vitalidade. Se eu dedicar algum tempo a me exercitar, eu me beneficio.",
+            "startdescription": "Eu estou transbordando de vitalidade. Se eu dedicar algum tempo a me exercitar, eu me beneficiarei.",
             "description": "Eu fiquei mais forte. [Conquistei Saúde, mas será mais difícil ganhar Saúde da próxima vez.]",
             "effects": {
                 "vitality": -2,
@@ -25,7 +25,7 @@
             "requirements": {
                 "vitality": 2
             },
-            "startdescription": "Eu sou abóbado com vitalidade. Se eu dedicar algum tempo a me exercitar, eu me beneficio.",
+            "startdescription": "Eu estou transbordando de vitalidade. Se eu dedicar algum tempo a me exercitar, eu me beneficiarei.",
             "description": "Estou pronto para crescer mais forte. [Use esta lição aprendida com a sua habilidade de força.]",
             "effects": {
                 "vitality": -2,
@@ -193,13 +193,13 @@
         },
         {
             "id": "studyincreasereasonstarter",
-            "label": "Exerça a Mente",
+            "label": "Exercite a Mente",
             "actionid": "study",
             "requirements": {
                 "erudition": 2
             },
             "startdescription": "Eu peguei fatos estranhos, aqui e ali. Se eu gastar tempo estudando o que aprendi, eu poderia aumentar o meu motivo.",
-            "description": "Minha mente, a biblioteca. [Ganhei o Reason, mas será mais difícil ganhar Reason da próxima vez.]",
+            "description": "Minha mente, a biblioteca. [Ganhei Razão, mas será mais difícil ganhar Razão da próxima vez.]",
             "effects": {
                 "erudition": -2,
                 "reason": 1,
@@ -211,13 +211,13 @@
         },
         {
             "id": "studyincreaseeruditiontoplus",
-            "label": "Exerça a Mente",
+            "label": "Exercite a Mente",
             "actionid": "study",
             "requirements": {
                 "erudition": 2
             },
-            "startdescription": "Eu peguei fatos estranhos, aqui e ali. Se eu gastar tempo estudando o que aprendi, eu poderia aumentar o meu motivo.",
-            "description": "Minha mente, a biblioteca. [Use esta lição de aprendizado com a sua habilidade de bolsa.]",
+            "startdescription": "Eu peguei fatos estranhos, aqui e ali. Se eu gastar tempo estudando o que aprendi, eu poderia aumentar a minha Razão.",
+            "description": "Minha mente, a biblioteca. [Use esta Lição Aprendida com a sua habilidade de Estudante.]",
             "effects": {
                 "erudition": -2,
                 "eruditionplus": 1
@@ -235,7 +235,7 @@
                 "lore": -1
             },
             "startdescription": "Peguei fatos estranhos, aqui e ali... e nesta temporada de luminosidade peculiar, poderia aumentar minha razão. [Se você adicionar o Traço apropriado, isso permitirá que você crie uma Influência occulta mais poderosa.]",
-            "description": "Minha mente, a biblioteca. [Use esta lição de aprendizado com a sua habilidade de bolsa.]",
+            "description": "Minha mente, a biblioteca. [Use esta Lição Aprendida com a sua habilidade de Estudante.]",
             "effects": {
                 "influence": -2,
                 "eruditionplus": 1
@@ -245,7 +245,7 @@
         },
         {
             "id": "studyincreasereasonskilla",
-            "label": "Exerça a mente: Sabedor...",
+            "label": "Exercite a mente: Mais Sábio...",
             "actionid": "study",
             "requirements": {
                 "skillreasona": 1,
@@ -254,7 +254,7 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "Conhecimento é um muro da cidade construído por pedra. Mas o que espera na escuridão para além das paredes? Por que precisaríamos de uma fortaleza, só que tínhamos algo a temer?",
+            "startdescription": "Conhecimento é um muro da cidade construído pedra por pedra. Mas o que espera na escuridão para além das paredes? Por que razão precisaríamos de uma fortaleza, se não tivéssemos algo a temer?",
             "description": "Reordenei as fronteiras da minha ignorância.",
             "effects": {
                 "reason": 1
@@ -264,7 +264,7 @@
         },
         {
             "id": "studyincreasereasonskillb",
-            "label": "Exerça a mente: Wisest...",
+            "label": "Exercite a mente: Ainda mais Sábio...",
             "actionid": "study",
             "requirements": {
                 "skillreasonb": 1,
@@ -408,7 +408,7 @@
             "requirements": {
                 "glimmering": 2
             },
-            "startdescription": "\"Os tigres da ira são mais sábios que os cavalos de instrução. Se eu passar algum tempo estudando o que eu aprendi, eu poderia aumentar minha paixão e ganhar uma habilidade.",
+            "startdescription": "\"Os tigres da ira são mais sábios que os cavalos de instrução\". Se eu passar algum tempo estudando o que eu aprendi, eu poderia aumentar minha Paixão e ganhar uma Habilidade.",
             "description": "Há mais janelas na minha alma; mas a luz solar não é a única coisa que passa por uma janela. [Ganhei Passion, mas será mais difícil ganhar paixão da próxima vez.]",
             "effects": {
                 "glimmering": -2,
@@ -426,8 +426,8 @@
             "requirements": {
                 "glimmering": 2
             },
-            "startdescription": "\"Os tigres da ira são mais sábios que os cavalos de instrução. Se eu passar algum tempo estudando o que aprendi, eu poderia trabalhar para aumentar a minha paixão.",
-            "description": "Há mais janelas na minha alma; mas a luz solar não é a única coisa que passa por uma janela. [Use esta Lição de Aprendizado com sua habilidade de imaginação.]",
+            "startdescription": "\"Os tigres da ira são mais sábios que os cavalos de instrução\". Se eu passar algum tempo estudando o que eu aprendi, eu poderia aumentar minha Paixão e ganhar uma Habilidade.",
+            "description": "Há mais janelas na minha alma; mas a luz solar não é a única coisa que passa por uma janela. [Use esta Lição Aprendida com sua habilidade de Imaginação.]",
             "effects": {
                 "glimmering": -2,
                 "glimmeringplus": 1
@@ -445,7 +445,7 @@
                 "lore": -1
             },
             "startdescription": "'Os tigres da ira são mais sábios que os cavalos da instrução.' Nesta temporada de impulso não anunciado, eu poderia trabalhar para aumentar minha paixão. [Se você adicionar o Traço apropriado, isso permitirá que você crie uma Influência occulta mais poderosa.]",
-            "description": "Há mais janelas na minha alma; mas a luz solar não é a única coisa que passa por uma janela. [Use esta Lição de Aprendizado com sua habilidade de imaginação.]",
+            "description": "Há mais janelas na minha alma; mas a luz solar não é a única coisa que passa por uma janela. [Use esta Lição Aprendida com sua habilidade de Imaginação.]",
             "effects": {
                 "influence": -2,
                 "glimmeringplus": 1
@@ -474,7 +474,7 @@
         },
         {
             "id": "studyincreasepassionskillb",
-            "label": "Alimentar a minha imagem: Fiercest...",
+            "label": "Alimentar a minha imaginação: Mais feroz...",
             "actionid": "study",
             "requirements": {
                 "skillpassionb": 1,
@@ -483,7 +483,7 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "(EN) \"Mais cedo assassina um bebé no seu berço do que enfermeiro de desejos não actuados\".",
+            "startdescription": "\"Melhor assassinar um bebê no seu berço do que nutrir desejos não realizados.\"",
             "description": "Em outro tempo, eu teria sido um cerco, ou um herege.",
             "effects": {
                 "passion": 1
@@ -584,7 +584,7 @@
                 "vitality": 1
             },
             "startdescription": "Caminhadas longas matam teias.",
-            "description": "Eu negligenciei os meus estudos, mas continuo um pouco recentemente.",
+            "description": "Eu negligenciei os meus estudos, mas minha coluna está menos torta.",
             "warmup": 60,
             "craftable": true
         },

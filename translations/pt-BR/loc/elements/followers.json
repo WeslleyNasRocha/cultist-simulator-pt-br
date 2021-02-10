@@ -351,7 +351,7 @@
         },
         {
             "id": "dorothy_a",
-            "label": "Doravante, um conhecido",
+            "label": "Dorothy, uma conhecida",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
@@ -840,7 +840,7 @@
                 "acquaintance": 1,
                 "follower_lustenlightenment": 1
             },
-            "description": "Neville pausa antes de falar, e pisca facilmente. Ele ri de sempre que pensa que você fez uma piada. [Você talvez possa recrutar este conhecido como um seguidor.]",
+            "description": "Neville pausa antes de falar, e se encolhe facilmente. Ele ri sempre que acha que você fez uma piada. [Você talvez possa recrutar este conhecido como um seguidor.]",
             "xtriggers": {
                 "recruiting": "neville_b",
                 "killmortal": "corpse",
@@ -857,7 +857,7 @@
                 "knock": 2,
                 "follower_lustenlightenment": 1
             },
-            "description": "Neville pausa antes de falar, e pisca facilmente. É sensível a assuntos mais profundos.",
+            "description": "Neville pausa antes de falar, e se encolhe facilmente. É sensível a assuntos mais profundos.",
             "xtriggers": {
                 "promotiontodisciple": "neville_c",
                 "killmortal": "corpse",
@@ -1138,7 +1138,7 @@
         },
         {
             "id": "saliba_a",
-            "label": "Saliba, um conhecimento",
+            "label": "Saliba, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
@@ -1485,7 +1485,7 @@
         },
         {
             "id": "valciane_a",
-            "label": "Valentim, um Conhecimento",
+            "label": "Valciane, um conhecido",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1,
@@ -2264,7 +2264,7 @@
         },
         {
             "id": "generic_a",
-            "label": "Um Hanger-On",
+            "label": "Um Chegado",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
@@ -2280,7 +2280,7 @@
         },
         {
             "id": "generic_a_edge",
-            "label": "Um Hanger-On",
+            "label": "Um Chegado",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
@@ -2295,7 +2295,7 @@
         },
         {
             "id": "generic_a_forge",
-            "label": "Um Hanger-On",
+            "label": "Um Chegado",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
@@ -2310,7 +2310,7 @@
         },
         {
             "id": "generic_a_grail",
-            "label": "Um Hanger-On",
+            "label": "Um Chegado",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
@@ -2325,7 +2325,7 @@
         },
         {
             "id": "generic_a_heart",
-            "label": "Um Hanger-On",
+            "label": "Um Chegado",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
@@ -2340,7 +2340,7 @@
         },
         {
             "id": "generic_a_knock",
-            "label": "Um Hanger-On",
+            "label": "Um Chegado",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
@@ -2355,7 +2355,7 @@
         },
         {
             "id": "generic_a_lantern",
-            "label": "Um Hanger-On",
+            "label": "Um Chegado",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
@@ -2370,7 +2370,7 @@
         },
         {
             "id": "generic_a_moth",
-            "label": "Um Hanger-On",
+            "label": "Um Chegado",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
@@ -2386,7 +2386,7 @@
         },
         {
             "id": "generic_a_winter",
-            "label": "Um Hanger-On",
+            "label": "Um Chegado",
             "aspects": {
                 "mortal": 1,
                 "acquaintance": 1
@@ -2401,7 +2401,7 @@
         },
         {
             "id": "generic_b",
-            "label": "A Pawn",
+            "label": "Um Peão",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2419,7 +2419,7 @@
         },
         {
             "id": "generic_b_edge",
-            "label": "A Pawn",
+            "label": "Um Peão",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2436,7 +2436,7 @@
         },
         {
             "id": "generic_b_forge",
-            "label": "A Pawn",
+            "label": "Um Peão",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2453,7 +2453,7 @@
         },
         {
             "id": "generic_b_grail",
-            "label": "A Pawn",
+            "label": "Um Peão",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2470,7 +2470,7 @@
         },
         {
             "id": "generic_b_heart",
-            "label": "A Pawn",
+            "label": "Um Peão",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2487,7 +2487,7 @@
         },
         {
             "id": "generic_b_knock",
-            "label": "A Pawn",
+            "label": "Um Peão",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2504,7 +2504,7 @@
         },
         {
             "id": "generic_b_lantern",
-            "label": "A Pawn",
+            "label": "Um Peão",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2521,7 +2521,7 @@
         },
         {
             "id": "generic_b_moth",
-            "label": "A Pawn",
+            "label": "Um Peão",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,
@@ -2538,7 +2538,7 @@
         },
         {
             "id": "generic_b_winter",
-            "label": "A Pawn",
+            "label": "Um Peão",
             "aspects": {
                 "mortal": 1,
                 "follower": 1,

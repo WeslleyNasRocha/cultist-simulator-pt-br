@@ -106,7 +106,7 @@
         },
         {
             "id": "recoverfatigue",
-            "label": "Nap para se recuperar da Fadiga",
+            "label": "Cochilo para se recuperar da Fadiga",
             "actionid": "dream",
             "requirements": {
                 "fatigue": 1

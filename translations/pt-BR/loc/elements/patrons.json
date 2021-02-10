@@ -104,7 +104,7 @@
         },
         {
             "id": "jannings",
-            "label": "Contagem de Jannings",
+            "label": "Conde Jannings",
             "aspects": {
                 "mortal": 1,
                 "patron": 1,
@@ -139,14 +139,14 @@
         },
         {
             "id": "janningsready",
-            "label": "Contagem de Jannings",
+            "label": "Conde Jannings",
             "aspects": {
                 "mortal": 1,
                 "patron": 1,
                 "tutor": 1,
                 "tutorlatin": 1
             },
-            "description": "A contagem de Gottlob Jannings representa uma confraternidade continental de médicos e duelos. Ele poderia usar sua assistência.",
+            "description": "O Conde Gottlob Jannings representa uma confraternidade continental de médicos e duelistas. Ele poderia usar sua assistência.",
             "unique": true,
             "xtriggers": {
                 "commissiongiven": "jannings",
@@ -250,7 +250,7 @@
         },
         {
             "id": "janningsaway",
-            "label": "Contagem de Jannings",
+            "label": "Conde Jannings",
             "lifetime": 120,
             "description": "O conde Gottlob Jannings representa uma confraternidade continental de médicos e dueiras. Agora ele está fora do país, mas logo voltará.",
             "decayTo": "janningsready",
