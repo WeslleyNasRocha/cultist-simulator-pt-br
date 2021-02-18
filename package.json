@@ -1,0 +1,19 @@
+{
+    "name": "cultist-simulator-pt-br",
+    "synopsis": {
+        "name": "[Em Andamento] Tradução Português Brasil",
+        "author": "Weslley Rocha",
+        "description": "Quer ajudar a traduzir? Faça parte do projeto em https://crwd.in/cultist-simulator\n\nEncontrou algum problema, por favor reporte por aqui:\nhttps://github.com/WeslleyNasRocha/cultist-simulator-pt-br/issues",
+        "description_long": "Quer ajudar a traduzir? Faça parte do projeto em https://crwd.in/cultist-simulator\n\nEncontrou algum problema, por favor reporte por aqui:\nhttps://github.com/WeslleyNasRocha/cultist-simulator-pt-br/issues"
+    },
+    "version": "0.1.5",
+    "repository": "git@github.com:WeslleyNasRocha/cultist-simulator-pt-br.git",
+    "author": "Weslley Rocha <weslleytato.12@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "node build.js"
+    },
+    "dependencies": {
+        "typescript": "^4.1.5"
+    }
+}
