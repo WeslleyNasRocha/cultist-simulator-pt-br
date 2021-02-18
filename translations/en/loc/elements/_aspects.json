@@ -109,14 +109,24 @@
             "label": "Grail",
             "description": "Hunger, lust, the drowning waters. [The principle of the Grail honours both the birth and the feast.]",
             "isAspect": true,
-            "induces": [{ "id": "grailinduction", "chance": 5 }]
+            "induces": [
+                {
+                    "id": "grailinduction",
+                    "chance": 5
+                }
+            ]
         },
         {
             "id": "heart",
             "label": "Heart",
             "description": "The Heart Relentless beats to protect the skin of the world we understand. [The Heart is the principle that continues and preserves.]",
             "isAspect": true,
-            "induces": [{ "id": "heartinduction", "chance": 10 }]
+            "induces": [
+                {
+                    "id": "heartinduction",
+                    "chance": 10
+                }
+            ]
         },
         {
             "id": "knock",
@@ -129,14 +139,24 @@
             "label": "Lantern",
             "description": "'Life is a pure flame, and we live by an invisible Sun within us.' - Thomas Browne. [Lantern is the principle of the secret place sometimes called the House of the Sun, and of the light above it.]",
             "isAspect": true,
-            "induces": [{ "id": "lanterninduction", "chance": 5 }]
+            "induces": [
+                {
+                    "id": "lanterninduction",
+                    "chance": 5
+                }
+            ]
         },
         {
             "id": "moth",
             "label": "Moth",
             "isAspect": true,
             "description": "I knew a man who captured moths in a bell-jar. On nights like this, he would release them one by one to die in the candle. [Moth is the wild and perilous principle of chaos and yearning.]",
-            "induces": [{ "id": "mothinduction", "chance": 10 }]
+            "induces": [
+                {
+                    "id": "mothinduction",
+                    "chance": 10
+                }
+            ]
         },
         {
             "id": "secrethistories",
@@ -180,7 +200,12 @@
             "label": "Job",
             "isAspect": true,
             "description": "An arrangement to exchange one's life for money.",
-            "induces": [{ "id": "needs", "chance": 100 }]
+            "induces": [
+                {
+                    "id": "needs",
+                    "chance": 100
+                }
+            ]
         },
         {
             "id": "dance",
@@ -188,8 +213,14 @@
             "isAspect": true,
             "description": "Older than language, younger than life.",
             "induces": [
-                { "id": "heartinduction", "chance": 10 },
-                { "id": "mothglimmeringinduction", "chance": 10 }
+                {
+                    "id": "heartinduction",
+                    "chance": 10
+                },
+                {
+                    "id": "mothglimmeringinduction",
+                    "chance": 10
+                }
             ]
         },
         {
@@ -227,7 +258,12 @@
             "label": "Ingredient",
             "isAspect": true,
             "description": "Fuel, ointment, pigment, patience: all are consumed in time.",
-            "induces": [{ "id": "needs", "chance": 100 }],
+            "induces": [
+                {
+                    "id": "needs",
+                    "chance": 100
+                }
+            ],
             "comments": "This is so anything that generates Funds will always trigger the needs timer if it's not already running."
         },
         {
@@ -372,11 +408,23 @@
             "isHidden": true
         },
 
-        { "id": "follower_lustpower", "isAspect": true, "isHidden": true },
+        {
+            "id": "follower_lustpower",
+            "isAspect": true,
+            "isHidden": true
+        },
 
-        { "id": "follower_lustsensation", "isAspect": true, "isHidden": true },
+        {
+            "id": "follower_lustsensation",
+            "isAspect": true,
+            "isHidden": true
+        },
 
-        { "id": "follower_lustchange", "isAspect": true, "isHidden": true },
+        {
+            "id": "follower_lustchange",
+            "isAspect": true,
+            "isHidden": true
+        },
 
         {
             "id": "detectivetemptation",
@@ -385,7 +433,11 @@
             "isHidden": true
         },
 
-        { "id": "long.preference.assault", "isAspect": true, "isHidden": true },
+        {
+            "id": "long.preference.assault",
+            "isAspect": true,
+            "isHidden": true
+        },
         {
             "id": "long.preference.intrigue",
             "isAspect": true,
@@ -396,7 +448,11 @@
             "isAspect": true,
             "isHidden": true
         },
-        { "id": "long.preference.winter", "isAspect": true, "isHidden": true },
+        {
+            "id": "long.preference.winter",
+            "isAspect": true,
+            "isHidden": true
+        },
 
         {
             "id": "ascend",
@@ -583,7 +639,12 @@
             "label": "Secret",
             "description": "This place is easily overlooked. [Use of this Headquarters will cause Reputation cards to disappear.]",
             "isAspect": true,
-            "induces": [{ "id": "secret.induction", "chance": 30 }]
+            "induces": [
+                {
+                    "id": "secret.induction",
+                    "chance": 30
+                }
+            ]
         },
         {
             "id": "sanctuary",
@@ -993,7 +1054,12 @@
             "isAspect": true,
             "comments": "Recipe aspect",
             "noartneeded": true,
-            "induces": [{ "id": "dreadinduction", "chance": 30 }]
+            "induces": [
+                {
+                    "id": "dreadinduction",
+                    "chance": 30
+                }
+            ]
         },
         {
             "id": "fascinating",
@@ -1002,7 +1068,12 @@
             "isAspect": true,
             "comments": "Recipe aspect",
             "noartneeded": true,
-            "induces": [{ "id": "fascinationinduction", "chance": 30 }]
+            "induces": [
+                {
+                    "id": "fascinationinduction",
+                    "chance": 30
+                }
+            ]
         },
         {
             "id": "damagepassion",
@@ -1716,7 +1787,12 @@
             "description": "This follower's secrets have been revealed to the public. Any time they're active, the press might take an interest.",
             "isAspect": true,
             "icon": "reputation",
-            "induces": [{ "id": "poison.notoriety.induction", "chance": 30 }]
+            "induces": [
+                {
+                    "id": "poison.notoriety.induction",
+                    "chance": 30
+                }
+            ]
         },
 
         {
@@ -1725,7 +1801,10 @@
             "description": "My emotions have been infected with the creeping taint of fear. [Using this card anywhere will probably create Dread.]",
             "isAspect": true,
             "induces": [
-                { "id": "poison.passion.dread.induction", "chance": 70 }
+                {
+                    "id": "poison.passion.dread.induction",
+                    "chance": 70
+                }
             ]
         },
         {
@@ -1734,7 +1813,10 @@
             "description": "I am teased by recurring dreams of candlefire. [Using this card anywhere will probably create Fascination.]",
             "isAspect": true,
             "induces": [
-                { "id": "poison.reason.fascination.induction", "chance": 70 }
+                {
+                    "id": "poison.reason.fascination.induction",
+                    "chance": 70
+                }
             ]
         },
 
@@ -1743,7 +1825,12 @@
             "label": "The Failing Flesh ",
             "description": "I have become subject to pain that will never depart. [Using this card anywhere will probably create Dread.]",
             "isAspect": true,
-            "induces": [{ "id": "poison.health.dread.induction", "chance": 70 }]
+            "induces": [
+                {
+                    "id": "poison.health.dread.induction",
+                    "chance": 70
+                }
+            ]
         },
 
         {
