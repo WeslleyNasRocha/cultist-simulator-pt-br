@@ -218,12 +218,7 @@
             "id": "exploreevents",
             "label": "Explorando a Capital",
             "description": "Procurando pela cidade pode-se encontrar...",
-            "spec": [
-                "daycriminals",
-                "dayplaces",
-                "daycriminals",
-                "dayplaces"
-            ],
+            "spec": ["daycriminals", "dayplaces", "daycriminals", "dayplaces"],
             "resetonexhaustion": true
         },
         {
@@ -309,33 +304,21 @@
             "id": "forgelong",
             "label": "Um Inimigo do Trabalho",
             "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que o execute.",
-            "spec": [
-                "julian_unknown",
-                "welland_unknown",
-                "welland_unknown"
-            ],
+            "spec": ["julian_unknown", "welland_unknown", "welland_unknown"],
             "defaultcard": "julian_unknown"
         },
         {
             "id": "graillong",
             "label": "Um Inimigo do Trabalho",
             "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que o execute.",
-            "spec": [
-                "tryphon_unknown",
-                "tryphon_unknown",
-                "julian_unknown"
-            ],
+            "spec": ["tryphon_unknown", "tryphon_unknown", "julian_unknown"],
             "defaultcard": "julian_unknown"
         },
         {
             "id": "lanternlong",
             "label": "Um Inimigo do Trabalho",
             "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
-            "spec": [
-                "julian_unknown",
-                "diarist_unknown",
-                "diarist_unknown"
-            ],
+            "spec": ["julian_unknown", "diarist_unknown", "diarist_unknown"],
             "defaultcard": "julian_unknown"
         },
         {
