@@ -7,16 +7,16 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "É exatamente o que você precisa para atualizar seu conhecimento de latim."
+            "description": "Bem o que você precisa para reavivar seu conhecimento de Latim."
         },
         {
             "id": "textbookfucine",
-            "label": "O Jornal de Alessandro LaCroce",
+            "label": "O Diário de Alessandro LaCroce",
             "aspects": {
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "O príncipe Alessandro LaCroce passou anos a estudar em segredo as placas retiradas dos Pântanos Fucinos, na Itália Central. O trabalho dele lhe permitirá decifrar textos Fucinos.",
+            "description": "O príncipe Alessandro LaCroce passou anos a estudar em segredo as tábulas retiradas dos Pântanos Fucinos, na Itália Central. O trabalho dele lhe permitirá decifrar textos Fucinos.",
             "unique": true
         },
         {
@@ -26,7 +26,7 @@
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Kühner and Gerth's 'Ausführliche Grammatik der griechischen Sprache' - Um livro de gramática grega. Uma arma essencial para uma luta feroz contra uma língua desafiadora."
+            "description": "'Ausführliche Grammatik der griechischen Sprache' de Kühner e Gerth – um livro de gramática grega. Uma arma essencial para uma luta feroz contra um idioma desafiador."
         },
         {
             "id": "textbookphrygian",
@@ -35,12 +35,12 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Um poema épico e particularmente erótico que descreve os encontros de um músico impulsivo com a Mãe Vermelha, e seu eventual esfolamento - tanto em grego como em Frígio. O intrépido Carl Velshorn encontrou estas inscrições em uma parede do templo no Halicarnasso, mas a mesma inscrição tem aparecido num número surpreendente de outros lugares. [Se falar grego, você pode usar isto para aprender Frígio.]",
+            "description": "Um poema épico e particularmente erótico que descreve os encontros de um músico impulsivo com a Mãe Vermelha, e finalmente seu esfolamento - tanto em Grego como em Frígio. O intrépido Carl Velshorn encontrou estas inscrições em uma parede do templo no Halicarnasso, mas a mesma inscrição tem aparecido num número surpreendente de outros lugares. [Se souber Grego, você pode usar isto para aprender Frígio.]",
             "unique": true
         },
         {
             "id": "textbookaramaic",
-            "label": "O AUTENTICO E ÚNICO PARECER DA VERDADEIRA LÍNGUA DA DA TERRA SANTA DO ALTÍSSIMO DE MAGNUS VON BRANDT",
+            "label": "O AUTENTICO E ÚNICO RELATO DE MAGNUS VON BRANDT DO VERDADEIRO IDIOMA DA TERRA SANTA DOS ALTÍSSIMOS",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
@@ -54,17 +54,17 @@
                 "text": 1,
                 "auctionable": 2
             },
-            "description": "Uma tigela enorme, do tamanho de um gongo, esculpida embasalto negro, com um encantamento contra demônios em Mandeu Antigo. O fundo carrega o mesmo encantamento em Aramaico. [Se você fala Aramaico, pode usar isso para aprender Mandeu.]",
+            "description": "Uma tigela enorme, do tamanho de um gongo, esculpida em basalto negro, com um encantamento contra demônios em Mandeu Antigo. O fundo carrega o mesmo encantamento em Aramaico. [Se você fala Aramaico, pode usar isso para aprender Mandeu Antigo.]",
             "unique": true
         },
         {
             "id": "textbooksanskrit",
-            "label": "Leitor de Sânscrito do Gartside",
+            "label": "Leitor de Sânscrito de Gartside",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Um livro lúcido que delineia um caminho cuidadoso através das dificuldades de uma vasta e complexa língua."
+            "description": "Um livro lúcido que traça um caminho meticuloso pelo emaranhado de um vasto e complexo idioma."
         },
         {
             "id": "textbookvak",
@@ -73,7 +73,7 @@
                 "text": 1,
                 "auctionable": 3
             },
-            "description": "Uma escultura elaborada de marfim de complexidade impossível. Ao redor e através de suas superfícies, inscrições em sânscrito espiralam contra linhas idênticas de Vak. [Se você fala sânscrito, você pode o usar para aprender Vak, a primeira língua do mundo.]",
+            "description": "Uma escultura elaborada de marfim de complexidade impossível. Ao redor e em toda sua superfície, inscrições em sânscrito espiralam junto de linhas idênticas de Vac. [Se você fala sânscrito, com isto é possível aprender Vac, o primeiro idioma do mundo.]",
             "unique": true
         }
     ]

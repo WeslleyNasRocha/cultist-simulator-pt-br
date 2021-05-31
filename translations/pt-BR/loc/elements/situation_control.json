@@ -2,22 +2,22 @@
     "elements": [
         {
             "id": "insight",
-            "label": "Intuições",
-            "description": "Uma visão deste mistério.",
+            "label": "Introspecção",
+            "description": "Uma análise deste mistério.",
             "lifetime": 1
         },
         {
             "id": "bid",
             "label": "Lance",
-            "description": "Uma licitação colocada em uma casa de leilões.",
+            "description": "Um lance dado em um leilão.",
             "xtriggers": {
                 "restore": "funds"
             }
         },
         {
             "id": "abductioninprogress",
-            "label": "Uma Célula Garantida",
-            "description": "Dizem que é livre, mas o pensamento está amarrado ao corpo.",
+            "label": "Uma Cela Protegida",
+            "description": "Dizem que o pensamento é livre, mas o pensamento está preso ao corpo.",
             "lifetime": 1,
             "icon": "seal_wardeddoor"
         },
@@ -31,13 +31,13 @@
         {
             "id": "assassinationinprogress.follower",
             "label": "Um Assassinato",
-            "description": "Isto acabará numa morte - deles ou nossos.",
+            "description": "Isto acabará numa morte - a nossa ou a de alguém.",
             "lifetime": 1,
             "icon": "dread"
         },
         {
             "id": "scandalinprogress",
-            "label": "Gossip Mal",
+            "label": "Fofoca Malévola",
             "description": "O que dizem é apenas uma sombra da verdade, mas pelas nossas sombras somos descobertos.",
             "lifetime": 1,
             "icon": "notoriety"

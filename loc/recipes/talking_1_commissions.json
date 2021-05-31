@@ -61,7 +61,7 @@
             "requirements": {
                 "poppycommissionready": 1
             },
-            "startdescription": "\"Eu são\", diz Poppy, com uma gigante menina, \"curiosa sobre, oh, como sabem, as artes de sangue e gelo. É tolica, mas deixa uma velha mulher seus caprichos. Você pode me ajudar?'",
+            "startdescription": "\"Eu sou\", diz Poppy, com uma risadinha infantil, \"curiosa sobre, oh, você sabe, as artes de sangue e gelo. É tolice, mas permita a uma velha mulher seus caprichos. Você irá me ajudar?'",
             "description": "Aqui está o que ela precisa.",
             "warmup": 10,
             "deckeffects": {
@@ -419,7 +419,7 @@
         },
         {
             "id": "fulfilcommissionjanningsheartc",
-            "label": "Cumprir uma Comissão para a contagem de temas",
+            "label": "Cumprir uma Comissão para Conde Jannings",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleheartc": 1,
@@ -442,7 +442,7 @@
         },
         {
             "id": "fulfilcommissionjanningsheartb",
-            "label": "Cumprir uma Comissão para a contagem de temas",
+            "label": "Cumprir uma Comissão para Conde Jannings",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleheartb": 1,
@@ -465,7 +465,7 @@
         },
         {
             "id": "fulfilcommissionjanningsheart",
-            "label": "Cumprir uma Comissão para a contagem de temas",
+            "label": "Cumprir uma Comissão para Conde Jannings",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleheart": 1,
@@ -488,7 +488,7 @@
         },
         {
             "id": "fulfilcommissionjanningsedgec",
-            "label": "Cumprir uma Comissão para a contagem de temas",
+            "label": "Cumprir uma Comissão para Conde Jannings",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleedgec": 1,
@@ -511,7 +511,7 @@
         },
         {
             "id": "fulfilcommissionjanningsedgeb",
-            "label": "Cumprir uma Comissão para a contagem de temas",
+            "label": "Cumprir uma Comissão para Conde Jannings",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleedgeb": 1,
@@ -534,7 +534,7 @@
         },
         {
             "id": "fulfilcommissionjanningsedge",
-            "label": "Cumprir uma Comissão para a contagem de temas",
+            "label": "Cumprir uma Comissão para a Conde Jannings",
             "actionid": "talk",
             "requirements": {
                 "commissionarticleedge": 1,

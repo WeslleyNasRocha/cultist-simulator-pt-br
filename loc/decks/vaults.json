@@ -3,7 +3,7 @@
         {
             "id": "locationscapital",
             "label": "Locais Ocultos na Capital",
-            "description": "Lugares próximos à mão.",
+            "description": "Lugares próximos.",
             "spec": [
                 "vaultcapital1",
                 "vaultcapital2",
@@ -16,8 +16,8 @@
         },
         {
             "id": "vaultsshires",
-            "label": "Lugares escondidos na Costa",
-            "description": "Uma oportunidade para um dia no campo, talvez.",
+            "label": "Locais Ocultos nos Condados",
+            "description": "Quem sabe uma oportunidade para um dia no campo.",
             "spec": [
                 "vaultshires1",
                 "vaultshires2",
@@ -46,7 +46,7 @@
         {
             "id": "vaultslandbeyondforest",
             "label": "Locais Ocultos na Terra Além da Floresta",
-            "description": "Uma colcha de retalhos de possibilidades em uma terra assombrada por montanhas.",
+            "description": "Uma pletora de possibilidades em uma terra montanhosa assombrada.",
             "spec": [
                 "vaultlandbeyondforest1",
                 "vaultlandbeyondforest2",
@@ -59,7 +59,7 @@
         },
         {
             "id": "vaultsrendingmountains",
-            "label": "Lugares escondidos nas Montanhas Rasgantes",
+            "label": "Locais Ocultos nas Cordilheiras do Suplício",
             "description": "Abóbadas e templos remotos e perigosos.",
             "spec": [
                 "vaultrendingmountains1",
@@ -72,7 +72,7 @@
         },
         {
             "id": "vaultsloneandlevelsands",
-            "label": "Locais Ocultos nas Areias Niveladas e Solitárias",
+            "label": "Locais Ocultos nas Planícies Ermáticas",
             "description": "Aqui estão os tesouros da antiguidade, para aqueles que podem pegá-los.",
             "spec": [
                 "vaultloneandlevelsands1",
@@ -85,8 +85,8 @@
         },
         {
             "id": "vaultseveningisles",
-            "label": "Locais Ocultos nas Ilhas Tardias",
-            "description": "Ilhas não mapeadas no limar de Porto do Meio-Dia.",
+            "label": "Locais Ocultos nas Ilhas Vespertinas",
+            "description": "Ilhas não mapeadas ao redor do Porto Zênite.",
             "spec": [
                 "vaulteveningisles1",
                 "vaulteveningisles2",

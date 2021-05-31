@@ -2,11 +2,11 @@
     "elements": [
         {
             "id": "bequestintro",
-            "label": "Um Legado",
+            "label": "Um Herança",
             "aspects": {
                 "legacyplotitem": 1
             },
-            "description": "Um pacote de papéis peculiares do meu executor correspondente. Eu preciso ESTUDA-LO, usando a Paixão ou Razão.",
+            "description": "Um pacote de documentos peculiares do executor de meu correspondente. Eu preciso ESTUDÁ-LO, usando a Paixão ou Razão.",
             "slots": [
                 {
                     "id": "Approach",
@@ -16,14 +16,14 @@
                         "reason": 1,
                         "passion": 1
                     },
-                    "description": "Sou um indivíduo apaixonado ou um homem sensato?"
+                    "description": "Sou um indivíduo apaixonado ou alguém sensato?"
                 }
             ]
         },
         {
             "id": "introjob",
             "label": "Emprego Braçal",
-            "description": "Uma posição precária como porteiro de hospital. Miserável, mas é tudo o que você pode encontrar agora.",
+            "description": "Um cargo precário como porteiro de hospital. Miserável, mas é tudo o que você pode encontrar agora.",
             "aspects": {
                 "job": 1
             }
@@ -33,8 +33,8 @@
             "aspects": {
                 "legacyplotitem": 1
             },
-            "label": "Notas sobre um Possível Colaborador",
-            "description": "O meu correspondente registou suas observações sobre mim. Ele acreditava que eu tinha 'potencial'. Ele também registrou as suas observações sobre outra pessoa. Com tempo e estudo, talvez eu possa encontrar essa pessoa."
+            "label": "Relatos sobre um Possível Colaborador",
+            "description": "O meu correspondente registrou suas observações sobre mim. Ele acreditava que eu tinha 'potencial'. Ele também registrou as suas observações sobre outra pessoa. Com tempo e estudo, talvez eu possa encontrar essa pessoa."
         }
     ]
 }

@@ -23,7 +23,7 @@
         {
             "id": "cabaretevents",
             "label": "Uma Noite no Clube",
-            "description": "Cada noite traz diferentes delícias e, ocasionalmente, perigos.",
+            "description": "Cada noite oferece prazeres distintos e, ocasionalmente, perigos.",
             "spec": [
                 "contentment",
                 "contentment",
@@ -43,7 +43,7 @@
         {
             "id": "roserewards",
             "label": "Recompensa do Romance",
-            "description": "Então, agora, quando?",
+            "description": "Depois, agora, quando?",
             "spec": [
                 "memorybittersweet",
                 "memorypleasant",
@@ -69,7 +69,7 @@
         {
             "id": "paintingresultsbasic",
             "label": "Recompensas da Arte",
-            "description": "Pintar geralmente traz contentamento, ou, às vezes, um novo tipo de compreensão.",
+            "description": "Pintar pode trazer contentamento, ou, às vezes, um novo tipo de compreensão.",
             "spec": [
                 "contentment",
                 "contentment",
@@ -137,8 +137,8 @@
         },
         {
             "id": "ecdysisrewards",
-            "label": "As Oferendas no Fim",
-            "description": "O Clube garante um mínimo, mas a audiência às vezes oferece contribuições próprias.",
+            "label": "As Oferendas ao Final",
+            "description": "O Clube paga um mínimo, mas o público às vezes oferece contribuições próprias.",
             "spec": [
                 "funds",
                 "funds",
@@ -164,8 +164,8 @@
         },
         {
             "id": "robberyrewards",
-            "label": "O Salário do Pecado",
-            "description": "Meus servos geralmente me trazem tesouros mesquinhos; às vezes lixo; raramente, algo extraordinário.",
+            "label": "O Pecado Remunerado",
+            "description": "Meus lacaios costumam me trazer tesouros fúteis; às vezes porcarias; raramente, algo extraordinário.",
             "spec": [
                 "funds",
                 "funds",
@@ -217,7 +217,7 @@
         {
             "id": "exploreevents",
             "label": "Explorando a Capital",
-            "description": "Procurando pela cidade pode-se encontrar...",
+            "description": "Ao buscar pela cidade podemos encontrar...",
             "spec": ["daycriminals", "dayplaces", "daycriminals", "dayplaces"],
             "resetonexhaustion": true
         },
@@ -286,7 +286,7 @@
         {
             "id": "troublemakerconversations",
             "label": "Conversas com um Encrenqueiro",
-            "description": "O que será que aprenderei?",
+            "description": "O que posso descobrir?",
             "spec": [
                 "dread",
                 "dread",
@@ -303,28 +303,28 @@
         {
             "id": "forgelong",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que o execute.",
+            "description": "Nosso inimigo escolherá uma abordagem, que talvez possamos adivinhar, mas nunca saberemos os detalhes de seu plano até a sua execução.",
             "spec": ["julian_unknown", "welland_unknown", "welland_unknown"],
             "defaultcard": "julian_unknown"
         },
         {
             "id": "graillong",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que o execute.",
+            "description": "Nosso inimigo escolherá uma abordagem, que talvez possamos adivinhar, mas nunca saberemos os detalhes de seu plano até a sua execução.",
             "spec": ["tryphon_unknown", "tryphon_unknown", "julian_unknown"],
             "defaultcard": "julian_unknown"
         },
         {
             "id": "lanternlong",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "description": "Nosso inimigo escolherá uma abordagem, que talvez possamos adivinhar, mas nunca saberemos os detalhes de seu plano até a sua execução.",
             "spec": ["julian_unknown", "diarist_unknown", "diarist_unknown"],
             "defaultcard": "julian_unknown"
         },
         {
             "id": "long.strategies",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "description": "Nosso inimigo escolherá uma abordagem, que talvez possamos adivinhar, mas nunca saberemos os detalhes de seu plano até a sua execução.",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
@@ -337,7 +337,7 @@
         {
             "id": "long.strategies.preference.assault",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "description": "Nosso inimigo escolherá uma abordagem, que talvez possamos adivinhar, mas nunca saberemos os detalhes de seu plano até a sua execução.",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.assault.concealed",
@@ -351,7 +351,7 @@
         {
             "id": "long.strategies.preference.intrigue",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "description": "Nosso inimigo escolherá uma abordagem, que talvez possamos adivinhar, mas nunca saberemos os detalhes de seu plano até a sua execução.",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
@@ -365,7 +365,7 @@
         {
             "id": "long.strategies.preference.dreamwork",
             "label": "Um Inimigo do Trabalho",
-            "description": "Nosso inimigo irá escolher uma abordagem, que talvez possamos adivinhar - mas nunca saberemos os detalhes de seu plano até que ele os execute.",
+            "description": "Nosso inimigo escolherá uma abordagem, que talvez possamos adivinhar, mas nunca saberemos os detalhes de seu plano até a sua execução.",
             "spec": [
                 "strategy.assault.concealed",
                 "strategy.intrigue.concealed",
@@ -399,7 +399,7 @@
         {
             "id": "ghoul.memory",
             "label": "Memórias",
-            "description": "Eu me lembrarei do que todos os outros esqueceram",
+            "description": "Lembrarei do que todos os outros esqueceram",
             "spec": [
                 "memory.unexpected",
                 "memory.joyful",

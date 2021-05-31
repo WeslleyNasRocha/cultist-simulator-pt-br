@@ -8,13 +8,13 @@
         },
         {
             "id": "credits.productionmarketingbiz",
-            "label": "Produção, Marketing, Biz",
+            "label": "Produção, Marketing, Corporativo",
             "description": "Lottie Bevan",
             "icon": "enid_r"
         },
         {
             "id": "credits.ui",
-            "label": "Design e Codificação da Interface",
+            "label": "Design da Interface e Codificação",
             "description": "Martin Nerurkar",
             "icon": "city.munich"
         },
@@ -34,11 +34,11 @@
             "id": "credits.audio",
             "label": "Áudio",
             "icon": "toolheartd",
-            "description": "Sondas"
+            "description": "Edição de Som"
         },
         {
             "id": "credits.moarwrite",
-            "label": "Escrita adicional",
+            "label": "Texto Adicional",
             "icon": "sixlettersonnecessity",
             "description": "Lottie Bevan"
         },
@@ -56,27 +56,39 @@
         },
         {
             "id": "credits.marketing",
-            "label": "Marketing & PR",
+            "label": "Marketing e Relações Públicas",
             "description": "Claire Sharkey",
             "icon": "legacydancerjob"
         },
         {
             "id": "credits.loc.zh-hans.",
-            "label": "Chinese Localisation",
+            "label": "Localização Chinesa",
             "icon": "curio.lantern",
-            "description": "\nEriccil, fish Wu, Girafe, Lotus, Menschmaschine, Nitrome, Nitrome <font=NotoSansCJKsc-Regular>N├</font>, Oval_plus, craft, laolaoruqin, ferroviária, mago, <font=NotoSansCJKsc-Regular>├├├├├-├, ├, ├, ├, ├, ─, ├-├-mule, (ExplicitText=\"·mule, ├├├-├,├, ├,├-├</font>. EXÍVEL: <font=NotoSansCJKsc-Regular>econtramengo de ringue-pongue</font>"
+            "description": "\nProject Gutenberg | indienova, Bamboo0o0, Dandirion, Erudito93, Ericcil, Fish Wu, Girafe, Lotus, Menschmaschine, Nitrome, <font=NotoSansCJKsc-Regular>N某</font>, Oval_plus, craft, laolaoruqin, railhead, wizardo, <font=NotoSansCJKsc-Regular>阿橘倒地不起, 百影虱子, 可里, 懒猫咪, 骡子·mule, 墨染胧月夜, 沙拉, 一只小雨</font>. EXILE: <font=NotoSansCJKsc-Regular>黑叶残荷, 白前Cynanchum, 黑叶残荷, 狂犬, Dominic Fowler, IvyLili, Corey SK, Cora Reynolds, 京极明, Tomatiel西红柿精, 清客, 安定斯基</font>"
         },
         {
             "id": "credits.loc.ru",
             "label": "Localização Russa",
-            "description": "Gerente Gerente: Adam Piesiak, Diretor para o Desenvolvimento de Empresas: Paweł Ziajka, Gerente de Desenvolvimento de Negócios: Elena Roor, Diretor de Garantia de Qualidade: Sergiusz S├losarczyk, Gerente de Projeto de QA: Marcin Gosuggrniak, Gerentes de QA Lab: Łukasz Mirosławski: Paweł Strzelczyk, Gerente de Treinamento do QA: Michał Raczyn➲ ski, Líder da Equipe QA: Michał Mugerman, Testes de Localização de QA: Aliaksandr Anoshkin/Karina Turanskaya, Gerente de TI: Tomasz Dziedzic. EXILE: NOTAS DE VERSÃO LocalizeDirect TRANSLAÇÃO DO VOLUNTEER: Artem Dvorniy",
+            "description": "Gerente Geral: Adam Piesiak, Diretor de Desenvolvimento Empresarial: Paweł Ziajka, Gerente de Desenvolvimento Empresarial: Elena Roor, Diretor de Garantia de Qualidade: Sergiusz Ślosarczyk, Gerente de Projeto da Garantia de Qualidade: Marcin Górniak, Gerentes do Laboratório da Garantia de Qualidade: Łukasz Mirosławski: Paweł Strzelczyk, Gerente de Treinamento da Garantia de Qualidade: Michał Raczyński, Líder da Equipe da Garantia de Qualidade: Michał Mugerman, Teste de Localização da Garantia de Qualidade: Aliaksandr Anoshkin/Karina Turanskaya, Gerente de TI: Tomasz Dziedzic. EXILE: LocalizeDirect Tradução Voluntária das Notas de Atualização: Artem Dvorniy",
             "icon": "catalogueofunchartedpleasures"
+        },
+        {
+            "id": "credits.loc.jp",
+            "label": "Localização Japonesa",
+            "description": "LocalizeDirect \n\nVERSION NOTES VOLUNTEER TRANSLATION: Nirvana Studio",
+            "icon": "jploc"
+        },
+        {
+            "id": "credits.loc.de",
+            "label": "Localização Alemã",
+            "description": "Localize Direct \n\nVERSION NOTES VOLUNTEER TRANSLATION: Jan Zimmer",
+            "icon": "bookofthrones"
         },
         {
             "id": "credits.special",
             "label": "Agradecimentos Especiais",
             "icon": "temptation.remembrance",
-            "description": "Sonja & PK; Matt Hosty; Haley Uyrus; e literalmente todos que já enviaram comentários ou um relatório de erro. Obrigado."
+            "description": "Sonja & PK; Matt Hosty; Haley Uyrus, Norman Chalk, Jasper R, Thomas Wade, Michael Guan, Darren Liao, Eve Kimbrough, Joel Bridge, drgatos,  Erin Dalton, So La, Sean Shannon, Jakob Hajdus, Zachary Dearing, Indijohnson, Haoran Sun, Tobia Ronco, Olaf Stachowski, Aiuigi Sarig, Kamil Kozlowski, aljawn, Isyander, nsk, Marcel Möhring, Yufei Qiu, and literally everyone who has ever sent feedback or a bug report. Thank you."
         }
     ]
 }

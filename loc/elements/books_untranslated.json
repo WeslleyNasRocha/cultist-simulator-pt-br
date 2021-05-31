@@ -9,7 +9,7 @@
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "Em latim. Uma reformulação do século XIX (pela incansável Nathaniel Darcy-Evers) de uma tradução latina do século XIV de um trabalho do século XIV.",
+            "description": "Em latim. Uma reimpressão do século XIX (pela incansável Nathaniel Darcy-Evers) de uma tradução latina do século XIV de um trabalho do século IV.",
             "xtriggers": {
                 "scholarlatin": "dehoris1"
             }
@@ -23,7 +23,7 @@
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "Em latim. Uma reformulação do século XIX (pela incansável Nathaniel Darcy-Evers) de uma tradução latina do século XIV de um trabalho do século XIV.",
+            "description": "Em latim. Uma reimpressão do século XIX (pela incansável Nathaniel Darcy-Evers) de uma tradução latina do século XIV de um trabalho do século IV.",
             "xtriggers": {
                 "scholarlatin": "dehoris2"
             }
@@ -45,7 +45,7 @@
         {
             "id": "onwhatiscontainedbysilvergreek",
             "unique": true,
-            "label": "No que é Contido por Prata",
+            "label": "Sobre o Que é Contido pela Prata",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
@@ -59,7 +59,7 @@
         {
             "id": "truecompleteasclepiangreek",
             "unique": true,
-            "label": "Uma Contabilidade Verdadeira e Completa dos Mistérios Asclepianos das Rootas da Casa",
+            "label": "Um Relato Verdadeiro e Completo dos Mistérios Asclepianos das Raízes da Casa",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
@@ -79,7 +79,7 @@
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "Um sonho de febre alquímica do século XVI, atribuído a Robert Fludd, frequentemente banido pelo perturbador encanto de suas ilustrações. Isso é no latim original.",
+            "description": "Um sonho febril alquímico do século XVI, atribuído a Robert Fludd, frequentemente banido pelo perturbador encanto de suas ilustrações. Isso está no latim original.",
             "xtriggers": {
                 "scholarlatin": "orchidtransfigurations1"
             }
@@ -93,7 +93,7 @@
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "Um sonho de febre alquímica do século XVI, atribuído a Robert Fludd, frequentemente banido pelo perturbador encanto de suas ilustrações. Isso é no latim original.",
+            "description": "Um sonho febril alquímico do século XVI, atribuído a Robert Fludd, frequentemente banido pelo perturbador encanto de suas ilustrações. Isso está no latim original.",
             "xtriggers": {
                 "scholarlatin": "orchidtransfigurations2"
             }
@@ -126,18 +126,18 @@
             "xtriggers": {
                 "scholarfucine": "geminiad"
             },
-            "description": "Um manuscrito frágil, iluminado com formas geminadas de beleza triste e luminosa, e com todas as fases da lua. Pode ser tão velho quanto o século, mas a língua - Fucine - é muito mais velha. Coral decora sua capa, e suas bordas de página são afiadas o suficiente para cortar a garganta."
+            "description": "Um manuscrito frágil, iluminado com formas geminadas de beleza triste e luminosa, e com todas as fases da lua. Pode ser tão velho quanto o século VII, mas a língua - Fucino- é muito mais velha. Coral decora sua capa, e suas bordas de página são afiadas o suficiente para cortar a garganta."
         },
         {
             "id": "textbookfucinelatin",
             "unique": true,
-            "label": "O Jornal Ciphered de Alessandro LaCroce",
+            "label": "O Jornal Codificado de Alessandro LaCroce",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
                 "textlatin": 1
             },
-            "description": "O príncipe Alessandro LaCroce passou anos a estudar em segredo os comprimidos retirados dos Marés Fucina, na Itália Central. O trabalho dele permitirá que você leia textos Fucinos... mas está escrito em uma simples cifra latina. Você precisará decifrá-la primeiro.",
+            "description": "O príncipe Alessandro LaCroce passou anos em estudo secreto de tabletes retirados dos Pantanos Funcinos, na Itália Central. O trabalho dele permitirá que você leia textos Fucinos... mas está escrito em um código latino simples. Você precisará o decifrar primeiro.",
             "xtriggers": {
                 "scholarlatin": "textbookfucine"
             }
@@ -145,13 +145,13 @@
         {
             "id": "textbookphrygiangreek",
             "unique": true,
-            "label": "As Inscrições do Velho",
+            "label": "As Inscrições Velshornianas",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,
                 "textgreek": 1
             },
-            "description": "Centenas de linhas de correspondência na poesia grega e Phrygian, copiadas de uma parede. Semelhante - ou idêntica - às inscrições Cal Velshorn descobertas em Halicarnassus. [Se falar grego, você pode usar isso como uma chave para o Phrygian.]",
+            "description": "Centenas de linhas idênticas de poesia em grego e frígio, copiadas de uma parede. Semelhante - ou idêntica - às inscrições Cal Velshorn descobertas no Halicarnasso. [Se falar grego, você pode usar isso como uma chave para o frígio.]",
             "xtriggers": {
                 "scholargreek": "textbookphrygian"
             }
@@ -159,7 +159,7 @@
         {
             "id": "textbookmandaicaramaic",
             "unique": true,
-            "label": "Pedra de Agosto",
+            "label": "A Pedra Augusta",
             "aspects": {
                 "text": 1,
                 "auctionable": 1,

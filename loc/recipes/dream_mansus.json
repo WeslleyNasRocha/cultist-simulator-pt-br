@@ -435,7 +435,7 @@
                 "waystag_after": -1
             },
             "startdescription": "A ascensão é demorada. Ventos de nenhum lugar depenam-me. Minha pele é manchada pela luz. A Floresta treme com movimento, muito abaixo.",
-            "description": "A Porta do Veado: uma barreira sulcada de um chifre manchado-de-sangue, gigantesca o suficiente para permitir a passagem de um navio. Há muito, fora quebrada, e até hoje suas cicatrizes não curaram-se completamente. Em um declive ao lado da porta, descansa a vasta e ferida Cabeça Dourada. Sua boca é grande o suficiente para engolir-me, estivesse sua mandíbula ainda inteira. É um Nome, Ghirbi. Ele começa a entonar sua charada. ",
+            "description": "A Porta do Veado: uma barreira sulcada de um chifre manchado-de-sangue, gigantesca o suficiente para permitir a passagem de um navio. Há muito, fora quebrada, e até hoje suas cicatrizes não curaram-se completamente. Em um declive ao lado da porta, descansa a vasta e ferida Cabeça Dourada. Sua boca é grande o suficiente para engolir-me, estivesse sua mandíbula ainda inteira. É o Nome, Ghirbi. Ele começa a entonar sua charada. ",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
@@ -458,7 +458,7 @@
                 "waywhite": 1,
                 "desire": 1
             },
-            "startdescription": "Já fiz essa ascendência antes. Não me trará lucros. Eu deveria responder a Charada se precisar, ou usar o Caminho à Porta do Veado se puder.",
+            "startdescription": "Já fiz essa ascendência antes. Não me trará lucros. Eu deveria responder a Charada se precisar, ou usar o Caminho para à Porta do Veado se puder.",
             "description": "\"A Porta do Veado: uma barreira sulcada de um chifre manchado-de-sangue, gigantesca o suficiente para permitir a passagem de um navio. Há muito, fora quebrada, e até hoje suas cicatrizes não curaram-se completamente. Em um declive ao lado da porta, descansa a vasta e ferida Cabeça Dourada, Ghirbi. Deu-me sua charada, que eu devo responder se eu for entrar na Porta do Veado. [Sonhe com a Charada para respondê-la ou Caminho: A Porta do Veado se já tiveres respondido-a.]",
             "alt": [
                 {
@@ -669,7 +669,7 @@
                 {
                     "id": "Ascent",
                     "label": "Ascensão",
-                    "description": "Invista Razão para passar da Porta do Veado - ou, com a sabedoria certa, encontrar o caminho à Porta da Aranha, a porta onde o sangue é derramado.",
+                    "description": "Invista Razão para passar da Porta do Veado - ou, com a tradição certa, encontrar o caminho à Porta da Aranha, a porta onde o sangue é derramado.",
                     "required": {
                         "reason": 1,
                         "lore": 1
@@ -1304,7 +1304,7 @@
             "requirements": {
                 "sendingmothg": 1
             },
-            "startdescription": "O luar cisa as árvores para enegrecer aquilo que o poço contém, para retratar as raízes-das-árvores, para tocar os gêmeos membros da Medusa, que espera pelo peço. Ela levanta seus pingantes braços, que seguram uma pálida Chave, girando como uma minhoca com presas. Eu me ajoelho, um rubro veado, e ofereço meu pescoço. Uma gota de sangue derrama-se no poço; e então Medusa começa a entalhar minha nova forma.",
+            "startdescription": "O luar divide as árvores para enegrecer aquilo que o poço contém, para retratar as raízes-das-árvores, para tocar os gêmeos membros da Medusa, que espera pelo peço. Ela levanta seus pingantes braços, que seguram uma pálida Chave, girando como uma minhoca com presas. Eu me ajoelho, um rubro veado, e ofereço meu pescoço. Uma gota de sangue derrama-se no poço; e então Medusa começa a entalhar minha nova forma.",
             "ending": "minormothvictory",
             "warmup": 30
         },
@@ -1316,7 +1316,7 @@
                 "sendingmothg": 1,
                 "summoned": 1
             },
-            "startdescription": "O luar cisa as árvores para enegrecer aquilo que o poço contém, para retratar as raízes-das-árvores, para tocar os gêmeos membros da Medusa, que espera pelo peço. Ela levanta seus pingantes braços, que seguram uma pálida Chave, girando como uma minhoca com presas. Eu me ajoelho, um rubro veado, e ofereço meu pescoço. Uma gota de sangue derrama-se no poço; e então Medusa começa a entalhar minha nova forma.\n\nNo obscuro lugar debaixo das árvores, minha defunta amada assiste, com sua pele que é manchada, seus olhos que são lámpadas.",
+            "startdescription": "O luar divide as árvores para enegrecer aquilo que o poço contém, para retratar as raízes-das-árvores, para tocar os gêmeos membros da Medusa, que espera pelo peço. Ela levanta seus pingantes braços, que seguram uma pálida Chave, girando como uma minhoca com presas. Eu me ajoelho, um rubro veado, e ofereço meu pescoço. Uma gota de sangue derrama-se no poço; e então Medusa começa a entalhar minha nova forma.\n\nNo obscuro lugar debaixo das árvores, minha defunta amada assiste, com sua pele que é manchada, seus olhos que são lâmpadas.",
             "ending": "minormothvictorywithrisen",
             "warmup": 10
         },

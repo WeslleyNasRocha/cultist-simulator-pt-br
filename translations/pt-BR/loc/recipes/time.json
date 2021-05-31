@@ -124,7 +124,7 @@
             "id": "sickness",
             "label": "Doença",
             "actionid": "illhealth",
-            "startdescription": "Eu fiquei inbem!",
+            "startdescription": "Estou indisposto!",
             "description": "Esta doença danificou minha saúde. Vou precisar descansar antes de ser totalmente recuperado. [Cure sua Afeição com Fundos ou Vitalidade.]",
             "requirements": {
                 "seasonsickness": 1
@@ -226,7 +226,7 @@
                     "id": "mareendingsickness",
                     "chance": 100,
                     "actionid": "sickness",
-                    "label": "A Madre em Mim",
+                    "label": "A Égua Interior",
                     "startdescription": "SHE COMES",
                     "description": "--",
                     "extantreqs": {
@@ -403,7 +403,7 @@
                 {
                     "id": "mareendingstarvation",
                     "actionid": "illhealth",
-                    "label": "A Madre em Mim",
+                    "label": "A Égua Interior",
                     "startdescription": "SHE COMES",
                     "description": "--",
                     "extantreqs": {

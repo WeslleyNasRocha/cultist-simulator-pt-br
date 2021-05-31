@@ -163,7 +163,7 @@
         },
         {
             "id": "passionexhausted",
-            "label": "Paixão (Exaustada)",
+            "label": "Paixão (Exaurida)",
             "description": "Minhas paixões se diminuem. [Este cartão não pode ser usado, mas vai se recuperar após sessenta segundos]",
             "lifetime": 60,
             "decayTo": "passion",
@@ -554,7 +554,7 @@
         },
         {
             "id": "scholarphrygian",
-            "label": "Scholar: Phrygian",
+            "label": "Estudioso: Frígio",
             "slots": [
                 {
                     "id": "Text",
@@ -573,7 +573,7 @@
         },
         {
             "id": "scholararamaic",
-            "label": "Scholar: Aramaic",
+            "label": "Estudioso: Aramaico",
             "slots": [
                 {
                     "id": "Text",
@@ -592,7 +592,7 @@
         },
         {
             "id": "scholarmandaic",
-            "label": "Scholar: Deep Mandaic",
+            "label": "Estudioso: Mandaico Profundo",
             "slots": [
                 {
                     "id": "Text",
@@ -611,7 +611,7 @@
         },
         {
             "id": "scholarsanskrit",
-            "label": "Scholar: Sanskrit",
+            "label": "Estudioso: Sânscrito",
             "slots": [
                 {
                     "id": "Text",
@@ -630,7 +630,7 @@
         },
         {
             "id": "scholarvak",
-            "label": "Scholar: Vak",
+            "label": "Estudioso: Vak",
             "slots": [
                 {
                     "id": "Text",
@@ -649,8 +649,8 @@
         },
         {
             "id": "fleeting",
-            "label": "Lembrete Fugoso",
-            "description": "Em um momento e no tempo. Em outro momento, ele desaparecerá.",
+            "label": "Lembrança Fugaz",
+            "description": "Um momento no tempo. Em outro momento, ele terá desaparecido.",
             "aspects": {
                 "secrethistories": 2,
                 "moth": 2,

@@ -306,7 +306,7 @@
         },
         {
             "id": "recruitacquaintanceknock",
-            "label": "Recrute uma Precisão, invocando o Toc!",
+            "label": "Recrute um Conhecido, invocando a Batida",
             "actionid": "talk",
             "requirements": {
                 "venerationknock": 1,
@@ -1133,7 +1133,7 @@
             "slots": [
                 {
                     "id": "Reason",
-                    "label": "Meu Motivo",
+                    "label": "Minha Razão",
                     "required": {
                         "reason": 1
                     },
@@ -1238,7 +1238,7 @@
             "effects": {
                 "hq.temporary": 1
             },
-            "description": "Fundi meu culto. Isso é um passo para aumentar o poder. [Use seu culto para recrutar e promover seguidores. Converse com seguidores sobre o seu culto para enviá-los para sequestro.]"
+            "description": "Fundei meu culto. Isso é um passo em direção a um poder maior. [Use seu culto para recrutar e promover seguidores. Converse com seguidores sobre o seu culto para enviá-los em negócios do culto.]"
         }
     ]
 }

@@ -14,7 +14,7 @@
                     }
                 }
             ],
-            "startdescription": "Uma multidão de rostos apertados, olhos brilhantes. Quem vai licitar? [O item em leilão é visível à direita. Se o leilão se perder para sempre.]",
+            "startdescription": "Uma multidão de rostos apertados, olhos brilhantes. Quem vai dar um lance? [O item em leilão é visível à direita. Ele se perderá para sempre se o leitão for perdido.]",
             "description": ".",
             "warmup": 30,
             "craftable": false,
@@ -39,7 +39,7 @@
             "requirements": {
                 "funds": 1
             },
-            "startdescription": "Eu ergui minha mão. O leilão faz um reconhecimento. Alguém vai combinar comigo?",
+            "startdescription": "Eu ergui minha mão. O leiloeiro faz um reconhecimento. Alguém vai cobrir o meu lance?",
             "description": ".",
             "effects": {
                 "funds": -1,

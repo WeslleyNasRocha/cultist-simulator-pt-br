@@ -52,7 +52,7 @@
             "aspects": {
                 "location": 1
             },
-            "description": "A especialidade do Oriflamme em curios, perfumes, espécimes de táxi e textos raros. Ele opera a partir de novas instalações, agora, desde a destruição do velho por um fogo não explicado. [Você pode comprar ou vender itens no Oriflamme.]",
+            "description": "Oriflamme se especializa em curiosidades, perfumes, espécimes de taxidermia e textos raros. Ele opera a partir de apertadas novas instalações, agora, desde a destruição das antigas por um fogo não explicado. [Você pode comprar ou vender itens no Oriflamme.]",
             "slots": [
                 {
                     "id": "Sell",
@@ -69,7 +69,7 @@
         {
             "id": "locationcabaretclosed",
             "label": "O Clube Ecdisis [Closed]",
-            "description": "Um cabo com uma reputação oculta. Só abre certas noites da semana; reabrirá em breve.",
+            "description": "Um cabaré com uma reputação oculta. Só abre certas noites da semana; reabrirá em breve.",
             "unique": true,
             "lifetime": 30,
             "decayTo": "locationcabaret",
@@ -85,7 +85,7 @@
                 "grail": 1,
                 "heart": 1
             },
-            "description": "Um cabo com uma reputação oculta.",
+            "description": "Um cabaré com uma reputação oculta.",
             "slots": [
                 {
                     "id": "Entry",
@@ -352,7 +352,7 @@
                 },
                 {
                     "id": "funds",
-                    "label": "Fundos",
+                    "label": "Saldos",
                     "description": "Coloque fundos aqui para aumentar a influência de Forja.",
                     "actionid": "explore",
                     "required": {

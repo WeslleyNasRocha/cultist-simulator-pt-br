@@ -2,8 +2,8 @@
     "decks": [
         {
             "id": "oneoffrewards",
-            "label": "Um Pedaço Útil",
-            "description": "Algo notável.",
+            "label": "Um Bilhete Útil",
+            "description": "Algo importante.",
             "spec": [
                 "fragmentedgeb",
                 "fragmentforgeb",
@@ -18,7 +18,7 @@
         },
         {
             "id": "commontomes",
-            "label": "Trabalhos em Circulação",
+            "label": "Obras em Circulação",
             "description": "Eu posso encontrar livros a venda para ensinar-me algo das artes invisíveis.",
             "spec": [
                 "dehoris1latin",
@@ -56,7 +56,7 @@
         },
         {
             "id": "auctionedcommontomes",
-            "label": "Trabalhos de Coleções",
+            "label": "Obras de Coletâneas",
             "description": "Talvez eu encontre aqui uma coleção um pouco mais seleta de livros.",
             "spec": [
                 "dehoris1latin",

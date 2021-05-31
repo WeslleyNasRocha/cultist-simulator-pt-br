@@ -93,20 +93,20 @@
         {
             "id": "edge",
             "label": "Fio",
-            "description": "Toda conquista ocorre no Fio. Aquele que habita lá é cego, e não pode ser ferido. Outro é forte e torna-se mais forte. [O Fio é o princípio da batalha e da luta.]",
+            "description": "Toda conquista ocorre na Orla. Alguns que moram ali são cegos e não podem ser feridos. Outros são fortes e se tornam cada vez mais fortes. [A Orla é o princípio da batalha e da guerra.]",
             "isAspect": true,
             "noartneeded": true
         },
         {
             "id": "forge",
             "label": "Forja",
-            "description": "'Fogo', li uma vez, 'é o inverno que aquece e a primavera que consome.' [O princípio da Forja transforma e destrói.]",
+            "description": "\"O fogo\", eu li uma vez, \"é o inverno que aquece e a primavera que consome.\" [O princípio da Forja transforma e destrói.]",
             "isAspect": true
         },
         {
             "id": "grail",
             "label": "Graal",
-            "description": "Fome, Luxuria, as águas que afogam. [O princípio do Graal honra tanto o nascimento como o banquete.]",
+            "description": "Fome e Desejo, as águas traiçoeiras. [O princípio do Graal celebra o nascimento e a celebração.]",
             "isAspect": true,
             "induces": [
                 {
@@ -129,7 +129,7 @@
         },
         {
             "id": "knock",
-            "label": "Batida",
+            "label": "Bater",
             "description": "A Batida não permite nenhum selo e nenhuma isolação. Ela alegremente nos empurra para fora da segurança da ignorância. [A Batida é o princípio que abre portas e desconjunta barreiras.]",
             "isAspect": true
         },
@@ -179,13 +179,13 @@
             "id": "scar",
             "label": "Cicatriz",
             "isAspect": true,
-            "description": "O resultado irrevogável de um ato irrevogável."
+            "description": "O resultado definitivo de um ato definitivo."
         },
         {
             "id": "advancement",
-            "label": "Avanço",
+            "label": "Melhoramento",
             "isAspect": true,
-            "description": "Um gosto do que pode ser. [Com cartas suficientes, você pode cultivar uma Habilidade.]"
+            "description": "Uma amostra daquilo que poderá ser. [Com o suficiente dessas cartas, você pode aumentar uma Habilidade.]"
         },
         {
             "id": "potential",
@@ -197,7 +197,7 @@
             "id": "job",
             "label": "Trabalho",
             "isAspect": true,
-            "description": "Um arranjo para trocar a vida por dinheiro.",
+            "description": "Um contrato para trocar sua vida por dinheiro.",
             "induces": [
                 {
                     "id": "needs",
@@ -209,7 +209,7 @@
             "id": "dance",
             "label": "Dança",
             "isAspect": true,
-            "description": "Mais velho do que a língua, mais jovem que a vida.",
+            "description": "Mais velha que a linguagem, mais jovem que a vida.",
             "induces": [
                 {
                     "id": "heartinduction",
@@ -223,9 +223,9 @@
         },
         {
             "id": "ecdysijob",
-            "label": "Um lugar no Clube de Ecdisis",
+            "label": "Um lugar no Ecdysis Club",
             "isAspect": true,
-            "description": "Ganhei um lugar no palco do Clube de Ecdisis."
+            "description": "Eu consegui uma vaga no palco do Ecdysis Club."
         },
         {
             "id": "demotion",
@@ -243,7 +243,7 @@
             "id": "society",
             "label": "Sociedade",
             "isAspect": true,
-            "description": "Para recrutar crentes, tenho de construir algo para acreditar."
+            "description": "Para recrutar seguidores, eu preciso criar algo para eles acreditarem."
         },
         {
             "id": "rededicable",
@@ -255,14 +255,14 @@
             "id": "ingredient",
             "label": "Ingrediente",
             "isAspect": true,
-            "description": "Combustível, pomada, pigmento e paciência: tudo é consumido no tempo.",
+            "description": "Combustível, unguento, corante e paciência: tudo é consumido pelo tempo.",
             "induces": [
                 {
                     "id": "needs",
                     "chance": 100
                 }
             ],
-            "comments": "Isso é qualquer coisa que gera Fundos sempre acionará o timer de necessidades se ele já não estiver em execução."
+            "comments": "Isto é qualquer coisa que gera Fundos, e sempre acionará o timer de necessidades, se já não estiver em execução."
         },
         {
             "id": "pigment",
@@ -278,15 +278,15 @@
         },
         {
             "id": "influence",
-            "label": "Influência",
+            "label": "Dominação",
             "isAspect": true,
             "description": "Um eco, uma ressonância, um alinhamento. Algo que vai desaparecer em breve."
         },
         {
             "id": "tool",
-            "label": "Ferramenta",
+            "label": "Artefato",
             "isAspect": true,
-            "description": "'Uma espada não mata; é um instrumento na mão do assassino.' - Seneca, o Jovem"
+            "description": "\"Uma espada não pode matar, ela é apenas um artefato nas mãos do assassino\" - Sêneca, o jovem"
         },
         {
             "id": "mirror",
@@ -340,13 +340,13 @@
             "id": "reasonskill",
             "label": "Estudante",
             "isAspect": true,
-            "description": "Sou um pilar das sabedorias. [Isto atualmente só permite que você aumente a Razão ainda mais.]"
+            "description": "Sou um pilar da sabedoria! [Isto atualmente só permite que você aumente o Raciocínio um pouco mais.]"
         },
         {
             "id": "way",
             "label": "Um Caminho de Volta Através do Sonho",
             "isAspect": true,
-            "description": "Algumas memórias são esboços de mapas de sonho. Alguns até passam pelos Limites do sonho, até a Floresta e a Casa que se levantam acima."
+            "description": "Algumas memórias são esboços de mapas de algum sonho. Outras até passam pelo Limiar do sonho, até a Floresta e a Casa que se elevam um pouco mais adiante."
         },
         {
             "id": "desire",
@@ -364,7 +364,7 @@
             "id": "rivalmarks",
             "label": "Uma Ascensão de um Rival",
             "isAspect": true,
-            "description": "As oportunidades de ascender à Casa do Sol são raras. Se outro o conseguir, posso perder a minha oportunidade. [Se atingir sete, seu Rival tem a chance de ganhar o jogo em vez de você na próxima Temporada de Ambições.]"
+            "description": "As oportunidades de ascender à Casa do Sol são raras. Se algum outro conseguir, eu posso perder a minha oportunidade. [Se atingir sete, seu Rival tem a chance de ganhar o jogo em seu lugar na próxima Temporada de Ambições.]"
         },
         {
             "id": "changemarks",
@@ -376,26 +376,26 @@
             "id": "powermarks",
             "label": "As Marcas da Formação",
             "isAspect": true,
-            "description": "Posso procurar imortalidade e poder na Hora chamada de Forja dos Dias. O seu toque traz apetites e Marcas."
+            "description": "Posso procurar imortalidade e poder na Hora chamada de Forja dos Dias. O seu toque provoca desejos específicos, e Marcas."
         },
         {
             "id": "sensationmarks",
             "label": "As Marcas do Prazer",
             "isAspect": true,
-            "description": "Posso procurar imortalidade e prazer na Hora chamada de Graal Vermelho\". Seu toque traz apetites e Marcas."
+            "description": "Posso procurar imortalidade e prazer na Hora chamada de Graal Vermelho. O seu toque provoca desejos específicos, e Marcas."
         },
         {
             "id": "enlightenmentmarks",
             "label": "As Marcas da Luz",
             "isAspect": true,
-            "description": "Posso procurar imortalidade e esclarecimento na Hora chamada de O Vigia. Seu toque traz apetites e Marcas."
+            "description": "Posso procurar imortalidade e esclarecimento na Hora chamada de O Vigia. O seu toque provoca desejos específicos, e Marcas."
         },
         {
             "id": "remembrancemarks",
             "label": "As Garras da Memória",
             "isAspect": true,
             "description": "Sob o solo, ossos. Nos ossos, memória. Na memória, cores.",
-            "comments": "Importante! Isto é usado para acionar a descoberta extra de remanescentes de corpos de Expedições para Ghoul"
+            "comments": "Atenção! Isto é usado para acionar a descoberta extra dos restos de cadáveres das Expedições para Ghouls"
         },
         {
             "id": "follower_lustenlightenment",
@@ -448,14 +448,14 @@
             "label": "Ascendendo",
             "isAspect": true,
             "description": "Para a próxima Marca.",
-            "comments": "Aspecto da receita",
+            "comments": "Receita aspecto",
             "noartneeded": true
         },
         {
             "id": "descend",
-            "label": "Descendendo",
+            "label": "Descendente",
             "isAspect": true,
-            "description": "Se eu não alimentar meus novos apetites, minhas Marcas vão desaparecer.",
+            "description": "Se eu não satisfizer os meus novos desejos, minhas Marcas vão desaparecer.",
             "noartneeded": true,
             "comments": "Aspecto da receita"
         },
@@ -486,13 +486,13 @@
         },
         {
             "id": "lore",
-            "label": "História",
+            "label": "Conhecimento",
             "isAspect": true,
-            "description": "Conhecimento das artes invisíveis. Eu posso usá-lo para atrair seguidores, para realizar ritos, para abrir o caminho para os Mansus, para buscar minha ascensão. . [Os fragmentos do Lore algumas vezes podem ser atualizados com o Aluno e com a correspondência de fragmentos.]"
+            "description": "Conhecimento das artes ocultas. Eu posso usá-lo para atrair seguidores, para realizar rituais, para abrir o caminho para os Mansus, para buscar minha ascensão.. [Os fragmentos de Conhecimento algumas vezes podem ser atualizados com Estudo ou fazendo a correspondência dos fragmentos.]"
         },
         {
             "id": "subvertable_lore",
-            "label": "Sabedoria Subvertível",
+            "label": "Conhecimento Subversivo",
             "isAspect": true,
             "isHidden": true,
             "noartneeded": true
@@ -501,7 +501,7 @@
             "id": "memory",
             "label": "Memória",
             "isAspect": true,
-            "description": "Lembramo-nos dos mortos, até esquecê-los."
+            "description": "Nós nos lembramos dos mortos, até que nos esquecemos deles."
         },
         {
             "id": "language",
@@ -511,92 +511,92 @@
         },
         {
             "id": "tutorlatin",
-            "label": "Escolástico de Latin",
+            "label": "Estudioso de Latim",
             "isAspect": true,
-            "description": "Um erudito de Latim que talvez esteja preparado para te orientar se estudas com ele."
+            "description": "Um Estudioso de Latim, que talvez esteja disposto a lhe ensinar algo."
         },
         {
             "id": "tutorgreek",
-            "label": "Escolástico em Grego",
+            "label": "Estudioso de Grego",
             "isAspect": true,
-            "description": "Um erudito de Grego que pode estar preparado para te orientar se estudas com ele."
+            "description": "Um Estudioso de Grego, que talvez esteja disposto a lhe ensinar algo."
         },
         {
             "id": "tutoraramaic",
-            "label": "Escolástico de Aramaico",
+            "label": "Estudioso de Aramaico",
             "isAspect": true,
-            "description": "Um erudito de Aramaico que talvez esteja preparado para te orientar se estudas com ele."
+            "description": "Um Estudioso de Aramaico, que talvez esteja disposto a lhe ensinar algo."
         },
         {
             "id": "tutorsanskrit",
-            "label": "Escolástico de Sánscrito",
+            "label": "Estudioso de Sânscrito",
             "isAspect": true,
-            "description": "Um erudito de Sánscrito que talvez esteja preparado para te orientar se estudas com ele."
+            "description": "Um Estudioso de Sânscrito, que talvez esteja disposto a lhe ensinar algo."
         },
         {
             "id": "spirittutorfucine",
-            "label": "Falante de Fucine",
+            "label": "Fluente em Fucine",
             "isAspect": true,
-            "description": "Este espírito pode ser capaz de lhe ensinar a Fucine, se você conhece uma língua relacionada."
+            "description": "Este espírito pode ser capaz de lhe ensinar a língua Fucine, se você conhecer algum outro idioma semelhante."
         },
         {
             "id": "spirittutorphrygian",
-            "label": "Falante de Phrgian",
+            "label": "Fluente em Frígio",
             "isAspect": true,
-            "description": "Este espírito pode ser capaz de te ensinar Phrygian, se você sabe uma língua relacionada."
+            "description": "Este espírito pode ser capaz de lhe ensinar o idioma Frígio, se você conhecer alguma outra língua semelhante."
         },
         {
             "id": "spirittutormandaic",
-            "label": "Falante de Mandaico",
+            "label": "Fluente em Mandaico",
             "isAspect": true,
-            "description": "Este espírito pode ser capaz de lhe ensinar profundo Mandaic, se você sabe uma língua relacionada."
+            "description": "Este espírito pode ser capaz de lhe ensinar o idioma Mandaico, se você conhecer alguma outra língua semelhante."
         },
         {
             "id": "spiritsicknessprotector",
-            "label": "Phylaxian",
+            "label": "Curandeiro",
             "description": "Se falo com este sobre a minha Saúde, ela pode oferecer proteção contra doença.",
             "isAspect": true
         },
         {
             "id": "spiriteatspassion",
-            "label": "Lâmpada de Perda",
-            "description": "Se eu falar com este, poderei oferecer-lhe a minha paixão.",
+            "label": "Lâmpada de Perdição",
+            "description": "Se eu falar com ele, poderei oferecer a minha Paixão.",
             "isAspect": true
         },
         {
             "id": "spiriteatsreason",
-            "label": "Limite de Pensamentos",
-            "description": "Caso eu fale com este, posso oferecer meu Reason.",
+            "label": "Tecelão de Pensamentos",
+            "description": "Se eu falar com ele, poderei oferecer a minha Razão.",
             "isAspect": true
         },
         {
             "id": "auctionable",
-            "label": "Disponível",
-            "description": "Talvez eu possa leiloar isso, embora o valor em leilão seja sempre incerto.",
+            "label": "Leiloável",
+            "description": "Talvez eu possa leiloar isso, embora o valor obtido em um leilão seja sempre incerto.",
             "isAspect": true
         },
         {
             "id": "compensationvalue",
-            "label": "Valor de Espíntria",
-            "description": "Espíntriaé a moeda do mundo escondido. Algumas espíntrias valem mais do que outras. Mas não espere mudanças. Isto não é uma mercearia.",
+            "label": "Valor da Spintria",
+            "description": "Spintria é a moeda do mundo oculto. Algumas spintrias valem mais do que outras. Mas não espere que haja mudanças. Aqui não é um mercado.",
             "isAspect": true
         },
         {
             "id": "hq",
-            "label": "Quartel-General",
-            "description": "Para conversas e convocação.",
+            "label": "Sede",
+            "description": "Para conversas e conversões.",
             "isAspect": true
         },
         {
             "id": "hq.potential",
-            "label": "Quartel General em Potencial",
+            "label": "Sede em Potencial",
             "description": ".",
             "isAspect": true,
             "isHidden": true
         },
         {
             "id": "movehq",
-            "label": "Mover para um novo QG",
+            "label": "Mover para uma nova Sede",
             "description": "Aspecto da receita",
             "isAspect": true,
             "noartneeded": true
@@ -604,19 +604,19 @@
         {
             "id": "library",
             "label": "Biblioteca",
-            "description": "Uma coleção de volumes menores, cópias parciais e efêmeras que podem ajudar na investigação.",
+            "description": "Uma coleção de livros menos importantes, cópias parciais e efêmeras que podem ajudar na investigação.",
             "isAspect": true
         },
         {
             "id": "pit",
             "label": "Poço",
-            "description": "Um poço de solidão sem luz, onde posso sentir inspirações sombrias.",
+            "description": "Uma cova solitária e escura, onde eu posso receber inspirações sombrias.",
             "isAspect": true
         },
         {
             "id": "secret",
-            "label": "Segredo",
-            "description": "Este lugar é facilmente esquecido. [Usar este Quartel General fará com que as cartas de reputação desapareçam.]",
+            "label": "Secreto",
+            "description": "Este lugar é facilmente ignorado. [Usar esta Sede fará com que as cartas de Reputação desapareçam.]",
             "isAspect": true,
             "induces": [
                 {
@@ -628,43 +628,43 @@
         {
             "id": "sanctuary",
             "label": "Santuário",
-            "description": "Um espaço concebido para contemplar e talvez até para a paz.",
+            "description": "Um espaço concebido para a contemplação e talvez até para a paz.",
             "isAspect": true
         },
         {
             "id": "location",
             "label": "Local:",
-            "description": "Locais! Tudo deve estar em algum lugar, e isto está aqui.",
+            "description": "Localizações! Tudo deve estar em algum lugar, e isto está aqui.",
             "isAspect": true
         },
         {
             "id": "vaultcapital",
-            "label": "Na capital",
-            "description": "Um lugar secreto na capital repleta que eu moro.",
+            "label": "Na Capital",
+            "description": "Um lugar secreto na importante cidade onde eu moro.",
             "isAspect": true
         },
         {
             "id": "vaultshires",
-            "label": "Na Costa",
-            "description": "Campos verdes e colinas cinzas.",
+            "label": "No Interior",
+            "description": "Campos verdes e colinas cinzentas.",
             "isAspect": true
         },
         {
             "id": "vaultcontinent",
-            "label": "No continente",
+            "label": "No Continente",
             "description": "Através de um mar estreito, nos cantos discretos de nações rivais.",
             "isAspect": true
         },
         {
             "id": "vaultlandbeyondforest",
-            "label": "Na Terra Além da Floresta",
-            "description": "Misty passa e aldeias remotas, onde a pele do mundo é fina. ",
+            "label": "Nas Terras Além da Floresta",
+            "description": "Caminhos enevoados e aldeias remotas, onde a pele do mundo é fina. ",
             "isAspect": true
         },
         {
             "id": "vaultrendingmountains",
             "label": "Nas Montanhas Rasgantes",
-            "description": "Tawny-flanqueado, na ponta da neve, longe de ajudar.",
+            "description": "Vales desertos, picos nevados, longe de qualquer ajuda.",
             "isAspect": true
         },
         {

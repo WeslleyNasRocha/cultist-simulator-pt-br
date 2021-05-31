@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "studydehoris1",
-            "label": "Leia de Horis, vol 1",
+            "label": "Ler De Horis, vol 1",
             "actionid": "study",
             "requirements": {
                 "dehoris1": 1
@@ -12,7 +12,7 @@
                 "fragmentmoth": 1,
                 "erudition": 1
             },
-            "startdescription": "Esse volume lida principalmente com as Horas da Madeira: a Lua, o Linho Negro, o Ring-Yew, entre outros.",
+            "startdescription": "Esse volume lida principalmente com as Horas da Floresta: a Mariposa, a Espadana Negra, o Teixo Anelar, entre outros.",
             "description": "\"A Glória é uma pergunta, e a Mariposa sempre responde Sim. A resposta do Linho Negro é Não, e essa é sempre a sua resposta.\"",
             "warmup": 60,
             "craftable": true
@@ -64,7 +64,7 @@
                 "erudition": 1
             },
             "startdescription": "Há uma ampla discussão sobre as semelhanças entre os sonhos do próprio Illopoly e os sonhos do Imperador Elagabalus, quem Illopoly encara como um buraco ou um avatar do Sol em Rags. \"Os brancos são o oeste do mundo\", diz Illopoly que \"e o Inverno não espera para sempre\".",
-            "description": "\"Elagabalus finalmente encontrou o caminho para a Porta Branca, graças a Deus. A fala não passa da Porta Branca e, honestamente, Elagabalus nunca teve nada muito interessante a dizer. Tentei seguir os passos dele, mas nunca aprendi o suficiente com os brancos. Suponho que também estou grato por isso. Mas aqui está o que eu sei...",
+            "description": "'Elagabalus finalmente encontrou o caminho para a Porta Branca, graças a Deus. A fala não passa da Porta Branca e, honestamente, Elagabalus nunca teve nada muito interessante a dizer. Tentei seguir os passos dele, mas nunca aprendi o suficiente com do Brancos. Suponho que também estou grato por isso. Mas aqui está o que eu sei...'",
             "warmup": 60,
             "craftable": true
         },
@@ -87,7 +87,7 @@
         },
         {
             "id": "studysixlettersonnecessity",
-            "label": "Leia as seis letras sobre a necessidade",
+            "label": "Leia as Seis Cartas sobre a Necessidade",
             "actionid": "study",
             "requirements": {
                 "sixlettersonnecessity": 1
@@ -97,7 +97,7 @@
                 "fragmentforge": 1,
                 "erudition": 1
             },
-            "startdescription": "O tom de cozinha é urgente - como se ele suspeitasse que lhe restava pouco tempo.",
+            "startdescription": "O tom de Coseley é urgente - como se ele suspeitasse que lhe restava pouco tempo.",
             "description": "\"Mesmo o Sol pode ficar dividido, embora exija a Forja de Anos para a sua divisão\".",
             "warmup": 60,
             "craftable": true
@@ -312,7 +312,7 @@
                 "fragmentsecrethistoriesb": 1
             },
             "startdescription": "\"Neste passado, foi feita uma pontuação ou mais de Longs. Eles mediaram a paz com a Forja de Dias, tempo suficiente para colocar a Inglaterra numa via de conquista precoce e de destruição. A própria Forja devorou a maior deles.\"",
-            "description": "A realeza da Inglaterra, de acordo com Willis-Ford, se tornou os Soberanos da Chama Lascada destruindo ou transformando os seus inimigos, conquistando a Europa, estabelecendo grandes catedrais para St. A aliança com a Forja começa a atingir o seu valor. Os últimos capítulos estão perdendo por completo.",
+            "description": "A realeza da Inglaterra, de acordo com Willis-Ford, se tornou os Soberanos da Chama Lascada, destruindo ou transformando os seus inimigos, conquistando a Europa, estabelecendo grandes catedrais para St. Spark. A aliança com a Forja começa a cobrar seu preço. Os últimos capítulos estão completamente ausentes.",
             "warmup": 60,
             "craftable": true
         },
@@ -343,7 +343,7 @@
                 "apolloandmarsyas": -1,
                 "fragmentheart": 1
             },
-            "startdescription": "No mito original, Marsyas perdeu um concurso musical e foi esmagado por Apollo, que mais tarde lamentou. Nesta versão, a pele Marsyas tem mais um histórico...",
+            "startdescription": "No mito original, Marsyas perdeu um concurso musical e foi esfolado por Apollo, que mais tarde se arrependeu. Nesta versão, a pele de Marsyas tem mais uma história...",
             "description": "A Pele de Marsyas dá oráculos e mais tarde é contrabandeada para Phrygia, onde os sacerdotes de Ciclo a usam para uma briga. No clima da ópera, o ataque ao tambor conduz os pretensos violadores do padre à loucura suicida. A ópera termina com um hino pulverizado do mais novo padre sobre a beleza dos pinos de montanha.",
             "warmup": 60,
             "craftable": true
@@ -1749,7 +1749,7 @@
             },
             "warmup": 60,
             "startdescription": "As danças extraem das tradições dos Mistérios, dos cultos de Isis e de Cybele, mas incluem as camadas simbólicas e literais, e o coração humano está sempre no centro dos ritos. O autor pontua as suas contas com descrições vagamente sensuosas de seus próprios banquetes interrompidos.",
-            "description": "'Nessas festas, um Porco Negro é sempre coroado como Rei antes de sua caça. Nessa Ocorrência, seu Coração era pesado no Balanço contra um Knot of Penas, e sua Skin tornou-se um Cabo para o Oficial. Sua carne foi deixada para os corvos, Mas devo confessar que o meu interesse não foi na Carcasa, mas sim na carne perfumada de Miliner colocada fresca na Terra.\"",
+            "description": "'Nesses Banquetes maiores um Porco Negro é sempre coroado como Rei antes de sua caça. Nessa Ocorrência, seu Coração era pesado no Balanço contra um Punhado de Penas, e sua Pele tornou-se uma Capa para o Oficial. Sua Carne foi deixada para os Corvos, mas devo confessar que o meu Interesse não foi na Carcaça, mas sim na Carne Perfumada da Modista colocada fresca na Terra.\"",
             "craftable": true
         },
         {

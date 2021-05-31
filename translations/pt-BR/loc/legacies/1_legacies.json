@@ -15,9 +15,9 @@
         },
         {
             "id": "brightyoungthing",
-            "label": "Brilhante Jovenzinho",
+            "label": "Jovem Brilhante",
             "description": "Dotada do berço com riquezas e talento. Uma vida fácil, confortável e deliciosa estende-se na sua frente como um ambarino tapete.",
-            "startdescription": "Eu não vi o alvorecer. Eu geralmente não o vejo. Haverão muitos outros mais.",
+            "startdescription": "Não vi o alvorecer. Eu geralmente não o vejo. Haverá muitos outros.",
             "effects": {
                 "legacybytjob": 1,
                 "health": 1
@@ -74,7 +74,7 @@
         },
         {
             "id": "apostleforge",
-            "label": "Apóstolo Ardente",
+            "label": "Apóstolo Fervoroso",
             "startdescription": "Aquele que nos formou ascendeu a um estado mais elevado... em uma história, ao menos. O passado é incerto. Porém, eu cuidarei do crisol para sua próxima ascensão.",
             "description": "O nosso Grão Formador cresceu em poder - e tem inimigos poderosos. Ele continuará escondendo-se, enquanto eu o servirei como seu instrumento.",
             "effects": {
@@ -118,7 +118,7 @@
         },
         {
             "id": "apostleforgewithrisen",
-            "label": "Apóstolo Aestetuante",
+            "label": "Apóstolo Fervoroso",
             "startdescription": "Aquele que nos formou ascendeu a um estado mais elevado... Em uma história, ao menos. O passado é incerto. Porém, eu cuidarei do cadinho para sua próxima ascensão.",
             "description": "O nosso Grão Formador cresceu-se poderoso - e tem inimigos poderosos. Eles continuaram escondendo-se, enquanto eu servirei-o como seu instrumento.",
             "effects": {
@@ -147,7 +147,7 @@
         },
         {
             "id": "apostlelanternwithrisen",
-            "label": "Apóstolo Entheato",
+            "label": "Apóstolo Inspirado",
             "startdescription": "O Iluminado aguarda na Casa do Sol - aguarda para ascender mais. Eu sou sua mão.",
             "description": "Não me lembro do que ocorreu. Não me lembro de quem sou. Mas os sonhos me ensinaram que fazer.",
             "effects": {
@@ -175,9 +175,9 @@
         },
         {
             "id": "survivor",
-            "label": "--",
-            "description": "Não está no jogo.",
-            "startdescription": "Não está no jogo",
+            "label": "O Sobrevivente",
+            "description": "Às vezes, em espelhos, em multidões, você vê o rosto daquele que se perdeu.",
+            "startdescription": "Haunted starting note",
             "effects": {
                 "introjob": 1
             },
@@ -188,9 +188,9 @@
         },
         {
             "id": "cousin",
-            "label": "Não está no jogo",
+            "label": "O Primo",
             "description": "Não está no jogo",
-            "startdescription": "Não está no jogo",
+            "startdescription": "Inheritor starting note",
             "effects": {
                 "introjob": 1
             },

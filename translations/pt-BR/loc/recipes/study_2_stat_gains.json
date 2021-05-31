@@ -193,12 +193,12 @@
         },
         {
             "id": "studyincreasereasonstarter",
-            "label": "Exercite a Mente",
+            "label": "Exercitar a Mente",
             "actionid": "study",
             "requirements": {
                 "erudition": 2
             },
-            "startdescription": "Eu peguei fatos estranhos, aqui e ali. Se eu gastar tempo estudando o que aprendi, eu poderia aumentar o meu motivo.",
+            "startdescription": "Aprendi fatos estranhos, aqui e ali. Se eu passar um tempo estudando o que aprendi, talvez eu possa aumentar minha Razão.",
             "description": "Minha mente, a biblioteca. [Ganhei Razão, mas será mais difícil ganhar Razão da próxima vez.]",
             "effects": {
                 "erudition": -2,
@@ -211,12 +211,12 @@
         },
         {
             "id": "studyincreaseeruditiontoplus",
-            "label": "Exercite a Mente",
+            "label": "Exercitar a Mente",
             "actionid": "study",
             "requirements": {
                 "erudition": 2
             },
-            "startdescription": "Eu peguei fatos estranhos, aqui e ali. Se eu gastar tempo estudando o que aprendi, eu poderia aumentar a minha Razão.",
+            "startdescription": "Aprendi fatos estranhos, aqui e ali. Se eu passar um tempo estudando o que aprendi, talvez eu possa aumentar minha Razão.",
             "description": "Minha mente, a biblioteca. [Use esta Lição Aprendida com a sua habilidade de Estudante.]",
             "effects": {
                 "erudition": -2,
@@ -227,7 +227,7 @@
         },
         {
             "id": "studyincreaseeruditionwithlanterninfluencetoplus",
-            "label": "A luz da mente",
+            "label": "A Luz da Mente",
             "actionid": "study",
             "requirements": {
                 "erudition": 1,
@@ -245,7 +245,7 @@
         },
         {
             "id": "studyincreasereasonskilla",
-            "label": "Exercite a mente: Mais Sábio...",
+            "label": "Exercitar a Mente: Mais Sábio...",
             "actionid": "study",
             "requirements": {
                 "skillreasona": 1,
@@ -255,7 +255,7 @@
                 "careeradvancement": 1
             },
             "startdescription": "Conhecimento é um muro da cidade construído pedra por pedra. Mas o que espera na escuridão para além das paredes? Por que razão precisaríamos de uma fortaleza, se não tivéssemos algo a temer?",
-            "description": "Reordenei as fronteiras da minha ignorância.",
+            "description": "Redesenhei os limites da minha ignorância.",
             "effects": {
                 "reason": 1
             },
@@ -264,7 +264,7 @@
         },
         {
             "id": "studyincreasereasonskillb",
-            "label": "Exercite a mente: Ainda mais Sábio...",
+            "label": "Exercitar a Mente: Ainda mais Sábio...",
             "actionid": "study",
             "requirements": {
                 "skillreasonb": 1,
@@ -283,7 +283,7 @@
         },
         {
             "id": "studyincreasereasonskill_to_d_lantern",
-            "label": "Exercício da mente: Uma Iluminação mais brilhante",
+            "label": "Exercitar a Mente: Uma Iluminação Brilhante",
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
@@ -291,7 +291,7 @@
                 "lantern": 9,
                 "lore": 1
             },
-            "startdescription": "Vou seguir as pegadas do Observador.",
+            "startdescription": "Vou seguir as pegadas do Vigia.",
             "description": "Quanto mais alto eu subo, mais vejo.",
             "effects": {
                 "reason": 1,
@@ -311,7 +311,7 @@
                 "winter": 1,
                 "lore": 1
             },
-            "startdescription": "Ouvirei a voz do Madrugad.",
+            "startdescription": "Ouvirei a voz de Madrugad.",
             "description": "A tildade é a virtude.",
             "effects": {
                 "reason": 1,
@@ -343,7 +343,7 @@
         },
         {
             "id": "studyincreasereasonskill_to_d_secrethistories",
-            "label": "Exercício da mente: Uma Concentração de Veículos",
+            "label": "Exercitar a Mente: Uma Concentração Maior",
             "actionid": "study",
             "requirements": {
                 "skillreasonc": 1,
@@ -352,7 +352,7 @@
                 "lore": 1
             },
             "startdescription": "Ninguém se lembra de todas as histórias; consequentemente, ninguém pode esquecê-las a todas.",
-            "description": "A tildade é a virtude.",
+            "description": "A quietude é a virtude.",
             "effects": {
                 "reason": 1,
                 "skillreasonc": -1,
@@ -426,7 +426,7 @@
             "requirements": {
                 "glimmering": 2
             },
-            "startdescription": "\"Os tigres da ira são mais sábios que os cavalos de instrução\". Se eu passar algum tempo estudando o que eu aprendi, eu poderia aumentar minha Paixão e ganhar uma Habilidade.",
+            "startdescription": "'Os tigres da ira são mais sábios que os cavalos da instrução'. Se eu passar um tempo estudando o que aprendi, talvez eu possa aumentar minha Paixão.",
             "description": "Há mais janelas na minha alma; mas a luz solar não é a única coisa que passa por uma janela. [Use esta Lição Aprendida com sua habilidade de Imaginação.]",
             "effects": {
                 "glimmering": -2,
@@ -437,14 +437,14 @@
         },
         {
             "id": "studyincreaseglimmeringwithmothinfluencetoplus",
-            "label": "Alimentar minha imaginação",
+            "label": "Saciar a Imaginação",
             "actionid": "study",
             "requirements": {
                 "glimmering": 1,
                 "influencemoth": 1,
                 "lore": -1
             },
-            "startdescription": "'Os tigres da ira são mais sábios que os cavalos da instrução.' Nesta temporada de impulso não anunciado, eu poderia trabalhar para aumentar minha paixão. [Se você adicionar o Traço apropriado, isso permitirá que você crie uma Influência occulta mais poderosa.]",
+            "startdescription": "'Os tigres da ira são mais sábios que os cavalos da instrução'. Em tempos de impulsos sem precedentes, talvez eu possa aumentar minha Paixão. [Se você adicionar o Tradição apropriada, isso permitirá criar uma Influência esotérica mais poderosa.]",
             "description": "Há mais janelas na minha alma; mas a luz solar não é a única coisa que passa por uma janela. [Use esta Lição Aprendida com sua habilidade de Imaginação.]",
             "effects": {
                 "influence": -2,
@@ -455,7 +455,7 @@
         },
         {
             "id": "studyincreasepassionskilla",
-            "label": "Alimentar a minha imagem: Fiercer...",
+            "label": "Saciar a Imaginação: Mais...",
             "actionid": "study",
             "requirements": {
                 "skillpassiona": 1,
@@ -474,7 +474,7 @@
         },
         {
             "id": "studyincreasepassionskillb",
-            "label": "Alimentar a minha imaginação: Mais feroz...",
+            "label": "Saciar a Imaginação: Mais ainda...",
             "actionid": "study",
             "requirements": {
                 "skillpassionb": 1,
@@ -483,7 +483,7 @@
             "aspects": {
                 "careeradvancement": 1
             },
-            "startdescription": "\"Melhor assassinar um bebê no seu berço do que nutrir desejos não realizados.\"",
+            "startdescription": "'Melhor matar um bebê em seu berço que acalentar desejos irrealizáveis.'",
             "description": "Em outro tempo, eu teria sido um cerco, ou um herege.",
             "effects": {
                 "passion": 1
@@ -493,7 +493,7 @@
         },
         {
             "id": "studyincreasepassionskill_to_d_moth",
-            "label": "Exercício da Imaginação: Desrazão",
+            "label": "Exercitar a Imaginação: Insensatez",
             "actionid": "study",
             "requirements": {
                 "skillpassionc": 1,
@@ -513,7 +513,7 @@
         },
         {
             "id": "studyincreasepassionskill_to_d_heart",
-            "label": "Exercício da Imaginação: Desrazão",
+            "label": "Exercitar a Imaginação: Insensatez",
             "actionid": "study",
             "requirements": {
                 "skillpassionc": 1,
@@ -533,7 +533,7 @@
         },
         {
             "id": "studyincreasepassionskill_to_d_knock",
-            "label": "Exercício da Imaginação: Folly",
+            "label": "Exercitar a Imaginação: Tolice",
             "actionid": "study",
             "requirements": {
                 "skillpassionc": 1,
@@ -541,7 +541,7 @@
                 "knock": 1,
                 "lore": 1
             },
-            "startdescription": "A macieira nunca pergunta à praia como crescerá, nem o leão, o cavalo, como ele vai pegar a sua presa.",
+            "startdescription": "'A macieira nunca pergunta à faia como crescer, nem o leão ao cavalo como abater sua presa.'",
             "description": "E agora minha alma está pronta.",
             "effects": {
                 "passion": 1,
@@ -553,7 +553,7 @@
         },
         {
             "id": "studyincreasepassionskill_to_d_grail",
-            "label": "Exercício da Imaginação: Folly",
+            "label": "Exercitar a Imaginação: Tolice",
             "actionid": "study",
             "requirements": {
                 "skillpassionc": 1,
@@ -561,7 +561,7 @@
                 "grail": 1,
                 "lore": 1
             },
-            "startdescription": "Quem deseja mas não actua, cria pestildade.",
+            "startdescription": "'Quem deseja, mas não age, gera a pestilência.'",
             "description": "E agora minha alma está pronta.",
             "effects": {
                 "passion": 1,
@@ -601,13 +601,13 @@
                 "erudition": 1
             },
             "startdescription": "O mundo está inundado de palavras impressas. Até os jornais contêm conhecimento, às vezes.",
-            "description": "As palavras continham conhecimento. Agora eu as contenho. É um pouco como roubo e um pouco como festejo, e um pouco como o progresso de uma doença infecciosa.",
+            "description": "As palavras continham conhecimento. Agora eu o contenho. Parece um pouco com um roubo e um pouco com um festim, e um pouco com o avanço de uma doença infecciosa.",
             "warmup": 60,
             "craftable": true
         },
         {
             "id": "studypassion",
-            "label": "Lê Literatura Sentimental",
+            "label": "Ler um Romance Sentimental",
             "actionid": "study",
             "requirements": {
                 "passion": 1

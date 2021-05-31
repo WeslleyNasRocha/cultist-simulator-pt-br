@@ -39,8 +39,8 @@
         },
         {
             "id": "hirelings",
-            "label": "O Bruto e o Astuto",
-            "description": "Algumas ferramentas são adequadas para alguns fins.",
+            "label": "Os Brutais e os Astutos",
+            "description": "Certas ferramentas servem para certos fins.",
             "spec": [
                 "thugedge",
                 "thugforgeedge",
@@ -91,7 +91,7 @@
         },
         {
             "id": "aladimcommissions",
-            "label": "Os Interesses de Al-Adim",
+            "label": "Os interesses de Al-Adim",
             "description": "",
             "spec": [
                 "commissionarticlesecrethistories",
@@ -152,8 +152,8 @@
         },
         {
             "id": "randomvictim",
-            "label": "O Imprudente e O Desavisado",
-            "description": "Vamos fazer deles o que devemos.",
+            "label": "Os Imprudentes e os Incautos",
+            "description": "Faremos deles o que for necessário.",
             "spec": ["genericprisonerm", "genericprisonerf"],
             "defaultcard": "genericprisonerm",
             "resetonexhaustion": true

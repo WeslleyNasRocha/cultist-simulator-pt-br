@@ -191,7 +191,7 @@
         },
         {
             "id": "fragmentforge",
-            "label": "Segredo de um Smith",
+            "label": "Segredo de um Ferreiro",
             "aspects": {
                 "forge": 2,
                 "lore": 1,
@@ -217,7 +217,7 @@
         },
         {
             "id": "fragmentforgeb",
-            "label": "Um Orisão de Ardente",
+            "label": "Uma Oração Ardente",
             "aspects": {
                 "forge": 4,
                 "lore": 1,
@@ -622,7 +622,7 @@
         },
         {
             "id": "fragmentheartc",
-            "label": "Um Calor de Fábrica",
+            "label": "Um Cântico Despertador",
             "aspects": {
                 "heart": 6,
                 "lore": 1,
@@ -758,13 +758,13 @@
         },
         {
             "id": "fragmentknock",
-            "label": "Um Locksmith's Secret",
+            "label": "Um Segredo de Chaveiro",
             "aspects": {
                 "knock": 2,
                 "lore": 1,
                 "challenge.knowledge": 1
             },
-            "description": "Mais cedo ou mais tarde, todo armeiro tem o Sonho. Agora recitamos suas sete fases... [Quase todo conjunto de convocações de Rite requer influência de tocos. Esta minério irá fornecê-lo.]",
+            "description": "Mais cedo ou mais tarde, todo chaveiro tem o Sonho. Agora recitamos suas sete fases... [Quase todo Rito de invocação requer influência de Batida. Esta conhecimento irá fornecê-lo.]",
             "slots": [
                 {
                     "id": "with",
@@ -983,7 +983,7 @@
                 "subvertable_lore": 1,
                 "challenge.knowledge": 1
             },
-            "description": "Ela foi expressa assim: 'Cada Hora tem sua cor, mas a cor só existe quando há luz.'",
+            "description": "Ele foi expressado assim: 'Cada Hora tem sua cor, mas a cor só existe onde há luz.'",
             "slots": [
                 {
                     "id": "with",
@@ -1172,7 +1172,7 @@
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
             },
-            "description": "Um poder da Madeira desfruta da separação da fechadura da escama. Por atenção, queime-a. Por oportunidade, enterre-a. [Fale isto sobre um cadáver num Rite, com presença de influência no inverno, e o cadáver aumentará]",
+            "description": "Um poder da Madeira desfruta da separação da fechadura da escama. Por atenção, queime-a. Por oportunidade, enterre-a. [Fale isto sobre um cadáver num Rite, com presença de influência no inverno, e o cadáver se levantará.]",
             "slots": [
                 {
                     "id": "with",
@@ -1198,7 +1198,7 @@
                 "subvertable_lore": 1,
                 "challenge.intuition": 1
             },
-            "description": "Mentira acordada e ouça. O vento fala nos galhos. A casa chora enquanto dorme. Estas são as estradas que caem. [Fale isto sobre um cadáver num Rite, com presença de influência no inverno, e o cadáver aumentará]",
+            "description": "Fique acordada e ouça. O vento fala nos galhos. A casa chora enquanto dorme. Estas são as estradas que o caos navega. [Fale isto sobre um cadáver num Rito, com presença de uma influência de Inverno, e o cadáver se levantará]",
             "slots": [
                 {
                     "id": "with",

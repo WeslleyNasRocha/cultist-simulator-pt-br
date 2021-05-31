@@ -2,16 +2,16 @@
     "elements": [
         {
             "id": "textbookreason",
-            "label": "Uma Coleção de Essays",
+            "label": "Uma Coleção de Artigos",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Se a mente é uma lâmina, esta é uma pedra. [Estudo para ganhar uma Erudição: Aprendizado da Aula, que você poderá usar para aumentar o Reason.]"
+            "description": "Se a mente é uma lâmina, isto é uma pedra de amolar. [Estude para ganhar uma Erudição: Lição Aprendida, que você poderá usar para aumentar Razão.]"
         },
         {
             "id": "textbookpassion",
-            "label": "Uma coleção de poesia",
+            "label": "Uma coleção de Poemas",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
@@ -20,12 +20,12 @@
         },
         {
             "id": "genericrubbishbook",
-            "label": "Algo algo algo de DEPE MYSTERIES algo",
+            "label": "alguma coisa blablabla PROFUNDOS MISTÉRIOS alguma coisa",
             "aspects": {
                 "text": 1,
                 "auctionable": 1
             },
-            "description": "Um terrível boato sobre os \"Mundos Secretos\" e a irrelevância da moralidade contemporânea, incluindo um catálogo de desavenças prováveis e provavelmente inventadas. [Se eu comprei isto em uma loja, provavelmente significa que não sobrou mais nada de interesse em estoque.]."
+            "description": "Uma mistura horrível de rumores semi-digeridos sobre \"Mundos Secretos\" e a irrelevância da moralidade contemporânea, incluindo um catálogo de improváveis, e provavelmente inventadas, devassidões. [Se eu comprei isso de uma loja, é provável que não haja nada de mais interessante em estoque]."
         }
     ]
 }

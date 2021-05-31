@@ -40,7 +40,7 @@
                     "description": "Um tópico de conversa"
                 }
             ],
-            "startdescription": "@#ascensionlessonhearta:trade_mark'Você quer saber mais?'\n#ascensionlessonheartb├'Você quer saber mais?'\n#ascensionlessonheartc├'Você quer saber mais?\n#ascensionlessonheartdClick'Você quer saber mais?'\n#ascensionlessonhearte├'Você quer saber mais?'\n#ascensionlessonheartf├'Você quer saber mais?\n#ascensionlessonmotha├'Você quer saber mais?'\n#ascensionlessonmothbment? 'Você quer saber mais?'\n#ascensionlessonmothcright: 'Você quer saber mais?\n#ascensionlessonmothdk? 'Você quer saber mais?'\n#ascensionlessonmothe├'Você quer saber mais?'\n#ascensionlessonmothfright: 'Você quer saber mais?'\n#├Sulochana foge seu cigarro. 'Sim, se você quiser estudar a língua comigo, sim, você pode. Estava lá outra coisa?'@",
+            "startdescription": "@#ascensionlessonhearta|'Você quer saber mais?'\n#ascensionlessonheartb|'Você quer saber mais?'\n#ascensionlessonheartc|'Você quer saber mais?'\n#ascensionlessonheartd|'Você quer saber mais?'\n#ascensionlessonhearte|'Você quer saber mais?'\n#ascensionlessonheartf|'Você quer saber mais?'\n#ascensionlessonmotha|'Você quer saber mais?'\n#ascensionlessonmothb|'Você quer saber mais?'\n#ascensionlessonmothc|'Você quer saber maise?'\n#ascensionlessonmothd|'Você quer saber mais?'\n#ascensionlessonmothe|'Você quer saber mais?'\n#ascensionlessonmothf|'Você quer saber mais?'\n#|Sulochana apaga seu cigarro. 'Sim, se você quiser estudar a língua comigo, sim, você pode. Mais alguma coisa?'@",
             "description": "@#ascensionlessonheartaė'Não é a minha especialidade.' Sulochana sorri\n#ascensionlessonheartb➲ 'Não é a minha especialidade.' Sulochana shrugs como uma cobra.\n#ascensionlessonheartcwill, 'Não é a minha especialidade. Sulochana sorri.\n#ascensionlessonheartd├'Não é minha especialidade.' Sulochana shrugs como uma cobra.\n#ascensionlessonhearte├'Não é minha especialidade.' Sulochana sorri.\n#ascensionlessonheartfClick'Não é a minha especialidade.' Sulochana shrugs como uma cobra.\n#ascensionlessonmotha├'A lição é qual é a lição. Eu sou o seu empregador, não o seu professor. Sulochana se estende. 'Tente um pouco de paciência'\n#ascensionlessonmothbish. 'A lição é qual é a lição. Eu sou o seu empregador, não o seu professor.\" Sulochana se alonga. 'Tente um pouco de paciência.\n#ascensionlessonmothc├'A lição é qual é a lição. Eu sou seu empregador, não seu professor. Sulochana se estende. 'Tente um pouco de paciência.'\n#ascensionlessonmothd├'A lição é qual é a lição. Se você quer um professor, fale com os esquecidos.' Sulochana sorri com todos os seus dentes. \"Não é que eles vão falar com vocês.\"\n#ascensionlessonmotheBalk'A lição é qual é a lição. Se você quer um professor, fale com os esquecidos.' Sulochana sorri com todos os seus dentes. 'Não que eles vão falar com você.'\n#ascensionlessonmothf^\\\\'A lição é qual é a lição. Se você quer um professor, fale com os esquecidos.' Sulochana sorri com todos os seus dentes. 'Eles não querem falar com você.'\n#├Ela está desapontada? É difícil de dizer, com Sulochana.@",
             "alt": [
                 {
@@ -335,7 +335,7 @@
                     "chance": 100
                 }
             ],
-            "startdescription": "'Meu querido, eu estava querendo falar com você. Às vezes, eu financio estudiosos das artes invisíveis. Gostaria de lhe oferecer meu apoio. Uma contribuição substancial. E tudo o que você precisa fazer é me apresentar a outra pessoa que terminará o processo adequadamente.\" Ela sorri, benignamente. [Adicione <b>paixão</b> para aceitar, ou <b>Reason</b> para interrogá-la ainda mais.]",
+            "startdescription": "'Meu querido, eu estava querendo falar com você. Às vezes, eu financio estudiosos das artes invisíveis. Gostaria de lhe oferecer meu apoio. Uma contribuição substancial. E tudo o que você precisa fazer é me apresentar a outra pessoa que terminará o processo adequadamente.\" Ela sorri, benignamente. [Adicione <b>Paixão</b> para aceitar, ou <b>Razão</b> para interrogá-la ainda mais.]",
             "description": "Eu não aceitei a oferta do Poppy.",
             "warmup": 60,
             "craftable": true
@@ -348,7 +348,7 @@
                 "passion": 1
             },
             "startdescription": "\"Sim, está exatamente certo. Voltarei esta noite.\"",
-            "description": "Um pequeno pacote de pequenos tesouros: um presente da Papoula. Ela vai me ver novamente na Estação de Rags, para mim fazer a introdução que prometi.",
+            "description": "Um pequeno pacote de pequenos tesouros: um presente da Poppy. Ela vai me ver novamente na Estação dos Trapos, para que eu apresente a pessoa que eu prometi.",
             "effects": {
                 "funds": 10,
                 "compensationc": 1,
@@ -370,7 +370,7 @@
                 "reason": 1
             },
             "startdescription": "Alguém terminará o problema corretamente?",
-            "description": "'Sim. Quando a Temporada de Rags voltar a rodar, meu patrocinador exigirá alguém para terminar. Podes dar a alguém suficientemente leal, ou podes doar-te a si próprio. Eu não quero ter problemas. \"",
+            "description": "'Sim. Quando a Temporada de Trapos voltar, meu patrocinador exigirá alguém para um fim. Podes dar a alguém suficientemente leal, ou podes doar-te a si próprio. Como preferir. Eu não quero causar problemas. \"",
             "effects": {
                 "influencewinter": 1
             }

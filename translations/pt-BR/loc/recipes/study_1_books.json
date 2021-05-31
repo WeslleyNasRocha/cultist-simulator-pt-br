@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "studydehoris1",
-            "label": "Leia de Horis, vol 1",
+            "label": "Ler De Horis, vol 1",
             "actionid": "study",
             "requirements": {
                 "dehoris1": 1
@@ -12,7 +12,7 @@
                 "fragmentmoth": 1,
                 "erudition": 1
             },
-            "startdescription": "Esse volume lida principalmente com as Horas da Madeira: a Lua, o Linho Negro, o Ring-Yew, entre outros.",
+            "startdescription": "Esse volume lida principalmente com as Horas da Floresta: a Mariposa, a Espadana Negra, o Teixo Anelar, entre outros.",
             "description": "\"A Glória é uma pergunta, e a Mariposa sempre responde Sim. A resposta do Linho Negro é Não, e essa é sempre a sua resposta.\"",
             "warmup": 60,
             "craftable": true

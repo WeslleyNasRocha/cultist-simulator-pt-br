@@ -2,7 +2,7 @@
     "recipes": [
         {
             "id": "studybenefactorwill",
-            "label": "Estude um papel delicioso",
+            "label": "Estudar os Documentos de um Falecido",
             "actionid": "study",
             "requirements": {
                 "benefactorwill": 1,
@@ -18,7 +18,7 @@
                 "funds": 49,
                 "benefactorwill": -1
             },
-            "startdescription": "Esta situação exige discricionariedade e a sociedade considerou a nossa associação inadequada.",
+            "startdescription": "Esta situação requer discrição. A sociedade considera a nossa associação inadequada.",
             "description": "As nossas relações nunca foram formalizadas, e seria impensável que eu herdasse uma parte significativa do património. No entanto, estou bem previsto.",
             "warmup": 60,
             "craftable": true
@@ -36,7 +36,7 @@
         {
             "id": "study.welland.defeated",
             "actionid": "study",
-            "label": "Como em Questões",
+            "label": "Como a Batalha de Isso",
             "startdescription": "Tenho a oportunidade de me dirigir contra o nosso Shaper, tal como o Lionsmith fez contra o Coronel. [Isto evitará que seu personagem anterior suba, mas lhe dará a oportunidade de ganhar uma vitória padrão da Forja. Não terá outro efeito.]",
             "description": "A cadeia de lealdade está despedaçada. Meus seguidores não suspeitarão de nada. No momento em que o nosso Shaper regressar do exílio, terei desaparecido, caso contrário ficarei para sempre.",
             "requirements": {
@@ -54,7 +54,7 @@
         {
             "id": "study.tryphon.defeated",
             "actionid": "study",
-            "label": "Selectest of Menus",
+            "label": "O Cardápio Mais Seleto",
             "startdescription": "Se eu consumir o que sobrou da Dama Tryphon, eu não vou ser consumido. [Isso evitará que seu personagem anterior suba, mas lhe dará a oportunidade de ganhar uma vitória padrão do Grail. Não terá outro efeito.]",
             "description": "O sabor está brilhante na minha língua. Não haverá Vitulação para nosso Deus. Meus seguidores servirão meus desejos. Por enquanto, vou devorar; não serei devorado.",
             "requirements": {
@@ -72,7 +72,7 @@
         {
             "id": "study.diarist.defeated",
             "actionid": "study",
-            "label": "Uma porta fecha",
+            "label": "Uma Porta Fecha",
             "startdescription": "O Diarista me deu os meios para abandonar o nosso Iluminado ao Mansus. [Isto evitará que seu personagem anterior ascenda um dia, mas lhe dará a oportunidade de ganhar uma vitória padrão da Lanterna. Não terá outro efeito.]",
             "description": "Eu fechei a porta nos meus olhos, selei-o com cera. Esse olho é cego, mas o outro vê novos horizontes. A nossa organização terá um fim diferente. Talvez um dia eu cumprimente a nossa Fundador como pares.",
             "requirements": {
@@ -90,7 +90,7 @@
         {
             "id": "study.julian.defeated",
             "actionid": "study",
-            "label": "Vazio e sozinho",
+            "label": "Vazio e Sozinho",
             "startdescription": "\"Mais uma pedra na parede de Manso. É tudo isso? Há mais alguma coisa? [Isso impedirá que seu personagem anterior ascenda e adicione o Papai ao quadro. Não terá outro efeito.]",
             "description": "Eu viverei minha vida fora de acordo com as minhas escolhas. O que sou o que serei, até não ser nada.",
             "requirements": {

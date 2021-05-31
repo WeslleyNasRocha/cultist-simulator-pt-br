@@ -12,8 +12,8 @@
             "effects": {
                 "gloverandgloverjuniorjob": 1
             },
-            "startdescription": "Encontre trabalhos que poupem meu corpo, se não meu.",
-            "description": "Glover & Glover me ofereceram uma posição júnior. Eu começo a oito afiados, amanhã de manhã! ",
+            "startdescription": "Encontre trabalhos que poupem meu corpo, se não minha mente.",
+            "description": "Glover & Glover me ofereceram uma posição júnior. Eu começo às oito em ponto, amanhã de manhã! ",
             "warmup": 10,
             "craftable": true,
             "maxexecutions": 1,
@@ -51,7 +51,7 @@
         },
         {
             "id": "gloverandgloverjuniorwork",
-            "label": "Júnior Work em Glover & Glover",
+            "label": "Trabalho Júnior em Glover & Glover",
             "aspects": {
                 "employment": 1
             },
@@ -75,7 +75,7 @@
             "slots": [
                 {
                     "id": "Diligence",
-                    "label": "Diligence",
+                    "label": "Diligência",
                     "required": {
                         "reason": 1
                     },
@@ -87,7 +87,7 @@
         },
         {
             "id": "gloverandglover_diligence",
-            "label": "Esforço Extra na Luva & Luva",
+            "label": "Esforço Extra na Glover & Glover",
             "aspects": {
                 "employment": 1
             },
@@ -124,12 +124,12 @@
             },
             "actionid": "work",
             "startdescription": "",
-            "description": "O Sr. Alden, Supervisor dos Recordes, exortou-me ao seu gabinete a reconhecer a minha diligência. Vejo a toupeira no pescoço enquanto ela fala e fala e conversa. Mas no final da página, tenho uma promoção!\n\nA nova posição é melhor paga e a mesa fica ao lado da janela da rua. Mas agora trabalho directamente para o senhor deputado Alden, e é sabido que o senhor deputado Alden é exigente.",
+            "description": "O Sr. Alden, Supervisor dos Registros, exortou-me ao seu gabinete a reconhecer a minha diligência. Vejo a verruga no seu pescoço enquanto ele fala; e fala; e fala. Mas no final da página, tenho uma promoção!\n\nA nova posição é melhor paga e a mesa fica ao lado da janela da rua. Mas agora trabalho diretamente para o senhor Alden. O senhor Alden é conhecido por ser exigente.",
             "warmup": 0
         },
         {
             "id": "gloverandgloverjuniorwork_again",
-            "label": "Júnior Work em Glover & Glover",
+            "label": "Trabalho Júnior em Glover & Glover",
             "aspects": {
                 "employment": 1
             },
@@ -153,7 +153,7 @@
             "slots": [
                 {
                     "id": "Diligence",
-                    "label": "Diligence",
+                    "label": "Diligência",
                     "required": {
                         "reason": 1
                     },
@@ -165,7 +165,7 @@
         },
         {
             "id": "gloverandglover_diligence_again",
-            "label": "Esforço Extra na Luva & Luva",
+            "label": "Esforço Extra na Glover & Glover",
             "aspects": {
                 "employment": 1
             },
@@ -215,7 +215,7 @@
             "requirements": {
                 "gloverandglover_difficultbossa_job": 1
             },
-            "startdescription": "O meu salário é mais bem pago do que eu, mas o senhor deputado Alden interessou me por mim, e o senhor deputado Alden é muito especial. O senhor deputado Alden gosta das coisas e o senhor deputado Alden nunca acreditou que eu estivesse qualificado para esta posição.",
+            "startdescription": "Eu sou mais bem pago do que era. Mas o senhor Alden interessou-se por mim. O senhor Alden é muito específico. O senhor Alden gosta das coisas feitas do jeito dele. E o senhor Alden nunca acreditou que eu fosse qualificado para esta posição.",
             "description": ".",
             "effects": {
                 "funds": 2
@@ -245,7 +245,7 @@
             },
             "label": "Trabalhe em Glover & Glover",
             "startdescription": ".",
-            "description": "O senhor deputado Alden não encontrou nada para criticar no meu trabalho de hoje, pois não olha para a minha partida."
+            "description": "O sr Alden não encontrou nada para criticar no meu trabalho, hoje. Ele nem olha quando eu vou embora."
         },
         {
             "id": "gloverandglover_difficultbossa_patienceisavirtue",
@@ -331,7 +331,7 @@
                 "employment": 1
             },
             "label": "Faça horas extraordinárias, por insistência do senhor deputado Alden",
-            "startdescription": "\"Não creio que tenham compreendido bem a importância do nosso trabalho aqui. Esta tarefa exigirá sua <i>atenção</i> completa.' [Adicionar motivo para satisfazer o Sr. Alden.]",
+            "startdescription": "\"Não creio que tenha compreendido bem a importância do nosso trabalho aqui. Esta tarefa exigirá sua atenção <i>completa</i>.' [Adicione Razão para satisfazer o Sr. Alden.]",
             "description": "\"Gostaria de dizer que estou desapontada, mas as expectativas que tinha em si já eram baixas. Não tenho outra alternativa senão reter uma parte do seu salário. Você pode ir, mas seja pontual amanhã, por favor.'\n\n[Pode haver maneiras de lidar com Alden.]",
             "requirements": {
                 "reason": -1
@@ -790,7 +790,7 @@
                 "employment": 1
             },
             "startdescription": "Mais uma vez, coloquei minha força para usar.",
-            "description": "Minha força atrai comentário. Nem todos os comentários são elogios. Eu sorto meu salário e vou embora.",
+            "description": "Minha força atrai comentário. Nem todos os comentários são elogios. Eu coleto meu salário e vou embora.",
             "warmup": 45,
             "craftable": true
         },
@@ -916,7 +916,7 @@
                 "funds": 1
             },
             "startdescription": ".",
-            "description": "Estou ferido! Vou passar amordaçar dolorosamente em casa com meu pagamento miserável.",
+            "description": "Estou ferido! Vou mancar dolorosamente para casa com meu pagamento miserável.",
             "warmup": 0,
             "craftable": false
         },

@@ -39,7 +39,7 @@
         {
             "id": "devotee",
             "label": "Devoto",
-            "description": "Neste momento, a devoção deste aqui é avassaladora. Mas logo ela poderá empalidecer, e então as perguntas sobre o que foi feito virão.",
+            "description": "Neste momento, a devoção deste aqui é excessiva. Mas em breve poderá sumir, e então questionar o que tem feito.",
             "isAspect": true
         },
         {
@@ -93,20 +93,20 @@
         {
             "id": "edge",
             "label": "Fio",
-            "description": "Toda conquista ocorre no Fio. Aquele que habita lá é cego, e não pode ser ferido. Outro é forte e torna-se mais forte. [O Fio é o princípio da batalha e da luta.]",
+            "description": "Toda conquista ocorre na Orla. Alguns que moram ali são cegos e não podem ser feridos. Outros são fortes e se tornam cada vez mais fortes. [A Orla é o princípio da batalha e da guerra.]",
             "isAspect": true,
             "noartneeded": true
         },
         {
             "id": "forge",
             "label": "Forja",
-            "description": "'Fogo', li uma vez, 'é o inverno que aquece e a primavera que consome.' [O princípio da Forja transforma e destrói.]",
+            "description": "\"O fogo\", eu li uma vez, \"é o inverno que aquece e a primavera que consome.\" [O princípio da Forja transforma e destrói.]",
             "isAspect": true
         },
         {
             "id": "grail",
             "label": "Graal",
-            "description": "A fome, a luxuria, as águas que afogam. [O princípio do Graal honra tanto o nascimento como o festejo.]",
+            "description": "Fome e Desejo, as águas traiçoeiras. [O princípio do Graal celebra o nascimento e a celebração.]",
             "isAspect": true,
             "induces": [
                 {
@@ -129,8 +129,8 @@
         },
         {
             "id": "knock",
-            "label": "Batida",
-            "description": "A Batida não permite nenhum selo e nenhuma isolação. Ela nos tira alegremente da segurança da ignorância. [A Batida é o princípio que abre portas e liberta barreiras.]",
+            "label": "Bater",
+            "description": "A Batida não permite nenhum selo e nenhuma isolação. Ela alegremente nos empurra para fora da segurança da ignorância. [A Batida é o princípio que abre portas e desconjunta barreiras.]",
             "isAspect": true
         },
         {
@@ -149,7 +149,7 @@
             "id": "moth",
             "label": "Mariposa",
             "isAspect": true,
-            "description": "Eu conheci um homem que capturava mariposas em um pote. Em noites como esse, ele as liberaria uma por uma para morrerem na chama da vela. [A Mariposa é o selvagem e perigoso princípio do caos e do anseio.]",
+            "description": "Eu conheci um homem que capturava mariposas em um pote. Em noites como essa, ele as liberava uma por uma para morrerem na chama da vela. [A Mariposa é o selvagem e perigoso princípio do caos e do anseio.]",
             "induces": [
                 {
                     "id": "mothinduction",
@@ -160,7 +160,7 @@
         {
             "id": "secrethistories",
             "label": "Histórias Secretas",
-            "description": "A História é a cicatriz na pele do mundo. [As Histórias Secretas descrevem as complexidades desconhecidas do mundo, e seus muitos passados]",
+            "description": "História é a cicatriz na pele do mundo. [As Histórias Secretas descrevem as complexidades desconhecidas do mundo, e seus muitos passados.]",
             "isAspect": true
         },
         {
@@ -179,13 +179,13 @@
             "id": "scar",
             "label": "Cicatriz",
             "isAspect": true,
-            "description": "O resultado irrevogável de um ato irrevogável."
+            "description": "O resultado definitivo de um ato definitivo."
         },
         {
             "id": "advancement",
-            "label": "Avanço",
+            "label": "Melhoramento",
             "isAspect": true,
-            "description": "Um gosto do que pode ser. [Com cartas suficientes, você pode crescer uma Habilidade.]"
+            "description": "Uma amostra daquilo que poderá ser. [Com o suficiente dessas cartas, você pode aumentar uma Habilidade.]"
         },
         {
             "id": "potential",
@@ -197,7 +197,7 @@
             "id": "job",
             "label": "Trabalho",
             "isAspect": true,
-            "description": "Um arranjo para trocar a vida por dinheiro.",
+            "description": "Um contrato para trocar sua vida por dinheiro.",
             "induces": [
                 {
                     "id": "needs",
@@ -209,7 +209,7 @@
             "id": "dance",
             "label": "Dança",
             "isAspect": true,
-            "description": "Mais velho do que a língua, mais jovem que a vida.",
+            "description": "Mais velha que a linguagem, mais jovem que a vida.",
             "induces": [
                 {
                     "id": "heartinduction",
@@ -223,9 +223,9 @@
         },
         {
             "id": "ecdysijob",
-            "label": "Um lugar no Clube de Ecdisis",
+            "label": "Um lugar no Ecdysis Club",
             "isAspect": true,
-            "description": "Ganhei um lugar no palco do Clube de Ecdisis."
+            "description": "Eu consegui uma vaga no palco do Ecdysis Club."
         },
         {
             "id": "demotion",
@@ -237,13 +237,13 @@
             "id": "ritual",
             "label": "Rito",
             "isAspect": true,
-            "description": "\"As coisas próprias, da forma adequada, da melhor maneira possível, e Deus nos ajude a todos. - atribuído à Hersault. [Um Rito permite que você combine aspectos para executar uma invocação.]"
+            "description": "\"As coisas adequadas, de maneira adequada, na ordem adequada. Deus nos ajude.\" - atribuído à Hersault. [Um Rito permite que você combine aspectos para executar uma invocação.]"
         },
         {
             "id": "society",
             "label": "Sociedade",
             "isAspect": true,
-            "description": "Para recrutar crentes, tenho de construir algo para acreditar."
+            "description": "Para recrutar seguidores, eu preciso criar algo para eles acreditarem."
         },
         {
             "id": "rededicable",
@@ -255,14 +255,14 @@
             "id": "ingredient",
             "label": "Ingrediente",
             "isAspect": true,
-            "description": "Combustível, unguento, pigmento, paciência: tudo é consumido no tempo.",
+            "description": "Combustível, unguento, corante e paciência: tudo é consumido pelo tempo.",
             "induces": [
                 {
                     "id": "needs",
                     "chance": 100
                 }
             ],
-            "comments": "Isso é qualquer coisa que gera Fundos sempre acionará o timer de necessidades se ele já não estiver em execução."
+            "comments": "Isto é qualquer coisa que gera Fundos, e sempre acionará o timer de necessidades, se já não estiver em execução."
         },
         {
             "id": "pigment",
@@ -278,15 +278,15 @@
         },
         {
             "id": "influence",
-            "label": "Influência",
+            "label": "Dominação",
             "isAspect": true,
             "description": "Um eco, uma ressonância, um alinhamento. Algo que vai desaparecer em breve."
         },
         {
             "id": "tool",
-            "label": "Ferramenta",
+            "label": "Artefato",
             "isAspect": true,
-            "description": "'Uma espada não mata; é um instrumento na mão do assassino.' - Seneca, o Jovem"
+            "description": "\"Uma espada não pode matar, ela é apenas um artefato nas mãos do assassino\" - Sêneca, o jovem"
         },
         {
             "id": "mirror",
@@ -340,13 +340,13 @@
             "id": "reasonskill",
             "label": "Estudante",
             "isAspect": true,
-            "description": "Sou um pilar de sabedoria. [Isto atualmente só permite que você aumente o Razão ainda mais.]"
+            "description": "Sou um pilar da sabedoria! [Isto atualmente só permite que você aumente o Raciocínio um pouco mais.]"
         },
         {
             "id": "way",
             "label": "Um Caminho de Volta Através do Sonho",
             "isAspect": true,
-            "description": "Algumas memórias são esboços de mapas de sonho. Alguns até passam pelos Limites do sonho, até a Floresta e a Casa que se levantam acima."
+            "description": "Algumas memórias são esboços de mapas de algum sonho. Outras até passam pelo Limiar do sonho, até a Floresta e a Casa que se elevam um pouco mais adiante."
         },
         {
             "id": "desire",
@@ -364,7 +364,7 @@
             "id": "rivalmarks",
             "label": "Uma Ascensão de um Rival",
             "isAspect": true,
-            "description": "As oportunidades de ascender à Casa do Sol são raras. Se outro o conseguir, posso perder a minha oportunidade. [Se atingir sete, seu Rival tem a chance de ganhar o jogo em vez de você na próxima Temporada de Ambições.]"
+            "description": "As oportunidades de ascender à Casa do Sol são raras. Se algum outro conseguir, eu posso perder a minha oportunidade. [Se atingir sete, seu Rival tem a chance de ganhar o jogo em seu lugar na próxima Temporada de Ambições.]"
         },
         {
             "id": "changemarks",
@@ -376,26 +376,26 @@
             "id": "powermarks",
             "label": "As Marcas da Formação",
             "isAspect": true,
-            "description": "Posso procurar imortalidade e poder na Hora chamada de Forja dos Dias. O seu toque traz apetites e Marcas."
+            "description": "Posso procurar imortalidade e poder na Hora chamada de Forja dos Dias. O seu toque provoca desejos específicos, e Marcas."
         },
         {
             "id": "sensationmarks",
             "label": "As Marcas do Prazer",
             "isAspect": true,
-            "description": "Posso procurar imortalidade e prazer na Hora chamada de Graal Vermelho\". Seu toque traz apetites e Marcas."
+            "description": "Posso procurar imortalidade e prazer na Hora chamada de Graal Vermelho. O seu toque provoca desejos específicos, e Marcas."
         },
         {
             "id": "enlightenmentmarks",
             "label": "As Marcas da Luz",
             "isAspect": true,
-            "description": "Posso procurar imortalidade e esclarecimento na Hora chamada de O Vigia. Seu toque traz apetites e Marcas."
+            "description": "Posso procurar imortalidade e esclarecimento na Hora chamada de O Vigia. O seu toque provoca desejos específicos, e Marcas."
         },
         {
             "id": "remembrancemarks",
             "label": "As Garras da Memória",
             "isAspect": true,
             "description": "Sob o solo, ossos. Nos ossos, memória. Na memória, cores.",
-            "comments": "Importante! Isto é usado para acionar a descoberta extra de remanescentes de corpos de Expedições para Ghoul"
+            "comments": "Atenção! Isto é usado para acionar a descoberta extra dos restos de cadáveres das Expedições para Ghouls"
         },
         {
             "id": "follower_lustenlightenment",
@@ -419,7 +419,7 @@
         },
         {
             "id": "detectivetemptation",
-            "comments": "Aspecto para itens de Plotagem Detetive",
+            "comments": "Aspecto para itens do enredo Detetive",
             "isAspect": true,
             "isHidden": true
         },
@@ -448,14 +448,14 @@
             "label": "Ascendendo",
             "isAspect": true,
             "description": "Para a próxima Marca.",
-            "comments": "Aspecto da receita",
+            "comments": "Receita aspecto",
             "noartneeded": true
         },
         {
             "id": "descend",
-            "label": "Descendendo",
+            "label": "Descendente",
             "isAspect": true,
-            "description": "Se eu não alimentar meus novos apetites, minhas Marcas vão desaparecer.",
+            "description": "Se eu não satisfizer os meus novos desejos, minhas Marcas vão desaparecer.",
             "noartneeded": true,
             "comments": "Aspecto da receita"
         },
@@ -486,13 +486,13 @@
         },
         {
             "id": "lore",
-            "label": "História",
+            "label": "Conhecimento",
             "isAspect": true,
-            "description": "Conhecimento das artes invisíveis. Eu posso usá-lo para atrair seguidores, para realizar ritos, para abrir o caminho para os Mansus, para buscar minha ascensão. . [Os fragmentos do Lore algumas vezes podem ser atualizados com o Aluno e com a correspondência de fragmentos.]"
+            "description": "Conhecimento das artes ocultas. Eu posso usá-lo para atrair seguidores, para realizar rituais, para abrir o caminho para os Mansus, para buscar minha ascensão.. [Os fragmentos de Conhecimento algumas vezes podem ser atualizados com Estudo ou fazendo a correspondência dos fragmentos.]"
         },
         {
             "id": "subvertable_lore",
-            "label": "Sabedoria Subvertível",
+            "label": "Conhecimento Subversivo",
             "isAspect": true,
             "isHidden": true,
             "noartneeded": true
@@ -501,7 +501,7 @@
             "id": "memory",
             "label": "Memória",
             "isAspect": true,
-            "description": "Lembramo-nos dos mortos, até esquecê-los."
+            "description": "Nós nos lembramos dos mortos, até que nos esquecemos deles."
         },
         {
             "id": "language",
@@ -511,92 +511,92 @@
         },
         {
             "id": "tutorlatin",
-            "label": "Escolástico de Latin",
+            "label": "Estudioso de Latim",
             "isAspect": true,
-            "description": "Um erudito de Latim que talvez esteja preparado para te orientar se estudas com ele."
+            "description": "Um Estudioso de Latim, que talvez esteja disposto a lhe ensinar algo."
         },
         {
             "id": "tutorgreek",
-            "label": "Escolástico em Grego",
+            "label": "Estudioso de Grego",
             "isAspect": true,
-            "description": "Um erudito de Grego que pode estar preparado para te orientar se estudas com ele."
+            "description": "Um Estudioso de Grego, que talvez esteja disposto a lhe ensinar algo."
         },
         {
             "id": "tutoraramaic",
-            "label": "Escolástico de Aramaico",
+            "label": "Estudioso de Aramaico",
             "isAspect": true,
-            "description": "Um erudito de Aramaico que talvez esteja preparado para te orientar se estudas com ele."
+            "description": "Um Estudioso de Aramaico, que talvez esteja disposto a lhe ensinar algo."
         },
         {
             "id": "tutorsanskrit",
-            "label": "Escolástico de Sánscrito",
+            "label": "Estudioso de Sânscrito",
             "isAspect": true,
-            "description": "Um erudito de Sánscrito que talvez esteja preparado para te orientar se estudas com ele."
+            "description": "Um Estudioso de Sânscrito, que talvez esteja disposto a lhe ensinar algo."
         },
         {
             "id": "spirittutorfucine",
-            "label": "Falante de Fucine",
+            "label": "Fluente em Fucine",
             "isAspect": true,
-            "description": "Este espírito pode ser capaz de lhe ensinar a Fucine, se você conhece uma língua relacionada."
+            "description": "Este espírito pode ser capaz de lhe ensinar a língua Fucine, se você conhecer algum outro idioma semelhante."
         },
         {
             "id": "spirittutorphrygian",
-            "label": "Alto-falante Phrgian",
+            "label": "Fluente em Frígio",
             "isAspect": true,
-            "description": "Este espírito pode ser capaz de te ensinar Phrygian, se você sabe uma língua relacionada."
+            "description": "Este espírito pode ser capaz de lhe ensinar o idioma Frígio, se você conhecer alguma outra língua semelhante."
         },
         {
             "id": "spirittutormandaic",
-            "label": "Alto-falante Mandaico",
+            "label": "Fluente em Mandaico",
             "isAspect": true,
-            "description": "Este espírito pode ser capaz de lhe ensinar profundo Mandaic, se você sabe uma língua relacionada."
+            "description": "Este espírito pode ser capaz de lhe ensinar o idioma Mandaico, se você conhecer alguma outra língua semelhante."
         },
         {
             "id": "spiritsicknessprotector",
-            "label": "Phylaxian",
+            "label": "Curandeiro",
             "description": "Se falo com este sobre a minha Saúde, ela pode oferecer proteção contra doença.",
             "isAspect": true
         },
         {
             "id": "spiriteatspassion",
-            "label": "Lâmpada de Perda",
-            "description": "Se eu falar com este, poderei oferecer-lhe a minha paixão.",
+            "label": "Lâmpada de Perdição",
+            "description": "Se eu falar com ele, poderei oferecer a minha Paixão.",
             "isAspect": true
         },
         {
             "id": "spiriteatsreason",
-            "label": "Limite de Pensamentos",
-            "description": "Caso eu fale com este, posso oferecer meu Reason.",
+            "label": "Tecelão de Pensamentos",
+            "description": "Se eu falar com ele, poderei oferecer a minha Razão.",
             "isAspect": true
         },
         {
             "id": "auctionable",
-            "label": "Disponível",
-            "description": "Talvez eu possa leiloar isso, embora o valor em leilão seja sempre incerto.",
+            "label": "Leiloável",
+            "description": "Talvez eu possa leiloar isso, embora o valor obtido em um leilão seja sempre incerto.",
             "isAspect": true
         },
         {
             "id": "compensationvalue",
-            "label": "Valor de Spintria",
-            "description": "Spintriae é a moeda do mundo escondido. Algumas espintrigas valem mais do que outras. Mas não espere ser alterado. Isto não é uma mercearia.",
+            "label": "Valor da Spintria",
+            "description": "Spintria é a moeda do mundo oculto. Algumas spintrias valem mais do que outras. Mas não espere que haja mudanças. Aqui não é um mercado.",
             "isAspect": true
         },
         {
             "id": "hq",
-            "label": "Quartel-General",
-            "description": "Para conversas e convocação.",
+            "label": "Sede",
+            "description": "Para conversas e conversões.",
             "isAspect": true
         },
         {
             "id": "hq.potential",
-            "label": "Quartel General Potencial",
+            "label": "Sede em Potencial",
             "description": ".",
             "isAspect": true,
             "isHidden": true
         },
         {
             "id": "movehq",
-            "label": "Mover para um novo QG",
+            "label": "Mover para uma nova Sede",
             "description": "Aspecto da receita",
             "isAspect": true,
             "noartneeded": true
@@ -604,19 +604,19 @@
         {
             "id": "library",
             "label": "Biblioteca",
-            "description": "Uma coleção de volumes menores, cópias parciais e efêmeras que podem ajudar na investigação.",
+            "description": "Uma coleção de livros menos importantes, cópias parciais e efêmeras que podem ajudar na investigação.",
             "isAspect": true
         },
         {
             "id": "pit",
             "label": "Poço",
-            "description": "Um poço de solidão sem luz, onde posso sentir dicas sombrias.",
+            "description": "Uma cova solitária e escura, onde eu posso receber inspirações sombrias.",
             "isAspect": true
         },
         {
             "id": "secret",
-            "label": "Segredo",
-            "description": "Este lugar é facilmente esquecido. [Usar este Quartel General fará com que os cartões de reputação desapareçam.]",
+            "label": "Secreto",
+            "description": "Este lugar é facilmente ignorado. [Usar esta Sede fará com que as cartas de Reputação desapareçam.]",
             "isAspect": true,
             "induces": [
                 {
@@ -628,55 +628,55 @@
         {
             "id": "sanctuary",
             "label": "Santuário",
-            "description": "Um espaço concebido para contemplar e talvez até para a paz.",
+            "description": "Um espaço concebido para a contemplação e talvez até para a paz.",
             "isAspect": true
         },
         {
             "id": "location",
             "label": "Local:",
-            "description": "Locais! Tudo deve estar em algum lugar, e isto está aqui.",
+            "description": "Localizações! Tudo deve estar em algum lugar, e isto está aqui.",
             "isAspect": true
         },
         {
             "id": "vaultcapital",
-            "label": "Na capital",
-            "description": "Um lugar secreto na capital repleta que eu moro.",
+            "label": "Na Capital",
+            "description": "Um lugar secreto na importante cidade onde eu moro.",
             "isAspect": true
         },
         {
             "id": "vaultshires",
-            "label": "Nos Navios",
-            "description": "Campos verdes e colinas cinzas.",
+            "label": "No Interior",
+            "description": "Campos verdes e colinas cinzentas.",
             "isAspect": true
         },
         {
             "id": "vaultcontinent",
-            "label": "No continente",
-            "description": "Através de um mar estreito, em cantos não suspeitos de nações rivais.",
+            "label": "No Continente",
+            "description": "Através de um mar estreito, nos cantos discretos de nações rivais.",
             "isAspect": true
         },
         {
             "id": "vaultlandbeyondforest",
-            "label": "Na Terra Além da Floresta",
-            "description": "Misty passa e aldeias remotas, onde a pele do mundo é fina. ",
+            "label": "Nas Terras Além da Floresta",
+            "description": "Caminhos enevoados e aldeias remotas, onde a pele do mundo é fina. ",
             "isAspect": true
         },
         {
             "id": "vaultrendingmountains",
-            "label": "Nas Montanhas Alcançadas",
-            "description": "Tawny-flanqueado, na ponta da neve, longe de ajudar.",
+            "label": "Nas Montanhas Rasgantes",
+            "description": "Vales desertos, picos nevados, longe de qualquer ajuda.",
             "isAspect": true
         },
         {
             "id": "vaultloneandlevelsands",
-            "label": "Os Solos e Areias de Nível",
-            "description": "Num lugar distante e seco de dunas esperam por você.",
+            "label": "As Areias Planas e Solitárias",
+            "description": "Num lugar seco e distante, horizontes encadeados por dunas esperam por você.",
             "isAspect": true
         },
         {
             "id": "vaulteveningisles",
-            "label": "Entre as Ilhas Noventas",
-            "description": "Onda de correntes de ilhas rochosas vibrantes com vida verde.",
+            "label": "Entre as Ilhas Tardias",
+            "description": "Cadeias de ilhas rochosas lavadas pelas ondas vibrantes com vida verde.",
             "isAspect": true
         },
         {
@@ -693,7 +693,7 @@
         },
         {
             "id": "guardian",
-            "label": "Responsável",
+            "label": "Guardião",
             "description": "Uma entidade que foi encarregada de impedir a entrada.",
             "isAspect": true
         },
@@ -706,13 +706,13 @@
         {
             "id": "vault",
             "label": "Cofre",
-            "description": "Há aqui algo precioso.",
+            "description": "Há algo precioso aqui.",
             "isAspect": true
         },
         {
             "id": "challenge.knowledge",
             "label": "Requer Conhecimento",
-            "description": "Este é um quebra-cabeça com peças faltantes. Talvez eu encontre essas peças em cantos estranhos de bolsa. [Para atualizar ou subverter este Fragmento, você precisa de Erudição, ou de um QG com uma biblioteca.]",
+            "description": "Este é um quebra-cabeça com peças faltando. Talvez eu encontre essas peças em cantos estranhos de estudo. [Para atualizar ou subverter este Fragmento, você precisa de Erudição, ou de um QG com uma Biblioteca.]",
             "isAspect": true
         },
         {
@@ -724,25 +724,25 @@
         {
             "id": "challenge.grim",
             "label": "Requer uma Aula Sinistra",
-            "description": "Eu vou aprender. [Para atualizar ou subverter esse Fragmento, você precisa do Pão (que pode ser gerado), da habilidade Intensidade Silenciosa, ou de um QG com um Porco.]",
+            "description": "Eu vou aprender. [Para atualizar ou subverter esse Fragmento, você precisa de Pavor (que pode se multiplicar), da habilidade Intensidade Silenciosa, ou de um QG com um Poço.]",
             "isAspect": true
         },
         {
             "id": "challenge.obsessive",
             "label": "Requer Pesquisa Obsessiva",
-            "description": "Este tema exige mais atenção do que a segurança. [Para atualizar ou subverter este Fragmento, você precisa de um QG com uma biblioteca: Habilidade Não-Nunca, ou um Reason. Há um risco muito pequeno que sua Reason pode estar permanentemente danificada.]",
+            "description": "Este tema exige mais atenção do que a segurança. [Para atualizar ou subverter este Fragmento, você precisa de um QG com uma biblioteca: Habilidade Não-Nunca, ou uma Razão. Há um risco muito pequeno que sua Razão fique permanentemente danificada.]",
             "isAspect": true
         },
         {
             "id": "challenge.paradox",
             "label": "Requer uma Resolução Paradoxical",
-            "description": "A verdade é uma serpente. As respostas alimentam seus apelidos. [Para atualizar ou subverter este Fragmento, você precisa de um QG com um Santuário, a habilidade de Alma Aberta ou uma Passion. Há um risco muito pequeno que sua paixão pode estar permanentemente danificada.]",
+            "description": "A verdade é uma serpente. As respostas alimentam seus apelidos. [Para atualizar ou subverter este Fragmento, você precisa de um QG com um Santuário, a habilidade de Alma Aberta ou uma Paixão. Há um risco muito pequeno que sua Paixão fique permanentemente danificada.]",
             "isAspect": true
         },
         {
             "id": "challenge.illumination",
             "label": "Requer Iluminação",
-            "description": "A água enche a tampa; a luz enche a mente. [Para atualizar ou subverter este Fragmento, você precisa da Fascinação (que pode ser gerada), um QG com uma biblioteca ou a habilidade Mente Rarficada.]",
+            "description": "A água enche o copo; a luz enche a mente. [Para atualizar ou subverter este Fragmento, você precisa da Fascinação (que pode ser gerada), um QG com uma biblioteca ou a habilidade Mente Elevada.]",
             "isAspect": true
         },
         {
@@ -754,7 +754,7 @@
         {
             "id": "summoned",
             "label": "Invocado",
-            "description": "Esta não é daqui.",
+            "description": "Este não é daqui.",
             "isAspect": true
         },
         {
@@ -765,20 +765,20 @@
         },
         {
             "id": "inducesdespair",
-            "label": "Desespero Induta",
+            "label": "Induz Desespero",
             "description": "Isso pode causar desespero.",
             "isAspect": true
         },
         {
             "id": "inducesvisions",
-            "label": "Inclina visões",
+            "label": "Induz Visões",
             "description": "Eu posso ver coisas.",
             "isAspect": true
         },
         {
             "id": "commissiongiven",
-            "label": "Comissão dada",
-            "description": "Espera pela sua atenção uma tarefa.",
+            "label": "Comissão Dada",
+            "description": "Uma tarefa espera pela sua atenção.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
@@ -793,7 +793,7 @@
         },
         {
             "id": "recruiting",
-            "label": "Recrutamento",
+            "label": "Recrutando",
             "description": "Para ver a luz, não se pode ser cego; mas, às vezes, é a luz que nos cega.",
             "isAspect": true,
             "comments": "Aspecto da receita",
@@ -801,8 +801,8 @@
         },
         {
             "id": "hiring",
-            "label": "Hiring",
-            "description": "Estender o período de serviço de hireling.",
+            "label": "Contratando",
+            "description": "Estende o período de serviço de contratação.",
             "isAspect": true,
             "comments": "Atributo de receita. Use para recontratar contratados.",
             "noartneeded": true
@@ -825,7 +825,7 @@
         },
         {
             "id": "promotionto_d_edge",
-            "label": "format@@0 Exaltation: Edge",
+            "label": "Exaltação: Fio",
             "description": "Estes são os verdadeiros mistérios da nossa veneração.",
             "isAspect": true,
             "comments": "Aspecto da receita",
@@ -841,7 +841,7 @@
         },
         {
             "id": "promotionto_d_grail",
-            "label": "format@@0 Exaltation: Grail",
+            "label": "Exaltação: Graal",
             "description": "Estes são os verdadeiros mistérios da nossa veneração.",
             "isAspect": true,
             "comments": "Aspecto da receita",
@@ -849,7 +849,7 @@
         },
         {
             "id": "promotionto_d_heart",
-            "label": "format@@0 Exaltation: Heart",
+            "label": "Exaltação: Coração",
             "description": "Estes são os verdadeiros mistérios da nossa veneração.",
             "isAspect": true,
             "comments": "Aspecto da receita",
@@ -857,7 +857,7 @@
         },
         {
             "id": "promotionto_d_knock",
-            "label": "format@@0 Exaltation: Knock",
+            "label": "Exaltação: Batida",
             "description": "Estes são os verdadeiros mistérios da nossa veneração.",
             "isAspect": true,
             "comments": "Aspecto da receita",
@@ -865,7 +865,7 @@
         },
         {
             "id": "promotionto_d_lantern",
-            "label": "format@@0 Exaltation: Lantern",
+            "label": "Exaltação: Lanterna",
             "description": "Estes são os verdadeiros mistérios da nossa veneração.",
             "isAspect": true,
             "comments": "Aspecto da receita",
@@ -889,7 +889,7 @@
         },
         {
             "id": "rival_promotion",
-            "label": "Promoção: Renascimento",
+            "label": "Promoção: Rival",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
@@ -927,38 +927,38 @@
         },
         {
             "id": "avowal",
-            "label": "Avowal",
-            "description": "Uma mudança positiva nas Lealties",
+            "label": "Admissão",
+            "description": "Uma Mudança Positiva nas Lealdades",
             "isAspect": true,
-            "comments": "Aumento da receita; é executado quando queremos inverter positivamente a lealdade de alguém",
+            "comments": "Aspecto da receita; é executado quando queremos inverter a lealdade de alguém positivamente",
             "noartneeded": true
         },
         {
             "id": "rejection",
             "label": "Rejeição",
-            "description": "Uma mudança nas Lealties",
+            "description": "Uma mudança nas Lealdades",
             "isAspect": true,
-            "comments": "Aspecto da receita; é executado quando queremos virar a lealdade de alguém",
+            "comments": "Aspecto da receita; é executado quando queremos inverter a lealdade de alguém",
             "noartneeded": true
         },
         {
             "id": "scarability",
-            "label": "Habilidade do Ciclo",
+            "label": "Habilidade de cicatriz",
             "description": "Converte permanentemente uma habilidade (ativa ou esgotada) em sua versão da cicatriz",
             "isAspect": true,
             "noartneeded": true
         },
         {
             "id": "restorehealth",
-            "label": "Recuperar Vida",
-            "description": "Saúde retornará.",
+            "label": "Restaura Saúde",
+            "description": "A Saúde retornará.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "damagehealth",
-            "label": "Saúde Danificada",
+            "label": "Dano à Saúde",
             "description": "A Saúde ficará ferida.",
             "isAspect": true,
             "comments": "Aspecto da receita",
@@ -966,7 +966,7 @@
         },
         {
             "id": "fallsick",
-            "label": "Doente do Outono",
+            "label": "Adoeçer",
             "description": "A Saúde se tornará aflição; isto também pode, potencialmente, afetar pessoas",
             "isAspect": true,
             "comments": "Aspecto da receita",
@@ -974,32 +974,32 @@
         },
         {
             "id": "destroyhealth",
-            "label": "Destruir Saúde",
-            "description": "Saúde será destruída.",
+            "label": "Destrói Saúde",
+            "description": "A Saúde será destruída.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "damagereason",
-            "label": "Motivo do dano",
-            "description": "O motivo será desvendado.",
+            "label": "Dano à Razão",
+            "description": "Razão se tornará Pavor.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "toreason",
-            "label": "A Motivo",
-            "description": "...se tornará Reason.",
+            "label": "Para Razão",
+            "description": "...se tornará Razão.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "topassion",
-            "label": "Para a paixão",
-            "description": "...se tornará paixão.",
+            "label": "Para a Paixão",
+            "description": "...se tornará Paixão.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
@@ -1042,15 +1042,15 @@
         },
         {
             "id": "damagepassion",
-            "label": "Paixão de Dano",
-            "description": "A paixão tornar-se-á Fascinação.",
+            "label": "Dano à Paixão",
+            "description": "Paixão se tornará Fascinação.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "killmortal",
-            "label": "Mortal de Mortal",
+            "label": "Matar Mortal",
             "description": "Mortais serão substituídos por cadáveres",
             "isAspect": true,
             "comments": "Aspecto da receita",
@@ -1058,24 +1058,24 @@
         },
         {
             "id": "longded",
-            "label": "Matar longo",
-            "description": "Longo será substituído por suas recompensas",
+            "label": "Matar Eterno",
+            "description": "Eternos serão substituídos por suas recompensas",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "killsummoned",
-            "label": "Invocação de Mortes",
-            "description": "Invocações serão substituídas por influências de sabor ou invocação de blocos",
+            "label": "Matar Invocação",
+            "description": "Invocações serão substituídas por suas influências correspondentes ou blocos de invocação",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "killmanifesting",
-            "label": "Invocação de séries",
-            "description": "Invocações serão substituídas por influências de sabor ou invocação de blocos",
+            "label": "Matar Invocação Manifestada",
+            "description": "Invocações serão substituídas por suas influências correspondentes ou blocos de invocação",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
@@ -1083,21 +1083,21 @@
         {
             "id": "dissolution",
             "label": "Dissolução",
-            "description": "O que não há dentro, o que não existe. Dissolve algo a uma Influência.",
+            "description": "O que está fora, dentro; o que está dentro, fora. Dissolve algo em uma influência.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "raiseshattered",
-            "label": "Transforme um cadáver em Quebrado",
+            "label": "Transforme um cadáver em um Zumbi Despedaçado",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "raiseburgeoning",
-            "label": "Transforme ex: um cadáver para o Burgeoning ressurgimento",
+            "label": "Transforme um cadáver em um Zumbi Regenerativo",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
@@ -1117,30 +1117,30 @@
         {
             "id": "rebellion",
             "label": "Rebelião",
-            "description": "Seguidores se tornarão Rivals",
+            "description": "Seguidores se tornarão Rivais",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "endannoyance",
-            "label": "Annoyance Final",
-            "description": "Annoyances como patrões difíceis serão resolvidas.",
+            "label": "Fim do Aborrecimento",
+            "description": "Aborrecimentos como chefões difíceis serão resolvidos.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "careeradvancement",
-            "label": "Avanço da Carreira",
-            "description": "Promoção ou aumento de habilidade",
+            "label": "Avanço de Carreira",
+            "description": "Uma promoção ou aumento de habilidade",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "derangemortal",
-            "label": "Derange Mortal",
+            "label": "Perturbar Mortal",
             "description": "Mortais serão substituídos por Lunáticos",
             "isAspect": true,
             "comments": "Aspecto da receita",
@@ -1148,7 +1148,7 @@
         },
         {
             "id": "capturehunter",
-            "label": "Captura do Caçador",
+            "label": "Capturar Caçador",
             "description": "Os caçadores serão presos.",
             "isAspect": true,
             "comments": "Aspecto da receita",
@@ -1156,7 +1156,7 @@
         },
         {
             "id": "killhunter",
-            "label": "Caçador de Mortes",
+            "label": "Matar Caçador",
             "description": "Os caçadores se tornarão cadáveres.",
             "isAspect": true,
             "comments": "Aspecto da receita",
@@ -1173,15 +1173,15 @@
         {
             "id": "restorepassion",
             "label": "Restaurar Paixão",
-            "description": "A paixão será clarificada.",
+            "description": "A Paixão será esclarecida.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
             "id": "plead",
-            "label": "Encher",
-            "description": "Pode ser mostrada Misericórdia.",
+            "label": "Implorar",
+            "description": "Misericórdia pode ser mostrada.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
@@ -1191,23 +1191,23 @@
             "label": "Emprego",
             "description": "Fiz o trabalho de um dia.",
             "isAspect": true,
-            "comments": "Atributo de receita. Atualiza temporizadores de trabalho e estatísticas de fadiga",
+            "comments": "Aspecto de receita. Atualiza temporizadores de trabalho e status de fadiga",
             "noartneeded": true
         },
         {
             "id": "scandalous",
             "label": "Escandaloso",
-            "description": "Eu não esquecerei facilmente.",
+            "description": "Eu não serei esquecido facilmente.",
             "isAspect": true,
             "comments": "Atributo de receita. Atualiza os temporizadores de reputação.",
             "noartneeded": true
         },
         {
             "id": "epiphany",
-            "label": "Epiphany",
+            "label": "Epifania",
             "description": "Minha compreensão aumentou.",
             "isAspect": true,
-            "comments": "Aspecto da receita. Melhora a perda.",
+            "comments": "Aspecto da receita. Melhora a tradição.",
             "noartneeded": true
         },
         {
@@ -1220,8 +1220,8 @@
         },
         {
             "id": "glorify",
-            "label": "Uma torrada de MOVIDA a GLory",
-            "description": "Converte Dread em Fascinação e potenciais outros elementos em mais equivalentes Gloriosos.",
+            "label": "Um moVIMENto eM dIREção à glóRIa",
+            "description": "Converte Pavor em Fascinação, e potencialmente outros elementos em equivalentes mais Gloriosos.",
             "isAspect": true,
             "noartneeded": true
         },
@@ -1230,7 +1230,7 @@
             "label": "Depifania",
             "description": "Compreendo as coisas mais simplesmente agora.",
             "isAspect": true,
-            "comments": "Elemento de receita. Downgrade e divide sua Lore.",
+            "comments": "Aspecto da receita. Rebaixa e divide sua tradição.",
             "noartneeded": true
         },
         {
@@ -1243,16 +1243,16 @@
         },
         {
             "id": "investigatingsetback",
-            "label": "Setback de investigação",
-            "description": "Diminui evidências.",
+            "label": "Problemas de investigação",
+            "description": "Rebaixa evidências.",
             "isAspect": true,
             "comments": "Aspecto da receita.",
             "noartneeded": true
         },
         {
             "id": "crackmirror",
-            "label": "Espelhos de Rachaduras",
-            "description": "Espelhos irão entrar seu estado rachado.",
+            "label": "Quebrar Espelhos",
+            "description": "Espelhos irão entrar em seu estado quebrado.",
             "isAspect": true,
             "comments": "Aspecto da receita",
             "noartneeded": true
@@ -1260,25 +1260,25 @@
         {
             "id": "mortal",
             "label": "Mortal",
-            "description": "\"O longo hábito de viver é indiscutível para morrer\". - Thomas Browne",
+            "description": "\"O longo hábito de viver nos indispõe para morrer\". - Thomas Browne",
             "isAspect": true
         },
         {
             "id": "commission",
             "label": "Comissões",
-            "description": "Uma oportunidade de lucro, deveria completá-la e devolvê-la a um patrão.",
+            "description": "Uma oportunidade de lucro. Devo completar isso e devolvê-lo a um patrão.",
             "isAspect": true
         },
         {
             "id": "benign",
-            "label": "Uma boa Fortuna",
+            "label": "Sorte Pura",
             "description": "Como eu tive sorte.",
             "isAspect": true
         },
         {
             "id": "malign",
-            "label": "Um Ugliness",
-            "description": "Algo não é bem-vindo.",
+            "label": "Uma Feiura",
+            "description": "Algo indesejável.",
             "isAspect": true
         },
         {
@@ -1286,61 +1286,61 @@
             "label": "Temporada",
             "description": "Algo relevante irá ocorrer, em breve",
             "isAspect": true,
-            "comments": "identifica desempates de cartas para eventos temporais"
+            "comments": "identifica o saque de cartas para eventos temporais"
         },
         {
             "id": "devourer",
             "label": "Devorador",
-            "description": "Se isto não quebrar nada, pode atrapalhar você ou consumir seus seguidores.",
+            "description": "Se isto se libertar, pode te atacar ou consumir seus seguidores.",
             "isAspect": true
         },
         {
             "id": "deceiver",
-            "label": "Cogumelo",
-            "description": "Se isso não acontecer, pode tentar levar você ou seus seguidores à loucura.",
+            "label": "Enganador",
+            "description": "Se isto se libertar, pode tentar levar você ou seus seguidores à loucura.",
             "isAspect": true
         },
         {
             "id": "mystic",
             "label": "Místico",
-            "description": "Este caçador normalmente sobreviverá aos ataques das criaturas dos Mansus, mesmo que esses ataques fossem imparáveis.",
+            "description": "Este caçador normalmente sobreviverá aos ataques das criaturas do Mansus, mesmo que esses ataques fossem imparáveis.",
             "isAspect": true
         },
         {
             "id": "brilliant",
             "label": "Brilhante",
-            "description": "Os Brilhantes caçadores encontram significado no detalhe mais pequeno. Eles podem converter a Notoriety diretamente em provas falsas.",
+            "description": "Os Caçadores Brilhantes encontram significado no menor detalhe. Eles podem converter a Notoriedade diretamente em Evidência Condenadora.",
             "noartneeded": true,
             "isAspect": true
         },
         {
             "id": "erratic",
-            "label": "Erro",
-            "description": "Este caçador muitas vezes não consegue criar provas da Notoriety. Por outro lado, eles às vezes criarão provas, mesmo quando não conseguem encontrar a Notoriety.",
+            "label": "Errático",
+            "description": "Este Caçador freqüentemente falha em criar Evidência da Notoriedade. Por outro lado, eles às vezes criam evidências mesmo quando não conseguem encontrar Notoriedade.",
             "isAspect": true
         },
         {
             "id": "meticulous",
-            "label": "Meticulous",
-            "description": "Este Caçador sempre consegue criar provas da Notoriety.",
+            "label": "Meticuloso",
+            "description": "Este Caçador sempre consegue criar provas da Notoriedade.",
             "isAspect": true
         },
         {
             "id": "tenacious",
             "label": "Tenaz",
-            "description": "Este caçador sobreviverá talvez um ataque físico em três, mesmo quando o ataque de outra forma seria imparável.",
+            "description": "Este Caçador talvez sobreviverá um ataque físico em três, mesmo quando o ataque de outra forma seria sem parar.",
             "isAspect": true
         },
         {
             "id": "wary",
-            "label": "Sábio",
-            "description": "Esta ficou cautelosa e não voltarão a encontrar-se comigo pessoalmente.",
+            "label": "Cauteloso",
+            "description": "Este se tornou cauteloso. Ele não vai mais se encontrar comigo pessoalmente.",
             "isAspect": true
         },
         {
             "id": "grim",
             "label": "Sinistro",
-            "description": "Caçadores de Sinistros não podem ser moldados pelo fascínio dos Glórios... mas o seu próprio desespero pode destruí-los.",
+            "description": "Caçadores Sinistros não podem ser moldados pelo fascínio da Glória... mas o seu próprio desespero pode destruí-los.",
             "isAspect": true
         },
         {
@@ -1351,20 +1351,20 @@
         },
         {
             "id": "venerationedge",
-            "label": "Veneração: Borda",
-            "description": "Esta organização venera o princípio de Edge, a que apelamos em nome do Coronel e do Lionsmith... entre outros.",
+            "label": "Veneração: Fio",
+            "description": "Esta organização venera o princípio do Fio, que nós invocamos em nome do Coronel e do Lionsmith... entre outros.",
             "isAspect": true
         },
         {
             "id": "venerationforge",
             "label": "Veneração: Forja",
-            "description": "Esta organização venera o princípio de Forge, que nós invocamos em nome da própria Forja de Dias e da Madrugad... entre outros.",
+            "description": "Esta organização venera o princípio da Forja, que nós invocamos em nome da própria Forja de Dias e da Madrugada... entre outros.",
             "isAspect": true
         },
         {
             "id": "venerationgrail",
-            "label": "Veneração: Grail",
-            "description": "Esta organização venera o princípio do Grail, que nós invocamos em nome do próprio Grau Vermelho e da Irmandade e Bruxa, entre outros.",
+            "label": "Veneração: Graal",
+            "description": "Esta organização venera o princípio do Graal, que nós invocamos em nome do próprio Graal Vermelho e da Irmã-e-Bruxa, entre outros.",
             "isAspect": true
         },
         {

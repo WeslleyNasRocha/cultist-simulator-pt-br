@@ -7,7 +7,7 @@
             "slot": {
                 "id": "work",
                 "label": "Trabalhar",
-                "description": "Algo que eu posso fazer; algo sei; ou algo que eu sou.",
+                "description": "Algo que posso fazer; algo que sei; ou algo que sou.",
                 "required": {
                     "ability": 1,
                     "job": 1,
@@ -27,7 +27,7 @@
             "slot": {
                 "id": "dream",
                 "label": "Sonhar",
-                "description": "Uma direção para meus sonhos; ou um problema para recuperar-me.",
+                "description": "Uma direção para meus sonhos; ou me recuperar de um problema.",
                 "required": {
                     "ability": 1,
                     "desire": 1,
