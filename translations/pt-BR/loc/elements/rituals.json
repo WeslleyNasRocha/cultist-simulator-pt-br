@@ -2,7 +2,7 @@
     "elements": [
         {
             "id": "ritetoolconsumeingredient",
-            "label": "Rite do Banqueiro do Mar",
+            "label": "Rito do Banquete Marítimo",
             "aspects": {
                 "ritual": 1
             },
@@ -27,30 +27,30 @@
                 },
                 {
                     "id": "Offering",
-                    "label": "Oferta",
+                    "label": "Oferenda",
                     "actionid": "work",
                     "required": {
                         "ingredient": 1
                     },
                     "consumes": true,
-                    "description": "Do que iremos nós desistir?"
+                    "description": "Do que nós desistiremos?"
                 },
                 {
                     "id": "Desire",
-                    "label": "Deslocar-se",
+                    "label": "Desejo",
                     "actionid": "work",
                     "required": {
                         "desire": 6
                     },
-                    "description": "No que posso me tornar? [Este slot só aceita a fase final da Ascensão. Se você alcançou a Sexta Marca, adicione sua Ascensão a este slot para completar um Grande Trabalho.]"
+                    "description": "No que posso me tornar? [Este slot só aceita a Ascensão em sua fase final. Caso você tenha alcançado a Sexta Marca, para completar-se o Grande Trabalho, adicione sua Ascensão neste slot.]"
                 }
             ],
-            "description": "Este ritual apela a que a Bruxa e a Irmã fechem o fosso entre o que é e o que pode ser. Os penhores adeptos, ou lançam, uma oferta na água: preferencialmente, mas não essencialmente, o mar.",
+            "description": "Este ritual convoca a \"Bruxa e Irmã\" para fechar o fosso entre o que é e o que pode ser. Os adeptos derramam ou lançam, uma oferenda na água: de preferência o mar, mas não essencialmente.",
             "unique": true
         },
         {
             "id": "ritetoolconsumeinfluence",
-            "label": "Rite da borda do mapa",
+            "label": "Ritual do Limite do Mapa",
             "aspects": {
                 "ritual": 1
             },
@@ -66,12 +66,12 @@
                 },
                 {
                     "id": "Offering",
-                    "label": "Oferta",
+                    "label": "Oferenda",
                     "actionid": "work",
                     "required": {
                         "influence": 1
                     },
-                    "description": "Que influência será exercida?",
+                    "description": "Qual influência será obtida?",
                     "consumes": true
                 },
                 {
@@ -85,7 +85,7 @@
                 },
                 {
                     "id": "Desire",
-                    "label": "Deslocar-se",
+                    "label": "Desejo",
                     "actionid": "work",
                     "required": {
                         "desire": 6

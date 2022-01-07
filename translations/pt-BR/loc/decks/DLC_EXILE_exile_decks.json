@@ -1,0 +1,46 @@
+{
+    "decks": [
+        {
+            "id": "rkx.events",
+            "label": "Planos de Cobrança",
+            "description": "Os cobradores estão planejando seus próximos passos.",
+            "spec": [
+                "rkx.event.aggressive",
+                "rkx.event.aggressive",
+                "rkx.event.aggressive",
+                "rkx.event.passive"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "rkx.weaknesses.environment",
+            "label": "Fraquezas do inimigo: Ambiente",
+            "spec": [
+                "rkx.weakness.cold.hidden",
+                "rkx.weakness.heat.hidden",
+                "rkx.weakness.sea.hidden"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "rkx.weaknesses.quirk",
+            "label": "Fraquezas do inimigo: Peculiaridade",
+            "spec": [
+                "rkx.weakness.faith.hidden",
+                "rkx.weakness.cats.hidden",
+                "rkx.weakness.heights.hidden"
+            ],
+            "resetonexhaustion": true
+        },
+        {
+            "id": "rkx.weaknesses.disfavour",
+            "label": "Fraquezas do inimigo: Desfavor",
+            "spec": [
+                "rkx.weakness.horned.hidden",
+                "rkx.weakness.wolf.hidden",
+                "rkx.weakness.flowermaker.hidden"
+            ],
+            "resetonexhaustion": true
+        }
+    ]
+}
