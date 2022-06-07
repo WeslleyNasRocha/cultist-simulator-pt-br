@@ -1,0 +1,22 @@
+{
+    "endings": [
+        {
+            "id": "minorpalestvictory",
+            "label": "Até o Inverno",
+            "description": "O Elegiast não é o mais gentil das Horas, mas ele nunca é cruel, e se lembra de todas as suas promessas. Ele me levantou pela mão e me largou tremendo no mundo e agora não posso terminar antes do meu tempo. Vou me deslocar entre o Longo da Tarde e mais além, e eu vou assistir aos esforços do Longo-Graal e da Longa-Lanterna e do feroz Longo do Fogo, e eu manterei os limites que ainda estão mantidos, e tudo enquanto carrego comigo as cores das horas perdidas como um carvão de fogo roxo. [Parabéns pela vitória mais pálida. Você lutou o jogo até os joelhos. Existem outros caminhos.]",
+            "image": "elegiast",
+            "flavour": "Grand",
+            "anim": "DramaticLightCool",
+            "achievement": "A_ENDING_MINORWINTERVICTORY"
+        },
+        {
+            "id": "minorcrownedgrowthvictory",
+            "label": "Frutífero",
+            "description": "I took the seeds of the Crowned Growth into me with the Elixir Zeboim. If only I had kept it pacified with the flesh of the dead, it would never have turned its hungers to me. But I was never warned. There are immortalities beyond immortality. So now we thrive together in the soft place that fire cannot touch, and I will always be glad, and always. [Congratulations on a Fruitfulness anti-victory. You have wrestled the game to its knees. There are other paths.]",
+            "image": "crownedgrowth",
+            "flavour": "Grand",
+            "anim": "DramaticLightEvil",
+            "achievement": "A_ENDING_MINORCROWNEDGROWTHVICTORY"
+        }
+    ]
+}
