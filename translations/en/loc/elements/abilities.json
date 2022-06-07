@@ -46,7 +46,8 @@
                 "society": "fatigue",
                 "scar_ability": "scar_heart"
             },
-            "description": "This is my body. There are other bodies, but this one is mine, and my mind needs it as a fungus needs soil. [With enough Vitality, you can gain more Health.]"
+            "description": "This is my body. There are other bodies, but this one is mine, and my mind needs it as a fungus needs soil. [With enough Vitality, you can gain more Health.]",
+            "decayTo": "fatigue"
         },
         {
             "id": "vitality",
@@ -103,7 +104,8 @@
             },
             "description": "A restless longing has me. I feel that I want to do... <i>something</i>. What, exactly?",
             "lifetime": 60,
-            "decayTo": "dread"
+            "decayTo": "dread",
+            "burnTo": "preglimmering"
         },
         {
             "id": "bloodshed",
@@ -249,7 +251,8 @@
                 "ritual": "concentration",
                 "society": "concentration",
                 "scarability": "scar_lantern"
-            }
+            },
+            "decayTo": "concentration"
         },
         {
             "id": "concentration",
@@ -375,7 +378,8 @@
                 "toreason": "reason",
                 "ritual": "passionexhausted",
                 "society": "passionexhausted"
-            }
+            },
+            "decayTo": "passion"
         },
         {
             "id": "decrepitude",
