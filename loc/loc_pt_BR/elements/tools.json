@@ -1,0 +1,452 @@
+{
+    "elements": [
+        {
+            "id": "tooledgeb",
+            "label": "Bala Meteórica",
+            "description": "Balas de ferro Taenid são ocasionalmente escavadas dos esqueletos das bestas incomuns, em toda a Europa, no Médio Oriente e na Índia. Alguém tem caçado monstros.",
+            "aspects": {
+                "edge": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "tooledged",
+            "label": "Biedde's Blade",
+            "description": "Um corte desta lâmina não deixará de sangrar até que a ferida seja curada. Um deles diz que Biedde era um cirurgião que recolheu facas em Toulouse, no século XVIII. Outra alegação é que Biedde é apenas a desgraça de uma palavra árabe para \"mosquito\".",
+            "aspects": {
+                "edge": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "tooledgef",
+            "label": "Furious Sliver",
+            "description": "Quando o Ferreiro de Leão virou-se contra o Coronel, ele esmagou sua própria espada no punho. Cada fragmento ínfimo dessa arma ainda empola de fúria.",
+            "aspects": {
+                "edge": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolforgeb",
+            "label": "Cinnabar Amulet",
+            "description": "Escarlate é a cor do calor. Mercúrio contém uma chave para a dissolução final.",
+            "aspects": {
+                "forge": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolforged",
+            "label": "Imperativo de Malleus",
+            "description": "Um pequeno osso de orelha, enegrecido pelo calor intenso. Aplicado corretamente, pode quebrar pedra.",
+            "aspects": {
+                "forge": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolforgef",
+            "label": "Faísca de Carcaça",
+            "description": "Um remanescente de uma maior radiação, brilhando suavemente como decrescente. Possivelmente, um fardo do Sol dividido.",
+            "aspects": {
+                "forge": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolgrailmoth",
+            "label": "Amuleto Sussurrante",
+            "description": "Sabe o que eu desejo; ou imagino que faça.",
+            "aspects": {
+                "grail": 2,
+                "moth": 2,
+                "auctionable": 2,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolgrailb",
+            "label": "Luvas Coloridas",
+            "description": "O que as utilizações têm conhecidas? Que lições eles poderiam ensinar as minhas mãos?",
+            "aspects": {
+                "grail": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "comments": "Not unique; we can get an extra one from the Dancer legacy."
+        },
+        {
+            "id": "toolgraild",
+            "label": "Hallowed Polos",
+            "description": "A coroa de anel de uma mãe selvagem, manchada com a essência, tecida com restos de cabelo e abençoada com lebres.",
+            "aspects": {
+                "grail": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolgrailf",
+            "label": "Chalice Murmurous",
+            "description": "Nas noites em que bebemos do charco, não sabemos depois, depois, o que fizemos. Mas podemos estar seguros de que foi sempre o que se fez, e se não nos lembrarmos, os nossos filhos farão, nos seus sonhos mais rudimentares.",
+            "aspects": {
+                "grail": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolheartb",
+            "label": "Ídolo Marruvino",
+            "description": "Os Marruvii faziam pequenos ídolos de madeira para apaziguar os gêmeos bruxos que eles temiam no lago. O lago está quase seco agora, mas os ídolos e os gêmeos das bruxas ainda permanecem, mas sombrios com o aspecto do Coração.",
+            "aspects": {
+                "heart": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "comments": "Not unique; we can get an extra one from the Dancer legacy."
+        },
+        {
+            "id": "toolheartd",
+            "label": "Tmpano Venenoso",
+            "description": "No bosque onde esfolaram o trovão, ralharam seus instrumentos para encher a frenesia. O poder ainda se agita, como cheiro.",
+            "aspects": {
+                "heart": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolheartf",
+            "label": "Bodhran Kingskin",
+            "description": "Nas florestas profundas, o monarca desistiu da última coisa que teve que dar, e por isso a ferramenta foi moldada para manter a terra sempre segura. Então, é claro, um império roubou-o, como fazem os impérios.",
+            "aspects": {
+                "heart": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolknockb",
+            "label": "Ícone de St Agnes",
+            "description": "St Agnes da Boémia foi famosa por sua piedosa dedicação à mortificação da carne. Este ícone faz para uma visualização desagradável.",
+            "aspects": {
+                "knock": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolknockd",
+            "label": "Lintel Consagrado",
+            "description": "Este é o crânio de uma porta pela qual a energia passou.",
+            "aspects": {
+                "knock": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolknockf",
+            "label": "Frangiclave",
+            "description": "Há chaves que abrem portas; depois há chaves que as destruem.",
+            "aspects": {
+                "knock": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toollanternb",
+            "label": "Pedra-de-noite",
+            "description": "Noon, o ditado diz que não é o que foi; mas esta pedra polida ainda mantém um brilho do pôr do sol.",
+            "aspects": {
+                "lantern": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "xtriggers": {
+                "crackmirror": "toollanternbcracked"
+            },
+            "comments": "Not unique; we can get multiples if cracked ones are supplied."
+        },
+        {
+            "id": "toollanternd",
+            "label": "Espelho Adormecido",
+            "description": "Uma multiplicidade de vistas! Uma perplexidade de opiniões! Olhem para mim e se alegre com a dissolução de seus sentidos!",
+            "aspects": {
+                "lantern": 8,
+                "auctionable": 5,
+                "tool": 1,
+                "mirror": 1
+            },
+            "xtriggers": {
+                "crackmirror": "toollanterndcracked"
+            },
+            "comments": "Not unique; we can get multiples if cracked ones are supplied."
+        },
+        {
+            "id": "toollanternf",
+            "label": "Vidro do Observador",
+            "description": "Este é o espelho para o qual não se olha duas vezes.",
+            "aspects": {
+                "lantern": 12,
+                "auctionable": 6,
+                "tool": 1,
+                "mirror": 1
+            },
+            "xtriggers": {
+                "crackmirror": "toollanternfcracked"
+            },
+            "comments": "Not unique; we can get multiples if cracked ones are supplied."
+        },
+        {
+            "id": "toolmothb",
+            "label": "Boneca Alada",
+            "description": "Em um sótão acima da casa de um esqueleto havia uma janela. Ao lado da janela havia uma caixa. Na caixa havia uma bandagem. No banquete havia uma torção de cabelo coçado. No cabelo estava ferindo uma boneca, porque a janela nunca tinha sido aberta.",
+            "aspects": {
+                "moth": 4,
+                "auctionable": 3,
+                "tool": 1
+            }
+        },
+        {
+            "id": "toolmothd",
+            "label": "Máscara Atordoada",
+            "description": "Na floresta onde a lua não podia ir, os compradores das árvores estavam juntos como bandagens ou amantes. A lua pode mudar a si mesma para uma formiga ou para um pássaro ou para sua irmã, mas a floresta não cederia às suas penetrações, não importa as suas cuidados. Um dia viemos com a nossa tesoura, e cortámos os galhos até a lua e o sangue durou as folhas podres no chão da floresta.",
+            "aspects": {
+                "moth": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolmothf",
+            "label": "Tesoura de Alakapurine",
+            "description": "No Norte há uma cidade de grande riqueza onde habita um protetor do mundo. Um dia ele se calou. Estes toscos costumavam tirar dele primeiro o cabelo, depois os dedos e depois o que sobrava.",
+            "aspects": {
+                "moth": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolsecrethistoriesb",
+            "label": "Cubo Paradoxical",
+            "description": "Às vezes, é difícil ter certeza se uma flecha matou os Heróis Impressionantes ou a Eudokia. Por vezes, é possível que um relógio de ormolu tenha sido roubado no saco de Viena, mesmo quando descansava em segurança nos cofres de Roma.",
+            "aspects": {
+                "secrethistories": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolsecrethistoriesd",
+            "label": "Atlas dos Sonhos",
+            "description": "A forma do mundo muda em cada passado, mas a forma do Mansus reflecte-se em todos eles. Não se pode mapear os Mansus, mas se pode fazer uma tentativa de mapear suas reflexões.",
+            "aspects": {
+                "secrethistories": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolwinterb",
+            "label": "Flauta de Osso",
+            "description": "Seu som vai acabar.",
+            "aspects": {
+                "winter": 4,
+                "auctionable": 3,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolwinterd",
+            "label": "Mamãe Elagulha",
+            "description": "Não abdica da sua influência.",
+            "aspects": {
+                "winter": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toolwinterf",
+            "label": "Sino de Divisão",
+            "description": "Em primeiro lugar, a sua voz, e depois, nada.",
+            "aspects": {
+                "winter": 12,
+                "auctionable": 6,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "toollanternbcracked",
+            "label": "Pedra-Nove Rachada",
+            "description": "Não, o provérbio não é o que era; mas esta pedra continua a reter um brilho inflamado, mas foi rachada. Um seguidor inventado por Forge-Forge poderia restaurá-lo, com recursos suficientes - ou eu poderia usar o poder que resta.",
+            "aspects": {
+                "lantern": 1,
+                "ingredient": 1
+            }
+        },
+        {
+            "id": "toollanterndcracked",
+            "label": "Espelho Selvagem Rachado",
+            "description": "Uma rachadura profunda atravessa o metal cintilante. Um seguidor falsificado poderia repará-lo, com recursos suficientes - ou eu poderia usar o poder que resta.",
+            "aspects": {
+                "lantern": 2,
+                "ingredient": 1
+            }
+        },
+        {
+            "id": "toollanternfcracked",
+            "label": "Vidro de Vigia Rachado",
+            "description": " Um seguidor inventado por Forge poderia repará-lo, mas o custo seria elevado - ou eu poderia usar o poder que resta.",
+            "aspects": {
+                "lantern": 3,
+                "ingredient": 1
+            }
+        },
+        {
+            "id": "paintingmasteredge",
+            "label": "'Coronel e Ferreiro de Leão'",
+            "description": "Uma vez que as questões se esforçam nesse sentido.",
+            "aspects": {
+                "edge": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmasterforge",
+            "label": "\"A Forja de Dias'",
+            "description": "Se a Forja se arrependesse, lamentaria o Intercalado, mas em todo o seu outro trabalho, conhece alegria.",
+            "aspects": {
+                "forge": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmastergrail",
+            "label": "\"O trilho vermelho\"",
+            "description": "A senhora deputada não dividiu o Sol, mas neste caso podemos imaginar o que deveria ter desejado.",
+            "aspects": {
+                "grail": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmasterheart",
+            "label": "\"A Irmã e Bruxa\"",
+            "description": "Tem sido uma espécie de pássaros fúnebres, mas aqui está que gostaria de afogar.",
+            "aspects": {
+                "heart": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmasterknock",
+            "label": "'A Mãe das Bigornas'",
+            "description": "Mesmo nos dias de Elam, ela começou a aparecer assim.",
+            "aspects": {
+                "knock": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmasterlantern",
+            "label": "'A porta no olho'",
+            "description": "Ele veio do Glória. Não podemos deixar de ver.",
+            "aspects": {
+                "lantern": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmastermoth",
+            "label": "\"A Lua\"",
+            "description": "Nas florestas do primeiro continente, os nossos antepassados amaldiçoavam-se com o seu próprio deus.",
+            "aspects": {
+                "moth": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmastersecrethistories",
+            "label": "'Teresa e Christopher'",
+            "description": "O amor, tal como o Mansus, desafia fronteiras.",
+            "aspects": {
+                "secrethistories": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "paintingmasterwinter",
+            "label": "''O Lobo-Divide''",
+            "description": "GERAT CAPUT LUPINUM. O Sol foi dividido, e esta é sua ferida.",
+            "aspects": {
+                "winter": 8,
+                "auctionable": 5,
+                "tool": 1
+            },
+            "unique": true
+        },
+        {
+            "id": "canvas.pale",
+            "label": "Uma tela pálida",
+            "description": "Tenho de ir muito atentamente: as memórias que preciso de transmitir levarão da tela se as retratar com demasiada veemência. Encontrarei essas memórias na carne dos mortos... e talvez mesmo, se assim o entender, na minha carne moribunda.",
+            "aspects": {}
+        },
+        {
+            "id": "painting.palest",
+            "label": "A pintura mais pálida",
+            "description": "'Perderam-se seis vezes, trinta restos.' A tela não é branca. Olhe de perto, e veja as formas sugeridas das Horas há muito perdidas, andando o caminho sinuoso até a porta para o nada. Olhe de perto demais e veja se perdeu para chorar.",
+            "aspects": {
+                "ascension.remembrance.offering": 1
+            }
+        }
+    ]
+}

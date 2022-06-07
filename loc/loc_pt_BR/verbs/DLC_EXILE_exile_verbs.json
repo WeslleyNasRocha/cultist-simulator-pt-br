@@ -1,0 +1,95 @@
+{
+    "verbs": [
+        {
+            "id": "scout",
+            "label": "Verificar",
+            "description": "Revelar Posibilidades.",
+            "slot": {
+                "id": "scout",
+                "label": "Verificar",
+                "required": {
+                    "domicile": 1
+                }
+            }
+        },
+        {
+            "id": "use",
+            "label": "Empregar",
+            "description": "Usar Algo. [Oportunidades de Endereço, Executar Operações, ou Converter anos em dinheiro.]",
+            "slot": {
+                "id": "plan",
+                "label": "Plano",
+                "required": {
+                    "connection": 1,
+                    "op": 1,
+                    "weapon": 1,
+                    "lore": 1,
+                    "comfort": 1,
+                    "proof": 1
+                }
+            }
+        },
+        {
+            "id": "travel",
+            "label": "Viajar",
+            "description": "Algumas viagens são feitas para abrir sua mente: outras, para alongar sua vida.",
+            "slot": {
+                "id": "direction",
+                "label": "Intenção",
+                "description": "Uma estrada, ou seu fim?",
+                "required": {
+                    "destination": 1,
+                    "location": 1,
+                    "ally": 1
+                },
+                "forbidden": {
+                    "exhausted": 1
+                }
+            }
+        },
+        {
+            "id": "send",
+            "label": "Comunicar",
+            "description": "Enviar mensagens, dinheiro e mais. Tenha Cuidado.",
+            "slot": {
+                "id": "send",
+                "label": "Enviar",
+                "required": {
+                    "desire": 1,
+                    "domicile": 1,
+                    "cash": 1,
+                    "mortal": 1,
+                    "ligeian": 1
+                },
+                "forbidden": {
+                    "exhausted": 1
+                }
+            }
+        },
+        {
+            "id": "relinquish",
+            "label": "Renunciar",
+            "description": "Vender; Abandonar; Extirpar; Renunciar.",
+            "slot": {
+                "id": "relinquish",
+                "label": "Renunciar",
+                "required": {
+                    "asset": 1,
+                    "lifespan.stolen": 1,
+                    "trace": 1,
+                    "wound.exile": 1,
+                    "corpse.exile.underling": 1
+                }
+            }
+        },
+        {
+            "id": "time.exile",
+            "label": "Tempo",
+            "description": "O inimigo final?",
+            "slot": {
+                "id": "time",
+                "label": "Tempo"
+            }
+        }
+    ]
+}

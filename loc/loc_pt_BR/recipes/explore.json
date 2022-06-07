@@ -1,0 +1,472 @@
+{
+    "recipes": [
+        {
+            "id": "exploremovehq",
+            "actionid": "explore",
+            "label": "Uma mudança de premissas",
+            "startdescription": "Mova o quartel-general da nossa organização para uma nova localização. [Isto irá realocar o quartel general da sua empresa. Não há retorno. Pode reduzir a Notoriety.]",
+            "description": "Nenhum endereço é definitivo, tal como os nossos corpos, acabamos por deixá-los a todos. Mas, por enquanto, tudo está em casa.",
+            "requirements": {
+                "hq": 1,
+                "hq.potential": 1
+            },
+            "aspects": {
+                "movehq": 1
+            },
+            "slots": [
+                {
+                    "id": "coldtrail",
+                    "label": "Uma Trilha Gélida",
+                    "description": "Quando nos deslocamos, a Mesa de Supressão pode perder tempo a investigar a nossa antiga localização.",
+                    "greedy": true,
+                    "required": {
+                        "notoriety": 1
+                    }
+                }
+            ],
+            "effects": {
+                "notoriety": -1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "explorehq.townhouse",
+            "actionid": "explore",
+            "label": "--",
+            "startdescription": "--",
+            "description": "--",
+            "requirements": {
+                "hq.townhouse": 1,
+                "funds": 1
+            },
+            "effects": {
+                "influencegrail": 1,
+                "funds": -1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "explorehq.hospital",
+            "actionid": "explore",
+            "label": "Onde ele abre",
+            "startdescription": "Os primeiros grupos deste lugar praticaram as suas incisões e as suas transsecções até que o mundo se separasse como casca de frutas. Essas aberturas há muito tempo foram curadas, mas nada jamais cura completamente.",
+            "description": "Em primeiro lugar, há sempre desconforto, mas garantimos que tudo é feito de forma limpa, e assim tocamos as saias brilhantes das Marias dos Ants.",
+            "requirements": {
+                "hq.hospital": 1,
+                "funds": 1
+            },
+            "effects": {
+                "influenceknock": 1,
+                "funds": -1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "explorehq.mithraeum",
+            "actionid": "explore",
+            "label": "O Beneath do Sol",
+            "startdescription": "Este era um lugar sagrado do Sun Unconqueed, o Sol Individido. Com as velas mais puras, podemos tocar a luz que ainda nada na pedra.",
+            "description": "O luto, o translucente, a memória do esplendor. Muito é perdido e muito permanece do Sol Invisível e indivisível.",
+            "requirements": {
+                "hq.mithraeum": 1,
+                "funds": 1
+            },
+            "effects": {
+                "influencelantern": 1,
+                "funds": -1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "explorehq.church",
+            "actionid": "explore",
+            "label": "As Ferimentos da Sabedoria",
+            "startdescription": "'Nem todas as portas são feridas, mas cada ferida é uma porta.' A história deste lugar é rica com feridas e portas. Com os materiais adequados, podemos suavizar onde uma vez que o ar foi aberto.",
+            "description": "Esta noite, nenhuma porta desta igreja se fechará; nenhuma fechadura exigirá uma chave; e todos os corações serão abertos.",
+            "requirements": {
+                "hq.church": 1,
+                "funds": 1
+            },
+            "effects": {
+                "influenceknock": 1,
+                "funds": -1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "explorehq.bookshop",
+            "actionid": "explore",
+            "label": "A Lareira Guardada",
+            "startdescription": "Vamos aquecer os espaços atrás da loja com luz de fogo, alimentá-los com o apito da cafeteira e o humilho da gramofone. Nem todas as nossas celebrações exigem o derramamento de sangue.",
+            "description": "As livrarias consolam-se com o espírito, ansioso, ignorante e agitado. Mesmo depois de Morland ter trazido seus curiosos negócios aqui, esse soldado persiste. Esta noite a Hora se chama passos de Thunderskin com ligeireza.",
+            "requirements": {
+                "hq.bookshop": 1,
+                "funds": 1
+            },
+            "effects": {
+                "influenceheart": 1,
+                "funds": -1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "explorehq.warehouse",
+            "actionid": "explore",
+            "label": "Na memória dos motores",
+            "startdescription": "Antes que este fosse um armazém, era uma mansão de máquinas: uma casa de vapor e ferro e, De vez em quando, rasgam carne e gritam. Vamos despejar os óleos que comemoram essa época. ",
+            "description": "Uma vez mais temos chamas, uma vez mais temos ferro, e mais uma vez a carne saberá o beijo do calor; embora em parte alguma ela seja mostrada, não por dia. Muito acima e logo abaixo, a Forja de Dias executa suas purificações.",
+            "requirements": {
+                "hq.warehouse": 1,
+                "funds": 1
+            },
+            "effects": {
+                "influenceforge": 1,
+                "funds": -1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "explorelocationbookdealer",
+            "label": "Adicionar à sua biblioteca",
+            "actionid": "explore",
+            "requirements": {
+                "locationbookdealer": 1,
+                "funds": 1
+            },
+            "effects": {},
+            "deckeffects": {
+                "commontomes": 1
+            },
+            "startdescription": "É preciso tempo para separar o ouro da escória, o trigo do joio, o sangue da água. Se eu comprar livros o bastante, encontrarei algo interessante.",
+            "description": "Achei algo digno de nota.",
+            "warmup": 30,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "explorelocationbookdealer_exhausted",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorelocationbookdealer_exhausted",
+            "label": "Morland está Fechando!",
+            "actionid": "explore",
+            "requirements": {
+                "genericrubbishbook": 1
+            },
+            "description": "\"Estou em movimento\", a senhora Morland informa-lhe: \"O meu estoque está largamente exausto, e a Mesa de Supressão está interessada. Então é adeus. Este último livro é besteira, mas eu coloquei alguns papéis interessantes nas costas, como um agradecimento pelo seu costume.\"",
+            "deckeffects": {
+                "oneoffrewards": 1
+            },
+            "warmup": 1,
+            "aspects": {
+                "exhaustlocation": 1
+            }
+        },
+        {
+            "id": "explorelocationauctionhouse",
+            "label": "Participe de um Leilão nos Oriflamme's",
+            "actionid": "explore",
+            "requirements": {
+                "locationauctionhouse": 1,
+                "auctionable": -1
+            },
+            "effects": {},
+            "deckeffects": {
+                "auctionedcommontomes": 1
+            },
+            "startdescription": "Nós sentamos em alarmantes cadeiras Rietveld em um quarto de leilão sem janelas com paredes laranja vividamente queimadas, esperando o leiloeiro anunciar o que está oferecendo. O cheiro de tinta fresca faz o cérebro girar. [Clique Começar para ver o que há em oferta; ou adicione um item que deseja vender.]",
+            "description": ".",
+            "warmup": 5,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "auctionbuy",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorelocationstreetsstrange",
+            "label": "Explore um misterioso emaranhado de ruas pela luz da lua.",
+            "actionid": "explore",
+            "requirements": {
+                "locationstreetsstrange": 1
+            },
+            "deckeffects": {
+                "streetsstrangefinds": 1
+            },
+            "startdescription": "As ruas são estranhas na hora chamada Meniscate.",
+            "description": "As visões me passam com graça de pinheiro - uma janela sobre uma madeira, um jardim de gelo, um sol tremendo, uma mulher de vidro. Voltarei para casa com relutância.",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "explorefollower",
+            "label": "Procure a cidade",
+            "actionid": "explore",
+            "requirements": {
+                "follower": 1,
+                "location": -1
+            },
+            "deckeffects": {
+                "exploreevents": 1
+            },
+            "linked": [
+                {
+                    "id": "explorefindcriminal",
+                    "chance": 100
+                },
+                {
+                    "id": "explorefindplace",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Tráfego meticuloso por dia, um labirinto nevoeiro por noite. Vou colocar meus lacaios em busca de oportunidades.",
+            "description": ".",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "explorerumour",
+            "label": "Rastrear um boato",
+            "actionid": "explore",
+            "requirements": {
+                "rumour": 1
+            },
+            "deckeffects": {
+                "acquaintances": 1
+            },
+            "effects": {
+                "rumour": -1,
+                "notoriety": 1
+            },
+            "startdescription": "Suspeito que, no final desta história, possa encontrar alguém que escute o que tenho a dizer.",
+            "description": "Um endereço não promissor: mas um residente promissor.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "explorehealth",
+            "label": "Procure a cidade",
+            "actionid": "explore",
+            "requirements": {
+                "health": 1,
+                "location": -1
+            },
+            "deckeffects": {
+                "exploreevents": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
+            "linked": [
+                {
+                    "id": "explorefindcriminal",
+                    "chance": 100
+                },
+                {
+                    "id": "explorefindplace",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Malditas e minuciosas por dia, um labirinto embrulhado de neblina de noite. Vou andar pelas ruas, procurando segredos, até que não possa mais andar.",
+            "description": ".",
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "id": "explorefindcriminal",
+            "label": "Um Hireling?",
+            "actionid": "explore",
+            "requirements": {
+                "daycriminals": 1
+            },
+            "deckeffects": {
+                "hirelings": 1
+            },
+            "effects": {
+                "season": -1
+            },
+            "warmup": 0,
+            "linked": [
+                {
+                    "id": "explorechoosepaycriminal",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "explorechoosepaycriminal",
+            "label": "Um Hireling?",
+            "actionid": "explore",
+            "startdescription": "Encontrei alguém que posso pagar para promulgar necessidades lamentáveis. [Adicione Fundos para contratá-los, por um tempo limitado.]",
+            "slots": [
+                {
+                    "id": "Payment",
+                    "label": "Pagamento",
+                    "required": {
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "explorepaycriminal",
+                    "chance": 100
+                }
+            ],
+            "effects": {
+                "hireling": -1
+            },
+            "description": "Melhor não. Preciso ter cuidado com a companhia que eu mantenho.",
+            "warmup": 60
+        },
+        {
+            "id": "explorepaycriminal",
+            "label": "Um Hireling",
+            "requirements": {
+                "funds": 1
+            },
+            "actionid": "explore",
+            "startdescription": "Por enquanto, a sua lealdade será adquirida.",
+            "effects": {
+                "funds": -1
+            }
+        },
+        {
+            "id": "explorefindplace",
+            "label": "Um lugar ignorado?",
+            "actionid": "explore",
+            "requirements": {
+                "dayplaces": 1
+            },
+            "startdescription": "Talvez eu tenha encontrado algum lugar incomum.",
+            "description": ".",
+            "deckeffects": {
+                "citysecrets": 1
+            },
+            "effects": {
+                "season": -1
+            },
+            "warmup": 5
+        },
+        {
+            "id": "explore.searchgraveyard.self",
+            "actionid": "explore",
+            "requirements": {
+                "location.cemetery": 1,
+                "health": 1
+            },
+            "effects": {
+                "corpse": 1,
+                "mystique": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
+            "label": "A Disinterment",
+            "startdescription": "Escavações lúcidas pela luz suave de uma lanterna coberta.",
+            "description": "A pá bate na madeira. Isso é um bom sinal. Se o caixão estiver muito enrolado, geralmente os restos estão escaneados.",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "explore.searchgraveyard.follower",
+            "actionid": "explore",
+            "requirements": {
+                "location.cemetery": 1,
+                "follower": 1
+            },
+            "effects": {
+                "corpse": 1,
+                "mystique": 1
+            },
+            "label": "A Disinterment",
+            "startdescription": "Escavações lúcidas pela luz suave de uma lanterna coberta.",
+            "description": "A pá bate na madeira. Isso é um bom sinal. Se o caixão estiver muito enrolado, geralmente os restos estão escaneados.",
+            "warmup": 30,
+            "craftable": true
+        },
+        {
+            "id": "explore.searchgraveyard.closing.self",
+            "actionid": "explore",
+            "requirements": {
+                "location.cemetery.closing": 1,
+                "health": 1
+            },
+            "effects": {
+                "corpse": 1,
+                "notoriety": 1
+            },
+            "aspects": {
+                "fatiguing": 1
+            },
+            "label": "Uma cautelosa desinterligação",
+            "startdescription": "Roube através das sombras embaralhantes. Iluminar sem lâmpada. Seja cauteloso.",
+            "description": "Eu caio na escuridão, até encontrar o suficiente para continuar.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "explore.searchgraveyard.closing.follower",
+            "actionid": "explore",
+            "requirements": {
+                "location.cemetery.closing": 1,
+                "follower": 1
+            },
+            "effects": {
+                "corpse": 1,
+                "notoriety": 1
+            },
+            "label": "Uma cautelosa desinterligação",
+            "startdescription": "Roube através das sombras embaralhantes. Iluminar sem lâmpada. Seja cauteloso.",
+            "description": "Eu caio na escuridão, até encontrar o suficiente para continuar.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "explore.fleeting",
+            "actionid": "explore",
+            "requirements": {
+                "fleeting": 1
+            },
+            "label": "Deixe a memória guiar meus passos",
+            "startdescription": "Os meus pensamentos vão desaparecer e eu seguirei e as velhas emoções vão enraizar-se.",
+            "description": "A memória é um labirinto e no seu coração um jardim.",
+            "effects": {
+                "fleeting": -1
+            },
+            "internaldeck": {
+                "label": "Aonde vamos",
+                "description": "Aonde vamos",
+                "spec": [
+                    "restlessness",
+                    "dread",
+                    "fascination",
+                    "contentment",
+                    "restlessness",
+                    "dread",
+                    "fascination",
+                    "contentment",
+                    "restlessness",
+                    "dread",
+                    "fascination",
+                    "contentment"
+                ],
+                "resetonexhaustion": true,
+                "draws": 1
+            },
+            "warmup": 30,
+            "craftable": true
+        }
+    ]
+}

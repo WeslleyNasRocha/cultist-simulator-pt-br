@@ -1,0 +1,3102 @@
+{
+    "recipes": [
+        {
+            "id": "talktofollower_attemptheal",
+            "label": "Tentar curar um seguidor",
+            "actionid": "talk",
+            "startdescription": "Compatibilidade ou conveniência?",
+            "description": "Não podia ou não iria prestar assistência médica.",
+            "requirements": {
+                "follower_wound": 1,
+                "mortal": 1,
+                "society": -1
+            },
+            "slots": [
+                {
+                    "id": "Healing",
+                    "label": "Curar",
+                    "description": "Fundos vão comprar remédios.",
+                    "required": {
+                        "funds": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "talktofollower_heal",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "talktofollower_heal",
+            "label": "Complete a cura de um seguidor",
+            "startdescription": "Talvez, agora, eles sobrevivam. Mas há limites para o que o corpo humano pode sustentar.",
+            "actionid": "talk",
+            "requirements": {
+                "funds": 1
+            },
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "follower_wound",
+                    "level": 0,
+                    "additive": false
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "follower",
+                    "level": 0,
+                    "additive": false
+                }
+            ],
+            "effects": {
+                "funds": -1
+            },
+            "linked": [
+                {
+                    "id": "givescar_edge",
+                    "chance": 30
+                },
+                {
+                    "id": "givescar_knock",
+                    "chance": 50
+                },
+                {
+                    "id": "givescar_winter",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "givescar_edge",
+            "actionid": "talk",
+            "label": "As Lições da Experiência",
+            "description": "A ferida foi curada. A cicatriz permanece. Mas cada cicatriz, como observou o estudioso Shulga em tempos, é uma lição.",
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "follower_scar_edge",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "edge",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "deathscar_edge",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "givescar_knock",
+            "label": "Portão da Dente",
+            "actionid": "talk",
+            "description": "A ferida está curada - por mais que ela alguma vez esteja. Mantém-se um portão de dor e possibilidade.",
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "follower_scar_knock",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "knock",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "deathscar_knock",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "givescar_winter",
+            "actionid": "talk",
+            "label": "O Início de uma Final",
+            "description": "A ferida foi curada, mas este chegou muito perto da morte. O silêncio os tocou, como a neve.",
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "follower_scar_winter",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "winter",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "deathscar_winter",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "deathscar_edge",
+            "actionid": "talk",
+            "label": "Morte: Uma Derrota",
+            "requirements": {
+                "follower_scar_edge": 3
+            },
+            "description": "Este mostrou coragem e resistência. No final, isso não era suficiente. [Seu seguidor adquiriu três Cicatrizes de Bravura e morreu.]",
+            "aspects": {
+                "killmortal": 1
+            }
+        },
+        {
+            "id": "deathscar_knock",
+            "actionid": "talk",
+            "label": "Morte: uma abertura",
+            "requirements": {
+                "follower_scar_knock": 3
+            },
+            "description": "Para funcionarmos eficazmente, temos de manter as pessoas dentro do seu território e desencorajar o que está lá fora de entrada. Quando chega de entrada, não se trata mais de se preocupar. [O seu seguidor adquiriu três abates e morreu.]",
+            "aspects": {
+                "killmortal": 1
+            }
+        },
+        {
+            "id": "deathscar_winter",
+            "actionid": "talk",
+            "label": "Morte: um fim",
+            "requirements": {
+                "follower_scar_winter": 3
+            },
+            "description": "O ano gira o Ocidente, em direção ao inverno. Este optou por fechar os olhos. [O seguidor adquiriu três carros Winter-Scars, e morreu.]",
+            "aspects": {
+                "killmortal": 1
+            }
+        },
+        {
+            "id": "talktofollower",
+            "label": "Discuta negócios ocultos com um seguidor",
+            "actionid": "talk",
+            "requirements": {
+                "society": -1,
+                "follower": 1,
+                "summoned": -1
+            },
+            "slots": [
+                {
+                    "id": "Subject",
+                    "label": "Cargo",
+                    "description": "Nosso culto, como culto, um alvo; ou outro tópico.",
+                    "required": {
+                        "society": 1,
+                        "evidencelevel": 1,
+                        "hunter": 1,
+                        "independent": 1,
+                        "tool": 1,
+                        "ingredient": 1,
+                        "annoyance": 1,
+                        "location": 1
+                    }
+                }
+            ],
+            "comments": "We have clues upstream for recruitment/promotion, and we don't want this to override them, hence the society limitation.",
+            "alt": [
+                {
+                    "id": "talktohireling_rehire",
+                    "chance": 100
+                },
+                {
+                    "id": "talktodevotee_refire",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_givetool_router",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_cantgivetool",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_locationcabaret_lustsensation",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_locationcabaret_lustchange",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_locationstreetsstrange_lustenlightenment",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_locationauctionhouse_lustpower",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_locationcabaret_notinterested",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_locationstreetsstrange_notinterested",
+                    "chance": 100
+                },
+                {
+                    "id": "A_talktofollower_locationauctionhouse_notinterested",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_repairtoollanternbcracked",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_repairtoollanterndcracked",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_repairtoollanternfcracked",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction.repair.greatwork.sabotaged"
+                },
+                {
+                    "id": "A_follower_settrap_independent",
+                    "chance": 100
+                },
+                {
+                    "id": "A_follower_settrap_vault",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_murderhighwinter",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_craftworkhighforge",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_seducehighgrail",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_burglehighknock",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_charmhighheart",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_auguryhighlantern",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_hoodwinkhighmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_abducthighedge",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_murdermidwinter",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_craftworkmidforge",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_seducemidgrail",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_burglemidknock",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_charmmidheart",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_augurymidlantern",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_hoodwinkmidmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_abductmidedge",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_murderlowwinter",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_craftworklowforge",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_seducelowgrail",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_burglelowknock",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_charmlowheart",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_augurylowlantern",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_hoodwinklowmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "followeraction_abductlowedge",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterattackhighedge",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterattackmidedge",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterattacklowedge",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterattackhighwinter",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterattackmidwinter",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterattacklowwinter",
+                    "chance": 100
+                },
+                {
+                    "id": "hunterattacknoedge",
+                    "chance": 100
+                },
+                {
+                    "id": "annoyanceseducehighgrail",
+                    "chance": 100
+                },
+                {
+                    "id": "annoyanceattackhighedge",
+                    "chance": 100
+                },
+                {
+                    "id": "annoyanceseducemidgrail",
+                    "chance": 100
+                },
+                {
+                    "id": "annoyanceattackmidedge",
+                    "chance": 100
+                },
+                {
+                    "id": "annoyancederangemidmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "annoyanceseducelowgrail",
+                    "chance": 100
+                },
+                {
+                    "id": "annoyanceattacklowedge",
+                    "chance": 100
+                },
+                {
+                    "id": "annoyancederangelowmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "annoyanceattacknoedge",
+                    "chance": 100
+                },
+                {
+                    "id": "evidencedestroymidmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "evidencedestroylowmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "evidencedestroynomoth",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Conversas significativas numa sala de reuniões limpa. De que preciso meu seguidor? [Adicione o seu culto, para mandá-los culto; mandá-los após inimigos; ou criar outra questão.]",
+            "description": "Nada, então.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "talktohireling_rehire",
+            "actionid": "talk",
+            "label": "Oferecer isto contratando outro pagamento.",
+            "requirements": {
+                "hireling": 1,
+                "funds": 1
+            },
+            "startdescription": "Poderia pagar o prolongamento do período de serviço desta bancada de aluguel.",
+            "description": "'Tudo bem. O mesmo termo que antes.'",
+            "aspects": {
+                "hiring": 1
+            },
+            "effects": {
+                "funds": -1
+            },
+            "craftable": true,
+            "warmup": 10
+        },
+        {
+            "id": "talktodevotee_refire",
+            "actionid": "talk",
+            "label": "Dispare este Devoto com fé novamente.",
+            "requirements": {
+                "devotee": 1,
+                "fervour": 1
+            },
+            "startdescription": "Se a fé de meu devoto está vacilando, posso usar Fervour para atear seu entusiasmo novamente.",
+            "description": "Esqueceis os sonhos com tanta rapidez?",
+            "aspects": {
+                "refiring": 1
+            },
+            "craftable": true,
+            "warmup": 10
+        },
+        {
+            "id": "A_talktofollower_cantgivetool",
+            "label": "Não deseja ou não permitido?",
+            "actionid": "talk",
+            "requirements": {
+                "follower": 1,
+                "tool": 1,
+                "summoned": -1,
+                "follower_honoured": 1
+            },
+            "startdescription": "Já dei um presente a este seguidor. [Um seguidor não pode receber um segundo presente.]"
+        },
+        {
+            "id": "A_talktofollower_givetool_router",
+            "label": "Dê uma ferramenta para um Seguidor",
+            "actionid": "talk",
+            "requirements": {
+                "follower": 1,
+                "tool": 1,
+                "summoned": -1,
+                "follower_honoured": -1,
+                "greatwork": -1,
+                "greatwork.sabotaged": -1
+            },
+            "startdescription": "O poder passará das minhas mãos para as delas. [Isto aumentará o Aspectos relevantes, mas você nunca poderá recuperar a ferramenta, nem presenteá-los com uma segunda ferramenta. Um Presente reduzirá o Ressuscitamento.]",
+            "description": ".",
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_edgeb"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_edged"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_edgef"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_forgeb"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_forged"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_forgef"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_grailmoth"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_grailb"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_graild"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_grailf"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_heartb"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_heartd"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_heartf"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_knockb"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_knockd"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_knockf"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_lanternb"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_lanternd"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_lanternf"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_mothb"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_mothd"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_mothf"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_secrethistoriesb"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_secrethistoriesd"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_winterb"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_winterd"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_winterf"
+                },
+                {
+                    "chance": 100,
+                    "id": "L_give_tool_other"
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_edgeb",
+            "label": "Um presente menor de aresta",
+            "actionid": "talk",
+            "description": "Ao redor do pescoço, em um comprimento de tendão-do-tigre seco.",
+            "requirements": {
+                "tooledgeb": 1
+            },
+            "effects": {
+                "tooledgeb": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "edge",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 1,
+                    "additive": false
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_edged",
+            "label": "Um presente significativo da Borda",
+            "actionid": "talk",
+            "description": "Perto da mão, mas envolto com o toque de sangue que pode excitá-lo.",
+            "requirements": {
+                "tooledged": 1
+            },
+            "effects": {
+                "tooledged": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "edge",
+                    "level": 2,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 2,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_edgef",
+            "label": "Um grande presente da Borda",
+            "actionid": "talk",
+            "description": "Enterrado em algum lugar que não pode incitar a rebelião.",
+            "requirements": {
+                "tooledgef": 1
+            },
+            "effects": {
+                "tooledgef": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "edge",
+                    "level": 3,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 3,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_forgeb",
+            "label": "Um menor presente da Forja",
+            "actionid": "talk",
+            "description": "A ser mantido: ao redor do pescoço, em uma cadeia de links de aço fino.",
+            "requirements": {
+                "toolforgeb": 1
+            },
+            "effects": {
+                "toolforgeb": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "forge",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 1,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_forged",
+            "label": "Um presente significativo da Forja",
+            "actionid": "talk",
+            "description": "Para ser mantido: em um giro de ferro, fixo rápido na carne.",
+            "requirements": {
+                "toolforged": 1
+            },
+            "effects": {
+                "toolforged": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "forge",
+                    "level": 2,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 2,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_forgef",
+            "label": "Um grande presente da Forja",
+            "actionid": "talk",
+            "description": "A ser mantida: na lâmpada de um santuário privado.",
+            "requirements": {
+                "toolforgef": 1
+            },
+            "effects": {
+                "toolforgef": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "forge",
+                    "level": 3,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 3,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_grailmoth",
+            "label": "Um menor presente de Galho e Mariposa",
+            "actionid": "talk",
+            "description": "Para ser mantido: abaixo do pescoço, acima da cintura, no centro oco do baú.",
+            "requirements": {
+                "toolgrailmoth": 1
+            },
+            "effects": {
+                "toolgrailmoth": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "grail",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "moth",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 1,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_grailb",
+            "label": "Um menor presente de Grail",
+            "actionid": "talk",
+            "description": "Para ser mantido: nunca ser usado à luz do dia, e à lua, apenas com o máximo cuidado.",
+            "requirements": {
+                "toolgrailb": 1
+            },
+            "effects": {
+                "toolgrailb": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "grail",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 1,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_graild",
+            "label": "Um presente significativo de Grail",
+            "actionid": "talk",
+            "description": "Para ser mantido: nesse anel meu servo vai tecer seu próprio cabelo, para que seu próximo proprietário queime.",
+            "requirements": {
+                "toolgraild": 1
+            },
+            "effects": {
+                "toolgraild": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "grail",
+                    "level": 2,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 2,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_grailf",
+            "label": "Um grande dom de Grail",
+            "actionid": "talk",
+            "description": "A ser mantida: na clula, ao lado do tipo de vinho mais raro.",
+            "requirements": {
+                "toolgrailf": 1
+            },
+            "effects": {
+                "toolgrailf": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "grail",
+                    "level": 3,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 3,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_heartb",
+            "label": "Um menor presente do Coração",
+            "actionid": "talk",
+            "description": "A ser transportado: num estilingue de bandida, como uma criança bem comportada.",
+            "requirements": {
+                "toolheartb": 1
+            },
+            "effects": {
+                "toolheartb": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "heart",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 1,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_heartd",
+            "label": "Um presente significativo do Coração",
+            "actionid": "talk",
+            "description": "Para ser mantido: cochilado apertado, então não tremerá sem tempo.",
+            "requirements": {
+                "toolheartd": 1
+            },
+            "effects": {
+                "toolheartd": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "heart",
+                    "level": 2,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 2,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_heartf",
+            "label": "Um grande presente do Coração",
+            "actionid": "talk",
+            "description": "Para ser mantido: acima da manobra, ou antes do limiar.",
+            "requirements": {
+                "toolheartf": 1
+            },
+            "effects": {
+                "toolheartf": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "heart",
+                    "level": 3,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 3,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_knockb",
+            "label": "Um pequeno presente de Batida",
+            "actionid": "talk",
+            "description": "A ser mantido: em torno do pescoço, em um comprimento de serpente seco.",
+            "requirements": {
+                "toolknockb": 1
+            },
+            "effects": {
+                "toolknockb": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "knock",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 1,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_knockd",
+            "label": "Um presente significativo de Batida",
+            "actionid": "talk",
+            "description": "A ser mantida: à porta que não deve ser aberta.",
+            "requirements": {
+                "toolknockd": 1
+            },
+            "effects": {
+                "toolknockd": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "knock",
+                    "level": 2,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 2,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_knockf",
+            "label": "Um grande presente de Batida",
+            "actionid": "talk",
+            "description": "Não pode ser bloqueado. Mantenha na mão ou debaixo da língua.",
+            "requirements": {
+                "toolknockf": 1
+            },
+            "effects": {
+                "toolknockf": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "knock",
+                    "level": 3,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 3,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_lanternb",
+            "label": "Um pequeno presente do Lanterna",
+            "actionid": "talk",
+            "description": "Para ser mantido: em torno do pescoço, em um torto de arame dourado.",
+            "requirements": {
+                "toollanternb": 1
+            },
+            "effects": {
+                "toollanternb": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "lantern",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 1,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_lanternd",
+            "label": "Um presente significativo do Lanterna",
+            "actionid": "talk",
+            "description": "Onde quer que ele seja mantido, ele ficará visível nas reflexões divididas dos alunos.",
+            "requirements": {
+                "toollanternd": 1
+            },
+            "effects": {
+                "toollanternd": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "lantern",
+                    "level": 2,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 2,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_lanternf",
+            "label": "Um ótimo presente do Lanterna",
+            "actionid": "talk",
+            "description": "Para ser mantido: num cômodo sem janelas, para o qual nenhuma luz é jamais admitida.",
+            "requirements": {
+                "toollanternf": 1
+            },
+            "effects": {
+                "toollanternf": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "lantern",
+                    "level": 3,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 3,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_mothb",
+            "label": "Um menor presente de Mariposa",
+            "actionid": "talk",
+            "description": "Para ser mantido: num cozimento de cabelo, numa bandida, numa caixa, num lugar só visitamos quando estamos prontos.",
+            "requirements": {
+                "toolmothb": 1
+            },
+            "effects": {
+                "toolmothb": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "moth",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 1,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_mothd",
+            "label": "Um presente significativo de Mariposa",
+            "actionid": "talk",
+            "description": "A ser mantida: sobre o rosto em branco de uma cabeça de mannequine, sempre enfrentando o muro.",
+            "requirements": {
+                "toolmothd": 1
+            },
+            "effects": {
+                "toolmothd": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "moth",
+                    "level": 2,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 2,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_mothf",
+            "label": "Um grande dom de Mariposa",
+            "actionid": "talk",
+            "description": "Para ser mantido: numa tigela de cobre de água, misturada com três gotas de sangue e três linhas de cabelo, frescas semanalmente; e uma agulha de ferro, pelo que podem sempre ser alinhados com o Norte.",
+            "requirements": {
+                "toolmothf": 1
+            },
+            "effects": {
+                "toolmothf": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "moth",
+                    "level": 3,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 3,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_secrethistoriesb",
+            "label": "Um pequeno presente em comemoração das Histórias Secretas",
+            "actionid": "talk",
+            "description": "Às vezes, um objeto pode ser mantido em mais de um lugar.",
+            "requirements": {
+                "toolsecrethistoriesb": 1
+            },
+            "effects": {
+                "toolsecrethistoriesb": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "secrethistories",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 1,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_secrethistoriesd",
+            "label": "Um presente significativo na comemoração das Histórias Secretas",
+            "actionid": "talk",
+            "description": "Para ser mantido: entre dois espelhos, debaixo de uma luz que não deve ser extinta.",
+            "requirements": {
+                "toolsecrethistoriesd": 1
+            },
+            "effects": {
+                "toolsecrethistoriesd": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "secrethistories",
+                    "level": 2,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 2,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_winterb",
+            "label": "Um pequeno presente do Inverno",
+            "actionid": "talk",
+            "description": "Mante-se em um lugar silencioso.",
+            "requirements": {
+                "toolwinterb": 1
+            },
+            "effects": {
+                "toolwinterb": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "winter",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 1,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_winterd",
+            "label": "Um presente significativo do Inverno",
+            "actionid": "talk",
+            "description": "Mante-se em um lugar vazio.",
+            "requirements": {
+                "toolwinterd": 1
+            },
+            "effects": {
+                "toolwinterd": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "winter",
+                    "level": 2,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 2,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_winterf",
+            "label": "Um grande presente do Inverno",
+            "actionid": "talk",
+            "description": "Mante-se num lugar vazio e silencioso.",
+            "requirements": {
+                "toolwinterf": 1
+            },
+            "effects": {
+                "toolwinterf": -1
+            },
+            "mutations": [
+                {
+                    "filter": "follower",
+                    "mutate": "winter",
+                    "level": 3,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "resentment",
+                    "level": -1,
+                    "additive": true
+                },
+                {
+                    "filter": "follower",
+                    "mutate": "follower_honoured",
+                    "level": 3,
+                    "additive": false
+                }
+            ]
+        },
+        {
+            "id": "L_give_tool_other",
+            "label": "Nem todos os presentes são adequados",
+            "actionid": "talk",
+            "description": "Isto é algo que não pode ser ignorado; ou algo que ninguém aceitaria."
+        },
+        {
+            "id": "A_talktofollower_locationcabaret_lustsensation",
+            "label": "Convide-os para uma noite no Clube Ecdisis",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "follower_lustsensation": 1,
+                "locationcabaret": 1
+            },
+            "startdescription": "@#uqrose├Rose grinha. 'Obrigado. Eu gosto muito do Clube. Meu irmão costumava me levar lá.'\n#uqsaliba├Saliba me examina, dedo do pé à cabeça. Ele enrola os dedos nas palmas das mãos, nos punhos e depois os suaviza. \"Bom\", concorda.\n#uqvictor➲ Vitória pisca. 'Sim, vamos. Minha irmã costumava gostar do Clube. Estou procurando uma chance de voltar.\n#uqviolet├Fios de violeta. O tolo se torna uma cachoeira encantada, que termina em tossas. Ela se recupera e coloca um dedo debaixo do meu queixo, para olhar directamente para os meus olhos. \"Oh, sim\", diz ela.\n#uqrenira├Renira não diz uma palavra. Ela se estende apenas de forma esplêndida e se levanta para o talo da sala. Mas ela me manda um longo olhar de volta pelos ombros enquanto vai.@",
+            "description": "Se eu estou pensando em começar uma daliança, então esse é o lugar. Se eu e meu companheiro compartilhamos as mesmas sensibilidades. [Para começar um caso com este personagem, mostre a eles que seus desejos mais profundos estão alinhados.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_locationcabaret_lustchange",
+            "label": "Convide-os para uma noite no Clube Ecdisis",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "follower_lustchange": 1,
+                "locationcabaret": 1
+            },
+            "startdescription": "@#uqporter├Porter picou os ombros e mastiga em um pedaço de raiz de litro. 'Certo,' ele diz.\n#uqysabet├Ysabet a inclina refletivamente. 'Posso fazer,' ela diz. Ela hesita em batida de um morcego. 'Isso seria lindo,' ela acrescenta.\n#uqclovette^\\\\Clovette aplaude as mãos. 'Eu pensei que você nunca iria pedir!'\n#uqdorothy├Dorothy acena decididamente, duas vezes, thrice. 'É hora,' ela diz suavemente.\n#uqsylvia├Sylvia boceja. Ela levanta a vantagem de fazer um trecho na campainha oca abaixo.\n#uqleo├Leo esconde a cabeça. Ele olha para mim e então para o chão. \"Ficaria muito satisfeito\", diz ele, formalmente, ao terreno.@",
+            "description": "A respiração do meu companheiro é curta enquanto olha a tela no palco; Não em particular quando os corpos dos artistas intérpretes ou executantes são desembocados, mas, sobretudo, quando se manifestam certas transformações. [Para começar um caso com este personagem, mostre a eles que seus desejos mais profundos estão alinhados.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_locationstreetsstrange_lustenlightenment",
+            "label": "Convide-os para uma caminhada em ruas estranhas",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "follower_lustenlightenment": 1,
+                "locationstreetsstrange": 1
+            },
+            "startdescription": "@#uqauclair├Auclair eleva seu rosto e orienta a boca em um sorriso claro e claro. Ela diz, 'Iluminado'.\n#uqcat├Cat levanta sua tecida, drena-a aos dreges, inclina a xícara para estudá-la criticamente. 'Por que não,' ela diz. 'Por que não mesmo.'\n#uqclifton├Clifton banhados e limpa a boca. 'Tudo sangrento direita,' ele diz aprovação.\n#uqenid├Enid olha para cima, diretamente para meus olhos, uma súbita brilho de libélula. 'Sim,' ela diz.\n#uqneville├Neville engole. 'Verdade? Obrigado. Quer dizer, sim, é claro!\n#uqsleect. Por um momento o Slee parece tão alarmado como se eu tivesse sugerido uma intervenção cirúrgica. E seguidamente acha, com toda a seriedade: \"Pergunto-me o que é que vai acontecer\", diz @",
+            "description": "A luz é prata; a brisa é legal; o silêncio da noite convida palavras como veludo sombrio convida o toque de um dedo. [Para começar um caso com este personagem, mostre a eles que seus desejos mais profundos estão alinhados.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_locationauctionhouse_lustpower",
+            "label": "Convide-os para uma noite dos Oriflamme's",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "follower_lustpower": 1,
+                "locationauctionhouse": 1
+            },
+            "startdescription": "@#uqtristan├Tristan acena enfaticamente, sem falar.\n#uqvalcianeane nods curtamente, mas seus olhos brilham como os carvões fazem quando uma porta da fornalha é aberta.\n#uqelridge├Elridge dobra sua faca fechada com um clique e foca sua atenção em mim. 'Sim, por favor,' ele diz.\n#uqlaidlaw feixes. 'Isso parece ser bonito!'@",
+            "description": "Alguns preferem passeios ao luar. Alguns preferem música suave. Mas há aqueles a quem é permitido brilhar opulência, alta empresa, e o clique suave das operações do poder. [Para começar um caso com este personagem, mostre a eles que seus desejos mais profundos estão alinhados.]",
+            "linked": [
+                {
+                    "id": "L_talk_roseopportunity",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_talktofollower_locationcabaret_notinterested",
+            "label": "Convide-os para uma noite no Clube Ecdisis",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "locationcabaret": 1
+            },
+            "startdescription": "'Eu... Não acho que isso seja para mim.'",
+            "description": "[Seu seguidor não tem nenhum interesse especial neste lugar.]"
+        },
+        {
+            "id": "A_talktofollower_locationauctionhouse_notinterested",
+            "label": "Convide-os para uma noite dos Oriflamme's",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "locationauctionhouse": 1
+            },
+            "startdescription": "'Eu... Não acho que isso seja para mim.'",
+            "description": "[Seu seguidor não tem nenhum interesse especial neste lugar.]"
+        },
+        {
+            "id": "A_talktofollower_locationstreetsstrange_notinterested",
+            "label": "Convide-os a dar uma caminhada num lugar estranho.",
+            "actionid": "talk",
+            "requirements": {
+                "romanticinterest": -1,
+                "locationstreetsstrange": 1
+            },
+            "startdescription": "'Eu... Não acho que isso seja para mim.'",
+            "description": "[Seu seguidor não tem nenhum interesse especial neste lugar.]"
+        },
+        {
+            "id": "followeraction_repairtoollanternbcracked",
+            "label": "Conserte uma Pedra Noica Rachada",
+            "actionid": "talk",
+            "requirements": {
+                "follower": 1,
+                "forge": 1,
+                "toollanternbcracked": 1
+            },
+            "startdescription": "Podemos começar a reparar esta situação, mas serão necessários fundos para comprar os materiais necessários.",
+            "description": ".",
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "followeraction_repairtoollanternbcracked_attempt"
+                }
+            ]
+        },
+        {
+            "id": "followeraction_repairtoollanternbcracked_attempt",
+            "label": "Reparando uma Pedra Noonpedra Rachada",
+            "actionid": "talk",
+            "slots": [
+                {
+                    "id": "Materials",
+                    "label": "Materiais",
+                    "description": "Combustíveis raros e pólvoras",
+                    "required": {
+                        "funds": 1
+                    }
+                }
+            ],
+            "startdescription": "Meu seguidor precisa de fundos para concluir sua tarefa.",
+            "description": "Não consegui fornecer os materiais que meu seguidor precisava. A pedra não foi resgatada.",
+            "warmup": 30,
+            "alt": [
+                {
+                    "id": "followeraction_repairtoollanternbcracked_succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_repairtoollanternbcracked_succeed",
+            "label": "Reparando uma Pedra Noonpedra Rachada",
+            "actionid": "talk",
+            "requirements": {
+                "funds": 1
+            },
+            "startdescription": "Meu seguidor está trabalhando na pedra.",
+            "description": "A pedra está reparada! Ela brilha de novo como antes uma vez.",
+            "effects": {
+                "funds": -1,
+                "toollanternbcracked": -1,
+                "toollanternb": 1
+            }
+        },
+        {
+            "id": "followeraction_repairtoollanterndcracked",
+            "label": "Repare um Espelho Selvagem Rachado",
+            "actionid": "talk",
+            "requirements": {
+                "follower": 1,
+                "forge": 1,
+                "toollanterndcracked": 1
+            },
+            "startdescription": "Nós podemos começar a consertar isso, mas será preciso pelo menos um Spintria de Bronze para comprar os materiais necessários.",
+            "description": ".",
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "followeraction_repairtoollanterndcracked_attempt"
+                }
+            ]
+        },
+        {
+            "id": "followeraction_repairtoollanterndcracked_attempt",
+            "label": "Reparando um Espelho Selvagem Rachado",
+            "actionid": "talk",
+            "slots": [
+                {
+                    "id": "Materials",
+                    "label": "Materiais",
+                    "description": "Metais raros e tinturas improváveis",
+                    "required": {
+                        "compensationvalue": 4
+                    }
+                }
+            ],
+            "startdescription": "Meu seguidor precisa de um Bronze Spintria, ou melhor, para concluir sua tarefa.",
+            "description": "Não consegui fornecer os materiais que meu seguidor precisava. O espelho não foi resgatado.",
+            "warmup": 30,
+            "alt": [
+                {
+                    "id": "followeraction_repairtoollanterndcracked_succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_repairtoollanterndcracked_succeed",
+            "label": "Reparando um Espelho Selvagem Rachado",
+            "actionid": "talk",
+            "requirements": {
+                "compensationvalue": 4
+            },
+            "startdescription": "Meu seguidor está trabalhando no espelho.",
+            "description": "O espelho foi reparado! Ele brilha de novo como antes.",
+            "effects": {
+                "compensationvalue": -1,
+                "toollanterndcracked": -1,
+                "toollanternd": 1
+            }
+        },
+        {
+            "id": "followeraction_repairtoollanternfcracked",
+            "label": "Repare o Vidro de um Vigia Rachado",
+            "actionid": "talk",
+            "requirements": {
+                "follower": 1,
+                "forge": 1,
+                "toollanternfcracked": 1
+            },
+            "startdescription": "Podemos começar a reparar isto, mas será preciso pelo menos um Spintria de Prata para comprar os materiais necessários.",
+            "description": ".",
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "followeraction_repairtoollanternfcracked_attempt"
+                }
+            ]
+        },
+        {
+            "id": "followeraction_repairtoollanternfcracked_attempt",
+            "label": "Reparando um Vidro do Vigia Rachado",
+            "actionid": "talk",
+            "slots": [
+                {
+                    "id": "Materials",
+                    "label": "Materiais",
+                    "description": "Músicas brilhantes e ligas exóticas",
+                    "required": {
+                        "compensationvalue": 8
+                    }
+                }
+            ],
+            "startdescription": "Meu seguidor precisa de um Spintria de Prata, ou melhor, para concluir sua tarefa.",
+            "description": "Não consegui fornecer os materiais que meu seguidor precisava. O espelho não foi resgatado.",
+            "warmup": 30,
+            "alt": [
+                {
+                    "id": "followeraction_repairtoollanternfcracked_succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_repairtoollanternfcracked_succeed",
+            "label": "Reparando um Vidro do Vigia Rachado",
+            "actionid": "talk",
+            "requirements": {
+                "compensationvalue": 8
+            },
+            "startdescription": "Meu seguidor está trabalhando no espelho.",
+            "description": "O espelho foi reparado! Ele brilha de novo como antes.",
+            "effects": {
+                "compensationvalue": -1,
+                "toollanternfcracked": -1,
+                "toollanternf": 1
+            }
+        },
+        {
+            "id": "followeraction.repair.greatwork.sabotaged",
+            "label": "Conserte um Elemento Sabotagado do Grande Trabalho",
+            "actionid": "talk",
+            "requirements": {
+                "follower": 1,
+                "forge": 1,
+                "greatwork.sabotaged": 1
+            },
+            "startdescription": "Nós podemos começar a consertar isso, mas será preciso um Spintria de Prata para comprar os materiais necessários.",
+            "description": ".",
+            "linked": [
+                {
+                    "chance": 100,
+                    "id": "followeraction.repair.greatwork.sabotaged.attempt"
+                }
+            ]
+        },
+        {
+            "id": "followeraction.repair.greatwork.sabotaged.attempt",
+            "label": "Reparando um Elemento Sabotagado do Grande Trabalho",
+            "actionid": "talk",
+            "slots": [
+                {
+                    "id": "Materials",
+                    "label": "Materiais",
+                    "description": "Metais e fusões",
+                    "required": {
+                        "compensationvalue": 8
+                    }
+                }
+            ],
+            "startdescription": "Meu seguidor precisa de um Spintria de Prata para concluir sua tarefa.",
+            "description": "Não consegui fornecer os materiais que meu seguidor precisava. O trabalho continua em perigo.",
+            "warmup": 30,
+            "alt": [
+                {
+                    "id": "followeraction.repair.greatwork.sabotaged.succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction.repair.greatwork.sabotaged.succeed",
+            "label": "Reparando um Elemento Sabotagado do Grande Trabalho",
+            "actionid": "talk",
+            "requirements": {
+                "compensationvalue": 8
+            },
+            "startdescription": "Meu seguidor está no trabalho.",
+            "description": "O grande trabalho vai continuar!",
+            "aspects": {
+                "sabotage.repair": 1
+            }
+        },
+        {
+            "id": "A_follower_settrap_independent",
+            "actionid": "talk",
+            "label": "Crie uma Armadilha para atrasar ou derrotar um Renascimento",
+            "startdescription": "Os rivais não vangloriam as ruas como os Caçadores. Eles só nos encontrarão em terra neutra. Para derrotar um, temos de preparar uma armadilha em que eles podem tropeçar. [Borda, Forja, Mariposa ou Inverno são úteis para criar Armadilhas. Uma vez criado, um Laço pode ser usado quando um Independente faz uma tentativa de qualquer Cofre.]",
+            "requirements": {
+                "independent": 1,
+                "follower": 1,
+                "summoned": -1
+            },
+            "comments": "Follower requirement isn't redundant... cos we also link here from conversations with Independents.",
+            "alt": [
+                {
+                    "id": "expel_independent",
+                    "chance": 100,
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "independent": 1
+                        }
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "L_set_trap_router",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "A_follower_settrap_vault",
+            "actionid": "talk",
+            "label": "Crie uma Armadilha para atrasar ou derrotar um Renascimento",
+            "startdescription": "Os rivais são cautelosos: eles não saem das ruas como os caçadores. Para derrotar um, precisamos preparar uma armadilha e esperar pela oportunidade. [Borda, Forja, Mariposa ou Inverno são úteis para criar Armadilhas. Uma vez criado, um Laço pode ser usado quando um Independente faz uma tentativa de qualquer Cofre.]",
+            "requirements": {
+                "vault": 1
+            },
+            "linked": [
+                {
+                    "id": "L_set_trap_router",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_set_trap_router",
+            "actionid": "talk",
+            "effects": {
+                "snare": 1
+            },
+            "linked": [
+                {
+                    "id": "L_settrap_highedge",
+                    "chance": 100
+                },
+                {
+                    "id": "L_settrap_highwinter",
+                    "chance": 100
+                },
+                {
+                    "id": "L_settrap_highforge",
+                    "chance": 100
+                },
+                {
+                    "id": "L_settrap_highmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "L_settrap_midedge",
+                    "chance": 100
+                },
+                {
+                    "id": "L_settrap_midwinter",
+                    "chance": 100
+                },
+                {
+                    "id": "L_settrap_midforge",
+                    "chance": 100
+                },
+                {
+                    "id": "L_settrap_midmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "L_settrap_lowedge",
+                    "chance": 100
+                },
+                {
+                    "id": "L_settrap_lowwinter",
+                    "chance": 100
+                },
+                {
+                    "id": "L_settrap_lowforge",
+                    "chance": 100
+                },
+                {
+                    "id": "L_settrap_lowmoth",
+                    "chance": 100
+                },
+                {
+                    "id": "L_createsnare_rubbish",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_settrap_highedge",
+            "actionid": "talk",
+            "requirements": {
+                "edge": 10
+            },
+            "linked": [
+                {
+                    "id": "L_createsnare_great",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_settrap_highwinter",
+            "actionid": "talk",
+            "requirements": {
+                "winter": 10
+            },
+            "linked": [
+                {
+                    "id": "L_createsnare_great",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_settrap_highforge",
+            "actionid": "talk",
+            "requirements": {
+                "forge": 10
+            },
+            "linked": [
+                {
+                    "id": "L_createsnare_great",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_settrap_highmoth",
+            "actionid": "talk",
+            "requirements": {
+                "moth": 10
+            },
+            "linked": [
+                {
+                    "id": "L_createsnare_great",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_settrap_midedge",
+            "actionid": "talk",
+            "requirements": {
+                "edge": 7
+            },
+            "linked": [
+                {
+                    "id": "L_createsnare_good",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_settrap_midwinter",
+            "actionid": "talk",
+            "requirements": {
+                "winter": 7
+            },
+            "linked": [
+                {
+                    "id": "L_createsnare_good",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_settrap_midforge",
+            "actionid": "talk",
+            "requirements": {
+                "forge": 7
+            },
+            "linked": [
+                {
+                    "id": "L_createsnare_good",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_settrap_midmoth",
+            "actionid": "talk",
+            "requirements": {
+                "moth": 7
+            },
+            "linked": [
+                {
+                    "id": "L_createsnare_good",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_settrap_lowedge",
+            "actionid": "talk",
+            "requirements": {
+                "edge": 3
+            },
+            "linked": [
+                {
+                    "id": "L_createsnare_poor",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_settrap_lowwinter",
+            "actionid": "talk",
+            "requirements": {
+                "winter": 3
+            },
+            "linked": [
+                {
+                    "id": "L_createsnare_poor",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_settrap_lowforge",
+            "actionid": "talk",
+            "requirements": {
+                "forge": 3
+            },
+            "linked": [
+                {
+                    "id": "L_createsnare_poor",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_settrap_lowmoth",
+            "actionid": "talk",
+            "requirements": {
+                "moth": 3
+            },
+            "linked": [
+                {
+                    "id": "L_createsnare_poor",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "L_createsnare_great",
+            "actionid": "talk",
+            "label": "A Perilous Snare",
+            "description": "O meu seguidor estabeleceu uma ambuscade perigosamente astutamente astuta, uma ambuscada que irá quase certamente ser bem sucedida.",
+            "mutations": [
+                {
+                    "filter": "snare",
+                    "mutate": "snarelevel",
+                    "level": 3,
+                    "additive": true
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "L_createsnare_good",
+            "actionid": "talk",
+            "label": "A Cunning Snare",
+            "description": "Meu seguidor estabeleceu uma ambuscade esperta - uma que provavelmente será bem sucedida.",
+            "mutations": [
+                {
+                    "filter": "snare",
+                    "mutate": "snarelevel",
+                    "level": 2,
+                    "additive": true
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "L_createsnare_poor",
+            "actionid": "talk",
+            "label": "Um Armadilha Adequada",
+            "description": "O meu seguidor preparou um estratagema que - com muita sorte - pode derrotar os planos de um rival.",
+            "mutations": [
+                {
+                    "filter": "snare",
+                    "mutate": "snarelevel",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "L_createsnare_rubbish",
+            "actionid": "talk",
+            "label": "Uma tentativa desesperada",
+            "description": "O plano do meu seguidor é, na melhor das hipóteses, excêntrico e incompetente na pior das hipóteses, mas talvez um inimigo se atrapalhe nele.",
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_abducthighedge",
+            "label": "Negócio culto: Abduque um estranho",
+            "actionid": "talk",
+            "startdescription": "Um Assassino pode tirar uma vítima das ruas com facilidade.",
+            "description": ".",
+            "requirements": {
+                "society": 1,
+                "edge": 10,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_abductsuccess",
+                    "chance": 90
+                },
+                {
+                    "id": "followeraction_abductfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_abductmidedge",
+            "label": "Negócio culto: Abduque um estranho",
+            "actionid": "talk",
+            "startdescription": "Um Discípulo habilidoso pode provavelmente raptar uma vítima desprevenida.",
+            "requirements": {
+                "society": 1,
+                "edge": 5,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_abductsuccess",
+                    "chance": 70
+                },
+                {
+                    "id": "followeraction_abductfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_abductlowedge",
+            "label": "Negócio culto: Abduque um estranho",
+            "actionid": "talk",
+            "startdescription": "Meu crente lutará para raptar uma vítima, mas eles podem ter sorte.",
+            "requirements": {
+                "society": 1,
+                "edge": 1,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_abductsuccess",
+                    "chance": 30
+                },
+                {
+                    "id": "followeraction_abductfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_abductsuccess",
+            "label": "Tentando um rapto",
+            "actionid": "talk",
+            "startdescription": "Aguardo a palavra....",
+            "description": "O meu lacaio voltou, com um prisioneiro cuidadosamente embalado.",
+            "effects": {
+                "notoriety": 1,
+                "funds": 1
+            },
+            "deckeffects": {
+                "randomvictim": 1
+            },
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_abductfailure",
+            "label": "Tentando um rapto",
+            "actionid": "talk",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou, de mãos vazias.",
+            "effects": {
+                "notoriety": 1
+            },
+            "alt": [
+                {
+                    "id": "followeraction_abductfailure_losefollower",
+                    "chance": 30
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_abductfailure_losefollower",
+            "label": "Tentando um rapto",
+            "actionid": "talk",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou, de mãos vazias e dolorosamente ferido. Sua vítima mostrou alheio. [Cure um seguidor caído com a conversa.]",
+            "effects": {
+                "notoriety": 1
+            },
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "follower_wound",
+                    "level": 1,
+                    "additive": false
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "follower",
+                    "level": -1,
+                    "additive": false
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_murderhighwinter",
+            "label": "Negócio culto: Assassine um estranho",
+            "actionid": "talk",
+            "startdescription": "Esta volta quase sempre com uma morte no bolso.",
+            "description": ".",
+            "requirements": {
+                "society": 1,
+                "winter": 10,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_murdersuccess",
+                    "chance": 90
+                },
+                {
+                    "id": "followeraction_murderfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_murdermidwinter",
+            "label": "Negócio culto: Assassine um estranho",
+            "actionid": "talk",
+            "startdescription": "Um Discípulo habilidoso pode trazer de volta um cadáver fresco.",
+            "requirements": {
+                "society": 1,
+                "winter": 5,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_murdersuccess",
+                    "chance": 70
+                },
+                {
+                    "id": "followeraction_murderfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_murderlowwinter",
+            "label": "Negócio culto: Assassine um estranho",
+            "actionid": "talk",
+            "startdescription": "Minha crença pode falhar muito facilmente.",
+            "requirements": {
+                "society": 1,
+                "winter": 1,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_murdersuccess",
+                    "chance": 30
+                },
+                {
+                    "id": "followeraction_murderfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_murdersuccess",
+            "label": "Tentando um Assassino...",
+            "actionid": "talk",
+            "startdescription": "Aguardo a palavra....",
+            "description": "O meu lacaio voltou, com um novo cadáver e os seus antigos pertencem.",
+            "effects": {
+                "notoriety": 1,
+                "corpse": 1
+            },
+            "deckeffects": {
+                "robberyrewards": 2
+            },
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_murderfailure",
+            "label": "Tentando um Assassino...",
+            "actionid": "talk",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou, de mãos vazias.",
+            "effects": {
+                "notoriety": 1
+            },
+            "alt": [
+                {
+                    "id": "followeraction_murderfailure_losefollower",
+                    "chance": 30
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_murderfailure_losefollower",
+            "label": "Tentando um Assassino...",
+            "actionid": "talk",
+            "startdescription": "Aguardo a palavra....",
+            "description": "Meu lacaio voltou para relatar um fracasso. Eles mal podem aguentar. A vítima pôs uma briga. [Cure um seguidor caído com a conversa.]",
+            "effects": {
+                "notoriety": 1
+            },
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "follower_wound",
+                    "level": 1,
+                    "additive": false
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "follower",
+                    "level": -1,
+                    "additive": false
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_craftworkhighforge",
+            "label": "Negócio Culto: Fabricação",
+            "actionid": "talk",
+            "startdescription": "Meu Reshaper pode ganhar dinheiro em laboratórios ilegais e em manuais sombrios. Ocasionalmente, algo pode correr mal.",
+            "description": ".",
+            "requirements": {
+                "society": 1,
+                "forge": 10,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_craftworksuccess",
+                    "chance": 90
+                },
+                {
+                    "id": "followeraction_craftworkfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_craftworkmidforge",
+            "label": "Negócio Culto: Fabricação",
+            "actionid": "talk",
+            "startdescription": "O meu Discípulo pode provavelmente ganhar fundos em laboratórios ilegais e em fábricas sombrias - mas há um risco de acidentes.",
+            "requirements": {
+                "society": 1,
+                "forge": 5,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_craftworksuccess",
+                    "chance": 70
+                },
+                {
+                    "id": "followeraction_craftworkfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_craftworklowforge",
+            "label": "Negócio Culto: Fabricação",
+            "actionid": "talk",
+            "startdescription": "Minha crença pode ser capaz de ganhar dinheiro em laboratórios e fábricas sombrias ilegais... se tiverem sorte.",
+            "requirements": {
+                "society": 1,
+                "forge": 1,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_craftworksuccess",
+                    "chance": 30
+                },
+                {
+                    "id": "followeraction_craftworkfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_craftworksuccess",
+            "label": "Trabalhando em Contrato...",
+            "actionid": "talk",
+            "startdescription": "Existem dispositivos nesta cidade que desafiam a lei da terra. Há alguns que desafiam as leis da natureza. Alguns são muito perigosos.",
+            "description": "Meu seguidor retornou com as recompensas do trabalho deles.",
+            "deckeffects": {
+                "robberyrewards": 2
+            },
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_craftworkfailure",
+            "label": "Trabalhando em Contrato...",
+            "actionid": "talk",
+            "startdescription": "Existem dispositivos nesta cidade que desafiam a lei da terra. Há alguns que desafiam as leis da natureza. Alguns são muito perigosos.",
+            "description": "Meu seguidor voltou de mãos vazias. As tarefas de hoje estavam além delas.",
+            "effects": {},
+            "alt": [
+                {
+                    "id": "followeraction_craftworkfailure_losefollower",
+                    "chance": 30
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_craftworkfailure_losefollower",
+            "label": "Trabalhando em Contrato...",
+            "actionid": "talk",
+            "startdescription": "Existem dispositivos nesta cidade que desafiam a lei da terra. Há alguns que desafiam as leis da natureza. Alguns são muito perigosos.",
+            "description": "Houve um acidente. [Curar um seguidor caído com o Talk.]",
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "follower_wound",
+                    "level": 1,
+                    "additive": false
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "follower",
+                    "level": -1,
+                    "additive": false
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_seducehighgrail",
+            "label": "Negócio culto: eduque um estranho",
+            "actionid": "talk",
+            "startdescription": "Ninguém recusa um cipriota. Quase ninguém recusa.",
+            "description": ".",
+            "requirements": {
+                "society": 1,
+                "grail": 10,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_seducesuccess",
+                    "chance": 90
+                },
+                {
+                    "id": "followeraction_seducefailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_seducemidgrail",
+            "label": "Negócio culto: eduque um estranho",
+            "actionid": "talk",
+            "startdescription": "Um Discípulo suficientemente persuasivo pode provavelmente atrair um companheiro suscetível de volta para nós.",
+            "requirements": {
+                "society": 1,
+                "grail": 5,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_seducesuccess",
+                    "chance": 70
+                },
+                {
+                    "id": "followeraction_seducefailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_seducelowgrail",
+            "label": "Negócio culto: eduque um estranho",
+            "actionid": "talk",
+            "startdescription": "Talvez meu crente consiga atrair uma vítima de volta para nós.",
+            "requirements": {
+                "society": 1,
+                "grail": 1,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_seducesuccess",
+                    "chance": 30
+                },
+                {
+                    "id": "followeraction_seducefailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_seducesuccess",
+            "label": "Tentando educar",
+            "actionid": "talk",
+            "startdescription": "Ao fim da noite, o meu seguidor sussurra palavras que às vezes poderiam significar. Mesmo que sua vítima saiba que as palavras são mentiras, pode não se importar.",
+            "description": "O meu lacaio voltou, assistido por um prisioneiro que entregou dócil com alegria.",
+            "effects": {
+                "notoriety": 1,
+                "funds": 1
+            },
+            "deckeffects": {
+                "randomvictim": 1
+            },
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_seducefailure",
+            "label": "Tentando educar",
+            "actionid": "talk",
+            "startdescription": "Ao fim da noite, o meu seguidor sussurra palavras que às vezes poderiam significar. Mesmo que sua vítima saiba que as palavras são mentiras, pode não se importar.",
+            "description": "Meu lacaio voltou, de mãos vazias.",
+            "effects": {
+                "notoriety": 1
+            },
+            "alt": [
+                {
+                    "id": "followeraction_seducefailure_losefollower",
+                    "chance": 30
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_seducefailure_losefollower",
+            "label": "Tentando educar",
+            "actionid": "talk",
+            "startdescription": "Ao fim da noite, o meu seguidor sussurra palavras que às vezes poderiam significar. Mesmo que sua vítima saiba que as palavras são mentiras, pode não se importar.",
+            "description": "Meu lacaio retornou, meio consciente, sangrando mal. Parece que um vestido rival se exaltou de seus esforços. [Curar um seguidor caído com o Talk.]",
+            "effects": {
+                "notoriety": 1
+            },
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "follower_wound",
+                    "level": 1,
+                    "additive": false
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "follower",
+                    "level": -1,
+                    "additive": false
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_burglehighknock",
+            "label": "Negócio culto: burglário",
+            "actionid": "talk",
+            "startdescription": "Minha chave deveria ser capaz de derrotar qualquer fechamento nesta cidade.",
+            "description": ".",
+            "requirements": {
+                "society": 1,
+                "knock": 10,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_burglesuccess",
+                    "chance": 90
+                },
+                {
+                    "id": "followeraction_burglefailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_burglemidknock",
+            "label": "Negócio culto: burglário",
+            "actionid": "talk",
+            "startdescription": "Meu Discípulo provavelmente pode usar seus talentos para colher tesouros dos desavisados.",
+            "requirements": {
+                "society": 1,
+                "knock": 5,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_burglesuccess",
+                    "chance": 70
+                },
+                {
+                    "id": "followeraction_burglefailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_burglelowknock",
+            "label": "Negócio culto: burglário",
+            "actionid": "talk",
+            "startdescription": "Talvez meu crente seja capaz de colher tesouros dos desavisados... se tiverem sorte.",
+            "requirements": {
+                "society": 1,
+                "knock": 1,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_burglesuccess",
+                    "chance": 30
+                },
+                {
+                    "id": "followeraction_burglefailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_burglesuccess",
+            "label": "Breaking, Entering, Retornando...",
+            "actionid": "talk",
+            "startdescription": "Nas celas e nos atóticos, nos compartimentos secretos e nos fechamentos fechados, os ricos e não os ricos escondem os seus tesouros.",
+            "description": "Meu seguidor voltou com o pão.",
+            "effects": {
+                "notoriety": 1,
+                "funds": 1
+            },
+            "deckeffects": {
+                "robberyrewards": 2
+            },
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_burglefailure",
+            "label": "Breaking, Entering, Retornando...",
+            "actionid": "talk",
+            "startdescription": "Nas celas e nos atóticos, nos compartimentos secretos e nos fechamentos fechados, os ricos e não os ricos escondem os seus tesouros.",
+            "description": "Meu seguidor voltou de mãos vazias. As tarefas de hoje estavam além delas.",
+            "effects": {
+                "notoriety": 1
+            },
+            "alt": [
+                {
+                    "id": "followeraction_burglefailure_losefollower",
+                    "chance": 30
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_burglefailure_losefollower",
+            "label": "Breaking, Entering, Retornando...",
+            "actionid": "talk",
+            "startdescription": "Nas celas e nos atóticos, nos compartimentos secretos e nos fechamentos fechados, os ricos e não os ricos escondem os seus tesouros.",
+            "description": "Houve um acidente. [Curar um seguidor caído com o Talk.]",
+            "effects": {
+                "notoriety": 1
+            },
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "follower_wound",
+                    "level": 1,
+                    "additive": false
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "follower",
+                    "level": -1,
+                    "additive": false
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_charmhighheart",
+            "label": "Negócio de Culto: Encanto",
+            "actionid": "talk",
+            "startdescription": "Nem todos simpatizam com os nossos objectivos, mas o meu Tarantellist é popular em toda a parte. Se tivermos problemas com a nossa reputação, eles podem quase certamente ajudá-los.",
+            "description": ".",
+            "requirements": {
+                "society": 1,
+                "heart": 10,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_charmsuccess",
+                    "chance": 90
+                },
+                {
+                    "id": "followeraction_charmfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_charmmidheart",
+            "label": "Negócio de Culto: Encanto",
+            "actionid": "talk",
+            "startdescription": "Nem todos simpatizam com os nossos objectivos, mas se tivermos problemas com a nossa reputação, o nosso Discípulo poderá provavelmente ajudá-los a superá-los.",
+            "requirements": {
+                "society": 1,
+                "heart": 5,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_charmsuccess",
+                    "chance": 70
+                },
+                {
+                    "id": "followeraction_charmfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_charmlowheart",
+            "label": "Negócio de Culto: Encanto",
+            "actionid": "talk",
+            "startdescription": "Nem todos simpatizam com os nossos objectivos, mas se tivermos problemas com a nossa reputação, o nosso Crente poderá talvez conseguir melhorá-los. ",
+            "requirements": {
+                "society": 1,
+                "heart": 1,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_charmsuccess",
+                    "chance": 30
+                },
+                {
+                    "id": "followeraction_charmfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_charmsuccess",
+            "label": "Falas mais antigas, Conversas Affable",
+            "actionid": "talk",
+            "slots": [
+                {
+                    "id": "Reputation",
+                    "label": "Reputação",
+                    "required": {
+                        "reputation": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "startdescription": "Os padrões da sociedade do dia não podem aplicar-se a nós, mas talvez não salientemos esse aspecto. Talvez confiemos no charme e no bom humor. Indiquei banalidades elegantes sobre os altos princípios de nossa organização.",
+            "description": "Otimizar é o tempero que economiza.",
+            "effects": {
+                "reputation": -1
+            },
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_charmfailure",
+            "label": "Falas mais antigas, Conversas Affable",
+            "actionid": "talk",
+            "slots": [
+                {
+                    "id": "Reputation",
+                    "label": "Reputação",
+                    "required": {
+                        "reputation": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "startdescription": "Os padrões da sociedade do dia não podem aplicar-se a nós, mas talvez não salientemos esse aspecto. Talvez confiemos no charme e no bom humor. Indiquei banalidades elegantes sobre os altos princípios de nossa organização.",
+            "description": "Ninguém nos compreende, ou compreendeu-nos demasiado bem.",
+            "effects": {
+                "rumour": 1
+            },
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_auguryhighlantern",
+            "label": "Negócio de Culto: Augury",
+            "actionid": "talk",
+            "startdescription": "Meu Fauno pode determinar horários e lugares onde o poder estará disponível para nossos usos. Há um pequeno risco.",
+            "description": ".",
+            "requirements": {
+                "society": 1,
+                "lantern": 10,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_augurysuccess",
+                    "chance": 90
+                },
+                {
+                    "id": "followeraction_auguryfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_augurymidlantern",
+            "label": "Negócio de Culto: Augury",
+            "actionid": "talk",
+            "startdescription": "Meu Discípulo pode provavelmente determinar horários e lugares onde a energia estará disponível para nosso uso: mas em questões de Mansus, sempre há perigo.",
+            "requirements": {
+                "society": 1,
+                "lantern": 5,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_augurysuccess",
+                    "chance": 70
+                },
+                {
+                    "id": "followeraction_auguryfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_augurylowlantern",
+            "label": "Negócio de Culto: Augury",
+            "actionid": "talk",
+            "startdescription": "O meu Crente pode ser capaz de determinar horários e lugares onde o poder estará disponível para nosso uso: mas em questões de Mansus, sempre há perigo.",
+            "requirements": {
+                "society": 1,
+                "lantern": 1,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_augurysuccess",
+                    "chance": 30
+                },
+                {
+                    "id": "followeraction_auguryfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_augurysuccess",
+            "label": "Sob a aparência mundial",
+            "actionid": "talk",
+            "startdescription": "Horas de bolsa de estudos e meditação...",
+            "description": "Meu seguidor encontrou mais um jeito de alinhar o nosso trabalho com o maior trabalho das Horas.",
+            "effects": {
+                "erudition": 1
+            },
+            "deckeffects": {
+                "randominfluencelow": 1
+            },
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_auguryfailure",
+            "label": "Sob a aparência mundial",
+            "actionid": "talk",
+            "startdescription": "Horas de bolsa de estudos e meditação...",
+            "description": "Meu seguidor cometeu um erro perigoso. Sua mente ainda está intacta, mas a luz do Mansus tocou o mundo aqui.",
+            "effects": {
+                "fascination": 1
+            },
+            "alt": [
+                {
+                    "id": "followeraction_auguryfailure_losefollower",
+                    "chance": 30
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_auguryfailure_losefollower",
+            "label": "Sob a aparência mundial",
+            "actionid": "talk",
+            "startdescription": "Horas de bolsa de estudos e meditação...",
+            "description": "Meu seguidor cometeu um erro perigoso. A luz do Mansus tocou o mundo aqui. As suas defesas psíquicas desmoronam-se no caos, e tivemos de as conter antes de poderem prejudicar ainda mais. Eles vão recuperar o sentido a tempo, mas estão gravemente machucados. [Curar um seguidor caído com conversas.]",
+            "effects": {
+                "fascination": 1
+            },
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "follower_wound",
+                    "level": 1,
+                    "additive": false
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "follower",
+                    "level": -1,
+                    "additive": false
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_hoodwinkhighmoth",
+            "label": "Negócio culto: Hoodwink",
+            "actionid": "talk",
+            "startdescription": "A astúcia de minha Skintwister é o suficiente para separar os tolos do tesouro tão facilmente quanto pegar peras em um pomar. (Embora até mesmo uma porcaria tenha um risco ocasional. Wasps, talvez.)",
+            "description": ".",
+            "requirements": {
+                "society": 1,
+                "moth": 10,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_hoodwinksuccess",
+                    "chance": 90
+                },
+                {
+                    "id": "followeraction_hoodwinkfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_hoodwinkmidmoth",
+            "label": "Negócio culto: Hoodwink",
+            "actionid": "talk",
+            "startdescription": "Meu Discípulo pode usar seus talentos para separar os tolos de seus tesouros.",
+            "requirements": {
+                "society": 1,
+                "moth": 5,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_hoodwinksuccess",
+                    "chance": 70
+                },
+                {
+                    "id": "followeraction_hoodwinkfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_hoodwinklowmoth",
+            "label": "Negócio culto: Hoodwink",
+            "actionid": "talk",
+            "startdescription": "Talvez meu Crente seja capaz de se separar de tolos de seus tesouros... se tiverem sorte.",
+            "requirements": {
+                "society": 1,
+                "moth": 1,
+                "follower": 1
+            },
+            "linked": [
+                {
+                    "id": "followeraction_hoodwinksuccess",
+                    "chance": 30
+                },
+                {
+                    "id": "followeraction_hoodwinkfailure",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "followeraction_hoodwinksuccess",
+            "label": "Engolir e Confusão",
+            "actionid": "talk",
+            "startdescription": "Meu seguidor está tentando um engano lucrativo.",
+            "description": "Uma decepção bem sucedida! Aqui estão as recompensas.",
+            "effects": {
+                "notoriety": 1,
+                "funds": 1
+            },
+            "deckeffects": {
+                "robberyrewards": 2
+            },
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_hoodwinkfailure",
+            "label": "Engolir e Confusão",
+            "actionid": "talk",
+            "startdescription": "Meu seguidor está tentando um engano lucrativo.",
+            "description": "Meu seguidor voltou de mãos vazias. O seu esquema foi desfeito.",
+            "effects": {
+                "notoriety": 1
+            },
+            "alt": [
+                {
+                    "id": "followeraction_hoodwinkfailure_losefollower",
+                    "chance": 30
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "followeraction_hoodwinkfailure_losefollower",
+            "label": "Engolir e Confusão",
+            "actionid": "talk",
+            "startdescription": "Meu seguidor está tentando um engano lucrativo.",
+            "description": "Estava a começar a preocupar-me com o facto de o meu seguidor ter organizado o seu próprio desaparecimento, mas parece que o seu engano foi detectado. A vítima ficou indignada, e meu seguidor mal escapou vivo. [Curar um seguidor caído com o Talk.]",
+            "mutations": [
+                {
+                    "filter": "mortal",
+                    "mutate": "follower_wound",
+                    "level": 1,
+                    "additive": false
+                },
+                {
+                    "filter": "mortal",
+                    "mutate": "follower",
+                    "level": -1,
+                    "additive": false
+                }
+            ],
+            "effects": {
+                "notoriety": 1
+            },
+            "warmup": 30
+        }
+    ]
+}

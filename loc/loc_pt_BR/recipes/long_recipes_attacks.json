@@ -1,0 +1,2916 @@
+{
+    "recipes": [
+        {
+            "id": "long.executestrategy.assassination.begin",
+            "actionid": "longassault.assassination",
+            "label": "O Dardo no Escuro",
+            "startdescription": "Em tempos longínquos, o Tragulari - os dartsmen - era empregado para caçar imortais e os seus chattels. A Companhia Troissaint é geralmente suposta tê-los extirpado após a Primeira Guerra do Verme. . mas talvez não em cada Histórico. [O Dartsman pode te destruir, ou um seguidor. Descubra com <sprite name=heart> <sprite name=lantern> seguidores enquanto se prepara, ou defender com <sprite name=edge> <sprite name=forge> <sprite name=winter> seguidores depois que iniciarem seu ataque. Defensores sem sucesso morrerão. O Dartsman não está protegido contra convocações.] ",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Descobrir",
+                    "required": {
+                        "follower": 1
+                    }
+                }
+            ],
+            "warmup": 120,
+            "internaldeck": {
+                "label": "Target",
+                "description": "Quem é o alvo do Dartsmen?",
+                "spec": [
+                    "assassinationinprogress.follower",
+                    "assassinationinprogress.player"
+                ],
+                "resetonexhaustion": true,
+                "draws": 1
+            },
+            "linked": [
+                {
+                    "id": "longassault.assassination.uncovered.success",
+                    "challenges": {
+                        "heart": "base",
+                        "lantern": "base"
+                    }
+                },
+                {
+                    "id": "longassault.assassination.uncovered.failure"
+                },
+                {
+                    "id": "longassault.assassination.continue"
+                }
+            ]
+        },
+        {
+            "id": "longassault.assassination.uncovered.success",
+            "actionid": "longassault.assassination",
+            "requirements": {
+                "follower": 1
+            },
+            "label": "A Serpente, Exposta",
+            "startdescription": "Ataques Tragulares de furto. Eles não prosperam ao dia. Este aqui fugiu. (por um bem?) Nosso inimigo vai tomar nota.",
+            "effects": {
+                "long.lesson.might": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "longassault.assassination.uncovered.failure",
+            "actionid": "longassault.assassination",
+            "requirements": {
+                "follower": 1
+            },
+            "label": "A Serpente Esperante",
+            "startdescription": "Nosso seguidor nunca retorna. Nós só podemos assumir que o Tragulari os derrubou com seus pequenos javelins e seus venenos.",
+            "effects": {
+                "follower": -1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "longassault.assassination.continue"
+                }
+            ]
+        },
+        {
+            "id": "longassault.assassination.continue",
+            "actionid": "longassault.assassination",
+            "label": "A primeira ferida",
+            "startdescription": "Um Dartsman matará até os mais fortes por polegadas. [Defenda com <sprite name=edge> <sprite name=forge> <sprite name=winter> seguidores. Defensores sem sucesso morrerão. O Dartsman não está protegido contra convocações.]",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1,
+                        "murderskill": 1
+                    }
+                }
+            ],
+            "warmup": 30,
+            "linked": [
+                {
+                    "id": "longassault.assassination.attack.defeated",
+                    "challenges": {
+                        "edge": "base",
+                        "winter": "base",
+                        "forge": "base"
+                    }
+                },
+                {
+                    "id": "longassault.assassination.defenderdefeated"
+                },
+                {
+                    "id": "longassault.assassination.murderskill.succeed",
+                    "chance": 30
+                },
+                {
+                    "id": "longassault.assassination.murderskill.failure"
+                },
+                {
+                    "id": "longassault.assassination.attack.player"
+                },
+                {
+                    "id": "longassault.assassination.attack.follower"
+                }
+            ]
+        },
+        {
+            "id": "longassault.assassination.defenderdefeated",
+            "actionid": "longassault.assassination",
+            "label": "Uma Morte Idevida",
+            "startdescription": "O Dartsman reivindicou a vida de um defensor: mas o único pagamento que agora os satisfaz é a morte do seu alvo, ou a sua própria.",
+            "requirements": {
+                "follower": 1
+            },
+            "effects": {
+                "follower": -1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "longassault.assassination.attack.player"
+                },
+                {
+                    "id": "longassault.assassination.attack.follower"
+                }
+            ]
+        },
+        {
+            "id": "longassault.assassination.attack.defeated",
+            "actionid": "longassault.assassination",
+            "label": "O pagamento final",
+            "startdescription": "Nosso defensor triunfou, e o Dartsman está morto. Talvez isso seja suficiente para detê-los.",
+            "effects": {
+                "long.lesson.might": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "longassault.assassination.attack.player",
+            "actionid": "longassault.assassination",
+            "label": "Os Venículos do Dartsman",
+            "startdescription": "O Dartsman vai me manchar e me sangrar, caiu ao solto.",
+            "slots": [
+                {
+                    "id": "health",
+                    "label": "Atacando...",
+                    "required": {
+                        "health": 1,
+                        "fatigue": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "id": "longassault.assassination.killplayer"
+                }
+            ],
+            "aspects": {
+                "damagehealth": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "longassault.assassination.continue"
+                }
+            ]
+        },
+        {
+            "id": "longassault.assassination.murderskill.succeed",
+            "actionid": "longassault.assassination",
+            "label": "A Barba Quebrada",
+            "requirements": {
+                "murderskill": 1
+            },
+            "startdescription": "Eles deveriam ter sabido mais do que opor a sua força ao meu. Deviam uma morte, mas eu próprio lhes paguei o seu sangue.",
+            "warmup": 30,
+            "effects": {
+                "long.lesson.might": 1
+            }
+        },
+        {
+            "id": "longassault.assassination.murderskill.failure",
+            "actionid": "longassault.assassination",
+            "label": "Um Respito Cicatriz",
+            "requirements": {
+                "murderskill": 1
+            },
+            "startdescription": "Ganhei um espaço para respirar, mas eles estão fortes demais para mim. Minha força está quebrada.",
+            "warmup": 30,
+            "effects": {
+                "murderskill": -1
+            },
+            "linked": [
+                {
+                    "id": "longassault.assassination.continue"
+                }
+            ]
+        },
+        {
+            "id": "longassault.assassination.killplayer",
+            "actionid": "longassault.assassination",
+            "label": "O Fim do Dardo",
+            "startdescription": "Não tenho mais força? [Se você não tiver saúde disponível, os venenos do Dartsman acabarão com o jogo.]",
+            "requirements": {
+                "health": -1,
+                "fatigue": -1,
+                "injury": -1
+            },
+            "ending": "deathofthebody",
+            "signalEndingFlavour": "Melancholy",
+            "comments": "The -1 to injury doesn't seem right, since the damagehealth in longassault.assassination.attack.player will always turn health/fatigue into an injury. To be checked."
+        },
+        {
+            "id": "longassault.assassination.attack.follower",
+            "actionid": "longassault.assassination",
+            "label": "A ferida que mata",
+            "startdescription": "O Dartsman pode empregar um único dardo, ou uma dúzia; mas é sempre o último dardo que mata.<sprite name=edge> <sprite name=forge> <sprite name=winter> seguidores podem sobreviver. Outros, ou seguidores azarados, sempre morrerão]",
+            "slots": [
+                {
+                    "id": "targetfollower",
+                    "label": "Atacando...",
+                    "required": {
+                        "follower": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "longassault.assassination.attack.follower.failure",
+                    "challenges": {
+                        "edge": "base",
+                        "winter": "base",
+                        "forge": "base"
+                    }
+                },
+                {
+                    "id": "longassault.assassination.attack.follower.success"
+                },
+                {
+                    "id": "longassault.assassination.continue"
+                }
+            ]
+        },
+        {
+            "id": "longassault.assassination.attack.follower.failure",
+            "actionid": "longassault.assassination",
+            "label": "Uma inversão repentina",
+            "startdescription": "Desta vez, o Dartsman encontrou um desafio que não esperavam. Eles estão mortos. Talvez isso os impeça.",
+            "effects": {
+                "long.lesson.might": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "longassault.assassination.attack.follower.success",
+            "actionid": "longassault.assassination",
+            "label": "A Morte que se deve",
+            "startdescription": "As vítimas do Dartsman são, por vezes, consideradas contornada em agonésimo pescoço, arrasadas nos olhos. Às vezes eles são encontrados como um navio naufragado. Esse não é encontrado mesmo. O Dartsman está em seu dever.",
+            "requirements": {
+                "follower": 1
+            },
+            "effects": {
+                "follower": -1
+            }
+        },
+        {
+            "id": "long.executestrategy.assault.abduct.follower.begin",
+            "actionid": "longassault.abduction",
+            "label": "Um abdução!",
+            "startdescription": "Nosso inimigo está montando uma tentativa de sequestro!",
+            "slots": [
+                {
+                    "id": "target",
+                    "label": "Target",
+                    "required": {
+                        "romanticinterest": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.abduct.follower.captured"
+                },
+                {
+                    "id": "long.executestrategy.assault.abduct.follower.begin.nonromancedfollower"
+                }
+            ],
+            "effects": {
+                "abductioninprogress": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.assault.abduct.follower.begin.nonromancedfollower",
+            "actionid": "longassault.abduction",
+            "label": "Um abdução!",
+            "startdescription": "Nosso inimigo está montando uma tentativa de sequestro!",
+            "slots": [
+                {
+                    "id": "target",
+                    "label": "Target",
+                    "required": {
+                        "follower": 1
+                    },
+                    "forbidden": {
+                        "summoned": 1,
+                        "hireling": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.abduct.follower.captured"
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.assault.abduct.follower.captured",
+            "actionid": "longassault",
+            "label": "Capturado!",
+            "requirements": {
+                "follower": 1
+            },
+            "startdescription": "Nosso inimigo imutou nosso seguidor em uma sala trancada numa casa guardada, atrás de paredes invisíveis para manter coisas invisíveis afastadas.",
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.abduct.follower.continue"
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.assault.abduct.follower.continue",
+            "actionid": "longassault",
+            "label": "Um resgato?",
+            "startdescription": "Nosso inimigo encontrou um seguidor! Eles tentarão escapar, e nós podemos ajudá-los - mas pode ser uma armadilha. E o lugar é contra convocatórios. [O maior total de <sprite name=edge> <sprite name=forge> ou <sprite name=winter> determinará se nossos seguidores escapam ilesa.]",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1
+                    },
+                    "forbidden": {
+                        "summoned": 1
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.abduct.follower.defencesucceeded",
+                    "actionid": "longassault",
+                    "label": "Uma Vitória",
+                    "challenges": {
+                        "edge": "base",
+                        "forge": "base",
+                        "winter": "base"
+                    },
+                    "startdescription": "Fechadura quebrada - janela quebrada - ar noturno pelo gole. Nosso seguidor está livre. Nosso inimigo prestará mais atenção agora.",
+                    "effects": {
+                        "long.lesson.might": 1
+                    }
+                },
+                {
+                    "id": "long.executestrategy.assault.abduct.follower.defencefailed",
+                    "actionid": "longassault",
+                    "label": "Uma Armadilha",
+                    "startdescription": "A tentativa de fuga falhou. Pode haver outra oportunidade mais tarde.",
+                    "linked": [
+                        {
+                            "id": "long.executestrategy.assault.abduct.follower.continue"
+                        }
+                    ],
+                    "warmup": 300
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "long.executestrategy.assault.forge.greatwork.begin",
+            "actionid": "longassault",
+            "label": "Um ato de Sabotagem!",
+            "startdescription": "Nosso inimigo imortal enviou operativos para destruir nosso trabalho em progresso.",
+            "description": "Os operadores do nosso inimigo não encontraram nada adequado para o seu trabalho de martelo.",
+            "slots": [
+                {
+                    "id": "target",
+                    "label": "Target",
+                    "required": {
+                        "greatwork": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.forge.greatwork.continue",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.assault.forge.greatwork.continue",
+            "actionid": "longassault",
+            "label": "Defendendo o grande trabalho",
+            "startdescription": "Nossa sala de trabalho está cercada! Proteja o Grande Trabalho! [Um <sprite name=heart> ou <sprite name=forge> seguidor - o mais forte, melhor - pode ser capaz de se defender contra esta ação.]",
+            "description": "",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1
+                    }
+                }
+            ],
+            "requirements": {
+                "greatwork": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.failure",
+                    "challenges": {
+                        "heart": "base",
+                        "forge": "base"
+                    }
+                },
+                {
+                    "id": "long.executestrategy.assault.forge.greatwork.succeed"
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.assault.forge.greatwork.succeed",
+            "actionid": "longassault",
+            "label": "Sabotage!",
+            "startdescription": "Nosso inimigo tem estado ocupado com suas facas e coroas ancoradas.",
+            "aspects": {
+                "sabotage": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.assault.setambush.expedition.begin",
+            "warmup": 10,
+            "actionid": "longassault",
+            "label": "Uma Emboscada",
+            "startdescription": "Nosso inimigo aprendeu que estamos considerando uma expedição. Se eles puderem aprender nosso destino, enviarão aliados para preparar uma emboscada.",
+            "slots": [
+                {
+                    "id": "vault",
+                    "label": "Cofre",
+                    "required": {
+                        "vault": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.setambush.expedition.continue.watchers",
+                    "actionid": "longassault",
+                    "label": "Uma Complicação Adicional",
+                    "startdescription": "Nosso inimigo pagou aos habitantes locais para observar o lugar.",
+                    "requirements": {
+                        "guardian_watchers": -1,
+                        "guardian_watchers_pre": -1
+                    },
+                    "mutations": [
+                        {
+                            "mutate": "guardian_watchers_pre",
+                            "level": 1,
+                            "filter": "vault"
+                        }
+                    ]
+                },
+                {
+                    "id": "long.executestrategy.assault.setambush.expedition.continue.monks",
+                    "actionid": "longassault",
+                    "label": "Uma Complicação Adicional",
+                    "startdescription": "Nosso inimigo enviou seus servos jurados para proteger o lugar.",
+                    "requirements": {
+                        "guardian_monks": -1,
+                        "guardian_monks_pre": -1
+                    },
+                    "mutations": [
+                        {
+                            "mutate": "guardian_monks_pre",
+                            "level": 1,
+                            "filter": "vault"
+                        }
+                    ]
+                },
+                {
+                    "id": "long.executestrategy.assault.setambush.expedition.continue.dead",
+                    "actionid": "longassault",
+                    "label": "Uma Complicação Adicional",
+                    "requirements": {
+                        "guardian_dead": -1,
+                        "guardian_dead_pre": -1
+                    },
+                    "startdescription": "Nosso inimigo fez com que os mortos guardem o lugar.",
+                    "mutations": [
+                        {
+                            "mutate": "guardian_dead_pre",
+                            "level": 1,
+                            "filter": "vault"
+                        }
+                    ]
+                },
+                {
+                    "id": "long.executestrategy.assault.setambush.expedition.continue.serpent",
+                    "actionid": "longassault",
+                    "label": "Uma Complicação Adicional",
+                    "requirements": {
+                        "guardian_serpent": -1,
+                        "guardian_serpent_pre": -1
+                    },
+                    "startdescription": "Nosso inimigo ergueu uma Serpente para proteger o lugar.",
+                    "mutations": [
+                        {
+                            "mutate": "guardian_serpent_pre",
+                            "level": 1,
+                            "filter": "vault"
+                        }
+                    ],
+                    "warmup": 1
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.assault.destroyhealth.begin",
+            "actionid": "longassault",
+            "label": "Um assalto esmagadora!",
+            "startdescription": "Nosso inimigo enviou cavalheiros muito sérios com ordens para matar, ou pelo menos mamãe. [Isto destruirá a saúde.]",
+            "slots": [
+                {
+                    "id": "health",
+                    "label": "Saúde",
+                    "required": {
+                        "health": 1,
+                        "fatigue": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "aspects": {
+                "destroyhealth": 1
+            },
+            "comments": "Damaging health now so it doesn't figure into the Heart calculations",
+            "alt": [
+                {
+                    "id": "long.executestrategy.assault.health.nonefound",
+                    "chance": 100
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.destroyhealth.continue",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "long.executestrategy.assault.health.nonefound",
+            "label": "Este Ataque irá me terminar",
+            "actionid": "longassault",
+            "requirements": {
+                "health": -1,
+                "fatigue": -1
+            },
+            "startdescription": "Doença, exaustão ou distração me impede de resistir a este ataque. [Fornecer saúde imediatamente, ou morrer]",
+            "craftable": false,
+            "ending": "deathofthebody",
+            "signalEndingFlavour": "Melancholy"
+        },
+        {
+            "id": "long.executestrategy.assault.destroyhealth.continue",
+            "actionid": "longassault",
+            "label": "Um assalto esmagadora!",
+            "startdescription": "Se este ataque for bem-sucedido, eu estarei gravemente machucado. [Um <sprite name=heart> ou <sprite name=edge> seguidor - o mais forte, melhor - pode ser capaz de se defender contra esta ação.]",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1
+                    }
+                }
+            ],
+            "requirements": {
+                "decrepitude": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.failure",
+                    "challenges": {
+                        "heart": "base",
+                        "edge": "base"
+                    }
+                },
+                {
+                    "id": "long.executestrategy.assault.destroyhealth.succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.assault.destroyhealth.succeed",
+            "actionid": "longassault",
+            "label": "As Aulas da Agônia",
+            "startdescription": "Eu sofro. Eu suporto.",
+            "effects": {
+                "influenceknock": 1
+            }
+        },
+        {
+            "id": "long.executestrategy.assault.injurefollower.begin",
+            "actionid": "longassault",
+            "label": "Um ataque a um Seguidor!",
+            "startdescription": "Nosso inimigo enviou agentes para entregar uma batida selvagem para qualquer um de nossos seguidores que eles possam encontrar.",
+            "slots": [
+                {
+                    "id": "follower",
+                    "label": "Seguidor",
+                    "required": {
+                        "follower": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.injurefollower.hireling.continue"
+                },
+                {
+                    "id": "long.executestrategy.assault.injurefollower.spirit.continue"
+                },
+                {
+                    "id": "long.executestrategy.assault.injurefollower.continue"
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.assault.injurefollower.hireling.continue",
+            "actionid": "longassault",
+            "label": "'Você não está me pagando o bastante por isso'",
+            "startdescription": "Essa é a última vez que vemos nosso aluguel.",
+            "requirements": {
+                "hireling": 1
+            },
+            "effects": {
+                "follower": -1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.assault.injurefollower.spirit.continue",
+            "actionid": "longassault",
+            "label": "As Portas Andam Ambas as Maneiras",
+            "startdescription": "Nosso inimigo deu a seus agentes os meios para expulsar nosso convocamento do mundo. E se foi.",
+            "requirements": {
+                "summoned": 1
+            },
+            "effects": {
+                "follower": -1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.assault.injurefollower.continue",
+            "actionid": "longassault",
+            "label": "Reforços?",
+            "requirements": {
+                "follower": 1
+            },
+            "startdescription": "Outro seguidor pode se apressar a ajudar - mas arriscam-se a ser ferido também. E seria tolo enviar espíritos contra as forças de um longo e antigo. [O maior total de <sprite name=edge> <sprite name=forge> ou <sprite name=winter> determinará se nossos seguidores escapam ilesa.]",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1
+                    },
+                    "forbidden": {
+                        "summoned": 1
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.injurefollower.defencesucceeded",
+                    "actionid": "longassault",
+                    "label": "Uma Vitória",
+                    "challenges": {
+                        "edge": "base",
+                        "forge": "base",
+                        "winter": "base"
+                    },
+                    "startdescription": "Nossos seguidores não podem ser levianamente descontados. Os agentes inimigos recuam em desordem. É claro, nosso inimigo agora levará o assunto mais a sério.",
+                    "effects": {
+                        "long.lesson.might": 1
+                    }
+                },
+                {
+                    "id": "long.executestrategy.assault.injurefollower.defencefailed",
+                    "actionid": "longassault",
+                    "label": "Uma Derrota",
+                    "startdescription": "Todos nós sofremos ao serviço da nossa Fundadora; talvez esse sofrimento contribua para a nossa utilidade.",
+                    "mutations": [
+                        {
+                            "filter": "mortal",
+                            "mutate": "follower_wound",
+                            "level": 1,
+                            "additive": false
+                        },
+                        {
+                            "filter": "mortal",
+                            "mutate": "follower",
+                            "level": -1,
+                            "additive": false
+                        }
+                    ]
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "long.executestrategy.assault.injurehealth.begin",
+            "actionid": "longassault",
+            "label": "Um assalto",
+            "startdescription": "Nosso inimigo colocou um bandido contratado para dar uma surra. Eles ainda não estão prontos para pedir meu assassinato, mas não vão lamentar se eu por acaso expirar.[Isto irá ferir sua saúde.]",
+            "slots": [
+                {
+                    "id": "health",
+                    "label": "Saúde",
+                    "required": {
+                        "health": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "aspects": {
+                "damagehealth": 1
+            },
+            "comments": "Damaging health now so it doesn't figure into the Heart calculations",
+            "alt": [
+                {
+                    "id": "long.executestrategy.assault.health.nonefound",
+                    "chance": 100
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.injurehealth.continue",
+                    "chance": 100
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "long.executestrategy.assault.injurehealth.continue",
+            "actionid": "longassault",
+            "label": "Um assalto",
+            "startdescription": "Quem vai me defender? [Um <sprite name=heart> ou <sprite name=edge> seguidor - o mais forte, melhor - pode ser capaz de se defender contra esta ação.]",
+            "description": "",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1
+                    }
+                }
+            ],
+            "requirements": {
+                "injury": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.failure",
+                    "challenges": {
+                        "heart": "base",
+                        "edge": "base"
+                    }
+                },
+                {
+                    "id": "long.executestrategy.assault.injurehealth.succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.assault.injurehealth.succeed",
+            "actionid": "longassault",
+            "label": "Uma Ornamentação Jovem",
+            "startdescription": "Eles me deixam sangrando, mas ainda não quebrados."
+        },
+        {
+            "id": "long.executestrategy.assault.rob.begin",
+            "actionid": "longassault",
+            "label": "Roupa de Pétala",
+            "startdescription": "Nosso inimigo me colocou um batedor de carteira para me enlutar.",
+            "description": "Tanto pior para o meu inimigo: não tenho dinheiro para roubar.",
+            "slots": [
+                {
+                    "id": "funds",
+                    "label": "Fundos",
+                    "required": {
+                        "funds": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "id": "long.executestrategy.assault.rob.continue",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.assault.rob.continue",
+            "actionid": "longassault",
+            "label": "Petria, mas bem sucedida, Roubo",
+            "startdescription": "Alguém pegou o meu bolso!",
+            "effects": {
+                "funds": -1
+            }
+        },
+        {
+            "id": "long.executestrategy.assault.intimidate.begin",
+            "actionid": "longassault",
+            "label": "Uma Pena de Mergulho",
+            "startdescription": "Nosso inimigo envia agentes para nos ameaçarem e desanimarem. [Um <sprite name=heart> ou <sprite name=grail> seguidor - o mais forte, melhor - pode ser capaz de se defender contra esta ação.]",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1
+                    }
+                }
+            ],
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.assault.failure",
+                    "challenges": {
+                        "heart": "base",
+                        "grail": "base"
+                    }
+                },
+                {
+                    "id": "long.executestrategy.assault.intimidate.succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.assault.intimidate.succeed",
+            "actionid": "longassault",
+            "label": "Pressionamentos da Dor",
+            "startdescription": "Maldições rastejadas em giz preto - animais crucificados no jardim - dispara em casas não observadas. As movimentações menores de uma guerra secreta.",
+            "effects": {
+                "dread": 1
+            }
+        },
+        {
+            "id": "long.executestrategy.assault.failure",
+            "actionid": "longassault",
+            "label": "Um Assalto Falhou",
+            "startdescription": "Nós derrotamos a agressão do nosso inimigo... mas eles aprenderam algo de nós e eles nos levarão mais a sério como uma ameaça. No futuro, posso esperar ataques mais perigosos.",
+            "effects": {
+                "long.lesson.might": 1
+            },
+            "aspects": {
+                "restorehealth": 1,
+                "tohealth": 1
+            }
+        },
+        {
+            "id": "long.executestrategy.intrigue.scandal.begin",
+            "actionid": "scandal",
+            "label": "Um Escandal!",
+            "startdescription": "Nosso inimigo construiu um Escandal, que rugirá por todas as nossas empresas como um incêndio florestal. [Um Scandal irá emitir a Notoriedade de forma intermitente até morrer inesperadamente.]",
+            "alt": [
+                {
+                    "id": "scandal.notoriety",
+                    "chance": 70,
+                    "additional": true
+                }
+            ],
+            "effects": {
+                "scandalinprogress": 1
+            },
+            "linked": [
+                {
+                    "id": "scandal.end",
+                    "chance": 10
+                },
+                {
+                    "id": "long.executestrategy.intrigue.scandal.begin",
+                    "chance": 100
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "scandal.end",
+            "actionid": "scandal",
+            "label": "Silêncio por último",
+            "startdescription": "O público é fickle... felizmente. Eles estão nos esquecendo.",
+            "effects": {
+                "mystique": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "scandal.notoriety",
+            "actionid": "scandal.notoriety",
+            "label": "Mentira Pobreza",
+            "startdescription": "Há tanta coisa que nós somos culpados, e não é isso, de forma alguma! E, no entanto, pode ser o que nos condena.",
+            "effects": {
+                "notoriety": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.follower.seduce.begin",
+            "actionid": "longintrigue",
+            "label": "Um Renderizado",
+            "startdescription": "Nosso inimigo imortal está tentando engendrar uma reunião com um dos nossos seguidores - quem alberga ressentimento.",
+            "slots": [
+                {
+                    "id": "target",
+                    "label": "Tentou",
+                    "greedy": true,
+                    "required": {
+                        "resentment": 1
+                    },
+                    "forbidden": {
+                        "independent": 1,
+                        "investigator": 1,
+                        "romanticinterest": 1
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.follower.seduce.continue"
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.follower.seduce.continue",
+            "actionid": "longintrigue",
+            "label": "Uma ilusão",
+            "startdescription": "Agora o longo vai implantar todos os formidáveis fios que eles aprenderam ao longo dos séculos... e talvez nosso seguidor deixe os nossos serviços. [Use a paixão para mantê-los leais. Isso nem sempre é bem sucedido, mas você pode continuar tentando enquanto tiver Passion.]",
+            "description": "",
+            "requirements": {
+                "resentment": 1
+            },
+            "slots": [
+                {
+                    "id": "passion",
+                    "label": "Argumento Apaixonado",
+                    "required": {
+                        "passion": 1
+                    }
+                }
+            ],
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.follower.seduce.defendpassion.try",
+                    "chance": 100
+                },
+                {
+                    "id": "long.executestrategy.intrigue.follower.seduce.succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.follower.seduce.defendpassion.try",
+            "actionid": "longintrigue",
+            "label": "Uma Defesa Apaixonada",
+            "startdescription": "Paixão pode esmagá-los. [Se falhar, podemos continuar tentando.]",
+            "requirements": {
+                "passion": 1
+            },
+            "warmup": 10,
+            "aspects": {
+                "fatiguing": 1
+            },
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.follower.seduce.defendpassion.succeed",
+                    "chance": 70
+                },
+                {
+                    "id": "long.executestrategy.intrigue.follower.seduce.continue",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.follower.seduce.defendpassion.succeed",
+            "actionid": "longintrigue",
+            "label": "Um Abandonar",
+            "startdescription": "Nosso seguidor optou por ficar conosco... [Mas seu resgate aumentou, e nosso inimigo aprendeu mais sobre nós.]",
+            "mutations": [
+                {
+                    "mutate": "resentment",
+                    "filter": "follower",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.failure"
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.follower.seduce.succeed",
+            "actionid": "longintrigue",
+            "label": "Um Traidor",
+            "startdescription": "Nosso seguidor absteve-se de sua confiança sagrada. Agora eles irão emprestar sua força ao crescente poder de nosso inimigo.",
+            "effects": {
+                "follower": -1,
+                "long.lesson.might": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.grail.greatwork.begin",
+            "actionid": "longintrigue",
+            "label": "Um ato de Sabotagem!",
+            "startdescription": "Nosso inimigo imortal está tentando convencer nosso anfitrião de que a Vitulação será cruel, perigosa ou aborrecida.",
+            "slots": [
+                {
+                    "id": "target",
+                    "label": "Target",
+                    "required": {
+                        "uqvitulation": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.grail.greatwork.continue",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.grail.greatwork.continue",
+            "actionid": "longintrigue",
+            "label": "Defendendo o grande trabalho",
+            "startdescription": "Poderia mandar meu aroma para a informação ou tranquilidade. [Um <sprite name=heart> ou <sprite name=grail> seguidor - o mais forte, melhor - pode ser capaz de se defender contra esta ação.]",
+            "description": "",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1
+                    }
+                }
+            ],
+            "requirements": {
+                "uqvitulation": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.failure",
+                    "challenges": {
+                        "heart": "base",
+                        "grail": "base"
+                    }
+                },
+                {
+                    "id": "long.executestrategy.intrigue.grail.greatwork.succeed"
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.grail.greatwork.succeed",
+            "actionid": "longintrigue",
+            "label": "O Divulgador do Host",
+            "startdescription": "Nosso anfitrião está se desmoronando. Sua fé gananciosa é desgostada.",
+            "aspects": {
+                "sabotage": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.poison.follower.resentment.begin",
+            "actionid": "longintrigue",
+            "label": "Sementes de reentamento",
+            "startdescription": "Nosso inimigo está trabalhando para envenenar a mente de um seguidor contra nós.",
+            "slots": [
+                {
+                    "id": "follower",
+                    "label": "Target",
+                    "greedy": true,
+                    "required": {
+                        "follower": 1
+                    },
+                    "forbidden": {
+                        "summoned": -1
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.resentment.continue"
+                },
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.resentment.hireling.continue"
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.poison.follower.resentment.continue",
+            "actionid": "longintrigue",
+            "label": "Levando a raiz preta",
+            "requirements": {
+                "follower": 1
+            },
+            "startdescription": "O que eles estão dizendo? [Use a paixão para mantê-los leais. Isso nem sempre é bem sucedido, mas você pode continuar tentando enquanto você tiver paixão.]",
+            "slots": [
+                {
+                    "id": "passionateargument",
+                    "label": "Argumento Apaixonado",
+                    "required": {
+                        "passion": 1
+                    }
+                }
+            ],
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.resentment.defendpassion.try"
+                },
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.resentment.succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.poison.follower.resentment.defendpassion.try",
+            "actionid": "longintrigue",
+            "label": "Uma Defesa Apaixonada",
+            "startdescription": "Paixão pode esmagá-los. [Se falhar, podemos continuar tentando.]",
+            "requirements": {
+                "passion": 1
+            },
+            "warmup": 10,
+            "aspects": {
+                "fatiguing": 1
+            },
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.resentment.defendpassion.succeed",
+                    "chance": 70
+                },
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.resentment.continue",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.poison.follower.resentment.defendpassion.succeed",
+            "actionid": "longintrigue",
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.failure"
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.poison.follower.resentment.succeed",
+            "actionid": "longintrigue",
+            "label": "Fruta de Frustração",
+            "startdescription": "Chegámos agora a este ponto, em que creio que o meu seguidor não me diz tudo o que ouviram a meu respeito.",
+            "mutations": [
+                {
+                    "mutate": "resentment",
+                    "filter": "follower",
+                    "level": 1,
+                    "additive": true
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.poison.follower.resentment.hireling.continue",
+            "actionid": "longintrigue",
+            "label": "Cautela Profissional",
+            "startdescription": "Este aluguel foi persuadido ou ameaçado de desaparecer. Não vamos vê-los novamente.",
+            "requirements": {
+                "hireling": 1
+            },
+            "effects": {
+                "hireling": -1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.detective.assist.begin",
+            "actionid": "longintrigue",
+            "label": "Alianças Improváveis?",
+            "startdescription": "Nosso inimigo imortal está buscando uma pepa.",
+            "slots": [
+                {
+                    "id": "hunter",
+                    "label": "Um espinho em nosso lado",
+                    "greedy": true,
+                    "required": {
+                        "hunter": 1
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.detective.assist.continue",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.detective.assist.continue",
+            "actionid": "longintrigue",
+            "requirements": {
+                "hunter": 1
+            },
+            "label": "O Inimigo de Seu Inimigo",
+            "startdescription": "O Gabinete para a Repressão prestará assistência onde a encontrar, e o nosso grande trabalho constitui, sem dúvida, um motivo de grande preocupação para eles. Que travessura o nosso inimigo imortal aqui?",
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.detective.assist.mystic",
+                    "chance": 70
+                },
+                {
+                    "id": "long.executestrategy.intrigue.detective.assist.idealist",
+                    "chance": 70
+                },
+                {
+                    "id": "long.executestrategy.intrigue.detective.assist.grim",
+                    "chance": 70
+                },
+                {
+                    "id": "long.executestrategy.intrigue.detective.assist.erratic",
+                    "chance": 70
+                },
+                {
+                    "id": "long.executestrategy.intrigue.detective.assist.evidence",
+                    "chance": 70
+                },
+                {
+                    "id": "long.executestrategy.intrigue.detective.assist.mystic",
+                    "chance": 100
+                },
+                {
+                    "id": "long.executestrategy.intrigue.detective.assist.idealist",
+                    "chance": 100
+                },
+                {
+                    "id": "long.executestrategy.intrigue.detective.assist.grim",
+                    "chance": 100
+                },
+                {
+                    "id": "long.executestrategy.intrigue.detective.assist.erratic",
+                    "chance": 100
+                },
+                {
+                    "id": "long.executestrategy.intrigue.detective.assist.evidence",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.detective.assist.mystic",
+            "actionid": "longintrigue",
+            "requirements": {
+                "mystic": -1
+            },
+            "label": "Defesa contra as Artes Invisíveis",
+            "startdescription": "Nosso inimigo ensinou a este investigador algo sobre como se proteger contra espíritos. [O investigador agora é o Mystic.]",
+            "mutations": [
+                {
+                    "mutate": "mystic",
+                    "filter": "hunter",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.detective.assist.idealist",
+            "actionid": "longintrigue",
+            "requirements": {
+                "idealist": -1
+            },
+            "label": "A Luz Nova",
+            "startdescription": "Esse investigador foi educado na natureza da nossa Grande Trabalho. Consequentemente, seu compromisso de derrotar foi forjado, extinto, temperado. [O investigador agora é um idealista.]",
+            "mutations": [
+                {
+                    "mutate": "idealist",
+                    "filter": "hunter",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.detective.assist.grim",
+            "actionid": "longintrigue",
+            "requirements": {
+                "grim": -1
+            },
+            "label": "Granito Certeza",
+            "startdescription": "Este investigador foi mostrado lições que não vão esquecer. [O investigador agora é Grim.]",
+            "mutations": [
+                {
+                    "mutate": "grim",
+                    "filter": "hunter",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.detective.assist.erratic",
+            "actionid": "longintrigue",
+            "requirements": {
+                "erratic": -1
+            },
+            "label": "Uma Nova Perspectiva",
+            "startdescription": "Este investigador aprendeu novas técnicas e intuições; embora, agora, suas mãos por vezes tremam. [O investigador agora está errado.]",
+            "mutations": [
+                {
+                    "mutate": "erratic",
+                    "filter": "hunter",
+                    "level": 1,
+                    "additive": true
+                },
+                {
+                    "mutate": "meticulous",
+                    "filter": "hunter",
+                    "level": -1,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.detective.assist.evidence",
+            "actionid": "longintrigue",
+            "requirements": {
+                "erratic": 1,
+                "grim": 1,
+                "idealist": 1,
+                "mystic": 1
+            },
+            "label": "Francamente Trapaceando",
+            "startdescription": "Nosso inimigo imortal sussurrou na orelha deste investigador. [O longo inimigo já provou a evidência.]",
+            "effects": {
+                "evidence": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.adversary.assist.begin",
+            "actionid": "longintrigue",
+            "label": "Alianças Improváveis?",
+            "startdescription": "Nosso inimigo imortal está procurando um aliado - alguém com potencial. [Se não conseguem encontrar ninguém adequado, seu intrigo acabará em fracasso.]",
+            "slots": [
+                {
+                    "id": "rival",
+                    "label": "Um marfim",
+                    "greedy": true,
+                    "required": {
+                        "independent": 1
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.adversary.assist.continue",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.adversary.assist.continue",
+            "actionid": "longintrigue",
+            "requirements": {
+                "independent": 1
+            },
+            "label": "Tutelagem Imortal",
+            "startdescription": "Nosso inimigo está treinando nosso rival para uma ascensão mais rápida ao Estado Longo. Se eles puderem recrutar um segundo Longo, nossa derrota está garantida. [Um <sprite name=heart> ou <sprite name=moth> seguidor - o mais forte, melhor - pode ser capaz de se defender contra esta ação.]",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.failure",
+                    "challenges": {
+                        "heart": "base",
+                        "moth": "base"
+                    }
+                },
+                {
+                    "id": "long.executestrategy.intrigue.adversary.assist.succeed"
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.adversary.assist.succeed",
+            "actionid": "longintrigue",
+            "label": "Superior",
+            "startdescription": "Nosso inimigo transmitiu segredos vitais de ascensão ao nosso adversário. Sem dúvida, nosso rival deve se tornar realmente longo, eles serão uma ferramenta de nosso inimigo: mas isso não nos ajudará muito.",
+            "mutations": [
+                {
+                    "mutate": "rivalmarks",
+                    "filter": "independent",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.poison.follower.notoriety.begin",
+            "actionid": "longintrigue",
+            "label": "Daylight's Terrors",
+            "startdescription": "Nosso inimigo está trabalhando para expor os segredos de nossos seguidores. [Se eles não encontrarem um seguidor não exposto isso vai terminar em baixa.]",
+            "slots": [
+                {
+                    "id": "follower",
+                    "label": "Target",
+                    "greedy": true,
+                    "required": {
+                        "follower": 1
+                    },
+                    "forbidden": {
+                        "summoned": -1,
+                        "poison.notoriety": 1
+                    }
+                }
+            ],
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.notoriety.continue"
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.poison.follower.notoriety.continue",
+            "actionid": "longintrigue",
+            "label": "Defender contra Exposição?",
+            "startdescription": "Posso tentar dar ao público outra coisa para pensar. [Use o Mystique para tentar uma distração, embora ela nem sempre seja bem sucedida e possa gerar Notoriety. Use um Favor da Autoridade para desligá-lo imediatamente.]",
+            "slots": [
+                {
+                    "id": "defence",
+                    "label": "Distração",
+                    "required": {
+                        "mystique": 1,
+                        "favour": 1
+                    }
+                }
+            ],
+            "requirements": {
+                "follower": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.notoriety.defendfavour"
+                },
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.notoriety.defendmystique.try"
+                },
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.notoriety.succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.poison.follower.notoriety.defendfavour",
+            "actionid": "longintrigue",
+            "requirements": {
+                "favour": 1
+            },
+            "effects": {
+                "favour": -1
+            },
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.failure"
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.poison.follower.notoriety.defendmystique.try",
+            "actionid": "longintrigue",
+            "label": "Uma Distração",
+            "startdescription": "Muitos estranhos já ouviram o nome deste seguidor. [Se a distração falhar, podemos continuar tentando. Se ele for bem-sucedido, irá gerar Notorieta.]",
+            "requirements": {
+                "mystique": 1
+            },
+            "warmup": 10,
+            "effects": {
+                "mystique": -1
+            },
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.notoriety.defendmystique.succeed",
+                    "chance": 70
+                },
+                {
+                    "id": "long.executestrategy.intrigue.poison.follower.notoriety.continue",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.poison.follower.notoriety.defendmystique.succeed",
+            "actionid": "longintrigue",
+            "effects": {
+                "notoriety": 1
+            },
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.failure"
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.poison.follower.notoriety.succeed",
+            "actionid": "longintrigue",
+            "label": "O Olho Público",
+            "startdescription": "Nosso seguidor é o tipo errado de fama.",
+            "mutations": [
+                {
+                    "mutate": "poison.notoriety",
+                    "filter": "follower",
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.mystiquetonotoriety.begin",
+            "actionid": "longintrigue",
+            "label": "Tecido de Sussurros",
+            "startdescription": "Nosso inimigo está trabalhando para ampliar os rumores que já existem em algo mais sombrio.",
+            "slots": [
+                {
+                    "id": "mystique",
+                    "label": "Mystique",
+                    "required": {
+                        "mystique": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "comments": "If we can't find mystique, we go on trying to generate it",
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.mystiquetonotoriety.continue",
+                    "chance": 100
+                },
+                {
+                    "id": "long.executestrategy.intrigue.createmystique.begin",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.intrigue.mystiquetonotoriety.continue",
+            "actionid": "longintrigue",
+            "label": "Defender nossa Reputação?",
+            "startdescription": "Talvez eu conheça alguém que possa virar a história. [Um seguidor <sprite name=heart> - o mais forte, melhor - pode ser capaz de se defender contra esta ação.]",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1
+                    }
+                }
+            ],
+            "requirements": {
+                "mystique": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.failure",
+                    "challenges": {
+                        "heart": "base"
+                    }
+                },
+                {
+                    "id": "long.executestrategy.intrigue.mystiquetonotoriety.succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.mystiquetonotoriety.succeed",
+            "actionid": "longintrigue",
+            "label": "Estamos Despachados",
+            "startdescription": "Não é exatamente verdade, mas também não é exatamente uma mentira.",
+            "description": "",
+            "effects": {
+                "notoriety": 1,
+                "mystique": -1
+            }
+        },
+        {
+            "id": "long.executestrategy.intrigue.fraud.begin",
+            "actionid": "longintrigue",
+            "label": "O Armadilha para Papel",
+            "startdescription": "Nosso inimigo já deu uma falsa testemunha contra nós. As autoridades devem estar convencidas da nossa inocência. [Se isso for bem-sucedido, você poderá perder um ou muitos fundos. Um <sprite name=heart> ou <sprite name=moth> seguidor - o mais forte, melhor - pode ser capaz de se defender contra esta ação.]",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1
+                    }
+                }
+            ],
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.failure",
+                    "challenges": {
+                        "heart": "base",
+                        "moth": "base"
+                    }
+                },
+                {
+                    "id": "long.executestrategy.intrigue.fraud.succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.fraud.succeed",
+            "actionid": "longintrigue",
+            "label": "O auditor está sentando",
+            "startdescription": "'Na nossa correspondência anterior, indicamos o grau provável do seu defeito e avaliamos a questão de forma mais detalhada...'",
+            "slots": [
+                {
+                    "id": "funds",
+                    "label": "Fundos",
+                    "required": {
+                        "funds": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "effects": {
+                "funds": -1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.fraud.succeed",
+                    "chance": 70
+                },
+                {
+                    "id": "long.executestrategy.intrigue.fraud.completed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.fraud.completed",
+            "actionid": "longintrigue",
+            "label": "A Misericórdia do Comptroller",
+            "startdescription": "O fluxo constante de letras ameaçadoras diminuiu; acabou. Acabou... por enquanto."
+        },
+        {
+            "id": "long.executestrategy.intrigue.createmystique.begin",
+            "actionid": "longintrigue",
+            "label": "Rumores Infundidos",
+            "startdescription": "Se nosso inimigo repetir a história muitas vezes, pode ficar. [Um seguidor <sprite name=heart> - o mais forte, melhor - pode ser capaz de se defender contra esta ação.]",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1
+                    }
+                }
+            ],
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.intrigue.failure",
+                    "challenges": {
+                        "heart": "base"
+                    }
+                },
+                {
+                    "id": "long.executestrategy.intrigue.createmystique.succeed",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.intrigue.createmystique.succeed",
+            "actionid": "longintrigue",
+            "label": "Neblina de Rumor",
+            "startdescription": "A minha reputação já não é inteiramente a minha.",
+            "effects": {
+                "mystique": 1
+            }
+        },
+        {
+            "id": "long.executestrategy.intrigue.failure",
+            "actionid": "longintrigue",
+            "label": "Benefício da dúvida",
+            "startdescription": "Nossa reputação não é pior... mas agora nosso inimigo focará a atenção deles de forma mais intensa.",
+            "effects": {
+                "long.lesson.connections": 1
+            }
+        },
+        {
+            "id": "long.executestrategy.dreams.drysoul.begin",
+            "actionid": "longdreams",
+            "label": "A Maldição da Alma Seca, Subindo",
+            "startdescription": "Nosso inimigo está lançando uma Maldição de Almas Seca contra nós. Poderíamos empregar um percussor para evitar a maldição com os seus toques animadores e membros alegre, mas então nosso inimigo poderá interrogá-lo. [Um percussente pode evitar o aumento da maldição, mas proporcionará uma Aula para nosso inimigo.] ",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Percussante",
+                    "required": {
+                        "spirit_heartc_edge": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "long.executestrategy.dreams.drysoul.defeated"
+                },
+                {
+                    "id": "curse_dread_dormant",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "long.executestrategy.dreams.drysoul.defeated",
+            "actionid": "longdreams",
+            "label": "A Defesa Percussora",
+            "startdescription": "\ncantar esses hinos\nde membros contorcidos é\npercussor, ensaie\n\na maldição de alma seca!\na maldição de alma seca!\num universo polimélio!",
+            "requirements": {
+                "spirit_heartc_edge": 1
+            },
+            "effects": {
+                "long.lesson.dreamwork": 1
+            },
+            "aspects": {
+                "killsummoned": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.dreams.fiftheye.begin",
+            "actionid": "longdreams",
+            "label": "A Quinta Maldição Olho, Subindo",
+            "startdescription": "Nosso inimigo está erguendo um quinto olho contra nós. Poderíamos usar os fumos da Califórnia para atrapalhar seus preparativos, mas então nosso inimigo será capaz de interrogá-lo. [Um Caligre pode evitar o aumento da maldição, mas proporcionará uma Aula para nosso inimigo.] ",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Caligine",
+                    "required": {
+                        "spirit_forgec_winter": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "long.executestrategy.dreams.fiftheye.defeated"
+                },
+                {
+                    "id": "curse_visions_dormant",
+                    "chance": 100,
+                    "additional": true
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "long.executestrategy.dreams.fiftheye.defeated",
+            "actionid": "longdreams",
+            "label": "O Quinto Olho Perdido no Fumo",
+            "startdescription": "A Quinta Maldição Olhar foi derrotada antes de ser resolvida. Nossa Caligina também se foi, juntamente com quaisquer segredos que possa ter aprendido conosco.",
+            "requirements": {
+                "spirit_forgec_winter": 1
+            },
+            "effects": {
+                "long.lesson.dreamwork": 1
+            },
+            "aspects": {
+                "killsummoned": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.dreams.poisonway.begin",
+            "actionid": "longdreams.poisonway",
+            "comments": "unique verb, because it loops",
+            "label": "As Observadoras no Caminho",
+            "startdescription": "Nosso inimigo irá selecionar uma maneira que encontrarmos nos Mansus, e vigiará o seu inimigo.",
+            "slots": [
+                {
+                    "id": "way",
+                    "label": "Caminho",
+                    "required": {
+                        "way": 1
+                    },
+                    "forbidden": {
+                        "poison.long.way": 1,
+                        "waystagbefore_1": 1,
+                        "waystagbefore_2": 1,
+                        "waystagbefore_3": 1,
+                        "waystagbefore_4": 1,
+                        "waystagbefore_5": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.dreams.poisonway.continue"
+                },
+                {
+                    "id": "long.executestrategy.dreams.poisonway.begin"
+                }
+            ],
+            "warmup": 30
+        },
+        {
+            "id": "long.executestrategy.dreams.poisonway.continue",
+            "actionid": "longdreams.poisonway",
+            "label": "As Observadoras no Caminho",
+            "requirements": {
+                "way": 1
+            },
+            "startdescription": "Nosso inimigo fez sua escolha. Nós nunca seremos capazes de passar este portão novamente sem convidar um perigo.",
+            "mutations": [
+                {
+                    "filter": "way",
+                    "mutate": "poison.way.long",
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.dreams.lantern.greatwork.begin",
+            "actionid": "longdreams",
+            "label": "Um ato de Sabotagem!",
+            "startdescription": "Nosso inimigo imortal chamou atenção para nosso trabalho em Mansus. Um nome menor do Wolf Dividido está focado.",
+            "slots": [
+                {
+                    "id": "target",
+                    "label": "Target",
+                    "required": {
+                        "uqthirdwaywitnesses": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.dreams.lantern.greatwork.continue",
+                    "chance": 100
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.dreams.lantern.greatwork.continue",
+            "actionid": "longdreams",
+            "label": "Defendendo o grande trabalho",
+            "startdescription": "O nosso grande trabalho está ameaçado por males cinzentos magros. Se o envolvermos à luz, isso poderá dissuadir esta sondagem de lobo. [Um <sprite name=heart> ou <sprite name=lantern> espírito - o mais forte, melhor - pode ser capaz de se defender contra esta ação.]",
+            "description": "",
+            "slots": [
+                {
+                    "id": "defender",
+                    "label": "Defensor",
+                    "required": {
+                        "summoned": 1
+                    }
+                }
+            ],
+            "requirements": {
+                "uqthirdwaywitnesses": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.dreams.lantern.greatwork.failure",
+                    "challenges": {
+                        "heart": "base",
+                        "lantern": "base"
+                    }
+                },
+                {
+                    "id": "long.executestrategy.dreams.lantern.greatwork.succeed"
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.dreams.lantern.greatwork.succeed",
+            "actionid": "longdreams",
+            "label": "A luz escurecida",
+            "startdescription": "Uma testemunha fugiu, outra perdeu para o lobo. Qual do terceiro? Passou por algum lugar solto.",
+            "aspects": {
+                "sabotage": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.dreams.lantern.greatwork.failure",
+            "actionid": "longdreams",
+            "label": "A Luz de Cogumelo",
+            "startdescription": "Nós evitamos a atenção do respingo de lobo. Nosso grande trabalho está seguro por enquanto.",
+            "effects": {
+                "long.lesson.dreamwork": 1
+            },
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.dreams.poisonpassionwithdread.begin",
+            "actionid": "longdreams",
+            "label": "O Crepúsculo Aprofundado",
+            "slots": [
+                {
+                    "id": "seeking",
+                    "label": "Paixão",
+                    "required": {
+                        "passion": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.dreams.poisonpassionwithdread.continue"
+                }
+            ],
+            "startdescription": "Dizem que a morte, cai. As raízes do Mansus se estendem muito abaixo da luz. Isto está nos sonhos que meu inimigo me envia.",
+            "warmup": 60
+        },
+        {
+            "id": "long.executestrategy.dreams.poisonpassionwithdread.continue",
+            "actionid": "longdreams",
+            "label": "O Crepúsculo Aprofundado",
+            "startdescription": "Nos meus sonhos, vejo as escadas que vão para baixo, para o local onde os Mortos vão à medida que o mundo se vira.",
+            "requirements": {
+                "passion": 1
+            },
+            "mutations": [
+                {
+                    "filter": "passion",
+                    "mutate": "poison.passion.dread",
+                    "level": 1
+                }
+            ],
+            "alt": [
+                {
+                    "id": "poison.passion.dread.induction",
+                    "additional": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.dreams.poisonreasonwithfascination.begin",
+            "actionid": "longdreams",
+            "label": "O Brilho e o Wick",
+            "startdescription": "Meu inimigo saudou imagens aos meus sonhos - cada uma das faces da promessa de uma Hora para vir.",
+            "slots": [
+                {
+                    "id": "seeking",
+                    "label": "Motivo",
+                    "required": {
+                        "reason": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.dreams.poisonreasonwithfascination.continue"
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "long.executestrategy.dreams.poisonreasonwithfascination.continue",
+            "actionid": "longdreams",
+            "label": "O Brilho e o Wick",
+            "startdescription": "Quem é o Chandler? Por que eu vou sonhar com ela? Qual é a chama e qual o combustível? Os meus pensamentos são mais formigados.",
+            "requirements": {
+                "reason": 1
+            },
+            "mutations": [
+                {
+                    "filter": "reason",
+                    "mutate": "poison.reason.fascination",
+                    "level": 1
+                }
+            ],
+            "alt": [
+                {
+                    "id": "poison.reason.fascination.induction",
+                    "additional": true
+                }
+            ],
+            "warmup": 10
+        },
+        {
+            "id": "long.executestrategy.dreams.createfascination.poisoned.begin",
+            "actionid": "longdreams",
+            "label": "Sonhos Sagrados",
+            "startdescription": "O conhecimento que o nosso inimigo tem das minhas esperanças e dos meus receios avançou. Eles já não precisam de alimentar os seus envios com o meu Terreno. O sonho desta noite é uma canela em âmbar. Chega recentemente da Maládia, tentando como um bolo não cortado, deitada na nostalgia de fogo.",
+            "effects": {
+                "fascination": 1,
+                "contentment": 1
+            },
+            "linked": [
+                {
+                    "id": "long.executestrategy.dreams.applypoison.fascination.longlesson"
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "long.executestrategy.dreams.dreadtofascination.poisoned.begin",
+            "actionid": "longdreams",
+            "label": "Sonhos Suculentos",
+            "startdescription": "Nosso inimigo há muito tempo me enviou um sonho do Orchard das Luzes. Ninhado no sonho, como uma pera suculenta em papel áspero, é a promessa de acabar com o medo.",
+            "slots": [
+                {
+                    "id": "seeking",
+                    "label": "Terrível",
+                    "required": {
+                        "dread": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.executestrategy.dreams.dreadtofascination.poisoned.continue"
+                }
+            ],
+            "warmup": 60
+        },
+        {
+            "id": "long.executestrategy.dreams.dreadtofascination.poisoned.continue",
+            "actionid": "longdreams",
+            "label": "Sonhos Suculentos",
+            "startdescription": "O sonho que eu recebi englobou meu Papai como um polipista devorando um moto-vivo. Em seu lugar, oferece uma memória de uma conversa que nunca aconteceu, madura com riso luminoso.",
+            "requirements": {
+                "dread": 1
+            },
+            "effects": {
+                "dread": -1,
+                "fascination": 1,
+                "contentment": 1
+            },
+            "linked": [
+                {
+                    "id": "long.executestrategy.dreams.applypoison.fascination.longlesson"
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.dreams.applypoison.fascination.longlesson",
+            "actionid": "longdreams",
+            "label": "Sonhos Suculentos",
+            "mutations": [
+                {
+                    "filter": "fascination",
+                    "mutate": "poison.fascination.longlesson",
+                    "level": 1,
+                    "additive": true
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.dreams.createfascination.begin",
+            "actionid": "longdreams",
+            "label": "Luzes distantes",
+            "startdescription": "Nosso inimigo colocou uma vela na alta janela de Manso. Sua luz irá infiltrar nossos sonhos.",
+            "description": "Aqui está a luz na beira do sono, da qual a coseley e a Heursault escreveram, cada um no seu tempo.",
+            "effects": {
+                "fascination": 1
+            },
+            "warmup": 60
+        },
+        {
+            "id": "long.executestrategy.dreams.learndreams.begin",
+            "actionid": "longdreams",
+            "label": "Um Ângulo Desvelado",
+            "startdescription": "De certo modo, os meus pensamentos reflectem a luz de Manso. Nosso inimigo procura aprender esse ângulo.",
+            "description": "Nosso inimigo procurou nos corredores de Manso o brilho dos meus pensamentos reflectidos e não encontrou nada.",
+            "slots": [
+                {
+                    "id": "impulses",
+                    "label": "Impulsos",
+                    "greedy": true,
+                    "required": {
+                        "fascination": 1
+                    }
+                }
+            ],
+            "warmup": 10,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "long.executestrategy.dreams.learndreams.continue",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.dreams.learndreams.continue",
+            "actionid": "longdreams",
+            "label": "Um Ângulo Desvelado",
+            "startdescription": "Nosso inimigo aprendeu o ângulo dos meus pensamentos. Nossa vulnerabilidade aumentou.",
+            "requirements": {
+                "fascination": 1
+            },
+            "effects": {
+                "fascination": -1,
+                "long.lesson.dreamwork": 1
+            }
+        },
+        {
+            "id": "long.executestrategy.dreams.learnfears.begin",
+            "actionid": "longdreams",
+            "label": "A exibição de ilhas",
+            "startdescription": "Há um quarto no meu coração onde meus medos são todos arrastados. Nos meus sonhos, essa sala tem uma porta. Se o nosso inimigo encontrar essa porta, eles podem passar.",
+            "description": "Meus medos estão perdidos na escuridão. Nosso inimigo não encontrou nada.",
+            "slots": [
+                {
+                    "id": "impulses",
+                    "label": "Impulsos",
+                    "greedy": true,
+                    "required": {
+                        "dread": 1
+                    }
+                }
+            ],
+            "warmup": 10,
+            "craftable": false,
+            "alt": [
+                {
+                    "id": "long.executestrategy.dreams.learndreams.continue",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.dreams.learnfears.continue",
+            "actionid": "longdreams",
+            "label": "A exibição de ilhas",
+            "startdescription": "Nosso inimigo viu os medos se matrizarem no meu coração. Nossa vulnerabilidade aumentou.",
+            "requirements": {
+                "dread": 1
+            },
+            "effects": {
+                "dread": -1,
+                "long.lesson.dreamwork": 1
+            }
+        },
+        {
+            "id": "long.executestrategy.downtime.learn.begin",
+            "actionid": "longdowntime",
+            "label": "Um Poder Crescente",
+            "startdescription": "Nosso inimigo imortal tem aliados e recursos em muitas nações. Andam devagar, mas à medida que o tempo passa, trarão consigo cada vez mais aliados e recursos para carregar contra nós.",
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.executestrategy.downtime.learn.might",
+                    "chance": 33
+                },
+                {
+                    "id": "long.executestrategy.downtime.learn.connections",
+                    "chance": 50
+                },
+                {
+                    "id": "long.executestrategy.downtime.learn.dreamwork",
+                    "chance": 100
+                }
+            ]
+        },
+        {
+            "id": "long.executestrategy.downtime.learn.might",
+            "label": "Aprendizado: Ataque",
+            "actionid": "longdowntime",
+            "effects": {
+                "long.lesson.might": 1
+            }
+        },
+        {
+            "id": "long.executestrategy.downtime.learn.connections",
+            "label": "Aprendizado: Conexões",
+            "actionid": "longdowntime",
+            "effects": {
+                "long.lesson.connections": 1
+            }
+        },
+        {
+            "id": "long.executestrategy.downtime.learn.dreamwork",
+            "label": "Aprendizado: Dreamwork",
+            "actionid": "longdowntime",
+            "effects": {
+                "long.lesson.dreamwork": 1
+            }
+        },
+        {
+            "id": "long.executestrategy.downtime.rest.begin",
+            "actionid": "longdowntime",
+            "label": "Um novo espaço",
+            "startdescription": "Por enquanto, nosso inimigo escolheu esperar.",
+            "warmup": 10,
+            "craftable": false
+        },
+        {
+            "id": "long.intrigue.confrontation",
+            "actionid": "long",
+            "label": "Preparações para um assalto",
+            "startdescription": "Os contatos do nosso inimigo são tão omnipresentes que eles agora se sentem confiantes em serem bem-sucedidos no ataque aberto. Nós podemos esperar uma investida muito em breve.",
+            "requirements": {
+                "long.connections": 10,
+                "diarist": -1,
+                "diarist_unknown": -1
+            },
+            "mutations": [
+                {
+                    "mutate": "long.might",
+                    "filter": "long.enemy",
+                    "level": 10
+                }
+            ],
+            "warmup": 60,
+            "linked": [
+                {
+                    "id": "long.assault.confrontation"
+                }
+            ],
+            "aspects": {
+                "revealidentity": 1
+            }
+        },
+        {
+            "id": "long.assault.confrontation",
+            "actionid": "long",
+            "comments": "Note: this takes effect in the main verb. Once in an assault confrontation, we're in it until the end.",
+            "label": "Um assalto direto!",
+            "aspects": {
+                "revealidentity": 1
+            },
+            "slots": [
+                {
+                    "id": "follower",
+                    "label": "Defensor",
+                    "required": {
+                        "follower": 1,
+                        "murderskill": 1
+                    },
+                    "forbidden": {
+                        "summoned": 1,
+                        "hireling": 1
+                    }
+                }
+            ],
+            "startdescription": "Uma batalha de emagrecimento e proxy. @#welland. O Capitão Welland usará sua Forja contra nós pessoalmente. tryphon, a Dama Tryphon optou por sangrar suas mãos bem-manicudas em um assalto pessoal. #julian^\\\\Este inimigo friamente veio para nos acabar pessoalmente. Nossos inimigos entraram pessoalmente na batalha. [O tempo devorará minha Saúde até eu morrer, embora nossos fiéis seguidores possam nos proteger por um tempo. E apenas seguidores mortais - nosso inimigo é sábio nas artes invisíveis, e os espíritos não os podem atacar.] ",
+            "requirements": {
+                "long.might": 10,
+                "diarist": -1,
+                "diarist_unknown": -1
+            },
+            "alt": [
+                {
+                    "id": "expel_corpses",
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 9,
+                        "filter": {
+                            "corpse": 1
+                        }
+                    }
+                },
+                {
+                    "id": "long.assault.confrontation.vanquished"
+                },
+                {
+                    "id": "long.assault.confrontation.murderskill"
+                },
+                {
+                    "id": "long.assault.confrontation.defender"
+                }
+            ],
+            "warmup": 30,
+            "linked": [
+                {
+                    "id": "long.assault.confrontation.grabhealth"
+                }
+            ]
+        },
+        {
+            "id": "long.assault.confrontation.vanquished",
+            "actionid": "long",
+            "label": "O longo está morto!",
+            "startdescription": "Este gigante pode ter vivido para sempre, mas cresceram incautistas.",
+            "description": "[Dobre sua vitória enquanto puder. O trabalho continua. Se nosso inimigo pode ser destruído, então nosso mentor também pode.]",
+            "requirements": {
+                "long_wound": 3
+            },
+            "aspects": {
+                "longded": 1
+            },
+            "warmup": 60
+        },
+        {
+            "id": "long.assault.confrontation.grabhealth",
+            "label": "Um Investida Selvagem",
+            "actionid": "long",
+            "slots": [
+                {
+                    "id": "injury",
+                    "label": "Lesões",
+                    "required": {
+                        "health": 1,
+                        "fatigue": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "aspects": {
+                "damagehealth": 1
+            },
+            "alt": [
+                {
+                    "id": "expel_injury",
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "injury": 1
+                        }
+                    }
+                },
+                {
+                    "id": "deathofthebody",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Os Golpes Longos da Sombra e retorna ao silêncio! [Quando não tenho Saúde Restante, isto me matará]",
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.assault.confrontation"
+                }
+            ]
+        },
+        {
+            "id": "long.assault.confrontation.defender",
+            "actionid": "long",
+            "label": "Um sacrifício necessário",
+            "requirements": {
+                "follower": 1
+            },
+            "startdescription": "Este dará vida à sua causa. [Apenas um seguidor com <sprite name=edge><sprite name=forge><sprite name=winter> pelo menos 5 tem chance de prejudicar o Longo. Mas outros adiarão o inevitável, por um período de tempo.]",
+            "linked": [
+                {
+                    "id": "long.assault.confrontation.weakfollower"
+                },
+                {
+                    "id": "long.assault.confrontation.strongfollower",
+                    "challenges": {
+                        "edge": "base",
+                        "forge": "base",
+                        "winter": "base"
+                    }
+                },
+                {
+                    "id": "long.assault.confrontation.strongfollower.failure"
+                }
+            ]
+        },
+        {
+            "id": "long.assault.confrontation.weakfollower",
+            "actionid": "long",
+            "label": "Um sacrifício necessário",
+            "startdescription": "Mais uma vela se extinguiu.",
+            "requirements": {
+                "edge": -5,
+                "forge": -5,
+                "winter": -5
+            },
+            "warmup": 30,
+            "aspects": {
+                "killmortal": 1
+            },
+            "linked": [
+                {
+                    "id": "long.assault.confrontation"
+                }
+            ]
+        },
+        {
+            "id": "long.assault.confrontation.murderskill",
+            "actionid": "long",
+            "label": "No período noturno",
+            "startdescription": "Vou confrontar directamente esta criatura: têm a força de séculos... mas não estou a ser subestimado.",
+            "requirements": {
+                "murderskill": 1
+            },
+            "linked": [
+                {
+                    "id": "long.assault.confrontation.murderskill.succeed",
+                    "chance": 30
+                },
+                {
+                    "id": "long.assault.confrontation.murderskill.failure"
+                }
+            ]
+        },
+        {
+            "id": "long.assault.confrontation.murderskill.succeed",
+            "actionid": "long",
+            "label": "Eu fui Broken, Embora minhas bordas queiram ferir como Facas",
+            "startdescription": "Eu lutei com meu inimigo na escuridão, e mesmo quando eles me dominavam, eu sacrifiquei minha força para colher seu sangue. Eles estão feridos! Mas estou quebrado.",
+            "mutations": [
+                {
+                    "filter": "long.enemy",
+                    "mutate": "long_wound",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "warmup": 30,
+            "effects": {
+                "murderskill": -1
+            },
+            "linked": [
+                {
+                    "id": "long.assault.confrontation"
+                }
+            ]
+        },
+        {
+            "id": "long.assault.confrontation.murderskill.failure",
+            "actionid": "long",
+            "label": "Eu fui quebrado",
+            "startdescription": "Eu me oponho ao meu inimigo; encontrei a força deles com a minha; e estava quebrado. Talvez seja algo mais do que humano; mas há muito tempo que não são humanos.",
+            "warmup": 30,
+            "effects": {
+                "murderskill": -1
+            },
+            "linked": [
+                {
+                    "id": "long.assault.confrontation"
+                }
+            ]
+        },
+        {
+            "id": "long.assault.confrontation.strongfollower",
+            "actionid": "long",
+            "label": "Um The Nobre End",
+            "startdescription": "Nas profundezas da noite, ouvimos um grito que abana a cidade. O longo está ferido!",
+            "mutations": [
+                {
+                    "filter": "long.enemy",
+                    "mutate": "long_wound",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "warmup": 30,
+            "aspects": {
+                "killmortal": 1
+            },
+            "alt": [
+                {
+                    "id": "expel_corpses",
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 9,
+                        "filter": {
+                            "corpse": 1
+                        }
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.assault.confrontation"
+                }
+            ]
+        },
+        {
+            "id": "long.assault.confrontation.strongfollower.failure",
+            "actionid": "long",
+            "label": "Um fracasso Nobre",
+            "startdescription": "Os minutos se estendem a horas. A noite engoliu tão facilmente o nosso camarada como um peixe que está a voar. O longo e insaciado continua o assalto.",
+            "warmup": 30,
+            "aspects": {
+                "killmortal": 1
+            },
+            "alt": [
+                {
+                    "id": "expel_corpses",
+                    "additional": true,
+                    "expulsion": {
+                        "limit": 1,
+                        "filter": {
+                            "corpse": 1
+                        }
+                    }
+                }
+            ],
+            "linked": [
+                {
+                    "id": "long.assault.confrontation"
+                }
+            ]
+        },
+        {
+            "id": "long.dreams.confrontation",
+            "actionid": "long",
+            "comments": "Note: this takes effect in the main verb. Once in a dreams confrontation, we're in it until the end.",
+            "label": "Uma Guerra de Fantasmas",
+            "aspects": {
+                "revealidentity": 1
+            },
+            "slots": [
+                {
+                    "id": "summoned",
+                    "label": "Defensor",
+                    "required": {
+                        "summoned": 1
+                    }
+                }
+            ],
+            "startdescription": "@#welland➲ Capitão Welland tem, estranhamente, escolhido os Salões do Mansus para nosso combate final. tryphon├Lady Tryphon escolheu os Montes do Mansus para nosso confronto final. #julian├Coseley está levantando aliados nos Saltos do Manso para nos atacar. o diarista iniciou um ataque total contra nós, através dos Balões do Mansus que eles conhecem tão bem. Nosso inimigo criou uma série de espíritos para nos atacar através dos Mansus. [O longo irá devorar minha paixão e Reason até que eu não seja mais. Mas eles se expuseram a um contra-ataque. . - Se me é possível levantar uma série de coisas de Manso suficientes contra elas.] ",
+            "requirements": {
+                "long.dreamwork": 10
+            },
+            "alt": [
+                {
+                    "id": "long.dreams.confrontation.vanquished"
+                },
+                {
+                    "id": "long.dreams.confrontation.defender"
+                }
+            ],
+            "warmup": 30,
+            "linked": [
+                {
+                    "id": "long.dreams.confrontation.grabability"
+                }
+            ]
+        },
+        {
+            "id": "long.dreams.confrontation.vanquished",
+            "actionid": "long",
+            "label": "O longo está vencido!",
+            "startdescription": "Entre as sombras de roda, os fumos furiosos, as balas, os encolhimentos longos como uma lua derretida. Os exércitos deles se dissiparam. Os fundadores das suas intenções. O nome deles está perdido.",
+            "description": "[Dobre sua vitória enquanto puder. O trabalho continua. Se nosso inimigo pode ser destruído, então nosso mentor também pode.]",
+            "requirements": {
+                "long_wound": 3
+            },
+            "aspects": {
+                "longded": 1
+            },
+            "warmup": 60
+        },
+        {
+            "id": "long.dreams.confrontation.defender",
+            "actionid": "long",
+            "label": "Uma Batalha nos Limites",
+            "requirements": {
+                "summoned": 1
+            },
+            "startdescription": "A batalha é imaginária; a guerra não é. Eu posso colocar guardas nos meus sonhos. [Apenas um espírito com <sprite name=edge><sprite name=lantern><sprite name=moth> pelo menos 5 tem chance de prejudicar o Long. Mas outros adiarão o inevitável, por um período de tempo.]",
+            "linked": [
+                {
+                    "id": "long.dreams.confrontation.lantern.maid"
+                },
+                {
+                    "id": "long.dreams.confrontation.lantern.hint"
+                },
+                {
+                    "id": "long.dreams.confrontation.winter.maid"
+                },
+                {
+                    "id": "long.dreams.confrontation.forge.caligine"
+                },
+                {
+                    "id": "long.dreams.confrontation.grail.prophet"
+                },
+                {
+                    "id": "long.dreams.confrontation.weakfollower"
+                },
+                {
+                    "id": "long.dreams.confrontation.strongfollower",
+                    "challenges": {
+                        "edge": "base",
+                        "lantern": "base",
+                        "moth": "base"
+                    }
+                },
+                {
+                    "id": "long.dreams.confrontation.strongfollower.failure"
+                }
+            ]
+        },
+        {
+            "id": "long.dreams.confrontation.lantern.maid",
+            "actionid": "long",
+            "label": "Um entendimento com os Rags do Sol",
+            "startdescription": "O Diarista está em termos de primeiro nome com as presenças que passam pela Ascensão de Knives. Nenhum Maid-in-the-Mirror levantará a mão contra ele.",
+            "requirements": {
+                "diarist": 1,
+                "spirit_winterd_edge": 1
+            },
+            "aspects": {
+                "killsummoned": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.dreams.confrontation.cleanup"
+                }
+            ]
+        },
+        {
+            "id": "long.dreams.confrontation.winter.maid",
+            "actionid": "long",
+            "label": "Frio do Inverno",
+            "startdescription": "A coselecção é um Winterlong - mas esse Estado frio foi alcançado, foi-o selado contra os ataques de Maids-in-the-Mirror.",
+            "requirements": {
+                "julian": 1,
+                "spirit_winterd_edge": 1
+            },
+            "aspects": {
+                "killsummoned": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.dreams.confrontation.cleanup"
+                }
+            ]
+        },
+        {
+            "id": "long.dreams.confrontation.lantern.hint",
+            "actionid": "long",
+            "label": "A Luz do Menisca",
+            "startdescription": "Com o tempo de Lanterna, o Diarista tem um entendimento com os epigons do Glória. Nenhuma dica vai machucá-lo.",
+            "requirements": {
+                "diarist": 1,
+                "spirit_lanternc_edge": 1
+            },
+            "aspects": {
+                "killsummoned": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.dreams.confrontation.cleanup"
+                }
+            ]
+        },
+        {
+            "id": "long.dreams.confrontation.forge.caligine",
+            "actionid": "long",
+            "label": "Conhecimento Longo da Forja",
+            "startdescription": "A terra solta fogo em um longo raio antes que nosso fundador nascesse. Nenhum Califórnio vai prejudicar ele.",
+            "requirements": {
+                "welland": 1,
+                "spirit_forgec_winter": 1
+            },
+            "aspects": {
+                "killsummoned": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.dreams.confrontation.cleanup"
+                }
+            ]
+        },
+        {
+            "id": "long.dreams.confrontation.grail.prophet",
+            "actionid": "long",
+            "label": "Uma certa compaixão",
+            "startdescription": "\"Não faça isso,' Lady Tryphon vai observar. E o Profeta Bruto de fato não vai fazer isso.",
+            "requirements": {
+                "tryphon": 1,
+                "spirit_grailc_moth": 1
+            },
+            "aspects": {
+                "killsummoned": 1
+            },
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.dreams.confrontation.cleanup"
+                }
+            ]
+        },
+        {
+            "id": "long.dreams.confrontation.weakfollower",
+            "actionid": "long",
+            "label": "Um sacrifício necessário",
+            "requirements": {
+                "edge": -5,
+                "lantern": -5,
+                "moth": -5
+            },
+            "startdescription": "Mais uma vela se extinguiu.",
+            "warmup": 30,
+            "aspects": {
+                "killsummoned": 1
+            },
+            "linked": [
+                {
+                    "id": "long.dreams.confrontation.cleanup"
+                }
+            ]
+        },
+        {
+            "id": "long.dreams.confrontation.strongfollower",
+            "actionid": "long",
+            "label": "A ferida na Madeira",
+            "startdescription": "O sangue escorre em galhos da árvore. Nosso inimigo está ferido.",
+            "mutations": [
+                {
+                    "filter": "long.enemy",
+                    "mutate": "long_wound",
+                    "level": 1,
+                    "additive": true
+                }
+            ],
+            "warmup": 30,
+            "aspects": {
+                "killsummoned": 1
+            },
+            "linked": [
+                {
+                    "id": "long.dreams.confrontation.cleanup"
+                }
+            ]
+        },
+        {
+            "id": "long.dreams.confrontation.strongfollower.failure",
+            "actionid": "long",
+            "label": "A Luz Combatente",
+            "startdescription": "Nosso inimigo está ileso.",
+            "warmup": 30,
+            "aspects": {
+                "killsummoned": 1
+            },
+            "linked": [
+                {
+                    "id": "long.dreams.confrontation.cleanup"
+                }
+            ]
+        },
+        {
+            "id": "long.dreams.confrontation.grabability",
+            "actionid": "long",
+            "label": "Crepúsculo implacável",
+            "startdescription": "Os pesadelos continuam vindo. Eles continuam vindo. Dia ou noite, acordando ou dormindo, os sons das coisas no ar, as raízes do meu cabelo crescendo para dentro, as portas abertas que abrem todo o caminho e as enxaquecas que espreitam ao frio e tudo fala comigo, todo o tempo todo o toque de acordar é o escorregão da gravidade, e a imprensa dos Salões é a imprensa da multidão e eu estou me fazendo barulho, É assim que os glaciares vão\n\n[Quando não tenho paixão ou razão restante, isso me destruirá.]",
+            "slots": [
+                {
+                    "id": "wakingnightmares",
+                    "label": "Ondulações de Pesadelos",
+                    "required": {
+                        "passion": 1,
+                        "reason": 1,
+                        "concentration": 1,
+                        "disillusionment": 1,
+                        "passionexhausted": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "effects": {
+                "passion": -1,
+                "reason": -1,
+                "concentration": -1,
+                "disillusionment": -1,
+                "passionexhausted": -1
+            },
+            "alt": [
+                {
+                    "id": "long.dreams.confrontation.destroyedbynightmares"
+                }
+            ],
+            "warmup": 10,
+            "linked": [
+                {
+                    "id": "long.dreams.confrontation.cleanup"
+                }
+            ]
+        },
+        {
+            "id": "long.dreams.confrontation.destroyedbynightmares",
+            "actionid": "long",
+            "label": "A Misericórdia",
+            "startdescription": "- sem mais -",
+            "requirements": {
+                "passion": -1,
+                "reason": -1,
+                "concentration": -1,
+                "disillusionment": -1,
+                "passionexhausted": -1
+            },
+            "ending": "longnightmareending",
+            "signalEndingFlavour": "Melancholy"
+        },
+        {
+            "id": "long.dreams.confrontation.cleanup",
+            "actionid": "long",
+            "comments": "We remove principle aspects on each run-through - any clutter left from killing spirits, we want to remove so it doesn't affect the attack calculation.",
+            "label": "Uma Guerra de Fantasmas",
+            "aspects": {
+                "revealidentity": 1
+            },
+            "effects": {
+                "edge": -99,
+                "forge": -99,
+                "grail": -99,
+                "heart": -99,
+                "knock": -99,
+                "lantern": -99,
+                "moth": -99,
+                "winter": -99
+            },
+            "linked": [
+                {
+                    "id": "long.dreams.confrontation"
+                }
+            ]
+        }
+    ]
+}

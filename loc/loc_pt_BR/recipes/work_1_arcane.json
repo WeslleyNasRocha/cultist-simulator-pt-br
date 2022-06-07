@@ -1,0 +1,609 @@
+{
+    "recipes": [
+        {
+            "id": "work.poison.fascination.longlesson.trap",
+            "actionid": "work",
+            "label": "Um Vigilante Eterno Inimigo",
+            "startdescription": "Nosso inimigo assiste às nossas operações com uma alta janela do Mansus. Eles aprenderam mais de nós.",
+            "requirements": {
+                "poison.fascination.longlesson": 1,
+                "fascination": 1
+            },
+            "effects": {
+                "long.lesson.dreamwork": 1
+            },
+            "mutations": [
+                {
+                    "filter": "fascination",
+                    "mutate": "poison.fascination.longlesson",
+                    "level": -1
+                }
+            ],
+            "warmup": 10,
+            "craftable": true
+        },
+        {
+            "label": "Glória do Reason [Grand]",
+            "id": "arcane_lantern_edge_grand",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "lantern": 15,
+                "edge": 1
+            },
+            "effects": {},
+            "startdescription": "Como acima, abaixo: Reason e paixão lutam na alma humana, pois a Glória acende a escuridão da Madeira. Esta disciplina mística transformará a Paixão em Reason. [Você está pedindo um Grande grau de Lanterna, e isso quase certamente será bem-sucedido, mas existem sempre riscos] ",
+            "description": "Minha mente está cheia de luz. Fiquei mais calma e mais afiada. Mudei. [A paixão foi transformada em Reason.]",
+            "slots": [
+                {
+                    "id": "passion",
+                    "label": "Desista da minha paixão",
+                    "required": {
+                        "passion": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 10,
+                    "id": "arcane_lantern_edge_failure"
+                }
+            ],
+            "aspects": {
+                "toreason": 1,
+                "fascinating": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "label": "Glória do Reason [Major]",
+            "id": "arcane_lantern_edge_major",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "lantern": 10,
+                "edge": 1
+            },
+            "effects": {},
+            "startdescription": "Como acima, abaixo: Reason e paixão lutam na alma humana, pois a Glória acende a escuridão da Madeira. Esta disciplina mística transformará a Paixão em Reason. [Você está apelando a um grande grau de Lanterna, por isso o ritual provavelmente terá sucesso. Aumente a Lanterna em pelo menos 15 para melhorar suas chances ainda mais.] ",
+            "description": "Minha mente está cheia de luz. Fiquei mais calma e mais afiada. Mudei. [A paixão foi transformada em Reason.]",
+            "slots": [
+                {
+                    "id": "passion",
+                    "label": "Desista da minha paixão",
+                    "required": {
+                        "passion": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 30,
+                    "id": "arcane_lantern_edge_failure"
+                }
+            ],
+            "aspects": {
+                "toreason": 1,
+                "fascinating": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "label": "Glória do Reason [Minor]",
+            "id": "arcane_lantern_edge_minor",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "lantern": 5,
+                "edge": 1
+            },
+            "effects": {},
+            "startdescription": "Como acima, abaixo: Reason e paixão lutam na alma humana, pois a Glória acende a escuridão da Madeira. Esta disciplina mística transformará a Paixão em Reason. [Você só pede um pequeno grau de Lanterna, portanto o ritual muitas vezes falha. Aumente a Lanterna em pelo menos 10 para melhorar suas chances.] ",
+            "description": "Minha mente está cheia de luz. Fiquei mais calma e mais afiada. Mudei. [A paixão foi transformada em Reason.]",
+            "slots": [
+                {
+                    "id": "passion",
+                    "label": "Desista da minha paixão",
+                    "required": {
+                        "passion": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 70,
+                    "id": "arcane_lantern_edge_failure"
+                }
+            ],
+            "aspects": {
+                "toreason": 1,
+                "fascinating": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "arcane_lantern_edge_failure",
+            "label": "Glória do Reason [Falhou!]",
+            "actionid": "work",
+            "description": "Esta magia se desentrou. Uma luz invisível me enfiou.",
+            "effects": {
+                "fascination": 1
+            }
+        },
+        {
+            "label": "Gyre de Passion [Grand]",
+            "id": "arcane_moth_edge_grand",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "moth": 15,
+                "edge": 1
+            },
+            "effects": {},
+            "startdescription": "Tão logo abaixo, acima: Paixão e Reason disputam na alma humana, já que a madeira engoli a luz do Glória. Essa prática ecestática transformará Reason em Passion. , mas isso pode ficar fora de controlo. [Você está pedindo um Grande grau de Lua, e isso quase certamente será bem-sucedido, mas existem sempre riscos] ",
+            "description": "Minhas paixões se levantam como vento, como maré, como enchente. É difícil pensar claramente. [Reason foi transformado em Passion.]",
+            "slots": [
+                {
+                    "id": "reason",
+                    "label": "Desista do meu motivo",
+                    "required": {
+                        "reason": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 10,
+                    "id": "arcane_moth_edge_failure"
+                }
+            ],
+            "aspects": {
+                "topassion": 1,
+                "dreadful": 1
+            },
+            "warmup": 60,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "arcane_moth_edge_runaway_link",
+                    "chance": 30
+                }
+            ]
+        },
+        {
+            "label": "Gyre de Passion [Major]",
+            "id": "arcane_moth_edge_major",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "moth": 10,
+                "edge": 1
+            },
+            "effects": {},
+            "startdescription": "Tão logo abaixo, acima: Paixão e Reason disputam na alma humana, já que a madeira engoli a luz do Glória. Essa prática ecestática transformará Reason em paixão... mas pode ficar fora de controle.[Você está chamando um grande grau de luz, por isso o ritual provavelmente será bem sucedido. Aumente a Mariposa para pelo menos 15 para melhorar ainda mais suas oportunidades.] ",
+            "description": "Minhas paixões se levantam como vento, como maré, como enchente. É difícil pensar claramente. [Reason foi transformado em Passion.]",
+            "slots": [
+                {
+                    "id": "reason",
+                    "label": "Desista do meu motivo",
+                    "required": {
+                        "reason": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 30,
+                    "id": "arcane_moth_edge_failure"
+                }
+            ],
+            "aspects": {
+                "topassion": 1,
+                "dreadful": 1
+            },
+            "warmup": 60,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "arcane_moth_edge_runaway_link",
+                    "chance": 30
+                }
+            ]
+        },
+        {
+            "label": "Gyre de Passion [Minor]",
+            "id": "arcane_moth_edge_minor",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "moth": 5,
+                "edge": 1
+            },
+            "effects": {},
+            "startdescription": "Tão logo abaixo, acima: Paixão e Reason disputam na alma humana, já que a madeira engoli a luz do Glória. Essa prática ecestática transformará Reason em paixão... mas pode ficar fora de controle. [Você só está chamando um grau de lua menor, então o ritual muitas vezes vai falhar. Aumente a Mariposa para, pelo menos, 10 para melhorar suas chances.] ",
+            "description": "Minhas paixões se levantam como vento, como maré, como enchente. É difícil pensar claramente. [Reason foi transformado em Passion.]",
+            "slots": [
+                {
+                    "id": "reason",
+                    "label": "Desista do meu motivo",
+                    "required": {
+                        "reason": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 70,
+                    "id": "arcane_moth_edge_failure"
+                }
+            ],
+            "aspects": {
+                "topassion": 1,
+                "dreadful": 1
+            },
+            "warmup": 60,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "arcane_moth_edge_runaway_link",
+                    "chance": 30
+                }
+            ]
+        },
+        {
+            "id": "arcane_moth_edge_failure",
+            "label": "Gyre de Passion [Falhou!]",
+            "actionid": "work",
+            "description": "Esta magia desapareceu. Meu prazer foi afogar.",
+            "effects": {
+                "dread": 1
+            }
+        },
+        {
+            "id": "arcane_moth_edge_runaway_link",
+            "label": "Gyre de Passion [CEASANDO!]",
+            "actionid": "work",
+            "warmup": 2,
+            "linked": [
+                {
+                    "id": "arcane_moth_edge_runaway",
+                    "chance": 30
+                }
+            ]
+        },
+        {
+            "id": "arcane_moth_edge_runaway",
+            "label": "Gyre de Passion [CEASANDO!]",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "moth": 15,
+                "edge": 1
+            },
+            "startdescription": "A Mariposa me interessa! As larguras de Gyre! Minha razão pode estar se afogada completamente!",
+            "description": "Finalmente, o Gyre chegou ao seu fim, mas é difícil pensar direito. Eu mudei. [Reason foi transformado em Passion.]",
+            "slots": [
+                {
+                    "id": "reason",
+                    "label": "Desista do meu motivo",
+                    "required": {
+                        "reason": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 10,
+                    "id": "arcane_moth_edge_failure"
+                }
+            ],
+            "aspects": {
+                "topassion": 1,
+                "fascinating": 1
+            },
+            "effects": {
+                "influenceheartc": 1
+            },
+            "warmup": 15,
+            "craftable": true,
+            "linked": [
+                {
+                    "id": "arcane_moth_edge_runaway",
+                    "chance": 30
+                }
+            ]
+        },
+        {
+            "label": "Resgate de Forja [Grand]",
+            "id": "arcane_forge_grail_grand",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "forge": 15,
+                "grail": 1
+            },
+            "effects": {
+                "notoriety": 1,
+                "fascination": 1
+            },
+            "startdescription": "A Forja de Dias destrói e renova. Vou invocá-la com o Grail para renovar minha carne fracassada com magias proibidas. [Você está apelando para uma Grande Forja, e isso vai quase certamente ser bem-sucedido, mas há sempre riscos.] ",
+            "description": "Fui renovado com chamas, temperado com sangue. A minha carne é forte novamente, mas o esplendor da Forja desviou a minha alma. . e as pessoas falarão. [Decrepitude foi transformada de volta à Saúde, mas você ganhou Fascinação e Notoriety.]",
+            "slots": [
+                {
+                    "id": "decrepitude",
+                    "label": "Decrepitude",
+                    "required": {
+                        "decrepitude": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 10,
+                    "id": "arcane_forge_grail_failure"
+                }
+            ],
+            "aspects": {
+                "tohealth": 1,
+                "fascinating": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "label": "Resgate de Forja [Major]",
+            "id": "arcane_forge_grail_major",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "forge": 10,
+                "grail": 1
+            },
+            "effects": {
+                "notoriety": 1,
+                "fascination": 1
+            },
+            "startdescription": "A Forja de Dias destrói e renova. Vou invocá-la com o Grail para renovar minha carne fracassada com magias proibidas. [Você está apelando a uma grande Forge, então o rito provavelmente terá sucesso. Aumente a Forja em pelo menos 15 para aumentar suas chances ainda mais.] ",
+            "description": "Fui renovado com chamas, temperado com sangue. A minha carne é forte novamente, mas o esplendor da Forja desviou a minha alma. . e as pessoas falarão. [Decrepitude foi transformada de volta à Saúde, mas você ganhou Fascinação e Notoriety.]",
+            "slots": [
+                {
+                    "id": "decrepitude",
+                    "label": "Decrepitude",
+                    "required": {
+                        "decrepitude": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 30,
+                    "id": "arcane_forge_grail_failure"
+                }
+            ],
+            "aspects": {
+                "tohealth": 1,
+                "fascinating": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "label": "Resgate de Forja [Minor]",
+            "id": "arcane_forge_grail_minor",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "forge": 5,
+                "grail": 1
+            },
+            "effects": {
+                "notoriety": 1,
+                "fascination": 1
+            },
+            "startdescription": "A Forja de Dias destrói e renova. Vou invocá-la com o Grail para renovar minha carne fracassada com magias proibidas. [Está a chamar apenas um grau menor de Forge, o que muitas vezes falhará. Aumente Forja em pelo menos 10 para melhorar suas chances ainda mais.] ",
+            "description": "Fui renovado com chamas, temperado com sangue. A minha carne é forte novamente, mas o esplendor da Forja desviou a minha alma. . e as pessoas falarão. [Decrepitude foi transformada de volta à Saúde, mas você ganhou Fascinação e Notoriety.]",
+            "slots": [
+                {
+                    "id": "decrepitude",
+                    "label": "Decrepitude",
+                    "required": {
+                        "decrepitude": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 70,
+                    "id": "arcane_forge_grail_failure"
+                }
+            ],
+            "aspects": {
+                "tohealth": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "arcane_forge_grail_failure",
+            "label": "Resgate da Forja [Falhou!]",
+            "actionid": "work",
+            "description": "A Forja dos Dias me falhou, ou eu falhei. Esta magia me trouxe apenas pesadelos e perigo.",
+            "effects": {
+                "dread": 1,
+                "mystique": 1
+            }
+        },
+        {
+            "label": "O End é lindo [Grand]",
+            "id": "arcane_winter_lantern_grand",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "winter": 15,
+                "lantern": 1
+            },
+            "startdescription": "O Sun-in-Rags traz belos finais. Esta magia repentina e perigosa vai acabar com alguém ou alguma coisa, mas é impossível saber o quê. Também matará qualquer mortal ou espírito que ajude o ritual. [Está a pedir um Grande grau de Inverno, e isso será quase certamente bem sucedido, embora possa ser mais seguro se falhar.] ",
+            "description": "A neve afundou-se em todas as superfícies na minha sala de trabalho. O fogo não dá calor, mas eu não posso extinguí-lo, nem posso extinguir as velas, que queima com um nimbo vermelho e uma chama de ouro e um coração preto. Uma vez que o ritual atinge o clima, alguém, concluir-se-á alguém.",
+            "slots": [
+                {
+                    "id": "conclusion",
+                    "label": "Uma conclusão",
+                    "required": {
+                        "mortal": 1,
+                        "summoned": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 10,
+                    "id": "arcane_winter_lantern_failure"
+                }
+            ],
+            "aspects": {
+                "killhunter": 1,
+                "killmortal": 1,
+                "killsummoned": 1
+            },
+            "effects": {
+                "dread": 1,
+                "fascination": 1,
+                "notoriety": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "label": "O End é lindo [Major]",
+            "id": "arcane_winter_lantern_major",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "winter": 10,
+                "lantern": 1
+            },
+            "startdescription": "O Sun-in-Rags traz belos finais. Esta magia repentina e perigosa vai acabar com alguém ou alguma coisa, mas é impossível saber o quê. Também matará qualquer mortal ou espírito que ajude o ritual. [Você está apelando para um maior grau de Inverno, então isso provavelmente será bem-sucedido. Chame pelo menos 15 Invernos para aumentar suas chances mais, embora possa de fato ser mais seguro se ele falhar.] ",
+            "description": "A neve afundou-se em todas as superfícies na minha sala de trabalho. O fogo não dá calor, mas eu não posso extinguí-lo, nem posso extinguir as velas, que queima com um nimbo vermelho e uma chama de ouro e um coração preto. Uma vez que o ritual atinge o clima, alguém, concluir-se-á alguém.",
+            "slots": [
+                {
+                    "id": "conclusion",
+                    "label": "Uma conclusão",
+                    "required": {
+                        "mortal": 1,
+                        "summoned": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 30,
+                    "id": "arcane_winter_lantern_failure"
+                }
+            ],
+            "aspects": {
+                "killhunter": 1,
+                "killmortal": 1,
+                "killsummoned": 1
+            },
+            "effects": {
+                "dread": 1,
+                "fascination": 1,
+                "notoriety": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "label": "O End é lindo [Minor]",
+            "id": "arcane_winter_lantern_minor",
+            "actionid": "work",
+            "requirements": {
+                "ritual": 1,
+                "knock": -1,
+                "desire": -1,
+                "winter": 5,
+                "lantern": 1
+            },
+            "startdescription": "O Sun-in-Rags traz belos finais. Esta magia repentina e perigosa vai acabar com alguém ou alguma coisa, mas é impossível saber o quê. Também matará qualquer mortal ou espírito que ajude o ritual. [Está a chamar apenas um grau menor de Inverno, portanto isso muitas vezes vai falhar. Chame pelo menos 10 Invernos para aumentar suas chances, embora possa de fato ser mais seguro se ele falhar.] ",
+            "description": "A neve afundou-se em todas as superfícies na minha sala de trabalho. O fogo não dá calor, mas eu não posso extinguí-lo, nem posso extinguir as velas, que queima com um nimbo vermelho e uma chama de ouro e um coração preto. Uma vez que o ritual atinge o clima, alguém, concluir-se-á alguém.",
+            "slots": [
+                {
+                    "id": "conclusion",
+                    "label": "Uma conclusão",
+                    "required": {
+                        "mortal": 1,
+                        "summoned": 1
+                    },
+                    "greedy": true
+                }
+            ],
+            "alt": [
+                {
+                    "chance": 70,
+                    "id": "arcane_winter_lantern_failure"
+                }
+            ],
+            "aspects": {
+                "killhunter": 1,
+                "killmortal": 1,
+                "killsummoned": 1
+            },
+            "effects": {
+                "dread": 1,
+                "fascination": 1,
+                "notoriety": 1
+            },
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "arcane_winter_lantern_failure",
+            "label": "O The End é lindo [Falhou!]",
+            "actionid": "work",
+            "description": "O Sun-in-Rags não me atenderá a chamada. Esta magia me trouxe apenas o conhecimento prévio do inverno.",
+            "effects": {
+                "dread": 1,
+                "mystique": 1
+            }
+        }
+    ]
+}

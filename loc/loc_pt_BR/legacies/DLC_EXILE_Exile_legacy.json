@@ -1,0 +1,293 @@
+{
+    "legacies": [
+        {
+            "id": "exile",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "Ninguém rouba de um estimado senhor. Ainda sim, eu o fiz. Eu tive minhas razões.",
+            "startdescription": "Pôr do sol. Hora de ir.",
+            "image": "exile",
+            "effects": {
+                "trace": 7,
+                "decade.stolen": 7,
+                "year.stolen": 7,
+                "ticket.train": 1
+            },
+            "fromending": "wintersacrifice",
+            "availableWithoutEndingMatch": true,
+            "statusbarelements": [
+                "obscurity",
+                "comfort",
+                "damage.exile",
+                "lifespan.stolen"
+            ],
+            "startingverbid": "use",
+            "newstart": true,
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.obscurityvictorya",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que colhi recompensas maiores?",
+            "startdescription": "Pôr do sol. Hora de ir.",
+            "image": "exile",
+            "effects": {
+                "decade.stolen": 7,
+                "year.stolen": 7,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscurityvictorya",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "obscurity",
+                "comfort",
+                "damage.exile",
+                "lifespan.stolen"
+            ],
+            "startingverbid": "use",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.obscurityvictoryb",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que colhi recompensas ainda maiores?",
+            "startdescription": "Pôr do sol. Hora de ir.",
+            "image": "exile",
+            "effects": {
+                "decade.stolen": 7,
+                "year.stolen": 7,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscurityvictoryb",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "obscurity",
+                "comfort",
+                "damage.exile",
+                "lifespan.stolen"
+            ],
+            "startingverbid": "use",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.obscurityvictoryc",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que ascendi mais alto?",
+            "startdescription": "Pôr do sol. Hora de ir.",
+            "image": "exile",
+            "effects": {
+                "decade.stolen": 7,
+                "year.stolen": 7,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscurityvictoryc",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "obscurity",
+                "comfort",
+                "damage.exile",
+                "lifespan.stolen"
+            ],
+            "startingverbid": "use",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.obscurityvictoryafoeslain",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que colhi recompensas maiores?",
+            "startdescription": "Pôr do sol. Hora de ir.",
+            "image": "exile",
+            "effects": {
+                "decade.stolen": 7,
+                "year.stolen": 7,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscurityvictoryafoeslain",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "obscurity",
+                "comfort",
+                "damage.exile",
+                "lifespan.stolen"
+            ],
+            "startingverbid": "use",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.obscurityvictorybfoeslain",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que colhi recompensas ainda maiores?",
+            "startdescription": "Pôr do sol. Hora de ir.",
+            "image": "exile",
+            "effects": {
+                "decade.stolen": 7,
+                "year.stolen": 7,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscurityvictorybfoeslain",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "obscurity",
+                "comfort",
+                "damage.exile",
+                "lifespan.stolen"
+            ],
+            "startingverbid": "use",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.obscurityvictorycfoeslain",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que ascendi mais alto?",
+            "startdescription": "Pôr do sol. Hora de ir.",
+            "image": "exile",
+            "effects": {
+                "decade.stolen": 7,
+                "year.stolen": 7,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "obscurityvictorycfoeslain",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "obscurity",
+                "comfort",
+                "damage.exile",
+                "lifespan.stolen"
+            ],
+            "startingverbid": "use",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.foecaughtup",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que sobrevivi?",
+            "startdescription": "Pôr do sol. Hora de ir.",
+            "image": "exile",
+            "effects": {
+                "decade.stolen": 7,
+                "year.stolen": 7,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "foecaughtup",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "obscurity",
+                "comfort",
+                "damage.exile",
+                "lifespan.stolen"
+            ],
+            "startingverbid": "use",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.ascensioncolonel",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que encontrei algo mais parecido com liberdade?",
+            "startdescription": "Pôr do sol. Hora de ir.",
+            "image": "exile",
+            "effects": {
+                "decade.stolen": 7,
+                "year.stolen": 7,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "ascensioncolonel",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "obscurity",
+                "comfort",
+                "damage.exile",
+                "lifespan.stolen"
+            ],
+            "startingverbid": "use",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.ascensionlionsmith",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que encontrei algo mais parecido com a paz?",
+            "startdescription": "Pôr do sol. Hora de ir.",
+            "image": "exile",
+            "effects": {
+                "decade.stolen": 7,
+                "year.stolen": 7,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "ascensionlionsmith",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "obscurity",
+                "comfort",
+                "damage.exile",
+                "lifespan.stolen"
+            ],
+            "startingverbid": "use",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.ascensionwolf",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será se fui também um destruidor?",
+            "startdescription": "Pôr do sol. Hora de ir.",
+            "image": "exile",
+            "effects": {
+                "decade.stolen": 7,
+                "year.stolen": 7,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "ascensionwolf",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "obscurity",
+                "comfort",
+                "damage.exile",
+                "lifespan.stolen"
+            ],
+            "startingverbid": "use",
+            "tablecoverimage": "table_leather_exile"
+        },
+        {
+            "id": "exile.victoryvelvet",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que encontrei meu criador?",
+            "startdescription": "Pôr do sol. Hora de ir.",
+            "image": "exile",
+            "effects": {
+                "decade.stolen": 7,
+                "year.stolen": 7,
+                "ticket.train": 1,
+                "trace": 7
+            },
+            "fromending": "victoryvelvet",
+            "availableWithoutEndingMatch": false,
+            "statusbarelements": [
+                "obscurity",
+                "comfort",
+                "damage.exile",
+                "lifespan.stolen"
+            ],
+            "startingverbid": "use",
+            "tablecoverimage": "table_leather_exile"
+        }
+    ]
+}

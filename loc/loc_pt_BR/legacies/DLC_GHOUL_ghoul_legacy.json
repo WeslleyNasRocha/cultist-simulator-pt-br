@@ -1,0 +1,21 @@
+{
+    "legacies": [
+        {
+            "id": "ghoul",
+            "label": "O Médium?",
+            "description": "Todos sabem que falo com os mortos. Fui chamado de profeta, e de carniçal. Não tenho motivos para desiludi-los de suas fantasias.",
+            "startdescription": "Esta noite o teatro está cheio e sem fôlego. Eu ja os deixei esperar o bastante.",
+            "effects": {
+                "ghouljob.first": 1,
+                "memory.shameful": 1,
+                "memory.profitable": 1,
+                "memory.joyful": 1
+            },
+            "image": "ghoul",
+            "fromending": "despairending",
+            "availableWithoutEndingMatch": true,
+            "startingverbid": "work",
+            "newstart": true
+        }
+    ]
+}

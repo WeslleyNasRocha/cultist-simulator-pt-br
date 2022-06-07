@@ -1,0 +1,121 @@
+{
+    "verbs": [
+        {
+            "id": "work",
+            "label": "Trabalhar",
+            "description": "Ganhe o pão de cada dia, ou pratique as artes invisíveis.",
+            "slot": {
+                "id": "work",
+                "label": "Trabalhar",
+                "description": "Algo que posso fazer; algo que sei; ou algo que sou.",
+                "required": {
+                    "ability": 1,
+                    "job": 1,
+                    "ritual": 1,
+                    "desire": 1,
+                    "benefactor": 1
+                },
+                "forbidden": {
+                    "reasonskill": 1
+                }
+            }
+        },
+        {
+            "id": "dream",
+            "label": "Sonhar",
+            "description": "Descanse; reconsidere suas prioridades; ou arrisque-se na exploração dos reinos do sono.",
+            "slot": {
+                "id": "dream",
+                "label": "Sonhar",
+                "description": "Uma direção para meus sonhos; ou me recuperar de um problema.",
+                "required": {
+                    "ability": 1,
+                    "desire": 1,
+                    "illhealth": 1,
+                    "way": 1,
+                    "funds": 1
+                }
+            }
+        },
+        {
+            "id": "study",
+            "label": "Estudar",
+            "description": "Desbloqueie livros e outros tesouros.",
+            "slot": {
+                "id": "study",
+                "label": "Estudar",
+                "description": "As artes invisíveis poderiam ocupar até dez vidas de estudo.",
+                "required": {
+                    "text": 1,
+                    "lore": 1,
+                    "ability": 1,
+                    "influence": 1,
+                    "tutor": 1,
+                    "language": 1,
+                    "legacyplotitem": 1
+                }
+            }
+        },
+        {
+            "id": "talk",
+            "label": "Falar",
+            "description": "Interrogue, intimide, seduza, instrua, recrute.",
+            "slot": {
+                "id": "talk",
+                "label": "Falar",
+                "description": "Um aliado, um inimigo, ou algo no meio termo.",
+                "required": {
+                    "mortal": 1,
+                    "summoned": 1,
+                    "patron": 1,
+                    "society": 1,
+                    "hq": 1,
+                    "lore": 1
+                },
+                "forbidden": {
+                    "wary": 1
+                }
+            }
+        },
+        {
+            "id": "explore",
+            "label": "Explorar",
+            "description": "Explore a cidade com Saúde ou Seguidores; explore locais; ou investigue as possibilidades de sabedoria. Exploração é muitas vezes imprevisível.",
+            "slot": {
+                "id": "explore",
+                "label": "Explorar",
+                "description": "Um lugar; uma pessoa; um local; um segredo.",
+                "required": {
+                    "health": 1,
+                    "follower": 1,
+                    "secrethistories": 1,
+                    "location": 1,
+                    "ghoul.hunger": 1
+                },
+                "forbidden": {
+                    "hireling": 1
+                }
+            }
+        },
+        {
+            "id": "time",
+            "label": "Tempo",
+            "description": "A sombra do relógio de sol.",
+            "slot": {
+                "id": "time",
+                "label": "Tempo"
+            }
+        },
+        {
+            "id": "portal.mansus",
+            "label": "Mansus Portal",
+            "description": "A Mansus transition",
+            "icon": "map"
+        },
+        {
+            "id": "pickup",
+            "label": "Pickup",
+            "description": "offers cards via output slots"
+        }
+    ]
+}

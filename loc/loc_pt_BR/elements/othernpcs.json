@@ -1,0 +1,51 @@
+{
+    "elements": [
+        {
+            "id": "lunatic",
+            "label": "Mal Lunático",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "moth": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "Alguma experiência esmagadora roubou deste indivíduo os seus sentidos.",
+            "xtriggers": {
+                "killmortal": "corpse"
+            }
+        },
+        {
+            "id": "genericprisonerm",
+            "label": "Um Prisioneiro Impressionante",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "lantern": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "Alguém caiu em suas garras. Elas não sobreviverão para sempre.",
+            "xtriggers": {
+                "killmortal": "corpse",
+                "derangemortal": "lunatic"
+            }
+        },
+        {
+            "id": "genericprisonerf",
+            "label": "Um Prisioneiro Impressionante",
+            "aspects": {
+                "mortal": 1,
+                "prisoner": 1,
+                "lantern": 3,
+                "grail": 3,
+                "heart": 3
+            },
+            "description": "Alguém caiu em suas garras. Elas não sobreviverão para sempre.",
+            "xtriggers": {
+                "killmortal": "corpse",
+                "derangemortal": "lunatic"
+            }
+        }
+    ]
+}

@@ -1,0 +1,299 @@
+{
+    "recipes": [
+        {
+            "id": "studylatintutoring",
+            "label": "Estude latim com um professor",
+            "actionid": "study",
+            "requirements": {
+                "tutorlatin": 1,
+                "commission": -1,
+                "article": -1
+            },
+            "slots": [
+                {
+                    "id": "Costs",
+                    "label": "Custos",
+                    "required": {
+                        "compensationvalue": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studylatintutoringpaid",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Se eu precisar aprender latim, aqui está aquele que vai ajudar; mas precisarei pagar com espinja, a moeda do mundo escondido.",
+            "description": "Professores não trabalham de graça. Outra vez.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studylatintutoringpaid",
+            "label": "Estude latim com um professor",
+            "actionid": "study",
+            "requirements": {
+                "compensationvalue": 2
+            },
+            "effects": {
+                "scholarlatin": 1,
+                "compensationvalue": -2
+            },
+            "startdescription": "Isso será suficiente. Ouvirei cuidadosamente.",
+            "description": "A linguagem de Lucretius\" \"Sobre a Natureza das Coisas\", de Aquina Teologia\" e da célebre \"De Horis...\"."
+        },
+        {
+            "id": "studygreektutoring",
+            "label": "Estude grego com um instrutor",
+            "actionid": "study",
+            "requirements": {
+                "tutorgreek": 1,
+                "commission": -1,
+                "article": -1
+            },
+            "slots": [
+                {
+                    "id": "Costs",
+                    "label": "Custos",
+                    "required": {
+                        "compensationvalue": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studygreektutoringpaid",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Se eu precisar aprender grego, aqui está um que vai ajudar; mas vou precisar pagar com bolinha, a moeda do mundo escondido.",
+            "description": "Professores não trabalham de graça. Outra vez.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studygreektutoringpaid",
+            "label": "Estude grego com um instrutor",
+            "actionid": "study",
+            "requirements": {
+                "compensationvalue": 2
+            },
+            "effects": {
+                "scholargreek": 1,
+                "compensationvalue": -2
+            },
+            "startdescription": "Isso será suficiente. Ouvirei cuidadosamente.",
+            "description": "A linguagem do Metaphysica, de Procopius\" \"Histórico Secreto\", e da ameaçadora \"Sobre o que está contido na Silver\"..."
+        },
+        {
+            "id": "studyaramaictutoring",
+            "label": "Estude Aramaico com um professor",
+            "actionid": "study",
+            "requirements": {
+                "tutoraramaic": 1,
+                "commission": -1,
+                "article": -1
+            },
+            "slots": [
+                {
+                    "id": "Costs",
+                    "label": "Custos",
+                    "required": {
+                        "compensationvalue": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studyaramaictutoringpaid",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Se eu precisar aprender Aramai, aqui está um que vai ajudar; mas eu vou precisar pagar com spintria, a moeda do mundo escondido.",
+            "description": "Professores não trabalham de graça. Outra vez.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyaramaictutoringpaid",
+            "label": "Estude Aramaico com um professor",
+            "actionid": "study",
+            "requirements": {
+                "compensationvalue": 2
+            },
+            "effects": {
+                "scholararamaic": 1,
+                "compensationvalue": -2
+            },
+            "startdescription": "Isso será suficiente. Ouvirei cuidadosamente.",
+            "description": "A linguagem da Visão de Amram, do Livro de Daniel e da Contabilidade de Kanishk na porta das Aranhas."
+        },
+        {
+            "id": "studysanskrittutoring",
+            "label": "Estude Sanskrit com um professor",
+            "actionid": "study",
+            "requirements": {
+                "tutorsanskrit": 1,
+                "commission": -1,
+                "article": -1
+            },
+            "slots": [
+                {
+                    "id": "Costs",
+                    "label": "Custos",
+                    "required": {
+                        "compensationvalue": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studysanskrittutoringpaid",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "Se eu precisar aprender Sanskrit, aqui está aquele que vai ajudar; mas precisarei pagar com spintria, a moeda do mundo escondido.",
+            "description": "Professores não trabalham de graça. Outra vez.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studysanskrittutoringpaid",
+            "label": "Estude Sanskrit com um professor",
+            "actionid": "study",
+            "requirements": {
+                "compensationvalue": 2
+            },
+            "effects": {
+                "scholarsanskrit": 1,
+                "compensationvalue": -2
+            },
+            "startdescription": "Isso será suficiente. Ouvirei cuidadosamente.",
+            "description": "A língua sagrada do Subcontinente. A porta para quatro mil anos de poesia, cerimónia e mistério."
+        },
+        {
+            "id": "studyfucinetutoringspirit",
+            "label": "Estude uma fornalha com uma professora",
+            "actionid": "study",
+            "requirements": {
+                "spirittutorfucine": 1,
+                "summoned": 1
+            },
+            "slots": [
+                {
+                    "id": "Background",
+                    "label": "Fundo",
+                    "required": {
+                        "scholarlatin": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studyfucinetutoringsuccessful",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "'Fogo? Sim, eu me dou por comer carne. Eu posso te ensinar, se você tiver latim como terra. Mas se oiço uma rachada sobre a \"língua das bruxas\", está desligada.",
+            "description": "Não tenho o castigo de que precisava.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyfucinetutoringsuccessful",
+            "label": "Estude uma fornalha com uma professora",
+            "actionid": "study",
+            "requirements": {
+                "scholarlatin": 1
+            },
+            "effects": {
+                "scholarfucine": 1
+            },
+            "startdescription": "Meu latim servirá de fundação. Aprenderei tudo o que puder.",
+            "description": "Não se pode falar Fucine por muito tempo sem beber água. Ele seca os lábios; ele seca a garganta. Só podia ter sido falado por um povo que vivia perto de um lago."
+        },
+        {
+            "id": "studyphrygiantutoringspirit",
+            "label": "Estude Phrygian com um Professor",
+            "actionid": "study",
+            "requirements": {
+                "spirittutorphrygian": 1,
+                "summoned": 1
+            },
+            "slots": [
+                {
+                    "id": "Background",
+                    "label": "Fundo",
+                    "required": {
+                        "scholargreek": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studyphrygiantutoringsuccessful",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "'Phrygian! A língua da Grande Mãe! Claro. Se você tem grego suficiente, eu garanto que a experiência de aprender Phrygian será <i>muito</i> prazer.'",
+            "description": "Não tenho o castigo de que precisava.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studyphrygiantutoringsuccessful",
+            "label": "Estude Phrygian com um Professor",
+            "actionid": "study",
+            "requirements": {
+                "scholargreek": 1
+            },
+            "effects": {
+                "scholarphrygian": 1
+            },
+            "startdescription": "Meu grego servirá de fundação. Aprenderei tudo o que puder.",
+            "description": "Herodotus conta uma história selvagem de um faraó que descobriu que a língua Phrygian foi a primeira falada por humanos. Ele estava errado, é claro; era Vak. Mas todos gostam da história."
+        },
+        {
+            "id": "studymandaictutoringspirit",
+            "label": "Estude o Mandaico Profundo com um Professor",
+            "actionid": "study",
+            "requirements": {
+                "spirittutormandaic": 1,
+                "summoned": 1
+            },
+            "slots": [
+                {
+                    "id": "Background",
+                    "label": "Fundo",
+                    "required": {
+                        "scholararamaic": 1
+                    }
+                }
+            ],
+            "alt": [
+                {
+                    "id": "studymandaictutoringsuccessful",
+                    "chance": 100
+                }
+            ],
+            "startdescription": "'O TOGETHER NÓS SERÁ COMMEMORTE O TONGUE DO DESBUSCADO.'",
+            "description": "Não tenho o castigo de que precisava.",
+            "warmup": 60,
+            "craftable": true
+        },
+        {
+            "id": "studymandaictutoringsuccessful",
+            "label": "Estude o Mandaico Profundo com um Professor",
+            "actionid": "study",
+            "requirements": {
+                "scholararamaic": 1
+            },
+            "effects": {
+                "scholarmandaic": 1
+            },
+            "startdescription": "Meu Aramaico servirá como fundação. Aprenderei tudo o que puder.",
+            "description": "Em uma história, esta foi a língua que os Reis sem Sombra falaram. Noutro, era a base dos encantamentos das crianças do Flame Lasheado."
+        }
+    ]
+}
