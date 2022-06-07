@@ -93,20 +93,20 @@
         {
             "id": "edge",
             "label": "Fio",
-            "description": "Toda conquista ocorre na Orla. Alguns que moram ali são cegos e não podem ser feridos. Outros são fortes e se tornam cada vez mais fortes. [A Orla é o princípio da batalha e da guerra.]",
+            "description": "Toda conquista ocorre no Limiar. Aquele que habita ali é cego e não pode ser ferido. Outro é forte e se torna cada vez mais forte. [O Limiar é o princípio da batalha e da guerra.]",
             "isAspect": true,
             "noartneeded": true
         },
         {
             "id": "forge",
             "label": "Forja",
-            "description": "\"O fogo\", eu li uma vez, \"é o inverno que aquece e a primavera que consome.\" [O princípio da Forja transforma e destrói.]",
+            "description": "'Fogo', eu li uma vez, 'é o inverno que aquece e a primavera que consome.' [O princípio da Forja transforma e destrói.]",
             "isAspect": true
         },
         {
             "id": "grail",
             "label": "Graal",
-            "description": "Fome e Desejo, as águas traiçoeiras. [O princípio do Graal celebra o nascimento e a celebração.]",
+            "description": "Fome e Desejo, as águas traiçoeiras. [O princípio do Graal celebra o nascimento e a comemoração.]",
             "isAspect": true,
             "induces": [
                 {
@@ -129,7 +129,7 @@
         },
         {
             "id": "knock",
-            "label": "Bater",
+            "label": "Batida",
             "description": "A Batida não permite nenhum selo e nenhuma isolação. Ela alegremente nos empurra para fora da segurança da ignorância. [A Batida é o princípio que abre portas e desconjunta barreiras.]",
             "isAspect": true
         },
@@ -223,9 +223,9 @@
         },
         {
             "id": "ecdysijob",
-            "label": "Um lugar no Ecdysis Club",
+            "label": "Um lugar no Clube Ecdysis",
             "isAspect": true,
-            "description": "Eu consegui uma vaga no palco do Ecdysis Club."
+            "description": "Eu consegui uma vaga no palco do Clube Ecdysis."
         },
         {
             "id": "demotion",
@@ -243,7 +243,7 @@
             "id": "society",
             "label": "Sociedade",
             "isAspect": true,
-            "description": "Para recrutar seguidores, eu preciso criar algo para eles acreditarem."
+            "description": "Para recrutar seguidores, eu preciso criar algo para acreditarem."
         },
         {
             "id": "rededicable",
@@ -262,7 +262,7 @@
                     "chance": 100
                 }
             ],
-            "comments": "Isto é qualquer coisa que gera Fundos, e sempre acionará o timer de necessidades, se já não estiver em execução."
+            "comments": "Isto é qualquer coisa que gera Fundos, e sempre acionará o cronômetro de necessidades, se já não estiver em execução."
         },
         {
             "id": "pigment",
@@ -278,7 +278,7 @@
         },
         {
             "id": "influence",
-            "label": "Dominação",
+            "label": "Influência",
             "isAspect": true,
             "description": "Um eco, uma ressonância, um alinhamento. Algo que vai desaparecer em breve."
         },
@@ -340,7 +340,7 @@
             "id": "reasonskill",
             "label": "Estudante",
             "isAspect": true,
-            "description": "Sou um pilar da sabedoria! [Isto atualmente só permite que você aumente o Raciocínio um pouco mais.]"
+            "description": "Sou um pilar da sabedoria! [Isto atualmente só permite que você aumente a Razão um pouco.]"
         },
         {
             "id": "way",
@@ -364,7 +364,7 @@
             "id": "rivalmarks",
             "label": "Uma Ascensão de um Rival",
             "isAspect": true,
-            "description": "As oportunidades de ascender à Casa do Sol são raras. Se algum outro conseguir, eu posso perder a minha oportunidade. [Se atingir sete, seu Rival tem a chance de ganhar o jogo em seu lugar na próxima Temporada de Ambições.]"
+            "description": "As oportunidades de ascender à Casa do Sol são raras. Se alguém conseguir, posso perder minha oportunidade. [Se atingir sete, seu Rival tem a chance de ganhar o jogo em seu lugar na próxima Temporada de Ambições.]"
         },
         {
             "id": "changemarks",
@@ -376,19 +376,19 @@
             "id": "powermarks",
             "label": "As Marcas da Formação",
             "isAspect": true,
-            "description": "Posso procurar imortalidade e poder na Hora chamada de Forja dos Dias. O seu toque provoca desejos específicos, e Marcas."
+            "description": "Eu poderia procurar imortalidade e poder na Hora chamada de Forja dos Dias. O seu toque provoca desejos específicos, e Marcas."
         },
         {
             "id": "sensationmarks",
             "label": "As Marcas do Prazer",
             "isAspect": true,
-            "description": "Posso procurar imortalidade e prazer na Hora chamada de Graal Vermelho. O seu toque provoca desejos específicos, e Marcas."
+            "description": "Eu poderia procurar imortalidade e prazer na Hora chamada de Graal Vermelho. O seu toque provoca desejos específicos, e Marcas."
         },
         {
             "id": "enlightenmentmarks",
             "label": "As Marcas da Luz",
             "isAspect": true,
-            "description": "Posso procurar imortalidade e esclarecimento na Hora chamada de O Vigia. O seu toque provoca desejos específicos, e Marcas."
+            "description": "Eu poderia procurar imortalidade e esclarecimento na Hora chamada de O Vigia. O seu toque provoca desejos específicos, e Marcas."
         },
         {
             "id": "remembrancemarks",
@@ -448,7 +448,7 @@
             "label": "Ascendendo",
             "isAspect": true,
             "description": "Para a próxima Marca.",
-            "comments": "Receita aspecto",
+            "comments": "Aspecto da receita",
             "noartneeded": true
         },
         {
@@ -488,11 +488,11 @@
             "id": "lore",
             "label": "Conhecimento",
             "isAspect": true,
-            "description": "Conhecimento das artes ocultas. Eu posso usá-lo para atrair seguidores, para realizar rituais, para abrir o caminho para os Mansus, para buscar minha ascensão.. [Os fragmentos de Conhecimento algumas vezes podem ser atualizados com Estudo ou fazendo a correspondência dos fragmentos.]"
+            "description": "Conhecimento das artes ocultas. Eu posso usá-lo para atrair seguidores, para realizar rituais, para abrir o caminho para os Mansus, para buscar minha ascensão.. [Os fragmentos de Conhecimento algumas vezes podem ser atualizados com Estudo, fazendo a combinação dos fragmentos.]"
         },
         {
             "id": "subvertable_lore",
-            "label": "Conhecimento Subversivo",
+            "label": "História Oculta",
             "isAspect": true,
             "isHidden": true,
             "noartneeded": true
@@ -501,7 +501,7 @@
             "id": "memory",
             "label": "Memória",
             "isAspect": true,
-            "description": "Nós nos lembramos dos mortos, até que nos esquecemos deles."
+            "description": "Nós nos lembramos dos mortos, até que os esquecemos deles."
         },
         {
             "id": "language",
@@ -537,19 +537,19 @@
             "id": "spirittutorfucine",
             "label": "Fluente em Fucine",
             "isAspect": true,
-            "description": "Este espírito pode ser capaz de lhe ensinar a língua Fucine, se você conhecer algum outro idioma semelhante."
+            "description": "Este espírito pode ser capaz de lhe ensinar Fucine, se você conhecer algum outro idioma semelhante."
         },
         {
             "id": "spirittutorphrygian",
             "label": "Fluente em Frígio",
             "isAspect": true,
-            "description": "Este espírito pode ser capaz de lhe ensinar o idioma Frígio, se você conhecer alguma outra língua semelhante."
+            "description": "Este espírito pode ser capaz de lhe ensinar Frígio, se você conhecer alguma outra língua semelhante."
         },
         {
             "id": "spirittutormandaic",
             "label": "Fluente em Mandaico",
             "isAspect": true,
-            "description": "Este espírito pode ser capaz de lhe ensinar o idioma Mandaico, se você conhecer alguma outra língua semelhante."
+            "description": "Este espírito pode ser capaz de lhe ensinar Mandaico Arcaico, se você conhecer alguma outra língua semelhante."
         },
         {
             "id": "spiritsicknessprotector",
@@ -634,7 +634,7 @@
         {
             "id": "location",
             "label": "Local:",
-            "description": "Localizações! Tudo deve estar em algum lugar, e isto está aqui.",
+            "description": "Localizações! Tudo precisa estar em algum lugar, e isto está aqui.",
             "isAspect": true
         },
         {
@@ -688,7 +688,7 @@
         {
             "id": "curse",
             "label": "Maldição",
-            "description": "Uma influência maligna que você deve derrotar.",
+            "description": "Uma influência maligna que você precisa derrotar.",
             "isAspect": true
         },
         {
@@ -712,7 +712,7 @@
         {
             "id": "challenge.knowledge",
             "label": "Requer Conhecimento",
-            "description": "Este é um quebra-cabeça com peças faltando. Talvez eu encontre essas peças em cantos estranhos de estudo. [Para atualizar ou subverter este Fragmento, você precisa de Erudição, ou de um QG com uma Biblioteca.]",
+            "description": "Este é um quebra-cabeça com peças faltando. Talvez eu encontre essas peças em cantos estranhos de estudo. [Para atualizar ou subverter este Fragmento, você precisa de Erudição, ou de uma sede com uma Biblioteca.]",
             "isAspect": true
         },
         {
@@ -723,26 +723,26 @@
         },
         {
             "id": "challenge.grim",
-            "label": "Requer uma Aula Sinistra",
-            "description": "Eu vou aprender. [Para atualizar ou subverter esse Fragmento, você precisa de Pavor (que pode se multiplicar), da habilidade Intensidade Silenciosa, ou de um QG com um Poço.]",
+            "label": "Requer uma Lição Sinistra",
+            "description": "Eu vou aprender. [Para atualizar ou subverter esse Fragmento, você precisa de Pavor (que pode se multiplicar), da habilidade Intensidade Silenciosa, ou de uma sede com um Poço.]",
             "isAspect": true
         },
         {
             "id": "challenge.obsessive",
             "label": "Requer Pesquisa Obsessiva",
-            "description": "Este tema exige mais atenção do que a segurança. [Para atualizar ou subverter este Fragmento, você precisa de um QG com uma biblioteca: Habilidade Não-Nunca, ou uma Razão. Há um risco muito pequeno que sua Razão fique permanentemente danificada.]",
+            "description": "Este tema exige mais atenção do que a segurança. [Para atualizar ou subverter este Fragmento, você precisa de uma sede com uma biblioteca: Habilidade Não-Nunca, ou uma Razão. Há um risco muito pequeno que sua Razão fique permanentemente danificada.]",
             "isAspect": true
         },
         {
             "id": "challenge.paradox",
             "label": "Requer uma Resolução Paradoxical",
-            "description": "A verdade é uma serpente. As respostas alimentam seus apelidos. [Para atualizar ou subverter este Fragmento, você precisa de um QG com um Santuário, a habilidade de Alma Aberta ou uma Paixão. Há um risco muito pequeno que sua Paixão fique permanentemente danificada.]",
+            "description": "A verdade é uma serpente. As respostas alimentam seus apelidos. [Para atualizar ou subverter este Fragmento, você precisa de uma sede com um Santuário, a habilidade de Alma Aberta ou uma Paixão. Há um risco muito pequeno que sua Paixão fique permanentemente danificada.]",
             "isAspect": true
         },
         {
             "id": "challenge.illumination",
             "label": "Requer Iluminação",
-            "description": "A água enche o copo; a luz enche a mente. [Para atualizar ou subverter este Fragmento, você precisa da Fascinação (que pode ser gerada), um QG com uma biblioteca ou a habilidade Mente Elevada.]",
+            "description": "A água enche o copo; a luz enche a mente. [Para atualizar ou subverter este Fragmento, você precisa da Fascinação (que pode ser multiplicada), uma sede com uma Biblioteca ou a habilidade Mente Elevada.]",
             "isAspect": true
         },
         {
