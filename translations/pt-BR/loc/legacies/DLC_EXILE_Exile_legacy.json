@@ -2,9 +2,10 @@
     "legacies": [
         {
             "id": "exile",
-            "label": "The Exile",
-            "description": "No-one steals from a reckoner lord. And yet, I did. I had my reasons.",
-            "startdescription": "Sunset. Time to go.",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "Ninguém rouba de um estimado senhor. Ainda sim, eu o fiz. Eu tive minhas razões.",
+            "startdescription": "Pôr do sol. Hora de ir.",
             "image": "exile",
             "effects": {
                 "trace": 7,
@@ -26,9 +27,10 @@
         },
         {
             "id": "exile.obscurityvictorya",
-            "label": "The Exile",
-            "description": "What if it had been different? In another history, did I reap greater rewards?",
-            "startdescription": "Sunset. Time to go.",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que colhi recompensas maiores?",
+            "startdescription": "Pôr do sol. Hora de ir.",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -49,9 +51,10 @@
         },
         {
             "id": "exile.obscurityvictoryb",
-            "label": "The Exile",
-            "description": "What if it had been different? In another history, did I reap even greater rewards?",
-            "startdescription": "Sunset. Time to go.",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que colhi recompensas ainda maiores?",
+            "startdescription": "Pôr do sol. Hora de ir.",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -72,9 +75,10 @@
         },
         {
             "id": "exile.obscurityvictoryc",
-            "label": "The Exile",
-            "description": "What if it had been different? In another history, did I rise higher?",
-            "startdescription": "Sunset. Time to go.",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que ascendi mais alto?",
+            "startdescription": "Pôr do sol. Hora de ir.",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -95,9 +99,10 @@
         },
         {
             "id": "exile.obscurityvictoryafoeslain",
-            "label": "The Exile",
-            "description": "What if it had been different? In another history, did I reap greater rewards?",
-            "startdescription": "Sunset. Time to go.",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que colhi recompensas maiores?",
+            "startdescription": "Pôr do sol. Hora de ir.",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -118,9 +123,10 @@
         },
         {
             "id": "exile.obscurityvictorybfoeslain",
-            "label": "The Exile",
-            "description": "What if it had been different? In another history, did I reap even greater rewards?",
-            "startdescription": "Sunset. Time to go.",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que colhi recompensas ainda maiores?",
+            "startdescription": "Pôr do sol. Hora de ir.",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -141,9 +147,10 @@
         },
         {
             "id": "exile.obscurityvictorycfoeslain",
-            "label": "The Exile",
-            "description": "What if it had been different? In another history, did I rise higher?",
-            "startdescription": "Sunset. Time to go.",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que ascendi mais alto?",
+            "startdescription": "Pôr do sol. Hora de ir.",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -164,9 +171,10 @@
         },
         {
             "id": "exile.foecaughtup",
-            "label": "The Exile",
-            "description": "What if it had been different? In another history, did I survive?",
-            "startdescription": "Sunset. Time to go.",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que sobrevivi?",
+            "startdescription": "Pôr do sol. Hora de ir.",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -187,9 +195,10 @@
         },
         {
             "id": "exile.ascensioncolonel",
-            "label": "The Exile",
-            "description": "What if it had been different? In another history, did I find something more like freedom?",
-            "startdescription": "Sunset. Time to go.",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que encontrei algo mais parecido com liberdade?",
+            "startdescription": "Pôr do sol. Hora de ir.",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -210,9 +219,10 @@
         },
         {
             "id": "exile.ascensionlionsmith",
-            "label": "The Exile",
-            "description": "What if it had been different? In another history, did I find something more like peace?",
-            "startdescription": "Sunset. Time to go.",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que encontrei algo mais parecido com a paz?",
+            "startdescription": "Pôr do sol. Hora de ir.",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -233,9 +243,10 @@
         },
         {
             "id": "exile.ascensionwolf",
-            "label": "The Exile",
-            "description": "What if it had been different? In another history, was I also a destroyer?",
-            "startdescription": "Sunset. Time to go.",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será se fui também um destruidor?",
+            "startdescription": "Pôr do sol. Hora de ir.",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,
@@ -256,9 +267,10 @@
         },
         {
             "id": "exile.victoryvelvet",
-            "label": "The Exile",
-            "description": "What if it had been different? In another history, did I meet my maker?",
-            "startdescription": "Sunset. Time to go.",
+            "label": "O Exílio",
+            "family": "exile",
+            "description": "E se tivesse sido diferente? Em outra história, será que encontrei meu criador?",
+            "startdescription": "Pôr do sol. Hora de ir.",
             "image": "exile",
             "effects": {
                 "decade.stolen": 7,

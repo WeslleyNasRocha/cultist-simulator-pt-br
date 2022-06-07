@@ -3,6 +3,7 @@
         {
             "id": "rkx.events",
             "label": "Planos de Cobrança",
+            "forlegacyfamily": "exile",
             "description": "Os cobradores estão planejando seus próximos passos.",
             "spec": [
                 "rkx.event.aggressive",
@@ -15,6 +16,7 @@
         {
             "id": "rkx.weaknesses.environment",
             "label": "Fraquezas do inimigo: Ambiente",
+            "forlegacyfamily": "exile",
             "spec": [
                 "rkx.weakness.cold.hidden",
                 "rkx.weakness.heat.hidden",
@@ -25,6 +27,7 @@
         {
             "id": "rkx.weaknesses.quirk",
             "label": "Fraquezas do inimigo: Peculiaridade",
+            "forlegacyfamily": "exile",
             "spec": [
                 "rkx.weakness.faith.hidden",
                 "rkx.weakness.cats.hidden",
@@ -35,6 +38,7 @@
         {
             "id": "rkx.weaknesses.disfavour",
             "label": "Fraquezas do inimigo: Desfavor",
+            "forlegacyfamily": "exile",
             "spec": [
                 "rkx.weakness.horned.hidden",
                 "rkx.weakness.wolf.hidden",

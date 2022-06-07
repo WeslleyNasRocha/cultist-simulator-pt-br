@@ -46,7 +46,8 @@
                 "society": "fatigue",
                 "scar_ability": "scar_heart"
             },
-            "description": "Este é meu corpo. Existem outros corpos, mas este é meu, e minha mente precisa dele como um fungo precisa de solo. [Com Vitalidade suficiente, você pode ganhar mais Saúde.]"
+            "description": "Este é meu corpo. Existem outros corpos, mas este é meu, e minha mente precisa dele como um fungo precisa de solo. [Com Vitalidade suficiente, você pode ganhar mais Saúde.]",
+            "decayTo": "fatigue"
         },
         {
             "id": "vitality",
@@ -103,7 +104,8 @@
             },
             "description": "Tenho um anseio inquieto. Eu sinto que quero fazer... <i>algo</i>. O que, exatamente?",
             "lifetime": 60,
-            "decayTo": "dread"
+            "decayTo": "dread",
+            "burnTo": "preglimmering"
         },
         {
             "id": "bloodshed",
@@ -249,7 +251,8 @@
                 "ritual": "concentration",
                 "society": "concentration",
                 "scarability": "scar_lantern"
-            }
+            },
+            "decayTo": "concentration"
         },
         {
             "id": "concentration",
@@ -375,7 +378,8 @@
                 "toreason": "reason",
                 "ritual": "passionexhausted",
                 "society": "passionexhausted"
-            }
+            },
+            "decayTo": "passion"
         },
         {
             "id": "decrepitude",

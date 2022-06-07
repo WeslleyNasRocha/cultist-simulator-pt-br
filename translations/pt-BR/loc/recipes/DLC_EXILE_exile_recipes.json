@@ -83,8 +83,8 @@
         {
             "id": "travel.first",
             "actionid": "travel",
-            "label": "Far Enough and Fast Enough ",
-            "startdescription": "I have more than enough cash for the journey - but I might need to travel light. [Leaving a city will shake off your pursuers - but they'll find you again eventually.",
+            "label": "Longe e rápido o suficiente",
+            "startdescription": "Eu tenho dinheiro mais que o suficiente para a jornada — mas tenho que viajar com pouco peso. [Sair de uma cidade vai afastar seus perseguidores — mas eles te encontrarão eventualmente.",
             "effects": {
                 "cash": 2
             },
@@ -93,9 +93,9 @@
         {
             "id": "travel.caper.begin",
             "actionid": "travel",
-            "label": "Begin a Caper",
-            "startdescription": "Get in, get the goods, get out. I don't think it's ever been that simple.",
-            "description": "I've begun. [Keep an eye on the Operation. Complications will arise along the way.]",
+            "label": "Iniciar uma Travessura",
+            "startdescription": "Entre, pegue as mercadorias, saia. Acredito que nunca foi tão simples.",
+            "description": "Eu comecei. [Fique de olho na Operação. Complicações surgirão ao longo do caminho.]",
             "requirements": {
                 "vault": 1
             },
@@ -129,8 +129,8 @@
         {
             "id": "opx.caper.progress3",
             "actionid": "opx.caper",
-            "label": "The Prize!",
-            "startdescription": "This is what I came for.",
+            "label": "O prêmio!",
+            "startdescription": "É para isso que eu vim.",
             "requirements": {
                 "progress": 3
             },
@@ -144,8 +144,8 @@
         {
             "id": "opx.caper.progress2",
             "actionid": "opx.caper",
-            "label": "A Final Complication...",
-            "startdescription": "Nearly there -",
+            "label": "Um último problema...",
+            "startdescription": "Quase lá -",
             "requirements": {
                 "progress": 2
             },
@@ -162,8 +162,8 @@
         {
             "id": "opx.caper.progress1",
             "actionid": "opx.caper",
-            "label": "Another Complication...",
-            "startdescription": "What now?",
+            "label": "Outro problema...",
+            "startdescription": "O que foi agora?",
             "requirements": {
                 "progress": 1
             },
@@ -180,8 +180,8 @@
         {
             "id": "opx.caper.populate",
             "actionid": "opx.caper",
-            "label": "A Busy Night Lies Ahead",
-            "startdescription": "Ready. [Three Momentum means success. There'll be complications before that.]",
+            "label": "Uma noite trabalhosa vem por aí",
+            "startdescription": "Pronto. [Três impulsos significa sucesso. Haverá problemas antes disso.]",
             "aspects": {
                 "opx.progress0": 1
             },
@@ -195,7 +195,7 @@
         {
             "id": "opx.caper.next",
             "actionid": "opx.caper",
-            "label": "A Complication",
+            "label": "Um problema",
             "startdescription": "@#ee.armouredgate|A heavy reinforced door bars my way.\n#ee.avidadept|'There's a Grail-adept already camped out near the site. You'll need to be ready for her tricks.'\n#ee.bosk|Thorned caressing branches, the scents of darkest green, furred movements beneath my hand, the black and beating darkness... the Wood runs close beneath the skin of the world here.\n#ee.coiltrace|'That power itself, the thing under the earth. Bureau says it started as a lesser tendril of the Seven-Coiled. Old god, d'you see? The god-flesh starts to rot and something else starts to breed in it. What they call Worms. I'd watch yourself. Fair warning.'\n#ee.crags|'Lot of the passes going up there have been blocked. You'll need to find a road or make one. I'd try to get you explosives, but the Bureau side doesn't like 'em, and the Army side doesn't like me.'\n#ee.creepinghorror|A creeping horror filters in through the skin. Come closer, says the night. Come closer.\n#ee.deceiver|A creature of twisting guile lurks here!\n#ee.devourer|A creature of crushing strength lurks here! Some monsters are the Lionsmith's children; some are Echidna's; some are both. Others are worse.\n#ee.feast|The way to where I go requires something like a ritual, or a feast. I'd like to think of it as a party, though it's not the kind of party I'd choose. I'll need to keep a level head, weird intoxications or not. If I can't I'll come back with nothing more interesting than a hangover.\n#ee.fretfuldead|Cobwebby, reproachful remnants - fragile, but quicker than they look, and their touch will draw the years right out through the skin.\n#ee.guardedcompound|A guarded compound - walls, towers, and watchers.\n#ee.labyrinthseal|An extraordinary knot of mechanisms sealing an armoured vault door. I'm not clear if it's entirely occult or entirely mechanical in nature, but I know it's entirely going to make my life difficult.\n#ee.ligeian|A Ligeian! I can't defeat her, but I can convince her I'm not worth the trouble.\n#ee.miasma|A sticky, stenchy miasma. My head swims.\n#ee.mist|The Nameless Name of the Velvet has passed this way. This mist is the hem of her grey garment. It'll be hell to find a way through.\n#ee.monks|The guards of this place aren't susceptible to bribes or seduction. Some would say that's because of the holy oaths they've taken, but I suspect it's because they watch each other carefully.\n#ee.ordeal.agony|Now I face an Ordeal of Agony. I've done this kind of thing before, which is why I'm not looking forward to doing it again. I still carry the scars from last time, though not on my skin.\n#ee.ordeal.desolation|Now I face an Ordeal of Desolation - a sunset in the soul.\n#ee.ordeal.enigma|Now I face an Enigmatic Ordeal. There are two ways through: understand everything, or understand nothing.\n#ee.percussigant|A lolloping whirl of furred, clawed music demands my immediate attention. A Percussigant!\n#ee.scarredduellist|A scarred duellist salutes me.\n#ee.securevault|A heavy vault door with an impressive lock.\n#ee.shadowedway|The entrance is here, somewhere. I just need to find it.\n#ee.soldiers|Armed men guard this place.\n#ee.storm|Thunder stalks the lightning through the clouds, and the rain comes down like fists.\n#ee.strixriddenadversary|A duellist scuttles keening towards you. His muscles are taut and trembling, and his eyes are black and gold like an owl's. He's strix-ridden - possessed by a many-winged Names of the Edge powers.\n#ee.thugs|A surly band of miscreants loiters here, eager for trouble.\n#ee.unknownlocation|An unknown location. I'll need to start by finding exactly where this place even is.\n#ee.unwelcomememories|Unwelcome memories! The mirrors in the walls flash, and flash again, and I see myself, in my days of service to the Foe - what was done to me, and worse, what I did -\n#ee.vigil|The songs of the cultist soften into something like a lullaby. I find that I'm struggling to keep my eyes open. My head feels stuffed with feathers. Somehow, I'll have to stay awake until dawn.\n#|A complication lies ahead.@\n\n[Most Complications can be defeated with enough of the appropriate Aspect.]",
             "warmup": 60,
             "slots": [
@@ -1717,7 +1717,7 @@
             "id": "ally.trail.false.waiting.displaytext",
             "actionid": "ally.trail.false.2",
             "label": "Waiting...",
-            "startdescription": "\"@#ally.barber|Zulfiya's work is done. She'll be back as soon as she can travel safely.\\n#ally.delver|Orsolina's work is done. She'll be back as soon as she can travel safely.\\n#ally.fivegoer|Vasil's work is done. He'll be back as soon as he can travel safely.\\n#ally.ghoul|Dominykas' work is done. He'll be back as soon as he can travel safely.\\n#ally.huntress|Lalla Chaima's work is done. She'll be back as soon as she can travel safely.\\n#ally.smuggler|Giorgiou's work is done. He'll be back as soon as he can travel safely.\\n#ally.visionary|Mireya's work is done. She'll be back as soon as she can travel safely.\\n\r\n#ally.vivisectionist|@\"",
+            "startdescription": "\"@#ally.barber|Zulfiya's work is done. She'll be back as soon as she can travel safely.\n#ally.delver|Orsolina's work is done. She'll be back as soon as she can travel safely.\n#ally.fivegoer|Vasil's work is done. He'll be back as soon as he can travel safely.\n#ally.ghoul|Dominykas' work is done. He'll be back as soon as he can travel safely.\n#ally.huntress|Lalla Chaima's work is done. She'll be back as soon as she can travel safely.\n#ally.smuggler|Giorgiou's work is done. He'll be back as soon as he can travel safely.\n#ally.visionary|Mireya's work is done. She'll be back as soon as she can travel safely.\n\r\n#ally.vivisectionist|@\"",
             "warmup": 60,
             "linked": [
                 {
@@ -1953,8 +1953,10 @@
             "requirements": {
                 "destination": 1
             },
+            "deleteverb": {
+                "rkx*": 100
+            },
             "haltverb": {
-                "rkx*": 100,
                 "opx*": 100,
                 "scout": 1,
                 "use": 1,

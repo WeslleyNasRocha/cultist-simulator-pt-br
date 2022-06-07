@@ -2,11 +2,10 @@
     "recipes": [
         {
             "id": "testemptyresults",
-            "label": "'In so far as one denies what is, one is possessed by what is not.' - Le Guin",
+            "label": "\"Na medida em que se nega o que é, alguém é possuído pelo que não é\". - Le Guin",
             "actionId": "testemptyresults",
-            "effects": {},
-            "startdescription": "test empty coming up -",
-            "description": "Nothing here, verb stuck open.",
+            "startdescription": "teste vazio chegando -",
+            "description": "Nothing here.",
             "warmup": 10,
             "craftable": false
         }

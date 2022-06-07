@@ -183,13 +183,13 @@
             },
             "startdescription": "Agora eu passo pelas árvores com suas esfoladas cicatrizes. A lua passa atrás dos galhos, mas seus dedos continuam em meus cabelos. Estou tropeçando pelas raízes, agora. Tenta-me ficar-me de quatro para desviar dos galhos mais baixos. Pálidas asas movem-se na profundeza da noite.",
             "description": ".",
-            "portaleffect": "Wood",
             "alt": [
                 {
                     "id": "poison.long.way.trap",
                     "additional": true
                 }
             ],
+            "portaleffect": "wood",
             "warmup": 0,
             "aspects": {
                 "fatiguing": 1

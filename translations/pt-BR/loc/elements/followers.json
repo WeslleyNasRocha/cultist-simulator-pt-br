@@ -1846,7 +1846,6 @@
                 "derangemortal": "lunatic"
             },
             "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqauclair"
         },
         {
@@ -1864,8 +1863,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqcat"
         },
         {
@@ -1883,8 +1880,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqclifton"
         },
         {
@@ -1902,8 +1897,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqclovette"
         },
         {
@@ -1921,8 +1914,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqdorothy"
         },
         {
@@ -1941,8 +1932,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqdouglas",
             "icon": "defaulthunterprisoner"
         },
@@ -1962,8 +1951,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqenid"
         },
         {
@@ -1982,8 +1969,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqelridge"
         },
         {
@@ -2002,8 +1987,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqlaidlaw"
         },
         {
@@ -2021,8 +2004,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqleo"
         },
         {
@@ -2041,8 +2022,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqneville"
         },
         {
@@ -2061,8 +2040,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqporter"
         },
         {
@@ -2080,8 +2057,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqrenira"
         },
         {
@@ -2100,8 +2075,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqrose"
         },
         {
@@ -2119,8 +2092,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqslee"
         },
         {
@@ -2139,8 +2110,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqtristan"
         },
         {
@@ -2158,8 +2127,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqsaliba"
         },
         {
@@ -2178,8 +2145,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqsylvia"
         },
         {
@@ -2198,8 +2163,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqvalciane"
         },
         {
@@ -2218,8 +2181,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqvictor"
         },
         {
@@ -2238,8 +2199,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqviolet"
         },
         {
@@ -2258,8 +2217,6 @@
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
             },
-            "lifetime": 600,
-            "decayTo": "corpse",
             "uniquenessgroup": "uqysabet"
         },
         {
@@ -2712,9 +2669,7 @@
             "xtriggers": {
                 "killmortal": "corpse",
                 "derangemortal": "lunatic"
-            },
-            "lifetime": 600,
-            "decayTo": "corpse"
+            }
         }
     ]
 }

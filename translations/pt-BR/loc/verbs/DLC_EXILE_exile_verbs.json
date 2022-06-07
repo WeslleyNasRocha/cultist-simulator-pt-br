@@ -2,11 +2,11 @@
     "verbs": [
         {
             "id": "scout",
-            "label": "Reconnoitre",
-            "description": "Sniff out possibilities.",
+            "label": "Verificar",
+            "description": "Revelar Posibilidades.",
             "slot": {
                 "id": "scout",
-                "label": "Reconnoitre",
+                "label": "Verificar",
                 "required": {
                     "domicile": 1
                 }
@@ -14,11 +14,11 @@
         },
         {
             "id": "use",
-            "label": "Employ",
-            "description": "Make use of something. [Address Opportunities, run Operations, or convert years to cash.]",
+            "label": "Empregar",
+            "description": "Usar Algo. [Oportunidades de Endereço, Executar Operações, ou Converter anos em dinheiro.]",
             "slot": {
                 "id": "plan",
-                "label": "Plan",
+                "label": "Plano",
                 "required": {
                     "connection": 1,
                     "op": 1,
@@ -31,12 +31,12 @@
         },
         {
             "id": "travel",
-            "label": "Travel",
-            "description": "Some travels are intended to broaden one's mind: others, to lengthen one's life.",
+            "label": "Viajar",
+            "description": "Algumas viagens são feitas para abrir sua mente: outras, para alongar sua vida.",
             "slot": {
                 "id": "direction",
-                "label": "Intention",
-                "description": "A road, or its end?",
+                "label": "Intenção",
+                "description": "Uma estrada, ou seu fim?",
                 "required": {
                     "destination": 1,
                     "location": 1,
@@ -49,11 +49,11 @@
         },
         {
             "id": "send",
-            "label": "Communicate",
-            "description": "Send messages, moneys and more. Be careful.",
+            "label": "Comunicar",
+            "description": "Enviar mensagens, dinheiro e mais. Tenha Cuidado.",
             "slot": {
                 "id": "send",
-                "label": "Send",
+                "label": "Enviar",
                 "required": {
                     "desire": 1,
                     "domicile": 1,
@@ -68,11 +68,11 @@
         },
         {
             "id": "relinquish",
-            "label": "Relinquish",
-            "description": "Sell; abandon; extirpate; surrender.",
+            "label": "Renunciar",
+            "description": "Vender; Abandonar; Extirpar; Renunciar.",
             "slot": {
                 "id": "relinquish",
-                "label": "Relinquish",
+                "label": "Renunciar",
                 "required": {
                     "asset": 1,
                     "lifespan.stolen": 1,
@@ -84,11 +84,11 @@
         },
         {
             "id": "time.exile",
-            "label": "Time",
-            "description": "The final enemy?",
+            "label": "Tempo",
+            "description": "O inimigo final?",
             "slot": {
                 "id": "time",
-                "label": "Time"
+                "label": "Tempo"
             }
         }
     ]

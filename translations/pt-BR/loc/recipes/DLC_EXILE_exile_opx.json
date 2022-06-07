@@ -4,7 +4,7 @@
             "id": "use.sanatorium.duplicate.hint",
             "actionid": "use",
             "label": "Run another Sanatorium?",
-            "startdescription": "One at a time is enough.",
+            "startdescription": "Um por vez é suficiente.",
             "requirements": {
                 "licence.medical": 1,
                 "space": 2,
@@ -34,7 +34,7 @@
             "id": "use.doctorspractice.duplicate.hint",
             "actionid": "use",
             "label": "Run another Doctor's Practice?",
-            "startdescription": "One at a time is enough.",
+            "startdescription": "Um por vez é suficiente.",
             "requirements": {
                 "licence.medical": 1,
                 "space": 1,
@@ -50,7 +50,7 @@
             "id": "use.miracles.duplicate.hint",
             "actionid": "use",
             "label": "Run another Faith-Healing Cult?",
-            "startdescription": "One at a time is enough.",
+            "startdescription": "Um por vez é suficiente.",
             "requirements": {
                 "connection.holy": 1,
                 "space": 1,
@@ -66,7 +66,7 @@
             "id": "use.cultseed.flowermaker.duplicate.hint",
             "actionid": "use",
             "label": "Assemble another Esoteric Cult of the Flowermaker?",
-            "startdescription": "One at a time is enough.",
+            "startdescription": "Um por vez é suficiente.",
             "description": "The congregation is assembling.",
             "requirements": {
                 "op.miracles.cultseed": 1,
@@ -84,7 +84,7 @@
             "id": "use.cultseed.horned.duplicate.hint",
             "actionid": "use",
             "label": "Assemble another Esoteric Cult of the Horned Axe?",
-            "startdescription": "One at a time is enough.",
+            "startdescription": "Um por vez é suficiente.",
             "description": "The congregation is assembling.",
             "requirements": {
                 "op.miracles.cultseed": 1,
@@ -102,7 +102,7 @@
             "id": "use.cultseed.wolf.duplicate.hint",
             "actionid": "use",
             "label": "Assemble another Esoteric Cult of the Wolf Divided?",
-            "startdescription": "One at a time is enough.",
+            "startdescription": "Um por vez é suficiente.",
             "description": "The congregation is assembling.",
             "requirements": {
                 "op.miracles.cultseed": 1,
@@ -120,7 +120,7 @@
             "id": "use.cultseed.miracles.duplicate.hint",
             "actionid": "use",
             "label": "Continue another Faith-Healing Cult?",
-            "startdescription": "One at a time is enough.",
+            "startdescription": "Um por vez é suficiente.",
             "description": "The congregation is assembling, again.",
             "requirements": {
                 "op.miracles.cultseed": 1,
@@ -137,7 +137,7 @@
             "id": "use.import.duplicate.hint",
             "actionid": "use",
             "label": "Run another Import Business?",
-            "startdescription": "One at a time is enough.",
+            "startdescription": "Um por vez é suficiente.",
             "description": "I've opened up shop.",
             "requirements": {
                 "licence.import": 1,
@@ -154,7 +154,7 @@
             "id": "use.counterfeiting.duplicate.hint",
             "actionid": "use",
             "label": "Run another Counterfeiting Operation?",
-            "startdescription": "One at a time is enough.",
+            "startdescription": "Um por vez é suficiente.",
             "description": "The presses are almost ready.",
             "requirements": {
                 "connection.underworld": 1,
@@ -188,7 +188,7 @@
             "id": "use.fights.duplicate.hint",
             "actionid": "use",
             "label": "Compete in Even More Illegal Fights?",
-            "startdescription": "Seriously, though.",
+            "startdescription": "Sério, então.",
             "requirements": {
                 "connection.underworld": 1,
                 "year.stolen": 1
@@ -239,7 +239,7 @@
             "id": "use.patronage.duplicate.hint",
             "actionid": "use",
             "label": "Pester the Ruler for Further Patronage?",
-            "startdescription": "Perhaps not.",
+            "startdescription": "Talvez não.",
             "requirements": {
                 "connection.ruler": 1,
                 "year.stolen": 1
@@ -255,7 +255,7 @@
             "actionid": "use",
             "label": "Run a Sanatorium",
             "startdescription": "Once I've treated a couple of wealthy widows, the word will spread quickly. [A reasonably safe way to convert stolen lifespan into cash. Heart aspect cards are often useful when running a Sanatorium.]",
-            "description": "The Sanatorium is open.",
+            "description": "O Sanatório está aberto.",
             "requirements": {
                 "licence.medical": 1,
                 "space": 2,
@@ -375,7 +375,7 @@
             "actionid": "use",
             "label": "Assemble an Esoteric Cult of the Flowermaker",
             "startdescription": "The Flowermaker's presence is strong here. I'll let the enthusiasts in the congregation pursue their pleasures. [A reasonably safe way to convert stolen lifespan into cash. Moth aspect cards are often useful when running a Cult.]",
-            "description": "The congregation is assembling.",
+            "description": "A congregação está se reunindo.",
             "requirements": {
                 "op.miracles.cultseed": 1,
                 "op.flowermaker": 1,
@@ -545,7 +545,7 @@
             "id": "use.counterfeiting",
             "actionid": "use",
             "label": "Run a Counterfeiting Operation",
-            "startdescription": "As long as I have the connections and the resources, I can... make money. [A reasonably safe way to generate cash. Forge aspect cards are often useful when running a Counterfeiting Operation.]",
+            "startdescription": "Contanto que eu tenha os contatos e recursos, eu posso... ganhar dinheiro. [Uma maneira razoavelmente segura de gerar dinheiro. Cartas de aspecto Forja são úteis para executar uma Operação de Falsificação.]",
             "description": "The presses are almost ready.",
             "requirements": {
                 "connection.underworld": 1,
@@ -781,8 +781,8 @@
         {
             "id": "use.patronage",
             "actionid": "use",
-            "label": "Accept Patronage",
-            "startdescription": "There's nothing a ruler wants more than more life, and there's no-one who pays better. I'll need to make sure my patron doesn't understand my methods, though, or they might get ideas. [A reasonably safe way to convert stolen lifespan into cash.]",
+            "label": "Aceitar Patronagem",
+            "startdescription": "Não há nada que um governante queira mais que mais que mais vida, e ninguém paga melhor. No entanto, vou precisar ter certeza de que meu patrono não entende meus métodos, ou eles podem ter certas ideias. [Uma maneira razoavelmente segura de converter tempo de vida roubado em dinheiro.]",
             "requirements": {
                 "connection.ruler": 1,
                 "year.stolen": 1
@@ -997,7 +997,7 @@
             "id": "opx.sanatorium.begin",
             "actionid": "opx.sanatorium",
             "label": "A Sanatorium",
-            "startdescription": "[Challenges will occur while your Operation is running. If you can match their Aspect requirements by adding cards, your Operation will be subtler, or more effective. Cards will remain in the Operation until the end.]",
+            "startdescription": "[Desafios ocorrerão enquanto a sua Operação está sendo executada. Se você puder corresponder aos requisitos do Aspecto adicionando cartas, sua operação será mais sutil ou eficaz. Cartas permanecerão na Operação até o fim.]",
             "warmup": 10,
             "slots": [
                 {
