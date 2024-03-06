@@ -77,7 +77,6 @@
                         "funds": 1
                     },
                     "greedy": true,
-                    "noanim": true,
                     "description": "The shop-keepers will have their due. I must pay it or starve."
                 }
             ],
@@ -358,7 +357,6 @@
         },
         {
             "id": "despairrisklink",
-            "label": "despairrisklink",
             "actionid": "despair",
             "requirements": {
                 "seasondespair": 1
@@ -374,7 +372,6 @@
         },
         {
             "id": "visionsrisklink",
-            "label": "visionsrisklink",
             "actionid": "visions",
             "requirements": {
                 "seasonvisions": 1
@@ -419,8 +416,7 @@
                     "chance": 100
                 }
             ],
-            "startdescription": ".",
-            "description": "Without money, I'll soon starve. [If an illness cannot consume Health, it will kill you.]",
+            "startdescription": "Without money, I'll soon starve. [If an illness cannot consume Health, it will kill you.]",
             "warmup": 60,
             "slots": [
                 {

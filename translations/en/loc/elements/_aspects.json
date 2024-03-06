@@ -92,6 +92,7 @@
         },
         {
             "id": "edge",
+            "sort": "_p.0",
             "label": "Edge",
             "description": "All conquest occurs at the Edge. One who dwells there is blind, and cannot be wounded. Another is strong, and grows stronger. [Edge is the principle of battle and of struggle.]",
             "isAspect": true,
@@ -99,6 +100,7 @@
         },
         {
             "id": "forge",
+            "sort": "_p.0",
             "label": "Forge",
             "description": "'Fire', I once read, 'is the winter that warms and the spring that consumes.' [The principle of the Forge transforms and destroys.]",
             "isAspect": true
@@ -106,6 +108,7 @@
 
         {
             "id": "grail",
+            "sort": "_p.0",
             "label": "Grail",
             "description": "Hunger, lust, the drowning waters. [The principle of the Grail honours both the birth and the feast.]",
             "isAspect": true,
@@ -118,6 +121,7 @@
         },
         {
             "id": "heart",
+            "sort": "_p.0",
             "label": "Heart",
             "description": "The Heart Relentless beats to protect the skin of the world we understand. [The Heart is the principle that continues and preserves.]",
             "isAspect": true,
@@ -130,12 +134,14 @@
         },
         {
             "id": "knock",
+            "sort": "_p.0",
             "label": "Knock",
             "description": "The Knock permits no seal and no isolation. It thrusts us gleefully out of the safety of ignorance. [The Knock is the principle that opens doors and unseams barriers.]",
             "isAspect": true
         },
         {
             "id": "lantern",
+            "sort": "_p.0",
             "label": "Lantern",
             "description": "'Life is a pure flame, and we live by an invisible Sun within us.' - Thomas Browne. [Lantern is the principle of the secret place sometimes called the House of the Sun, and of the light above it.]",
             "isAspect": true,
@@ -148,6 +154,7 @@
         },
         {
             "id": "moth",
+            "sort": "_p.0",
             "label": "Moth",
             "isAspect": true,
             "description": "I knew a man who captured moths in a bell-jar. On nights like this, he would release them one by one to die in the candle. [Moth is the wild and perilous principle of chaos and yearning.]",
@@ -160,6 +167,7 @@
         },
         {
             "id": "secrethistories",
+            "sort": "_p.1",
             "label": "Secret Histories",
             "description": "History is the scar on the world's skin. [Secret Histories describe the unknown complexities of the world, and its many pasts.]",
             "isAspect": true
@@ -167,6 +175,7 @@
 
         {
             "id": "winter",
+            "sort": "_p.0",
             "label": "Winter",
             "description": "... [Winter is the principle of silence, of endings, and of those things that are not quite dead.]",
             "isAspect": true
@@ -787,7 +796,8 @@
             "id": "summoned",
             "label": "Summoned",
             "description": "This one is not from here.",
-            "isAspect": true
+            "isAspect": true,
+            "achievements": ["A_SUMMON_GENERIC"]
         },
         {
             "id": "illhealth",
@@ -1254,6 +1264,62 @@
             "description": "I've found an alignment.",
             "isAspect": true,
             "comments": "Recipe aspect. Upgrades influence.",
+            "noartneeded": true
+        },
+        {
+            "id": "subvert_to_lantern",
+            "label": "Subvert to Lantern",
+            "isAspect": true,
+            "comments": "Recipe aspect",
+            "noartneeded": true
+        },
+        {
+            "id": "subvert_to_forge",
+            "label": "Subvert to Forge",
+            "isAspect": true,
+            "comments": "Recipe aspect",
+            "noartneeded": true
+        },
+        {
+            "id": "subvert_to_edge",
+            "label": "Subvert to Edge",
+            "isAspect": true,
+            "comments": "Recipe aspect",
+            "noartneeded": true
+        },
+        {
+            "id": "subvert_to_winter",
+            "label": "Subvert to Winter",
+            "isAspect": true,
+            "comments": "Recipe aspect",
+            "noartneeded": true
+        },
+        {
+            "id": "subvert_to_heart",
+            "label": "Subvert to Heart",
+            "isAspect": true,
+            "comments": "Recipe aspect",
+            "noartneeded": true
+        },
+        {
+            "id": "subvert_to_grail",
+            "label": "Subvert to Grail",
+            "isAspect": true,
+            "comments": "Recipe aspect",
+            "noartneeded": true
+        },
+        {
+            "id": "subvert_to_moth",
+            "label": "Subvert to Moth",
+            "isAspect": true,
+            "comments": "Recipe aspect",
+            "noartneeded": true
+        },
+        {
+            "id": "subvert_to_knock",
+            "label": "Subvert to Knock",
+            "isAspect": true,
+            "comments": "Recipe aspect",
             "noartneeded": true
         },
 
@@ -1962,7 +2028,8 @@
             "id": "manifesting",
             "label": "Manifesting",
             "description": "The spirit is entering the world. This is simpler than a birth, but not so simple as passing through a door.",
-            "isAspect": true
+            "isAspect": true,
+            "achievements": ["A_SUMMON_GENERIC"]
         },
 
         {
@@ -1979,6 +2046,26 @@
             "description": "Research project agenda",
             "isHidden": true,
             "isAspect": true
+        },
+        {
+            "id": "rite.consumes.follower",
+            "label": "Rite that consumes a follower",
+            "description": "Use to when renewing summonings, so unwise folk don't gump up the works by stuffing snow zombies into Crucible Soul etc.",
+            "isHidden": true,
+            "isAspect": true
+        },
+        {
+            "id": "exhausted",
+            "label": "Exhausted",
+            "description": "With a little time, this will recover.",
+            "isAspect": true
+        },
+        {
+            "id": "exhausted.passion",
+            "label": "Exhausted Passion",
+            "comments": "keeps track of exhausted passion variants",
+            "isAspect": true,
+            "isHidden": true
         }
     ]
 }

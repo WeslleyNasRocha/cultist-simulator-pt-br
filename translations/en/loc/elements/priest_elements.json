@@ -13,6 +13,7 @@
         },
         {
             "id": "lockscaredge",
+            "burnTo": "lockscaredge",
             "label": "Edge-Lock Scar",
             "description": "When I am Threshold, this scar will open beneath a blade's touch.",
             "aspects": {
@@ -27,6 +28,7 @@
         },
         {
             "id": "lockscarforge",
+            "burnTo": "lockscarforge",
             "label": "Forge-Lock Scar",
             "description": "When I am Threshold, this scar will open to the touch of hot iron.",
             "aspects": {
@@ -41,6 +43,7 @@
         },
         {
             "id": "lockscargrail",
+            "burnTo": "lockscargrail",
             "label": "Grail-Lock Scar",
             "description": "When I am Threshold, this scar will open to a fervent kiss.",
             "aspects": {
@@ -55,6 +58,7 @@
         },
         {
             "id": "lockscarheart",
+            "burnTo": "lockscarheart",
             "label": "Heart-Lock Scar",
             "description": "When I am Threshold, this scar will open at the beat of the drum.",
             "aspects": {
@@ -69,6 +73,7 @@
         },
         {
             "id": "lockscarlantern",
+            "burnTo": "lockscarlantern",
             "label": "Lantern-Lock Scar",
             "description": "When I am Threshold, this scar will open at the flush of dawn.",
             "aspects": {
@@ -83,6 +88,7 @@
         },
         {
             "id": "lockscarmoth",
+            "burnTo": "lockscarmoth",
             "label": "Moth-Lock Scar",
             "description": "When I am Threshold, this scar will answer to the scissors.",
             "aspects": {
@@ -97,6 +103,7 @@
         },
         {
             "id": "lockscarwinter",
+            "burnTo": "lockscarwinter",
             "label": "Winter-Lock Scar",
             "description": "When I am Threshold, this scar will open last.",
             "aspects": {

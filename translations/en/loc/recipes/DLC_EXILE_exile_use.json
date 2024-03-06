@@ -742,6 +742,7 @@
             "comments": "The slots on the purchaseable item are what restrict to a relevant connection.",
             "requirements": {
                 "op": 1,
+                "price.connection": 1,
                 "connection": 1
             },
             "aspects": {
@@ -913,6 +914,7 @@
             "description": "Nothing lasts. That's something to be grateful for.",
             "requirements": {
                 "comfort": 1,
+                "connection": -1,
                 "price": -1
             },
             "effects": {

@@ -754,6 +754,74 @@
                 "acquaintances": 1
             },
             "maxexecutions": 1
+        },
+        {
+            "id": "talk_prisoner",
+            "label": "Decide a Prisoner's Fate",
+            "actionid": "talk",
+            "requirements": {
+                "mortal": 1,
+                "prisoner": 1
+            },
+            "slots": [
+                {
+                    "id": "Fate",
+                    "label": "Fate",
+                    "description": "What indeed?",
+                    "required": {
+                        "dread": 1,
+                        "fascination": 1,
+                        "restlessness": 1
+                    }
+                }
+            ],
+            "startdescription": "Freedom, death, or...?",
+            "description": "Their fate in this History is yet unwritten.",
+            "alt": [
+                { "id": "talkprisoner_fascination" },
+                { "id": "talkprisoner_dread" },
+                { "id": "talkprisoner_restlessness" }
+            ],
+            "craftable": "true",
+            "warmup": 30
+        },
+        {
+            "id": "talkprisoner_fascination",
+            "label": "'Mercy is found only in shadow'",
+            "actionid": "talk",
+            "requirements": {
+                "mortal": 1,
+                "prisoner": 1,
+                "fascination": 1
+            },
+            "aspects": { "derangemortal": 1 },
+            "effects": { "fascination": -1 },
+            "startdescription": "'Revelation', after all, is just another way of saying 'apocalypse'."
+        },
+        {
+            "id": "talkprisoner_dread",
+            "label": "'Not all endings are beautiful.'",
+            "actionid": "talk",
+            "requirements": {
+                "mortal": 1,
+                "prisoner": 1,
+                "dread": 1
+            },
+            "aspects": { "killmortal": 1 },
+            "effects": { "dread": -1 },
+            "startdescription": "This is their last day. I'll make it quick."
+        },
+        {
+            "id": "talkprisoner_restlessness",
+            "label": "Mercy, the fountain of regret",
+            "actionid": "talk",
+            "requirements": {
+                "mortal": 1,
+                "prisoner": 1,
+                "restlessness": 1
+            },
+            "effects": { "restlessness": -1, "contentment": 1, "prisoner": -1 },
+            "startdescription": "Let them go free? Why? Do I need an answer? Do they?"
         }
     ]
 }

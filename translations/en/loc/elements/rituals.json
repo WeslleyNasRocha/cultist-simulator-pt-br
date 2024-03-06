@@ -101,7 +101,8 @@
             "label": "Rite of the Crucible Soul",
             "comments": "endgame rite",
             "aspects": {
-                "ritual": 1
+                "ritual": 1,
+                "rite.consumes.follower": 1
             },
             "slots": [
                 {
@@ -395,7 +396,8 @@
             "id": "riteinfluenceconsumefollower",
             "label": "Rite of the Beast's Division",
             "aspects": {
-                "ritual": 1
+                "ritual": 1,
+                "rite.consumes.follower": 1
             },
             "slots": [
                 {
@@ -444,7 +446,8 @@
             "id": "riteconsumetoolingredientfollowerinfluence",
             "label": "Rite Intercalate",
             "aspects": {
-                "ritual": 1
+                "ritual": 1,
+                "rite.consumes.follower": 1
             },
             "slots": [
                 {

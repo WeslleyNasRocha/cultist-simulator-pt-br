@@ -49,8 +49,7 @@
                         "contentment": 1,
                         "inducesdespair": 1
                     },
-                    "greedy": true,
-                    "noanim": true
+                    "greedy": true
                 }
             ],
             "craftable": false,
@@ -208,7 +207,7 @@
             "requirements": {
                 "fascination": 1
             },
-            "startdescription": "Paintings whisper. Windows wink. I know these things are not true, but how can I be certain? [You can defeat Visions with Dread or a Fleeting Memory; otherwise, you will lose yourself completely at Fascination 3.]",
+            "startdescription": "Paintings whisper. Windows wink. I know these things are not true, but how can I be certain? [You can defeat Visions with Dread or a Fleeting Reminiscence; otherwise, you will lose yourself completely at Fascination 3.]",
             "description": ".",
             "warmup": 60,
             "slots": [
@@ -220,8 +219,7 @@
                         "fascination": 1,
                         "fleeting": 1
                     },
-                    "greedy": true,
-                    "noanim": true
+                    "greedy": true
                 }
             ],
             "craftable": false,
@@ -259,7 +257,7 @@
                 "dread": -1,
                 "fleeting": -1
             },
-            "startdescription": "The world is dangerously bright. [You can defeat Visions with Dread or a Fleeting Memory; otherwise, you will lose yourself completely at Fascination 3.]",
+            "startdescription": "The world is dangerously bright. [You can defeat Visions with Dread or a Fleeting Reminiscence; otherwise, you will lose yourself completely at Fascination 3.]",
             "description": ".",
             "comments": "This exists specifically for the burn image at 2 Fascination.",
             "burnimage": "visions",

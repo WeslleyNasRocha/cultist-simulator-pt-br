@@ -1,0 +1,22 @@
+{
+    "dicta": [
+        {
+            "id": "cs",
+            "WorldSphereType": "SecretHistories.Spheres.TabletopSphere",
+            "DefaultWorldSpherePath": "~/tabletop",
+            "AlternativeDefaultWorldSpherePaths": [],
+            "LogoScene": "S1Logo",
+            "QuoteScene": "S2Quote",
+            "MenuScene": "S3Menu",
+            "PlayfieldScene": "S4Tabletop",
+            "GameOverScene": "S5GameOver",
+            "NewGameScene": "S6NewGame",
+            "NoteElementId": "tlg.note",
+            "DefaultLongTravelDuration": "1",
+            "DefaultTravelDuration": "0.5",
+            "DefaultQuickTravelDuration": "0.1",
+            "DefaultGameSpeed": "0",
+            "MaxSuitabilityPulseFrequency": "1.0"
+        }
+    ]
+}

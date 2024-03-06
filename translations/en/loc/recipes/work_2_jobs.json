@@ -26,12 +26,9 @@
             "requirements": {
                 "demotion": 1
             },
-            "aspects": {
-                "plead": 1
-            },
             "startdescription": "My superiors must believe in my contrition. [Use Passion to convince management to let you return to work.]",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "job_plead",
@@ -94,7 +91,7 @@
             "requirements": {
                 "reason": 1
             },
-            "alt": [
+            "linked": [
                 {
                     "id": "gloverandgloverjunior_diligence_promotion",
                     "chance": 100
@@ -113,8 +110,7 @@
             "id": "gloverandgloverjunior_diligence_promotion",
             "label": "A Promotion!",
             "requirements": {
-                "gloverandgloverjuniorjob": 1,
-                "reason": 1
+                "gloverandgloverjuniorjob": 1
             },
             "effects": {
                 "funds": 1
@@ -172,7 +168,7 @@
             "requirements": {
                 "reason": 1
             },
-            "alt": [
+            "linked": [
                 {
                     "id": "gloverandgloverjunior_diligence_promotion_again",
                     "chance": 100
@@ -191,8 +187,7 @@
             "id": "gloverandgloverjunior_diligence_promotion_again",
             "label": "A Promotion!",
             "requirements": {
-                "gloverandgloverjuniorjob_nodifficultbossa": 1,
-                "reason": 1
+                "gloverandgloverjuniorjob_nodifficultbossa": 1
             },
             "effects": {
                 "funds": 1

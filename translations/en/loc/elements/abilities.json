@@ -161,6 +161,7 @@
                 "toreason": "concentration",
                 "damagepassion": "fascination"
             },
+            "aspects": { "exhausted.passion": 1 },
             "resaturate": true
         },
         {
@@ -175,6 +176,7 @@
                 "toreason": "concentration",
                 "damagepassion": "fascination"
             },
+            "aspects": { "exhausted.passion": 1 },
             "resaturate": true
         },
         {
@@ -257,7 +259,7 @@
         {
             "id": "concentration",
             "label": "Reason [Dimmed]",
-            "description": "My mind is weary. [This card can't be used, but it will recover after \n\nsixty seconds.]",
+            "description": "My mind is weary. [This card can't be used, but it will recover after sixty seconds.]",
             "lifetime": 60,
             "decayTo": "reason",
             "icon": "reason",
@@ -729,7 +731,15 @@
             ],
             "lifetime": 60,
             "xtriggers": {
-                "upgradeinfluence": "influenceheartc"
+                "project_influence_upgrade_lantern": "influencelantern",
+                "project_influence_subvert_mothtolantern": "influencelantern",
+
+                "project_influence_upgrade_heart": "influenceheart",
+                "project_influence_subvert_wintertoheart": "influenceheart",
+
+                "upgradeinfluence": "influenceheartc",
+                "project_influence_subvert_lanterntoforge": "influenceforge",
+                "project_influence_subvert_hearttograil": "influenceheart"
             }
         },
         {

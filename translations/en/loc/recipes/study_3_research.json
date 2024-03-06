@@ -375,7 +375,7 @@
             },
             "effects": {
                 "project": -1,
-                "edge": -1
+                "lore": -1
             },
             "aspects": {
                 "epiphany": 1
@@ -391,7 +391,7 @@
             },
             "effects": {
                 "project": -1,
-                "forge": -1
+                "lore": -1
             },
             "aspects": {
                 "epiphany": 1
@@ -407,7 +407,7 @@
             },
             "effects": {
                 "project": -1,
-                "grail": -1
+                "lore": -1
             },
             "aspects": {
                 "epiphany": 1
@@ -423,7 +423,7 @@
             },
             "effects": {
                 "project": -1,
-                "heart": -1
+                "lore": -1
             },
             "aspects": {
                 "epiphany": 1
@@ -439,7 +439,7 @@
             },
             "effects": {
                 "project": -1,
-                "lantern": -1
+                "lore": -1
             },
             "aspects": {
                 "epiphany": 1
@@ -455,7 +455,7 @@
             },
             "effects": {
                 "project": -1,
-                "moth": -1
+                "lore": -1
             },
             "aspects": {
                 "epiphany": 1
@@ -471,7 +471,7 @@
             },
             "effects": {
                 "project": -1,
-                "secrethistories": -1
+                "lore": -1
             },
             "aspects": {
                 "epiphany": 1
@@ -487,12 +487,19 @@
             },
             "effects": {
                 "project": -1,
-                "winter": -1
+                "lore": -1
             },
             "aspects": {
                 "epiphany": 1
             },
             "description": "I've increased my mastery of the Ragged Lore, which we call by its aspect, Winter."
+        },
+        {
+            "id": "studyproject_subvert_epiphany",
+            "comments": "happens after the subversion, so the subverted lore won't escape destruction by being triggered with epiphany",
+            "aspects": {
+                "epiphany": 1
+            }
         },
         {
             "id": "studyproject_subvert_edgetowinter",
@@ -503,11 +510,12 @@
             },
             "effects": {
                 "project": -1,
-                "edge": -1
+                "husk": -1
             },
             "aspects": {
-                "epiphany": 1
+                "subvert_to_winter": 1
             },
+            "linked": [{ "id": "studyproject_subvert_epiphany" }],
             "description": "Patience defeats strength. I've subverted my Edge lore to Winter."
         },
         {
@@ -519,11 +527,12 @@
             },
             "effects": {
                 "project": -1,
-                "forge": -1
+                "husk": -1
             },
             "aspects": {
-                "epiphany": 1
+                "subvert_to_edge": 1
             },
+            "linked": [{ "id": "studyproject_subvert_epiphany" }],
             "description": "I've shattered what I believed before. Thus have I subverted my Forge lore to Edge."
         },
         {
@@ -535,11 +544,12 @@
             },
             "effects": {
                 "project": -1,
-                "grail": -1
+                "husk": -1
             },
             "aspects": {
-                "epiphany": 1
+                "subvert_to_moth": 1
             },
+            "linked": [{ "id": "studyproject_subvert_epiphany" }],
             "description": "Even the Red Grail falls prey to the buzzing in the brain. I've subverted my Grail lore to Moth."
         },
         {
@@ -551,11 +561,12 @@
             },
             "effects": {
                 "project": -1,
-                "heart": -1
+                "husk": -1
             },
             "aspects": {
-                "epiphany": 1
+                "subvert_to_grail": 1
             },
+            "linked": [{ "id": "studyproject_subvert_epiphany" }],
             "description": "All that moves must succumb to hunger. I've subverted my Heart lore to Grail."
         },
         {
@@ -567,11 +578,12 @@
             },
             "effects": {
                 "project": -1,
-                "lantern": -1
+                "husk": -1
             },
             "aspects": {
-                "epiphany": 1
+                "subvert_to_forge": 1
             },
+            "linked": [{ "id": "studyproject_subvert_epiphany" }],
             "description": "There are arts in Forge which may split even the sun. I've subverted my Lantern lore to Forge."
         },
         {
@@ -583,11 +595,12 @@
             },
             "effects": {
                 "project": -1,
-                "moth": -1
+                "husk": -1
             },
             "aspects": {
-                "epiphany": 1
+                "subvert_to_lantern": 1
             },
+            "linked": [{ "id": "studyproject_subvert_epiphany" }],
             "description": "The Glory is a question, and Moth always answers Yes. I've subverted my Moth lore to Lantern."
         },
         {
@@ -599,11 +612,12 @@
             },
             "effects": {
                 "project": -1,
-                "winter": -1
+                "husk": -1
             },
             "aspects": {
-                "epiphany": 1
+                "subvert_to_heart": 1
             },
+            "linked": [{ "id": "studyproject_subvert_epiphany" }],
             "description": "Winter's coming must yield at last to spring. I've subverted my Winter lore to Heart."
         },
         {
@@ -637,7 +651,7 @@
                 "lore": 2
             },
             "effects": {
-                "knock": -1
+                "lore": -1
             },
             "description": "."
         },

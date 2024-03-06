@@ -1,0 +1,99 @@
+{
+    "levers": [
+        {
+            "id": "lastfollower",
+            "onGameEnd": true,
+            "defaultValue": "rose_b",
+            "weights": {
+                "follower": 1000,
+                "hireling": -1000,
+                "summoned": -1000,
+                "disciple": 10,
+                "exalted": 20,
+                "romanticinterest": 99
+            },
+            "requiredScore": 1000
+        },
+
+        {
+            "id": "lastdesire",
+            "onGameEnd": false,
+            "defaultValue": "ascensionsensationa",
+            "weights": {
+                "enlightenmentmarks": 1,
+                "powermarks": 1,
+                "sensationmarks": 1
+            },
+            "requiredScore": 1,
+            "comments": "regardless of the desire advancement, desire is recorded at its first, Temptation, level; and only basegame trio, not Ghoul, not Exile",
+            "redirects": {
+                "ascensionpowerb": "ascensionpowera",
+                "ascensionpowerc": "ascensionpowera",
+                "ascensionpowerd": "ascensionpowera",
+                "ascensionpowere": "ascensionpowera",
+                "ascensionpowerf": "ascensionpowera",
+
+                "ascensionsensationbf": "ascensionsensationa",
+                "ascensionsensationbm": "ascensionsensationa",
+                "ascensionsensationc": "ascensionsensationa",
+                "ascensionsensationd": "ascensionsensationa",
+                "ascensionsensatione": "ascensionsensationa",
+                "ascensionsensationf": "ascensionsensationa",
+
+                "ascensionenlightenmentb": "ascensionenlightenmenta",
+                "ascensionenlightenmentc": "ascensionenlightenmenta",
+                "ascensionenlightenmentd": "ascensionenlightenmenta",
+                "ascensionenlightenmente": "ascensionenlightenmenta",
+                "ascensionenlightenmentf": "ascensionenlightenmenta"
+            }
+        },
+
+        {
+            "id": "lastbook",
+            "onGameEnd": false,
+            "defaultValue": "textbooksanskrit",
+            "weights": { "text": 1 },
+            "requiredScore": 1
+        },
+
+        {
+            "id": "lastheadquarters",
+            "onGameEnd": false,
+            "defaultValue": "generichq",
+            "weights": { "hq": 1 },
+            "requiredScore": 1
+        },
+
+        {
+            "id": "lastcult",
+            "onGameEnd": false,
+            "defaultValue": "cultgrail_1",
+            "weights": { "society": 1 },
+            "requiredScore": 1
+        },
+
+        {
+            "id": "lasttool",
+            "onGameEnd": false,
+            "defaultValue": "toolknockb",
+            "weights": { "tool": 1 },
+            "requiredScore": 1
+        },
+
+        {
+            "id": "lastsignificantpainting",
+            "onGameEnd": true,
+            "defaultValue": "paintingmansus",
+            "requiredScore": 1,
+            "comments": "unused"
+        },
+
+        {
+            "id": "lastpersonkilled",
+            "onGameEnd": true,
+            "defaultValue": "neville_a",
+            "requiredScore": 1,
+            "comments": "unused"
+        }
+    ]
+}

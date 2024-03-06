@@ -504,6 +504,10 @@
             "linked": [
                 {
                     "chance": 70,
+                    "id": "suspicion_rivalexonerated"
+                },
+                {
+                    "chance": 70,
                     "id": "suspicion_followerexonerated"
                 },
                 {
@@ -527,6 +531,10 @@
                 {
                     "chance": 100,
                     "id": "suspicion_attemptmitigation_follower"
+                },
+                {
+                    "chance": 100,
+                    "id": "suspicion_attemptmitigation_rival"
                 },
                 {
                     "chance": 100,

@@ -11,7 +11,25 @@
             "image": "aspirant",
             "fromending": "default",
             "availableWithoutEndingMatch": true,
-            "startingverbid": "work"
+            "startingverbid": "work",
+            "statusbarelements": [
+                {
+                    "ids": ["health", "fatigue"],
+                    "format": ["{value}", " ({value})"],
+                    "styles": ["colour_red_0", "hide_0"]
+                },
+                {
+                    "ids": ["passion", "exhausted.passion"],
+                    "format": ["{value}", " ({value})"],
+                    "styles": ["colour_red_0", "hide_0"]
+                },
+                {
+                    "ids": ["reason", "concentration"],
+                    "format": ["{value}", " ({value})"],
+                    "styles": ["colour_red_0", "hide_0"]
+                },
+                { "ids": "funds", "styles": "colour_red_0" }
+            ]
         },
         {
             "id": "detective",

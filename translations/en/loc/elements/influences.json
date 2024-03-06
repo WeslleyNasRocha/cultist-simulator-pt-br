@@ -23,13 +23,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentedgec": 1,
-                        "fragmentedged": 1,
-                        "fragmentedgee": 1,
-                        "fragmentedgef": 1,
-                        "fragmentedgeg": 1
-                    },
+                    "required": { "edge": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -61,13 +56,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentedgec": 1,
-                        "fragmentedged": 1,
-                        "fragmentedgee": 1,
-                        "fragmentedgef": 1,
-                        "fragmentedgeg": 1
-                    },
+                    "required": { "edge": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -100,13 +90,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentedgec": 1,
-                        "fragmentedged": 1,
-                        "fragmentedgee": 1,
-                        "fragmentedgef": 1,
-                        "fragmentedgeg": 1
-                    },
+                    "required": { "edge": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -150,13 +135,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentforgec": 1,
-                        "fragmentforged": 1,
-                        "fragmentforgee": 1,
-                        "fragmentforgef": 1,
-                        "fragmentforgeg": 1
-                    },
+                    "required": { "forge": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -188,13 +168,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentforgec": 1,
-                        "fragmentforged": 1,
-                        "fragmentforgee": 1,
-                        "fragmentforgef": 1,
-                        "fragmentforgeg": 1
-                    },
+                    "required": { "forge": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -227,13 +202,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentforgec": 1,
-                        "fragmentforged": 1,
-                        "fragmentforgee": 1,
-                        "fragmentforgef": 1,
-                        "fragmentforgeg": 1
-                    },
+                    "required": { "forge": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -279,13 +249,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentgrailc": 1,
-                        "fragmentgraild": 1,
-                        "fragmentgraile": 1,
-                        "fragmentgrailf": 1,
-                        "fragmentgrailg": 1
-                    },
+                    "required": { "grail": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -317,13 +282,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentgrailc": 1,
-                        "fragmentgraild": 1,
-                        "fragmentgraile": 1,
-                        "fragmentgrailf": 1,
-                        "fragmentgrailg": 1
-                    },
+                    "required": { "grail": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -356,13 +316,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentgrailc": 1,
-                        "fragmentgraild": 1,
-                        "fragmentgraile": 1,
-                        "fragmentgrailf": 1,
-                        "fragmentgrailg": 1
-                    },
+                    "required": { "grail": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -409,13 +364,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentheartc": 1,
-                        "fragmentheartd": 1,
-                        "fragmenthearte": 1,
-                        "fragmentheartf": 1,
-                        "fragmentheartg": 1
-                    },
+                    "required": { "heart": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -448,13 +398,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentheartc": 1,
-                        "fragmentheartd": 1,
-                        "fragmenthearte": 1,
-                        "fragmentheartf": 1,
-                        "fragmentheartg": 1
-                    },
+                    "required": { "heart": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -487,13 +432,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentheartc": 1,
-                        "fragmentheartd": 1,
-                        "fragmenthearte": 1,
-                        "fragmentheartf": 1,
-                        "fragmentheartg": 1
-                    },
+                    "required": { "heart": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -549,20 +489,16 @@
                         "vitality": 1,
                         "eruditionplus": 1,
                         "glimmeringplus": 1,
-                        "vitalityplus": 1
+                        "vitalityplus": 1,
+                        "contentment": 1
                     }
                 },
                 {
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentknockc": 1,
-                        "fragmentknockd": 1,
-                        "fragmentknocke": 1,
-                        "fragmentknockf": 1,
-                        "fragmentknockg": 1
-                    },
+                    "required": { "knock": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -600,13 +536,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentknockc": 1,
-                        "fragmentknockd": 1,
-                        "fragmentknocke": 1,
-                        "fragmentknockf": 1,
-                        "fragmentknockg": 1
-                    },
+                    "required": { "knock": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -645,13 +576,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentknockc": 1,
-                        "fragmentknockd": 1,
-                        "fragmentknocke": 1,
-                        "fragmentknockf": 1,
-                        "fragmentknockg": 1
-                    },
+                    "required": { "knock": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -700,13 +626,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentlanternc": 1,
-                        "fragmentlanternd": 1,
-                        "fragmentlanterne": 1,
-                        "fragmentlanternf": 1,
-                        "fragmentlanterng": 1
-                    },
+                    "required": { "lantern": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -739,13 +660,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentlanternc": 1,
-                        "fragmentlanternd": 1,
-                        "fragmentlanterne": 1,
-                        "fragmentlanternf": 1,
-                        "fragmentlanterng": 1
-                    },
+                    "required": { "lantern": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -778,13 +694,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentlanternc": 1,
-                        "fragmentlanternd": 1,
-                        "fragmentlanterne": 1,
-                        "fragmentlanternf": 1,
-                        "fragmentlanterng": 1
-                    },
+                    "required": { "lantern": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -826,7 +737,8 @@
                         "glimmering": 1,
                         "glimmeringplus": 1,
                         "fascination": 1,
-                        "fleeting": 1
+                        "fleeting": 1,
+                        "contentment": 1
                     },
                     "actionid": "study"
                 },
@@ -834,13 +746,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentmothc": 1,
-                        "fragmentmothd": 1,
-                        "fragmentmothe": 1,
-                        "fragmentmothf": 1,
-                        "fragmentmothg": 1
-                    },
+                    "required": { "moth": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -873,13 +780,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentmothc": 1,
-                        "fragmentmothd": 1,
-                        "fragmentmothe": 1,
-                        "fragmentmothf": 1,
-                        "fragmentmothg": 1
-                    },
+                    "required": { "moth": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -912,13 +814,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentmothc": 1,
-                        "fragmentmothd": 1,
-                        "fragmentmothe": 1,
-                        "fragmentmothf": 1,
-                        "fragmentmothg": 1
-                    },
+                    "required": { "moth": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -956,7 +853,8 @@
                         "influencewinter": 1,
                         "influenceheart": 1,
                         "vitality": 1,
-                        "vitalityplus": 1
+                        "vitalityplus": 1,
+                        "contentment": 1
                     },
                     "actionid": "study"
                 },
@@ -964,13 +862,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentwinterc": 1,
-                        "fragmentwinterd": 1,
-                        "fragmentwintere": 1,
-                        "fragmentwinterf": 1,
-                        "fragmentwinterg": 1
-                    },
+                    "required": { "winter": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -1003,13 +896,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentwinterc": 1,
-                        "fragmentwinterd": 1,
-                        "fragmentwintere": 1,
-                        "fragmentwinterf": 1,
-                        "fragmentwinterg": 1
-                    },
+                    "required": { "winter": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -1042,13 +930,8 @@
                     "id": "knowledge",
                     "label": "Knowledge",
                     "description": "I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",
-                    "required": {
-                        "fragmentwinterc": 1,
-                        "fragmentwinterd": 1,
-                        "fragmentwintere": 1,
-                        "fragmentwinterf": 1,
-                        "fragmentwinterg": 1
-                    },
+                    "required": { "winter": 6 },
+                    "essential": { "lore": 1 },
                     "actionid": "study"
                 }
             ],
@@ -1069,6 +952,16 @@
             "description": "The world is still as ice. Each movement is a journey. [A fifteenth-order influence! This might be the personal attention of an Hour. This can be used in some Rites to summon minions. If unused, it will become Dread.]",
             "lifetime": 60,
             "decayTo": "influencewintere"
+        },
+        {
+            "id": "husk",
+            "label": "Husk",
+            "aspects": {
+                "exhausted": 1
+            },
+            "description": "Something's been used up.",
+            "icon": "jumble",
+            "lifetime": 1
         }
     ]
 }

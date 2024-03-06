@@ -21,7 +21,7 @@
             "comments": "it's possible for a corpse to have a negative follower mutation - eg, if the follower is wounded. Let's strip it out, just in case. We could add a mutation to lose any outstanding wounds too, but I'm leery of messing too much.",
             "mutations": [
                 {
-                    "filter": "corpse",
+                    "filter": "remnant",
                     "mutate": "follower",
                     "level": 0
                 }
@@ -48,7 +48,7 @@
             "comments": "it's possible for a corpse to have a negative follower mutation - eg, if the follower is wounded. Let's strip it out, just in case. We could add a mutation to lose any outstanding wounds too, but I'm leery of messing too much.",
             "mutations": [
                 {
-                    "filter": "corpse",
+                    "filter": "remnant",
                     "mutate": "follower",
                     "level": 0
                 }
@@ -63,7 +63,8 @@
                 "spirit_wintera_edge": 1,
                 "winter": 8,
                 "edge": 8,
-                "desire": -1
+                "desire": -1,
+                "rite.consumes.follower": -1
             },
             "aspects": {
                 "renewshattered": 1
@@ -82,7 +83,8 @@
                 "spirit_wintera_moth": 1,
                 "winter": 8,
                 "moth": 8,
-                "desire": -1
+                "desire": -1,
+                "rite.consumes.follower": -1
             },
             "aspects": {
                 "renewburgeoning": 1

@@ -7,7 +7,7 @@
             "image": "elegiast",
             "flavour": "Grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_MINORWINTERVICTORY"
+            "achievements": ["A_ENDING_MINORWINTERVICTORY"]
         },
         {
             "id": "minorcrownedgrowthvictory",
@@ -16,7 +16,7 @@
             "image": "crownedgrowth",
             "flavour": "Grand",
             "anim": "DramaticLightEvil",
-            "achievement": "A_ENDING_MINORCROWNEDGROWTHVICTORY"
+            "achievements": ["A_ENDING_MINORCROWNEDGROWTHVICTORY"]
         }
     ]
 }

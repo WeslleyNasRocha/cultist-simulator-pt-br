@@ -696,7 +696,8 @@
             "requirements": {
                 "ritual": 1,
                 "spirit_wintera_edge": 1,
-                "desire": -1
+                "desire": -1,
+                "rite.consumes.follower": -1
             },
             "startdescription": "It is harder to maintain a Shattered Risen than it is to raise one. But with enough Winter aspect, and enough Edge, I might keep my Shattered Risen moving. Or I might employ it to summon a greater spirit.",
             "hintonly": true,
@@ -709,7 +710,8 @@
             "requirements": {
                 "ritual": 1,
                 "spirit_wintera_moth": 1,
-                "desire": -1
+                "desire": -1,
+                "rite.consumes.follower": -1
             },
             "startdescription": "A Burgeoning Risen will not stay contained for long. But with enough Winter aspect, and enough Moth, I might keep my work stable a little longer. Or I might employ it to summon a greater spirit.",
             "hintonly": true,

@@ -24,7 +24,8 @@
             "description": "We have prepared a knife for this moment.",
             "warmup": 30,
             "craftable": true,
-            "burnimage": "freemasons"
+            "burnimage": "freemasons",
+            "linked": [{ "id": "edge_exalt_obtained" }]
         },
         {
             "id": "recruitindependentforge",
@@ -50,7 +51,8 @@
             "description": "The fire must blaze, strong enough to scorch the skin of the watchers.",
             "warmup": 30,
             "craftable": true,
-            "burnimage": "freemasons"
+            "burnimage": "freemasons",
+            "linked": [{ "id": "forge_exalt_obtained" }]
         },
         {
             "id": "recruitindependentgrail",
@@ -76,7 +78,8 @@
             "description": "We will be joined; oh yes, we will be joined.",
             "warmup": 30,
             "craftable": true,
-            "burnimage": "freemasons"
+            "burnimage": "freemasons",
+            "linked": [{ "id": "grail_exalt_obtained" }]
         },
         {
             "id": "recruitindependentheart",
@@ -102,7 +105,8 @@
             "description": "Now we begin what will not end.",
             "warmup": 30,
             "craftable": true,
-            "burnimage": "freemasons"
+            "burnimage": "freemasons",
+            "linked": [{ "id": "heart_exalt_obtained" }]
         },
         {
             "id": "recruitindependentknock",
@@ -128,7 +132,8 @@
             "description": "This is an opening we will all remember.",
             "warmup": 30,
             "craftable": true,
-            "burnimage": "freemasons"
+            "burnimage": "freemasons",
+            "linked": [{ "id": "knock_exalt_obtained" }]
         },
         {
             "id": "recruitindependentlantern",
@@ -154,7 +159,8 @@
             "description": "A great light, and then a great darkness.",
             "warmup": 30,
             "craftable": true,
-            "burnimage": "freemasons"
+            "burnimage": "freemasons",
+            "linked": [{ "id": "lantern_exalt_obtained" }]
         },
         {
             "id": "recruitindependentmoth",
@@ -180,7 +186,8 @@
             "description": "We have both shed our skins.",
             "warmup": 30,
             "craftable": true,
-            "burnimage": "freemasons"
+            "burnimage": "freemasons",
+            "linked": [{ "id": "moth_exalt_obtained" }]
         },
         {
             "id": "recruitindependentwinter",
@@ -206,7 +213,8 @@
             "description": "This ceremony needs no words.",
             "warmup": 30,
             "craftable": true,
-            "burnimage": "freemasons"
+            "burnimage": "freemasons",
+            "linked": [{ "id": "winter_exalt_obtained" }]
         },
         {
             "id": "recruitacquaintanceedge",
@@ -613,7 +621,8 @@
             "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
             "description": "'As the Lionsmith knelt to the Colonel, so now I kneel. My service ends in death, or in the resolution of strengths.'",
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "linked": [{ "id": "edge_exalt_obtained" }]
         },
         {
             "id": "promoteto_d_forge",
@@ -636,7 +645,8 @@
             "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
             "description": "'I am the hammer and the anvil; I am the fire's touch and the iron's blessing. I pledge myself to the final conflagration.'",
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "linked": [{ "id": "forge_exalt_obtained" }]
         },
         {
             "id": "promoteto_d_grail",
@@ -659,7 +669,8 @@
             "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
             "description": "'By the Copper and the Crow, by She for whom we Hunger and She who Hungers for us, I pledge myself to be the Feaster and the Feast. I will be devoured and I will devour.'",
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "linked": [{ "id": "grail_exalt_obtained" }]
         },
         {
             "id": "promoteto_d_heart",
@@ -682,7 +693,8 @@
             "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
             "description": "'By the Pine and the Knife, by the Drum and the Circle, I pledge myself to lead the Dance that does not end. This is my service, but in the end, it is only the Dance that I serve. '",
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "linked": [{ "id": "heart_exalt_obtained" }]
         },
         {
             "id": "promoteto_d_knock",
@@ -705,7 +717,8 @@
             "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
             "description": "'No lock remains. No door remains. No gate remains. No wall remains. No fortress is closed against me. No country forbids me. No law binds but the law of the Mother. I am a Key, and this is my use.'",
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "linked": [{ "id": "knock_exalt_obtained" }]
         },
         {
             "id": "promoteto_d_lantern",
@@ -728,7 +741,8 @@
             "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
             "description": "'I pledge myself to light the way for the willing and for the unwilling. I pledge myself to navigate. I pledge myself to illuminate. I pledge myself against mercy. I will walk the path that is shown, no matter the price.'",
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "linked": [{ "id": "lantern_exalt_obtained" }]
         },
         {
             "id": "promoteto_d_moth",
@@ -751,7 +765,8 @@
             "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
             "description": "'This was my past, but now I am changed. These are my garments, which I set aside. Here is my skin, but it is loaned to me. Here is my name, which is only a blindfold. Here is the Wood, where we strangle the light. Here I was, and here I am not.'",
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "linked": [{ "id": "moth_exalt_obtained" }]
         },
         {
             "id": "promoteto_d_winter",
@@ -781,7 +796,8 @@
             "startdescription": "Only a rare few - those most suited to service in our mysteries - may achieve this rank.",
             "description": "\"'...?' '...?' '...?'\r\n\t\t\r\n\t\t'...'\"",
             "warmup": 60,
-            "craftable": true
+            "craftable": true,
+            "linked": [{ "id": "winter_exalt_obtained" }]
         },
         {
             "id": "recruitacquaintanceclue",
@@ -873,6 +889,7 @@
             "id": "cultfoundationedge",
             "label": "Establish the Church of the Bright Edge",
             "actionid": "establishcult",
+            "achievements": ["A_CULT_EDGE"],
             "requirements": {
                 "edge": 1
             },
@@ -891,6 +908,7 @@
             "id": "cultfoundationforge",
             "label": "Establish the Unflinching Order",
             "actionid": "establishcult",
+            "achievements": ["A_CULT_FORGE"],
             "requirements": {
                 "forge": 1
             },
@@ -909,6 +927,7 @@
             "id": "cultfoundationgrail",
             "label": "Establish the Order of the Bloody Cup",
             "actionid": "establishcult",
+            "achievements": ["A_CULT_GRAIL"],
             "requirements": {
                 "grail": 1
             },
@@ -927,6 +946,7 @@
             "id": "cultfoundationheart",
             "label": "Establish the Temple Unceasing",
             "actionid": "establishcult",
+            "achievements": ["A_CULT_HEART"],
             "requirements": {
                 "heart": 1
             },
@@ -945,6 +965,7 @@
             "id": "cultfoundationknock",
             "label": "Establish the Society of the Holy Wound",
             "actionid": "establishcult",
+            "achievements": ["A_CULT_KNOCK"],
             "requirements": {
                 "knock": 1
             },
@@ -963,6 +984,7 @@
             "id": "cultfoundationlantern",
             "label": "Establish the Mirror of Glory ",
             "actionid": "establishcult",
+            "achievements": ["A_CULT_LANTERN"],
             "requirements": {
                 "lantern": 1
             },
@@ -981,6 +1003,7 @@
             "id": "cultfoundationmoth",
             "label": "Establish the Wildwood Club",
             "actionid": "establishcult",
+            "achievements": ["A_CULT_MOTH"],
             "requirements": {
                 "moth": 1
             },
@@ -999,6 +1022,7 @@
             "id": "cultfoundationsecrethistories",
             "label": "Establish the Society of St Hydra",
             "actionid": "establishcult",
+            "achievements": ["A_CULT_SECRETHISTORIES"],
             "requirements": {
                 "secrethistories": 1
             },
@@ -1017,6 +1041,7 @@
             "id": "cultfoundationwinter",
             "label": "Establish the Children of Silence ",
             "actionid": "establishcult",
+            "achievements": ["A_CULT_WINTER"],
             "requirements": {
                 "winter": 1
             },
@@ -1035,6 +1060,7 @@
             "id": "cultfoundationwinter.prealzabo",
             "label": "Establish the Towers of the Dove",
             "actionid": "establishcult",
+            "achievements": ["A_CULT_WINTER"],
             "requirements": {
                 "prealzabo": 1
             },
@@ -1053,6 +1079,7 @@
             "id": "cultfoundationwinter.alzabo",
             "label": "Establish the Towers of the Dove",
             "actionid": "establishcult",
+            "achievements": ["A_CULT_WINTER"],
             "requirements": {
                 "alzabo": 1
             },
@@ -1239,6 +1266,49 @@
                 "hq.temporary": 1
             },
             "description": "I have founded my cult. This is a step to greater power. [Use your cult to recruit and promote followers. Talk with followers about your cult to send them out on cult business.]"
+        },
+
+        {
+            "id": "edge_exalt_obtained",
+            "achievements": ["A_PROMOTED_EXALTED_EDGE"],
+            "requirements": { "exalted": 1 },
+
+            "comments": "this recipe is linked both from a normal promotion, and from a rival recruitment; req here does two things 1) checks whether a promotion was an actual success: it's possible to execute it with an unsuitable follower - a very ancient bug - and thus to fail to obtain an actual exalt; we don't want for achievement to trigger in that case. 2) check whether a recruited rival is an exalt - in which case, the achievement should register (as it always did)"
+        },
+        {
+            "id": "forge_exalt_obtained",
+            "achievements": ["A_PROMOTED_EXALTED_FORGE"],
+            "requirements": { "exalted": 1 }
+        },
+        {
+            "id": "grail_exalt_obtained",
+            "achievements": ["A_PROMOTED_EXALTED_GRAIL"],
+            "requirements": { "exalted": 1 }
+        },
+        {
+            "id": "heart_exalt_obtained",
+            "achievements": ["A_PROMOTED_EXALTED_HEART"],
+            "requirements": { "exalted": 1 }
+        },
+        {
+            "id": "knock_exalt_obtained",
+            "achievements": ["A_PROMOTED_EXALTED_KNOCK"],
+            "requirements": { "exalted": 1 }
+        },
+        {
+            "id": "lantern_exalt_obtained",
+            "achievements": ["A_PROMOTED_EXALTED_LANTERN"],
+            "requirements": { "exalted": 1 }
+        },
+        {
+            "id": "moth_exalt_obtained",
+            "achievements": ["A_PROMOTED_EXALTED_MOTH"],
+            "requirements": { "exalted": 1 }
+        },
+        {
+            "id": "winter_exalt_obtained",
+            "achievements": ["A_PROMOTED_EXALTED_WINTER"],
+            "requirements": { "exalted": 1 }
         }
     ]
 }

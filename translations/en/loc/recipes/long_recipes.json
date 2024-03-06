@@ -106,6 +106,10 @@
                 {
                     "id": "long.selectstrategy",
                     "chance": 100
+                },
+                {
+                    "id": "long.preparestrategy",
+                    "chance": 100
                 }
             ]
         },
@@ -205,7 +209,12 @@
             "actionid": "long",
             "label": "A Decision",
             "startdescription": "Our immortal enemy has decided on a course of action.",
-            "requirements": {},
+            "requirements": {
+                "intention.dreams": -1,
+                "intention.downtime": -1,
+                "intention.assault": -1,
+                "intention.intrigue": -1
+            },
             "deckeffects": {
                 "long.strategies": 1
             },
@@ -347,6 +356,10 @@
             "warmup": 60,
             "craftable": false,
             "linked": [
+                {
+                    "id": "long.selectstrategy",
+                    "chance": 100
+                },
                 {
                     "id": "long.refinestrategy.dreams.learndreams.followup",
                     "chance": 70
@@ -657,7 +670,7 @@
             "id": "long.revealidentity.success",
             "actionid": "long",
             "label": "Our Enemy's Identity",
-            "startdescription": "@#welland_unknown|Our enemy is one Captain Welland, a Forge-long who has fought under many names in many wars. He has demonstrated allegiance to both the Lionsmith and the Forge of Days. He has a preference for direct assault, but he is no simple soldier.\n@#tryphon_unknown|Our enemy is one Lady Tryphon, a Grail-long who has left a trail of broken souls through the best hotels on the Continent. She is beloved of the Grail and the Flowermaker. She inclines to intrigue, but she is no stranger to violence.\n#diarist_unknown|Our enemy is the Lantern-long called the Diarist, who like all his kind abandoned physical form for the Mansus. He has known the favour of the Colonel and the Meniscate. He will prefer to strike at us through dreams, but never doubt he also has allies in the waking world.\n#julian_unknown|Our enemy is a Winter-long identified by the initials 'J.C'. His motives are obscure: he has always professed alignment with the Obliviates and their successors, who have no truck with the wars of the Hours. But here he is, to spoil our day.@",
+            "startdescription": "@#welland_unknown|Our enemy is one Captain Welland, a Forge-long who has fought under many names in many wars. He has demonstrated allegiance to both the Lionsmith and the Forge of Days. He has a preference for direct assault, but he is no simple soldier.\n#tryphon_unknown|Our enemy is one Lady Tryphon, a Grail-long who has left a trail of broken souls through the best hotels on the Continent. She is beloved of the Grail and the Flowermaker. She inclines to intrigue, but she is no stranger to violence.\n#diarist_unknown|Our enemy is the Lantern-long called the Diarist, who like all his kind abandoned physical form for the Mansus. He has known the favour of the Colonel and the Meniscate. He will prefer to strike at us through dreams, but never doubt he also has allies in the waking world.\n#julian_unknown|Our enemy is a Winter-long identified by the initials 'J.C'. His motives are obscure: he has always professed alignment with the Obliviates and their successors, who have no truck with the wars of the Hours. But here he is, to spoil our day.@",
             "aspects": {
                 "revealidentity": 1
             },

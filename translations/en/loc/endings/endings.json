@@ -7,7 +7,10 @@
             "image": "madrugad",
             "flavour": "Grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_MAJORFORGEVICTORY"
+            "achievements": [
+                "A_ENDING_MAJORFORGEVICTORY",
+                "A_MANSUS_TRICUSPIDGATE"
+            ]
         },
         {
             "id": "majorgrailvictory",
@@ -16,7 +19,10 @@
             "image": "flowermaker",
             "flavour": "Grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_MAJORGRAILVICTORY"
+            "achievements": [
+                "A_ENDING_MAJORGRAILVICTORY",
+                "A_MANSUS_TRICUSPIDGATE"
+            ]
         },
         {
             "id": "majorlanternvictory",
@@ -25,7 +31,10 @@
             "image": "vagabond",
             "flavour": "Grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_MAJORLANTERNVICTORY"
+            "achievements": [
+                "A_ENDING_MAJORLANTERNVICTORY",
+                "A_MANSUS_TRICUSPIDGATE"
+            ]
         },
         {
             "id": "minorforgevictory",
@@ -34,7 +43,7 @@
             "image": "forgeofdays",
             "flavour": "Grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_MINORFORGEVICTORY"
+            "achievements": ["A_ENDING_MINORFORGEVICTORY"]
         },
         {
             "id": "minorgrailvictory",
@@ -43,7 +52,7 @@
             "image": "redgrail",
             "flavour": "Grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_MINORGRAILVICTORY"
+            "achievements": ["A_ENDING_MINORGRAILVICTORY"]
         },
         {
             "id": "minorlanternvictory",
@@ -52,7 +61,7 @@
             "image": "doorintheeye",
             "flavour": "Grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_MINORLANTERNVICTORY"
+            "achievements": ["A_ENDING_MINORLANTERNVICTORY"]
         },
         {
             "id": "minorheartvictory",
@@ -61,7 +70,7 @@
             "image": "thunderskin",
             "flavour": "Grand",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_MINORHEARTVICTORY"
+            "achievements": ["A_ENDING_MINORHEARTVICTORY"]
         },
         {
             "id": "minormothvictory",
@@ -70,7 +79,7 @@
             "image": "moth",
             "flavour": "Grand",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_MINORMOTHVICTORY"
+            "achievements": ["A_ENDING_MINORMOTHVICTORY"]
         },
         {
             "id": "minormeniscatevictory",
@@ -79,7 +88,7 @@
             "image": "meniscate",
             "flavour": "Grand",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_MINORMENISCATEVICTORY"
+            "achievements": ["A_ENDING_MINORMENISCATEVICTORY"]
         },
         {
             "id": "minorforgevictorywithrisen",
@@ -88,7 +97,7 @@
             "image": "forgeofdays",
             "flavour": "Grand",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_MINORFORGEVICTORY_WITHRISEN"
+            "achievements": ["A_ENDING_MINORFORGEVICTORY_WITHRISEN"]
         },
         {
             "id": "minorgrailvictorywithrisen",
@@ -97,7 +106,7 @@
             "image": "redgrail",
             "flavour": "Grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_MINORGRAILVICTORY_WITHRISEN"
+            "achievements": ["A_ENDING_MINORGRAILVICTORY_WITHRISEN"]
         },
         {
             "id": "minorlanternvictorywithrisen",
@@ -106,7 +115,7 @@
             "image": "doorintheeye",
             "flavour": "Grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_MINORLANTERNVICTORY_WITHRISEN"
+            "achievements": ["A_ENDING_MINORLANTERNVICTORY_WITHRISEN"]
         },
         {
             "id": "minorheartvictorywithrisen",
@@ -115,7 +124,7 @@
             "image": "thunderskin",
             "flavour": "Grand",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_MINORHEARTVICTORY_WITHRISEN"
+            "achievements": ["A_ENDING_MINORHEARTVICTORY_WITHRISEN"]
         },
         {
             "id": "minormothvictorywithrisen",
@@ -124,7 +133,7 @@
             "image": "moth",
             "flavour": "Grand",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_MINORMOTHVICTORY_WITHRISEN"
+            "achievements": ["A_ENDING_MINORMOTHVICTORY_WITHRISEN"]
         },
         {
             "id": "minormeniscatevictorywithrisen",
@@ -133,7 +142,7 @@
             "image": "meniscate",
             "flavour": "Grand",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_MINORMENISCATEVICTORY_WITHRISEN"
+            "achievements": ["A_ENDING_MINORMENISCATEVICTORY_WITHRISEN"]
         },
         {
             "id": "longnightmareending",
@@ -141,8 +150,7 @@
             "description": "I couldn't bear it. No more. \n[A Long's nightmares drove you to dissolution.]",
             "image": "despair",
             "flavour": "Melancholy",
-            "anim": "DramaticLightEvil",
-            "achievement": ""
+            "anim": "DramaticLightEvil"
         },
         {
             "id": "deathofthebody",
@@ -151,7 +159,7 @@
             "image": "suninrags",
             "flavour": "Melancholy",
             "anim": "DramaticLightEvil",
-            "achievement": "A_ENDING_DEATHOFTHEBODY"
+            "achievements": ["A_ENDING_DEATHOFTHEBODY"]
         },
         {
             "id": "despairending",
@@ -160,7 +168,7 @@
             "image": "despair",
             "flavour": "Melancholy",
             "anim": "DramaticLightEvil",
-            "achievement": "A_ENDING_DESPAIRENDING"
+            "achievements": ["A_ENDING_DESPAIRENDING"]
         },
         {
             "id": "visionsending",
@@ -169,7 +177,7 @@
             "image": "madness",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_VISIONSENDING"
+            "achievements": ["A_ENDING_VISIONSENDING"]
         },
         {
             "id": "wintersacrifice",
@@ -178,7 +186,7 @@
             "image": "suninrags",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_WINTERSACRIFICE"
+            "achievements": ["A_ENDING_WINTERSACRIFICE"]
         },
         {
             "id": "arrest",
@@ -187,7 +195,7 @@
             "image": "notorious",
             "flavour": "Melancholy",
             "anim": "DramaticLightEvil",
-            "achievement": "A_ENDING_ARREST"
+            "achievements": ["A_ENDING_ARREST"]
         },
         {
             "id": "rivalascension",
@@ -195,8 +203,7 @@
             "description": "Perhaps I waited too long. Or perhaps this victory was never meant for me. Another has ascended in my place. Where they have risen, I will diminish, until I am only a memory. Perhaps another will avenge my defeat. \n[Someone else surpassed you, changed the world, and won.]",
             "image": "lionsmith",
             "flavour": "Melancholy",
-            "anim": "DramaticLightEvil",
-            "achievement": "A_RIVAL_ASCENSION"
+            "anim": "DramaticLightEvil"
         },
         {
             "id": "rivalascensionapostle",
@@ -204,8 +211,7 @@
             "description": "A rival has risen to immortality. They will ally with the immortal enemy who already hounds us. We cannot stand against two immortals. Our Founder's scheme has come to an end, and with it, my service. \n[Rival ascension rules out an Apostle victory.]",
             "image": "lionsmith",
             "flavour": "Melancholy",
-            "anim": "DramaticLightEvil",
-            "achievement": "A_RIVAL_ASCENSION"
+            "anim": "DramaticLightEvil"
         },
         {
             "id": "workvictory",
@@ -214,7 +220,7 @@
             "image": "insomnia",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_WORKVICTORY"
+            "achievements": ["A_ENDING_WORKVICTORY"]
         },
         {
             "id": "workvictoryb",
@@ -223,7 +229,7 @@
             "image": "finehouse",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_WORKVICTORYB"
+            "achievements": ["A_ENDING_WORKVICTORYB"]
         },
         {
             "id": "workvictorymarriage",
@@ -232,7 +238,7 @@
             "image": "moonlitcastle",
             "flavour": "Grand",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_WORKVICTORYMARRIAGE"
+            "achievements": ["A_ENDING_WORKVICTORYMARRIAGE"]
         },
         {
             "id": "turnasidevictory",
@@ -242,7 +248,7 @@
             "image": "moth",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_MINORMOTHVICTORY"
+            "achievements": ["A_ENDING_MINORMOTHVICTORY"]
         },
         {
             "id": "tristanvictory",
@@ -251,7 +257,7 @@
             "image": "tristan",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_TRISTANVICTORY"
+            "achievements": ["A_ENDING_TRISTANVICTORY"]
         },
         {
             "id": "valcianevictory",
@@ -260,7 +266,7 @@
             "image": "valciane",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_VALCIANEVICTORY"
+            "achievements": ["A_ENDING_VALCIANEVICTORY"]
         },
         {
             "id": "laidlawvictory",
@@ -269,7 +275,7 @@
             "image": "laidlaw",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_LAIDLAWVICTORY"
+            "achievements": ["A_ENDING_LAIDLAWVICTORY"]
         },
         {
             "id": "elridgevictory",
@@ -278,7 +284,7 @@
             "image": "elridge",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_ELRIDGEVICTORY"
+            "achievements": ["A_ENDING_ELRIDGEVICTORY"]
         },
         {
             "id": "rosevictory",
@@ -287,7 +293,7 @@
             "image": "rose",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_ROSEVICTORY"
+            "achievements": ["A_ENDING_ROSEVICTORY"]
         },
         {
             "id": "victorvictory",
@@ -296,7 +302,7 @@
             "image": "victor",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_VICTORVICTORY"
+            "achievements": ["A_ENDING_VICTORVICTORY"]
         },
         {
             "id": "salibavictory",
@@ -305,7 +311,7 @@
             "image": "saliba",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_SALIBAVICTORY"
+            "achievements": ["A_ENDING_SALIBAVICTORY"]
         },
         {
             "id": "reniravictory",
@@ -314,7 +320,7 @@
             "image": "renira",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_RENIRAVICTORY"
+            "achievements": ["A_ENDING_RENIRAVICTORY"]
         },
         {
             "id": "violetvictory",
@@ -323,7 +329,7 @@
             "image": "violet",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_VIOLETVICTORY"
+            "achievements": ["A_ENDING_VIOLETVICTORY"]
         },
         {
             "id": "auclairvictory",
@@ -332,7 +338,7 @@
             "image": "auclair",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_AUCLAIRVICTORY"
+            "achievements": ["A_ENDING_AUCLAIRVICTORY"]
         },
         {
             "id": "enidvictory",
@@ -341,7 +347,7 @@
             "image": "enid",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_ENIDVICTORY"
+            "achievements": ["A_ENDING_ENIDVICTORY"]
         },
         {
             "id": "nevillevictory",
@@ -350,7 +356,7 @@
             "image": "neville",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_NEVILLEVICTORY"
+            "achievements": ["A_ENDING_NEVILLEVICTORY"]
         },
         {
             "id": "catvictory",
@@ -359,7 +365,7 @@
             "image": "cat",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_CATVICTORY"
+            "achievements": ["A_ENDING_CATVICTORY"]
         },
         {
             "id": "cliftonvictory",
@@ -368,7 +374,7 @@
             "image": "clifton",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_CLIFTONVICTORY"
+            "achievements": ["A_ENDING_CLIFTONVICTORY"]
         },
         {
             "id": "sleevictory",
@@ -377,7 +383,7 @@
             "image": "slee",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_SLEEVICTORY"
+            "achievements": ["A_ENDING_SLEEVICTORY"]
         },
         {
             "id": "portervictory",
@@ -386,7 +392,7 @@
             "image": "porter",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_PORTERVICTORY"
+            "achievements": ["A_ENDING_PORTERVICTORY"]
         },
         {
             "id": "ysabetvictory",
@@ -395,7 +401,7 @@
             "image": "ysabet",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_YSABETVICTORY"
+            "achievements": ["A_ENDING_YSABETVICTORY"]
         },
         {
             "id": "sylviavictory",
@@ -404,7 +410,7 @@
             "image": "sylvia",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_SYLVIAVICTORY"
+            "achievements": ["A_ENDING_SYLVIAVICTORY"]
         },
         {
             "id": "clovettevictory",
@@ -413,7 +419,7 @@
             "image": "clovette",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_CLOVETTEVICTORY"
+            "achievements": ["A_ENDING_CLOVETTEVICTORY"]
         },
         {
             "id": "dorothyvictory",
@@ -422,7 +428,7 @@
             "image": "dorothy",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_DOROTHYVICTORY"
+            "achievements": ["A_ENDING_DOROTHYVICTORY"]
         },
         {
             "id": "leovictory",
@@ -431,7 +437,7 @@
             "image": "leo",
             "flavour": "Melancholy",
             "anim": "DramaticLight",
-            "achievement": "A_ENDING_LEOVICTORY"
+            "achievements": ["A_ENDING_LEOVICTORY"]
         }
     ]
 }

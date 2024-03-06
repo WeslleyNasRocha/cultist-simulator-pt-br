@@ -155,9 +155,9 @@
                 "apostleforge.pillarfuel": 1,
                 "tool": -1,
                 "lore": -1,
-                "riteconsumetoolingredientfollowerinfluence": -1,
-                "comments": "Some poor soul kept trying to use Rite Intercalate to baptise a Chosen Compass. People shouldn't do that, but let's not let them try."
+                "riteconsumetoolingredientfollowerinfluence": -1
             },
+            "comments": "Some poor soul kept trying to use Rite Intercalate to baptise a Chosen Compass. People shouldn't do that, but let's not let them try.",
             "effects": {
                 "apostleforge.pillarfuel": -1
             },
@@ -286,10 +286,10 @@
             "description": "'Take this. Don't lose it. I'll be there.'",
             "requirements": {
                 "echidna": 1,
-                "exalted": 1
+                "independent": 1
             },
             "effects": {
-                "exalted": -1,
+                "independent": -1,
                 "apostleforge.pillar5": 1
             },
             "craftable": false

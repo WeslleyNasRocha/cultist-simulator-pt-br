@@ -37,7 +37,7 @@
             },
             "startdescription": "To Exalt a Disciple to an Assassin, I will need Edge to at least the twenty-first intensity. In any case, only the most savage will be suitable.",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "promoteto_d_forgehint",
@@ -50,7 +50,7 @@
             },
             "startdescription": "To Exalt a Disciple to a Reshaper, I will need Forge to at least the twenty-first intensity. In any case, only the most ingenious and effective will be suitable.",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "promoteto_d_grailhint",
@@ -63,7 +63,7 @@
             },
             "startdescription": "To Exalt a Disciple to a Cyprian, I will need Grail to at least the twenty-first intensity. In any case, only those with the most inconsolable appetites will be suitable.",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "promoteto_d_hearthint",
@@ -76,7 +76,7 @@
             },
             "startdescription": "To Exalt a Disciple to a Tarantellist, I will need Heart to at least the twenty-first intensity. In any case, only the most spirited will be suitable.",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "promoteto_d_knockhint",
@@ -89,7 +89,7 @@
             },
             "startdescription": "To Exalt a Disciple to a Key, I will need Knock to at least the twenty-first intensity.  In any case, only the most gifted will be suitable.",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "promoteto_d_lanternhint",
@@ -102,7 +102,7 @@
             },
             "startdescription": "To Exalt a Disciple to a Seer, I will need Lantern to at least the twenty-first intensity.  In any case, only the most clear-sighted will be suitable.",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "promoteto_d_mothhint",
@@ -115,7 +115,7 @@
             },
             "startdescription": "To Exalt a Disciple to a Skintwister, I will need Moth to at least the twenty-first intensity.  In any case, only very rare individuals will be suitable.",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "promoteto_d_winterhint",
@@ -135,7 +135,7 @@
             },
             "startdescription": "To Exalt a Disciple to a degree that has no name, I will need Winter to at least the twenty-first intensity.  In any case, only the bleakest souls will be suitable.",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "promotetodisciplehint",
@@ -145,11 +145,11 @@
                 "society": 1,
                 "follower": 1,
                 "disciple": -1,
-                "summoned": -11
+                "summoned": -1
             },
             "startdescription": "To promote a Believer to a Disciple, I'll need to provide an appropriate aspect for the cult, to at least the seventh intensity.",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "talktobenefactorhint",
@@ -195,7 +195,7 @@
             },
             "startdescription": "'How's that Commission coming along? I'm looking forward to your thoughts.'",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "talk_bechet_wantscommission",
@@ -206,7 +206,7 @@
             },
             "startdescription": "'Hullo. Do you have something for me? The Commission?'",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "talk_jannings_wantscommission",
@@ -217,7 +217,7 @@
             },
             "startdescription": "'Please, will you conclude the Commission? My colleagues are in urgent need of the information.'",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "talk_poppy_wantscommission",
@@ -228,7 +228,7 @@
             },
             "startdescription": "'Oh, do hurry with that Commission! I can't wait.'",
             "hintonly": true,
-            "craftable": true
+            "craftable": false
         },
         {
             "id": "fulfilcommission_aladimhint",

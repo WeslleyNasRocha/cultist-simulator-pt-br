@@ -46,7 +46,8 @@
             "startdescription": "I am abrim with vitality, and this is a brisk season. If I devote some time to exercise, I'll benefit. [If you add appropriate Lore, this will allow you to create a more powerful occult Influence instead.]",
             "description": "I'm ready to grow stronger. [Use this Lesson Learnt with your Strength skill.]",
             "effects": {
-                "influence": -2,
+                "vitality": -1,
+                "influenceheart": -1,
                 "vitalityplus": 1
             },
             "warmup": 60,
@@ -66,6 +67,7 @@
             "startdescription": "I will grow stronger still.",
             "description": "The machine, my body, ripples with power.",
             "effects": {
+                "influence": -99,
                 "health": 1
             },
             "warmup": 60,
@@ -85,6 +87,7 @@
             "startdescription": "I will grow stronger yet.",
             "description": "I could carry a man across a river, now; or strangle him.",
             "effects": {
+                "influence": -99,
                 "health": 1
             },
             "warmup": 60,
@@ -103,6 +106,7 @@
             "startdescription": "I will follow in the footsteps of the Lionsmith, who grows strong and stronger, and of the Colonel, who does not flinch from scars.",
             "description": "My heart beats with the steadiness of a drum and the certainty of a judge's sentence.",
             "effects": {
+                "influence": -99,
                 "health": 1,
                 "skillhealthc": -1,
                 "skillhealthd_strength": 1
@@ -123,6 +127,7 @@
             "startdescription": "I will burn with the strength of the Forge of Days.",
             "description": "My heart beats with the steadiness of a drum and the certainty of a judge's sentence.",
             "effects": {
+                "influence": -99,
                 "health": 1,
                 "skillhealthc": -1,
                 "skillhealthd_strength": 1
@@ -143,6 +148,7 @@
             "startdescription": "I will taste what the Grail has prescribed. I will be lithe and thorned and sweet.",
             "description": "No storm can break the tree that bends.",
             "effects": {
+                "influence": -99,
                 "health": 1,
                 "skillhealthc": -1,
                 "skillhealthd_grace": 1
@@ -164,6 +170,7 @@
             "startdescription": "I will follow the Thunderskin's voice.",
             "description": "No storm can break the tree that bends.",
             "effects": {
+                "influence": -99,
                 "health": 1,
                 "skillhealthc": -1,
                 "skillhealthd_grace": 1
@@ -184,6 +191,7 @@
             "startdescription": "Through the fire we fly, and it shall not consume us.",
             "description": "No storm can break the tree that bends.",
             "effects": {
+                "influence": -99,
                 "health": 1,
                 "skillhealthc": -1,
                 "skillhealthd_grace": 1
@@ -237,7 +245,8 @@
             "startdescription": "I have picked up odd facts, here and there... and in this season of peculiar luminosity, I could increase my Reason. [If you add appropriate Lore, this will allow you to create a more powerful occult Influence instead.]",
             "description": "My mind, the library. [Use this Lesson Learnt with your Scholarship skill.]",
             "effects": {
-                "influence": -2,
+                "erudition": -1,
+                "influencelantern": -1,
                 "eruditionplus": 1
             },
             "warmup": 60,
@@ -257,6 +266,7 @@
             "startdescription": "Knowledge is a city wall built stone by stone. But what waits in the darkness beyond the walls? Why would we need a fortress, except that we had something to fear?",
             "description": "I have reordered the boundaries of my ignorance.",
             "effects": {
+                "influence": -99,
                 "reason": 1
             },
             "warmup": 60,
@@ -276,6 +286,7 @@
             "startdescription": "I will grow wiser yet.",
             "description": "My mind is a paradise of mirrors, in which all things are clear, even those things I might prefer not to see.",
             "effects": {
+                "influence": -99,
                 "reason": 1
             },
             "warmup": 60,
@@ -294,6 +305,7 @@
             "startdescription": "I will follow in the footsteps of the Watchman.",
             "description": "The higher I rise, the more I see.",
             "effects": {
+                "influence": -99,
                 "reason": 1,
                 "skillreasonc": -1,
                 "skillreasond_illumination": 1
@@ -314,6 +326,7 @@
             "startdescription": "I will listen for the voice of the Madrugad.",
             "description": "Stillness is the virtue.",
             "effects": {
+                "influence": -99,
                 "reason": 1,
                 "skillreasonc": -1,
                 "skillreasond_concentration": 1
@@ -334,6 +347,7 @@
             "startdescription": "I will cross the threshold where the Horned-Axe waits.",
             "description": "The higher I rise, the more I see.",
             "effects": {
+                "influence": -99,
                 "reason": 1,
                 "skillreasonc": -1,
                 "skillreasond_illumination": 1
@@ -354,6 +368,7 @@
             "startdescription": "No-one remembers all the Histories; in consequence, no-one can forget them all.",
             "description": "Stillness is the virtue.",
             "effects": {
+                "influence": -99,
                 "reason": 1,
                 "skillreasonc": -1,
                 "skillreasond_concentration": 1
@@ -374,6 +389,7 @@
             "startdescription": "I will remake myself, to illuminate the night of ignorance.",
             "description": "The higher I rise, the more I see.",
             "effects": {
+                "influence": -99,
                 "reason": 1,
                 "skillreasonc": -1,
                 "skillreasond_illumination": 1
@@ -394,6 +410,7 @@
             "startdescription": "I will be relentless; I will not be denied.",
             "description": "Stillness is the virtue.",
             "effects": {
+                "influence": -99,
                 "reason": 1,
                 "skillreasonc": -1,
                 "skillreasond_concentration": 1
@@ -447,7 +464,8 @@
             "startdescription": "'The tigers of wrath are wiser than the horses of instruction.' In this season of unheralded impulse, I could work towards increasing my Passion. [If you add appropriate Lore, this will allow you to create a more powerful occult Influence instead.]",
             "description": "There are more windows in my soul; but sunlight is not the only thing that passes through a window. [Use this Lesson Learnt with your Imagination skill.]",
             "effects": {
-                "influence": -2,
+                "glimmering": -1,
+                "influencemoth": -1,
                 "glimmeringplus": 1
             },
             "warmup": 60,
@@ -467,6 +485,7 @@
             "startdescription": "'Who desires but acts not, breeds pestilence.'",
             "description": "My desires grow in number. It may be that they will always outpace my actions.",
             "effects": {
+                "influence": -99,
                 "passion": 1
             },
             "warmup": 60,
@@ -486,6 +505,7 @@
             "startdescription": "'Sooner murder an infant in its cradle than nurse unacted desires.'",
             "description": "In another time, I would have been a seer, or a heretic.",
             "effects": {
+                "influence": -99,
                 "passion": 1
             },
             "warmup": 60,
@@ -504,6 +524,7 @@
             "startdescription": "cut my hair, cut my bonds, cut my snip snip snip.",
             "description": "Bring me your answers, and I shall defeat them with my questions...",
             "effects": {
+                "influence": -99,
                 "passion": 1,
                 "skillpassionc": -1,
                 "skillpassiond_unreason": 1
@@ -524,6 +545,7 @@
             "startdescription": "The Thunderskin promised: we do not cease, that are not ceased.",
             "description": "Bring me your answers, and I shall defeat them with my questions...",
             "effects": {
+                "influence": -99,
                 "passion": 1,
                 "skillpassionc": -1,
                 "skillpassiond_unreason": 1
@@ -544,6 +566,7 @@
             "startdescription": "'The apple tree never asks the beech how he shall grow, nor the lion, the horse, how he shall take his prey.'",
             "description": "And now my soul lies ready.",
             "effects": {
+                "influence": -99,
                 "passion": 1,
                 "skillpassionc": -1,
                 "skillpassiond_folly": 1
@@ -564,6 +587,7 @@
             "startdescription": "'Who desires but acts not, breeds pestilence.'",
             "description": "And now my soul lies ready.",
             "effects": {
+                "influence": -99,
                 "passion": 1,
                 "skillpassionc": -1,
                 "skillpassiond_folly": 1

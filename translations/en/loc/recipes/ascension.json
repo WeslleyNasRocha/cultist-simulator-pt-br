@@ -154,7 +154,6 @@
             "id": "minorforgevictory_overture",
             "label": "The Conflagration of the Heart",
             "actionid": "work",
-            "description": "I am becoming a name of fire. Remember that the ending text will contain the payload.",
             "warmup": 60,
             "slots": [
                 {
@@ -785,7 +784,7 @@
             "startdescription": "Perhaps they love me. Perhaps I love them. Perhaps none of that matters.",
             "actionid": "work",
             "craftable": false,
-            "alt": [
+            "linked": [
                 {
                     "id": "minorlanternvictory",
                     "chance": 100

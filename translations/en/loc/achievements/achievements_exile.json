@@ -1,0 +1,113 @@
+{
+    "achievements": [
+        {
+            "id": "A_ENDING_FOECAUGHTUP",
+            "category": "A_CATEGORY_EXILE",
+            "iconUnlocked": "year.stolen",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Call It A Christmas Present",
+            "descriptionunlocked": "I don't think it really qualifies as a cadaver, so much as a souvenir."
+        },
+
+        {
+            "id": "A_ENDING_OBSCURITYVICTORYA",
+            "category": "A_CATEGORY_EXILE",
+            "iconUnlocked": "dayplaces",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "The Other Side of the World",
+            "descriptionunlocked": "I couldn't risk them picking up the trail again."
+        },
+
+        {
+            "id": "A_ENDING_OBSCURITYVICTORYB",
+            "category": "A_CATEGORY_EXILE",
+            "iconUnlocked": "vaultshiresdefault",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "The Sweet Bones",
+            "descriptionunlocked": "NO RECKONERS, NO EXCEPTIONS."
+        },
+
+        {
+            "id": "A_ENDING_OBSCURITYVICTORYC",
+            "category": "A_CATEGORY_EXILE",
+            "iconUnlocked": "vaultlandbeyondforest2",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Velvet House",
+            "descriptionunlocked": "I've been poor, I've been rich, and I've learnt that I'd rather be rich."
+        },
+
+        {
+            "id": "A_ENDING_OBSCURITYVICTORYA_FOESLAIN",
+            "category": "A_CATEGORY_EXILE",
+            "iconUnlocked": "generichq",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Only the Best",
+            "descriptionunlocked": "'I have one very specific recommendation for the contract...'"
+        },
+
+        {
+            "id": "A_ENDING_OBSCURITYVICTORYB_FOESLAIN",
+            "category": "A_CATEGORY_EXILE",
+            "iconUnlocked": "vaultcontinent4",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Employment Opportunities",
+            "descriptionunlocked": "Somehow I can't stop thinking about it..."
+        },
+
+        {
+            "id": "A_ENDING_OBSCURITYVICTORYC_FOESLAIN",
+            "category": "A_CATEGORY_EXILE",
+            "iconUnlocked": "hunger",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Keep the Sunset Company",
+            "descriptionunlocked": "There's a lot of the world, and it's not all mapped yet."
+        },
+
+        {
+            "id": "A_ENDING_COLONEL",
+            "category": "A_CATEGORY_EXILE",
+            "iconUnlocked": "loc.shrine.colonel",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Eternity's Sustention",
+            "descriptionunlocked": "The Corrivality is the world's engine."
+        },
+
+        {
+            "id": "A_ENDING_LIONSMITH",
+            "category": "A_CATEGORY_EXILE",
+            "iconUnlocked": "loc.shrine.lionsmith",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Too Much Fun",
+            "descriptionunlocked": "The opposite of battle is death."
+        },
+
+        {
+            "id": "A_ENDING_WOLF",
+            "category": "A_CATEGORY_EXILE",
+            "iconUnlocked": "temptation.defiance",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Fire's Final Function",
+            "descriptionunlocked": "The Wolf and all the wandering flames will feast."
+        },
+
+        {
+            "id": "A_ENDING_VELVET",
+            "category": "A_CATEGORY_EXILE",
+            "iconUnlocked": "christopher",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Kinship",
+            "descriptionunlocked": "Any student of Histories knows: as within, so without. One way or another."
+        }
+    ]
+}

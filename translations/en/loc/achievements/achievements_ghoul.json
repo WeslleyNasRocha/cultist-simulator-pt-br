@@ -1,0 +1,24 @@
+{
+    "achievements": [
+        {
+            "id": "A_ENDING_MINORWINTERVICTORY",
+            "category": "A_CATEGORY_GHOUL",
+            "iconUnlocked": "dedication.remembrance",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Nothing Must Be Forgotten",
+            "descriptionunlocked": "I carry the colours of lost Hours with me like a coal of rosy fire."
+        },
+
+        {
+            "id": "A_ENDING_MINORCROWNEDGROWTHVICTORY",
+            "category": "A_CATEGORY_GHOUL",
+            "iconUnlocked": "malign",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "isHidden": true,
+            "label": "All The Infections That The Sun Sucks Up",
+            "descriptionunlocked": "I have taken the seeds of the Crowned Growth into me."
+        }
+    ]
+}

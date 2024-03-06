@@ -84,7 +84,7 @@
             "id": "travel.first",
             "actionid": "travel",
             "label": "Far Enough and Fast Enough ",
-            "startdescription": "I have more than enough cash for the journey - but I might need to travel light. [Leaving a city will shake off your pursuers - but they'll find you again eventually.",
+            "startdescription": "I have more than enough cash for the journey - but I might need to travel light. [Leaving a city will shake off your pursuers - but they'll find you again eventually.]",
             "effects": {
                 "cash": 2
             },
@@ -1953,9 +1953,6 @@
             "requirements": {
                 "destination": 1
             },
-            "deleteverb": {
-                "rkx*": 100
-            },
             "haltverb": {
                 "opx*": 100,
                 "scout": 1,
@@ -1963,7 +1960,23 @@
                 "send": 1,
                 "relinquish": 1,
                 "spawn.*": 100,
+                "rkx*": 100,
                 "spit.*": 100
+            },
+            "warmup": 10,
+            "burnimage": "departure",
+            "linked": [
+                {
+                    "id": "travel.depart.purge"
+                }
+            ],
+            "comments": "splitting halts and the purges between this and travel.depart.purge. this way all verbs of importance are guaranteed to be in a halted state when purges come, and a) their content is reachable for purges b) verbs themselves won't pull anything unexpected the same frame they are deleted"
+        },
+        {
+            "id": "travel.depart.purge",
+            "actionid": "travel",
+            "deleteverb": {
+                "rkx*": 100
             },
             "purge": {
                 "trace": 100,
@@ -1983,8 +1996,6 @@
                     "additional": true
                 }
             ],
-            "warmup": 10,
-            "burnimage": "departure",
             "linked": [
                 {
                     "id": "travel.enroute"

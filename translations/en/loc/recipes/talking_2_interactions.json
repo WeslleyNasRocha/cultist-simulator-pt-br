@@ -354,11 +354,10 @@
                 "compensationc": 1,
                 "poppyready": -1
             },
-            "alt": [
+            "inductions": [
                 {
                     "id": "poppytimebomb",
-                    "chance": 100,
-                    "additional": true
+                    "chance": 100
                 }
             ]
         },

@@ -810,12 +810,6 @@
             "isAspect": true
         },
         {
-            "id": "exhausted",
-            "label": "Exhausted",
-            "description": "With a little time, this will recover.",
-            "isAspect": true
-        },
-        {
             "id": "deception",
             "label": "Assists Deception",
             "description": "'There is nothing more deceptive than an obvious fact.' - Arthur Conan Doyle.  [Anything with this aspect can be used to defeat Traces.]",
@@ -2242,16 +2236,6 @@
             "lifetime": 1
         },
         {
-            "id": "husk",
-            "label": "Husk",
-            "aspects": {
-                "exhausted": 1
-            },
-            "description": "Something's been used up.",
-            "icon": "jumble",
-            "lifetime": 1
-        },
-        {
             "id": "_vault.exile",
             "label": "_vault.exile",
             "aspects": {
@@ -2965,7 +2949,7 @@
             "id": "contact.retainer",
             "label": "Last Antaean Initiate",
             "comments": "no killmortal trigger because we want him permanently on the board.",
-            "description": "An elderly man in a beaded skullcap, with deeply seamed cheeks, a whitening stubbled beard{} and old sorrow in his eyes.",
+            "description": "An elderly man in a beaded skullcap, with deeply seamed cheeks, a whitening stubbled beard and old sorrow in his eyes.",
             "xtriggers": {
                 "fatiguing": "contact.retainer.exhausted",
                 "mortal.introduce": [
@@ -6010,7 +5994,7 @@
                 ],
                 "striking.foe.weapon": [
                     {
-                        "id": "wound.foe",
+                        "id": "wound.foe.unstanchable",
                         "morpheffect": "spawn"
                     }
                 ],
@@ -8839,7 +8823,7 @@
                     },
                     "forbidden": {
                         "domicile.wilderness": 1,
-                        "weapon.profane": 1
+                        "uq.weapon.profane": 1
                     },
                     "actionid": "send"
                 }

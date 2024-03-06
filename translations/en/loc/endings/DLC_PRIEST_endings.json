@@ -7,7 +7,7 @@
             "image": "motherofants",
             "flavour": "Grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_MINORKNOCKVICTORY"
+            "achievements": ["A_ENDING_MINORKNOCKVICTORY"]
         },
         {
             "id": "minormarevictory",
@@ -16,7 +16,7 @@
             "image": "mareinthetree",
             "flavour": "Grand",
             "anim": "DramaticLightEvil",
-            "achievement": "A_ENDING_MINORMAREVICTORY"
+            "achievements": ["A_ENDING_MINORMAREVICTORY"]
         }
     ]
 }

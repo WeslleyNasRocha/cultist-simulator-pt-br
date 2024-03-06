@@ -7,7 +7,7 @@
             "image": "vaultfloating1",
             "flavour": "melancholy",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_OBSCURITYVICTORYA"
+            "achievements": ["A_ENDING_OBSCURITYVICTORYA"]
         },
         {
             "id": "obscurityvictoryb",
@@ -16,7 +16,7 @@
             "image": "vaultshiresdefault",
             "flavour": "melancholy",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_OBSCURITYVICTORYB"
+            "achievements": ["A_ENDING_OBSCURITYVICTORYB"]
         },
         {
             "id": "obscurityvictoryc",
@@ -25,7 +25,7 @@
             "image": "moonlitcastle",
             "flavour": "grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_OBSCURITYVICTORYC"
+            "achievements": ["A_ENDING_OBSCURITYVICTORYC"]
         },
         {
             "id": "obscurityvictoryafoeslain",
@@ -34,7 +34,7 @@
             "image": "generichq",
             "flavour": "melancholy",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_OBSCURITYVICTORYA_FOESLAIN"
+            "achievements": ["A_ENDING_OBSCURITYVICTORYA_FOESLAIN"]
         },
         {
             "id": "obscurityvictorybfoeslain",
@@ -43,7 +43,7 @@
             "image": "finehouse",
             "flavour": "melancholy",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_OBSCURITYVICTORYB_FOESLAIN"
+            "achievements": ["A_ENDING_OBSCURITYVICTORYB_FOESLAIN"]
         },
         {
             "id": "obscurityvictorycfoeslain",
@@ -52,7 +52,7 @@
             "image": "moonlitcastle",
             "flavour": "grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_OBSCURITYVICTORYC_FOESLAIN"
+            "achievements": ["A_ENDING_OBSCURITYVICTORYC_FOESLAIN"]
         },
         {
             "id": "foecaughtup",
@@ -61,7 +61,7 @@
             "image": "madrugad",
             "flavour": "melancholy",
             "anim": "DramaticLightEvil",
-            "achievement": "A_ENDING_FOECAUGHTUP"
+            "achievements": ["A_ENDING_FOECAUGHTUP"]
         },
         {
             "id": "ascensioncolonel",
@@ -70,7 +70,7 @@
             "image": "colonel",
             "flavour": "grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_COLONEL"
+            "achievements": ["A_ENDING_COLONEL"]
         },
         {
             "id": "ascensionlionsmith",
@@ -79,7 +79,7 @@
             "image": "lionsmith",
             "flavour": "grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_LIONSMITH"
+            "achievements": ["A_ENDING_LIONSMITH"]
         },
         {
             "id": "ascensionwolf",
@@ -88,7 +88,7 @@
             "image": "wolfdivided",
             "flavour": "grand",
             "anim": "DramaticLightEvil",
-            "achievement": "A_ENDING_WOLF"
+            "achievements": ["A_ENDING_WOLF"]
         },
         {
             "id": "victoryvelvet",
@@ -97,7 +97,7 @@
             "image": "velvet",
             "flavour": "grand",
             "anim": "DramaticLightCool",
-            "achievement": "A_ENDING_VELVET"
+            "achievements": ["A_ENDING_VELVET"]
         }
     ]
 }

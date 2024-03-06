@@ -1,0 +1,75 @@
+{
+    "achievements": [
+        {
+            "id": "A_ENDING_WORKVICTORYMARRIAGE",
+            "category": "A_CATEGORY_DANCER",
+            "iconUnlocked": "connection.official",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Ever After: Me",
+            "descriptionunlocked": "I am a successful trophy."
+        },
+
+        {
+            "id": "A_ENDING_MINORMOTHVICTORY",
+            "category": "A_CATEGORY_DANCER",
+            "iconUnlocked": "toolmothf",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "The Dodo and the Dragon",
+            "descriptionunlocked": "I have become something winged, dark and undying; something that no longer exists."
+        },
+
+        {
+            "id": "A_ENDING_MINORMOTHVICTORY_WITHRISEN",
+            "category": "A_CATEGORY_DANCER",
+            "iconUnlocked": "risen.moth",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "The Dodo and the Draugr",
+            "descriptionunlocked": "We have become something winged, dark and undying; something that no longer exists."
+        },
+
+        {
+            "id": "A_ENDING_MINORHEARTVICTORY",
+            "category": "A_CATEGORY_DANCER",
+            "iconUnlocked": "toolheartf",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "My Constancy Assured",
+            "descriptionunlocked": "I have joined the storm-chorus of the Thunderskin. Never shall I cease."
+        },
+
+        {
+            "id": "A_ENDING_MINORHEARTVICTORY_WITHRISEN",
+            "category": "A_CATEGORY_DANCER",
+            "iconUnlocked": "risen.heart",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Our Constancy Assured",
+            "descriptionunlocked": "We have joined the storm-chorus of the Thunderskin. Never shall we cease."
+        },
+
+        {
+            "id": "A_ENDING_MINORMENISCATEVICTORY",
+            "category": "A_CATEGORY_DANCER",
+            "iconUnlocked": "housemoon",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "isHidden": true,
+            "label": "The House of the Moon",
+            "descriptionunlocked": "The Meniscate favoured me."
+        },
+
+        {
+            "id": "A_ENDING_MINORMENISCATEVICTORY_WITHRISEN",
+            "category": "A_CATEGORY_DANCER",
+            "iconUnlocked": "risen.moon",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "isHidden": true,
+            "label": "The House of My Moon",
+            "descriptionunlocked": "The Meniscate favoured us."
+        }
+    ]
+}

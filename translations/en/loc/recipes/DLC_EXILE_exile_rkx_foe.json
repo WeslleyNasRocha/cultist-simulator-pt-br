@@ -207,8 +207,7 @@
             "label": "Laugh as the Lionsmith Laughed",
             "startdescription": "I could lampoon my Foe with a certain very ancient mocking gesture... leaving myself open to attack. Perhaps the Hour called Lionsmith would enjoy my audacity. [Suffer two Wounds but gain a level of Defiance.]",
             "requirements": {
-                "defiance.consecration.lionsmith": 1,
-                "defiance.foetaunted": -1
+                "defiance.consecration.lionsmith": 1
             },
             "mutations": [
                 {
@@ -708,7 +707,15 @@
                 "wound.foe": 1,
                 "grief": 1
             },
-            "warmup": 2
+            "warmup": 2,
+            "linked": [
+                { "id": "spit.foe.attack.failure.associate.killed.undo.wound" }
+            ]
+        },
+        {
+            "id": "spit.foe.attack.failure.associate.killed.undo.wound",
+            "extantreqs": { "damage.foe": 7 },
+            "effects": { "damage.foe": -1 }
         },
         {
             "id": "spit.foe.attack.failure.ligeian",

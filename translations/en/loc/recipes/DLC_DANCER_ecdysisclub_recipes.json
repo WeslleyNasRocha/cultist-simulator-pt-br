@@ -847,7 +847,7 @@
                     "expulsion": {
                         "limit": 1,
                         "filter": {
-                            "healthexhausted": 1
+                            "fatigue": 1
                         }
                     }
                 }

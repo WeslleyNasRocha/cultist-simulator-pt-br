@@ -1,0 +1,24 @@
+{
+    "achievements": [
+        {
+            "id": "A_ENDING_MINORKNOCKVICTORY",
+            "category": "A_CATEGORY_PRIEST",
+            "iconUnlocked": "guardian_serpent",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "label": "Unsealed and Unseamed",
+            "descriptionunlocked": "In the Fifth History alone, I will rise like a wave and hood myself to mark what I have become."
+        },
+
+        {
+            "id": "A_ENDING_MINORMAREVICTORY",
+            "category": "A_CATEGORY_PRIEST",
+            "iconUnlocked": "vaultcontinent3",
+            "singleDescription": true,
+            "validateOnStorefront": true,
+            "isHidden": true,
+            "label": "The Mare and Me",
+            "descriptionunlocked": "This is when I would have died, but my wounds were doors."
+        }
+    ]
+}
